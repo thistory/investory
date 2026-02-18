@@ -1,0 +1,191 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-02-18",
+  "currentPrice": 184.97,
+  "marketCap": "4.49T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터용 GPU와 AI 가속기로 전 세계 AI 인프라를 지배하는 반도체 기업",
+    "description": "NVIDIA는 1993년 설립된 미국의 반도체 설계 기업으로, 원래 게이밍용 그래픽 카드(GPU)로 유명했으나 현재는 AI 학습·추론용 데이터센터 가속기가 핵심 매출원입니다. 시가총액 약 4.49조 달러로 세계 최대 기업 중 하나이며, AI 혁명의 최대 수혜주로 평가받고 있습니다. 최근 FY2026 Q3 기준 분기 매출 570억 달러(전년비 62% 성장)를 기록했으며, 2026년 2월 25일 Q4 실적 발표를 앞두고 있습니다.",
+    "howTheyMakeMoney": [
+      "데이터센터 부문: AI 학습/추론용 GPU(H100, H200, Blackwell B200/GB200) 판매 — 전체 매출의 약 90% 차지",
+      "게이밍 부문: GeForce RTX 시리즈 GPU 판매",
+      "자동차 부문: 자율주행용 DRIVE 플랫폼 및 차량용 AI 칩",
+      "전문 시각화(ProViz): Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse 등 라이선스"
+    ],
+    "keyProducts": [
+      "Blackwell B200/GB200 — 최신 AI 가속기, '폭발적' 수요 중",
+      "H100/H200 Tensor Core GPU — 현재 AI 학습의 산업 표준",
+      "Rubin 아키텍처 — 2026년 말 출시 예정인 차세대 GPU",
+      "CUDA — GPU 병렬 컴퓨팅 소프트웨어 플랫폼",
+      "DGX/HGX 시스템 — 대규모 AI 학습용 턴키 서버 시스템",
+      "NVIDIA AI Enterprise — 기업용 AI 소프트웨어 스위트"
+    ]
+  },
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "45.78", "interpretation": "높은 편이지만 65%+ 매출 성장률을 감안하면 PEG 기준으로 합리적. AI 프리미엄이 반영된 수준" },
+    { "name": "Forward P/E", "value": "26.25", "interpretation": "향후 이익 성장을 반영하면 현재 P/E 대비 크게 할인. FY2027 EPS $7.87 전망 기반" },
+    { "name": "매출 성장률 (YoY, TTM)", "value": "65.2%", "interpretation": "FY2025 대비 TTM 매출이 65% 성장. 대형주 중 이례적인 고성장 지속" },
+    { "name": "영업이익률", "value": "58.84%", "interpretation": "소프트웨어 기업 수준의 놀라운 마진. AI GPU 독점적 지위에서 비롯된 가격 결정력" },
+    { "name": "순이익률", "value": "53.01%", "interpretation": "반도체 업종 최고 수준의 수익성" },
+    { "name": "FCF (TTM)", "value": "$77.32B (41.3%)", "interpretation": "연간 약 773억 달러의 잉여현금흐름. 막대한 현금 창출력으로 R&D 및 주주환원 여력 충분" },
+    { "name": "부채비율 (D/E)", "value": "0.09", "interpretation": "사실상 무차입 경영. 총부채 108억 vs 자본 1,189억 달러. 재무건전성 최상" },
+    { "name": "ROE (TTM)", "value": "107.36%", "interpretation": "투자된 자본 대비 압도적 수익률. 자본 효율성이 매우 높음" },
+    { "name": "EPS (TTM)", "value": "$4.04", "interpretation": "전년($2.94) 대비 37% 성장. FY2027 전망 $7.87로 추가 95% 성장 예상" }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Blackwell 아키텍처 본격 출하",
+      "description": "Blackwell B200/GB200 GPU가 FY2026 하반기부터 본격 출하 중이며, Q4 매출 가이던스 $650억의 상당 부분을 차지할 전망입니다. Jensen Huang CEO는 수요를 '폭발적(extraordinary)'이라 표현했으며, 주요 클라우드 고객(Microsoft, Google, Amazon, Meta)이 대규모 주문을 진행 중입니다."
+    },
+    {
+      "title": "AI 인프라 투자 확대 (하이퍼스케일러 Capex)",
+      "description": "주요 빅테크 기업들의 AI 인프라 투자가 2026년에도 지속 확대되고 있습니다. FY2027 매출 전망치 $3,358억은 전년 대비 55% 성장을 의미하며, 이는 대부분 데이터센터 GPU 수요에 기반합니다."
+    },
+    {
+      "title": "Rubin 아키텍처 출시 (2026년 말)",
+      "description": "차세대 Rubin 아키텍처가 2026년 말 출시 예정으로, 새로운 업그레이드 사이클을 촉발할 것으로 예상됩니다. 매년 새로운 GPU 아키텍처를 출시하는 '1년 주기 로드맵'이 경쟁사 대비 빠른 혁신 속도를 유지합니다."
+    },
+    {
+      "title": "AI 추론(Inference) 시장 확대",
+      "description": "DeepSeek 등 효율적 AI 모델의 등장으로 AI 추론 수요가 폭발적으로 증가하고 있습니다. Jensen Huang은 DeepSeek이 '전 세계적 AI 열정을 촉발했다'고 평가했으며, 추론 최적화된 Blackwell 칩이 이 수요를 직접 흡수합니다."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "NVIDIA는 CUDA 소프트웨어 생태계, 압도적 기술 리드, 그리고 AI 가속기 시장의 80%+ 점유율로 거의 독점적 위치를 유지하고 있습니다.",
+    "moats": [
+      {
+        "type": "소프트웨어 생태계 (전환비용)",
+        "description": "CUDA는 15년+ 역사의 GPU 컴퓨팅 플랫폼으로, 수백만 개발자와 수천 개의 AI 프레임워크가 CUDA에 최적화되어 있습니다. 경쟁사로 전환하려면 막대한 코드 재작성 비용이 발생합니다."
+      },
+      {
+        "type": "기술적 리더십",
+        "description": "매년 새로운 아키텍처를 출시하며 성능/전력효율에서 경쟁사 대비 1-2세대 앞서고 있습니다. Blackwell은 전작 대비 추론 성능 30배 향상."
+      },
+      {
+        "type": "네트워크 효과",
+        "description": "NVIDIA GPU가 표준이 되면서 AI 연구 논문, 벤치마크, 최적화 라이브러리 대부분이 NVIDIA 기반으로 작성됩니다. 개발자가 많을수록 생태계가 강화되는 선순환."
+      },
+      {
+        "type": "규모의 경제",
+        "description": "시장 1위의 대량 생산으로 TSMC와의 첨단 공정(CoWoS 패키징) 확보에서 경쟁사 대비 유리한 위치."
+      }
+    ],
+    "competitors": [
+      { "name": "AMD", "detail": "MI300X/MI350 시리즈로 데이터센터 AI 가속기 시장 도전 중. 가격 경쟁력은 있으나 소프트웨어 생태계(ROCm)가 CUDA에 크게 뒤처짐." },
+      { "name": "Intel", "detail": "Gaudi 3 AI 가속기를 출시했으나 시장 점유율 미미. 파운드리 사업 어려움으로 AI 칩 분야 경쟁력 제한적." },
+      { "name": "자체 설계 칩 (Google TPU, Amazon Trainium, Microsoft Maia)", "detail": "빅테크 기업들이 자체 AI 칩을 개발 중이나, 범용성과 생태계에서 NVIDIA를 대체하기 어려움. 보완재 성격이 강함." },
+      { "name": "Broadcom / Marvell", "detail": "커스텀 AI 칩(ASIC) 설계로 특정 하이퍼스케일러 수요 흡수. NVIDIA의 범용 GPU와는 다른 시장이지만 장기적 위협 요인." }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-17",
+      "headline": "Nvidia 2월 25일 Q4 FY2026 실적 발표 예정 — 분석가들 '더블 비트(double-beat)' 예상",
+      "significance": "Q4 매출 가이던스 $650억 대비 초과 달성이 예상됨. Seeking Alpha는 매출·EPS 모두 컨센서스를 상회할 것으로 전망. 실적 발표가 단기 주가의 핵심 촉매.",
+      "url": "https://seekingalpha.com/article/4870798-nvidia-should-double-beat-again-earnings-preview"
+    },
+    {
+      "date": "2026-02-16",
+      "headline": "Rubin 아키텍처 전환 분석 — 2026년 말 출시 예정으로 새로운 업그레이드 사이클 기대",
+      "significance": "차세대 Rubin GPU 출시가 2026년 말로 예상되며, Blackwell → Rubin 전환이 새로운 성장 동력. 1년 주기 아키텍처 갱신 전략 확인.",
+      "url": "https://markets.financialcontent.com/wral/article/finterra-2026-2-16-nvidia-nvda-at-the-crossroads-analyzing-the-22-pullback-and-the-path-to-rubin-architecture"
+    },
+    {
+      "date": "2026-02-15",
+      "headline": "Motley Fool: 'Nvidia 주가, 2월 25일 이후 급등 가능성' — Q4 블로우아웃 실적 전망",
+      "significance": "FY2026 첫 9개월 실적이 전년 대비 50% 성장. Q4도 이 추세를 이어갈 것이라는 낙관론.",
+      "url": "https://www.fool.com/investing/2026/02/15/the-clock-is-ticking-nvidia-stock-is-set-to-soar-a/"
+    },
+    {
+      "date": "2026-01-16",
+      "headline": "Jefferies, NVDA 목표가 $250→$275 상향 — 'Strong Buy' 유지",
+      "significance": "주요 투자은행이 실적 발표 전 목표가를 상향 조정. Blackwell 수요 강세와 FY2027 전망에 대한 자신감 반영.",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "date": "2026-01-14",
+      "headline": "CNBC: 'Nvidia 주가에 무슨 일이?' — 212달러 고점 대비 조정 국면 분석",
+      "significance": "고점 대비 약 13% 조정 후 횡보 중. AI 이외 산업(자동차, 헬스케어)으로의 고객 다변화가 주가 반등의 핵심 촉매가 될 수 있다는 분석.",
+      "url": "https://www.cnbc.com/2026/01/14/nvidia-shares-are-struggling-how-the-ai-juggernaut-can-can-break-its-funk.html"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 255.82,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 38.3,
+    "buyCount": 37,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "39명 중 37명(95%)이 매수 의견. Jefferies와 Mizuho는 최근 목표가를 $275로 상향. 컨센서스 목표가 $255.82는 현재가 대비 38% 상승 여력을 시사하며, MarketBeat 기준 평균 $264.20으로 더 높은 전망도 존재."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "밸류에이션 부담 및 높은 기대치",
+      "description": "P/E 45배, 시총 4.5조 달러는 이미 '완벽한 실행'을 가정한 가격입니다. Q4 실적이 기대에 조금이라도 미치지 못하면 큰 폭의 주가 하락 가능성. 2025년 1월 DeepSeek 쇼크 때 하루에 17% 급락한 전례가 있습니다."
+    },
+    {
+      "severity": "high",
+      "title": "미·중 무역 규제 및 수출 통제",
+      "description": "미국 정부의 대중국 AI 칩 수출 규제가 지속 강화되고 있습니다. 중국은 NVIDIA의 주요 시장이었으나 H100/H200 수출이 제한되어 매출 타격. 추가 규제 시 글로벌 매출의 상당 부분에 영향."
+    },
+    {
+      "severity": "high",
+      "title": "고객 집중도 및 자체칩 개발 리스크",
+      "description": "매출의 상당 부분이 소수 하이퍼스케일러(Microsoft, Google, Amazon, Meta)에 집중되어 있으며, 이들이 자체 AI 칩(TPU, Trainium, Maia)을 개발·확대하면 장기적으로 NVIDIA 의존도를 줄일 수 있습니다."
+    },
+    {
+      "severity": "medium",
+      "title": "AI 투자 사이클 둔화 가능성",
+      "description": "현재의 AI 인프라 투자 붐이 영원히 지속되기는 어렵습니다. AI 기업들의 수익화가 투자 속도를 따라잡지 못하면 Capex 감소 사이클이 올 수 있으며, 이는 NVIDIA 매출에 직접적 영향."
+    },
+    {
+      "severity": "medium",
+      "title": "AMD 및 경쟁 심화",
+      "description": "AMD MI350 등 경쟁 제품의 성능이 향상되고 있으며, 가격 대비 성능에서 일부 워크로드에 경쟁력을 갖추기 시작. 장기적으로 NVIDIA의 마진 압박 요인이 될 수 있습니다."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "AI 시대의 독보적 수혜주",
+      "rationale": "AI 학습·추론 인프라 시장에서 80%+ 점유율을 가진 사실상의 독점 기업입니다. CUDA 생태계와 매년 새로운 아키텍처 출시로 경쟁사 대비 1-2세대 기술 우위를 유지합니다. AI 산업이 성장하는 한 NVIDIA가 가장 직접적으로 수혜를 받습니다."
+    },
+    {
+      "title": "Forward P/E 26배는 성장률 대비 합리적",
+      "rationale": "FY2027 컨센서스 EPS $7.87 기준 Forward P/E는 약 23배 수준입니다. 매출 55% 성장이 예상되는 기업치고는 매우 합리적인 밸류에이션이며, PEG 비율은 0.5 미만으로 성장주 기준 저평가 영역입니다."
+    },
+    {
+      "title": "2월 25일 Q4 실적 발표가 강력한 촉매",
+      "rationale": "Q4 매출 가이던스 $650억 대비 상회가 예상되며, Blackwell 출하 본격화 소식과 FY2027 가이던스 제시가 주가 상승 촉매가 될 전망입니다. 고점($212) 대비 13% 할인된 현재 가격은 실적 발표 전 매수 기회로 볼 수 있습니다."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 78.3,
+    "sma50": 183.5,
+    "sma50Signal": "above",
+    "sma200": 180.4,
+    "sma200Signal": "above",
+    "rsi": 55,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "NVIDIA는 AI 시대의 핵심 인프라 기업으로서 독보적 경쟁력을 보유하고 있으며, 65%+ 매출 성장과 59% 영업이익률이라는 경이적 실적을 지속하고 있습니다. Forward P/E 26배는 성장률 대비 합리적이며, 2월 25일 Q4 실적 발표가 단기 촉매입니다. 다만 시총 4.5조 달러에 이미 높은 기대가 반영되어 있어, 기대치 미달 시 변동성이 클 수 있습니다. 장기 투자자에게 AI 섹터 핵심 보유 종목으로 적합하나, 실적 발표 전후 변동성에 유의가 필요합니다. 종합 의견: 매수(Strong Buy).",
+  "sources": [
+    { "name": "Stock Analysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA 주가, 시가총액, 주요 재무지표, 애널리스트 컨센서스 데이터" },
+    { "name": "Stock Analysis - Financials", "url": "https://stockanalysis.com/stocks/nvda/financials/", "description": "NVDA 손익계산서, 매출 성장률, 영업이익률, EPS 등 상세 재무제표" },
+    { "name": "Stock Analysis - Balance Sheet", "url": "https://stockanalysis.com/stocks/nvda/financials/balance-sheet/", "description": "NVDA 대차대조표, 부채비율, 현금 보유액 데이터" },
+    { "name": "Stock Analysis - Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "39명 애널리스트 컨센서스, 목표가, 매수/보유/매도 분포" },
+    { "name": "AltIndex", "url": "https://altindex.com/ticker/nvda/technical-analysis", "description": "NVDA 기술적 분석 — 50일/200일 이동평균선, RSI 등" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/nvda/technical-analysis", "description": "NVDA RSI(14) 55.16, 기술적 지표 종합 분석" },
+    { "name": "GuruFocus", "url": "https://www.gurufocus.com/term/roe/NVDA", "description": "NVDA ROE 116.55% 데이터" },
+    { "name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/debt-equity-ratio", "description": "NVDA 부채/자본비율 역사적 데이터 (D/E 0.06)" },
+    { "name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4870798-nvidia-should-double-beat-again-earnings-preview", "description": "NVDA Q4 FY2026 실적 프리뷰 — 더블 비트 전망" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/01/14/nvidia-shares-are-struggling-how-the-ai-juggernaut-can-can-break-its-funk.html", "description": "NVDA 주가 횡보 분석 및 반등 촉매 요인" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/02/15/the-clock-is-ticking-nvidia-stock-is-set-to-soar-a/", "description": "Q4 실적 발표 전망 및 블로우아웃 실적 예상" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA 컨센서스 목표가 $264.20" }
+  ]
+}

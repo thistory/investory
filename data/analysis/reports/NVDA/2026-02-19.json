@@ -1,0 +1,182 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-02-19",
+  "currentPrice": 187.27,
+  "marketCap": "$4.55T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터용 GPU와 AI 가속기로 전 세계 AI 인프라를 지배하는 반도체 기업",
+    "description": "NVIDIA는 AI 학습·추론용 데이터센터 가속기가 핵심 매출원인 세계 최대 반도체 설계 기업입니다. 시가총액 약 4.55조 달러로 세계 최대 기업 중 하나이며, 2/25 Q4 FY2026 실적 발표를 1주 앞두고 있습니다. 오늘 Meta와의 대규모 멀티이어 AI 인프라 파트너십을 발표하며 주가가 2.4% 상승했습니다.",
+    "howTheyMakeMoney": [
+      "데이터센터 부문: AI 학습/추론용 GPU(H100, H200, Blackwell B200/GB200) 판매 — 전체 매출의 약 90%",
+      "게이밍 부문: GeForce RTX 시리즈 GPU 판매",
+      "자동차 부문: 자율주행용 DRIVE 플랫폼 및 차량용 AI 칩",
+      "전문 시각화(ProViz): Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse 라이선스"
+    ],
+    "keyProducts": [
+      "Blackwell B200/GB200 — 최신 AI 가속기, 폭발적 수요",
+      "H100/H200 Tensor Core GPU — 현재 AI 학습의 산업 표준",
+      "Rubin 아키텍처 — 2026년 말 출시 예정인 차세대 GPU",
+      "CUDA — GPU 병렬 컴퓨팅 소프트웨어 플랫폼",
+      "DGX/HGX 시스템 — 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "45.78", "interpretation": "높은 편이지만 65%+ 매출 성장률을 감안하면 PEG 기준 합리적" },
+    { "name": "Forward P/E", "value": "26.25", "interpretation": "FY2027 EPS $7.87 전망 기반. 성장률 대비 합리적 수준" },
+    { "name": "매출 성장률 (YoY, TTM)", "value": "65.2%", "interpretation": "대형주 중 이례적인 고성장 지속" },
+    { "name": "영업이익률", "value": "58.84%", "interpretation": "소프트웨어 기업 수준의 놀라운 마진. AI GPU 독점 가격 결정력" },
+    { "name": "FCF (TTM)", "value": "$77.32B (41.3%)", "interpretation": "연간 약 773억 달러 잉여현금흐름. 막대한 현금 창출력" },
+    { "name": "부채비율 (D/E)", "value": "0.09", "interpretation": "사실상 무차입 경영. 재무건전성 최상" },
+    { "name": "ROE (TTM)", "value": "107.36%", "interpretation": "투자 자본 대비 압도적 수익률" }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Meta와 대규모 멀티이어 AI 인프라 파트너십 발표",
+      "description": "2/18 Meta와 멀티이어, 멀티제너레이션 전략적 파트너십을 발표했습니다. Meta의 AI 최적화 데이터센터에 NVIDIA가 기술을 공급하며, 수백만 대의 추가 AI 칩 공급이 예상됩니다. AMD 주가는 이 소식에 2.5% 하락했습니다."
+    },
+    {
+      "title": "2/25 Q4 FY2026 실적 발표 — '더블 비트' 기대",
+      "description": "Q4 매출 가이던스 $650억 대비 초과 달성이 예상됩니다. Seeking Alpha는 매출·EPS 모두 컨센서스를 상회할 것으로 전망. Blackwell 출하 본격화 소식과 FY2027 가이던스가 핵심."
+    },
+    {
+      "title": "Blackwell 아키텍처 본격 출하",
+      "description": "B200/GB200 GPU가 FY2026 하반기부터 본격 출하 중. 수요를 '폭발적'이라 표현. 주요 클라우드 고객이 대규모 주문 진행 중."
+    },
+    {
+      "title": "Rubin 아키텍처 출시 (2026년 말)",
+      "description": "차세대 Rubin 아키텍처가 2026년 말 출시 예정. 새로운 업그레이드 사이클 촉발 전망."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계, 압도적 기술 리드, AI 가속기 시장 80%+ 점유율로 거의 독점적 위치.",
+    "moats": [
+      {
+        "type": "소프트웨어 생태계 (전환비용)",
+        "description": "CUDA는 15년+ 역사의 GPU 컴퓨팅 플랫폼. 수백만 개발자와 수천 개 AI 프레임워크가 최적화."
+      },
+      {
+        "type": "기술적 리더십",
+        "description": "매년 새로운 아키텍처 출시. 성능/전력효율에서 경쟁사 대비 1-2세대 앞서 있음."
+      },
+      {
+        "type": "네트워크 효과",
+        "description": "AI 연구 논문, 벤치마크, 라이브러리 대부분이 NVIDIA 기반. 개발자↔생태계 선순환."
+      }
+    ],
+    "competitors": [
+      { "name": "AMD", "detail": "MI300X/MI350으로 도전 중. Meta 파트너십 발표 후 주가 -2.5%. 소프트웨어 생태계 열세." },
+      { "name": "Intel", "detail": "Gaudi 3 출시했으나 점유율 미미." },
+      { "name": "자체 설계 칩 (Google TPU, Amazon Trainium, Microsoft Maia)", "detail": "빅테크 자체칩 개발 중이나 범용성에서 NVIDIA 대체 어려움." },
+      { "name": "Broadcom / Marvell", "detail": "커스텀 ASIC으로 특정 수요 흡수." }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-18",
+      "headline": "Meta와 대규모 멀티이어 AI 인프라 파트너십 발표 — 주가 2.4% 상승",
+      "significance": "수백만 대 추가 AI 칩 공급 계약. AMD에는 타격. NVIDIA의 하이퍼스케일러 독점 지위 재확인.",
+      "url": "https://about.fb.com/news/2026/02/meta-nvidia-announce-long-term-infrastructure-partnership/"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Seeking Alpha: '2/25 실적에서 더블 비트 예상' — 매출·EPS 모두 컨센서스 상회 전망",
+      "significance": "Q4 가이던스 $650억 대비 초과 달성 기대. Blackwell 출하 규모와 FY2027 가이던스가 핵심.",
+      "url": "https://seekingalpha.com/article/4870798-nvidia-should-double-beat-again-earnings-preview"
+    },
+    {
+      "date": "2026-02-16",
+      "headline": "Rubin 아키텍처 전환 분석 — 2026년 말 출시 예정으로 새 업그레이드 사이클 기대",
+      "significance": "Blackwell → Rubin 전환이 새로운 성장 동력. 1년 주기 아키텍처 갱신 전략.",
+      "url": "https://markets.financialcontent.com/wral/article/finterra-2026-2-16-nvidia-nvda-at-the-crossroads-analyzing-the-22-pullback-and-the-path-to-rubin-architecture"
+    },
+    {
+      "date": "2026-02-15",
+      "headline": "Motley Fool: 'NVDA 주가, 2/25 이후 급등 가능성'",
+      "significance": "FY2026 첫 9개월 실적 전년 대비 50% 성장. Q4도 추세 지속 낙관론.",
+      "url": "https://www.fool.com/investing/2026/02/15/the-clock-is-ticking-nvidia-stock-is-set-to-soar-a/"
+    },
+    {
+      "date": "2026-01-16",
+      "headline": "Jefferies, 목표가 $250→$275 상향 — 'Strong Buy' 유지",
+      "significance": "Blackwell 수요 강세와 FY2027 전망에 대한 자신감.",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 256,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 36.7,
+    "buyCount": 37,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "39명 중 37명(95%) 매수. Jefferies/Mizuho $275. MarketBeat 평균 $264. Meta 파트너십이 2/25 실적 전 추가 모멘텀. 컨센서스 $256은 현재가 대비 37% 상승 여력."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "밸류에이션 부담 및 높은 기대치",
+      "description": "P/E 46배, 시총 4.5조 달러. 2/25 실적이 기대에 조금이라도 미치지 못하면 큰 폭 하락 가능. DeepSeek 쇼크 때 하루 17% 급락 전례."
+    },
+    {
+      "severity": "high",
+      "title": "미·중 무역 규제 및 수출 통제",
+      "description": "대중국 AI 칩 수출 규제 지속 강화. 추가 규제 시 글로벌 매출 타격."
+    },
+    {
+      "severity": "high",
+      "title": "고객 집중도 및 자체칩 개발",
+      "description": "소수 하이퍼스케일러에 매출 집중. 자체 AI 칩 확대 시 장기적 의존도 감소 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "AI 투자 사이클 둔화 가능성",
+      "description": "AI 기업들의 수익화가 투자 속도를 따라잡지 못하면 Capex 감소 사이클 도래 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "AMD 및 경쟁 심화",
+      "description": "AMD MI350 등 가격 대비 성능에서 일부 워크로드에 경쟁력 확보 시작. 장기 마진 압박 요인."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Meta 파트너십으로 독점 지위 재확인",
+      "rationale": "2/18 Meta와 멀티이어 파트너십 발표. AMD가 아닌 NVIDIA를 선택. AI 인프라 독점 지위가 더욱 공고해짐."
+    },
+    {
+      "title": "Forward P/E 26배는 성장률 대비 합리적",
+      "rationale": "FY2027 매출 55% 성장 예상. PEG 0.5 미만으로 성장주 기준 저평가 영역."
+    },
+    {
+      "title": "2/25 Q4 실적이 강력한 촉매",
+      "rationale": "더블 비트 기대. 고점 대비 12% 할인된 현재 가격은 실적 발표 전 매수 기회."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 80.2,
+    "sma50": 183.5,
+    "sma50Signal": "above",
+    "sma200": 180.4,
+    "sma200Signal": "above",
+    "rsi": 56,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "Meta와의 대규모 AI 인프라 파트너십 발표로 NVIDIA의 독점적 지위가 다시 한번 확인되었습니다. 2/25 Q4 실적 발표를 1주 앞두고 '더블 비트' 기대감이 높으며, Forward P/E 26배는 55%+ 성장률 대비 합리적입니다. 50일·200일 이평선 모두 위에서 거래되며 기술적으로 안정적. 다만 시총 4.5조에 이미 높은 기대가 반영되어 있어, 실적 발표 전후 변동성에 유의가 필요합니다. 종합: Strong Buy.",
+  "sources": [
+    { "name": "Meta — NVIDIA Partnership Announcement", "url": "https://about.fb.com/news/2026/02/meta-nvidia-announce-long-term-infrastructure-partnership/", "description": "Meta-NVIDIA 멀티이어 AI 인프라 파트너십 공식 발표" },
+    { "name": "Yahoo Finance — NVIDIA Meta GPU Partnership", "url": "https://finance.yahoo.com/news/nvidia-and-meta-expand-gpu-team-with-millions-of-additional-ai-chips-211544507.html", "description": "수백만 대 추가 AI 칩 공급 상세" },
+    { "name": "Traders Union — NVDA +2.4%", "url": "https://tradersunion.com/news/financial-news/show/1501932-nvidia-stock-up/", "description": "Meta 파트너십 후 NVDA $187.27, +2.4%" },
+    { "name": "Seeking Alpha — Q4 Double Beat Preview", "url": "https://seekingalpha.com/article/4870798-nvidia-should-double-beat-again-earnings-preview", "description": "Q4 실적 더블 비트 전망" },
+    { "name": "StockAnalysis — NVDA Statistics", "url": "https://stockanalysis.com/stocks/nvda/", "description": "재무 지표, 밸류에이션 데이터" },
+    { "name": "StockAnalysis — NVDA Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "39명 애널리스트 컨센서스, 목표가" },
+    { "name": "Motley Fool — NVDA Set to Soar", "url": "https://www.fool.com/investing/2026/02/15/the-clock-is-ticking-nvidia-stock-is-set-to-soar-a/", "description": "Q4 블로우아웃 실적 전망" },
+    { "name": "Benzinga — NVDA Meta Partnership", "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50687419/nvidia-stock-rises-after-multiyear-strategic-partnership-with-meta", "description": "Meta 파트너십 후 주가 상승 분석" },
+    { "name": "FinancialContent — Rubin Architecture Analysis", "url": "https://markets.financialcontent.com/wral/article/finterra-2026-2-16-nvidia-nvda-at-the-crossroads-analyzing-the-22-pullback-and-the-path-to-rubin-architecture", "description": "Rubin 아키텍처 전환 분석" },
+    { "name": "MarketBeat — NVDA Forecast", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "컨센서스 목표가 $264.20" }
+  ]
+}
