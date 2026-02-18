@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --card: #f9fafb;
+  --card-hover: #f3f4f6;
+  --border: #e5e7eb;
+  --muted: #6b7280;
+  --muted-foreground: #9ca3af;
+  --accent: #f3f4f6;
+}
+
+.dark {
+  --background: #09090b;
+  --foreground: #f9fafb;
+  --card: #18181b;
+  --card-hover: #27272a;
+  --border: #27272a;
+  --muted: #a1a1aa;
+  --muted-foreground: #71717a;
+  --accent: #27272a;
+}
+
+@layer base {
+  * {
+    @apply border-[var(--border)];
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+    color: var(--foreground);
+  }
+}
+
+@layer utilities {
+  /* Custom Scrollbar - Dark */
+  .dark .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-track {
+    background: #18181b;
+    border-radius: 4px;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+    border-radius: 4px;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #52525b;
+  }
+
+  /* Custom Scrollbar - Light */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+
+  /* Firefox */
+  .dark .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f46 #18181b;
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db #f3f4f6;
+  }
+}
