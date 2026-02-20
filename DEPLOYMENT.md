@@ -5,7 +5,7 @@
 - **운영 서버**: Oracle Cloud, `ssh thistory`, 경로: `/opt/investory`
 - systemd: `investory`
 - 리버스 프록시: Caddy
-- 도메인: `https://thistory.kro.kr`
+- 도메인: `https://investory.kro.kr`
 
 ## ⚠️ 빌드는 반드시 AWS에서!
 thistory 서버는 RAM 503MB라서 Next.js 빌드 시 OOM 발생함.
