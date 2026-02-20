@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAnalyzedSymbols, getAllReportsByDate } from "@/data/analysis";
 
 const FEATURED_STOCKS = [
@@ -31,6 +32,18 @@ export default function Home() {
         </div>
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-12 sm:pt-24 pb-16 sm:pb-24 text-center">
+
+          {/* Logo */}
+          <div className="mb-6">
+            <Image
+              src="/logo-full.png"
+              alt="Investory"
+              width={120}
+              height={120}
+              className="mx-auto drop-shadow-2xl"
+              priority
+            />
+          </div>
 
           {/* Title */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4">
@@ -183,7 +196,7 @@ export default function Home() {
 
       {/* ─── FOOTER ─── */}
       <footer className="py-8 text-center text-xs text-gray-400 dark:text-zinc-600">
-        <span className="font-medium">Thistory</span> · 투자 권유가 아닌 정보 제공 목적입니다
+        <span className="font-medium">Investory</span> · 투자 권유가 아닌 정보 제공 목적입니다
       </footer>
     </main>
   );

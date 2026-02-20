@@ -100,7 +100,7 @@ export async function generateMetadata({
       description,
       url,
       type: "article",
-      siteName: "Thistory",
+      siteName: "Investory",
     },
     twitter: {
       card: "summary_large_image",

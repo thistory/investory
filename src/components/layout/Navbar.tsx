@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useTheme } from "next-themes";
@@ -82,11 +83,15 @@ export function Navbar() {
             href="/"
             className="flex items-center gap-2 shrink-0 group"
           >
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
-              <span className="text-white text-xs font-bold">T</span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="Investory"
+              width={28}
+              height={28}
+              className="rounded-lg"
+            />
             <span className="text-base font-bold tracking-tight text-gray-900 dark:text-white">
-              Thistory
+              Investory
             </span>
           </Link>
 
