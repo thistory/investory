@@ -24,40 +24,50 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 
 ## 분석 프로세스
 
-### 1단계: 데이터 수집 (4개 subagent 완전 병렬)
+### 다중 종목 분석 (2개 이상)
 
-**반드시 4개의 `us-data-researcher` subagent를 동시에 launch한다** (하나의 메시지에서 4개 Task tool call). 순차 실행 금지.
+**종목별 1개 background agent를 동시에 launch한다** — 5종목이면 5개 agent가 완전 병렬 실행.
 
-**subagent A — 최신성 데이터** (매일 바뀌는 정보)
-- 현재 주가, 시가총액
-- 최근 1개월 내 주요 뉴스 5건 (날짜, 헤드라인, 의미, URL)
-- 애널리스트 컨센서스 목표가, Buy/Hold/Sell 분포, 주목할 코멘트
-- 기술적 지표: 52주 고저, RSI, 50일/200일 이동평균선 대비 위치
+각 agent는 `model: "sonnet"`, `run_in_background: true`로 launch하고, 아래 **단일 종목 파이프라인**을 독립 수행한다:
 
-**subagent B — 핵심 재무 지표**
-- P/E, Forward P/E, 매출 성장률 (YoY), 영업이익률
-- FCF (잉여현금흐름), 부채비율, ROE
-- 각 지표마다 한 줄 해석 포함
+```
+메인 agent → N개 background agent 동시 launch (종목별 1개)
+           → 각 agent가 데이터 수집 + 한국어 JSON + 영어 JSON + SNS 까지 완료
+           → 메인 agent는 전체 완료 후 결과 확인만
+```
 
-**subagent C — 투자 판단 데이터**
-- 리스크 3-5개 (severity: critical/high/medium/low)
-- 매수 근거 3가지 (title + rationale)
-- 종합 의견 (- 나열식, 3-5개 핵심 포인트)
+각 background agent에 전달할 프롬프트에 **반드시 포함**할 것:
+- 종목 티커와 오늘 날짜
+- 기존 리포트가 있으면 그 파일 경로 (agent가 직접 읽도록)
+- JSON 리포트 구조 (이 SKILL의 "JSON 리포트 구조" 섹션 전체)
+- 한국어 + 영어 작성 원칙
+- SNS 콘텐츠 양식 (X, Threads)
+- 출력 파일 경로: `data/analysis/reports/{SYMBOL}/{날짜}.json`, `{날짜}.en.json`
 
-**subagent D — 기본 정보** (변경 빈도 낮음)
-- 회사 설명 (oneLiner + description + howTheyMakeMoney + keyProducts)
-- 성장 동력 3-4가지
-- 경쟁우위 (summary + moats + competitors)
+### 단일 종목 파이프라인 (각 agent가 수행하는 흐름)
 
-### 2단계: 한국어 JSON 리포트 작성 + 영어/SNS 동시 시작
+#### 1단계: 데이터 수집
 
-4개 subagent 결과를 모아 **한국어 `.json` 리포트를 먼저 작성**한다.
+**기존 리포트가 있는 경우** (업데이트):
+- 기존 리포트를 읽고 **businessSummary, growthDrivers, competitiveAdvantage는 그대로 재사용**
+- **변경되는 데이터만 검색**: 주가, 뉴스, 애널리스트 의견, 기술적 지표, 재무 지표
+- 검색 3-5회로 충분
 
-한국어 리포트 파일 저장 직후, **즉시 2개의 background agent를 동시 launch**한다:
-- **영어 background agent** — 영어 리포트 (`.en.json`) 생성: 한국어 리포트를 읽고 영어로 번역하여 저장
-- **SNS background agent** — SNS 콘텐츠 생성: 한국어 리포트를 읽고 `snsContent` 필드를 한국어+영어 양쪽 파일에 추가
+**기존 리포트가 없는 경우** (신규):
+- 전체 데이터 검색: 기본 정보 + 재무 + 뉴스 + 애널리스트 + 기술적 지표
+- 검색 6-8회
 
-이렇게 하면 메인 흐름은 한국어 리포트 완성 시점에서 종료되고, 영어 리포트와 SNS는 백그라운드에서 처리된다.
+#### 2단계: 한국어 JSON 리포트 작성
+
+수집한 데이터로 한국어 `.json` 리포트를 작성한다.
+
+#### 3단계: 영어 JSON + SNS 콘텐츠 생성
+
+한국어 리포트 완성 직후, **같은 agent 안에서** 연이어:
+1. 영어 `.en.json` 리포트 작성 (한국어를 번역, snsContent 포함)
+2. 한국어 `.json`에 snsContent 추가 (Edit tool로 마지막 `}` 앞에 삽입)
+
+영어와 SNS를 **하나의 agent에서 순차 처리**하면 race condition이 발생하지 않는다.
 
 ### JSON 리포트 구조
 
@@ -151,13 +161,13 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 }
 ```
 
-### 3단계: SNS 콘텐츠 생성 (SNS background agent가 처리)
+### SNS 콘텐츠 양식
 
-SNS background agent가 리포트 JSON에 `snsContent` 필드를 추가한다. **X(Twitter)를 기본 양식**으로 하고, Telegram과 Threads는 X에서 조금씩 변형한다.
+리포트 JSON에 `snsContent` 필드를 추가한다. **X(Twitter)를 기본 양식**으로 하고, Threads는 X에서 조금 변형한다.
 
 #### 한국어 SNS (`.json`)
 
-##### X(Twitter) 기본 양식 — 모든 플랫폼의 베이스
+##### X(Twitter) 기본 양식
 
 ```
 오늘의투자 {SYMBOL} ({M/D})
@@ -205,7 +215,6 @@ Full analysis 👉 investory.kro.kr/en
 |--------|------|--------|-------------|
 | X | `snsContent.x` | hook 50자, text 280자 이내 | 기본 양식 그대로 |
 | Threads | `snsContent.threads` | hook 50자, text 280자 이내 | 톤을 약간 캐주얼하게, 이모지 1-2개 추가 |
-| Telegram | `snsContent.telegram` | hook 50자, text 500자 이내 | 이모지 아이콘(📊✅⚠️) 활용, 약간 더 상세한 맥락 추가 |
 
 ## 작성 원칙
 
@@ -230,12 +239,11 @@ Full analysis 👉 investory.kro.kr/en
 
 ## 기존 리포트가 있는 경우
 
-같은 종목의 이전 리포트가 있다면 `data/analysis/reports/{SYMBOL}/` 에서 가장 최근 파일을 읽고:
-- **변경된 부분만 업데이트** (뉴스, 가격, 애널리스트 의견, 기술적 위치 등)
+같은 종목의 이전 리포트가 있다면 `data/analysis/reports/{SYMBOL}/` 에서 가장 최근 `.json` 파일을 읽고:
+- **변경된 부분만 업데이트** (뉴스, 가격, 애널리스트 의견, 기술적 위치, keyMetrics 등)
 - **변경되지 않은 기본 정보**는 그대로 재사용 (businessSummary, growthDrivers, competitiveAdvantage 등)
-- **snsContent는 재사용하지 않는다** — SNS background agent가 매번 최신 데이터로 새로 생성
-- **영어 리포트는 영어 background agent가 처리** — 한국어 리포트 저장 직후 자동 시작
-- 이렇게 하면 작업 시간이 크게 단축된다
+- **snsContent는 재사용하지 않는다** — 매번 최신 데이터로 새로 생성
+- 이렇게 하면 검색 3-5회로 충분하여 작업 시간이 크게 단축된다
 
 ## 검색 전략
 
