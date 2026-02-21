@@ -16,8 +16,8 @@
     ],
     "keyProducts": [
       "Blackwell Ultra GB300 — Latest AI accelerator, 50x throughput and 35x cost reduction vs. Hopper. Accounts for 2/3 of Blackwell revenue",
-      "Blackwell B200/GB200 — AI accelerator, 'insane' demand levels with supply sold out through mid-2026",
-      "H100/H200 Tensor Core GPU — Current industry standard for AI training/inference",
+      "Blackwell B200/GB200 — AI accelerator with 'insane' demand levels, sold out through mid-2026",
+      "H100/H200 Tensor Core GPU — Current industry standard for AI training and inference",
       "Rubin R200 — Next-gen GPU expected H2 2026, featuring HBM4 memory and 5x inference performance improvement",
       "CUDA — GPU parallel computing software platform used by 15M+ developers",
       "DGX/HGX Systems — Turnkey servers for large-scale AI training",
@@ -25,30 +25,30 @@
     ]
   },
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "47.0", "interpretation": "Elevated, but PEG of 0.68 given 62%+ revenue growth suggests the stock is actually undervalued relative to growth" },
-    { "name": "Forward P/E", "value": "26.9", "interpretation": "Based on FY2027 EPS estimates. Trading at a discount to the tech sector average of 29.2. Attractive given the growth profile" },
-    { "name": "Revenue (TTM)", "value": "$187.1B", "interpretation": "TTM basis. Including Q4 consensus of $65.5B, annual revenue is projected to surpass $200B" },
-    { "name": "Revenue Growth (YoY, Q3 FY2026)", "value": "+62%", "interpretation": "Q3 revenue of $57B achieved. Q4 revenue consensus of $65.6B (+67% YoY)" },
-    { "name": "Operating Margin", "value": "58.8%", "interpretation": "TTM basis. Net margin 53%. Remarkable profitability on par with software companies" },
-    { "name": "FCF (TTM)", "value": "$77.3B (FCF margin ~41%)", "interpretation": "TTM free cash flow of approximately $77.3B. Massive cash generation. ROE 107%, ROIC 153%" },
-    { "name": "Debt-to-Equity (D/E)", "value": "0.09", "interpretation": "Effectively debt-free. Net cash position. Pristine balance sheet" }
+    { "name": "P/E Ratio (TTM)", "value": "47.0", "interpretation": "Elevated, but PEG of 0.68 given 62%+ revenue growth suggests the stock is actually undervalued relative to its growth rate." },
+    { "name": "Forward P/E", "value": "26.9", "interpretation": "Based on FY2027 EPS estimates. Trading at a discount to the tech sector average of 29.2. Attractive given the growth profile." },
+    { "name": "Revenue (TTM)", "value": "$187.1B", "interpretation": "TTM basis. Including Q4 consensus of $65.5B, annual revenue is projected to surpass $200B." },
+    { "name": "Revenue Growth (YoY, Q3 FY2026)", "value": "+62%", "interpretation": "Q3 revenue hit $57B. Q4 revenue consensus of $65.6B (+67% YoY)." },
+    { "name": "Operating Margin", "value": "58.8%", "interpretation": "TTM basis. Net margin 53%. Remarkable profitability on par with software companies." },
+    { "name": "Free Cash Flow (TTM)", "value": "$77.3B (FCF margin ~41%)", "interpretation": "TTM free cash flow of approximately $77.3B. Massive cash generation. ROE 107%, ROIC 153%." },
+    { "name": "Debt-to-Equity", "value": "0.09", "interpretation": "Effectively debt-free. Net cash position. Pristine balance sheet." }
   ],
   "growthDrivers": [
     {
-      "title": "Meta Multi-Year, Multi-Generation Strategic Partnership — Millions of GPUs",
-      "description": "On February 17, Meta and NVIDIA officially announced a multi-year strategic partnership. The deal includes GB300, Grace CPU, Vera Rubin, and Spectrum-X networking. As the core partner for Meta's FY2026 CapEx of $115–135B, NVIDIA secured a multi-million GPU supply agreement providing long-term revenue visibility."
+      "title": "Meta multi-year, multi-generation strategic partnership — millions of GPUs",
+      "description": "On February 17, Meta and NVIDIA officially announced a multi-year strategic partnership. The deal covers GB300, Grace CPU, Vera Rubin, and Spectrum-X networking. As the core partner for Meta's FY2026 CapEx of $115-135B, NVIDIA secured a multi-million GPU supply agreement providing long-term revenue visibility."
     },
     {
-      "title": "Q4 FY2026 Earnings D-3 — Expected to Beat by '$2–3B'",
-      "description": "Earnings report scheduled for February 25. Consensus revenue $65.6B (+67%), EPS $1.52. Oppenheimer forecasts a $2–3B beat. Q1 FY2027 guidance of $75B is the key variable for market reaction. Options market implies ±7% post-earnings move. Polymarket puts beat probability at 94.5%."
+      "title": "Q4 FY2026 earnings D-3 — expected to beat by '$2-3B'",
+      "description": "Earnings report scheduled for February 25. Consensus revenue $65.6B (+67%), EPS $1.52. Oppenheimer forecasts a $2-3B beat. Q1 FY2027 guidance of $75B is the key variable for market reaction. Options market implies a +/-7% post-earnings move. Polymarket puts beat probability at 94.5%."
     },
     {
-      "title": "Blackwell Ultra GB300 — 50x Efficiency vs. Hopper, $500B Pipeline",
+      "title": "Blackwell Ultra GB300 — 50x efficiency vs. Hopper, $500B pipeline",
       "description": "GB300 NVL72 achieves 50x throughput per MW and 35x cost reduction per token versus Hopper. Accounts for 2/3 of Blackwell revenue. 2026 shipments projected to increase 129% YoY. Rubin R200 expected H2 2026 with HBM4 memory."
     },
     {
-      "title": "OpenAI $30B Strategic Investment + Hyperscaler CapEx $500B+",
-      "description": "Negotiations for a $30B direct equity investment in OpenAI are nearing completion (restructured from the original $100B infrastructure deal). Positioning NVIDIA as a strategic investor in the AI ecosystem, beyond just a chip supplier. Combined CapEx from Meta, Alphabet, Amazon, and Microsoft exceeds $500B, providing multi-year GPU demand visibility."
+      "title": "OpenAI $30B strategic investment + hyperscaler CapEx exceeding $500B",
+      "description": "Negotiations for a $30B direct equity investment in OpenAI are nearing completion (restructured from the original $100B infrastructure deal). Positioning NVIDIA as a strategic investor in the AI ecosystem, not just a chip supplier. Combined CapEx from Meta, Alphabet, Amazon, and Microsoft exceeds $500B, providing multi-year GPU demand visibility."
     }
   ],
   "competitiveAdvantage": {
@@ -72,7 +72,7 @@
       }
     ],
     "competitors": [
-      { "name": "AMD", "detail": "MI300X/MI350 capturing 10-12% of the AI accelerator market. MI450 (2nm) expected 2026. Lost to NVIDIA in the Meta partnership." },
+      { "name": "AMD", "detail": "MI300X/MI350 capturing 10-12% of the AI accelerator market. MI450 (2nm) expected in 2026. Lost to NVIDIA in the Meta partnership." },
       { "name": "Intel", "detail": "Launched Gaudi 3 but market share remains negligible. Restructuring semiconductor foundry business." },
       { "name": "Custom Silicon (Google TPU, Amazon Trainium, Microsoft Maia)", "detail": "Big tech accelerating internal AI chip development for proprietary workloads. Full replacement of NVIDIA remains difficult due to lack of general-purpose capability and software ecosystem." },
       { "name": "Huawei Ascend", "detail": "NVIDIA alternative within China. Primary driver behind NVIDIA's China market share collapse from 66% to 8%." }
@@ -81,31 +81,31 @@
   "recentNews": [
     {
       "date": "2026-02-21",
-      "headline": "Motley Fool: 'Meta Partnership Is Amazing News for NVIDIA Shareholders' + 'Feb 26 Could Be Huge for the Market'",
+      "headline": "Motley Fool: 'Meta partnership is amazing news for NVIDIA shareholders' + 'Feb 26 could be huge for the market'",
       "significance": "Meta choosing NVIDIA over AMD reaffirms the technology edge and full-stack solution value. The market reaction on 2/26 (day after earnings) is expected to impact the broader market.",
       "url": "https://www.fool.com/investing/2026/02/21/nvidia-shareholders-received-amazing-news-from-met/"
     },
     {
       "date": "2026-02-20",
-      "headline": "Blackwell Demand 'Off the Charts' + NVIDIA's $30B OpenAI Investment Nearly Finalized",
-      "significance": "Jensen Huang's 'off the charts' demand remarks. $30B strategic investment in OpenAI strengthens AI ecosystem vertical integration. Options market implies ±7% post-earnings move.",
+      "headline": "Blackwell demand 'off the charts' + NVIDIA's $30B OpenAI investment nearly finalized",
+      "significance": "Jensen Huang's 'off the charts' demand remarks. $30B strategic investment in OpenAI strengthens AI ecosystem vertical integration. Options market implies +/-7% post-earnings move.",
       "url": "https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html"
     },
     {
       "date": "2026-02-17",
-      "headline": "Multi-Year, Multi-Generation AI Infrastructure Partnership with Meta Officially Announced — Millions of GPUs",
-      "significance": "Core partner for Meta's FY2026 CapEx of $115–135B. Includes Grace CPU, GB300 GPU, Vera Rubin, and Spectrum-X networking. NVDA stock rose +2.3% on the news.",
+      "headline": "Multi-year, multi-generation AI infrastructure partnership with Meta officially announced — millions of GPUs",
+      "significance": "Core partner for Meta's FY2026 CapEx of $115-135B. Includes Grace CPU, GB300 GPU, Vera Rubin, and Spectrum-X networking. NVDA stock rose +2.3% on the news.",
       "url": "https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia"
     },
     {
       "date": "2026-02-17",
-      "headline": "Blackwell Ultra GB300 Achieves 50x Throughput and 35x Cost Reduction vs. Hopper",
+      "headline": "Blackwell Ultra GB300 achieves 50x throughput and 35x cost reduction vs. Hopper",
       "significance": "GB300 NVL72 performance metrics unveiled. Directly addresses demand for agentic AI inference workloads. 2026 shipments projected to increase 129% YoY.",
       "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-ultra-ai-factory-platform-paves-way-for-age-of-ai-reasoning"
     },
     {
       "date": "2026-02-19",
-      "headline": "DeepSeek Receives Conditional Approval for NVIDIA H200 Chips — Amid China Share Collapse from 66% to 8%",
+      "headline": "DeepSeek receives conditional approval for NVIDIA H200 chips — amid China share collapse from 66% to 8%",
       "significance": "Chinese government grants DeepSeek conditional H200 approval. Potential upside amid NVIDIA's China AI chip market share plunge to 8%. Geopolitical risks including 25% tariffs persist.",
       "url": "https://www.engadget.com/ai/deepseek-reportedly-gets-chinas-approval-to-buy-nvidias-h200-ai-chips-130000933.html"
     }
@@ -123,41 +123,41 @@
   "risks": [
     {
       "severity": "high",
-      "title": "'Buy the Rumor, Sell the News' Risk — 2/25 Earnings Report",
-      "description": "Extremely elevated expectations with 37 analysts at Buy. Polymarket shows 94.5% beat probability. If Q1 guidance falls short of $75B, the stock could drop 7%+. Options market implies ±7% move, double the historical median of 3.2%."
+      "title": "'Buy the rumor, sell the news' risk — 2/25 earnings report",
+      "description": "Extremely elevated expectations with 37 analysts at Buy. Polymarket shows 94.5% beat probability. If Q1 guidance falls short of $75B, the stock could drop 7%+. Options market implies +/-7% move, double the historical median of 3.2%."
     },
     {
       "severity": "high",
-      "title": "U.S.-China Export Controls — China Market Share Collapsed from 66% to 8%",
+      "title": "U.S.-China export controls — China market share collapsed from 66% to 8%",
       "description": "H200 exports to China are effectively blocked by 25% tariffs and licensing reviews. China AI chip market share plunged from 66% to 8%. Huawei Ascend and domestic alternatives accelerating. DeepSeek H200 conditional approval is a wildcard."
     },
     {
       "severity": "high",
-      "title": "Potential AI Investment Cycle Slowdown",
+      "title": "Potential AI investment cycle slowdown",
       "description": "Whether hyperscaler CapEx exceeding $500B is driven by genuine usage growth or capital market enthusiasm remains unclear. DeepSeek's low-cost AI model raises concerns about reduced GPU intensity."
     },
     {
       "severity": "medium",
-      "title": "Customer Concentration and Accelerating Custom Chip Development",
-      "description": "Revenue heavily concentrated among a handful of hyperscalers. Google TPU, Amazon Trainium, Microsoft Maia, and AMD MI450 are expanding alternatives. Long-term NVIDIA dependency is trending downward."
+      "title": "Customer concentration and accelerating custom chip development",
+      "description": "Revenue heavily concentrated among a handful of hyperscalers. Google TPU, Amazon Trainium, Microsoft Maia, and AMD MI450 are expanding the field of alternatives. Long-term NVIDIA dependency is trending downward."
     },
     {
       "severity": "medium",
-      "title": "Supply Chain Concentration Risk",
-      "description": "Sole reliance on TSMC as foundry partner, with potential CoWoS packaging bottlenecks. Geopolitical risk (Taiwan Strait) poses extreme scenario supply disruption."
+      "title": "Supply chain concentration risk",
+      "description": "Sole reliance on TSMC as foundry partner, with potential CoWoS packaging bottlenecks. Geopolitical risk (Taiwan Strait) poses an extreme-scenario supply disruption threat."
     }
   ],
   "buyReasons": [
     {
-      "title": "Earnings D-3 + Meta Partnership + OpenAI Investment — Triple Catalyst",
-      "rationale": "Q4 revenue expected to beat $65.6B consensus (Oppenheimer projects $2–3B upside), multi-year multi-million GPU contract with Meta, and $30B strategic investment in OpenAI — near-term catalysts are firing simultaneously."
+      "title": "Earnings D-3 + Meta partnership + OpenAI investment — triple catalyst",
+      "rationale": "Q4 revenue expected to beat $65.6B consensus (Oppenheimer projects $2-3B upside), multi-year multi-million GPU contract with Meta, and $30B strategic investment in OpenAI — near-term catalysts are firing simultaneously."
     },
     {
-      "title": "Forward P/E 26.9x + PEG 0.68 — Undervalued Relative to Growth",
+      "title": "Forward P/E 26.9x + PEG 0.68 — undervalued relative to growth",
       "rationale": "Trading at a discount to the tech sector average Forward P/E of 29.2x. PEG of 0.68 is a rare undervaluation for a large cap at this growth rate. The GB300-to-Rubin $500B pipeline supports growth visibility."
     },
     {
-      "title": "Monopolistic Competitive Advantage + Debt-Free + $77.3B FCF",
+      "title": "Monopolistic competitive advantage + debt-free + $77.3B FCF",
       "rationale": "CUDA with 15M+ developers, TSMC CoWoS lock-in, NVLink technology leadership. D/E of 0.09, virtually debt-free. TTM FCF of $77.3B provides ample resources for buybacks, M&A, and investments. ROE 107%, ROIC 153%."
     }
   ],
@@ -174,9 +174,9 @@
   },
   "overallOpinion": [
     "Q4 FY2026 earnings D-3 with triple catalysts: Meta multi-year partnership (millions of GPUs), OpenAI $30B investment, and GB300",
-    "Forward P/E 26.9 (PEG 0.68) remains attractive vs. 62%+ growth and the $500B pipeline — 37 of 39 analysts rate Buy",
+    "Forward P/E 26.9 (PEG 0.68) remains attractive versus 62%+ growth and the $500B pipeline — 37 of 39 analysts rate Buy",
     "Above both 50-day and 200-day SMAs in a golden cross, RSI 57 neutral — technically stable",
-    "China share collapse from 66% to 8%, DeepSeek efficiency shock, and ±7% post-earnings volatility warrant near-term caution",
+    "China share collapse from 66% to 8%, DeepSeek efficiency shock, and +/-7% post-earnings volatility warrant near-term caution",
     "Whether Q1 FY2027 guidance reaches $75B will be the watershed moment for further target upgrades"
   ],
   "sources": [
@@ -191,21 +191,21 @@
     { "name": "Engadget — DeepSeek H200", "url": "https://www.engadget.com/ai/deepseek-reportedly-gets-chinas-approval-to-buy-nvidias-h200-ai-chips-130000933.html", "description": "DeepSeek H200 conditional approval, China market share at 8%" },
     { "name": "Motley Fool — Meta News for NVIDIA", "url": "https://www.fool.com/investing/2026/02/21/nvidia-shareholders-received-amazing-news-from-met/", "description": "Analysis of Meta partnership impact on NVIDIA shareholders" },
     { "name": "Motley Fool — Feb 26 Huge Day", "url": "https://www.fool.com/investing/2026/02/21/february-26-could-be-a-huge-day-for-the-stock-mark/", "description": "Market-wide impact analysis for post-NVDA earnings day" },
-    { "name": "FinancialContent — AI Gut Check", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-20-the-ai-gut-check-nvidia-prepares-for-high-stakes-earnings-as-blackwell-demand-hits-fever-pitch", "description": "Blackwell demand 'off the charts,' options imply ±7% implied volatility" },
+    { "name": "FinancialContent — AI Gut Check", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-20-the-ai-gut-check-nvidia-prepares-for-high-stakes-earnings-as-blackwell-demand-hits-fever-pitch", "description": "Blackwell demand 'off the charts,' options imply +/-7% volatility" },
     { "name": "Investing.com — NVDA Technical", "url": "https://www.investing.com/equities/nvidia-corp-technical", "description": "50-day SMA $186, 200-day SMA $183, RSI 57" }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVIDIA earnings D-3, entering a triple catalyst zone",
-      "text": "DailyInvest NVDA (2/22)\n- Meta signs multi-year deal for millions of GPUs\n- $30B OpenAI investment nearly finalized\n- GB300: 50x efficiency, 35x cost reduction vs. Hopper\n- Q4 consensus $65.6B (+67%), expected to beat\n\n⚠️ Options imply ±7% move | China share collapsed to 8%\nKey: Q1 guidance — will it hit $75B?\n\nTarget $256 (current $190, +35%)\nForward P/E 26.9 · PEG 0.68\n\nEarnings D-3, catalysts are loaded\n\nFull analysis at investory.kro.kr"
+      "hook": "NVIDIA earnings D-3, triple catalyst zone",
+      "text": "DailyInvest NVDA (2/22)\n- Meta multi-year deal: millions of GPUs secured\n- OpenAI $30B investment nearly finalized\n- GB300: 50x efficiency vs Hopper, 35x cost cut\n- Q4 consensus $65.6B (+67%), beat expected\n\n⚠️ China share 66%→8% | Post-earnings ±7% implied move\nKey: Q1 FY2027 guidance reaching $75B\n\nAvg Target $256 (vs current $190, +35%)\nForward P/E 26.9 · PEG 0.68\n\n37 of 39 analysts say Buy — the question is what happens after earnings\n\nFull analysis 👉 investory.kro.kr/en"
     },
     "threads": {
-      "hook": "NVIDIA earnings D-3 — don't miss these catalysts",
-      "text": "DailyInvest NVDA (2/22) 🚀\n- Meta: multi-year, multi-million GPU deal\n- $30B OpenAI investment nearly finalized\n- GB300: 50x efficiency vs. Hopper\n- Q4 $65.6B (+67%) expected beat\n\n⚠️ Options ±7% move | China share at 8%\nKey: Q1 guidance $75B\n\nTarget $256 (current $190, +35%)\nPEG 0.68 — this valuation for this growth?\n\nFull analysis at investory.kro.kr"
+      "hook": "NVIDIA earnings in 3 days — will it move the whole market? 🚀",
+      "text": "DailyInvest NVDA (2/22) 🔥\n- Meta partnership: millions of GPUs, multi-year\n- OpenAI $30B investment nearly done\n- GB300: 50x better than Hopper\n- Q4 expected to beat by $2-3B\n\n⚠️ China share collapsed to 8% | ±7% post-earnings move\nKey: Q1 guidance $75B\n\nAvg Target $256 (vs current $190, +35%)\nPEG 0.68 — still undervalued?\n\nFull analysis 👉 investory.kro.kr/en"
     },
     "telegram": {
-      "hook": "NVIDIA earnings D-3 — a triple catalyst wave is building",
-      "text": "📊 DailyInvest NVDA (2/22)\n\n- Meta signs multi-year deal for millions of GPUs\n- $30B OpenAI investment nearly finalized\n- GB300: 50x efficiency, 35x cost reduction vs. Hopper\n- Q4 consensus $65.6B (+67%), expected to beat\n\n⚠️ Options imply ±7% move | China share collapsed to 8%\n🔑 Key: Q1 guidance — will it hit $75B?\n\n🎯 Target $256 (current $190, +35%)\nForward P/E 26.9 · PEG 0.68\n\n37 of 39 analysts rate Buy. Catalysts are loaded — but Q1 guidance is the watershed.\n\nFull analysis at investory.kro.kr"
+      "hook": "NVIDIA Q4 earnings D-3 — Meta deal + OpenAI $30B + GB300",
+      "text": "📊 DailyInvest NVDA (2/22)\n\n- Meta multi-year, multi-gen partnership: millions of GPUs\n- OpenAI $30B strategic investment nearly finalized\n- GB300: 50x throughput vs Hopper, 35x cost reduction\n- Q4 consensus $65.6B (+67%), Oppenheimer sees $2-3B beat\n\n⚠️ China market share collapsed 66%→8% | Options imply ±7% post-earnings\n🔑 Key: Q1 FY2027 guidance reaching $75B\n\n🎯 Avg Target $256 (vs current $190, +35%)\nForward P/E 26.9 · PEG 0.68 · FCF $77.3B\n\n37/39 analysts Buy. Triple catalyst zone — but the bar is sky-high.\n\nFull analysis 👉 investory.kro.kr/en"
     }
   }
 }
