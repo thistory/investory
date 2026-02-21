@@ -11,7 +11,7 @@ interface ShareButtonsProps {
   snsTelegramText?: string;
 }
 
-type SharePlatform = "x" | "telegram" | "kakao";
+type SharePlatform = "x" | "telegram" | "threads";
 
 interface ShareConfig {
   platform: SharePlatform;
@@ -23,7 +23,7 @@ interface ShareConfig {
 const PLATFORM_META: Record<SharePlatform, { name: string; icon: string }> = {
   x: { name: "X", icon: "\uD835\uDD4F" },
   telegram: { name: "Telegram", icon: "\u2708\uFE0F" },
-  kakao: { name: "\uCE74\uCE74\uC624\uD1A1", icon: "\uD83D\uDCAC" },
+  threads: { name: "Threads", icon: "\uD83E\uDDF5" },
 };
 
 function buildShareUrl(platform: SharePlatform, text: string, pageUrl: string): string {
@@ -32,8 +32,8 @@ function buildShareUrl(platform: SharePlatform, text: string, pageUrl: string): 
       return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(pageUrl)}`;
     case "telegram":
       return `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(text)}`;
-    case "kakao":
-      return `https://sharer.kakao.com/talk/friends/picker/link?url=${encodeURIComponent(pageUrl)}`;
+    case "threads":
+      return `https://www.threads.net/intent/post?text=${encodeURIComponent(text + "\n" + pageUrl)}`;
   }
 }
 
@@ -59,7 +59,7 @@ export function ShareButtons({
   const platforms: { platform: SharePlatform; text: string }[] = [
     { platform: "x", text: snsThreadsText || fallback },
     { platform: "telegram", text: snsTelegramText || fallback },
-    { platform: "kakao", text: pageUrl },
+    { platform: "threads", text: snsThreadsText || fallback },
   ];
 
   function openPreview(platform: SharePlatform, originalText: string) {
@@ -173,7 +173,7 @@ export function ShareButtons({
             <div className="flex-1 overflow-y-auto px-4 py-4">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-xs text-gray-400 dark:text-zinc-500">
-                  공유될 내용 {active.platform !== "kakao" && "(편집 가능)"}
+                  공유될 내용 (편집 가능)
                 </span>
                 {isEdited && (
                   <button
@@ -185,18 +185,12 @@ export function ShareButtons({
                 )}
               </div>
 
-              {active.platform === "kakao" ? (
-                <div className="bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 break-all">
-                  {editedText}
-                </div>
-              ) : (
-                <textarea
-                  value={editedText}
-                  onChange={(e) => setEditedText(e.target.value)}
-                  className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
-                  rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
-                />
-              )}
+              <textarea
+                value={editedText}
+                onChange={(e) => setEditedText(e.target.value)}
+                className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
+                rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
+              />
 
               <div className="mt-3 flex items-center gap-2 text-xs text-gray-400 dark:text-zinc-500">
                 <span className="font-medium shrink-0">링크:</span>
