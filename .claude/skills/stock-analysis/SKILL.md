@@ -196,3 +196,14 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 - `"stockanalysis.com {티커}"` — 재무 지표 종합
 - `"marketbeat.com {티커} forecast"` — 애널리스트 컨센서스
 - `"investing.com {티커} technical"` — 기술적 지표
+
+## 홈페이지 종목 자동 등록
+
+분석 완료 후, 해당 종목이 홈페이지 "주목 종목" 리스트에 없으면 자동 추가한다.
+
+1. `data/stocks/managed-stocks.json` 파일을 읽어 해당 심볼이 있는지 확인
+2. 없으면 `POST /api/stocks` (body: `{ "symbol": "{티커}" }`)를 호출하여 추가
+   - 이 API가 Finnhub에서 회사명/로고/업종을 자동 조회하고 파일+캐시에 저장함
+   - dev 서버가 꺼져있으면 직접 `data/stocks/managed-stocks.json`에 항목 추가:
+     `{ "symbol": "{티커}", "name": "{회사명}", "tag": "{업종}", "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/{티커}.png", "addedAt": "{오늘날짜}" }`
+3. 이미 있으면 아무 작업도 하지 않음

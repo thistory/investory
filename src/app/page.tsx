@@ -1,13 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getAnalyzedSymbols, getAllReportsByDate } from "@/data/analysis";
+import { getManagedStocks } from "@/lib/stocks/managed-stocks";
+import AddStockCard from "@/components/stock/AddStockCard";
 
-const FEATURED_STOCKS = [
-  { symbol: "TSLA", name: "Tesla", tag: "EV · Energy", logo: "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png" },
-  { symbol: "NVDA", name: "NVIDIA", tag: "AI · GPU", logo: "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NVDA.png" },
-  { symbol: "PLTR", name: "Palantir", tag: "Big Data · AI", logo: "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PLTR.png" },
-  { symbol: "BMNR", name: "Bitmine", tag: "ETH · Mining", logo: "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950783675656.png" },
-];
+export const dynamic = "force-dynamic";
 
 const PILLARS = [
   { label: "Quality", desc: "수익성과 재무건전성", color: "from-blue-500 to-cyan-400" },
@@ -17,9 +14,10 @@ const PILLARS = [
   { label: "Momentum", desc: "기술적 추세와 모멘텀", color: "from-rose-500 to-pink-400" },
 ];
 
-export default function Home() {
+export default async function Home() {
   const symbols = getAnalyzedSymbols();
   const totalReports = getAllReportsByDate().length;
+  const featuredStocks = await getManagedStocks();
 
   return (
     <main className="min-h-screen overflow-hidden">
@@ -133,7 +131,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {FEATURED_STOCKS.map((stock) => (
+            {featuredStocks.map((stock) => (
               <Link
                 key={stock.symbol}
                 href={`/stock/${stock.symbol}`}
@@ -160,6 +158,7 @@ export default function Home() {
                 </div>
               </Link>
             ))}
+            <AddStockCard />
           </div>
         </div>
       </section>

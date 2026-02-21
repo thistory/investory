@@ -312,13 +312,42 @@ function PriceCandle({
 }
 
 export function StockHeader({ symbol }: StockHeaderProps) {
-  const { data: quote, isLoading: quoteLoading } = useQuote(symbol);
-  const { data: profile, isLoading: profileLoading } = useProfile(symbol);
+  const { data: quote, isLoading: quoteLoading, isError: quoteError } = useQuote(symbol);
+  const { data: profile, isLoading: profileLoading, isError: profileError } = useProfile(symbol);
   const [showCompareInput, setShowCompareInput] = useState(false);
   const [compareSymbol, setCompareSymbol] = useState("");
 
   if (quoteLoading || profileLoading) {
     return <HeaderSkeleton />;
+  }
+
+  // 종목 데이터를 가져올 수 없는 경우 (존재하지 않는 종목)
+  const noData = (quoteError || !quote?.price) && (profileError || !profile?.name || profile.name === symbol);
+  if (noData) {
+    return (
+      <div className="p-8 sm:p-12 bg-gray-50 dark:bg-zinc-900 rounded-lg text-center">
+        <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 dark:bg-zinc-800 flex items-center justify-center">
+          <svg className="w-8 h-8 text-gray-300 dark:text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
+          </svg>
+        </div>
+        <p className="text-lg font-semibold text-gray-700 dark:text-zinc-300 mb-1">
+          {symbol}
+        </p>
+        <p className="text-sm text-gray-400 dark:text-zinc-500 mb-6">
+          해당 종목은 현재 준비 중입니다
+        </p>
+        <a
+          href="/"
+          className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-gray-600 dark:text-zinc-400 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+          </svg>
+          홈으로 돌아가기
+        </a>
+      </div>
+    );
   }
 
   const handleCompare = () => {
