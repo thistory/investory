@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 export default function AddStockCard() {
   const [open, setOpen] = useState(false);
@@ -10,6 +11,7 @@ export default function AddStockCard() {
   const [error, setError] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
+  const t = useTranslations("stock");
 
   useEffect(() => {
     if (open) {
@@ -47,7 +49,7 @@ export default function AddStockCard() {
       const data = await res.json();
 
       if (!data.success) {
-        setError(data.error || "추가에 실패했습니다");
+        setError(data.error || t("addFailed"));
         setLoading(false);
         return;
       }
@@ -55,7 +57,7 @@ export default function AddStockCard() {
       handleClose();
       router.refresh();
     } catch {
-      setError("네트워크 오류가 발생했습니다");
+      setError(t("networkError"));
       setLoading(false);
     }
   }
@@ -73,7 +75,7 @@ export default function AddStockCard() {
           </svg>
         </div>
         <span className="text-sm font-medium text-gray-400 dark:text-zinc-500 group-hover:text-blue-500 transition-colors">
-          종목 추가
+          {t("addStock")}
         </span>
       </button>
 
@@ -88,9 +90,9 @@ export default function AddStockCard() {
 
           {/* Dialog */}
           <div className="relative w-full max-w-sm bg-white dark:bg-zinc-900 rounded-2xl shadow-2xl p-6">
-            <h3 className="text-lg font-bold mb-1">종목 추가</h3>
+            <h3 className="text-lg font-bold mb-1">{t("addStockTitle")}</h3>
             <p className="text-sm text-gray-500 dark:text-zinc-400 mb-5">
-              추가할 종목의 심볼을 입력하세요 (예: AAPL)
+              {t("addStockDesc")}
             </p>
 
             <form onSubmit={handleSubmit}>
@@ -119,7 +121,7 @@ export default function AddStockCard() {
                   className="flex-1 px-4 py-2.5 rounded-xl text-sm font-medium bg-gray-100 dark:bg-zinc-800 text-gray-600 dark:text-zinc-400 hover:bg-gray-200 dark:hover:bg-zinc-700 transition-colors"
                   disabled={loading}
                 >
-                  취소
+                  {t("cancel")}
                 </button>
                 <button
                   type="submit"
@@ -132,10 +134,10 @@ export default function AddStockCard() {
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                       </svg>
-                      조회 중...
+                      {t("checking")}
                     </span>
                   ) : (
-                    "추가"
+                    t("add")
                   )}
                 </button>
               </div>

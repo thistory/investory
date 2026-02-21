@@ -1,25 +1,27 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { getIndexStats } from "@/data/analysis";
 import { getManagedStocks } from "@/lib/stocks/managed-stocks";
 import AddStockCard from "@/components/stock/AddStockCard";
+import { getTranslations } from "next-intl/server";
 
 export const dynamic = "force-dynamic";
 
-function WebSiteJsonLd() {
+async function WebSiteJsonLd({ locale }: { locale: string }) {
+  const t = await getTranslations({ locale, namespace: "home" });
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Investory",
     url: "https://investory.kro.kr",
-    description:
-      "월가 방법론을 체계적으로 수치화하여 감이 아닌 근거로 투자 판단을 돕는 미국 주식 분석 플랫폼",
+    description: t("jsonLdDescription"),
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://investory.kro.kr/analysis?q={search_term_string}",
+      target: `https://investory.kro.kr/${locale}/analysis?q={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
   };
+  // JSON-LD uses trusted, server-generated content only (no user input)
   return (
     <script
       type="application/ld+json"
@@ -28,21 +30,36 @@ function WebSiteJsonLd() {
   );
 }
 
-const PILLARS = [
-  { label: "Quality", desc: "수익성과 재무건전성", color: "from-blue-500 to-cyan-400" },
-  { label: "Moat", desc: "경쟁우위와 해자", color: "from-violet-500 to-purple-400" },
-  { label: "Value", desc: "내재가치 대비 저평가", color: "from-emerald-500 to-green-400" },
-  { label: "Growth", desc: "성장성과 잠재력", color: "from-amber-500 to-yellow-400" },
-  { label: "Momentum", desc: "기술적 추세와 모멘텀", color: "from-rose-500 to-pink-400" },
+const PILLAR_COLORS = [
+  "from-blue-500 to-cyan-400",
+  "from-violet-500 to-purple-400",
+  "from-emerald-500 to-green-400",
+  "from-amber-500 to-yellow-400",
+  "from-rose-500 to-pink-400",
 ];
 
-export default async function Home() {
+const PILLAR_LABELS = ["Quality", "Moat", "Value", "Growth", "Momentum"];
+const PILLAR_KEYS = [
+  "pillarQuality",
+  "pillarMoat",
+  "pillarValue",
+  "pillarGrowth",
+  "pillarMomentum",
+] as const;
+
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "home" });
   const stats = getIndexStats();
   const featuredStocks = await getManagedStocks();
 
   return (
     <main className="min-h-screen overflow-hidden">
-      <WebSiteJsonLd />
+      <WebSiteJsonLd locale={locale} />
       {/* ─── HERO ─── */}
       <section className="relative isolate">
         {/* Ambient glow */}
@@ -52,7 +69,6 @@ export default async function Home() {
         </div>
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-12 sm:pt-24 pb-16 sm:pb-24 text-center">
-
           {/* Logo */}
           <div className="mb-6">
             <Image
@@ -68,7 +84,7 @@ export default async function Home() {
           {/* Title */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4">
             <span className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 dark:from-white dark:via-zinc-200 dark:to-white bg-clip-text text-transparent">
-              데이터로 투자하다
+              {t("title")}
             </span>
           </h1>
 
@@ -78,12 +94,21 @@ export default async function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-blue-500" />
             </span>
-            {stats.symbolCount}개 종목 · {stats.totalReports}건 분석 완료
+            {t("statsLabel", {
+              symbolCount: stats.symbolCount,
+              totalReports: stats.totalReports,
+            })}
           </div>
 
           <p className="text-base sm:text-lg text-gray-500 dark:text-zinc-400 max-w-xl mx-auto mb-10 leading-relaxed">
-            월가 방법론을 체계적으로 수치화하여<br className="hidden sm:block" />
-            감이 아닌 근거로 투자 판단을 돕습니다
+            {t("description")
+              .split("\n")
+              .map((line, i) => (
+                <span key={i}>
+                  {i > 0 && <br className="hidden sm:block" />}
+                  {line}
+                </span>
+              ))}
           </p>
 
           {/* CTA */}
@@ -92,14 +117,16 @@ export default async function Home() {
               href="/analysis"
               className="group relative px-7 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-xl transition-all hover:shadow-lg hover:shadow-blue-500/20 dark:hover:shadow-blue-400/20 hover:-translate-y-0.5"
             >
-              분석 리포트 보기
-              <span className="ml-2 inline-block transition-transform group-hover:translate-x-0.5">→</span>
+              {t("ctaReport")}
+              <span className="ml-2 inline-block transition-transform group-hover:translate-x-0.5">
+                →
+              </span>
             </Link>
             <Link
               href="/stock/TSLA"
               className="px-7 py-3 bg-gray-100 dark:bg-zinc-800 text-gray-700 dark:text-zinc-300 font-semibold rounded-xl transition-all hover:bg-gray-200 dark:hover:bg-zinc-700 hover:-translate-y-0.5"
             >
-              종목 분석
+              {t("ctaStock")}
             </Link>
           </div>
         </div>
@@ -113,19 +140,23 @@ export default async function Home() {
               Investment Framework
             </p>
             <h2 className="text-2xl sm:text-3xl font-bold">
-              5가지 분석 축
+              {t("pillarsTitle")}
             </h2>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
-            {PILLARS.map((p) => (
+            {PILLAR_LABELS.map((label, i) => (
               <div
-                key={p.label}
+                key={label}
                 className="group relative p-4 rounded-xl bg-gray-50 dark:bg-zinc-900 hover:bg-white dark:hover:bg-zinc-800 transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/20"
               >
-                <div className={`h-1 w-8 mb-3 rounded-full bg-gradient-to-r ${p.color}`} />
-                <div className="text-sm font-bold mb-1">{p.label}</div>
-                <div className="text-xs text-gray-400 dark:text-zinc-500 leading-relaxed">{p.desc}</div>
+                <div
+                  className={`h-1 w-8 mb-3 rounded-full bg-gradient-to-r ${PILLAR_COLORS[i]}`}
+                />
+                <div className="text-sm font-bold mb-1">{label}</div>
+                <div className="text-xs text-gray-400 dark:text-zinc-500 leading-relaxed">
+                  {t(PILLAR_KEYS[i])}
+                </div>
               </div>
             ))}
           </div>
@@ -142,13 +173,15 @@ export default async function Home() {
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-gray-400 dark:text-zinc-500 mb-3">
                 Featured
               </p>
-              <h2 className="text-2xl sm:text-3xl font-bold">주목 종목</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold">
+                {t("featured")}
+              </h2>
             </div>
             <Link
               href="/compare?symbols=TSLA,NVDA"
               className="text-sm text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-300 transition-colors"
             >
-              비교하기 →
+              {t("compareLink")}
             </Link>
           </div>
 
@@ -173,7 +206,9 @@ export default async function Home() {
                   <div className="text-lg font-bold mb-0.5 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     {stock.symbol}
                   </div>
-                  <div className="text-xs text-gray-400 dark:text-zinc-500 mb-2">{stock.name}</div>
+                  <div className="text-xs text-gray-400 dark:text-zinc-500 mb-2">
+                    {stock.name}
+                  </div>
                   <div className="inline-block text-[10px] font-medium tracking-wide text-gray-400 dark:text-zinc-600 bg-gray-100 dark:bg-zinc-800 px-2 py-0.5 rounded-full">
                     {stock.tag}
                   </div>
@@ -191,24 +226,28 @@ export default async function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                title: "정량적 스코어링",
-                desc: "수익성, 밸류에이션, 성장률 등 핵심 재무지표를 기반으로 A+~F 등급을 산출합니다.",
+                title: t("methodScoring"),
+                desc: t("methodScoringDesc"),
                 accent: "text-blue-500",
               },
               {
-                title: "심층 리서치",
-                desc: "출처가 명확한 12개 이상의 소스를 기반으로 매수 근거, 리스크, 경쟁우위를 분석합니다.",
+                title: t("methodResearch"),
+                desc: t("methodResearchDesc"),
                 accent: "text-violet-500",
               },
               {
-                title: "일일 트래킹",
-                desc: "날짜별 분석 이력을 누적하여 시간에 따른 변화를 추적하고 투자 판단에 활용합니다.",
+                title: t("methodTracking"),
+                desc: t("methodTrackingDesc"),
                 accent: "text-emerald-500",
               },
             ].map((item) => (
               <div key={item.title}>
-                <h3 className={`text-sm font-bold ${item.accent} mb-2`}>{item.title}</h3>
-                <p className="text-sm text-gray-500 dark:text-zinc-400 leading-relaxed">{item.desc}</p>
+                <h3 className={`text-sm font-bold ${item.accent} mb-2`}>
+                  {item.title}
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-zinc-400 leading-relaxed">
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -217,7 +256,7 @@ export default async function Home() {
 
       {/* ─── FOOTER ─── */}
       <footer className="py-8 text-center text-xs text-gray-400 dark:text-zinc-600">
-        <span className="font-medium">Investory</span> · 투자 권유가 아닌 정보 제공 목적입니다
+        <span className="font-medium">Investory</span> · {t("footer")}
       </footer>
     </main>
   );

@@ -4,12 +4,14 @@ import { useTechnicals } from "@/lib/hooks/useTechnicals";
 import { MetricCard, MetricGrid } from "@/components/ui/MetricCard";
 import { SignalIndicator } from "@/components/ui/SignalIndicator";
 import { CardSkeleton } from "@/components/ui/Skeleton";
+import { useTranslations } from "next-intl";
 
 interface TechnicalCardProps {
   symbol: string;
 }
 
 export function TechnicalCard({ symbol }: TechnicalCardProps) {
+  const t = useTranslations("technical");
   const { data: technicals, isLoading } = useTechnicals(symbol);
 
   if (isLoading) {
@@ -19,7 +21,7 @@ export function TechnicalCard({ symbol }: TechnicalCardProps) {
   if (!technicals) {
     return (
       <div className="p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
-        <p className="text-gray-400 dark:text-zinc-500">기술적 지표를 불러올 수 없습니다.</p>
+        <p className="text-gray-400 dark:text-zinc-500">{t("errorLoading")}</p>
       </div>
     );
   }
@@ -36,7 +38,7 @@ export function TechnicalCard({ symbol }: TechnicalCardProps) {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">기술적 분석</h2>
+        <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">{t("title")}</h2>
         <SignalIndicator signal={signals.overall} size="md" />
       </div>
 
@@ -50,10 +52,10 @@ export function TechnicalCard({ symbol }: TechnicalCardProps) {
           </span>
           <span className="text-xs text-gray-400 dark:text-zinc-500">
             {indicators.rsi14 && indicators.rsi14 < 30
-              ? "과매도"
+              ? t("oversold")
               : indicators.rsi14 && indicators.rsi14 > 70
-                ? "과매수"
-                : "중립"}
+                ? t("overbought")
+                : t("neutral")}
           </span>
         </div>
         <MetricCard
@@ -84,21 +86,21 @@ export function TechnicalCard({ symbol }: TechnicalCardProps) {
       {indicators.bollingerBands && (
         <>
           <h3 className="text-md font-medium text-gray-800 dark:text-zinc-200 mt-4">
-            볼린저 밴드
+            {t("bollingerBands")}
           </h3>
           <MetricGrid columns={3}>
             <MetricCard
-              label="상단"
+              label={t("upper")}
               value={indicators.bollingerBands.upper}
               prefix="$"
             />
             <MetricCard
-              label="중간"
+              label={t("middle")}
               value={indicators.bollingerBands.middle}
               prefix="$"
             />
             <MetricCard
-              label="하단"
+              label={t("lower")}
               value={indicators.bollingerBands.lower}
               prefix="$"
             />
@@ -108,14 +110,14 @@ export function TechnicalCard({ symbol }: TechnicalCardProps) {
 
       {/* Signal Details */}
       <div className="mt-4 p-3 bg-gray-100 dark:bg-zinc-800/50 rounded-lg">
-        <h3 className="text-sm font-medium text-gray-800 dark:text-zinc-200 mb-2">신호 요약</h3>
+        <h3 className="text-sm font-medium text-gray-800 dark:text-zinc-200 mb-2">{t("signalSummary")}</h3>
         <div className="flex flex-wrap gap-2 sm:gap-4 text-xs sm:text-sm">
           <span className="text-emerald-500">
-            매수: {signals.summary.buy}
+            {t("buy")}: {signals.summary.buy}
           </span>
-          <span className="text-red-500">매도: {signals.summary.sell}</span>
+          <span className="text-red-500">{t("sell")}: {signals.summary.sell}</span>
           <span className="text-gray-500 dark:text-zinc-400">
-            중립: {signals.summary.neutral}
+            {t("neutral")}: {signals.summary.neutral}
           </span>
         </div>
         <div className="mt-2 space-y-1 max-h-40 overflow-y-auto">

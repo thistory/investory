@@ -16,8 +16,9 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 
 ## 출력 형식
 
-**JSON 파일**로 직접 저장한다:
-- 경로: `data/analysis/reports/{SYMBOL}/{YYYY-MM-DD}.json`
+**한국어 + 영어 JSON 파일**을 동시에 생성한다:
+- 한국어: `data/analysis/reports/{SYMBOL}/{YYYY-MM-DD}.json`
+- 영어: `data/analysis/reports/{SYMBOL}/{YYYY-MM-DD}.en.json`
 - JSON 스키마: `src/data/analysis/types.ts`의 `StockAnalysisReport` 인터페이스를 따른다
 - 서버가 `data/analysis/reports/` 디렉토리를 자동 스캔하므로 별도 등록 작업 불필요
 
@@ -48,9 +49,9 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 - 성장 동력 3-4가지
 - 경쟁우위 (summary + moats + competitors)
 
-### 2단계: JSON 리포트 작성
+### 2단계: JSON 리포트 작성 (한국어 + 영어)
 
-수집한 데이터를 아래 구조의 JSON으로 작성한다.
+수집한 데이터를 아래 구조의 JSON으로 **한국어와 영어 두 파일**로 작성한다.
 
 ```jsonc
 {
@@ -128,10 +129,9 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 
   // 종합 의견 (- 나열식, 3-5개 항목)
   "overallOpinion": [
-    "2/25 Q4 실적 발표 D-4, Meta 다년 파트너십·OpenAI $300억 투자·GB300 삼중 촉매 구간",
-    "Forward P/E 26.9(PEG 0.68)는 62%+ 성장률 대비 여전히 매력적, 39명 중 37명 매수",
-    "중국 점유율 66%→8% 급락, DeepSeek 효율성 충격은 단기 주의 요소",
-    "Q1 FY2027 가이던스 $750억 달성 여부가 목표가 추가 상향의 분수령"
+    "포인트 1",
+    "포인트 2",
+    "포인트 3"
   ],
 
   // 출처 (최소 8개)
@@ -145,7 +145,9 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 
 리포트 JSON에 `snsContent` 필드를 포함한다. **X(Twitter)를 기본 양식**으로 하고, Telegram과 Threads는 X에서 조금씩 변형한다.
 
-#### X(Twitter) 기본 양식 — 모든 플랫폼의 베이스
+#### 한국어 SNS (`.json`)
+
+##### X(Twitter) 기본 양식 — 모든 플랫폼의 베이스
 
 ```
 오늘의투자 {SYMBOL} ({M/D})
@@ -165,6 +167,28 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 상세 분석 👉 investory.kro.kr
 ```
 
+#### 영어 SNS (`.en.json`)
+
+##### X(Twitter) 기본 양식
+
+```
+DailyInvest {SYMBOL} ({M/D})
+- {Key point 1}
+- {Key point 2}
+- {Key point 3}
+- {Key point 4}
+
+⚠️ {Key risk summary | Secondary risk}
+Key: {Most important variable}
+
+Target ${target} (vs current ${price}, +{upside}%)
+{Valuation metric 1} · {Metric 2}
+
+{One-line summary from overall opinion}
+
+Full analysis 👉 investory.kro.kr/en
+```
+
 #### 플랫폼별 변형 규칙
 
 | 플랫폼 | 필드 | 글자수 | X 대비 차이 |
@@ -173,26 +197,9 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 | Threads | `snsContent.threads` | hook 50자, text 280자 이내 | 톤을 약간 캐주얼하게, 이모지 1-2개 추가 |
 | Telegram | `snsContent.telegram` | hook 50자, text 500자 이내 | 이모지 아이콘(📊✅⚠️) 활용, 약간 더 상세한 맥락 추가 |
 
-#### 예시
-
-```json
-"snsContent": {
-  "x": {
-    "hook": "NVIDIA 실적 발표 D-4, 삼중 촉매 구간",
-    "text": "오늘의투자 NVIDIA (2/21)\n- Meta 수백만 대 GPU 다년 계약 체결\n- OpenAI $300억 투자 거의 확정\n- GB300: Hopper 대비 50배 효율·35배 비용절감\n- Q4 컨센서스 $656억(+67%), 초과 달성 전망\n\n⚠️ 옵션 시장 ±7% 변동 내재 | 중국 점유율 8%로 급락\n핵심: Q1 가이던스 $750억 달성 여부\n\n목표가 $256 (현재가 $189.82 대비 +35%)\nForward P/E 26.9 · PEG 0.68\n\nQ1 가이던스가 분수령, 촉매는 충분하다\n\n상세 분석 👉 investory.kro.kr"
-  },
-  "threads": {
-    "hook": "NVIDIA 실적 D-4, 이 촉매 놓치면 안 됨",
-    "text": "오늘의투자 NVIDIA (2/21) 🚀\n- Meta 수백만 대 GPU 다년 계약\n- OpenAI $300억 투자 거의 확정\n- GB300: Hopper 대비 50배 효율\n- Q4 $656억(+67%) 초과 달성 전망\n\n⚠️ 옵션 ±7% 변동 | 중국 점유율 8% 급락\n핵심: Q1 가이던스 $750억\n\n목표가 $256 (현재가 $189.82, +35%)\nPEG 0.68 — 이 성장률에 이 가격?\n\n상세 분석 👉 investory.kro.kr"
-  },
-  "telegram": {
-    "hook": "NVIDIA 실적 D-4, 삼중 촉매가 몰려온다",
-    "text": "📊 오늘의투자 NVIDIA (2/21)\n\n- Meta 수백만 대 GPU 다년 계약 체결\n- OpenAI $300억 투자 거의 확정\n- GB300: Hopper 대비 50배 효율·35배 비용절감\n- Q4 컨센서스 $656억(+67%), 초과 달성 전망\n\n⚠️ 옵션 시장 ±7% 변동 내재 | 중국 점유율 8%로 급락\n🔑 핵심: Q1 가이던스 $750억 달성 여부\n\n🎯 목표가 $256 (현재가 $189.82 대비 +35%)\nForward P/E 26.9 · PEG 0.68\n\n39명 중 37명 매수 의견. 촉매는 충분하지만 Q1 가이던스가 분수령.\n\n상세 분석 👉 investory.kro.kr"
-  }
-}
-```
-
 ## 작성 원칙
+
+### 한국어 리포트 (.json)
 
 1. **쉬운 말로 쓴다** — 투자 초보자도 이해할 수 있게. 전문 용어는 쉬운 설명을 덧붙인다.
 2. **숫자에 근거한다** — 주관적 의견보다 데이터와 수치로 뒷받침한다.
@@ -202,12 +209,22 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 6. **출처 표기** — 모든 수치의 출처를 sources 배열에 포함한다. 최소 8개 이상.
 7. **한국어** — 모든 텍스트는 한국어로 작성한다. 고유명사(회사명, 제품명)는 영어 유지.
 
+### 영어 리포트 (.en.json)
+
+1. **US financial media style** — Bloomberg/WSJ/CNBC 톤. 전문적이면서도 개인 투자자가 이해할 수 있게.
+2. **Same data, different language** — 한국어 리포트와 동일한 수치, 출처, 분석을 영어로 작성.
+3. **Natural English** — 한국어를 직역하지 않는다. 네이티브가 쓴 것처럼 자연스럽게.
+4. **Metric names in English** — "P/E Ratio", "Revenue Growth (YoY)", "Operating Margin" 등.
+5. **Sources descriptions in English** — 같은 URL이라도 description은 영어로.
+6. **SNS content in English** — "DailyInvest" 대신 "오늘의투자" 사용하지 않음. 영어 자연스러운 표현.
+
 ## 기존 리포트가 있는 경우
 
 같은 종목의 이전 리포트가 있다면 `data/analysis/reports/{SYMBOL}/` 에서 가장 최근 파일을 읽고:
 - **변경된 부분만 업데이트** (뉴스, 가격, 애널리스트 의견, 기술적 위치 등)
 - **변경되지 않은 기본 정보**는 그대로 재사용 (businessSummary, growthDrivers, competitiveAdvantage 등)
 - **snsContent는 재사용하지 않는다** — 매번 최신 데이터로 새로 생성
+- **한국어와 영어 모두 업데이트** — 한국어 .json과 영어 .en.json 동시 작성
 - 이렇게 하면 작업 시간이 크게 단축된다
 
 ## 검색 전략

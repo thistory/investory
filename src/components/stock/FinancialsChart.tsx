@@ -13,6 +13,7 @@ import {
 } from "recharts";
 import { useFinancials, FinancialReport } from "@/lib/hooks/useFinancials";
 import { CardSkeleton } from "@/components/ui/Skeleton";
+import { useTranslations } from "next-intl";
 
 interface FinancialsChartProps {
   symbol: string;
@@ -85,6 +86,7 @@ function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
 }
 
 export function FinancialsChart({ symbol }: FinancialsChartProps) {
+  const t = useTranslations("financials");
   const { data, isLoading, error } = useFinancials(symbol);
   const [viewMode, setViewMode] = useState<ViewMode>("annual");
 
@@ -111,7 +113,7 @@ export function FinancialsChart({ symbol }: FinancialsChartProps) {
     <div className="p-4 sm:p-6 bg-gray-50 dark:bg-zinc-900 rounded-lg">
       <div className="flex items-center justify-between mb-5">
         <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">
-          매출 & 순이익
+          {t("revenueAndIncome")}
         </h2>
         <div className="flex bg-gray-200 dark:bg-zinc-800 rounded-lg p-0.5">
           <button
@@ -122,7 +124,7 @@ export function FinancialsChart({ symbol }: FinancialsChartProps) {
                 : "text-gray-500 dark:text-zinc-400 hover:text-gray-700 dark:hover:text-zinc-300"
             }`}
           >
-            연간
+            {t("annual")}
           </button>
           <button
             onClick={() => setViewMode("quarterly")}
@@ -132,7 +134,7 @@ export function FinancialsChart({ symbol }: FinancialsChartProps) {
                 : "text-gray-500 dark:text-zinc-400 hover:text-gray-700 dark:hover:text-zinc-300"
             }`}
           >
-            분기별
+            {t("quarterly")}
           </button>
         </div>
       </div>
@@ -141,12 +143,12 @@ export function FinancialsChart({ symbol }: FinancialsChartProps) {
       <div className="flex items-center gap-4 mb-4">
         <div className="flex items-center gap-1.5">
           <span className="w-3 h-3 rounded-sm bg-blue-500" />
-          <span className="text-xs text-gray-500 dark:text-zinc-400">매출</span>
+          <span className="text-xs text-gray-500 dark:text-zinc-400">{t("revenue")}</span>
         </div>
         <div className="flex items-center gap-1.5">
           <span className="w-3 h-3 rounded-sm bg-emerald-500" />
           <span className="text-xs text-gray-500 dark:text-zinc-400">
-            순이익
+            {t("netIncome")}
           </span>
         </div>
       </div>
@@ -185,14 +187,14 @@ export function FinancialsChart({ symbol }: FinancialsChartProps) {
             <Tooltip content={<CustomTooltip />} cursor={{ fill: "rgba(107, 114, 128, 0.1)" }} />
             <Bar
               dataKey="revenue"
-              name="매출"
+              name={t("revenue")}
               fill="#3b82f6"
               radius={[4, 4, 0, 0]}
               maxBarSize={48}
             />
             <Bar
               dataKey="netIncome"
-              name="순이익"
+              name={t("netIncome")}
               fill="#10b981"
               radius={[4, 4, 0, 0]}
               maxBarSize={48}
@@ -206,10 +208,10 @@ export function FinancialsChart({ symbol }: FinancialsChartProps) {
         <table className="w-full text-xs">
           <thead>
             <tr className="text-gray-400 dark:text-zinc-500 border-b border-gray-200 dark:border-zinc-800">
-              <th className="text-left py-2 pr-3 font-medium">기간</th>
-              <th className="text-right py-2 px-3 font-medium">매출</th>
-              <th className="text-right py-2 px-3 font-medium">순이익</th>
-              <th className="text-right py-2 pl-3 font-medium">순이익률</th>
+              <th className="text-left py-2 pr-3 font-medium">{t("period")}</th>
+              <th className="text-right py-2 px-3 font-medium">{t("revenue")}</th>
+              <th className="text-right py-2 px-3 font-medium">{t("netIncome")}</th>
+              <th className="text-right py-2 pl-3 font-medium">{t("netMargin")}</th>
             </tr>
           </thead>
           <tbody>

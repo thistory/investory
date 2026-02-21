@@ -1,39 +1,42 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { getAnalysisByDate, getAllAnalyses } from "@/data/analysis";
 import { AnalysisReport } from "@/components/stock/AnalysisReport";
 import { ShareButtons } from "@/components/stock/ShareButtons";
 import { notFound } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 
 interface AnalysisDatePageProps {
-  params: Promise<{ symbol: string; date: string }>;
+  params: Promise<{ symbol: string; date: string; locale: string }>;
 }
 
 export default async function AnalysisDatePage({
   params,
 }: AnalysisDatePageProps) {
-  const { symbol, date } = await params;
+  const { symbol, date, locale } = await params;
   const upperSymbol = symbol.toUpperCase();
-  const report = getAnalysisByDate(upperSymbol, date);
+  const report = getAnalysisByDate(upperSymbol, date, locale as "ko" | "en");
+  const t = await getTranslations({ locale, namespace: "stock" });
 
   if (!report) {
     notFound();
   }
 
-  // 이전/다음 분석 찾기
-  const allReports = getAllAnalyses(upperSymbol);
+  const allReports = getAllAnalyses(upperSymbol, locale as "ko" | "en");
   const currentIndex = allReports.findIndex((r) => r.analysisDate === date);
   const newerReport = currentIndex > 0 ? allReports[currentIndex - 1] : null;
   const olderReport =
     currentIndex < allReports.length - 1 ? allReports[currentIndex + 1] : null;
 
+  // JSON-LD uses only trusted, server-generated content (no user input)
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: `${upperSymbol} ${report.companyName} — ${date} 심층 분석`,
+    headline: `${upperSymbol} ${report.companyName} — ${date} ${t("depthAnalysis")}`,
     datePublished: date,
     author: { "@type": "Organization", name: "Investory" },
     publisher: { "@type": "Organization", name: "Investory" },
     description: report.businessSummary.oneLiner,
+    inLanguage: locale === "ko" ? "ko-KR" : "en-US",
   };
 
   return (
@@ -49,7 +52,7 @@ export default async function AnalysisDatePage({
             href={`/stock/${upperSymbol}/analysis`}
             className="inline-flex items-center gap-1 text-sm text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-300 transition-colors"
           >
-            ← 분석 히스토리
+            {t("backToHistory")}
           </Link>
           <div className="flex items-center gap-2">
             {olderReport && (
@@ -79,7 +82,7 @@ export default async function AnalysisDatePage({
           <ShareButtons
             symbol={upperSymbol}
             date={date}
-            title={`${upperSymbol} ${report.companyName} 심층 분석`}
+            title={`${upperSymbol} ${report.companyName} ${t("depthAnalysis")}`}
             description={report.businessSummary.oneLiner}
             snsXText={report.snsContent?.x?.text}
             snsThreadsText={report.snsContent?.threads.text}
@@ -94,21 +97,23 @@ export default async function AnalysisDatePage({
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ symbol: string; date: string }>;
+  params: Promise<{ symbol: string; date: string; locale: string }>;
 }) {
-  const { symbol, date } = await params;
+  const { symbol, date, locale } = await params;
   const upper = symbol.toUpperCase();
-  const report = getAnalysisByDate(upper, date);
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
-  const url = `${baseUrl}/stock/${upper}/analysis/${date}`;
+  const report = getAnalysisByDate(upper, date, locale as "ko" | "en");
+  const t = await getTranslations({ locale, namespace: "stock" });
+  const baseUrl =
+    process.env.NEXT_PUBLIC_BASE_URL || "https://investory.kro.kr";
+  const url = `${baseUrl}/${locale}/stock/${upper}/analysis/${date}`;
 
   const title = report
-    ? `${upper} ${report.companyName} — ${date} 분석`
-    : `${upper} - ${date} 분석`;
+    ? `${upper} ${report.companyName} — ${date} ${t("depthAnalysis")}`
+    : `${upper} - ${date} ${t("depthAnalysis")}`;
   const description = report
     ? report.snsContent?.threads.hook ||
-      `${report.businessSummary.oneLiner} | 목표가 $${report.analystOpinions.consensusTarget} (+${report.analystOpinions.upsidePercent}%)`
-    : `${upper} 종목 ${date} 심층 분석 리포트`;
+      `${report.businessSummary.oneLiner} | Target $${report.analystOpinions.consensusTarget} (+${report.analystOpinions.upsidePercent}%)`
+    : `${upper} ${date} ${t("depthAnalysis")}`;
 
   return {
     title,
@@ -119,6 +124,7 @@ export async function generateMetadata({
       url,
       type: "article",
       siteName: "Investory",
+      locale: locale === "ko" ? "ko_KR" : "en_US",
     },
     twitter: {
       card: "summary_large_image",
@@ -126,7 +132,11 @@ export async function generateMetadata({
       description,
     },
     alternates: {
-      canonical: `/stock/${upper}/analysis/${date}`,
+      canonical: `/${locale}/stock/${upper}/analysis/${date}`,
+      languages: {
+        ko: `/ko/stock/${upper}/analysis/${date}`,
+        en: `/en/stock/${upper}/analysis/${date}`,
+      },
     },
   };
 }

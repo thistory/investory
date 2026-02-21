@@ -5,6 +5,7 @@ import { useProfile } from "@/lib/hooks/useProfile";
 import { ChangeIndicator } from "@/components/ui/ChangeIndicator";
 import { HeaderSkeleton } from "@/components/ui/Skeleton";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface StockHeaderProps {
   symbol: string;
@@ -24,6 +25,7 @@ function PriceCandle({
   close: number;
   previousClose: number;
 }) {
+  const t = useTranslations("stockHeader");
   const allPrices = [open, high, low, close, previousClose];
   const minPrice = Math.min(...allPrices);
   const maxPrice = Math.max(...allPrices);
@@ -68,11 +70,11 @@ function PriceCandle({
   };
 
   const labels: Label[] = [
-    { price: high, origY: toY(high), y: toY(high), text: "고가", side: "right", color: "#ef4444", dot: true },
-    { price: low, origY: toY(low), y: toY(low), text: "저가", side: "right", color: "#3b82f6", dot: true },
-    { price: close, origY: closeY, y: closeY, text: "현재", side: "right", color: color, bold: true, dot: true },
-    { price: open, origY: toY(open), y: toY(open), text: "시가", side: "left", color: "#9ca3af", dot: true },
-    { price: previousClose, origY: prevY, y: prevY, text: "전일종가", side: "left", color: "#f59e0b", dot: true },
+    { price: high, origY: toY(high), y: toY(high), text: t("high"), side: "right", color: "#ef4444", dot: true },
+    { price: low, origY: toY(low), y: toY(low), text: t("low"), side: "right", color: "#3b82f6", dot: true },
+    { price: close, origY: closeY, y: closeY, text: t("current"), side: "right", color: color, bold: true, dot: true },
+    { price: open, origY: toY(open), y: toY(open), text: t("open"), side: "left", color: "#9ca3af", dot: true },
+    { price: previousClose, origY: prevY, y: prevY, text: t("previousClose"), side: "left", color: "#f59e0b", dot: true },
   ];
 
   // Separate and de-overlap each side independently
@@ -312,6 +314,7 @@ function PriceCandle({
 }
 
 export function StockHeader({ symbol }: StockHeaderProps) {
+  const t = useTranslations("stockHeader");
   const { data: quote, isLoading: quoteLoading, isError: quoteError } = useQuote(symbol);
   const { data: profile, isLoading: profileLoading, isError: profileError } = useProfile(symbol);
   const [showCompareInput, setShowCompareInput] = useState(false);
@@ -335,7 +338,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
           {symbol}
         </p>
         <p className="text-sm text-gray-400 dark:text-zinc-500 mb-6">
-          해당 종목은 현재 준비 중입니다
+          {t("stockNotReady")}
         </p>
         <a
           href="/"
@@ -344,7 +347,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
           </svg>
-          홈으로 돌아가기
+          {t("goHome")}
         </a>
       </div>
     );
@@ -376,7 +379,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
             onClick={() => setShowCompareInput(true)}
             className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors"
           >
-            종목 비교하기
+            {t("compareStock")}
           </button>
         ) : (
           <div className="flex gap-2 items-center">
@@ -385,7 +388,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
               value={compareSymbol}
               onChange={(e) => setCompareSymbol(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleCompare()}
-              placeholder="비교할 종목 심볼 (예: MSFT)"
+              placeholder={t("compareSymbolPlaceholder")}
               className="px-3 py-2 bg-gray-100 dark:bg-zinc-800 text-gray-900 dark:text-zinc-100 text-sm rounded-lg border border-zinc-700 focus:border-blue-500 focus:outline-none w-48"
               autoFocus
             />
@@ -393,7 +396,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
               onClick={handleCompare}
               className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors"
             >
-              비교
+              {t("compare")}
             </button>
             <button
               onClick={() => {
@@ -402,7 +405,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
               }}
               className="px-3 py-2 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 text-gray-500 dark:text-zinc-400 text-sm font-medium rounded-lg transition-colors"
             >
-              취소
+              {t("cancel")}
             </button>
           </div>
         )}
@@ -451,7 +454,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
                 )}
               </div>
               <div className="text-xs sm:text-sm text-gray-400 dark:text-zinc-500 mt-1">
-                시가총액:{" "}
+                {t("marketCap")}:{" "}
                 {formatMarketCap(quote?.marketCap || profile?.marketCap)}
               </div>
             </div>
@@ -522,7 +525,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
                 quote.trading?.["52WeekHigh"] && (
                   <div className="hidden md:flex flex-col items-center gap-1 flex-shrink-0">
                     <span className="text-[10px] text-gray-400 dark:text-zinc-500 font-medium">
-                      52주
+                      {t("fiftyTwoWeek")}
                     </span>
                     <div className="flex flex-col items-center gap-0.5">
                       <span className="text-[10px] tabular-nums text-gray-500 dark:text-zinc-400">
@@ -560,7 +563,7 @@ export function StockHeader({ symbol }: StockHeaderProps) {
               quote.trading?.["52WeekHigh"] && (
                 <div className="flex md:hidden items-center gap-2 mt-3 pt-3 border-t border-gray-100 dark:border-zinc-800/50">
                   <span className="text-[10px] text-gray-400 dark:text-zinc-500 font-medium flex-shrink-0">
-                    52주
+                    {t("fiftyTwoWeek")}
                   </span>
                   <span className="text-[10px] tabular-nums text-gray-500 dark:text-zinc-400">
                     ${quote.trading["52WeekLow"].toFixed(0)}

@@ -2,6 +2,7 @@
 
 import { useSocial, SentimentTrend, RecentNewsItem } from "@/lib/hooks/useSocial";
 import { CardSkeleton } from "@/components/ui/Skeleton";
+import { useTranslations } from "next-intl";
 
 interface SocialFeedProps {
   symbol: string;
@@ -12,23 +13,24 @@ function formatDate(dateStr: string): string {
   return `${date.getMonth() + 1}/${date.getDate()}`;
 }
 
-function timeAgo(dateStr: string): string {
+function timeAgo(dateStr: string, t: (key: string, values?: Record<string, string | number>) => string): string {
   const now = new Date();
   const past = new Date(dateStr);
   const diffMs = now.getTime() - past.getTime();
   const diffHours = Math.floor(diffMs / 3600000);
   const diffDays = Math.floor(diffMs / 86400000);
 
-  if (diffHours < 1) return "방금 전";
-  if (diffHours < 24) return `${diffHours}시간 전`;
-  if (diffDays < 7) return `${diffDays}일 전`;
+  if (diffHours < 1) return t("justNow");
+  if (diffHours < 24) return t("hoursAgo", { count: diffHours });
+  if (diffDays < 7) return t("daysAgo", { count: diffDays });
   return formatDate(dateStr);
 }
 
 function SentimentMiniChart({ trend }: { trend: SentimentTrend[] }) {
+  const t = useTranslations("social");
   if (!trend || trend.length === 0) return null;
 
-  const maxMentions = Math.max(...trend.map((t) => t.mentions), 1);
+  const maxMentions = Math.max(...trend.map((item) => item.mentions), 1);
 
   return (
     <div className="flex items-end gap-1 h-16">
@@ -41,7 +43,7 @@ function SentimentMiniChart({ trend }: { trend: SentimentTrend[] }) {
           <div
             key={i}
             className="flex-1 flex flex-col items-center gap-1"
-            title={`${formatDate(item.date)}: ${item.mentions}건, 점수: ${item.score.toFixed(2)}`}
+            title={t("mentionsTooltip", { date: formatDate(item.date), count: item.mentions, score: item.score.toFixed(2) })}
           >
             <div
               className={`w-full rounded-t transition-all ${
@@ -80,21 +82,22 @@ function SentimentBadge({
 }: {
   sentiment: "bullish" | "bearish" | "neutral";
 }) {
+  const t = useTranslations("social");
   const config = {
     bullish: {
       bg: "bg-emerald-500/20",
       text: "text-emerald-400",
-      label: "긍정",
+      label: t("positive"),
     },
     bearish: {
       bg: "bg-red-500/20",
       text: "text-red-400",
-      label: "부정",
+      label: t("negative"),
     },
     neutral: {
       bg: "bg-zinc-500/20",
       text: "text-gray-500 dark:text-zinc-400",
-      label: "중립",
+      label: t("neutral"),
     },
   };
 
@@ -108,6 +111,7 @@ function SentimentBadge({
 }
 
 function NewsItem({ news }: { news: RecentNewsItem }) {
+  const t = useTranslations("social");
   return (
     <a
       href={news.url}
@@ -124,7 +128,7 @@ function NewsItem({ news }: { news: RecentNewsItem }) {
       <div className="flex items-center gap-2 mt-2 text-xs text-gray-400 dark:text-zinc-500">
         <span>{news.source}</span>
         <span>•</span>
-        <span>{timeAgo(news.datetime)}</span>
+        <span>{timeAgo(news.datetime, t)}</span>
         <span className="ml-auto text-gray-400 dark:text-zinc-600 group-hover:text-gray-500 dark:text-zinc-400 transition-colors">
           ↗
         </span>
@@ -134,6 +138,7 @@ function NewsItem({ news }: { news: RecentNewsItem }) {
 }
 
 export function SocialFeed({ symbol }: SocialFeedProps) {
+  const t = useTranslations("social");
   const { data, isLoading, error } = useSocial(symbol);
 
   if (isLoading) {
@@ -143,7 +148,7 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
   if (error || !data) {
     return (
       <div className="p-6 bg-gray-50 dark:bg-zinc-900 rounded-lg">
-        <p className="text-gray-400 dark:text-zinc-500">센티먼트 데이터를 불러올 수 없습니다.</p>
+        <p className="text-gray-400 dark:text-zinc-500">{t("errorLoading")}</p>
       </div>
     );
   }
@@ -153,14 +158,14 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">뉴스 센티먼트</h2>
+        <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">{t("newsSentiment")}</h2>
         <span className="text-xs text-gray-400 dark:text-zinc-500">{dataSource || "Finnhub"}</span>
       </div>
 
       {/* Sentiment Summary */}
       <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
         <div className="flex items-center justify-between mb-3">
-          <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">뉴스 심리</span>
+          <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">{t("newsMood")}</span>
           <span
             className={`text-sm font-medium ${
               sentiment.overallSentiment === "bullish"
@@ -171,10 +176,10 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
             }`}
           >
             {sentiment.overallSentiment === "bullish"
-              ? "🐂 강세"
+              ? t("bullishEmoji")
               : sentiment.overallSentiment === "bearish"
-                ? "🐻 약세"
-                : "중립"}
+                ? t("bearishEmoji")
+                : t("neutral")}
           </span>
         </div>
 
@@ -192,11 +197,11 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
 
         <div className="flex justify-between mt-2 text-xs">
           <span className="text-emerald-400">
-            긍정 {sentiment.bullish} ({sentiment.bullishPercent.toFixed(0)}%)
+            {t("positiveCount", { count: sentiment.bullish, percent: sentiment.bullishPercent.toFixed(0) })}
           </span>
-          <span className="text-gray-400 dark:text-zinc-500">최근 뉴스 {sentiment.total}건</span>
+          <span className="text-gray-400 dark:text-zinc-500">{t("recentNewsCount", { count: sentiment.total })}</span>
           <span className="text-red-400">
-            부정 {sentiment.bearish} ({sentiment.bearishPercent.toFixed(0)}%)
+            {t("negativeCount", { count: sentiment.bearish, percent: sentiment.bearishPercent.toFixed(0) })}
           </span>
         </div>
       </div>
@@ -204,7 +209,7 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
       {/* Score Gauge */}
       <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
         <div className="flex items-center justify-between mb-2">
-          <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">평균 센티먼트 점수</span>
+          <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">{t("avgSentimentScore")}</span>
           <span
             className={`text-sm font-mono font-medium ${
               sentiment.avgScore > 0.05
@@ -220,9 +225,9 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
         </div>
         <ScoreGauge score={sentiment.avgScore} />
         <div className="flex justify-between mt-1 text-xs text-gray-400 dark:text-zinc-600">
-          <span>약세</span>
-          <span>중립</span>
-          <span>강세</span>
+          <span>{t("bearish")}</span>
+          <span>{t("neutral")}</span>
+          <span>{t("bullish")}</span>
         </div>
       </div>
 
@@ -230,8 +235,8 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
       {trend && trend.length > 0 && (
         <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
           <div className="flex items-center justify-between mb-3">
-            <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">일별 뉴스 추이</span>
-            <span className="text-xs text-gray-400 dark:text-zinc-600">최근 {trend.length}일</span>
+            <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">{t("dailyNewsTrend")}</span>
+            <span className="text-xs text-gray-400 dark:text-zinc-600">{t("recentDays", { count: trend.length })}</span>
           </div>
           <SentimentMiniChart trend={trend} />
           <div className="flex justify-between mt-2 text-xs text-gray-400 dark:text-zinc-600">
@@ -247,8 +252,8 @@ export function SocialFeed({ symbol }: SocialFeedProps) {
       {recentNews && recentNews.length > 0 && (
         <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
           <div className="flex items-center justify-between mb-3">
-            <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">최근 뉴스</span>
-            <span className="text-xs text-gray-400 dark:text-zinc-600">{recentNews.length}건</span>
+            <span className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">{t("recentNews")}</span>
+            <span className="text-xs text-gray-400 dark:text-zinc-600">{t("newsCount", { count: recentNews.length })}</span>
           </div>
           <div className="space-y-2 max-h-[600px] overflow-y-auto pr-1 custom-scrollbar">
             {recentNews.map((news, i) => (

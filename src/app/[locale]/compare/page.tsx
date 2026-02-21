@@ -2,6 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
+import { useTranslations } from "next-intl";
 import { StockHeader } from "@/components/stock/StockHeader";
 import { InvestmentScoreCard } from "@/components/stock/InvestmentScoreCard";
 import { ValuationCard } from "@/components/stock/ValuationCard";
@@ -13,17 +14,18 @@ import { useScore } from "@/lib/hooks/useScore";
 function ComparePageContent() {
   const searchParams = useSearchParams();
   const symbolsParam = searchParams.get("symbols");
+  const t = useTranslations("compare");
 
   if (!symbolsParam) {
     return (
       <div className="min-h-screen bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">종목 비교</h1>
+          <h1 className="text-2xl font-bold mb-4">{t("title")}</h1>
           <p className="text-gray-500 dark:text-zinc-400 mb-4">
-            URL에 비교할 종목을 지정해주세요
+            {t("noSymbols")}
           </p>
           <p className="text-sm text-gray-400 dark:text-zinc-500">
-            예: /compare?symbols=AAPL,MSFT
+            {t("noSymbolsExample")}
           </p>
         </div>
       </div>
@@ -39,10 +41,12 @@ function ComparePageContent() {
     return (
       <div className="min-h-screen bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">종목 비교</h1>
-          <p className="text-gray-500 dark:text-zinc-400 mb-4">정확히 2개의 종목을 지정해주세요</p>
+          <h1 className="text-2xl font-bold mb-4">{t("title")}</h1>
+          <p className="text-gray-500 dark:text-zinc-400 mb-4">
+            {t("twoRequired")}
+          </p>
           <p className="text-sm text-gray-400 dark:text-zinc-500">
-            현재: {symbols.length}개 종목
+            {t("currentCount", { count: symbols.length })}
           </p>
         </div>
       </div>
@@ -63,6 +67,7 @@ function CompareView({
 }) {
   const { data: leftScore } = useScore(leftSymbol);
   const { data: rightScore } = useScore(rightSymbol);
+  const t = useTranslations("compare");
 
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100">
@@ -70,7 +75,7 @@ function CompareView({
         {/* Page Header */}
         <div className="mb-6">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-zinc-100 mb-2">
-            종목 비교
+            {t("title")}
           </h1>
           <p className="text-sm sm:text-base text-gray-500 dark:text-zinc-400">
             {leftSymbol} vs {rightSymbol}
@@ -119,11 +124,12 @@ function CompareView({
 }
 
 export default function ComparePage() {
+  const t = useTranslations("compare");
   return (
     <Suspense
       fallback={
         <div className="min-h-screen bg-white dark:bg-zinc-950 flex items-center justify-center">
-          <div className="text-gray-500 dark:text-zinc-400">로딩 중...</div>
+          <div className="text-gray-500 dark:text-zinc-400">{t("loading")}</div>
         </div>
       }
     >

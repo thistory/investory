@@ -7,9 +7,10 @@ import { CompanyDescription } from "@/components/stock/CompanyDescription";
 import { SocialFeed } from "@/components/stock/SocialFeed";
 import { AnalysisSummaryCard } from "@/components/stock/AnalysisSummaryCard";
 import { FinancialsChartLoader } from "@/components/stock/FinancialsChartLoader";
+import { getTranslations } from "next-intl/server";
 
 interface StockPageProps {
-  params: Promise<{ symbol: string }>;
+  params: Promise<{ symbol: string; locale: string }>;
 }
 
 export default async function StockPage({ params }: StockPageProps) {
@@ -40,19 +41,29 @@ export default async function StockPage({ params }: StockPageProps) {
   );
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ symbol: string }> }) {
-  const { symbol } = await params;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ symbol: string; locale: string }>;
+}) {
+  const { symbol, locale } = await params;
   const upper = symbol.toUpperCase();
+  const t = await getTranslations({ locale, namespace: "stock" });
+
   return {
-    title: `${upper} - 주식 분석`,
-    description: `${upper} 종목의 실시간 시세, 기술적 분석, 밸류에이션 정보`,
+    title: `${upper} - ${t("analysis")}`,
+    description: `${upper} ${t("analysisDesc")}`,
     openGraph: {
-      title: `${upper} - 주식 분석`,
-      description: `${upper} 종목의 실시간 시세, 기술적 분석, 밸류에이션 정보`,
-      url: `/stock/${upper}`,
+      title: `${upper} - ${t("analysis")}`,
+      description: `${upper} ${t("analysisDesc")}`,
+      url: `/${locale}/stock/${upper}`,
     },
     alternates: {
-      canonical: `/stock/${upper}`,
+      canonical: `/${locale}/stock/${upper}`,
+      languages: {
+        ko: `/ko/stock/${upper}`,
+        en: `/en/stock/${upper}`,
+      },
     },
   };
 }

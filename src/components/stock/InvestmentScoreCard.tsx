@@ -2,12 +2,14 @@
 
 import { useScore } from "@/lib/hooks/useScore";
 import { Skeleton } from "@/components/ui/Skeleton";
+import { useTranslations } from "next-intl";
 
 interface InvestmentScoreCardProps {
   symbol: string;
 }
 
 export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
+  const t = useTranslations("score");
   const { data: score, isLoading, error } = useScore(symbol);
 
   if (isLoading) {
@@ -18,7 +20,7 @@ export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
     return (
       <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg p-4 sm:p-6">
         <div className="text-gray-500 dark:text-zinc-400 text-sm">
-          점수 데이터를 불러올 수 없습니다
+          {t("errorLoading")}
         </div>
       </div>
     );
@@ -30,10 +32,10 @@ export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-zinc-100 mb-1">
-            투자 점수
+            {t("title")}
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">
-            종합 투자 가치 평가
+            {t("subtitle")}
           </p>
         </div>
         <div className="text-right">
@@ -65,31 +67,31 @@ export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
       <div className="space-y-3 mb-6">
         <ScoreBar
           label="Quality"
-          sublabel="품질"
+          sublabel={t("quality")}
           score={score.scores.quality}
           maxScore={100}
         />
         <ScoreBar
           label="Moat"
-          sublabel="경쟁우위"
+          sublabel={t("moat")}
           score={score.scores.moat}
           maxScore={100}
         />
         <ScoreBar
           label="Value"
-          sublabel="가치"
+          sublabel={t("value")}
           score={score.scores.value}
           maxScore={100}
         />
         <ScoreBar
           label="Growth"
-          sublabel="성장성"
+          sublabel={t("growth")}
           score={score.scores.growth}
           maxScore={100}
         />
         <ScoreBar
           label="Momentum"
-          sublabel="모멘텀"
+          sublabel={t("momentum")}
           score={score.scores.momentum}
           maxScore={100}
         />
@@ -99,7 +101,7 @@ export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
       {score.insights && score.insights.length > 0 && (
         <div className="border-t border-gray-200 dark:border-zinc-800 pt-4">
           <h3 className="text-sm font-semibold text-gray-700 dark:text-zinc-300 mb-3">
-            핵심 인사이트
+            {t("keyInsights")}
           </h3>
           <div className="space-y-2">
             {score.insights.slice(0, 5).map((insight, index) => (
@@ -111,13 +113,14 @@ export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
 
       {/* Timestamp */}
       <div className="mt-4 text-xs text-gray-400 dark:text-zinc-500">
-        계산 시각: {new Date(score.calculatedAt).toLocaleString("ko-KR")}
+        {t("calculatedAt")}: {new Date(score.calculatedAt).toLocaleString()}
       </div>
     </div>
   );
 }
 
 function GradeBadge({ grade }: { grade: string }) {
+  const t = useTranslations("score");
   const getGradeColor = (grade: string) => {
     if (grade === "A+" || grade === "A") return "bg-green-500/20 text-green-400";
     if (grade === "B") return "bg-blue-500/20 text-blue-400";
@@ -132,7 +135,7 @@ function GradeBadge({ grade }: { grade: string }) {
         grade
       )}`}
     >
-      등급 {grade}
+      {t("grade")} {grade}
     </span>
   );
 }

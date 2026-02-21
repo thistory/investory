@@ -9,15 +9,16 @@ interface AnalysisPage {
 
 const PAGE_SIZE = 20;
 
-export function useAnalysisList(symbol?: string) {
+export function useAnalysisList(symbol?: string, locale?: string) {
   return useInfiniteQuery({
-    queryKey: ["analysis-list", symbol ?? "all"],
+    queryKey: ["analysis-list", symbol ?? "all", locale ?? "ko"],
     queryFn: async ({ pageParam = 0 }) => {
       const params = new URLSearchParams({
         cursor: String(pageParam),
         limit: String(PAGE_SIZE),
       });
       if (symbol) params.set("symbol", symbol);
+      if (locale) params.set("locale", locale);
 
       const res = await fetch(`/api/analysis?${params}`);
       const json = await res.json();

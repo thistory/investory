@@ -1,11 +1,13 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { getLatestAnalysis, getAllAnalyses } from "@/data/analysis";
+import { getTranslations } from "next-intl/server";
 
 interface AnalysisSummaryCardProps {
   symbol: string;
 }
 
-export function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
+export async function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
+  const t = await getTranslations("summary");
   const latest = getLatestAnalysis(symbol);
   const allReports = getAllAnalyses(symbol);
 
@@ -19,17 +21,17 @@ export function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
       <div className="flex items-start justify-between mb-4">
         <div>
           <h2 className="text-lg sm:text-xl font-semibold mb-1">
-            심층 분석 요약
+            {t("title")}
           </h2>
           <p className="text-xs text-gray-400 dark:text-zinc-500">
-            최종 분석일: {latest.analysisDate} · 총 {allReports.length}회 분석
+            {t("lastAnalysis", { date: latest.analysisDate, count: allReports.length })}
           </p>
         </div>
         <Link
           href={`/stock/${symbol}/analysis`}
           className="px-3 py-1.5 text-xs font-medium bg-blue-600/20 text-blue-600 dark:text-blue-400 hover:bg-blue-600/30 rounded-lg transition-colors whitespace-nowrap"
         >
-          전체 보기 →
+          {t("viewAll")}
         </Link>
       </div>
 
@@ -43,25 +45,25 @@ export function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
       {/* Key Stats Row */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
         <div className="p-2.5 bg-gray-100 dark:bg-zinc-800/50 rounded-lg text-center">
-          <div className="text-xs text-gray-400 dark:text-zinc-500">현재가</div>
+          <div className="text-xs text-gray-400 dark:text-zinc-500">{t("currentPrice")}</div>
           <div className="text-base font-bold font-mono">
             ${latest.currentPrice}
           </div>
         </div>
         <div className="p-2.5 bg-gray-100 dark:bg-zinc-800/50 rounded-lg text-center">
-          <div className="text-xs text-gray-400 dark:text-zinc-500">시가총액</div>
+          <div className="text-xs text-gray-400 dark:text-zinc-500">{t("marketCap")}</div>
           <div className="text-base font-bold font-mono">
             {latest.marketCap}
           </div>
         </div>
         <div className="p-2.5 bg-gray-100 dark:bg-zinc-800/50 rounded-lg text-center">
-          <div className="text-xs text-gray-400 dark:text-zinc-500">목표가</div>
+          <div className="text-xs text-gray-400 dark:text-zinc-500">{t("targetPrice")}</div>
           <div className="text-base font-bold font-mono text-blue-600 dark:text-blue-400">
             ${latest.analystOpinions.consensusTarget}
           </div>
         </div>
         <div className="p-2.5 bg-gray-100 dark:bg-zinc-800/50 rounded-lg text-center">
-          <div className="text-xs text-gray-400 dark:text-zinc-500">업사이드</div>
+          <div className="text-xs text-gray-400 dark:text-zinc-500">{t("upside")}</div>
           <div className="text-base font-bold font-mono text-emerald-600 dark:text-emerald-400">
             +{latest.analystOpinions.upsidePercent}%
           </div>
@@ -71,7 +73,7 @@ export function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
       {/* Buy Reasons */}
       <div className="mb-4">
         <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-2">
-          ✅ 사야 하는 이유
+          {t("buyReasons")}
         </h3>
         <div className="space-y-1.5">
           {latest.buyReasons.map((reason, i) => (
@@ -90,7 +92,7 @@ export function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
       {topRisk && (
         <div className="mb-4">
           <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-2">
-            ⚠️ 최대 리스크
+            {t("topRisk")}
           </h3>
           <div
             className={`p-2.5 rounded-lg text-sm ${
@@ -121,13 +123,13 @@ export function AnalysisSummaryCard({ symbol }: AnalysisSummaryCardProps) {
       {/* Sources count + link */}
       <div className="flex items-center justify-between text-xs text-gray-400 dark:text-zinc-500">
         <span>
-          출처 {latest.sources.length}건 · 뉴스 {latest.recentNews.length}건
+          {t("sources", { sourceCount: latest.sources.length, newsCount: latest.recentNews.length })}
         </span>
         <Link
           href={`/stock/${symbol}/analysis/${latest.analysisDate}`}
           className="text-blue-600 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 transition-colors"
         >
-          상세 분석 보기 →
+          {t("viewDetail")}
         </Link>
       </div>
     </div>

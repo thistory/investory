@@ -1,8 +1,9 @@
 "use client";
 
 import { useRef, useEffect, useDeferredValue, useState, useMemo, useCallback } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Fuse from "fuse.js";
+import { useTranslations, useLocale } from "next-intl";
 import { useAnalysisList } from "@/lib/hooks/useAnalysisList";
 import type { AnalysisIndexEntry } from "@/data/analysis/types";
 
@@ -19,6 +20,8 @@ interface Props {
 export default function AnalysisListClient({ symbols }: Props) {
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
+  const t = useTranslations("analysis");
+  const locale = useLocale();
 
   const {
     data,
@@ -26,7 +29,7 @@ export default function AnalysisListClient({ symbols }: Props) {
     hasNextPage,
     isFetchingNextPage,
     isLoading,
-  } = useAnalysisList();
+  } = useAnalysisList(undefined, locale);
 
   // Flatten all loaded pages
   const allEntries = useMemo(
@@ -95,7 +98,7 @@ export default function AnalysisListClient({ symbols }: Props) {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="종목, 회사명, 매수 근거로 검색..."
+          placeholder={t("searchPlaceholder")}
           className="w-full px-4 py-3 pl-10 bg-gray-50 dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-500 dark:focus:border-blue-400 transition-colors"
         />
         <svg
@@ -131,7 +134,7 @@ export default function AnalysisListClient({ symbols }: Props) {
           >
             {s.symbol}{" "}
             <span className="text-gray-400 dark:text-zinc-500">
-              {s.reportCount}건
+              {t("reportsCount", { count: s.reportCount })}
             </span>
           </Link>
         ))}
@@ -140,21 +143,19 @@ export default function AnalysisListClient({ symbols }: Props) {
       {/* Search result count */}
       {isSearching && (
         <p className="text-xs text-gray-400 dark:text-zinc-500 mb-4">
-          {filtered.length}건 검색됨
-          {allEntries.length < total && " (로딩 중...)"}
+          {t("searchResults", { count: filtered.length })}
+          {allEntries.length < total && ` (${t("loading")})`}
         </p>
       )}
 
       {/* Loading state */}
       {isLoading ? (
         <div className="text-center py-20 text-gray-400 dark:text-zinc-500">
-          로딩 중...
+          {t("loading")}
         </div>
       ) : filtered.length === 0 ? (
         <div className="text-center py-20 text-gray-400 dark:text-zinc-500">
-          {isSearching
-            ? "검색 결과가 없습니다."
-            : "아직 분석 리포트가 없습니다."}
+          {isSearching ? t("noSearchResults") : t("noReports")}
         </div>
       ) : isSearching ? (
         /* Flat list when searching */
@@ -173,11 +174,11 @@ export default function AnalysisListClient({ symbols }: Props) {
             <div key={date}>
               <div className="flex items-center gap-3 mb-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-zinc-400">
-                  {formatDateKR(date)}
+                  {formatDate(date, locale)}
                 </div>
                 <div className="flex-1 h-px bg-gray-200 dark:bg-zinc-800" />
                 <div className="text-xs text-gray-400 dark:text-zinc-600">
-                  {entries.length}건
+                  {t("reportsCount", { count: entries.length })}
                 </div>
               </div>
               <div className="space-y-3">
@@ -201,7 +202,7 @@ export default function AnalysisListClient({ symbols }: Props) {
       {/* Loading more indicator */}
       {isFetchingNextPage && (
         <div className="text-center py-6 text-sm text-gray-400 dark:text-zinc-500">
-          더 불러오는 중...
+          {t("loadingMore")}
         </div>
       )}
     </>
@@ -209,6 +210,7 @@ export default function AnalysisListClient({ symbols }: Props) {
 }
 
 function ReportCard({ entry }: { entry: AnalysisIndexEntry }) {
+  const t = useTranslations("analysis");
   return (
     <Link
       href={`/stock/${entry.symbol}/analysis/${entry.analysisDate}`}
@@ -256,7 +258,7 @@ function ReportCard({ entry }: { entry: AnalysisIndexEntry }) {
         <div className="flex items-center justify-between text-xs">
           <div className="flex items-center gap-3">
             <span className="text-gray-400 dark:text-zinc-500">
-              목표가{" "}
+              {t("targetPrice")}{" "}
               <span className="text-blue-600 dark:text-blue-400 font-mono">
                 ${entry.consensusTarget}
               </span>{" "}
@@ -264,18 +266,18 @@ function ReportCard({ entry }: { entry: AnalysisIndexEntry }) {
             </span>
             <span className="text-gray-300 dark:text-zinc-600">·</span>
             <span className="text-gray-400 dark:text-zinc-500">
-              리스크{" "}
+              {t("risks")}{" "}
               <span className="text-red-500 dark:text-red-400">
-                {entry.highRiskCount}건
+                {entry.highRiskCount}
               </span>
             </span>
             <span className="text-gray-300 dark:text-zinc-600">·</span>
             <span className="text-gray-400 dark:text-zinc-500">
-              출처 {entry.sourceCount}건
+              {t("sources")} {entry.sourceCount}
             </span>
           </div>
           <span className="text-blue-600 dark:text-blue-400 group-hover:text-blue-500 dark:group-hover:text-blue-300 transition-colors">
-            리포트 보기 →
+            {t("viewReport")}
           </span>
         </div>
       </div>
@@ -283,9 +285,16 @@ function ReportCard({ entry }: { entry: AnalysisIndexEntry }) {
   );
 }
 
-function formatDateKR(dateStr: string): string {
+function formatDate(dateStr: string, locale: string): string {
   const [y, m, d] = dateStr.split("-");
   const date = new Date(Number(y), Number(m) - 1, Number(d));
+
+  if (locale === "en") {
+    const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return `${weekdays[date.getDay()]}, ${months[Number(m) - 1]} ${Number(d)}, ${y}`;
+  }
+
   const weekdays = ["일", "월", "화", "수", "목", "금", "토"];
   const weekday = weekdays[date.getDay()];
   return `${y}년 ${Number(m)}월 ${Number(d)}일 (${weekday})`;

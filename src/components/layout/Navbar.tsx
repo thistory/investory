@@ -1,15 +1,16 @@
 "use client";
 
-import Link from "next/link";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
+import { LocaleSwitcher } from "./LocaleSwitcher";
 
 const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/analysis", label: "Analysis" },
-  { href: "/compare?symbols=TSLA,NVDA", label: "Compare", matchPath: "/compare" },
+  { href: "/", labelKey: "home" as const },
+  { href: "/analysis", labelKey: "analysis" as const },
+  { href: "/compare?symbols=TSLA,NVDA", labelKey: "compare" as const, matchPath: "/compare" },
 ];
 
 function isActive(href: string, pathname: string, matchPath?: string): boolean {
@@ -22,6 +23,7 @@ export function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { theme, setTheme } = useTheme();
+  const t = useTranslations("nav");
   const [mounted, setMounted] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -107,7 +109,7 @@ export function Navbar() {
                     : "text-gray-500 dark:text-zinc-400 hover:bg-gray-50 dark:hover:bg-white/5 hover:text-gray-900 dark:hover:text-white"
                 }`}
               >
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
           </nav>
@@ -123,7 +125,7 @@ export function Navbar() {
                 <circle cx="11" cy="11" r="8" />
                 <path d="m21 21-4.35-4.35" />
               </svg>
-              <span className="hidden sm:inline text-xs">종목 검색</span>
+              <span className="hidden sm:inline text-xs">{t("searchStock")}</span>
               <kbd className="hidden lg:inline-flex items-center rounded border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 px-1 py-0.5 text-[10px] font-mono text-gray-400 dark:text-zinc-500">
                 {typeof navigator !== "undefined" &&
                 navigator.platform?.includes("Mac")
@@ -133,12 +135,15 @@ export function Navbar() {
               </kbd>
             </button>
 
+            {/* Locale Switcher */}
+            <LocaleSwitcher />
+
             {/* Theme Toggle */}
             {mounted && (
               <button
                 onClick={() => setTheme(isDark ? "light" : "dark")}
                 className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-                title={isDark ? "라이트 모드" : "다크 모드"}
+                title={isDark ? t("lightMode") : t("darkMode")}
               >
                 {isDark ? (
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -195,7 +200,7 @@ export function Navbar() {
                       : "text-gray-500 dark:text-zinc-400 hover:bg-gray-50 dark:hover:bg-white/5"
                   }`}
                 >
-                  {link.label}
+                  {t(link.labelKey)}
                 </Link>
               ))}
             </nav>
@@ -225,7 +230,7 @@ export function Navbar() {
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value.toUpperCase())}
-                    placeholder="종목 심볼 입력 (예: AAPL, TSLA)"
+                    placeholder={t("searchPlaceholder")}
                     className="flex-1 bg-transparent text-sm text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-zinc-500 outline-none"
                     maxLength={10}
                     autoComplete="off"
@@ -252,7 +257,7 @@ export function Navbar() {
                     <div>
                       <div className="font-medium">{searchQuery.trim()}</div>
                       <div className="text-xs text-gray-400 dark:text-zinc-500">
-                        종목 상세 보기
+                        {t("viewStock")}
                       </div>
                     </div>
                     <span className="ml-auto text-xs text-gray-400 dark:text-zinc-500">

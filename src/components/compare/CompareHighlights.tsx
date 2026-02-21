@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 interface ScoreData {
   totalScore: number;
   grade: string;
@@ -25,6 +27,8 @@ export function CompareHighlights({
   leftScore,
   rightScore,
 }: CompareHighlightsProps) {
+  const t = useTranslations("compareHighlights");
+
   if (!leftScore || !rightScore) {
     return null;
   }
@@ -37,27 +41,27 @@ export function CompareHighlights({
 
   const comparisons = [
     {
-      label: "품질 (Quality)",
+      label: t("quality"),
       left: leftScore.scores.quality,
       right: rightScore.scores.quality,
     },
     {
-      label: "경쟁우위 (Moat)",
+      label: t("moat"),
       left: leftScore.scores.moat,
       right: rightScore.scores.moat,
     },
     {
-      label: "가치 (Value)",
+      label: t("value"),
       left: leftScore.scores.value,
       right: rightScore.scores.value,
     },
     {
-      label: "성장성 (Growth)",
+      label: t("growth"),
       left: leftScore.scores.growth,
       right: rightScore.scores.growth,
     },
     {
-      label: "모멘텀 (Momentum)",
+      label: t("momentum"),
       left: leftScore.scores.momentum,
       right: rightScore.scores.momentum,
     },
@@ -66,27 +70,27 @@ export function CompareHighlights({
   return (
     <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg p-4 sm:p-6 mb-4">
       <h2 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-zinc-100 mb-4">
-        비교 요약
+        {t("compareSummary")}
       </h2>
 
       {/* Overall Winner */}
       <div className="mb-6 p-4 bg-gray-100 dark:bg-zinc-800 rounded-lg">
         <div className="flex items-center justify-between">
           <div>
-            <div className="text-sm text-gray-500 dark:text-zinc-400 mb-1">전체 우승자</div>
+            <div className="text-sm text-gray-500 dark:text-zinc-400 mb-1">{t("overallWinner")}</div>
             <div className="text-xl sm:text-2xl font-bold text-green-400">
               {winnerSymbol}
             </div>
           </div>
           <div className="text-right">
-            <div className="text-sm text-gray-500 dark:text-zinc-400 mb-1">점수 차이</div>
+            <div className="text-sm text-gray-500 dark:text-zinc-400 mb-1">{t("scoreDifference")}</div>
             <div className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-zinc-100">
-              +{diff.toFixed(0)}점
+              +{diff.toFixed(0)}{t("pointsSuffix")}
             </div>
           </div>
         </div>
         <div className="mt-2 text-sm text-gray-500 dark:text-zinc-400">
-          {winnerSymbol}이(가) {loserSymbol}보다 {diff.toFixed(0)}점 높습니다
+          {t("higherBy", { winner: winnerSymbol, loser: loserSymbol, diff: diff.toFixed(0) })}
         </div>
       </div>
 

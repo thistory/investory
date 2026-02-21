@@ -1,16 +1,18 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { getAllAnalyses } from "@/data/analysis";
+import { getTranslations } from "next-intl/server";
 
 interface AnalysisListPageProps {
-  params: Promise<{ symbol: string }>;
+  params: Promise<{ symbol: string; locale: string }>;
 }
 
 export default async function AnalysisListPage({
   params,
 }: AnalysisListPageProps) {
-  const { symbol } = await params;
+  const { symbol, locale } = await params;
   const upperSymbol = symbol.toUpperCase();
-  const reports = getAllAnalyses(upperSymbol);
+  const reports = getAllAnalyses(upperSymbol, locale as "ko" | "en");
+  const t = await getTranslations({ locale, namespace: "stock" });
 
   return (
     <div className="min-h-screen">
@@ -20,24 +22,27 @@ export default async function AnalysisListPage({
           href={`/stock/${upperSymbol}`}
           className="inline-flex items-center gap-1 text-sm text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-300 transition-colors mb-6"
         >
-          ← {upperSymbol} 종목 페이지로
+          {t("backToStock", { symbol: upperSymbol })}
         </Link>
 
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-            {upperSymbol} 분석 히스토리
+            {upperSymbol} {t("analysisHistory")}
           </h1>
           <p className="text-sm text-gray-500 dark:text-zinc-400">
             {reports.length > 0
-              ? `총 ${reports.length}회 분석 · 최신: ${reports[0].analysisDate}`
-              : "아직 분석 리포트가 없습니다."}
+              ? t("totalAnalyses", {
+                  count: reports.length,
+                  date: reports[0].analysisDate,
+                })
+              : t("noReportsYet")}
           </p>
         </div>
 
         {reports.length === 0 ? (
           <div className="text-center py-20 text-gray-400 dark:text-zinc-500">
-            이 종목에 대한 분석 리포트가 아직 없습니다.
+            {t("noReportsForStock")}
           </div>
         ) : (
           <div className="space-y-4">
@@ -52,7 +57,7 @@ export default async function AnalysisListPage({
                     <div className="flex items-center gap-3">
                       {i === 0 && (
                         <span className="px-2 py-0.5 text-xs font-medium bg-blue-500/20 text-blue-600 dark:text-blue-400 rounded">
-                          최신
+                          {t("latest")}
                         </span>
                       )}
                       <span className="text-lg font-semibold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
@@ -73,8 +78,12 @@ export default async function AnalysisListPage({
                   <div className="space-y-1 mb-3">
                     {report.buyReasons.map((reason, j) => (
                       <div key={j} className="flex items-center gap-2 text-sm">
-                        <span className="text-emerald-500 dark:text-emerald-400 flex-shrink-0">✓</span>
-                        <span className="text-gray-500 dark:text-zinc-400">{reason.title}</span>
+                        <span className="text-emerald-500 dark:text-emerald-400 flex-shrink-0">
+                          ✓
+                        </span>
+                        <span className="text-gray-500 dark:text-zinc-400">
+                          {reason.title}
+                        </span>
                       </div>
                     ))}
                   </div>
@@ -87,12 +96,16 @@ export default async function AnalysisListPage({
                   {/* Footer */}
                   <div className="flex items-center justify-between mt-3 pt-3 border-t border-gray-200 dark:border-zinc-800/50 text-xs text-gray-400 dark:text-zinc-600">
                     <span>
-                      출처 {report.sources.length}건 · 리스크{" "}
-                      {report.risks.filter((r) => r.severity === "critical" || r.severity === "high").length}
-                      건 (높음 이상)
+                      {t("sourcesCount", {
+                        sourceCount: report.sources.length,
+                        riskCount: report.risks.filter(
+                          (r) =>
+                            r.severity === "critical" || r.severity === "high"
+                        ).length,
+                      })}
                     </span>
                     <span className="text-blue-600 dark:text-blue-400 group-hover:text-blue-500 dark:group-hover:text-blue-300 transition-colors">
-                      상세 보기 →
+                      {t("viewDetail")}
                     </span>
                   </div>
                 </div>
@@ -108,20 +121,26 @@ export default async function AnalysisListPage({
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ symbol: string }>;
+  params: Promise<{ symbol: string; locale: string }>;
 }) {
-  const { symbol } = await params;
+  const { symbol, locale } = await params;
   const upper = symbol.toUpperCase();
+  const t = await getTranslations({ locale, namespace: "stock" });
+
   return {
-    title: `${upper} - 분석 히스토리`,
-    description: `${upper} 종목의 날짜별 심층 분석 리포트 목록`,
+    title: `${upper} - ${t("analysisHistoryMeta")}`,
+    description: `${upper} ${t("analysisHistoryDesc")}`,
     openGraph: {
-      title: `${upper} - 분석 히스토리`,
-      description: `${upper} 종목의 날짜별 심층 분석 리포트 목록`,
-      url: `/stock/${upper}/analysis`,
+      title: `${upper} - ${t("analysisHistoryMeta")}`,
+      description: `${upper} ${t("analysisHistoryDesc")}`,
+      url: `/${locale}/stock/${upper}/analysis`,
     },
     alternates: {
-      canonical: `/stock/${upper}/analysis`,
+      canonical: `/${locale}/stock/${upper}/analysis`,
+      languages: {
+        ko: `/ko/stock/${upper}/analysis`,
+        en: `/en/stock/${upper}/analysis`,
+      },
     },
   };
 }

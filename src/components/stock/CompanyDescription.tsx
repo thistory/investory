@@ -1,12 +1,14 @@
 "use client";
 
 import { useProfile } from "@/lib/hooks/useProfile";
+import { useTranslations } from "next-intl";
 
 interface CompanyDescriptionProps {
   symbol: string;
 }
 
 export function CompanyDescription({ symbol }: CompanyDescriptionProps) {
+  const t = useTranslations("companyDescription");
   const { data: profile, isLoading } = useProfile(symbol);
 
   if (isLoading) {
@@ -21,13 +23,13 @@ export function CompanyDescription({ symbol }: CompanyDescriptionProps) {
 
   return (
     <div className="p-4 sm:p-6 bg-gray-50 dark:bg-zinc-900 rounded-lg">
-      <h2 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-zinc-100 mb-3 sm:mb-4">기업 개요</h2>
+      <h2 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-zinc-100 mb-3 sm:mb-4">{t("title")}</h2>
       {profile?.description ? (
         <p className="text-sm text-gray-500 dark:text-zinc-400 leading-relaxed">
           {profile.description}
         </p>
       ) : (
-        <p className="text-sm text-gray-400 dark:text-zinc-500">기업 설명을 불러올 수 없습니다.</p>
+        <p className="text-sm text-gray-400 dark:text-zinc-500">{t("noDescription")}</p>
       )}
 
       {/* Additional company info */}
@@ -40,7 +42,7 @@ export function CompanyDescription({ symbol }: CompanyDescriptionProps) {
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300"
             >
-              공식 웹사이트 →
+              {t("officialWebsite")}
             </a>
           )}
           {profile?.cik && (
@@ -50,7 +52,7 @@ export function CompanyDescription({ symbol }: CompanyDescriptionProps) {
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300"
             >
-              SEC 공시 보기 →
+              {t("secFilings")}
             </a>
           )}
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { useTranslations } from "next-intl";
 
 interface ShareButtonsProps {
   symbol: string;
@@ -47,6 +48,7 @@ export function ShareButtons({
   snsThreadsText,
   snsTelegramText,
 }: ShareButtonsProps) {
+  const t = useTranslations("share");
   const [copied, setCopied] = useState(false);
   const [active, setActive] = useState<ShareConfig | null>(null);
   const [editedText, setEditedText] = useState("");
@@ -82,7 +84,6 @@ export function ShareButtons({
       if (e.key === "Escape") close();
     }
     document.addEventListener("keydown", onKey);
-    // Prevent body scroll on mobile
     document.body.style.overflow = "hidden";
     return () => {
       document.removeEventListener("keydown", onKey);
@@ -114,7 +115,7 @@ export function ShareButtons({
     <>
       <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg p-4">
         <div className="text-sm text-gray-500 dark:text-zinc-400 mb-3">
-          공유하기
+          {t("shareTitle")}
         </div>
         <div className="flex flex-wrap gap-2">
           {platforms.map(({ platform, text }) => {
@@ -135,12 +136,12 @@ export function ShareButtons({
             className="inline-flex items-center gap-1.5 px-3 py-2 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg text-sm text-gray-700 dark:text-zinc-300 transition-colors"
           >
             <span>{copied ? "\u2713" : "\uD83D\uDD17"}</span>
-            <span>{copied ? "복사됨" : "링크 복사"}</span>
+            <span>{copied ? t("copied") : t("copyLink")}</span>
           </button>
         </div>
       </div>
 
-      {/* Share preview modal — bottom sheet on mobile, centered on desktop */}
+      {/* Share preview modal */}
       {active && (
         <div
           className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/50 backdrop-blur-sm"
@@ -158,12 +159,12 @@ export function ShareButtons({
             {/* Header */}
             <div className="flex items-center justify-between px-4 pt-2 sm:pt-4 pb-3 border-b border-gray-200 dark:border-zinc-800">
               <h3 className="text-base font-semibold">
-                {active.icon} {active.name}으로 공유
+                {t("shareWith", { platform: `${active.icon} ${active.name}` })}
               </h3>
               <button
                 onClick={close}
                 className="w-8 h-8 flex items-center justify-center rounded-full text-gray-400 dark:text-zinc-500 hover:bg-gray-100 dark:hover:bg-zinc-800 hover:text-gray-600 dark:hover:text-zinc-300 transition-colors"
-                aria-label="닫기"
+                aria-label={t("close")}
               >
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                   <path d="M4 4l8 8M12 4l-8 8" />
@@ -175,14 +176,14 @@ export function ShareButtons({
             <div className="flex-1 overflow-y-auto px-4 py-4">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-xs text-gray-400 dark:text-zinc-500">
-                  공유될 내용 (편집 가능)
+                  {t("editableContent")}
                 </span>
                 {isEdited && (
                   <button
                     onClick={resetText}
                     className="text-xs text-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    원본 복원
+                    {t("restoreOriginal")}
                   </button>
                 )}
               </div>
@@ -195,7 +196,7 @@ export function ShareButtons({
               />
 
               <div className="mt-3 flex items-center gap-2 text-xs text-gray-400 dark:text-zinc-500">
-                <span className="font-medium shrink-0">링크:</span>
+                <span className="font-medium shrink-0">{t("linkLabel")}</span>
                 <span className="truncate">{pageUrl}</span>
               </div>
             </div>
@@ -206,7 +207,7 @@ export function ShareButtons({
                 onClick={close}
                 className="flex-1 px-4 py-3 sm:py-2.5 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-xl sm:rounded-lg text-sm font-medium text-gray-600 dark:text-zinc-400 transition-colors"
               >
-                취소
+                {t("cancel")}
               </button>
               <a
                 href={shareHref}
@@ -215,7 +216,7 @@ export function ShareButtons({
                 onClick={close}
                 className="flex-1 px-4 py-3 sm:py-2.5 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-xl sm:rounded-lg text-sm font-medium text-white text-center transition-colors"
               >
-                공유하기
+                {t("shareButton")}
               </a>
             </div>
           </div>

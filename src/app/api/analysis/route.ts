@@ -18,7 +18,9 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const allEntries = loadIndex();
+  const locale = (params.get("locale") === "en" ? "en" : "ko") as "ko" | "en";
+
+  const allEntries = loadIndex(locale);
   const filtered = symbol
     ? allEntries.filter((e) => e.symbol === symbol)
     : allEntries;

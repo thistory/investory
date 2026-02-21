@@ -4,6 +4,7 @@ import { useQuote } from "@/lib/hooks/useQuote";
 import { useProfile } from "@/lib/hooks/useProfile";
 import { MetricCard, MetricGrid } from "@/components/ui/MetricCard";
 import { CardSkeleton } from "@/components/ui/Skeleton";
+import { useTranslations } from "next-intl";
 
 interface ValuationCardProps {
   symbol: string;
@@ -21,6 +22,7 @@ const SECTOR_AVERAGES = {
 };
 
 function CompareIndicator({ value, sectorAvg }: { value?: number; sectorAvg: number }) {
+  const t = useTranslations("valuation");
   if (!value) return null;
 
   const diff = ((value - sectorAvg) / sectorAvg) * 100;
@@ -28,12 +30,13 @@ function CompareIndicator({ value, sectorAvg }: { value?: number; sectorAvg: num
 
   return (
     <span className={`text-xs ${isHigher ? "text-red-400" : "text-emerald-400"}`}>
-      vs 섹터 {isHigher ? "+" : ""}{diff.toFixed(0)}%
+      {t("vsSector")} {isHigher ? "+" : ""}{diff.toFixed(0)}%
     </span>
   );
 }
 
 export function ValuationCard({ symbol }: ValuationCardProps) {
+  const t = useTranslations("valuation");
   const { data: quote, isLoading: quoteLoading } = useQuote(symbol);
   const { data: profile, isLoading: profileLoading } = useProfile(symbol);
 
@@ -63,8 +66,8 @@ export function ValuationCard({ symbol }: ValuationCardProps) {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">밸류에이션</h2>
-        <span className="text-xs text-gray-400 dark:text-zinc-500">섹터: Consumer Cyclical</span>
+        <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">{t("title")}</h2>
+        <span className="text-xs text-gray-400 dark:text-zinc-500">{t("sectorLabel")}</span>
       </div>
 
       {/* P/E Ratios */}
@@ -145,7 +148,7 @@ export function ValuationCard({ symbol }: ValuationCardProps) {
 
       {/* Profitability */}
       <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
-        <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-3">수익성</h3>
+        <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-3">{t("profitability")}</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
           <div className="flex flex-col">
             <span className="text-xs text-gray-400 dark:text-zinc-500">ROE</span>
@@ -160,19 +163,19 @@ export function ValuationCard({ symbol }: ValuationCardProps) {
             </span>
           </div>
           <div className="flex flex-col">
-            <span className="text-xs text-gray-400 dark:text-zinc-500">순이익률</span>
+            <span className="text-xs text-gray-400 dark:text-zinc-500">{t("netMargin")}</span>
             <span className="text-sm font-medium text-gray-900 dark:text-zinc-100">
               {margins?.profit ? (margins.profit * 100).toFixed(2) : quote?.profitability?.netMargin?.toFixed(2) || "-"}%
             </span>
           </div>
           <div className="flex flex-col">
-            <span className="text-xs text-gray-400 dark:text-zinc-500">영업이익률</span>
+            <span className="text-xs text-gray-400 dark:text-zinc-500">{t("operatingMargin")}</span>
             <span className="text-sm font-medium text-gray-900 dark:text-zinc-100">
               {margins?.operating ? (margins.operating * 100).toFixed(2) : quote?.profitability?.operatingMargin?.toFixed(2) || "-"}%
             </span>
           </div>
           <div className="flex flex-col">
-            <span className="text-xs text-gray-400 dark:text-zinc-500">매출총이익률</span>
+            <span className="text-xs text-gray-400 dark:text-zinc-500">{t("grossMargin")}</span>
             <span className="text-sm font-medium text-gray-900 dark:text-zinc-100">
               {quote?.profitability?.grossMargin?.toFixed(2) || "-"}%
             </span>

@@ -14,19 +14,22 @@ import {
 import { useTheme } from "next-themes";
 import { useChart, Period } from "@/lib/hooks/useChart";
 import { ChartSkeleton } from "@/components/ui/Skeleton";
+import { useTranslations } from "next-intl";
 
 interface PriceChartProps {
   symbol: string;
 }
 
-const PERIODS: { label: string; value: Period }[] = [
-  { label: "1일", value: "1D" },
-  { label: "1주", value: "1W" },
-  { label: "1개월", value: "1M" },
-  { label: "3개월", value: "3M" },
-  { label: "1년", value: "1Y" },
-  { label: "5년", value: "5Y" },
-];
+const PERIOD_VALUES: Period[] = ["1D", "1W", "1M", "3M", "1Y", "5Y"];
+
+const PERIOD_KEYS: Record<Period, string> = {
+  "1D": "period1D",
+  "1W": "period1W",
+  "1M": "period1M",
+  "3M": "period3M",
+  "1Y": "period1Y",
+  "5Y": "period5Y",
+};
 
 const INTRADAY_PERIODS = new Set(["1D", "1W"]);
 
@@ -61,6 +64,7 @@ function toDateString(ts: number): string {
 }
 
 export function PriceChart({ symbol }: PriceChartProps) {
+  const t = useTranslations("chart");
   const [period, setPeriod] = useState<Period>("1Y");
   const { data: chartData, isLoading } = useChart(symbol, period);
   const { resolvedTheme } = useTheme();
@@ -196,19 +200,19 @@ export function PriceChart({ symbol }: PriceChartProps) {
   return (
     <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg overflow-hidden">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-3 sm:p-4 border-b border-gray-200 dark:border-zinc-800 gap-2 sm:gap-0">
-        <h2 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-zinc-100">가격 차트</h2>
+        <h2 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-zinc-100">{t("priceChart")}</h2>
         <div className="flex gap-1 overflow-x-auto pb-1 sm:pb-0 -mx-1 px-1 sm:mx-0 sm:px-0">
-          {PERIODS.map((p) => (
+          {PERIOD_VALUES.map((p) => (
             <button
-              key={p.value}
-              onClick={() => setPeriod(p.value)}
+              key={p}
+              onClick={() => setPeriod(p)}
               className={`px-2.5 sm:px-3 py-1 text-xs sm:text-sm rounded transition-colors whitespace-nowrap flex-shrink-0 ${
-                period === p.value
+                period === p
                   ? "bg-gray-200 dark:bg-zinc-700 text-gray-900 dark:text-zinc-100"
                   : "text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-zinc-800 hover:text-gray-800 dark:hover:text-zinc-200"
               }`}
             >
-              {p.label}
+              {t(PERIOD_KEYS[p])}
             </button>
           ))}
         </div>
