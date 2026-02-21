@@ -42,8 +42,17 @@ export default async function StockPage({ params }: StockPageProps) {
 
 export async function generateMetadata({ params }: { params: Promise<{ symbol: string }> }) {
   const { symbol } = await params;
+  const upper = symbol.toUpperCase();
   return {
-    title: `${symbol.toUpperCase()} - 주식 분석`,
-    description: `${symbol.toUpperCase()} 종목의 실시간 시세, 기술적 분석, 밸류에이션 정보`,
+    title: `${upper} - 주식 분석`,
+    description: `${upper} 종목의 실시간 시세, 기술적 분석, 밸류에이션 정보`,
+    openGraph: {
+      title: `${upper} - 주식 분석`,
+      description: `${upper} 종목의 실시간 시세, 기술적 분석, 밸류에이션 정보`,
+      url: `/stock/${upper}`,
+    },
+    alternates: {
+      canonical: `/stock/${upper}`,
+    },
   };
 }

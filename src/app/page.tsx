@@ -6,6 +6,28 @@ import AddStockCard from "@/components/stock/AddStockCard";
 
 export const dynamic = "force-dynamic";
 
+function WebSiteJsonLd() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Investory",
+    url: "https://investory.kro.kr",
+    description:
+      "월가 방법론을 체계적으로 수치화하여 감이 아닌 근거로 투자 판단을 돕는 미국 주식 분석 플랫폼",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://investory.kro.kr/analysis?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
 const PILLARS = [
   { label: "Quality", desc: "수익성과 재무건전성", color: "from-blue-500 to-cyan-400" },
   { label: "Moat", desc: "경쟁우위와 해자", color: "from-violet-500 to-purple-400" },
@@ -20,6 +42,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen overflow-hidden">
+      <WebSiteJsonLd />
       {/* ─── HERO ─── */}
       <section className="relative isolate">
         {/* Ambient glow */}

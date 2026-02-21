@@ -26,8 +26,22 @@ export default async function AnalysisDatePage({
   const olderReport =
     currentIndex < allReports.length - 1 ? allReports[currentIndex + 1] : null;
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${upperSymbol} ${report.companyName} — ${date} 심층 분석`,
+    datePublished: date,
+    author: { "@type": "Organization", name: "Investory" },
+    publisher: { "@type": "Organization", name: "Investory" },
+    description: report.businessSummary.oneLiner,
+  };
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <div className="max-w-4xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
         {/* Navigation */}
         <div className="flex items-center justify-between mb-6">
@@ -109,6 +123,9 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
+    },
+    alternates: {
+      canonical: `/stock/${upper}/analysis/${date}`,
     },
   };
 }

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getIndexStats } from "@/data/analysis";
 import AnalysisListClient from "@/components/analysis/AnalysisListClient";
@@ -33,7 +34,15 @@ export default function AnalysisListPage() {
   );
 }
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "일별 분석 리포트",
   description: "미국 주식 종목별 심층 분석 리포트 목록",
+  openGraph: {
+    title: "일별 분석 리포트",
+    description: "미국 주식 종목별 심층 분석 리포트 목록",
+    url: "/analysis",
+  },
+  alternates: {
+    canonical: "/analysis",
+  },
 };

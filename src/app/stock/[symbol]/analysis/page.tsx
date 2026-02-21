@@ -111,8 +111,17 @@ export async function generateMetadata({
   params: Promise<{ symbol: string }>;
 }) {
   const { symbol } = await params;
+  const upper = symbol.toUpperCase();
   return {
-    title: `${symbol.toUpperCase()} - 분석 히스토리`,
-    description: `${symbol.toUpperCase()} 종목의 날짜별 심층 분석 리포트 목록`,
+    title: `${upper} - 분석 히스토리`,
+    description: `${upper} 종목의 날짜별 심층 분석 리포트 목록`,
+    openGraph: {
+      title: `${upper} - 분석 히스토리`,
+      description: `${upper} 종목의 날짜별 심층 분석 리포트 목록`,
+      url: `/stock/${upper}/analysis`,
+    },
+    alternates: {
+      canonical: `/stock/${upper}/analysis`,
+    },
   };
 }
