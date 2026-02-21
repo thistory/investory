@@ -7,6 +7,8 @@ interface ShareButtonsProps {
   date: string;
   title: string;
   description: string;
+  snsThreadsText?: string;
+  snsTelegramText?: string;
 }
 
 export function ShareButtons({
@@ -14,6 +16,8 @@ export function ShareButtons({
   date,
   title,
   description,
+  snsThreadsText,
+  snsTelegramText,
 }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
 
@@ -22,19 +26,19 @@ export function ShareButtons({
       ? window.location.origin
       : process.env.NEXT_PUBLIC_BASE_URL || "";
   const url = `${baseUrl}/stock/${symbol}/analysis/${date}`;
-  const text = `${title}\n${description}`;
+  const fallback = `${title}\n${description}`;
 
   const shareLinks = [
     {
       name: "X",
       icon: "𝕏",
-      href: `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
+      href: `https://x.com/intent/tweet?text=${encodeURIComponent(snsThreadsText || fallback)}&url=${encodeURIComponent(url)}`,
       bg: "hover:bg-zinc-700",
     },
     {
       name: "Telegram",
       icon: "✈",
-      href: `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`,
+      href: `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(snsTelegramText || fallback)}`,
       bg: "hover:bg-blue-800",
     },
     {

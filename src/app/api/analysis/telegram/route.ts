@@ -67,22 +67,25 @@ export async function GET(request: NextRequest) {
   for (const report of reports) {
     if (!report) continue;
 
-    const targetStr = `$${report.analystOpinions.consensusTarget}`;
-    const upsideStr = `\\+${report.analystOpinions.upsidePercent}%`;
     const url = `${BASE_URL}/stock/${report.symbol}/analysis/${report.analysisDate}`;
 
     message += `━━━━━━━━━━━━━━━━━━\n\n`;
     message += `*${escMd(report.symbol)}* ${escMd(report.companyName)}\n`;
-    message += `💰 $${escMd(String(report.currentPrice))} \\(목표 ${escMd(targetStr)}, ${upsideStr}\\)\n\n`;
-    message += `${escMd(report.businessSummary.oneLiner)}\n\n`;
 
-    message += `✅ *매수 이유*\n`;
-    report.buyReasons.forEach((reason, i) => {
-      message += ` ${i + 1}\\. ${escMd(reason.title)}\n`;
-    });
-    message += `\n`;
-
-    message += `⚠️ *최대 리스크:* ${escMd(report.risks[0]?.title || "N/A")}\n\n`;
+    if (report.snsContent?.telegram) {
+      message += `\n${escMd(report.snsContent.telegram.text)}\n\n`;
+    } else {
+      const targetStr = `$${report.analystOpinions.consensusTarget}`;
+      const upsideStr = `\\+${report.analystOpinions.upsidePercent}%`;
+      message += `💰 $${escMd(String(report.currentPrice))} \\(목표 ${escMd(targetStr)}, ${upsideStr}\\)\n\n`;
+      message += `${escMd(report.businessSummary.oneLiner)}\n\n`;
+      message += `✅ *매수 이유*\n`;
+      report.buyReasons.forEach((reason, i) => {
+        message += ` ${i + 1}\\. ${escMd(reason.title)}\n`;
+      });
+      message += `\n`;
+      message += `⚠️ *최대 리스크:* ${escMd(report.risks[0]?.title || "N/A")}\n\n`;
+    }
 
     message += `🔗 [상세 분석 보기 →](${url})\n\n`;
   }

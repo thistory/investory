@@ -1,3 +1,13 @@
+export interface SnsPost {
+  hook: string;   // 스크롤 멈추게 하는 한 줄 (50자 이내)
+  text: string;   // 본문 (스토리 + 숫자 + CTA)
+}
+
+export interface SnsContent {
+  threads: SnsPost;   // Threads/X 겸용 (280자 이내)
+  telegram: SnsPost;  // Telegram용 (500자 이내)
+}
+
 export interface AnalysisSource {
   name: string;
   url: string;
@@ -85,4 +95,6 @@ export interface StockAnalysisReport {
   overallOpinion: string;
 
   sources: AnalysisSource[];
+
+  snsContent?: SnsContent;
 }

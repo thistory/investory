@@ -67,6 +67,8 @@ export default async function AnalysisDatePage({
             date={date}
             title={`${upperSymbol} ${report.companyName} 심층 분석`}
             description={report.businessSummary.oneLiner}
+            snsThreadsText={report.snsContent?.threads.text}
+            snsTelegramText={report.snsContent?.telegram.text}
           />
         </div>
       </div>
@@ -89,7 +91,8 @@ export async function generateMetadata({
     ? `${upper} ${report.companyName} — ${date} 분석`
     : `${upper} - ${date} 분석`;
   const description = report
-    ? `${report.businessSummary.oneLiner} | 목표가 $${report.analystOpinions.consensusTarget} (+${report.analystOpinions.upsidePercent}%)`
+    ? report.snsContent?.threads.hook ||
+      `${report.businessSummary.oneLiner} | 목표가 $${report.analystOpinions.consensusTarget} (+${report.analystOpinions.upsidePercent}%)`
     : `${upper} 종목 ${date} 심층 분석 리포트`;
 
   return {
