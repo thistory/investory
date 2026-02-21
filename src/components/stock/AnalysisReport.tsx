@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { StockAnalysisReport } from "@/data/analysis";
 
 interface AnalysisReportProps {
@@ -114,10 +115,18 @@ export function AnalysisReport({ report }: AnalysisReportProps) {
           <div>
             <div className="text-xs text-gray-400 dark:text-zinc-500 mb-1">심층 분석 리포트</div>
             <h2 className="text-xl sm:text-2xl font-bold">
-              {report.symbol}{" "}
-              <span className="text-gray-500 dark:text-zinc-400 font-normal text-lg">
+              <Link
+                href={`/stock/${report.symbol}`}
+                className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              >
+                {report.symbol}
+              </Link>{" "}
+              <Link
+                href={`/stock/${report.symbol}`}
+                className="text-gray-500 dark:text-zinc-400 font-normal text-lg hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              >
                 {report.companyName}
-              </span>
+              </Link>
             </h2>
           </div>
           <div className="text-right text-sm">

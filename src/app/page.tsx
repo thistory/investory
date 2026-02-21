@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getAnalyzedSymbols, getAllReportsByDate } from "@/data/analysis";
+import { getIndexStats } from "@/data/analysis";
 import { getManagedStocks } from "@/lib/stocks/managed-stocks";
 import AddStockCard from "@/components/stock/AddStockCard";
 
@@ -15,8 +15,7 @@ const PILLARS = [
 ];
 
 export default async function Home() {
-  const symbols = getAnalyzedSymbols();
-  const totalReports = getAllReportsByDate().length;
+  const stats = getIndexStats();
   const featuredStocks = await getManagedStocks();
 
   return (
@@ -56,7 +55,7 @@ export default async function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-blue-500" />
             </span>
-            {symbols.length}개 종목 · {totalReports}건 분석 완료
+            {stats.symbolCount}개 종목 · {stats.totalReports}건 분석 완료
           </div>
 
           <p className="text-base sm:text-lg text-gray-500 dark:text-zinc-400 max-w-xl mx-auto mb-10 leading-relaxed">

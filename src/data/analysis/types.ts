@@ -8,6 +8,22 @@ export interface SnsContent {
   telegram: SnsPost;  // Telegram용 (500자 이내)
 }
 
+/** 인덱스용 경량 엔트리 — 카드 UI + 검색에 필요한 필드만 */
+export interface AnalysisIndexEntry {
+  symbol: string;
+  companyName: string;
+  analysisDate: string;
+  currentPrice: number;
+  marketCap: string;
+  oneLiner: string;
+  buyReasonTitles: string[];
+  riskTitles: string[];
+  highRiskCount: number;
+  consensusTarget: number;
+  upsidePercent: number;
+  sourceCount: number;
+}
+
 export interface AnalysisSource {
   name: string;
   url: string;

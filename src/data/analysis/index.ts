@@ -1,10 +1,11 @@
-export type { StockAnalysisReport, AnalysisSource } from "./types";
+export type { StockAnalysisReport, AnalysisSource, AnalysisIndexEntry } from "./types";
 
 import fs from "fs";
 import path from "path";
-import type { StockAnalysisReport } from "./types";
+import type { StockAnalysisReport, AnalysisIndexEntry } from "./types";
 
 const REPORTS_DIR = path.join(process.cwd(), "data/analysis/reports");
+const INDEX_PATH = path.join(process.cwd(), "data/analysis/index.json");
 
 let _cache: Record<string, StockAnalysisReport[]> | null = null;
 
@@ -97,4 +98,105 @@ export function getAllReportsByDate(): StockAnalysisReport[] {
   }
   flat.sort((a, b) => b.analysisDate.localeCompare(a.analysisDate));
   return flat;
+}
+
+// ─── Index ───────────────────────────────────────────
+
+function reportToEntry(r: StockAnalysisReport): AnalysisIndexEntry {
+  return {
+    symbol: r.symbol,
+    companyName: r.companyName,
+    analysisDate: r.analysisDate,
+    currentPrice: r.currentPrice,
+    marketCap: r.marketCap,
+    oneLiner: r.businessSummary.oneLiner,
+    buyReasonTitles: r.buyReasons.map((b) => b.title),
+    riskTitles: r.risks.map((k) => k.title),
+    highRiskCount: r.risks.filter(
+      (k) => k.severity === "critical" || k.severity === "high"
+    ).length,
+    consensusTarget: r.analystOpinions.consensusTarget,
+    upsidePercent: r.analystOpinions.upsidePercent,
+    sourceCount: r.sources.length,
+  };
+}
+
+/** 전체 리포트를 스캔하여 index.json 생성 */
+function rebuildIndex(): AnalysisIndexEntry[] {
+  const all = getAllReportsByDate();
+  const entries = all.map(reportToEntry);
+  const dir = path.dirname(INDEX_PATH);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(INDEX_PATH, JSON.stringify(entries, null, 2));
+  return entries;
+}
+
+let _indexCache: AnalysisIndexEntry[] | null = null;
+
+/** 인덱스 로드 — stale 시 자동 리빌드 */
+export function loadIndex(): AnalysisIndexEntry[] {
+  if (_indexCache && process.env.NODE_ENV === "production") return _indexCache;
+
+  // 인덱스 파일 존재 여부 + stale 체크
+  if (fs.existsSync(INDEX_PATH)) {
+    const indexMtime = fs.statSync(INDEX_PATH).mtimeMs;
+    let needsRebuild = false;
+
+    if (fs.existsSync(REPORTS_DIR)) {
+      const symbols = fs
+        .readdirSync(REPORTS_DIR, { withFileTypes: true })
+        .filter((d) => d.isDirectory());
+      for (const sym of symbols) {
+        const symDir = path.join(REPORTS_DIR, sym.name);
+        const files = fs.readdirSync(symDir).filter((f) => f.endsWith(".json"));
+        for (const f of files) {
+          if (fs.statSync(path.join(symDir, f)).mtimeMs > indexMtime) {
+            needsRebuild = true;
+            break;
+          }
+        }
+        if (needsRebuild) break;
+      }
+    }
+
+    if (!needsRebuild) {
+      const data = JSON.parse(
+        fs.readFileSync(INDEX_PATH, "utf-8")
+      ) as AnalysisIndexEntry[];
+      _indexCache = data;
+      return data;
+    }
+  }
+
+  const entries = rebuildIndex();
+  _indexCache = entries;
+  return entries;
+}
+
+/** 통계: 총 건수, 종목 수, 날짜 수, 종목 목록 */
+export function getIndexStats() {
+  const entries = loadIndex();
+  const dateSet = new Set<string>();
+  const symbolCounts: Record<string, { companyName: string; count: number }> = {};
+
+  for (const e of entries) {
+    dateSet.add(e.analysisDate);
+    if (!symbolCounts[e.symbol]) {
+      symbolCounts[e.symbol] = { companyName: e.companyName, count: 0 };
+    }
+    symbolCounts[e.symbol].count++;
+  }
+
+  const symbols = Object.entries(symbolCounts).map(([symbol, info]) => ({
+    symbol,
+    companyName: info.companyName,
+    reportCount: info.count,
+  }));
+
+  return {
+    totalReports: entries.length,
+    symbolCount: symbols.length,
+    dateCount: dateSet.size,
+    symbols,
+  };
 }
