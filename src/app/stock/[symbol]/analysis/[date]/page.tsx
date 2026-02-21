@@ -81,6 +81,7 @@ export default async function AnalysisDatePage({
             date={date}
             title={`${upperSymbol} ${report.companyName} 심층 분석`}
             description={report.businessSummary.oneLiner}
+            snsXText={report.snsContent?.x?.text}
             snsThreadsText={report.snsContent?.threads.text}
             snsTelegramText={report.snsContent?.telegram.text}
           />

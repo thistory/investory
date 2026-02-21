@@ -143,9 +143,20 @@ export function AnalysisReport({ report }: AnalysisReportProps) {
         <h3 className="text-base sm:text-lg font-semibold mb-3">
           🧭 종합 의견
         </h3>
-        <p className="text-sm sm:text-base text-gray-700 dark:text-zinc-300 leading-relaxed">
-          {report.overallOpinion}
-        </p>
+        {Array.isArray(report.overallOpinion) ? (
+          <ul className="space-y-1.5">
+            {report.overallOpinion.map((item, i) => (
+              <li key={i} className="text-sm sm:text-base text-gray-700 dark:text-zinc-300 leading-relaxed flex items-start gap-2">
+                <span className="text-blue-500 dark:text-blue-400 mt-0.5 flex-shrink-0">•</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-sm sm:text-base text-gray-700 dark:text-zinc-300 leading-relaxed">
+            {report.overallOpinion}
+          </p>
+        )}
       </div>
 
       {/* 핵심 숫자 한눈에 보기 */}

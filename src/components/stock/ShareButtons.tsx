@@ -7,6 +7,7 @@ interface ShareButtonsProps {
   date: string;
   title: string;
   description: string;
+  snsXText?: string;
   snsThreadsText?: string;
   snsTelegramText?: string;
 }
@@ -42,6 +43,7 @@ export function ShareButtons({
   date,
   title,
   description,
+  snsXText,
   snsThreadsText,
   snsTelegramText,
 }: ShareButtonsProps) {
@@ -57,7 +59,7 @@ export function ShareButtons({
   const fallback = `${title}\n${description}`;
 
   const platforms: { platform: SharePlatform; text: string }[] = [
-    { platform: "x", text: snsThreadsText || fallback },
+    { platform: "x", text: snsXText || snsThreadsText || fallback },
     { platform: "telegram", text: snsTelegramText || fallback },
     { platform: "threads", text: snsThreadsText || fallback },
   ];

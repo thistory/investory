@@ -41,7 +41,7 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 **c) 투자 판단 데이터**
 - 리스크 3-5개 (severity: critical/high/medium/low)
 - 매수 근거 3가지 (title + rationale)
-- 종합 의견 (3-4문장)
+- 종합 의견 (- 나열식, 3-5개 핵심 포인트)
 
 **d) 기본 정보 (변경 빈도 낮음)**
 - 회사 설명 (oneLiner + description + howTheyMakeMoney + keyProducts)
@@ -126,8 +126,13 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
     "rsiSignal": "neutral"        // "oversold" | "overbought" | "neutral"
   },
 
-  // 종합 의견 (3-4문장)
-  "overallOpinion": "종합 판단...",
+  // 종합 의견 (- 나열식, 3-5개 항목)
+  "overallOpinion": [
+    "2/25 Q4 실적 발표 D-4, Meta 다년 파트너십·OpenAI $300억 투자·GB300 삼중 촉매 구간",
+    "Forward P/E 26.9(PEG 0.68)는 62%+ 성장률 대비 여전히 매력적, 39명 중 37명 매수",
+    "중국 점유율 66%→8% 급락, DeepSeek 효율성 충격은 단기 주의 요소",
+    "Q1 FY2027 가이던스 $750억 달성 여부가 목표가 추가 상향의 분수령"
+  ],
 
   // 출처 (최소 8개)
   "sources": [
@@ -138,33 +143,51 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 
 ### 3단계: SNS 콘텐츠 생성
 
-리포트 JSON에 `snsContent` 필드를 포함한다.
+리포트 JSON에 `snsContent` 필드를 포함한다. **X(Twitter)를 기본 양식**으로 하고, Telegram과 Threads는 X에서 조금씩 변형한다.
 
-#### 텍스트 브랜딩 4원칙
+#### X(Twitter) 기본 양식 — 모든 플랫폼의 베이스
 
-1. **공명**: 독자가 자기 상황을 투영할 수 있게 쓴다 ("지금 이 종목 들고 있으면 이런 기분일 거다")
-2. **대리만족**: 성장·기회·결단 서사를 담는다 ("어제까지 상상이던 것이 오늘 현실이 됐다")
-3. **구체적 숫자 하나**: 앵커 역할 (P/E 385배, 목표가 $600 등)
-4. **질문형 마무리/행동 유도**: "당신은 어느 쪽에 서 있나요?"
+```
+오늘의투자 {SYMBOL} ({M/D})
+- {핵심 포인트 1}
+- {핵심 포인트 2}
+- {핵심 포인트 3}
+- {핵심 포인트 4}
 
-#### 플랫폼별 가이드라인
+⚠️ {주요 리스크 요약 | 보조 리스크}
+핵심: {가장 중요한 변수}
 
-| 플랫폼 | 필드 | 글자수 | 특징 |
-|--------|------|--------|------|
-| Threads/X | `snsContent.threads` | hook 50자, text 280자 이내 | 짧고 임팩트 있게. 이모지 1-2개 |
-| Telegram | `snsContent.telegram` | hook 50자, text 500자 이내 | 좀 더 상세한 맥락. 숫자 강조 |
+목표가 ${목표가} (현재가 ${현재가} 대비 +{업사이드}%)
+{주요 밸류에이션 지표 1} · {지표 2}
+
+{종합 의견에서 한줄 평}
+
+상세 분석 👉 investory.kro.kr
+```
+
+#### 플랫폼별 변형 규칙
+
+| 플랫폼 | 필드 | 글자수 | X 대비 차이 |
+|--------|------|--------|-------------|
+| X | `snsContent.x` | hook 50자, text 280자 이내 | 기본 양식 그대로 |
+| Threads | `snsContent.threads` | hook 50자, text 280자 이내 | 톤을 약간 캐주얼하게, 이모지 1-2개 추가 |
+| Telegram | `snsContent.telegram` | hook 50자, text 500자 이내 | 이모지 아이콘(📊✅⚠️) 활용, 약간 더 상세한 맥락 추가 |
 
 #### 예시
 
 ```json
 "snsContent": {
+  "x": {
+    "hook": "NVIDIA 실적 발표 D-4, 삼중 촉매 구간",
+    "text": "오늘의투자 NVIDIA (2/21)\n- Meta 수백만 대 GPU 다년 계약 체결\n- OpenAI $300억 투자 거의 확정\n- GB300: Hopper 대비 50배 효율·35배 비용절감\n- Q4 컨센서스 $656억(+67%), 초과 달성 전망\n\n⚠️ 옵션 시장 ±7% 변동 내재 | 중국 점유율 8%로 급락\n핵심: Q1 가이던스 $750억 달성 여부\n\n목표가 $256 (현재가 $189.82 대비 +35%)\nForward P/E 26.9 · PEG 0.68\n\nQ1 가이던스가 분수령, 촉매는 충분하다\n\n상세 분석 👉 investory.kro.kr"
+  },
   "threads": {
-    "hook": "Tesla, P/E 385배인데 왜 사람들이 몰릴까?",
-    "text": "어제까지 '전기차 회사'였던 Tesla가 오늘은 AI 로봇 회사가 됐다.\n\n자율주행 FSD 매출이 분기 $1B을 돌파하고, 옵티머스는 공장 라인에 실전 투입 중.\n\n목표가 $360 → 현재가 대비 +42%.\n\n당신은 전기차 회사에 투자하고 있나요, AI 회사에 투자하고 있나요?"
+    "hook": "NVIDIA 실적 D-4, 이 촉매 놓치면 안 됨",
+    "text": "오늘의투자 NVIDIA (2/21) 🚀\n- Meta 수백만 대 GPU 다년 계약\n- OpenAI $300억 투자 거의 확정\n- GB300: Hopper 대비 50배 효율\n- Q4 $656억(+67%) 초과 달성 전망\n\n⚠️ 옵션 ±7% 변동 | 중국 점유율 8% 급락\n핵심: Q1 가이던스 $750억\n\n목표가 $256 (현재가 $189.82, +35%)\nPEG 0.68 — 이 성장률에 이 가격?\n\n상세 분석 👉 investory.kro.kr"
   },
   "telegram": {
-    "hook": "Tesla 목표가 $360, 지금 진입해도 될까?",
-    "text": "📊 Tesla 심층 분석 요약\n\n현재가 $254 | 목표가 $360 (+42%)\nP/E 385배로 고평가 논란이 있지만, FSD 매출 분기 $1B 돌파와 옵티머스 실전 투입이 변수.\n\n✅ 매수 포인트: AI 로봇·에너지 사업 확장, 자율주행 구독 모델\n⚠️ 리스크: 중국 경쟁 심화, 마진 압박\n\n\"전기차 회사가 아닌 AI 플랫폼으로 봐야 한다\" — 모건스탠리\n\n상세 분석 👉 investory.kro.kr"
+    "hook": "NVIDIA 실적 D-4, 삼중 촉매가 몰려온다",
+    "text": "📊 오늘의투자 NVIDIA (2/21)\n\n- Meta 수백만 대 GPU 다년 계약 체결\n- OpenAI $300억 투자 거의 확정\n- GB300: Hopper 대비 50배 효율·35배 비용절감\n- Q4 컨센서스 $656억(+67%), 초과 달성 전망\n\n⚠️ 옵션 시장 ±7% 변동 내재 | 중국 점유율 8%로 급락\n🔑 핵심: Q1 가이던스 $750억 달성 여부\n\n🎯 목표가 $256 (현재가 $189.82 대비 +35%)\nForward P/E 26.9 · PEG 0.68\n\n39명 중 37명 매수 의견. 촉매는 충분하지만 Q1 가이던스가 분수령.\n\n상세 분석 👉 investory.kro.kr"
   }
 }
 ```

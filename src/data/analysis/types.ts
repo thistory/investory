@@ -4,8 +4,9 @@ export interface SnsPost {
 }
 
 export interface SnsContent {
-  threads: SnsPost;   // Threads/X 겸용 (280자 이내)
-  telegram: SnsPost;  // Telegram용 (500자 이내)
+  x?: SnsPost;        // X(Twitter) 기본 양식 (280자 이내)
+  threads: SnsPost;   // Threads용 — X 변형 (280자 이내)
+  telegram: SnsPost;  // Telegram용 — X 변형 (500자 이내)
 }
 
 /** 인덱스용 경량 엔트리 — 카드 UI + 검색에 필요한 필드만 */
@@ -108,7 +109,7 @@ export interface StockAnalysisReport {
     rsiSignal: "oversold" | "overbought" | "neutral";
   };
 
-  overallOpinion: string;
+  overallOpinion: string | string[];
 
   sources: AnalysisSource[];
 
