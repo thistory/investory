@@ -61,6 +61,8 @@ export function ShareButtons({
       : process.env.NEXT_PUBLIC_BASE_URL || "";
   const pageUrl = `${baseUrl}/${locale}/stock/${symbol}/analysis/${date}`;
   const fallback = `${title}\n${description}`;
+  const linkLabel = locale === "en" ? "Full analysis 👉" : "상세 분석 👉";
+  const pageLink = `${linkLabel} ${pageUrl}`;
 
   // Build share text with link appended
   const telegramText = snsTelegramText || snsThreadsText || fallback;
@@ -87,7 +89,7 @@ export function ShareButtons({
 
   function openPreview(platform: SharePlatform, originalText: string) {
     const meta = PLATFORM_META[platform];
-    const fullText = `${originalText}\n\n${pageUrl}`;
+    const fullText = `${originalText}\n\n${pageLink}`;
     setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText });
     setEditedText(fullText);
   }
@@ -137,7 +139,7 @@ export function ShareButtons({
 
   async function copyContent() {
     const bestText = snsTelegramText || snsThreadsText || snsXText || fallback;
-    const fullText = `${bestText}\n\n${pageUrl}`;
+    const fullText = `${bestText}\n\n${pageLink}`;
     if (await copyToClipboard(fullText)) {
       setContentCopied(true);
       setTimeout(() => setContentCopied(false), 2000);
@@ -145,7 +147,7 @@ export function ShareButtons({
   }
 
   function shareWhatsApp() {
-    const text = `${telegramText}\n\n${pageUrl}`;
+    const text = `${telegramText}\n\n${pageLink}`;
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
       // whatsapp:// scheme opens the app directly on mobile
