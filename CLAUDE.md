@@ -4,7 +4,7 @@
 
 > **All commit messages must be written in English.**
 >
-> Follow the [Conventional Commits](https://www.conventionalcommits.org/) format:
+> Follow the Conventional Commits format:
 >
 > ```
 > <type>: <short summary in English>
