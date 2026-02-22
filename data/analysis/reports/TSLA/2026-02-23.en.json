@@ -1,0 +1,194 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-02-23",
+  "currentPrice": 411.25,
+  "marketCap": "$1.55T",
+  "businessSummary": {
+    "oneLiner": "The world's largest EV maker pivoting into a 'Physical AI platform' spanning autonomous robotaxis, humanoid robots, and energy storage.",
+    "description": "Tesla is rapidly transforming from an electric vehicle manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue came in at $94.8 billion, marking the company's first-ever annual revenue decline (-3%), while net income plunged 61%. However, the Cybercab's first production unit rolled off the line at Giga Texas on February 17, bringing the robotaxi era closer to reality. FSD cumulative miles surpassed 8.2 billion. The Netherlands' RDW granted FSD Supervised regulatory approval in February, opening a pathway for European expansion. Meanwhile, robotaxi safety concerns have intensified (Fortune: 4x human crash rate, plus 5 recent additional collisions), alongside the California DMV's Autopilot marketing settlement and a $243M jury verdict. Model S/X discontinuation is confirmed for Q2 2026, with Fremont transitioning to Optimus robot production.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y as core lineup, Model S/X discontinued Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage. 46.7GWh deployed in 2025 (+48% YoY)",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance, parts",
+      "FSD subscriptions: $99/month autonomous driving software (subscription-only from February, future key revenue driver)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs, JD Power 2026 EV satisfaction No. 1 and 2)",
+      "Cybertruck (electric pickup, budget AWD at $59,990 launched 2/20)",
+      "Cybercab (autonomous robotaxi, first production unit 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont targeting 1M units/year, v3 unveil Q1)",
+      "Megapack (utility-scale energy storage, 46.7GWh in 2025, Megapack 3 ramping)",
+      "FSD (Full Self-Driving, 8.2B cumulative miles, subscription-only, Netherlands EU approval)"
+    ]
+  },
+  "keyMetrics": [
+    { "name": "P/E Ratio", "value": "407x", "interpretation": "Based on TTM EPS of $1.08. Pricing in extreme AI, robotics, and autonomy optionality. Over 10x auto industry peers." },
+    { "name": "Forward P/E", "value": "210x", "interpretation": "Based on estimated 2026 EPS (Parameter.io). Difficult to justify without Cybercab and Optimus monetization." },
+    { "name": "Revenue Growth", "value": "-3% (FY2025 YoY) / +9-15% est. (FY2026E)", "interpretation": "First-ever annual revenue decline, with $100B breakthrough expected in 2026. Auto -11% partially offset by Energy +27%." },
+    { "name": "Operating Margin", "value": "4.59% (TTM)", "interpretation": "Q4 2025 gross margin fell to 18.03%. Net income $3.79B (YoY -46%). In line with auto industry average of 4.47%." },
+    { "name": "FCF (Free Cash Flow)", "value": "$6.22B (+74% YoY)", "interpretation": "Operating cash flow $14.75B less capex $8.53B. Cash generation recovering but falls short of $20B+ 2026 investment plans." },
+    { "name": "Debt-to-Equity", "value": "0.18 (very low)", "interpretation": "Cash $44.06B vs debt $14.72B. Net cash $29.34B ($7.82/share). Exceptionally strong balance sheet." }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Cybercab Production Begins: The Robotaxi Era Arrives",
+      "description": "The first steering-wheel-free, pedal-free Cybercab production unit rolled off the Giga Texas line on February 17. Priced at $30,000, full production ramp begins in April, with plans to expand robotaxi service to nine U.S. cities in H1 2026."
+    },
+    {
+      "title": "FSD Crosses 8.2B Miles + Subscription-Only Model + First EU Approval",
+      "description": "FSD Supervised cumulative miles exceeded 8.2 billion, adding 1 billion in the first 50 days of 2026 alone. The shift to subscription-only at $99/month (from Feb 14) establishes a recurring revenue model. Netherlands' RDW granted FSD Supervised approval, opening the European expansion pathway."
+    },
+    {
+      "title": "Optimus Robot: Fremont Conversion Targeting 1M Units Annually",
+      "description": "Following Model S/X discontinuation (Q2 2026), the Fremont production line is converting to Optimus humanoid robot manufacturing. Gen 3 production began January 21 with 1,000+ units now operating in-factory. v3 prototype unveil expected in Q1."
+    },
+    {
+      "title": "2026 Revenue to Breach $100B + High-Growth Energy Segment",
+      "description": "Consensus projects 9-15% revenue growth in 2026, crossing $100 billion for the first time. Energy storage deployed 46.7GWh in 2025 (+48% YoY), with Megapack 3 production ramping."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "Dominant No. 1 in the U.S. EV market with 50%+ share, though BYD has taken the global sales crown. Vertical integration across software, manufacturing, and energy, combined with 8.2 billion miles of autonomous driving data, form the core competitive moat.",
+    "moats": [
+      { "type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD Supervised miles (including 3 billion urban miles). An unmatched dataset for autonomous driving training versus any competitor." },
+      { "type": "Vertical Integration", "description": "In-house battery (4680), custom silicon (D1/HW4), software (FSD), and charging infrastructure (Supercharger). Now extending to robotics and energy." },
+      { "type": "Charging Network Standard (Network Effect)", "description": "NACS adopted as North American EV charging standard. GM, Ford, Rivian, and others now depend on Tesla's Supercharger network." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "Global EV sales leader in 2025 (2.26M units, +28%). 35% China market share. U.S. entry constrained by regulation." },
+      { "name": "Waymo (Alphabet)", "detail": "$16B funding raised, $126B valuation. 400K+ weekly rides, 127M autonomous miles. Expanding to 20 cities." },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching in 2026, directly competing with Model Y. Sub-200K annual volume." },
+      { "name": "GM", "detail": "U.S. EV share ~13% and growing rapidly. Ultium platform powering diverse model lineup." }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-22",
+      "headline": "Tesla FSD Wins Netherlands RDW Approval, Opening EU-Wide Expansion",
+      "significance": "FSD Supervised approved under EU Regulation Article 39 (national exemption). Netherlands approval enables mutual recognition across EU member states. A breakthrough for FSD monetization amid plunging European sales.",
+      "url": "https://www.basenor.com/blogs/news/tesla-fsd-supervised-launches-in-netherlands-eu-expansion-begins"
+    },
+    {
+      "date": "2026-02-22",
+      "headline": "Five Additional Robotaxi Collisions Reported, Analyst Sentiment Mixed",
+      "significance": "Yahoo Finance reports 5 new collisions in the robotaxi fleet, reigniting safety concerns. Of 54 analysts covering TSLA, 42% maintain Buy ratings with a CNN median target of $480.",
+      "url": "https://finance.yahoo.com/news/mixed-analyst-sentiment-tesla-tsla-152446849.html"
+    },
+    {
+      "date": "2026-02-21",
+      "headline": "Baird Upgrades Tesla to Outperform, Sets $548 Price Target",
+      "significance": "Analyst Ben Kallo upgraded TSLA to Outperform citing Cybercab production ramp and FSD subscription monetization potential.",
+      "url": "https://www.gurufocus.com/news/8637715/analyst-upgrades-tesla-tsla-rating-sets-new-price-target"
+    },
+    {
+      "date": "2026-02-21",
+      "headline": "Tesla's $2B xAI Investment and SpaceX-xAI Merger Fuel Shareholder Lawsuits",
+      "significance": "Tesla invested $2B in xAI's Series E before SpaceX acquired xAI at a $1.25T valuation, excluding Tesla. Conflict-of-interest concerns and derivative lawsuits are escalating.",
+      "url": "https://electrek.co/2026/02/02/spacex-bails-out-xai-in-mega-deal-heres-what-it-means-for-tesla/"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Cybertruck Budget AWD Launches at $59,990, Cyberbeast Cut by $15,000",
+      "significance": "Aggressive pricing strategy amid softening demand. Budget AWD offers dual-motor with 325-mile range. Cyberbeast slashed by $15,000.",
+      "url": "https://electrek.co/2026/02/19/tesla-launches-60k-awd-cybertruck-cuts-cyberbeast-price-by-15k/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 408,
+    "highTarget": 600,
+    "lowTarget": 125,
+    "upsidePercent": -0.8,
+    "buyCount": 23,
+    "holdCount": 18,
+    "sellCount": 13,
+    "notableComment": "Of 54 analysts, 42% rate Buy (CNN). MarketBeat consensus at $408; CNN median $480. Baird's Ben Kallo upgraded to Outperform with a $548 target. Wedbush's Dan Ives at $600 (street high). Tigress' Ivan Feinseth reinstated Buy at $550. Low end at $125 (bear case). Mean target $421.73 per Parameter.io. Retail investors hold 40% of float (2x large-cap tech average, per Bloomberg)."
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "Robotaxi Safety: 4x Human Crash Rate, Five Additional Collisions",
+      "description": "Fortune: 14 crashes per 800K miles (1 per 57,000 miles), 4x the human rate. Yahoo Finance reports 5 new collisions. Waymo has raised $16B and is expanding to 20 cities."
+    },
+    {
+      "severity": "critical",
+      "title": "Musk/DOGE Political Risk + European Sales Collapse + xAI Lawsuits",
+      "description": "Musk's political involvement (DOGE) has triggered European sales declines (Norway -88%, Netherlands -67%). The $2B xAI investment and SpaceX-xAI merger (excluding Tesla) have intensified conflict-of-interest derivative lawsuits."
+    },
+    {
+      "severity": "high",
+      "title": "Extreme Valuation: 407x P/E, 210x Forward P/E",
+      "description": "Trading at 407x trailing and 210x forward earnings prices in flawless execution across robotaxi, robotics, and energy. Stock is down 9% YTD yet remains at extreme premium levels."
+    },
+    {
+      "severity": "high",
+      "title": "Core EV Business Structural Weakness: First-Ever Annual Revenue Decline",
+      "description": "FY2025 revenue fell 3% (first ever), automotive segment down 11%, deliveries down 9%. Q4 net income dropped 46%. Retail investors continue buying the dip, but earnings recovery remains unconfirmed."
+    },
+    {
+      "severity": "high",
+      "title": "Cybertruck Demand Softness Forcing Price Cuts",
+      "description": "Budget AWD launch and $15,000 Cyberbeast price cut signal demand challenges. Cybertruck plus Model S/X accounted for just 3% of 2025 deliveries."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Physical AI Platform Pivot: Cybercab + Optimus + FSD Subscriptions + EU Expansion",
+      "rationale": "First Cybercab production unit complete, April ramp to nine cities. Optimus Gen 3 in production. FSD subscription model at $99/month building recurring revenue. Netherlands EU approval opens European FSD market. Baird upgrade to Outperform at $548."
+    },
+    {
+      "title": "$29.3B Net Cash Position + High-Growth Energy Segment",
+      "rationale": "D/E ratio of 0.18 with $29.3B net cash, industry-leading balance sheet strength. Energy segment deployed 46.7GWh (+48% YoY), services revenue +18%. 2026 revenue expected to surpass $100B."
+    },
+    {
+      "title": "40% Retail Ownership, Persistent Dip-Buying + Baird Upgrade",
+      "rationale": "Retail investors hold 40% of TSLA, 2x the large-cap tech average (Bloomberg). JPMorgan notes TSLA was the 4th most purchased stock last week. Baird Outperform upgrade to $548, Tigress Buy at $550 provide fresh bullish signals."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 69.2,
+    "sma50": 440.94,
+    "sma50Signal": "below",
+    "sma200": 387.74,
+    "sma200Signal": "above",
+    "rsi": 42.85,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Cybercab production launch, 8.2B FSD miles, and EU approval bring the robotaxi thesis closer to reality, but 5 new collisions and Waymo's $16B war chest intensify competition.",
+    "Baird's Outperform upgrade to $548 adds a bullish signal. Of 54 analysts, 42% rate Buy with a CNN median target of $480, implying 17% upside.",
+    "At 407x trailing and 210x forward P/E, down 9% YTD, the stock trades below its 50-day SMA ($441) but holds above the 200-day ($388).",
+    "Retail investors own 40% of float and continue buying dips. The xAI lawsuit and European sales collapse (DOGE backlash) remain headwinds.",
+    "April Cybercab production ramp and Optimus v3 Q1 unveil are the key H1 catalysts. NVDA earnings on 2/25 could drive broader market volatility."
+  ],
+  "sources": [
+    { "name": "Basenor: Tesla FSD Netherlands EU Approval", "url": "https://www.basenor.com/blogs/news/tesla-fsd-supervised-launches-in-netherlands-eu-expansion-begins", "description": "Netherlands RDW approves FSD Supervised under EU Article 39 exemption" },
+    { "name": "Yahoo Finance: Mixed Analyst Sentiment, 5 New Collisions", "url": "https://finance.yahoo.com/news/mixed-analyst-sentiment-tesla-tsla-152446849.html", "description": "54 analysts, 42% Buy, CNN median $480. Five additional robotaxi collisions" },
+    { "name": "GuruFocus: Baird Upgrades TSLA to Outperform $548", "url": "https://www.gurufocus.com/news/8637715/analyst-upgrades-tesla-tsla-rating-sets-new-price-target", "description": "Baird's Ben Kallo upgrades to Outperform, $548 target" },
+    { "name": "Parameter.io: What to Expect from TSLA in 2026", "url": "https://parameter.io/what-to-expect-from-tesla-tsla-stock-in-2026/", "description": "Mean target $421.73, Forward P/E 210x, 40% retail ownership" },
+    { "name": "Fortune: Tesla Robotaxi Safety Concerns", "url": "https://fortune.com/2026/02/18/tesla-robotaxi-safety-concerns-crashes-elon-musk-big-bet/", "description": "14 crashes per 800K miles, 4x human crash rate" },
+    { "name": "Electrek: SpaceX-xAI Merger", "url": "https://electrek.co/2026/02/02/spacex-bails-out-xai-in-mega-deal-heres-what-it-means-for-tesla/", "description": "SpaceX acquires xAI, Tesla's $2B investment conflict of interest" },
+    { "name": "Electrek: Cybertruck $60K AWD Launch", "url": "https://electrek.co/2026/02/19/tesla-launches-60k-awd-cybertruck-cuts-cyberbeast-price-by-15k/", "description": "Budget AWD Cybertruck at $59,990" },
+    { "name": "Benzinga: Cybercab First Production Unit", "url": "https://www.benzinga.com/markets/tech/26/02/50677420/tesla-reveals-first-production-cybercab-elon-musk-confirms-30000-price-mkbhd-may-owe-a-head-shave", "description": "First Cybercab production unit rolls off Giga Texas line" },
+    { "name": "Motley Fool: Model S/X Discontinuation", "url": "https://www.fool.com/investing/2026/02/21/heres-why-tesla-is-discontinuing-the-model-s-and-m/", "description": "Model S/X discontinuation, Fremont Optimus conversion, valuation concerns" },
+    { "name": "MarketBeat: TSLA Forecast", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "MarketBeat consensus target $408" },
+    { "name": "Yahoo Finance: TSLA Historical Prices", "url": "https://finance.yahoo.com/quote/TSLA/history/", "description": "Feb 20 close $411.25 (-0.14%)" },
+    { "name": "MacroTrends: TSLA Stock Price History", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/stock-price-history", "description": "52-week high $489.88 (Dec 16, 2025), Feb 20 close $411.60" }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "Tesla robotaxi hits 5 more crashes, Baird upgrades to $548",
+      "text": "TSLA Daily Recap, Feb 23\n\nBaird upgrades to Outperform, $548 target\nFSD wins Netherlands EU approval\nCybercab ramps April, expanding to 9 cities\n\n5 new robotaxi collisions reported\nxAI shareholder lawsuits escalating\n\nClose: $411.25 | P/E 407x\n42% of 54 analysts say Buy, median $480"
+    },
+    "threads": {
+      "hook": "Baird just upgraded Tesla to $548 but the robotaxis keep crashing",
+      "text": "TSLA recap (Feb 23) :\n\nBaird goes Outperform, $548 target\nFSD approved in the Netherlands, EU next\nCybercab starts full production in April\n\nBut 5 more robotaxi crashes reported\nAnd xAI lawsuits are heating up\n\nRetail owns 40% of TSLA and keeps buying dips. Bold move honestly"
+    },
+    "telegram": {
+      "hook": "Tesla: Baird upgrade to $548 vs. 5 new robotaxi crashes",
+      "text": "TSLA Daily Recap, Feb 23\n\nBaird upgrades to Outperform with $548 target (Ben Kallo)\nFSD Supervised approved in Netherlands, opening EU-wide expansion\nCybercab first unit built, April full production, 9 cities in H1\n54 analysts: 42% Buy, CNN median $480 (+17% upside)\nOptimus v3 unveil expected Q1, Fremont converting to robot factory\n\nRisks: 5 new robotaxi collisions (Yahoo Finance), xAI $2B conflict-of-interest lawsuits, European sales collapse (Norway -88%)\n\nClose: $411.25 | P/E 407x | Fwd P/E 210x\nRetail owns 40% of float, still buying dips (JPMorgan)\nKey catalysts: April Cybercab ramp, NVDA earnings 2/25"
+    }
+  }
+}
