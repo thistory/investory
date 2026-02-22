@@ -87,8 +87,10 @@ export default async function AnalysisDatePage({
             date={date}
             title={`${upperSymbol} ${report.companyName} ${t("depthAnalysis")}`}
             description={report.businessSummary.oneLiner}
+            locale={locale}
             snsXText={report.snsContent?.x?.text}
             snsThreadsText={report.snsContent?.threads?.text}
+            snsTelegramText={report.snsContent?.telegram?.text}
             isAdmin={isAdmin}
           />
         </div>

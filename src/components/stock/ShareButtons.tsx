@@ -8,8 +8,10 @@ interface ShareButtonsProps {
   date: string;
   title: string;
   description: string;
+  locale: string;
   snsXText?: string;
   snsThreadsText?: string;
+  snsTelegramText?: string;
   isAdmin?: boolean;
 }
 
@@ -41,12 +43,15 @@ export function ShareButtons({
   date,
   title,
   description,
+  locale,
   snsXText,
   snsThreadsText,
+  snsTelegramText,
   isAdmin,
 }: ShareButtonsProps) {
   const t = useTranslations("share");
   const [copied, setCopied] = useState(false);
+  const [contentCopied, setContentCopied] = useState(false);
   const [active, setActive] = useState<ShareConfig | null>(null);
   const [editedText, setEditedText] = useState("");
 
@@ -54,8 +59,11 @@ export function ShareButtons({
     typeof window !== "undefined"
       ? window.location.origin
       : process.env.NEXT_PUBLIC_BASE_URL || "";
-  const pageUrl = `${baseUrl}/stock/${symbol}/analysis/${date}`;
+  const pageUrl = `${baseUrl}/${locale}/stock/${symbol}/analysis/${date}`;
   const fallback = `${title}\n${description}`;
+
+  // Build share text with link appended
+  const telegramText = snsTelegramText || snsThreadsText || fallback;
 
   // Admin-only platforms (editable content)
   const adminPlatforms: { platform: SharePlatform; text: string }[] = [
@@ -64,11 +72,17 @@ export function ShareButtons({
   ];
 
   function shareTelegram() {
-    window.open(
-      `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(title)}`,
-      "_blank",
-      "noopener,noreferrer"
-    );
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      // tg:// scheme opens the Telegram app directly on mobile
+      window.location.href = `tg://msg_url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(telegramText)}`;
+    } else {
+      window.open(
+        `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(telegramText)}`,
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
   }
 
   function openPreview(platform: SharePlatform, originalText: string) {
@@ -96,28 +110,52 @@ export function ShareButtons({
     };
   }, [active, close]);
 
-  async function copyLink() {
+  async function copyToClipboard(text: string): Promise<boolean> {
     try {
-      await navigator.clipboard.writeText(pageUrl);
+      await navigator.clipboard.writeText(text);
+      return true;
     } catch {
-      const input = document.createElement("input");
-      input.value = pageUrl;
+      const input = document.createElement("textarea");
+      input.value = text;
+      input.style.position = "fixed";
+      input.style.opacity = "0";
       document.body.appendChild(input);
       input.select();
-      document.execCommand("copy");
+      const ok = document.execCommand("copy");
       document.body.removeChild(input);
+      return ok;
     }
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+  }
+
+  async function copyLink() {
+    if (await copyToClipboard(pageUrl)) {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  }
+
+  async function copyContent() {
+    const bestText = snsTelegramText || snsThreadsText || snsXText || fallback;
+    const fullText = `${bestText}\n\n${pageUrl}`;
+    if (await copyToClipboard(fullText)) {
+      setContentCopied(true);
+      setTimeout(() => setContentCopied(false), 2000);
+    }
   }
 
   function shareWhatsApp() {
-    const text = `${title}\n${pageUrl}`;
-    window.open(
-      `https://wa.me/?text=${encodeURIComponent(text)}`,
-      "_blank",
-      "noopener,noreferrer"
-    );
+    const text = `${telegramText}\n\n${pageUrl}`;
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      // whatsapp:// scheme opens the app directly on mobile
+      window.location.href = `whatsapp://send?text=${encodeURIComponent(text)}`;
+    } else {
+      window.open(
+        `https://wa.me/?text=${encodeURIComponent(text)}`,
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
   }
 
   function shareKakao() {
@@ -209,6 +247,25 @@ export function ShareButtons({
               </svg>
             </span>
             <span>{t("whatsapp")}</span>
+          </button>
+          {/* Copy Content */}
+          <button
+            onClick={copyContent}
+            className="inline-flex items-center gap-1.5 px-3 py-2 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg text-sm text-gray-700 dark:text-zinc-300 transition-colors"
+          >
+            <span>
+              {contentCopied ? (
+                <svg className="w-4 h-4 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+              ) : (
+                <svg className="w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <rect x="6" y="6" width="10" height="12" rx="1.5" />
+                  <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
+                </svg>
+              )}
+            </span>
+            <span>{contentCopied ? t("contentCopied") : t("copyContent")}</span>
           </button>
           {/* Copy Link */}
           <button

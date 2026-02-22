@@ -183,9 +183,9 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 {주요 밸류에이션 지표 1} · {지표 2}
 
 {종합 의견에서 한줄 평}
-
-상세 분석 👉 investory.kro.kr
 ```
+
+> **주의:** `상세 분석 👉 investory.kro.kr` 같은 링크를 snsContent에 포함하지 않는다. 공유 버튼이 현재 페이지 URL을 자동으로 추가한다.
 
 #### 영어 SNS (`.en.json`)
 
@@ -205,9 +205,9 @@ Avg Target ${target} (vs current ${price}, +{upside}%)
 {Valuation metric 1} · {Metric 2}
 
 {One-line summary from overall opinion}
-
-Full analysis 👉 investory.kro.kr/en
 ```
+
+> **Note:** Do NOT include `Full analysis 👉 investory.kro.kr/en` in snsContent. The share button automatically appends the page URL.
 
 #### 플랫폼별 변형 규칙
 
