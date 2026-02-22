@@ -2,7 +2,6 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { getIndexStats } from "@/data/analysis";
 import { getManagedStocks } from "@/lib/stocks/managed-stocks";
-import AddStockCard from "@/components/stock/AddStockCard";
 import FeaturedStocks from "@/components/stock/FeaturedStocks";
 import { getTranslations } from "next-intl/server";
 import { auth } from "@/auth";
@@ -203,11 +202,6 @@ export default async function Home({
             isAdmin={session?.user?.email === process.env.ADMIN_EMAIL}
             locale={locale}
           />
-          {session?.user?.email === process.env.ADMIN_EMAIL && (
-            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              <AddStockCard isLoggedIn />
-            </div>
-          )}
         </div>
       </section>
 

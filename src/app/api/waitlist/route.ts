@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { addToWaitlist } from "@/lib/db/queries/waitlist";
 
-const VALID_SOURCES = ["stocks", "compare", "unknown"] as const;
+const VALID_SOURCES = ["stocks", "stocks-add", "compare", "unknown"] as const;
 const VALID_LOCALES = ["ko", "en"] as const;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
