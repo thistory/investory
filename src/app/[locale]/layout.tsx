@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/layout/Navbar";
+import { auth } from "@/auth";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -75,13 +76,17 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const session = await auth();
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            <Navbar />
+            <Navbar
+              isLoggedIn={!!session}
+              userEmail={session?.user?.email || null}
+            />
             {children}
           </Providers>
         </NextIntlClientProvider>

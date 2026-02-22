@@ -6,10 +6,12 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
 import { LocaleSwitcher } from "./LocaleSwitcher";
+import { logout } from "@/lib/auth/actions";
 
 const NAV_LINKS = [
   { href: "/", labelKey: "home" as const },
   { href: "/analysis", labelKey: "analysis" as const },
+  { href: "/stocks", labelKey: "stocks" as const },
   { href: "/compare?symbols=TSLA,NVDA", labelKey: "compare" as const, matchPath: "/compare" },
 ];
 
@@ -19,7 +21,27 @@ function isActive(href: string, pathname: string, matchPath?: string): boolean {
   return pathname.startsWith(target);
 }
 
-export function Navbar() {
+const AVATAR_COLORS = [
+  "bg-red-500", "bg-orange-500", "bg-amber-500", "bg-yellow-500",
+  "bg-lime-500", "bg-green-500", "bg-emerald-500", "bg-teal-500",
+  "bg-cyan-500", "bg-sky-500", "bg-blue-500", "bg-indigo-500",
+  "bg-violet-500", "bg-purple-500", "bg-fuchsia-500", "bg-pink-500",
+];
+
+function getAvatarColor(email: string): string {
+  let hash = 0;
+  for (let i = 0; i < email.length; i++) {
+    hash = email.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length];
+}
+
+interface NavbarProps {
+  isLoggedIn?: boolean;
+  userEmail?: string | null;
+}
+
+export function Navbar({ isLoggedIn, userEmail }: NavbarProps) {
   const pathname = usePathname();
   const router = useRouter();
   const { theme, setTheme } = useTheme();
@@ -165,6 +187,29 @@ export function Navbar() {
               </button>
             )}
 
+            {/* Auth Button */}
+            {isLoggedIn ? (
+              <form action={logout}>
+                <button
+                  type="submit"
+                  className="hidden sm:flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+                  title={userEmail || undefined}
+                >
+                  <span className={`w-5 h-5 rounded-full ${userEmail ? getAvatarColor(userEmail) : "bg-blue-500"} text-white flex items-center justify-center text-[10px] font-bold`}>
+                    {userEmail?.[0]?.toUpperCase() || "U"}
+                  </span>
+                  {t("logout")}
+                </button>
+              </form>
+            ) : (
+              <Link
+                href="/login"
+                className="hidden sm:flex items-center rounded-lg px-2.5 py-1.5 text-xs font-medium text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+              >
+                {t("login")}
+              </Link>
+            )}
+
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -203,6 +248,27 @@ export function Navbar() {
                   {t(link.labelKey)}
                 </Link>
               ))}
+              <div className="border-t border-gray-200/60 dark:border-white/[0.06] my-1" />
+              {isLoggedIn ? (
+                <form action={logout}>
+                  <button
+                    type="submit"
+                    className="w-full flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium text-gray-500 dark:text-zinc-400 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors"
+                  >
+                    <span className={`w-5 h-5 rounded-full ${userEmail ? getAvatarColor(userEmail) : "bg-blue-500"} text-white flex items-center justify-center text-[10px] font-bold`}>
+                      {userEmail?.[0]?.toUpperCase() || "U"}
+                    </span>
+                    {t("logout")}
+                  </button>
+                </form>
+              ) : (
+                <Link
+                  href="/login"
+                  className="rounded-lg px-3 py-2.5 text-sm font-medium text-gray-500 dark:text-zinc-400 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors"
+                >
+                  {t("login")}
+                </Link>
+              )}
             </nav>
           </div>
         )}

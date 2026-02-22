@@ -5,6 +5,7 @@ import { alphaVantageLimiter, withRateLimit } from "@/lib/utils/rate-limiter";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { join } from "path";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { requireAuth } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 86400; // 24 hours
 const FILE_CACHE_DIR = join(process.cwd(), ".cache", "financials");
@@ -38,6 +39,9 @@ async function writeFileCache(symbol: string, data: unknown) {
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
+  const authError = await requireAuth();
+  if (authError) return authError;
+
   try {
     const { symbol } = await params;
     const result = validateSymbol(symbol);

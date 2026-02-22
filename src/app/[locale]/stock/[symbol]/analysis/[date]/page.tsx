@@ -4,6 +4,7 @@ import { AnalysisReport } from "@/components/stock/AnalysisReport";
 import { ShareButtons } from "@/components/stock/ShareButtons";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
+import { auth } from "@/auth";
 
 interface AnalysisDatePageProps {
   params: Promise<{ symbol: string; date: string; locale: string }>;
@@ -16,6 +17,8 @@ export default async function AnalysisDatePage({
   const upperSymbol = symbol.toUpperCase();
   const report = getAnalysisByDate(upperSymbol, date, locale as "ko" | "en");
   const t = await getTranslations({ locale, namespace: "stock" });
+  const session = await auth();
+  const isAdmin = session?.user?.email === process.env.ADMIN_EMAIL;
 
   if (!report) {
     notFound();
@@ -87,6 +90,7 @@ export default async function AnalysisDatePage({
             snsXText={report.snsContent?.x?.text}
             snsThreadsText={report.snsContent?.threads.text}
             snsTelegramText={report.snsContent?.telegram.text}
+            isAdmin={isAdmin}
           />
         </div>
       </div>

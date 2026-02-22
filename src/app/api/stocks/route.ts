@@ -4,6 +4,7 @@ import { getIncomeStatements } from "@/lib/services/providers/alpha-vantage";
 import { cache } from "@/lib/cache/redis";
 import { writeFile, mkdir } from "fs/promises";
 import { join } from "path";
+import { requireAuth } from "@/lib/auth/api-guard";
 
 const FINANCIALS_CACHE_TTL = 86400;
 const FINANCIALS_FILE_DIR = join(process.cwd(), ".cache", "financials");
@@ -14,6 +15,9 @@ export async function GET() {
 }
 
 export async function POST(request: NextRequest) {
+  const authError = await requireAuth();
+  if (authError) return authError;
+
   let body: { symbol?: string };
   try {
     body = await request.json();

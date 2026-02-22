@@ -31,7 +31,10 @@ rm -rf .next && npm run build
 rsync -azP .next/standalone/ investory:/opt/investory/
 rsync -azP .next/static/ investory:/opt/investory/.next/static/
 rsync -azP data/ investory:/opt/investory/data/
+rsync -azP .env.production investory:/opt/investory/.env.production
 ```
+
+> **주의**: `.env.production`은 로컬에 보관하며 rsync로 서버에 전송한다. git에는 절대 커밋하지 않는다 (`.gitignore`에 `.env.*` 패턴으로 차단됨).
 
 ### 3. 서비스 재시작 + 확인
 

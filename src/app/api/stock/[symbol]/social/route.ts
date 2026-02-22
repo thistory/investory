@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getStockNews } from "@/lib/services/providers/finnhub";
 import { cache } from "@/lib/cache/redis";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { requireAuth } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 600; // 10 minutes
 
@@ -35,6 +36,9 @@ function analyzeHeadlineSentiment(headline: string): number {
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
+  const authError = await requireAuth();
+  if (authError) return authError;
+
   try {
     const { symbol } = await params;
     const result = validateSymbol(symbol);

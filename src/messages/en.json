@@ -2,13 +2,16 @@
   "nav": {
     "home": "Home",
     "analysis": "Analysis",
+    "stocks": "Stocks",
     "compare": "Compare",
     "searchStock": "Search",
     "searchPlaceholder": "Enter stock symbol (e.g., AAPL, TSLA)",
     "viewStock": "View stock details",
     "lightMode": "Light mode",
     "darkMode": "Dark mode",
-    "locale": "KO"
+    "locale": "KO",
+    "login": "Login",
+    "logout": "Logout"
   },
   "home": {
     "title": "Invest with Data",
@@ -105,7 +108,10 @@
     "restoreOriginal": "Restore original",
     "linkLabel": "Link:",
     "cancel": "Cancel",
-    "shareButton": "Share"
+    "shareButton": "Share",
+    "kakao": "KakaoTalk",
+    "whatsapp": "WhatsApp",
+    "viewReport": "View Report"
   },
   "summary": {
     "title": "Analysis Summary",
@@ -142,7 +148,8 @@
     "backToHistory": "← Analysis History",
     "depthAnalysis": "In-Depth Analysis",
     "analysisHistoryMeta": "Analysis History",
-    "analysisHistoryDesc": "Date-by-date in-depth analysis reports"
+    "analysisHistoryDesc": "Date-by-date in-depth analysis reports",
+    "loginToAdd": "Login to add"
   },
   "compare": {
     "title": "Stock Comparison",
@@ -278,5 +285,57 @@
     "momentum": "Momentum",
     "keyInsights": "Key Insights",
     "calculatedAt": "Calculated at"
+  },
+  "auth": {
+    "title": "Login to Investory",
+    "description": "Sign in to access real-time quotes and stock analysis features",
+    "googleLogin": "Continue with Google",
+    "loginInfo": "Only your email address is collected and used solely for authentication",
+    "termsLink": "Terms of Service",
+    "privacyLink": "Privacy Policy"
+  },
+  "legal": {
+    "lastUpdated": "Last updated: {date}",
+    "privacyTitle": "Privacy Policy",
+    "privacyIntro": "Investory (the 'Service') values your privacy. This policy explains what information we collect and how we use it.",
+    "collectTitle": "1. Information We Collect",
+    "collectDesc": "When you sign in with Google, we collect only:",
+    "collectEmail": "Email address (from your Google account)",
+    "collectNone": "We do not collect your name, profile picture, or any other personal information.",
+    "purposeTitle": "2. How We Use Your Information",
+    "purposeAuth": "User authentication and session management",
+    "purposeAccess": "Access control for login-required features",
+    "purposeAdmin": "Administrator role identification",
+    "storageTitle": "3. Data Storage",
+    "storageDesc": "Your email address is not stored on our servers. It is only contained in an encrypted JWT cookie in your browser, which automatically expires after 30 days.",
+    "sharingTitle": "4. Third-Party Sharing",
+    "sharingDesc": "We do not share your personal information with any third parties.",
+    "cookieTitle": "5. Cookies",
+    "cookieDesc": "The Service uses session cookies for authentication. Cookies are protected with httpOnly, Secure (in HTTPS environments), and SameSite attributes.",
+    "rightsTitle": "6. Your Rights",
+    "rightsDesc": "You can log out at any time to end your session, and delete browser cookies to remove all authentication data.",
+    "contactTitle": "7. Contact",
+    "contactDesc": "For privacy-related inquiries, please contact the service administrator.",
+    "termsTitle": "Terms of Service",
+    "termsIntro": "These terms govern your use of Investory (the 'Service'). By using the Service, you agree to these terms.",
+    "serviceTitle": "1. Service Description",
+    "serviceDesc": "Investory is a platform that provides data-driven analysis for US stock investments.",
+    "disclaimerTitle": "2. Investment Disclaimer",
+    "disclaimerDesc": "All information provided by the Service (analysis reports, investment scores, technical indicators, etc.) is for informational purposes only and does not constitute investment advice. Investment decisions are entirely your own responsibility.",
+    "accountTitle": "3. Account & Authentication",
+    "accountDesc": "Some features require Google account sign-in. You are responsible for maintaining the security of your account.",
+    "dataTitle": "4. Data Accuracy",
+    "dataDesc": "The Service uses external data sources (Alpha Vantage, Finnhub, etc.) and does not guarantee the accuracy or real-time nature of the data. Please verify with official financial data sources before making actual trades.",
+    "liabilityTitle": "5. Limitation of Liability",
+    "liabilityDesc": "The Service provider shall not be liable for any direct or indirect damages arising from the use of the Service, to the maximum extent permitted by law.",
+    "changeTitle": "6. Changes to Terms",
+    "changeDesc": "These terms may be changed without prior notice. Updated terms become effective upon posting on the Service.",
+    "governingTitle": "7. Governing Law",
+    "governingDesc": "These terms shall be governed by the laws of the Republic of Korea."
+  },
+  "stocks": {
+    "title": "Watchlist",
+    "description": "View real-time quotes for your registered stocks at a glance",
+    "noStocks": "No stocks registered"
   }
 }

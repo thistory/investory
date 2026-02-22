@@ -20,6 +20,7 @@ import {
   MomentumInput,
 } from "@/lib/scoring";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { requireAuth } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 21600; // 6 hours
 
@@ -38,6 +39,9 @@ interface RouteParams {
  * - Momentum: 10% (기술적 모멘텀)
  */
 export async function GET(request: NextRequest, { params }: RouteParams) {
+  const authError = await requireAuth();
+  if (authError) return authError;
+
   try {
     const { symbol } = await params;
     const result = validateSymbol(symbol);

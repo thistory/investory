@@ -4,6 +4,7 @@ import { getIndexStats } from "@/data/analysis";
 import { getManagedStocks } from "@/lib/stocks/managed-stocks";
 import AddStockCard from "@/components/stock/AddStockCard";
 import { getTranslations } from "next-intl/server";
+import { auth } from "@/auth";
 
 export const dynamic = "force-dynamic";
 
@@ -56,6 +57,7 @@ export default async function Home({
   const t = await getTranslations({ locale, namespace: "home" });
   const stats = getIndexStats();
   const featuredStocks = await getManagedStocks();
+  const session = await auth();
 
   return (
     <main className="min-h-screen overflow-hidden">
@@ -215,7 +217,7 @@ export default async function Home({
                 </div>
               </Link>
             ))}
-            <AddStockCard />
+            <AddStockCard isLoggedIn={!!session} />
           </div>
         </div>
       </section>

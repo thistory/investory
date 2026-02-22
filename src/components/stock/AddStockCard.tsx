@@ -3,8 +3,13 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
-export default function AddStockCard() {
+interface AddStockCardProps {
+  isLoggedIn?: boolean;
+}
+
+export default function AddStockCard({ isLoggedIn }: AddStockCardProps) {
   const [open, setOpen] = useState(false);
   const [symbol, setSymbol] = useState("");
   const [loading, setLoading] = useState(false);
@@ -60,6 +65,25 @@ export default function AddStockCard() {
       setError(t("networkError"));
       setLoading(false);
     }
+  }
+
+  if (!isLoggedIn) {
+    return (
+      <Link
+        href="/login"
+        className="group relative p-5 rounded-xl border-2 border-dashed border-gray-200 dark:border-zinc-700 hover:border-gray-300 dark:hover:border-zinc-600 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-black/5 dark:hover:shadow-black/30 flex flex-col items-center justify-center min-h-[140px] cursor-pointer"
+      >
+        <div className="w-9 h-9 rounded-full bg-gray-100 dark:bg-zinc-800 flex items-center justify-center mb-3">
+          <svg className="w-5 h-5 text-gray-300 dark:text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+            <path d="M7 11V7a5 5 0 0110 0v4" />
+          </svg>
+        </div>
+        <span className="text-sm font-medium text-gray-300 dark:text-zinc-600">
+          {t("loginToAdd")}
+        </span>
+      </Link>
+    );
   }
 
   return (

@@ -3,6 +3,7 @@ import { getStockQuote, getStockMetrics } from "@/lib/services/providers/finnhub
 import { cache } from "@/lib/cache/redis";
 import { finnhubLimiter, withRateLimit } from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { requireAuth } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 15; // 15 seconds for real-time data
 
@@ -11,6 +12,9 @@ interface RouteParams {
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
+  const authError = await requireAuth();
+  if (authError) return authError;
+
   try {
     const { symbol } = await params;
     const result = validateSymbol(symbol);
