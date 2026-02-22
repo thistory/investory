@@ -1,5 +1,23 @@
 # CLAUDE.md — Investory Project
 
+## Commit Convention
+
+> **All commit messages must be written in English.**
+>
+> Follow the [Conventional Commits](https://www.conventionalcommits.org/) format:
+>
+> ```
+> <type>: <short summary in English>
+> ```
+>
+> **Types**: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`, `build`, `ci`
+>
+> Examples:
+> - `feat: add stock comparison page`
+> - `fix: resolve dark mode flickering on mobile`
+> - `docs: update README with contribution guide`
+> - `refactor: extract scoring logic into separate module`
+
 ## UI 개발 필수 체크리스트
 
 > **모든 UI 변경 시 아래 3가지를 반드시 확인할 것.**
