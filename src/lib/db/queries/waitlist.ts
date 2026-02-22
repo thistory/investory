@@ -1,17 +1,17 @@
-import { eq } from "drizzle-orm";
+import { eq, count } from "drizzle-orm";
 import { db } from "../index";
 import { waitlist } from "../schema";
 
 export async function addToWaitlist(
   email: string,
-  source?: string,
-  locale?: string
+  source: string,
+  locale: string
 ) {
-  // Check if email already exists
+  const normalized = email.toLowerCase().trim();
   const existing = await db
-    .select()
+    .select({ id: waitlist.id })
     .from(waitlist)
-    .where(eq(waitlist.email, email.toLowerCase()))
+    .where(eq(waitlist.email, normalized))
     .limit(1);
 
   if (existing.length > 0) {
@@ -19,9 +19,9 @@ export async function addToWaitlist(
   }
 
   await db.insert(waitlist).values({
-    email: email.toLowerCase().trim(),
-    source: source || "unknown",
-    locale: locale || "ko",
+    email: normalized,
+    source,
+    locale,
   });
 
   return { success: true, alreadyExists: false };
@@ -32,13 +32,13 @@ export async function getWaitlistEntries() {
 }
 
 export async function getWaitlistCount() {
-  const result = await db.select().from(waitlist);
-  return result.length;
+  const [result] = await db.select({ value: count() }).from(waitlist);
+  return result.value;
 }
 
-export async function updateWaitlistStatus(email: string, status: string) {
+export async function updateWaitlistStatus(email: string, newStatus: string) {
   await db
     .update(waitlist)
-    .set({ status })
+    .set({ status: newStatus })
     .where(eq(waitlist.email, email.toLowerCase()));
 }
