@@ -89,7 +89,6 @@ export default async function AnalysisDatePage({
             description={report.businessSummary.oneLiner}
             snsXText={report.snsContent?.x?.text}
             snsThreadsText={report.snsContent?.threads.text}
-            snsTelegramText={report.snsContent?.telegram.text}
             isAdmin={isAdmin}
           />
         </div>

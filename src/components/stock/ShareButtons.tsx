@@ -10,11 +10,10 @@ interface ShareButtonsProps {
   description: string;
   snsXText?: string;
   snsThreadsText?: string;
-  snsTelegramText?: string;
   isAdmin?: boolean;
 }
 
-type SharePlatform = "x" | "telegram" | "threads";
+type SharePlatform = "x" | "threads";
 
 interface ShareConfig {
   platform: SharePlatform;
@@ -25,7 +24,6 @@ interface ShareConfig {
 
 const PLATFORM_META: Record<SharePlatform, { name: string; icon: string }> = {
   x: { name: "X", icon: "\uD835\uDD4F" },
-  telegram: { name: "Telegram", icon: "\u2708\uFE0F" },
   threads: { name: "Threads", icon: "\uD83E\uDDF5" },
 };
 
@@ -33,8 +31,6 @@ function buildShareUrl(platform: SharePlatform, text: string, pageUrl: string): 
   switch (platform) {
     case "x":
       return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(pageUrl)}`;
-    case "telegram":
-      return `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(text)}`;
     case "threads":
       return `https://www.threads.net/intent/post?text=${encodeURIComponent(text + "\n" + pageUrl)}`;
   }
@@ -47,7 +43,6 @@ export function ShareButtons({
   description,
   snsXText,
   snsThreadsText,
-  snsTelegramText,
   isAdmin,
 }: ShareButtonsProps) {
   const t = useTranslations("share");
@@ -68,10 +63,13 @@ export function ShareButtons({
     { platform: "threads", text: snsThreadsText || fallback },
   ];
 
-  // Public platforms (editable content with modal)
-  const publicPlatforms: { platform: SharePlatform; text: string }[] = [
-    { platform: "telegram", text: snsTelegramText || fallback },
-  ];
+  function shareTelegram() {
+    window.open(
+      `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(title)}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }
 
   function openPreview(platform: SharePlatform, originalText: string) {
     const meta = PLATFORM_META[platform];
@@ -189,20 +187,14 @@ export function ShareButtons({
                 </button>
               );
             })}
-          {/* Public: Telegram */}
-          {publicPlatforms.map(({ platform, text }) => {
-            const meta = PLATFORM_META[platform];
-            return (
-              <button
-                key={platform}
-                onClick={() => openPreview(platform, text)}
-                className="inline-flex items-center gap-1.5 px-3 py-2 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg text-sm text-gray-700 dark:text-zinc-300 transition-colors"
-              >
-                <span>{meta.icon}</span>
-                <span>{meta.name}</span>
-              </button>
-            );
-          })}
+          {/* Telegram */}
+          <button
+            onClick={shareTelegram}
+            className="inline-flex items-center gap-1.5 px-3 py-2 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg text-sm text-gray-700 dark:text-zinc-300 transition-colors"
+          >
+            <span>✈️</span>
+            <span>Telegram</span>
+          </button>
           {/* KakaoTalk */}
           <button
             onClick={shareKakao}
