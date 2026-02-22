@@ -11,3 +11,22 @@ export async function requireAuth() {
   }
   return null;
 }
+
+export async function requireSubscription() {
+  const session = await auth();
+  if (!session) {
+    return NextResponse.json(
+      { success: false, error: "Unauthorized" },
+      { status: 401 }
+    );
+  }
+
+  if (session.user.plan !== "pro") {
+    return NextResponse.json(
+      { success: false, error: "Subscription required" },
+      { status: 403 }
+    );
+  }
+
+  return null;
+}

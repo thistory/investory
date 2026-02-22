@@ -6,13 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
     "@tanstack/react-query": "^5.90.16",
     "axios": "^1.13.5",
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
     "fuse.js": "^7.1.0",
     "ioredis": "^5.8.2",
     "lightweight-charts": "^5.1.0",
@@ -32,6 +38,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.23",
+    "drizzle-kit": "^0.31.9",
     "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.1",
     "postcss": "^8.5.6",

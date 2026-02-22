@@ -1,10 +1,15 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
+import { upsertUser } from "@/lib/db/queries/users";
+import {
+  ensureFreeSubscription,
+  getSubscriptionByUserId,
+} from "@/lib/db/queries/subscriptions";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
     Google({
-      authorization: { params: { scope: "openid email" } },
+      authorization: { params: { scope: "openid email profile" } },
     }),
   ],
   session: {
@@ -14,18 +19,43 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   pages: { signIn: "/login" },
   useSecureCookies: process.env.NODE_ENV === "production",
   callbacks: {
-    jwt({ token }) {
-      delete token.name;
-      delete token.picture;
+    async jwt({ token, user, account, trigger }) {
+      // Initial sign-in: upsert user + ensure subscription
+      if (user && account) {
+        const userId = account.providerAccountId;
+        await upsertUser({
+          id: userId,
+          email: user.email!,
+          name: user.name,
+          image: user.image,
+          provider: account.provider,
+          providerAccountId: account.providerAccountId,
+        });
+
+        const subscription = await ensureFreeSubscription(userId);
+
+        token.id = userId;
+        token.plan = subscription.plan;
+        token.planStatus = subscription.status;
+      }
+
+      // Session update trigger: refresh subscription from DB
+      if (trigger === "update" && token.id) {
+        const subscription = await getSubscriptionByUserId(token.id);
+        if (subscription) {
+          token.plan = subscription.plan;
+          token.planStatus = subscription.status;
+        }
+      }
+
       return token;
     },
-    session({ session }) {
-      if (session.user) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const user = session.user as any;
-        delete user.name;
-        delete user.image;
+    session({ session, token }) {
+      if (token.id) {
+        session.user.id = token.id;
       }
+      session.user.plan = token.plan ?? "free";
+      session.user.planStatus = token.planStatus ?? "active";
       return session;
     },
   },
