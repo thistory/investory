@@ -8,7 +8,7 @@ import {
   withRateLimit,
 } from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
-import { requireAuth } from "@/lib/auth/api-guard";
+import { requireAdmin } from "@/lib/auth/api-guard";
 
 type Period = "1D" | "1W" | "1M" | "3M" | "1Y" | "5Y";
 
@@ -26,7 +26,7 @@ interface RouteParams {
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
-  const authError = await requireAuth();
+  const authError = await requireAdmin();
   if (authError) return authError;
 
   try {

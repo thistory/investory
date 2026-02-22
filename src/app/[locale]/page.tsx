@@ -217,7 +217,9 @@ export default async function Home({
                 </div>
               </Link>
             ))}
-            <AddStockCard isLoggedIn={!!session} />
+            {session?.user?.email === process.env.ADMIN_EMAIL && (
+              <AddStockCard isLoggedIn />
+            )}
           </div>
         </div>
       </section>

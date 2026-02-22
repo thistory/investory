@@ -8,7 +8,7 @@ import {
   withRateLimit,
 } from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
-import { requireAuth } from "@/lib/auth/api-guard";
+import { requireAdmin } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 86400; // 24 hours
 
@@ -26,7 +26,7 @@ interface RouteParams {
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
-  const authError = await requireAuth();
+  const authError = await requireAdmin();
   if (authError) return authError;
 
   try {

@@ -8,7 +8,7 @@ import { SocialFeed } from "@/components/stock/SocialFeed";
 import { AnalysisSummaryCard } from "@/components/stock/AnalysisSummaryCard";
 import { FinancialsChartLoader } from "@/components/stock/FinancialsChartLoader";
 import { getTranslations } from "next-intl/server";
-import { requirePageAuth } from "@/lib/auth/require-page-auth";
+import { requirePageAdmin } from "@/lib/auth/require-page-auth";
 
 interface StockPageProps {
   params: Promise<{ symbol: string; locale: string }>;
@@ -16,7 +16,7 @@ interface StockPageProps {
 
 export default async function StockPage({ params }: StockPageProps) {
   const { symbol, locale } = await params;
-  await requirePageAuth(locale);
+  await requirePageAdmin(locale);
   const upperSymbol = symbol.toUpperCase();
 
   return (

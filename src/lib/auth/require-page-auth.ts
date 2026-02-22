@@ -9,6 +9,17 @@ export async function requirePageAuth(locale: string) {
   return session;
 }
 
+export async function requirePageAdmin(locale: string) {
+  const session = await auth();
+  if (!session) {
+    redirect(`/${locale}/login`);
+  }
+  if (session.user.email !== process.env.ADMIN_EMAIL) {
+    redirect(`/${locale}`);
+  }
+  return session;
+}
+
 export async function requirePageSubscription(locale: string) {
   const session = await auth();
   if (!session) {

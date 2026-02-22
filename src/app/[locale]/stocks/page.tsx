@@ -1,7 +1,7 @@
 import { getManagedStocks } from "@/lib/stocks/managed-stocks";
 import { StocksGrid } from "@/components/stock/StocksGrid";
 import { getTranslations } from "next-intl/server";
-import { requirePageAuth } from "@/lib/auth/require-page-auth";
+import { requirePageAdmin } from "@/lib/auth/require-page-auth";
 
 export const dynamic = "force-dynamic";
 
@@ -11,7 +11,7 @@ export default async function StocksPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  await requirePageAuth(locale);
+  await requirePageAdmin(locale);
   const t = await getTranslations({ locale, namespace: "stocks" });
   const stocks = await getManagedStocks();
 

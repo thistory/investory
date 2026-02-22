@@ -3,7 +3,7 @@ import { getTechnicalIndicators } from "@/lib/services/providers/alpha-vantage";
 import { cache } from "@/lib/cache/redis";
 import { alphaVantageLimiter, withRateLimit } from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
-import { requireAuth } from "@/lib/auth/api-guard";
+import { requireAdmin } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 300; // 5 minutes
 
@@ -12,7 +12,7 @@ interface RouteParams {
 }
 
 export async function GET(request: NextRequest, { params }: RouteParams) {
-  const authError = await requireAuth();
+  const authError = await requireAdmin();
   if (authError) return authError;
 
   try {
