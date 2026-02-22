@@ -1,11 +1,19 @@
-// Root layout — only provides the html/body shell for non-locale routes.
-// All locale-specific rendering is handled by [locale]/layout.tsx.
-// This file exists to satisfy Next.js's requirement for a root layout.
+import { Inter } from "next/font/google";
+import { getLocale } from "next-intl/server";
+import "./globals.css";
 
-export default function RootLayout({
+const inter = Inter({ subsets: ["latin"] });
+
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  const locale = await getLocale();
+
+  return (
+    <html lang={locale} suppressHydrationWarning>
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
 }

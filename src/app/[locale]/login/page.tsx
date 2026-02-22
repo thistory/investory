@@ -17,9 +17,11 @@ export default async function LoginPage({
   const { locale } = await params;
   const { callbackUrl } = await searchParams;
 
-  // Validate callbackUrl to prevent open redirect
+  // Validate callbackUrl to prevent open redirect (block protocol-relative URLs like //evil.com)
   const safeCallbackUrl =
-    callbackUrl && callbackUrl.startsWith("/") ? callbackUrl : `/${locale}`;
+    callbackUrl && callbackUrl.startsWith("/") && !callbackUrl.startsWith("//")
+      ? callbackUrl
+      : `/${locale}`;
 
   if (session) {
     redirect(safeCallbackUrl);

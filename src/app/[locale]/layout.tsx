@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import "../globals.css";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/layout/Navbar";
 import { auth } from "@/auth";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata({
   params,
@@ -79,18 +75,14 @@ export default async function LocaleLayout({
   const session = await auth();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <Navbar
-              isLoggedIn={!!session}
-              userEmail={session?.user?.email || null}
-            />
-            {children}
-          </Providers>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <Providers>
+        <Navbar
+          isLoggedIn={!!session}
+          userEmail={session?.user?.email || null}
+        />
+        {children}
+      </Providers>
+    </NextIntlClientProvider>
   );
 }
