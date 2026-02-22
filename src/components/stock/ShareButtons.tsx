@@ -29,12 +29,12 @@ const PLATFORM_META: Record<SharePlatform, { name: string; icon: string }> = {
   threads: { name: "Threads", icon: "\uD83E\uDDF5" },
 };
 
-function buildShareUrl(platform: SharePlatform, text: string, pageUrl: string): string {
+function buildShareUrl(platform: SharePlatform, text: string): string {
   switch (platform) {
     case "x":
-      return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(pageUrl)}`;
+      return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}`;
     case "threads":
-      return `https://www.threads.net/intent/post?text=${encodeURIComponent(text + "\n" + pageUrl)}`;
+      return `https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`;
   }
 }
 
@@ -87,8 +87,9 @@ export function ShareButtons({
 
   function openPreview(platform: SharePlatform, originalText: string) {
     const meta = PLATFORM_META[platform];
-    setActive({ platform, name: meta.name, icon: meta.icon, originalText });
-    setEditedText(originalText);
+    const fullText = `${originalText}\n\n${pageUrl}`;
+    setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText });
+    setEditedText(fullText);
   }
 
   function resetText() {
@@ -194,7 +195,7 @@ export function ShareButtons({
   }
 
   const shareHref = active
-    ? buildShareUrl(active.platform, editedText, pageUrl)
+    ? buildShareUrl(active.platform, editedText)
     : "";
   const isEdited = active ? editedText !== active.originalText : false;
 
@@ -308,40 +309,34 @@ export function ShareButtons({
                 </div>
               </div>
 
-              <div className="relative">
-                <textarea
-                  value={editedText}
-                  onChange={(e) => setEditedText(e.target.value)}
-                  className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 pr-10 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
-                  rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
-                />
+              <textarea
+                value={editedText}
+                onChange={(e) => setEditedText(e.target.value)}
+                className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
+                rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
+              />
+              <div className="mt-2 flex justify-end">
                 <button
                   onClick={async () => {
-                    const fullText = `${editedText}\n\n${pageUrl}`;
-                    if (await copyToClipboard(fullText)) {
+                    if (await copyToClipboard(editedText)) {
                       setContentCopied(true);
                       setTimeout(() => setContentCopied(false), 2000);
                     }
                   }}
-                  className="absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-md text-gray-400 dark:text-zinc-500 hover:bg-gray-200 dark:hover:bg-zinc-700 hover:text-gray-600 dark:hover:text-zinc-300 transition-colors"
-                  title={t("copyContent")}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
                 >
                   {contentCopied ? (
-                    <svg className="w-4 h-4 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                    <svg className="w-3.5 h-3.5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   ) : (
-                    <svg className="w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
                       <rect x="6" y="6" width="10" height="12" rx="1.5" />
                       <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
                     </svg>
                   )}
+                  <span>{contentCopied ? t("contentCopied") : t("copyContent")}</span>
                 </button>
-              </div>
-
-              <div className="mt-3 flex items-center gap-2 text-xs text-gray-400 dark:text-zinc-500">
-                <span className="font-medium shrink-0">{t("linkLabel")}</span>
-                <span className="truncate">{pageUrl}</span>
               </div>
             </div>
 
