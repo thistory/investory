@@ -242,6 +242,15 @@ export default async function Home({
       {/* ─── FOOTER ─── */}
       <footer className="py-8 text-center text-xs text-gray-400 dark:text-zinc-600">
         <span className="font-medium">Investory</span> · {t("footer")}
+        <div className="mt-2 flex items-center justify-center gap-3">
+          <Link href="/terms" className="hover:text-gray-600 dark:hover:text-zinc-400 transition-colors">
+            {t("terms")}
+          </Link>
+          <span>·</span>
+          <Link href="/privacy" className="hover:text-gray-600 dark:hover:text-zinc-400 transition-colors">
+            {t("privacy")}
+          </Link>
+        </div>
       </footer>
     </main>
   );
