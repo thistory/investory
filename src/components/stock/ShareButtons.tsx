@@ -248,25 +248,6 @@ export function ShareButtons({
             </span>
             <span>{t("whatsapp")}</span>
           </button>
-          {/* Copy Content */}
-          <button
-            onClick={copyContent}
-            className="inline-flex items-center gap-1.5 px-3 py-2 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg text-sm text-gray-700 dark:text-zinc-300 transition-colors"
-          >
-            <span>
-              {contentCopied ? (
-                <svg className="w-4 h-4 text-green-500" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              ) : (
-                <svg className="w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <rect x="6" y="6" width="10" height="12" rx="1.5" />
-                  <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
-                </svg>
-              )}
-            </span>
-            <span>{contentCopied ? t("contentCopied") : t("copyContent")}</span>
-          </button>
           {/* Copy Link */}
           <button
             onClick={copyLink}
@@ -315,22 +296,48 @@ export function ShareButtons({
                 <span className="text-xs text-gray-400 dark:text-zinc-500">
                   {t("editableContent")}
                 </span>
-                {isEdited && (
-                  <button
-                    onClick={resetText}
-                    className="text-xs text-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    {t("restoreOriginal")}
-                  </button>
-                )}
+                <div className="flex items-center gap-2">
+                  {isEdited && (
+                    <button
+                      onClick={resetText}
+                      className="text-xs text-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      {t("restoreOriginal")}
+                    </button>
+                  )}
+                </div>
               </div>
 
-              <textarea
-                value={editedText}
-                onChange={(e) => setEditedText(e.target.value)}
-                className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
-                rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
-              />
+              <div className="relative">
+                <textarea
+                  value={editedText}
+                  onChange={(e) => setEditedText(e.target.value)}
+                  className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 pr-10 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
+                  rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
+                />
+                <button
+                  onClick={async () => {
+                    const fullText = `${editedText}\n\n${pageUrl}`;
+                    if (await copyToClipboard(fullText)) {
+                      setContentCopied(true);
+                      setTimeout(() => setContentCopied(false), 2000);
+                    }
+                  }}
+                  className="absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-md text-gray-400 dark:text-zinc-500 hover:bg-gray-200 dark:hover:bg-zinc-700 hover:text-gray-600 dark:hover:text-zinc-300 transition-colors"
+                  title={t("copyContent")}
+                >
+                  {contentCopied ? (
+                    <svg className="w-4 h-4 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  ) : (
+                    <svg className="w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <rect x="6" y="6" width="10" height="12" rx="1.5" />
+                      <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
+                    </svg>
+                  )}
+                </button>
+              </div>
 
               <div className="mt-3 flex items-center gap-2 text-xs text-gray-400 dark:text-zinc-500">
                 <span className="font-medium shrink-0">{t("linkLabel")}</span>
