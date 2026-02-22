@@ -72,13 +72,23 @@ export default async function Home({
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-12 sm:pt-24 pb-16 sm:pb-24 text-center">
           {/* Logo */}
-          <div className="mb-6">
+          <div className="relative mb-8 flex items-center justify-center">
+            <div
+              className="absolute -z-10 w-40 h-40 rounded-full blur-[50px] bg-gradient-to-tr from-blue-500/25 to-purple-500/20 dark:from-blue-500/30 dark:to-purple-500/25"
+              aria-hidden="true"
+            />
             <Image
-              src="/logo-full.png"
+              src="/logo.png"
               alt="Investory"
-              width={120}
-              height={120}
-              className="mx-auto drop-shadow-2xl"
+              width={112}
+              height={112}
+              className="relative dark:mix-blend-screen"
+              style={{
+                maskImage:
+                  "radial-gradient(circle, black 60%, transparent 100%)",
+                WebkitMaskImage:
+                  "radial-gradient(circle, black 60%, transparent 100%)",
+              }}
               priority
             />
           </div>
