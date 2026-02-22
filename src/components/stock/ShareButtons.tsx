@@ -132,12 +132,7 @@ export function ShareButtons({
     };
     const kakaoKey = process.env.NEXT_PUBLIC_KAKAO_JS_KEY;
     if (!w.Kakao || !kakaoKey) {
-      // Fallback: open a share URL
-      window.open(
-        `https://wa.me/?text=${encodeURIComponent(title + "\n" + pageUrl)}`,
-        "_blank",
-        "noopener,noreferrer"
-      );
+      alert(t("kakaoUnavailable"));
       return;
     }
     if (!w.Kakao.isInitialized()) {

@@ -88,7 +88,7 @@ export default async function AnalysisDatePage({
             title={`${upperSymbol} ${report.companyName} ${t("depthAnalysis")}`}
             description={report.businessSummary.oneLiner}
             snsXText={report.snsContent?.x?.text}
-            snsThreadsText={report.snsContent?.threads.text}
+            snsThreadsText={report.snsContent?.threads?.text}
             isAdmin={isAdmin}
           />
         </div>
@@ -114,7 +114,7 @@ export async function generateMetadata({
     ? `${upper} ${report.companyName} — ${date} ${t("depthAnalysis")}`
     : `${upper} - ${date} ${t("depthAnalysis")}`;
   const description = report
-    ? report.snsContent?.threads.hook ||
+    ? report.snsContent?.threads?.hook ||
       `${report.businessSummary.oneLiner} | Target $${report.analystOpinions.consensusTarget} (+${report.analystOpinions.upsidePercent}%)`
     : `${upper} ${date} ${t("depthAnalysis")}`;
 
