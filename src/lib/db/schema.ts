@@ -9,8 +9,6 @@ import {
 export const users = pgTable("users", {
   id: text("id").primaryKey(),
   email: varchar("email", { length: 255 }).unique().notNull(),
-  name: varchar("name", { length: 255 }),
-  image: text("image"),
   provider: varchar("provider", { length: 50 }).default("google"),
   providerAccountId: text("provider_account_id"),
   createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),

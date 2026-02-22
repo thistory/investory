@@ -5,8 +5,6 @@ import { eq } from "drizzle-orm";
 interface UpsertUserParams {
   id: string;
   email: string;
-  name?: string | null;
-  image?: string | null;
   provider: string;
   providerAccountId: string;
 }
@@ -18,8 +16,6 @@ export async function upsertUser(params: UpsertUserParams) {
     .onConflictDoUpdate({
       target: users.id,
       set: {
-        name: params.name,
-        image: params.image,
         lastLoginAt: new Date(),
         updatedAt: new Date(),
       },

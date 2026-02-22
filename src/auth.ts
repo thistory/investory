@@ -9,7 +9,7 @@ import {
 export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
     Google({
-      authorization: { params: { scope: "openid email profile" } },
+      authorization: { params: { scope: "openid email" } },
     }),
   ],
   session: {
@@ -26,8 +26,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         await upsertUser({
           id: userId,
           email: user.email!,
-          name: user.name,
-          image: user.image,
           provider: account.provider,
           providerAccountId: account.providerAccountId,
         });
