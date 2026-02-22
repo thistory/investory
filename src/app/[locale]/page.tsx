@@ -5,6 +5,7 @@ import { getManagedStocks } from "@/lib/stocks/managed-stocks";
 import FeaturedStocks from "@/components/stock/FeaturedStocks";
 import { getTranslations } from "next-intl/server";
 import { auth } from "@/auth";
+import TypewriterText from "@/components/home/TypewriterText";
 
 export const dynamic = "force-dynamic";
 
@@ -96,7 +97,10 @@ export default async function Home({
           {/* Title */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4">
             <span className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 dark:from-white dark:via-zinc-200 dark:to-white bg-clip-text text-transparent">
-              {t("title")}
+              <TypewriterText
+                prefix={t("titlePrefix")}
+                words={t("titleWords").split(",")}
+              />
             </span>
           </h1>
 
