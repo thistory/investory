@@ -1,7 +1,8 @@
 import { getManagedStocks } from "@/lib/stocks/managed-stocks";
 import { StocksGrid } from "@/components/stock/StocksGrid";
 import { getTranslations } from "next-intl/server";
-import { requirePageAdmin } from "@/lib/auth/require-page-auth";
+import { auth } from "@/auth";
+import LockScreen from "@/components/ui/LockScreen";
 
 export const dynamic = "force-dynamic";
 
@@ -11,7 +12,31 @@ export default async function StocksPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  await requirePageAdmin(locale);
+  const session = await auth();
+  const isAdmin = session?.user?.email === process.env.ADMIN_EMAIL;
+
+  if (!isAdmin) {
+    const t = await getTranslations({ locale, namespace: "lockScreen" });
+    return (
+      <LockScreen
+        locale={locale}
+        title={t("stocks.title")}
+        description={t("stocks.description")}
+        features={[
+          t("stocks.features.0"),
+          t("stocks.features.1"),
+          t("stocks.features.2"),
+          t("stocks.features.3"),
+        ]}
+        source="stocks"
+        ctaText={t("ctaText")}
+        loginText={t("loginText")}
+        waitlistHeading={t("waitlistHeading")}
+        waitlistSubheading={t("waitlistSubheading")}
+      />
+    );
+  }
+
   const t = await getTranslations({ locale, namespace: "stocks" });
   const stocks = await getManagedStocks();
 

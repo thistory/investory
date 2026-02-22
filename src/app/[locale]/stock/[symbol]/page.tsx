@@ -8,7 +8,8 @@ import { SocialFeed } from "@/components/stock/SocialFeed";
 import { AnalysisSummaryCard } from "@/components/stock/AnalysisSummaryCard";
 import { FinancialsChartLoader } from "@/components/stock/FinancialsChartLoader";
 import { getTranslations } from "next-intl/server";
-import { requirePageAdmin } from "@/lib/auth/require-page-auth";
+import { auth } from "@/auth";
+import LockScreen from "@/components/ui/LockScreen";
 
 interface StockPageProps {
   params: Promise<{ symbol: string; locale: string }>;
@@ -16,7 +17,31 @@ interface StockPageProps {
 
 export default async function StockPage({ params }: StockPageProps) {
   const { symbol, locale } = await params;
-  await requirePageAdmin(locale);
+  const session = await auth();
+  const isAdmin = session?.user?.email === process.env.ADMIN_EMAIL;
+
+  if (!isAdmin) {
+    const t = await getTranslations({ locale, namespace: "lockScreen" });
+    return (
+      <LockScreen
+        locale={locale}
+        title={t("stockDetail.title")}
+        description={t("stockDetail.description")}
+        features={[
+          t("stockDetail.features.0"),
+          t("stockDetail.features.1"),
+          t("stockDetail.features.2"),
+          t("stockDetail.features.3"),
+        ]}
+        source={`stock-${symbol.toUpperCase()}`}
+        ctaText={t("ctaText")}
+        loginText={t("loginText")}
+        waitlistHeading={t("waitlistHeading")}
+        waitlistSubheading={t("waitlistSubheading")}
+      />
+    );
+  }
+
   const upperSymbol = symbol.toUpperCase();
 
   return (
