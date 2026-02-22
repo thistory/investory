@@ -338,5 +338,51 @@
     "title": "Watchlist",
     "description": "View real-time quotes for your registered stocks at a glance",
     "noStocks": "No stocks registered"
+  },
+  "waitlist": {
+    "emailPlaceholder": "Enter your email address",
+    "joinWaitlist": "Join Waitlist",
+    "submitting": "Submitting...",
+    "successTitle": "You're on the list!",
+    "successDescription": "We'll notify you as soon as we launch.",
+    "alreadyTitle": "Already registered!",
+    "alreadyDescription": "Don't worry, we'll let you know when we launch.",
+    "errorMessage": "Something went wrong. Please try again."
+  },
+  "lockScreen": {
+    "stocks": {
+      "title": "Your Personal Watchlist",
+      "description": "Track your favorite stocks in one place with real-time quotes and key metrics at a glance.",
+      "features": [
+        "Real-time US stock price monitoring",
+        "Favorite & manage your watchlist",
+        "Key investment metrics at a glance",
+        "AI analysis reports per stock"
+      ]
+    },
+    "stockDetail": {
+      "title": "AI-Powered Deep Analysis",
+      "description": "Wall Street-level analysis made simple. AI interprets technical indicators, valuations, and financials for you.",
+      "features": [
+        "Real-time charts & technical indicators",
+        "AI investment score & buy/sell signals",
+        "Deep financial analysis (P&L, cash flow, balance sheet)",
+        "Fair value calculation & valuation"
+      ]
+    },
+    "compare": {
+      "title": "Stock Comparison",
+      "description": "Compare investment candidates side by side and make data-driven decisions.",
+      "features": [
+        "Compare up to 4 stocks simultaneously",
+        "Financial metrics & valuation comparison charts",
+        "Growth, profitability & stability score comparison",
+        "AI-powered investment opinion comparison"
+      ]
+    },
+    "ctaText": "Already have an account?",
+    "loginText": "Login with Google",
+    "waitlistHeading": "Get Early Access",
+    "waitlistSubheading": "Leave your email and we'll notify you as soon as we launch."
   }
 }
