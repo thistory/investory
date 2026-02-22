@@ -158,10 +158,6 @@ data/analysis/reports/ # 종목별 분석 JSON (자동 스캔)
 - 접근성(a11y) 개선
 - 테스트 작성
 
-## 배포
-
-프로덕션 배포 방법은 [DEPLOYMENT.md](DEPLOYMENT.md)를 참고하세요.
-
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스로 배포됩니다 — 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.

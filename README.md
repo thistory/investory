@@ -158,10 +158,6 @@ Contributions are welcome! Whether it's a bug fix, new feature, or improvement t
 - Improve accessibility (a11y)
 - Write tests
 
-## Deployment
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for production deployment instructions.
-
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
