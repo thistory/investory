@@ -192,7 +192,7 @@ allowed-tools: WebSearch, WebFetch, Read, Write, Bash, Task, Grep, Glob
 ##### X(Twitter) 기본 양식
 
 ```
-DailyInvest {SYMBOL} ({M/D})
+{SYMBOL} Daily Recap — {Mon D}
 - {Key point 1}
 - {Key point 2}
 - {Key point 3}
