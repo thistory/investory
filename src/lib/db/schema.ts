@@ -35,3 +35,14 @@ export const subscriptions = pgTable("subscriptions", {
   createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).defaultNow(),
 });
+
+export const waitlist = pgTable("waitlist", {
+  id: text("id")
+    .primaryKey()
+    .$defaultFn(() => crypto.randomUUID()),
+  email: varchar("email", { length: 255 }).unique().notNull(),
+  source: varchar("source", { length: 100 }), // which page they signed up from: "stocks", "stock-detail", "compare"
+  locale: varchar("locale", { length: 10 }), // "ko" or "en"
+  status: varchar("status", { length: 50 }).default("pending").notNull(), // pending, invited, registered
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull(),
+});
