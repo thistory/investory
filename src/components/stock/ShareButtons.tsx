@@ -29,13 +29,34 @@ const PLATFORM_META: Record<SharePlatform, { name: string; icon: string }> = {
   threads: { name: "Threads", icon: "\uD83E\uDDF5" },
 };
 
-function buildShareUrl(platform: SharePlatform, text: string): string {
-  switch (platform) {
-    case "x":
-      return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}`;
-    case "threads":
-      return `https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`;
+function isAndroid(): boolean {
+  return /Android/i.test(navigator.userAgent);
+}
+
+function openShareUrl(platform: SharePlatform, text: string): void {
+  const encoded = encodeURIComponent(text);
+
+  if (isAndroid()) {
+    // Android intent:// URI — opens app if installed, falls back to Play Store
+    switch (platform) {
+      case "x": {
+        const intentUrl = `intent://post?message=${encoded}#Intent;scheme=twitter;package=com.twitter.android;S.browser_fallback_url=${encodeURIComponent(`https://x.com/intent/tweet?text=${encoded}`)};end`;
+        window.location.href = intentUrl;
+        return;
+      }
+      case "threads": {
+        const intentUrl = `intent://post?text=${encoded}#Intent;scheme=barcelona;package=com.instagram.barcelona;S.browser_fallback_url=${encodeURIComponent(`https://www.threads.net/intent/post?text=${encoded}`)};end`;
+        window.location.href = intentUrl;
+        return;
+      }
+    }
   }
+
+  // Desktop & iOS — standard web URL
+  const webUrl = platform === "x"
+    ? `https://x.com/intent/tweet?text=${encoded}`
+    : `https://www.threads.net/intent/post?text=${encoded}`;
+  window.open(webUrl, "_blank", "noopener,noreferrer");
 }
 
 export function ShareButtons({
@@ -196,9 +217,6 @@ export function ShareButtons({
     });
   }
 
-  const shareHref = active
-    ? buildShareUrl(active.platform, editedText)
-    : "";
   const isEdited = active ? editedText !== active.originalText : false;
 
   return (
@@ -350,15 +368,15 @@ export function ShareButtons({
               >
                 {t("cancel")}
               </button>
-              <a
-                href={shareHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={close}
+              <button
+                onClick={() => {
+                  if (active) openShareUrl(active.platform, editedText);
+                  close();
+                }}
                 className="flex-1 px-4 py-3 sm:py-2.5 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-xl sm:rounded-lg text-sm font-medium text-white text-center transition-colors"
               >
                 {t("shareButton")}
-              </a>
+              </button>
             </div>
           </div>
         </div>
