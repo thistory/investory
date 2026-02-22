@@ -103,7 +103,7 @@ export function CompareHighlights({
           return (
             <div
               key={index}
-              className="flex items-center justify-between p-3 bg-gray-100 dark:bg-gray-100 dark:bg-zinc-800/50 rounded-lg"
+              className="flex items-center justify-between p-3 bg-gray-100 dark:bg-zinc-800/50 rounded-lg"
             >
               <div className="flex-1">
                 <div className="text-sm text-gray-700 dark:text-zinc-300 mb-1">

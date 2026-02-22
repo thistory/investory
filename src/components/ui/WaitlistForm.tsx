@@ -39,8 +39,8 @@ export default function WaitlistForm({ source, locale }: WaitlistFormProps) {
     return (
       <div className="text-center py-4">
         <div className="text-2xl mb-2">🎉</div>
-        <p className="text-emerald-400 font-semibold">{t("successTitle")}</p>
-        <p className="text-zinc-400 text-sm mt-1">{t("successDescription")}</p>
+        <p className="text-emerald-600 dark:text-emerald-400 font-semibold">{t("successTitle")}</p>
+        <p className="text-gray-500 dark:text-zinc-400 text-sm mt-1">{t("successDescription")}</p>
       </div>
     );
   }
@@ -49,31 +49,31 @@ export default function WaitlistForm({ source, locale }: WaitlistFormProps) {
     return (
       <div className="text-center py-4">
         <div className="text-2xl mb-2">✅</div>
-        <p className="text-blue-400 font-semibold">{t("alreadyTitle")}</p>
-        <p className="text-zinc-400 text-sm mt-1">{t("alreadyDescription")}</p>
+        <p className="text-blue-600 dark:text-blue-400 font-semibold">{t("alreadyTitle")}</p>
+        <p className="text-gray-500 dark:text-zinc-400 text-sm mt-1">{t("alreadyDescription")}</p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md mx-auto">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-3 w-full max-w-md mx-auto">
       <input
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder={t("emailPlaceholder")}
         required
-        className="flex-1 px-4 py-3 rounded-xl bg-zinc-800/50 border border-zinc-700 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all"
+        className="w-full px-4 py-3 rounded-xl bg-white dark:bg-zinc-800/50 border border-gray-200 dark:border-zinc-700 text-gray-900 dark:text-white placeholder:text-gray-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all"
       />
       <button
         type="submit"
         disabled={status === "loading"}
-        className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
+        className="w-full px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === "loading" ? t("submitting") : t("joinWaitlist")}
       </button>
       {status === "error" && (
-        <p className="text-red-400 text-sm mt-1">{t("errorMessage")}</p>
+        <p className="text-red-500 dark:text-red-400 text-sm">{t("errorMessage")}</p>
       )}
     </form>
   );

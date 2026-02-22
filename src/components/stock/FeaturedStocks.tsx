@@ -92,13 +92,13 @@ export default function FeaturedStocks({ stocks, isAdmin, locale }: FeaturedStoc
       {showAddModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/40 dark:bg-black/60 backdrop-blur-sm"
             onClick={() => setShowAddModal(false)}
           />
-          <div className="relative w-full max-w-md bg-zinc-900 border border-zinc-800 rounded-2xl shadow-2xl p-6 sm:p-8 text-center">
+          <div className="relative w-full max-w-md bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl shadow-2xl p-6 sm:p-8 text-center">
             <button
               onClick={() => setShowAddModal(false)}
-              className="absolute top-4 right-4 text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="absolute top-4 right-4 text-gray-400 dark:text-zinc-500 hover:text-gray-600 dark:hover:text-zinc-300 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -107,24 +107,24 @@ export default function FeaturedStocks({ stocks, isAdmin, locale }: FeaturedStoc
 
             <div className="relative mx-auto w-14 h-14 mb-4">
               <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl animate-pulse" />
-              <div className="relative w-14 h-14 rounded-full bg-zinc-800/80 border border-zinc-700 flex items-center justify-center">
-                <svg className="w-7 h-7 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <div className="relative w-14 h-14 rounded-full bg-gray-100 dark:bg-zinc-800/80 border border-gray-200 dark:border-zinc-700 flex items-center justify-center">
+                <svg className="w-7 h-7 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
                 </svg>
               </div>
             </div>
 
-            <h3 className="text-xl font-bold text-white mb-2">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
               {t("stocks.title")}
             </h3>
-            <p className="text-sm text-zinc-400 mb-6">
+            <p className="text-sm text-gray-500 dark:text-zinc-400 mb-6">
               {t("stocks.description")}
             </p>
 
             <div className="grid grid-cols-1 gap-2 mb-6 text-left">
               {[0, 1, 2, 3].map((i) => (
-                <div key={i} className="flex items-center gap-2 text-sm text-zinc-300">
-                  <svg className="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div key={i} className="flex items-center gap-2 text-sm text-gray-700 dark:text-zinc-300">
+                  <svg className="w-4 h-4 text-emerald-500 dark:text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   {t(`stocks.features.${i}`)}
@@ -132,17 +132,17 @@ export default function FeaturedStocks({ stocks, isAdmin, locale }: FeaturedStoc
               ))}
             </div>
 
-            <div className="bg-zinc-800/50 border border-zinc-700/50 rounded-xl p-5 mb-4">
-              <p className="text-sm font-medium text-white mb-1">{t("waitlistHeading")}</p>
-              <p className="text-xs text-zinc-500 mb-4">{t("waitlistSubheading")}</p>
+            <div className="bg-gray-50 dark:bg-zinc-800/50 border border-gray-200 dark:border-zinc-700/50 rounded-xl p-5 mb-4">
+              <p className="text-sm font-medium text-gray-900 dark:text-white mb-1">{t("waitlistHeading")}</p>
+              <p className="text-xs text-gray-500 dark:text-zinc-500 mb-4">{t("waitlistSubheading")}</p>
               <WaitlistForm source="stocks-add" locale={locale} />
             </div>
 
             <div className="flex items-center justify-center gap-2 text-sm">
-              <span className="text-zinc-500">{t("ctaText")}</span>
+              <span className="text-gray-400 dark:text-zinc-500">{t("ctaText")}</span>
               <Link
                 href="/login"
-                className="text-blue-400 hover:text-blue-300 font-medium transition-colors"
+                className="text-blue-600 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 font-medium transition-colors"
               >
                 {t("loginText")}
               </Link>
@@ -155,14 +155,14 @@ export default function FeaturedStocks({ stocks, isAdmin, locale }: FeaturedStoc
       {selectedStock && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/40 dark:bg-black/60 backdrop-blur-sm"
             onClick={() => setSelectedStock(null)}
           />
-          <div className="relative w-full max-w-md bg-zinc-900 border border-zinc-800 rounded-2xl shadow-2xl p-6 sm:p-8 text-center">
+          <div className="relative w-full max-w-md bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 rounded-2xl shadow-2xl p-6 sm:p-8 text-center">
             {/* Close */}
             <button
               onClick={() => setSelectedStock(null)}
-              className="absolute top-4 right-4 text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="absolute top-4 right-4 text-gray-400 dark:text-zinc-500 hover:text-gray-600 dark:hover:text-zinc-300 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -177,33 +177,33 @@ export default function FeaturedStocks({ stocks, isAdmin, locale }: FeaturedStoc
                 className="w-10 h-10 rounded-full object-cover bg-white"
               />
               <div className="text-left">
-                <div className="text-lg font-bold text-white">{selectedStock.symbol}</div>
-                <div className="text-xs text-zinc-500">{selectedStock.name}</div>
+                <div className="text-lg font-bold text-gray-900 dark:text-white">{selectedStock.symbol}</div>
+                <div className="text-xs text-gray-400 dark:text-zinc-500">{selectedStock.name}</div>
               </div>
             </div>
 
             {/* Lock icon */}
             <div className="relative mx-auto w-14 h-14 mb-4">
               <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl animate-pulse" />
-              <div className="relative w-14 h-14 rounded-full bg-zinc-800/80 border border-zinc-700 flex items-center justify-center">
-                <svg className="w-7 h-7 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <div className="relative w-14 h-14 rounded-full bg-gray-100 dark:bg-zinc-800/80 border border-gray-200 dark:border-zinc-700 flex items-center justify-center">
+                <svg className="w-7 h-7 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
                 </svg>
               </div>
             </div>
 
-            <h3 className="text-xl font-bold text-white mb-2">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
               {t("stockDetail.title")}
             </h3>
-            <p className="text-sm text-zinc-400 mb-6">
+            <p className="text-sm text-gray-500 dark:text-zinc-400 mb-6">
               {t("stockDetail.description")}
             </p>
 
             {/* Features */}
             <div className="grid grid-cols-1 gap-2 mb-6 text-left">
               {[0, 1, 2, 3].map((i) => (
-                <div key={i} className="flex items-center gap-2 text-sm text-zinc-300">
-                  <svg className="w-4 h-4 text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div key={i} className="flex items-center gap-2 text-sm text-gray-700 dark:text-zinc-300">
+                  <svg className="w-4 h-4 text-emerald-500 dark:text-emerald-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   {t(`stockDetail.features.${i}`)}
@@ -212,18 +212,18 @@ export default function FeaturedStocks({ stocks, isAdmin, locale }: FeaturedStoc
             </div>
 
             {/* Waitlist */}
-            <div className="bg-zinc-800/50 border border-zinc-700/50 rounded-xl p-5 mb-4">
-              <p className="text-sm font-medium text-white mb-1">{t("waitlistHeading")}</p>
-              <p className="text-xs text-zinc-500 mb-4">{t("waitlistSubheading")}</p>
+            <div className="bg-gray-50 dark:bg-zinc-800/50 border border-gray-200 dark:border-zinc-700/50 rounded-xl p-5 mb-4">
+              <p className="text-sm font-medium text-gray-900 dark:text-white mb-1">{t("waitlistHeading")}</p>
+              <p className="text-xs text-gray-500 dark:text-zinc-500 mb-4">{t("waitlistSubheading")}</p>
               <WaitlistForm source={`stock-${selectedStock.symbol}`} locale={locale} />
             </div>
 
             {/* Login CTA */}
             <div className="flex items-center justify-center gap-2 text-sm">
-              <span className="text-zinc-500">{t("ctaText")}</span>
+              <span className="text-gray-400 dark:text-zinc-500">{t("ctaText")}</span>
               <Link
                 href="/login"
-                className="text-blue-400 hover:text-blue-300 font-medium transition-colors"
+                className="text-blue-600 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 font-medium transition-colors"
               >
                 {t("loginText")}
               </Link>
