@@ -2,17 +2,24 @@ import { neon } from "@neondatabase/serverless";
 import { drizzle } from "drizzle-orm/neon-http";
 import * as schema from "./schema";
 
+type DbInstance = ReturnType<typeof drizzle<typeof schema>>;
+
 const globalForDb = globalThis as unknown as {
-  db: ReturnType<typeof drizzle<typeof schema>> | undefined;
+  db: DbInstance | undefined;
 };
 
-function createDb() {
-  const sql = neon(process.env.DATABASE_URL!);
-  return drizzle(sql, { schema });
+function getDb(): DbInstance {
+  if (!globalForDb.db) {
+    const sql = neon(process.env.DATABASE_URL!);
+    globalForDb.db = drizzle(sql, { schema });
+  }
+  return globalForDb.db;
 }
 
-export const db = globalForDb.db ?? createDb();
-
-if (process.env.NODE_ENV !== "production") {
-  globalForDb.db = db;
-}
+export const db: DbInstance = new Proxy({} as DbInstance, {
+  get(_target, prop, receiver) {
+    const instance = getDb();
+    const value = Reflect.get(instance, prop, receiver);
+    return typeof value === "function" ? value.bind(instance) : value;
+  },
+});
