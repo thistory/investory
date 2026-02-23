@@ -6,6 +6,10 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: "standalone",
+  experimental: {
+    workerThreads: false,
+    cpus: 1,
+  },
   headers: async () => [
     {
       source: "/(.*)",
