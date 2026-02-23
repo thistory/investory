@@ -2,8 +2,8 @@
   "symbol": "PLTR",
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-02-23",
-  "currentPrice": 135.24,
-  "marketCap": "$323B",
+  "currentPrice": 130.6,
+  "marketCap": "$310B",
   "businessSummary": {
     "oneLiner": "정부와 기업을 위한 AI 데이터 분석 플랫폼 - 미국 국방·정보기관의 핵심 소프트웨어 파트너에서 상업 AI 강자로 변신 중.",
     "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 만드는 회사입니다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장하고 있습니다. Q4 2025 매출 $14.07억(+70% YoY), US 상업 매출 $5.07억(+137% YoY). DHS $10억 5년 BPA(포괄구매협정) 체결, Rackspace와 AI 인프라 파트너십(30명→250명+ 엔지니어, UK Sovereign 데이터센터), Mizuho Outperform 상향($195)이 있었지만 주가는 2026년 -24% 하락 중. Percepta AI 소송에서 비경쟁 금지명령 기각(비권유만 인정), DISA IL5/IL6 온프레미스·엣지 인증 획득, Michael Burry $46 약세 시나리오 등 강세·약세 논쟁이 첨예.",
@@ -23,13 +23,41 @@
     ]
   },
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "~222", "interpretation": "극단적으로 높은 밸류에이션. PEG 2.5 이상. Burry $46 약세 시나리오 제시" },
-    { "name": "Forward P/E", "value": "~102", "interpretation": "2026년 예상 수익 기준. 소프트웨어 평균(~25x)의 4배. 성장 프리미엄이 극도로 높은 상태" },
-    { "name": "매출 성장률 (YoY)", "value": "+70% (Q4 2025) / +56% TTM", "interpretation": "10분기 연속 가속. US 상업 +137% YoY" },
-    { "name": "영업이익률", "value": "50% (조정, FY2025)", "interpretation": "Rule of 40 = 127% (성장률 70% + 조정 마진 57%). 소프트웨어 업계 최상위권" },
-    { "name": "FCF (연간)", "value": "$22.7억 (마진 51%)", "interpretation": "Q4 조정 FCF $7.91억(마진 56%). YoY +82%" },
-    { "name": "부채비율", "value": "0.03 (무부채)", "interpretation": "현금+단기국채 $72억, 부채 제로. 유동비율 7.11" },
-    { "name": "2026 가이던스", "value": "매출 $71.8~72.0억 (+61% YoY)", "interpretation": "조정 FCF $39.3~41.3억 가이던스. Q1 가이던스 $15.3~15.4억(컨센서스 $13.2억 대폭 상회)" }
+    {
+      "name": "P/E (TTM)",
+      "value": "222.7x",
+      "interpretation": "극단적 프리미엄이나 AI 소프트웨어 성장 반영"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "+56.2% (FY2025)",
+      "interpretation": "10분기 연속 가속 성장. AIP 기반 상업 부문 폭발"
+    },
+    {
+      "name": "영업이익률",
+      "value": "31.6%",
+      "interpretation": "소프트웨어 레버리지 극대화. 전년 10.8%에서 급상승"
+    },
+    {
+      "name": "순이익",
+      "value": "$16.25억",
+      "interpretation": "전년 대비 +251.6% 성장"
+    },
+    {
+      "name": "매출총이익률",
+      "value": "82.4%",
+      "interpretation": "SaaS 비즈니스 특유의 초고마진 구조"
+    },
+    {
+      "name": "FY2026 가이던스",
+      "value": "$71.8~72.0억",
+      "interpretation": "컨센서스 $62.2억 대비 15.5% 상회. 경영진 자신감"
+    },
+    {
+      "name": "US 상업 매출 성장",
+      "value": "+137% YoY (Q4)",
+      "interpretation": "AIP가 이끄는 미국 기업 AI 도입 가속"
+    }
   ],
   "growthDrivers": [
     {
@@ -52,181 +80,192 @@
   "competitiveAdvantage": {
     "summary": "정부·국방 AI 분야 독보적 1위, 상업 AI에서도 AIP로 빠르게 입지 구축. 데이터 보안 + AI 통합에서 대체 불가.",
     "moats": [
-      { "type": "정부/국방 보안 인증 (규제 해자)", "description": "CIA, NSA, DHS 최고 수준 보안 인증. DHS BPA로 경쟁 입찰 면제. DISA IL5/IL6 인증." },
-      { "type": "네트워크 효과 & 데이터 효과", "description": "고객이 많아질수록 AI 모델이 더 좋아지는 선순환." },
-      { "type": "높은 전환비용", "description": "고객 데이터 인프라에 깊이 통합. Airbus 다년 계약, DHS 5년 BPA." }
+      {
+        "type": "정부/국방 보안 인증 (규제 해자)",
+        "description": "CIA, NSA, DHS 최고 수준 보안 인증. DHS BPA로 경쟁 입찰 면제. DISA IL5/IL6 인증."
+      },
+      {
+        "type": "네트워크 효과 & 데이터 효과",
+        "description": "고객이 많아질수록 AI 모델이 더 좋아지는 선순환."
+      },
+      {
+        "type": "높은 전환비용",
+        "description": "고객 데이터 인프라에 깊이 통합. Airbus 다년 계약, DHS 5년 BPA."
+      }
     ],
     "competitors": [
-      { "name": "Snowflake", "detail": "데이터 클라우드, AI 기능 확대 중이나 정부 부문 약세." },
-      { "name": "Databricks", "detail": "비상장, 데이터 레이크하우스. 기업 AI에서 경쟁." },
-      { "name": "C3.ai", "detail": "기업 AI 플랫폼. 성장률과 규모에서 크게 뒤처짐." },
-      { "name": "Percepta AI", "detail": "전 Palantir 직원 창업. 비경쟁 금지명령 기각으로 경쟁 가능." }
+      {
+        "name": "Snowflake",
+        "detail": "데이터 클라우드, AI 기능 확대 중이나 정부 부문 약세."
+      },
+      {
+        "name": "Databricks",
+        "detail": "비상장, 데이터 레이크하우스. 기업 AI에서 경쟁."
+      },
+      {
+        "name": "C3.ai",
+        "detail": "기업 AI 플랫폼. 성장률과 규모에서 크게 뒤처짐."
+      },
+      {
+        "name": "Percepta AI",
+        "detail": "전 Palantir 직원 창업. 비경쟁 금지명령 기각으로 경쟁 가능."
+      }
     ]
   },
   "recentNews": [
     {
-      "date": "2026-02-22",
-      "headline": "'Category of One' - 포워드 멀티플 급락 후 애널리스트 다수 업그레이드",
-      "significance": "급락 이후 밸류에이션 de-risked 평가. 여러 애널리스트가 AIP 성장 모멘텀을 근거로 매수 의견 제시.",
-      "url": "https://finance.yahoo.com/news/palantir-pltr-called-category-one-165224898.html"
+      "date": "2026-02-23",
+      "headline": "PLTR -3.4% 하락, SaaS 섹터 전반 약세",
+      "significance": "'SaaSpocalypse' 매도세 속 동반 하락",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/02/23/is-palantir-stock-winning-the-ai-race/"
     },
     {
-      "date": "2026-02-22",
-      "headline": "Phillip Securities, PLTR 목표가 소폭 하향 - Buy 유지",
-      "significance": "애널리스트 Paul Chew가 목표가를 하향 조정했으나 Buy 의견 유지. 높은 밸류에이션 인정하면서도 성장 모멘텀에 주목.",
-      "url": "https://finance.yahoo.com/news/phillip-securities-cuts-palantir-pltr-152449934.html"
+      "date": "2026-02-18",
+      "headline": "Mizuho, Hold→Outperform 상향, 목표가 $195",
+      "significance": "주요 애널리스트 업그레이드. de-risked 밸류에이션 평가",
+      "url": "https://stockanalysis.com/stocks/pltr/forecast/"
     },
     {
-      "date": "2026-02-22",
-      "headline": "TipRanks: 'Palantir - AI 스타인가 버블인가?' 심층 분석",
-      "significance": "US 상업 +137%, 가이던스 $72억(+60%)을 근거로 '정부와 기업 AI의 운영체제'로 평가. 밸류에이션 프리미엄의 정당성 논쟁.",
-      "url": "https://www.tipranks.com/news/weekend-updates/palantir-technologies-soaring-ai-star-or-bubble-ready-to-burst"
+      "date": "2026-02-03",
+      "headline": "Q4 2025 실적: 매출 $14.07억(+70%), FY2026 가이던스 $71.8~72.0억",
+      "significance": "컨센서스 15% 상회 가이던스. 10분기 연속 성장 가속",
+      "url": "https://www.cnbc.com/2026/02/02/palantir-pltr-q4-2025-earnings.html"
     },
     {
-      "date": "2026-02-21",
-      "headline": "Mizuho, PLTR Neutral에서 Outperform 상향 ($195)",
-      "significance": "Mizuho Gregg Moskowitz가 '최근 급락은 정당화 불가, AIP는 카테고리의 유일한 존재'로 평가.",
-      "url": "https://www.themarketsdaily.com/2026/02/21/palantir-technologies-nasdaqpltr-upgraded-at-mizuho.html"
+      "date": "2026-02-03",
+      "headline": "Q4 실적 후 급등 — 영업이익률 57%, 매출 10분기 연속 가속",
+      "significance": "역사적 소프트웨어 기업 중 가장 빠른 $10B 매출 도달 경로",
+      "url": "https://www.cnbc.com/2026/02/03/palantir-soars-after-strong-earnings-what-analysts-highlighted.html"
     },
     {
-      "date": "2026-02-21",
-      "headline": "Percepta AI 소송 - 비경쟁 금지명령 기각, 직원 채용 금지만 인정",
-      "significance": "연방 판사가 Percepta AI 근무 금지 요청을 기각. 경쟁사가 자유롭게 운영 가능해져 인력 유출 리스크 현실화.",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50749274/whats-going-on-with-palantir-stock-friday"
-    },
-    {
-      "date": "2026-02-19",
-      "headline": "DHS $10억 5년 BPA 체결 - 경쟁 입찰 없이 AI 플랫폼 조달",
-      "significance": "DHS 산하 기관이 직접 Palantir 소프트웨어 조달 가능. 단일 정부 계약으로 $10억+ 백로그 추가.",
-      "url": "https://siliconangle.com/2026/02/19/dhs-awards-palantir-1b-deploy-ai-data-analytics-platforms/"
+      "date": "2026-02-18",
+      "headline": "Seeking Alpha: 'AIP Is Not A Wrapper' — $181 목표가 Buy",
+      "significance": "AIP 기술적 우위 재평가. SaaSpocalypse 속 차별화 논리",
+      "url": "https://seekingalpha.com/article/4871327-palantir-aip-is-not-a-wrapper"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 191,
+    "consensusTarget": 187.95,
     "highTarget": 260,
     "lowTarget": 50,
-    "upsidePercent": 41.0,
-    "buyCount": 12,
-    "holdCount": 5,
-    "sellCount": 2,
-    "notableComment": "19명 분석: 12명 Buy, 5명 Hold, 2명 Sell. 평균 목표가 $191(+41%), 최고가 $260(Citi). Mizuho 2/21 Outperform $195 상향, Daiwa Buy $180, BofA Buy $255. Burry $46 약세론(Put $50 보유, 2027 만기). 현재 $135.24로 ATH 대비 35% 조정 구간."
+    "upsidePercent": 43.91,
+    "buyCount": 9,
+    "holdCount": 10,
+    "sellCount": 1,
+    "notableComment": "Mizuho Outperform 상향($195). FY2026 가이던스가 컨센서스 15% 상회하며 'Category of One' 평가 확산. 다만 P/E 222x에 대한 경계도 존재."
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션 - P/E ~222배, Forward P/E ~102배, 2026년 -24% 하락",
-      "description": "P/E ~222배, Forward P/E ~102배로 소프트웨어 평균의 4배. Burry $46 약세 시나리오, $50 Put 옵션(2027년 만기) 보유. 50일 이동평균 ~$173, 200일 이동평균 ~$165 모두 하회 중."
+      "title": "P/E 222x — 역사적 밸류에이션 부담",
+      "description": "소프트웨어 역사상 최고 수준 멀티플. 성장 둔화 시 급격한 디레이팅 리스크."
     },
     {
       "severity": "high",
-      "title": "Percepta AI 인력 유출 + 비경쟁 금지명령 기각",
-      "description": "전 핵심 직원 3명이 Percepta AI 창업. 연방 판사가 비경쟁 금지명령 기각. 구조적 해자 훼손 리스크."
-    },
-    {
-      "severity": "high",
-      "title": "SaaS-pocalypse - AI가 SaaS를 대체할 수 있다는 우려",
-      "description": "DHS·Rackspace·Mizuho 호재에도 주가 하락한 것이 센티먼트 악화를 증명."
-    },
-    {
-      "severity": "high",
-      "title": "Burry $46 약세론 - '사악한 회계', CEO $1,720만 제트기 비용 비판",
-      "description": "Burry가 $46/주 약세 시나리오 발표, $50 Put 옵션(2027년 만기) 보유. AR이 12분기 중 9분기에서 매출보다 빠르게 성장. CEO Karp $1,720만 제트기 비용(+123% YoY). 주식 수 YoY +4.67% 희석."
+      "title": "SaaSpocalypse 전반 매도세",
+      "description": "SaaS 섹터 전반 리레이팅 국면. PLTR도 2026년 YTD -24% 하락."
     },
     {
       "severity": "medium",
-      "title": "정부 예산 의존 및 DOGE 예산 삭감 리스크",
-      "description": "정부 지출 삭감 움직임이 직접적 영향 가능. 정부 매출 비중 여전히 높음."
+      "title": "정부 예산 의존도",
+      "description": "미국 정부 부문이 매출의 ~40%. 국방 예산 삭감 시 직접 영향."
+    },
+    {
+      "severity": "medium",
+      "title": "높은 주식보상비용",
+      "description": "SBC가 매출 대비 높은 편. 희석 효과 지속."
+    },
+    {
+      "severity": "low",
+      "title": "Michael Burry 약세론",
+      "description": "Burry의 $46 시나리오. 극단적이나 투자심리에 영향."
     }
   ],
   "buyReasons": [
     {
-      "title": "DHS $10억 BPA + 파이프라인 역대 최대",
-      "rationale": "대형 계약 연이어 체결. DHS BPA는 경쟁 입찰 없는 조달 채널. 2026 가이던스 $71.8~72.0억(+61% YoY), Q1 가이던스 $15.3~15.4억(컨센서스 $13.2억 상회)으로 성장 가시성 확보."
+      "title": "FY2026 가이던스 $71.8~72.0억",
+      "rationale": "컨센서스 대비 15% 상회. 경영진이 보는 성장 궤적은 시장 기대 이상."
     },
     {
-      "title": "ATH 대비 35% 조정 + 무부채 현금 성채 $72억",
-      "rationale": "현금+단기국채 $72억, 부채 제로, 유동비율 7.11. Mizuho Outperform $195, Daiwa Buy $180, Citi $260. 평균 목표가 $191 대비 +41% 상승 여력."
+      "title": "US 상업 매출 +137% 폭발",
+      "rationale": "AIP가 기업 AI 시장을 장악 중. 톱 20 고객 평균 $9,400만/년."
     },
     {
-      "title": "Rule of 40 = 127% - 소프트웨어 역사상 전례 없는 성장+마진",
-      "rationale": "70% 성장 + 57% 조정 마진. US 상업 +137% YoY. 'Category of One' 평가."
+      "title": "DHS $10억 5년 BPA",
+      "rationale": "경쟁 입찰 없이 DHS 산하 기관 직접 조달. RPO $42억."
+    },
+    {
+      "title": "YTD -24% 조정으로 진입 기회",
+      "rationale": "SaaSpocalypse 속 과매도 구간. 펀더멘탈 대비 할인."
     }
   ],
   "technicalPosition": {
     "week52High": 207.52,
     "week52Low": 66.12,
-    "currentPositionPercent": 48.0,
-    "sma50": 173.0,
+    "currentPositionPercent": 45.6,
+    "sma50": 145.0,
     "sma50Signal": "below",
-    "sma200": 165.0,
-    "sma200Signal": "below",
-    "rsi": 40,
+    "sma200": 130.0,
+    "sma200Signal": "above",
+    "rsi": 38.0,
     "rsiSignal": "neutral"
   },
-  "overallOpinion": [
-    "DHS $10억 BPA(2/19 확정), Rackspace 파트너십(30→250+ 엔지니어, UK Sovereign), US 상업 +137% 성장으로 실질적 성장 증명 중. Q1 가이던스도 컨센서스를 대폭 상회.",
-    "P/E ~222배, Forward P/E ~102배로 고평가 구간. SaaS-pocalypse와 Burry $46 약세론($50 Put 보유, 2027 만기)으로 2026년 24% 하락, ATH 대비 35% 조정.",
-    "Mizuho Outperform $195(2/21), Daiwa Buy $180, Citi Strong Buy $260 등 12명 매수. 평균 목표가 $191로 +41% 상승 여력.",
-    "Percepta AI 비경쟁 금지명령 기각(2/18-20)은 인력 유출 리스크 현실화. 비권유만 인정되어 경쟁사 자유 운영 가능.",
-    "Q1 실적이 'SaaS-pocalypse에 잘못 휩쓸린 것'인지 '밸류에이션 정상화'인지 판가름. RSI 40으로 과매도 구간에 근접. DISA IL5/IL6 엣지 인증이 국방 TAM 확대 촉매."
-  ],
+  "overallOpinion": "Palantir는 AI 소프트웨어 분야의 독보적 기업이다. Q4 매출 +70%, US 상업 +137%, FY2026 가이던스 컨센서스 15% 상회 등 펀더멘탈은 압도적이다. 그러나 P/E 222x는 이미 수년치 성장을 선반영하고 있으며, SaaSpocalypse 속 YTD -24% 하락은 밸류에이션 조정의 시작일 수 있다. 현재 50일선 아래에서 200일선 위를 지키고 있어, $130 지지가 관건이다. AI 성장에 대한 확신이 있다면 분할 매수 구간이지만, 단기 변동성에 대한 각오가 필요하다.",
   "sources": [
-    { "name": "Yahoo Finance - 'Category of One' 업그레이드", "url": "https://finance.yahoo.com/news/palantir-pltr-called-category-one-165224898.html", "description": "포워드 멀티플 급락 후 de-risked 밸류에이션, 애널리스트 다수 업그레이드" },
-    { "name": "Yahoo Finance - Phillip Securities PLTR", "url": "https://finance.yahoo.com/news/phillip-securities-cuts-palantir-pltr-152449934.html", "description": "Phillip Securities 목표가 하향, Buy 유지" },
-    { "name": "TipRanks - PLTR AI Star or Bubble", "url": "https://www.tipranks.com/news/weekend-updates/palantir-technologies-soaring-ai-star-or-bubble-ready-to-burst", "description": "AIP 성장+마진 유일무이 평가, 밸류에이션 논쟁" },
-    { "name": "SiliconANGLE - DHS $1B BPA", "url": "https://siliconangle.com/2026/02/19/dhs-awards-palantir-1b-deploy-ai-data-analytics-platforms/", "description": "DHS $10억 5년 포괄구매협정" },
-    { "name": "Markets Daily - Mizuho Upgrade", "url": "https://www.themarketsdaily.com/2026/02/21/palantir-technologies-nasdaqpltr-upgraded-at-mizuho.html", "description": "Mizuho Neutral에서 Outperform $195 상향" },
-    { "name": "Benzinga - PLTR Friday", "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50749274/whats-going-on-with-palantir-stock-friday", "description": "Percepta 비경쟁 금지명령 기각" },
-    { "name": "GlobeNewsWire - Rackspace Partnership", "url": "https://www.globenewswire.com/news-release/2026/02/18/3240192/0/en/rackspace-and-palantir-partner-to-run-foundry-and-aip-in-production-with-governed-managed-operations.html", "description": "Rackspace 전략적 파트너십, 250명+ 전담 엔지니어" },
-    { "name": "Motley Fool - Is PLTR Buy/Sell/Hold 2026", "url": "https://www.fool.com/investing/2026/02/21/is-palantir-a-buy-sell-or-hold-in-2026/", "description": "2026년 PLTR 투자 판단 분석" },
-    { "name": "Yahoo Finance - PLTR Down 24% in 2026", "url": "https://finance.yahoo.com/news/down-24-2026-where-palantir-142017735.html", "description": "SaaS-pocalypse 분석" },
-    { "name": "StockAnalysis - PLTR Statistics", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "P/E 215, FCF $22.7억" },
-    { "name": "StockAnalysis - PLTR Forecast", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "20명 컨센서스 $188" },
-    { "name": "Palantir Q4 2025 IR", "url": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q4-2025-U-S--Comm-Revenue-Growth-of-137-YY-and-Revenue-Growth-of-70-YY-Issues-FY-2026-Revenue-Guidance-of-61-YY-and-U-S--Comm-Revenue-Guidance-of-115-YY-Crushing-Consensus-Expectations/", "description": "Q4 매출 $14.07억, US 상업 +137%" },
-    { "name": "Yahoo Finance - PLTR Forward P/S 45x", "url": "https://finance.yahoo.com/news/palantir-buy-sell-hold-2026-002000214.html", "description": "Forward P/S 45배, P/E 100배+ 밸류에이션 분석" }
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/pltr/forecast/",
+      "description": "PLTR 애널리스트 컨센서스 및 목표가"
+    },
+    {
+      "name": "Stock Analysis Financials",
+      "url": "https://stockanalysis.com/stocks/pltr/financials/",
+      "description": "PLTR 재무제표 데이터"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/02/palantir-pltr-q4-2025-earnings.html",
+      "description": "Q4 2025 실적 및 FY2026 가이던스"
+    },
+    {
+      "name": "CNBC Analyst",
+      "url": "https://www.cnbc.com/2026/02/03/palantir-soars-after-strong-earnings-what-analysts-highlighted.html",
+      "description": "Q4 실적 후 애널리스트 반응"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/02/23/is-palantir-stock-winning-the-ai-race/",
+      "description": "Palantir AI 경쟁력 분석"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4871327-palantir-aip-is-not-a-wrapper",
+      "description": "AIP 기술적 차별화 분석"
+    },
+    {
+      "name": "Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/PLTR/",
+      "description": "PLTR 52주 고저, 거래량"
+    },
+    {
+      "name": "MacroTrends",
+      "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/pe-ratio",
+      "description": "PLTR P/E 비율 추이"
+    },
+    {
+      "name": "24/7 Wall St",
+      "url": "https://247wallst.com/investing/2026/02/04/will-palantir-pltr-stock-hit-200-in-2026/",
+      "description": "PLTR $200 도달 가능성 분석"
+    }
   ],
   "snsContent": {
-    "x": {
-      "hook": "PLTR: DHS $10억 무경쟁 계약, Rule of 40 = 127%",
-      "text": "투자노트 PLTR (2/23)\n- DHS와 $10억 5년 BPA 체결, 경쟁 입찰 없이 조달 가능.\n- Rackspace 전담 엔지니어 30명에서 250명 이상으로 확대.\n- Mizuho Outperform 상향, 목표가 $195 제시.\n- 미국 상업 매출 +137%, Rule of 40 = 127%.\n\nP/E ~222배, Burry $46 약세론에 $50 Put 보유.\n목표가 $191 (현재 $135, +41%), RSI 40 과매도 근접."
-    },
     "threads": {
-      "hook": "PLTR: DHS $10억 무경쟁 계약, Rule of 40 = 127%",
-      "text": "투자노트 PLTR (2/23)\n- DHS와 $10억 5년 BPA 체결, 경쟁 입찰 없이 조달 가능.\n- Rackspace 전담 엔지니어 30명에서 250명 이상으로 확대.\n- Mizuho Outperform 상향, 목표가 $195 제시.\n- 미국 상업 매출 +137%, Rule of 40 = 127%.\n\nP/E ~222배, Burry $46 약세론에 $50 Put 보유.\n목표가 $191 (현재 $135, +41%), RSI 40 과매도 근접."
+      "hook": "PLTR -24% 폭락, 하지만 매출은 +70% 폭등 🤯",
+      "text": "PLTR $130.60 (-3.4%)\n\n주가는 떨어지는데 매출은 역대급.\nQ4 +70%, US상업 +137%, 가이던스 컨센서스 15% 상회.\n\nP/E 222배가 문제일까, 기회일까?\n\n상세분석 👉 investory.kro.kr/stock/PLTR/analysis/2026-02-23"
     },
     "telegram": {
-      "hook": "PLTR: DHS $10억 BPA, Rackspace 250명+, Mizuho $195",
-      "text": "투자노트 PLTR (2/23)\n\n호재: DHS와 $10억 5년 BPA 체결, 경쟁 입찰 없이 조달 가능. Rackspace 전담 엔지니어 30명에서 250명 이상으로 증가. Mizuho Outperform 상향, 목표가 $195. 미국 상업 매출 +137%, Rule of 40 = 127%, 현금 $72억 부채 제로.\n\n리스크: P/E ~222배, Burry $46 약세론에 $50 Put 보유. Percepta AI 비경쟁 금지명령 기각, 인력 유출 리스크 현실화.\n\n목표가 $191 (현재 $135, +41%), Buy 12 / Hold 5 / Sell 2. RSI 40, ATH 대비 35% 조정 중.\n\nhttps://investory.kro.kr/ko/stock/PLTR/analysis/2026-02-23"
-    },
-    "tones": {
-      "x": {
-        "fact": {
-          "hook": "PLTR: DHS $10억 무경쟁 계약, Rule of 40 = 127%",
-          "text": "투자노트 PLTR (2/23)\n- DHS와 $10억 5년 BPA 체결, 경쟁 입찰 없이 조달 가능.\n- Rackspace 전담 엔지니어 30명에서 250명 이상으로 확대.\n- Mizuho Outperform 상향, 목표가 $195 제시.\n- 미국 상업 매출 +137%, Rule of 40 = 127%.\n\nP/E ~222배, Burry $46 약세론에 $50 Put 보유.\n목표가 $191 (현재 $135, +41%), RSI 40 과매도 근접."
-        },
-        "witty": {
-          "hook": "DHS가 $10억 수표를 들고 줄을 섰다",
-          "text": "투자노트 PLTR (2/23)\nDHS가 $10억 수표를 들고 경쟁 입찰도 없이 직접 줄을 섰다. Rackspace는 엔지니어 250명을 붙여줬다. Mizuho는 목표가 $195로 올리며 \"카테고리 자체가 다르다\"고 했다. Rule of 40 = 127%. 그런데 Burry는 $50 Put을 들고 '$46 간다'며 대기 중. 주가는 ATH 대비 35% 빠진 채로. Q1이 해명해줄 것."
-        },
-        "empathy": {
-          "hook": "PLTR 계속 들고 있어도 되는 걸까요",
-          "text": "투자노트 PLTR (2/23)\nDHS $10억 계약에 Mizuho 목표가 $195 상향, Rackspace 250명+ 파트너십까지 호재가 쏟아지는데 주가는 ATH 대비 35% 빠진 상태입니다. 2026년 들어서만 24% 내려온 거고, 이 상황에서 Burry가 $46 약세 시나리오에 $50 Put을 들고 있다는 소식까지 들리면 불안한 게 당연해요.\n\n그런데 팩트를 보면 미국 상업 매출은 +137% YoY로 숫자로 증명된 성장이에요. Rule of 40 = 127%는 소프트웨어 업계에서 전례를 찾기 어려운 성장+마진 조합이고, 현금 $72억에 부채는 제로입니다. Q1 가이던스도 컨센서스 $13.2억을 $15.3억으로 대폭 상회했어요.\n\n반대로 P/E 222배는 완벽한 미래를 이미 가격에 반영한 수준이고, Percepta AI 비경쟁 금지명령 기각으로 인력 유출 리스크도 현실화됐습니다. Burry의 지적처럼 매출채권이 12분기 중 9분기에서 매출보다 빠르게 늘었다는 것도 무시할 수 없는 신호예요.\n\n애널리스트 19명 중 12명이 Buy를 유지하고 있고, 평균 목표가 $191은 현재 $135 대비 +41% 상승 여력을 봅니다. Q1 실적 발표가 이 주가 하락이 SaaS-pocalypse에 억울하게 휩쓸린 건지, 아니면 밸류에이션 정상화가 맞는 건지 판가름해줄 첫 번째 검증이 될 거예요. 지금 구간은 확신보다 확인이 필요한 때입니다."
-        }
-      },
-      "threads": {
-        "fact": {
-          "hook": "PLTR: DHS $10억 무경쟁 계약, Rule of 40 = 127%",
-          "text": "투자노트 PLTR (2/23)\n- DHS와 $10억 5년 BPA 체결, 경쟁 입찰 없이 조달 가능.\n- Rackspace 전담 엔지니어 30명에서 250명 이상으로 확대.\n- Mizuho Outperform 상향, 목표가 $195 제시.\n- 미국 상업 매출 +137%, Rule of 40 = 127%.\n\nP/E ~222배, Burry $46 약세론에 $50 Put 보유.\n목표가 $191 (현재 $135, +41%), RSI 40 과매도 근접."
-        },
-        "witty": {
-          "hook": "국방부가 사랑하는 주식, 시장은 왜 패대기를",
-          "text": "투자노트 PLTR (2/23)\nDHS가 $10억 수표를 들고 경쟁 입찰도 없이 직접 줄을 섰다. Rackspace는 엔지니어를 250명으로 늘려줬다. Mizuho는 목표가 $195로 올리며 카테고리 자체가 다르다고 했다. Rule of 40 = 127%는 소프트웨어 역사 경신 수준. 그런데 Burry는 $50 Put 들고 '$46 간다' 대기 중. 주가는 P/E 222배인 채로 ATH 대비 35% 빠짐. Q1이 오해인지 폭탄인지 결판낼 것."
-        },
-        "empathy": {
-          "hook": "PLTR 들고 버티는 분들, 혼자가 아닙니다",
-          "text": "투자노트 PLTR (2/23)\nDHS $10억 계약, Rackspace 250명+ 파트너십, Mizuho 목표가 $195 상향. 이 정도 호재면 주가가 올라야 할 것 같은데, 2026년 -24%에 ATH 대비 -35%입니다. 버티고 있는 분들 정말 힘드실 것 같아요.\n\nBurry가 $46 약세 시나리오에 $50 Put을 들고 있다는 소식은 더 흔들리게 만들죠. 그 불안한 기분, 충분히 이해해요.\n\n그래도 팩트를 한 번 같이 봐요. 미국 상업 매출 +137% YoY는 AIP 도입이 실제로 폭발하고 있다는 증거예요. Rule of 40 = 127%는 성장률 70%에 조정 마진 57%가 합산된 숫자인데, 소프트웨어 업계 역사상 이 수준을 기록한 회사가 드물어요. 현금 $72억에 부채는 제로고, Q1 가이던스도 컨센서스를 $2억 이상 상회했습니다.\n\n반면 P/E 222배는 완벽한 미래가 이미 가격에 다 반영됐다는 뜻이기도 해요. Percepta AI 비경쟁 금지명령 기각으로 핵심 인력이 경쟁사로 이동할 수 있게 됐고, Burry의 AR 회계 지적도 무시하기 어렵습니다.\n\n애널리스트 19명 중 12명이 Buy를 유지하고, 평균 목표가 $191이 현재 $135 대비 +41% 업사이드를 봅니다. Q1 실적이 이 하락이 억울한 오해인지, 밸류에이션 정상화의 시작인지 가르는 첫 번째 분기점이 될 거예요. 지금은 확신보다 확인이 필요한 구간이고, Q1까지 함께 지켜봐요."
-        }
-      }
+      "hook": "PLTR, SaaSpocalypse 속 '유일한 예외'일까?",
+      "text": "📊 PLTR $130.60 (-3.4%) | YTD -24%\n\nSaaS 섹터 전반이 무너지고 있습니다.\n하지만 Palantir의 숫자는 다릅니다:\n\n🔥 Q4 매출 +70% (10분기 연속 가속)\n🔥 US 상업 +137% — AIP가 기업 AI를 장악\n🔥 FY2026 가이던스 $72억 (컨센서스 15% 상회)\n🔥 Mizuho Outperform 상향 ($195)\n\n⚠️ P/E 222x — 완벽한 실행만이 정당화\n⚠️ $130 지지선 테스트 중 (200일선)\n\n매출 성장은 '소프트웨어 역사상 가장 빠른 $10B 경로'.\n과연 밸류에이션이 따라잡을까요?\n\n👉 investory.kro.kr/stock/PLTR/analysis/2026-02-23"
     }
   }
 }

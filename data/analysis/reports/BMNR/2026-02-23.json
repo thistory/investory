@@ -1,9 +1,9 @@
 {
   "symbol": "BMNR",
-  "companyName": "Bitmine Immersion Technologies",
+  "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-02-23",
-  "currentPrice": 20.13,
-  "marketCap": "$9.16B",
+  "currentPrice": 19.22,
+  "marketCap": "$3.4B",
   "businessSummary": {
     "oneLiner": "세계 최대 상장 이더리움(ETH) 보유 기업으로, MicroStrategy의 비트코인 전략을 이더리움에 적용한 디지털 자산 트레저리 회사.",
     "description": "원래 비트코인 채굴 장비/호스팅 회사였으나 2025년 6월 Tom Lee(Fundstrat 공동창업자) 의장 취임 후 이더리움 트레저리 기업으로 전환. 주식·전환사채 발행으로 자금을 조달해 ETH를 매입하는 것이 핵심 사업이며, 현재 약 437만 ETH(전체 공급량의 3.62%)를 보유해 세계 최대 상장 ETH 보유자 지위를 확보. 주간 62,722 ETH($1.23억) 역대 최대 매입 기록. 2/23 Envestnet Asset Management가 $556만(107,076주) 신규 투자, 2/21 Stevens Capital이 42,563주 편입. 그러나 경영진 리스크 부상: CFO Raymond Mow가 12월 사임, President Erik Nelson이 1월 해임. Tom Lee가 Consensus Hong Kong 2026에서 월가 토큰화, AI 에이전트 채택, 증명형 인간 L2 표준의 세 가지 구조적 ETH 수요 동인을 제시.",
@@ -21,13 +21,41 @@
     ]
   },
   "keyMetrics": [
-    { "name": "P/E (주가수익비율)", "value": "N/A (운영 기준 적자)", "interpretation": "FY25 GAAP EPS +$13.39(ETH 시가평가 이익 반영). 그러나 ETH 가격 하락으로 미실현 손실 시 변동성 극심. 전통적 P/E보다 P/NAV 기준 평가가 적합." },
-    { "name": "P/NAV (주가순자산비율)", "value": "~0.80x", "interpretation": "장부가 대비 약 20% 할인 거래 중. 섹터 중앙값 3.64x 대비 심각한 저평가." },
-    { "name": "매출 성장률", "value": "+91% YoY (Q4 2025), +79.7% TTM", "interpretation": "TTM 매출 $719만으로 소규모이나 스테이킹 수익 확대와 함께 빠르게 성장 중. FY2026 매출 컨센서스 $1.93억(+3,073% YoY)." },
-    { "name": "ETH 보유량", "value": "4,371,497 ETH ($86.4억, ETH $1,977 기준, 전체 공급량 3.62%)", "interpretation": "'Alchemy of 5%' 목표 대비 72% 달성. 2위 SharpLink Gaming(86만 ETH) 대비 5배." },
-    { "name": "부채비율 (D/E)", "value": "65.15%", "interpretation": "전환사채 중심 레버리지. 총 현금 $8.88억(mrq) 보유로 단기 유동성 양호하나, ETH 추가 하락 시 조달 비용 부담 가중." },
-    { "name": "잉여현금흐름 (FCF)", "value": "-$9.88M (TTM, Levered FCF)", "interpretation": "ETH 매입에 따른 현금 유출이 지속되나, 스테이킹 수익 $1.76억/년이 운영 현금 흐름을 점진적으로 개선 중." },
-    { "name": "FY26 매출 컨센서스", "value": "$193.4M (FY26E, +3,073% YoY)", "interpretation": "MAVAN 스테이킹 인프라 풀 가동과 스테이킹 수익 급증을 반영. FY27E $506.7M(+162% YoY)까지 확대 전망." }
+    {
+      "name": "ETH 보유량",
+      "value": "4,422,659 ETH",
+      "interpretation": "전체 공급량의 3.67%. 세계 최대 상장 ETH 보유 기업"
+    },
+    {
+      "name": "ETH 평균 매입가",
+      "value": "~$3,708/ETH",
+      "interpretation": "현재 ETH $1,958 기준 $80억+ 미실현 손실"
+    },
+    {
+      "name": "총 크립토+현금 보유",
+      "value": "$96억",
+      "interpretation": "ETH $86.6억 + BTC + 전략투자 + 현금"
+    },
+    {
+      "name": "P/E (TTM)",
+      "value": "-23.1x (적자)",
+      "interpretation": "레거시 사업 미미. ETH 가치 재평가에 의존"
+    },
+    {
+      "name": "배당수익률",
+      "value": "5.0%",
+      "interpretation": "ETH 스테이킹 수익 기반 배당. 지속성은 ETH 가격에 연동"
+    },
+    {
+      "name": "주간 ETH 매입",
+      "value": "51,162 ETH ($9,800만)",
+      "interpretation": "ETH 하락장에서도 공격적 매입 지속"
+    },
+    {
+      "name": "MAVAN 스테이킹 수익",
+      "value": "연 $1.76억 실현",
+      "interpretation": "304만 ETH 스테이킹 중, 2.89% 수익률. Q1 풀 가동 시 $2.52억+"
+    }
   ],
   "growthDrivers": [
     {
@@ -50,186 +78,195 @@
   "competitiveAdvantage": {
     "summary": "이더리움 트레저리 시장에서 압도적 1위. 2위 대비 5배 이상의 보유량 차이와 Tom Lee의 월가 네트워크가 핵심 경쟁력.",
     "moats": [
-      { "type": "규모의 경제 (Scale)", "description": "437만 ETH 보유로 2위 SharpLink Gaming(86만 ETH)의 5배, 3위 The Ether Machine(49.7만 ETH)의 8.8배. 전체 이더리움 공급량의 3.62%를 독점적 보유." },
-      { "type": "기관 투자자 네트워크", "description": "Tom Lee 의장의 30년 월가 경력과 인맥. Morgan Stanley, BlackRock, ARK Invest, Goldman Sachs, Vanguard, BofA, Envestnet 등 세계 최대 기관이 주주로 참여." },
-      { "type": "선점 효과 (First Mover)", "description": "'이더리움의 MicroStrategy' 포지셔닝을 선점. 대규모 상장 크립토 기업 최초 배당 선언으로 기관 투자 친화성 강화." },
-      { "type": "스테이킹 인프라 (MAVAN)", "description": "미국 최초의 대규모 ETH 밸리데이터 네트워크 구축 중. 단순 보유를 넘어 연간 $1.76~4.80억 수익 창출 인프라로 진화." }
+      {
+        "type": "규모의 경제 (Scale)",
+        "description": "437만 ETH 보유로 2위 SharpLink Gaming(86만 ETH)의 5배, 3위 The Ether Machine(49.7만 ETH)의 8.8배. 전체 이더리움 공급량의 3.62%를 독점적 보유."
+      },
+      {
+        "type": "기관 투자자 네트워크",
+        "description": "Tom Lee 의장의 30년 월가 경력과 인맥. Morgan Stanley, BlackRock, ARK Invest, Goldman Sachs, Vanguard, BofA, Envestnet 등 세계 최대 기관이 주주로 참여."
+      },
+      {
+        "type": "선점 효과 (First Mover)",
+        "description": "'이더리움의 MicroStrategy' 포지셔닝을 선점. 대규모 상장 크립토 기업 최초 배당 선언으로 기관 투자 친화성 강화."
+      },
+      {
+        "type": "스테이킹 인프라 (MAVAN)",
+        "description": "미국 최초의 대규모 ETH 밸리데이터 네트워크 구축 중. 단순 보유를 넘어 연간 $1.76~4.80억 수익 창출 인프라로 진화."
+      }
     ],
     "competitors": [
-      { "name": "SharpLink Gaming (SBET)", "detail": "86.3만 ETH 보유, ETH 트레저리 2위. BMNR의 1/5 규모." },
-      { "name": "The Ether Machine (ETHM)", "detail": "49.7만 ETH 보유, ETH 트레저리 3위." },
-      { "name": "Strategy (MSTR)", "detail": "BTC 트레저리 $590억. 같은 전략의 비트코인 버전. 스테이킹 수익 없음." },
-      { "name": "Coinbase (COIN)", "detail": "13.7만 ETH 보유, 거래소. 트레저리가 아닌 거래 플랫폼 중심." }
+      {
+        "name": "SharpLink Gaming (SBET)",
+        "detail": "86.3만 ETH 보유, ETH 트레저리 2위. BMNR의 1/5 규모."
+      },
+      {
+        "name": "The Ether Machine (ETHM)",
+        "detail": "49.7만 ETH 보유, ETH 트레저리 3위."
+      },
+      {
+        "name": "Strategy (MSTR)",
+        "detail": "BTC 트레저리 $590억. 같은 전략의 비트코인 버전. 스테이킹 수익 없음."
+      },
+      {
+        "name": "Coinbase (COIN)",
+        "detail": "13.7만 ETH 보유, 거래소. 트레저리가 아닌 거래 플랫폼 중심."
+      }
     ]
   },
   "recentNews": [
     {
       "date": "2026-02-23",
-      "headline": "Envestnet Asset Management, BMNR $556만(107,076주) 신규 투자",
-      "significance": "$6,000억+ AUM을 관리하는 RIA 플랫폼 Envestnet이 107,076주($556만) 신규 편입. 기관 자금 유입 가속화.",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-invests-5-56-million-in-bitmine-immersion-technologies-inc-nyseamericanbmnr-2026-02-23/"
+      "headline": "ETH 보유량 442만 토큰 도달, 총 자산 $96억 공시",
+      "significance": "주간 51,162 ETH 추가 매입. 크립토+현금 총액 $96억",
+      "url": "https://www.prnewswire.com/in/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-423-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302694296.html"
     },
     {
       "date": "2026-02-23",
-      "headline": "Tom Lee, Consensus Hong Kong 2026에서 세 가지 구조적 ETH 수요 동인 제시",
-      "significance": "월가 토큰화, AI 에이전트 채택, 증명형 인간 L2 표준의 세 가지 구조적 수요 촉매 제시. 단기 심리를 넘어 중장기 구조적 투자 테제로 전환.",
-      "url": "https://www.coindesk.com/consensus-magazine/2026/02/23/tom-lee-three-secular-eth-drivers-consensus-hong-kong/"
+      "headline": "CoinDesk: ETH 하락 속 51,162 ETH 매입, 미실현 손실 $80억+",
+      "significance": "ETH 평균 $3,708 매입 vs 현재 $1,958. 심각한 장부 손실",
+      "url": "https://www.coindesk.com/business/2026/02/23/bitmine-immersion-added-usd98-million-of-ether-last-week-as-losses-balloon-to-more-than-usd8-billion"
+    },
+    {
+      "date": "2026-02-23",
+      "headline": "B. Riley, 목표가 $47→$30 하향 (Strong Buy 유지)",
+      "significance": "ETH 약세 반영 목표가 하향이나 매수 의견 유지",
+      "url": "https://stockanalysis.com/stocks/bmnr/forecast/"
     },
     {
       "date": "2026-02-21",
-      "headline": "Bitmine, 17,722 ETH($3,474만) 추가 매입 — 주간 누적 62,722 ETH($1.23억) 역대 최대",
-      "significance": "2/21 당일 17,722 ETH 추가 매입, 주간 총 62,722 ETH($1.23억)으로 역대 최대 주간 매입 기록 경신. 크라켄 핫월렛에서 3개 지갑으로 이동.",
-      "url": "https://www.cryptotimes.io/2026/02/21/tom-lee-linked-bitmine-adds-17722-eth-in-latest-acquisition/"
+      "headline": "Stevens Capital 42,563주 신규 편입",
+      "significance": "기관 투자 지속. 2/23 Envestnet $556만 투자도 확인"
     },
     {
-      "date": "2026-02-21",
-      "headline": "Stevens Capital Management, BMNR 신규 포지션 진입 — 42,563주",
-      "significance": "또 하나의 기관 투자자가 BMNR에 신규 편입. 상위 11개 주주 전원 Q4 지분 확대에 이은 추가 기관 유입.",
-      "url": "https://www.themarketsdaily.com/2026/02/21/stevens-capital-management-lp-takes-position-in-bitmine-immersion-technologies-inc-bmnr.html"
-    },
-    {
-      "date": "2026-02-20",
-      "headline": "BanklessTimes: 'BMNR이 폭등할 핵심 이유' — 기관 매집·MAVAN·NAV 할인 종합 분석",
-      "significance": "주요 크립토 미디어가 BMNR의 강세 논거를 체계적으로 정리. 하락 쐐기 패턴, PPO 강세 크로스오버, 다음 저항 $35 제시.",
-      "url": "https://www.banklesstimes.com/articles/2026/02/20/bmnr-stock-analysis-top-reasons-why-bitmine-will-go-parabolic/"
-    },
-    {
-      "date": "2026-02-17",
-      "headline": "Tom Lee '크립토 심리, 2018·2022 바닥과 동일' — $9,000만 ETH 매입",
-      "significance": "의장 Tom Lee가 현재 크립토 심리를 역사적 저점과 비교. 주간 45,759 ETH($9,000만) 매입으로 당시 신규 기록 경신.",
-      "url": "https://www.coindesk.com/business/2026/02/17/bitmine-adds-usd90-million-in-eth-with-tom-lee-comparing-crypto-sentiment-to-2018-and-2022-bottoms"
+      "date": "2026-02-05",
+      "headline": "CoinDesk: BitMine $80억 미실현 손실, ETH $2,000 이탈",
+      "significance": "ETH 매입 총 $164억 vs 현재가치 $84억. 시장 공포 확대",
+      "url": "https://www.coindesk.com/business/2026/02/05/tom-lee-s-bitmine-now-usd8-billion-underwater-as-ether-tumbles-below-usd2-000"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 43.0,
-    "highTarget": 47.0,
-    "lowTarget": 39.0,
-    "upsidePercent": 114,
-    "buyCount": 3,
+    "consensusTarget": 30.0,
+    "highTarget": 30.0,
+    "lowTarget": 30.0,
+    "upsidePercent": 56.09,
+    "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "전원 Buy/Strong Buy 의견. B. Riley(Fedor Shabalin) 목표가 $47(2025년 11월 $90에서 하향, Strong Buy 유지), Cantor Fitzgerald Overweight $39. 현재가 $20.13 대비 평균 목표가 $43으로 114% 상승 여력. FY2026E 매출 $1.93억(+3,073%), EPS $0.35. 단, 커버리지 애널리스트 3명에 불과."
+    "notableComment": "B. Riley Fedor Shabalin Strong Buy 유지, 목표가 $47→$30 하향. ETH 약세 반영이나 구조적 성장 시나리오 유지. 커버리지 애널리스트 1명뿐인 점 주의."
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "이더리움 추가 하락 리스크 — 평균 매입가 ~$3,825 대비 현재 $1,977로 ~48% 미실현 손실(~$80억)",
-      "description": "ETH $1,977(2/23 주말), 평균 매입가 $3,825 대비 약 48% 미실현 손실(약 $80억). ETH 가격이 BMNR 주가의 거의 모든 것을 결정. $15~$17 기술적 지지선 이탈 시 추가 급락 가능."
+      "title": "$80억+ 미실현 손실",
+      "description": "ETH 평균 $3,708 매입 vs 현재 $1,958. 총 매입가 $164억 대비 현재가치 $86억."
+    },
+    {
+      "severity": "critical",
+      "title": "ETH 가격 완전 의존",
+      "description": "사실상 ETH 레버리지 투자 수단. ETH 추가 하락 시 자본 잠식 우려."
     },
     {
       "severity": "high",
-      "title": "경영진 연이은 이탈 — CFO·President 연속 사임/해임",
-      "description": "CFO Raymond Mow가 2025년 12월 사임, President Erik Nelson이 2026년 1월 해임. 핵심 경영진의 연속 이탈은 내부 거버넌스 불안정 신호. Tom Lee 의장 의존도 과다."
+      "title": "경영진 리스크",
+      "description": "CFO Raymond Mow 12월 사임, President Erik Nelson 1월 해임. 거버넌스 불안."
     },
     {
       "severity": "high",
-      "title": "극심한 주주 희석 — 52주 고점 $161 대비 87% 하락",
-      "description": "52주 고점 $161(2025년 6월) 대비 $20.13으로 87% 하락. $3.15억 선반 등록(ESOP 관련) 추가 희석 압력. 전환사채 지속 발행으로 주당 가치 희석 심각."
-    },
-    {
-      "severity": "high",
-      "title": "NAV 디커플링 — ETH 매입해도 주가 하락, 시장의 전략 불신",
-      "description": "주간 62,722 ETH($1.23억) 기록적 매입에도 주가 횡보·하락 지속. $23~$32 EMA 클러스터가 모든 반등 시 저항으로 작용. 시장이 전략을 불신하는 신호."
-    },
-    {
-      "severity": "high",
-      "title": "모든 주요 이동평균선 하회 — 기술적 약세 극심",
-      "description": "50일 SMA($26.93)·200일 SMA($39.47) 모두 현재가($20.13)보다 위. 기술적 신호 1매수 vs 11매도. Bollinger Band 하단 $15.79로 지지선 위협."
+      "title": "희석 리스크",
+      "description": "주식·전환사채 발행으로 지속적 자금 조달. 기존 주주 희석 심화."
     },
     {
       "severity": "medium",
-      "title": "규제 리스크 — SEC ETH 분류 및 스테이킹 규제 불확실성",
-      "description": "SEC의 ETH 증권 분류 가능성, 스테이킹 규제 강화 리스크 상존. MAVAN 가동 지연 시 수익 모델 차질."
+      "title": "애널리스트 커버리지 부족",
+      "description": "커버리지 1명(B. Riley)만 존재. 기관 관심 제한적."
     }
   ],
   "buyReasons": [
     {
-      "title": "NAV 대비 할인 거래 + 기관 바닥 매수 가속화",
-      "rationale": "장부가 대비 약 20% 할인(P/B 0.80x). 2/23 Envestnet $556만 신규 투자, Morgan Stanley·ARK·BlackRock·Goldman Sachs·BofA·Stevens Capital 등 확대 매수 중. 419개 기관 1.52억 주 보유."
+      "title": "ETH $2,000 회복 시 NAV 급반등",
+      "rationale": "442만 ETH 보유. ETH $3,000 도달 시 NAV만 $132억으로 시총의 4배."
     },
     {
-      "title": "MAVAN 스테이킹 수익 현실화 — 패시브 보유에서 수익 창출 기업으로 전환",
-      "rationale": "현재 304만 ETH 스테이킹 중, 이미 연간 $1.76억 수익 발생. Q1 2026 MAVAN 가동 시 $2.52억, 풀 스케일 시 $4.80억 확대 가능. BTC 트레저리 기업이 불가능한 핵심 차별점. FY2026E 매출 $1.93억(+3,073%) 전망."
+      "title": "MAVAN 스테이킹 연 $2.52억+ 수익",
+      "rationale": "Q1 풀 가동 시 스테이킹 수익으로 운영비 충당 가능."
     },
     {
-      "title": "Tom Lee의 세 가지 구조적 ETH 촉매 + 437만 ETH의 레버리지",
-      "rationale": "Consensus Hong Kong 2026에서 Tom Lee가 월가 토큰화, AI 에이전트 채택, 증명형 인간 L2 표준을 구조적 수요 동인으로 제시. 437만 ETH 보유로 ETH $100 상승 시 자산가치 $4.37억 증가. 하락 쐐기 돌파 시 다음 저항 $35."
+      "title": "기관 투자 가속",
+      "rationale": "Morgan Stanley 1,210만 주, ARK 940만 주, BlackRock +166%. 419개 기관 보유."
+    },
+    {
+      "title": "Tom Lee 구조적 ETH 수요론",
+      "rationale": "Consensus HK 2026에서 월가 토큰화, AI 에이전트, L2 표준 세 가지 촉매 제시."
     }
   ],
   "technicalPosition": {
     "week52High": 161.0,
-    "week52Low": 3.20,
-    "currentPositionPercent": 10.7,
-    "sma50": 26.93,
+    "week52Low": 0.23,
+    "currentPositionPercent": 11.8,
+    "sma50": 22.0,
     "sma50Signal": "below",
-    "sma200": 39.47,
+    "sma200": 55.0,
     "sma200Signal": "below",
-    "rsi": 42,
+    "rsi": 35.0,
     "rsiSignal": "neutral"
   },
-  "overallOpinion": [
-    "437만 ETH($86억) 보유, NAV 대비 ~20% 할인 거래 — Envestnet $556만 신규 투자, 419개 기관 바닥 매수 가속화",
-    "ETH 평균 매입가($3,825) 대비 48% 하락, ~$80억 미실현 손실; 50일 SMA($26.93)·200일 SMA($39.47) 모두 위에서 저항",
-    "Tom Lee, Consensus Hong Kong에서 세 가지 구조적 ETH 수요 동인 제시: 월가 토큰화, AI 에이전트, 증명형 인간 L2",
-    "CFO·President 연속 이탈로 거버넌스 불안; $3.15억 선반 등록과 NAV 디커플링이 최대 구조적 리스크",
-    "MAVAN 스테이킹 Q1 가동 시 연간 $2.52억 수익으로 BTC 트레저리 기업과 핵심 차별화 — ETH $2,000 돌파가 단기 핵심 변수"
-  ],
+  "overallOpinion": "BMNR은 사실상 이더리움 레버리지 투자 수단이다. 442만 ETH 보유(공급량의 3.67%)는 '디지털 자산의 MicroStrategy'라는 전략의 결과이나, 평균 매입가 $3,708 대비 현재 ETH $1,958로 $80억+ 미실현 손실이 심각하다. MAVAN 스테이킹, 기관 투자 확대는 긍정적이나, CFO·사장 연이은 이탈, 애널리스트 커버리지 1명은 우려 요인이다. ETH $3,000+ 회복 시 폭발적 반등 가능하나, 추가 하락 시 자본 잠식 리스크도 현실적이다. 극도의 고위험·고수익 종목으로, ETH 강세론자에게만 적합하다.",
   "sources": [
-    { "name": "Yahoo Finance — BMNR Quote & History", "url": "https://finance.yahoo.com/quote/BMNR/", "description": "BMNR 주가 $20.13, 시가총액 $91.6억, 주말 마감 변동 없음" },
-    { "name": "MarketBeat — Envestnet $556만 신규 투자", "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-invests-5-56-million-in-bitmine-immersion-technologies-inc-nyseamericanbmnr-2026-02-23/", "description": "Envestnet 107,076주($556만) 신규 편입" },
-    { "name": "CoinDesk — Tom Lee Consensus Hong Kong 2026", "url": "https://www.coindesk.com/consensus-magazine/2026/02/23/tom-lee-three-secular-eth-drivers-consensus-hong-kong/", "description": "월가 토큰화, AI 에이전트, 증명형 인간 L2의 세 가지 구조적 ETH 수요 동인" },
-    { "name": "StockAnalysis — BMNR Forecast", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "B. Riley 목표가 $47, FY26E 매출 $1.93억(+3,073%), EPS $0.35" },
-    { "name": "PRNewswire — ETH 보유 4,371,497개 (2/16 공시)", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-371-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302689296.html", "description": "공식 최신 보유량 공시" },
-    { "name": "CoinDesk — Tom Lee 2018·2022 바닥 비교", "url": "https://www.coindesk.com/business/2026/02/17/bitmine-adds-usd90-million-in-eth-with-tom-lee-comparing-crypto-sentiment-to-2018-and-2022-bottoms", "description": "Tom Lee 크립토 심리 분석 및 $9,000만 ETH 매입" },
-    { "name": "CryptoTimes — BMNR 2/21 17,722 ETH 추가 매입", "url": "https://www.cryptotimes.io/2026/02/21/tom-lee-linked-bitmine-adds-17722-eth-in-latest-acquisition/", "description": "2/21 당일 ETH 매입 상세" },
-    { "name": "BanklessTimes — BMNR 폭등 이유 분석", "url": "https://www.banklesstimes.com/articles/2026/02/20/bmnr-stock-analysis-top-reasons-why-bitmine-will-go-parabolic/", "description": "기술·펀더멘털 강세 논거, 하락 쐐기 패턴, 다음 저항 $35" },
-    { "name": "Markets Daily — Stevens Capital 신규 편입", "url": "https://www.themarketsdaily.com/2026/02/21/stevens-capital-management-lp-takes-position-in-bitmine-immersion-technologies-inc-bmnr.html", "description": "Stevens Capital 42,563주 신규 편입" },
-    { "name": "MarketBeat — BMNR Institutional Ownership", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/institutional-ownership/", "description": "419개 기관 1.52억 주 보유" },
-    { "name": "Investing.com — BMNR Technical Analysis", "url": "https://www.investing.com/equities/bitmine-immersion-tech-technical", "description": "50일 SMA $26.93, 200일 SMA $39.47, RSI 42" },
-    { "name": "SEC EDGAR — BMNR 8-K Filings", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BMNR&type=8-K", "description": "CFO Raymond Mow 사임(12월), President Erik Nelson 해임(1월) 공시" }
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/in/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-423-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302694296.html",
+      "description": "BMNR 2/22 ETH 보유량 공시"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/02/23/bitmine-immersion-added-usd98-million-of-ether-last-week-as-losses-balloon-to-more-than-usd8-billion",
+      "description": "주간 51,162 ETH 매입 및 미실현 손실"
+    },
+    {
+      "name": "CoinDesk (Feb 5)",
+      "url": "https://www.coindesk.com/business/2026/02/05/tom-lee-s-bitmine-now-usd8-billion-underwater-as-ether-tumbles-below-usd2-000",
+      "description": "$80억 미실현 손실 보도"
+    },
+    {
+      "name": "The Block",
+      "url": "https://www.theblock.co/treasuries/bmnr",
+      "description": "BMNR ETH 트레저리 데이터"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/bmnr/forecast/",
+      "description": "BMNR 애널리스트 목표가"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4865711-bitmine-immersion-extreme-fear-asymmetric-setup",
+      "description": "극단적 공포 속 비대칭 셋업 분석"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/02/02/whats-happening-with-bmnr-stock/",
+      "description": "BMNR 주가 분석"
+    },
+    {
+      "name": "Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/BMNR/",
+      "description": "BMNR 실시간 주가 및 52주 고저"
+    },
+    {
+      "name": "CoinDesk ETH",
+      "url": "https://www.coindesk.com/price/ethereum",
+      "description": "이더리움 실시간 가격"
+    }
   ],
   "snsContent": {
-    "x": {
-      "hook": "세계 최대 ETH 보유사, Envestnet도 오늘 합류",
-      "text": "BMNR (2/23)\n- 437만 ETH 보유, 공급량의 3.62%, 세계 최대 상장 보유사\n- Envestnet $556만(107K주) 신규 편입, 419번째 기관 합류\n- Tom Lee, Consensus HK에서 토큰화·AI·L2를 ETH 수요 동인으로 제시\n- MAVAN 스테이킹 연 $1.76억 실현 중, Q1 가동 시 $2.52억으로 확대\n\n⚠️ 평균 매입가 $3,825 vs 현재 $1,977, 미실현 손실 약 $80억\n목표가 $43 (+114%) · P/NAV 0.80x"
-    },
     "threads": {
-      "hook": "ETH 437만 개 보유사에 Envestnet 합류, 경영진은 이탈 중",
-      "text": "BMNR (2/23)\n- 437만 ETH 보유로 전체 공급량의 3.62% 차지, 세계 최대 상장 보유사\n- Envestnet $556만 신규 편입, 419개 기관 1.52억 주 보유\n- Tom Lee, Consensus HK에서 토큰화·AI·L2를 ETH 수요 동인으로 제시\n- MAVAN 스테이킹 연 $1.76억 실현 중, Q1 가동 시 $2.52억으로 확대\n\n⚠️ 약 $80억 미실현 손실. CFO·President 연속 이탈.\n목표가 $43 (+114%) · P/NAV 0.80x"
+      "hook": "BMNR, $80억 손실에도 ETH 매입 멈추지 않는다 🔥",
+      "text": "BMNR $19.22 (-4.5%)\n\n442만 ETH 보유. 이번 주도 5.1만 ETH 추가.\n미실현 손실 $80억+인데 왜 계속 살까?\n\nTom Lee의 답: '월가 토큰화, AI, L2'\n\n상세분석 👉 investory.kro.kr/stock/BMNR/analysis/2026-02-23"
     },
     "telegram": {
-      "hook": "BMNR: Envestnet 합류, Tom Lee가 구조적 ETH 수요 동인 3가지 제시",
-      "text": "📊 BMNR (2/23)\n\n✅ 핵심\n• 437만 ETH 보유, 공급량의 3.62%, 세계 최대 상장 보유사\n• Envestnet $556만(107K주) 신규 편입, Stevens Capital 42,563주 편입\n• Tom Lee, Consensus HK에서 토큰화·AI·L2를 ETH 수요 동인으로 제시\n• MAVAN 스테이킹 연 $1.76억 실현 중, Q1 가동 시 $2.52억으로 확대 예정\n\n⚠️ 리스크\n• 평균 매입가 $3,825 vs 현재 $1,977, 약 $80억 미실현 손실\n• CFO(12월)·President(1월) 연속 이탈로 거버넌스 불안\n• 52주 고점 $161 대비 87% 하락, 모든 이평선 하회\n\n📈 밸류에이션\n• 목표가 $43 (+114%), P/NAV 0.80x\n• FY26E 매출 $1.93억 (+3,073% YoY)\n\nhttps://investory.kro.kr/ko/stock/BMNR/analysis/2026-02-23"
-    },
-    "tones": {
-      "x": {
-        "fact": {
-          "hook": "세계 최대 ETH 보유사, Envestnet도 오늘 합류",
-          "text": "BMNR (2/23)\n- 437만 ETH 보유, 공급량의 3.62%, 세계 최대 상장 보유사\n- Envestnet $556만(107K주) 신규 편입, 419번째 기관 합류\n- Tom Lee, Consensus HK에서 토큰화·AI·L2를 ETH 수요 동인으로 제시\n- MAVAN 스테이킹 연 $1.76억 실현 중, Q1 가동 시 $2.52억으로 확대\n\n⚠️ 평균 매입가 $3,825 vs 현재 $1,977, 미실현 손실 약 $80억\n목표가 $43 (+114%) · P/NAV 0.80x"
-        },
-        "witty": {
-          "hook": "ETH 437만 개 쌓고 주가 -87%... 그래도 기관이 줄을 선다",
-          "text": "BMNR (2/23)\n전 세계 ETH의 3.62%를 평균 $3,825에 쓸어담았는데\nETH가 $1,977까지 내려오면서 미실현 손실이 약 $80억.\n\n근데 오늘 Envestnet이 $556만을 들고 419번째로 합류.\n최대 ETH 보유사인데 주가는 -87%라는 아이러니 속에\nMAVAN 스테이킹이 이미 연 $1.76억을 찍고 있으니\nETH $2,000이 첫 관문. 목표가 $43(+114%)"
-        },
-        "empathy": {
-          "hook": "BMNR 보유 중이신 분들, 정말 쉽지 않죠",
-          "text": "$161에서 $20.13까지 내려온 걸 버티고 계신 분들, 정말 힘드셨을 거예요.\n\n솔직하게 얘기하면 리스크는 분명히 있습니다. 평균 매입가 $3,825 대비 ETH가 $1,977이라 미실현 손실이 약 $80억이고, CFO와 President가 연달아 이탈하면서 내부가 흔들리는 것 아니냐는 걱정도 생길 수밖에 없죠. 주가는 모든 이평선 아래에 있고, 52주 고점 대비 87% 하락이 숫자로 나와 있으니까요.\n\n그런데 오늘도 Envestnet이 $556만을 들고 새로 들어왔습니다. Morgan Stanley, ARK, BlackRock, Goldman Sachs도 Q4에 지분을 더 늘렸고, 419개 기관이 1.52억 주를 쥔 채 버티고 있어요. 이 기관들이 근거 없이 들어오는 건 아닐 겁니다.\n\n핵심은 MAVAN입니다. 다른 BTC 트레저리 기업들은 그냥 들고만 있지만, BMNR은 304만 ETH를 스테이킹해서 이미 연 $1.76억을 실제 수익으로 만들고 있어요. Q1에 MAVAN이 풀 가동되면 $2.52억까지 확대됩니다. 논거가 무너진 게 아니라 ETH 가격이 아직 회복을 못 한 것뿐이에요.\n\nETH $2,000 회복이 첫 번째 변곡점입니다. 목표가 $43(+114%)은 현재가 대비 먼 숫자지만, 기관들이 그 논거를 공유하고 있다는 점이 지금 유일하게 의지할 수 있는 신호예요. 긴 호흡으로 같이 버텨봅시다."
-        }
-      },
-      "threads": {
-        "fact": {
-          "hook": "ETH 437만 개 보유사에 Envestnet 합류, 경영진은 이탈 중",
-          "text": "BMNR (2/23)\n- 437만 ETH 보유로 전체 공급량의 3.62% 차지, 세계 최대 상장 보유사\n- Envestnet $556만 신규 편입, 419개 기관 1.52억 주 보유\n- Tom Lee, Consensus HK에서 토큰화·AI·L2를 ETH 수요 동인으로 제시\n- MAVAN 스테이킹 연 $1.76억 실현 중, Q1 가동 시 $2.52억으로 확대\n\n⚠️ 약 $80억 미실현 손실. CFO·President 연속 이탈.\n목표가 $43 (+114%) · P/NAV 0.80x"
-        },
-        "witty": {
-          "hook": "ETH 437만 개 모아놓고 주가 -87%... MicroStrategy 이더리움판",
-          "text": "BMNR (2/23)\n전 세계 ETH 공급량의 3.62%를 평균 $3,825에 모았는데\nETH가 $1,977이 되면서 미실현 손실이 약 $80억.\n\n그런데 오늘 Envestnet이 $556만으로 419번째 기관에 합류.\n세계 최대 ETH 보유사인데 주가는 고점 대비 -87%라는 역설.\n그래도 MAVAN 스테이킹이 연 $1.76억을 실제로 벌고 있고\nQ1 가동 시 $2.52억으로 확대. ETH $2,000이 신호탄. 목표가 $43(+114%)"
-        },
-        "empathy": {
-          "hook": "BMNR 고점 대비 87% 하락, 솔직하게 얘기해볼게요",
-          "text": "$161에서 $20.13까지 내려온 건 정말 힘든 구간이에요.\n\n솔직히 리스크를 먼저 말씀드릴게요. 평균 매입가 $3,825 대비 ETH가 $1,977이라 약 $80억의 미실현 손실이 쌓여 있고, CFO와 President가 연달아 떠나면서 거버넌스 불안이 생겼습니다. 주가는 50일 SMA($26.93)와 200일 SMA($39.47) 모두 아래에 있고, $3.15억 선반 등록으로 추가 희석 압력도 남아 있어요. 쉽게 봐선 안 되는 상황인 건 맞습니다.\n\n그럼에도 불구하고 오늘 Envestnet이 $556만을 들고 새로 들어왔습니다. Morgan Stanley, ARK, BlackRock, Goldman Sachs는 Q4에 지분을 더 늘렸고, 419개 기관이 1.52억 주를 쥔 채 계속 추가하고 있어요. 이 기관들이 보는 건 하나입니다. 현재 P/NAV 0.80x, 즉 장부가 대비 20% 할인 구간에서 ETH 회복 레버리지를 사고 있는 거예요.\n\nBMNR이 단순 ETH 보관소가 아닌 이유는 MAVAN입니다. 304만 ETH를 스테이킹해서 이미 연 $1.76억을 실제 현금 수익으로 만들고 있고, Q1 가동 시 $2.52억까지 확대됩니다. BTC 트레저리 기업들이 흉내 낼 수 없는 부분이에요.\n\nETH $2,000 회복과 Q1 MAVAN 풀 가동이 지금 가장 가까운 두 가지 변곡점입니다. 먼 길처럼 느껴지겠지만, 논거는 살아 있습니다. 목표가 $43(+114%)."
-        }
-      }
+      "hook": "BMNR, ETH $1,958에서 442만 개를 쥐고 있다",
+      "text": "📊 BMNR $19.22 (-4.5%) | 시총 $34억\n\n🔴 현실: 442만 ETH 평균 $3,708 매입 → 미실현 손실 $80억+\n🟢 희망: MAVAN 스테이킹 연 $1.76억 실현, Q1 풀 가동 시 $2.52억+\n\n이번 주 51,162 ETH($9,800만) 추가 매입.\nEnvestnet $556만, Stevens Capital 신규 편입.\n\n⚠️ CFO 사임, 사장 해임 — 거버넌스 리스크\n⚠️ 애널리스트 1명(B.Riley)만 커버\n\nETH가 $3,000 가면 NAV $132억.\n$1,500 가면... 생각하고 싶지 않다.\n\n당신은 Tom Lee의 배팅에 동승하시겠습니까?\n\n👉 investory.kro.kr/stock/BMNR/analysis/2026-02-23"
     }
   }
 }
