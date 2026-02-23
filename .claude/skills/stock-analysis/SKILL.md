@@ -173,24 +173,41 @@ Write collected data as JSON in the following structure:
 
 Add an `snsContent` field to the report JSON. **X (Twitter) is the base format**; Threads is a slight variation of X.
 
+#### SNS Writing Style
+
+**키워드 나열 금지. 짧은 문장으로 써라.**
+
+Bad (키워드 나열):
+```
+- Baird Outperform $548 업그레이드
+- FSD 네덜란드 EU 승인 획득
+```
+
+Good (읽기 쉬운 문장):
+```
+- Baird가 Outperform으로 업그레이드하며 목표가 $548 제시
+- FSD가 네덜란드에서 EU 승인을 획득, 유럽 확장 발판
+```
+
+**em dash (`—`) 절대 금지.** 콤마(`,`), 마침표(`.`), 괄호(`()`), 콜론(`:`)으로 대체.
+
 #### Korean SNS (`.json`)
 
 ##### X (Twitter) Base Format
 
 ```
 오늘의투자 {SYMBOL} ({M/D})
-- {Key point 1}
-- {Key point 2}
-- {Key point 3}
-- {Key point 4}
+- {핵심 포인트를 짧은 문장으로}
+- {수치와 맥락을 함께 설명}
+- {누가 뭘 했는지 명확하게}
 
-⚠️ {Key risk summary | Secondary risk}
-핵심: {Most important variable}
+⚠️ {리스크를 문장으로 설명}
+핵심: {가장 중요한 변수}
 
 평균 목표가 ${avg target} (현재가 ${current price} 대비 +{upside}%)
-{Valuation metric 1} · {Metric 2}
+{밸류에이션 지표 1} · {지표 2}
 
-{One-line summary from overall opinion}
+{종합 의견에서 한줄 요약}
 ```
 
 > **Note:** Do NOT include links like `상세 분석 👉 investory.kro.kr` in snsContent. The share button automatically appends the current page URL.
@@ -201,12 +218,11 @@ Add an `snsContent` field to the report JSON. **X (Twitter) is the base format**
 
 ```
 {SYMBOL} Daily Recap, {Mon D}
-- {Key point 1}
-- {Key point 2}
-- {Key point 3}
-- {Key point 4}
+- {Write each point as a short, readable sentence}
+- {Include numbers with context, not just raw data}
+- {Make it clear who did what}
 
-⚠️ {Key risk summary | Secondary risk}
+⚠️ {Explain the risk in a sentence}
 Key: {Most important variable}
 
 Avg Target ${target} (vs current ${price}, +{upside}%)
@@ -223,6 +239,8 @@ Avg Target ${target} (vs current ${price}, +{upside}%)
 |----------|-------|--------|-------------------|
 | X | `snsContent.x` | hook 50 chars, text under 280 chars | Use base format as-is |
 | Threads | `snsContent.threads` | hook 50 chars, text under 280 chars | Slightly more casual tone, add 1-2 emojis |
+
+**All platforms:** Write in short, readable sentences. No keyword dumps. No em dashes.
 
 #### Tone Variants (`snsContent.tones`)
 

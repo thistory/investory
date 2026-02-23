@@ -21,13 +21,41 @@
     ]
   },
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "N/A (operating loss)", "interpretation": "FY25 GAAP EPS of +$13.39 reflects ETH mark-to-market gains. However, unrealized losses from ETH price declines create extreme volatility. P/NAV is a more appropriate valuation metric than traditional P/E." },
-    { "name": "Price/NAV (P/B Ratio)", "value": "~0.80x", "interpretation": "Trading at a roughly 20% discount to book value. Deeply undervalued versus the sector median of 3.64x." },
-    { "name": "Revenue Growth (YoY)", "value": "+91% (Q4 2025), +79.7% TTM", "interpretation": "TTM revenue of $7.19M remains small but is growing rapidly as staking income ramps up. FY2026E consensus revenue of $193.4M (+3,073% YoY) reflects MAVAN launch impact." },
-    { "name": "ETH Holdings", "value": "4,371,497 ETH ($8.64B at ETH $1,977, 3.62% of total supply)", "interpretation": "72% of the way toward the 'Alchemy of 5%' target (5% of total supply). Holds 5x more than #2 SharpLink Gaming (863K ETH)." },
-    { "name": "Debt-to-Equity", "value": "65.15%", "interpretation": "Leverage primarily through convertible notes. Cash position of $888M (mrq) provides adequate short-term liquidity, but further ETH declines could increase funding pressure." },
-    { "name": "Free Cash Flow", "value": "-$9.88M (TTM, Levered FCF)", "interpretation": "Ongoing cash burn from ETH acquisitions, though $176M/year in staking revenue is gradually improving operating cash flow." },
-    { "name": "FY26 Revenue Consensus", "value": "$193.4M (FY26E, +3,073% YoY)", "interpretation": "Reflects MAVAN staking infrastructure at full capacity and surging staking income. FY27E $506.7M (+162% YoY) if scaling continues as projected." }
+    {
+      "name": "P/E Ratio",
+      "value": "N/A (operating loss)",
+      "interpretation": "FY25 GAAP EPS of +$13.39 reflects ETH mark-to-market gains. However, unrealized losses from ETH price declines create extreme volatility. P/NAV is a more appropriate valuation metric than traditional P/E."
+    },
+    {
+      "name": "Price/NAV (P/B Ratio)",
+      "value": "~0.80x",
+      "interpretation": "Trading at a roughly 20% discount to book value. Deeply undervalued versus the sector median of 3.64x."
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "+91% (Q4 2025), +79.7% TTM",
+      "interpretation": "TTM revenue of $7.19M remains small but is growing rapidly as staking income ramps up. FY2026E consensus revenue of $193.4M (+3,073% YoY) reflects MAVAN launch impact."
+    },
+    {
+      "name": "ETH Holdings",
+      "value": "4,371,497 ETH ($8.64B at ETH $1,977, 3.62% of total supply)",
+      "interpretation": "72% of the way toward the 'Alchemy of 5%' target (5% of total supply). Holds 5x more than #2 SharpLink Gaming (863K ETH)."
+    },
+    {
+      "name": "Debt-to-Equity",
+      "value": "65.15%",
+      "interpretation": "Leverage primarily through convertible notes. Cash position of $888M (mrq) provides adequate short-term liquidity, but further ETH declines could increase funding pressure."
+    },
+    {
+      "name": "Free Cash Flow",
+      "value": "-$9.88M (TTM, Levered FCF)",
+      "interpretation": "Ongoing cash burn from ETH acquisitions, though $176M/year in staking revenue is gradually improving operating cash flow."
+    },
+    {
+      "name": "FY26 Revenue Consensus",
+      "value": "$193.4M (FY26E, +3,073% YoY)",
+      "interpretation": "Reflects MAVAN staking infrastructure at full capacity and surging staking income. FY27E $506.7M (+162% YoY) if scaling continues as projected."
+    }
   ],
   "growthDrivers": [
     {
@@ -50,16 +78,40 @@
   "competitiveAdvantage": {
     "summary": "Dominant #1 position in the Ethereum treasury space. A 5x lead over the nearest competitor and Tom Lee's Wall Street network form the core competitive advantages.",
     "moats": [
-      { "type": "Economies of Scale", "description": "4.37M ETH , 5x more than #2 SharpLink Gaming (863K ETH) and 8.8x more than #3 The Ether Machine (497K ETH). Controls 3.62% of total Ethereum supply." },
-      { "type": "Institutional Investor Network", "description": "Chairman Tom Lee brings 30 years of Wall Street experience and connections. Morgan Stanley, BlackRock, ARK Invest, Goldman Sachs, Vanguard, BofA, and Envestnet are all shareholders." },
-      { "type": "First-Mover Advantage", "description": "Secured the 'MicroStrategy of Ethereum' positioning early. First major publicly listed crypto company to declare a dividend, enhancing institutional appeal." },
-      { "type": "Staking Infrastructure (MAVAN)", "description": "Building the first large-scale U.S.-based ETH validator network. Evolving beyond passive holding to a revenue-generating infrastructure capable of $176-480M annually." }
+      {
+        "type": "Economies of Scale",
+        "description": "4.37M ETH , 5x more than #2 SharpLink Gaming (863K ETH) and 8.8x more than #3 The Ether Machine (497K ETH). Controls 3.62% of total Ethereum supply."
+      },
+      {
+        "type": "Institutional Investor Network",
+        "description": "Chairman Tom Lee brings 30 years of Wall Street experience and connections. Morgan Stanley, BlackRock, ARK Invest, Goldman Sachs, Vanguard, BofA, and Envestnet are all shareholders."
+      },
+      {
+        "type": "First-Mover Advantage",
+        "description": "Secured the 'MicroStrategy of Ethereum' positioning early. First major publicly listed crypto company to declare a dividend, enhancing institutional appeal."
+      },
+      {
+        "type": "Staking Infrastructure (MAVAN)",
+        "description": "Building the first large-scale U.S.-based ETH validator network. Evolving beyond passive holding to a revenue-generating infrastructure capable of $176-480M annually."
+      }
     ],
     "competitors": [
-      { "name": "SharpLink Gaming (SBET)", "detail": "863K ETH held, #2 ETH treasury. One-fifth the scale of BMNR." },
-      { "name": "The Ether Machine (ETHM)", "detail": "497K ETH held, #3 ETH treasury." },
-      { "name": "Strategy (MSTR)", "detail": "$59B BTC treasury. The Bitcoin version of the same playbook. No staking revenue." },
-      { "name": "Coinbase (COIN)", "detail": "137K ETH held, primarily an exchange platform rather than a treasury company." }
+      {
+        "name": "SharpLink Gaming (SBET)",
+        "detail": "863K ETH held, #2 ETH treasury. One-fifth the scale of BMNR."
+      },
+      {
+        "name": "The Ether Machine (ETHM)",
+        "detail": "497K ETH held, #3 ETH treasury."
+      },
+      {
+        "name": "Strategy (MSTR)",
+        "detail": "$59B BTC treasury. The Bitcoin version of the same playbook. No staking revenue."
+      },
+      {
+        "name": "Coinbase (COIN)",
+        "detail": "137K ETH held, primarily an exchange platform rather than a treasury company."
+      }
     ]
   },
   "recentNews": [
@@ -158,7 +210,7 @@
   ],
   "technicalPosition": {
     "week52High": 161.0,
-    "week52Low": 3.20,
+    "week52Low": 3.2,
     "currentPositionPercent": 10.7,
     "sma50": 26.93,
     "sma50Signal": "below",
@@ -175,67 +227,115 @@
     "MAVAN staking launch in Q1 targets $252M annual revenue, a key differentiator versus BTC treasury peers , ETH reclaiming $2,000 is the near-term pivotal variable"
   ],
   "sources": [
-    { "name": "Yahoo Finance , BMNR Quote & History", "url": "https://finance.yahoo.com/quote/BMNR/", "description": "BMNR share price $20.13, market cap $9.16B, weekend close unchanged" },
-    { "name": "MarketBeat , Envestnet $5.56M New Investment", "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-invests-5-56-million-in-bitmine-immersion-technologies-inc-nyseamericanbmnr-2026-02-23/", "description": "Envestnet 107,076 shares ($5.56M) new position" },
-    { "name": "CoinDesk , Tom Lee at Consensus Hong Kong 2026", "url": "https://www.coindesk.com/consensus-magazine/2026/02/23/tom-lee-three-secular-eth-drivers-consensus-hong-kong/", "description": "Wall Street tokenization, AI agent adoption, proof-of-human L2 as three secular ETH drivers" },
-    { "name": "StockAnalysis , BMNR Forecast", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "B. Riley target $47, FY2026E revenue $193.4M (+3,073%), EPS $0.35" },
-    { "name": "PRNewswire , ETH Holdings Reach 4,371,497 (2/16 Filing)", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-371-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302689296.html", "description": "Latest official holdings disclosure" },
-    { "name": "CoinDesk , Tom Lee Compares Sentiment to 2018 and 2022 Bottoms", "url": "https://www.coindesk.com/business/2026/02/17/bitmine-adds-usd90-million-in-eth-with-tom-lee-comparing-crypto-sentiment-to-2018-and-2022-bottoms", "description": "Tom Lee crypto sentiment analysis and $90M ETH purchase" },
-    { "name": "CryptoTimes , BMNR Adds 17,722 ETH on 2/21", "url": "https://www.cryptotimes.io/2026/02/21/tom-lee-linked-bitmine-adds-17722-eth-in-latest-acquisition/", "description": "Details of 2/21 ETH acquisition" },
-    { "name": "BanklessTimes , BMNR Parabolic Case Analysis", "url": "https://www.banklesstimes.com/articles/2026/02/20/bmnr-stock-analysis-top-reasons-why-bitmine-will-go-parabolic/", "description": "Technical and fundamental bull case, falling wedge, next resistance $35" },
-    { "name": "Markets Daily , Stevens Capital Initiates Position", "url": "https://www.themarketsdaily.com/2026/02/21/stevens-capital-management-lp-takes-position-in-bitmine-immersion-technologies-inc-bmnr.html", "description": "Stevens Capital new 42,563-share position" },
-    { "name": "MarketBeat , BMNR Institutional Ownership", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/institutional-ownership/", "description": "419 institutions holding 152M shares" },
-    { "name": "Investing.com , BMNR Technical Analysis", "url": "https://www.investing.com/equities/bitmine-immersion-tech-technical", "description": "50-day SMA $26.93, 200-day SMA $39.47, RSI 42" },
-    { "name": "SEC EDGAR , BMNR 8-K Filings", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BMNR&type=8-K", "description": "CFO Raymond Mow departure (Dec 2025), President Erik Nelson termination (Jan 2026) filings" }
+    {
+      "name": "Yahoo Finance , BMNR Quote & History",
+      "url": "https://finance.yahoo.com/quote/BMNR/",
+      "description": "BMNR share price $20.13, market cap $9.16B, weekend close unchanged"
+    },
+    {
+      "name": "MarketBeat , Envestnet $5.56M New Investment",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-envestnet-asset-management-invests-5-56-million-in-bitmine-immersion-technologies-inc-nyseamericanbmnr-2026-02-23/",
+      "description": "Envestnet 107,076 shares ($5.56M) new position"
+    },
+    {
+      "name": "CoinDesk , Tom Lee at Consensus Hong Kong 2026",
+      "url": "https://www.coindesk.com/consensus-magazine/2026/02/23/tom-lee-three-secular-eth-drivers-consensus-hong-kong/",
+      "description": "Wall Street tokenization, AI agent adoption, proof-of-human L2 as three secular ETH drivers"
+    },
+    {
+      "name": "StockAnalysis , BMNR Forecast",
+      "url": "https://stockanalysis.com/stocks/bmnr/forecast/",
+      "description": "B. Riley target $47, FY2026E revenue $193.4M (+3,073%), EPS $0.35"
+    },
+    {
+      "name": "PRNewswire , ETH Holdings Reach 4,371,497 (2/16 Filing)",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-371-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302689296.html",
+      "description": "Latest official holdings disclosure"
+    },
+    {
+      "name": "CoinDesk , Tom Lee Compares Sentiment to 2018 and 2022 Bottoms",
+      "url": "https://www.coindesk.com/business/2026/02/17/bitmine-adds-usd90-million-in-eth-with-tom-lee-comparing-crypto-sentiment-to-2018-and-2022-bottoms",
+      "description": "Tom Lee crypto sentiment analysis and $90M ETH purchase"
+    },
+    {
+      "name": "CryptoTimes , BMNR Adds 17,722 ETH on 2/21",
+      "url": "https://www.cryptotimes.io/2026/02/21/tom-lee-linked-bitmine-adds-17722-eth-in-latest-acquisition/",
+      "description": "Details of 2/21 ETH acquisition"
+    },
+    {
+      "name": "BanklessTimes , BMNR Parabolic Case Analysis",
+      "url": "https://www.banklesstimes.com/articles/2026/02/20/bmnr-stock-analysis-top-reasons-why-bitmine-will-go-parabolic/",
+      "description": "Technical and fundamental bull case, falling wedge, next resistance $35"
+    },
+    {
+      "name": "Markets Daily , Stevens Capital Initiates Position",
+      "url": "https://www.themarketsdaily.com/2026/02/21/stevens-capital-management-lp-takes-position-in-bitmine-immersion-technologies-inc-bmnr.html",
+      "description": "Stevens Capital new 42,563-share position"
+    },
+    {
+      "name": "MarketBeat , BMNR Institutional Ownership",
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/institutional-ownership/",
+      "description": "419 institutions holding 152M shares"
+    },
+    {
+      "name": "Investing.com , BMNR Technical Analysis",
+      "url": "https://www.investing.com/equities/bitmine-immersion-tech-technical",
+      "description": "50-day SMA $26.93, 200-day SMA $39.47, RSI 42"
+    },
+    {
+      "name": "SEC EDGAR , BMNR 8-K Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BMNR&type=8-K",
+      "description": "CFO Raymond Mow departure (Dec 2025), President Erik Nelson termination (Jan 2026) filings"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "4.37M ETH, Envestnet invests $5.56M , Tom Lee lays out 3 secular ETH drivers",
-      "text": "BMNR Feb 23\n- 4.37M ETH (3.62% supply), world's largest holder\n- Envestnet invests $5.56M (107K shares)\n- Tom Lee @ Consensus HK: 3 secular ETH drivers\n  (tokenization, AI agents, proof-of-human L2)\n- MAVAN staking Q1: $252M/yr\n\n⚠️ ~$8B unrealized loss | CFO & President departed\nKey: ETH above $2,000\n\nTarget $43 vs $20 (+114%)\nP/B 0.80x · FY26E +3,073%"
+      "hook": "Largest listed ETH holder, Envestnet now on board",
+      "text": "BMNR Feb 23\n- 4.37M ETH (3.62% supply); Envestnet: $5.56M as 419th institution\n- Tom Lee @ Consensus HK: tokenization, AI, L2 as ETH demand drivers\n- MAVAN staking earns $176M/yr; Q1 target $252M\n\n⚠️ Cost $3,825 vs $1,977, ~$8B unrealized loss\nTarget $43 (+114%) · P/NAV 0.80x"
     },
     "threads": {
-      "hook": "4.37M ETH, Envestnet joins the bet , but leadership is thinning out",
-      "text": "BMNR Daily Recap, Feb 23 💎\n- 4.37M ETH held (3.62% of supply)\n- Envestnet invests $5.56M, institutions pile in\n- Tom Lee @ Consensus HK: secular ETH thesis\n- MAVAN staking Q1 launch: $252M/yr target\n\n⚠️ ~$8B unrealized loss | CFO & President gone\nKey: ETH holding $2,000\n\nTarget $43 vs $20 (+114%) · P/B 0.80x 🔥"
+      "hook": "BMNR: Envestnet joins, but CFO and President gone",
+      "text": "BMNR Feb 23 💎\n- 4.37M ETH (3.62% supply); Envestnet: $5.56M, 419th inst.\n- Tom Lee @ Consensus HK: tokenization, AI, L2 as ETH drivers\n- MAVAN staking earns $176M/yr; Q1 target $252M\n\n⚠️ Cost $3,825 vs $1,977, ~$8B loss. CFO and President gone.\nTarget $43 (+114%) · P/NAV 0.80x 🔥"
     },
     "telegram": {
-      "hook": "BMNR — Envestnet invests $5.56M, Tom Lee presents secular ETH thesis at Consensus HK",
-      "text": "📊 BMNR Analysis (Feb 23)\n\n✅ Key Points\n• 4.37M ETH (3.62% of supply), world's largest public holder\n• Envestnet invests $5.56M (107K shares), Stevens Capital initiates\n• Tom Lee @ Consensus HK: 3 secular ETH demand drivers\n  (Wall St tokenization · AI agents · proof-of-human L2)\n• MAVAN staking Q1 launch: $252M → $480M/yr target\n\n⚠️ Key Risks\n• Avg cost $3,825 vs current $1,977 → ~$8B unrealized loss\n• CFO (Dec) & President (Jan) departed in quick succession\n• 87% off 52W high of $161, below all major MAs\n\n📈 Valuation\n• Target $43 (vs $20.13, +114%)\n• P/NAV 0.80x (sector median 3.64x)\n• FY26E revenue $193.4M (+3,073% YoY)\n\n🔑 Key variable: ETH reclaiming $2,000\nhttps://investory.kro.kr/en/stock/BMNR/analysis/2026-02-23"
+      "hook": "BMNR: Envestnet joins; Tom Lee: 3 ETH drivers",
+      "text": "📊 BMNR (Feb 23)\n\n✅ Key Points\n• 4.37M ETH (3.62% supply), largest listed ETH holder\n• Envestnet: $5.56M (107K sh); Stevens Capital: 42,563 sh\n• Tom Lee @ Consensus HK: tokenization, AI, L2 as ETH drivers\n• MAVAN staking: $176M/yr; Q1 target $252M\n\n⚠️ Risks: avg cost $3,825 vs $1,977 (~$8B loss); CFO and President left; 87% below $161 high\n\n📈 Target $43 (+114%), P/NAV 0.80x (sector 3.64x)\nFY26E revenue $193M (+3,073% YoY)\n\nhttps://investory.kro.kr/en/stock/BMNR/analysis/2026-02-23"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "4.37M ETH, Envestnet invests $5.56M — Tom Lee lays out 3 secular ETH drivers",
-          "text": "BMNR Feb 23\n- 4.37M ETH (3.62% supply), world's largest holder\n- Envestnet invests $5.56M (107K shares)\n- Tom Lee @ Consensus HK: 3 secular ETH drivers\n  (tokenization, AI agents, proof-of-human L2)\n- MAVAN staking Q1: $252M/yr\n\n⚠️ ~$8B unrealized loss | CFO & President departed\nKey: ETH above $2,000\n\nTarget $43 vs $20 (+114%)\nP/B 0.80x · FY26E +3,073%"
+          "hook": "Largest listed ETH holder, Envestnet now on board",
+          "text": "BMNR Feb 23\n- 4.37M ETH (3.62% supply); Envestnet: $5.56M as 419th institution\n- Tom Lee @ Consensus HK: tokenization, AI, L2 as ETH demand drivers\n- MAVAN staking earns $176M/yr; Q1 target $252M\n\n⚠️ Cost $3,825 vs $1,977, ~$8B unrealized loss\nTarget $43 (+114%) · P/NAV 0.80x"
         },
         "witty": {
-          "hook": "Owns 3.62% of all ETH. Stock -87%. Classic.",
-          "text": "BMNR Feb 23\n\n4.37M ETH hoarded (3.62% of supply)\nAvg cost: $3,825. ETH now: $1,977\nUnrealized loss: ~$8B. Yikes.\n\nEnvestnet: \"I'll take some\" (+$5.56M today)\n419 institutions: \"same\"\n\nMAVAN staking: $176M/yr already\nQ1 launch: $252M target\nETH $2K = unlock. Target $43 (+114%)"
+          "hook": "Owns 3.62% of ETH. Stock -87%. Buying continues.",
+          "text": "BMNR Feb 23\nHolds 4.37M ETH at avg cost $3,825. ETH now $1,977.\nPaper losses: ~$8B.\n\nEnvestnet still put in $5.56M today.\n419 institutions hold 152M shares and keep adding.\n\nMAVAN staking earns $176M/yr in real cash.\nQ1 target $252M. ETH at $2K is the signal.\nTarget $43 (+114%)."
         },
         "smart": {
-          "hook": "P/NAV 0.80x vs. sector 3.64x median",
-          "text": "BMNR thesis (Feb 23)\n\nSector P/NAV: 3.64x median\nBMNR P/NAV: 0.80x = 78% below peers\n\nETH $1,977 vs $3,825 avg cost\nResult: ETH recovery = leveraged upside\n\nEdge vs BTC: MAVAN staking\n$176M/yr realized. They can't replicate.\n419 institutions agree. Target $43 (+114%)"
+          "hook": "Sector P/NAV 3.64x, BMNR 0.80x.",
+          "text": "BMNR Feb 23\nSector P/NAV 3.64x, BMNR 0.80x.\n78% discount because ETH ($1,977) is below avg cost ($3,825).\nETH recovery amplifies NAV directly.\n\nMAVAN staking gives BTC peers no answer: $176M/yr earned.\nQ1 targets $252M. P/NAV 0.80x plus yield is asymmetric.\nTarget $43 (+114%)."
         },
         "empathy": {
-          "hook": "Down 87% from highs. You're not alone.",
-          "text": "$161 to $20 is brutal. No spin.\n\nInstitutions keep buying anyway:\n- Envestnet: $5.56M today\n- 419 firms, 152M shares total\n\n4.37M ETH at P/NAV 0.80x discount\nMAVAN staking revenue is already real\n\nETH broke, not the thesis.\nETH $2,000 is the first test.\nTarget $43 (+114%)"
+          "hook": "BMNR down 87%. You are not alone in feeling this.",
+          "text": "$161 to $20. Painful. No spin.\n\nInstitutions kept buying through the drop.\nEnvestnet entered at $5.56M today.\nMorgan Stanley, ARK added in Q4.\n419 firms hold 152M shares and not leaving.\n\nMAVAN earns $176M/yr in real income.\nETH at $2,000 is the first test.\nTarget $43 (+114%)."
         }
       },
       "threads": {
         "fact": {
-          "hook": "4.37M ETH, Envestnet joins the bet — but leadership is thinning out",
-          "text": "BMNR Daily Recap, Feb 23 💎\n- 4.37M ETH held (3.62% of supply)\n- Envestnet invests $5.56M, institutions pile in\n- Tom Lee @ Consensus HK: secular ETH thesis\n- MAVAN staking Q1 launch: $252M/yr target\n\n⚠️ ~$8B unrealized loss | CFO & President gone\nKey: ETH holding $2,000\n\nTarget $43 vs $20 (+114%) · P/B 0.80x 🔥"
+          "hook": "BMNR: Envestnet joins, but CFO and President gone",
+          "text": "BMNR Feb 23 💎\n- 4.37M ETH (3.62% supply); Envestnet: $5.56M, 419th inst.\n- Tom Lee @ Consensus HK: tokenization, AI, L2 as ETH drivers\n- MAVAN staking earns $176M/yr; Q1 target $252M\n\n⚠️ Cost $3,825 vs $1,977, ~$8B loss. CFO and President gone.\nTarget $43 (+114%) · P/NAV 0.80x 🔥"
         },
         "witty": {
-          "hook": "Strategy: buy all the ETH. Result: -87%.",
-          "text": "BMNR Feb 23 😅\n\nPlan: buy 4.37M ETH (3.62% supply)\nAvg cost: $3,825. ETH today: $1,977\nLoss on paper: ~$8B\n\nInstitutions: \"hold on, buying more\"\nEnvestnet: +$5.56M today. 419 total.\n\nMAVAN staking Q1: $252M/yr target\nETH near $2K resistance\nTarget $43 (+114%) 🫡"
+          "hook": "Plan: own 3.62% of ETH. Result: -87%. More buying.",
+          "text": "BMNR Feb 23 😅\nAccumulated 4.37M ETH at avg $3,825. ETH now $1,977.\nPaper loss: ~$8B.\n\nInstitutions kept buying.\nEnvestnet added $5.56M today. 419 firms total 🫡\nTop 11 shareholders added in Q4.\n\nMAVAN earns $176M/yr. Q1 targets $252M.\nETH at $2K is the signal. Target $43 (+114%)."
         },
         "smart": {
-          "hook": "MAVAN: why BMNR isn't just an ETH piggy bank",
-          "text": "BMNR structural edge (Feb 23)\n\nAll ETH treasuries hold ETH.\nBMNR earns yield on top too.\n\n3.04M ETH staked (69% of holdings)\n$176M/yr realized at 2.89% yield\nMAVAN Q1: $252M target\n\nBTC treasury firms can't replicate this.\nP/NAV 0.80x + yield = asymmetric bet.\nTarget $43 (+114%)"
+          "hook": "MAVAN is what makes BMNR more than an ETH vault",
+          "text": "BMNR edge (Feb 23)\nEvery ETH treasury holds ETH. BMNR earns yield on top.\n\n3.04M ETH staked (69% of holdings).\nEarns $176M/yr at 2.89% yield.\nMAVAN targets $252M at Q1, $480M full.\n\nBTC peers cannot copy this.\nP/NAV 0.80x plus yield is asymmetric.\n419 inside. Target $43 (+114%)."
         },
         "empathy": {
-          "hook": "BMNR down 87%. Let's be honest.",
-          "text": "$161 to $20 is genuinely painful. 💙\n\nWhy are institutions still buying?\n- Envestnet: $5.56M new today\n- 419 firms, 152M shares total\n\nETH near $2,000 could be the turn.\nMAVAN staking income is already real.\n\nThe thesis hasn't broken. ETH has.\nTarget $43 (+114%). Stay informed."
+          "hook": "BMNR down 87%. Let us be honest about it.",
+          "text": "$161 to $20.13. Hard to hold. 💙\n\nInstitutions kept buying.\nEnvestnet: $5.56M today. Morgan Stanley, ARK, BlackRock in Q4.\n419 firms hold 152M shares, not selling.\n\nMAVAN staking income is real, not projected.\nETH at $2,000 is the first signal.\nThesis intact. Target $43 (+114%)."
         }
       }
     }
