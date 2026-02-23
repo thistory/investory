@@ -31,11 +31,10 @@ const PLATFORM_META: Record<SharePlatform, { name: string; icon: string }> = {
 const TONE_ICONS: Record<SnsToneKey, string> = {
   fact: "\uD83D\uDCCA",
   witty: "\uD83D\uDE02",
-  smart: "\uD83E\uDDE0",
   empathy: "\uD83D\uDCAC",
 };
 
-const TONE_KEYS: SnsToneKey[] = ["fact", "witty", "smart", "empathy"];
+const TONE_KEYS: SnsToneKey[] = ["fact", "witty", "empathy"];
 
 function isAndroid(): boolean {
   return /Android/i.test(navigator.userAgent);
@@ -262,7 +261,6 @@ export function ShareButtons({
   const toneLabel: Record<SnsToneKey, string> = {
     fact: t("toneFact"),
     witty: t("toneWitty"),
-    smart: t("toneSmart"),
     empathy: t("toneEmpathy"),
   };
 

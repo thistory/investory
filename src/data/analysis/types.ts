@@ -3,12 +3,11 @@ export interface SnsPost {
   text: string;   // 본문 (스토리 + 숫자 + CTA)
 }
 
-export type SnsToneKey = "fact" | "witty" | "smart" | "empathy";
+export type SnsToneKey = "fact" | "witty" | "empathy";
 
 export interface SnsToneSet {
   fact: SnsPost;
   witty: SnsPost;
-  smart: SnsPost;
   empathy: SnsPost;
 }
 

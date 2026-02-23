@@ -244,7 +244,7 @@ Avg Target ${target} (vs current ${price}, +{upside}%)
 
 #### Tone Variants (`snsContent.tones`)
 
-Generate 4 tone variants for both X and Threads. Each tone set lives under `snsContent.tones.x` and `snsContent.tones.threads`.
+Generate 3 tone variants for both X and Threads. Each tone set lives under `snsContent.tones.x` and `snsContent.tones.threads`.
 
 ```jsonc
 "snsContent": {
@@ -255,13 +255,11 @@ Generate 4 tone variants for both X and Threads. Each tone set lives under `snsC
     "x": {
       "fact":    { "hook": "...", "text": "..." },
       "witty":   { "hook": "...", "text": "..." },
-      "smart":   { "hook": "...", "text": "..." },
       "empathy": { "hook": "...", "text": "..." }
     },
     "threads": {
       "fact":    { "hook": "...", "text": "..." },
       "witty":   { "hook": "...", "text": "..." },
-      "smart":   { "hook": "...", "text": "..." },
       "empathy": { "hook": "...", "text": "..." }
     }
   }
@@ -270,17 +268,80 @@ Generate 4 tone variants for both X and Threads. Each tone set lives under `snsC
 
 | Tone Key | Korean Label | English Label | Icon | Guidelines |
 |----------|-------------|---------------|------|------------|
-| `fact` | 팩트정리 | Facts | 📊 | Same as the default X/Threads format. Bullet-point data summary. |
-| `witty` | 재밌게 | Witty | 😂 | Humor, memes, metaphors. Use trending slang or pop culture references. Make numbers entertaining ("목표가까지 로켓 발사 대기중 🚀"). Keep factual accuracy. |
-| `smart` | 똑똑하게 | Smart | 🧠 | Analytical insight tone. Lead with a non-obvious conclusion. Use "because/therefore" logic chains. Sound like a sharp analyst friend explaining over coffee. |
-| `empathy` | 공감형 | Relatable | 💬 | Retail investor psychology. Start with a relatable question or feeling ("이 종목 들고 있으면 요즘 마음이 복잡하죠?"). Acknowledge uncertainty. End with encouragement or a clear takeaway. |
+| `fact` | 팩트정리 | Facts | 📊 | See **fact tone style** below |
+| `witty` | 재밌게 | Witty | 😂 | See **witty tone style** below |
+| `empathy` | 공감형 | Relatable | 💬 | See **empathy tone style** below |
+
+##### fact tone style (팩트정리)
+
+Factual summary with analytical insight baked in. Use `-` bullet points. End each bullet with **명사형 종결** (Korean) or **noun phrase ending** (English).
+
+Korean example:
+```
+오늘의투자 TSLA (2/23)
+- Baird, Outperform 업그레이드와 함께 목표가 $548 제시
+- FSD 네덜란드 EU 승인으로 유럽 확장 경로 확보
+- Cybercab 4월 본격 양산 돌입, 9개 도시 확대 예정
+
+⚠️ 로보택시 5건 추가 충돌 보고로 안전성 논란 재부각
+xAI 투자 이해충돌 주주 소송 가열 중
+
+종가 $411 | P/E 407x | 목표가 $480(+17%)
+```
+
+English example:
+```
+TSLA Daily Recap, Feb 23
+- Baird upgrade to Outperform with $548 target
+- FSD gains EU approval in Netherlands, opening European expansion
+- Cybercab entering mass production in April across 9 cities
+
+⚠️ 5 more robotaxi crashes reported, safety concerns resurface
+xAI investment conflict draws shareholder lawsuits
+
+Close $411 | P/E 407x | Target $480 (+17%)
+```
+
+##### witty tone style (재밌게)
+
+Natural, conversational flow. Sentences should **connect to each other** like a story, not isolated jokes. Use humor through contrast and irony, not forced memes. Stay factually accurate.
+
+Korean example:
+```
+오늘의투자 TSLA (2/23)
+Baird가 목표가 $548을 외치는 동안, 로보택시는 또 5번을 박았다. FSD가 EU 승인을 받았고 Cybercab은 4월에 핸들도 페달도 없이 출격한다. P/E 407배는 숫자가 아니라 일종의 믿음 체계다.
+
+종가 $411 | 리테일 40%가 같이 들고 있는 용감한 배 🚀
+```
+
+**Key:** Each sentence leads naturally into the next. The humor comes from juxtaposition (upgrade vs crash, no steering wheel), not from random emoji or slang.
+
+##### empathy tone style (공감형)
+
+Write like talking to a friend who holds this stock. **Longer and more detailed than other tones.** Start by acknowledging the investor's current emotional state. Present both good and bad news honestly. End with a concrete upcoming catalyst and gentle encouragement.
+
+Korean example:
+```
+오늘의투자 TSLA (2/23)
+테슬라를 들고 있으면 요즘 하루가 롤러코스터 같을 것이다.
+
+좋은 소식부터 보면, Baird가 목표가 $548을 제시하며 Outperform으로 올렸다. FSD도 네덜란드에서 EU 승인을 받아 유럽 진출의 실마리가 보이기 시작했다.
+
+하지만 로보택시에서 5건의 추가 충돌이 보고됐고, xAI 투자를 둘러싼 주주 소송도 뜨겁다. 불안한 마음이 드는 게 당연하다.
+
+그래도 혼자가 아니다. 리테일 투자자 40%가 함께 보유 중이고, 하락할 때마다 오히려 매수를 늘려왔다. 4월 Cybercab 양산 시작이 다음 시험대다. 조금만 더 지켜보자.
+```
+
+**Key:** No character limit for empathy tone (can exceed 280 chars). Write as much as needed to be genuinely comforting and informative. The reader should feel understood, not sold to.
 
 **Rules for all tones:**
-- Same character limits as the base format (X: 280 chars, Threads: 280 chars)
+- `fact` tone: X under 280 chars, Threads under 280 chars
+- `witty` tone: X under 280 chars, Threads under 280 chars
+- `empathy` tone: **no character limit** (can be longer to be genuinely empathetic)
 - `fact` tone text must be identical to the default `snsContent.x` / `snsContent.threads` text
 - All tones must contain the same core data points (price, target, upside %)
 - No links in tone text (the share button appends the URL automatically)
-- Each `hook` should be tone-appropriate (witty hook should be funny, smart hook insightful, etc.)
+- No em dashes anywhere
 
 ## Writing Guidelines
 
