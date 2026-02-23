@@ -6,7 +6,7 @@
   "marketCap": "$323B",
   "businessSummary": {
     "oneLiner": "정부와 기업을 위한 AI 데이터 분석 플랫폼 - 미국 국방·정보기관의 핵심 소프트웨어 파트너에서 상업 AI 강자로 변신 중.",
-    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 만드는 회사입니다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장하고 있습니다. Q4 2025 매출 $14.07억(+70% YoY), US 상업 매출 $5.07억(+137% YoY). DHS $10억 5년 BPA, Rackspace 파트너십, Mizuho Buy 상향이 있었지만 SaaS-pocalypse 공포와 Burry 비판으로 2026년 -24% 하락 중.",
+    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 만드는 회사입니다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장하고 있습니다. Q4 2025 매출 $14.07억(+70% YoY), US 상업 매출 $5.07억(+137% YoY). DHS $10억 5년 BPA(포괄구매협정) 체결, Rackspace와 AI 인프라 파트너십(30명→250명+ 엔지니어, UK Sovereign 데이터센터), Mizuho Outperform 상향($195)이 있었지만 주가는 2026년 -24% 하락 중. Percepta AI 소송에서 비경쟁 금지명령 기각(비권유만 인정), DISA IL5/IL6 온프레미스·엣지 인증 획득, Michael Burry $46 약세 시나리오 등 강세·약세 논쟁이 첨예.",
     "howTheyMakeMoney": [
       "미국 정부 부문: 국방부, CIA, NSA, DHS 등에 데이터 분석 플랫폼 - Q4 $5.7억(+66% YoY)",
       "미국 상업 부문: 기업용 AI/데이터 분석 - Q4 $5.07억(+137% YoY), 가장 빠르게 성장",
@@ -23,13 +23,13 @@
     ]
   },
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "215", "interpretation": "극단적으로 높은 밸류에이션. PEG 2.3으로 고평가 구간" },
-    { "name": "Forward P/E", "value": "~75-100", "interpretation": "2026년 예상 수익 기준. Phillip Securities 등도 높은 밸류 인정하며 Buy 유지" },
+    { "name": "P/E (TTM)", "value": "~222", "interpretation": "극단적으로 높은 밸류에이션. PEG 2.5 이상. Burry $46 약세 시나리오 제시" },
+    { "name": "Forward P/E", "value": "~102", "interpretation": "2026년 예상 수익 기준. 소프트웨어 평균(~25x)의 4배. 성장 프리미엄이 극도로 높은 상태" },
     { "name": "매출 성장률 (YoY)", "value": "+70% (Q4 2025) / +56% TTM", "interpretation": "10분기 연속 가속. US 상업 +137% YoY" },
-    { "name": "영업이익률", "value": "31.6%", "interpretation": "Rule of 40 = 127% (성장률 70% + 조정 마진 57%)" },
+    { "name": "영업이익률", "value": "50% (조정, FY2025)", "interpretation": "Rule of 40 = 127% (성장률 70% + 조정 마진 57%). 소프트웨어 업계 최상위권" },
     { "name": "FCF (연간)", "value": "$22.7억 (마진 51%)", "interpretation": "Q4 조정 FCF $7.91억(마진 56%). YoY +82%" },
     { "name": "부채비율", "value": "0.03 (무부채)", "interpretation": "현금+단기국채 $72억, 부채 제로. 유동비율 7.11" },
-    { "name": "2026 가이던스", "value": "매출 $71.8~72.0억(+60% YoY)", "interpretation": "Q1 가이던스 $15.3~15.4억(컨센서스 $13.2억 대폭 상회)" }
+    { "name": "2026 가이던스", "value": "매출 $71.8~72.0억 (+61% YoY)", "interpretation": "조정 FCF $39.3~41.3억 가이던스. Q1 가이던스 $15.3~15.4억(컨센서스 $13.2억 대폭 상회)" }
   ],
   "growthDrivers": [
     {
@@ -102,20 +102,20 @@
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 188,
+    "consensusTarget": 191,
     "highTarget": 260,
     "lowTarget": 50,
-    "upsidePercent": 39.0,
-    "buyCount": 9,
-    "holdCount": 10,
-    "sellCount": 1,
-    "notableComment": "20명: Buy 9명, Hold 10명, Sell 1명. 평균 목표가 $188(+39%). Mizuho Outperform $195, Citi Strong Buy $260, BofA Buy $255, Phillip Securities Buy(목표 하향). Burry $50 하락 경고. 'Category of One' 평가와 버블 우려가 양극단."
+    "upsidePercent": 41.0,
+    "buyCount": 12,
+    "holdCount": 5,
+    "sellCount": 2,
+    "notableComment": "19명 분석: 12명 Buy, 5명 Hold, 2명 Sell. 평균 목표가 $191(+41%), 최고가 $260(Citi). Mizuho 2/21 Outperform $195 상향, Daiwa Buy $180, BofA Buy $255. Burry $46 약세론(Put $50 보유, 2027 만기). 현재 $135.24로 ATH 대비 35% 조정 구간."
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션 - P/E 215배, 2026년 -24% 하락",
-      "description": "P/E 215배, PEG 2.3으로 고평가. Forward P/S 45배. Burry Head & Shoulders 패턴으로 $50 하락 시나리오 제시."
+      "title": "극단적 밸류에이션 - P/E ~222배, Forward P/E ~102배, 2026년 -24% 하락",
+      "description": "P/E ~222배, Forward P/E ~102배로 소프트웨어 평균의 4배. Burry $46 약세 시나리오, $50 Put 옵션(2027년 만기) 보유. 50일 이동평균 ~$173, 200일 이동평균 ~$165 모두 하회 중."
     },
     {
       "severity": "high",
@@ -129,8 +129,8 @@
     },
     {
       "severity": "high",
-      "title": "Burry '사악한 회계' 비판 - AR 급증, CEO 보상 논란",
-      "description": "AR이 12분기 중 9분기에서 매출보다 빠르게 성장. CEO Karp $1,700만 제트기 비용."
+      "title": "Burry $46 약세론 - '사악한 회계', CEO $1,720만 제트기 비용 비판",
+      "description": "Burry가 $46/주 약세 시나리오 발표, $50 Put 옵션(2027년 만기) 보유. AR이 12분기 중 9분기에서 매출보다 빠르게 성장. CEO Karp $1,720만 제트기 비용(+123% YoY). 주식 수 YoY +4.67% 희석."
     },
     {
       "severity": "medium",
@@ -141,11 +141,11 @@
   "buyReasons": [
     {
       "title": "DHS $10억 BPA + 파이프라인 역대 최대",
-      "rationale": "대형 계약 연이어 체결. 2026 가이던스 $71.8~72.0억(+60%), Q1 가이던스 $15.3~15.4억(컨센서스 $13.2억 상회)."
+      "rationale": "대형 계약 연이어 체결. DHS BPA는 경쟁 입찰 없는 조달 채널. 2026 가이던스 $71.8~72.0억(+61% YoY), Q1 가이던스 $15.3~15.4억(컨센서스 $13.2억 상회)으로 성장 가시성 확보."
     },
     {
       "title": "ATH 대비 35% 조정 + 무부채 현금 성채 $72억",
-      "rationale": "Mizuho Buy $195, Citi $260. 컨센서스 $188 대비 +39% 상승 여력. RSI 40으로 과매도 근접."
+      "rationale": "현금+단기국채 $72억, 부채 제로, 유동비율 7.11. Mizuho Outperform $195, Daiwa Buy $180, Citi $260. 평균 목표가 $191 대비 +41% 상승 여력."
     },
     {
       "title": "Rule of 40 = 127% - 소프트웨어 역사상 전례 없는 성장+마진",
@@ -156,19 +156,19 @@
     "week52High": 207.52,
     "week52Low": 66.12,
     "currentPositionPercent": 48.0,
-    "sma50": 155.3,
+    "sma50": 173.0,
     "sma50Signal": "below",
-    "sma200": 171.1,
+    "sma200": 165.0,
     "sma200Signal": "below",
     "rsi": 40,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "DHS $10억 BPA, US 상업 +137%, Rule of 40 = 127%로 실질 성장 증명 중. 'Category of One' 평가",
-    "P/E 215배, SaaS-pocalypse, Burry 공격으로 2026년 24% 하락. 50일·200일 이동평균 모두 하회 중",
-    "Mizuho Buy $195 상향, Phillip Securities Buy 유지. 9명 매수 vs 10명 Hold - 시장은 아직 반반",
-    "Percepta AI 비경쟁 금지명령 기각은 인력 유출 리스크 현실화. NVDA 실적(2/25)이 AI 섹터 전체 센티먼트 좌우",
-    "RSI 40 과매도 근접, ATH 대비 35% 할인 - Q1 실적이 SaaS-pocalypse 오폭 여부를 판가름"
+    "DHS $10억 BPA(2/19 확정), Rackspace 파트너십(30→250+ 엔지니어, UK Sovereign), US 상업 +137% 성장으로 실질적 성장 증명 중. Q1 가이던스도 컨센서스를 대폭 상회.",
+    "P/E ~222배, Forward P/E ~102배로 고평가 구간. SaaS-pocalypse와 Burry $46 약세론($50 Put 보유, 2027 만기)으로 2026년 24% 하락, ATH 대비 35% 조정.",
+    "Mizuho Outperform $195(2/21), Daiwa Buy $180, Citi Strong Buy $260 등 12명 매수. 평균 목표가 $191로 +41% 상승 여력.",
+    "Percepta AI 비경쟁 금지명령 기각(2/18-20)은 인력 유출 리스크 현실화. 비권유만 인정되어 경쟁사 자유 운영 가능.",
+    "Q1 실적이 'SaaS-pocalypse에 잘못 휩쓸린 것'인지 '밸류에이션 정상화'인지 판가름. RSI 40으로 과매도 구간에 근접. DISA IL5/IL6 엣지 인증이 국방 TAM 확대 촉매."
   ],
   "sources": [
     { "name": "Yahoo Finance - 'Category of One' 업그레이드", "url": "https://finance.yahoo.com/news/palantir-pltr-called-category-one-165224898.html", "description": "포워드 멀티플 급락 후 de-risked 밸류에이션, 애널리스트 다수 업그레이드" },
@@ -187,16 +187,16 @@
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR 'Category of One' 평가에도 올해 -24% 하락",
-      "text": "투자노트 PLTR (2/23)\nDHS $10억 BPA + US 상업 +137%\nRule of 40 = 127% (소프트웨어 역대 최고)\nMizuho Buy $195 상향\n\n근데 P/E 215배, 50·200일선 하회\n목표가 $188 (현재 $135, +39%)\nAI 스타 vs 버블? NVDA 실적(2/25)이 갈림길"
+      "hook": "PLTR P/E ~222배, Burry $46 약세론 vs 12명 Buy",
+      "text": "투자노트 PLTR (2/23)\nDHS $10억 BPA + US 상업 +137%\nRackspace 30→250+ 엔지니어, UK Sovereign\nMizuho Outperform $195 상향\n\nP/E ~222배, Fwd ~102배\nBurry $46 약세론 ($50 Put 보유)\n목표가 $191 (현재 $135, +41%)\nQ1 실적이 분수령 - SaaS-pocalypse 오폭인가?"
     },
     "threads": {
-      "hook": "PLTR Rule of 40 = 127%, 근데 올해 -24% 하락 중",
-      "text": "투자노트 PLTR (2/23)\n- DHS $10억 BPA (경쟁입찰 면제)\n- US 상업 +137% YoY 폭발\n- Mizuho Buy $195 상향\n- 'Category of One' 평가\n\n근데 P/E 215배, 50·200일선 하회\n핵심: NVDA 실적(2/25)이 AI 섹터 판가름\n\n목표가 $188 (현재 $135, +39%)\nAI 스타인가, 버블인가?"
+      "hook": "PLTR Rule of 40 = 127%, Burry는 $46 Put 보유",
+      "text": "투자노트 PLTR (2/23)\n- DHS $10억 BPA (경쟁입찰 면제)\n- Rackspace 250+ 엔지니어 파트너십\n- Mizuho Outperform $195 상향\n- 12명 Buy, 5명 Hold, 2명 Sell\n\nP/E ~222배, Burry $46 Put 보유\nPercepta 비경쟁 금지명령 기각\n\n목표가 $191 (현재 $135, +41%)\nRSI 40 - 과매도 근접 구간"
     },
     "telegram": {
-      "hook": "Palantir 'Category of One' 평가 vs Burry '$50' 경고",
-      "text": "투자노트 PLTR (2/23)\n\nDHS $10억 BPA - 경쟁 입찰 없이 조달\nUS 상업 +137% YoY, Rule of 40 = 127%\nMizuho Buy $195 상향, Phillip Securities Buy 유지\n현금 $72억, 부채 제로, FCF 마진 51%\n\nP/E 215배 - SaaS-pocalypse로 올해 -24%\nPercepta AI 비경쟁 금지명령 기각\nBurry: Head & Shoulders 패턴, $50 경고\n\n목표가 $188 (현재 $135, +39%) - Buy 9 / Hold 10\n2/25 NVDA 실적이 AI 섹터 전체 리스크온/오프 결정\n\n소프트웨어 역사상 최고 성장+마진, 근데 시장은 왜 안 사나?"
+      "hook": "Palantir 12명 Buy ($191) vs Burry $46 약세론",
+      "text": "투자노트 PLTR (2/23)\n\nDHS $10억 BPA - 경쟁 입찰 없이 조달\nRackspace 30→250+ 엔지니어, UK Sovereign\nUS 상업 +137% YoY, Rule of 40 = 127%\nMizuho Outperform $195, Daiwa Buy $180\n현금 $72억, 부채 제로, FCF 마진 51%\n\nP/E ~222배, Forward P/E ~102배\nBurry $46 약세론, $50 Put(2027 만기) 보유\nCEO Karp $1,720만 제트기 비용(+123% YoY)\nPercepta AI 비경쟁 금지명령 기각\n\n목표가 $191 (현재 $135, +41%) - Buy 12 / Hold 5 / Sell 2\nRSI 40 과매도 근접, ATH 대비 35% 조정\n\nQ1 실적이 SaaS-pocalypse 오폭 여부를 판가름"
     }
   }
 }
