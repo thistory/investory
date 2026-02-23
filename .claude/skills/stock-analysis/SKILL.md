@@ -196,7 +196,7 @@ Good (읽기 쉬운 문장):
 ##### X (Twitter) Base Format
 
 ```
-오늘의투자 {SYMBOL} ({M/D})
+${SYMBOL} ({M/D})
 - {핵심 포인트를 짧은 문장으로}
 - {수치와 맥락을 함께 설명}
 - {누가 뭘 했는지 명확하게}
@@ -217,7 +217,7 @@ Good (읽기 쉬운 문장):
 ##### X (Twitter) Base Format
 
 ```
-{SYMBOL} Daily Recap, {Mon D}
+${SYMBOL} ({Mon D})
 - {Write each point as a short, readable sentence}
 - {Include numbers with context, not just raw data}
 - {Make it clear who did what}
@@ -278,7 +278,7 @@ Factual summary with analytical insight baked in. Use `-` bullet points. End eac
 
 Korean example:
 ```
-오늘의투자 TSLA (2/23)
+$TSLA (2/23)
 - Baird, Outperform 업그레이드와 함께 목표가 $548 제시
 - FSD 네덜란드 EU 승인으로 유럽 확장 경로 확보
 - Cybercab 4월 본격 양산 돌입, 9개 도시 확대 예정
@@ -291,7 +291,7 @@ xAI 투자 이해충돌 주주 소송 가열 중
 
 English example:
 ```
-TSLA Daily Recap, Feb 23
+$TSLA (Feb 23)
 - Baird upgrade to Outperform with $548 target
 - FSD gains EU approval in Netherlands, opening European expansion
 - Cybercab entering mass production in April across 9 cities
@@ -308,7 +308,7 @@ Natural, conversational flow. Sentences should **connect to each other** like a 
 
 Korean example:
 ```
-오늘의투자 TSLA (2/23)
+$TSLA (2/23)
 Baird가 목표가 $548을 외치는 동안, 로보택시는 또 5번을 박았다. FSD가 EU 승인을 받았고 Cybercab은 4월에 핸들도 페달도 없이 출격한다. P/E 407배는 숫자가 아니라 일종의 믿음 체계다.
 
 종가 $411 | 리테일 40%가 같이 들고 있는 용감한 배 🚀
@@ -322,7 +322,7 @@ Write like talking to a friend who holds this stock. **Longer and more detailed 
 
 Korean example:
 ```
-오늘의투자 TSLA (2/23)
+$TSLA (2/23)
 테슬라를 들고 있으면 요즘 하루가 롤러코스터 같을 것이다.
 
 좋은 소식부터 보면, Baird가 목표가 $548을 제시하며 Outperform으로 올렸다. FSD도 네덜란드에서 EU 승인을 받아 유럽 진출의 실마리가 보이기 시작했다.
