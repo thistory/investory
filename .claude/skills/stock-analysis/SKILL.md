@@ -224,6 +224,46 @@ Avg Target ${target} (vs current ${price}, +{upside}%)
 | X | `snsContent.x` | hook 50 chars, text under 280 chars | Use base format as-is |
 | Threads | `snsContent.threads` | hook 50 chars, text under 280 chars | Slightly more casual tone, add 1-2 emojis |
 
+#### Tone Variants (`snsContent.tones`)
+
+Generate 4 tone variants for both X and Threads. Each tone set lives under `snsContent.tones.x` and `snsContent.tones.threads`.
+
+```jsonc
+"snsContent": {
+  "x": { "hook": "...", "text": "..." },        // default (same as fact tone)
+  "threads": { "hook": "...", "text": "..." },   // default (same as fact tone)
+  "telegram": { "hook": "...", "text": "..." },
+  "tones": {
+    "x": {
+      "fact":    { "hook": "...", "text": "..." },
+      "witty":   { "hook": "...", "text": "..." },
+      "smart":   { "hook": "...", "text": "..." },
+      "empathy": { "hook": "...", "text": "..." }
+    },
+    "threads": {
+      "fact":    { "hook": "...", "text": "..." },
+      "witty":   { "hook": "...", "text": "..." },
+      "smart":   { "hook": "...", "text": "..." },
+      "empathy": { "hook": "...", "text": "..." }
+    }
+  }
+}
+```
+
+| Tone Key | Korean Label | English Label | Icon | Guidelines |
+|----------|-------------|---------------|------|------------|
+| `fact` | 팩트정리 | Facts | 📊 | Same as the default X/Threads format. Bullet-point data summary. |
+| `witty` | 재밌게 | Witty | 😂 | Humor, memes, metaphors. Use trending slang or pop culture references. Make numbers entertaining ("목표가까지 로켓 발사 대기중 🚀"). Keep factual accuracy. |
+| `smart` | 똑똑하게 | Smart | 🧠 | Analytical insight tone. Lead with a non-obvious conclusion. Use "because/therefore" logic chains. Sound like a sharp analyst friend explaining over coffee. |
+| `empathy` | 공감형 | Relatable | 💬 | Retail investor psychology. Start with a relatable question or feeling ("이 종목 들고 있으면 요즘 마음이 복잡하죠?"). Acknowledge uncertainty. End with encouragement or a clear takeaway. |
+
+**Rules for all tones:**
+- Same character limits as the base format (X: 280 chars, Threads: 280 chars)
+- `fact` tone text must be identical to the default `snsContent.x` / `snsContent.threads` text
+- All tones must contain the same core data points (price, target, upside %)
+- No links in tone text (the share button appends the URL automatically)
+- Each `hook` should be tone-appropriate (witty hook should be funny, smart hook insightful, etc.)
+
 ## Writing Guidelines
 
 ### General

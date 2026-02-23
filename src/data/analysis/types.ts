@@ -3,10 +3,23 @@ export interface SnsPost {
   text: string;   // 본문 (스토리 + 숫자 + CTA)
 }
 
+export type SnsToneKey = "fact" | "witty" | "smart" | "empathy";
+
+export interface SnsToneSet {
+  fact: SnsPost;
+  witty: SnsPost;
+  smart: SnsPost;
+  empathy: SnsPost;
+}
+
 export interface SnsContent {
   x?: SnsPost;        // X(Twitter) 기본 양식 (280자 이내)
   threads: SnsPost;   // Threads용 — X 변형 (280자 이내)
   telegram: SnsPost;  // Telegram용 — X 변형 (500자 이내)
+  tones?: {
+    x?: SnsToneSet;
+    threads?: SnsToneSet;
+  };
 }
 
 /** 인덱스용 경량 엔트리 — 카드 UI + 검색에 필요한 필드만 */
