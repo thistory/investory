@@ -1,0 +1,286 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-02-25",
+  "currentPrice": 192.85,
+  "marketCap": "$4.69T",
+  "businessSummary": {
+    "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with data center GPUs and AI accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. Market cap ~$4.69T, one of the world's most valuable companies. Q4 FY2026 earnings report is tomorrow (2/25). Officially announced a multi-year, multi-million GPU strategic partnership with Meta, and Blackwell Ultra (GB300) achieved 50x throughput vs Hopper.",
+    "howTheyMakeMoney": [
+      "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300): ~90% of total revenue",
+      "Gaming: GeForce RTX series GPUs and DLSS 4 technology: Q3 $4.3B (+30% YoY)",
+      "Automotive: DRIVE platform autonomous driving and vehicle AI chips: Q3 $590M (+32% YoY)",
+      "Professional Visualization: Quadro/RTX workstation GPUs: Q3 $760M (+56% YoY)",
+      "Software/Platform: CUDA ecosystem, NVIDIA AI Enterprise, Omniverse, BioNeMo licensing"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: Latest AI accelerator, 50x throughput and 35x cost reduction vs Hopper",
+      "Blackwell B200/GB200: 'Insane' demand levels, sold out through mid-2026",
+      "H100/H200 Tensor Core GPU: Industry standard for AI training and inference",
+      "Rubin R200: Next-gen GPU, H2 2026, with HBM4 memory",
+      "CUDA: GPU parallel computing software platform used by 15M+ developers",
+      "DGX/HGX Systems: Turnkey servers for large-scale AI training"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "47.73x",
+      "interpretation": "AI growth premium reflected. Significantly down from past 120x — earnings growth catching up to valuation"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "27.0x",
+      "interpretation": "Reasonable based on FY2027 expected earnings. Room for further decline if AI demand persists"
+    },
+    {
+      "name": "Revenue (TTM)",
+      "value": "$187.1B",
+      "interpretation": "+65.2% YoY growth. Data center AI demand is core driver"
+    },
+    {
+      "name": "Net Income (TTM)",
+      "value": "$99.2B",
+      "interpretation": "+57.3% YoY. Record-level profitability"
+    },
+    {
+      "name": "Operating Margin (TTM)",
+      "value": "58.8%",
+      "interpretation": "Highest in semiconductor industry. Reflects monopolistic GPU position"
+    },
+    {
+      "name": "EPS (TTM)",
+      "value": "$4.04",
+      "interpretation": "+59.7% YoY. Tomorrow's Q4 earnings consensus expects $1.46-1.52"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "+65.2%",
+      "interpretation": "Decelerating from FY2025's +114% but still high growth"
+    },
+    {
+      "name": "Market Cap",
+      "value": "$4.69T",
+      "interpretation": "Among global #1. Reflects core AI infrastructure beneficiary status"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Q4 FY2026 Earnings D-1 — Consensus $65.6B, Whisper $67B+",
+      "description": "Earnings report tomorrow (2/25) after market close. Consensus revenue $65.6B (+67%), EPS $1.46-1.52. RBC Capital expects '3-4% beat/raise.' Options market pricing ±7% move. Blackwell revenue mix, data center growth sustainability, and Q1 FY2027 $75B guidance are the 3 key metrics."
+    },
+    {
+      "title": "Meta Multi-Year, Multi-Million GPU Strategic Partnership",
+      "description": "Official partnership announced 2/17. Includes GB300, Grace CPU, Vera Rubin, Spectrum-X networking. Core partner for Meta's FY2026 CapEx of $115-135B."
+    },
+    {
+      "title": "Blackwell Ultra GB300 — 50x Efficiency vs Hopper, $500B Pipeline",
+      "description": "GB300 NVL72 delivers 50x throughput per MW, 35x cost reduction per token. Accounts for 2/3 of Blackwell revenue. Rubin R200 targeted for H2 2026."
+    },
+    {
+      "title": "Hyperscaler CapEx Surpasses $527B+",
+      "description": "Goldman Sachs estimates combined 2026 hyperscaler CapEx exceeding $527B+. OpenAI in final stages of $30B strategic investment negotiations."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA ecosystem (15M+ developers), annual architecture refresh cadence, overwhelming NVLink interconnect performance, and 80%+ AI accelerator market share maintain a de facto monopoly position.",
+    "moats": [
+      {
+        "type": "Software Ecosystem (Switching Costs)",
+        "description": "CUDA is a 15+ year GPU computing platform. 15M+ developers and thousands of AI frameworks optimized for NVIDIA."
+      },
+      {
+        "type": "Technology Leadership (Annual Architecture Refresh)",
+        "description": "Hopper→Blackwell→Rubin annual new architecture releases. GB300 is 50x more efficient than Hopper."
+      },
+      {
+        "type": "Supply Chain Lock-in (Economies of Scale)",
+        "description": "Secured majority of TSMC's CoWoS advanced packaging capacity."
+      },
+      {
+        "type": "Strategic Partnership Network",
+        "description": "Multi-year partnerships with Meta, OpenAI, Eli Lilly and others. Core AI ecosystem infrastructure provider."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350 capturing 10-12% of AI accelerator market. MI450 (2nm) expected 2026."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 launched but minimal market share."
+      },
+      {
+        "name": "Custom Silicon (Google TPU, Amazon Trainium, Microsoft Maia)",
+        "detail": "Big tech accelerating in-house AI chip development."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "NVIDIA alternative within China. China share collapsed from 66% to 8%."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-25",
+      "headline": "NVIDIA Q4 FY2026 Earnings D-Day — Consensus Revenue $65.6B",
+      "significance": "Barometer for AI investment cycle. Beat/miss determines direction for entire AI sector.",
+      "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-february-2026"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Multi-Year, Multi-Million GPU Strategic Partnership with Meta Officially Announced",
+      "significance": "Potentially largest-ever order from a single customer. Dramatically improves long-term revenue visibility.",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-earnings-meta-deal-analysts-buy-ratings-in-focus"
+    },
+    {
+      "date": "2026-02-22",
+      "headline": "Blackwell Demand 'Off the Charts' — $500B Pipeline Upgrade Potential",
+      "significance": "Supply is the only constraint. Demand side has virtually no ceiling.",
+      "url": "https://www.fool.com/investing/2026/02/22/feb-25-nvidia-important-things-watch-earnings/"
+    },
+    {
+      "date": "2026-02-24",
+      "headline": "Wall Street Warns of $200B Risk Ahead of NVDA Earnings",
+      "significance": "Options market pricing ±7% move. Extremely high expectations mean significant downside on miss.",
+      "url": "https://247wallst.com/investing/2026/02/24/heres-the-200-billion-reason-wall-street-is-nervous-for-nvidias-earnings-tomorrow/"
+    },
+    {
+      "date": "2026-02-23",
+      "headline": "Could NVIDIA Double in 6 Months? Historical Pattern Analysis",
+      "significance": "Precedent of 80%+ gains within 6 months following past earnings surprises.",
+      "url": "https://www.fool.com/investing/2026/02/23/could-nvidia-double-in-6-months-heres-what-history/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 256.5,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 33.0,
+    "buyCount": 32,
+    "holdCount": 5,
+    "sellCount": 1,
+    "notableComment": "Overwhelming 'Strong Buy' among 38 analysts. Average target $256.5 (+33%). Tomorrow's earnings could catalyze target upgrades, with FY2027 revenue $213B+ and EPS $4.69 expected."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Earnings Report Risk — Expectations Extremely High",
+      "description": "Q4 earnings tomorrow. Consensus $65.6B but whisper number $67B+. Failure to exceed expectations could trigger options market ±7% decline. 7% of $4.69T = $330B."
+    },
+    {
+      "severity": "high",
+      "title": "AI CapEx Cycle Peak Concerns",
+      "description": "Hyperscaler CapEx $527B+ but ROI uncertainty could lead to investment slowdown. Recent sell-offs in IBM, Visa on AI concerns."
+    },
+    {
+      "severity": "medium",
+      "title": "Ongoing China Export Restrictions",
+      "description": "China share collapsed from 66% to 8%. Huawei Ascend substituting in Chinese market. Long-term revenue reduction factor."
+    },
+    {
+      "severity": "medium",
+      "title": "Intensifying Competition — AMD MI350, Custom Silicon",
+      "description": "AMD MI350, Google TPU v6, Amazon Trainium3 launches upcoming. Long-term market share dilution possible."
+    },
+    {
+      "severity": "low",
+      "title": "Blackwell→Rubin Transition Risk",
+      "description": "Architecture transition periods may delay customer orders. However, demand maintained during past transitions."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Earnings Surprise Tomorrow Could Trigger Mass Target Upgrades",
+      "rationale": "RBC expects '3-4% beat/raise.' $50B+ backlog upgrade would dramatically improve multi-quarter visibility."
+    },
+    {
+      "title": "Forward P/E 27x — Reasonable Valuation for AI Growth",
+      "rationale": "FY2027 revenue $213B+, EPS $4.69 implies Forward P/E 27x. Undervalued territory given 65%+ growth rate."
+    },
+    {
+      "title": "Meta Partnership — Multi-Year Confirmed Demand for Millions of GPUs",
+      "rationale": "Meta FY2026 CapEx $115-135B. Long-term contract including GB300 and Rubin maximizes revenue visibility."
+    },
+    {
+      "title": "CUDA Ecosystem — Virtually Insurmountable Moat",
+      "rationale": "15M+ developers, 15+ year history. Even if competitors match hardware, software switching costs create entry barriers."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 84.6,
+    "sma50": 184.1,
+    "sma50Signal": "above",
+    "sma200": 165.0,
+    "sma200Signal": "above",
+    "rsi": 52,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "NVIDIA is the de facto monopoly in AI infrastructure, with tomorrow's (2/25) Q4 earnings as the biggest near-term catalyst.",
+    "Consensus $65.6B (+67%), whisper $67B+. Blackwell revenue mix and Q1 $75B guidance are key. Beat triggers mass target upgrades; miss risks 7%+ correction.",
+    "Technically above both 50-day and 200-day SMAs in a bullish zone. RSI 52, neutral. After 6 months of $170-$195 range-bound trading, earnings will determine direction.",
+    "Forward P/E 27x with 65%+ revenue growth makes this the most reasonably valued among AI megatrend beneficiaries. Safer to wait for earnings results before building positions rather than entering ahead of the report."
+  ],
+  "sources": [
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA real-time price, financial overview"
+    },
+    {
+      "name": "StockAnalysis Forecast",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "description": "38 analyst targets and ratings"
+    },
+    {
+      "name": "StockAnalysis Financials",
+      "url": "https://stockanalysis.com/stocks/nvda/financials/",
+      "description": "FY2025 annual financial data"
+    },
+    {
+      "name": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-february-2026",
+      "description": "Q4 earnings live updates"
+    },
+    {
+      "name": "TipRanks",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-earnings-meta-deal-analysts-buy-ratings-in-focus",
+      "description": "Meta partnership and earnings outlook"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/02/22/feb-25-nvidia-important-things-watch-earnings/",
+      "description": "Q4 earnings 3 key metrics analysis"
+    },
+    {
+      "name": "247 Wall St",
+      "url": "https://247wallst.com/investing/2026/02/24/heres-the-200-billion-reason-wall-street-is-nervous-for-nvidias-earnings-tomorrow/",
+      "description": "Earnings risk analysis"
+    },
+    {
+      "name": "MarketPulse",
+      "url": "https://www.marketpulse.com/markets/nvidia-nvda-q4-earnings-preview-high-stakes-for-the-ai-standard-bearer/",
+      "description": "Technical analysis $170-$195 range"
+    },
+    {
+      "name": "tlt.ng",
+      "url": "https://tlt.ng/nvidia-stock-price-chart-technical-analysis-latest-nvda-trends/amp/",
+      "description": "RSI, SMA technical indicators"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA earnings tonight — AI's judgment day ⚡",
+      "text": "2/25 after-hours Q4 report — consensus $65.6B (+67%)\nMeta multi-million GPU deal, Forward P/E 27x\n\nBeat = $210 breakout, miss = $170 test\n$4.69T market cap × 7% = $330B at stake\n\nThe direction of AI investment this year is decided today\n\n📊 investory.kro.kr/stock/NVDA/analysis/2026-02-25"
+    },
+    "telegram": {
+      "hook": "NVIDIA D-Day — $330B on the line 🎯",
+      "text": "📍 Price $192.85 | MCap $4.69T | Forward P/E 27x\n\n⏰ Today (2/25) after-hours Q4 FY2026 earnings\n• Consensus revenue $65.6B (+67%)\n• Whisper number $67B+\n• Options pricing ±7% = $330B\n\n🔑 3 Key Metrics\n1. Blackwell revenue mix (2/3 of total?)\n2. Q1 FY2027 guidance ($75B?)\n3. Rubin roadmap update\n\n📈 Meta multi-million GPU long-term partnership secured\n📉 AI CapEx peak concerns vs $527B+ hyperscaler investment\n\n🎯 32 of 38 Strong Buy | Target $256.5 (+33%)\n\nBottom line: The AI era's barometer. Today's earnings determine the direction of AI investment for all of 2026. Must-watch after hours!\n\n📊 investory.kro.kr/stock/NVDA/analysis/2026-02-25"
+    }
+  }
+}
