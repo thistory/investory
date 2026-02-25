@@ -1,0 +1,286 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-02-25",
+  "currentPrice": 192.85,
+  "marketCap": "4.69T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. 시가총액 ~$4.69T로 세계 최고 가치 기업 중 하나. 바로 내일(2/25) Q4 FY2026 실적 발표를 앞두고 있다. Meta와 수년간 수백만 GPU에 걸친 전략적 파트너십을 공식 발표했고, Blackwell Ultra(GB300)는 Hopper 대비 50배 처리량을 달성했다.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300): 총매출의 약 90%",
+      "게이밍: GeForce RTX 시리즈 GPU 및 DLSS 4 기술: Q3 $4.3B (+30% YoY)",
+      "자동차: DRIVE 플랫폼 자율주행 및 차량 AI 칩: Q3 $590M (+32% YoY)",
+      "프로페셔널 비주얼라이제이션: Quadro/RTX 워크스테이션 GPU: Q3 $760M (+56% YoY)",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse, BioNeMo 라이선싱"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: 최신 AI 가속기, Hopper 대비 50배 처리량·35배 비용 절감",
+      "Blackwell B200/GB200: '미친' 수준의 수요, 2026년 중반까지 매진",
+      "H100/H200 Tensor Core GPU: AI 학습·추론 업계 표준",
+      "Rubin R200: 차세대 GPU, 2026년 하반기 예정, HBM4 메모리 탑재",
+      "CUDA: 1,500만+ 개발자가 사용하는 GPU 병렬 컴퓨팅 소프트웨어 플랫폼",
+      "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "47.73x",
+      "interpretation": "AI 성장 프리미엄 반영. 과거 120x 대비 크게 하락 — 수익 성장이 밸류에이션을 따라잡는 중"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "27.0x",
+      "interpretation": "FY2027 예상 수익 기준 합리적 수준. AI 수요 지속 시 추가 하락 여지"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$187.1B",
+      "interpretation": "+65.2% YoY 성장. 데이터센터 AI 수요가 핵심 동력"
+    },
+    {
+      "name": "순이익 (TTM)",
+      "value": "$99.2B",
+      "interpretation": "+57.3% YoY. 역대급 수익성"
+    },
+    {
+      "name": "영업이익률 (TTM)",
+      "value": "58.8%",
+      "interpretation": "반도체 업계 최고 수준. GPU 독점적 지위 반영"
+    },
+    {
+      "name": "EPS (TTM)",
+      "value": "$4.04",
+      "interpretation": "+59.7% YoY. 내일 Q4 실적 발표에서 컨센서스 $1.46~1.52 전망"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "+65.2%",
+      "interpretation": "FY2025 +114% 대비 둔화되나 여전히 고성장"
+    },
+    {
+      "name": "시가총액",
+      "value": "$4.69T",
+      "interpretation": "글로벌 1위 수준. AI 인프라의 핵심 수혜 반영"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Q4 FY2026 실적 발표 D-1 — 컨센서스 $65.6B, 위스퍼 $67B+",
+      "description": "내일(2/25) 장 마감 후 실적 발표. 컨센서스 매출 $65.6B(+67%), EPS $1.46~1.52. RBC Capital은 '3~4% 비트/레이즈' 전망. 옵션 시장은 ±7% 움직임 반영. Blackwell 매출 비중, 데이터센터 성장 지속성, Q1 FY2027 $75B 가이던스가 3대 핵심 지표."
+    },
+    {
+      "title": "Meta 수년간 수백만 GPU 전략적 파트너십",
+      "description": "2/17 Meta와 공식 파트너십 발표. GB300, Grace CPU, Vera Rubin, Spectrum-X 네트워킹 포함. Meta FY2026 CapEx $115~135B의 핵심 파트너."
+    },
+    {
+      "title": "Blackwell Ultra GB300 — Hopper 대비 50배 효율, $500B 파이프라인",
+      "description": "GB300 NVL72는 MW당 50배 처리량, 토큰당 35배 비용 절감. Blackwell 매출의 2/3 차지. Rubin R200 2026년 하반기 예정."
+    },
+    {
+      "title": "하이퍼스케일러 CapEx $527B+ 돌파",
+      "description": "Goldman Sachs 추정 2026년 합산 하이퍼스케일러 CapEx $527B+ 초과. OpenAI $30B 전략 투자 협상 최종 단계."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계(1,500만+ 개발자), 연간 아키텍처 갱신, NVLink 인터커넥트의 압도적 성능, AI 가속기 시장 80%+ 점유율로 사실상 독점적 지위 유지.",
+    "moats": [
+      {
+        "type": "소프트웨어 생태계 (전환 비용)",
+        "description": "CUDA는 15년+ 역사의 GPU 컴퓨팅 플랫폼. 1,500만+ 개발자와 수천 개 AI 프레임워크가 NVIDIA에 최적화."
+      },
+      {
+        "type": "기술 리더십 (연간 아키텍처 갱신)",
+        "description": "Hopper→Blackwell→Rubin 연간 신규 아키텍처 출시. GB300은 Hopper 대비 50배 효율."
+      },
+      {
+        "type": "공급망 락인 (규모의 경제)",
+        "description": "TSMC CoWoS 첨단 패키징 용량의 대부분을 확보."
+      },
+      {
+        "type": "전략적 파트너십 네트워크",
+        "description": "Meta, OpenAI, Eli Lilly 등과 수년간 파트너십. 핵심 AI 생태계 인프라 제공자."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350로 AI 가속기 시장 10~12% 점유. MI450(2nm) 2026년 예정."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 출시했으나 시장 점유율 미미."
+      },
+      {
+        "name": "커스텀 실리콘 (Google TPU, Amazon Trainium, Microsoft Maia)",
+        "detail": "빅테크들이 자체 AI 칩 개발 가속화."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "중국 내 NVIDIA 대안. 중국 점유율은 66%에서 8%로 붕괴."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-25",
+      "headline": "NVIDIA Q4 FY2026 실적 발표 D-Day — 컨센서스 매출 $65.6B",
+      "significance": "AI 투자 사이클의 바로미터. 비트/미스 여부에 따라 전체 AI 섹터 방향성 결정.",
+      "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-february-2026"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Meta와 수년간 수백만 GPU 전략적 파트너십 공식 발표",
+      "significance": "단일 고객으로부터 역대 최대급 주문 확보. 장기 매출 가시성 대폭 상승.",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-earnings-meta-deal-analysts-buy-ratings-in-focus"
+    },
+    {
+      "date": "2026-02-22",
+      "headline": "Blackwell 수요 'Off the Charts' — $500B 파이프라인 업그레이드 가능성",
+      "significance": "공급 부족이 유일한 제약. 수요 측면에서는 사실상 상한선 없음.",
+      "url": "https://www.fool.com/investing/2026/02/22/feb-25-nvidia-important-things-watch-earnings/"
+    },
+    {
+      "date": "2026-02-24",
+      "headline": "Wall Street, NVDA 실적 앞두고 $200B 리스크 경고",
+      "significance": "옵션 시장 ±7% 변동 반영. 기대치가 매우 높아 미스 시 충격 가능.",
+      "url": "https://247wallst.com/investing/2026/02/24/heres-the-200-billion-reason-wall-street-is-nervous-for-nvidias-earnings-tomorrow/"
+    },
+    {
+      "date": "2026-02-23",
+      "headline": "NVIDIA, 6개월 내 주가 2배 가능성? — 역사적 패턴 분석",
+      "significance": "과거 실적 서프라이즈 후 6개월 내 80%+ 상승한 선례 존재.",
+      "url": "https://www.fool.com/investing/2026/02/23/could-nvidia-double-in-6-months-heres-what-history/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 256.5,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 33.0,
+    "buyCount": 32,
+    "holdCount": 5,
+    "sellCount": 1,
+    "notableComment": "38명 애널리스트 중 압도적 'Strong Buy'. 평균 목표가 $256.5(+33%). 내일 실적 발표가 목표가 상향의 촉매가 될 수 있으며, FY2027 매출 $213B+, EPS $4.69 전망."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "실적 발표 리스크 — 기대치 극도로 높음",
+      "description": "내일 Q4 실적 발표. 컨센서스 $65.6B이나 위스퍼 넘버 $67B+. 기대치 초과 못하면 옵션 시장 ±7% 하락 가능. 시총 $4.69T에서 7%는 $330B."
+    },
+    {
+      "severity": "high",
+      "title": "AI CapEx 사이클 피크 우려",
+      "description": "하이퍼스케일러 CapEx $527B+이지만, ROI 불확실성으로 투자 둔화 가능성. 최근 IBM, Visa 등 AI 관련 매도세."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 규제 지속",
+      "description": "중국 점유율 66%→8% 붕괴. Huawei Ascend가 중국 시장 대체. 장기적 매출 감소 요인."
+    },
+    {
+      "severity": "medium",
+      "title": "경쟁 심화 — AMD MI350, 커스텀 실리콘",
+      "description": "AMD MI350, Google TPU v6, Amazon Trainium3 등 경쟁 제품 출시 예정. 장기적 시장 점유율 희석 가능."
+    },
+    {
+      "severity": "low",
+      "title": "Blackwell→Rubin 전환 리스크",
+      "description": "아키텍처 전환기에 고객 주문 지연 가능성. 다만 과거 전환기에도 수요는 유지됐음."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "내일 실적 서프라이즈 시 목표가 일제 상향 가능",
+      "rationale": "RBC '3~4% 비트/레이즈' 전망. $50B+ 백로그 업그레이드 시 향후 분기 가시성 대폭 개선."
+    },
+    {
+      "title": "Forward P/E 27x — AI 성장 대비 합리적 밸류에이션",
+      "rationale": "FY2027 매출 $213B+, EPS $4.69 기준 Forward P/E 27x. 65%+ 성장률 대비 저평가 영역."
+    },
+    {
+      "title": "Meta 파트너십 — 수년간 수백만 GPU 확정 수요",
+      "rationale": "Meta FY2026 CapEx $115~135B. GB300, Rubin까지 포함한 장기 계약으로 매출 가시성 극대화."
+    },
+    {
+      "title": "CUDA 생태계 — 사실상 넘을 수 없는 해자",
+      "rationale": "1,500만+ 개발자, 15년+ 역사. 경쟁사가 하드웨어를 따라잡아도 소프트웨어 전환 비용이 진입 장벽."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 84.6,
+    "sma50": 184.1,
+    "sma50Signal": "above",
+    "sma200": 165.0,
+    "sma200Signal": "above",
+    "rsi": 52,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "NVIDIA는 AI 인프라의 사실상 독점 기업으로, 내일(2/25) Q4 실적 발표가 단기 주가의 최대 변수다.",
+    "컨센서스 $65.6B(+67%), 위스퍼 $67B+. Blackwell 매출 비중과 Q1 $75B 가이던스가 핵심. 비트 시 목표가 일제 상향, 미스 시 7%+ 조정 가능.",
+    "기술적으로 50일·200일 이평선 모두 상회하며 강세 구간. RSI 52로 중립. $170~$195 박스권 6개월 횡보 후 실적을 계기로 방향 결정.",
+    "Forward P/E 27x, 65%+ 매출 성장률을 고려하면 AI 메가트렌드 수혜주 중 밸류에이션이 가장 합리적. 실적 발표 전 포지션 구축보다는 결과 확인 후 방향성 매매가 안전하다."
+  ],
+  "sources": [
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA 실시간 주가, 재무 개요"
+    },
+    {
+      "name": "StockAnalysis Forecast",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "description": "38명 애널리스트 목표가 및 투자의견"
+    },
+    {
+      "name": "StockAnalysis Financials",
+      "url": "https://stockanalysis.com/stocks/nvda/financials/",
+      "description": "FY2025 연간 실적 데이터"
+    },
+    {
+      "name": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-february-2026",
+      "description": "Q4 실적 라이브 업데이트"
+    },
+    {
+      "name": "TipRanks",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-earnings-meta-deal-analysts-buy-ratings-in-focus",
+      "description": "Meta 파트너십 및 실적 전망"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/02/22/feb-25-nvidia-important-things-watch-earnings/",
+      "description": "Q4 실적 3대 핵심 지표 분석"
+    },
+    {
+      "name": "247 Wall St",
+      "url": "https://247wallst.com/investing/2026/02/24/heres-the-200-billion-reason-wall-street-is-nervous-for-nvidias-earnings-tomorrow/",
+      "description": "실적 발표 리스크 분석"
+    },
+    {
+      "name": "MarketPulse",
+      "url": "https://www.marketpulse.com/markets/nvidia-nvda-q4-earnings-preview-high-stakes-for-the-ai-standard-bearer/",
+      "description": "기술적 분석 $170~$195 박스권"
+    },
+    {
+      "name": "tlt.ng",
+      "url": "https://tlt.ng/nvidia-stock-price-chart-technical-analysis-latest-nvda-trends/amp/",
+      "description": "RSI, SMA 기술적 지표"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "오늘 밤 NVDA 실적, AI의 심판의 날 ⚡",
+      "text": "2/25 장후 Q4 발표 — 컨센서스 $65.6B(+67%)\nMeta 수백만 GPU, Forward P/E 27x\n\n비트하면 $210 돌파, 미스하면 $170 테스트\n시총 $4.69T의 7% = $330B 증발 가능\n\n올해 AI 투자의 방향이 오늘 결정된다\n\n📊 investory.kro.kr/stock/NVDA/analysis/2026-02-25"
+    },
+    "telegram": {
+      "hook": "NVIDIA D-Day, $330B가 걸린 실적 발표 🎯",
+      "text": "📍 현재가 $192.85 | 시총 $4.69T | Forward P/E 27x\n\n⏰ 오늘(2/25) 장후 Q4 FY2026 실적 발표\n• 컨센서스 매출 $65.6B (+67%)\n• 위스퍼 넘버 $67B+\n• 옵션 시장 ±7% 반영 = $330B\n\n🔑 3대 핵심 지표\n1. Blackwell 매출 비중 (전체의 2/3?)\n2. Q1 FY2027 가이던스 ($75B?)\n3. Rubin 로드맵 업데이트\n\n📈 Meta 수백만 GPU 장기 파트너십 확보\n📉 AI CapEx 피크 우려 vs $527B+ 하이퍼스케일러 투자\n\n🎯 38명 중 32명 Strong Buy | 목표가 $256.5 (+33%)\n\n결론: AI 시대의 바로미터. 오늘 실적이 2026년 전체 AI 투자 방향을 결정한다. 장후 결과 확인 필수!\n\n📊 investory.kro.kr/stock/NVDA/analysis/2026-02-25"
+    }
+  }
+}
