@@ -191,6 +191,21 @@ Good (읽기 쉬운 문장):
 
 **em dash (`—`) 절대 금지.** 콤마(`,`), 마침표(`.`), 괄호(`()`), 콜론(`:`)으로 대체.
 
+#### SNS Content Quality Guidelines
+
+**읽고 싶어지는 글, 투자에 도움이 되는 글을 써라.**
+
+1. **Engagement first**: 스크롤을 멈추고 끝까지 읽고 싶게 만들어라. 단순 팩트 나열이 아니라, "왜 이게 중요한지", "이게 내 투자에 어떤 의미인지"를 담아라.
+2. **Don't over-summarize**: 너무 압축하지 마라. 핵심 포인트를 맥락과 함께 풀어서 설명하라. 길이는 `overallOpinion` 필드에 작성하는 수준(3-5개 포인트, 각 포인트가 한두 문장)과 비슷하게.
+3. **Investment-useful content**: 읽는 사람이 실제 투자 판단에 참고할 수 있는 내용을 담아라. 다가오는 카탈리스트, 주요 가격 수준, 리스크/리워드 프레이밍, 밸류에이션 맥락 등.
+4. **Not a headline, but a mini-briefing**: 뉴스 헤드라인을 복사하는 게 아니라, 그 뉴스가 왜 중요한지 해석을 곁들여라.
+
+> **English version of the same rules:**
+> 1. **Engagement first**: Make readers stop scrolling and want to read to the end. Don't just list facts. Explain *why it matters* and *what it means for investors*.
+> 2. **Don't over-summarize**: Expand key points with context and reasoning. Aim for a depth similar to the `overallOpinion` field (3-5 points, each 1-2 sentences).
+> 3. **Investment-useful content**: Include actionable insights: upcoming catalysts, key price levels, risk/reward framing, valuation context.
+> 4. **Not a headline, but a mini-briefing**: Don't copy news headlines. Interpret and explain why each development matters.
+
 #### Korean SNS (`.json`)
 
 ##### X (Twitter) Base Format
@@ -237,10 +252,10 @@ Avg Target ${target} (vs current ${price}, +{upside}%)
 
 | Platform | Field | Length | Difference from X |
 |----------|-------|--------|-------------------|
-| X | `snsContent.x` | hook 50 chars, text under 280 chars | Use base format as-is |
-| Threads | `snsContent.threads` | hook 50 chars, text under 280 chars | Slightly more casual tone, add 1-2 emojis |
+| X | `snsContent.x` | hook 50 chars, **no text char limit** | Use base format as-is |
+| Threads | `snsContent.threads` | hook 50 chars, **no text char limit** | Slightly more casual tone, add 1-2 emojis |
 
-**All platforms:** Write in short, readable sentences. No keyword dumps. No em dashes.
+**All platforms:** Write in short, readable sentences. No keyword dumps. No em dashes. Aim for `overallOpinion`-level depth and length.
 
 #### Tone Variants (`snsContent.tones`)
 
@@ -274,72 +289,102 @@ Generate 3 tone variants for both X and Threads. Each tone set lives under `snsC
 
 ##### fact tone style (팩트정리)
 
-Factual summary with analytical insight baked in. Use `-` bullet points. End each bullet with **명사형 종결** (Korean) or **noun phrase ending** (English).
+Factual summary with analytical insight baked in. Use `-` bullet points. **Don't just state the fact. Explain why it matters for investors.** Length should be similar to `overallOpinion` (3-5 substantive points). Include actionable context: what it means for the stock, upcoming catalysts, valuation perspective.
 
 Korean example:
 ```
 $TSLA (2/23)
-- Baird, Outperform 업그레이드와 함께 목표가 $548 제시
-- FSD 네덜란드 EU 승인으로 유럽 확장 경로 확보
-- Cybercab 4월 본격 양산 돌입, 9개 도시 확대 예정
+- Baird가 Outperform으로 업그레이드하며 목표가 $548 제시. 54명 애널리스트 중 42%가 Buy, 중앙값 $480(현재가 대비 +17%)
+- FSD가 네덜란드에서 EU 승인을 획득하면서 유럽 확장의 실질적인 발판이 마련됨. 글로벌 TAM 확대 기대
+- Cybercab이 4월 본격 양산에 돌입하며 9개 도시로 확대 예정. 핸들과 페달 없는 완전 자율주행 차량
 
-⚠️ 로보택시 5건 추가 충돌 보고로 안전성 논란 재부각
-xAI 투자 이해충돌 주주 소송 가열 중
+⚠️ 로보택시에서 5건의 추가 충돌이 보고되며 안전성 논란이 재부각. Waymo가 $160억을 조달하면서 경쟁도 치열해지는 중
+xAI 투자 이해충돌 주주 소송이 가열되고 있어 경영 리스크로 작용 가능
 
-종가 $411 | P/E 407x | 목표가 $480(+17%)
+종가 $411 | P/E 407x | Forward P/E 210x | 목표가 $480(+17%)
+4월 Cybercab 양산과 Optimus v3 Q1 공개가 상반기 핵심 카탈리스트
 ```
 
 English example:
 ```
 $TSLA (Feb 23)
-- Baird upgrade to Outperform with $548 target
-- FSD gains EU approval in Netherlands, opening European expansion
-- Cybercab entering mass production in April across 9 cities
+- Baird upgrades to Outperform with a $548 target. Of 54 analysts, 42% rate Buy with a median target of $480, implying 17% upside from current levels
+- FSD gains EU approval in Netherlands, establishing a real foothold for European expansion and broadening the global TAM
+- Cybercab enters mass production in April across 9 cities. A fully autonomous vehicle with no steering wheel or pedals
 
-⚠️ 5 more robotaxi crashes reported, safety concerns resurface
-xAI investment conflict draws shareholder lawsuits
+⚠️ 5 more robotaxi crashes reported, reigniting safety concerns. Waymo's $16B raise intensifies the competitive landscape
+xAI investment conflict draws shareholder lawsuits, adding governance risk
 
-Close $411 | P/E 407x | Target $480 (+17%)
+Close $411 | P/E 407x | Fwd P/E 210x | Target $480 (+17%)
+April Cybercab ramp and Q1 Optimus v3 unveil are the key H1 catalysts
 ```
 
 ##### witty tone style (재밌게)
 
-Natural, conversational flow. Sentences should **connect to each other** like a story, not isolated jokes. Use humor through contrast and irony, not forced memes. Stay factually accurate.
+Natural, conversational flow. Sentences should **connect to each other** like a story, not isolated jokes. Use humor through contrast and irony, not forced memes. Stay factually accurate. **Even with humor, include investment-useful information.** The reader should laugh AND learn something. Length should be similar to `overallOpinion`.
 
 Korean example:
 ```
 $TSLA (2/23)
-Baird가 목표가 $548을 외치는 동안, 로보택시는 또 5번을 박았다. FSD가 EU 승인을 받았고 Cybercab은 4월에 핸들도 페달도 없이 출격한다. P/E 407배는 숫자가 아니라 일종의 믿음 체계다.
+Baird가 목표가 $548을 외치는 동안, 로보택시는 또 5번을 박았다. 아이러니하지만, 이게 테슬라다.
 
-종가 $411 | 리테일 40%가 같이 들고 있는 용감한 배 🚀
+FSD가 네덜란드에서 EU 승인을 따냈고, Cybercab은 4월에 핸들도 페달도 없이 출격한다. Waymo가 $160억을 들고 쫓아오지만, 일단 유럽은 테슬라가 먼저 발을 디뎠다.
+
+P/E 407배는 숫자가 아니라 일종의 믿음 체계다. 그런데 리테일 투자자 40%가 그 믿음에 동참 중이고, 떨어질 때마다 오히려 더 사고 있다.
+
+종가 $411 | 목표가 $480(+17%) | 4월 양산이 다음 심판의 날
 ```
 
-**Key:** Each sentence leads naturally into the next. The humor comes from juxtaposition (upgrade vs crash, no steering wheel), not from random emoji or slang.
+English example:
+```
+$TSLA (Feb 23)
+Baird slaps a $548 target on Tesla while the robotaxis rack up 5 more crashes. The irony writes itself.
+
+FSD just got EU approval in the Netherlands, and Cybercab rolls out in April with no steering wheel and no pedals. Waymo has $16B to chase, but Tesla got to Europe first.
+
+P/E at 407x isn't a valuation, it's a belief system. And 40% retail ownership means a lot of believers are buying every dip.
+
+Close $411 | Target $480 (+17%) | April production is judgment day
+```
+
+**Key:** Each sentence leads naturally into the next. The humor comes from juxtaposition (upgrade vs crash, no steering wheel), not from random emoji or slang. But even the jokes carry real data points the reader can use.
 
 ##### empathy tone style (공감형)
 
-Write like talking to a friend who holds this stock. **Longer and more detailed than other tones.** Start by acknowledging the investor's current emotional state. Present both good and bad news honestly. End with a concrete upcoming catalyst and gentle encouragement.
+Write like talking to a friend who holds this stock. **Longer and more detailed than other tones.** Start by acknowledging the investor's current emotional state. Present both good and bad news honestly, with enough detail that the reader can make their own judgment. End with a concrete upcoming catalyst and gentle encouragement. **Include specific numbers and context so the reader gets real investment value, not just emotional support.**
 
 Korean example:
 ```
 $TSLA (2/23)
-테슬라를 들고 있으면 요즘 하루가 롤러코스터 같을 것이다.
+테슬라를 들고 있으면 요즘 하루가 롤러코스터 같을 것이다. 연초 대비 -9% 하락에 P/E 407배라는 숫자를 보면 불안해지는 게 당연하다.
 
-좋은 소식부터 보면, Baird가 목표가 $548을 제시하며 Outperform으로 올렸다. FSD도 네덜란드에서 EU 승인을 받아 유럽 진출의 실마리가 보이기 시작했다.
+좋은 소식부터 보면, Baird가 목표가 $548을 제시하며 Outperform으로 올렸다. 54명 애널리스트 중 42%가 Buy를 유지하고 있고, 중앙값 목표가는 $480으로 현재가 대비 +17%다. FSD도 네덜란드에서 EU 승인을 받아 유럽 진출의 실마리가 보이기 시작했다.
 
-하지만 로보택시에서 5건의 추가 충돌이 보고됐고, xAI 투자를 둘러싼 주주 소송도 뜨겁다. 불안한 마음이 드는 게 당연하다.
+하지만 로보택시에서 5건의 추가 충돌이 보고됐고, Waymo가 $160억을 조달하면서 경쟁이 본격화되고 있다. xAI 투자를 둘러싼 주주 소송도 뜨겁다. 불안한 마음이 드는 게 당연하다.
 
-그래도 혼자가 아니다. 리테일 투자자 40%가 함께 보유 중이고, 하락할 때마다 오히려 매수를 늘려왔다. 4월 Cybercab 양산 시작이 다음 시험대다. 조금만 더 지켜보자.
+그래도 혼자가 아니다. 리테일 투자자 40%가 함께 보유 중이고, 하락할 때마다 오히려 매수를 늘려왔다. 50일 이동평균($441) 아래에 있지만 200일선($388)은 지켜내고 있다. 4월 Cybercab 양산 시작과 Optimus v3 Q1 공개가 다음 시험대다. 조금만 더 지켜보자.
 ```
 
-**Key:** No character limit for empathy tone (can exceed 280 chars). Write as much as needed to be genuinely comforting and informative. The reader should feel understood, not sold to.
+English example:
+```
+$TSLA (Feb 23)
+Holding Tesla right now probably feels like a daily rollercoaster. Down 9% YTD with a 407x P/E, it's natural to feel uneasy.
+
+The good news: Baird just upgraded to Outperform with a $548 target. Of 54 analysts, 42% still rate it Buy, with a median target of $480, implying 17% upside. FSD also secured EU approval in the Netherlands, opening a real path into Europe.
+
+But 5 more robotaxi crashes were reported, and Waymo raising $16B means competition is heating up fast. The xAI shareholder lawsuit adds governance risk. It's okay to feel uncertain.
+
+You're not alone though. Retail investors own 40% of the float and have been buying every dip. The stock sits below its 50-day SMA ($441) but holds above the 200-day ($388). April's Cybercab production launch and the Q1 Optimus v3 unveil are the next big tests. Hang in there.
+```
+
+**Key:** No character limit for empathy tone (can exceed 280 chars). Write as much as needed to be genuinely comforting and informative. The reader should feel understood, not sold to. **But always include real numbers and catalysts so the reader walks away with useful information.**
 
 **Rules for all tones:**
-- `fact` tone: X under 280 chars, Threads under 280 chars
-- `witty` tone: X under 280 chars, Threads under 280 chars
-- `empathy` tone: **no character limit** (can be longer to be genuinely empathetic)
+- **No character limit** for any tone. Write with `overallOpinion`-level depth and length.
 - `fact` tone text must be identical to the default `snsContent.x` / `snsContent.threads` text
 - All tones must contain the same core data points (price, target, upside %)
+- All tones must include investment-useful context: catalysts, key price levels, risk/reward framing
+- Write content that makes people want to stop scrolling and read the full analysis
 - No links in tone text (the share button appends the URL automatically)
 - No em dashes anywhere
 
