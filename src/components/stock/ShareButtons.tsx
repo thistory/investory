@@ -89,6 +89,12 @@ export function ShareButtons({
   const linkLabel = locale === "en" ? "Full analysis \uD83D\uDC49" : "\uC0C1\uC138 \uBD84\uC11D \uD83D\uDC49";
   const pageLink = `${linkLabel} ${pageUrl}`;
 
+  // Append page link only if text doesn't already contain an investory URL
+  function withPageLink(text: string): string {
+    if (text.includes("investory.kro.kr")) return text;
+    return `${text}\n\n${pageLink}`;
+  }
+
   // Text helpers
   const snsXText = snsContent?.x?.text;
   const snsThreadsText = snsContent?.threads?.text;
@@ -130,7 +136,7 @@ export function ShareButtons({
 
   function openPreview(platform: SharePlatform, originalText: string) {
     const meta = PLATFORM_META[platform];
-    const fullText = `${originalText}\n\n${pageLink}`;
+    const fullText = withPageLink(originalText);
     setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText });
     setEditedText(fullText);
   }
@@ -138,7 +144,7 @@ export function ShareButtons({
   function openPreviewWithTone(platform: SharePlatform, tone: SnsToneKey) {
     const text = getTextForTone(platform, tone);
     const meta = PLATFORM_META[platform];
-    const fullText = `${text}\n\n${pageLink}`;
+    const fullText = withPageLink(text);
     setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText });
     setEditedText(fullText);
     setSelectedTone(tone);
@@ -149,7 +155,7 @@ export function ShareButtons({
     if (!active) return;
     setSelectedTone(tone);
     const text = getTextForTone(active.platform, tone);
-    const fullText = `${text}\n\n${pageLink}`;
+    const fullText = withPageLink(text);
     setActive({ ...active, originalText: fullText });
     setEditedText(fullText);
   }
@@ -199,7 +205,7 @@ export function ShareButtons({
 
   async function copyContent() {
     const bestText = snsTelegramText || snsThreadsText || snsXText || fallback;
-    const fullText = `${bestText}\n\n${pageLink}`;
+    const fullText = withPageLink(bestText);
     if (await copyToClipboard(fullText)) {
       setContentCopied(true);
       setTimeout(() => setContentCopied(false), 2000);
@@ -207,7 +213,7 @@ export function ShareButtons({
   }
 
   function shareWhatsApp() {
-    const text = `${telegramText}\n\n${pageLink}`;
+    const text = withPageLink(telegramText);
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
       window.location.href = `whatsapp://send?text=${encodeURIComponent(text)}`;
