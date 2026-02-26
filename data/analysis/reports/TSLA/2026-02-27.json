@@ -1,0 +1,202 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-02-27",
+  "currentPrice": 408.58,
+  "marketCap": "$1.53T",
+
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사에서 로보택시·휴머노이드 로봇·에너지 저장을 아우르는 'Physical AI 플랫폼'으로 전환 중",
+    "description": "Tesla는 EV 제조사에서 통합 AI·로보틱스·에너지 플랫폼 기업으로 빠르게 변모 중이다. FY2025 매출은 $94.8B으로 사상 첫 연간 매출 감소(-2.9%)를 기록했고, 순이익은 46.5% 급감했다. 그러나 2/17 Cybercab 첫 생산 유닛이 Giga Texas에서 출고되며 로보택시 시대가 현실화되고 있다. FSD 누적 마일은 82억 마일을 돌파했고, 네덜란드 RDW가 FSD Supervised를 승인하며 유럽 확장의 문을 열었다. 유럽 판매는 14개월 연속 감소세이며(1월 YoY -17%), Grok AI가 유럽 Tesla 차량에 OTA 배포됐다. 2/26 주가는 -2.11% 하락하며 $408.58에 마감했다.",
+    "howTheyMakeMoney": [
+      "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y가 핵심, Model S/X는 Q2 2026 단종",
+      "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack 유틸리티급 저장장치",
+      "서비스/기타: 매출의 ~13% ($12.5B). Supercharger 네트워크, 보험, 유지보수",
+      "FSD 구독: $99/월 자율주행 소프트웨어 (2026년 2월부터 구독 전용)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (핵심 EV)",
+      "Cybertruck (저가형 AWD $59,990 출시, Cyberbeast $99,990으로 인하)",
+      "Cybercab (자율주행 로보택시, 2/17 첫 생산, $30,000)",
+      "Optimus (휴머노이드 로봇, Fremont 공장 전환 중)",
+      "Megapack (유틸리티급 에너지 저장)",
+      "FSD (Full Self-Driving, 82억 마일 누적)"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "378.31", "interpretation": "EPS $1.08 기준 극단적 고밸류. 순이익 47% 감소 반영" },
+    { "name": "Forward P/E", "value": "198.58", "interpretation": "FY2026 EPS $2.09 전망 기준, 여전히 프리미엄 밸류에이션" },
+    { "name": "매출 성장률", "value": "-2.9% (FY2025)", "interpretation": "사상 첫 연간 매출 감소. FY2026 +11.3% 회복 전망" },
+    { "name": "영업이익률", "value": "4.6%", "interpretation": "FY2024 대비 급감. 가격 인하와 경쟁 심화 영향" },
+    { "name": "FCF", "value": "$6.2B", "interpretation": "P/FCF 245x. 높은 CapEx 투자(Cybercab, Optimus) 지속" },
+    { "name": "부채비율", "value": "0.18", "interpretation": "재무 건전성 양호. 순현금 $29.3B" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "FY2024 대비 급감. 수익성 압박 심화" },
+    { "name": "PEG", "value": "4.91", "interpretation": "성장률 대비 과대평가 구간" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Cybercab 생산 개시, 로보택시 시대 개막",
+      "description": "2/17 스티어링 휠·페달 없는 Cybercab 첫 유닛이 Giga Texas에서 출고됐다. 가격 $30,000, 4월 본격 양산 시작. H1 중 미국 9개 도시로 로보택시 서비스 확장 계획."
+    },
+    {
+      "title": "FSD 82억 마일 + 구독 전환 + 첫 EU 승인",
+      "description": "FSD Supervised 누적 82억 마일 돌파. 2월부터 $99/월 구독 전용 모델로 전환. 네덜란드 RDW가 FSD Supervised 첫 EU 승인을 부여하며 유럽 확장의 문을 열었다."
+    },
+    {
+      "title": "Optimus 로봇: Fremont 공장 전환 진행 중",
+      "description": "Model S/X 단종(Q2 2026) 후 Fremont 라인이 Optimus 휴머노이드 로봇 공장으로 전환 중. Gen 3 생산 시작, 공장 내 1,000대 이상 운영."
+    },
+    {
+      "title": "Grok AI 유럽 OTA 배포 + 2026 Model 3 인테리어 업그레이드",
+      "description": "2/20 Grok AI가 OTA 2026.2.6 업데이트로 유럽 Tesla 차량에 배포됐다. 2/24 웹사이트 코드에서 블랙 헤드라이너, 16인치 QHD 디스플레이 등 Model 3 업그레이드 발견."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 점유율 50%+ 1위, 글로벌은 BYD에 추월됨. 소프트웨어·제조·에너지 수직 통합과 82억 마일 자율주행 데이터가 핵심 해자.",
+    "moats": [
+      { "type": "자율주행 데이터 해자", "description": "FSD Supervised 82억 마일. 경쟁사 대비 압도적 학습 데이터셋." },
+      { "type": "수직 통합", "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(Supercharger)." },
+      { "type": "충전 네트워크 효과", "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian 등이 Tesla Supercharger 네트워크에 의존." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 글로벌 EV 판매 1위(226만 대, +28%). 관세로 미국 진출 제한" },
+      { "name": "Waymo (Alphabet)", "detail": "$16B 펀딩, $126B 밸류에이션. 주간 40만 회+ 라이드" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV($45,000) 2026년 출시로 Model Y와 직접 경쟁" },
+      { "name": "GM", "detail": "미국 EV 점유율 ~13%로 빠르게 성장" }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-02-24",
+      "headline": "Tesla 유럽 신차 등록 1월 YoY -17%, 14개월 연속 감소",
+      "significance": "BYD의 유럽 확장과 대조적. Elon Musk의 정치적 논란도 유럽 브랜드 이미지에 부정적.",
+      "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "$243M Autopilot 평결 번복 시도 기각",
+      "significance": "법원이 Tesla의 $243M 배심 평결 번복 요청을 거부. Autopilot 소송 리스크 지속.",
+      "url": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Cybertruck 저가형 AWD $59,990 출시, Cyberbeast $99,990 인하",
+      "significance": "수요 약화에 대응한 가격 인하 전략. 마진 압박 우려.",
+      "url": "https://invezz.com/news/2026/02/20/elon-musks-tesla-launches-cheaper-cybertruck/"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Grok AI, OTA 2026.2.6으로 유럽 Tesla 차량에 배포",
+      "significance": "xAI Grok의 차량 내 통합이 유럽으로 확대. 차량 내 AI 경험 강화.",
+      "url": "https://www.teslaoracle.com/2026/02/20/grok-ai-comes-to-tesla-vehicles-in-europe-with-the-2026-2-6-software-update-official-release-notes/"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Cybercab 첫 생산 유닛 Giga Texas에서 출고",
+      "significance": "스티어링 휠·페달 없는 로보택시 최초 생산. 4월 본격 양산, H1 중 9개 도시 확장 계획."
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600,
+    "lowTarget": 25.28,
+    "upsidePercent": -3.04,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "Dan Ives(Wedbush)는 $600 목표가로 최고 강세, GLJ Research의 Gordon Johnson은 $25로 최저. 컨센서스 Hold, 30명 애널리스트 중 의견 극단적 양극화."
+  },
+
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "유럽 판매 14개월 연속 감소",
+      "description": "1월 유럽 신차 등록 YoY -17%. Elon Musk의 정치적 논란으로 브랜드 이미지 악화. BYD 유럽 확장과 대조적."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 378x — 극단적 밸류에이션",
+      "description": "TTM P/E 378, Forward P/E 199. 수익성 회복 없이는 하방 리스크 상당. PEG 4.91로 성장률 대비 과대평가."
+    },
+    {
+      "severity": "high",
+      "title": "Autopilot 소송 리스크 지속",
+      "description": "$243M 평결 번복 기각. 추가 소송 가능성과 규제 강화 리스크."
+    },
+    {
+      "severity": "medium",
+      "title": "Cybertruck 가격 인하 — 마진 압박",
+      "description": "수요 약화에 따른 가격 인하. ASP 하락과 영업이익률 추가 하락 가능성."
+    },
+    {
+      "severity": "medium",
+      "title": "로보택시 실행 리스크",
+      "description": "Cybercab 생산은 시작했으나, 규제 승인·보험·확장 실행에는 상당한 불확실성."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "Cybercab 생산 개시 — 로보택시 수익 모델 현실화",
+      "rationale": "2/17 첫 유닛 출고, $30,000 가격대. 4월 양산 시작. 성공 시 차량당 수익성이 현 모델 대비 획기적으로 개선."
+    },
+    {
+      "title": "FSD 구독 전환 — 반복 수익 모델로 이동",
+      "rationale": "$99/월 구독 전용 전환으로 안정적 반복 매출 기반 구축. 82억 마일 데이터로 기술 리더십 유지."
+    },
+    {
+      "title": "에너지 사업 +27% 성장",
+      "rationale": "Megapack 매출 $12.8B. 유틸리티급 에너지 저장 수요 구조적 증가. 차량 매출 의존도 분산."
+    },
+    {
+      "title": "순현금 $29.3B — 재무 안전판",
+      "rationale": "부채비율 0.18, 순현금 포지션 강력. Cybercab·Optimus 투자를 위한 충분한 자금."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 220.0,
+    "currentPositionPercent": 70.2,
+    "sma50": 437.60,
+    "sma50Signal": "below",
+    "sma200": 390.24,
+    "sma200Signal": "above",
+    "rsi": 43.90,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Tesla는 EV 판매 둔화(-2.9%)와 유럽 위기(14개월 연속 감소)에도 불구하고, Cybercab 생산 개시·FSD EU 승인·Optimus 전환 등 장기 성장 동력이 구체화되고 있다.",
+    "그러나 P/E 378x, Forward P/E 199x는 완벽한 실행을 전제한 밸류에이션이다. 컨센서스 목표가 $396은 현재가 대비 -3%로, 단기 상승 여력은 제한적.",
+    "핵심 변수는 Cybercab 양산 속도와 FSD 규제 진전. 로보택시 서비스가 H1 중 예정대로 9개 도시에 확장되면 리레이팅 촉매가 될 수 있으나, 실행 리스크도 크다."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA 밸류에이션, 재무 지표, 기술적 지표" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "애널리스트 컨센서스 및 목표가" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html", "description": "Tesla 유럽 판매 감소 뉴스" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/", "description": "$243M Autopilot 평결 관련" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/02/20/elon-musks-tesla-launches-cheaper-cybertruck/", "description": "Cybertruck 저가형 출시" },
+    { "name": "Tesla Oracle", "url": "https://www.teslaoracle.com/2026/02/20/grok-ai-comes-to-tesla-vehicles-in-europe-with-the-2026-2-6-software-update-official-release-notes/", "description": "Grok AI 유럽 OTA 배포" },
+    { "name": "InteractiveCrypto", "url": "https://www.interactivecrypto.com/teslas-rocky-february-tsla-stock-to-boom-from-optimus-robots-1772064251551", "description": "Optimus 로봇 성장 잠재력 분석" },
+    { "name": "Public.com", "url": "https://public.com/stocks/tsla/pe-ratio", "description": "TSLA P/E 비율 데이터" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/TSLA/history/", "description": "실시간 주가 및 거래 데이터" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "Tesla P/E 378배인데 왜 안 떨어지냐고? 🤔",
+      "text": "Cybercab 첫 생산, FSD EU 첫 승인, Optimus 공장 전환까지.\n\nEV 판매 -2.9%는 사실이지만, $30,000 로보택시가 4월 양산 시작합니다.\n\n현재가 $408 vs 컨센서스 $396… 월가는 Hold.\n\n당신이라면 로보택시 시대를 사겠습니까?\n\n👉 investory.kro.kr/stock/TSLA/analysis/2026-02-27"
+    },
+    "telegram": {
+      "hook": "🚗 Tesla $408 — 유럽은 무너지는데 Cybercab은 달린다",
+      "text": "📊 Tesla 일일 분석 (2/27)\n\n현재가: $408.58 (-2.11%)\n시총: $1.53T | P/E: 378x | Forward P/E: 199x\n\n🔥 핵심 포인트:\n• Cybercab 2/17 첫 생산 완료, 4월 양산 개시\n• 유럽 판매 14개월 연속 감소 (1월 -17%)\n• FSD 82억 마일 + EU 첫 승인 (네덜란드)\n• Grok AI 유럽 OTA 배포\n• Autopilot $243M 평결 번복 기각\n\n📈 애널리스트: Hold (30명), 목표가 $396 (-3%)\n  • 최고: Wedbush $600 | 최저: GLJ $25\n\n⚠️ 리스크: 극단적 밸류에이션, 유럽 브랜드 위기\n✅ 기회: 로보택시 양산, FSD 구독 전환\n\n전체 분석 👉 investory.kro.kr/stock/TSLA/analysis/2026-02-27"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-02-27",
+  "currentPrice": 184.89,
+  "marketCap": "$4.49T",
+
+  "businessSummary": {
+    "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with datacenter GPUs and AI accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference datacenter accelerators as its core revenue driver. Market cap ~$4.49T. On 2/25 after market close, Q4 FY2026 results were released — revenue $68.13B (+73% YoY, beating consensus $66.2B), EPS $1.62 (beating $1.53 consensus). Q1 FY2027 guidance of $78B (±2%) crushed the $72.6B consensus by $5.4B. Datacenter revenue hit $62.3B (+75% YoY). 13th consecutive earnings beat. Yet on 2/26, shares fell -5.46% to $184.89 — reflecting AI competition concerns and 'sell the news' sentiment.",
+    "howTheyMakeMoney": [
+      "Datacenter: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300) — ~91% of revenue",
+      "Gaming: GeForce RTX series GPUs and DLSS 4 technology",
+      "Automotive: DRIVE platform for autonomous driving and vehicle AI chips",
+      "Professional visualization: Quadro/RTX workstation GPUs",
+      "Software/Platform: CUDA ecosystem, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: Latest AI accelerator, 50x throughput vs. Hopper",
+      "Blackwell B200/GB200: Insane demand, sold out",
+      "H100/H200 Tensor Core GPU: AI industry standard",
+      "Rubin R200: Next-gen GPU, H2 2026 expected",
+      "CUDA: 15M+ developer GPU computing platform",
+      "DGX/HGX systems: Turnkey servers for large-scale AI training"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "45.76", "interpretation": "Based on FY2026 EPS $4.90. Reasonable for high-growth profile" },
+    { "name": "Forward P/E", "value": "22.39", "interpretation": "Based on FY2027 EPS $7.87 estimate. PEG 0.63 signals undervaluation vs. growth" },
+    { "name": "Revenue Growth", "value": "+65.5% (FY2026)", "interpretation": "$215.9B record revenue. FY2027 +55.5% expected" },
+    { "name": "Operating Margin", "value": "60.4%", "interpretation": "Industry-leading. Reflects monopolistic position in AI accelerators" },
+    { "name": "FCF", "value": "$96.6B", "interpretation": "P/FCF 46x. Massive cash generation capability" },
+    { "name": "Debt/Equity", "value": "0.07", "interpretation": "Virtually debt-free. Net cash $51.1B" },
+    { "name": "ROE", "value": "101.49%", "interpretation": "Ultra-efficient capital utilization. ROIC 126%" },
+    { "name": "PEG", "value": "0.63", "interpretation": "Undervalued relative to growth rate signal" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Q4 FY2026 earnings surprise — Revenue $68.1B, Q1 guidance $78B",
+      "description": "Released 2/25. Revenue $68.13B (+73% YoY, +$1.9B vs consensus). EPS $1.62 (+$0.09). Q1 FY2027 guidance $78B crushed $72.6B consensus by $5.4B. Jensen Huang: 'customers are racing to invest in AI'."
+    },
+    {
+      "title": "Meta multi-year, millions-of-GPU strategic partnership",
+      "description": "Announced 2/17 with Meta. Includes GB300, Grace CPU, Vera Rubin, Spectrum-X networking. Core partner for Meta's $115-135B FY2026 CapEx."
+    },
+    {
+      "title": "Blackwell Ultra GB300 — 50x efficiency, $500B pipeline",
+      "description": "GB300 NVL72 delivers 50x throughput per MW, 35x cost reduction per token. Makes up 2/3 of Blackwell revenue. Rubin R200 slated for H2 2026."
+    },
+    {
+      "title": "Hyperscaler CapEx ~$700B — AI infrastructure investment accelerating",
+      "description": "Combined 2026 CapEx from Alphabet, Amazon, Meta, Microsoft projected at ~$700B. OpenAI partnership 'close' per Jensen Huang."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "CUDA ecosystem (15M+ developers), annual architecture refresh, NVLink interconnect dominance, and 80%+ AI accelerator market share maintain a near-monopolistic position.",
+    "moats": [
+      { "type": "Software ecosystem (switching costs)", "description": "CUDA has 15+ year history. 15M+ developers and thousands of AI frameworks optimized for NVIDIA." },
+      { "type": "Technology leadership", "description": "Hopper→Blackwell→Rubin annual new architectures. GB300 is 50x more efficient than Hopper." },
+      { "type": "Supply chain lock-in", "description": "Secured majority of TSMC's CoWoS advanced packaging capacity." },
+      { "type": "Strategic partnerships", "description": "Multi-year partnerships with Meta, OpenAI, Eli Lilly, and more." }
+    ],
+    "competitors": [
+      { "name": "AMD", "detail": "MI300X/MI350 claiming 10-12% AI accelerator market. MI450 (2nm) planned." },
+      { "name": "Intel", "detail": "Gaudi 3 launched but minimal market share." },
+      { "name": "Custom silicon", "detail": "Google TPU, Amazon Trainium, Microsoft Maia — big tech accelerating in-house chip development." },
+      { "name": "Huawei Ascend", "detail": "China's NVIDIA alternative. Export restrictions eroding NVIDIA's China share." }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-02-26",
+      "headline": "NVDA drops -5.46% — sell the news despite earnings beat",
+      "significance": "13th consecutive beat yet stock tumbled. Expectation inflation and AI competition concerns.",
+      "url": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "date": "2026-02-25",
+      "headline": "Q4 FY2026: Revenue $68.1B (+73%), EPS $1.62, Q1 guidance $78B",
+      "significance": "Revenue, EPS, and guidance all beat consensus. FY2026 annual revenue $216B, net income $120B.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "Citi raises target to $300, Bernstein to $300 post-earnings",
+      "significance": "Multiple analysts raised targets post-earnings. Strong Buy maintained.",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "Truist raises to $283, Aletheia upgrades to Buy — 'too cheap to ignore'",
+      "significance": "Aletheia upgraded Hold→Buy, calling current levels attractive.",
+      "url": "https://www.cnbc.com/quotes/NVDA"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Meta multi-year, millions-of-GPU strategic partnership",
+      "significance": "Includes GB300, Grace CPU, Vera Rubin. Core partner for Meta's $115-135B CapEx."
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 263.03,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 42.26,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "Strong Buy consensus among 38 analysts. Post-earnings upgrades: Citi $300 (+62%), Bernstein $300 (+62%), JP Morgan $265 (+43%). Aletheia upgraded to Buy calling it 'too cheap to ignore'."
+  },
+
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Stock drops -5.46% despite earnings beat — expectation inflation",
+      "description": "13th consecutive beat yet shares fell. Market demands ever-larger surprises in an expectation inflation regime."
+    },
+    {
+      "severity": "high",
+      "title": "Big tech custom chips accelerating — long-term share risk",
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia — in-house AI chip development accelerating. Could reduce NVIDIA dependency long-term."
+    },
+    {
+      "severity": "medium",
+      "title": "China export restrictions — revenue cap",
+      "description": "US export controls limiting China revenue. Huawei Ascend emerging as alternative."
+    },
+    {
+      "severity": "medium",
+      "title": "AI CapEx cycle peak concerns",
+      "description": "Hyperscaler CapEx reaching $700B, but questions about cycle sustainability persist."
+    },
+    {
+      "severity": "low",
+      "title": "$4.49T market cap — law of large numbers",
+      "description": "Among the world's most valuable companies. Further appreciation requires increasingly large absolute dollar gains."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "Forward P/E 22x, PEG 0.63 — undervalued for growth rate",
+      "rationale": "Based on FY2027 EPS $7.87, Forward P/E of 22x is reasonable for a 55%+ growth company."
+    },
+    {
+      "title": "Q1 guidance $78B — growth acceleration confirmed",
+      "rationale": "Beat consensus by $5.4B. Blackwell full ramp driving continued growth."
+    },
+    {
+      "title": "Hyperscaler CapEx $700B — structural demand",
+      "rationale": "AI infrastructure investment is a structural shift, not a fad. NVIDIA is the primary beneficiary."
+    },
+    {
+      "title": "CUDA ecosystem moat — high switching costs",
+      "rationale": "15M+ developer ecosystem. 15 years of accumulated software compatibility is not easily replicated."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 220.0,
+    "week52Low": 98.0,
+    "currentPositionPercent": 71.2,
+    "sma50": 185.60,
+    "sma50Signal": "below",
+    "sma200": 174.69,
+    "sma200Signal": "above",
+    "rsi": 47.36,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "NVIDIA delivered a Q4 FY2026 blowout — revenue $68.1B (+73%), EPS $1.62, and Q1 guidance of $78B that beat consensus by $5.4B. Its position as the essential AI infrastructure provider has only strengthened.",
+    "Yet shares fell -5.46% the day after results. The market has already priced in strong performance and demands ever-larger surprises — a classic expectation inflation regime.",
+    "Forward P/E of 22x and PEG of 0.63 remain compelling for a 55%+ growth company. 36 of 38 analysts rate it Buy/Strong Buy with an average target of $263 (+42%). The pullback may present a buying opportunity, but custom chip competition warrants monitoring."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "NVDA valuation, financial metrics, technical indicators" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "38-analyst consensus and price targets" },
+    { "name": "NVIDIA IR", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026", "description": "Official Q4 FY2026 earnings release" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/25/nvidia-nvda-earnings-report-q4-2026.html", "description": "Earnings analysis" },
+    { "name": "Investopedia", "url": "https://www.investopedia.com/nvidia-earnings-live-q4-fy2026-nvda-11914428", "description": "Live Q4 earnings analysis" },
+    { "name": "Kiplinger", "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-february-2026", "description": "Post-earnings analyst reactions" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/NVDA/", "description": "Real-time price and news" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Consensus price target" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA beats earnings and drops -5.46%? 😱",
+      "text": "Revenue $68.1B (+73%), guidance $78B crushing consensus by $5.4B.\n\n13 straight earnings beats. Yet the stock tanks.\n\nForward P/E 22x, PEG 0.63 — cheap for a 55% grower…\n\nIs this the time to buy the fear?\n\n👉 investory.kro.kr/stock/NVDA/analysis/2026-02-27"
+    },
+    "telegram": {
+      "hook": "🟢 NVDA $184.89 — Record earnings, -5.46% sell-off",
+      "text": "📊 NVIDIA Daily Analysis (2/27)\n\nPrice: $184.89 (-5.46%)\nMkt Cap: $4.49T | P/E: 46x | Fwd P/E: 22x | PEG: 0.63\n\n🔥 Q4 FY2026 Highlights:\n• Revenue $68.1B (+73% YoY, +$1.9B vs consensus)\n• EPS $1.62 (+$0.09 beat)\n• Q1 guidance $78B (+$5.4B vs consensus!)\n• Datacenter $62.3B (+75%)\n• Annual: $216B revenue, $120B net income\n\n📈 Analysts: Strong Buy (38), target $263 (+42%)\n  Citi $300 | Bernstein $300 | JP Morgan $265\n\n⚠️ Why the drop? Expectation inflation + custom chip fears\n✅ PEG 0.63 still undervalued for growth\n\nFull analysis 👉 investory.kro.kr/stock/NVDA/analysis/2026-02-27"
+    }
+  }
+}

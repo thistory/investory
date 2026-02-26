@@ -1,0 +1,202 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-02-27",
+  "currentPrice": 408.58,
+  "marketCap": "$1.53T",
+
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker pivoting into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue came in at $94.8B, marking the first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. However, the first Cybercab unit rolled off Giga Texas on 2/17, making the robotaxi era a reality. FSD cumulative miles surpassed 8.2 billion, and the Netherlands' RDW approved FSD Supervised, opening the door to European expansion. European sales fell for the 14th consecutive month (-17% YoY in January), and Grok AI was deployed to European Tesla vehicles via OTA. TSLA closed at $408.58 on 2/26, down -2.11%.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinued Q2 2026",
+      "Energy: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD subscription: $99/mo autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs)",
+      "Cybertruck (new budget AWD $59,990, Cyberbeast reduced to $99,990)",
+      "Cybercab (autonomous robotaxi, first produced 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont factory conversion underway)",
+      "Megapack (utility-scale energy storage)",
+      "FSD (Full Self-Driving, 8.2B cumulative miles)"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "378.31", "interpretation": "Extremely elevated based on $1.08 EPS; reflects 47% net income decline" },
+    { "name": "Forward P/E", "value": "198.58", "interpretation": "Based on FY2026 EPS estimate of $2.09; still a hefty premium" },
+    { "name": "Revenue Growth", "value": "-2.9% (FY2025)", "interpretation": "First-ever annual decline. FY2026 expected +11.3% recovery" },
+    { "name": "Operating Margin", "value": "4.6%", "interpretation": "Sharp decline from FY2024 due to price cuts and competition" },
+    { "name": "FCF", "value": "$6.2B", "interpretation": "P/FCF 245x. Heavy CapEx continues for Cybercab and Optimus" },
+    { "name": "Debt/Equity", "value": "0.18", "interpretation": "Strong balance sheet. Net cash position of $29.3B" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "Sharp decline from prior year; profitability under pressure" },
+    { "name": "PEG", "value": "4.91", "interpretation": "Overvalued relative to growth rate" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Cybercab production begins — Robotaxi era dawns",
+      "description": "First steerless, pedalless Cybercab unit rolled off Giga Texas on 2/17. Priced at $30,000, mass production starts in April with plans to expand robotaxi service to 9 US cities in H1."
+    },
+    {
+      "title": "FSD 8.2B miles + subscription pivot + first EU approval",
+      "description": "FSD Supervised surpassed 8.2B cumulative miles. Shifted to $99/month subscription-only model in February. Netherlands' RDW granted first EU approval for FSD Supervised."
+    },
+    {
+      "title": "Optimus robot: Fremont factory conversion underway",
+      "description": "With Model S/X discontinuation in Q2 2026, Fremont lines are converting to Optimus humanoid robot production. Gen 3 in production, 1,000+ units operating in-factory."
+    },
+    {
+      "title": "Grok AI European OTA + 2026 Model 3 interior upgrade",
+      "description": "Grok AI deployed to European Tesla vehicles via OTA 2026.2.6 update on 2/20. Website code revealed upcoming Model 3 upgrades including black headliner and 16-inch QHD display."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "US EV market share 50%+ #1, but globally overtaken by BYD. Software, manufacturing, and energy vertical integration plus 8.2B autonomous driving miles form the core moat.",
+    "moats": [
+      { "type": "Autonomous driving data moat", "description": "FSD Supervised 8.2B miles — overwhelmingly largest training dataset vs. competitors." },
+      { "type": "Vertical integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infra (Supercharger)." },
+      { "type": "Charging network effect", "description": "NACS adopted as North American EV charging standard. GM, Ford, Rivian depend on Tesla's Supercharger network." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 global EV sales #1 (2.26M units, +28%). US entry limited by tariffs" },
+      { "name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y" },
+      { "name": "GM", "detail": "US EV share ~13%, growing rapidly" }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-02-24",
+      "headline": "Tesla Europe registrations down 17% YoY in January, 14th consecutive month of decline",
+      "significance": "Contrasts sharply with BYD's European expansion. Musk's political controversies hurt brand image.",
+      "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Tesla loses bid to overturn $243M Autopilot verdict",
+      "significance": "Court denied Tesla's motion to overturn $243M jury verdict. Ongoing Autopilot litigation risk.",
+      "url": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Cybertruck budget AWD at $59,990, Cyberbeast cut to $99,990",
+      "significance": "Price cuts to address weakening demand. Margin compression concerns.",
+      "url": "https://invezz.com/news/2026/02/20/elon-musks-tesla-launches-cheaper-cybertruck/"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Grok AI deployed to European Tesla vehicles via OTA 2026.2.6",
+      "significance": "xAI Grok integration expands to Europe, enhancing in-car AI experience.",
+      "url": "https://www.teslaoracle.com/2026/02/20/grok-ai-comes-to-tesla-vehicles-in-europe-with-the-2026-2-6-software-update-official-release-notes/"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "First Cybercab production unit rolls off Giga Texas",
+      "significance": "First steerless/pedalless robotaxi produced. Mass production in April, 9-city expansion in H1."
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600,
+    "lowTarget": 25.28,
+    "upsidePercent": -3.04,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "Dan Ives (Wedbush) has the highest target at $600, while GLJ Research's Gordon Johnson sits at $25. Consensus is Hold among 30 analysts — opinions are extremely polarized."
+  },
+
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "European sales declining for 14 consecutive months",
+      "description": "January European registrations down 17% YoY. Musk's political controversies eroding brand. Contrasts with BYD's expansion."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 378x — extreme valuation",
+      "description": "TTM P/E 378, Forward P/E 199. Significant downside risk without profitability recovery. PEG 4.91 signals overvaluation."
+    },
+    {
+      "severity": "high",
+      "title": "Ongoing Autopilot litigation risk",
+      "description": "$243M verdict reversal denied. Potential for additional lawsuits and regulatory tightening."
+    },
+    {
+      "severity": "medium",
+      "title": "Cybertruck price cuts — margin pressure",
+      "description": "Price reductions to address weak demand. ASP decline may further compress operating margins."
+    },
+    {
+      "severity": "medium",
+      "title": "Robotaxi execution risk",
+      "description": "Cybercab production started but regulatory approval, insurance, and scaling pose significant uncertainty."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "Cybercab production launch — Robotaxi revenue model materializing",
+      "rationale": "First unit produced 2/17 at $30,000 price point. April mass production. If successful, per-vehicle profitability dramatically improves vs. current models."
+    },
+    {
+      "title": "FSD subscription pivot — recurring revenue model",
+      "rationale": "$99/month subscription-only model creates stable recurring revenue base. 8.2B miles of data maintains technology leadership."
+    },
+    {
+      "title": "Energy business growing +27%",
+      "rationale": "Megapack revenue at $12.8B. Structural growth in utility-scale storage demand diversifies away from vehicle revenue dependency."
+    },
+    {
+      "title": "Net cash $29.3B — strong financial cushion",
+      "rationale": "Debt/equity 0.18 with robust net cash position. Ample funding for Cybercab and Optimus investments."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 220.0,
+    "currentPositionPercent": 70.2,
+    "sma50": 437.60,
+    "sma50Signal": "below",
+    "sma200": 390.24,
+    "sma200Signal": "above",
+    "rsi": 43.90,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Tesla faces slowing EV sales (-2.9%) and a European crisis (14 consecutive months of decline), yet long-term growth drivers — Cybercab production, FSD EU approval, Optimus factory conversion — are materializing.",
+    "However, a P/E of 378x and Forward P/E of 199x price in flawless execution. The consensus target of $396 implies -3% downside, suggesting limited near-term upside.",
+    "The key variables are Cybercab production ramp speed and FSD regulatory progress. If robotaxi service expands to 9 cities in H1 as planned, it could serve as a re-rating catalyst — but execution risk remains substantial."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA valuation, financial metrics, technical indicators" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "Analyst consensus and price targets" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html", "description": "Tesla European sales decline" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/", "description": "$243M Autopilot verdict" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/02/20/elon-musks-tesla-launches-cheaper-cybertruck/", "description": "Cybertruck budget launch" },
+    { "name": "Tesla Oracle", "url": "https://www.teslaoracle.com/2026/02/20/grok-ai-comes-to-tesla-vehicles-in-europe-with-the-2026-2-6-software-update-official-release-notes/", "description": "Grok AI European OTA" },
+    { "name": "InteractiveCrypto", "url": "https://www.interactivecrypto.com/teslas-rocky-february-tsla-stock-to-boom-from-optimus-robots-1772064251551", "description": "Optimus robot growth potential" },
+    { "name": "Public.com", "url": "https://public.com/stocks/tsla/pe-ratio", "description": "TSLA P/E ratio data" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/TSLA/history/", "description": "Real-time price and trading data" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "Tesla trades at 378x earnings. Why isn't it falling? 🤔",
+      "text": "Cybercab first production, FSD's first EU approval, Optimus factory conversion.\n\nEV sales down -2.9%, yes. But a $30K robotaxi starts mass production in April.\n\nCurrent price $408 vs consensus $396… Wall Street says Hold.\n\nWould you bet on the robotaxi era?\n\n👉 investory.kro.kr/stock/TSLA/analysis/2026-02-27"
+    },
+    "telegram": {
+      "hook": "🚗 Tesla $408 — Europe crumbles but Cybercab rolls",
+      "text": "📊 Tesla Daily Analysis (2/27)\n\nPrice: $408.58 (-2.11%)\nMkt Cap: $1.53T | P/E: 378x | Fwd P/E: 199x\n\n🔥 Key Points:\n• Cybercab first unit produced 2/17, April mass production\n• European sales down 14 months straight (-17% Jan)\n• FSD 8.2B miles + first EU approval (Netherlands)\n• Grok AI deployed to Europe via OTA\n• $243M Autopilot verdict reversal denied\n\n📈 Analysts: Hold (30), target $396 (-3%)\n  • High: Wedbush $600 | Low: GLJ $25\n\n⚠️ Risk: Extreme valuation, European brand crisis\n✅ Opportunity: Robotaxi ramp, FSD subscription pivot\n\nFull analysis 👉 investory.kro.kr/stock/TSLA/analysis/2026-02-27"
+    }
+  }
+}
