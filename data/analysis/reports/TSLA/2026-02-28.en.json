@@ -1,0 +1,279 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-02-28",
+  "currentPrice": 402.67,
+  "marketCap": "$1.51T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker pivoting into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV maker into an integrated AI, robotics, and energy platform. FY2025 revenue was $94.8B, marking the first-ever annual revenue decline (-2.9%), with net income dropping 46.5%. However, the first Cybercab production unit rolled off Giga Texas on 2/17, making the robotaxi era a reality. FSD cumulative miles surpassed 8.2 billion, and the Netherlands' RDW approved FSD Supervised, opening the door for European expansion. European sales have declined for 14 consecutive months (January YoY -17%). On 2/27, the stock fell 1.45% to $402.67 amid inflation shock and Musk Epstein subpoena concerns.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinued Q2 2026",
+      "Energy: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD subscription: $99/mo autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs)",
+      "Cybertruck (new budget AWD $59,990, Cyberbeast reduced to $99,990)",
+      "Cybercab (autonomous robotaxi, first produced 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont factory conversion underway)",
+      "Megapack (utility-scale energy storage)",
+      "FSD (Full Self-Driving, 8.2B cumulative miles)"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "369.42",
+      "interpretation": "Extremely high valuation based on EPS $1.09. Still elevated despite price decline"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "192.66",
+      "interpretation": "Based on FY2026 EPS estimate of $2.09. Still premium valuation"
+    },
+    {
+      "name": "Revenue Growth",
+      "value": "-2.9% (FY2025)",
+      "interpretation": "First-ever annual revenue decline. FY2026 +11.3% recovery expected"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "4.6%",
+      "interpretation": "Sharp decline from FY2024. Price cuts and competition pressure"
+    },
+    {
+      "name": "FCF",
+      "value": "$6.2B",
+      "interpretation": "P/FCF 243x. High CapEx investment continues"
+    },
+    {
+      "name": "Debt-to-Equity",
+      "value": "0.18",
+      "interpretation": "Strong financial health. Net cash $29.3B"
+    },
+    {
+      "name": "ROE",
+      "value": "4.93%",
+      "interpretation": "Sharp decline from FY2024. Profitability under pressure"
+    },
+    {
+      "name": "PEG",
+      "value": "4.80",
+      "interpretation": "Overvalued relative to growth rate"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Cybercab production begins — Robotaxi era dawns",
+      "description": "First steerless, pedalless Cybercab unit rolled off Giga Texas on 2/17. Priced at $30,000, mass production starts in April with plans to expand robotaxi service to 9 US cities in H1."
+    },
+    {
+      "title": "FSD 8.2B miles + subscription pivot + first EU approval",
+      "description": "FSD Supervised surpassed 8.2B cumulative miles. Shifted to $99/month subscription-only model in February. Netherlands' RDW granted first EU approval for FSD Supervised."
+    },
+    {
+      "title": "Optimus robot: Fremont factory conversion underway",
+      "description": "With Model S/X discontinuation in Q2 2026, Fremont lines are converting to Optimus humanoid robot production. Gen 3 in production, 1,000+ units operating in-factory."
+    },
+    {
+      "title": "Grok AI European OTA + 2026 Model 3 interior upgrade",
+      "description": "Grok AI deployed to European Tesla vehicles via OTA 2026.2.6 update on 2/20. Website code revealed upcoming Model 3 upgrades including black headliner and 16-inch QHD display."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "US EV market share 50%+ #1, but globally overtaken by BYD. Software, manufacturing, and energy vertical integration plus 8.2B autonomous driving miles form the core moat.",
+    "moats": [
+      {
+        "type": "Autonomous driving data moat",
+        "description": "FSD Supervised 8.2B miles — overwhelmingly largest training dataset vs. competitors."
+      },
+      {
+        "type": "Vertical integration",
+        "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infra (Supercharger)."
+      },
+      {
+        "type": "Charging network effect",
+        "description": "NACS adopted as North American EV charging standard. GM, Ford, Rivian depend on Tesla's Supercharger network."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "BYD",
+        "detail": "2025 global EV sales #1 (2.26M units, +28%). US entry limited by tariffs"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "$16B funding, $126B valuation. 400K+ weekly rides"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y"
+      },
+      {
+        "name": "GM",
+        "detail": "US EV share ~13%, growing rapidly"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-27",
+      "headline": "Hillary Clinton demands Musk subpoena at Epstein hearing — TSLA faces additional pressure",
+      "significance": "Clinton demands Musk subpoena in congressional oversight. Epstein files reportedly contain Musk-related records. Political risk escalation.",
+      "url": "https://www.reuters.com/world/us/hillary-clinton-faces-epstein-congressional-inquiry-2026-02-26/"
+    },
+    {
+      "date": "2026-02-27",
+      "headline": "Inflation surprise triggers market selloff — TSLA hit as rate-sensitive growth stock",
+      "significance": "February PPI above expectations. Rate cut hopes fading, negative for high-ticket EV demand.",
+      "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+    },
+    {
+      "date": "2026-02-24",
+      "headline": "Tesla Europe registrations down 17% YoY in January — 14 months of consecutive decline",
+      "significance": "Contrasts with BYD's European expansion. Musk's political controversies hurting brand image.",
+      "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "$243M Autopilot verdict overturn attempt rejected",
+      "significance": "Court rejected Tesla's bid to overturn $243M jury verdict. Autopilot litigation risk persists.",
+      "url": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Cybercab first production unit rolls off Giga Texas line",
+      "significance": "First steerless, pedalless robotaxi produced. Mass production starting April, H1 expansion to 9 US cities planned."
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600,
+    "lowTarget": 25.28,
+    "upsidePercent": -1.62,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "Wedbush $600 highest bull, GLJ $25 lowest. Consensus Hold. Musk Epstein subpoena issue expanding political risk premium."
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "Musk Epstein subpoena risk — political uncertainty surges",
+      "description": "Hillary Clinton demands Musk subpoena in Congress. Epstein files contain Musk-related records. CEO risk amplified."
+    },
+    {
+      "severity": "critical",
+      "title": "European sales declining 14 consecutive months",
+      "description": "January European registrations -17% YoY. Musk's political controversies deteriorating brand image."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 369x — extreme valuation",
+      "description": "TTM P/E 369, Forward P/E 193. Significant downside risk without profitability recovery."
+    },
+    {
+      "severity": "high",
+      "title": "Inflation surprise — rate cut expectations retreat",
+      "description": "PPI exceeded expectations. Prolonged high rates negative for EV demand and growth stock valuations."
+    },
+    {
+      "severity": "medium",
+      "title": "Autopilot litigation risk persists",
+      "description": "$243M verdict overturn rejected. Additional lawsuits possible."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Cybercab production launch — Robotaxi revenue model materializing",
+      "rationale": "First unit produced 2/17 at $30,000 price point. April mass production. If successful, per-vehicle profitability dramatically improves vs. current models."
+    },
+    {
+      "title": "FSD subscription pivot — recurring revenue model",
+      "rationale": "$99/month subscription-only model creates stable recurring revenue base. 8.2B miles of data maintains technology leadership."
+    },
+    {
+      "title": "Energy business growing +27%",
+      "rationale": "Megapack revenue at $12.8B. Structural growth in utility-scale storage demand diversifies away from vehicle revenue dependency."
+    },
+    {
+      "title": "Net cash $29.3B — strong financial cushion",
+      "rationale": "Debt/equity 0.18 with robust net cash position. Ample funding for Cybercab and Optimus investments."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 66.2,
+    "sma50": 435.0,
+    "sma50Signal": "below",
+    "sma200": 388.0,
+    "sma200Signal": "above",
+    "rsi": 41.5,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla fell further to $402.67, remaining below the 50-day MA ($435). The Musk Epstein subpoena issue introduces a new political risk dimension.",
+    "With inflation surprising to the upside and the broader market crashing, rate-sensitive Tesla took a direct hit. At P/E 369x, retreating rate cut expectations are negative for valuation.",
+    "Long-term catalysts like Cybercab April production and FSD EU approval remain valid, but near-term political risks and macro headwinds are pressuring the stock."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/us/hillary-clinton-faces-epstein-congressional-inquiry-2026-02-26/",
+      "description": "Hillary Clinton Epstein 청문회 - Musk 소환 요구"
+    },
+    {
+      "name": "Daily Mail",
+      "url": "https://www.dailymail.co.uk/news/article-15596093/elon-musk-epstein-hillary-clinton-donald-trump-talulah-riley.html",
+      "description": "Musk-Epstein 연관 상세 보도"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html",
+      "description": "2/27 시장 급락 뉴스"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html",
+      "description": "유럽 판매 감소"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/",
+      "description": "Autopilot 평결"
+    },
+    {
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/tsla-stock-today-february-27-clinton-hints-musk-subpoena-in-epstein-probe-2702/",
+      "description": "TSLA 2/27 분석"
+    },
+    {
+      "name": "Angel One",
+      "url": "https://www.angelone.in/us-stocks/tesla-inc",
+      "description": "실시간 주가 데이터"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/tsla/financials/",
+      "description": "재무 데이터"
+    },
+    {
+      "name": "IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/hillary-clinton-urges-congress-subpoena-elon-musk-1781842",
+      "description": "Musk 소환 요구 상세"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "Musk could face an Epstein subpoena? 😱",
+      "text": "Hillary Clinton demanded Congress subpoena Musk.\n\nTesla drops to $402, plus inflation surprise.\n\nP/E 369x AND political risk piling on?\n\nCan Cybercab's April production be the savior?\n\n👉 investory.kro.kr/stock/TSLA/analysis/2026-02-28"
+    },
+    "telegram": {
+      "hook": "⚡ Tesla $402 — Musk Epstein Subpoena Risk + Inflation Shock",
+      "text": "📊 Tesla Daily Analysis (2/28)\n\nPrice: $402.67 (-1.45%)\nMkt Cap: $1.51T | P/E: 369x | Fwd P/E: 193x\n\n🔥 Key Points:\n• Clinton demands Musk Epstein subpoena in Congress\n• PPI inflation surprise triggers market crash\n• Europe sales down 14 straight months (-17% YoY)\n• Cybercab April production schedule on track\n• Holding above 200-day MA ($388)\n\n📈 Analysts: Hold (33), Target $396 (-2%)\n\n⚠️ Risk: CEO political risk, extreme valuation\n✅ Opportunity: Robotaxi production, FSD subscription\n\nFull analysis 👉 investory.kro.kr/stock/TSLA/analysis/2026-02-28"
+    }
+  }
+}

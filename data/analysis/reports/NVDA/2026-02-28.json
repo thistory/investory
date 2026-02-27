@@ -1,0 +1,284 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-02-28",
+  "currentPrice": 177.29,
+  "marketCap": "$4.31T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. 시가총액 ~$4.49T. 2/25 장 마감 후 Q4 FY2026 실적을 발표했다 — 매출 $68.13B(+73% YoY, 컨센서스 $66.2B 상회), EPS $1.62(컨센서스 $1.53 상회). Q1 FY2027 가이던스 $78B(±2%)로 컨센서스 $72.6B를 $5.4B 상회. 데이터센터 매출 $62.3B(+75% YoY). 13분기 연속 어닝 비트 달성. 그러나 2/26 주가는 -5.46% 하락하며 $184.89에 마감 — AI 경쟁 우려와 '뉴스에 매도' 심리 반영.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 총매출의 약 91%",
+      "게이밍: GeForce RTX 시리즈 GPU 및 DLSS 4 기술",
+      "자동차: DRIVE 플랫폼 자율주행 및 차량 AI 칩",
+      "프로페셔널 비주얼라이제이션: Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: 최신 AI 가속기, Hopper 대비 50배 처리량",
+      "Blackwell B200/GB200: '미친' 수준의 수요, 매진",
+      "H100/H200 Tensor Core GPU: AI 업계 표준",
+      "Rubin R200: 차세대 GPU, 2026년 하반기 예정",
+      "CUDA: 1,500만+ 개발자 GPU 컴퓨팅 플랫폼",
+      "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "43.77",
+      "interpretation": "EPS $4.05 기준. 실적 대비 합리적 수준"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.44",
+      "interpretation": "FY2027 EPS $7.87 전망 기준. PEG 0.60으로 성장률 대비 저평가"
+    },
+    {
+      "name": "매출 성장률",
+      "value": "+65.5% (FY2026)",
+      "interpretation": "$215.9B 사상 최고 매출. FY2027 +55.5% 전망"
+    },
+    {
+      "name": "영업이익률",
+      "value": "60.4%",
+      "interpretation": "업계 최고 수준. AI 가속기 독점적 지위 반영"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.6B",
+      "interpretation": "P/FCF 44x. 막대한 현금 창출력"
+    },
+    {
+      "name": "부채비율",
+      "value": "0.13",
+      "interpretation": "재무 건전성 우수. 순현금 $43.2B"
+    },
+    {
+      "name": "ROE",
+      "value": "119.14%",
+      "interpretation": "초고수익성. 자본 효율 극대화"
+    },
+    {
+      "name": "PEG",
+      "value": "0.60",
+      "interpretation": "성장률 대비 명백한 저평가"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Q4 FY2026 실적 서프라이즈 — 매출 $68.1B, Q1 가이던스 $78B",
+      "description": "2/25 발표. 매출 $68.13B(+73% YoY, 컨센서스 +$1.9B). EPS $1.62(컨센서스 +$0.09). Q1 FY2027 가이던스 $78B는 컨센서스 $72.6B를 $5.4B 상회. Jensen Huang 'customers are racing to invest in AI'."
+    },
+    {
+      "title": "Meta 수년간 수백만 GPU 전략적 파트너십",
+      "description": "2/17 Meta와 공식 파트너십 발표. GB300, Grace CPU, Vera Rubin, Spectrum-X 네트워킹 포함. Meta FY2026 CapEx $115~135B의 핵심 파트너."
+    },
+    {
+      "title": "Blackwell Ultra GB300 — 50배 효율, $500B 파이프라인",
+      "description": "GB300 NVL72는 MW당 50배 처리량, 토큰당 35배 비용 절감. Blackwell 매출의 2/3 차지. Rubin R200 2026년 하반기 예정."
+    },
+    {
+      "title": "하이퍼스케일러 CapEx ~$700B — AI 인프라 투자 가속",
+      "description": "Alphabet, Amazon, Meta, Microsoft 합산 2026년 CapEx ~$700B 전망. OpenAI 파트너십 합의 임박(Jensen 'we believe we are close')."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계(1,500만+ 개발자), 연간 아키텍처 갱신, NVLink 인터커넥트의 압도적 성능, AI 가속기 시장 80%+ 점유율로 사실상 독점적 지위 유지.",
+    "moats": [
+      {
+        "type": "소프트웨어 생태계 (전환 비용)",
+        "description": "CUDA는 15년+ 역사. 1,500만+ 개발자가 NVIDIA에 최적화."
+      },
+      {
+        "type": "기술 리더십",
+        "description": "Hopper→Blackwell→Rubin 연간 아키텍처 갱신. GB300은 Hopper 대비 50배 효율."
+      },
+      {
+        "type": "공급망 락인",
+        "description": "TSMC CoWoS 첨단 패키징 용량 대부분 확보."
+      },
+      {
+        "type": "전략적 파트너십",
+        "description": "Meta, OpenAI, Eli Lilly 등과 수년간 파트너십."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350로 AI 가속기 시장 10~12% 점유. MI450(2nm) 예정."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 출시했으나 시장 점유율 미미."
+      },
+      {
+        "name": "커스텀 실리콘",
+        "detail": "Google TPU, Amazon Trainium, Microsoft Maia — 빅테크 자체 칩 개발 가속."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "중국 내 NVIDIA 대안. 수출 제한으로 중국 점유율 하락."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-27",
+      "headline": "NVDA 이틀 연속 하락 — 인플레이션 쇼크로 추가 -4.1% 급락",
+      "significance": "PPI 서프라이즈로 시장 전반 급락. 어닝 후 이틀간 -9.5% 하락. 시총 $4.31T.",
+      "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "Q4 실적 비트에도 -5.5% 급락 — 고객 집중도 우려",
+      "significance": "매출 $68.1B(+73%), 가이던스 $78B로 컨센서스 크게 상회했으나, 고객 집중 리스크와 AI 버블 우려로 하락.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/nvidia-s-rosy-revenue-forecast-shows-the-ai-boom-remains-strong"
+    },
+    {
+      "date": "2026-02-25",
+      "headline": "Q4 FY2026: 매출 $68.1B(+73%), EPS $1.62, Q1 가이던스 $78B",
+      "significance": "매출·EPS·가이던스 모두 컨센서스 상회. FY2026 연간 매출 $216B.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "CoreWeave -20% 급락 — NVDA 핵심 고객 리스크 부각",
+      "significance": "CoreWeave Q1 가이던스 부진. NVIDIA의 고객 집중도 리스크 재조명.",
+      "url": "https://www.cnbc.com/2026/02/26/coreweave-crwv-q4-earnings-report-2025.html"
+    },
+    {
+      "date": "2026-02-17",
+      "headline": "Meta 수년간 수백만 GPU 전략적 파트너십 발표",
+      "significance": "GB300, Grace CPU, Vera Rubin 포함. Meta FY2026 CapEx $115~135B의 핵심 파트너."
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 271.55,
+    "highTarget": 352,
+    "lowTarget": 155,
+    "upsidePercent": 53.17,
+    "buyCount": 60,
+    "holdCount": 3,
+    "sellCount": 1,
+    "notableComment": "64명 애널리스트 압도적 Strong Buy. 어닝 후 대규모 목표가 상향 물결. Forward P/E 21x에 PEG 0.6은 '너무 싸다'는 평가 지배적."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "이틀 연속 -9.5% 급락 — 기술적 지지선 테스트",
+      "description": "어닝 비트에도 이틀간 $195→$177. 200일 이평선($175) 근접. 이탈 시 추가 하락 가능."
+    },
+    {
+      "severity": "high",
+      "title": "CoreWeave -20% — 핵심 고객 집중 리스크",
+      "description": "CoreWeave 가이던스 부진으로 NVDA 고객 집중도 우려 재부각. 상위 고객 의존도 높음."
+    },
+    {
+      "severity": "medium",
+      "title": "인플레이션 서프라이즈 — 금리 인하 기대 후퇴",
+      "description": "PPI 예상 상회. 성장주 밸류에이션에 부정적."
+    },
+    {
+      "severity": "medium",
+      "title": "빅테크 커스텀 칩 가속",
+      "description": "Google TPU v6, Amazon Trainium3. 장기 NVIDIA 의존도 감소 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 제한",
+      "description": "미국 수출 규제로 중국 매출 제한. Huawei Ascend 대안 부상."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Forward P/E 21x, PEG 0.60 — 역대급 저평가 구간",
+      "rationale": "이틀 -9.5% 하락으로 Forward P/E 21x 진입. 55%+ 성장 기업치고 역사적 최저 밸류에이션."
+    },
+    {
+      "title": "Q1 가이던스 $78B — 성장 가속 확인",
+      "rationale": "컨센서스 $72.6B를 $5.4B 상회. Blackwell 풀 램프로 성장 지속."
+    },
+    {
+      "title": "200일 이평선 지지 — 매수 기회",
+      "rationale": "200일 이평선($175)에 근접. 역사적으로 NVDA의 강력한 지지선."
+    },
+    {
+      "title": "CUDA 생태계 해자 — 경쟁사 전환 비용 높음",
+      "rationale": "1,500만+ 개발자 생태계. 15년 축적된 소프트웨어 호환성은 쉽게 대체 불가."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.18,
+    "week52Low": 86.6,
+    "currentPositionPercent": 72.2,
+    "sma50": 185.6,
+    "sma50Signal": "below",
+    "sma200": 174.69,
+    "sma200Signal": "above",
+    "rsi": 40.5,
+    "rsiSignal": "oversold_approaching"
+  },
+  "overallOpinion": [
+    "NVIDIA가 이틀 연속 -9.5% 급락하며 $177.29에 마감했다. 역대급 실적에도 '뉴스에 매도'와 인플레이션 서프라이즈가 겹쳤다.",
+    "Forward P/E 21x, PEG 0.60은 AI 섹터에서 찾기 힘든 밸류에이션이다. 200일 이평선($175) 지지 여부가 단기 핵심 변수.",
+    "64명 애널리스트 중 60명 Buy, 컨센서스 목표가 $272(+53%). 매크로 역풍 속에서도 펀더멘털은 역대 최강. 중장기 매수 기회로 판단."
+  ],
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html",
+      "description": "2/27 시장 급락 뉴스"
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/nvidia-s-rosy-revenue-forecast-shows-the-ai-boom-remains-strong",
+      "description": "NVDA 실적 후 주가 하락 분석"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/25/nvidia-nvda-earnings-report-q4-2026.html",
+      "description": "Q4 실적 상세"
+    },
+    {
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/nvda-stock-today-shares-dip-on-china-risk-after-record-results-february-27-2702/",
+      "description": "NVDA 2/27 기술적 분석"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "애널리스트 컨센서스"
+    },
+    {
+      "name": "SimplyWallSt",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia",
+      "description": "Q4 실적 요약"
+    },
+    {
+      "name": "Angel One",
+      "url": "https://www.angelone.in/us-stocks/nvidia-corporation",
+      "description": "실시간 주가"
+    },
+    {
+      "name": "Stocknear",
+      "url": "https://stocknear.com/stocks/NVDA/forecast",
+      "description": "애널리스트 목표가 데이터"
+    },
+    {
+      "name": "FinancialContent",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-27-nvidia-smashes-records-but-shares-tumble-55-on-customer-concentration-fears",
+      "description": "고객 집중 리스크 분석"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA 이틀 -9.5% 폭락, 근데 PEG 0.60?! 🤯",
+      "text": "Q4 매출 $68.1B(+73%), 가이던스 $78B로 역대급인데.\n\n이틀 만에 $195→$177. 인플레이션 쇼크까지.\n\nForward P/E 21x... AI 왕이 이 가격이면?\n\n200일선 $175 지키면 역대급 매수 타이밍일까요?\n\n👉 investory.kro.kr/stock/NVDA/analysis/2026-02-28"
+    },
+    "telegram": {
+      "hook": "💥 NVDA $177 — 역대급 실적에 이틀 -9.5% 폭락",
+      "text": "📊 NVIDIA 일일 분석 (2/28)\n\n현재가: $177.29 (-4.1%)\n시총: $4.31T | P/E: 44x | Forward P/E: 21x\n\n🔥 핵심 포인트:\n• Q4 매출 $68.1B(+73%), 가이던스 $78B\n• 어닝 후 이틀 -9.5% 하락 (인플레이션+AI 버블 우려)\n• CoreWeave -20% 급락으로 고객 집중 리스크 부각\n• 200일 이평선 $175 지지 테스트 중\n• PEG 0.60 — AI 섹터 최저 밸류에이션\n\n📈 애널리스트: Strong Buy (64명), 목표가 $272 (+53%)\n\n⚠️ 리스크: 기술적 지지선 테스트, 매크로 역풍\n✅ 기회: 역대급 펀더멘털 + 역대급 할인\n\n전체 분석 👉 investory.kro.kr/stock/NVDA/analysis/2026-02-28"
+    }
+  }
+}
