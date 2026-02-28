@@ -1,0 +1,285 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-01",
+  "currentPrice": 177.10,
+  "marketCap": "$4.31T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. Q4 FY2026 매출 $68.13B(+73% YoY), EPS $1.62. Q1 FY2027 가이던스 $78B(±2%)로 컨센서스를 $5.4B 상회. FY2026 연간 매출 $215.9B(+65.5%). 실적 발표 후 이틀 연속 -9.5% 하락(2/26 -5.46%, 2/27 -4.21%)하며 $177.10에 마감. CICC Research가 긍정적 전망을 발표했고, Seeking Alpha는 'AI 시대의 Berkshire Hathaway'로 평가. P/E 36.16x, 50일 이평선 $186.43, 200일 이평선 $183.86.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 총매출의 약 91%",
+      "게이밍: GeForce RTX 시리즈 GPU 및 DLSS 4 기술",
+      "자동차: DRIVE 플랫폼 자율주행 및 차량 AI 칩",
+      "프로페셔널 비주얼라이제이션: Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: 최신 AI 가속기, Hopper 대비 50배 처리량",
+      "Blackwell B200/GB200: '미친' 수준의 수요, 매진",
+      "H100/H200 Tensor Core GPU: AI 업계 표준",
+      "Rubin R200: 차세대 GPU, 2026년 하반기 예정",
+      "CUDA: 1,500만+ 개발자 GPU 컴퓨팅 플랫폼",
+      "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "36.16",
+      "interpretation": "CICC Research 기준. 실적 반영 후 밸류에이션 하락"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.44",
+      "interpretation": "FY2027 EPS $7.87 전망. PEG 0.54로 성장률 대비 저평가"
+    },
+    {
+      "name": "매출 성장률",
+      "value": "+65.5% (FY2026)",
+      "interpretation": "$215.9B 사상 최고 매출. FY2027 +55.5% 전망"
+    },
+    {
+      "name": "영업이익률",
+      "value": "60.4%",
+      "interpretation": "업계 최고 수준. AI 가속기 독점적 지위 반영"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.6B",
+      "interpretation": "P/FCF 44x. 막대한 현금 창출력"
+    },
+    {
+      "name": "부채비율",
+      "value": "0.13",
+      "interpretation": "재무 건전성 우수. 순현금 $43.2B"
+    },
+    {
+      "name": "ROE",
+      "value": "119.14%",
+      "interpretation": "초고수익성. 자본 효율 극대화"
+    },
+    {
+      "name": "PEG",
+      "value": "0.54",
+      "interpretation": "CICC 기준. 성장률 대비 명백한 저평가"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Q4 FY2026 역대급 실적 — 13분기 연속 어닝 비트",
+      "description": "매출 $68.13B(+73% YoY), EPS $1.62. Q1 FY2027 가이던스 $78B는 컨센서스 $72.6B를 $5.4B 상회. 'customers are racing to invest in AI' — Jensen Huang."
+    },
+    {
+      "title": "Seeking Alpha: 'AI 시대의 Berkshire Hathaway'",
+      "description": "NVDA의 플랫폼 전략(CUDA, 하드웨어, 소프트웨어)이 Berkshire의 복합 비즈니스 모델과 유사하다는 분석. $250+ 전망."
+    },
+    {
+      "title": "CICC Research 긍정적 전망 + PEG 0.54",
+      "description": "CICC Research가 NVDA에 긍정적 가격 전망 발표. P/E 36.16, PEG 0.54로 성장률 대비 저평가."
+    },
+    {
+      "title": "하이퍼스케일러 CapEx ~$700B — AI 인프라 투자 가속",
+      "description": "Alphabet, Amazon, Meta, Microsoft 합산 2026년 CapEx ~$700B 전망. Meta와 수년간 수백만 GPU 파트너십."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계(1,500만+ 개발자), 연간 아키텍처 갱신, NVLink 인터커넥트의 압도적 성능, AI 가속기 시장 80%+ 점유율로 사실상 독점적 지위 유지.",
+    "moats": [
+      {
+        "type": "소프트웨어 생태계 (전환 비용)",
+        "description": "CUDA는 15년+ 역사. 1,500만+ 개발자가 NVIDIA에 최적화."
+      },
+      {
+        "type": "기술 리더십",
+        "description": "Hopper→Blackwell→Rubin 연간 아키텍처 갱신. GB300은 Hopper 대비 50배 효율."
+      },
+      {
+        "type": "공급망 락인",
+        "description": "TSMC CoWoS 첨단 패키징 용량 대부분 확보."
+      },
+      {
+        "type": "전략적 파트너십",
+        "description": "Meta, OpenAI, Eli Lilly 등과 수년간 파트너십."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350로 AI 가속기 시장 10~12% 점유. MI450(2nm) 예정."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 출시했으나 시장 점유율 미미."
+      },
+      {
+        "name": "커스텀 실리콘",
+        "detail": "Google TPU, Amazon Trainium, Microsoft Maia — 빅테크 자체 칩 개발 가속."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "중국 내 NVIDIA 대안. 수출 제한으로 중국 점유율 하락."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-02-28",
+      "headline": "CICC Research, NVDA에 긍정적 가격 전망 발표",
+      "significance": "50일 MA $186.43, 200일 MA $183.86. P/E 36.16x, PEG 0.54로 성장률 대비 저평가 평가.",
+      "url": "https://www.themarketsdaily.com/2026/02/28/cicc-research-issues-positive-forecast-for-nvidia-nasdaqnvda-stock-price.html"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Seeking Alpha: 'NVDA, AI 시대의 Berkshire Hathaway — $250+ 전망'",
+      "significance": "플랫폼 전략의 복합 가치 창출력을 Berkshire에 비유. 최근 하락은 '미스프라이싱'으로 평가.",
+      "url": "https://seekingalpha.com/article/4876384-nvidia-becoming-the-berkshire-of-technology-is-bullish-for-shareholders"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Motley Fool: '73% 매출 성장에도 왜 주가가 빠졌나'",
+      "significance": "어닝 후 하락 원인 분석 — 고객 집중도, AI 버블 우려, 인플레이션 쇼크 복합 작용.",
+      "url": "https://www.fool.com/investing/2026/02/28/heres-why-nvidia-stock-fell-even-after-reporting-7/"
+    },
+    {
+      "date": "2026-02-27",
+      "headline": "NVDA 이틀 연속 -9.5% 하락 — $184.89 → $177.10",
+      "significance": "PPI 서프라이즈로 시장 급락. 200일 이평선($183.86) 하향 이탈.",
+      "url": "https://stockinvest.us/stock/NVDA"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Simply Wall St: '주가 풀백 후 NVDA 투자 검토할 시점인가'",
+      "significance": "장기 가치 대비 현재가 매력도 분석. 밸류에이션 프레임워크 제시.",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/is-it-too-late-to-consider-nvidia-nvda-after-recent-share-pr"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 271.86,
+    "highTarget": 352,
+    "lowTarget": 155,
+    "upsidePercent": 53.51,
+    "buyCount": 60,
+    "holdCount": 3,
+    "sellCount": 1,
+    "notableComment": "64명 애널리스트 중 60명 Buy. CICC Research 긍정적 전망 추가. Forward P/E 21x에 PEG 0.54 — '기가 막히게 싸다'는 평가 지배적."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "200일 이평선 하향 이탈 — 기술적 약세 신호",
+      "description": "200일 MA($183.86) 아래로 이탈. 추가 하방 가능. $176.45 저점 테스트 중."
+    },
+    {
+      "severity": "high",
+      "title": "CoreWeave -20% — 핵심 고객 집중 리스크",
+      "description": "CoreWeave 가이던스 부진으로 NVDA 고객 집중도 우려 재부각."
+    },
+    {
+      "severity": "medium",
+      "title": "인플레이션 서프라이즈 — 금리 인하 기대 후퇴",
+      "description": "PPI 예상 상회. 성장주 밸류에이션에 부정적."
+    },
+    {
+      "severity": "medium",
+      "title": "빅테크 커스텀 칩 가속",
+      "description": "Google TPU v6, Amazon Trainium3. 장기 NVIDIA 의존도 감소 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 제한",
+      "description": "미국 수출 규제로 중국 매출 제한. Huawei Ascend 대안 부상."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Forward P/E 21x, PEG 0.54 — 역대급 저평가 구간",
+      "rationale": "이틀 -9.5% 하락으로 Forward P/E 21x 진입. CICC 기준 PEG 0.54. 55%+ 성장 기업의 역사적 최저 밸류에이션."
+    },
+    {
+      "title": "'AI 시대의 Berkshire' — 플랫폼 가치 재평가",
+      "rationale": "Seeking Alpha 분석. CUDA+하드웨어+소프트웨어 복합 가치가 단순 GPU 기업 이상의 프리미엄 정당화."
+    },
+    {
+      "title": "Q1 가이던스 $78B — 성장 가속 확인",
+      "rationale": "컨센서스 $72.6B를 $5.4B 상회. Blackwell 풀 램프로 성장 지속."
+    },
+    {
+      "title": "64명 중 60명 Buy — 컨센서스 $272 (+54%)",
+      "rationale": "압도적 기관 지지. 어닝 후 목표가 상향 물결."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.18,
+    "week52Low": 86.6,
+    "currentPositionPercent": 72.1,
+    "sma50": 186.43,
+    "sma50Signal": "below",
+    "sma200": 183.86,
+    "sma200Signal": "below",
+    "rsi": 39.0,
+    "rsiSignal": "oversold_approaching"
+  },
+  "overallOpinion": [
+    "NVIDIA가 $177.10으로 200일 이평선($183.86) 아래로 이탈하며 기술적 약세 구간에 진입했다. 어닝 후 이틀간 -9.5% 급락.",
+    "그러나 Forward P/E 21x, PEG 0.54는 AI 섹터에서 찾기 힘든 밸류에이션이다. CICC Research 긍정적 전망, Seeking Alpha 'AI Berkshire' 평가 등 강세론이 우세.",
+    "64명 애널리스트 중 60명 Buy, 컨센서스 $272(+54%). 매크로 역풍이 해소되면 빠른 반등이 예상되나, 200일 이평선 회복 여부가 단기 핵심 관건."
+  ],
+  "sources": [
+    {
+      "name": "The Markets Daily",
+      "url": "https://www.themarketsdaily.com/2026/02/28/cicc-research-issues-positive-forecast-for-nvidia-nasdaqnvda-stock-price.html",
+      "description": "CICC Research 긍정적 전망"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4876384-nvidia-becoming-the-berkshire-of-technology-is-bullish-for-shareholders",
+      "description": "AI 시대의 Berkshire Hathaway 분석"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/02/28/heres-why-nvidia-stock-fell-even-after-reporting-7/",
+      "description": "73% 성장에도 주가 하락 원인 분석"
+    },
+    {
+      "name": "Stockinvest.us",
+      "url": "https://stockinvest.us/stock/NVDA",
+      "description": "기술적 분석 및 종가 데이터"
+    },
+    {
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/is-it-too-late-to-consider-nvidia-nvda-after-recent-share-pr",
+      "description": "풀백 후 투자 검토 분석"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "애널리스트 컨센서스 $271.86"
+    },
+    {
+      "name": "Angel One",
+      "url": "https://www.angelone.in/us-stocks/nvidia-corporation",
+      "description": "실시간 주가"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html",
+      "description": "2/27 시장 급락 뉴스"
+    },
+    {
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/nvda-stock-model-shows-3300-upside-nvidia-nasdaq-closed-27-feb-2026-2802/",
+      "description": "AI 모델 33% 업사이드 전망"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA가 'AI 시대의 버크셔 해서웨이'라고? 🤔",
+      "text": "73% 매출 성장에 이틀 -9.5% 폭락한 NVDA.\n\nForward P/E 21x, PEG 0.54... 역대급 저평가?\n\n200일선 이탈했지만 64명 중 60명이 Buy.\n\n$272까지 +54% 업사이드, 지금이 기회일까요?\n\n👉 investory.kro.kr/stock/NVDA/analysis/2026-03-01"
+    },
+    "telegram": {
+      "hook": "💎 NVDA $177 — 200일선 이탈, 그러나 PEG 0.54",
+      "text": "📊 NVIDIA 일일 분석 (3/1)\n\n현재가: $177.10 (-4.2%)\n시총: $4.31T | P/E: 36x | Forward P/E: 21x\n\n🔥 핵심 포인트:\n• 200일 이평선($184) 하향 이탈 — 기술적 약세\n• CICC Research 긍정적 전망, PEG 0.54\n• Seeking Alpha: 'AI 시대의 Berkshire Hathaway'\n• Q1 가이던스 $78B (컨센서스 +$5.4B)\n• 어닝 후 이틀 -9.5% 급락\n\n📈 애널리스트: Strong Buy (64명), 목표가 $272 (+54%)\n\n⚠️ 리스크: 200일선 이탈, 고객 집중도\n✅ 기회: 역대급 밸류에이션 할인 + 성장 가속\n\n전체 분석 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-01"
+    }
+  }
+}
