@@ -2,14 +2,14 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-01",
-  "currentPrice": 20.44,
-  "marketCap": "$9.3B",
+  "currentPrice": 19.00,
+  "marketCap": "$8.6B",
   "businessSummary": {
-    "oneLiner": "세계 최대 상장 Ethereum 보유 기업 — MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 2/23 공시 기준 4,422,659 ETH 보유(총 공급량의 3.66%). ETH가 $2,034 부근에서 거래 중. 2/27 종가 $20.44(전일 대비 -5.1%). ATH $160 대비 87% 하락했으나 52주 저점 $4.85 대비 321% 상승. 기관 투자자들의 지분 확대가 이어지고 있으며, Yahoo Finance에서 'Bull Case Theory'가 주목받고 있다.",
+    "oneLiner": "세계 최대 상장 Ethereum 보유 기업 , MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 2/23 공시 기준 4,422,659 ETH 보유(총 공급량의 3.66%). ETH가 $1,958~$2,034 구간에서 거래 중. 2/28 종가 $19.00(전일 대비 -7.1%). ATH $160 대비 88% 하락했으나 52주 저점 $4.85 대비 292% 상승. 기관 투자자들의 지분 확대가 이어지고 있으나, 암호화폐 시장 전반에 극도의 공포 심리(Fear and Greed 지수 13)가 형성되어 있다.",
     "howTheyMakeMoney": [
-      "ETH 보유자산 가치 상승 (4,422,659 ETH, ETH $2,034 기준 ~$9.0B)",
-      "MAVAN 네트워크 스테이킹 수익 — 304만 ETH 스테이킹, 연간 ~$176M (2.89% 수익률)",
+      "ETH 보유자산 가치 상승 (4,422,659 ETH, ETH $1,958 기준 ~$8.7B)",
+      "MAVAN 네트워크 스테이킹 수익 , 304만 ETH 스테이킹, 풀 가동 시 연간 $249M (2.89% 수익률)",
       "레거시 BTC 컨설팅 및 장비 리스 (~$2.3M 분기 매출)",
       "전략적 투자 (Beast Industries/MrBeast $200M, Eightco Holdings $17M 등)"
     ],
@@ -23,8 +23,8 @@
   "keyMetrics": [
     {
       "name": "P/B",
-      "value": "0.96",
-      "interpretation": "NAV에 근접 거래. ETH 가격 변동에 따라 할인/프리미엄 전환"
+      "value": "0.90",
+      "interpretation": "NAV 대비 약 10% 할인 거래 중. ETH 가격 추가 하락 시 할인 폭 확대 가능"
     },
     {
       "name": "Forward P/E",
@@ -33,8 +33,8 @@
     },
     {
       "name": "시가총액",
-      "value": "$9.3B",
-      "interpretation": "ETH 보유가치 $9.0B + 현금 $691M = NAV ~$9.7B 대비 소폭 할인"
+      "value": "$8.6B",
+      "interpretation": "ETH 보유가치 $8.7B + 현금 $691M = NAV ~$9.4B 대비 할인"
     },
     {
       "name": "ETH 보유량",
@@ -44,7 +44,7 @@
     {
       "name": "주당 ETH",
       "value": "~9.72 ETH/주",
-      "interpretation": "주가 $20.44 = ETH $2.10/주당 가격으로 ETH 매수 효과"
+      "interpretation": "주가 $19.00 = ETH $1.95/주당 가격으로 ETH 매수 효과"
     },
     {
       "name": "공매도 비율",
@@ -53,8 +53,8 @@
     },
     {
       "name": "52주 수익률",
-      "value": "+321%",
-      "interpretation": "52주 저점 $4.85 대비 4.2배 상승"
+      "value": "+292%",
+      "interpretation": "52주 저점 $4.85 대비 약 4배 상승. 최근 조정으로 절대수익률 소폭 감소"
     },
     {
       "name": "주식수 증가",
@@ -64,20 +64,20 @@
   ],
   "growthDrivers": [
     {
-      "title": "기관 투자자 지분 확대 — BlackRock, ARK 등",
+      "title": "기관 투자자 지분 확대 , BlackRock, ARK 등",
       "description": "주요 기관 투자자들이 BMNR 지분을 대폭 확대 중. Ethereum 트레저리 전략에 대한 기관 수요가 증가하고 있다."
     },
     {
-      "title": "ETH 보유량 4,422,659개 — 주간 51,162개 추가 매수 지속",
+      "title": "ETH 보유량 4,422,659개 , 주간 51,162개 추가 매수 지속",
       "description": "2/23 공시 기준 총 보유 4,422,659 ETH(+51,162 주간 추가). ETH 가격 하락에도 공격적 매수 지속. 총 크립토+현금 $9.6B."
     },
     {
-      "title": "MAVAN 스테이킹 Q1 2026 본격 가동 — 연간 $252~480M 수익 전망",
-      "description": "현재 304만 ETH 스테이킹(보유량의 69%), 연간 $176M 실현. Q1 2026 출시 시 $252M, 풀 가동 시 $480M 전망."
+      "title": "MAVAN 스테이킹 Q1 2026 본격 가동 , 풀 가동 시 연간 $249M 수익",
+      "description": "현재 304만 ETH 스테이킹(보유량의 69%). MAVAN 풀 가동 시 연간 $249M 전망(2/23 공시 기준)."
     },
     {
-      "title": "Yahoo Finance 'Bull Case Theory' — 기본적 투자 논리 주목",
-      "description": "Yahoo Finance에서 BMNR 강세 논리가 게재되며 개인·기관 투자자들의 관심이 확대되고 있다."
+      "title": "Yahoo Finance 'Bull Case Theory' , 기본적 투자 논리 주목",
+      "description": "Yahoo Finance에서 BMNR 강세 논리가 게재되며 개인, 기관 투자자들의 관심이 확대되고 있다."
     }
   ],
   "competitiveAdvantage": {
@@ -85,7 +85,7 @@
     "moats": [
       {
         "type": "규모의 경제",
-        "description": "4,422,659 ETH — #2 SharpLink Gaming(86만 ETH)의 5배, 총 공급량의 3.66% 장악."
+        "description": "4,422,659 ETH , #2 SharpLink Gaming(86만 ETH)의 5배, 총 공급량의 3.66% 장악."
       },
       {
         "type": "기관 투자자 네트워크",
@@ -97,7 +97,7 @@
       },
       {
         "type": "스테이킹 인프라 (MAVAN)",
-        "description": "미국 최초 대규모 ETH 밸리데이터 네트워크. 수동 보유 넘어 연간 $176~480M 수익 창출."
+        "description": "미국 최초 대규모 ETH 밸리데이터 네트워크. 수동 보유 넘어 연간 $249M 수익 창출 목표."
       }
     ],
     "competitors": [
@@ -122,55 +122,73 @@
   "recentNews": [
     {
       "date": "2026-02-28",
-      "headline": "Yahoo Finance 'Bull Case Theory' — BMNR 강세 투자 논리 게재",
+      "headline": "BMNR -7.1% 급락 , ETH 공포 심리 극도화(Fear and Greed 13)",
+      "significance": "암호화폐 시장 Fear and Greed 지수가 13(극도의 공포)으로 급락. BMNR이 레버리지 프록시 특성상 ETH보다 가파른 하락 폭 기록.",
+      "url": "https://edition.cnn.com/markets/stocks/BMNR"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Yahoo Finance 'Bull Case Theory' , BMNR 강세 투자 논리 게재",
       "significance": "TopSecretStocks의 서브스택 분석 기반으로 BMNR 강세론이 Yahoo Finance에 게재. 대중 노출 확대.",
       "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-inc-bmnr-133023847.html"
     },
     {
       "date": "2026-02-27",
-      "headline": "기관 투자자 대규모 지분 확대 — ETH 보유·MAVAN 확장과 동시",
+      "headline": "기관 투자자 대규모 지분 확대 , ETH 보유 및 MAVAN 확장과 동시",
       "significance": "주요 기관 투자자들이 BMNR 보유 지분을 대폭 확대. Ethereum 트레저리 전략에 대한 기관 신뢰 증가.",
       "url": "https://finance.yahoo.com/news/institutional-interest-grows-bitmine-expands-031518791.html"
     },
     {
-      "date": "2026-02-27",
-      "headline": "BMNR 전일 대비 -5.1% 하락 — ETH 주말 약세 동반",
-      "significance": "ETH가 $2,034 부근에서 약세. 크립토 전반 약세에 레버리지 프록시 특성 반영.",
-      "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_02_27/"
-    },
-    {
       "date": "2026-02-25",
-      "headline": "Bankless Times: BMNR 차트에 불리쉬 패턴 형성 — 반등 포인팅",
-      "significance": "기술적 분석에서 강세 패턴 발견. ATH 대비 87% 하락한 가격대에서 반등 가능성.",
+      "headline": "Bankless Times: BMNR 차트에 불리쉬 패턴 형성 , 반등 포인팅",
+      "significance": "기술적 분석에서 강세 패턴 발견. ATH 대비 88% 하락한 가격대에서 반등 가능성.",
       "url": "https://www.banklesstimes.com/articles/2026/02/25/bitmine-stock-price-forms-bullish-pattern-pointing-to-bmnr-rebound/"
     },
     {
       "date": "2026-02-23",
-      "headline": "ETH 보유 4,422,659개 도달 — 총 크립토+현금 $9.6B",
-      "significance": "주간 51,162 ETH 추가 매수. 가격 하락에도 매수 지속.",
+      "headline": "ETH 보유 4,422,659개 도달 , MAVAN 풀 가동 시 연간 $249M 전망",
+      "significance": "주간 51,162 ETH 추가 매수(약 $9,800만 투자). 풀 스테이킹 가동 시 연간 $249M 수익 목표.",
       "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-423-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302694282.html"
+    },
+    {
+      "date": "2026-02-23",
+      "headline": "Nasdaq: BMNR 6개월 +612.7% , 지금도 매수 타이밍인가?",
+      "significance": "Nasdaq.com이 BMNR의 6개월 급등 후 투자 매력도를 분석. 밸류에이션 부담과 기회 요인 균형 있게 조명.",
+      "url": "https://www.nasdaq.com/articles/bmnr-stock-6127-6-months-should-you-still-buy-it-2026"
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Seeking Alpha: ETH 베팅은 리스크 , BMNR 비중 축소 의견",
+      "significance": "Seeking Alpha 분석가가 ETH 전량 투자 전략의 집중 리스크를 지적. ETH 직접 보유가 낫다는 의견.",
+      "url": "https://seekingalpha.com/article/4859688-bitmine-immersion-betting-a-farm-on-ethereum-is-risky"
+    },
+    {
+      "date": "2026-02-18",
+      "headline": "Seeking Alpha: NAV 할인 거래 중 , 매수 의견",
+      "significance": "Seeking Alpha 분석가가 장부가 이하 거래 및 ETH 레버리지 노출을 근거로 매수 의견 제시.",
+      "url": "https://seekingalpha.com/article/4855893-bitmine-immersion-the-ethereum-treasury-play-trading-below-book-value"
     }
   ],
   "analystOpinions": {
     "consensusTarget": 47.0,
-    "highTarget": 47.0,
-    "lowTarget": 47.0,
-    "upsidePercent": 129.94,
+    "highTarget": 53.5,
+    "lowTarget": 30.0,
+    "upsidePercent": 147.4,
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "커버리지 애널리스트 1명이 Strong Buy, 목표가 $47. 현재가 대비 +130% 업사이드. 다만 커버리지가 극히 제한적이라 컨센서스 신뢰도 낮음."
+    "notableComment": "공식 월스트리트 커버리지 애널리스트 1명이 Strong Buy, 목표가 $47. 현재가 $19.00 대비 +147% 업사이드. 다수 플랫폼 종합 목표가 평균 $53.5 제시. 단, 커버리지가 극히 제한적이라 컨센서스 신뢰도 낮음."
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "ETH 가격 리스크 — 보유자산의 93%가 ETH",
-      "description": "ETH $2,034에서 추가 하락 시 NAV 급감. Crypto.com은 ETH가 $1,900 부근에서 지지 테스트 중이라 경고."
+      "title": "ETH 가격 리스크 , 보유자산의 93%가 ETH",
+      "description": "ETH $1,958에서 추가 하락 시 NAV 급감. 암호화폐 Fear and Greed 지수 13(극도의 공포)으로 시장 심리 극도로 악화."
     },
     {
       "severity": "critical",
-      "title": "ATH $160 대비 87% 하락 — 극단적 변동성",
-      "description": "$160에서 $20으로 폭락. 레버리지 프록시 특성상 ETH보다 더 큰 변동성."
+      "title": "ATH $160 대비 88% 하락 , 극단적 변동성",
+      "description": "$160에서 $19로 폭락. 레버리지 프록시 특성상 ETH보다 더 큰 변동성. 기술적 지표 대부분 매도 신호."
     },
     {
       "severity": "high",
@@ -179,8 +197,8 @@
     },
     {
       "severity": "high",
-      "title": "미실현 손실 $8B — CoinDesk 보도",
-      "description": "ETH 매입 총 비용 대비 약 $8B의 미실현 손실. 추가 하락 시 자본 조달 압박."
+      "title": "미실현 손실 $8B 이상 , CoinDesk 보도",
+      "description": "ETH 매입 총 비용 대비 약 $8B 이상의 미실현 손실. 추가 하락 시 자본 조달 압박."
     },
     {
       "severity": "medium",
@@ -190,37 +208,40 @@
   ],
   "buyReasons": [
     {
-      "title": "NAV 근접 거래 + 스테이킹 수익 미반영",
-      "rationale": "P/B 0.96에서 스테이킹 연간 $176M 수익이 아직 밸류에이션에 완전히 반영되지 않음."
+      "title": "NAV 할인 거래 + 스테이킹 수익 미반영",
+      "rationale": "P/B 0.90으로 NAV 대비 약 10% 할인 거래 중. 풀 가동 시 연간 $249M 스테이킹 수익이 밸류에이션에 완전히 반영되지 않음."
     },
     {
       "title": "기관 투자자 대규모 유입",
       "rationale": "BlackRock, ARK 등 기관 투자자들이 지분 확대. Ethereum 트레저리 전략에 대한 기관 신뢰."
     },
     {
-      "title": "기술적 불리쉬 패턴 — 반등 가능성",
-      "rationale": "Bankless Times 분석에서 불리쉬 패턴 발견. 87% 하락 후 과매도 구간."
+      "title": "ETH 거래소 보유량 10년 최저 , 장기 보유자 축적 신호",
+      "rationale": "ETH 거래소 공급량이 10년 최저 수준으로 감소. 소매 공포 속에서도 장기 투자자들이 축적하고 있다는 온체인 신호."
     },
     {
-      "title": "MAVAN Q1 2026 풀 가동 — 연간 $252~480M 수익",
+      "title": "MAVAN Q1 2026 풀 가동 , 연간 $249M 수익",
       "rationale": "스테이킹 수익이 본격화되면 ETH 가격과 독립적인 현금흐름 창출 가능."
     }
   ],
   "technicalPosition": {
     "week52High": 160.0,
     "week52Low": 4.85,
-    "currentPositionPercent": 10.0,
-    "sma50": 25.0,
+    "currentPositionPercent": 9.2,
+    "sma50": 28.0,
     "sma50Signal": "below",
-    "sma200": 35.0,
+    "sma200": 33.0,
     "sma200Signal": "below",
-    "rsi": 35.0,
+    "rsi": 38.0,
     "rsiSignal": "oversold"
   },
   "overallOpinion": [
-    "BMNR이 $20.44에 마감하며 50일 이평선($25) 아래에서 거래 중. ETH $2,034 부근의 약세가 주가를 압박하고 있다.",
-    "P/B 0.96으로 NAV에 근접 거래 중이며, 기관 투자자 유입과 Yahoo Finance 강세론 게재가 긍정적. MAVAN 스테이킹 풀 가동이 펀더멘털 전환점.",
-    "극단적 변동성(ATH 대비 -87%)은 고위험 투자임을 보여준다. ETH에 대한 확신이 있고 $8B 미실현 손실을 감내할 수 있는 투자자에게만 적합."
+    "2/28 종가 $19.00으로 전일 대비 -7.1% 급락. 암호화폐 시장 Fear and Greed 지수가 13(극도의 공포)으로 떨어지며 ETH 연동 레버리지 프록시인 BMNR이 더 가파른 하락을 기록했다.",
+    "Seeking Alpha에서는 매수와 매도 양쪽 의견이 모두 제시되고 있다. 강세론은 NAV 할인 거래와 ETH 레버리지 노출을 근거로 하고, 약세론은 ETH 직접 보유가 BMNR 주식보다 낫다고 주장한다. Nasdaq.com도 6개월 +612% 급등 후 밸류에이션 부담을 경고하고 있다.",
+    "온체인 데이터는 반전 가능성을 시사한다. ETH 거래소 보유량이 10년 최저 수준으로 떨어져 소매 공포 속에서도 장기 투자자들이 ETH를 적극 매집하고 있다. BMNR도 ETH 가격 하락에도 불구하고 주간 51,162 ETH(약 $9,800만)를 추가 매수하며 확신을 보여주고 있다.",
+    "MAVAN 스테이킹 풀 가동 시 연간 $249M 수익이 핵심 펀더멘털 변수다. 현재 스테이킹 수익이 밸류에이션에 완전히 반영되지 않아 P/B 0.90에서 NAV 할인 거래 중이다.",
+    "기술적으로는 RSI 38(과매도 근접), 50일 이평선($28)과 200일 이평선($33) 모두 아래에서 거래 중. Barchart 기준 88% 매도 신호. 단기 추세는 하방이지만 과매도 구간 진입은 역발상 매수 관심 신호다.",
+    "결론: 극도의 공포 심리, 기술적 약세, ETH 집중 리스크를 감안할 때 단기 리스크는 높다. 그러나 NAV 할인, 기관 매수 지속, 온체인 축적 신호는 중장기 ETH 강세론자에게 매력적인 진입 구간을 제시한다. 포트폴리오의 2~5% 이내로 비중을 제한하고 ETH 전망에 대한 확신이 있는 투자자에게만 적합하다."
   ],
   "sources": [
     {
@@ -236,11 +257,11 @@
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-423-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-6-billion-302694282.html",
-      "description": "ETH 보유 공시"
+      "description": "ETH 보유 4,422,659개 공시"
     },
     {
-      "name": "Decrypt",
-      "url": "https://decrypt.co/358826/ethereum-2-week-low-tom-lee-bitmine-8-4-billion-stash",
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/02/23/bitmine-immersion-added-usd98-million-of-ether-last-week-as-losses-balloon-to-more-than-usd8-billion",
       "description": "$8B 미실현 손실 보도"
     },
     {
@@ -249,34 +270,83 @@
       "description": "기술적 불리쉬 패턴 분석"
     },
     {
-      "name": "StocksTotrade",
-      "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_02_27/",
-      "description": "2/27 하락 뉴스"
+      "name": "Nasdaq",
+      "url": "https://www.nasdaq.com/articles/bmnr-stock-6127-6-months-should-you-still-buy-it-2026",
+      "description": "BMNR 6개월 +612% 급등 후 매수 타이밍 분석"
     },
     {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-2",
-      "description": "밸류에이션 분석"
+      "name": "Nasdaq",
+      "url": "https://www.nasdaq.com/articles/bitmine-immersion-technologies-buy-sell-or-hold-2026",
+      "description": "BMNR 매수/매도/보유 의견"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4855893-bitmine-immersion-the-ethereum-treasury-play-trading-below-book-value",
+      "description": "NAV 할인 매수 의견"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4859688-bitmine-immersion-betting-a-farm-on-ethereum-is-risky",
+      "description": "ETH 집중 투자 리스크 경고"
     },
     {
       "name": "Crypto.com",
       "url": "https://crypto.com/us/market-updates/ethereum-price-what-march-2026-holds-for-eth",
-      "description": "ETH 3월 전망"
+      "description": "ETH 3월 전망 , 거래소 보유량 10년 최저"
     },
     {
-      "name": "ts2.tech",
-      "url": "https://ts2.tech/en/stock-market-today-27-02-2026/",
-      "description": "2/27 종가 데이터"
+      "name": "Barchart",
+      "url": "https://www.barchart.com/etfs-funds/quotes/BMNR/technical-analysis",
+      "description": "BMNR 기술적 분석 , 88% 매도 신호"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/bmnr/forecast/",
+      "description": "애널리스트 목표가 $47"
     }
   ],
   "snsContent": {
+    "x": {
+      "hook": "BMNR -7% 급락, 기회인가 함정인가",
+      "text": "BMNR 2/28 종가 $19.00, 전일 대비 -7.1%.\n\n공포 지수 13(극도의 공포)인데 기관은 오히려 매수 중.\n\nETH 거래소 보유량 10년 최저, 온체인 신호는 축적.\n\nMAVAN 풀 가동 시 연간 $249M 수익 전망.\n\n애널리스트 목표가 $47(+147%)."
+    },
     "threads": {
-      "hook": "기관들이 BMNR 사재기 중? Yahoo Finance도 강세론 📢",
-      "text": "BMNR $20.44, ATH 대비 -87%인데.\n\nBlackRock·ARK 등 기관이 지분 대폭 확대.\n\nETH 442만개 보유, 스테이킹 연 $176M 수익.\n\n바닥에서 줍는 기관들 따라갈까요?\n\n👉 investory.kro.kr/stock/BMNR/analysis/2026-03-01"
+      "hook": "극도의 공포 속 BMNR, 기관은 왜 샀을까",
+      "text": "BMNR이 2/28에 -7.1% 급락해 $19.00에 마감했어요.\n\n공포 지수는 13(극도의 공포)인데, BlackRock과 ARK는 지분을 늘리고 있어요.\n\nETH 거래소 보유량이 10년 만에 최저치. 팔려는 사람이 없다는 뜻이에요.\n\nMAVAN 스테이킹 풀 가동 시 연간 $249M 수익이 실현되면 밸류에이션이 달라질 수 있어요.\n\n현재 P/B 0.90으로 NAV 할인 거래 중. 애널리스트 목표가 $47(현재 대비 +147%).\n\n물론 ETH에 90% 이상 집중된 리스크, $8B 미실현 손실은 여전히 부담이에요."
     },
     "telegram": {
-      "hook": "🏦 BMNR $20.44 — 기관 투자자 대규모 유입 + 강세론 확산",
-      "text": "📊 BitMine 일일 분석 (3/1)\n\n현재가: $20.44 (-5.1%)\n시총: $9.3B | P/B: 0.96 | RSI: 35 (과매도 근접)\n\n🔥 핵심 포인트:\n• 기관 투자자 대규모 지분 확대 (BlackRock, ARK)\n• Yahoo Finance 'Bull Case Theory' 게재\n• ETH 보유 4,422,659개 ($9.0B)\n• 스테이킹 연간 $176M 수익 실현 중\n• Bankless Times: 불리쉬 차트 패턴 형성\n\n📈 애널리스트: Strong Buy (1명), 목표가 $47 (+130%)\n\n⚠️ 리스크: ETH 가격 종속, $8B 미실현 손실\n✅ 기회: 기관 유입 + NAV 근접 + 스테이킹\n\n전체 분석 👉 investory.kro.kr/stock/BMNR/analysis/2026-03-01"
+      "hook": "BMNR $19.00 -7.1% , 극도의 공포, 그러나 기관은 매수",
+      "text": "BitMine 일일 분석 (3/1)\n\n현재가: $19.00 (-7.1%)\n시총: $8.6B | P/B: 0.90 | RSI: 38 (과매도 근접)\n\n핵심 이벤트:\n- 암호화폐 Fear and Greed 지수 13(극도의 공포)\n- BlackRock, ARK 등 기관 투자자 지분 확대 지속\n- ETH 거래소 보유량 10년 최저(온체인 축적 신호)\n- 주간 51,162 ETH 추가 매수 ($9,800만 규모)\n- MAVAN 풀 가동 시 연간 $249M 수익 전망\n\n강세 논리: NAV 할인(P/B 0.90) + 기관 유입 + 온체인 축적\n약세 논리: 기술 지표 88% 매도 신호 + $8B 미실현 손실\n\n애널리스트: Strong Buy (1명), 목표가 $47 (+147%)\n\n포트폴리오 2~5% 이내, ETH 강세론 확신 투자자에게 적합."
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "BMNR -7% 급락, 기회인가 함정인가",
+          "text": "BMNR 2/28 종가 $19.00, 전일 대비 -7.1%.\n\n공포 지수 13(극도의 공포)인데 기관은 오히려 매수 중.\n\nETH 거래소 보유량 10년 최저, 온체인 신호는 축적.\n\nMAVAN 풀 가동 시 연간 $249M 수익 전망.\n\n애널리스트 목표가 $47(+147%)."
+        },
+        "witty": {
+          "hook": "남들이 공포에 떨 때 기관이 줍는 주식",
+          "text": "공포 지수 13. 시장이 역대급 겁쟁이 모드.\n\nBMNR -7.1%로 $19.00 마감.\n\n근데 BlackRock이랑 ARK는 오히려 담고 있어요.\n\nETH 거래소 보유량 10년 최저. 진짜 팔 사람은 다 팔았다는 신호.\n\n목표가 $47(+147%). 맞으면 대박, 틀리면 ETH 직접 샀어야지 후회."
+        },
+        "empathy": {
+          "hook": "BMNR 들고 있으면 지금 마음 힘들 거예요",
+          "text": "2/28에 -7.1% 또 빠지면서 $19.00이 됐네요.\n\nATH $160에서 88% 하락. 들고 있으면 정말 힘들죠.\n\n그런데 흥미로운 게 있어요. 공포 지수 13인데 BlackRock, ARK 같은 기관은 오히려 지분을 늘리고 있거든요. 그들도 틀릴 수 있지만, 뭔가를 보고 있다는 거잖아요.\n\nETH 거래소 보유량도 10년 최저예요. 팔려는 사람이 그만큼 없다는 뜻이에요.\n\nMAVAN이 풀 가동되면 연간 $249M 수익이 생겨요. 지금 P/B 0.90으로 NAV 할인 거래 중이고 목표가는 $47(현재 대비 +147%)이에요.\n\n$8B 미실현 손실은 여전히 무거운 짐이에요. 하지만 장기적으로 ETH를 믿는다면, 지금 이 구간이 나중에 다르게 보일 수 있어요."
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "극도의 공포 속 BMNR, 기관은 왜 샀을까",
+          "text": "BMNR이 2/28에 -7.1% 급락해 $19.00에 마감했어요.\n\n공포 지수는 13(극도의 공포)인데, BlackRock과 ARK는 지분을 늘리고 있어요.\n\nETH 거래소 보유량이 10년 만에 최저치. 팔려는 사람이 없다는 뜻이에요.\n\nMAVAN 스테이킹 풀 가동 시 연간 $249M 수익이 실현되면 밸류에이션이 달라질 수 있어요.\n\n현재 P/B 0.90으로 NAV 할인 거래 중. 애널리스트 목표가 $47(현재 대비 +147%).\n\n물론 ETH에 90% 이상 집중된 리스크, $8B 미실현 손실은 여전히 부담이에요."
+        },
+        "witty": {
+          "hook": "공포 지수 13인데 기관은 줍줍 중",
+          "text": "BMNR 또 빠졌어요. -7.1%로 $19.00.\n\nATH $160에서 88% 하락. 화면 끄고 싶은 구간이죠.\n\n근데 이상하게도 BlackRock, ARK는 오히려 담고 있어요.\n\nETH 거래소 보유량이 10년 최저예요. 진짜 팔 사람은 다 팔았다는 신호거든요.\n\nMAVAN 풀 가동 시 연간 $249M. 목표가 $47(+147%).\n\n맞으면 위대한 역발상, 틀리면 그냥 ETH 직접 샀어야 했는데."
+        },
+        "empathy": {
+          "hook": "BMNR 들고 있으면 지금 정말 힘들죠",
+          "text": "2/28 종가 $19.00으로 또 -7.1% 빠졌어요.\n\nATH $160에서 88% 빠진 거니까. 들고 있는 분들 정말 힘드실 것 같아요.\n\n그런데 몇 가지 놓치면 안 될 신호들이 있어요.\n\n공포 지수가 13(극도의 공포)인데, BlackRock이랑 ARK 같은 기관들은 오히려 지분을 늘리고 있거든요. ETH 거래소 보유량도 10년 만에 최저로 떨어졌어요. 팔려는 사람이 그만큼 없다는 얘기예요.\n\nMAVAN이 풀 가동되면 연간 $249M 수익이에요. 지금 P/B 0.90으로 NAV보다 싸게 사고 있고, 애널리스트 목표가는 $47(+147%)이에요.\n\n$8B 미실현 손실이 무거운 건 사실이에요. 단기 리스크도 크고요. 하지만 ETH를 장기로 믿는 분이라면, 지금 이 구간이 나중에 다르게 보일 수 있어요. 포트폴리오의 2~5% 이내로 관리하면서 버틸 수 있다면요."
+        }
+      }
     }
   }
 }
