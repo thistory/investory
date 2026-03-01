@@ -193,18 +193,20 @@ Good (읽기 쉬운 문장):
 
 #### SNS Content Quality Guidelines
 
-**읽고 싶어지는 글, 투자에 도움이 되는 글을 써라.**
+**`overallOpinion`을 바탕으로, SNS 글 성격에 맞게 재구성하라.**
 
-1. **Engagement first**: 스크롤을 멈추고 끝까지 읽고 싶게 만들어라. 단순 팩트 나열이 아니라, "왜 이게 중요한지", "이게 내 투자에 어떤 의미인지"를 담아라.
-2. **Don't over-summarize**: 너무 압축하지 마라. 핵심 포인트를 맥락과 함께 풀어서 설명하라. 길이는 `overallOpinion` 필드에 작성하는 수준(3-5개 포인트, 각 포인트가 한두 문장)과 비슷하게.
-3. **Investment-useful content**: 읽는 사람이 실제 투자 판단에 참고할 수 있는 내용을 담아라. 다가오는 카탈리스트, 주요 가격 수준, 리스크/리워드 프레이밍, 밸류에이션 맥락 등.
-4. **Not a headline, but a mini-briefing**: 뉴스 헤드라인을 복사하는 게 아니라, 그 뉴스가 왜 중요한지 해석을 곁들여라.
+snsContent는 별도로 창작하는 것이 아니라, **`overallOpinion` 필드의 내용을 SNS 톤으로 변환**한 것이어야 한다. overallOpinion의 핵심 포인트, 수치, 맥락을 그대로 살리되, SNS에서 읽히는 문체로 바꿔라.
+
+1. **Source: overallOpinion**: snsContent의 본문은 반드시 `overallOpinion`의 핵심 포인트들을 기반으로 작성하라. 새로운 내용을 추가하거나 overallOpinion에 없는 관점을 넣지 마라.
+2. **Adapt, don't copy**: overallOpinion을 그대로 복붙하지 마라. SNS에 맞게 문체를 바꿔라. 딱딱한 분석 톤 → 짧고 임팩트 있는 문장, 불릿 포인트 활용, 핵심 수치 강조.
+3. **Keep the substance**: 톤은 바꾸되 내용의 깊이는 유지하라. overallOpinion에 있는 수치(목표가, P/E, 이평선 등), 카탈리스트, 리스크를 빠뜨리지 마라.
+4. **Engagement layer**: overallOpinion의 내용 위에 SNS적 요소를 입혀라. 질문형 마무리, 이모지(Threads), 대비/아이러니 활용 등.
 
 > **English version of the same rules:**
-> 1. **Engagement first**: Make readers stop scrolling and want to read to the end. Don't just list facts. Explain *why it matters* and *what it means for investors*.
-> 2. **Don't over-summarize**: Expand key points with context and reasoning. Aim for a depth similar to the `overallOpinion` field (3-5 points, each 1-2 sentences).
-> 3. **Investment-useful content**: Include actionable insights: upcoming catalysts, key price levels, risk/reward framing, valuation context.
-> 4. **Not a headline, but a mini-briefing**: Don't copy news headlines. Interpret and explain why each development matters.
+> 1. **Source: overallOpinion**: The snsContent body must be based on the `overallOpinion` field's key points. Do not add new insights or perspectives absent from overallOpinion.
+> 2. **Adapt, don't copy**: Don't paste overallOpinion verbatim. Rewrite in SNS-friendly style: shorter sentences, bullet points, emphasized key figures.
+> 3. **Keep the substance**: Change the tone, not the depth. Retain all numbers (targets, P/E, SMAs), catalysts, and risks from overallOpinion.
+> 4. **Engagement layer**: Layer SNS elements on top of overallOpinion content: closing questions, emojis (Threads), contrast/irony framing.
 
 #### Korean SNS (`.json`)
 
