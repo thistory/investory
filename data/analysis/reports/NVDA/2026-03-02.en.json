@@ -1,0 +1,308 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-02",
+  "currentPrice": 177.19,
+  "marketCap": "$4.31T",
+  "businessSummary": {
+    "oneLiner": "The undisputed king of AI computing  -  dominating global AI infrastructure with data center GPUs and AI accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. Q4 FY2026 revenue $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance of $78B (±2%) beat consensus by $5.4B. FY2026 annual revenue $215.9B (+65.5%). Shares fell a cumulative 7.2% over three sessions post-earnings, closing at $181.45 on February 28 amid tariff fears. GTC 2026 (March 16-19, San Jose) will feature the official Rubin GPU reveal. Goldman Sachs targets $250, JPMorgan $265, Barclays $275. P/E 36.16x, Forward P/E 21x, PEG 0.54.",
+    "howTheyMakeMoney": [
+      "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300)  -  ~91% of revenue",
+      "Gaming: GeForce RTX series GPUs and DLSS 4 technology",
+      "Automotive: DRIVE platform autonomous driving and vehicle AI chips",
+      "Professional Visualization: Quadro/RTX workstation GPUs",
+      "Software/Platform: CUDA ecosystem, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: Latest AI accelerator, 50x throughput vs Hopper, shipments projected to surge 129% YoY in 2026",
+      "Blackwell B200/GB200: Sold-out demand across hyperscalers",
+      "H100/H200 Tensor Core GPU: AI industry standard",
+      "Rubin R200: Next-gen GPU, official reveal at GTC 2026 (March 16-19)",
+      "CUDA: 15M+ developer GPU computing platform",
+      "DGX/HGX Systems: Turnkey servers for large-scale AI training"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "36.16",
+      "interpretation": "Valuation compressed post-earnings. Attractive relative to growth profile"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.44",
+      "interpretation": "Based on FY2027 EPS $7.87. PEG 0.54 signals undervaluation vs growth"
+    },
+    {
+      "name": "Revenue Growth",
+      "value": "+65.5% (FY2026)",
+      "interpretation": "$215.9B record revenue. FY2027 consensus at +55.5%"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "60.4%",
+      "interpretation": "Industry-best. Reflects dominant position in AI accelerators"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.6B",
+      "interpretation": "P/FCF 44x. Exceptional cash generation engine"
+    },
+    {
+      "name": "Debt/Equity",
+      "value": "0.13",
+      "interpretation": "Pristine balance sheet. Net cash $43.2B"
+    },
+    {
+      "name": "ROE",
+      "value": "119.14%",
+      "interpretation": "Ultra-high profitability with maximum capital efficiency"
+    },
+    {
+      "name": "PEG",
+      "value": "0.54",
+      "interpretation": "Clearly undervalued relative to growth. Core of the Goldman, JPMorgan bull thesis"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Q4 FY2026 Record Earnings  -  13 Consecutive Beats",
+      "description": "Revenue $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance $78B beats consensus by $5.4B. 'Customers are racing to invest in AI'  -  Jensen Huang."
+    },
+    {
+      "title": "Seeking Alpha: 'The Berkshire Hathaway of AI'",
+      "description": "NVDA's platform strategy (CUDA, hardware, software) compared to Berkshire's conglomerate model. $250+ price target."
+    },
+    {
+      "title": "CICC Research Positive Forecast + PEG 0.54",
+      "description": "CICC issued positive price forecast. P/E 36.16, PEG 0.54  -  undervalued vs growth rate."
+    },
+    {
+      "title": "Hyperscaler CapEx ~$700B  -  AI Infrastructure Spending Accelerating",
+      "description": "Alphabet, Amazon, Meta, Microsoft combined 2026 CapEx ~$700B. Multi-year, millions-of-GPUs partnership with Meta."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA ecosystem (15M+ developers), annual architecture refresh, overwhelming NVLink performance, 80%+ AI accelerator market share maintaining de facto monopoly.",
+    "moats": [
+      {
+        "type": "Software Ecosystem (Switching Costs)",
+        "description": "CUDA has 15+ year history. 15M+ developers optimized for NVIDIA."
+      },
+      {
+        "type": "Technology Leadership",
+        "description": "Hopper→Blackwell→Rubin annual architecture refresh. GB300 is 50x more efficient than Hopper."
+      },
+      {
+        "type": "Supply Chain Lock-in",
+        "description": "Secured majority of TSMC's advanced CoWoS packaging capacity."
+      },
+      {
+        "type": "Strategic Partnerships",
+        "description": "Multi-year partnerships with Meta, OpenAI, Eli Lilly and others."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350 at 10-12% AI accelerator market share. MI450 (2nm) planned."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 launched but negligible market share."
+      },
+      {
+        "name": "Custom Silicon",
+        "detail": "Google TPU, Amazon Trainium, Microsoft Maia  -  hyperscalers accelerating in-house chip development."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "NVIDIA alternative in China. Export restrictions limiting NVIDIA's China share."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-01",
+      "headline": "NVIDIA, 글로벌 통신사와 6G AI-Native 플랫폼 구축 발표 (MWC 바르셀로나)",
+      "significance": "BT Group, Cisco, Deutsche Telekom, Ericsson, Nokia 등과 함께 개방형 AI-네이티브 6G 플랫폼 구축 약속. 통신 인프라 AI 가속기 시장 확장.",
+      "url": "https://www.globenewswire.com/news-release/2026/03/01/3246916/0/en/NVIDIA-and-Global-Telecom-Leaders-Commit-to-Build-6G-on-Open-and-Secure-AI-Native-Platforms.html"
+    },
+    {
+      "date": "2026-03-01",
+      "headline": "Motley Fool: \"3월에 NVDA가 여전히 저평가인 3가지 이유\"",
+      "significance": "P/E 39.9x에서 고마진 수익, 미래 수익 성장 잠재력, 자사주 매입 확대를 근거로 저평가 주장.",
+      "url": "https://www.fool.com/investing/2026/03/01/reasons-why-nvidia-stock-undervalued-buy/"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "트럼프 관세 및 중국 반도체 수출 제한  -  NVDA 1.88% 추가 하락",
+      "significance": "Trump 행정부의 반도체 관세(15~20%) 및 AI 칩 수출 규제 강화 우려로 $181.45까지 하락. 공급망 비용 증가, 중국 매출 제한 리스크 부각.",
+      "url": "https://tradersunion.com/news/financial-news/show/1578597-nvidia-drops-1-88percent-to-usd181-45/"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Goldman Sachs $250, JPMorgan $265, Barclays $275  -  기관 목표가 일제히 상향",
+      "significance": "Goldman Sachs Buy($250), JPMorgan Overweight($265), Barclays Overweight($275). JPMorgan 애널리스트 Harlan Sur, NVDA를 '코일 스프링(coiled spring)'으로 표현.",
+      "url": "https://www.cnbc.com/2026/02/26/nvidia-posted-another-blockbuster-quarter-one-analyst-says-the-stock-is-a-coiled-spring.html"
+    },
+    {
+      "date": "2026-02-27",
+      "headline": "GTC 2026 컨퍼런스 3월 16-19일 확정  -  Rubin GPU 공식 공개 예정",
+      "significance": "산호세에서 열리는 GTC 2026에서 Jensen Huang이 차세대 Rubin(R200) 및 Feynman 아키텍처 공개 예정. GB300 출하량 2026년 129% YoY 급증 전망.",
+      "url": "https://www.tweaktown.com/news/107448/nvidia-gtc-2026-confirmed-for-march-16-19-expect-blackwell-rubin-feynman-gpus-but-no-geforce/index.html"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Motley Fool: '73% 매출 성장에도 왜 주가가 빠졌나'",
+      "significance": "어닝 후 하락 원인 분석  -  고객 집중도, AI 버블 우려, 인플레이션 쇼크 복합 작용.",
+      "url": "https://www.fool.com/investing/2026/02/28/heres-why-nvidia-stock-fell-even-after-reporting-7/"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Seeking Alpha: 'NVDA, AI 시대의 Berkshire Hathaway  -  $250+ 전망'",
+      "significance": "플랫폼 전략의 복합 가치 창출력을 Berkshire에 비유. 최근 하락은 '미스프라이싱'으로 평가.",
+      "url": "https://seekingalpha.com/article/4876384-nvidia-becoming-the-berkshire-of-technology-is-bullish-for-shareholders"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Simply Wall St: '풀백 후 NVDA 투자 검토할 시점인가'",
+      "significance": "장기 가치 대비 현재가 매력도 분석. 밸류에이션 프레임워크 제시.",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/is-it-too-late-to-consider-nvidia-nvda-after-recent-share-pr"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.03,
+    "highTarget": 352,
+    "lowTarget": 155,
+    "upsidePercent": 48.45,
+    "buyCount": 60,
+    "holdCount": 3,
+    "sellCount": 1,
+    "notableComment": "64명 애널리스트 중 60명 Buy. Goldman Sachs $250, JPMorgan $265('코일 스프링'), Barclays $275. Forward P/E 21x에 PEG 0.54  -  '기가 막히게 싸다'는 평가 지배적."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Trump Tariffs and Tightening Chip Export Controls",
+      "description": "Proposed 15-20% semiconductor tariffs and stricter AI chip restrictions to China directly threaten supply chain costs and constrain China revenue. A key overhang with no near-term resolution."
+    },
+    {
+      "severity": "high",
+      "title": "CoreWeave Miss  -  Customer Concentration Risk Back in Focus",
+      "description": "CoreWeave's guidance shortfall revived questions about NVDA's dependence on a narrow set of cloud customers. Concentration in top buyers amplifies revenue volatility."
+    },
+    {
+      "severity": "medium",
+      "title": "Both 50-Day and 200-Day SMAs Breached  -  Technical Weakness",
+      "description": "Shares sit below both the 50-day SMA ($186.43) and 200-day SMA ($183.86). Moving average signals skew bearish in the short term, with further downside possible before stabilization."
+    },
+    {
+      "severity": "medium",
+      "title": "Inflation Surprise  -  Rate Cut Expectations Pushed Out",
+      "description": "PPI came in above consensus. Higher-for-longer rates compress growth stock multiples and add a macro headwind to NVDA's valuation."
+    },
+    {
+      "severity": "medium",
+      "title": "Big Tech Custom Chips Accelerating",
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia are scaling. Long-term, this could erode NVIDIA's addressable market among hyperscalers."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "GTC 2026 (March 16-19)  -  A Major Catalyst Two Weeks Out",
+      "rationale": "Jensen Huang will officially unveil the Rubin (R200) architecture at GTC 2026, promising 5x performance gains over Blackwell. Event-driven re-rating is a realistic near-term scenario."
+    },
+    {
+      "title": "Forward P/E 21x, PEG 0.54  -  Historically Cheap for This Growth Rate",
+      "rationale": "A cumulative 7% post-earnings drop pushed Forward P/E to 21x. PEG 0.54 for a 55%+ growth company is rare by any historical measure."
+    },
+    {
+      "title": "'Berkshire of AI' and 'Coiled Spring'  -  Institutional Conviction Intact",
+      "rationale": "Seeking Alpha's Berkshire thesis, JPMorgan's coiled-spring language, Goldman $250, Barclays $275. The institutional buy case has not wavered despite the selloff."
+    },
+    {
+      "title": "60 of 64 Analysts Buy  -  Consensus $272 (+50%)",
+      "rationale": "Overwhelming buy-side support. GB300 shipments up 129% YoY in 2026, agentic AI demand accelerating  -  the earnings momentum thesis remains fully intact."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.18,
+    "week52Low": 86.6,
+    "currentPositionPercent": 72.1,
+    "sma50": 186.43,
+    "sma50Signal": "below",
+    "sma200": 183.86,
+    "sma200Signal": "below",
+    "rsi": 38.0,
+    "rsiSignal": "oversold_approaching"
+  },
+  "overallOpinion": [
+    "Feb 27 close $177.19 (-4.16%), post-earnings 4-day cumulative -11.2%. Below 50-day ($186) and 200-day ($184) MAs. MWC 6G AI-Native platform announcement signals telecom AI infrastructure expansion. GTC 2026 (3/16, San Jose) with Rubin R200 reveal is the biggest catalyst",
+    "Goldman Sachs $250, JPMorgan $265 ('coiled spring'), Barclays $275. 60/64 analysts Buy, consensus $263 (+48%). Forward P/E 21.5x, PEG 0.54 — historically cheap for a 55% growth company",
+    "$177.19, RSI 38 approaching oversold. Testing $176 support. 200-day MA $184 recovery is the key short-term pivot"
+  ],
+  "sources": [
+    {
+      "name": "Traders Union",
+      "url": "https://tradersunion.com/news/financial-news/show/1578597-nvidia-drops-1-88percent-to-usd181-45/",
+      "description": "Trump tariffs and export controls  -  NVDA down 1.88% to $181.45"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/nvidia-posted-another-blockbuster-quarter-one-analyst-says-the-stock-is-a-coiled-spring.html",
+      "description": "JPMorgan 'coiled spring' call, post-earnings analyst targets"
+    },
+    {
+      "name": "TipRanks",
+      "url": "https://www.tipranks.com/news/goldman-sachs-and-jpmorgan-raise-nvidia-price-target-to-250-after-strong-quarter",
+      "description": "Goldman Sachs and JPMorgan raise NVDA price targets post-earnings"
+    },
+    {
+      "name": "Tweaktown",
+      "url": "https://www.tweaktown.com/news/107448/nvidia-gtc-2026-confirmed-for-march-16-19-expect-blackwell-rubin-feynman-gpus-but-no-geforce/index.html",
+      "description": "GTC 2026 confirmed March 16-19, Rubin GPU reveal expected"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4876384-nvidia-becoming-the-berkshire-of-technology-is-bullish-for-shareholders",
+      "description": "NVDA as the Berkshire Hathaway of AI  -  $250+ thesis"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/02/28/heres-why-nvidia-stock-fell-even-after-reporting-7/",
+      "description": "Analysis of why the stock fell despite 73% revenue growth"
+    },
+    {
+      "name": "WCCFTech",
+      "url": "https://wccftech.com/nvidia-blackwell-ultra-ai-servers-to-lead-the-ai-infrastructure-race-moving-into-2026/",
+      "description": "GB300 shipments to surge 129% YoY in 2026, agentic AI demand"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/",
+      "description": "Blackwell Ultra delivers 50x better performance, 35x lower cost for agentic AI"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "Analyst consensus forecast $271.86"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "description": "NVDA daily price history"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA $177, 6G announcement yet still falling — GTC in 2 weeks",
+      "text": "$NVDA (3/2) Post-earnings 4-day slide: -11.2%. $177.19 near $176 support. MWC 6G AI-Native platform with global telcos announced, but tariff headwinds dominated. Forward P/E 21.5x, PEG 0.54. Historically cheapest for a 55% grower — can GTC Rubin R200 on 3/16 trigger the reversal? investory.kro.kr/stock/NVDA/analysis/2026-03-02"
+    },
+    "telegram": {
+      "hook": "NVDA $177.19 — 6G announcement vs tariff headwinds, GTC D-14",
+      "text": "NVIDIA Daily Analysis (3/2)\n\nPrice: $177.19 (-4.16%)\nMkt Cap: $4.31T | P/E: 36x | Fwd P/E: 21.5x | PEG: 0.54\n\nKey Issues:\n- Post-earnings 4-day cumulative -11.2%. Trump tariffs (15-20%) persistent pressure\n- MWC: 6G AI-Native platform with BT, Cisco, Deutsche Telekom, Ericsson, Nokia\n- Motley Fool: \"3 reasons NVDA still undervalued in March\"\n- 3/16 GTC 2026: Rubin R200 reveal (biggest catalyst)\n- GB300 shipments 2026 +129% YoY surge\n\nTechnicals: 50-day $186, 200-day $184 breached, RSI 38, testing $176 support\nAnalysts: Consensus $263 (+48%), 60 Buy / 3 Hold / 1 Sell\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-02"
+    }
+  }
+}
