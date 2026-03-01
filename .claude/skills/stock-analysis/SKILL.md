@@ -155,14 +155,15 @@ Write collected data as JSON in the following structure:
     "rsiSignal": "neutral"        // "oversold" | "overbought" | "neutral"
   },
 
-  // Overall opinion (bullet-point list, 3-5 items)
+  // Overall opinion (bullet-point list, 3-4 items, TOTAL 350-400 chars in Korean)
+  // CONCISE: each point is 1 sentence with key numbers. No filler, no repetition.
   // Order: catalysts/events/macro FIRST → price/technicals LAST
   //   Top: news, key events, catalysts, bull/bear cases, macro impact, company events
   //   Bottom: price levels, valuation metrics, technical analysis (SMA, RSI, etc.)
   "overallOpinion": [
-    "News/event/catalyst point (why it matters for investors)",
-    "Bull or bear case, macro impact, company event",
-    "Price, valuation, and technical position (always last)"
+    "핵심 이벤트/카탈리스트 + 수치 (1문장)",
+    "호재 또는 악재 요약 + 수치 (1문장)",
+    "가격, 밸류에이션, 기술적 포지션 (항상 마지막, 1문장)"
   ],
 
   // Sources (minimum 8)
