@@ -156,10 +156,13 @@ Write collected data as JSON in the following structure:
   },
 
   // Overall opinion (bullet-point list, 3-5 items)
+  // Order: catalysts/events/macro FIRST → price/technicals LAST
+  //   Top: news, key events, catalysts, bull/bear cases, macro impact, company events
+  //   Bottom: price levels, valuation metrics, technical analysis (SMA, RSI, etc.)
   "overallOpinion": [
-    "Point 1",
-    "Point 2",
-    "Point 3"
+    "News/event/catalyst point (why it matters for investors)",
+    "Bull or bear case, macro impact, company event",
+    "Price, valuation, and technical position (always last)"
   ],
 
   // Sources (minimum 8)
@@ -189,7 +192,7 @@ Good (읽기 쉬운 문장):
 - FSD가 네덜란드에서 EU 승인을 획득, 유럽 확장 발판
 ```
 
-**em dash (`—`) 절대 금지.** 콤마(`,`), 마침표(`.`), 괄호(`()`), 콜론(`:`)으로 대체.
+**em dash (`—`), 가운뎃점(`·`) 절대 금지.** 콤마(`,`), 마침표(`.`), 괄호(`()`), 콜론(`:`)으로 대체. 항목 나열 시 `·` 대신 콤마(`,`)를 사용하라.
 
 #### SNS Content Quality Guidelines
 
@@ -197,13 +200,13 @@ Good (읽기 쉬운 문장):
 
 snsContent는 별도로 창작하는 것이 아니라, **`overallOpinion` 필드의 내용을 SNS 톤으로 변환**한 것이어야 한다. overallOpinion의 핵심 포인트, 수치, 맥락을 그대로 살리되, SNS에서 읽히는 문체로 바꿔라.
 
-1. **Source: overallOpinion**: snsContent의 본문은 반드시 `overallOpinion`의 핵심 포인트들을 기반으로 작성하라. 새로운 내용을 추가하거나 overallOpinion에 없는 관점을 넣지 마라.
+1. **Source: overallOpinion**: snsContent의 본문은 반드시 `overallOpinion`의 핵심 포인트들을 기반으로 작성하라. 새로운 내용을 추가하거나 overallOpinion에 없는 관점을 넣지 마라. overallOpinion의 순서(뉴스/이벤트/카탈리스트 → 가격/기술적 분석)를 그대로 따라라.
 2. **Adapt, don't copy**: overallOpinion을 그대로 복붙하지 마라. SNS에 맞게 문체를 바꿔라. 딱딱한 분석 톤 → 짧고 임팩트 있는 문장, 불릿 포인트 활용, 핵심 수치 강조.
 3. **Keep the substance**: 톤은 바꾸되 내용의 깊이는 유지하라. overallOpinion에 있는 수치(목표가, P/E, 이평선 등), 카탈리스트, 리스크를 빠뜨리지 마라.
 4. **Engagement layer**: overallOpinion의 내용 위에 SNS적 요소를 입혀라. 질문형 마무리, 이모지(Threads), 대비/아이러니 활용 등.
 
 > **English version of the same rules:**
-> 1. **Source: overallOpinion**: The snsContent body must be based on the `overallOpinion` field's key points. Do not add new insights or perspectives absent from overallOpinion.
+> 1. **Source: overallOpinion**: The snsContent body must be based on the `overallOpinion` field's key points. Do not add new insights or perspectives absent from overallOpinion. Follow the same ordering (news/events/catalysts first, price/technicals last).
 > 2. **Adapt, don't copy**: Don't paste overallOpinion verbatim. Rewrite in SNS-friendly style: shorter sentences, bullet points, emphasized key figures.
 > 3. **Keep the substance**: Change the tone, not the depth. Retain all numbers (targets, P/E, SMAs), catalysts, and risks from overallOpinion.
 > 4. **Engagement layer**: Layer SNS elements on top of overallOpinion content: closing questions, emojis (Threads), contrast/irony framing.
@@ -222,7 +225,7 @@ ${SYMBOL} ({M/D})
 핵심: {가장 중요한 변수}
 
 평균 목표가 ${avg target} (현재가 ${current price} 대비 +{upside}%)
-{밸류에이션 지표 1} · {지표 2}
+{밸류에이션 지표 1}, {지표 2}
 
 {종합 의견에서 한줄 요약}
 ```
@@ -243,7 +246,7 @@ ${SYMBOL} ({Mon D})
 Key: {Most important variable}
 
 Avg Target ${target} (vs current ${price}, +{upside}%)
-{Valuation metric 1} · {Metric 2}
+{Valuation metric 1}, {Metric 2}
 
 {One-line summary from overall opinion}
 ```
@@ -303,7 +306,7 @@ $TSLA (2/23)
 ⚠️ 로보택시에서 5건의 추가 충돌이 보고되며 안전성 논란이 재부각. Waymo가 $160억을 조달하면서 경쟁도 치열해지는 중
 xAI 투자 이해충돌 주주 소송이 가열되고 있어 경영 리스크로 작용 가능
 
-종가 $411 | P/E 407x | Forward P/E 210x | 목표가 $480(+17%)
+종가 $411, P/E 407x, Forward P/E 210x, 목표가 $480(+17%)
 4월 Cybercab 양산과 Optimus v3 Q1 공개가 상반기 핵심 카탈리스트
 ```
 
@@ -317,7 +320,7 @@ $TSLA (Feb 23)
 ⚠️ 5 more robotaxi crashes reported, reigniting safety concerns. Waymo's $16B raise intensifies the competitive landscape
 xAI investment conflict draws shareholder lawsuits, adding governance risk
 
-Close $411 | P/E 407x | Fwd P/E 210x | Target $480 (+17%)
+Close $411, P/E 407x, Fwd P/E 210x, Target $480 (+17%)
 April Cybercab ramp and Q1 Optimus v3 unveil are the key H1 catalysts
 ```
 
@@ -334,7 +337,7 @@ FSD가 네덜란드에서 EU 승인을 따냈고, Cybercab은 4월에 핸들도 
 
 P/E 407배는 숫자가 아니라 일종의 믿음 체계다. 그런데 리테일 투자자 40%가 그 믿음에 동참 중이고, 떨어질 때마다 오히려 더 사고 있다.
 
-종가 $411 | 목표가 $480(+17%) | 4월 양산이 다음 심판의 날
+종가 $411, 목표가 $480(+17%), 4월 양산이 다음 심판의 날
 ```
 
 English example:
@@ -346,7 +349,7 @@ FSD just got EU approval in the Netherlands, and Cybercab rolls out in April wit
 
 P/E at 407x isn't a valuation, it's a belief system. And 40% retail ownership means a lot of believers are buying every dip.
 
-Close $411 | Target $480 (+17%) | April production is judgment day
+Close $411, Target $480 (+17%), April production is judgment day
 ```
 
 **Key:** Each sentence leads naturally into the next. The humor comes from juxtaposition (upgrade vs crash, no steering wheel), not from random emoji or slang. But even the jokes carry real data points the reader can use.
@@ -388,13 +391,13 @@ You're not alone though. Retail investors own 40% of the float and have been buy
 - All tones must include investment-useful context: catalysts, key price levels, risk/reward framing
 - Write content that makes people want to stop scrolling and read the full analysis
 - No links in tone text (the share button appends the URL automatically)
-- No em dashes anywhere
+- No em dashes or interpuncts (`·`) anywhere
 
 ## Writing Guidelines
 
 ### General
 
-- **No em dashes (`—`)**: Do not use em dashes anywhere in report text, snsContent, or any other output. Use commas (`,`), periods (`.`), parentheses (`()`), or colons (`:`) instead.
+- **No em dashes (`—`) or interpuncts (`·`)**: Do not use em dashes or middle dots (interpuncts) anywhere in report text, snsContent, or any other output. Use commas (`,`), periods (`.`), parentheses (`()`), or colons (`:`) instead. For listing items, use commas, not `·` or `|`.
 
 ### Korean Report (.json)
 
