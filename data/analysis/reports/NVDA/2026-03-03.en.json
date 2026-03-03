@@ -1,0 +1,290 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-03",
+  "currentPrice": 182.48,
+  "marketCap": "$4.43T",
+  "businessSummary": {
+    "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with data center GPUs and AI accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. Q4 FY2026 revenue $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance of $78B (±2%) beat consensus by $5.4B. FY2026 annual revenue $215.9B (+65.5%). Mar 2 close $182.48 (+2.99%) recovering some post-earnings decline. Announced $2B investments each in Lumentum and Coherent for photonics AI infrastructure. GTC 2026 (Mar 16-19) Rubin GPU reveal imminent. P/E 37.24x, Forward P/E 22.14x, PEG 0.54.",
+    "howTheyMakeMoney": [
+      "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300) — ~91% of revenue",
+      "Gaming: GeForce RTX series GPUs and DLSS 4 technology",
+      "Automotive: DRIVE platform autonomous driving and vehicle AI chips",
+      "Professional Visualization: Quadro/RTX workstation GPUs",
+      "Software/Platform: CUDA ecosystem, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: Latest AI accelerator, 50x throughput vs Hopper, shipments projected to surge 129% YoY in 2026",
+      "Blackwell B200/GB200: Sold-out demand across hyperscalers",
+      "H100/H200 Tensor Core GPU: AI industry standard",
+      "Rubin R200: Next-gen GPU, official reveal at GTC 2026 (Mar 16-19)",
+      "CUDA: 15M+ developer GPU computing platform",
+      "DGX/HGX Systems: Turnkey servers for large-scale AI training"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "37.24",
+      "interpretation": "Slightly up on +2.99% rebound. Still reasonable relative to growth"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "22.14",
+      "interpretation": "Based on FY2027 EPS $7.87. PEG 0.54 signals undervaluation vs growth"
+    },
+    {
+      "name": "Revenue Growth",
+      "value": "+65.5% (FY2026)",
+      "interpretation": "$215.9B record revenue. FY2027 consensus at +55.5%"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "60.4%",
+      "interpretation": "Industry-best. Reflects dominant position in AI accelerators"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.7B",
+      "interpretation": "P/FCF 45.8x. Exceptional cash generation engine"
+    },
+    {
+      "name": "Debt/Equity",
+      "value": "0.13",
+      "interpretation": "Pristine balance sheet. Net cash $43.2B"
+    },
+    {
+      "name": "ROE",
+      "value": "119.14%",
+      "interpretation": "Ultra-high profitability with maximum capital efficiency"
+    },
+    {
+      "name": "PEG",
+      "value": "0.54",
+      "interpretation": "Clearly undervalued relative to growth. Core of Goldman, JPMorgan bull thesis"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Lumentum & Coherent $2B Each — Photonics Strategy for AI Processors",
+      "description": "NVIDIA investing $2B each in photonic product makers Lumentum and Coherent, integrating photonic technology into data center chips for next-gen AI infrastructure."
+    },
+    {
+      "title": "GTC 2026 (Mar 16-19) — Rubin R200 Reveal D-14",
+      "description": "Jensen Huang to officially unveil next-gen Rubin (R200) architecture at GTC San Jose. 5x performance over Blackwell. Event-driven re-rating realistic."
+    },
+    {
+      "title": "Q4 FY2026 Record Earnings — 13 Consecutive Beats, Q1 Guide $78B",
+      "description": "Revenue $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance $78B (±2%) beat consensus by $5.4B. 'Customers are racing to invest in AI' — Jensen Huang."
+    },
+    {
+      "title": "Hyperscaler CapEx ~$700B — AI Infrastructure Spending Accelerating",
+      "description": "Alphabet, Amazon, Meta, Microsoft combined 2026 CapEx ~$700B. Multi-year, millions-of-GPUs partnership with Meta."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA ecosystem (15M+ developers), annual architecture refresh, overwhelming NVLink performance, 80%+ AI accelerator market share maintaining de facto monopoly.",
+    "moats": [
+      {
+        "type": "Software Ecosystem (Switching Costs)",
+        "description": "CUDA has 15+ year history. 15M+ developers optimized for NVIDIA."
+      },
+      {
+        "type": "Technology Leadership",
+        "description": "Hopper→Blackwell→Rubin annual architecture refresh. GB300 is 50x more efficient than Hopper."
+      },
+      {
+        "type": "Supply Chain Lock-in",
+        "description": "Secured majority of TSMC's advanced CoWoS packaging capacity."
+      },
+      {
+        "type": "Strategic Partnerships",
+        "description": "Multi-year partnerships with Meta, OpenAI, Eli Lilly and others."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350 at 10-12% AI accelerator market share. MI450 (2nm) planned."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 launched but negligible market share."
+      },
+      {
+        "name": "Custom Silicon",
+        "detail": "Google TPU, Amazon Trainium, Microsoft Maia — hyperscalers accelerating in-house chip development."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "NVIDIA alternative in China. Export restrictions limiting NVIDIA's China share."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-02",
+      "headline": "NVIDIA Invests $2B Each in Lumentum and Coherent — Photonics AI Strategy",
+      "significance": "Integrating optical technology into data center chips for next-gen AI infrastructure competitiveness.",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "CNBC: 'NVDA is a Coiled Spring' After Blockbuster Quarter",
+      "significance": "Q1 guidance $78B beat consensus by $5.4B yet stock flat. GTC expected to be the rebound trigger.",
+      "url": "https://www.cnbc.com/2026/02/26/nvidia-posted-another-blockbuster-quarter-one-analyst-says-the-stock-is-a-coiled-spring.html"
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Trump Tariffs and Export Controls — NVDA Down -7.2% Over 3 Days",
+      "significance": "Semiconductor tariffs (15-20%) and tightened AI chip export restrictions weighing on shares.",
+      "url": "https://tradersunion.com/news/financial-news/show/1578597-nvidia-drops-1-88percent-to-usd181-45/"
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "NVDA +2.99% Rebound — $182.48 Recovering Post-Earnings Decline",
+      "significance": "First rebound after 3-day -7.2% drop. Lumentum/Coherent investment announcement improved sentiment.",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    },
+    {
+      "date": "2026-02-27",
+      "headline": "GTC 2026 (Mar 16-19) Confirmed — Rubin GPU Reveal, GB300 Shipment Surge",
+      "significance": "Rubin R200 and Feynman architecture reveal at GTC San Jose. GB300 shipments up 129% YoY in 2026.",
+      "url": "https://www.tweaktown.com/news/107448/nvidia-gtc-2026-confirmed-for-march-16-19-expect-blackwell-rubin-feynman-gpus-but-no-geforce/index.html"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.03,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 44.14,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "36 of 38 analysts Buy. Citi $300, Bernstein $300, JPMorgan $265 ('coiled spring'), Morgan Stanley $260. Forward P/E 22x with PEG 0.54 — consensus is 'historically cheap'."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Trump Tariffs and Tightening Chip Export Controls",
+      "description": "Proposed 15-20% semiconductor tariffs and stricter AI chip restrictions to China directly threaten supply chain costs and constrain China revenue."
+    },
+    {
+      "severity": "high",
+      "title": "CoreWeave Miss — Customer Concentration Risk",
+      "description": "CoreWeave's guidance shortfall revived questions about NVDA's dependence on a narrow set of cloud customers."
+    },
+    {
+      "severity": "medium",
+      "title": "Below 50-Day SMA — Technical Weakness Persists",
+      "description": "Shares below 50-day SMA. Short-term moving average signals skew bearish, though 200-day MA recovered."
+    },
+    {
+      "severity": "medium",
+      "title": "Inflation Surprise — Rate Cut Expectations Pushed Out",
+      "description": "PPI above consensus. Higher-for-longer rates compress growth stock multiples."
+    },
+    {
+      "severity": "medium",
+      "title": "Big Tech Custom Chips Accelerating",
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia scaling. Could erode NVIDIA's addressable market among hyperscalers."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "GTC 2026 (Mar 16-19) — Major Catalyst Two Weeks Out",
+      "rationale": "Jensen Huang to officially unveil Rubin R200 with 5x performance over Blackwell. Event-driven re-rating realistic."
+    },
+    {
+      "title": "Forward P/E 22x, PEG 0.54 — Historically Cheap",
+      "rationale": "Post-earnings pullback pushed Forward P/E to 22x. PEG 0.54 for a 55%+ growth company is rare by any historical measure."
+    },
+    {
+      "title": "Lumentum & Coherent $4B Strategic Investment — Long-Term Vision",
+      "rationale": "Photonics investment strengthens next-gen data center chip competitiveness. Reinforces long-term technology leadership commitment."
+    },
+    {
+      "title": "36 of 38 Analysts Buy — Consensus $263 (+44%)",
+      "rationale": "Overwhelming buy-side support. GB300 shipments up 129% YoY, agentic AI demand accelerating."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 76.32,
+    "sma50": 186.0,
+    "sma50Signal": "below",
+    "sma200": 170.0,
+    "sma200Signal": "above",
+    "rsi": 45.0,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Mar 2 close $182.48 (+2.99%). First rebound after 3-day -7.2% decline. $2B each investment in Lumentum and Coherent expands photonics AI infrastructure strategy. GTC 2026 (3/16) Rubin R200 reveal D-14.",
+    "36 of 38 analysts Buy. Citi and Bernstein $300, JPMorgan $265. Forward P/E 22x, PEG 0.54 — historically cheap for a 55% grower. Q1 guidance $78B confirms earnings momentum.",
+    "$182.48, recovered above 200-day MA, testing 50-day $186. RSI neutral. Technical rebound momentum forming ahead of GTC."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
+      "description": "NVIDIA $2B each investment in Lumentum and Coherent"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/nvidia-posted-another-blockbuster-quarter-one-analyst-says-the-stock-is-a-coiled-spring.html",
+      "description": "JPMorgan 'coiled spring' call, post-earnings analysis"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "description": "NVDA analyst consensus and price targets"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA real-time price and overview"
+    },
+    {
+      "name": "Tweaktown",
+      "url": "https://www.tweaktown.com/news/107448/nvidia-gtc-2026-confirmed-for-march-16-19-expect-blackwell-rubin-feynman-gpus-but-no-geforce/index.html",
+      "description": "GTC 2026 Mar 16-19 confirmed, Rubin GPU reveal"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NVDA/key-statistics/",
+      "description": "NVDA valuation and key financial metrics"
+    },
+    {
+      "name": "MacroTrends",
+      "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/pe-ratio",
+      "description": "NVDA P/E ratio history"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "NVDA analyst consensus $271.86"
+    },
+    {
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/news/zacks:1c18e5721094b:0-nvidia-vs-broadcom-the-smarter-ai-stock-to-buy-for-march-2026/",
+      "description": "NVDA vs AVGO March AI stock comparison"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4876384-nvidia-becoming-the-berkshire-of-technology-is-bullish-for-shareholders",
+      "description": "NVDA as the Berkshire Hathaway of AI thesis"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA $182, $4B invested in photonics — GTC D-14",
+      "text": "$NVDA (3/3) Rebounds +2.99% after 3-day -7.2% drop. $2B each invested in Lumentum & Coherent for photonics AI chips. Forward P/E 22x, PEG 0.54. GTC in 2 weeks with Rubin R200 reveal — historically cheap ahead of a major catalyst. Time to buy? investory.kro.kr/stock/NVDA/analysis/2026-03-03"
+    },
+    "telegram": {
+      "hook": "NVDA $182.48 — Rebound begins + $4B photonics bet + GTC D-14",
+      "text": "NVIDIA Daily Analysis (3/3)\n\nPrice: $182.48 (+2.99%)\nMkt Cap: $4.43T | P/E: 37.24x | Fwd P/E: 22.14x | PEG: 0.54\n\nKey Issues:\n- 💡 $2B each in Lumentum & Coherent — photonics for AI processors\n- 📈 First rebound (+2.99%) after 3-day -7.2% decline\n- 🎮 GTC 2026 (3/16-19): Rubin R200 reveal D-14\n- 🏭 Q1 guidance $78B → beat consensus by $5.4B\n- ⚠️ Tariffs (15-20%) + export controls overhang persists\n\nTechnicals: Recovered above 200-day MA, testing 50-day $186, RSI neutral\nAnalysts: Strong Buy, target $263 (+44%)\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-03"
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-03",
+  "currentPrice": 403.32,
+  "marketCap": "$1.51T",
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사에서 로보택시, 휴머노이드 로봇, 에너지 저장을 아우르는 'Physical AI 플랫폼'으로 전환 중",
+    "description": "Tesla는 EV 제조사에서 통합 AI, 로보틱스, 에너지 플랫폼 기업으로 빠르게 변모 중이다. FY2025 매출은 $94.8B으로 사상 첫 연간 매출 감소(-2.9%)를 기록했고, 순이익은 46.5% 급감했다. 프랑스와 노르웨이에서 2월 시장 점유율 반등, 유럽 2년 연속 하락 후 안정화 신호. Cybertruck 저가형 AWD가 강력한 수요로 배송 2027년으로 밀림. FSD 전환 정책 변경(3/31 마감), 2026 Model 3 인테리어 업그레이드 유출. P/E 374.83x, Forward P/E 153.78x.",
+    "howTheyMakeMoney": [
+      "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y가 핵심, Model S/X는 Q2 2026 단종",
+      "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack 유틸리티급 저장장치",
+      "서비스/기타: 매출의 ~13% ($12.5B). Supercharger 네트워크, 보험, 유지보수",
+      "FSD 구독: $99/월 자율주행 소프트웨어 (2026년 2월부터 구독 전용)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (핵심 EV)",
+      "Cybertruck (저가형 AWD 강수요로 2027 배송, Cyberbeast $99,990)",
+      "Cybercab (자율주행 로보택시, 2/17 첫 생산, $30,000)",
+      "Optimus (휴머노이드 로봇, Fremont 공장 전환 중)",
+      "Megapack (유틸리티급 에너지 저장, Megapack 3 및 Mega Block 2026 출시)",
+      "FSD (Full Self-Driving, 82억 마일 누적)"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "374.83",
+      "interpretation": "매출 감소에 따른 이익 급감으로 극도로 높은 밸류에이션. AI/로보택시 프리미엄 반영"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "153.78",
+      "interpretation": "FY2026 EPS $2.62 전망. 여전히 고평가 구간"
+    },
+    {
+      "name": "매출 성장률",
+      "value": "-2.9% (FY2025)",
+      "interpretation": "사상 첫 연간 매출 감소. FY2026 +11.25% 반등 전망"
+    },
+    {
+      "name": "영업이익률",
+      "value": "4.59%",
+      "interpretation": "FY2024 7.84%에서 하락. 가격 경쟁과 R&D 투자 확대 영향"
+    },
+    {
+      "name": "FCF",
+      "value": "$6.22B",
+      "interpretation": "P/FCF 243.32x. FY2024 $3.58B 대비 73.8% 증가"
+    },
+    {
+      "name": "부채비율",
+      "value": "0.18",
+      "interpretation": "매우 건전한 재무구조. 현금 $11.85/주"
+    },
+    {
+      "name": "ROE",
+      "value": "4.89%",
+      "interpretation": "이익 감소로 ROE 급감. FY2024 7.84% 대비 하락"
+    },
+    {
+      "name": "총이익률",
+      "value": "18.03%",
+      "interpretation": "FY2024 17.86% 대비 소폭 개선. 중국 가격 경쟁 속 유지"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "프랑스·노르웨이 시장 점유율 2월 반등 — 유럽 안정화 신호",
+      "description": "Reuters에 따르면 Tesla가 프랑스와 노르웨이에서 2월 점유율을 회복했다. 유럽에서 2년 연속 판매 하락 후 안정화 징후로, 2026 Model Y 리프레시가 기여."
+    },
+    {
+      "title": "Cybertruck 저가형 AWD 폭발적 수요 — 배송 2027년까지 밀림",
+      "description": "Tesla가 새로운 베이스 트림을 출시하며 강력한 수요가 발생, 예상 배송 시점이 2027년으로 밀렸다. Cybertruck 라인업 확장 전략 성공."
+    },
+    {
+      "title": "2026 Model 3 인테리어 업그레이드 유출",
+      "description": "EU/아시아태평양 2026 Model 3가 Model Y에서 빌린 새 스크린과 헤드라이너를 장착. 제품 경쟁력 강화."
+    },
+    {
+      "title": "FSD 전환 정책 변경 — 3월 31일 마감",
+      "description": "Tesla가 FSD 전환 정책을 변경하여 3/31까지 인수 필요. 구매 촉진 효과와 Q1 매출 부스트 기대."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 점유율 50%+ 1위, 글로벌은 BYD에 추월됨. 소프트웨어, 제조, 에너지 수직 통합과 82억 마일 자율주행 데이터가 핵심 해자.",
+    "moats": [
+      {
+        "type": "자율주행 데이터 해자",
+        "description": "FSD Supervised 82억 마일. 경쟁사 대비 압도적 학습 데이터셋."
+      },
+      {
+        "type": "수직 통합",
+        "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(Supercharger)."
+      },
+      {
+        "type": "충전 네트워크 효과",
+        "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian 등이 Tesla Supercharger 네트워크에 의존."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "BYD",
+        "detail": "2025 글로벌 EV 판매 1위. 유럽에서 급성장 중, 관세로 미국 진출 제한"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "$16B 펀딩, $126B 밸류에이션. 주간 40만 회+ 라이드"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "R2 SUV($45,000) 2026년 출시로 Model Y와 직접 경쟁"
+      },
+      {
+        "name": "Xiaomi",
+        "detail": "YU7 SUV가 중국에서 Model Y 대비 2:1 판매 비율"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-02",
+      "headline": "Tesla, 프랑스·노르웨이에서 2월 시장 점유율 회복",
+      "significance": "유럽 2년 연속 하락 후 안정화 신호. 2026년 긍정적 출발.",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/"
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "Forbes: Tesla 주가 다음 돌파 트리거는?",
+      "significance": "TSLA가 18회에 걸쳐 2개월 내 30%+ 랠리를 기록한 역사적 패턴 분석.",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-could-trigger-the-next-breakout-in-tesla-stock/"
+    },
+    {
+      "date": "2026-03-01",
+      "headline": "Cybertruck $59,990 저가형 단종, 새 베이스 트림 수요 폭발로 2027 배송",
+      "significance": "강력한 수요로 배송 시점이 2027년으로 밀림. Cybertruck 라인업 전략 성공.",
+      "url": "https://www.autoblog.com/news/teslas-59990-cybertruck-is-gone-heres-the-new-price"
+    },
+    {
+      "date": "2026-03-01",
+      "headline": "Tesla FSD 전환 정책 변경, 3월 31일까지 인수 필요",
+      "significance": "FSD 전환을 3/31 마감으로 설정하여 Q1 구매 촉진 효과.",
+      "url": "https://www.notateslaapp.com/news/3721/tesla-shifts-fsd-transfer-policy-leaving-buyers-out-in-the-cold"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "2026 Model 3 인테리어 대대적 업그레이드 유출 (EU/APAC)",
+      "significance": "Model Y에서 빌린 새 스크린, 헤드라이너 등으로 제품 경쟁력 강화.",
+      "url": "https://www.autoblog.com/news/leaked-2026-tesla-model-3-new-screen-headliner"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600,
+    "lowTarget": 25,
+    "upsidePercent": -1.78,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "30명 애널리스트 컨센서스 Hold. Dan Ives(Wedbush) $600 최고, GLJ Research $25 최저. Tigress Financial이 Strong Buy $550으로 커버 재개. Morgan Stanley $415 Hold 유지."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "유럽 13개월 연속 판매 감소 (1월 -17% YoY)",
+      "description": "유럽에서 1월까지 13개월 연속 하락세. BYD가 1월 등록 +165%로 격차 확대. Musk의 정치적 발언이 유럽 소비자 반감을 키우는 중."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 374.83x — 극도의 고평가 밸류에이션",
+      "description": "Forward P/E 153.78x로도 시장 대비 극도로 비쌈. EPS $1.08로 전년 대비 -47% 감소. 로보택시/AI 프리미엄이 정당화되지 않으면 급락 리스크."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 경쟁 심화 — Xiaomi, BYD 공세",
+      "description": "Xiaomi YU7이 중국에서 Model Y 대비 2:1 판매. BYD ATTO 3 등 저가 EV가 시장 잠식."
+    },
+    {
+      "severity": "medium",
+      "title": "FY2025 사상 첫 매출 감소와 이익 급감",
+      "description": "매출 -2.9%, 순이익 -46.5%. 영업이익률 4.59%로 하락세 지속. 가격 인하 전략의 부작용."
+    },
+    {
+      "severity": "medium",
+      "title": "Musk의 정치 리스크 — DOGE, 유럽 반감",
+      "description": "Elon Musk의 DOGE 참여와 정치적 발언이 유럽 소비자와 일부 미국 소비자 이탈을 가속화."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "유럽 안정화 시그널 — 프랑스·노르웨이 점유율 반등",
+      "rationale": "2년 연속 하락 후 2월 두 핵심 시장에서 점유율 회복. 2026 Model Y 리프레시와 가격 조정 효과."
+    },
+    {
+      "title": "Cybertruck 수요 폭발 — 2027년까지 밀린 배송",
+      "rationale": "새 베이스 트림 강력 수요로 배송 시점이 2027년으로 밀림. 라인업 확장 전략 성공 입증."
+    },
+    {
+      "title": "로보택시·AI 플랫폼 가치 — Cybercab 양산 시작",
+      "rationale": "Cybercab 4월 본격 양산, H1 중 9개 도시 로보택시 서비스 확장. Dan Ives $600 목표가의 핵심 논거."
+    },
+    {
+      "title": "에너지 사업 고성장 지속 — Megapack 3 출시 임박",
+      "rationale": "에너지 매출 $12.8B(+27% YoY). Megapack 3와 Mega Block 2026 출시로 고마진 성장 기대."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 66.41,
+    "sma50": 434.19,
+    "sma50Signal": "below",
+    "sma200": 390.62,
+    "sma200Signal": "above",
+    "rsi": 41.75,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "3/2 종가 $403.32(+0.20%). 프랑스·노르웨이 점유율 반등으로 유럽 안정화 시그널. Cybertruck 새 트림 수요 폭발로 2027년까지 배송 밀림. 2026 Model 3 인테리어 업그레이드 유출.",
+    "애널리스트 30명 중 16명 Buy, Hold 컨센서스. 평균 목표가 $396(-1.78%). Dan Ives $600 vs GLJ $25로 극단적 의견 대립. Forward P/E 153.78x로 고평가 지속.",
+    "50일선 $434 하회, 200일선 $391 상회. RSI 41.75 중립. $390 200일선 지지 여부가 단기 관건."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/",
+      "description": "Tesla 프랑스·노르웨이 2월 시장 점유율 반등"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-could-trigger-the-next-breakout-in-tesla-stock/",
+      "description": "Tesla 주가 다음 돌파 트리거 분석"
+    },
+    {
+      "name": "Autoblog",
+      "url": "https://www.autoblog.com/news/teslas-59990-cybertruck-is-gone-heres-the-new-price",
+      "description": "Cybertruck 저가형 단종, 새 트림 수요 폭발"
+    },
+    {
+      "name": "NotATeslaApp",
+      "url": "https://www.notateslaapp.com/news/3721/tesla-shifts-fsd-transfer-policy-leaving-buyers-out-in-the-cold",
+      "description": "FSD 전환 정책 변경, 3/31 마감"
+    },
+    {
+      "name": "Autoblog",
+      "url": "https://www.autoblog.com/news/leaked-2026-tesla-model-3-new-screen-headliner",
+      "description": "2026 Model 3 인테리어 업그레이드 유출"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/tsla/forecast/",
+      "description": "TSLA 애널리스트 컨센서스 및 목표가"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=TSLA",
+      "description": "TSLA 기술적 지표, 재무 데이터"
+    },
+    {
+      "name": "Stock Analysis Financials",
+      "url": "https://stockanalysis.com/stocks/tsla/financials/",
+      "description": "TSLA 손익계산서 및 재무제표"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/24/tesla-car-sales-elon-musk-europe-autos-trump-evs.html",
+      "description": "Tesla 유럽 문제 심화 분석"
+    },
+    {
+      "name": "TheStreet",
+      "url": "https://www.thestreet.com/automotive/tesla-gets-some-more-good-news-from-a-key-region",
+      "description": "Tesla 핵심 지역에서 좋은 소식"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA $403, 유럽 반등 시작? 사이버트럭은 2027년까지 품절",
+      "text": "$TSLA (3/3) 프랑스·노르웨이서 2월 점유율 반등 — 유럽 2년 하락 후 첫 안정화 신호. Cybertruck 새 트림 수요 폭발로 2027년까지 밀림. 2026 Model 3 인테리어 업그레이드도 유출. P/E 374x 부담이지만, 로보택시 양산이 시작된 지금... 바닥인가? investory.kro.kr/stock/TSLA/analysis/2026-03-03"
+    },
+    "telegram": {
+      "hook": "TSLA $403.32 — 유럽 반등 + 사이버트럭 폭발 수요",
+      "text": "Tesla 일일 분석 (3/3)\n\n현재가: $403.32 (+0.20%)\n시총: $1.51T | P/E: 374.83x | Fwd P/E: 153.78x\n\n핵심 이슈:\n- 🇫🇷🇳🇴 프랑스·노르웨이 2월 점유율 반등 (2년 하락 후 첫 안정화)\n- 🛻 Cybertruck 새 트림 수요 폭발 → 배송 2027년까지 밀림\n- 🚗 2026 Model 3 인테리어 대규모 업그레이드 유출\n- ⚡ FSD 전환 정책 변경, 3/31 마감 → Q1 매출 부스트\n- 🇪🇺 유럽 1월까지 13개월 연속 하락은 여전히 부담\n\n기술적: 50일선 $434 하회, 200일선 $391 상회, RSI 41.75\n애널리스트: Hold 컨센서스, 목표가 $396 (-1.78%)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-03"
+    }
+  }
+}
