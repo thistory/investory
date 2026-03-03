@@ -1,0 +1,112 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-04",
+  "currentPrice": 392.50,
+  "marketCap": "$1.47T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker pivoting to a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B, marking its first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. On 3/3, US-Israel joint strikes on Iran and the Strait of Hormuz blockade triggered a broad sell-off in growth stocks, pushing TSLA down -2.7%. Rising oil prices have simultaneously sparked discussion about EV's relative attractiveness. Cybertruck AWD explosive demand, FSD transfer 3/31 deadline, and 2026 Model 3 upgrade leaks continue. P/E 364.71x, Forward P/E 149.62x.",
+    "howTheyMakeMoney": [
+      "Vehicle Sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD Subscription: $99/month autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (Core EVs)",
+      "Cybertruck (New base AWD with explosive demand, deliveries pushed to 2027)",
+      "Cybercab (Autonomous robotaxi, first production 2/17, $30,000)",
+      "Optimus (Humanoid robot, Fremont factory conversion underway)",
+      "Megapack (Utility-scale energy storage, Megapack 3 and Mega Block launching 2026)",
+      "FSD (Full Self-Driving, 8.2 billion cumulative miles)"
+    ]
+  },
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "364.71", "interpretation": "Extremely elevated due to earnings decline. Reflects AI/robotaxi premium" },
+    { "name": "Forward P/E", "value": "149.62", "interpretation": "Based on FY2026 EPS $2.62 forecast. Still in overvalued territory" },
+    { "name": "Revenue Growth", "value": "-2.9% (FY2025)", "interpretation": "First-ever annual revenue decline. FY2026 +11.25% rebound expected" },
+    { "name": "Operating Margin", "value": "5.11%", "interpretation": "Down from 7.84% in FY2024. Price competition and R&D expansion impact" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "P/FCF 236.75x. Up 73.8% from FY2024's $3.58B" },
+    { "name": "Debt/Equity", "value": "0.18", "interpretation": "Very healthy balance sheet. Cash $11.85/share" },
+    { "name": "ROE", "value": "4.89%", "interpretation": "Declined sharply with earnings. Down from 7.84% in FY2024" },
+    { "name": "Gross Margin", "value": "18.03%", "interpretation": "Slight improvement from FY2024's 17.86%. Holding up despite China price war" }
+  ],
+  "growthDrivers": [
+    { "title": "Oil Price Surge → Potential EV Attractiveness Boost", "description": "Iran-Hormuz blockade driving oil prices higher. Rising gasoline costs could accelerate EV adoption." },
+    { "title": "Cybertruck New Base AWD Explosive Demand — Deliveries Pushed to 2027", "description": "Tesla's new base trim saw such strong demand that delivery timelines were pushed to 2027." },
+    { "title": "France & Norway Market Share Rebounds in February", "description": "Per Reuters, Tesla regained market share in France and Norway in February. First stabilization after two years of European decline." },
+    { "title": "FSD Transfer Policy Change — March 31 Deadline", "description": "Tesla changed FSD transfer policy requiring delivery by 3/31. Expected to drive Q1 purchase acceleration." }
+  ],
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share leader. Globally overtaken by BYD. Software, manufacturing, energy vertical integration and 8.2B autonomous driving miles are the core moats.",
+    "moats": [
+      { "type": "Autonomous Driving Data Moat", "description": "FSD Supervised 8.2 billion miles. Overwhelming training dataset vs. competitors." },
+      { "type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)." },
+      { "type": "Charging Network Effect", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian rely on Tesla's Supercharger network." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 global EV sales leader. Surging in Europe, tariffs limiting US entry" },
+      { "name": "Waymo (Alphabet)", "detail": "$16B funded, $126B valuation. 400K+ weekly rides" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y" },
+      { "name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China" }
+    ]
+  },
+  "recentNews": [
+    { "date": "2026-03-03", "headline": "US-Israel Strikes on Iran, Strait of Hormuz Blockade — Global Markets Rocked", "significance": "Iran's Hormuz blockade sent oil prices surging, triggering broad risk-off selling. TSLA -2.7%. Dow recovered 800 points. Rising oil may boost EV narrative.", "url": "https://www.reuters.com/world/iran-live-israel-strikes-hezbollah-uk-base-hit-cyprus-conflict-widens-2026-03-02/" },
+    { "date": "2026-03-02", "headline": "Tesla Gains Market Share in France and Norway in February", "significance": "First stabilization signal after two years of European decline.", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/" },
+    { "date": "2026-03-01", "headline": "Cybertruck $59,990 Base Trim Gone — New Base Sees Explosive Demand, 2027 Delivery", "significance": "Strong demand pushed delivery timelines to 2027.", "url": "https://www.autoblog.com/news/teslas-59990-cybertruck-is-gone-heres-the-new-price" },
+    { "date": "2026-03-01", "headline": "Tesla Changes FSD Transfer Policy — March 31 Deadline", "significance": "FSD transfer deadline set to 3/31, creating Q1 purchase acceleration.", "url": "https://www.notateslaapp.com/news/3721/tesla-shifts-fsd-transfer-policy-leaving-buyers-out-in-the-cold" },
+    { "date": "2026-02-26", "headline": "2026 Model 3 Major Interior Upgrades Leaked (EU/APAC)", "significance": "New screen and headliner borrowed from Model Y.", "url": "https://www.autoblog.com/news/leaked-2026-tesla-model-3-new-screen-headliner" }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 408.09, "highTarget": 600, "lowTarget": 25, "upsidePercent": 3.97,
+    "buyCount": 16, "holdCount": 10, "sellCount": 7,
+    "notableComment": "40 analysts, Hold consensus. MarketBeat avg $408.09. Dan Ives (Wedbush) $600 high, GLJ Research $25 low. Robotaxi optimism persists despite tariff/geopolitical risks."
+  },
+  "risks": [
+    { "severity": "high", "title": "Iran-Hormuz Blockade — Geopolitical Risk Surge", "description": "20-30% of global oil passes through Hormuz. Oil surge may reignite inflation, delay rate cuts, compress growth multiples." },
+    { "severity": "high", "title": "P/E 364.71x — Extreme Overvaluation", "description": "Forward P/E 149.62x still extremely expensive. EPS $1.08, down 47% YoY." },
+    { "severity": "high", "title": "Europe 13 Consecutive Months of Sales Decline", "description": "13 straight months through January. BYD +165% widening gap." },
+    { "severity": "medium", "title": "China Competition — Xiaomi and BYD", "description": "Xiaomi YU7 outselling Model Y 2:1. BYD low-cost EVs eroding share." },
+    { "severity": "medium", "title": "Musk Political Risk — DOGE, European Backlash", "description": "Musk's DOGE involvement fueling consumer defection in Europe and parts of the US." }
+  ],
+  "buyReasons": [
+    { "title": "Oil Surge → EV Adoption Catalyst", "rationale": "Hormuz blockade pushing oil prices higher. Higher gasoline costs improve EV economics." },
+    { "title": "Cybertruck Demand Explosion", "rationale": "New base trim demand pushed deliveries to 2027. Strategy validated." },
+    { "title": "Robotaxi & AI Platform — Cybercab Production Starting", "rationale": "Cybercab full production April, H1 robotaxi expansion to 9 cities." },
+    { "title": "Energy Business High Growth — Megapack 3 Imminent", "rationale": "Energy revenue $12.8B (+27% YoY). Megapack 3 and Mega Block launching 2026." }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83, "week52Low": 214.25, "currentPositionPercent": 62.61,
+    "sma50": 434.19, "sma50Signal": "below", "sma200": 390.62, "sma200Signal": "above",
+    "rsi": 37.09, "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Mar 3 close $392.50 (-2.7%). US-Israel Iran strikes and Hormuz blockade triggered global sell-off. Growth stocks used as funding source for defensive positions.",
+    "40 analysts, Hold consensus. Avg target $408 (+4%). Dan Ives $600 vs GLJ $25. Forward P/E 149.62x, RSI 37.09 approaching oversold.",
+    "Trading just above 200-day MA $391. RSI 37 near oversold. Break below $391 risks further decline; holding support could trigger technical bounce. Geopolitical resolution is key."
+  ],
+  "sources": [
+    { "name": "Reuters", "url": "https://www.reuters.com/world/iran-live-israel-strikes-hezbollah-uk-base-hit-cyprus-conflict-widens-2026-03-02/", "description": "Iran-Israel military conflict, Hormuz blockade live" },
+    { "name": "StockMarketWatch", "url": "https://stockmarketwatch.com/live/stock-market-today/", "description": "TSLA -2.6% geopolitical sell-off" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/", "description": "Tesla France & Norway February market share rebound" },
+    { "name": "Autoblog", "url": "https://www.autoblog.com/news/teslas-59990-cybertruck-is-gone-heres-the-new-price", "description": "Cybertruck base trim gone, demand explosion" },
+    { "name": "NotATeslaApp", "url": "https://www.notateslaapp.com/news/3721/tesla-shifts-fsd-transfer-policy-leaving-buyers-out-in-the-cold", "description": "FSD transfer policy change" },
+    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA technicals and financials" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA analyst consensus $408.09" },
+    { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets", "description": "Hormuz blockade global impact analysis" },
+    { "name": "TradersUnion", "url": "https://tradersunion.com/news/financial-news/show/1608886-tesla-falls-2-73percent-today-to/", "description": "TSLA -2.73% daily analysis" },
+    { "name": "Autoblog", "url": "https://www.autoblog.com/news/leaked-2026-tesla-model-3-new-screen-headliner", "description": "2026 Model 3 interior upgrade leak" }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA $392, Iran war drags it -2.7% — but oil surge bullish for EVs?",
+      "text": "$TSLA (3/4) Iran Hormuz blockade triggers market panic, growth stock sell-off at -2.7%. Sitting right on 200-day MA $391, RSI 37 near oversold. But if oil keeps surging, doesn't EV adoption accelerate? Cybertruck sold out to 2027. Fear = opportunity? investory.kro.kr/stock/TSLA/analysis/2026-03-04"
+    },
+    "telegram": {
+      "hook": "TSLA $392.50 — Iran war shock -2.7%, 200-day MA battle",
+      "text": "Tesla Daily Analysis (3/4)\n\nPrice: $392.50 (-2.7%)\nMkt Cap: $1.47T | P/E: 364.71x | Fwd P/E: 149.62x\n\nKey Issues:\n- 🇮🇷 Iran Hormuz blockade → oil surge, market panic\n- 📉 Growth stock sell-off — funds rotating to defensives\n- ⛽ Oil surge → potential EV adoption catalyst\n- 🛻 Cybertruck AWD demand explosion → 2027 delivery\n- 🇫🇷🇳🇴 France & Norway Feb share rebound continues\n\nTechnicals: Right above 200-day $391, RSI 37.09 near oversold\nAnalysts: Hold consensus, target $408 (+4%)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-04"
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-04",
+  "currentPrice": 392.50,
+  "marketCap": "$1.47T",
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사에서 로보택시, 휴머노이드 로봇, 에너지 저장을 아우르는 'Physical AI 플랫폼'으로 전환 중",
+    "description": "Tesla는 EV 제조사에서 통합 AI, 로보틱스, 에너지 플랫폼 기업으로 빠르게 변모 중이다. FY2025 매출은 $94.8B으로 사상 첫 연간 매출 감소(-2.9%)를 기록했고, 순이익은 46.5% 급감했다. 3/3 미국-이스라엘 이란 공습과 호르무즈 해협 봉쇄로 인해 고성장주 매도세가 확대되며 -2.7% 하락. 유가 급등으로 EV 상대적 매력 상승 논의도 동시 진행. Cybertruck AWD 수요 폭발, FSD 전환 3/31 마감, 2026 Model 3 업그레이드 유출 등 제품 이슈 지속. P/E 364.71x, Forward P/E 149.62x.",
+    "howTheyMakeMoney": [
+      "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y가 핵심, Model S/X는 Q2 2026 단종",
+      "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack 유틸리티급 저장장치",
+      "서비스/기타: 매출의 ~13% ($12.5B). Supercharger 네트워크, 보험, 유지보수",
+      "FSD 구독: $99/월 자율주행 소프트웨어 (2026년 2월부터 구독 전용)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (핵심 EV)",
+      "Cybertruck (저가형 AWD 강수요로 2027 배송, Cyberbeast $99,990)",
+      "Cybercab (자율주행 로보택시, 2/17 첫 생산, $30,000)",
+      "Optimus (휴머노이드 로봇, Fremont 공장 전환 중)",
+      "Megapack (유틸리티급 에너지 저장, Megapack 3 및 Mega Block 2026 출시)",
+      "FSD (Full Self-Driving, 82억 마일 누적)"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "364.71",
+      "interpretation": "매출 감소에 따른 이익 급감으로 극도로 높은 밸류에이션. AI/로보택시 프리미엄 반영"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "149.62",
+      "interpretation": "FY2026 EPS $2.62 전망. 여전히 고평가 구간"
+    },
+    {
+      "name": "매출 성장률",
+      "value": "-2.9% (FY2025)",
+      "interpretation": "사상 첫 연간 매출 감소. FY2026 +11.25% 반등 전망"
+    },
+    {
+      "name": "영업이익률",
+      "value": "5.11%",
+      "interpretation": "FY2024 7.84%에서 하락. 가격 경쟁과 R&D 투자 확대 영향"
+    },
+    {
+      "name": "FCF",
+      "value": "$6.22B",
+      "interpretation": "P/FCF 236.75x. FY2024 $3.58B 대비 73.8% 증가"
+    },
+    {
+      "name": "부채비율",
+      "value": "0.18",
+      "interpretation": "매우 건전한 재무구조. 현금 $11.85/주"
+    },
+    {
+      "name": "ROE",
+      "value": "4.89%",
+      "interpretation": "이익 감소로 ROE 급감. FY2024 7.84% 대비 하락"
+    },
+    {
+      "name": "총이익률",
+      "value": "18.03%",
+      "interpretation": "FY2024 17.86% 대비 소폭 개선. 중국 가격 경쟁 속 유지"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "유가 급등 → EV 상대적 매력도 상승 잠재력",
+      "description": "이란-호르무즈 해협 봉쇄로 유가 급등. 휘발유 비용 상승이 EV 전환 가속의 촉매가 될 수 있음."
+    },
+    {
+      "title": "Cybertruck 저가형 AWD 폭발적 수요 — 배송 2027년까지 밀림",
+      "description": "Tesla가 새로운 베이스 트림을 출시하며 강력한 수요가 발생, 예상 배송 시점이 2027년으로 밀렸다."
+    },
+    {
+      "title": "프랑스·노르웨이 시장 점유율 2월 반등 — 유럽 안정화 신호",
+      "description": "Reuters에 따르면 Tesla가 프랑스와 노르웨이에서 2월 점유율을 회복. 유럽 2년 연속 하락 후 안정화 징후."
+    },
+    {
+      "title": "FSD 전환 정책 변경 — 3월 31일 마감",
+      "description": "Tesla가 FSD 전환 정책을 변경하여 3/31까지 인수 필요. 구매 촉진 효과와 Q1 매출 부스트 기대."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 점유율 50%+ 1위, 글로벌은 BYD에 추월됨. 소프트웨어, 제조, 에너지 수직 통합과 82억 마일 자율주행 데이터가 핵심 해자.",
+    "moats": [
+      {
+        "type": "자율주행 데이터 해자",
+        "description": "FSD Supervised 82억 마일. 경쟁사 대비 압도적 학습 데이터셋."
+      },
+      {
+        "type": "수직 통합",
+        "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(Supercharger)."
+      },
+      {
+        "type": "충전 네트워크 효과",
+        "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian 등이 Tesla Supercharger 네트워크에 의존."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "BYD",
+        "detail": "2025 글로벌 EV 판매 1위. 유럽에서 급성장 중, 관세로 미국 진출 제한"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "$16B 펀딩, $126B 밸류에이션. 주간 40만 회+ 라이드"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "R2 SUV($45,000) 2026년 출시로 Model Y와 직접 경쟁"
+      },
+      {
+        "name": "Xiaomi",
+        "detail": "YU7 SUV가 중국에서 Model Y 대비 2:1 판매 비율"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-03",
+      "headline": "미국-이스라엘 이란 공습, 호르무즈 해협 봉쇄 — 글로벌 시장 급락 후 회복",
+      "significance": "이란 호르무즈 해협 봉쇄로 유가 급등, 위험자산 매도세 확대. TSLA -2.7%. Dow 800포인트 회복. 유가 상승이 EV 전환 논의 촉발.",
+      "url": "https://www.reuters.com/world/iran-live-israel-strikes-hezbollah-uk-base-hit-cyprus-conflict-widens-2026-03-02/"
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "Tesla, 프랑스·노르웨이에서 2월 시장 점유율 회복",
+      "significance": "유럽 2년 연속 하락 후 안정화 신호. 2026년 긍정적 출발.",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/"
+    },
+    {
+      "date": "2026-03-01",
+      "headline": "Cybertruck $59,990 저가형 단종, 새 베이스 트림 수요 폭발로 2027 배송",
+      "significance": "강력한 수요로 배송 시점이 2027년으로 밀림. Cybertruck 라인업 전략 성공.",
+      "url": "https://www.autoblog.com/news/teslas-59990-cybertruck-is-gone-heres-the-new-price"
+    },
+    {
+      "date": "2026-03-01",
+      "headline": "Tesla FSD 전환 정책 변경, 3월 31일까지 인수 필요",
+      "significance": "FSD 전환을 3/31 마감으로 설정하여 Q1 구매 촉진 효과.",
+      "url": "https://www.notateslaapp.com/news/3721/tesla-shifts-fsd-transfer-policy-leaving-buyers-out-in-the-cold"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "2026 Model 3 인테리어 대대적 업그레이드 유출 (EU/APAC)",
+      "significance": "Model Y에서 빌린 새 스크린, 헤드라이너 등으로 제품 경쟁력 강화.",
+      "url": "https://www.autoblog.com/news/leaked-2026-tesla-model-3-new-screen-headliner"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 408.09,
+    "highTarget": 600,
+    "lowTarget": 25,
+    "upsidePercent": 3.97,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "40명 애널리스트, Hold 컨센서스. MarketBeat 평균 $408.09. Dan Ives(Wedbush) $600 최고, GLJ Research $25 최저. 관세·지정학 리스크에도 로보택시 낙관론 유지."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "이란-호르무즈 해협 봉쇄 — 지정학적 리스크 급등",
+      "description": "글로벌 원유 20-30%가 호르무즈 해협 통과. 유가 급등으로 인플레이션 재점화, 금리 인하 지연, 성장주 멀티플 압축 위험."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 364.71x — 극도의 고평가 밸류에이션",
+      "description": "Forward P/E 149.62x로도 시장 대비 극도로 비쌈. EPS $1.08로 전년 대비 -47% 감소."
+    },
+    {
+      "severity": "high",
+      "title": "유럽 13개월 연속 판매 감소 (1월 -17% YoY)",
+      "description": "유럽에서 1월까지 13개월 연속 하락세. BYD가 1월 등록 +165%로 격차 확대."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 경쟁 심화 — Xiaomi, BYD 공세",
+      "description": "Xiaomi YU7이 중국에서 Model Y 대비 2:1 판매. BYD ATTO 3 등 저가 EV가 시장 잠식."
+    },
+    {
+      "severity": "medium",
+      "title": "Musk의 정치 리스크 — DOGE, 유럽 반감",
+      "description": "Elon Musk의 DOGE 참여와 정치적 발언이 유럽 소비자와 일부 미국 소비자 이탈을 가속화."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "유가 급등 → EV 전환 가속 수혜 가능",
+      "rationale": "호르무즈 해협 봉쇄로 유가 급등 시 화석연료 차 운영비 상승. EV 경제성 부각으로 수요 전환 촉진."
+    },
+    {
+      "title": "Cybertruck 수요 폭발 — 2027년까지 밀린 배송",
+      "rationale": "새 베이스 트림 강력 수요로 배송 시점이 2027년으로 밀림. 라인업 확장 전략 성공 입증."
+    },
+    {
+      "title": "로보택시·AI 플랫폼 가치 — Cybercab 양산 시작",
+      "rationale": "Cybercab 4월 본격 양산, H1 중 9개 도시 로보택시 서비스 확장. Dan Ives $600 목표가의 핵심 논거."
+    },
+    {
+      "title": "에너지 사업 고성장 지속 — Megapack 3 출시 임박",
+      "rationale": "에너지 매출 $12.8B(+27% YoY). Megapack 3와 Mega Block 2026 출시로 고마진 성장 기대."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 62.61,
+    "sma50": 434.19,
+    "sma50Signal": "below",
+    "sma200": 390.62,
+    "sma200Signal": "above",
+    "rsi": 37.09,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "3/3 종가 $392.50(-2.7%). 미국-이스라엘 이란 공습과 호르무즈 해협 봉쇄로 글로벌 시장 급락, 고성장주 매도세 확대. Dow 800포인트 회복에도 TSLA는 방어적 자금 이동의 피해주.",
+    "애널리스트 40명 중 Hold 컨센서스. 평균 목표가 $408(+4%). Dan Ives $600 vs GLJ $25. Forward P/E 149.62x, RSI 37.09로 과매도 접근.",
+    "200일선 $391 바로 위에서 거래. RSI 37로 과매도 근접. $391 200일선 이탈 시 추가 하락, 지지 시 기술적 반등 가능. 지정학 리스크 해소 여부가 핵심."
+  ],
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/iran-live-israel-strikes-hezbollah-uk-base-hit-cyprus-conflict-widens-2026-03-02/",
+      "description": "이란-이스라엘 군사 갈등, 호르무즈 해협 봉쇄 라이브"
+    },
+    {
+      "name": "StockMarketWatch",
+      "url": "https://stockmarketwatch.com/live/stock-market-today/",
+      "description": "TSLA -2.6% 지정학 매도세 영향"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/",
+      "description": "Tesla 프랑스·노르웨이 2월 시장 점유율 반등"
+    },
+    {
+      "name": "Autoblog",
+      "url": "https://www.autoblog.com/news/teslas-59990-cybertruck-is-gone-heres-the-new-price",
+      "description": "Cybertruck 저가형 단종, 새 트림 수요 폭발"
+    },
+    {
+      "name": "NotATeslaApp",
+      "url": "https://www.notateslaapp.com/news/3721/tesla-shifts-fsd-transfer-policy-leaving-buyers-out-in-the-cold",
+      "description": "FSD 전환 정책 변경, 3/31 마감"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=TSLA",
+      "description": "TSLA 기술적 지표, 재무 데이터"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
+      "description": "TSLA 애널리스트 컨센서스 $408.09"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
+      "description": "호르무즈 해협 봉쇄가 유가·시장에 미치는 영향 분석"
+    },
+    {
+      "name": "TradersUnion",
+      "url": "https://tradersunion.com/news/financial-news/show/1608886-tesla-falls-2-73percent-today-to/",
+      "description": "TSLA -2.73% 일일 가격 분석"
+    },
+    {
+      "name": "Autoblog",
+      "url": "https://www.autoblog.com/news/leaked-2026-tesla-model-3-new-screen-headliner",
+      "description": "2026 Model 3 인테리어 업그레이드 유출"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA $392, 이란 전쟁에 -2.7% — 그런데 유가 급등이 EV에는 호재?",
+      "text": "$TSLA (3/4) 이란 호르무즈 봉쇄로 시장 패닉, 고성장주 매도세에 -2.7%. 200일선 $391 바로 위, RSI 37 과매도 근접. 그런데 유가 폭등이면 EV 전환 가속 아닌가? Cybertruck 2027년까지 품절인데. 공포가 기회? investory.kro.kr/stock/TSLA/analysis/2026-03-04"
+    },
+    "telegram": {
+      "hook": "TSLA $392.50 — 이란 전쟁 충격 -2.7%, 200일선 사수 전투",
+      "text": "Tesla 일일 분석 (3/4)\n\n현재가: $392.50 (-2.7%)\n시총: $1.47T | P/E: 364.71x | Fwd P/E: 149.62x\n\n핵심 이슈:\n- 🇮🇷 이란 호르무즈 해협 봉쇄 → 유가 급등, 시장 패닉\n- 📉 고성장주 매도세 확대 — 방어적 자금 이동의 피해주\n- ⛽ 유가 급등 → EV 전환 가속 잠재적 수혜\n- 🛻 Cybertruck AWD 수요 폭발 → 2027 배송 밀림\n- 🇫🇷🇳🇴 프랑스·노르웨이 2월 점유율 반등 지속\n\n기술적: 200일선 $391 바로 위, RSI 37.09 과매도 근접\n애널리스트: Hold 컨센서스, 목표가 $408 (+4%)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-04"
+    }
+  }
+}

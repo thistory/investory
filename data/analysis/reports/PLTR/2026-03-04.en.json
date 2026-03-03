@@ -1,0 +1,109 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-04",
+  "currentPrice": 147.23,
+  "marketCap": "$342B",
+  "businessSummary": {
+    "oneLiner": "Government & enterprise AI data analytics platform — transforming from core US defense/intelligence partner to commercial AI powerhouse",
+    "description": "Palantir builds software platforms that analyze and integrate complex data. Since AIP (AI Platform) launch, commercial segment has exploded. Q4 2025 revenue $1.407B (+70% YoY), US commercial revenue $507M (+137% YoY). Mar 3 close $147.23 (+1.42%). Outperformed market amid Iran-Israel military conflict as defense AI spending expectations strengthened. Forbes analyzed $350B market cap sustainability. P/E 229.41x, Forward P/E 78.45x.",
+    "howTheyMakeMoney": [
+      "Government Contracts: US DoD, CIA, NSA software licenses and maintenance",
+      "Commercial: AIP-based enterprise AI analytics subscriptions — US commercial +137% YoY",
+      "International Government: NATO allies and Five Eyes partner contracts",
+      "Professional Services: Implementation, training, consulting"
+    ],
+    "keyProducts": [
+      "AIP (AI Platform): Connects LLMs to enterprise data for AI analytics",
+      "Gotham: Government/defense data analysis and decision support",
+      "Foundry: Enterprise data integration and analytics platform",
+      "Apollo: Software deployment and management automation",
+      "Maven: US DoD AI operations support system"
+    ]
+  },
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "229.41", "interpretation": "Elevated but reflects EPS surge (+232% YoY). Converging to Forward P/E 78.45x" },
+    { "name": "Forward P/E", "value": "78.45", "interpretation": "FY2026 EPS $1.85 forecast. PEG 1.49 at 52.72% growth rate" },
+    { "name": "Revenue Growth", "value": "+56.18% (TTM)", "interpretation": "Q4 +70% YoY. US commercial +137% accelerating" },
+    { "name": "Operating Margin", "value": "31.59%", "interpretation": "Best-in-class among SaaS companies. High operating leverage" },
+    { "name": "Gross Margin", "value": "82.37%", "interpretation": "Extremely high software business margins" },
+    { "name": "Debt/Equity", "value": "0.03", "interpretation": "Virtually debt-free. Cash $3.00/share" },
+    { "name": "ROE", "value": "26.23%", "interpretation": "Profitability surging post break-even" },
+    { "name": "PEG", "value": "1.49", "interpretation": "Fair valuation range given growth rate" }
+  ],
+  "growthDrivers": [
+    { "title": "Iran-Israel Conflict → Defense AI Spending Acceleration", "description": "Middle East military escalation expected to boost US/NATO defense AI budgets. Direct demand for Gotham/Maven." },
+    { "title": "Forbes: $350B Market Cap Sustainable?", "description": "Forbes analysis supports current valuation based on AI platform adoption speed and record contract bookings ($4.26B)." },
+    { "title": "2026/2027 EPS Consensus Sharply Raised", "description": "Consensus EPS significantly raised over past month. US commercial +137% growth is the key driver." },
+    { "title": "AIP Commercial Adoption Accelerating", "description": "AIP bootcamp conversion driving rapid enterprise customer expansion. Q4 US commercial $507M (+137% YoY)." }
+  ],
+  "competitiveAdvantage": {
+    "summary": "Government security clearances (Top Secret/SCI), 20-year defense/intelligence relationships, AIP enterprise AI platform expansion are core moats.",
+    "moats": [
+      { "type": "Government Security Clearance", "description": "Top Secret/SCI cleared. Extremely high barrier to competitor entry." },
+      { "type": "Switching Costs", "description": "Gotham/Foundry deeply integrated into customer data infrastructure." },
+      { "type": "AI Platform Network Effect", "description": "AIP bootcamps rapidly expanding enterprise customer base." }
+    ],
+    "competitors": [
+      { "name": "Snowflake", "detail": "Data cloud platform. Enterprise analytics competition" },
+      { "name": "Databricks", "detail": "Lakehouse platform. AI/ML workload competition" },
+      { "name": "Microsoft (Azure AI)", "detail": "Azure AI targeting government and enterprise markets" },
+      { "name": "C3.ai", "detail": "Enterprise AI platform. Much smaller scale vs PLTR" }
+    ]
+  },
+  "recentNews": [
+    { "date": "2026-03-03", "headline": "PLTR +1.42% — Outperforms Market Amid Iran War on Defense AI Expectations", "significance": "S&P -1.6%, Nasdaq -1.8% but PLTR +1.42%. Differentiated as defense AI beneficiary.", "url": "https://www.fool.com/investing/2026/03/03/why-palantir-stock-is-sinking-today/" },
+    { "date": "2026-03-03", "headline": "Forbes: Can Palantir Support Its $350B Market Cap?", "significance": "Positive analysis of market cap sustainability based on AI adoption and commercial expansion.", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/03/can-palantir-stock-support-its-350b-market-cap/" },
+    { "date": "2026-03-02", "headline": "Motley Fool: Good News for Palantir Investors — EPS Estimates Rising", "significance": "2026/2027 consensus EPS sharply raised. Fundamental support for 2,000% rally since 2023.", "url": "https://www.fool.com/investing/2026/03/02/palantir-stock-investors-good-news-wall-street/" },
+    { "date": "2026-03-02", "headline": "Schwab Network: PLTR & Defense Tailwinds After Iran Strike", "description": "Rebecca Walser discusses structural defense AI sector benefits post-Iran strike.", "url": "https://www.schwab.com/learn/schwab-network" },
+    { "date": "2026-02-24", "headline": "Yahoo Finance: PLTR Down 38% — Buy Opportunity in 2026?", "significance": "Business momentum remains strong despite 38% correction from highs.", "url": "https://finance.yahoo.com/news/palantir-stock-drops-38-buy-163905688.html" }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 185.82, "highTarget": 250, "lowTarget": 60, "upsidePercent": 26.22,
+    "buyCount": 12, "holdCount": 5, "sellCount": 2,
+    "notableComment": "12 of 19 Buy. Consensus $185.82 (+26%). Iran conflict may act as defense AI budget expansion catalyst, strengthening bull case."
+  },
+  "risks": [
+    { "severity": "high", "title": "P/E 229x — Extreme Overvaluation", "description": "Even Forward P/E 78.45x is far above market average. Sharp multiple compression risk if growth slows." },
+    { "severity": "high", "title": "Prolonged Geopolitical Conflict → Recession Risk", "description": "If Iran conflict persists, inflation reignites → rate hikes → recession. All growth stocks at risk." },
+    { "severity": "medium", "title": "52-Week High -29% — Trend Reversal Unconfirmed", "description": "Still below 50-day MA $160. Technical downtrend not fully reversed." },
+    { "severity": "medium", "title": "Insider Selling Continues", "description": "Executive share sales ongoing. Negative signal to market." },
+    { "severity": "medium", "title": "Competition — Microsoft, Snowflake, Databricks", "description": "Large cloud/data companies aggressively entering AI analytics market." }
+  ],
+  "buyReasons": [
+    { "title": "Defense AI Beneficiary — Iran War as Catalyst", "rationale": "Middle East escalation accelerates defense AI spending. Gotham/Maven direct beneficiaries. Outperformed during market sell-off." },
+    { "title": "EPS Consensus Sharply Rising", "rationale": "2026/2027 EPS raised significantly over past month. Earnings momentum accelerating." },
+    { "title": "US Commercial +137% — AIP Platform Effect", "rationale": "High bootcamp conversion rates. Commercial revenue diversifying away from government dependence." },
+    { "title": "29% Correction from 52-Week High", "rationale": "$207 → $147. Forward P/E 78x entry point for high-growth AI platform." }
+  ],
+  "technicalPosition": {
+    "week52High": 207.52, "week52Low": 66.12, "currentPositionPercent": 57.37,
+    "sma50": 160.31, "sma50Signal": "below", "sma200": 137.0, "sma200Signal": "above",
+    "rsi": 52.0, "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Mar 3 close $147.23 (+1.42%). Outperformed market amid Iran-Israel conflict on defense AI expectations. Forbes positively assessed $350B market cap sustainability.",
+    "12 of 19 Buy. Consensus $185.82 (+26%). AIP commercial +137% accelerating. P/E 229x is a concern but converging to Forward P/E 78x.",
+    "$147.23, above 200-day $137, below 50-day $160. RSI 52 neutral. Defense AI budget expansion from geopolitical tensions could provide additional upside momentum."
+  ],
+  "sources": [
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/03/why-palantir-stock-is-sinking-today/", "description": "PLTR Iran war price analysis, $147.23 close" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/03/can-palantir-stock-support-its-350b-market-cap/", "description": "$350B market cap sustainability analysis" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-drove-palantir-stocks-60-spike/", "description": "PLTR 60% spike analysis" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/02/palantir-stock-investors-good-news-wall-street/", "description": "2026/2027 EPS sharply raised" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/palantir-stock-drops-38-buy-163905688.html", "description": "PLTR 38% drop buy opportunity analysis" },
+    { "name": "StockInvest", "url": "https://stockinvest.us/stock-news/on-monday-palantir-stock-price-gained-an-impressive-578-2026-03-02", "description": "PLTR +5.78% technical analysis" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-3-palantir-technologies-pltr-the-sovereign-ai-powerhouse-and-the-future-of-enterprise-operating-systems", "description": "PLTR Sovereign AI powerhouse analysis" },
+    { "name": "Stock Analysis", "url": "https://stockanalysis.com/stocks/pltr/", "description": "PLTR price and analyst consensus" }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "PLTR $147, market -1.8% but PLTR +1.4% — war is bullish?",
+      "text": "$PLTR (3/4) Iran war sent Nasdaq -1.8% but PLTR bucked the trend at +1.42%. Defense AI expectations driving outperformance. Forbes says $350B cap is sustainable. US commercial +137%, EPS rising fast. Defense + AI dual engines — last chance at this price? investory.kro.kr/stock/PLTR/analysis/2026-03-04"
+    },
+    "telegram": {
+      "hook": "PLTR $147.23 — Defying the sell-off, defense AI beneficiary",
+      "text": "Palantir Daily Analysis (3/4)\n\nPrice: $147.23 (+1.42%)\nMkt Cap: $342B | P/E: 229.41x | Fwd P/E: 78.45x\n\nKey Issues:\n- 🇮🇷 Market crashed on Iran war but PLTR outperformed\n- 🛡️ Defense AI budget expansion expected → Gotham/Maven demand\n- 📊 Forbes: $350B market cap sustainable analysis\n- 🇺🇸 US commercial +137% — AIP effect accelerating\n- ⚠️ P/E 229x burden, prolonged conflict could trigger recession\n\nTechnicals: Above 200-day $137, below 50-day $160, RSI 52\nAnalysts: Buy, target $185.82 (+26%)\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-04"
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-04",
+  "currentPrice": 180.05,
+  "marketCap": "$4.37T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. Q4 FY2026 매출 $68.13B(+73% YoY), EPS $1.62. Q1 FY2027 가이던스 $78B(±2%)로 컨센서스를 $5.4B 상회. 3/3 종가 $180.05(-1.33%). 이란-호르무즈 사태로 인한 거시 불확실성과 'Great Rotation'으로 대형 기술주에서 자금 유출. GTC 2026(3/16-19) Rubin R200 공개 D-13. CoreWeave IPO 가이던스 부진도 압박. P/E 36.74x, Forward P/E 21.83x, PEG 0.54.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
+      "게이밍: GeForce RTX 시리즈 GPU 및 DLSS 4 기술",
+      "자동차: DRIVE 플랫폼 자율주행 및 차량 AI 칩",
+      "프로페셔널 시각화: Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: 최신 AI 가속기, Hopper 대비 50배 처리량, 2026년 출하 129% YoY 급증 전망",
+      "Blackwell B200/GB200: 하이퍼스케일러 전량 매진",
+      "H100/H200 Tensor Core GPU: AI 업계 표준",
+      "Rubin R200: 차세대 GPU, GTC 2026(3/16-19) 공식 공개 예정",
+      "CUDA: 1,500만+ 개발자 GPU 컴퓨팅 플랫폼",
+      "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "36.74",
+      "interpretation": "성장 대비 합리적. 52주 고점 대비 -15% 조정으로 밸류에이션 수렴"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.83",
+      "interpretation": "FY2027 EPS $8.25 기준. PEG 0.54로 성장 대비 저평가"
+    },
+    {
+      "name": "매출 성장률",
+      "value": "+65.5% (FY2026)",
+      "interpretation": "$215.9B 사상 최대 매출. FY2027 컨센서스 +55.5%"
+    },
+    {
+      "name": "영업이익률",
+      "value": "60.4%",
+      "interpretation": "업계 최고 수준. AI 가속기 지배적 지위 반영"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.7B",
+      "interpretation": "P/FCF 45.1x. 압도적 현금 창출 능력"
+    },
+    {
+      "name": "부채비율",
+      "value": "0.13",
+      "interpretation": "매우 건전한 재무구조. 순현금 $43.2B"
+    },
+    {
+      "name": "ROE",
+      "value": "119.14%",
+      "interpretation": "초고수익성. 자본 효율 극대화"
+    },
+    {
+      "name": "PEG",
+      "value": "0.54",
+      "interpretation": "성장 대비 확실한 저평가. Goldman, JPMorgan 강세론의 핵심"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 (3/16-19) — Rubin R200 공개 D-13",
+      "description": "Jensen Huang이 산호세 GTC에서 차세대 Rubin(R200) 아키텍처 공식 공개 예정. Blackwell 대비 5배 성능 향상. 이벤트 드리븐 재평가 가능성."
+    },
+    {
+      "title": "Lumentum·Coherent 각 $2B 투자 — 광자 기술로 AI 프로세서 강화",
+      "description": "NVIDIA가 광학 제품 제조사 Lumentum과 Coherent에 각각 $2B을 투자하며, 데이터센터 칩에 광자 기술을 통합하는 전략적 행보."
+    },
+    {
+      "title": "하이퍼스케일러 CapEx 가속 — CoreWeave 2026 CapEx $30B+",
+      "description": "CoreWeave가 2026 CapEx를 $30B+로 2배 확대 발표. Alphabet, Amazon, Meta, Microsoft 합산 ~$700B. NVIDIA GPU 수요 직결."
+    },
+    {
+      "title": "Q4 FY2026 13연속 어닝 비트 — Q1 가이던스 $78B",
+      "description": "매출 $68.13B(+73% YoY), EPS $1.62. Q1 FY2027 가이던스 $78B(±2%)로 컨센서스 $5.4B 상회."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계(1,500만+ 개발자), 연간 아키텍처 갱신, 압도적 NVLink 성능, 80%+ AI 가속기 시장 점유율로 사실상 독점.",
+    "moats": [
+      {
+        "type": "소프트웨어 생태계 (전환비용)",
+        "description": "CUDA 15년+ 역사. 1,500만+ 개발자가 NVIDIA에 최적화."
+      },
+      {
+        "type": "기술 리더십",
+        "description": "Hopper→Blackwell→Rubin 연간 아키텍처 갱신. GB300은 Hopper 대비 50배 효율."
+      },
+      {
+        "type": "공급망 락인",
+        "description": "TSMC 첨단 CoWoS 패키징 용량 대부분 확보."
+      },
+      {
+        "type": "전략적 파트너십",
+        "description": "Meta, OpenAI, Eli Lilly 등과 다년 파트너십."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X/MI350 AI 가속기 시장 점유율 10-12%. MI450(2nm) 계획 중."
+      },
+      {
+        "name": "Intel",
+        "detail": "Gaudi 3 출시했으나 시장 점유율 미미."
+      },
+      {
+        "name": "커스텀 실리콘",
+        "detail": "Google TPU, Amazon Trainium, Microsoft Maia — 하이퍼스케일러 자체 칩 가속."
+      },
+      {
+        "name": "Huawei Ascend",
+        "detail": "중국 내 NVIDIA 대안. 수출 규제가 NVIDIA의 중국 점유율 제한."
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-03",
+      "headline": "NVDA -1.33% — 이란·호르무즈 지정학 리스크 + 'Great Rotation' 기술주 매도",
+      "significance": "국채 수익률 상승과 인플레이션 재점화 우려로 기술주에서 방어주로 자금 이동. GTC 전 조정.",
+      "url": "https://stockmarketwatch.com/live/stock-market-today/"
+    },
+    {
+      "date": "2026-03-03",
+      "headline": "CoreWeave IPO 가이던스 부진 — CapEx $30B+이나 Q4 적자 $284M",
+      "significance": "NVDA 최대 클라우드 고객 CoreWeave의 IPO 가이던스가 기대 하회. 고객 집중도 리스크 재부상.",
+      "url": "https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-invests-4b-in-photonics-makers-apple-announces-low-cost-iphone-openai-strikes-deal-with-pentagon-163709849.html"
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "NVIDIA, Lumentum·Coherent에 각 $2B 투자 — AI 프로세서 광자 기술 강화",
+      "significance": "데이터센터 칩에 광학 기술 통합으로 차세대 AI 인프라 경쟁력 확보.",
+      "url": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html"
+    },
+    {
+      "date": "2026-02-27",
+      "headline": "GTC 2026 (3/16-19) 확정 — Rubin GPU 공개, GB300 출하 급증",
+      "significance": "산호세 GTC에서 Rubin R200 및 Feynman 아키텍처 공개. GB300 출하 2026년 129% YoY.",
+      "url": "https://www.tweaktown.com/news/107448/nvidia-gtc-2026-confirmed-for-march-16-19-expect-blackwell-rubin-feynman-gpus-but-no-geforce/index.html"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "CNBC: '블록버스터 실적 후 NVDA는 코일 스프링' — JPMorgan",
+      "significance": "Q1 가이던스 $78B로 컨센서스 $5.4B 상회에도 주가 보합. GTC가 반등 트리거 될 것.",
+      "url": "https://www.cnbc.com/2026/02/26/nvidia-posted-another-blockbuster-quarter-one-analyst-says-the-stock-is-a-coiled-spring.html"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.03,
+    "highTarget": 352,
+    "lowTarget": 100,
+    "upsidePercent": 46.09,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "38명 중 36명 Buy. Strong Buy 컨센서스 $263(+46%). Citi $300, Bernstein $300, JPMorgan $265. Forward P/E 21.83x에 PEG 0.54 — '역사적 저평가' 평가 압도적."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "이란-호르무즈 해협 봉쇄 → 인플레이션 재점화, 금리 인하 지연",
+      "description": "유가 급등이 인플레이션을 재점화시키면 금리 인하 기대 후퇴, 성장주 멀티플 압축 위험."
+    },
+    {
+      "severity": "high",
+      "title": "Trump 관세 및 AI 칩 수출 규제 강화",
+      "description": "15-20% 반도체 관세와 중국향 AI 칩 규제 강화가 공급망 비용 상승과 중국 매출 제한."
+    },
+    {
+      "severity": "medium",
+      "title": "CoreWeave 가이던스 미스 — 고객 집중도 리스크",
+      "description": "CoreWeave 가이던스 부진으로 NVDA의 소수 클라우드 고객 의존도에 대한 우려 재부상."
+    },
+    {
+      "severity": "medium",
+      "title": "'Great Rotation' — 기술주에서 방어주로 자금 이동",
+      "description": "국채 수익률 상승 + 지정학 리스크로 기술주에서 방어주·원자재로 자금 이동 가속."
+    },
+    {
+      "severity": "medium",
+      "title": "빅테크 커스텀 칩 가속",
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia 스케일업. 장기적 하이퍼스케일러 내부 칩이 TAM 잠식 가능."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "GTC 2026 (3/16-19) — 13일 뒤 최대 카탈리스트",
+      "rationale": "Jensen Huang이 Rubin R200 공식 공개. Blackwell 대비 5배 성능. 이벤트 드리븐 재평가 현실적."
+    },
+    {
+      "title": "Forward P/E 21.83x, PEG 0.54 — 역사적 저평가 구간",
+      "rationale": "65%+ 성장 기업에 Forward P/E 22x, PEG 0.54는 역사적으로 드문 기회."
+    },
+    {
+      "title": "CoreWeave CapEx 2배 확대 ($30B+) — GPU 수요 직결",
+      "rationale": "IPO 가이던스 부진에도 CapEx 2배 확대는 NVDA GPU 주문 확대를 의미."
+    },
+    {
+      "title": "36/38 애널리스트 Buy — 컨센서스 $263 (+46%)",
+      "rationale": "압도적 매수 지지. Citi·Bernstein $300, GB300 출하 129% YoY — 어닝 모멘텀 유효."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 74.38,
+    "sma50": 186.0,
+    "sma50Signal": "below",
+    "sma200": 170.0,
+    "sma200Signal": "above",
+    "rsi": 43.0,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "3/3 종가 $180.05(-1.33%). 이란-호르무즈 지정학 리스크와 'Great Rotation'으로 기술주 매도세 지속. CoreWeave IPO 가이던스 부진도 센티먼트 압박. GTC 2026 D-13.",
+    "38명 중 36명 Buy. Strong Buy 컨센서스 $263(+46%). Forward P/E 21.83x, PEG 0.54 — 55%+ 성장 기업에 역사적 저평가. CoreWeave CapEx 2배 확대($30B+)로 GPU 수요 건재.",
+    "$180.05, 200일선 $170 상회, 50일선 $186 하회. RSI 43 중립. GTC 이벤트 전 $186 50일선 돌파 시도가 단기 관건."
+  ],
+  "sources": [
+    {
+      "name": "StockMarketWatch",
+      "url": "https://stockmarketwatch.com/live/stock-market-today/",
+      "description": "NVDA -1.3% Great Rotation 기술주 매도"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-invests-4b-in-photonics-makers-apple-announces-low-cost-iphone-openai-strikes-deal-with-pentagon-163709849.html",
+      "description": "CoreWeave CapEx $30B+ 발표, IPO 가이던스"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html",
+      "description": "NVIDIA Lumentum·Coherent 각 $2B 투자"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/nvidia-posted-another-blockbuster-quarter-one-analyst-says-the-stock-is-a-coiled-spring.html",
+      "description": "JPMorgan '코일 스프링' 코멘트"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA 실시간 주가 및 개요"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "description": "NVDA 애널리스트 컨센서스 $263.03"
+    },
+    {
+      "name": "Tweaktown",
+      "url": "https://www.tweaktown.com/news/107448/nvidia-gtc-2026-confirmed-for-march-16-19-expect-blackwell-rubin-feynman-gpus-but-no-geforce/index.html",
+      "description": "GTC 2026 3/16-19 확정, Rubin GPU 공개"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=NVDA",
+      "description": "NVDA 기술적 지표, 재무 데이터"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
+      "description": "NVIDIA Lumentum 투자 상세"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
+      "description": "호르무즈 해협 봉쇄 글로벌 영향"
+    }
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA $180, PEG 0.54인데 이란 전쟁에 또 눌렸다 — GTC D-13",
+      "text": "$NVDA (3/4) 호르무즈 봉쇄 + Great Rotation으로 -1.3%. Forward P/E 22x, PEG 0.54 — 65% 성장하는 기업이 이 가격? CoreWeave CapEx 2배 확대($30B+)로 GPU 수요 건재. GTC 13일 뒤 Rubin 공개 — 역사적 매수 구간일까? investory.kro.kr/stock/NVDA/analysis/2026-03-04"
+    },
+    "telegram": {
+      "hook": "NVDA $180.05 — 지정학 리스크에 -1.33%, GTC D-13 카운트다운",
+      "text": "NVIDIA 일일 분석 (3/4)\n\n현재가: $180.05 (-1.33%)\n시총: $4.37T | P/E: 36.74x | Fwd P/E: 21.83x | PEG: 0.54\n\n핵심 이슈:\n- 🇮🇷 이란·호르무즈 사태 → 인플레 우려 → 기술주 매도\n- 🔄 'Great Rotation' — 기술주 → 방어주 자금 이동\n- ☁️ CoreWeave CapEx $30B+ (2배 확대) — GPU 수요 건재\n- 🎮 GTC 2026 (3/16-19): Rubin R200 공개 D-13\n- ⚠️ CoreWeave IPO 가이던스 부진 — 고객 집중도 우려\n\n기술적: 200일선 $170 상회, 50일선 $186 하회, RSI 43\n애널리스트: Strong Buy, 목표가 $263 (+46%)\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-04"
+    }
+  }
+}
