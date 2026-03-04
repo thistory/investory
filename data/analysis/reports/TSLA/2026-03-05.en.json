@@ -1,0 +1,147 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-05",
+  "currentPrice": 405.94,
+  "marketCap": "$1.52T",
+
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker transitioning into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B, marking its first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. Closed at $405.94 (+3.44%) on 3/4, bouncing back from the prior day's decline. Berlin Gigafactory faces union pressure from IG Metall, and NHTSA FSD crash data submission deadline looms on 3/9. P/E 375.87x, Forward P/E 195.87x. Market cap $1.52T.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD subscription: $99/month autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs)",
+      "Cybertruck (base AWD trim with massive demand, deliveries pushed to 2027)",
+      "Cybercab (autonomous robotaxi, first production 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont factory conversion underway)",
+      "Megapack (utility-scale energy storage, Megapack 3 and Mega Block launching 2026)",
+      "FSD (Full Self-Driving, 8.2 billion miles accumulated)"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E Ratio (TTM)", "value": "375.87x", "interpretation": "Extreme valuation reflecting AI/robotics/energy premium, but highly overvalued vs current earnings" },
+    { "name": "Forward P/E", "value": "195.87x", "interpretation": "Reflects earnings recovery expectations but still very elevated" },
+    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "First-ever FY decline. EV competition intensifying with price cuts" },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Sharp decline from 7.24% in FY2024. Price cuts and R&D expansion" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Improving operational efficiency" },
+    { "name": "Debt/Equity", "value": "0.18", "interpretation": "Very healthy. Net cash position of $29.3B" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "Declined vs FY2024. Profitability recovery needed" },
+    { "name": "PEG Ratio", "value": "4.03", "interpretation": "Extremely overvalued relative to growth" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "NHTSA FSD data deadline March 9 — regulatory crossroads",
+      "description": "Motley Fool: Tesla must submit FSD crash data to NHTSA by 3/9. Results could accelerate autonomous driving approval or trigger additional restrictions."
+    },
+    {
+      "title": "German union IG Metall pushing for influence at Berlin Gigafactory",
+      "description": "Reuters: Germany's largest industrial union campaigning for breakthrough at Berlin Gigafactory works council elections."
+    },
+    {
+      "title": "Cybertruck base AWD trim — explosive demand, deliveries pushed to 2027",
+      "description": "New base trim generating massive demand, pushing expected delivery timelines to 2027."
+    },
+    {
+      "title": "France & Norway market share rebounds in February — European stabilization",
+      "description": "Reuters: Tesla regained market share in France and Norway in February, signaling stabilization after two years of European decline."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share leader, though overtaken globally by BYD. Vertical integration across software, manufacturing, energy and 8.2B FSD miles are key moats.",
+    "moats": [
+      { "type": "Autonomous driving data moat", "description": "8.2 billion FSD miles. Overwhelmingly larger training dataset vs competitors." },
+      { "type": "Vertical integration", "description": "In-house batteries (4680), custom chips (HW4), software (FSD), charging infra (Supercharger)." },
+      { "type": "Charging network effects", "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Supercharger network." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 global EV sales leader. Rapid European growth, US entry limited by tariffs" },
+      { "name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026 to compete directly with Model Y" },
+      { "name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China" }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-04", "headline": "German union IG Metall pushes for influence at Berlin Gigafactory", "significance": "Labor cost and governance implications for European production", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/" },
+    { "date": "2026-03-01", "headline": "March 9 NHTSA FSD crash data deadline — autonomous driving crossroads", "significance": "Regulatory outcome could accelerate or restrict FSD deployment", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/" },
+    { "date": "2026-03-02", "headline": "France & Norway February market share rebounds", "significance": "Stabilization signal after two years of European decline", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/" },
+    { "date": "2026-03-02", "headline": "Forbes: What could trigger Tesla's next breakout?", "significance": "Analysis of 18 historical 30%+ rallies and potential catalysts", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-could-trigger-the-next-breakout-in-tesla-stock/" },
+    { "date": "2026-03-03", "headline": "Agentic AI fears in software — NVDA & TSLA outlook on Schwab Network", "significance": "Analysis of software disruption risks vs Tesla's AI positioning", "url": "" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 550,
+    "lowTarget": 85,
+    "upsidePercent": -2.41,
+    "buyCount": 10,
+    "holdCount": 14,
+    "sellCount": 9,
+    "notableComment": "Hold consensus among 33 analysts. Current price $405.94 already above consensus $396.15. Autonomous driving and robotics execution is the key divider."
+  },
+
+  "risks": [
+    { "severity": "critical", "title": "Valuation risk — P/E 375x", "description": "Extreme overvaluation vs current earnings. Significant correction risk if AI/robotics narrative fails." },
+    { "severity": "high", "title": "NHTSA FSD regulatory risk", "description": "3/9 data submission results could halt autonomous driving program." },
+    { "severity": "high", "title": "Global EV competition intensifying", "description": "BYD, Xiaomi, Rivian threatening on price competitiveness and product diversity." },
+    { "severity": "medium", "title": "European labor issues", "description": "IG Metall union influence at Berlin factory could increase costs." },
+    { "severity": "medium", "title": "CEO risk", "description": "Elon Musk's political statements and multi-company management affecting Tesla focus." }
+  ],
+
+  "buyReasons": [
+    { "title": "FCF rebounded to $6.22B (+73.7% YoY)", "rationale": "Cash generation improving despite earnings decline. Investment capacity secured." },
+    { "title": "European market share stabilization", "rationale": "France & Norway rebounds after two-year decline. Potential bottom formation." },
+    { "title": "Cybertruck AWD demand explosion", "rationale": "Waitlist extending to 2027. Truck market penetration creating new demand." },
+    { "title": "Energy business high growth continues", "rationale": "Revenue $12.8B (+27% YoY). Megapack 3/Mega Block launching 2026." }
+  ],
+
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 245.01,
+    "currentPositionPercent": 63.4,
+    "sma50": 431.36,
+    "sma50Signal": "below",
+    "sma200": 391.55,
+    "sma200Signal": "above",
+    "rsi": 45.25,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Tesla is attempting a transition from EV maker to AI platform company, but P/E of 375x remains the biggest risk.",
+    "The 3/9 NHTSA FSD data deadline is the key near-term catalyst/risk. Regulatory outcome will determine stock direction.",
+    "European stabilization, Cybertruck demand explosion, and energy growth are positive, but core auto business decline (-2.9%) and earnings collapse (-46.5%) are concerning.",
+    "Trading below 50-day MA ($431) but rebounded above 200-day MA ($391). RSI 45 neutral. Technically in a $391-$431 range."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA real-time statistics, valuation, financial data" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "German union Berlin Gigafactory news" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/", "description": "France & Norway market share rebound" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/", "description": "3/9 NHTSA FSD deadline analysis" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-could-trigger-the-next-breakout-in-tesla-stock/", "description": "Tesla breakout trigger analysis" },
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "TSLA technical analysis, moving averages" },
+    { "name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/pe-ratio", "description": "TSLA P/E ratio history" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "TSLA real-time price and info" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "Analyst consensus and price targets" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA $406, bounced +3.4% — but the REAL event drops March 9",
+      "text": "$TSLA (3/5) Full recovery to $405.94. March 9 NHTSA FSD crash data deadline — autonomous driving's moment of truth. Cybertruck waitlist to 2027, Europe share rebounding. Buy at P/E 375x? investory.kro.kr/stock/TSLA/analysis/2026-03-05"
+    },
+    "telegram": {
+      "hook": "TSLA $405.94 (+3.44%) — Bounce back, FSD D-Day March 9",
+      "text": "Tesla Daily Analysis (3/5)\n\nPrice: $405.94 (+3.44%) | Mkt Cap $1.52T\nP/E: 375.87x | Forward P/E: 195.87x\n\nKey Issues:\n- 📋 March 9 NHTSA FSD crash data deadline — autonomous driving watershed\n- 🇩🇪 IG Metall union pushing for Berlin Gigafactory influence\n- 🇫🇷🇳🇴 France & Norway Feb share rebound — European stabilization\n- 🛻 Cybertruck AWD waitlist extending to 2027\n\nTechnicals: Bounced above 200-day $391, 50-day $431 resistance. RSI 45 neutral\nAnalysts: Hold consensus, target $396 (current price slightly above)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-05"
+    }
+  }
+}

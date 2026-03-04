@@ -1,0 +1,145 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-05",
+  "currentPrice": 153.19,
+  "marketCap": "$366.38B",
+
+  "businessSummary": {
+    "oneLiner": "정부·기업용 AI 데이터 분석 플랫폼 — 미국 국방·정보기관 핵심 파트너에서 상업용 AI 강자로 변모 중",
+    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 구축한다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장 중이다. Q4 2025 매출 $1.407B(+70% YoY), 미국 상업 매출 $507M(+137% YoY). 3/4 종가 $153.19(+4.06%). 중동 군사 갈등 속 국방 AI 수혜 기대로 급등. Rosenblatt가 목표가를 $200으로 상향. P/E 243.16x, Forward P/E 115.90x.",
+    "howTheyMakeMoney": [
+      "정부 계약: 미국 국방부, CIA, NSA 등 국가안보 기관 소프트웨어 라이선스 및 유지보수",
+      "상업 부문: AIP 기반 기업용 AI 분석 플랫폼 구독 — 미국 상업 매출 +137% YoY",
+      "국제 정부: NATO 동맹국 및 Five Eyes 파트너 정부 계약",
+      "프로페셔널 서비스: 구현, 교육, 컨설팅"
+    ],
+    "keyProducts": [
+      "AIP (AI Platform): 기업 데이터에 LLM을 연결하는 AI 분석 플랫폼",
+      "Gotham: 정부·국방 데이터 분석 및 의사결정 지원",
+      "Foundry: 기업용 데이터 통합·분석 플랫폼",
+      "Apollo: 소프트웨어 배포·관리 자동화",
+      "Maven: 미 국방부 AI 작전 지원 시스템"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E Ratio (TTM)", "value": "243.16x", "interpretation": "프리미엄 밸류에이션이나 AI 플랫폼 독점적 포지셔닝 반영" },
+    { "name": "Forward P/E", "value": "115.90x", "interpretation": "수익 성장 기대감 높으나 여전히 고평가 영역" },
+    { "name": "PEG Ratio", "value": "2.49", "interpretation": "성장 대비 고평가. 성장률 지속 여부가 관건" },
+    { "name": "매출 성장률 (YoY)", "value": "+70%", "interpretation": "Q4 2025 $1.407B. AIP 가속으로 초고속 성장" },
+    { "name": "영업이익률", "value": "31.5%", "interpretation": "소프트웨어 플랫폼답게 높은 수익성" },
+    { "name": "ROE", "value": "25.98%", "interpretation": "자본 대비 양호한 수익 창출" },
+    { "name": "FCF", "value": "$2.10B", "interpretation": "현금 창출 강화. 재투자 여력 확보" },
+    { "name": "부채비율 (D/E)", "value": "0.03", "interpretation": "사실상 무차입. 순현금 $6.95B" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "중동 군사 갈등 → 국방 AI 수혜 급등 +4.06%",
+      "description": "중동 군사 갈등 격화로 국방주 랠리. Palantir이 Lockheed Martin과 함께 시장을 리드. Gotham/Maven 수요 증가 기대."
+    },
+    {
+      "title": "Rosenblatt 목표가 $200으로 상향 (기존 $150)",
+      "description": "3/3 Rosenblatt Securities가 Buy 유지하며 목표가를 $200으로 33% 상향. AI 국방 수요 가속 반영."
+    },
+    {
+      "title": "Motley Fool: 2026 가이던스가 성장을 가속할 수 있다",
+      "description": "기록적 Q4 실적과 AIP 상업 가속으로 2026 전망이 재정립. 총 계약 예약 $4.26B."
+    },
+    {
+      "title": "AIP 상업 채택 가속 — 미국 상업 매출 $507M (+137% YoY)",
+      "description": "AIP 부트캠프를 통한 기업 고객 전환이 가속. Q4 미국 상업 매출 $507M은 전년 동기 대비 137% 성장."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "정부 보안 인증(Top Secret/SCI), 20년 국방·정보기관 관계, AIP를 통한 기업 AI 플랫폼 확장이 핵심 해자.",
+    "moats": [
+      { "type": "정부 보안 인증", "description": "Top Secret/SCI 인증 보유. 경쟁사 진입 극도로 어려움." },
+      { "type": "전환비용", "description": "Gotham/Foundry가 고객 데이터 인프라에 깊이 통합. 교체 비용 매우 높음." },
+      { "type": "AI 플랫폼 네트워크 효과", "description": "AIP 부트캠프로 기업 고객 급속 확대. 더 많은 사용 → 더 좋은 모델." }
+    ],
+    "competitors": [
+      { "name": "Snowflake", "detail": "데이터 클라우드 플랫폼. 엔터프라이즈 데이터 분석 경쟁" },
+      { "name": "Databricks", "detail": "레이크하우스 플랫폼. AI/ML 워크로드 경쟁" },
+      { "name": "Microsoft (Azure AI)", "detail": "Azure AI 서비스로 정부·기업 시장 공략" },
+      { "name": "C3.ai", "detail": "엔터프라이즈 AI 플랫폼. 규모는 PLTR 대비 훨씬 작음" }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-04", "headline": "Palantir +4.06% 급등 — 중동 군사 갈등으로 국방 AI 수혜", "significance": "Lockheed Martin과 함께 국방주 랠리 리드", "url": "https://www.fool.com/investing/2026/03/04/why-palantir-stock-is-surging-today/" },
+    { "date": "2026-03-04", "headline": "Motley Fool: Palantir 2026 가이던스가 성장을 가속할 수 있다", "significance": "기록적 Q4 실적과 매출 가속 기대", "url": "https://www.fool.com/investing/2026/03/04/massive-news-palantirs-2026-forecast-could-superch/" },
+    { "date": "2026-03-03", "headline": "Rosenblatt Securities, 목표가 $200으로 상향 (기존 $150)", "significance": "AI 국방 수요 가속을 반영한 대폭 상향", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-4-defense-stocks-surge-palantir-and-lockheed-martin-lead-market-rally-amid-middle-east-escalation" },
+    { "date": "2026-03-02", "headline": "Palantir 주가 3월 초 반등 — AI 수요와 정부 계약 가속", "significance": "어닝 후 풀백에서 회복. 5일 연속 상승", "url": "https://www.ibtimes.com.au/palantir-technologies-stock-surges-ai-demand-government-contracts-pltr-shares-rebound-early-2026-1862499" },
+    { "date": "2026-03-03", "headline": "Palantir 5일 연속 상승 — $147.22", "significance": "기술적 반등 확인. 상승 추세 전환 가능성", "url": "https://stockinvest.us/stock/PLTR" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 188.52,
+    "highTarget": 260,
+    "lowTarget": 20,
+    "upsidePercent": 23.06,
+    "buyCount": 12,
+    "holdCount": 6,
+    "sellCount": 3,
+    "notableComment": "21명 애널리스트 Buy 컨센서스. Rosenblatt $200 상향. Citigroup $260 최고 목표가. 현재가 대비 +23% 상승 여력."
+  },
+
+  "risks": [
+    { "severity": "critical", "title": "극단적 밸류에이션 — P/E 243x", "description": "성장률 둔화 시 큰 폭 조정 불가피. PEG 2.49도 고평가 영역." },
+    { "severity": "high", "title": "정부 예산 의존도", "description": "미국 정부 계약 비중이 높아 예산 삭감이나 정책 변화에 취약." },
+    { "severity": "high", "title": "CEO 인사이더 매도", "description": "Alex Karp CEO의 지속적 주식 매도가 시장 심리에 부정적." },
+    { "severity": "medium", "title": "상업 부문 경쟁 심화", "description": "Snowflake, Databricks, Microsoft Azure AI 등과의 경쟁." },
+    { "severity": "medium", "title": "주식 희석", "description": "SBC(주식 보상)으로 연 4.67% 주식수 증가. 기존 주주 희석." }
+  ],
+
+  "buyReasons": [
+    { "title": "국방 AI 수혜 — 중동 갈등 가속기", "rationale": "군사 갈등 격화로 국방 AI 예산 확대. Palantir의 핵심 수혜 영역." },
+    { "title": "미국 상업 매출 +137% YoY 폭발", "rationale": "AIP 부트캠프를 통한 기업 고객 전환이 가속. 성장 지속성 검증 중." },
+    { "title": "Rosenblatt $200 상향 — 모멘텀", "rationale": "주요 애널리스트 상향이 시장 심리 개선의 촉매." },
+    { "title": "순현금 $6.95B — 재무 건전성", "rationale": "무차입 경영에 현금 풍부. 공격적 투자·인수 가능." }
+  ],
+
+  "technicalPosition": {
+    "week52High": 207.18,
+    "week52Low": 59.78,
+    "currentPositionPercent": 63.4,
+    "sma50": 158.97,
+    "sma50Signal": "below",
+    "sma200": 161.80,
+    "sma200Signal": "below",
+    "rsi": 57.90,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Palantir는 중동 군사 갈등으로 국방 AI 수혜 기대가 높아지며 +4.06% 급등했다. 5일 연속 상승 중.",
+    "미국 상업 매출 +137% YoY, 총 계약 예약 $4.26B으로 성장 모멘텀은 압도적이다.",
+    "다만 P/E 243x, PEG 2.49라는 극단적 밸류에이션이 리스크. 성장률 둔화 시 급격한 조정 가능.",
+    "50일선·200일선 모두 하회 중이나 RSI 57.9로 상승 모멘텀. Rosenblatt $200 상향이 단기 촉매."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "PLTR 실시간 통계, 밸류에이션, 재무 데이터" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/04/why-palantir-stock-is-surging-today/", "description": "Palantir 급등 원인 분석" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/04/massive-news-palantirs-2026-forecast-could-superch/", "description": "2026 가이던스 성장 가속 분석" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-4-defense-stocks-surge-palantir-and-lockheed-martin-lead-market-rally-amid-middle-east-escalation", "description": "Rosenblatt $200 목표가 상향" },
+    { "name": "IBTimes", "url": "https://www.ibtimes.com.au/palantir-technologies-stock-surges-ai-demand-government-contracts-pltr-shares-rebound-early-2026-1862499", "description": "3월 초 반등 분석" },
+    { "name": "Benzinga", "url": "https://www.benzinga.com/quote/PLTR/analyst-ratings", "description": "애널리스트 레이팅 및 목표가 종합" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21명 애널리스트 컨센서스 $188.52" },
+    { "name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/stock-price-history", "description": "PLTR 주가 히스토리" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "PLTR $153, +4% 급등 — 전쟁이 AI 주식을 키운다?",
+      "text": "$PLTR (3/5) 중동 군사 갈등 → 국방 AI 수혜로 5일 연속 상승. Rosenblatt 목표가 $200 상향. 미국 상업 +137% 폭발 성장. P/E 243x인데 계속 오른다면, 시장이 뭘 보고 있는 걸까? investory.kro.kr/stock/PLTR/analysis/2026-03-05"
+    },
+    "telegram": {
+      "hook": "PLTR $153.19 (+4.06%) — 국방 AI 랠리, 5일 연속 상승",
+      "text": "Palantir 일일 분석 (3/5)\n\n가격: $153.19 (+4.06%) | 시총 $366.4B\nP/E: 243.16x | Forward P/E: 115.90x\n\n핵심 이슈:\n- ⚔️ 중동 군사 갈등 → 국방 AI 수혜, LMT와 함께 랠리\n- 🎯 Rosenblatt 목표가 $150→$200 상향 (Buy 유지)\n- 📊 2026 가이던스 성장 가속 기대 — Motley Fool 분석\n- 🚀 미국 상업 매출 $507M (+137% YoY)\n\n기술적: 50일선 $159·200일선 $162 하회 중이나 RSI 57.9 상승세\n애널리스트: Buy, 목표가 $189 (+23%)\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-05"
+    }
+  }
+}
