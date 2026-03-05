@@ -1,6 +1,7 @@
 export interface SnsPost {
   hook: string;   // 스크롤 멈추게 하는 한 줄 (50자 이내)
   text: string;   // 본문 (스토리 + 숫자 + CTA)
+  thread?: string[];  // X 스레드 답글 (각 280자 이내, 첫 트윗은 text)
 }
 
 export type SnsToneKey = "fact" | "witty" | "empathy";

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
-import type { SnsContent, SnsToneKey } from "@/data/analysis/types";
+import type { SnsContent, SnsToneKey, SnsPost } from "@/data/analysis/types";
 
 interface ShareButtonsProps {
   symbol: string;
@@ -21,7 +21,10 @@ interface ShareConfig {
   name: string;
   icon: string;
   originalText: string;
+  thread?: string[];
 }
+
+const X_CHAR_LIMIT = 280;
 
 const PLATFORM_META: Record<SharePlatform, { name: string; icon: string }> = {
   x: { name: "X", icon: "\uD835\uDD4F" },
@@ -64,6 +67,71 @@ function openShareUrl(platform: SharePlatform, text: string): void {
   window.open(webUrl, "_blank", "noopener,noreferrer");
 }
 
+/** Split long text into thread-sized chunks (each <= 280 chars) */
+function autoSplitThread(text: string): string[] {
+  if (text.length <= X_CHAR_LIMIT) return [text];
+
+  const parts: string[] = [];
+  const paragraphs = text.split("\n\n");
+  let current = "";
+
+  for (const para of paragraphs) {
+    const candidate = current ? `${current}\n\n${para}` : para;
+    if (candidate.length <= X_CHAR_LIMIT) {
+      current = candidate;
+    } else {
+      if (current) parts.push(current);
+      // If single paragraph exceeds limit, split by lines
+      if (para.length > X_CHAR_LIMIT) {
+        const lines = para.split("\n");
+        let chunk = "";
+        for (const line of lines) {
+          const next = chunk ? `${chunk}\n${line}` : line;
+          if (next.length <= X_CHAR_LIMIT) {
+            chunk = next;
+          } else {
+            if (chunk) parts.push(chunk);
+            chunk = line;
+          }
+        }
+        current = chunk;
+      } else {
+        current = para;
+      }
+    }
+  }
+  if (current) parts.push(current);
+  return parts;
+}
+
+/** Get thread parts for a post: use explicit thread field, or auto-split */
+function getThreadParts(post: SnsPost | undefined, fallbackText: string, pageLink: string): string[] {
+  if (!post) {
+    const text = appendPageLink(fallbackText, pageLink);
+    return autoSplitThread(text);
+  }
+
+  if (post.thread && post.thread.length > 0) {
+    // Explicit thread: first tweet is text, rest are thread replies
+    const first = appendPageLink(post.text, "");
+    const lastIdx = post.thread.length - 1;
+    const replies = post.thread.map((t, i) =>
+      i === lastIdx ? appendPageLink(t, pageLink) : t
+    );
+    return [first, ...replies];
+  }
+
+  // No explicit thread: auto-split the text
+  const text = appendPageLink(post.text, pageLink);
+  return autoSplitThread(text);
+}
+
+function appendPageLink(text: string, pageLink: string): string {
+  if (!pageLink) return text;
+  if (text.includes("investory.kro.kr")) return text;
+  return `${text}\n\n${pageLink}`;
+}
+
 export function ShareButtons({
   symbol,
   date,
@@ -79,6 +147,8 @@ export function ShareButtons({
   const [active, setActive] = useState<ShareConfig | null>(null);
   const [editedText, setEditedText] = useState("");
   const [selectedTone, setSelectedTone] = useState<SnsToneKey>("fact");
+  const [threadParts, setThreadParts] = useState<string[]>([]);
+  const [copiedIdx, setCopiedIdx] = useState<number | null>(null);
 
   const baseUrl =
     typeof window !== "undefined"
@@ -86,13 +156,25 @@ export function ShareButtons({
       : process.env.NEXT_PUBLIC_BASE_URL || "";
   const pageUrl = `${baseUrl}/${locale}/stock/${symbol}/analysis/${date}`;
   const fallback = `${title}\n${description}`;
-  const linkLabel = locale === "en" ? "Full analysis \uD83D\uDC49" : "\uC0C1\uC138 \uBD84\uC11D \uD83D\uDC49";
+  const linkLabel = locale === "en" ? "Full analysis" : "\uC0C1\uC138 \uBD84\uC11D";
   const pageLink = `${linkLabel} ${pageUrl}`;
 
-  // Append page link only if text doesn't already contain an investory URL
-  function withPageLink(text: string): string {
-    if (text.includes("investory.kro.kr")) return text;
-    return `${text}\n\n${pageLink}`;
+  // Check if tones data is available
+  const hasTones = !!(snsContent?.tones?.x || snsContent?.tones?.threads);
+
+  // Get SnsPost for a given platform+tone
+  function getPostForTone(platform: SharePlatform, tone: SnsToneKey): SnsPost | undefined {
+    const toneSet = snsContent?.tones?.[platform];
+    if (toneSet && toneSet[tone]) return toneSet[tone];
+    if (platform === "x") return snsContent?.x || snsContent?.threads;
+    return snsContent?.threads;
+  }
+
+  function getTextForTone(platform: SharePlatform, tone: SnsToneKey): string {
+    const post = getPostForTone(platform, tone);
+    if (post) return post.text;
+    if (platform === "x") return snsContent?.x?.text || snsContent?.threads?.text || fallback;
+    return snsContent?.threads?.text || fallback;
   }
 
   // Text helpers
@@ -100,20 +182,6 @@ export function ShareButtons({
   const snsThreadsText = snsContent?.threads?.text;
   const snsTelegramText = snsContent?.telegram?.text;
   const telegramText = snsTelegramText || snsThreadsText || fallback;
-
-  // Check if tones data is available
-  const hasTones = !!(snsContent?.tones?.x || snsContent?.tones?.threads);
-
-  // Get text for a given platform+tone
-  function getTextForTone(platform: SharePlatform, tone: SnsToneKey): string {
-    const toneSet = snsContent?.tones?.[platform];
-    if (toneSet && toneSet[tone]) {
-      return toneSet[tone].text;
-    }
-    // Fallback to default (fact = original text)
-    if (platform === "x") return snsXText || snsThreadsText || fallback;
-    return snsThreadsText || fallback;
-  }
 
   // Admin-only platforms
   const adminPlatforms: { platform: SharePlatform; text: string }[] = [
@@ -134,38 +202,67 @@ export function ShareButtons({
     }
   }
 
+  function buildThreadParts(platform: SharePlatform, tone: SnsToneKey): string[] {
+    if (platform !== "x") return [];
+    const post = getPostForTone(platform, tone);
+    return getThreadParts(post, fallback, pageLink);
+  }
+
   function openPreview(platform: SharePlatform, originalText: string) {
     const meta = PLATFORM_META[platform];
-    const fullText = withPageLink(originalText);
-    setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText });
+    const fullText = appendPageLink(originalText, pageLink);
+    const post = platform === "x" ? snsContent?.x : snsContent?.threads;
+    const parts = platform === "x" ? getThreadParts(post, fallback, pageLink) : [];
+    setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText, thread: post?.thread });
     setEditedText(fullText);
+    setThreadParts(parts);
+    setCopiedIdx(null);
   }
 
   function openPreviewWithTone(platform: SharePlatform, tone: SnsToneKey) {
     const text = getTextForTone(platform, tone);
     const meta = PLATFORM_META[platform];
-    const fullText = withPageLink(text);
-    setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText });
+    const fullText = appendPageLink(text, pageLink);
+    const parts = buildThreadParts(platform, tone);
+    const post = getPostForTone(platform, tone);
+    setActive({ platform, name: meta.name, icon: meta.icon, originalText: fullText, thread: post?.thread });
     setEditedText(fullText);
     setSelectedTone(tone);
+    setThreadParts(parts);
+    setCopiedIdx(null);
   }
 
-  // When tone changes in the modal, update the text
   function switchTone(tone: SnsToneKey) {
     if (!active) return;
     setSelectedTone(tone);
     const text = getTextForTone(active.platform, tone);
-    const fullText = withPageLink(text);
-    setActive({ ...active, originalText: fullText });
+    const fullText = appendPageLink(text, pageLink);
+    const parts = buildThreadParts(active.platform, tone);
+    const post = getPostForTone(active.platform, tone);
+    setActive({ ...active, originalText: fullText, thread: post?.thread });
     setEditedText(fullText);
+    setThreadParts(parts);
+    setCopiedIdx(null);
   }
 
   function resetText() {
-    if (active) setEditedText(active.originalText);
+    if (active) {
+      setEditedText(active.originalText);
+      if (active.platform === "x") {
+        const parts = active.thread
+          ? [appendPageLink(active.originalText, ""), ...active.thread.map((t, i, arr) => i === arr.length - 1 ? appendPageLink(t, pageLink) : t)]
+          : autoSplitThread(active.originalText);
+        setThreadParts(parts);
+      }
+    }
   }
 
+  // When editedText changes and it's X platform, recalculate thread parts
+  const isXPlatform = active?.platform === "x";
+  const hasExplicitThread = !!(active?.thread && active.thread.length > 0);
+
   // ESC key to close
-  const close = useCallback(() => setActive(null), []);
+  const close = useCallback(() => { setActive(null); setCopiedIdx(null); }, []);
   useEffect(() => {
     if (!active) return;
     function onKey(e: KeyboardEvent) {
@@ -205,15 +302,22 @@ export function ShareButtons({
 
   async function copyContent() {
     const bestText = snsTelegramText || snsThreadsText || snsXText || fallback;
-    const fullText = withPageLink(bestText);
+    const fullText = appendPageLink(bestText, pageLink);
     if (await copyToClipboard(fullText)) {
       setContentCopied(true);
       setTimeout(() => setContentCopied(false), 2000);
     }
   }
 
+  async function copyThreadPart(idx: number) {
+    if (await copyToClipboard(threadParts[idx])) {
+      setCopiedIdx(idx);
+      setTimeout(() => setCopiedIdx(null), 2000);
+    }
+  }
+
   function shareWhatsApp() {
-    const text = withPageLink(telegramText);
+    const text = appendPageLink(telegramText, pageLink);
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
       window.location.href = `whatsapp://send?text=${encodeURIComponent(text)}`;
@@ -262,6 +366,7 @@ export function ShareButtons({
   }
 
   const isEdited = active ? editedText !== active.originalText : false;
+  const showThread = isXPlatform && threadParts.length > 1;
 
   // i18n tone label helper
   const toneLabel: Record<SnsToneKey, string> = {
@@ -410,53 +515,149 @@ export function ShareButtons({
               </div>
             )}
 
-            {/* Editable content */}
+            {/* Content area */}
             <div className="flex-1 overflow-y-auto px-4 py-4">
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-xs text-gray-400 dark:text-zinc-500">
-                  {t("editableContent")}
-                </span>
-                <div className="flex items-center gap-2">
-                  {isEdited && (
-                    <button
-                      onClick={resetText}
-                      className="text-xs text-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                    >
-                      {t("restoreOriginal")}
-                    </button>
-                  )}
-                </div>
-              </div>
+              {/* Thread view for X when content is split */}
+              {showThread ? (
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-xs font-medium text-gray-500 dark:text-zinc-400">
+                      {t("threadTitle", { count: threadParts.length })}
+                    </span>
+                    {isEdited && (
+                      <button
+                        onClick={resetText}
+                        className="text-xs text-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                      >
+                        {t("restoreOriginal")}
+                      </button>
+                    )}
+                  </div>
+                  <p className="text-xs text-gray-400 dark:text-zinc-500 -mt-1">
+                    {t("threadGuide")}
+                  </p>
 
-              <textarea
-                value={editedText}
-                onChange={(e) => setEditedText(e.target.value)}
-                className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
-                rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
-              />
-              <div className="mt-2 flex justify-end">
-                <button
-                  onClick={async () => {
-                    if (await copyToClipboard(editedText)) {
-                      setContentCopied(true);
-                      setTimeout(() => setContentCopied(false), 2000);
-                    }
-                  }}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
-                >
-                  {contentCopied ? (
-                    <svg className="w-3.5 h-3.5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  ) : (
-                    <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <rect x="6" y="6" width="10" height="12" rx="1.5" />
-                      <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
-                    </svg>
-                  )}
-                  <span>{contentCopied ? t("contentCopied") : t("copyContent")}</span>
-                </button>
-              </div>
+                  {threadParts.map((part, idx) => {
+                    const isFirst = idx === 0;
+                    const isCopied = copiedIdx === idx;
+                    const charCount = part.length;
+                    const isOverLimit = charCount > X_CHAR_LIMIT;
+
+                    return (
+                      <div key={idx} className="relative">
+                        {/* Thread connector line */}
+                        {idx > 0 && (
+                          <div className="absolute left-4 -top-3 w-0.5 h-3 bg-gray-200 dark:bg-zinc-700" />
+                        )}
+
+                        <div className={`rounded-lg border ${isFirst ? "border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-950/20" : "border-gray-200 dark:border-zinc-700 bg-gray-50 dark:bg-zinc-800"}`}>
+                          {/* Tweet header */}
+                          <div className="flex items-center justify-between px-3 pt-2">
+                            <span className={`text-xs font-medium ${isFirst ? "text-blue-600 dark:text-blue-400" : "text-gray-500 dark:text-zinc-400"}`}>
+                              {t("threadTweet", { n: idx + 1, total: threadParts.length })}
+                            </span>
+                            <span className={`text-xs tabular-nums ${isOverLimit ? "text-red-500" : "text-gray-400 dark:text-zinc-500"}`}>
+                              {t("charCount", { count: charCount })}
+                            </span>
+                          </div>
+
+                          {/* Tweet content */}
+                          <div className="px-3 py-2 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed whitespace-pre-wrap break-words">
+                            {part}
+                          </div>
+
+                          {/* Tweet action */}
+                          <div className="flex justify-end px-3 pb-2">
+                            {isFirst ? (
+                              <button
+                                onClick={() => openShareUrl("x", part)}
+                                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-blue-600 hover:bg-blue-700 text-white transition-colors"
+                              >
+                                {t("postFirstTweet")}
+                              </button>
+                            ) : (
+                              <button
+                                onClick={() => copyThreadPart(idx)}
+                                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                                  isCopied
+                                    ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400"
+                                    : "bg-gray-100 dark:bg-zinc-700 hover:bg-gray-200 dark:hover:bg-zinc-600 text-gray-600 dark:text-zinc-300"
+                                }`}
+                              >
+                                {isCopied ? (
+                                  <>
+                                    <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span>{t("replyCopied")}</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                                      <rect x="6" y="6" width="10" height="12" rx="1.5" />
+                                      <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
+                                    </svg>
+                                    <span>{t("copyReply")}</span>
+                                  </>
+                                )}
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                /* Single post view (Threads, or short X content) */
+                <>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs text-gray-400 dark:text-zinc-500">
+                      {t("editableContent")}
+                    </span>
+                    <div className="flex items-center gap-2">
+                      {isEdited && (
+                        <button
+                          onClick={resetText}
+                          className="text-xs text-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                        >
+                          {t("restoreOriginal")}
+                        </button>
+                      )}
+                    </div>
+                  </div>
+
+                  <textarea
+                    value={editedText}
+                    onChange={(e) => setEditedText(e.target.value)}
+                    className="w-full bg-gray-50 dark:bg-zinc-800 rounded-lg p-3 text-sm text-gray-700 dark:text-zinc-300 leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/30 border border-gray-200 dark:border-zinc-700"
+                    rows={Math.min(10, Math.max(4, editedText.split("\n").length + 1))}
+                  />
+                  <div className="mt-2 flex justify-end">
+                    <button
+                      onClick={async () => {
+                        if (await copyToClipboard(editedText)) {
+                          setContentCopied(true);
+                          setTimeout(() => setContentCopied(false), 2000);
+                        }
+                      }}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-zinc-400 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
+                    >
+                      {contentCopied ? (
+                        <svg className="w-3.5 h-3.5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                      ) : (
+                        <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                          <rect x="6" y="6" width="10" height="12" rx="1.5" />
+                          <path d="M4 14V4.5A1.5 1.5 0 015.5 3H13" />
+                        </svg>
+                      )}
+                      <span>{contentCopied ? t("contentCopied") : t("copyContent")}</span>
+                    </button>
+                  </div>
+                </>
+              )}
             </div>
 
             {/* Actions */}
@@ -467,15 +668,17 @@ export function ShareButtons({
               >
                 {t("cancel")}
               </button>
-              <button
-                onClick={() => {
-                  if (active) openShareUrl(active.platform, editedText);
-                  close();
-                }}
-                className="flex-1 px-4 py-3 sm:py-2.5 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-xl sm:rounded-lg text-sm font-medium text-white text-center transition-colors"
-              >
-                {t("shareButton")}
-              </button>
+              {!showThread && (
+                <button
+                  onClick={() => {
+                    if (active) openShareUrl(active.platform, editedText);
+                    close();
+                  }}
+                  className="flex-1 px-4 py-3 sm:py-2.5 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-xl sm:rounded-lg text-sm font-medium text-white text-center transition-colors"
+                >
+                  {t("shareButton")}
+                </button>
+              )}
             </div>
           </div>
         </div>
