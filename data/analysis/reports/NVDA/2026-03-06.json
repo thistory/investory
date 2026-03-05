@@ -1,0 +1,180 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-06",
+  "currentPrice": 183.34,
+  "marketCap": "$4.45T",
+
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. FY2026 매출 $215.94B(+65.5%), EPS $4.90(+66.7%). 3/5 종가 $183.34(+0.16%). 트럼프 행정부의 글로벌 AI 칩 수출 규제 초안 보도로 장중 -1.7% 하락 후 회복. GTC 2026 D-11(3/16-19). Tigress Financial이 목표가를 $360으로 상향. 시가총액 $4.45T. P/E 37.42x, Forward P/E 22.22x, PEG 0.66.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
+      "게이밍: GeForce RTX 시리즈 GPU 및 DLSS 4 기술",
+      "자동차: DRIVE 플랫폼 자율주행 및 차량 AI 칩",
+      "프로페셔널 시각화: Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: 최신 AI 가속기, Hopper 대비 50배 처리량",
+      "Blackwell B200/GB200: 하이퍼스케일러 전량 매진",
+      "H100/H200 Tensor Core GPU: AI 업계 표준",
+      "Rubin R200: 차세대 GPU, GTC 2026(3/16-19) 공식 공개 예정",
+      "CUDA: 1,500만+ 개발자 GPU 컴퓨팅 플랫폼",
+      "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E Ratio (TTM)", "value": "37.42x", "interpretation": "AI 반도체 리더치고 합리적. 초고성장 반영" },
+    { "name": "Forward P/E", "value": "22.22x", "interpretation": "향후 수익 성장 고려 시 매력적 수준" },
+    { "name": "PEG Ratio", "value": "0.66", "interpretation": "1 미만으로 성장 대비 저평가 신호" },
+    { "name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.94B. 폭발적 성장 지속" },
+    { "name": "영업이익률", "value": "60.4%", "interpretation": "반도체 업계 최고 수준의 수익성" },
+    { "name": "ROE", "value": "101.49%", "interpretation": "자본 대비 초고수익 창출" },
+    { "name": "FCF", "value": "$96.9B", "interpretation": "막대한 잉여현금흐름. 주주환원·투자 여력 풍부" },
+    { "name": "부채비율 (D/E)", "value": "0.07", "interpretation": "사실상 무차입. 순현금 $51.1B" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 (3/16-19) D-11 — Rubin R200 공개 임박",
+      "description": "Jensen Huang이 산호세 GTC에서 차세대 Rubin(R200) 아키텍처 공식 공개 예정. 3만 명 참석. 11일 후 최대 촉매."
+    },
+    {
+      "title": "Tigress Financial, 목표가 $350→$360 상향 — Strong Buy",
+      "description": "3/5 Tigress Financial이 목표가를 $360으로 상향. +96% 상승 여력. AI 인프라 수요 가속 반영."
+    },
+    {
+      "title": "트럼프 행정부 글로벌 AI 칩 수출 규제 초안 — 단기 압력",
+      "description": "Bloomberg: 트럼프 행정부가 거의 모든 국가에 AI 칩 수출 라이선스를 요구하는 규제를 준비 중. 장중 -1.7% 하락 후 회복."
+    },
+    {
+      "title": "하이퍼스케일러 CapEx 가속 — 2026 합산 $700B+",
+      "description": "Alphabet, Amazon, Meta, Microsoft 합산 ~$700B CapEx. NVIDIA GPU 수요 구조적 증가."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계(1,500만+ 개발자), 연간 아키텍처 갱신, 압도적 NVLink 성능, 80%+ AI 가속기 시장 점유율로 사실상 독점.",
+    "moats": [
+      { "type": "소프트웨어 생태계 (전환비용)", "description": "CUDA 15년+ 역사. 1,500만+ 개발자가 NVIDIA에 최적화." },
+      { "type": "기술 리더십", "description": "Hopper→Blackwell→Rubin 연간 아키텍처 갱신. GB300은 Hopper 대비 50배 효율." },
+      { "type": "공급망 락인", "description": "TSMC 첨단 CoWoS 패키징 용량 대부분 확보." },
+      { "type": "전략적 파트너십", "description": "Lumentum·Coherent 각 $2B 투자. Meta, OpenAI, Eli Lilly 다년 계약." }
+    ],
+    "competitors": [
+      { "name": "AMD", "detail": "MI300X/MI350 AI 가속기 시장 점유율 10-12%. MI450(2nm) 계획 중." },
+      { "name": "Intel", "detail": "Gaudi 3 출시했으나 시장 점유율 미미." },
+      { "name": "커스텀 실리콘", "detail": "Google TPU, Amazon Trainium, Microsoft Maia — 하이퍼스케일러 자체 칩 가속." },
+      { "name": "Huawei Ascend", "detail": "중국 내 NVIDIA 대안. 수출 규제가 NVIDIA의 중국 점유율 제한." }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-05", "headline": "트럼프 행정부, 글로벌 AI 칩 수출 라이선스 규제 초안 — NVDA -1.7% 장중 하락", "significance": "모든 국가에 수출 라이선스 요구. 단기 수요 불확실성 증가", "url": "https://coincentral.com/nvidia-nvda-stock-falls-as-us-plans-global-ai-chip-export-rules/" },
+    { "date": "2026-03-05", "headline": "Tigress Financial, 목표가 $350→$360 상향 — Strong Buy 유지", "significance": "+96% 상승 여력. AI 인프라 수요 가속 반영", "url": "https://stockanalysis.com/stocks/nvda/forecast/" },
+    { "date": "2026-03-05", "headline": "Motley Fool: NVIDIA 주식 2026년에 $300 갈 수 있나?", "significance": "장기 투자자에게 주요 AI 주식으로 긍정적 평가", "url": "https://www.fool.com/investing/2026/03/05/is-nvidia-stock-going-to-300-in-2026/" },
+    { "date": "2026-03-05", "headline": "GTC 2026 D-11 — 3만 명 참석 AI 산업혁명 쇼케이스", "significance": "Rubin R200 공개 예정. 주가 재평가의 촉매", "url": "https://www.stocktitan.net/news/NVDA/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-xp1xkmxzdkt8.html" },
+    { "date": "2026-03-05", "headline": "FinancialContent: $4.4T 시대 — NVIDIA 딥다이브", "significance": "AI OVERWATCH Act 등 수출 규제와 NVIDIA 지배력 분석", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-the-44-trillion-epoch-a-deep-dive-research-feature-on-nvidia-corp-nvda" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 360,
+    "lowTarget": 100,
+    "upsidePercent": 43.61,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "38명 애널리스트 Strong Buy. Tigress $360 최고가 상향. 현재가 대비 +43.6% 상승 여력. GTC가 재평가 촉매."
+  },
+
+  "risks": [
+    {
+      "severity": "high",
+      "title": "글로벌 AI 칩 수출 규제 — 트럼프 행정부 초안",
+      "description": "거의 모든 국가에 수출 라이선스 요구 시 매출 제한 가능. 규제 최종안 불확실."
+    },
+    {
+      "severity": "high",
+      "title": "대형 기술주 로테이션 (Great Rotation)",
+      "description": "시장 전반의 Mag-7 이탈 흐름. 대형 기술주에서 방어주로 자금 이동."
+    },
+    {
+      "severity": "medium",
+      "title": "고객 집중도",
+      "description": "상위 하이퍼스케일러(MS, Meta, Google, Amazon)에 매출 편중. 자체 칩 전환 리스크."
+    },
+    {
+      "severity": "medium",
+      "title": "밸류에이션 절대 규모",
+      "description": "시총 $4.45T. PEG 0.66은 매력적이나 성장률 둔화 시 압축 가능."
+    },
+    {
+      "severity": "low",
+      "title": "공급 제약",
+      "description": "TSMC CoWoS 패키징 용량 확보에도 수요가 공급을 계속 초과."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "GTC 2026 D-11 — 단기 최대 촉매",
+      "rationale": "Rubin R200 공개와 물리적 AI 로드맵이 주가 재평가의 기회."
+    },
+    {
+      "title": "PEG 0.66 — 성장 대비 저평가",
+      "rationale": "Forward P/E 22x에 65%+ 성장률. 성장주 중 가장 합리적 밸류에이션."
+    },
+    {
+      "title": "Tigress $360 — +96% 상승 여력",
+      "rationale": "가장 낙관적 목표가. 38명 중 36명 Buy."
+    },
+    {
+      "title": "막대한 현금 창출력",
+      "rationale": "FCF $96.9B, 순현금 $51.1B. 주주환원과 전략 투자 동시 가능."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 77.0,
+    "sma50": 186.08,
+    "sma50Signal": "below",
+    "sma200": 175.69,
+    "sma200Signal": "above",
+    "rsi": 47.0,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "NVIDIA는 AI 인프라의 절대적 지배자이나, 트럼프 행정부의 글로벌 수출 규제 초안이 새로운 불확실성을 추가했다.",
+    "GTC 2026이 11일 앞으로 다가왔다. Rubin R200 공개가 수출 규제 우려를 상쇄할 수 있는 촉매.",
+    "50일선 $186 소폭 하회 중이나 200일선 $176 위에서 안정. RSI 47로 중립 — GTC 직전 관망세.",
+    "38명 애널리스트 중 36명 Buy, 목표가 $263. 수출 규제 최종안과 GTC 결과가 다음 방향을 결정."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "NVDA 종가 $183.34, Strong Buy $263.29, Tigress $360 상향" },
+    { "name": "CoinCentral", "url": "https://coincentral.com/nvidia-nvda-stock-falls-as-us-plans-global-ai-chip-export-rules/", "description": "트럼프 행정부 AI 칩 수출 규제 초안 보도" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/nvidia-sinks-on-report-of-global-ai-chip-export-rules-4544937", "description": "NVDA -1.7% 하락, 수출 규제 영향" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/is-nvidia-stock-going-to-300-in-2026/", "description": "NVIDIA $300 목표 분석" },
+    { "name": "StockTitan", "url": "https://www.stocktitan.net/news/NVDA/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-xp1xkmxzdkt8.html", "description": "GTC 2026 공식 발표" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-the-44-trillion-epoch-a-deep-dive-research-feature-on-nvidia-corp-nvda", "description": "$4.4T 시대 NVIDIA 딥다이브" },
+    { "name": "Parameter", "url": "https://parameter.io/41467-2nvidia-nvda-stock-falls-as-trump-administration-weighs-global-licensing-rules-for-ai-chip-exports/", "description": "수출 라이선스 규제 상세 분석" },
+    { "name": "StockAnalysis Overview", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA P/E 37.42, Forward PE 22.22, 매출 $215.94B" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "트럼프이 AI 칩 수출 막겠다는데 NVDA는 +0.16%? 🤔",
+      "text": "글로벌 수출 라이선스 규제 초안에 장중 -1.7% 빠졌다가 회복. GTC D-11, Rubin R200 공개 앞두고 시장은 관망. PEG 0.66에 38명 중 36명 Buy — 규제가 이걸 꺾을 수 있을까?\n\n→ investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+    },
+    "telegram": {
+      "hook": "🟢 NVDA $183.34 (+0.16%) — 수출 규제 vs GTC D-11",
+      "text": "Bloomberg: 트럼프 행정부가 거의 모든 국가에 AI 칩 수출 라이선스를 요구하는 규제 초안을 준비 중. 장중 -1.7% 하락 후 반등.\n\nGTC 2026이 11일 후. Rubin R200 공개와 3만 명 참석 AI 쇼케이스가 다가온다. Tigress는 목표가를 $360(+96%)으로 상향.\n\nPEG 0.66, Forward P/E 22x — 이 밸류에이션에서 수출 규제가 진짜 위협인가, 매수 기회인가?\n\n📊 상세 분석 → investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+    }
+  }
+}

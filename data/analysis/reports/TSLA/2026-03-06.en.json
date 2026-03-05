@@ -1,0 +1,178 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-06",
+  "currentPrice": 405.55,
+  "marketCap": "$1.52T",
+
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker transitioning into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B, marking its first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. Closed at $405.55 (-0.10%) on 3/5. Bank of America reinstated coverage with Buy/$460, but UK Feb sales dropped -37% and NHTSA FSD data deadline is D-4 (3/9). P/E 375x, Forward P/E 195x. Market cap $1.52T.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD subscription: $99/month autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs)",
+      "Cybertruck (base AWD trim with massive demand, deliveries pushed to 2027)",
+      "Cybercab (autonomous robotaxi, first production 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont factory conversion underway)",
+      "Megapack (utility-scale energy storage, Megapack 3 and Mega Block launching 2026)",
+      "FSD (Full Self-Driving, 8.2 billion miles accumulated)"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E Ratio (TTM)", "value": "375x", "interpretation": "Extreme valuation reflecting AI/robotics/energy premium, but highly overvalued vs current earnings" },
+    { "name": "Forward P/E", "value": "194.69x", "interpretation": "Reflects earnings recovery expectations but still very elevated" },
+    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "First-ever FY decline. EV competition intensifying with price cuts" },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Down from FY2024's 7.24%. Price cuts and R&D expansion" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Improving operational efficiency signal" },
+    { "name": "Debt-to-Equity", "value": "0.18", "interpretation": "Very healthy. Net cash $29.3B" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "Declined from FY2024. Profitability recovery needed" },
+    { "name": "PEG Ratio", "value": "4.03", "interpretation": "Extremely overvalued relative to growth" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Bank of America reinstates Buy/$460 — autonomous driving leader",
+      "description": "BofA reinstated Tesla with Buy/$460, calling it 'the current leader in consumer autonomy.' FSD and robotics cited as key growth drivers."
+    },
+    {
+      "title": "NHTSA FSD data deadline D-4 — regulatory inflection point",
+      "description": "Tesla must submit FSD crash data to NHTSA by 3/9. Results could accelerate autonomous approval or trigger additional restrictions."
+    },
+    {
+      "title": "UK Feb sales -37% plunge — mixed European signals",
+      "description": "UK market saw a sharp 37% sales decline in February, but France and Norway showed market share recovery. European performance diverging."
+    },
+    {
+      "title": "Cybertruck base AWD explosive demand — deliveries pushed to 2027",
+      "description": "Strong demand for the new base trim has pushed estimated delivery timelines to 2027."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "US EV market share 50%+ #1, overtaken globally by BYD. Software, manufacturing, and energy vertical integration plus 8.2B autonomous driving miles as core moats.",
+    "moats": [
+      { "type": "Autonomous driving data moat", "description": "FSD Supervised 8.2B miles. Overwhelmingly larger training dataset vs competitors." },
+      { "type": "Vertical integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)." },
+      { "type": "Charging network effect", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian depend on Tesla's Supercharger network." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 global EV sales #1. Rapid European expansion, US entry limited by tariffs" },
+      { "name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y" },
+      { "name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China" }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-05", "headline": "Bank of America reinstates Tesla with Buy/$460 — consumer autonomy leader", "significance": "FSD and robotics cited as key growth drivers. +14% upside implied", "url": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-amid-robotaxi-optimism-analyst-upgrades-1862695" },
+    { "date": "2026-03-05", "headline": "Tesla UK Feb sales plunge 37% — European divergence", "significance": "UK decline but France/Norway recovery. Regional performance splitting", "url": "https://tradersunion.com/news/financial-news/show/1621143-tesla-stock-rises/" },
+    { "date": "2026-03-05", "headline": "NHTSA FSD crash data deadline D-4 — autonomous driving inflection", "significance": "3/9 submission results will determine FSD's regulatory future", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/" },
+    { "date": "2026-03-05", "headline": "Tesla trades near $403 — flat after prior day's rebound", "significance": "Holding above 200-day SMA $391, awaiting NHTSA results", "url": "https://coincentral.com/tesla-tsla-stock-slides-as-uk-sales-drop-37-in-february/" },
+    { "date": "2026-03-04", "headline": "German union IG Metall seeks breakthrough at Berlin Gigafactory", "significance": "Labor cost and management control implications for European production", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600,
+    "lowTarget": 25.28,
+    "upsidePercent": -2.32,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "30 analysts, Hold consensus. BofA reinstated Buy/$460, Wedbush $600 high target. Current price already exceeds consensus."
+  },
+
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "Valuation risk — P/E 375x",
+      "description": "Extremely overvalued vs current earnings. Major correction possible if AI/robot narrative fails to materialize."
+    },
+    {
+      "severity": "high",
+      "title": "NHTSA FSD regulatory risk — D-4",
+      "description": "Data submission results on 3/9 could halt autonomous driving program. Biggest near-term uncertainty."
+    },
+    {
+      "severity": "high",
+      "title": "Global EV competition — UK sales -37%",
+      "description": "BYD, Xiaomi, Rivian threatening with price competitiveness and product diversity."
+    },
+    {
+      "severity": "medium",
+      "title": "European labor issues",
+      "description": "IG Metall union expansion at Berlin factory could increase costs."
+    },
+    {
+      "severity": "medium",
+      "title": "CEO risk",
+      "description": "Elon Musk's political activities and multi-venture management affect Tesla focus."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "BofA Buy/$460 reinstatement — institutional validation",
+      "rationale": "Bank of America sees +14% upside. Strengthens institutional confidence."
+    },
+    {
+      "title": "FCF rebounds 73.7% YoY to $6.22B",
+      "rationale": "Cash generation improving despite margin compression. Investment capacity secured."
+    },
+    {
+      "title": "Cybertruck AWD demand explosion",
+      "rationale": "Waitlist extends to 2027. Truck market penetration opens new demand pool."
+    },
+    {
+      "title": "Energy business high growth continues",
+      "rationale": "Revenue $12.8B (+27% YoY). Megapack 3/Mega Block launching 2026 for acceleration."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 67.2,
+    "sma50": 431.36,
+    "sma50Signal": "below",
+    "sma200": 391.55,
+    "sma200Signal": "above",
+    "rsi": 45.0,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Tesla confirmed institutional confidence in its autonomous driving leadership with BofA's Buy/$460 reinstatement. However, P/E 375x valuation remains the biggest overhang.",
+    "NHTSA FSD data deadline is D-4. The 3/9 results will be the key near-term catalyst determining stock direction.",
+    "UK sales -37% is concerning but France/Norway recovery shows mixed European signals. Trading below 50-day SMA $431 but above 200-day SMA $391.",
+    "Consensus $396 already below current price. NHTSA clearance could trigger a rally; negative results may test the 200-day SMA at $391."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "TSLA close $405.55, analyst consensus Hold $396.15" },
+    { "name": "IBTimes Australia", "url": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-amid-robotaxi-optimism-analyst-upgrades-1862695", "description": "BofA Buy/$460 reinstatement, trading near $403" },
+    { "name": "TradersUnion", "url": "https://tradersunion.com/news/financial-news/show/1621143-tesla-stock-rises/", "description": "UK Feb sales -37%, stock at $405.60" },
+    { "name": "CoinCentral", "url": "https://coincentral.com/tesla-tsla-stock-slides-as-uk-sales-drop-37-in-february/", "description": "UK sales decline, analyst avg $399.25" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/", "description": "NHTSA 3/9 FSD data deadline analysis" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "IG Metall Berlin factory union expansion" },
+    { "name": "Coinpaper", "url": "https://coinpaper.com/15166/tesla-stock-forecast-600-in-2026-amid-robotaxi-and-energy-push", "description": "Wedbush $600 target, Polymarket $405 prediction" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-tesla-tsla-in-2026-the-great-pivot-from-evs-to-autonomous-ai", "description": "Tesla's EV→AI pivot deep dive" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "BofA: \"Tesla is the autonomy leader\" 🚗",
+      "text": "Bank of America reinstates Buy/$460. But UK sales plunged -37%, NHTSA deadline D-4. At P/E 375x, are you buying or selling? Which side of the bet are you on?\n\n→ investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+    },
+    "telegram": {
+      "hook": "🚘 TSLA $405.55 (-0.10%) — BofA Buy vs NHTSA D-4",
+      "text": "Bank of America reinstated Tesla at Buy/$460, calling it 'the current leader in consumer autonomy.'\n\nBut on the other side: UK Feb sales -37%, NHTSA FSD data deadline D-4 (3/9). P/E 375x, consensus $396 already below current price.\n\nBofA $460 vs 200-day SMA $391 — do you have the conviction to take a position at this fork?\n\n📊 Full analysis → investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+    }
+  }
+}
