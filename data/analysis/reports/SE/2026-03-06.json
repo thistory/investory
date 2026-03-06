@@ -2,15 +2,15 @@
   "symbol": "SE",
   "companyName": "Sea Limited",
   "analysisDate": "2026-03-06",
-  "currentPrice": 95.52,
-  "marketCap": "$56.5B",
+  "currentPrice": 92.30,
+  "marketCap": "$54.7B",
 
   "businessSummary": {
     "oneLiner": "동남아 최대 이커머스(Shopee), 디지털 엔터테인먼트(Garena/Free Fire), 핀테크(Monee) 운영사 — 싱가포르 기반 글로벌 인터넷 기업",
-    "description": "Sea Limited는 싱가포르에 본사를 둔 글로벌 기술 기업이다. Q4 2025 실적: 매출 $6.85B(+38.4% YoY), 순이익 $397.1M. FY2025 매출 $22.94B(+36.4%), 순이익 $1.58B(+255%). 3/5 종가 $95.52(+8.23%). 어닝 후 -16.5% 급락에서 강한 반등. Seeking Alpha Strong Buy 업그레이드, Barclays 목표가 $226→$120 하향. P/E 35x, Forward P/E 20.79x, PEG 0.35.",
+    "description": "Sea Limited는 싱가포르에 본사를 둔 글로벌 기술 기업이다. 3/3 Q4 2025 실적 발표: 매출 $6.85B(+38.4% YoY), EPS $0.63. 매출은 비트했으나 EPS가 컨센서스를 $0.28 하회하며 3/3에 큰 폭 하락 후 3/4 $88.26(+0.50%) 소폭 반등. FY2025 매출 $22.94B(+36.4%), 순이익 $1.58B(+255%). Monee 대출 잔액 $9.2B(+80%), 90일 NPL 1.1%. BofA가 목표가를 $200→$182로 하향하며 실적 후 매도 압력. P/E 35.02x, Forward P/E 20.79x, PEG 0.35.",
     "howTheyMakeMoney": [
-      "이커머스(Shopee): 동남아 1위 이커머스 플랫폼. GMV 기반 수수료 및 광고 매출. Q4 +35.8%",
-      "디지털 금융(Monee/SeaMoney): 디지털 결제, 대출, 보험. Q4 +54.3%, 대출 잔액 $9.2B(+80%)",
+      "이커머스(Shopee): 동남아 1위 이커머스 플랫폼. GMV 기반 수수료 및 광고 매출. Q4 매출 +35.8%",
+      "디지털 금융(Monee/SeaMoney): 디지털 결제, 대출, 보험. Q4 매출 +54.3%, 대출 잔액 $9.2B(+80%)",
       "디지털 엔터테인먼트(Garena): Free Fire 등 게임 운영. Q4 북킹 +23.8% YoY",
       "기타: 물류(Shopee Express), 식품 배달 등"
     ],
@@ -24,32 +24,32 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "35x", "interpretation": "급락 후 합리적 수준. 38%+ 성장에 비해 저평가" },
-    { "name": "Forward P/E", "value": "20.79x", "interpretation": "향후 수익 성장 반영 시 매력적" },
+    { "name": "P/E Ratio (TTM)", "value": "36.7x", "interpretation": "반등 후에도 성장주 대비 합리적 수준" },
+    { "name": "Forward P/E", "value": "21.5x", "interpretation": "2026년 수익 성장 반영 시 매력적" },
     { "name": "PEG Ratio", "value": "0.35", "interpretation": "1 미만으로 성장 대비 크게 저평가" },
     { "name": "매출 성장률 (YoY)", "value": "+38.4%", "interpretation": "Q4 $6.85B. 고속 성장 지속" },
     { "name": "영업이익률", "value": "8.68%", "interpretation": "수익성 개선 중이나 VIP 프로그램 투자로 마진 압박" },
     { "name": "ROE", "value": "15.25%", "interpretation": "양호한 자본 수익률" },
     { "name": "FCF", "value": "$4.53B", "interpretation": "강력한 현금 창출. 재투자 여력 풍부" },
-    { "name": "부채비율 (D/E)", "value": "0.26", "interpretation": "건전한 재무구조. 순현금 $8.73B" }
+    { "name": "부채비율 (D/E)", "value": "0.26", "interpretation": "건전한 재무구조. 순현금 $7.24B" }
   ],
 
   "growthDrivers": [
     {
-      "title": "+8.23% 강한 반등 — 어닝 후 패닉 셀오프에서 회복",
-      "description": "QuiverQuant: 투자자들이 어닝 급락을 재평가. 강력한 매출 성장과 수익성 개선에 주목하며 반등."
-    },
-    {
-      "title": "Seeking Alpha: Strong Buy 업그레이드 — 순현금 $8.73B",
-      "description": "급락이 희귀한 매수 기회를 만들었다. 강력한 밸런스 시트와 장기 매크로 순풍 강조."
-    },
-    {
-      "title": "Barclays $226→$120 하향 — 그래도 +25.6% 상승 여력",
-      "description": "목표가 대폭 하향이나 Buy 유지. 현재가 대비 여전히 상당한 업사이드."
+      "title": "Q4 2025 매출 $6.85B(+38.4%) 비트 — 그러나 EPS 미스",
+      "description": "매출은 컨센서스를 $420M 상회했으나 EPS $0.63은 기대치를 $0.28 하회. VIP 프로그램 투자와 Monee 충당금 증가 영향."
     },
     {
       "title": "Monee AI 기반 대출 가속 — 대출 잔액 $9.2B(+80%)",
-      "description": "AI 지원 언더라이팅으로 대출 대상 확대. 37M 활성 사용자, NPL 1.1% 양호."
+      "description": "AI 지원 언더라이팅으로 대출 대상 확대. 37M 활성 신용 사용자, Q4 580만 신규 대출자. NPL 1.1% 양호."
+    },
+    {
+      "title": "FY2025 순이익 +255% 턴어라운드",
+      "description": "연간 순이익 $1.58B으로 전년 대비 3.5배 증가. 수익성 구조적 개선 확인."
+    },
+    {
+      "title": "Strong Buy 업그레이드 — YE26 목표가 $136",
+      "description": "StockAnalysis: 급락 후 저평가로 Strong Buy 업그레이드. 현재가 대비 +54% 상승 여력."
     }
   ],
 
@@ -69,109 +69,135 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-05", "headline": "SE +8.23% 강한 반등 — 어닝 후 패닉 셀오프 재평가", "significance": "투자자들이 38% 매출 성장에 다시 주목", "url": "https://www.quiverquant.com/news/Sea+Limited+shares+rebound+as+investors+reassess+post-earnings+selloff" },
-    { "date": "2026-03-05", "headline": "Barclays, 목표가 $226→$120 대폭 하향 — Buy 유지", "significance": "EPS 미스 반영 하향이나 +25.6% 업사이드 유지", "url": "https://stockanalysis.com/stocks/se/forecast/" },
-    { "date": "2026-03-05", "headline": "Bernstein, 목표가 $170→$150 하향 — Buy 유지", "significance": "Shopee 마진 압박 반영이나 장기 성장 전망 유지", "url": "https://stockanalysis.com/stocks/se/forecast/" },
-    { "date": "2026-03-04", "headline": "Seeking Alpha: Strong Buy — 시장 패닉이 희귀한 매수 기회 창출", "significance": "순현금 $8.73B, 강력한 밸런스 시트. 장기 매크로 순풍", "url": "https://seekingalpha.com/article/4878155-sea-stock-market-panic-created-rare-strong-buy-opportunity" },
-    { "date": "2026-03-04", "headline": "Fortune: Sea 연간 수익 2배 증가에도 수익성 우려로 2년래 최대 하락", "significance": "-16.5% 하락은 EPS 미스 과잉 반응. 구조적 성장은 유효", "url": "https://fortune.com/2026/03/04/sea-earnings-profits-shares-shopee-monee-garena/" }
+    { "date": "2026-03-05", "headline": "SE 주가 +5.1% 반등, 투자자들 실적 급락 후 재평가 시작", "significance": "급락 과도 판단, 매출 +38% 성장과 수익성 개선에 재집중", "url": "https://www.quiverquant.com/news/Sea+Limited+shares+rebound+as+investors+reassess+post-earnings+selloff" },
+    { "date": "2026-03-05", "headline": "2026 전망: Shopee GMV +25% 목표, EBITDA 최소 2025년 수준 유지 가이던스", "significance": "물류/멤버십/금융 서비스 투자와 수익성 균형이 핵심 쟁점", "url": "https://www.minichart.com.sg/2026/03/05/sea-ltd-se-2026-outlook-e-commerce-margin-recovery-digital-finance-growth-long-term-investment-potential-1/" },
+    { "date": "2026-03-04", "headline": "Jefferies 목표가 $150으로 하향, 2026 전망 우려", "significance": "2026 마진 가이던스에 대한 보수적 시각 반영", "url": "https://www.investing.com/news/analyst-ratings/jefferies-cuts-sea-stock-price-target-on-2026-outlook-to-150-93CH-4538770" },
+    { "date": "2026-03-03", "headline": "Q4 2025 실적 발표 후 주가 26.8% 급락, 2023년 이후 최대 낙폭", "significance": "EPS 미스와 2026 Shopee 전망 둔화가 촉매", "url": "https://www.bloomberg.com/news/articles/2026-03-03/sea-earnings-miss-estimates-on-competition-from-tiktok-lazada" },
+    { "date": "2026-03-03", "headline": "BofA 목표가 $200→$182로 하향 (Buy 유지)", "significance": "목표가 하향이나 Buy 유지. 여전히 현재가 대비 큰 상승 여력", "url": "https://www.tipranks.com/stocks/se/forecast" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 179.54,
+    "consensusTarget": 189.84,
     "highTarget": 230,
-    "lowTarget": 120,
-    "upsidePercent": 87.96,
-    "buyCount": 10,
-    "holdCount": 1,
-    "sellCount": 0,
-    "notableComment": "11명 애널리스트 Strong Buy. 급락 후 목표가 $179.54는 현재가 대비 +88% 상승 여력. Barclays도 $120으로 하향했지만 Buy 유지."
+    "lowTarget": 144,
+    "upsidePercent": 105.68,
+    "buyCount": 25,
+    "holdCount": 4,
+    "sellCount": 1,
+    "notableComment": "30명 애널리스트 평균 목표가 $189.84는 현재가 대비 +106% 상승 여력. Morgan Stanley Overweight $173, Jefferies $150 하향, BofA $182 유지 등 실적 후 목표가 조정 중."
   },
 
   "risks": [
-    {
-      "severity": "high",
-      "title": "EPS 미스 후 매도 압력 지속 가능",
-      "description": "Q4 EPS $0.63은 컨센서스를 $0.28 하회. 단기 센티먼트 불안정."
-    },
-    {
-      "severity": "high",
-      "title": "Monee 신용 리스크",
-      "description": "대출 잔액 $9.2B(+80%) 급성장 중 충당금 +66.7% 증가. 경기 둔화 시 부실 확대 가능."
-    },
-    {
-      "severity": "high",
-      "title": "동남아 이커머스 경쟁 격화",
-      "description": "TikTok Shop의 공격적 확장과 Lazada/Alibaba 자금력. 마진 압박."
-    },
-    {
-      "severity": "medium",
-      "title": "Shopee 마진 압박 — VIP 프로그램 투자",
-      "description": "이커머스 마진 개선이 VIP 프로그램과 투자 지출로 지연 가능."
-    },
-    {
-      "severity": "medium",
-      "title": "주식 희석",
-      "description": "YoY +5.54% 주식수 증가. SBC 비용."
-    }
+    { "severity": "high", "title": "EPS 미스 후 매도 압력 지속", "description": "Q4 EPS $0.63은 컨센서스를 $0.28 하회. 반등에도 불구 단기 변동성 높음." },
+    { "severity": "high", "title": "2026 Shopee 성장 둔화 우려", "description": "GMV +25% 가이던스는 2025년 +38%에서 둔화. 마진 vs 성장 균형이 핵심." },
+    { "severity": "high", "title": "Monee 신용 리스크", "description": "대출 잔액 $9.2B(+80%) 급성장 중 충당금 +66.7% 증가. 경기 둔화 시 부실 확대 가능." },
+    { "severity": "high", "title": "동남아 이커머스 경쟁 격화", "description": "TikTok Shop, Lazada/Alibaba의 공격적 확장. Bloomberg: 경쟁이 EPS 미스의 핵심 원인." },
+    { "severity": "medium", "title": "주식 희석", "description": "YoY +5.54% 주식수 증가. SBC 비용 지속." }
   ],
 
   "buyReasons": [
-    {
-      "title": "PEG 0.35 — 시장에서 가장 저평가된 성장주",
-      "rationale": "38%+ 성장에 P/E 35x. 급락이 만든 비정상적 밸류에이션."
-    },
-    {
-      "title": "+8.23% 강한 반등 — 바닥 형성 신호",
-      "rationale": "-16.5% 급락 후 하루만에 +8% 반등. 패닉 셀오프 과잉 반응 확인."
-    },
-    {
-      "title": "애널리스트 목표가 $180 — 현재가 대비 +88%",
-      "rationale": "11명 중 10명 Buy. 급락이 과도하다는 시장 컨센서스."
-    },
-    {
-      "title": "순현금 $8.73B — 방탄 밸런스 시트",
-      "rationale": "충분한 현금 보유로 경쟁 투자와 위기 대응 모두 가능."
-    }
+    { "title": "PEG 0.35, 극도의 저평가", "rationale": "38%+ 성장에 P/E 36x. 성장주 중 가장 저평가된 수준." },
+    { "title": "애널리스트 목표가 $190, 현재가 대비 +106%", "rationale": "30명 중 25명 Buy. 급락이 과도하다는 시장 컨센서스." },
+    { "title": "FY2025 순이익 +255% 턴어라운드", "rationale": "구조적 수익성 개선 확인. Q4 일시적 미스로 볼 수 있음." },
+    { "title": "실적 급락 후 +5.1% 기술적 반등 시작", "rationale": "과매도 영역에서 투자자들의 재평가 시작. 바닥 확인 가능성." }
   ],
 
   "technicalPosition": {
-    "week52High": 150.21,
-    "week52Low": 80.01,
-    "currentPositionPercent": 22.1,
-    "sma50": 118.93,
+    "week52High": 199.30,
+    "week52Low": 77.05,
+    "currentPositionPercent": 12.5,
+    "sma50": 119.34,
     "sma50Signal": "below",
-    "sma200": 150.98,
+    "sma200": 147.29,
     "sma200Signal": "below",
-    "rsi": 32.0,
+    "rsi": 35.8,
     "rsiSignal": "oversold"
   },
 
   "overallOpinion": [
-    "Sea Limited는 어닝 후 -16.5% 급락에서 +8.23% 강한 반등을 보여줬다. 패닉 셀오프가 과잉 반응이었음을 시사.",
-    "PEG 0.35는 현재 시장에서 가장 저평가된 성장주 중 하나. 11명 애널리스트 목표가 $180은 현재가 대비 +88%.",
-    "RSI 32로 여전히 과매도 근처. 50일선 $119, 200일선 $151 모두 하회 중이나 강한 반등이 바닥 신호.",
-    "Monee 대출 품질(NPL 1.1%)과 Shopee 경쟁력이 핵심. 장기 투자자에게 올해 가장 좋은 매수 기회일 수 있다."
+    "SE는 3/3 급락(-26.8%) 후 3/5 +5.1% 반등하며 $92.30에 거래 중이다. 투자자들이 EPS 미스보다 매출 +38% 성장에 재집중하는 흐름.",
+    "PEG 0.35, 애널리스트 목표가 $190(+106%)으로 성장 대비 극도의 저평가 상태. 30명 중 25명 Buy 유지.",
+    "2026년 Shopee GMV +25% 가이던스와 TikTok Shop 경쟁 격화가 핵심 변수. Jefferies는 목표가를 $150으로 하향.",
+    "기술적으로 50일선($119), 200일선($147) 모두 하회 중. RSI 35.8로 과매도 탈출 초기 단계."
   ],
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/se/forecast/", "description": "SE 종가 $95.52(+8.23%), Strong Buy $179.54, Barclays $120" },
-    { "name": "QuiverQuant", "url": "https://www.quiverquant.com/news/Sea+Limited+shares+rebound+as+investors+reassess+post-earnings+selloff", "description": "어닝 후 반등 분석" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/sea-se-down-18-0-110923499.html", "description": "Q4 실적 상세: 매출 $6.85B, 순이익 $397.1M" },
-    { "name": "Fortune", "url": "https://fortune.com/2026/03/04/sea-earnings-profits-shares-shopee-monee-garena/", "description": "연간 수익 2배에도 -16.5% 하락 분석" },
-    { "name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4878155-sea-stock-market-panic-created-rare-strong-buy-opportunity", "description": "Strong Buy 업그레이드, 순현금 $8.73B" },
-    { "name": "TIKR", "url": "https://www.tikr.com/blog/sea-limited-stock-slides-16-after-q4-results-heres-what-investors-are-focusing-on", "description": "-16.5% 하락 이유 분석" },
-    { "name": "Minichart", "url": "https://www.minichart.com.sg/2026/03/05/sea-ltd-se-2026-outlook-e-commerce-margin-recovery-digital-finance-growth-long-term-investment-potential-1/", "description": "2026 전망: 이커머스 마진 회복 기대" },
-    { "name": "Benzinga", "url": "https://www.benzinga.com/insights/earnings/26/03/50993789/earnings-summary-sea-q4", "description": "Q4 어닝 서머리: 매출 비트, EPS 미스" }
+    { "name": "QuiverQuant", "url": "https://www.quiverquant.com/news/Sea+Limited+shares+rebound+as+investors+reassess+post-earnings+selloff", "description": "SE +5.1% 반등 뉴스" },
+    { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-03/sea-earnings-miss-estimates-on-competition-from-tiktok-lazada", "description": "Q4 실적 미스 및 경쟁 분석" },
+    { "name": "Minichart", "url": "https://www.minichart.com.sg/2026/03/05/sea-ltd-se-2026-outlook-e-commerce-margin-recovery-digital-finance-growth-long-term-investment-potential-1/", "description": "SE 2026 전망 상세 분석" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/analyst-ratings/jefferies-cuts-sea-stock-price-target-on-2026-outlook-to-150-93CH-4538770", "description": "Jefferies 목표가 $150 하향" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/se/forecast", "description": "30명 애널리스트 목표가 및 평가" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/se/forecast/", "description": "SE 애널리스트 컨센서스" },
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/sea-limited-technical", "description": "SE 기술적 분석, RSI, 이동평균" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/SE/", "description": "SE 실시간 주가 및 재무 데이터" },
+    { "name": "TIKR", "url": "https://www.tikr.com/blog/sea-limited-stock-slides-16-after-q4-results-heres-what-investors-are-focusing-on", "description": "Q4 실적 후 투자자 포커스 분석" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/03/why-sea-limited-plunged-today/", "description": "SE 급락 원인 분석" }
   ],
 
   "snsContent": {
+    "x": {
+      "hook": "SE $92, 급락 후 반등 시작. 과매도 탈출인가?",
+      "text": "$SE (3/6) 26.8% 급락 후 +5.1% 반등, $92.30. 매출 +38% 폭풍 성장인데 EPS 미스 하나로 52주 저점까지 밀렸다. 시장이 과잉 반응한 걸까?",
+      "thread": [
+        "밸류에이션이 말해주는 것: PEG 0.35는 이익 대비 주가가 성장 속도의 1/3 수준이란 뜻. 애널리스트 30명 중 25명 Buy, 평균 목표가 $190(현재가 대비 +106%).",
+        "2026년 변수: Shopee GMV 성장률 +38%→+25%로 둔화 가이던스. TikTok Shop 경쟁 격화. Jefferies는 목표가를 $150으로 낮췄다.",
+        "기술적: 최근 50일 평균 주가($119)와 200일 평균($147) 모두 한참 아래. RSI 35.8로 과매도에서 벗어나는 초기 단계. 반등 지속 여부가 관건."
+      ]
+    },
     "threads": {
-      "hook": "SE +8.23% 반등! 패닉 셀오프의 끝? 🔥",
-      "text": "매출 +38%, 순이익 +255%인 회사가 EPS 미스 하나로 -16% 빠졌다. 그리고 하루만에 +8% 반등. PEG 0.35, 애널리스트 목표가 +88%. 올해 최고의 매수 기회 아닌가?\n\n→ investory.kro.kr/stock/SE/analysis/2026-03-06"
+      "hook": "SE $92, 26.8% 급락 후 반등. 저평가 매수 기회인가?",
+      "text": "$SE (3/6) 매출 +38% 폭풍 성장에도 EPS 미스로 26.8% 급락 후 +5.1% 반등 시작. PEG 0.35로 성장 대비 극도의 저평가. 애널리스트 25명 Buy, 목표가 $190(+106%). 다만 2026 Shopee 성장 둔화(+25%)와 TikTok 경쟁은 리스크. 50일선 $119, 200일선 $147 모두 하회, RSI 35.8 과매도 탈출 초기. investory.kro.kr/stock/SE/analysis/2026-03-06"
     },
     "telegram": {
-      "hook": "🛒 SE $95.52 (+8.23%) — 패닉이 만든 매수 기회",
-      "text": "Sea Limited가 어닝 후 -16.5% 급락에서 하루만에 +8.23% 반등했다. 시장이 과잉 반응을 인정하기 시작.\n\nQ4 매출 $6.85B(+38%), FY 순이익 $1.58B(+255%). 그런데 EPS $0.28 미스 하나로 2년래 최대 하락?\n\nPEG 0.35, 순현금 $8.73B, 11명 중 10명 Buy, 목표가 $180(+88%). RSI 32 과매도 — Barclays도 $120 하향이지만 Buy 유지.\n\n📊 상세 분석 → investory.kro.kr/stock/SE/analysis/2026-03-06"
+      "hook": "SE $92.30 (+5.1%) 실적 급락 후 기술적 반등 시작",
+      "text": "Sea Limited 일일 분석 (3/6)\n\n가격: $92.30 (+5.1%) | 시총 $54.7B\nP/E: 36.7x | Forward P/E: 21.5x | PEG: 0.35\n\n핵심 이슈:\n- 3/3 급락(-26.8%) 후 3/5 +5.1% 반등, 투자자 재평가 시작\n- 2026 Shopee GMV +25% 가이던스, 마진 최소 유지 목표\n- Jefferies 목표가 $150 하향, Morgan Stanley $173 유지\n- TikTok Shop 경쟁이 EPS 미스 핵심 원인 (Bloomberg)\n\n기술적: 50일선 $119, 200일선 $147 하회. RSI 35.8 과매도 탈출 초기\n애널리스트: Strong Buy, 목표가 $190 (+106%)\n\nhttps://investory.kro.kr/stock/SE/analysis/2026-03-06"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "SE $92, 급락 후 반등 시작. 과매도 탈출인가?",
+          "text": "$SE (3/6) 26.8% 급락 후 +5.1% 반등, $92.30. 매출 +38% 폭풍 성장인데 EPS 미스 하나로 52주 저점까지 밀렸다. 시장이 과잉 반응한 걸까?",
+          "thread": [
+            "밸류에이션이 말해주는 것: PEG 0.35는 이익 대비 주가가 성장 속도의 1/3 수준이란 뜻. 애널리스트 30명 중 25명 Buy, 평균 목표가 $190(현재가 대비 +106%).",
+            "2026년 변수: Shopee GMV 성장률 +38%→+25%로 둔화 가이던스. TikTok Shop 경쟁 격화. Jefferies는 목표가를 $150으로 낮췄다.",
+            "기술적: 최근 50일 평균 주가($119)와 200일 평균($147) 모두 한참 아래. RSI 35.8로 과매도에서 벗어나는 초기 단계. 반등 지속 여부가 관건."
+          ]
+        },
+        "witty": {
+          "hook": "SE, 매출 +38%인데 시장은 EPS만 보고 도망갔다",
+          "text": "$SE (3/6) 매출 38% 성장시키고 보상으로 -26.8% 급락을 받았다. 그런데 다음 날 +5.1% 반등. 시장이 감정적으로 팔고 이성적으로 다시 사는 중?",
+          "thread": [
+            "PEG 0.35. 이건 '성장률의 1/3 가격에 살 수 있다'는 뜻이다. 애널리스트 25명이 Buy라고 하는데 시장은 아직 겁먹은 상태.",
+            "문제는 2026년. Shopee 성장이 +38%에서 +25%로 느려지고, TikTok Shop이 치고 들어온다. Jefferies는 '좀 더 싸질 수 있다'며 목표가 $150.",
+            "50일선 $119, 200일선 $147 아래인데 RSI는 과매도에서 올라오는 중. 결국 이 반등이 진짜인지 데드캣 바운스인지, 다음 주가 말해줄 것이다."
+          ]
+        },
+        "empathy": {
+          "hook": "SE 물린 분들, 반등 시작됐는데 마음이 편치 않죠",
+          "text": "$SE (3/6) 하루 만에 -26.8%. 장기 투자자분들 정말 힘든 한 주였을 거다. 근데 오늘 +5.1% 반등이 나왔다. 작은 희망이지만 아직 갈 길이 멀다.",
+          "thread": [
+            "매출이 38%나 성장했는데 EPS 하나 빗나갔다고 이렇게 맞는 건 억울하다. 근데 시장이 원래 그렇다. 기대치 게임이니까.",
+            "좋은 소식: PEG 0.35, 애널리스트 25명 Buy, 목표가 $190. 나쁜 소식: 50일선 $119, 200일선 $147에서 한참 아래다.",
+            "2026년 Shopee 성장이 좀 느려진다고 한다. +25%. 나쁜 건 아닌데 시장 기대치가 높았던 거다.",
+            "급락 후 반등은 자주 나온다. 문제는 이게 진짜 바닥인지. 지금 추가 매수보다는 반등 추세 확인 후 판단하는 게 마음 편할 수 있다.",
+            "장기적으로 동남아 이커머스 1위, 핀테크 폭발 성장. 펀더멘털은 견고하다. 시간이 증명해줄 거라 믿고, 조급하지 않게 가는 게 답이다."
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "SE $92, 26.8% 급락 후 반등. 저평가 매수 기회인가?",
+          "text": "$SE (3/6) 매출 +38% 폭풍 성장에도 EPS 미스로 26.8% 급락 후 +5.1% 반등 시작. PEG 0.35로 성장 대비 극도의 저평가. 애널리스트 25명 Buy, 목표가 $190(+106%). 다만 2026 Shopee 성장 둔화(+25%)와 TikTok 경쟁은 리스크. 50일선 $119, 200일선 $147 모두 하회, RSI 35.8 과매도 탈출 초기. investory.kro.kr/stock/SE/analysis/2026-03-06"
+        },
+        "witty": {
+          "hook": "SE, 매출 38% 올려놓고 EPS 미스로 -27% 맞은 사연",
+          "text": "$SE (3/6) 동남아 이커머스 왕 Shopee가 매출 38% 성장시켰더니 보상이 주가 -27%. 그런데 다음 날 +5.1% 반등. PEG 0.35면 시장이 이 회사를 성장의 1/3 가격에 팔고 있다는 뜻. 애널리스트 25명 Buy인데 Jefferies만 $150으로 하향. TikTok 경쟁? 그래서 더 투자한다는 게 경영진 답변. 결국 이 반등이 진짜인지가 관건. investory.kro.kr/stock/SE/analysis/2026-03-06"
+        },
+        "empathy": {
+          "hook": "SE 급락에 마음 아프신 분들, 반등의 작은 빛이 보입니다",
+          "text": "$SE (3/6) 하루 만에 -27%, 정말 힘든 한 주. 근데 +5.1% 반등이 시작됐다. 매출 38% 성장, PEG 0.35, 애널리스트 25명 Buy. 펀더멘털은 여전히 탄탄하다. 물론 50일선 $119에서 한참 아래고 TikTok 경쟁도 걱정되지만, 동남아 이커머스 1위 자리는 쉽게 바뀌지 않는다. 조급하지 않게, 추세 확인하면서 가는 게 답이다. investory.kro.kr/stock/SE/analysis/2026-03-06"
+        }
+      }
     }
   }
 }

@@ -186,6 +186,11 @@ Add an `snsContent` field to the report JSON. **X (Twitter) uses a thread format
 - **적정 온도**: 투자 커뮤니티에서 신뢰받는 사람이 쓰는 느낌. 데이터는 정확하게, 표현은 편하게.
 - **읽는 속도 고려**: 한 문장은 30자 내외. 긴 문장보다 짧은 문장 여러 개가 낫다.
 - **주어 명확히**: "업그레이드됐다"(X) → "Baird가 업그레이드했다"(O)
+- **전문 용어 풀어쓰기**: 초보 투자자도 이해할 수 있게 써라. 약어나 전문 용어는 괄호로 설명을 붙이거나 쉬운 말로 바꿔라.
+  - Bad: "NHTSA 마감 D-4" → Good: "미국 도로교통안전청(NHTSA) 자율주행 심사 마감이 4일 남았다"
+  - Bad: "P/E 375x" → Good: "주가수익비율(P/E) 375배, 이익 대비 주가가 매우 비싸다"
+  - Bad: "50일선 $431 하회" → Good: "최근 50일 평균 주가($431)보다 아래에 있다"
+  - Bad: "컨센서스 $396" → Good: "애널리스트 평균 목표가 $396"
 
 **키워드 나열 금지. 짧은 문장으로 써라.**
 
@@ -213,12 +218,16 @@ snsContent는 별도로 창작하는 것이 아니라, **`overallOpinion` 필드
 2. **Adapt, don't copy**: overallOpinion을 그대로 복붙하지 마라. SNS에 맞게 문체를 바꿔라. 딱딱한 분석 톤 → 짧고 임팩트 있는 문장, 불릿 포인트 활용, 핵심 수치 강조.
 3. **Keep the substance**: 톤은 바꾸되 내용의 깊이는 유지하라. overallOpinion에 있는 수치(목표가, P/E, 이평선 등), 카탈리스트, 리스크를 빠뜨리지 마라.
 4. **Engagement layer**: overallOpinion의 내용 위에 SNS적 요소를 입혀라. 질문형 마무리, 대비/아이러니 활용 등.
+5. **Length: overallOpinion과 비슷하게**: 스레드 전체 길이가 overallOpinion(350-400자)과 비슷해야 한다. 너무 짧게 압축하지 마라. overallOpinion만큼의 정보량과 맥락을 SNS 톤으로 전달하라.
+6. **쉬운 말로 쓰기**: overallOpinion에 있는 전문 용어를 SNS에서는 풀어서 써라. "P/E 375x" → "주가수익비율 375배(이익 대비 매우 비싼 수준)", "50일선 하회" → "최근 50일 평균 주가 아래로 내려갔다" 등. 주식 초보가 읽어도 무슨 뜻인지 바로 이해할 수 있어야 한다.
 
 > **English version of the same rules:**
 > 1. **Source: overallOpinion**: The snsContent body must be based on the `overallOpinion` field's key points. Do not add new insights or perspectives absent from overallOpinion. Follow the same ordering (news/events/catalysts first, price/technicals last).
 > 2. **Adapt, don't copy**: Don't paste overallOpinion verbatim. Rewrite in SNS-friendly style: shorter sentences, bullet points, emphasized key figures.
 > 3. **Keep the substance**: Change the tone, not the depth. Retain all numbers (targets, P/E, SMAs), catalysts, and risks from overallOpinion.
 > 4. **Engagement layer**: Layer SNS elements on top of overallOpinion content: closing questions, contrast/irony framing.
+> 5. **Length: match overallOpinion**: The total thread length should be similar to overallOpinion (350-400 chars). Don't over-compress. Deliver the same amount of information and context as overallOpinion, but in SNS tone.
+> 6. **Plain language**: Explain jargon from overallOpinion in accessible terms. "P/E 375x" → "price-to-earnings ratio of 375x (very expensive relative to profits)", "below 50-day SMA" → "trading below its 50-day average price", etc. A beginner investor should understand every sentence.
 
 #### X (Twitter) Thread Format
 
@@ -248,13 +257,13 @@ X has a 280-character limit per tweet. **All X content (`snsContent.x` and tones
 
 ```
 // text (first tweet, <= 280 chars):
-"$TSLA (2/23) Baird가 목표가 $548로 올렸다. 그런데 로보택시는 또 5건 충돌. 강세파와 약세파가 완전히 갈렸다. 컨센서스 $480(+17%)"
+"$TSLA (2/23) Baird가 목표가 $548로 올렸다. 그런데 무인 택시는 또 5건 사고. 살 사람과 팔 사람이 완전히 갈렸다. 애널리스트 평균 목표가 $480(지금보다 +17%)"
 
 // thread (reply tweets, each <= 280 chars):
 [
-  "FSD가 네덜란드에서 EU 첫 승인을 받았다. Cybercab 4월 양산 시작, 9개 도시 확대 예정. 유럽 진출의 실질적인 첫 발이다.",
-  "리스크도 무겁다. 로보택시 추가 충돌 5건, Waymo $160억 조달로 경쟁 본격화. xAI 이해충돌 주주 소송까지 경영 리스크가 겹친다.",
-  "종가 $411, P/E 407x, Forward P/E 210x\n50일선 $441 하회, 200일선 $388 지지 중\n4월 Cybercab 양산이 분수령"
+  "자율주행(FSD)이 네덜란드에서 EU 첫 승인을 받았다. 핸들 없는 무인 택시 Cybercab이 4월부터 양산, 9개 도시로 확대 예정. 유럽 진출의 첫 발이다.",
+  "리스크도 크다. 무인 택시 추가 사고 5건, 구글 Waymo가 $160억 투자해서 경쟁 본격화. 머스크의 xAI 이해충돌 주주 소송까지 겹쳤다.",
+  "종가 $411, 주가수익비율(P/E) 407배로 이익 대비 매우 비싼 수준\n최근 50일 평균($441) 아래, 200일 평균($388)은 지지 중\n4월 Cybercab 양산이 분수령"
 ]
 ```
 
@@ -262,13 +271,13 @@ X has a 280-character limit per tweet. **All X content (`snsContent.x` and tones
 
 ```
 // text (first tweet, <= 280 chars):
-"$TSLA (Feb 23) Baird upgrades to $548 target. Meanwhile, 5 more robotaxi crashes reported. Bulls and bears couldn't be further apart. Consensus $480 (+17%)"
+"$TSLA (Feb 23) Baird upgrades to $548 target. Meanwhile, 5 more robotaxi crashes reported. Bulls and bears couldn't be further apart. Analyst avg target $480 (+17%)"
 
 // thread (reply tweets, each <= 280 chars):
 [
-  "FSD just got EU approval in the Netherlands. Cybercab mass production starts April, expanding to 9 cities. A real foothold in Europe.",
-  "The risks are real too. 5 more robotaxi crashes, Waymo raising $16B to compete, and an xAI conflict-of-interest lawsuit adding governance risk.",
-  "Close $411, P/E 407x, Fwd P/E 210x\nBelow 50-day SMA ($441), holding 200-day ($388)\nApril Cybercab ramp is the make-or-break moment"
+  "Self-driving (FSD) just got EU approval in the Netherlands. Cybercab, a fully driverless taxi, starts mass production in April across 9 cities. A real foothold in Europe.",
+  "Risks are real too. 5 more robotaxi crashes, Google's Waymo raising $16B to compete, and a Musk xAI conflict-of-interest lawsuit piling on.",
+  "Close $411, P/E ratio 407x (very expensive vs earnings)\nBelow 50-day avg ($441), holding 200-day ($388)\nApril Cybercab ramp is the make-or-break"
 ]
 ```
 
@@ -326,21 +335,21 @@ Factual summary with analytical insight baked in. **Don't just state the fact. E
 
 Korean X thread example:
 ```
-text: "$TSLA (2/23) Baird가 목표가 $548 제시, 애널리스트 42%가 Buy 유지. 컨센서스 $480(+17%). 한편 로보택시 추가 충돌 5건 보고"
+text: "$TSLA (2/23) Baird가 목표가 $548 제시, 애널리스트 42%가 매수 의견 유지. 평균 목표가 $480(지금보다 +17%). 한편 무인 택시 추가 사고 5건 보고"
 thread: [
-  "FSD가 네덜란드에서 EU 첫 승인. Cybercab 4월 양산 시작으로 9개 도시 확대 예정. 핸들도 페달도 없는 완전 자율주행 차량이다.",
-  "리스크: 로보택시 안전성 논란 재부각, Waymo $160억 조달로 경쟁 본격화. xAI 이해충돌 소송도 경영 리스크.",
-  "종가 $411, P/E 407x, Forward P/E 210x\n목표가 $480(+17%)\n4월 Cybercab 양산과 Optimus v3 Q1 공개가 상반기 핵심"
+  "자율주행(FSD)이 네덜란드에서 EU 첫 승인. 핸들도 페달도 없는 무인 택시 Cybercab이 4월부터 양산, 9개 도시 확대 예정이다.",
+  "리스크도 있다. 무인 택시 안전성 논란 재부각, 구글 Waymo가 $160억 투자로 경쟁 본격화. 머스크 xAI 이해충돌 소송까지 경영 리스크.",
+  "종가 $411, 주가수익비율(P/E) 407배로 이익 대비 비싼 수준\n목표가 $480(+17%)\n4월 Cybercab 양산과 로봇 Optimus v3 공개가 상반기 핵심"
 ]
 ```
 
 English X thread example:
 ```
-text: "$TSLA (Feb 23) Baird sets $548 target, 42% of analysts rate Buy. Consensus $480 (+17%). But 5 more robotaxi crashes just reported."
+text: "$TSLA (Feb 23) Baird sets $548 target, 42% of analysts rate Buy. Avg target $480 (+17%). But 5 more robotaxi crashes just reported."
 thread: [
-  "FSD gets EU approval in Netherlands. Cybercab mass production starts April across 9 cities. No steering wheel, no pedals.",
-  "Risks: robotaxi safety concerns resurface. Waymo raises $16B to compete. xAI conflict-of-interest lawsuit adds governance risk.",
-  "Close $411, P/E 407x, Fwd P/E 210x\nTarget $480 (+17%)\nApril Cybercab ramp and Q1 Optimus v3 unveil are key H1 catalysts"
+  "Self-driving (FSD) gets EU approval in Netherlands. Cybercab, a fully driverless taxi, starts mass production in April across 9 cities.",
+  "Risks: robotaxi safety concerns resurface. Google's Waymo raises $16B to compete. Musk's xAI conflict-of-interest lawsuit adds governance risk.",
+  "Close $411, P/E ratio 407x (expensive vs earnings)\nTarget $480 (+17%)\nApril Cybercab ramp and Optimus robot v3 unveil are key H1 catalysts"
 ]
 ```
 
@@ -350,11 +359,11 @@ Natural, conversational flow. Sentences should **connect to each other** like a 
 
 Korean X thread example:
 ```
-text: "$TSLA (2/23) Baird가 $548을 외치는 동안, 로보택시는 또 5번을 박았다. 아이러니하지만 이게 테슬라다."
+text: "$TSLA (2/23) Baird가 $548을 외치는 동안, 무인 택시는 또 5번을 박았다. 아이러니하지만 이게 테슬라다."
 thread: [
-  "FSD가 네덜란드에서 EU 승인을 땄고, Cybercab은 4월에 핸들도 페달도 없이 출격한다. Waymo가 $160억 들고 쫓아오지만, 유럽은 테슬라가 먼저 발을 디뎠다.",
-  "P/E 407배는 숫자가 아니라 믿음 체계다. 리테일 40%가 그 믿음에 동참 중이고, 빠질 때마다 오히려 더 사고 있다.",
-  "종가 $411, 목표가 $480(+17%)\n4월 양산이 다음 심판의 날"
+  "자율주행(FSD)이 네덜란드에서 EU 승인을 땄고, 무인 택시 Cybercab은 4월에 핸들도 페달도 없이 출격한다. 구글 Waymo가 $160억 들고 쫓아오지만, 유럽은 테슬라가 먼저 발을 디뎠다.",
+  "주가수익비율(P/E) 407배는 숫자가 아니라 믿음 체계다. 개인 투자자 40%가 그 믿음에 동참 중이고, 빠질 때마다 오히려 더 사고 있다.",
+  "종가 $411, 애널리스트 평균 목표가 $480(+17%)\n4월 양산이 다음 심판의 날"
 ]
 ```
 
@@ -362,9 +371,9 @@ English X thread example:
 ```
 text: "$TSLA (Feb 23) Baird slaps a $548 target on Tesla while the robotaxis rack up 5 more crashes. The irony writes itself."
 thread: [
-  "FSD just got EU approval in the Netherlands. Cybercab rolls out in April with no steering wheel, no pedals. Waymo has $16B to chase, but Tesla got to Europe first.",
-  "P/E at 407x isn't a valuation, it's a belief system. 40% retail ownership means a lot of believers buying every dip.",
-  "Close $411, Target $480 (+17%)\nApril production is judgment day"
+  "Self-driving (FSD) just got EU approval in the Netherlands. Cybercab rolls out in April, fully driverless. Google's Waymo has $16B to chase, but Tesla got to Europe first.",
+  "A P/E ratio of 407x isn't a valuation, it's a belief system. Retail investors own 40% of shares and keep buying every dip.",
+  "Close $411, Analyst avg target $480 (+17%)\nApril production is judgment day"
 ]
 ```
 
@@ -376,23 +385,23 @@ Write like talking to a friend who holds this stock. **Longer and more detailed 
 
 Korean X thread example:
 ```
-text: "$TSLA (2/23) 테슬라 들고 있으면 요즘 하루가 롤러코스터 같을 거다. 연초 대비 -9%, P/E 407배. 불안한 게 당연하다."
+text: "$TSLA (2/23) 테슬라 들고 있으면 요즘 하루가 롤러코스터 같을 거다. 연초 대비 -9%, 주가수익비율 407배. 불안한 게 당연하다."
 thread: [
-  "좋은 소식부터. Baird가 $548로 업그레이드했고, 54명 애널리스트 중 42%가 Buy 유지. 중앙값 $480, 현재가 대비 +17%다. FSD도 네덜란드에서 EU 승인을 받았다.",
-  "하지만 로보택시 추가 충돌 5건, Waymo $160억 조달로 경쟁 본격화. xAI 주주 소송까지. 불안한 마음이 드는 게 당연하다.",
-  "그래도 혼자가 아니다. 리테일 40%가 함께 보유 중이고, 빠질 때마다 오히려 매수를 늘려왔다. 50일선($441) 아래지만 200일선($388)은 지키고 있다.",
-  "4월 Cybercab 양산과 Optimus v3 Q1 공개가 다음 시험대다. 조금만 더 지켜보자."
+  "좋은 소식부터. Baird가 $548로 올렸고, 54명 애널리스트 중 42%가 매수 유지. 평균 목표가 $480, 지금보다 +17%다. 자율주행(FSD)도 네덜란드에서 EU 승인을 받았다.",
+  "하지만 무인 택시 추가 사고 5건, 구글 Waymo $160억 투자로 경쟁 본격화. 머스크 xAI 이해충돌 주주 소송까지. 불안한 마음이 드는 게 당연하다.",
+  "그래도 혼자가 아니다. 개인 투자자 40%가 함께 보유 중이고, 빠질 때마다 오히려 매수를 늘려왔다. 최근 50일 평균($441) 아래지만 200일 평균($388)은 지키고 있다.",
+  "4월 무인 택시 Cybercab 양산과 로봇 Optimus v3 공개가 다음 시험대다. 조금만 더 지켜보자."
 ]
 ```
 
 English X thread example:
 ```
-text: "$TSLA (Feb 23) Holding Tesla right now probably feels like a daily rollercoaster. Down 9% YTD with a 407x P/E. It's natural to feel uneasy."
+text: "$TSLA (Feb 23) Holding Tesla right now probably feels like a daily rollercoaster. Down 9% YTD with a P/E ratio of 407x. It's natural to feel uneasy."
 thread: [
-  "Good news first: Baird upgraded to Outperform with a $548 target. 42% of 54 analysts still rate Buy, median target $480 (+17%). FSD also got EU approval in Netherlands.",
-  "But 5 more robotaxi crashes were reported. Waymo raising $16B means competition is heating up. The xAI shareholder lawsuit adds governance risk. It's okay to feel uncertain.",
-  "You're not alone. Retail investors own 40% of the float and have been buying every dip. Below the 50-day SMA ($441) but holding the 200-day ($388).",
-  "April's Cybercab production launch and Q1 Optimus v3 unveil are the next big tests. Hang in there."
+  "Good news first: Baird upgraded to $548 target. 42% of 54 analysts still rate Buy, avg target $480 (+17%). Self-driving (FSD) also got EU approval in Netherlands.",
+  "But 5 more robotaxi crashes were reported. Google's Waymo raising $16B means competition is heating up. Musk's xAI shareholder lawsuit adds governance risk. It's okay to feel uncertain.",
+  "You're not alone. Retail investors own 40% of shares and have been buying every dip. Below the 50-day average ($441) but holding the 200-day ($388).",
+  "April's driverless Cybercab production launch and Optimus robot v3 unveil are the next big tests. Hang in there."
 ]
 ```
 

@@ -2,12 +2,12 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-06",
-  "currentPrice": 405.55,
-  "marketCap": "$1.52T",
+  "currentPrice": 390.52,
+  "marketCap": "$1.46T",
 
   "businessSummary": {
     "oneLiner": "World's largest EV maker transitioning into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
-    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B, marking its first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. Closed at $405.55 (-0.10%) on 3/5. Bank of America reinstated coverage with Buy/$460, but UK Feb sales dropped -37% and NHTSA FSD data deadline is D-4 (3/9). P/E 375x, Forward P/E 195x. Market cap $1.52T.",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B, marking its first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. Closed at $390.52 (-3.80%) on 3/5, hammered by collapsing China demand, tech selloff, and NHTSA D-3 uncertainty. Berlin Gigafactory works council election saw IG Metall fail to secure a majority, a positive outcome for Tesla. P/E 361x, Forward P/E 191x. Market cap $1.46T.",
     "howTheyMakeMoney": [
       "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
       "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
@@ -25,154 +25,178 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "375x", "interpretation": "Extreme valuation reflecting AI/robotics/energy premium, but highly overvalued vs current earnings" },
-    { "name": "Forward P/E", "value": "194.69x", "interpretation": "Reflects earnings recovery expectations but still very elevated" },
+    { "name": "P/E Ratio (TTM)", "value": "361x", "interpretation": "Slight decline from prior day but still extreme. Reflects AI/robotics premium" },
+    { "name": "Forward P/E", "value": "191x", "interpretation": "Reflects earnings recovery expectations but remains very elevated" },
     { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "First-ever FY decline. EV competition intensifying with price cuts" },
-    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Down from FY2024's 7.24%. Price cuts and R&D expansion" },
-    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Improving operational efficiency signal" },
-    { "name": "Debt-to-Equity", "value": "0.18", "interpretation": "Very healthy. Net cash $29.3B" },
-    { "name": "ROE", "value": "4.93%", "interpretation": "Declined from FY2024. Profitability recovery needed" },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Sharp decline from 7.24% in FY2024. Price cuts and R&D expansion" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Improving operational efficiency" },
+    { "name": "Debt/Equity", "value": "0.18", "interpretation": "Very healthy. Net cash position of $29.3B" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "Declined vs FY2024. Profitability recovery needed" },
     { "name": "PEG Ratio", "value": "4.03", "interpretation": "Extremely overvalued relative to growth" }
   ],
 
   "growthDrivers": [
     {
-      "title": "Bank of America reinstates Buy/$460 — autonomous driving leader",
-      "description": "BofA reinstated Tesla with Buy/$460, calling it 'the current leader in consumer autonomy.' FSD and robotics cited as key growth drivers."
+      "title": "NHTSA FSD data deadline March 9 -- regulatory crossroads",
+      "description": "Motley Fool: Tesla must submit FSD crash data to NHTSA by 3/9. Results could accelerate autonomous driving approval or trigger additional restrictions."
     },
     {
-      "title": "NHTSA FSD data deadline D-4 — regulatory inflection point",
-      "description": "Tesla must submit FSD crash data to NHTSA by 3/9. Results could accelerate autonomous approval or trigger additional restrictions."
+      "title": "German union IG Metall pushing for influence at Berlin Gigafactory",
+      "description": "Reuters: Germany's largest industrial union campaigning for breakthrough at Berlin Gigafactory works council elections."
     },
     {
-      "title": "UK Feb sales -37% plunge — mixed European signals",
-      "description": "UK market saw a sharp 37% sales decline in February, but France and Norway showed market share recovery. European performance diverging."
+      "title": "Cybertruck base AWD trim -- explosive demand, deliveries pushed to 2027",
+      "description": "New base trim generating massive demand, pushing expected delivery timelines to 2027."
     },
     {
-      "title": "Cybertruck base AWD explosive demand — deliveries pushed to 2027",
-      "description": "Strong demand for the new base trim has pushed estimated delivery timelines to 2027."
+      "title": "France & Norway market share rebounds in February -- European stabilization",
+      "description": "Reuters: Tesla regained market share in France and Norway in February, signaling stabilization after two years of European decline."
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "US EV market share 50%+ #1, overtaken globally by BYD. Software, manufacturing, and energy vertical integration plus 8.2B autonomous driving miles as core moats.",
+    "summary": "50%+ US EV market share leader, though overtaken globally by BYD. Vertical integration across software, manufacturing, energy and 8.2B FSD miles are key moats.",
     "moats": [
-      { "type": "Autonomous driving data moat", "description": "FSD Supervised 8.2B miles. Overwhelmingly larger training dataset vs competitors." },
-      { "type": "Vertical integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)." },
-      { "type": "Charging network effect", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian depend on Tesla's Supercharger network." }
+      { "type": "Autonomous driving data moat", "description": "8.2 billion FSD miles. Overwhelmingly larger training dataset vs competitors." },
+      { "type": "Vertical integration", "description": "In-house batteries (4680), custom chips (HW4), software (FSD), charging infra (Supercharger)." },
+      { "type": "Charging network effects", "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Supercharger network." }
     ],
     "competitors": [
-      { "name": "BYD", "detail": "2025 global EV sales #1. Rapid European expansion, US entry limited by tariffs" },
+      { "name": "BYD", "detail": "2025 global EV sales leader. Rapid European growth, US entry limited by tariffs" },
       { "name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides" },
-      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026 to compete directly with Model Y" },
       { "name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China" }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-05", "headline": "Bank of America reinstates Tesla with Buy/$460 — consumer autonomy leader", "significance": "FSD and robotics cited as key growth drivers. +14% upside implied", "url": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-amid-robotaxi-optimism-analyst-upgrades-1862695" },
-    { "date": "2026-03-05", "headline": "Tesla UK Feb sales plunge 37% — European divergence", "significance": "UK decline but France/Norway recovery. Regional performance splitting", "url": "https://tradersunion.com/news/financial-news/show/1621143-tesla-stock-rises/" },
-    { "date": "2026-03-05", "headline": "NHTSA FSD crash data deadline D-4 — autonomous driving inflection", "significance": "3/9 submission results will determine FSD's regulatory future", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/" },
-    { "date": "2026-03-05", "headline": "Tesla trades near $403 — flat after prior day's rebound", "significance": "Holding above 200-day SMA $391, awaiting NHTSA results", "url": "https://coincentral.com/tesla-tsla-stock-slides-as-uk-sales-drop-37-in-february/" },
-    { "date": "2026-03-04", "headline": "German union IG Metall seeks breakthrough at Berlin Gigafactory", "significance": "Labor cost and management control implications for European production", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/" }
+    { "date": "2026-03-05", "headline": "Tesla stock tumbles as China demand collapses amid tech selloff", "significance": "China monthly deliveries down double digits MoM, wait times shrunk from months to 1-3 weeks", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/" },
+    { "date": "2026-03-05", "headline": "IG Metall fails to win majority in Berlin Gigafactory works council election", "significance": "Secures Tesla's European management autonomy, eases cost increase concerns", "url": "https://www.notateslaapp.com/" },
+    { "date": "2026-03-05", "headline": "Tesla tops 2026 supply chain sustainability rankings", "significance": "Second consecutive year as ESG leader, strengthening institutional investor appeal", "url": "https://www.notateslaapp.com/news/3735/tesla-tops-2026-supply-chain-sustainability-rankings" },
+    { "date": "2026-03-05", "headline": "Nasdaq: Tesla's 2026 may hinge on March 9 outcome", "significance": "NHTSA clearance could trigger rally; failure could mean 30% downside", "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome" },
+    { "date": "2026-03-05", "headline": "ainvest: Tesla's March growth trajectory, assessing path to $450", "significance": "Autonomous driving progress key condition for $450 breakout", "url": "https://www.ainvest.com/news/tesla-march-2026-growth-trajectory-assessing-path-450-2603/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 396.15,
+    "consensusTarget": 396.23,
     "highTarget": 600,
-    "lowTarget": 25.28,
-    "upsidePercent": -2.32,
-    "buyCount": 16,
-    "holdCount": 10,
-    "sellCount": 7,
-    "notableComment": "30 analysts, Hold consensus. BofA reinstated Buy/$460, Wedbush $600 high target. Current price already exceeds consensus."
+    "lowTarget": 125,
+    "upsidePercent": 1.46,
+    "buyCount": 20,
+    "holdCount": 17,
+    "sellCount": 8,
+    "notableComment": "Hold consensus among 45 analysts. Current price $390.52 now slightly below consensus $396. The March 9 NHTSA outcome will be the catalyst for target price revisions."
   },
 
   "risks": [
-    {
-      "severity": "critical",
-      "title": "Valuation risk — P/E 375x",
-      "description": "Extremely overvalued vs current earnings. Major correction possible if AI/robot narrative fails to materialize."
-    },
-    {
-      "severity": "high",
-      "title": "NHTSA FSD regulatory risk — D-4",
-      "description": "Data submission results on 3/9 could halt autonomous driving program. Biggest near-term uncertainty."
-    },
-    {
-      "severity": "high",
-      "title": "Global EV competition — UK sales -37%",
-      "description": "BYD, Xiaomi, Rivian threatening with price competitiveness and product diversity."
-    },
-    {
-      "severity": "medium",
-      "title": "European labor issues",
-      "description": "IG Metall union expansion at Berlin factory could increase costs."
-    },
-    {
-      "severity": "medium",
-      "title": "CEO risk",
-      "description": "Elon Musk's political activities and multi-venture management affect Tesla focus."
-    }
+    { "severity": "critical", "title": "Valuation risk at P/E 361x", "description": "Extreme overvaluation vs current earnings. Significant correction risk if AI/robotics narrative fails." },
+    { "severity": "critical", "title": "China demand collapse", "description": "Monthly deliveries down double digits MoM, wait times shrunk to 1-3 weeks. Xiaomi SU7 and local competitors stealing share." },
+    { "severity": "high", "title": "NHTSA FSD regulatory risk (D-3)", "description": "March 9 data submission results could halt autonomous driving program. Failure scenario implies 30% downside." },
+    { "severity": "high", "title": "Global EV competition intensifying", "description": "BYD, Xiaomi, Rivian threatening on price competitiveness and product diversity." },
+    { "severity": "medium", "title": "CEO risk", "description": "Elon Musk's political statements accelerating consumer backlash in US and Europe, compounding subsidy cuts." }
   ],
 
   "buyReasons": [
-    {
-      "title": "BofA Buy/$460 reinstatement — institutional validation",
-      "rationale": "Bank of America sees +14% upside. Strengthens institutional confidence."
-    },
-    {
-      "title": "FCF rebounds 73.7% YoY to $6.22B",
-      "rationale": "Cash generation improving despite margin compression. Investment capacity secured."
-    },
-    {
-      "title": "Cybertruck AWD demand explosion",
-      "rationale": "Waitlist extends to 2027. Truck market penetration opens new demand pool."
-    },
-    {
-      "title": "Energy business high growth continues",
-      "rationale": "Revenue $12.8B (+27% YoY). Megapack 3/Mega Block launching 2026 for acceleration."
-    }
+    { "title": "Now trading below analyst consensus $396", "rationale": "Dropped from $406 to $391, now below target. Short-term rebound potential." },
+    { "title": "Berlin union risk resolved", "rationale": "IG Metall failed to secure majority. European production cost increase fears eased." },
+    { "title": "FCF rebounded to $6.22B (+73.7% YoY)", "rationale": "Cash generation improving despite earnings decline. Investment capacity secured." },
+    { "title": "Energy business high growth + ESG No.1", "rationale": "Revenue $12.8B (+27% YoY). Supply chain sustainability top ranking strengthens institutional appeal." }
   ],
 
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
-    "currentPositionPercent": 67.2,
-    "sma50": 431.36,
+    "currentPositionPercent": 62.0,
+    "sma50": 440.94,
     "sma50Signal": "below",
-    "sma200": 391.55,
+    "sma200": 387.74,
     "sma200Signal": "above",
-    "rsi": 45.0,
+    "rsi": 41.4,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Tesla confirmed institutional confidence in its autonomous driving leadership with BofA's Buy/$460 reinstatement. However, P/E 375x valuation remains the biggest overhang.",
-    "NHTSA FSD data deadline is D-4. The 3/9 results will be the key near-term catalyst determining stock direction.",
-    "UK sales -37% is concerning but France/Norway recovery shows mixed European signals. Trading below 50-day SMA $431 but above 200-day SMA $391.",
-    "Consensus $396 already below current price. NHTSA clearance could trigger a rally; negative results may test the 200-day SMA at $391."
+    "Collapsing China demand (double-digit MoM decline) and a broad tech selloff drove TSLA down 3.8% to $390, erasing the prior session's rebound in a single day.",
+    "The March 9 NHTSA FSD data deadline is now D-3. A pass could trigger a rally; a miss could mean 30% downside per Nasdaq's analysis.",
+    "Berlin union election loss by IG Metall is a positive, but declining US/Europe registrations and Musk's political baggage continue pressuring demand.",
+    "Testing 200-day SMA support at $388, RSI at 41 approaching oversold. A break below opens $350s; a bounce faces resistance at 50-day SMA $441."
   ],
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "TSLA close $405.55, analyst consensus Hold $396.15" },
-    { "name": "IBTimes Australia", "url": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-amid-robotaxi-optimism-analyst-upgrades-1862695", "description": "BofA Buy/$460 reinstatement, trading near $403" },
-    { "name": "TradersUnion", "url": "https://tradersunion.com/news/financial-news/show/1621143-tesla-stock-rises/", "description": "UK Feb sales -37%, stock at $405.60" },
-    { "name": "CoinCentral", "url": "https://coincentral.com/tesla-tsla-stock-slides-as-uk-sales-drop-37-in-february/", "description": "UK sales decline, analyst avg $399.25" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/", "description": "NHTSA 3/9 FSD data deadline analysis" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "IG Metall Berlin factory union expansion" },
-    { "name": "Coinpaper", "url": "https://coinpaper.com/15166/tesla-stock-forecast-600-in-2026-amid-robotaxi-and-energy-push", "description": "Wedbush $600 target, Polymarket $405 prediction" },
-    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-tesla-tsla-in-2026-the-great-pivot-from-evs-to-autonomous-ai", "description": "Tesla's EV→AI pivot deep dive" }
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/", "description": "Tesla tumble analysis: China demand, tech selloff" },
+    { "name": "Nasdaq", "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome", "description": "March 9 NHTSA outcome as Tesla's 2026 pivot point" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/", "description": "March 9 NHTSA FSD deadline analysis" },
+    { "name": "NotATeslaApp", "url": "https://www.notateslaapp.com/news/3735/tesla-tops-2026-supply-chain-sustainability-rankings", "description": "Tesla tops supply chain sustainability rankings" },
+    { "name": "ainvest", "url": "https://www.ainvest.com/news/tesla-march-2026-growth-trajectory-assessing-path-450-2603/", "description": "Tesla March growth trajectory, path to $450" },
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "TSLA technical analysis, RSI, moving averages" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "Analyst consensus and price targets" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA analyst targets and forecast" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "TSLA real-time chart and technical indicators" }
   ],
 
   "snsContent": {
+    "x": {
+      "hook": "TSLA plunges to $391, China demand collapse + NHTSA D-3",
+      "text": "$TSLA down 3.8% to $390.52. China deliveries fell double digits MoM, wait times shrunk from months to 1-3 weeks. NHTSA FSD data deadline is just 3 days away on March 9.",
+      "thread": [
+        "Good news from Berlin: IG Metall lost the works council election, easing European cost fears. Tesla also topped supply chain sustainability rankings for the second straight year.",
+        "Per Nasdaq: if NHTSA clears FSD on 3/9, expect a rally. If not, 30% downside is on the table. Stock is testing support at the 200-day moving average ($388). Below that, $350s come into play.",
+        "P/E still at 361x. China demand collapsing, US and Europe registrations declining. March 9 will define Tesla's 2026 trajectory. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+      ]
+    },
     "threads": {
-      "hook": "BofA: \"Tesla is the autonomy leader\" 🚗",
-      "text": "Bank of America reinstates Buy/$460. But UK sales plunged -37%, NHTSA deadline D-4. At P/E 375x, are you buying or selling? Which side of the bet are you on?\n\n→ investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+      "hook": "TSLA plunges to $391, China demand collapse + NHTSA D-3",
+      "text": "$TSLA -3.8% to $390.52. China deliveries down double digits MoM, wait times from months to 1-3 weeks. NHTSA FSD deadline D-3. Berlin union IG Metall lost works council vote, easing European cost risk. Testing 200-day average at $388, a break below opens $350s. Nasdaq reports 30% downside if NHTSA fails. P/E 361x. March 9 defines Tesla's 2026 direction. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
     },
     "telegram": {
-      "hook": "🚘 TSLA $405.55 (-0.10%) — BofA Buy vs NHTSA D-4",
-      "text": "Bank of America reinstated Tesla at Buy/$460, calling it 'the current leader in consumer autonomy.'\n\nBut on the other side: UK Feb sales -37%, NHTSA FSD data deadline D-4 (3/9). P/E 375x, consensus $396 already below current price.\n\nBofA $460 vs 200-day SMA $391 — do you have the conviction to take a position at this fork?\n\n📊 Full analysis → investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+      "hook": "TSLA $390.52 (-3.80%) plunges on China demand collapse + NHTSA D-3",
+      "text": "Tesla Daily Analysis (3/6)\n\nPrice: $390.52 (-3.80%) | Mkt Cap $1.46T\nP/E: 361x | Forward P/E: 191x\n\nKey Issues:\n- 📉 China deliveries down double digits MoM, wait times shrunk to 1-3 weeks\n- ⏰ March 9 NHTSA FSD deadline D-3: pass = rally, fail = 30% downside\n- 🇩🇪 Berlin union IG Metall lost works council vote, easing cost risk\n- 🏆 Supply chain sustainability No.1 for second consecutive year\n\nTechnicals: Testing 200-day SMA $388 support, 50-day $441 resistance. RSI 41 neutral\nAnalysts: Hold, consensus $396 (now slightly above current price)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "TSLA plunges to $391, China demand collapse + NHTSA D-3",
+          "text": "$TSLA down 3.8% to $390.52. China deliveries fell double digits MoM, wait times shrunk from months to 1-3 weeks. NHTSA FSD data deadline is just 3 days away on March 9.",
+          "thread": [
+            "Good news from Berlin: IG Metall lost the works council election, easing European cost fears. Tesla also topped supply chain sustainability rankings for the second straight year.",
+            "Per Nasdaq: if NHTSA clears FSD on 3/9, expect a rally. If not, 30% downside is on the table. Stock is testing support at the 200-day moving average ($388). Below that, $350s come into play.",
+            "P/E still at 361x. China demand collapsing, US and Europe registrations declining. March 9 will define Tesla's 2026 trajectory. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+          ]
+        },
+        "witty": {
+          "hook": "Tesla's queue in China just... disappeared",
+          "text": "$TSLA wait times went from 'months' to '1-3 weeks.' That's not a faster line, that's fewer customers. Down 3.8% to $390.52.",
+          "thread": [
+            "Silver lining: IG Metall lost the Berlin factory union vote. So lines are disappearing everywhere. On the bright side, Tesla kept its No.1 supply chain sustainability crown for the second year.",
+            "The real showdown is 3 days out. March 9, NHTSA reviews FSD data. Nasdaq says failure means 30% downside. That's not a warning, that's a countdown.",
+            "Stock is clinging to its 200-day average at $388. At P/E 361x, if this support breaks, $350s are next. March 9 decides everything. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+          ]
+        },
+        "empathy": {
+          "hook": "TSLA holders, rough day today",
+          "text": "$TSLA down 3.8% to $390. Two days ago the bounce felt like relief. One session later, it's all gone. That stings.",
+          "thread": [
+            "The China numbers hurt the most. Deliveries down double digits, wait times collapsed from months to 1-3 weeks. When the queue evaporates, it means buyers walked away.",
+            "At least Berlin went our way. IG Metall lost the union vote, so no cost explosion in Europe. And that ESG No.1 ranking? Still ours. Small wins.",
+            "But March 9 is the real test. NHTSA reviews FSD data. A pass changes everything. A fail could mean 30% more pain.",
+            "The 200-day average at $388 is right below us. If it holds, there's hope. If not, $350s. For long-term holders, maybe wait until after 3/9 to decide. Hang in there. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "TSLA plunges to $391, China demand collapse + NHTSA D-3",
+          "text": "$TSLA -3.8% to $390.52. China deliveries down double digits MoM, wait times from months to 1-3 weeks. NHTSA FSD deadline D-3. Berlin union IG Metall lost works council vote, easing European cost risk. Testing 200-day average at $388, a break below opens $350s. Nasdaq reports 30% downside if NHTSA fails. P/E 361x. March 9 defines Tesla's 2026 direction. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+        },
+        "witty": {
+          "hook": "Tesla's China queue just vanished",
+          "text": "$TSLA wait times went from months to 1-3 weeks. Not faster lines, fewer customers. -3.8% to $390.52. Berlin union lost their vote too, so lines are shrinking everywhere. In 3 days NHTSA reviews FSD data. Nasdaq says a fail means 30% drop. Stock hanging on to the 200-day average at $388 by its fingertips. At P/E 361x, that's not a floor, that's a prayer. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+        },
+        "empathy": {
+          "hook": "TSLA holders, today was tough",
+          "text": "$TSLA -3.8% to $390.52. Two days ago, the bounce felt like a turning point. Now it's all gone. China deliveries cratering double digits is the hardest part. Berlin union losing is good news, but it barely registers on a day like this. March 9 NHTSA deadline is 3 days away. Everything rides on it. 200-day average at $388, right below us. Long-term holders, maybe wait until 3/9 to judge. Hang in there. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+        }
+      }
     }
   }
 }

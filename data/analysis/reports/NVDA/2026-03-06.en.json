@@ -3,178 +3,202 @@
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-06",
   "currentPrice": 183.34,
-  "marketCap": "$4.45T",
+  "marketCap": "$4.46T",
 
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA is the world's largest semiconductor design company, with AI training/inference data center accelerators as its core revenue driver. FY2026 revenue $215.94B (+65.5%), EPS $4.90 (+66.7%). Closed at $183.34 (+0.16%) on 3/5. Trump administration's draft global AI chip export licensing rules caused an intraday -1.7% dip before recovery. GTC 2026 D-11 (3/16-19). Tigress Financial raised target to $360. Market cap $4.45T. P/E 37.42x, Forward P/E 22.22x, PEG 0.66.",
+    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure through data center GPUs and AI accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. Q4 FY2026 revenue hit $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance of $78B (plus or minus 2%) beat consensus by $5.4B. Closed at $183.34 (+0.16%) on 3/5. GTC 2026 (3/16-19) is D-10, with the Rubin R200 unveiling expected. Strategic $2B investments each in Lumentum and Coherent for photonics technology. Market cap $4.46T. P/E 37.36x, Forward P/E 22.19x, PEG 0.66.",
     "howTheyMakeMoney": [
-      "Data center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300) — ~91% of revenue",
+      "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300), roughly 91% of revenue",
       "Gaming: GeForce RTX series GPUs and DLSS 4 technology",
-      "Automotive: DRIVE platform for autonomous driving and vehicle AI chips",
-      "Professional visualization: Quadro/RTX workstation GPUs",
+      "Automotive: DRIVE platform for autonomous driving and in-vehicle AI chips",
+      "Professional Visualization: Quadro/RTX workstation GPUs",
       "Software/Platform: CUDA ecosystem, NVIDIA AI Enterprise, Omniverse"
     ],
     "keyProducts": [
-      "Blackwell Ultra GB300: Latest AI accelerator, 50x throughput vs Hopper",
-      "Blackwell B200/GB200: Sold out across hyperscalers",
+      "Blackwell Ultra GB300: Latest AI accelerator, 50x throughput vs Hopper, shipments expected to surge 129% YoY in 2026",
+      "Blackwell B200/GB200: Fully sold out to hyperscalers",
       "H100/H200 Tensor Core GPU: AI industry standard",
-      "Rubin R200: Next-gen GPU, official reveal at GTC 2026 (3/16-19)",
-      "CUDA: 15M+ developer GPU computing platform",
-      "DGX/HGX systems: Turnkey servers for large-scale AI training"
+      "Rubin R200: Next-gen GPU, official unveiling at GTC 2026 (3/16-19)",
+      "CUDA: GPU computing platform with 15M+ developers",
+      "DGX/HGX Systems: Turnkey servers for large-scale AI training"
     ]
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "37.42x", "interpretation": "Reasonable for an AI semiconductor leader. Reflects hyper-growth" },
-    { "name": "Forward P/E", "value": "22.22x", "interpretation": "Attractive considering future earnings growth" },
-    { "name": "PEG Ratio", "value": "0.66", "interpretation": "Below 1 signals undervaluation relative to growth" },
-    { "name": "Revenue Growth (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.94B. Explosive growth continues" },
-    { "name": "Operating Margin", "value": "60.4%", "interpretation": "Highest in the semiconductor industry" },
-    { "name": "ROE", "value": "101.49%", "interpretation": "Extraordinary returns on equity" },
-    { "name": "FCF", "value": "$96.9B", "interpretation": "Massive free cash flow. Ample capacity for returns and investment" },
-    { "name": "Debt-to-Equity", "value": "0.07", "interpretation": "Virtually debt-free. Net cash $51.1B" }
+    { "name": "P/E Ratio (TTM)", "value": "37.36x", "interpretation": "Reasonable for the AI semiconductor leader. Reflects hyper-growth" },
+    { "name": "Forward P/E", "value": "22.19x", "interpretation": "Attractive when factoring in future earnings growth" },
+    { "name": "PEG Ratio", "value": "0.66", "interpretation": "Below 1.0 signals undervaluation relative to growth" },
+    { "name": "Revenue Growth (YoY)", "value": "+73%", "interpretation": "Q4 FY2026 $68.13B. Explosive growth continues" },
+    { "name": "Operating Margin", "value": "60.4%", "interpretation": "Best-in-class profitability in the semiconductor industry" },
+    { "name": "ROE", "value": "101.49%", "interpretation": "Exceptional return on equity" },
+    { "name": "FCF", "value": "$96.9B", "interpretation": "Massive free cash flow supports buybacks and strategic investments" },
+    { "name": "Debt-to-Equity", "value": "0.07", "interpretation": "Virtually debt-free. Net cash position of $51.1B" }
   ],
 
   "growthDrivers": [
     {
-      "title": "GTC 2026 (3/16-19) D-11 — Rubin R200 reveal imminent",
-      "description": "Jensen Huang to officially unveil next-gen Rubin (R200) architecture at San Jose GTC. 30,000 attendees expected. Major catalyst in 11 days."
+      "title": "GTC 2026 (3/16-19): Rubin R200 Unveiling in D-10",
+      "description": "Jensen Huang will officially unveil the next-gen Rubin (R200) architecture at GTC in San Jose. Expected 30,000 attendees. Potential event-driven revaluation catalyst."
     },
     {
-      "title": "Tigress Financial raises target $350→$360 — Strong Buy",
-      "description": "3/5 Tigress raised to $360. +96% upside. Reflects accelerating AI infrastructure demand."
+      "title": "$2B Each in Lumentum and Coherent: Photonics Integration for AI Processors",
+      "description": "NVIDIA invested $2B each in optical component makers Lumentum and Coherent, signaling strategic integration of photonics technology into data center chips."
     },
     {
-      "title": "Trump admin drafts global AI chip export licensing rules — near-term pressure",
-      "description": "Bloomberg: Trump administration drafting regulations requiring licenses for AI chip exports to virtually every country. Intraday -1.7% dip then recovery."
+      "title": "Hyperscaler CapEx Acceleration: CoreWeave 2026 CapEx $30B+",
+      "description": "CoreWeave doubled its 2026 CapEx to $30B+. Combined spending by Alphabet, Amazon, Meta, and Microsoft approaches $700B. Direct tailwind for NVIDIA GPU demand."
     },
     {
-      "title": "Hyperscaler CapEx acceleration — 2026 combined $700B+",
-      "description": "Alphabet, Amazon, Meta, Microsoft combined ~$700B CapEx. Structural increase in NVIDIA GPU demand."
+      "title": "Q4 FY2026: 13th Consecutive Earnings Beat, Q1 Guidance $78B",
+      "description": "Revenue $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance of $78B (plus or minus 2%) topped consensus by $5.4B."
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem (15M+ developers), annual architecture cadence, dominant NVLink performance, 80%+ AI accelerator market share creating a de facto monopoly.",
+    "summary": "CUDA ecosystem (15M+ developers), annual architecture refreshes, dominant NVLink performance, and 80%+ AI accelerator market share create a near-monopoly.",
     "moats": [
-      { "type": "Software ecosystem (switching costs)", "description": "15+ year CUDA history. 15M+ developers optimized for NVIDIA." },
-      { "type": "Technology leadership", "description": "Hopper→Blackwell→Rubin annual architecture refresh. GB300 is 50x more efficient than Hopper." },
-      { "type": "Supply chain lock-in", "description": "Secured majority of TSMC's advanced CoWoS packaging capacity." },
-      { "type": "Strategic partnerships", "description": "Lumentum/Coherent $2B each investment. Multi-year deals with Meta, OpenAI, Eli Lilly." }
+      { "type": "Software Ecosystem (Switching Costs)", "description": "CUDA has 15+ years of history. Over 15M developers are optimized for NVIDIA." },
+      { "type": "Technology Leadership", "description": "Annual architecture cadence: Hopper to Blackwell to Rubin. GB300 delivers 50x efficiency over Hopper." },
+      { "type": "Supply Chain Lock-in", "description": "Secured the majority of TSMC's advanced CoWoS packaging capacity." },
+      { "type": "Strategic Partnerships", "description": "Multi-year partnerships with Meta, OpenAI, Eli Lilly, and others." }
     ],
     "competitors": [
-      { "name": "AMD", "detail": "MI300X/MI350 AI accelerator 10-12% market share. MI450 (2nm) planned." },
-      { "name": "Intel", "detail": "Gaudi 3 launched but negligible market share." },
-      { "name": "Custom silicon", "detail": "Google TPU, Amazon Trainium, Microsoft Maia — hyperscaler in-house chip acceleration." },
-      { "name": "Huawei Ascend", "detail": "China's NVIDIA alternative. Export controls limit NVIDIA's China share." }
+      { "name": "AMD", "detail": "MI300X/MI350 AI accelerators hold 10-12% market share. MI450 (2nm) in planning." },
+      { "name": "Intel", "detail": "Launched Gaudi 3 but market share remains negligible." },
+      { "name": "Custom Silicon", "detail": "Google TPU, Amazon Trainium, Microsoft Maia: hyperscaler in-house chips accelerating." },
+      { "name": "Huawei Ascend", "detail": "Domestic NVIDIA alternative in China. Export controls limit NVIDIA's China share." }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-05", "headline": "Trump admin drafts global AI chip export licensing rules — NVDA -1.7% intraday", "significance": "Universal export licenses could limit demand. Near-term uncertainty", "url": "https://coincentral.com/nvidia-nvda-stock-falls-as-us-plans-global-ai-chip-export-rules/" },
-    { "date": "2026-03-05", "headline": "Tigress Financial raises target $350→$360 — Strong Buy", "significance": "+96% upside. AI infrastructure demand acceleration", "url": "https://stockanalysis.com/stocks/nvda/forecast/" },
-    { "date": "2026-03-05", "headline": "Motley Fool: Can NVIDIA stock reach $300 in 2026?", "significance": "Positive long-term assessment as key AI stock", "url": "https://www.fool.com/investing/2026/03/05/is-nvidia-stock-going-to-300-in-2026/" },
-    { "date": "2026-03-05", "headline": "GTC 2026 D-11 — 30,000 attendees, AI industry revolution showcase", "significance": "Rubin R200 reveal expected. Stock revaluation catalyst", "url": "https://www.stocktitan.net/news/NVDA/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-xp1xkmxzdkt8.html" },
-    { "date": "2026-03-05", "headline": "FinancialContent: The $4.4T Epoch — NVIDIA deep dive", "significance": "AI OVERWATCH Act and NVIDIA dominance analysis", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-the-44-trillion-epoch-a-deep-dive-research-feature-on-nvidia-corp-nvda" }
+    { "date": "2026-03-05", "headline": "NVIDIA edges higher to $183.34 (+0.16%) as investors weigh AI data center spending outlook", "significance": "Cautious optimism ahead of GTC as market assesses AI infrastructure investment trajectory", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/05/stock-market-today-mar-5-nvidia-edges-higher-as-investors-weigh-ai-data-center-spending-outlook/" },
+    { "date": "2026-03-04", "headline": "TipRanks: What to expect at GTC 2026, from Rubin to physical AI and autonomous driving", "significance": "Rubin R200 architecture and physical AI roadmap expected to headline the event", "url": "https://www.tipranks.com/news/nvidia-nvda-gtc-2026-is-coming-heres-what-to-expect-from-jensen-huangs-big-ai-event" },
+    { "date": "2026-03-03", "headline": "GTC 2026 (3/16-19) officially announced with 30,000 attendees expected for AI industry showcase", "significance": "Jensen Huang keynote with Rubin R200 unveiling as the key catalyst", "url": "https://www.stocktitan.net/news/NVDA/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-xp1xkmxzdkt8.html" },
+    { "date": "2026-03-01", "headline": "NVIDIA partners with global telecom leaders to build 6G on open, AI-native platforms", "significance": "Nokia, T-Mobile, Deutsche Telekom alliance expands NVIDIA into telecom infrastructure", "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-telecom-leaders-commit-to-build-6g-on-open-and-secure-ai-native-platforms" },
+    { "date": "2026-02-25", "headline": "Q4 FY2026 earnings: Revenue $68.13B, 13th consecutive earnings beat", "significance": "Record results but 'Great Rotation' triggered profit-taking in mega-cap tech", "url": "" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 263.29,
-    "highTarget": 360,
+    "consensusTarget": 271.89,
+    "highTarget": 352,
     "lowTarget": 100,
-    "upsidePercent": 43.61,
-    "buyCount": 36,
+    "upsidePercent": 48.28,
+    "buyCount": 39,
     "holdCount": 1,
     "sellCount": 1,
-    "notableComment": "38 analysts, Strong Buy consensus. Tigress $360 new high target. +43.6% upside from current. GTC as revaluation catalyst."
+    "notableComment": "39 of 41 analysts rate NVDA a Buy. Consensus target of $271.89 implies +48.3% upside. Goldman Sachs targets $250, BofA $275, Cantor Fitzgerald at Street-high $352."
   },
 
   "risks": [
-    {
-      "severity": "high",
-      "title": "Global AI chip export restrictions — Trump admin draft",
-      "description": "Universal export licensing could limit revenue. Final regulation uncertain."
-    },
-    {
-      "severity": "high",
-      "title": "Great Rotation from mega-cap tech",
-      "description": "Broad Mag-7 outflow trend. Capital shifting from tech to defensive sectors."
-    },
-    {
-      "severity": "medium",
-      "title": "Customer concentration",
-      "description": "Revenue concentrated in top hyperscalers (MS, Meta, Google, Amazon). In-house chip transition risk."
-    },
-    {
-      "severity": "medium",
-      "title": "Absolute valuation scale",
-      "description": "$4.45T market cap. PEG 0.66 is attractive but growth deceleration could compress multiples."
-    },
-    {
-      "severity": "low",
-      "title": "Supply constraints",
-      "description": "Even with TSMC CoWoS capacity secured, demand continues to exceed supply."
-    }
+    { "severity": "high", "title": "Mega-Cap Tech Rotation (Great Rotation)", "description": "Broad market rotation out of Mag-7 names into defensive sectors continues to pressure shares." },
+    { "severity": "high", "title": "Export Control Escalation Risk", "description": "Expansion of U.S. AI chip export restrictions to China could constrain a portion of revenue." },
+    { "severity": "medium", "title": "Customer Concentration", "description": "Revenue heavily weighted toward top hyperscalers (Microsoft, Meta, Google, Amazon). In-house chip transition risk." },
+    { "severity": "medium", "title": "Valuation Premium Compression", "description": "PEG of 0.66 is attractive, but $4.46T market cap is enormous in absolute terms. Growth deceleration could compress multiples." },
+    { "severity": "low", "title": "Supply Constraints", "description": "Despite securing TSMC CoWoS packaging capacity, demand continues to outstrip supply." }
   ],
 
   "buyReasons": [
-    {
-      "title": "GTC 2026 D-11 — biggest near-term catalyst",
-      "rationale": "Rubin R200 reveal and physical AI roadmap as stock revaluation opportunity."
-    },
-    {
-      "title": "PEG 0.66 — undervalued relative to growth",
-      "rationale": "Forward P/E 22x with 65%+ growth. Most reasonable valuation among growth stocks."
-    },
-    {
-      "title": "Tigress $360 — +96% upside",
-      "rationale": "Most bullish target. 36 of 38 analysts rate Buy."
-    },
-    {
-      "title": "Massive cash generation",
-      "rationale": "FCF $96.9B, net cash $51.1B. Simultaneous shareholder returns and strategic investments."
-    }
+    { "title": "GTC 2026 D-10: Near-Term Catalyst", "rationale": "Rubin R200 unveiling and physical AI roadmap could drive stock rerating." },
+    { "title": "PEG 0.66: Undervalued Relative to Growth", "rationale": "Forward P/E of 22x with 73%+ revenue growth. Most attractive valuation among mega-cap growth names." },
+    { "title": "Hyperscaler CapEx Acceleration", "rationale": "Combined 2026 hyperscaler CapEx exceeds $700B. Structural demand driver for NVIDIA GPUs." },
+    { "title": "6G Telecom Infrastructure Expansion", "rationale": "Partnership with Nokia, T-Mobile, and other global carriers for 6G AI-native platforms opens a new addressable market." }
   ],
 
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
-    "currentPositionPercent": 77.0,
-    "sma50": 186.08,
+    "currentPositionPercent": 77.1,
+    "sma50": 186.40,
     "sma50Signal": "below",
-    "sma200": 175.69,
-    "sma200Signal": "above",
+    "sma200": 186.43,
+    "sma200Signal": "below",
     "rsi": 47.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "NVIDIA remains the undisputed AI infrastructure leader, but Trump admin's global export regulation draft adds new uncertainty.",
-    "GTC 2026 is 11 days away. Rubin R200 reveal could offset export regulation concerns as a major catalyst.",
-    "Trading slightly below 50-day SMA $186 but stable above 200-day SMA $176. RSI 47 neutral — pre-GTC wait-and-see mode.",
-    "36 of 38 analysts rate Buy, target $263. Export regulation finalization and GTC outcome will determine next direction."
+    "GTC 2026 (3/16-19) is just 10 days away. The Rubin R200 unveiling is the key catalyst for NVDA stock rerating.",
+    "The 6G AI-native platform partnership with Nokia, T-Mobile, and others extends NVIDIA's reach beyond data centers into telecom infrastructure.",
+    "At PEG 0.66 and Forward P/E 22x, the $4.46T market cap remains attractive relative to the 73% revenue growth rate.",
+    "Trading below both the 50-day SMA ($186) and 200-day SMA ($186) with RSI at 47. Technically in a pre-GTC holding pattern."
   ],
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "NVDA close $183.34, Strong Buy $263.29, Tigress $360 raise" },
-    { "name": "CoinCentral", "url": "https://coincentral.com/nvidia-nvda-stock-falls-as-us-plans-global-ai-chip-export-rules/", "description": "Trump admin AI chip export regulation draft report" },
-    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/nvidia-sinks-on-report-of-global-ai-chip-export-rules-4544937", "description": "NVDA -1.7% drop, export regulation impact" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/is-nvidia-stock-going-to-300-in-2026/", "description": "NVIDIA $300 target analysis" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/05/stock-market-today-mar-5-nvidia-edges-higher-as-investors-weigh-ai-data-center-spending-outlook/", "description": "NVDA closing price data for 3/5" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/nvda/forecast", "description": "41 analyst consensus target $271.89, Strong Buy rating" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/nvidia-nvda-gtc-2026-is-coming-heres-what-to-expect-from-jensen-huangs-big-ai-event", "description": "GTC 2026 expectations analysis" },
+    { "name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-telecom-leaders-commit-to-build-6g-on-open-and-secure-ai-native-platforms", "description": "Official 6G AI-native platform partnership announcement" },
     { "name": "StockTitan", "url": "https://www.stocktitan.net/news/NVDA/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-xp1xkmxzdkt8.html", "description": "GTC 2026 official announcement" },
-    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-the-44-trillion-epoch-a-deep-dive-research-feature-on-nvidia-corp-nvda", "description": "$4.4T epoch NVIDIA deep dive" },
-    { "name": "Parameter", "url": "https://parameter.io/41467-2nvidia-nvda-stock-falls-as-trump-administration-weighs-global-licensing-rules-for-ai-chip-exports/", "description": "Export licensing regulation details" },
-    { "name": "StockAnalysis Overview", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA P/E 37.42, Forward PE 22.22, revenue $215.94B" }
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/nvidia-corp-technical", "description": "NVDA technical analysis, RSI, moving averages" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA analyst price targets and forecasts" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA real-time statistics, valuation, financial data" },
+    { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-01/nvidia-forms-alliance-to-make-sure-6g-networks-embrace-ai", "description": "NVIDIA 6G alliance coverage by Bloomberg" }
   ],
 
   "snsContent": {
+    "x": {
+      "hook": "NVDA $183, GTC D-10. The AI emperor reaches for 6G",
+      "text": "$NVDA (3/6) GTC 2026 is 10 days out. Rubin R200 unveiling is the key catalyst for stock rerating. Nokia, T-Mobile, and other carriers just signed on for a 6G AI-native platform partnership. NVIDIA is expanding beyond data centers into telecom infrastructure.",
+      "thread": [
+        "PEG ratio of 0.66, Forward P/E of 22x. Even at a $4.46T market cap, 73% revenue growth makes the valuation look reasonable by growth stock standards.",
+        "Trading below both the 50-day and 200-day SMAs at $186. RSI at 47, dead neutral. The market is in wait-and-see mode ahead of GTC.",
+        "39 of 41 analysts say Buy. Consensus target $272 implies +48% upside from here. Is this the dip to buy the AI king?"
+      ]
+    },
     "threads": {
-      "hook": "Trump wants to restrict AI chip exports — NVDA still +0.16%? 🤔",
-      "text": "Global export licensing draft caused -1.7% intraday dip then recovery. GTC D-11, Rubin R200 ahead. PEG 0.66 with 36/38 analysts at Buy — can regulation break this?\n\n→ investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+      "hook": "NVDA $183, GTC D-10. The AI emperor expands into 6G",
+      "text": "$NVDA (3/6) GTC 2026 is 10 days away. Rubin R200 unveiling could be the next catalyst. Nokia, T-Mobile 6G AI platform partnership shows NVIDIA expanding beyond data centers. PEG 0.66, 39 of 41 analysts say Buy, target $272 (+48%). Below both 50-day and 200-day SMAs, RSI 47 neutral. Pre-GTC holding pattern or buying opportunity? investory.kro.kr/stock/NVDA/analysis/2026-03-06"
     },
     "telegram": {
-      "hook": "🟢 NVDA $183.34 (+0.16%) — Export rules vs GTC D-11",
-      "text": "Bloomberg: Trump admin drafting global AI chip export licensing rules for virtually every country. Intraday -1.7% dip then bounce.\n\nGTC 2026 in 11 days. Rubin R200 reveal and 30,000 attendee AI showcase approaching. Tigress raised target to $360 (+96%).\n\nPEG 0.66, Forward P/E 22x — at this valuation, are export rules a real threat or a buying opportunity?\n\n📊 Full analysis → investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+      "hook": "NVDA $183.34 (+0.16%) - GTC D-10, 6G AI Platform Expansion",
+      "text": "NVIDIA Daily Analysis (3/6)\n\nPrice: $183.34 (+0.16%) | Market Cap: $4.46T\nP/E: 37.36x | Forward P/E: 22.19x | PEG: 0.66\n\nKey Developments:\n- GTC 2026 (3/16-19) D-10: Rubin R200 unveiling expected, 30K attendees\n- 6G AI-Native Platform: Partnership with Nokia, T-Mobile, Deutsche Telekom\n- Q1 Guidance: $78B, beat consensus by $5.4B\n- Hyperscaler CapEx: $700B+ in 2026\n\nTechnicals: Below 50-day ($186) and 200-day ($186) SMAs. RSI 47, neutral\nAnalysts: 39/41 Buy, target $272 (+48%)\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $183, GTC D-10. The AI emperor reaches for 6G",
+          "text": "$NVDA (3/6) GTC 2026 is 10 days out. Rubin R200 unveiling is the key catalyst for stock rerating. Nokia, T-Mobile, and other carriers just signed on for a 6G AI-native platform partnership. NVIDIA is expanding beyond data centers into telecom infrastructure.",
+          "thread": [
+            "PEG ratio of 0.66, Forward P/E of 22x. Even at a $4.46T market cap, 73% revenue growth makes the valuation look reasonable by growth stock standards.",
+            "Trading below both the 50-day and 200-day SMAs at $186. RSI at 47, dead neutral. The market is in wait-and-see mode ahead of GTC.",
+            "39 of 41 analysts say Buy. Consensus target $272 implies +48% upside from here. Is this the dip to buy the AI king?"
+          ]
+        },
+        "witty": {
+          "hook": "NVDA conquered data centers. Now it wants your cell tower",
+          "text": "$NVDA (3/6) The company that built a $4.46T empire on AI chips just shook hands with Nokia to turn 6G networks into AI infrastructure. Jensen Huang won't stop until every piece of hardware on Earth runs CUDA.",
+          "thread": [
+            "GTC is 10 days away and the stock is eerily quiet. Below both the 50-day and 200-day moving averages at $186. RSI 47. The calm before the storm, or just calm?",
+            "PEG of 0.66 means this growth machine is technically 'cheap' relative to its 73% revenue growth. Though calling a $4.46T company 'cheap' feels like calling the ocean a puddle.",
+            "41 analysts cover this stock. 39 say Buy, 1 says Hold, 1 says Sell. That lone Sell analyst has either the best conviction on Wall Street or the worst timing. Target $272, +48% upside."
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA holders, 10 days until GTC. Hang in there",
+          "text": "$NVDA (3/6) Ten days to GTC. If you bought near the $212 high and you're watching $183 now, I get it. But this company just expanded into 6G telecom with Nokia and T-Mobile.",
+          "thread": [
+            "Below both the 50-day and 200-day averages at $186. The chart doesn't look great right now. RSI at 47 says the market is just waiting.",
+            "But look at the fundamentals. 73% revenue growth, PEG of 0.66. Those numbers say the stock is undervalued relative to how fast this business is growing.",
+            "Nokia, T-Mobile, Deutsche Telekom signed on for 6G AI platforms. This isn't just a data center company anymore. The TAM keeps expanding.",
+            "39 of 41 analysts say Buy with a $272 target, +48% upside. GTC and Rubin R200 could be the spark. Sometimes the hardest part of investing is just holding through the noise."
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA $183, GTC D-10. The AI emperor expands into 6G",
+          "text": "$NVDA (3/6) GTC 2026 is 10 days away. Rubin R200 unveiling could be the next catalyst. Nokia, T-Mobile 6G AI platform partnership shows NVIDIA expanding beyond data centers. PEG 0.66, 39 of 41 analysts say Buy, target $272 (+48%). Below both 50-day and 200-day SMAs, RSI 47 neutral. Pre-GTC holding pattern or buying opportunity? investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+        },
+        "witty": {
+          "hook": "NVDA finished eating data centers. 6G cell towers are next",
+          "text": "$NVDA (3/6) A $4.46T company that grew revenue 73% just told Nokia 'let's make 6G run on CUDA.' GTC is 10 days away, the stock sits below its moving averages like a coiled spring, and 39 out of 41 analysts say Buy with a $272 target. That one Sell analyst must sleep very well at night. investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+        },
+        "empathy": {
+          "hook": "NVDA holders, 10 days to GTC. Stay with me",
+          "text": "$NVDA (3/6) Watching $183 when you remember $212 is tough. But GTC is 10 days away with Rubin R200 on deck. Nokia and T-Mobile just signed up for 6G AI platforms. PEG 0.66 says the growth story is intact. 39/41 analysts at Buy, target $272 (+48%). Below the moving averages right now, but catalysts are lined up. Sometimes patience is the best trade. investory.kro.kr/stock/NVDA/analysis/2026-03-06"
+        }
+      }
     }
   }
 }

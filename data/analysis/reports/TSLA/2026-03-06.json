@@ -2,12 +2,12 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-06",
-  "currentPrice": 405.55,
-  "marketCap": "$1.52T",
+  "currentPrice": 390.52,
+  "marketCap": "$1.46T",
 
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사에서 로보택시, 휴머노이드 로봇, 에너지 저장을 아우르는 'Physical AI 플랫폼'으로 전환 중",
-    "description": "Tesla는 EV 제조사에서 통합 AI, 로보틱스, 에너지 플랫폼 기업으로 빠르게 변모 중이다. FY2025 매출은 $94.8B으로 사상 첫 연간 매출 감소(-2.9%)를 기록했고, 순이익은 46.5% 급감했다. 3/5 종가 $405.55(-0.10%), Bank of America가 Buy/$460으로 커버리지 재개했으나 영국 2월 판매량 -37% 급락과 NHTSA FSD 마감 D-4 불확실성으로 보합. P/E 375x, Forward P/E 195x. 시가총액 $1.52T.",
+    "description": "Tesla는 EV 제조사에서 통합 AI, 로보틱스, 에너지 플랫폼 기업으로 빠르게 변모 중이다. FY2025 매출은 $94.8B으로 사상 첫 연간 매출 감소(-2.9%)를 기록했고, 순이익은 46.5% 급감했다. 3/5 종가 $390.52(-3.80%), 중국 수요 급감과 기술주 매도세, NHTSA 마감 D-3 불확실성이 겹치며 급락. 독일 베를린 기가팩토리 노조 선거에서 IG Metall이 과반 확보에 실패, Tesla에 유리한 결과. P/E 361x, Forward P/E 191x. 시가총액 $1.46T.",
     "howTheyMakeMoney": [
       "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y가 핵심, Model S/X는 Q2 2026 단종",
       "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack 유틸리티급 저장장치",
@@ -25,8 +25,8 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "375x", "interpretation": "역대 최고 수준의 밸류에이션. AI/로봇/에너지 프리미엄 반영이나 현 수익 대비 극도로 고평가" },
-    { "name": "Forward P/E", "value": "194.69x", "interpretation": "향후 수익 회복 기대 반영하나 여전히 매우 높은 수준" },
+    { "name": "P/E Ratio (TTM)", "value": "361x", "interpretation": "전일 대비 소폭 하락하나 여전히 극단적 고평가. AI/로봇 프리미엄 반영" },
+    { "name": "Forward P/E", "value": "191x", "interpretation": "향후 수익 회복 기대 반영하나 여전히 매우 높은 수준" },
     { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "FY2025 사상 첫 역성장. EV 경쟁 심화와 가격 인하 영향" },
     { "name": "영업이익률", "value": "4.59%", "interpretation": "FY2024 7.24%에서 급락. 가격 인하와 R&D 투자 확대" },
     { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY 반등. 운영 효율 개선 신호" },
@@ -37,20 +37,20 @@
 
   "growthDrivers": [
     {
-      "title": "Bank of America, Buy/$460으로 커버리지 재개 — 자율주행 리더십 평가",
-      "description": "BofA가 Tesla를 Buy/$460으로 커버리지 재개. '소비자 자율주행의 현재 리더'로 평가하며 FSD와 로봇 사업을 핵심 동력으로 꼽았다."
+      "title": "NHTSA FSD 데이터 3/9 마감 — 규제 리스크와 기회의 갈림길",
+      "description": "Motley Fool: 3/9까지 FSD 충돌 데이터를 NHTSA에 제출해야 함. 결과에 따라 자율주행 승인 가속 또는 추가 규제 가능."
     },
     {
-      "title": "NHTSA FSD 데이터 3/9 마감 D-4 — 규제 분기점",
-      "description": "3/9까지 FSD 충돌 데이터를 NHTSA에 제출해야 함. 결과에 따라 자율주행 승인 가속 또는 추가 규제 가능. 단기 최대 촉매이자 리스크."
-    },
-    {
-      "title": "영국 2월 판매량 -37% 급락 — 유럽 혼조 신호",
-      "description": "영국 시장에서 2월 판매가 37% 급감했으나, 프랑스·노르웨이에서는 점유율 반등. 유럽 시장 양극화 심화."
+      "title": "독일 베를린 기가팩토리 노조 영향력 확대 시도",
+      "description": "Reuters: 독일 최대 산업노조 IG Metall이 베를린 기가팩토리 직원 위원회 선거에서 돌파구를 마련하려 시도 중."
     },
     {
       "title": "Cybertruck 저가형 AWD 폭발적 수요 — 배송 2027년까지 밀림",
       "description": "Tesla가 새로운 베이스 트림을 출시하며 강력한 수요가 발생, 예상 배송 시점이 2027년으로 밀렸다."
+    },
+    {
+      "title": "프랑스·노르웨이 시장 점유율 2월 반등 — 유럽 안정화 신호",
+      "description": "Reuters: Tesla가 프랑스와 노르웨이에서 2월 점유율을 회복. 유럽 2년 연속 하락 후 안정화 징후."
     }
   ],
 
@@ -70,109 +70,133 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-05", "headline": "Bank of America, Tesla Buy/$460으로 커버리지 재개 — 소비자 자율주행 리더", "significance": "FSD와 로봇 사업을 핵심 성장 동력으로 평가. +14% 상승 여력 제시", "url": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-amid-robotaxi-optimism-analyst-upgrades-1862695" },
-    { "date": "2026-03-05", "headline": "Tesla, 영국 2월 판매량 37% 급감 — 유럽 양극화", "significance": "영국 하락에도 프랑스·노르웨이 반등. 지역별 성과 차별화", "url": "https://tradersunion.com/news/financial-news/show/1621143-tesla-stock-rises/" },
-    { "date": "2026-03-05", "headline": "NHTSA FSD 충돌 데이터 마감 D-4 — 자율주행의 분기점", "significance": "3/9 제출 결과가 FSD 미래를 결정. 규제 통과 시 주가 급등 촉매", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/" },
-    { "date": "2026-03-05", "headline": "Tesla 주가 $403 부근 — 전일 반등 후 보합세 유지", "significance": "200일선 $391 위에서 안정적 거래. NHTSA 결과 대기", "url": "https://coincentral.com/tesla-tsla-stock-slides-as-uk-sales-drop-37-in-february/" },
-    { "date": "2026-03-04", "headline": "독일 노조 IG Metall, 베를린 기가팩토리에서 영향력 확대 시도", "significance": "노동 비용·경영권 이슈. 유럽 생산 효율에 영향 가능", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/" }
+    { "date": "2026-03-05", "headline": "Tesla 주가 급락, 중국 수요 급감과 기술주 매도세 겹쳐", "significance": "중국 월간 인도량 두 자릿수 MoM 감소, 대기 시간 수개월에서 1-3주로 단축", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/" },
+    { "date": "2026-03-05", "headline": "IG Metall, 베를린 기가팩토리 노사위원회 선거에서 과반 확보 실패", "significance": "Tesla의 유럽 경영 자율성 확보에 유리. 비용 증가 우려 해소", "url": "https://www.notateslaapp.com/" },
+    { "date": "2026-03-05", "headline": "Tesla, 2026 공급망 지속가능성 랭킹 1위 선정", "significance": "2년 연속 ESG 리더십 유지, 기관투자 매력도 강화", "url": "https://www.notateslaapp.com/news/3735/tesla-tops-2026-supply-chain-sustainability-rankings" },
+    { "date": "2026-03-05", "headline": "Nasdaq: Tesla의 2026년은 3/9 결과에 달려 있다", "significance": "NHTSA 규제 통과 시 랠리, 실패 시 30% 하방 가능성", "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome" },
+    { "date": "2026-03-05", "headline": "ainvest: Tesla 3월 성장 궤도 분석, $450 도달 경로 평가", "significance": "자율주행 진전 여부가 $450 돌파 핵심 조건", "url": "https://www.ainvest.com/news/tesla-march-2026-growth-trajectory-assessing-path-450-2603/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 396.15,
+    "consensusTarget": 396.23,
     "highTarget": 600,
-    "lowTarget": 25.28,
-    "upsidePercent": -2.32,
-    "buyCount": 16,
-    "holdCount": 10,
-    "sellCount": 7,
-    "notableComment": "30명 애널리스트 Hold 다수. BofA Buy/$460 재개, Wedbush $600 최고 목표가. 현재가가 이미 컨센서스를 상회."
+    "lowTarget": 125,
+    "upsidePercent": 1.46,
+    "buyCount": 20,
+    "holdCount": 17,
+    "sellCount": 8,
+    "notableComment": "45명 애널리스트 중 Hold 다수. 현재가 $390.52가 컨센서스 $396 소폭 하회로 전환. 3/9 NHTSA 결과가 목표가 재설정의 분수령."
   },
 
   "risks": [
-    {
-      "severity": "critical",
-      "title": "밸류에이션 리스크 — P/E 375x",
-      "description": "현 수익 대비 극도로 고평가. AI/로봇 스토리가 실현되지 않으면 큰 폭 조정 가능."
-    },
-    {
-      "severity": "high",
-      "title": "NHTSA FSD 규제 리스크 — D-4",
-      "description": "3/9 데이터 제출 결과에 따라 자율주행 프로그램 전면 제동 가능성. 단기 최대 불확실성."
-    },
-    {
-      "severity": "high",
-      "title": "글로벌 EV 경쟁 심화 — 영국 판매 -37%",
-      "description": "BYD, Xiaomi, Rivian 등 가격 경쟁력과 제품 다양성에서 위협. 유럽 시장 양극화."
-    },
-    {
-      "severity": "medium",
-      "title": "유럽 노동 이슈",
-      "description": "독일 IG Metall 노조의 베를린 공장 영향력 확대 시 비용 증가."
-    },
-    {
-      "severity": "medium",
-      "title": "CEO 리스크",
-      "description": "Elon Musk의 정치적 발언과 다중 사업 운영이 Tesla 집중도에 영향."
-    }
+    { "severity": "critical", "title": "밸류에이션 리스크 — P/E 361x", "description": "현 수익 대비 극도로 고평가. AI/로봇 스토리가 실현되지 않으면 큰 폭 조정 가능." },
+    { "severity": "critical", "title": "중국 수요 급감", "description": "월간 인도량 두 자릿수 MoM 감소, 대기 시간 1-3주로 단축. Xiaomi SU7 등 로컬 경쟁사에 점유율 잠식." },
+    { "severity": "high", "title": "NHTSA FSD 규제 리스크 (D-3)", "description": "3/9 데이터 제출 결과에 따라 자율주행 프로그램 전면 제동 가능성. 실패 시 30% 하방." },
+    { "severity": "high", "title": "글로벌 EV 경쟁 심화", "description": "BYD, Xiaomi, Rivian 등 가격 경쟁력과 제품 다양성에서 위협." },
+    { "severity": "medium", "title": "CEO 리스크", "description": "Elon Musk의 정치적 발언이 미국/유럽 소비자 이탈을 가속화. 보조금 삭감과 맞물려 수요 타격." }
   ],
 
   "buyReasons": [
-    {
-      "title": "BofA Buy/$460 재개 — 자율주행 리더 평가",
-      "rationale": "Bank of America가 +14% 상승 여력 제시. 제도권 신뢰도 강화."
-    },
-    {
-      "title": "FCF $6.22B로 73.7% YoY 반등",
-      "rationale": "수익성 악화에도 현금 창출 능력은 개선. 투자 여력 확보."
-    },
-    {
-      "title": "Cybertruck AWD 수요 폭발",
-      "rationale": "2027년까지 대기열. 트럭 시장 침투로 신규 수요층 확보."
-    },
-    {
-      "title": "에너지 사업 고성장 지속",
-      "rationale": "매출 $12.8B(+27% YoY). Megapack 3/Mega Block 2026 출시로 가속 전망."
-    }
+    { "title": "컨센서스 $396 하회 진입, 밸류에이션 부담 일부 완화", "rationale": "전일 $406에서 $391로 하락하며 애널리스트 목표가 아래로. 단기 반등 여지." },
+    { "title": "베를린 노조 리스크 해소", "rationale": "IG Metall이 과반 확보 실패. 유럽 생산 비용 증가 우려 해소." },
+    { "title": "FCF $6.22B로 73.7% YoY 반등", "rationale": "수익성 악화에도 현금 창출 능력은 개선. 투자 여력 확보." },
+    { "title": "에너지 사업 고성장 지속 + ESG 1위", "rationale": "매출 $12.8B(+27% YoY). 공급망 지속가능성 1위로 기관투자 매력도 강화." }
   ],
 
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
-    "currentPositionPercent": 67.2,
-    "sma50": 431.36,
+    "currentPositionPercent": 62.0,
+    "sma50": 440.94,
     "sma50Signal": "below",
-    "sma200": 391.55,
+    "sma200": 387.74,
     "sma200Signal": "above",
-    "rsi": 45.0,
+    "rsi": 41.4,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Tesla는 BofA Buy/$460 재개로 자율주행 리더십에 대한 제도권 신뢰를 확인했다. 그러나 P/E 375x 밸류에이션이 최대 부담.",
-    "NHTSA FSD 데이터 마감이 D-4로 다가왔다. 3/9 결과가 단기 주가 방향을 결정할 핵심 촉매.",
-    "영국 판매 -37% 급락은 우려지만 프랑스·노르웨이 반등으로 유럽은 혼조. 50일선 $431 하회, 200일선 $391 위에서 보합.",
-    "컨센서스 $396 이미 하회 가능성. NHTSA 통과 시 급등, 부정적 결과 시 $391 200일선 테스트."
+    "중국 수요 급감(MoM 두 자릿수 하락)과 기술주 매도세가 겹치며 $390까지 급락, 3거래일 만에 전일 반등분을 모두 반납했다.",
+    "3/9 NHTSA FSD 데이터 제출이 D-3로 임박. 통과 시 랠리, 불발 시 30% 하방 시나리오가 Nasdaq 보도로 제기되고 있다.",
+    "베를린 노조 선거 IG Metall 패배는 긍정 신호이나, 미국/유럽 등록 감소와 Musk 정치 리스크가 수요를 압박 중이다.",
+    "200일선 $388 바로 위에서 지지 테스트 중, RSI 41로 과매도 접근. 이탈 시 $350대 급락, 반등 시 50일선 $441 저항."
   ],
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "TSLA 종가 $405.55, 애널리스트 컨센서스 Hold $396.15" },
-    { "name": "IBTimes Australia", "url": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-amid-robotaxi-optimism-analyst-upgrades-1862695", "description": "BofA Buy/$460 재개, $403 부근 거래" },
-    { "name": "TradersUnion", "url": "https://tradersunion.com/news/financial-news/show/1621143-tesla-stock-rises/", "description": "영국 2월 판매 -37%, 주가 $405.60" },
-    { "name": "CoinCentral", "url": "https://coincentral.com/tesla-tsla-stock-slides-as-uk-sales-drop-37-in-february/", "description": "영국 판매 하락, 애널리스트 평균 $399.25" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/", "description": "NHTSA 3/9 FSD 데이터 마감 분석" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "IG Metall 베를린 공장 노조 확대" },
-    { "name": "Coinpaper", "url": "https://coinpaper.com/15166/tesla-stock-forecast-600-in-2026-amid-robotaxi-and-energy-push", "description": "Wedbush $600 목표가, Polymarket $405 예상" },
-    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-tesla-tsla-in-2026-the-great-pivot-from-evs-to-autonomous-ai", "description": "Tesla의 EV→AI 전환 딥다이브 분석" }
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/", "description": "Tesla 급락 원인 분석 (중국 수요, 기술주 매도세)" },
+    { "name": "Nasdaq", "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome", "description": "3/9 NHTSA 결과가 2026년 Tesla를 결정" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/01/why-march-9-could-be-a-huge-day-for-tesla-investor/", "description": "3/9 NHTSA FSD 데이터 마감 분석" },
+    { "name": "NotATeslaApp", "url": "https://www.notateslaapp.com/news/3735/tesla-tops-2026-supply-chain-sustainability-rankings", "description": "Tesla 공급망 지속가능성 1위" },
+    { "name": "ainvest", "url": "https://www.ainvest.com/news/tesla-march-2026-growth-trajectory-assessing-path-450-2603/", "description": "Tesla 3월 성장 궤도, $450 경로 분석" },
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "TSLA 기술적 분석, RSI, 이동평균선" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "애널리스트 컨센서스 및 목표가" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA 애널리스트 목표가 및 예측" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "TSLA 실시간 차트 및 기술적 지표" }
   ],
 
   "snsContent": {
+    "x": {
+      "hook": "TSLA $391로 급락, 중국 수요 붕괴 + NHTSA D-3",
+      "text": "$TSLA -3.8% 급락 $390.52. 중국 인도량이 월간 두 자릿수 하락하며 대기 시간이 수개월에서 1-3주로 줄었다. 3/9 미국 도로교통안전청(NHTSA) FSD 데이터 제출 마감 3일 남았다.",
+      "thread": [
+        "베를린 기가팩토리 노조 선거에서 IG Metall이 과반 확보에 실패. 유럽 생산 비용 리스크 해소. 공급망 지속가능성 랭킹 2년 연속 1위 선정도 긍정적.",
+        "Nasdaq 보도: 3/9 NHTSA 통과 시 랠리, 불발 시 30% 하방 가능성. 200일 평균 주가 $388 바로 위에서 지지 테스트 중. 이 선이 무너지면 $350대까지 열린다.",
+        "주가수익비율(P/E) 361배, 여전히 극단적 고평가. 중국 수요 붕괴에 미국/유럽 등록도 감소. 3/9가 올해 Tesla의 방향을 결정할 분수령이다. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+      ]
+    },
     "threads": {
-      "hook": "BofA \"Tesla는 자율주행의 리더\" 🚗",
-      "text": "Bank of America가 Buy/$460으로 커버리지 재개. 하지만 영국 판매 -37% 급락, NHTSA 마감 D-4. P/E 375x에서 살 건가, 뺄 건가? 당신이라면 어느 쪽에 베팅하겠어?\n\n→ investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+      "hook": "TSLA $391로 급락, 중국 수요 붕괴 + NHTSA D-3",
+      "text": "$TSLA -3.8% 급락 $390.52. 중국 인도량 두 자릿수 MoM 감소, 대기 1-3주로 단축. 3/9 NHTSA FSD 마감 D-3. 베를린 노조 IG Metall 과반 실패로 유럽 리스크 해소. 200일선 $388 지지 테스트 중, 이탈 시 $350대. Nasdaq 보도는 3/9 불발 시 30% 하방 가능성 제기. P/E 361배, 3/9가 2026년 Tesla의 분수령. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
     },
     "telegram": {
-      "hook": "🚘 TSLA $405.55 (-0.10%) — BofA Buy 재개 vs NHTSA D-4",
-      "text": "Bank of America가 Tesla를 Buy/$460으로 커버리지 재개했다. '소비자 자율주행의 현재 리더'라는 평가.\n\n하지만 반대편에선 영국 2월 판매 -37% 급락, NHTSA FSD 데이터 제출 마감이 D-4(3/9)로 코앞. P/E 375x, 컨센서스 $396으로 이미 현재가를 하회.\n\nBofA $460 vs 200일선 $391 — 이 갈림길에서 포지션을 잡을 자신이 있어?\n\n📊 상세 분석 → investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+      "hook": "TSLA $390.52 (-3.80%) 급락, 중국 수요 붕괴 + NHTSA D-3",
+      "text": "Tesla 일일 분석 (3/6)\n\n가격: $390.52 (-3.80%) | 시총 $1.46T\nP/E: 361x | Forward P/E: 191x\n\n핵심 이슈:\n- 📉 중국 인도량 두 자릿수 MoM 감소, 대기 1-3주로 단축\n- ⏰ 3/9 NHTSA FSD 데이터 마감 D-3, 통과 시 랠리/불발 시 30% 하방\n- 🇩🇪 베를린 노조 IG Metall 과반 실패, 경영 자율성 확보\n- 🏆 공급망 지속가능성 2년 연속 1위\n\n기술적: 200일선 $388 지지 테스트, 50일선 $441 저항. RSI 41 중립\n애널리스트: Hold, 컨센서스 $396 (현재가 소폭 하회)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "TSLA $391로 급락, 중국 수요 붕괴 + NHTSA D-3",
+          "text": "$TSLA -3.8% 급락 $390.52. 중국 인도량이 월간 두 자릿수 하락하며 대기 시간이 수개월에서 1-3주로 줄었다. 3/9 미국 도로교통안전청(NHTSA) FSD 데이터 제출 마감 3일 남았다.",
+          "thread": [
+            "베를린 기가팩토리 노조 선거에서 IG Metall이 과반 확보에 실패. 유럽 생산 비용 리스크 해소. 공급망 지속가능성 랭킹 2년 연속 1위 선정도 긍정적.",
+            "Nasdaq 보도: 3/9 NHTSA 통과 시 랠리, 불발 시 30% 하방 가능성. 200일 평균 주가 $388 바로 위에서 지지 테스트 중. 이 선이 무너지면 $350대까지 열린다.",
+            "주가수익비율(P/E) 361배, 여전히 극단적 고평가. 중국 수요 붕괴에 미국/유럽 등록도 감소. 3/9가 올해 Tesla의 방향을 결정할 분수령이다. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+          ]
+        },
+        "witty": {
+          "hook": "Tesla, 중국에서 줄이 사라졌다",
+          "text": "$TSLA 대기 시간 '수개월'이 '1-3주'로 줄었다는 건, 줄이 짧아진 게 아니라 손님이 줄었다는 뜻이다. -3.8% 급락 $390.52.",
+          "thread": [
+            "다행인 건 독일 베를린 노조가 선거에서 졌다. 중국에서 줄 서던 고객은 사라졌는데 독일에서 줄 서던 노조원도 사라진 셈. 공급망 ESG 1위라는 타이틀은 건재하다.",
+            "진짜 게임은 3일 뒤다. 미국 도로교통안전청이 FSD 데이터를 보고 합격을 줄지, 퇴짝을 놓을지. Nasdaq은 불합격 시 30% 빠진다고 한다.",
+            "200일 평균 주가 $388 바로 위에 매달려 있다. P/E 361배인 주식이 이 줄마저 놓치면? $350대에서 다시 만나게 될 수도. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+          ]
+        },
+        "empathy": {
+          "hook": "TSLA 홀더들, 오늘 많이 힘들었죠",
+          "text": "$TSLA -3.8%, $390까지 내려왔다. 이틀 전 반등에 좀 안심했는데 하루 만에 다 반납하니까 진짜 지친다.",
+          "thread": [
+            "중국 인도량이 두 자릿수로 빠졌다는 뉴스가 가장 아프다. 대기 시간이 수개월에서 1-3주로 줄었다는 건, 기다리는 사람이 없어졌다는 소리니까.",
+            "그래도 베를린 노조 IG Metall이 선거에서 졌다는 건 좋은 소식이다. 유럽에서 비용 폭탄 맞을 뻔했는데 일단 넘겼다. 공급망 ESG 1위 타이틀도 여전하고.",
+            "문제는 3일 뒤 NHTSA 마감이다. 여기서 FSD가 통과하면 분위기 반전될 수 있는데, 불발이면 30% 더 빠질 수 있다고 한다.",
+            "200일 평균 주가 $388, 바로 아래다. 지금 이 선에서 버티느냐 아니냐가 단기 방향을 결정한다. 길게 보는 분들은 3/9 이후에 판단해도 늦지 않다. 힘내자. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "TSLA $391로 급락, 중국 수요 붕괴 + NHTSA D-3",
+          "text": "$TSLA -3.8% 급락 $390.52. 중국 인도량 두 자릿수 MoM 감소, 대기 1-3주로 단축. 3/9 NHTSA FSD 마감 D-3. 베를린 노조 IG Metall 과반 실패로 유럽 리스크 해소. 200일선 $388 지지 테스트 중, 이탈 시 $350대. Nasdaq 보도는 3/9 불발 시 30% 하방 가능성 제기. P/E 361배, 3/9가 2026년 Tesla의 분수령. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+        },
+        "witty": {
+          "hook": "Tesla, 중국에서 줄이 사라졌다",
+          "text": "$TSLA 중국 대기 시간 '수개월'이 '1-3주'로. 줄이 짧아진 게 아니라 손님이 없어진 거다. -3.8% $390.52. 독일 노조 선거도 졌으니 줄 서던 사람들이 전방위로 사라지는 중. 3일 뒤 NHTSA가 FSD 합격증을 줄지, 불합격 딱지를 붙일지가 진짜 게임. 200일선 $388 위에 아슬아슬. P/E 361배 주식이 이 줄마저 놓치면 $350대로. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+        },
+        "empathy": {
+          "hook": "TSLA 홀더들, 오늘 좀 아팠죠",
+          "text": "$TSLA -3.8% $390.52. 이틀 전 반등에 숨 돌렸는데 하루 만에 전부 반납. 중국 인도량 두 자릿수 감소 뉴스가 가장 힘들다. 베를린 노조 패배는 좋은 소식이지만, 3일 뒤 NHTSA FSD 마감이 진짜 고비. 200일선 $388 바로 위, 여기서 버텨줘야 한다. 길게 보는 분들은 3/9 이후 판단해도 늦지 않다. 힘내자. investory.kro.kr/stock/TSLA/analysis/2026-03-06"
+        }
+      }
     }
   }
 }
