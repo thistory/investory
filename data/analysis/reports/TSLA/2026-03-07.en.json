@@ -1,0 +1,147 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-07",
+  "currentPrice": 396.73,
+  "marketCap": "$1.49T",
+
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker transitioning into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B, marking its first-ever annual revenue decline (-2.9%), with net income plunging 46.5%. Closed at $396.73 (-2.17%) on 3/6, pummeled by a disastrous jobs report and oil surging to $90+ amid the Iran war — Wall Street's worst week since October. UK Feb sales crashed -37% (2,422 units), Toyota and Stellantis left Tesla's EU CO2 pool. NHTSA FSD deadline is D-2 (3/9). P/E 368.71x, Forward P/E 150.88x.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD subscription: $99/month autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs)",
+      "Cybertruck (base AWD trim with massive demand, deliveries pushed to 2027)",
+      "Cybercab (autonomous robotaxi, first production 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont factory conversion underway)",
+      "Megapack (utility-scale energy storage, Megapack 3 and Mega Block launching 2026)",
+      "FSD (Full Self-Driving, 8.2 billion miles accumulated)"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E Ratio (TTM)", "value": "368.71x", "interpretation": "Extreme valuation. AI/robotics premium vs actual earnings" },
+    { "name": "Forward P/E", "value": "150.88x", "interpretation": "Reflects earnings recovery expectations but still very elevated" },
+    { "name": "PEG Ratio", "value": "4.94", "interpretation": "Significantly overvalued relative to growth" },
+    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "First-ever FY decline. Global EV competition intensifying" },
+    { "name": "Operating Margin", "value": "5.11%", "interpretation": "Slight improvement QoQ but still historically low" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Operational efficiency improving" },
+    { "name": "Debt/Equity", "value": "0.18", "interpretation": "Very healthy. Net cash $29.3B" },
+    { "name": "ROE", "value": "4.89%", "interpretation": "Down from FY2024. Profitability recovery needed" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "NHTSA FSD Data Deadline D-2 — March 9 Regulatory Inflection",
+      "description": "FSD crash data submission deadline is 3/9. Approval could accelerate autonomous driving rollout; failure risks 30% downside (Nasdaq analysis)."
+    },
+    {
+      "title": "UK Feb Sales -37%, Toyota & Stellantis Leave EU CO2 Pool",
+      "description": "UK Feb deliveries crashed to 2,422 units (-37% YoY) while overall market grew 7.2%. Toyota and Stellantis exiting Tesla's EU emissions pool further erodes regulatory credit revenue."
+    },
+    {
+      "title": "BofA Maintains Buy $460 — 'Current Leader in Consumer Autonomy'",
+      "description": "BofA Securities resumed Buy coverage with $460 target on 3/4, citing Tesla's autonomous driving leadership."
+    },
+    {
+      "title": "Cybertruck Base AWD Trim — Explosive Demand, Deliveries Pushed to 2027",
+      "description": "New base trim generating massive demand, pushing delivery estimates into 2027."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share leader, though overtaken globally by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
+    "moats": [
+      { "type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelming training data advantage over competitors." },
+      { "type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)." },
+      { "type": "Charging Network Effect", "description": "NACS is North America's EV charging standard. GM, Ford, Rivian all depend on Tesla Superchargers." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 global EV sales leader. Rapid European expansion, US limited by tariffs" },
+      { "name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides" },
+      { "name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y" },
+      { "name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China" }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-06", "headline": "TSLA -2.17% as jobs shock + oil surge to $90+ trigger Wall Street's worst week since October", "significance": "Nonfarm payrolls contracted unexpectedly while Iran war pushed oil to 2023 highs. Broad risk-off selling", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html" },
+    { "date": "2026-03-06", "headline": "UK February sales plunge 37% to 2,422 units while overall market grows 7.2%", "significance": "BYD +40.9% in contrast. European demand erosion deepening", "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/" },
+    { "date": "2026-03-06", "headline": "Musk's X deal trial rekindles legal risks for Tesla", "significance": "Ongoing CEO risk as legal and political controversies continue to weigh on brand sentiment", "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/" },
+    { "date": "2026-03-06", "headline": "Toyota and Stellantis exit Tesla's EU CO2 emissions pool", "significance": "Largest participants leaving further erodes regulatory credit revenue", "url": "https://electrek.co/" },
+    { "date": "2026-03-05", "headline": "BNP Paribas cuts TSLA target to $280 from $313", "significance": "European sales weakness and valuation concerns reflected in downgrade", "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 426.61,
+    "highTarget": 600,
+    "lowTarget": 125,
+    "upsidePercent": 7.53,
+    "buyCount": 20,
+    "holdCount": 17,
+    "sellCount": 8,
+    "notableComment": "45 analysts, Hold consensus. Target $426.61 implies +7.5% upside. BofA Buy $460, BNP $280 — extreme divergence. 3/9 NHTSA outcome is the next catalyst for target revisions."
+  },
+
+  "risks": [
+    { "severity": "critical", "title": "P/E 369x extreme valuation", "description": "Massively overvalued vs current earnings. AI/robotics narrative failure risks severe correction." },
+    { "severity": "critical", "title": "European demand collapse — UK -37%, EU Jan registrations -17%", "description": "UK, Netherlands, Denmark sharp declines. Toyota/Stellantis CO2 pool exit shrinks credit revenue." },
+    { "severity": "high", "title": "NHTSA FSD regulatory risk (D-2)", "description": "3/9 data submission could result in FSD program suspension. Failure = 30% downside." },
+    { "severity": "high", "title": "Macro headwinds — oil $90+, jobs shock", "description": "Iran war + employment contraction could dampen consumer sentiment and EV purchases." },
+    { "severity": "medium", "title": "CEO risk — X deal trial + political controversies", "description": "Musk's legal and political issues continue to drive consumer backlash and brand damage." }
+  ],
+
+  "buyReasons": [
+    { "title": "7.5% discount to consensus $427", "rationale": "Dropped from $405 to $397 on macro selloff. Could be technical overshoot." },
+    { "title": "NHTSA 3/9 pass could trigger rally", "rationale": "FSD approval would unlock autonomous driving valuation re-rating." },
+    { "title": "FCF $6.22B rebound (+73.7% YoY)", "rationale": "Cash generation improving despite revenue decline. Investment capacity secured." },
+    { "title": "Energy business high growth + ESG #1", "rationale": "Revenue $12.8B (+27% YoY). #1 supply chain sustainability attracts institutional capital." }
+  ],
+
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 64.1,
+    "sma50": 427.96,
+    "sma50Signal": "below",
+    "sma200": 392.09,
+    "sma200Signal": "above",
+    "rsi": 41.05,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Jobs shock and oil surging to $90+ drove TSLA down -2.17% to $396.73, capping Wall Street's worst week since October.",
+    "UK Feb sales -37%, Toyota/Stellantis EU CO2 pool exit worsening both European demand and regulatory credit revenue outlook.",
+    "NHTSA FSD data deadline is two days away (3/9). Binary event: pass triggers rally, fail risks 30% downside.",
+    "Clinging to the 200-day SMA at $392, below the 50-day at $428. RSI 41 approaching oversold. March 9 determines near-term direction."
+  ],
+
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html", "description": "3/6 macro analysis — jobs shock + oil surge" },
+    { "name": "Parameter", "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/", "description": "UK February sales -37% analysis" },
+    { "name": "Meyka", "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/", "description": "Musk X deal trial and TSLA 3/6 analysis" },
+    { "name": "Electrek", "url": "https://electrek.co/", "description": "Toyota/Stellantis EU CO2 pool exit" },
+    { "name": "BNP Paribas", "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html", "description": "Target cut to $280" },
+    { "name": "NPR", "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report", "description": "Oil at 2023 highs, jobs report shock" },
+    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA technical indicators" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "Analyst consensus and targets" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA analyst ratings" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA $397 — worst Friday + NHTSA D-2",
+      "text": "$TSLA -2.17% $396.73. Jobs shock + oil $90+ + UK sales -37% + Musk X trial + Toyota/Stellantis EU exit. A week of relentless headwinds. Clinging to 200-day SMA at $392, RSI 41. The real D-day is 3/9 NHTSA FSD deadline. Pass = rally, fail = 30% downside. Weekend to breathe, Monday decides everything. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+    },
+    "telegram": {
+      "hook": "TSLA $396.73 (-2.17%) — Worst Week Since October, NHTSA D-2",
+      "text": "Tesla Daily Analysis (3/7)\n\nPrice: $396.73 (-2.17%) | MCap $1.49T\nP/E: 368.71x | Forward P/E: 150.88x\n\nKey Issues:\n- 📉 Jobs shock + oil $90+ → worst week since October\n- 🇬🇧 UK Feb sales -37% (2,422 units), BYD +40.9%\n- 🚗 Toyota/Stellantis exit EU CO2 pool → credit revenue erosion\n- ⏰ NHTSA FSD deadline D-2 (3/9): pass = rally, fail = 30% downside\n- ⚖️ Musk X deal trial rekindles legal risks\n\nTechnical: 200-day SMA $392 support, 50-day $428 resistance. RSI 41\nAnalysts: Hold, consensus $427 (+7.5%)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+    }
+  }
+}
