@@ -186,158 +186,117 @@ Write collected data as JSON in the following structure:
 
 ### SNS Content Format
 
-Add an `snsContent` field to the report JSON. **X (Twitter) uses a thread format**; Threads is a single-post variation.
+Add an `snsContent` field to the report JSON.
 
-#### SNS Writing Style — Voice & Tone
+**핵심 원칙: `overallOpinion`이 곧 SNS 콘텐츠다.**
 
-**SNS답게, 사람이 쓴 것처럼 써라.** 분석 리포트를 복붙한 것 같으면 안 된다.
+overallOpinion은 이미 쉬운 말, 원인-결과, 투자 인사이트를 갖추고 있다. SNS는 이걸 플랫폼 포맷에 맞게 나누기만 하면 된다. 별도로 새 글을 쓰는 게 아니다.
 
-- **너무 딱딱하면 안 됨**: 보고서 톤("~로 분석됨", "~것으로 사료됨") 금지. 자연스러운 구어체로.
-- **너무 가볍거나 튀면 안 됨**: 과한 이모지, 밈, 유행어, 감탄사("대박!", "미쳤다!") 금지. 절제된 톤.
-- **적정 온도**: 투자 커뮤니티에서 신뢰받는 사람이 쓰는 느낌. 데이터는 정확하게, 표현은 편하게.
-- **읽는 속도 고려**: 한 문장은 30자 내외. 긴 문장보다 짧은 문장 여러 개가 낫다.
-- **주어 명확히**: "업그레이드됐다"(X) → "Baird가 업그레이드했다"(O)
-- **전문 용어 풀어쓰기**: 초보 투자자도 이해할 수 있게 써라. 약어나 전문 용어는 괄호로 설명을 붙이거나 쉬운 말로 바꿔라.
-  - Bad: "NHTSA 마감 D-4" → Good: "미국 도로교통안전청(NHTSA) 자율주행 심사 마감이 4일 남았다"
-  - Bad: "P/E 375x" → Good: "주가수익비율(P/E) 375배, 이익 대비 주가가 매우 비싸다"
-  - Bad: "50일선 $431 하회" → Good: "최근 50일 평균 주가($431)보다 아래에 있다"
-  - Bad: "컨센서스 $396" → Good: "애널리스트 평균 목표가 $396"
-  - Bad: "Jobs shock and oil surging to $90+" → Good: "고용지표 충격과 유가 90달러 돌파로 시장이 흔들렸다"
-  - Bad: "Binary event: pass triggers rally, fail risks 30% downside" → Good: "통과하면 반등, 불합격하면 30% 하락 위험이 있는 중요한 갈림길"
-  - Bad: "RSI 41 approaching oversold" → Good: "매도 압력이 커지면서 반등 가능성도 열려 있다"
-- **원인-결과 연결**: 숫자만 던지지 말고 "왜 중요한지" 한 마디를 붙여라.
-  - Bad: "UK Feb sales -37%" → Good: "영국 2월 판매가 37% 급감하면서 유럽 매출 전망이 어두워졌다"
-  - Bad: "Clinging to the 200-day SMA at $392" → Good: "최근 200일 평균 주가($392) 근처에서 버티고 있어, 이 선이 무너지면 추가 하락 가능성"
+#### 핵심 목표
 
-**키워드 나열 금지. 짧은 문장으로 써라.**
+1. **이해하기 쉽게**: 주식 초보도 바로 이해할 수 있어야 한다
+2. **후킹**: 스크롤을 멈추게 만들어라. 첫 문장이 가장 중요하다
+3. **인사이트 전달**: 읽은 사람이 "이 주식 지금 어떤 상황인지" 파악할 수 있어야 한다
+4. **투자 도움**: 목표가, 리스크, 다음 이벤트 등 실제 판단에 도움되는 정보를 담아라
 
-Bad (키워드 나열):
-```
-- Baird Outperform $548 업그레이드
-- FSD 네덜란드 EU 승인 획득
-```
+#### overallOpinion → SNS 변환 규칙
 
-Good (읽기 쉬운 문장):
-```
-- Baird가 Outperform으로 올리면서 목표가 $548 제시
-- FSD가 네덜란드에서 EU 승인을 땄다. 유럽 확장의 발판
-```
+**overallOpinion 항목(3-4개)을 그대로 SNS로 변환한다.** 새 내용을 추가하거나 빼지 마라.
 
-**em dash (`—`), 가운뎃점(`·`) 절대 금지.** 콤마(`,`), 마침표(`.`), 괄호(`()`), 콜론(`:`)으로 대체. 항목 나열 시 `·` 대신 콤마(`,`)를 사용하라.
+변환 과정:
+1. overallOpinion에서 **가장 임팩트 있는 한 문장**을 뽑아 첫 트윗(훅)으로 쓴다
+2. 나머지 항목을 **하나씩 트윗으로 분리**한다
+3. 마지막 트윗에 **목표가, 현재 위치, 결론**을 넣는다
 
-#### SNS Content Quality Guidelines
+#### 글쓰기 스타일
 
-**`overallOpinion`을 바탕으로, SNS 글 성격에 맞게 재구성하라.**
+**투자 커뮤니티에서 신뢰받는 사람이 쓰는 느낌.** 데이터는 정확하게, 표현은 편하게.
 
-snsContent는 별도로 창작하는 것이 아니라, **`overallOpinion` 필드의 내용을 SNS 톤으로 변환**한 것이어야 한다. overallOpinion의 핵심 포인트, 수치, 맥락을 그대로 살리되, SNS에서 읽히는 문체로 바꿔라.
-
-1. **Source: overallOpinion**: snsContent의 본문은 반드시 `overallOpinion`의 핵심 포인트들을 기반으로 작성하라. 새로운 내용을 추가하거나 overallOpinion에 없는 관점을 넣지 마라. overallOpinion의 순서(뉴스/이벤트/카탈리스트 → 가격/기술적 분석)를 그대로 따라라.
-2. **Adapt, don't copy**: overallOpinion을 그대로 복붙하지 마라. SNS에 맞게 문체를 바꿔라. 딱딱한 분석 톤 → 짧고 임팩트 있는 문장, 불릿 포인트 활용, 핵심 수치 강조.
-3. **Keep the substance**: 톤은 바꾸되 내용의 깊이는 유지하라. overallOpinion에 있는 수치(목표가, P/E, 이평선 등), 카탈리스트, 리스크를 빠뜨리지 마라.
-4. **Engagement layer**: overallOpinion의 내용 위에 SNS적 요소를 입혀라. 질문형 마무리, 대비/아이러니 활용 등.
-5. **Length: overallOpinion과 비슷하게**: 스레드 전체 길이가 overallOpinion(350-400자)과 비슷해야 한다. 너무 짧게 압축하지 마라. overallOpinion만큼의 정보량과 맥락을 SNS 톤으로 전달하라.
-6. **쉬운 말로 쓰기**: overallOpinion에 있는 전문 용어를 SNS에서는 풀어서 써라. "P/E 375x" → "주가수익비율 375배(이익 대비 매우 비싼 수준)", "50일선 하회" → "최근 50일 평균 주가 아래로 내려갔다" 등. 주식 초보가 읽어도 무슨 뜻인지 바로 이해할 수 있어야 한다.
-
-> **English version of the same rules:**
-> 1. **Source: overallOpinion**: The snsContent body must be based on the `overallOpinion` field's key points. Do not add new insights or perspectives absent from overallOpinion. Follow the same ordering (news/events/catalysts first, price/technicals last).
-> 2. **Adapt, don't copy**: Don't paste overallOpinion verbatim. Rewrite in SNS-friendly style: shorter sentences, bullet points, emphasized key figures.
-> 3. **Keep the substance**: Change the tone, not the depth. Retain all numbers (targets, P/E, SMAs), catalysts, and risks from overallOpinion.
-> 4. **Engagement layer**: Layer SNS elements on top of overallOpinion content: closing questions, contrast/irony framing.
-> 5. **Length: match overallOpinion**: The total thread length should be similar to overallOpinion (350-400 chars). Don't over-compress. Deliver the same amount of information and context as overallOpinion, but in SNS tone.
-> 6. **Plain language**: Explain jargon from overallOpinion in accessible terms. A beginner investor should understand every sentence.
->    - Bad: "P/E 375x" → Good: "price-to-earnings ratio of 375x (very expensive relative to profits)"
->    - Bad: "below 50-day SMA" → Good: "trading below its 50-day average price"
->    - Bad: "Jobs shock and oil surging to $90+" → Good: "a weak jobs report and oil prices jumping above $90 rattled the market"
->    - Bad: "Binary event: pass triggers rally" → Good: "this is a make-or-break moment: approval could spark a rally"
->    - Bad: "RSI 41 approaching oversold" → Good: "selling pressure is building, which sometimes means a bounce is near"
-> 7. **Cause and effect**: Don't just state numbers. Explain WHY they matter in one phrase.
->    - Bad: "UK Feb sales -37%" → Good: "UK sales plunged 37% in February, dimming the European revenue outlook"
->    - Bad: "Clinging to the 200-day SMA at $392" → Good: "holding near its 200-day average price of $392, a key support level that could trigger further drops if broken"
+- 보고서 톤 금지 ("~로 분석됨", "~것으로 사료됨")
+- 과한 이모지, 밈, 감탄사 금지 ("대박!", "미쳤다!")
+- 짧은 문장. 한 문장에 한 가지 정보만
+- 주어 명확히: "업그레이드됐다"(X) → "Baird가 업그레이드했다"(O)
+- em dash (`—`), 가운뎃점(`·`) 절대 금지. 콤마, 마침표, 괄호, 콜론으로 대체
+- 링크 넣지 마라 (공유 버튼이 자동으로 붙인다)
 
 #### X (Twitter) Thread Format
 
-X has a 280-character limit per tweet. **All X content (`snsContent.x` and tones) must use the thread format.**
+X는 트윗당 280자 제한이 있다. **overallOpinion의 각 항목을 트윗 1개로 매핑**한다.
 
-- `text`: First tweet of the thread (MUST be <= 280 chars). This is the hook tweet that makes people stop scrolling.
-- `thread`: Array of reply tweets (each MUST be <= 280 chars). These continue the analysis as a thread.
+| 트윗 | 역할 | overallOpinion 매핑 |
+|------|------|-------------------|
+| 1st (`text`) | 훅 | overallOpinion에서 가장 강렬한 한 문장 + 티커, 가격 |
+| 2nd~Nth (`thread[]`) | 본문 | 나머지 overallOpinion 항목을 1:1로 매핑 |
+| Last | 결론 | 목표가, 현재 위치, 한 줄 판단 |
 
-**Thread structure:**
+**형식 규칙:**
+- 모든 트윗은 280자 이하 (스레드 번호 포함)
+- 모든 트윗 끝에 `\n\n1/4`, `2/4` 등 스레드 번호 필수
+- 3-4개 트윗이 적정. 최대 5개
+- 첫 트윗만 봐도 핵심을 파악할 수 있어야 한다
 
-| Tweet | Purpose | Content |
-|-------|---------|---------|
-| 1st (text) | Hook + headline | Ticker, date, the single most important takeaway. Make it punchy. |
-| 2nd (thread[0]) | Key catalysts/events | The main news, upgrades, product launches |
-| 3rd (thread[1]) | Risks/bears | Key risks, bear case, what could go wrong |
-| Last (thread[N]) | Numbers + verdict | Price, target, P/E, technical levels, one-line summary |
+##### Korean X Thread Example
 
-**Thread writing rules:**
-- Each tweet MUST be <= 280 chars (including the thread indicator). Count carefully. This is a hard limit.
-- The first tweet should work standalone. If someone only sees tweet 1, they should get the core message.
-- Use `\n` for line breaks within a tweet. Each tweet is a separate string.
-- Typical thread length: 3-4 tweets. Max 5 tweets.
-- Don't start reply tweets with `-` bullets. Use flowing sentences or short paragraphs.
-- **Thread indicator required**: Every tweet (including the first `text`) must end with `\n\n1/4`, `2/4`, `3/4`, `4/4` (adjust denominator to total tweet count). This helps readers know there are more tweets and encourages them to read the full thread. The indicator is part of the tweet text so it gets copied together.
-
-##### Korean X Thread Template
-
+overallOpinion이 이렇다면:
 ```
-// text (first tweet, <= 280 chars):
-"$TSLA (2/23) Baird가 목표가 $548로 올렸다. 그런데 무인 택시는 또 5건 사고. 살 사람과 팔 사람이 완전히 갈렸다.\n\n1/4"
-
-// thread (reply tweets, each <= 280 chars):
 [
-  "자율주행(FSD)이 네덜란드에서 EU 첫 승인을 받았다. 핸들 없는 무인 택시 Cybercab이 4월부터 양산, 9개 도시로 확대 예정. 유럽 진출의 첫 발이다.\n\n2/4",
-  "리스크도 크다. 무인 택시 추가 사고 5건, 구글 Waymo가 $160억 투자해서 경쟁 본격화. 머스크의 xAI 이해충돌 주주 소송까지 겹쳤다.\n\n3/4",
-  "종가 $411, 주가수익비율(P/E) 407배로 이익 대비 매우 비싼 수준\n최근 50일 평균($441) 아래, 200일 평균($388)은 지지 중\n애널리스트 평균 목표가 $480(+17%)\n\n4/4"
+  "자율주행 안전 심사 마감이 이틀 남았다(3/9). 통과하면 반등, 실패하면 30% 급락할 수 있는 갈림길이다.",
+  "영국 2월 판매가 37% 급감하면서 유럽 매출 전망이 어두워졌고, Toyota가 탄소 배출권 협력에서 빠졌다.",
+  "고용 악화에 유가 90달러 돌파까지 겹쳐 $396.73 마감. 200일 평균($392) 위에서 간신히 버티는 중."
 ]
 ```
 
-##### English X Thread Template
-
+X thread로 변환하면:
 ```
-// text (first tweet, <= 280 chars):
-"$TSLA (Feb 23) Baird upgrades to $548 target. Meanwhile, 5 more robotaxi crashes reported. Bulls and bears couldn't be further apart.\n\n1/4"
-
-// thread (reply tweets, each <= 280 chars):
-[
-  "Self-driving (FSD) just got EU approval in the Netherlands. Cybercab, a fully driverless taxi, starts mass production in April across 9 cities.\n\n2/4",
-  "Risks are real too. 5 more robotaxi crashes, Google's Waymo raising $16B to compete, and a Musk xAI conflict-of-interest lawsuit piling on.\n\n3/4",
-  "Close $411, P/E ratio 407x (very expensive vs earnings)\nBelow 50-day avg ($441), holding 200-day ($388)\nAnalyst avg target $480 (+17%)\n\n4/4"
+text: "$TSLA (3/7) 자율주행 안전 심사가 이틀 남았다. 통과하면 반등, 실패하면 30% 급락. 악재 속 $396.73 마감.\n\n1/4"
+thread: [
+  "영국 2월 판매 37% 급감, Toyota가 탄소 배출권 협력에서 빠졌다. 유럽 매출 전망이 어두워졌다.\n\n2/4",
+  "고용 악화에 유가 90달러 돌파까지. 10월 이후 최악의 한 주. 200일 평균($392) 위에서 간신히 버티는 중.\n\n3/4",
+  "애널리스트 평균 목표가 $427(+7.5%). 3/9 심사 결과가 모든 걸 결정한다.\n\n4/4"
 ]
 ```
 
-> **Note:** Do NOT include links in snsContent. The share button automatically appends the page URL to the last tweet.
+##### English X Thread Example
+
+```
+text: "$TSLA (Mar 7) Self-driving safety review deadline is 2 days away. Pass = rally, fail = 30% drop. Down to $396.73.\n\n1/4"
+thread: [
+  "UK Feb sales plunged 37%. Toyota left the EU carbon credit pool. European outlook is darkening.\n\n2/4",
+  "Weak jobs data plus oil above $90. Worst week since October. Barely holding above its 200-day average of $392.\n\n3/4",
+  "Analyst avg target $427 (+7.5%). Monday's review result will set the direction.\n\n4/4"
+]
+```
 
 #### Threads Format
 
-Threads has no character limit. Use a single `text` field (no `thread` array needed). Slightly more casual than X, can use 1-2 emojis. Write with `overallOpinion`-level depth.
+글자 제한 없음. `text` 필드 하나에 overallOpinion 전체를 자연스럽게 풀어쓴다.
+
+구조: 티커 + 가격 → 빈 줄 → overallOpinion 내용을 2-3개 단락으로 → 결론
+
+```
+text: "$TSLA (3/7) $396.73(-2.17%)\n\n자율주행 안전 심사 마감이 이틀 남았다(3/9). 통과하면 반등, 실패하면 30% 급락. 갈림길이 코앞이다.\n\n영국 판매 37% 급감, Toyota 탄소 협력 탈퇴. 고용 악화에 유가 90달러까지. 최악의 한 주였다.\n\n200일 평균($392) 위에서 간신히 버팀. 목표가 $427(+7.5%). 월요일 결과 보고 판단해도 늦지 않다."
+```
 
 #### Telegram Format
 
-Same as before: single `text` field, structured with sections (price, key issues, technicals, etc.).
+`text` 필드 하나. 구조화된 섹션으로 정보를 정리한다.
 
-#### Platform Variation Rules
+```
+text: "Tesla 일일 분석 (3/7)\n\n가격: $396.73 (-2.17%)\n\n핵심 이슈\n- 자율주행 안전 심사 마감 이틀 남음(3/9)\n- 통과하면 반등, 실패하면 30% 급락 가능\n- 영국 2월 판매 37% 급감\n- 고용 악화, 유가 90달러 돌파\n\n주가 위치\n- 200일 평균($392) 위에서 버팀\n- 50일 평균($428)보다는 아래\n\n목표가: $427 (+7.5%)"
+```
 
-| Platform | Field | Format | Notes |
-|----------|-------|--------|-------|
-| X | `snsContent.x` | `text` (<=280) + `thread[]` (each <=280) | Thread format required |
-| Threads | `snsContent.threads` | `text` (no limit) | Single post, slightly casual |
-| Telegram | `snsContent.telegram` | `text` (no limit) | Structured with sections |
-
-#### Tone Variants (`snsContent.tones`)
-
-Generate 3 tone variants for both X and Threads. Each tone set lives under `snsContent.tones.x` and `snsContent.tones.threads`.
+#### JSON Structure
 
 ```jsonc
 "snsContent": {
-  "x": { "hook": "...", "text": "...", "thread": ["...", "..."] },  // default (same as fact tone)
-  "threads": { "hook": "...", "text": "..." },                      // default (same as fact tone)
-  "telegram": { "hook": "...", "text": "..." },
+  "x": { "hook": "한 줄 요약", "text": "첫 트윗...\n\n1/4", "thread": ["2번째...\n\n2/4", "..."] },
+  "threads": { "hook": "한 줄 요약", "text": "전체 본문..." },
+  "telegram": { "hook": "한 줄 요약", "text": "구조화된 본문..." },
   "tones": {
     "x": {
-      "fact":    { "hook": "...", "text": "...", "thread": ["...", "..."] },
-      "witty":   { "hook": "...", "text": "...", "thread": ["...", "..."] },
-      "empathy": { "hook": "...", "text": "...", "thread": ["...", "..."] }
+      "fact":    { "hook": "...", "text": "...", "thread": ["..."] },
+      "witty":   { "hook": "...", "text": "...", "thread": ["..."] },
+      "empathy": { "hook": "...", "text": "...", "thread": ["..."] }
     },
     "threads": {
       "fact":    { "hook": "...", "text": "..." },
@@ -348,97 +307,46 @@ Generate 3 tone variants for both X and Threads. Each tone set lives under `snsC
 }
 ```
 
-| Tone Key | Korean Label | English Label | Icon | Guidelines |
-|----------|-------------|---------------|------|------------|
-| `fact` | 팩트정리 | Facts | 📊 | See **fact tone style** below |
-| `witty` | 재밌게 | Witty | 😂 | See **witty tone style** below |
-| `empathy` | 공감형 | Relatable | 💬 | See **empathy tone style** below |
+#### Tone Variants
 
-##### fact tone style (팩트정리)
+3가지 톤으로 변주한다. **모든 톤에 같은 핵심 데이터(가격, 목표가, 상승여력)가 포함되어야 한다.**
 
-Factual summary with analytical insight baked in. **Don't just state the fact. Explain why it matters for investors.** Include actionable context: what it means for the stock, upcoming catalysts, valuation perspective. X format uses thread; Threads uses single post.
+| Tone | 한국어 | English | 스타일 |
+|------|--------|---------|--------|
+| `fact` | 팩트정리 | Facts | 사실 + "왜 중요한지" 설명. 기본 톤과 동일 |
+| `witty` | 재밌게 | Witty | 대비와 아이러니로 재미. 웃기면서도 배울 게 있어야 함 |
+| `empathy` | 공감형 | Relatable | 주주의 감정을 인정하고, 좋은 소식과 나쁜 소식을 솔직하게 전달 |
 
-Korean X thread example:
+**fact = 기본값.** `snsContent.x`와 `tones.x.fact`는 동일한 내용이어야 한다. Threads도 마찬가지.
+
+##### witty 톤 규칙
+- 대비/아이러니로 재미를 만든다 (목표가 올림 vs 사고 증가, 주가 비쌈 vs 계속 사는 사람들)
+- 문장이 자연스럽게 이어져야 한다. 독립된 개그가 아니라 스토리처럼
+- **재미 속에 투자 정보가 있어야 한다.** 웃기기만 하면 안 된다
+
+Korean witty example:
 ```
-text: "$TSLA (2/23) Baird가 목표가 $548 제시, 애널리스트 42%가 매수 의견 유지. 평균 목표가 $480(지금보다 +17%). 한편 무인 택시 추가 사고 5건 보고\n\n1/4"
-thread: [
-  "자율주행(FSD)이 네덜란드에서 EU 첫 승인. 핸들도 페달도 없는 무인 택시 Cybercab이 4월부터 양산, 9개 도시 확대 예정이다.\n\n2/4",
-  "리스크도 있다. 무인 택시 안전성 논란 재부각, 구글 Waymo가 $160억 투자로 경쟁 본격화. 머스크 xAI 이해충돌 소송까지 경영 리스크.\n\n3/4",
-  "종가 $411, 주가수익비율(P/E) 407배로 이익 대비 비싼 수준\n목표가 $480(+17%)\n4월 Cybercab 양산과 로봇 Optimus v3 공개가 상반기 핵심\n\n4/4"
-]
-```
-
-English X thread example:
-```
-text: "$TSLA (Feb 23) Baird sets $548 target, 42% of analysts rate Buy. Avg target $480 (+17%). But 5 more robotaxi crashes just reported.\n\n1/4"
-thread: [
-  "Self-driving (FSD) gets EU approval in Netherlands. Cybercab, a fully driverless taxi, starts mass production in April across 9 cities.\n\n2/4",
-  "Risks: robotaxi safety concerns resurface. Google's Waymo raises $16B to compete. Musk's xAI conflict-of-interest lawsuit adds governance risk.\n\n3/4",
-  "Close $411, P/E ratio 407x (expensive vs earnings)\nTarget $480 (+17%)\nApril Cybercab ramp and Optimus robot v3 unveil are key H1 catalysts\n\n4/4"
-]
+text: "$TSLA (3/7) 월요일에 자율주행 심사 결과가 나온다. 통과하면 축포, 실패하면 30% 급락. 주말이 길게 느껴질 거다.\n\n1/4"
 ```
 
-##### witty tone style (재밌게)
+##### empathy 톤 규칙
+- 주주의 감정을 먼저 인정한다 ("힘든 한 주였을 거다", "불안한 게 당연하다")
+- 좋은 소식과 나쁜 소식을 솔직하게 전달
+- 구체적 숫자와 다음 이벤트로 마무리 ("조금만 더 지켜보자")
+- fact/witty보다 길어도 된다 (X에서 최대 5트윗)
 
-Natural, conversational flow. Sentences should **connect to each other** like a story, not isolated jokes. Use humor through contrast and irony, not forced memes. Stay factually accurate. **Even with humor, include investment-useful information.** The reader should laugh AND learn something. X format uses thread.
-
-Korean X thread example:
+Korean empathy example:
 ```
-text: "$TSLA (2/23) Baird가 $548을 외치는 동안, 무인 택시는 또 5번을 박았다. 아이러니하지만 이게 테슬라다.\n\n1/4"
-thread: [
-  "자율주행(FSD)이 네덜란드에서 EU 승인을 땄고, 무인 택시 Cybercab은 4월에 핸들도 페달도 없이 출격한다. 구글 Waymo가 $160억 들고 쫓아오지만, 유럽은 테슬라가 먼저 발을 디뎠다.\n\n2/4",
-  "주가수익비율(P/E) 407배는 숫자가 아니라 믿음 체계다. 개인 투자자 40%가 그 믿음에 동참 중이고, 빠질 때마다 오히려 더 사고 있다.\n\n3/4",
-  "종가 $411, 애널리스트 평균 목표가 $480(+17%)\n4월 양산이 다음 심판의 날\n\n4/4"
-]
+text: "$TSLA (3/7) 테슬라 들고 있으면 이번 주 정말 힘들었을 거다. -2.17%, $396.73. 10월 이후 최악의 한 주.\n\n1/4"
 ```
 
-English X thread example:
-```
-text: "$TSLA (Feb 23) Baird slaps a $548 target on Tesla while the robotaxis rack up 5 more crashes. The irony writes itself.\n\n1/4"
-thread: [
-  "Self-driving (FSD) just got EU approval in the Netherlands. Cybercab rolls out in April, fully driverless. Google's Waymo has $16B to chase, but Tesla got to Europe first.\n\n2/4",
-  "A P/E ratio of 407x isn't a valuation, it's a belief system. Retail investors own 40% of shares and keep buying every dip.\n\n3/4",
-  "Close $411, Analyst avg target $480 (+17%)\nApril production is judgment day\n\n4/4"
-]
-```
+#### 공통 규칙
 
-**Key:** Each sentence leads naturally into the next. The humor comes from juxtaposition (upgrade vs crash, no steering wheel), not from random emoji or slang. But even the jokes carry real data points the reader can use.
-
-##### empathy tone style (공감형)
-
-Write like talking to a friend who holds this stock. **Longer and more detailed than other tones.** Start by acknowledging the investor's current emotional state. Present both good and bad news honestly. End with a concrete upcoming catalyst and gentle encouragement. **Include specific numbers and context so the reader gets real investment value, not just emotional support.** X format uses thread (can have more tweets than other tones, up to 5).
-
-Korean X thread example:
-```
-text: "$TSLA (2/23) 테슬라 들고 있으면 요즘 하루가 롤러코스터 같을 거다. 연초 대비 -9%, 주가수익비율 407배. 불안한 게 당연하다.\n\n1/5"
-thread: [
-  "좋은 소식부터. Baird가 $548로 올렸고, 54명 애널리스트 중 42%가 매수 유지. 평균 목표가 $480, 지금보다 +17%다. 자율주행(FSD)도 네덜란드에서 EU 승인을 받았다.\n\n2/5",
-  "하지만 무인 택시 추가 사고 5건, 구글 Waymo $160억 투자로 경쟁 본격화. 머스크 xAI 이해충돌 주주 소송까지. 불안한 마음이 드는 게 당연하다.\n\n3/5",
-  "그래도 혼자가 아니다. 개인 투자자 40%가 함께 보유 중이고, 빠질 때마다 오히려 매수를 늘려왔다. 최근 50일 평균($441) 아래지만 200일 평균($388)은 지키고 있다.\n\n4/5",
-  "4월 무인 택시 Cybercab 양산과 로봇 Optimus v3 공개가 다음 시험대다. 조금만 더 지켜보자.\n\n5/5"
-]
-```
-
-English X thread example:
-```
-text: "$TSLA (Feb 23) Holding Tesla right now probably feels like a daily rollercoaster. Down 9% YTD with a P/E ratio of 407x. It's natural to feel uneasy.\n\n1/5"
-thread: [
-  "Good news first: Baird upgraded to $548 target. 42% of 54 analysts still rate Buy, avg target $480 (+17%). Self-driving (FSD) also got EU approval in Netherlands.\n\n2/5",
-  "But 5 more robotaxi crashes were reported. Google's Waymo raising $16B means competition is heating up. Musk's xAI shareholder lawsuit adds governance risk. It's okay to feel uncertain.\n\n3/5",
-  "You're not alone. Retail investors own 40% of shares and have been buying every dip. Below the 50-day average ($441) but holding the 200-day ($388).\n\n4/5",
-  "April's driverless Cybercab production launch and Optimus robot v3 unveil are the next big tests. Hang in there.\n\n5/5"
-]
-```
-
-**Rules for all tones:**
-- **X: thread format required.** `text` <= 280 chars, each `thread[]` entry <= 280 chars. Count characters carefully.
-- **Threads: single text**, no character limit.
-- `fact` tone text/thread must be identical to the default `snsContent.x` / `snsContent.threads` text
-- All tones must contain the same core data points (price, target, upside %)
-- All tones must include investment-useful context: catalysts, key price levels, risk/reward framing
-- Write content that makes people want to stop scrolling and read the full analysis
-- No links in tone text (the share button appends the URL automatically)
-- No em dashes or interpuncts (`·`) anywhere
+- X: `text` <= 280자, `thread[]` 각 항목 <= 280자. 글자 수를 정확히 세라
+- Threads: 글자 제한 없음. 단일 `text` 필드
+- 모든 톤에 핵심 데이터 포함 (가격, 목표가, 상승여력%)
+- 링크 넣지 마라 (공유 버튼이 자동 추가)
+- em dash, 가운뎃점 절대 금지
 
 ## Writing Guidelines
 
