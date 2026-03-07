@@ -119,22 +119,22 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-07",
+      "headline": "NHTSA investigating 2.88 million Teslas for FSD traffic violations, deadline D-2",
+      "significance": "58 incidents linked including red-light running and wrong-way driving. Austin robotaxi 14 crashes since June. Second deadline extension, final 3/9 cutoff",
+      "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/"
+    },
+    {
       "date": "2026-03-06",
-      "headline": "TSLA -2.17% as jobs shock + oil surge to $90+ trigger Wall Street's worst week since October",
-      "significance": "Nonfarm payrolls contracted unexpectedly while Iran war pushed oil to 2023 highs. Broad risk-off selling",
+      "headline": "UK February sales plunge 37% to 2,422 units; Italy, Denmark, Sweden also decline",
+      "significance": "Overall UK market grew 7.2%. BYD up 40.9% in contrast. European weakness broadening",
+      "url": "https://ca.investing.com/news/economic-indicators/tesla-uk-car-sales-drop-37-as-chinese-competition-heightens-smmt-data-shows-4496417"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Jobs shock and oil surging past $90 cap Wall Street's worst week since October",
+      "significance": "Nonfarm payrolls contracted unexpectedly while Iran war pushed oil to 2023 highs. TSLA -2.17%",
       "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html"
-    },
-    {
-      "date": "2026-03-06",
-      "headline": "UK February sales plunge 37% to 2,422 units while overall market grows 7.2%",
-      "significance": "BYD +40.9% in contrast. European demand erosion deepening",
-      "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/"
-    },
-    {
-      "date": "2026-03-06",
-      "headline": "Musk's X deal trial rekindles legal risks for Tesla",
-      "significance": "Ongoing CEO risk as legal and political controversies continue to weigh on brand sentiment",
-      "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/"
     },
     {
       "date": "2026-03-06",
@@ -144,8 +144,8 @@
     },
     {
       "date": "2026-03-05",
-      "headline": "BNP Paribas cuts TSLA target to $280 from $313",
-      "significance": "European sales weakness and valuation concerns reflected in downgrade",
+      "headline": "BNP Paribas cuts target to $280; BofA maintains Buy at $460",
+      "significance": "Extreme analyst divergence reflects uncertainty. European weakness vs autonomous driving leadership",
       "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html"
     }
   ],
@@ -173,7 +173,7 @@
     {
       "severity": "high",
       "title": "NHTSA FSD regulatory risk (D-2)",
-      "description": "3/9 data submission could result in FSD program suspension. Failure = 30% downside."
+      "description": "2.88 million vehicles under investigation, 58 incidents linked (red-light running, wrong-way driving), Austin robotaxi 14 crashes. 3/9 data submission could result in FSD program suspension. Failure = 30% downside."
     },
     {
       "severity": "high",
@@ -216,7 +216,7 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "The U.S. auto safety regulator's self-driving review deadline is just two days away (3/9). This is a make-or-break moment: approval could spark a rally, while failure could send the stock down 30%.",
+    "The U.S. auto safety regulator's self-driving review deadline is just two days away (3/9). With 2.88 million vehicles under investigation and 58 incidents linked to FSD, this is a make-or-break moment: approval could spark a rally, while failure could send the stock down 30%.",
     "UK February sales plunged 37%, darkening Europe's revenue outlook. Toyota and Stellantis also left Tesla's EU carbon-credit partnership, which means less income from environmental regulations going forward.",
     "A weak jobs report and oil prices surging past $90 on the Iran conflict piled on broader economic headwinds, dragging Tesla down 2.17% to close at $396.73 in Wall Street's worst week since October.",
     "The stock is barely holding above its 200-day average price of $392, but sits well below its 50-day average of $428. Selling pressure is building, which could set up a bounce, but the March 9 review will likely determine the near-term direction."
@@ -228,9 +228,9 @@
       "description": "3/6 macro analysis — jobs shock + oil surge"
     },
     {
-      "name": "Parameter",
-      "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/",
-      "description": "UK February sales -37% analysis"
+      "name": "Reuters/Investing.com",
+      "url": "https://ca.investing.com/news/economic-indicators/tesla-uk-car-sales-drop-37-as-chinese-competition-heightens-smmt-data-shows-4496417",
+      "description": "UK February sales -37%, Chinese competition detail"
     },
     {
       "name": "Meyka",
@@ -239,8 +239,8 @@
     },
     {
       "name": "Electrek",
-      "url": "https://electrek.co/",
-      "description": "Toyota/Stellantis EU CO2 pool exit"
+      "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/",
+      "description": "NHTSA FSD traffic violation probe, 2.88M vehicles, second deadline extension"
     },
     {
       "name": "BNP Paribas",
@@ -266,16 +266,75 @@
       "name": "MarketBeat",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
       "description": "TSLA analyst ratings"
+    },
+    {
+      "name": "Autonocion",
+      "url": "https://www.autonocion.com/us/tesla-fsd-traffic-violations/",
+      "description": "2.88M Tesla FSD traffic violation investigation detail"
     }
   ],
   "snsContent": {
+    "x": {
+      "hook": "FSD review D-2",
+      "text": "$TSLA (Mar 7) Self-driving safety review deadline is 2 days away. Pass = rally, fail = 30% drop. Down -2.17% to $396.73.\n\n1/4",
+      "thread": [
+        "UK Feb sales plunged 37%. Toyota left the EU carbon credit pool. European outlook is darkening, and BNP Paribas cut its target to $280.\n\n2/4",
+        "Weak jobs data plus oil above $90. Worst week since October. Barely holding above its 200-day average price of $392.\n\n3/4",
+        "Analyst avg target $427 (+7.5%). Monday's review result will set the direction. Waiting for the outcome is a valid strategy.\n\n4/4"
+      ]
+    },
     "threads": {
-      "hook": "TSLA $397, self-driving review 2 days away",
-      "text": "$TSLA -2.17% to $396.73. A brutal week: weak jobs data, oil past $90, UK sales down 37%, Musk on trial, Toyota leaving the carbon-credit deal. The stock is barely holding above its 200-day average price of $392. But the real make-or-break moment is March 9, when the U.S. auto safety regulator reviews Tesla's self-driving data. Pass could spark a rally, fail could mean 30% downside. Analyst avg target $427 (+7.5%)."
+      "hook": "FSD review D-2",
+      "text": "$TSLA (Mar 7) $396.73 (-2.17%)\n\nThe self-driving safety review deadline is just 2 days away (Mar 9). Pass means a rally, fail could mean a 30% drop.\n\nUK sales plunged 37%, Toyota left the EU carbon pool. Weak jobs + oil above $90 made it the worst week since October.\n\nBarely holding its 200-day average ($392). Target $427 (+7.5%). Wait for Monday's result."
     },
     "telegram": {
-      "hook": "TSLA $396.73 (-2.17%), Self-Driving Review 2 Days Away",
-      "text": "Tesla Daily Analysis (3/7)\n\nPrice: $396.73 (-2.17%) | Market Cap $1.49T\nP/E: 368.71x | Forward P/E: 150.88x\n\nKey Issues:\n- Weak jobs report and oil surging past $90 capped Wall Street's worst week since October\n- UK February sales fell 37% (2,422 units) while BYD grew 40.9%\n- Toyota and Stellantis left Tesla's EU carbon-credit partnership, reducing environmental regulation income\n- U.S. auto safety regulator's self-driving review deadline is 2 days away (3/9): pass could spark rally, fail risks 30% drop\n- Musk's X (Twitter) acquisition trial revives legal risks\n\nPrice Position: Barely above the 200-day average ($392), well below the 50-day average ($428)\nAnalysts: Hold consensus, average target $427 (+7.5%)\n\nhttps://"
+      "hook": "FSD review D-2",
+      "text": "Tesla Daily Analysis (Mar 7)\n\nPrice: $396.73 (-2.17%)\n\nKey Issues\n- Self-driving safety review deadline in 2 days (Mar 9)\n- Pass = rally, fail = potential 30% drop\n- UK Feb sales -37%, Toyota left EU carbon pool\n- Weak jobs + oil above $90, worst week since Oct\n\nTechnicals\n- Holding above 200-day avg ($392)\n- Below 50-day avg ($428)\n\nTarget: $427 (+7.5%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "FSD review D-2",
+          "text": "$TSLA (Mar 7) Self-driving safety review deadline is 2 days away. Pass = rally, fail = 30% drop. Down -2.17% to $396.73.\n\n1/4",
+          "thread": [
+            "UK Feb sales plunged 37%. Toyota left the EU carbon credit pool. European outlook is darkening, and BNP Paribas cut its target to $280.\n\n2/4",
+            "Weak jobs data plus oil above $90. Worst week since October. Barely holding above its 200-day average price of $392.\n\n3/4",
+            "Analyst avg target $427 (+7.5%). Monday's review result will set the direction. Waiting for the outcome is a valid strategy.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Monday is judgment day",
+          "text": "$TSLA (Mar 7) Monday's self-driving review could make or break Tesla. Pass = rally, fail = 30% drop. The weekend will feel long.\n\n1/4",
+          "thread": [
+            "UK sales down 37%, Toyota ditched the carbon pool, oil above $90. Everything that could go wrong this week did.\n\n2/4",
+            "Still clinging to its 200-day average ($392). Selling pressure is heavy but a bounce setup is forming.\n\n3/4",
+            "Target $427 (+7.5%). Buying now is like betting on the exam before seeing the questions. Waiting is fine too.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "Tough week for TSLA holders",
+          "text": "$TSLA (Mar 7) If you hold Tesla, this was a brutal week. -2.17%, $396.73. Worst week since October.\n\n1/4",
+          "thread": [
+            "UK sales -37%, Toyota left the carbon pool, jobs shock, oil above $90. Bad news kept piling up.\n\n2/4",
+            "But the 200-day average ($392) is holding. And Monday's self-driving review could change everything if it passes.\n\n3/4",
+            "Avg target $427 (+7.5%). Take the weekend to rest. Monday's result will tell us the direction. Hang in there.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "FSD review D-2",
+          "text": "$TSLA (Mar 7) $396.73 (-2.17%)\n\nThe self-driving safety review deadline is just 2 days away (Mar 9). Pass means a rally, fail could mean a 30% drop.\n\nUK sales plunged 37%, Toyota left the EU carbon pool. Weak jobs + oil above $90 made it the worst week since October.\n\nBarely holding its 200-day average ($392). Target $427 (+7.5%). Wait for Monday's result."
+        },
+        "witty": {
+          "hook": "Monday is judgment day",
+          "text": "$TSLA (Mar 7) $396.73 (-2.17%)\n\nMonday's self-driving review is a coin flip: pass = rally, fail = 30% drop. The weekend will feel very long.\n\nUK sales -37%, Toyota ditched the carbon pool, oil above $90. Everything went wrong.\n\nTarget $427 (+7.5%). Buying now is betting on the exam. Waiting for results is free."
+        },
+        "empathy": {
+          "hook": "Tough week for TSLA holders",
+          "text": "$TSLA (Mar 7) $396.73 (-2.17%)\n\nIf you hold Tesla, this was a brutal week. Bad news kept piling up.\n\nUK sales -37%, Toyota left carbon pool, jobs shock plus oil above $90. Still holding the 200-day average ($392) though.\n\nMonday's self-driving review could change everything. Target $427 (+7.5%). Hang in there."
+        }
+      }
     }
   }
 }
