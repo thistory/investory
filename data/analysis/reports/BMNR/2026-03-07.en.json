@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-07",
   "currentPrice": 18.88,
   "marketCap": "$8.59B",
-
   "businessSummary": {
     "oneLiner": "World's largest publicly traded Ethereum holder — applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
     "description": "Originally a Bitcoin mining company, BMNR pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/1, holds 4,473,587 ETH (3.71% of total supply), with total crypto + cash holdings of $9.9B. Closed at $18.88 (-7.22%) on 3/6. $20 support broken. ETH dropped below $2,000 intraday, triggering sympathy selling. Culper Research published a short-seller report targeting both ETH and BMNR. Forward P/E 28.18x, P/B 0.69x.",
@@ -21,18 +20,48 @@
       "Moonshot Portfolio: Beast Industries, Eightco Holdings and others"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/B Ratio", "value": "0.69x", "interpretation": "31% discount to NAV. $20 support break maintained the discount" },
-    { "name": "Forward P/E", "value": "28.18x", "interpretation": "Based on projected staking revenue" },
-    { "name": "ETH Holdings", "value": "4,473,587 ETH", "interpretation": "3.71% of total ETH supply. Largest among public companies" },
-    { "name": "BV/Share", "value": "$27.54", "interpretation": "Book value 46% premium to share price of $18.88" },
-    { "name": "Short Float", "value": "6.24%", "interpretation": "Elevated short interest. Caution warranted after Culper report" },
-    { "name": "52-Week Return", "value": "+490%", "interpretation": "Up ~5.9x from 52-week low of $3.20" },
-    { "name": "Cash Holdings", "value": "$868M", "interpretation": "Capacity for additional ETH purchases and operations" },
-    { "name": "Staking Revenue", "value": "$172M/yr", "interpretation": "Target $253M with MAVAN launch" }
+    {
+      "name": "P/B Ratio",
+      "value": "0.69x",
+      "interpretation": "31% discount to NAV. $20 support break maintained the discount"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "28.18x",
+      "interpretation": "Based on projected staking revenue"
+    },
+    {
+      "name": "ETH Holdings",
+      "value": "4,473,587 ETH",
+      "interpretation": "3.71% of total ETH supply. Largest among public companies"
+    },
+    {
+      "name": "BV/Share",
+      "value": "$27.54",
+      "interpretation": "Book value 46% premium to share price of $18.88"
+    },
+    {
+      "name": "Short Float",
+      "value": "6.24%",
+      "interpretation": "Elevated short interest. Caution warranted after Culper report"
+    },
+    {
+      "name": "52-Week Return",
+      "value": "+490%",
+      "interpretation": "Up ~5.9x from 52-week low of $3.20"
+    },
+    {
+      "name": "Cash Holdings",
+      "value": "$868M",
+      "interpretation": "Capacity for additional ETH purchases and operations"
+    },
+    {
+      "name": "Staking Revenue",
+      "value": "$172M/yr",
+      "interpretation": "Target $253M with MAVAN launch"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "$20 Support Broken — Technical Weakness Deepens, $18 Test",
@@ -51,93 +80,190 @@
       "description": "Book value $27.54 vs price $18.88. Despite short-seller pressure and ETH weakness, the NAV discount remains a long-term bull case."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "Largest public ETH holdings (3.71% of supply). Tom Lee's involvement provides institutional credibility. The only large-scale player applying MicroStrategy's BTC strategy to ETH.",
     "moats": [
-      { "type": "ETH Supply Concentration", "description": "Holds 3.71% of total ETH supply. Irreplaceable market position." },
-      { "type": "Institutional Access", "description": "Provides ETH exposure through publicly traded equity. Institutional investors can access without ETF." },
-      { "type": "Staking Revenue", "description": "68% staked + MAVAN proprietary platform delivers yield advantage over simple holding." }
+      {
+        "type": "ETH Supply Concentration",
+        "description": "Holds 3.71% of total ETH supply. Irreplaceable market position."
+      },
+      {
+        "type": "Institutional Access",
+        "description": "Provides ETH exposure through publicly traded equity. Institutional investors can access without ETF."
+      },
+      {
+        "type": "Staking Revenue",
+        "description": "68% staked + MAVAN proprietary platform delivers yield advantage over simple holding."
+      }
     ],
     "competitors": [
-      { "name": "MicroStrategy (MSTR)", "detail": "Pioneer of BTC treasury strategy. BTC focus vs BMNR's ETH focus" },
-      { "name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH trust fund. ETF conversion completed." },
-      { "name": "Coinbase (COIN)", "detail": "Crypto exchange. Indirect ETH exposure." }
+      {
+        "name": "MicroStrategy (MSTR)",
+        "detail": "Pioneer of BTC treasury strategy. BTC focus vs BMNR's ETH focus"
+      },
+      {
+        "name": "Grayscale Ethereum Trust (ETHE)",
+        "detail": "ETH trust fund. ETF conversion completed."
+      },
+      {
+        "name": "Coinbase (COIN)",
+        "detail": "Crypto exchange. Indirect ETH exposure."
+      }
     ]
   },
-
   "recentNews": [
-    { "date": "2026-03-06", "headline": "BMNR breaks $20 support, crashes -7.22% as ETH dips below $2,000 intraday", "significance": "Three consecutive days of decline. 12% off recent high, next support $18", "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/" },
-    { "date": "2026-03-05", "headline": "Culper Research publishes short report on ETH and BMNR — 'tokenomics impaired'", "significance": "Short-seller research firm argues ETH structural issues, publicly discloses short position", "url": "https://www.spotedcrypto.com/ethereum-death-spiral-culper-short-warning/" },
-    { "date": "2026-03-05", "headline": "FX Leaders: BMNR turning bullish on BTC recovery and 3.71% ETH ownership", "significance": "Optimistic outlook on 3/5 was contradicted by the 3/6 crash", "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-now-owns-3-71-of-eth-supply/" },
-    { "date": "2026-03-03", "headline": "BitMine purchases 51,000 ETH ($98M) in weekly accumulation", "significance": "Aggressive accumulation strategy continues. Total holdings now 4.474M", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase" },
-    { "date": "2026-03-02", "headline": "BitMine announces ETH holdings reach 4.474M tokens — total assets $9.9B", "significance": "Official 8-K filing confirms 3.71% of ETH supply", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html" }
+    {
+      "date": "2026-03-06",
+      "headline": "BMNR breaks $20 support, crashes -7.22% as ETH dips below $2,000 intraday",
+      "significance": "Three consecutive days of decline. 12% off recent high, next support $18",
+      "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "Culper Research publishes short report on ETH and BMNR — 'tokenomics impaired'",
+      "significance": "Short-seller research firm argues ETH structural issues, publicly discloses short position",
+      "url": "https://www.spotedcrypto.com/ethereum-death-spiral-culper-short-warning/"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "FX Leaders: BMNR turning bullish on BTC recovery and 3.71% ETH ownership",
+      "significance": "Optimistic outlook on 3/5 was contradicted by the 3/6 crash",
+      "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-now-owns-3-71-of-eth-supply/"
+    },
+    {
+      "date": "2026-03-03",
+      "headline": "BitMine purchases 51,000 ETH ($98M) in weekly accumulation",
+      "significance": "Aggressive accumulation strategy continues. Total holdings now 4.474M",
+      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "BitMine announces ETH holdings reach 4.474M tokens — total assets $9.9B",
+      "significance": "Official 8-K filing confirms 3.71% of ETH supply",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html"
+    }
   ],
-
   "analystOpinions": {
-    "consensusTarget": 34.50,
-    "highTarget": 39.00,
-    "lowTarget": 30.00,
+    "consensusTarget": 34.5,
+    "highTarget": 39.0,
+    "lowTarget": 30.0,
     "upsidePercent": 82.73,
     "buyCount": 2,
     "holdCount": 0,
     "sellCount": 0,
     "notableComment": "Both analysts maintain Strong Buy. Cantor Fitzgerald $39, B. Riley $30. +83% upside despite $20 support break. However, Culper short report is a headwind."
   },
-
   "risks": [
-    { "severity": "critical", "title": "ETH price concentration + $20 support broken", "description": "90%+ of NAV in ETH. $20 broken, next support $18. If ETH drops below $1,800, further crash inevitable." },
-    { "severity": "critical", "title": "Culper Research short-seller report", "description": "Claims ETH tokenomics are 'impaired beyond recovery this cycle.' Adds short-selling pressure." },
-    { "severity": "high", "title": "Massive share dilution — YoY +4,158%", "description": "Share count increased 42x in one year. 50 billion share authorization request pending." },
-    { "severity": "high", "title": "Macro headwinds — oil $90+, risk-off", "description": "Iran war + jobs shock driving risk-off across all asset classes including crypto." },
-    { "severity": "medium", "title": "Persistent operating losses", "description": "TTM operating losses continue. Staking revenue insufficient to cover operations." }
+    {
+      "severity": "critical",
+      "title": "ETH price concentration + $20 support broken",
+      "description": "90%+ of NAV in ETH. $20 broken, next support $18. If ETH drops below $1,800, further crash inevitable."
+    },
+    {
+      "severity": "critical",
+      "title": "Culper Research short-seller report",
+      "description": "Claims ETH tokenomics are 'impaired beyond recovery this cycle.' Adds short-selling pressure."
+    },
+    {
+      "severity": "high",
+      "title": "Massive share dilution — YoY +4,158%",
+      "description": "Share count increased 42x in one year. 50 billion share authorization request pending."
+    },
+    {
+      "severity": "high",
+      "title": "Macro headwinds — oil $90+, risk-off",
+      "description": "Iran war + jobs shock driving risk-off across all asset classes including crypto."
+    },
+    {
+      "severity": "medium",
+      "title": "Persistent operating losses",
+      "description": "TTM operating losses continue. Staking revenue insufficient to cover operations."
+    }
   ],
-
   "buyReasons": [
-    { "title": "31% NAV discount — P/B 0.69x", "rationale": "Book value $27.54 vs $18.88 price. ETH recovery would close the NAV gap." },
-    { "title": "Both analysts Strong Buy, target $34.50 (+83%)", "rationale": "Cantor $39, B. Riley $30. Buy conviction maintained despite short report." },
-    { "title": "3.71% of total ETH supply — irreplaceable position", "rationale": "Unique institutional proxy for ETH exposure." },
-    { "title": "MAVAN launch targets $253M staking revenue", "rationale": "47% revenue expansion from current $172M. Potential earnings turnaround catalyst." }
+    {
+      "title": "31% NAV discount — P/B 0.69x",
+      "rationale": "Book value $27.54 vs $18.88 price. ETH recovery would close the NAV gap."
+    },
+    {
+      "title": "Both analysts Strong Buy, target $34.50 (+83%)",
+      "rationale": "Cantor $39, B. Riley $30. Buy conviction maintained despite short report."
+    },
+    {
+      "title": "3.71% of total ETH supply — irreplaceable position",
+      "rationale": "Unique institutional proxy for ETH exposure."
+    },
+    {
+      "title": "MAVAN launch targets $253M staking revenue",
+      "rationale": "47% revenue expansion from current $172M. Potential earnings turnaround catalyst."
+    }
   ],
-
   "technicalPosition": {
-    "week52High": 161.00,
-    "week52Low": 3.20,
+    "week52High": 161.0,
+    "week52Low": 3.2,
     "currentPositionPercent": 9.94,
-    "sma50": 25.10,
+    "sma50": 25.1,
     "sma50Signal": "below",
     "sma200": 35.78,
     "sma200Signal": "below",
     "rsi": 40.57,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "ETH's intraday drop below $2,000 and Culper Research's short report drove BMNR -7.22% to $18.88, breaking the $20 support.",
-    "P/B 0.69x means a 31% NAV discount, but Culper's claim that 'ETH tokenomics are impaired beyond recovery' weighs on sentiment.",
-    "Both analysts maintain Strong Buy (target $34.50, +83%). However, 42x share dilution and macro headwinds (oil $90+) create near-term downside risk.",
-    "$18 support is now critical. If ETH stabilizes above $2,000, rebound is possible. Failure could push toward $15."
+    "Ethereum (ETH) briefly fell below $2,000 during the trading session, and since over 90% of BMNR's assets are held in Ethereum, the stock dropped 7.22% in sympathy to close at $18.88. Adding to the pressure, short-seller firm Culper Research published a critical report arguing that Ethereum's cryptocurrency economic model is unlikely to recover this cycle.",
+    "The stock trades at a price-to-book ratio of 0.69x, meaning it is priced 31% below the company's net asset value. However, shares outstanding have increased 42 times over the past year, heavily diluting existing shareholders. On top of that, oil prices above $90 are weighing on the broader economy, creating a tough environment for risk assets like crypto-linked stocks.",
+    "Despite these headwinds, both covering analysts maintain Strong Buy ratings with an average price target of $34.50, representing 83% upside from current levels. If Ethereum stabilizes above $2,000, a rebound is possible, but if the $18 psychological support level breaks, the stock could slide toward the $15 range."
   ],
-
   "sources": [
-    { "name": "BeInCrypto", "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/", "description": "BMNR $20 support break, $18 target analysis" },
-    { "name": "SpotedCrypto", "url": "https://www.spotedcrypto.com/ethereum-death-spiral-culper-short-warning/", "description": "Culper Research ETH/BMNR short report" },
-    { "name": "CryptoNews", "url": "https://cryptonews.net/news/analytics/32523237/", "description": "BMNR below $20 analysis" },
-    { "name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-now-owns-3-71-of-eth-supply/", "description": "BMNR bullish turn analysis (3/5)" },
-    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html", "description": "ETH holdings 4.474M disclosure" },
-    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase", "description": "Weekly 51,000 ETH purchase" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=BMNR", "description": "BMNR technical indicators" },
-    { "name": "TheCryptoBasic", "url": "https://thecryptobasic.com/2026/03/06/ethereum-price-outlook-for-mar-6-eth-struggles-below-resistance-while-2010-support-holds-focus/", "description": "ETH $2,063 price analysis" }
+    {
+      "name": "BeInCrypto",
+      "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/",
+      "description": "BMNR $20 support break, $18 target analysis"
+    },
+    {
+      "name": "SpotedCrypto",
+      "url": "https://www.spotedcrypto.com/ethereum-death-spiral-culper-short-warning/",
+      "description": "Culper Research ETH/BMNR short report"
+    },
+    {
+      "name": "CryptoNews",
+      "url": "https://cryptonews.net/news/analytics/32523237/",
+      "description": "BMNR below $20 analysis"
+    },
+    {
+      "name": "FX Leaders",
+      "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-now-owns-3-71-of-eth-supply/",
+      "description": "BMNR bullish turn analysis (3/5)"
+    },
+    {
+      "name": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html",
+      "description": "ETH holdings 4.474M disclosure"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase",
+      "description": "Weekly 51,000 ETH purchase"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=BMNR",
+      "description": "BMNR technical indicators"
+    },
+    {
+      "name": "TheCryptoBasic",
+      "url": "https://thecryptobasic.com/2026/03/06/ethereum-price-outlook-for-mar-6-eth-struggles-below-resistance-while-2010-support-holds-focus/",
+      "description": "ETH $2,063 price analysis"
+    }
   ],
-
   "snsContent": {
     "threads": {
-      "hook": "BMNR $20 broken — short seller report + ETH below $2K",
-      "text": "$BMNR -7.22% $18.88. $20 support shattered. ETH dipped below $2,000 + Culper Research published 'ETH tokenomics impaired' short report. P/B 0.69x is a 31% NAV discount but short pressure is real. Analysts maintain $34.50 (+83%). $18 is the next line of defense. ETH stability above $2K determines fate. investory.kro.kr/stock/BMNR/analysis/2026-03-07"
+      "hook": "BMNR drops 7% as Ethereum slides and short seller piles on",
+      "text": "$BMNR -7.22% to $18.88. Ethereum fell below $2,000 intraday, dragging BMNR down since 90%+ of its assets are in ETH. Short-seller Culper Research published a report saying Ethereum's economic model can't recover this cycle. Stock trades 31% below its asset value, but shares have been diluted 42x in a year. Analysts still say $34.50 (+83%). Next support: $18 😬"
     },
     "telegram": {
-      "hook": "BMNR $18.88 (-7.22%) — $20 Broken, Culper Short, ETH Below $2K",
-      "text": "BMNR Daily Analysis (3/7)\n\nPrice: $18.88 (-7.22%) | MCap $8.59B\nP/B: 0.69x | BV/Share: $27.54 | Forward P/E: 28.18x\n\nKey Issues:\n- 📉 $20 support broken, 3 consecutive days of decline\n- 🔻 ETH dipped below $2,000 intraday (close ~$2,063)\n- 📄 Culper Research: ETH tokenomics 'impaired beyond recovery'\n- 💰 31% NAV discount (BV $27.54 vs price $18.88)\n- ⚠️ Share dilution YoY +4,158%, 50B share authorization pending\n\nTechnical: Below 50-day $25, 200-day $36 | RSI 41 neutral\nAnalysts: Strong Buy, target $34.50 (+83%)\n\nhttps://investory.kro.kr/stock/BMNR/analysis/2026-03-07"
+      "hook": "BMNR $18.88 (-7.22%) falls with Ethereum, short seller adds pressure",
+      "text": "BMNR Daily Analysis (3/7)\n\nPrice: $18.88 (-7.22%) | MCap $8.59B\nPrice-to-Book: 0.69x | Book Value/Share: $27.54 | Forward P/E: 28.18x\n\nKey Issues:\n- 📉 $20 psychological support broken, 3 consecutive days of decline\n- 🔻 Ethereum (ETH) fell below $2,000 intraday (closed around $2,063)\n- 📄 Short-seller Culper Research says Ethereum's economic model is 'unlikely to recover this cycle'\n- 💰 Trading 31% below net asset value (book value $27.54 vs price $18.88)\n- ⚠️ Shares outstanding grew 42x in one year, 50B share authorization pending\n\nTechnical: Below 50-day moving avg $25, 200-day $36 | RSI 41 neutral\nAnalysts: Strong Buy, target $34.50 (+83%)\n\nhttps://"
     }
   }
 }

@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-07",
   "currentPrice": 152.42,
   "marketCap": "$365.0B",
-
   "businessSummary": {
     "oneLiner": "Government and enterprise AI data analytics platform — transforming from US defense/intelligence core partner into a commercial AI powerhouse",
     "description": "Palantir builds software platforms that analyze and integrate complex data. AIP (AI Platform) has driven explosive commercial growth. Q4 2025 revenue $1.407B (+70% YoY), adjusted operating margins 57%. Closed at $152.42 (+6.14%) on 3/6, as Peter Thiel met Japan PM Sanae Takaichi in Tokyo to discuss AI cooperation. Strong V-shaped rebound from prior day's -9.92% crash. Rallied +6% despite broad macro selloff (jobs shock + oil $90+). P/E 246x, P/S 78x.",
@@ -22,18 +21,48 @@
       "Maven: US DoD AI operational support system"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "246.2x", "interpretation": "Extreme valuation persists. Rebound pushed multiples back up" },
-    { "name": "P/S Ratio (TTM)", "value": "77.7x", "interpretation": "Among the highest revenue multiples in software" },
-    { "name": "Revenue Growth (YoY)", "value": "+70%", "interpretation": "Q4 2025 $1.407B. AIP-driven acceleration continues" },
-    { "name": "Adj. Operating Margin", "value": "57%", "interpretation": "Exceptional profitability for a software platform" },
-    { "name": "ROE", "value": "25.98%", "interpretation": "Healthy return on equity" },
-    { "name": "FCF", "value": "$2.10B", "interpretation": "Strengthening cash generation" },
-    { "name": "Debt/Equity", "value": "0.03", "interpretation": "Virtually debt-free. Net cash $6.95B" },
-    { "name": "Forward P/E", "value": "~115x", "interpretation": "Growth expectations sustaining the valuation" }
+    {
+      "name": "P/E Ratio (TTM)",
+      "value": "246.2x",
+      "interpretation": "Extreme valuation persists. Rebound pushed multiples back up"
+    },
+    {
+      "name": "P/S Ratio (TTM)",
+      "value": "77.7x",
+      "interpretation": "Among the highest revenue multiples in software"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "+70%",
+      "interpretation": "Q4 2025 $1.407B. AIP-driven acceleration continues"
+    },
+    {
+      "name": "Adj. Operating Margin",
+      "value": "57%",
+      "interpretation": "Exceptional profitability for a software platform"
+    },
+    {
+      "name": "ROE",
+      "value": "25.98%",
+      "interpretation": "Healthy return on equity"
+    },
+    {
+      "name": "FCF",
+      "value": "$2.10B",
+      "interpretation": "Strengthening cash generation"
+    },
+    {
+      "name": "Debt/Equity",
+      "value": "0.03",
+      "interpretation": "Virtually debt-free. Net cash $6.95B"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "~115x",
+      "interpretation": "Growth expectations sustaining the valuation"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "Peter Thiel Meets Japan PM Sanae Takaichi in Tokyo",
@@ -52,30 +81,73 @@
       "description": "Peter Thiel sold 2M shares ($290M) on 3/2, but revenue growth and margin indicators remain strong."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "Government security clearances (Top Secret/SCI), 20-year defense/intelligence relationships, and AIP enterprise AI platform expansion are the core moats.",
     "moats": [
-      { "type": "Government Security Clearance", "description": "Top Secret/SCI certified. Extremely difficult for competitors to enter." },
-      { "type": "Switching Costs", "description": "Gotham/Foundry deeply integrated into customer data infrastructure. Very high replacement costs." },
-      { "type": "AI Platform Network Effect", "description": "AIP bootcamps rapidly expanding enterprise customer base. More usage → better models." }
+      {
+        "type": "Government Security Clearance",
+        "description": "Top Secret/SCI certified. Extremely difficult for competitors to enter."
+      },
+      {
+        "type": "Switching Costs",
+        "description": "Gotham/Foundry deeply integrated into customer data infrastructure. Very high replacement costs."
+      },
+      {
+        "type": "AI Platform Network Effect",
+        "description": "AIP bootcamps rapidly expanding enterprise customer base. More usage → better models."
+      }
     ],
     "competitors": [
-      { "name": "Snowflake", "detail": "Data cloud platform. Enterprise analytics competition" },
-      { "name": "Databricks", "detail": "Lakehouse platform. AI/ML workload competition" },
-      { "name": "Microsoft (Azure AI)", "detail": "Azure AI services targeting government and enterprise" },
-      { "name": "C3.ai", "detail": "Enterprise AI platform. Much smaller scale vs PLTR" }
+      {
+        "name": "Snowflake",
+        "detail": "Data cloud platform. Enterprise analytics competition"
+      },
+      {
+        "name": "Databricks",
+        "detail": "Lakehouse platform. AI/ML workload competition"
+      },
+      {
+        "name": "Microsoft (Azure AI)",
+        "detail": "Azure AI services targeting government and enterprise"
+      },
+      {
+        "name": "C3.ai",
+        "detail": "Enterprise AI platform. Much smaller scale vs PLTR"
+      }
     ]
   },
-
   "recentNews": [
-    { "date": "2026-03-06", "headline": "Peter Thiel meets Japan PM Takaichi in Tokyo to discuss AI cooperation", "significance": "Palantir Japan expansion expected. Deepening US-Japan tech alliance opens government AI contracts", "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance" },
-    { "date": "2026-03-06", "headline": "PLTR +6.14% counter-market rally amid broad selloff", "significance": "V-shaped recovery from -9.92%. Counter-market +6% signals strong institutional buying", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai" },
-    { "date": "2026-03-06", "headline": "Seeking Alpha: 'Thiel sells but may regret it — revenue +70%, margins 57%'", "significance": "Insider selling headlines vs fundamental strength. Positive signal for long-term investors", "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it" },
-    { "date": "2026-03-05", "headline": "AIP Bootcamp cementing dominance in enterprise AI — healthcare and automotive expansion", "significance": "AIP strategy spreading to new verticals. Data privacy concerns noted", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai" },
-    { "date": "2026-03-05", "headline": "Motley Fool: Is PLTR the best buy in March?", "significance": "38% pullback renewing valuation debate. Growth sustainability is key question", "url": "https://www.fool.com/investing/2026/03/05/is-palantir-stock-a-best-buy-in-march/" }
+    {
+      "date": "2026-03-06",
+      "headline": "Peter Thiel meets Japan PM Takaichi in Tokyo to discuss AI cooperation",
+      "significance": "Palantir Japan expansion expected. Deepening US-Japan tech alliance opens government AI contracts",
+      "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "PLTR +6.14% counter-market rally amid broad selloff",
+      "significance": "V-shaped recovery from -9.92%. Counter-market +6% signals strong institutional buying",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Seeking Alpha: 'Thiel sells but may regret it — revenue +70%, margins 57%'",
+      "significance": "Insider selling headlines vs fundamental strength. Positive signal for long-term investors",
+      "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "AIP Bootcamp cementing dominance in enterprise AI — healthcare and automotive expansion",
+      "significance": "AIP strategy spreading to new verticals. Data privacy concerns noted",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "Motley Fool: Is PLTR the best buy in March?",
+      "significance": "38% pullback renewing valuation debate. Growth sustainability is key question",
+      "url": "https://www.fool.com/investing/2026/03/05/is-palantir-stock-a-best-buy-in-march/"
+    }
   ],
-
   "analystOpinions": {
     "consensusTarget": 193.78,
     "highTarget": 255,
@@ -86,60 +158,117 @@
     "sellCount": 2,
     "notableComment": "18 analysts, Buy consensus. Rebound narrows upside to +27% (from +35% prior day). Rosenblatt $200, Citigroup $255 high targets. Japan expansion news could catalyze further upgrades."
   },
-
   "risks": [
-    { "severity": "critical", "title": "Extreme valuation — P/E 246x, P/S 78x", "description": "Rebound expanded valuation burden. Growth deceleration would trigger severe correction." },
-    { "severity": "high", "title": "Insider mega-selling — Peter Thiel $290M", "description": "Thiel sold 2M shares ($290M) on 3/2. Co-founder mass selling weighs on sentiment." },
-    { "severity": "high", "title": "Geopolitical two-way risk", "description": "Iran war escalation → defense beneficiary, peace talks → sharp selloff. Extreme volatility." },
-    { "severity": "medium", "title": "Commercial competition intensifying", "description": "Snowflake, Databricks, Microsoft Azure AI competing for enterprise AI market share." },
-    { "severity": "medium", "title": "SBC dilution", "description": "Annual 4.67% share count increase from stock-based compensation." }
+    {
+      "severity": "critical",
+      "title": "Extreme valuation — P/E 246x, P/S 78x",
+      "description": "Rebound expanded valuation burden. Growth deceleration would trigger severe correction."
+    },
+    {
+      "severity": "high",
+      "title": "Insider mega-selling — Peter Thiel $290M",
+      "description": "Thiel sold 2M shares ($290M) on 3/2. Co-founder mass selling weighs on sentiment."
+    },
+    {
+      "severity": "high",
+      "title": "Geopolitical two-way risk",
+      "description": "Iran war escalation → defense beneficiary, peace talks → sharp selloff. Extreme volatility."
+    },
+    {
+      "severity": "medium",
+      "title": "Commercial competition intensifying",
+      "description": "Snowflake, Databricks, Microsoft Azure AI competing for enterprise AI market share."
+    },
+    {
+      "severity": "medium",
+      "title": "SBC dilution",
+      "description": "Annual 4.67% share count increase from stock-based compensation."
+    }
   ],
-
   "buyReasons": [
-    { "title": "Counter-market +6% rally — strong institutional buying signal", "rationale": "Solo +6% on a day when the entire market crashed. Deep institutional conviction." },
-    { "title": "Japan PM meeting → Asia government AI expansion", "rationale": "Thiel-Takaichi meeting opens Japan government AI contract potential. Revenue diversification." },
-    { "title": "US commercial revenue +137% YoY explosion", "rationale": "AIP bootcamp accelerating enterprise customer conversion. Growth engine beyond defense." },
-    { "title": "Net cash $6.95B — financial fortress", "rationale": "Zero debt, abundant cash. Downside risk limited." }
+    {
+      "title": "Counter-market +6% rally — strong institutional buying signal",
+      "rationale": "Solo +6% on a day when the entire market crashed. Deep institutional conviction."
+    },
+    {
+      "title": "Japan PM meeting → Asia government AI expansion",
+      "rationale": "Thiel-Takaichi meeting opens Japan government AI contract potential. Revenue diversification."
+    },
+    {
+      "title": "US commercial revenue +137% YoY explosion",
+      "rationale": "AIP bootcamp accelerating enterprise customer conversion. Growth engine beyond defense."
+    },
+    {
+      "title": "Net cash $6.95B — financial fortress",
+      "rationale": "Zero debt, abundant cash. Downside risk limited."
+    }
   ],
-
   "technicalPosition": {
     "week52High": 207.18,
     "week52Low": 59.78,
     "currentPositionPercent": 62.9,
-    "sma50": 155.40,
+    "sma50": 155.4,
     "sma50Signal": "below",
-    "sma200": 165.30,
+    "sma200": 165.3,
     "sma200Signal": "below",
     "rsi": 48.5,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "V-shaped +6.14% rebound from prior day's -9.92% crash, closing at $152.42. Defied the broad macro selloff driven by jobs shock and oil surge.",
-    "Peter Thiel met Japan's PM in Tokyo to discuss AI cooperation. Palantir Japan expansion and government AI contract expectations drove the rally.",
-    "P/E 246x, P/S 78x remain extreme. Thiel's $290M selling is a concern, but revenue +70% and 57% margins confirm fundamentals are intact.",
-    "Testing 50-day SMA at $155. 200-day at $165 is mid-term resistance. RSI 48.5 neutral, recovering from oversold territory."
+    "Co-founder Peter Thiel met Japan's Prime Minister Takaichi in Tokyo to discuss AI cooperation, and that news helped spark a sharp +6.14% rebound from the prior day's -9.92% drop, closing at $152.42 while the rest of the market fell.",
+    "The stock remains very expensive, with a price-to-earnings ratio of 246x and a price-to-sales ratio of 78x. Thiel's sale of $290 million worth of shares on March 2 adds concern, but revenue grew 70% year-over-year and the operating margin sits at 57% (meaning 57 cents of every dollar in sales becomes profit), showing the business itself is still strong.",
+    "The stock is trying to break above its 50-day average price of $155, with the 200-day average at $165 as the next hurdle. Selling pressure has eased and the stock is stabilizing, while potential Japan government AI contracts are emerging as a fresh growth catalyst. Analyst consensus target is $194, implying 27% upside."
   ],
-
   "sources": [
-    { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance", "description": "Peter Thiel-Japan PM meeting" },
-    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai", "description": "AIP bootcamp enterprise dominance" },
-    { "name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it", "description": "Thiel selling analysis, fundamentals intact" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/is-palantir-stock-a-best-buy-in-march/", "description": "March PLTR buy analysis" },
-    { "name": "Tribune India", "url": "https://www.tribuneindia.com/news/business/japan-pm-takaichi-holds-talks-with-palantirs-peter-thiel-on-advanced-tech-landscape/", "description": "Japan PM-Thiel meeting international coverage" },
-    { "name": "Guru Focus", "url": "https://www.gurufocus.com/news/8681518/palantirs-peter-thiel-meets-japan-prime-minister", "description": "Thiel-Japan PM meeting analysis" },
-    { "name": "Meyka", "url": "https://meyka.com/blog/pltr-stock-today-thiel-meets-japan-pm-govtech-deal-hopes-rise-march-6-0603/", "description": "PLTR 3/6 comprehensive analysis" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=PLTR", "description": "PLTR technical indicators" }
+    {
+      "name": "Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance",
+      "description": "Peter Thiel-Japan PM meeting"
+    },
+    {
+      "name": "FinancialContent",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai",
+      "description": "AIP bootcamp enterprise dominance"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it",
+      "description": "Thiel selling analysis, fundamentals intact"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/05/is-palantir-stock-a-best-buy-in-march/",
+      "description": "March PLTR buy analysis"
+    },
+    {
+      "name": "Tribune India",
+      "url": "https://www.tribuneindia.com/news/business/japan-pm-takaichi-holds-talks-with-palantirs-peter-thiel-on-advanced-tech-landscape/",
+      "description": "Japan PM-Thiel meeting international coverage"
+    },
+    {
+      "name": "Guru Focus",
+      "url": "https://www.gurufocus.com/news/8681518/palantirs-peter-thiel-meets-japan-prime-minister",
+      "description": "Thiel-Japan PM meeting analysis"
+    },
+    {
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/pltr-stock-today-thiel-meets-japan-pm-govtech-deal-hopes-rise-march-6-0603/",
+      "description": "PLTR 3/6 comprehensive analysis"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=PLTR",
+      "description": "PLTR technical indicators"
+    }
   ],
-
   "snsContent": {
     "threads": {
-      "hook": "PLTR +6%, defied the selloff — Thiel meets Japan PM",
-      "text": "$PLTR +6.14% $152.42. While Nasdaq crumbled on jobs shock + oil surge, PLTR alone rallied. Peter Thiel met Japan PM to discuss AI cooperation. V-shaped recovery from -9.92%. Revenue +70%, margins 57% intact. P/E 246x is steep but Japan expansion is a fresh catalyst. Testing 50-day SMA at $155. investory.kro.kr/stock/PLTR/analysis/2026-03-07"
+      "hook": "PLTR +6%, rallied alone while the market fell. Thiel met Japan's PM",
+      "text": "$PLTR +6.14%, $152.42. The whole market dropped on Friday but PLTR alone bounced back. Peter Thiel met Japan's Prime Minister to discuss AI cooperation. Rebounded sharply from -9.92% the day before. Revenue up 70% year-over-year, operating margin 57%. Still very expensive at a price-to-earnings ratio of 246x, but Japan expansion could be a fresh growth driver. Analyst target $194 (+27%)."
     },
     "telegram": {
-      "hook": "PLTR $152.42 (+6.14%) — Counter-Market V-Shaped Rally, Thiel Meets Japan PM",
-      "text": "Palantir Daily Analysis (3/7)\n\nPrice: $152.42 (+6.14%) | MCap $365.0B\nP/E: 246.2x | P/S: 77.7x\n\nKey Issues:\n- 🇯🇵 Peter Thiel meets Japan PM Takaichi for AI cooperation\n- 📈 V-shaped +6.14% rebound from -9.92% (counter-market)\n- 💼 Revenue +70% YoY, adj. operating margin 57%\n- ⚠️ Thiel $290M insider sale (3/2)\n- 🏥 AIP Bootcamp expanding into healthcare & automotive\n\nTechnical: Testing 50-day SMA $155 | 200-day $165 resistance | RSI 48.5\nAnalysts: Buy, consensus $194 (+27%)\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-07"
+      "hook": "PLTR $152.42 (+6.14%), Rallied Against the Market. Thiel Meets Japan PM",
+      "text": "Palantir Daily Analysis (3/7)\n\nPrice: $152.42 (+6.14%) | Market Cap $365.0B\nPrice-to-Earnings: 246x | Price-to-Sales: 78x\n\nKey Issues:\n- Thiel met Japan PM Takaichi to discuss AI cooperation\n- Rebounded +6.14% after falling -9.92% the day before\n- Revenue up 70% year-over-year, operating margin 57%\n- Thiel sold $290M worth of shares on 3/2\n- AIP Bootcamp expanding into healthcare and automotive\n\nPrice Trend: Testing 50-day average at $155 | 200-day average at $165 is the next hurdle | Selling pressure easing\nAnalysts: Buy, target $194 (+27%)\n\nhttps://"
     }
   }
 }

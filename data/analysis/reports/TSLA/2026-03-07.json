@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-07",
   "currentPrice": 396.73,
   "marketCap": "$1.49T",
-
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행·로봇·에너지 저장을 아우르는 'Physical AI Platform' 기업",
     "description": "Tesla는 EV 제조에서 AI·로보틱스·에너지 통합 플랫폼으로 전환 중이다. FY2025 매출 $94.8B(-2.9% YoY), 순이익 46.5% 급감. 3/6 종가 $396.73(-2.17%), 실망스러운 고용지표와 이란전쟁발 유가 $90+ 급등이 매크로 매도 압력을 가중했다. 영국 2월 판매 -37%(2,422대), Toyota·Stellantis가 EU CO2 배출권 풀에서 이탈. NHTSA FSD 데이터 제출 기한 3/9(D-2). BNP Paribas 목표가 $280 하향, BofA Buy $460 유지. P/E 368.71x, Forward P/E 150.88x.",
@@ -23,18 +22,48 @@
       "FSD (Full Self-Driving, 82억 마일 누적)"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "368.71x", "interpretation": "전일 대비 소폭 상승. AI/로보틱스 프리미엄이나 현실 수익 대비 극도로 높음" },
-    { "name": "Forward P/E", "value": "150.88x", "interpretation": "EPS 회복 기대 반영이나 여전히 고평가" },
-    { "name": "PEG Ratio", "value": "4.94", "interpretation": "성장 대비 극단적 고평가" },
-    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "사상 첫 연간 역성장. 글로벌 EV 경쟁 심화" },
-    { "name": "영업이익률", "value": "5.11%", "interpretation": "전분기 대비 소폭 개선이나 여전히 낮은 수준" },
-    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY 반등. 운영 효율 개선" },
-    { "name": "부채비율 (D/E)", "value": "0.18", "interpretation": "매우 건전. 순현금 $29.3B" },
-    { "name": "ROE", "value": "4.89%", "interpretation": "FY2024 대비 하락. 수익성 회복 필요" }
+    {
+      "name": "P/E Ratio (TTM)",
+      "value": "368.71x",
+      "interpretation": "전일 대비 소폭 상승. AI/로보틱스 프리미엄이나 현실 수익 대비 극도로 높음"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "150.88x",
+      "interpretation": "EPS 회복 기대 반영이나 여전히 고평가"
+    },
+    {
+      "name": "PEG Ratio",
+      "value": "4.94",
+      "interpretation": "성장 대비 극단적 고평가"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "-2.93%",
+      "interpretation": "사상 첫 연간 역성장. 글로벌 EV 경쟁 심화"
+    },
+    {
+      "name": "영업이익률",
+      "value": "5.11%",
+      "interpretation": "전분기 대비 소폭 개선이나 여전히 낮은 수준"
+    },
+    {
+      "name": "FCF",
+      "value": "$6.22B",
+      "interpretation": "+73.7% YoY 반등. 운영 효율 개선"
+    },
+    {
+      "name": "부채비율 (D/E)",
+      "value": "0.18",
+      "interpretation": "매우 건전. 순현금 $29.3B"
+    },
+    {
+      "name": "ROE",
+      "value": "4.89%",
+      "interpretation": "FY2024 대비 하락. 수익성 회복 필요"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "NHTSA FSD 데이터 제출 D-2 — 3/9 규제 분기점",
@@ -53,30 +82,73 @@
       "description": "신규 기본 트림이 대규모 수요를 견인, 인도 예상 시점이 2027년으로 밀림."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "미국 EV 시장 50%+ 점유율 리더, 다만 글로벌에서는 BYD에 추월당함. 소프트웨어·제조·에너지·82억 FSD 마일의 수직 통합이 핵심 해자.",
     "moats": [
-      { "type": "자율주행 데이터 해자", "description": "82억 FSD 마일. 경쟁사 대비 압도적 학습 데이터." },
-      { "type": "수직 통합", "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(슈퍼차저)." },
-      { "type": "충전 네트워크 효과", "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저 의존." }
+      {
+        "type": "자율주행 데이터 해자",
+        "description": "82억 FSD 마일. 경쟁사 대비 압도적 학습 데이터."
+      },
+      {
+        "type": "수직 통합",
+        "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(슈퍼차저)."
+      },
+      {
+        "type": "충전 네트워크 효과",
+        "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저 의존."
+      }
     ],
     "competitors": [
-      { "name": "BYD", "detail": "2025 글로벌 EV 판매 1위. 유럽 빠른 성장, 미국은 관세로 제한" },
-      { "name": "Waymo (Alphabet)", "detail": "$160억 펀딩, $1,260억 밸류. 주간 40만+ 승차" },
-      { "name": "Rivian (RIVN)", "detail": "R2 SUV($45,000) 2026 출시로 Model Y 직접 경쟁" },
-      { "name": "Xiaomi", "detail": "YU7 SUV가 중국에서 Model Y 대비 2:1 판매" }
+      {
+        "name": "BYD",
+        "detail": "2025 글로벌 EV 판매 1위. 유럽 빠른 성장, 미국은 관세로 제한"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "$160억 펀딩, $1,260억 밸류. 주간 40만+ 승차"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "R2 SUV($45,000) 2026 출시로 Model Y 직접 경쟁"
+      },
+      {
+        "name": "Xiaomi",
+        "detail": "YU7 SUV가 중국에서 Model Y 대비 2:1 판매"
+      }
     ]
   },
-
   "recentNews": [
-    { "date": "2026-03-06", "headline": "고용지표 충격 + 유가 $90 급등으로 TSLA -2.17% 하락", "significance": "비농업 고용 급감과 이란전쟁발 유가 급등으로 광범위한 매도세. 월가 10월 이후 최악의 주간", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html" },
-    { "date": "2026-03-06", "headline": "영국 2월 판매 -37% 급감, 전체 시장은 +7.2% 성장", "significance": "2,422대에 그쳐 BYD(+40.9%)와 대조적. 유럽 수요 약화 심화", "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/" },
-    { "date": "2026-03-06", "headline": "Musk X 딜 재판 → 법적 리스크 재점화", "significance": "Musk의 X(트위터) 인수 관련 재판이 CEO 리스크를 다시 부각", "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/" },
-    { "date": "2026-03-06", "headline": "Toyota·Stellantis, Tesla EU CO2 배출권 풀 탈퇴", "significance": "최대 참여사 이탈로 규제 크레딧 수익 추가 축소 불가피", "url": "https://electrek.co/" },
-    { "date": "2026-03-05", "headline": "BNP Paribas Exane, 목표가 $313→$280 하향", "significance": "유럽 판매 부진과 밸류에이션 우려 반영", "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html" }
+    {
+      "date": "2026-03-06",
+      "headline": "고용지표 충격 + 유가 $90 급등으로 TSLA -2.17% 하락",
+      "significance": "비농업 고용 급감과 이란전쟁발 유가 급등으로 광범위한 매도세. 월가 10월 이후 최악의 주간",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "영국 2월 판매 -37% 급감, 전체 시장은 +7.2% 성장",
+      "significance": "2,422대에 그쳐 BYD(+40.9%)와 대조적. 유럽 수요 약화 심화",
+      "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Musk X 딜 재판 → 법적 리스크 재점화",
+      "significance": "Musk의 X(트위터) 인수 관련 재판이 CEO 리스크를 다시 부각",
+      "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Toyota·Stellantis, Tesla EU CO2 배출권 풀 탈퇴",
+      "significance": "최대 참여사 이탈로 규제 크레딧 수익 추가 축소 불가피",
+      "url": "https://electrek.co/"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "BNP Paribas Exane, 목표가 $313→$280 하향",
+      "significance": "유럽 판매 부진과 밸류에이션 우려 반영",
+      "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html"
+    }
   ],
-
   "analystOpinions": {
     "consensusTarget": 426.61,
     "highTarget": 600,
@@ -87,22 +159,51 @@
     "sellCount": 8,
     "notableComment": "45명 애널리스트 Hold 컨센서스. 목표가 $426.61 대비 +7.5% 상승 여력. BofA Buy $460, BNP $280으로 극단적 의견 분화. 3/9 NHTSA 결과가 목표가 리비전의 촉매가 될 것."
   },
-
   "risks": [
-    { "severity": "critical", "title": "P/E 369x 극단적 밸류에이션", "description": "현 수익 대비 극도의 고평가. AI/로보틱스 내러티브 실패 시 대규모 조정 리스크." },
-    { "severity": "critical", "title": "유럽 수요 붕괴 — UK -37%, EU 1월 등록 -17%", "description": "영국·네덜란드·덴마크 급감. Toyota·Stellantis CO2 풀 탈퇴로 규제 수익도 축소." },
-    { "severity": "high", "title": "NHTSA FSD 규제 리스크 (D-2)", "description": "3/9 데이터 제출 결과에 따라 자율주행 프로그램 중단 가능. 실패 시 30% 하방." },
-    { "severity": "high", "title": "매크로 역풍 — 유가 $90+, 고용 충격", "description": "이란전쟁 + 고용 급감이 소비 심리 위축. EV 구매 지연 가능성." },
-    { "severity": "medium", "title": "CEO 리스크 — X 딜 재판 + 정치적 논란", "description": "Musk의 법적·정치적 이슈가 소비자 반감과 브랜드 훼손을 지속적으로 가중." }
+    {
+      "severity": "critical",
+      "title": "P/E 369x 극단적 밸류에이션",
+      "description": "현 수익 대비 극도의 고평가. AI/로보틱스 내러티브 실패 시 대규모 조정 리스크."
+    },
+    {
+      "severity": "critical",
+      "title": "유럽 수요 붕괴 — UK -37%, EU 1월 등록 -17%",
+      "description": "영국·네덜란드·덴마크 급감. Toyota·Stellantis CO2 풀 탈퇴로 규제 수익도 축소."
+    },
+    {
+      "severity": "high",
+      "title": "NHTSA FSD 규제 리스크 (D-2)",
+      "description": "3/9 데이터 제출 결과에 따라 자율주행 프로그램 중단 가능. 실패 시 30% 하방."
+    },
+    {
+      "severity": "high",
+      "title": "매크로 역풍 — 유가 $90+, 고용 충격",
+      "description": "이란전쟁 + 고용 급감이 소비 심리 위축. EV 구매 지연 가능성."
+    },
+    {
+      "severity": "medium",
+      "title": "CEO 리스크 — X 딜 재판 + 정치적 논란",
+      "description": "Musk의 법적·정치적 이슈가 소비자 반감과 브랜드 훼손을 지속적으로 가중."
+    }
   ],
-
   "buyReasons": [
-    { "title": "컨센서스 $427 대비 7.5% 할인 구간", "rationale": "$405에서 $397로 추가 하락. 매크로 셀오프에 의한 기술적 오버슈팅일 수 있음." },
-    { "title": "NHTSA 3/9 통과 시 랠리 촉매", "rationale": "FSD 승인이 자율주행 밸류에이션 재평가를 트리거할 수 있음." },
-    { "title": "FCF $6.22B 반등 (+73.7% YoY)", "rationale": "수익 감소에도 현금 창출 개선. 투자 여력 확보." },
-    { "title": "에너지 사업 고성장 + ESG 1위", "rationale": "매출 $12.8B(+27% YoY). 공급망 지속가능성 1위로 기관 투자 매력." }
+    {
+      "title": "컨센서스 $427 대비 7.5% 할인 구간",
+      "rationale": "$405에서 $397로 추가 하락. 매크로 셀오프에 의한 기술적 오버슈팅일 수 있음."
+    },
+    {
+      "title": "NHTSA 3/9 통과 시 랠리 촉매",
+      "rationale": "FSD 승인이 자율주행 밸류에이션 재평가를 트리거할 수 있음."
+    },
+    {
+      "title": "FCF $6.22B 반등 (+73.7% YoY)",
+      "rationale": "수익 감소에도 현금 창출 개선. 투자 여력 확보."
+    },
+    {
+      "title": "에너지 사업 고성장 + ESG 1위",
+      "rationale": "매출 $12.8B(+27% YoY). 공급망 지속가능성 1위로 기관 투자 매력."
+    }
   ],
-
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
@@ -114,86 +215,123 @@
     "rsi": 41.05,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "고용 충격과 유가 $90+ 급등이 겹치며 TSLA이 -2.17% 하락, $396.73 마감. 월가 10월 이후 최악의 주간을 마무리했다.",
-    "영국 2월 판매 -37%, Toyota·Stellantis EU CO2 풀 탈퇴로 유럽 수요 및 규제 크레딧 수익 모두 악화.",
-    "NHTSA FSD 데이터 기한이 이틀 앞(3/9). 통과 시 랠리, 실패 시 30% 하방이라는 바이너리 이벤트가 코앞.",
-    "200일선 $392 위에 간신히 지지 중, 50일선 $428 아래. RSI 41로 과매도 접근. 3/9 결과가 단기 방향성을 결정한다."
+    "미국 도로교통안전청(NHTSA)의 자율주행(FSD) 안전 심사 마감이 이틀 남았다(3/9). 통과하면 반등, 실패하면 30% 급락할 수 있는 중요한 갈림길이 코앞이다.",
+    "영국 2월 판매가 37% 급감하면서 유럽 매출 전망이 어두워졌고, Toyota와 Stellantis가 EU 탄소 배출권 협력에서 빠지면서 환경 규제 관련 수익도 줄어들 전망이다.",
+    "고용 지표 악화와 이란 전쟁으로 유가가 90달러를 넘기면서 경제 전반의 악재가 겹쳤고, 테슬라도 2.17% 하락해 $396.73으로 마감했다.",
+    "최근 200일 평균 주가($392) 바로 위에서 간신히 버티고 있지만, 최근 50일 평균 주가($428)보다는 아래에 있다. 매도 압력이 커지면서 반등 가능성도 열려 있지만, 3/9 심사 결과가 단기 방향을 결정할 것이다."
   ],
-
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html", "description": "3/6 고용지표 충격 + 유가 급등 매크로 분석" },
-    { "name": "Parameter", "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/", "description": "영국 2월 판매 -37% 분석" },
-    { "name": "Meyka", "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/", "description": "Musk X 딜 재판 및 TSLA 3/6 분석" },
-    { "name": "Electrek", "url": "https://electrek.co/", "description": "Toyota·Stellantis EU CO2 풀 탈퇴 보도" },
-    { "name": "BNP Paribas", "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html", "description": "목표가 $280 하향" },
-    { "name": "NPR", "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report", "description": "유가 2023년 이후 최고치, 고용 급감" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA 기술적 지표, P/E, SMA, RSI" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "애널리스트 컨센서스 및 목표가" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA 애널리스트 타겟 및 등급" }
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html",
+      "description": "3/6 고용지표 충격 + 유가 급등 매크로 분석"
+    },
+    {
+      "name": "Parameter",
+      "url": "https://parameter.io/tesla-tsla-stock-weakens-following-37-uk-sales-decline-in-february/",
+      "description": "영국 2월 판매 -37% 분석"
+    },
+    {
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/tsla-stock-today-march-6-musks-x-deal-trial-rekindles-legal-risks-0603/",
+      "description": "Musk X 딜 재판 및 TSLA 3/6 분석"
+    },
+    {
+      "name": "Electrek",
+      "url": "https://electrek.co/",
+      "description": "Toyota·Stellantis EU CO2 풀 탈퇴 보도"
+    },
+    {
+      "name": "BNP Paribas",
+      "url": "https://www.americanbankingnews.com/2026/03/05/bnp-paribas-exane-cuts-tesla-nasdaqtsla-price-target-to-280-00.html",
+      "description": "목표가 $280 하향"
+    },
+    {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report",
+      "description": "유가 2023년 이후 최고치, 고용 급감"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=TSLA",
+      "description": "TSLA 기술적 지표, P/E, SMA, RSI"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/tsla/forecast/",
+      "description": "애널리스트 컨센서스 및 목표가"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
+      "description": "TSLA 애널리스트 타겟 및 등급"
+    }
   ],
-
   "snsContent": {
     "x": {
-      "hook": "TSLA $397, 고용 충격 + 유가 $90 + NHTSA D-2",
-      "text": "$TSLA -2.17% $396.73. 고용지표 급감과 유가 $90+ 급등이 겹친 금요일, 10월 이후 최악의 주간 마무리. 영국 판매 -37%, Musk X 재판까지.",
+      "hook": "TSLA $397, 자율주행 심사 이틀 남았다",
+      "text": "$TSLA -2.17% $396.73 마감. 미국 도로교통안전청의 자율주행 안전 심사가 이틀 남았다(3/9). 통과하면 반등, 실패하면 30% 급락 가능. 고용 악화와 유가 급등까지 겹친 최악의 한 주였다.\n\n1/5",
       "thread": [
-        "Toyota와 Stellantis가 Tesla EU CO2 배출권 풀에서 탈퇴. 최대 참여사가 빠지면서 규제 크레딧 수익 추가 축소 불가피. BNP Paribas도 목표가를 $280으로 내렸다.",
-        "하지만 진짜 이벤트는 3/9 NHTSA. FSD 충돌 데이터 제출 기한이 이틀 앞이다. Nasdaq 분석: 통과하면 랠리, 실패하면 30% 하방.",
-        "200일선 $392 위에 간신히 버티는 중. RSI 41로 과매도 접근. P/E 369x인 이 주식, 월요일 NHTSA가 모든 걸 결정한다. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+        "영국 2월 판매가 37% 급감했고, Toyota와 Stellantis가 EU 탄소 배출권 협력에서 빠졌다. 유럽 매출과 환경 규제 관련 수익 모두 줄어들 전망이다. BNP Paribas는 목표가를 $280으로 낮췄다.\n\n2/5",
+        "하지만 진짜 갈림길은 3/9 자율주행 심사다. 미국 도로교통안전청에 충돌 데이터를 제출해야 하는데, 통과하면 주가 반등, 실패하면 30% 급락할 수 있다.\n\n3/5",
+        "200일 평균 주가($392) 위에 간신히 버티고 있다. 매도 압력이 커지면서 반등 가능성도 열려 있다. 월요일 심사 결과가 단기 방향을 결정한다.\n\n4/5",
+        "애널리스트 목표가 평균 $427(현재 대비 +7.5%). 지금은 기다렸다가 3/9 결과를 보고 판단해도 늦지 않다.\n\n5/5"
       ]
     },
     "threads": {
-      "hook": "TSLA $397, 최악의 금요일 + NHTSA D-2",
-      "text": "$TSLA -2.17% $396.73. 고용 충격 + 유가 $90+ + 영국 판매 -37% + Musk X 재판 + Toyota·Stellantis EU 풀 탈퇴. 한 주간 악재가 쏟아졌다. 200일선 $392에 간신히 지지, RSI 41. 하지만 진짜 D-day는 3/9 NHTSA FSD 데이터 기한. 통과 시 랠리, 실패 시 30% 하방. 주말 동안 숨 고르기, 월요일이 갈림길. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+      "hook": "TSLA $397, 자율주행 심사 D-2",
+      "text": "$TSLA -2.17% $396.73 마감. 고용 악화, 유가 90달러 돌파, 영국 판매 37% 급감, Musk 재판, Toyota의 탄소 배출권 협력 탈퇴까지. 악재가 한꺼번에 쏟아진 한 주였다. 200일 평균 주가($392) 위에서 간신히 버티는 중. 하지만 진짜 갈림길은 3/9 미국 도로교통안전청의 자율주행 심사다. 통과하면 반등, 실패하면 30% 급락 가능. 목표가 평균 $427(+7.5%). 주말에 쉬고, 월요일 결과 보고 판단해도 늦지 않다."
     },
     "telegram": {
-      "hook": "TSLA $396.73 (-2.17%) — 최악의 주간 마감, NHTSA D-2",
-      "text": "Tesla 일일 분석 (3/7)\n\n가격: $396.73 (-2.17%) | 시총 $1.49T\nP/E: 368.71x | Forward P/E: 150.88x\n\n핵심 이슈:\n- 📉 고용지표 충격 + 유가 $90+ → 10월 이후 최악의 주간\n- 🇬🇧 영국 2월 판매 -37% (2,422대), BYD +40.9%\n- 🚗 Toyota·Stellantis EU CO2 풀 탈퇴 → 규제 크레딧 축소\n- ⏰ NHTSA FSD 기한 D-2 (3/9): 통과=랠리, 실패=30% 하방\n- ⚖️ Musk X 딜 재판으로 법적 리스크 재점화\n\n기술적: 200일선 $392 지지 중, 50일선 $428 저항. RSI 41\n애널리스트: Hold, 컨센서스 $427 (+7.5%)\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+      "hook": "TSLA $396.73 (-2.17%), 자율주행 심사 이틀 남았다",
+      "text": "Tesla 일일 분석 (3/7)\n\n가격: $396.73 (-2.17%) | 시총 $1.49T\nP/E: 368.71x | Forward P/E: 150.88x\n\n핵심 이슈:\n- 고용 악화와 유가 90달러 급등이 겹치면서 10월 이후 최악의 한 주 마감\n- 영국 2월 판매 37% 급감(2,422대), 반면 BYD는 40.9% 증가\n- Toyota와 Stellantis가 EU 탄소 배출권 협력 탈퇴, 환경 규제 관련 수익 감소 전망\n- 미국 도로교통안전청 자율주행 심사 마감 이틀 남음(3/9): 통과시 반등, 실패시 30% 급락 가능\n- Musk의 X(트위터) 인수 재판으로 법적 리스크 재부각\n\n주가 위치: 200일 평균($392) 위에서 간신히 버티는 중, 50일 평균($428)보다는 아래\n애널리스트: 보유 의견 다수, 목표가 평균 $427 (+7.5%)\n\nhttps://"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA $397, 고용 충격 + 유가 $90 + NHTSA D-2",
-          "text": "$TSLA -2.17% $396.73. 고용지표 급감과 유가 $90+ 급등이 겹친 금요일, 10월 이후 최악의 주간 마무리. 영국 판매 -37%, Musk X 재판까지.",
+          "hook": "TSLA $397, 자율주행 심사 이틀 남았다",
+          "text": "$TSLA -2.17% $396.73 마감. 미국 도로교통안전청의 자율주행 안전 심사가 이틀 남았다(3/9). 통과하면 반등, 실패하면 30% 급락 가능. 고용 악화와 유가 급등까지 겹친 최악의 한 주였다.\n\n1/5",
           "thread": [
-            "Toyota와 Stellantis가 Tesla EU CO2 배출권 풀에서 탈퇴. 최대 참여사가 빠지면서 규제 크레딧 수익 추가 축소 불가피. BNP Paribas도 목표가를 $280으로 내렸다.",
-            "하지만 진짜 이벤트는 3/9 NHTSA. FSD 충돌 데이터 제출 기한이 이틀 앞이다. Nasdaq 분석: 통과하면 랠리, 실패하면 30% 하방.",
-            "200일선 $392 위에 간신히 버티는 중. RSI 41로 과매도 접근. P/E 369x인 이 주식, 월요일 NHTSA가 모든 걸 결정한다. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+            "영국 2월 판매가 37% 급감했고, Toyota와 Stellantis가 EU 탄소 배출권 협력에서 빠졌다. 유럽 매출과 환경 규제 관련 수익 모두 줄어들 전망이다. BNP Paribas는 목표가를 $280으로 낮췄다.\n\n2/5",
+            "하지만 진짜 갈림길은 3/9 자율주행 심사다. 미국 도로교통안전청에 충돌 데이터를 제출해야 하는데, 통과하면 주가 반등, 실패하면 30% 급락할 수 있다.\n\n3/5",
+            "200일 평균 주가($392) 위에 간신히 버티고 있다. 매도 압력이 커지면서 반등 가능성도 열려 있다. 월요일 심사 결과가 단기 방향을 결정한다.\n\n4/5",
+            "애널리스트 목표가 평균 $427(현재 대비 +7.5%). 지금은 기다렸다가 3/9 결과를 보고 판단해도 늦지 않다.\n\n5/5"
           ]
         },
         "witty": {
           "hook": "Tesla의 금요일: 악재 뷔페",
-          "text": "$TSLA $396.73. 고용 망했고, 기름값 폭등이고, 영국 판매 -37%이고, Musk은 재판 가고, Toyota는 떠나고. 이걸 하루에 다 맞았다.",
+          "text": "$TSLA $396.73 마감. 고용 망했고, 기름값 폭등이고, 영국 판매 37% 급감이고, Musk은 재판 가고, Toyota는 떠나고. 이걸 하루에 다 맞았다.\n\n1/5",
           "thread": [
-            "그래도 BofA는 Buy $460 유지. '자율주행 리더'라는데, 월요일 NHTSA가 그걸 인정할지가 관건이다. D-2.",
-            "200일선 $392에 발가락 하나 걸친 상태. 여기 무너지면 $350대. P/E 369배인 주식이 지지선 하나에 매달려 있다.",
-            "주말 동안 NHTSA 공무원이 뭘 결정하느냐에 $1.49T 시총의 운명이 달렸다. 이게 2026년 주식시장. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+            "그래도 BofA는 목표가 $460 유지. '자율주행 리더'라는데, 월요일 미국 도로교통안전청이 그걸 인정할지가 관건이다. 이틀 남았다.\n\n2/5",
+            "200일 평균 주가($392)에 발가락 하나 걸친 상태. 여기 무너지면 $350대. 현재 주가 수익 비율이 369배인 주식이 평균선 하나에 매달려 있다.\n\n3/5",
+            "주말 동안 미국 안전 당국이 뭘 결정하느냐에 시총 $1.49T의 운명이 달렸다. 목표가 평균 $427(+7.5%).\n\n4/5",
+            "이게 2026년 주식시장이다.\n\n5/5"
           ]
         },
         "empathy": {
-          "hook": "TSLA 홀더, 이번 주 정말 힘들었죠",
-          "text": "$TSLA -2.17% $396.73. 이번 주 내내 악재가 쏟아졌다. 고용 충격, 유가 폭등, 영국 판매 급감, Musk 재판... 금요일까지 쉴 틈이 없었다.",
+          "hook": "TSLA 보유자 여러분, 이번 주 힘들었죠",
+          "text": "$TSLA -2.17% $396.73 마감. 이번 주 내내 악재가 쏟아졌다. 고용 충격, 유가 폭등, 영국 판매 급감, Musk 재판까지. 금요일까지 쉴 틈이 없었다.\n\n1/5",
           "thread": [
-            "좋은 소식이라면 200일선 $392가 아직 버텨주고 있다는 것. RSI 41로 과매도 접근이니 기술적 반등 여지는 남아있어요.",
-            "하지만 솔직히 월요일이 무섭죠. NHTSA FSD 기한이 D-2. 주말 동안 결과가 나올 수도 있고, 월요일에 시장이 반응할 수도 있고.",
-            "지금 중요한 건 감정적 판단을 피하는 거예요. 3/9 결과를 보고 움직여도 늦지 않습니다. 주말 잘 쉬세요. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+            "좋은 소식은 200일 평균 주가($392)가 아직 버텨주고 있다는 것. 매도 압력이 커졌지만 반등 여지도 남아있어요.\n\n2/5",
+            "솔직히 월요일이 무섭죠. 미국 도로교통안전청의 자율주행 심사 마감이 이틀 남았어요. 주말에 결과가 나올 수도 있고, 월요일에 시장이 반응할 수도 있고.\n\n3/5",
+            "애널리스트 목표가 평균은 $427(+7.5%). 지금 중요한 건 감정적 판단을 피하는 거예요.\n\n4/5",
+            "3/9 결과를 보고 움직여도 늦지 않습니다. 주말 잘 쉬세요.\n\n5/5"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA $397, 최악의 금요일 + NHTSA D-2",
-          "text": "$TSLA -2.17% $396.73. 고용 충격 + 유가 $90+ + 영국 판매 -37% + Musk X 재판 + Toyota·Stellantis EU 풀 탈퇴. 한 주간 악재가 쏟아졌다. 200일선 $392에 간신히 지지, RSI 41. 하지만 진짜 D-day는 3/9 NHTSA FSD 데이터 기한. 통과 시 랠리, 실패 시 30% 하방. 주말 동안 숨 고르기, 월요일이 갈림길. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+          "hook": "TSLA $397, 자율주행 심사 D-2",
+          "text": "$TSLA -2.17% $396.73 마감. 고용 악화, 유가 90달러 돌파, 영국 판매 37% 급감, Musk 재판, Toyota의 탄소 배출권 협력 탈퇴까지. 악재가 한꺼번에 쏟아진 한 주였다. 200일 평균 주가($392) 위에서 간신히 버티는 중. 하지만 진짜 갈림길은 3/9 미국 도로교통안전청의 자율주행 심사다. 통과하면 반등, 실패하면 30% 급락 가능. 목표가 평균 $427(+7.5%). 주말에 쉬고, 월요일 결과 보고 판단해도 늦지 않다."
         },
         "witty": {
-          "hook": "Tesla 이번 주 요약: 악재 올인 패키지",
-          "text": "$TSLA $396.73. 월~금 악재: 중국 수요 급감 → 영국 -37% → Musk 재판 → Toyota 이탈 → 고용 충격 → 유가 $90. 마치 '최악의 한 주 만들기' 경연대회 같다. 200일선 $392에 간신히 매달려 있고, 월요일 NHTSA가 심판한다. 이틀 남았다. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+          "hook": "Tesla 이번 주: 악재 올인 패키지",
+          "text": "$TSLA $396.73 마감. 이번 주 악재 목록: 영국 판매 37% 급감, Musk 재판, Toyota 탈퇴, 고용 충격, 유가 90달러 돌파. '최악의 한 주 만들기' 경연대회 같다. 200일 평균 주가($392)에 간신히 매달려 있고, 월요일 미국 도로교통안전청이 심판한다. 목표가 평균 $427(+7.5%). 이틀 남았다."
         },
         "empathy": {
-          "hook": "TSLA 홀더, 이번 주 고생 많았어요",
-          "text": "$TSLA -2.17% $396.73. 이번 주는 진짜 힘든 한 주였죠. 매일 새로운 악재가 나왔으니까. 200일선은 아직 지지해주고 있고, RSI 41이니 과매도 접근 중이에요. 3/9 NHTSA 결과가 모든 걸 바꿀 수 있습니다. 주말 동안 쉬고, 감정적 판단은 피하세요. 월요일 결과 보고 판단해도 늦지 않아요. investory.kro.kr/stock/TSLA/analysis/2026-03-07"
+          "hook": "TSLA 보유자 여러분, 이번 주 고생 많았어요",
+          "text": "$TSLA -2.17% $396.73 마감. 이번 주는 진짜 힘든 한 주였죠. 매일 새로운 악재가 나왔으니까. 200일 평균 주가($392)는 아직 지지해주고 있고, 매도 압력이 커졌지만 반등 가능성도 남아있어요. 3/9 미국 도로교통안전청의 자율주행 심사 결과가 모든 걸 바꿀 수 있습니다. 목표가 평균 $427(+7.5%). 주말 동안 쉬고, 감정적 판단은 피하세요. 월요일 결과 보고 판단해도 늦지 않아요."
         }
       }
     }

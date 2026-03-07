@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-07",
   "currentPrice": 177.82,
   "marketCap": "$4.32T",
-
   "businessSummary": {
     "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with data center GPUs and AI accelerators",
     "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. Q4 FY2026 revenue $68.13B (+73% YoY), EPS $1.62. Q1 FY2027 guidance $78B (±2%), beating consensus by $5.4B. GTC 2026 (3/16-19) is D-9, Rubin R200 unveiling expected. Closed at $177.82 (-3.01%) on 3/6, dragged by jobs shock, oil surge to $90+, and 25% tariffs on H200 chips. Market cap $4.32T. P/E 36.29x, Forward P/E 16.55x.",
@@ -24,18 +23,48 @@
       "DGX/HGX Systems: Turnkey servers for large-scale AI training"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "36.29x", "interpretation": "Reasonable for AI semiconductor leader. Motley Fool: 'cheapest in nearly a year'" },
-    { "name": "Forward P/E", "value": "16.55x", "interpretation": "Based on forward EPS $10.74. Attractive relative to growth" },
-    { "name": "Revenue Growth (YoY)", "value": "+73.2%", "interpretation": "TTM $215.94B. Explosive growth continues" },
-    { "name": "Operating Margin", "value": "~60%", "interpretation": "Best-in-class profitability in semiconductors" },
-    { "name": "ROE", "value": "101.48%", "interpretation": "Exceptional return on equity" },
-    { "name": "FCF", "value": "$58.13B", "interpretation": "Massive free cash flow. Abundant capacity for buybacks and investment" },
-    { "name": "EPS (TTM)", "value": "$4.90", "interpretation": "Significant YoY increase" },
-    { "name": "Debt/Equity", "value": "7.25", "interpretation": "Higher leverage but easily covered by cash flows" }
+    {
+      "name": "P/E Ratio (TTM)",
+      "value": "36.29x",
+      "interpretation": "Reasonable for AI semiconductor leader. Motley Fool: 'cheapest in nearly a year'"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "16.55x",
+      "interpretation": "Based on forward EPS $10.74. Attractive relative to growth"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "+73.2%",
+      "interpretation": "TTM $215.94B. Explosive growth continues"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "~60%",
+      "interpretation": "Best-in-class profitability in semiconductors"
+    },
+    {
+      "name": "ROE",
+      "value": "101.48%",
+      "interpretation": "Exceptional return on equity"
+    },
+    {
+      "name": "FCF",
+      "value": "$58.13B",
+      "interpretation": "Massive free cash flow. Abundant capacity for buybacks and investment"
+    },
+    {
+      "name": "EPS (TTM)",
+      "value": "$4.90",
+      "interpretation": "Significant YoY increase"
+    },
+    {
+      "name": "Debt/Equity",
+      "value": "7.25",
+      "interpretation": "Higher leverage but easily covered by cash flows"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "GTC 2026 (3/16-19) D-9 — Rubin R200 Unveiling Imminent",
@@ -54,30 +83,73 @@
       "description": "Alphabet, Amazon, Meta, Microsoft, CoreWeave combined CapEx ~$700B. Directly translates to NVIDIA GPU demand."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "CUDA ecosystem with 15M developers, 90%+ share of AI training/inference GPU market. Software + hardware integration is the core moat.",
     "moats": [
-      { "type": "CUDA Ecosystem", "description": "15M+ developer lock-in. Most AI frameworks optimized for CUDA." },
-      { "type": "Design Leadership", "description": "Blackwell→Rubin 2-year architecture cadence. 1-2 generations ahead of competition." },
-      { "type": "Full-Stack Strategy", "description": "Chips + systems (DGX) + software (CUDA, AI Enterprise) + networking (Spectrum-X) integration." }
+      {
+        "type": "CUDA Ecosystem",
+        "description": "15M+ developer lock-in. Most AI frameworks optimized for CUDA."
+      },
+      {
+        "type": "Design Leadership",
+        "description": "Blackwell→Rubin 2-year architecture cadence. 1-2 generations ahead of competition."
+      },
+      {
+        "type": "Full-Stack Strategy",
+        "description": "Chips + systems (DGX) + software (CUDA, AI Enterprise) + networking (Spectrum-X) integration."
+      }
     ],
     "competitors": [
-      { "name": "AMD (MI300X)", "detail": "#2 AI GPU. Price competitive but ecosystem disadvantage" },
-      { "name": "Intel (Gaudi 3)", "detail": "Late entrant to AI accelerators. Minimal market share" },
-      { "name": "Google TPU", "detail": "Custom AI chip for Gemini training. Not sold externally" },
-      { "name": "Broadcom (Custom ASICs)", "detail": "Growing hyperscaler custom AI chip design wins" }
+      {
+        "name": "AMD (MI300X)",
+        "detail": "#2 AI GPU. Price competitive but ecosystem disadvantage"
+      },
+      {
+        "name": "Intel (Gaudi 3)",
+        "detail": "Late entrant to AI accelerators. Minimal market share"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "Custom AI chip for Gemini training. Not sold externally"
+      },
+      {
+        "name": "Broadcom (Custom ASICs)",
+        "detail": "Growing hyperscaler custom AI chip design wins"
+      }
     ]
   },
-
   "recentNews": [
-    { "date": "2026-03-06", "headline": "NVDA -3.01% as jobs shock + oil surge trigger broad tech selloff", "significance": "Nonfarm payrolls contracted, Iran war pushed oil to $90+. Nasdaq worst weekly decline", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html" },
-    { "date": "2026-03-06", "headline": "25% tariffs imposed on H200 chips, China market effectively lost", "significance": "Tariffs + export controls mean China revenue written off. Additional regulatory risk remains", "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/" },
-    { "date": "2026-03-06", "headline": "Motley Fool: 'NVDA hasn't been this cheap in nearly a year'", "significance": "Tariff selloff created valuation opportunity. Historical pattern shows buying cheap yields outperformance", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/" },
-    { "date": "2026-03-06", "headline": "Options market: puts at 57.4%, short-term downside hedging dominant", "significance": "Delta 40-60 options analysis shows put dominance. Near-term bearish sentiment", "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/" },
-    { "date": "2026-03-05", "headline": "GTC 2026 (3/16-19) D-10, Rubin R200 unveiling expected", "significance": "Next-gen architecture reveal could catalyze valuation re-rating", "url": "https://stockanalysis.com/stocks/nvda/" }
+    {
+      "date": "2026-03-06",
+      "headline": "NVDA -3.01% as jobs shock + oil surge trigger broad tech selloff",
+      "significance": "Nonfarm payrolls contracted, Iran war pushed oil to $90+. Nasdaq worst weekly decline",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "25% tariffs imposed on H200 chips, China market effectively lost",
+      "significance": "Tariffs + export controls mean China revenue written off. Additional regulatory risk remains",
+      "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Motley Fool: 'NVDA hasn't been this cheap in nearly a year'",
+      "significance": "Tariff selloff created valuation opportunity. Historical pattern shows buying cheap yields outperformance",
+      "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Options market: puts at 57.4%, short-term downside hedging dominant",
+      "significance": "Delta 40-60 options analysis shows put dominance. Near-term bearish sentiment",
+      "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "GTC 2026 (3/16-19) D-10, Rubin R200 unveiling expected",
+      "significance": "Next-gen architecture reveal could catalyze valuation re-rating",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    }
   ],
-
   "analystOpinions": {
     "consensusTarget": 265.18,
     "highTarget": 350,
@@ -88,60 +160,118 @@
     "sellCount": 3,
     "notableComment": "57 analysts, Strong Buy consensus. Target $265.18 implies +49% upside. MarketBeat consensus $273.64. Post-GTC upside revisions likely."
   },
-
   "risks": [
-    { "severity": "high", "title": "China tariffs and export controls intensifying", "description": "25% tariffs on H200. China revenue effectively lost. Risk of further restrictions." },
-    { "severity": "high", "title": "Macro headwinds — oil $90+, jobs shock", "description": "Stagflation fears pressuring tech valuations across the board." },
-    { "severity": "medium", "title": "Custom ASIC threat", "description": "Broadcom, Google TPU, and other hyperscaler in-house chip designs growing." },
-    { "severity": "medium", "title": "AI CapEx cycle peak concerns", "description": "Hyperscaler CapEx at $700B level with uncertain returns on investment." },
-    { "severity": "low", "title": "Insider selling", "description": "CFO Colette Kress, EVP Ajay Puri and others with consistent selling." }
+    {
+      "severity": "high",
+      "title": "China tariffs and export controls intensifying",
+      "description": "25% tariffs on H200. China revenue effectively lost. Risk of further restrictions."
+    },
+    {
+      "severity": "high",
+      "title": "Macro headwinds — oil $90+, jobs shock",
+      "description": "Stagflation fears pressuring tech valuations across the board."
+    },
+    {
+      "severity": "medium",
+      "title": "Custom ASIC threat",
+      "description": "Broadcom, Google TPU, and other hyperscaler in-house chip designs growing."
+    },
+    {
+      "severity": "medium",
+      "title": "AI CapEx cycle peak concerns",
+      "description": "Hyperscaler CapEx at $700B level with uncertain returns on investment."
+    },
+    {
+      "severity": "low",
+      "title": "Insider selling",
+      "description": "CFO Colette Kress, EVP Ajay Puri and others with consistent selling."
+    }
   ],
-
   "buyReasons": [
-    { "title": "Forward P/E 16.55x — 'cheapest in nearly a year'", "rationale": "Tariff selloff discounted significantly vs growth. Historical buying at cheap levels generates alpha." },
-    { "title": "GTC D-9 event-driven opportunity", "rationale": "Rubin R200 unveiling could catalyze re-rating. 30K attendees expected." },
-    { "title": "49% discount to analyst consensus $265", "rationale": "57 analysts on Strong Buy, record gap to consensus. Oversold territory." },
-    { "title": "FCF $58B + revenue +73% growth", "rationale": "Fundamentals intact. Decline driven purely by macro, not business deterioration." }
+    {
+      "title": "Forward P/E 16.55x — 'cheapest in nearly a year'",
+      "rationale": "Tariff selloff discounted significantly vs growth. Historical buying at cheap levels generates alpha."
+    },
+    {
+      "title": "GTC D-9 event-driven opportunity",
+      "rationale": "Rubin R200 unveiling could catalyze re-rating. 30K attendees expected."
+    },
+    {
+      "title": "49% discount to analyst consensus $265",
+      "rationale": "57 analysts on Strong Buy, record gap to consensus. Oversold territory."
+    },
+    {
+      "title": "FCF $58B + revenue +73% growth",
+      "rationale": "Fundamentals intact. Decline driven purely by macro, not business deterioration."
+    }
   ],
-
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
     "currentPositionPercent": 72.6,
-    "sma50": 186.40,
+    "sma50": 186.4,
     "sma50Signal": "below",
     "sma200": 186.43,
     "sma200Signal": "below",
     "rsi": 44.8,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "Jobs shock and oil surge drove NVDA down -3.01% to $177.82, trading below both the 50-day and 200-day SMAs.",
-    "H200 25% tariffs and China market loss are burdens, but Forward P/E 16.55x is the 'cheapest in nearly a year.'",
-    "GTC 2026 D-9. Rubin R200 unveiling is the decisive re-rating catalyst. 57 analysts Strong Buy, target $265 (+49%).",
-    "Options market leans bearish (57% puts) short-term, but FCF $58B and +73% revenue growth fundamentals are intact. Pre-GTC accumulation strategy valid."
+    "A weak jobs report and surging oil prices triggered a broad tech selloff, pushing NVDA down 3.01% to $177.82. The stock is now trading below both its 50-day average price ($186) and 200-day average price ($186), signaling short-term weakness.",
+    "A 25% tariff on NVIDIA's AI chip H200 has effectively wiped out its China revenue. However, the forward price-to-earnings ratio (based on next year's expected profits) is 16.55, meaning the stock is at its cheapest level in nearly a year relative to how much it is expected to earn.",
+    "NVIDIA's tech conference (GTC) is 9 days away, where the company will unveil its next-generation AI chip, Rubin R200. 57 analysts rate the stock a Strong Buy with a target price of $265, which is 49% above the current price.",
+    "57% of options bets are on a price decline, showing strong short-term caution. But the company's free cash flow (actual cash generated) of $58 billion and 73% revenue growth show the business itself is as strong as ever. Buying in stages before the conference looks like a reasonable approach."
   ],
-
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html", "description": "3/6 macro analysis — jobs shock + oil surge" },
-    { "name": "Invezz", "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/", "description": "NVDA decline analysis, H200 25% tariffs" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/", "description": "NVDA cheapest in a year, historical patterns" },
-    { "name": "HistoricalOptionData", "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/", "description": "NVDA 3/6 options and technical analysis" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Analyst consensus $273.64" },
-    { "name": "NPR", "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report", "description": "Oil $90+, worst week since October" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=NVDA", "description": "NVDA technical indicators" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA news and fundamentals" }
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html",
+      "description": "3/6 macro analysis — jobs shock + oil surge"
+    },
+    {
+      "name": "Invezz",
+      "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/",
+      "description": "NVDA decline analysis, H200 25% tariffs"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/",
+      "description": "NVDA cheapest in a year, historical patterns"
+    },
+    {
+      "name": "HistoricalOptionData",
+      "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/",
+      "description": "NVDA 3/6 options and technical analysis"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "Analyst consensus $273.64"
+    },
+    {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report",
+      "description": "Oil $90+, worst week since October"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=NVDA",
+      "description": "NVDA technical indicators"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA news and fundamentals"
+    }
   ],
-
   "snsContent": {
     "threads": {
-      "hook": "NVDA $178, Forward P/E 16.5x — GTC D-9",
-      "text": "$NVDA -3.01% $177.82. Jobs shock + oil surge + tariffs — triple headwinds. But Forward P/E 16.5x makes it the cheapest in nearly a year. GTC D-9 with Rubin R200 unveiling imminent. 57 analysts Strong Buy, target $265 (+49%). Revenue +73%, FCF $58B — fundamentals intact despite macro selling. Last chance to accumulate before GTC? investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+      "hook": "NVDA $178, cheapest in a year by expected earnings",
+      "text": "$NVDA down 3.01% to $177.82. Weak jobs data, oil surge, and tariffs all hit at once. But the forward price-to-earnings ratio (based on expected profits) is just 16.5x, the cheapest in nearly a year. NVIDIA's tech conference (GTC) is 9 days away with next-gen AI chip Rubin R200 set to be unveiled. 57 analysts say Strong Buy, target $265 (+49%). Revenue up 73%, free cash flow $58B. The business is strong, only the macro environment is weak 🔥"
     },
     "telegram": {
-      "hook": "NVDA $177.82 (-3.01%) — Cheapest in a Year, GTC D-9",
-      "text": "NVIDIA Daily Analysis (3/7)\n\nPrice: $177.82 (-3.01%) | MCap $4.32T\nP/E: 36.29x | Forward P/E: 16.55x\n\nKey Issues:\n- 📉 Jobs shock + oil $90+ → broad tech selloff\n- 🇨🇳 H200 25% tariffs → China market effectively lost\n- 📊 Forward P/E 16.5x = cheapest in nearly a year\n- 🎯 GTC 2026 D-9: Rubin R200 unveiling imminent\n- 💰 Revenue +73%, FCF $58.1B — fundamentals intact\n\nTechnical: Below 50-day $186, 200-day $186 | RSI 44.8 neutral\nAnalysts: Strong Buy, consensus $265 (+49%)\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+      "hook": "NVDA $177.82 (-3.01%) Cheapest in a Year, GTC 9 Days Away",
+      "text": "NVIDIA Daily Analysis (3/7)\n\nPrice: $177.82 (-3.01%) | MCap $4.32T\nPrice-to-earnings: 36.29x | Based on expected profits: 16.55x\n\nKey Issues:\n- 📉 Weak jobs report + oil above $90 triggered broad tech selloff\n- 🇨🇳 25% tariff on AI chip H200, China revenue effectively lost\n- 📊 Forward earnings ratio 16.5x = cheapest in nearly a year\n- 🎯 NVIDIA tech conference (GTC) 9 days away, next-gen chip Rubin R200 unveiling\n- 💰 Revenue up 73%, actual cash generated $58.1B, business fundamentals intact\n\nTechnical: Below 50-day avg $186, 200-day avg $186 | RSI 44.8 neutral\nAnalysts: Strong Buy, target $265 (+49% above current price)\n\nhttps://"
     }
   }
 }

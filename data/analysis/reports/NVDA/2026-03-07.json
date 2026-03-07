@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-07",
   "currentPrice": 177.82,
   "marketCap": "$4.32T",
-
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
     "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. Q4 FY2026 매출 $68.13B(+73% YoY), EPS $1.62. Q1 FY2027 가이던스 $78B(±2%). GTC 2026(3/16-19) D-9, Rubin R200 공개 예정. 3/6 종가 $177.82(-3.01%), 고용 충격+유가 급등으로 테크 전반 매도세. H200 칩에 25% 관세 부과, 중국 시장 사실상 상실. 시가총액 $4.32T. P/E 36.29x, Forward P/E 16.55x.",
@@ -24,18 +23,48 @@
       "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio (TTM)", "value": "36.29x", "interpretation": "AI 반도체 리더치고 합리적. Motley Fool '1년 만에 가장 저렴'" },
-    { "name": "Forward P/E", "value": "16.55x", "interpretation": "EPS forward $10.74 기반. 성장 대비 매력적 수준" },
-    { "name": "매출 성장률 (YoY)", "value": "+73.2%", "interpretation": "TTM $215.94B. 전년 대비 폭발적 성장 지속" },
-    { "name": "영업이익률", "value": "~60%", "interpretation": "반도체 업계 최고 수준의 수익성" },
-    { "name": "ROE", "value": "101.48%", "interpretation": "자본 대비 초고수익 창출" },
-    { "name": "FCF", "value": "$58.13B", "interpretation": "막대한 잉여현금흐름. 주주환원·투자 여력 풍부" },
-    { "name": "EPS (TTM)", "value": "$4.90", "interpretation": "전년 대비 대폭 증가" },
-    { "name": "부채비율 (D/E)", "value": "7.25", "interpretation": "레버리지 높으나 현금흐름으로 충분히 커버" }
+    {
+      "name": "P/E Ratio (TTM)",
+      "value": "36.29x",
+      "interpretation": "AI 반도체 리더치고 합리적. Motley Fool '1년 만에 가장 저렴'"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "16.55x",
+      "interpretation": "EPS forward $10.74 기반. 성장 대비 매력적 수준"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "+73.2%",
+      "interpretation": "TTM $215.94B. 전년 대비 폭발적 성장 지속"
+    },
+    {
+      "name": "영업이익률",
+      "value": "~60%",
+      "interpretation": "반도체 업계 최고 수준의 수익성"
+    },
+    {
+      "name": "ROE",
+      "value": "101.48%",
+      "interpretation": "자본 대비 초고수익 창출"
+    },
+    {
+      "name": "FCF",
+      "value": "$58.13B",
+      "interpretation": "막대한 잉여현금흐름. 주주환원·투자 여력 풍부"
+    },
+    {
+      "name": "EPS (TTM)",
+      "value": "$4.90",
+      "interpretation": "전년 대비 대폭 증가"
+    },
+    {
+      "name": "부채비율 (D/E)",
+      "value": "7.25",
+      "interpretation": "레버리지 높으나 현금흐름으로 충분히 커버"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "GTC 2026 (3/16-19) D-9 — Rubin R200 공개 임박",
@@ -54,30 +83,73 @@
       "description": "Alphabet, Amazon, Meta, Microsoft, CoreWeave 합산 CapEx ~$700B. NVIDIA GPU 수요 직결."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습·추론 GPU 시장 90%+ 점유율. 소프트웨어+하드웨어 통합이 핵심 해자.",
     "moats": [
-      { "type": "CUDA 생태계", "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화." },
-      { "type": "설계 우위", "description": "Blackwell→Rubin으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서." },
-      { "type": "풀스택 전략", "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise)+네트워킹(Spectrum-X) 통합." }
+      {
+        "type": "CUDA 생태계",
+        "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."
+      },
+      {
+        "type": "설계 우위",
+        "description": "Blackwell→Rubin으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서."
+      },
+      {
+        "type": "풀스택 전략",
+        "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise)+네트워킹(Spectrum-X) 통합."
+      }
     ],
     "competitors": [
-      { "name": "AMD (MI300X)", "detail": "AI GPU 2위. 가격 경쟁력이나 생태계 열위" },
-      { "name": "Intel (Gaudi 3)", "detail": "AI 가속기 후발. 시장 점유율 미미" },
-      { "name": "Google TPU", "detail": "자체 AI 칩. Gemini 학습에 사용, 외부 판매 없음" },
-      { "name": "Broadcom (커스텀 ASIC)", "detail": "하이퍼스케일러 전용 AI칩 설계 수주 증가" }
+      {
+        "name": "AMD (MI300X)",
+        "detail": "AI GPU 2위. 가격 경쟁력이나 생태계 열위"
+      },
+      {
+        "name": "Intel (Gaudi 3)",
+        "detail": "AI 가속기 후발. 시장 점유율 미미"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩. Gemini 학습에 사용, 외부 판매 없음"
+      },
+      {
+        "name": "Broadcom (커스텀 ASIC)",
+        "detail": "하이퍼스케일러 전용 AI칩 설계 수주 증가"
+      }
     ]
   },
-
   "recentNews": [
-    { "date": "2026-03-06", "headline": "고용 충격 + 유가 급등으로 NVDA -3.01%, 테크 전반 매도", "significance": "비농업 고용 급감과 이란전쟁발 유가 $90+ 급등으로 위험자산 회피. 나스닥 주간 최대 하락", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html" },
-    { "date": "2026-03-06", "headline": "H200 칩에 25% 관세 부과, 중국 시장 사실상 상실", "significance": "관세+수출 통제로 중국 매출 전망치에서 제외. 추가 규제 리스크 상존", "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/" },
-    { "date": "2026-03-06", "headline": "Motley Fool: 'NVDA, 1년 만에 가장 저렴한 수준'", "significance": "관세 셀오프로 밸류에이션 매력 부각. 역사적으로 저렴할 때 매수 시 수익", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/" },
-    { "date": "2026-03-06", "headline": "옵션 시장: 풋 비중 57.4%, 단기 하방 헤지 우세", "significance": "델타 40-60 옵션 분석 결과 풋 우위. 단기 약세 심리 반영", "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/" },
-    { "date": "2026-03-05", "headline": "GTC 2026 (3/16-19) D-10, Rubin R200 공개 예정", "significance": "차세대 아키텍처 공개가 밸류에이션 재평가 촉매가 될 수 있음", "url": "https://stockanalysis.com/stocks/nvda/" }
+    {
+      "date": "2026-03-06",
+      "headline": "고용 충격 + 유가 급등으로 NVDA -3.01%, 테크 전반 매도",
+      "significance": "비농업 고용 급감과 이란전쟁발 유가 $90+ 급등으로 위험자산 회피. 나스닥 주간 최대 하락",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "H200 칩에 25% 관세 부과, 중국 시장 사실상 상실",
+      "significance": "관세+수출 통제로 중국 매출 전망치에서 제외. 추가 규제 리스크 상존",
+      "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "Motley Fool: 'NVDA, 1년 만에 가장 저렴한 수준'",
+      "significance": "관세 셀오프로 밸류에이션 매력 부각. 역사적으로 저렴할 때 매수 시 수익",
+      "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/"
+    },
+    {
+      "date": "2026-03-06",
+      "headline": "옵션 시장: 풋 비중 57.4%, 단기 하방 헤지 우세",
+      "significance": "델타 40-60 옵션 분석 결과 풋 우위. 단기 약세 심리 반영",
+      "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "GTC 2026 (3/16-19) D-10, Rubin R200 공개 예정",
+      "significance": "차세대 아키텍처 공개가 밸류에이션 재평가 촉매가 될 수 있음",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    }
   ],
-
   "analystOpinions": {
     "consensusTarget": 265.18,
     "highTarget": 350,
@@ -88,112 +160,170 @@
     "sellCount": 3,
     "notableComment": "57명 애널리스트 Strong Buy 컨센서스. 목표가 $265.18로 현재가 대비 +49% 상승 여력. MarketBeat 컨센서스 $273.64. GTC 이후 업사이드 리비전 가능."
   },
-
   "risks": [
-    { "severity": "high", "title": "중국 관세·수출 통제 심화", "description": "H200에 25% 관세 부과. 중국 매출 사실상 상실. 추가 규제 확대 리스크." },
-    { "severity": "high", "title": "매크로 역풍 — 유가 $90+, 고용 충격", "description": "스태그플레이션 우려가 기술주 밸류에이션을 압박." },
-    { "severity": "medium", "title": "커스텀 ASIC 위협", "description": "Broadcom, Google TPU 등 하이퍼스케일러 자체 칩 설계 증가." },
-    { "severity": "medium", "title": "AI CapEx 사이클 피크 우려", "description": "하이퍼스케일러 CapEx $700B 수준에서 수익 회수 불확실." },
-    { "severity": "low", "title": "인사이더 매도", "description": "CFO Colette Kress, EVP Ajay Puri 등 경영진 지속적 매도." }
+    {
+      "severity": "high",
+      "title": "중국 관세·수출 통제 심화",
+      "description": "H200에 25% 관세 부과. 중국 매출 사실상 상실. 추가 규제 확대 리스크."
+    },
+    {
+      "severity": "high",
+      "title": "매크로 역풍 — 유가 $90+, 고용 충격",
+      "description": "스태그플레이션 우려가 기술주 밸류에이션을 압박."
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 위협",
+      "description": "Broadcom, Google TPU 등 하이퍼스케일러 자체 칩 설계 증가."
+    },
+    {
+      "severity": "medium",
+      "title": "AI CapEx 사이클 피크 우려",
+      "description": "하이퍼스케일러 CapEx $700B 수준에서 수익 회수 불확실."
+    },
+    {
+      "severity": "low",
+      "title": "인사이더 매도",
+      "description": "CFO Colette Kress, EVP Ajay Puri 등 경영진 지속적 매도."
+    }
   ],
-
   "buyReasons": [
-    { "title": "Forward P/E 16.55x — '1년 만에 가장 저렴'", "rationale": "관세 셀오프로 성장 대비 크게 할인. 역사적으로 저렴할 때 매수 시 초과수익." },
-    { "title": "GTC D-9 이벤트 드리븐 기회", "rationale": "Rubin R200 공개가 밸류에이션 재평가 촉매. 3만 명 참석 예정." },
-    { "title": "애널리스트 컨센서스 $265 대비 49% 할인", "rationale": "57명 Strong Buy, 목표가 대비 역대급 괴리. 과매도 구간." },
-    { "title": "FCF $58B + 매출 +73% 성장", "rationale": "펀더멘털 훼손 없이 매크로 요인만으로 하락. 실적 대비 저평가." }
+    {
+      "title": "Forward P/E 16.55x — '1년 만에 가장 저렴'",
+      "rationale": "관세 셀오프로 성장 대비 크게 할인. 역사적으로 저렴할 때 매수 시 초과수익."
+    },
+    {
+      "title": "GTC D-9 이벤트 드리븐 기회",
+      "rationale": "Rubin R200 공개가 밸류에이션 재평가 촉매. 3만 명 참석 예정."
+    },
+    {
+      "title": "애널리스트 컨센서스 $265 대비 49% 할인",
+      "rationale": "57명 Strong Buy, 목표가 대비 역대급 괴리. 과매도 구간."
+    },
+    {
+      "title": "FCF $58B + 매출 +73% 성장",
+      "rationale": "펀더멘털 훼손 없이 매크로 요인만으로 하락. 실적 대비 저평가."
+    }
   ],
-
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
     "currentPositionPercent": 72.6,
-    "sma50": 186.40,
+    "sma50": 186.4,
     "sma50Signal": "below",
     "sma200": 186.43,
     "sma200Signal": "below",
     "rsi": 44.8,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "고용 충격과 유가 급등 속에서 NVDA가 -3.01% 하락, $177.82 마감. 50일선·200일선 모두 하회하며 단기 약세 지속.",
-    "H200 25% 관세와 중국 시장 상실이 부담이나, Forward P/E 16.55x는 '1년 만에 가장 저렴'한 수준.",
-    "GTC 2026 D-9. Rubin R200 공개가 밸류에이션 재평가의 결정적 촉매. 애널리스트 57명 Strong Buy, 목표가 $265(+49%).",
-    "옵션 시장은 단기 하방 헤지 우세(풋 57%)이나, FCF $58B과 매출 +73%의 펀더멘털은 훼손 없음. GTC 전 분할 매수 전략 유효."
+    "고용 지표 악화와 유가 급등으로 기술주 전반이 매도세를 맞았고, NVDA도 3.01% 하락한 $177.82에 마감했다. 최근 50일 평균 주가($186)와 200일 평균 주가($186) 모두 아래에 있어 단기 흐름은 약세다.",
+    "AI 칩 H200에 25% 관세가 부과되면서 중국 매출은 사실상 사라졌다. 하지만 향후 1년 예상 이익 기준 주가수익비율이 16.55배로, 1년 만에 가장 저렴한 수준이라는 평가가 나온다.",
+    "엔비디아 기술 컨퍼런스(GTC)가 9일 남았고, 차세대 AI 칩 Rubin R200이 공개될 예정이다. 애널리스트 57명이 적극 매수를 권고하며 목표 주가 $265(현재보다 49% 높은 수준)를 제시하고 있다.",
+    "하락에 베팅하는 옵션 비중이 57%로 단기 하락 경계 심리가 강하지만, 자유현금흐름(실제 벌어들인 현금) 580억 달러와 매출 73% 성장이라는 기초 체력은 그대로다. 컨퍼런스 전 나눠서 매수하는 전략이 유효해 보인다."
   ],
-
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html", "description": "3/6 고용 충격 + 유가 급등 매크로 분석" },
-    { "name": "Invezz", "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/", "description": "NVDA 하락 원인 분석, H200 관세 25%" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/", "description": "NVDA 1년 만에 가장 저렴, 역사적 패턴" },
-    { "name": "HistoricalOptionData", "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/", "description": "NVDA 3/6 옵션·기술적 분석" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "애널리스트 컨센서스 $273.64" },
-    { "name": "NPR", "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report", "description": "유가 $90+, 10월 이후 최악의 주간" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=NVDA", "description": "NVDA 종합 기술적 지표" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA 뉴스 및 기본 정보" }
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html",
+      "description": "3/6 고용 충격 + 유가 급등 매크로 분석"
+    },
+    {
+      "name": "Invezz",
+      "url": "https://invezz.com/sg/news/2026/03/06/why-is-nvidia-stock-falling-today/",
+      "description": "NVDA 하락 원인 분석, H200 관세 25%"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/",
+      "description": "NVDA 1년 만에 가장 저렴, 역사적 패턴"
+    },
+    {
+      "name": "HistoricalOptionData",
+      "url": "https://historicaloptiondata.com/nvda-trading-analysis-03-06-2026-0423-pm/",
+      "description": "NVDA 3/6 옵션·기술적 분석"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "애널리스트 컨센서스 $273.64"
+    },
+    {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report",
+      "description": "유가 $90+, 10월 이후 최악의 주간"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=NVDA",
+      "description": "NVDA 종합 기술적 지표"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA 뉴스 및 기본 정보"
+    }
   ],
-
   "snsContent": {
     "x": {
-      "hook": "NVDA $178, 1년 만에 가장 싼데... 함정일까?",
-      "text": "$NVDA -3.01% $177.82. 고용 충격 + 유가 $90 급등으로 나스닥이 무너졌다. Forward P/E 16.5x, Motley Fool이 '1년 만에 가장 저렴'이라고 했다.",
+      "hook": "NVDA $178, 1년 만에 가장 싼데 함정일까?",
+      "text": "$NVDA 3.01% 하락, $177.82 마감. 고용 지표 악화와 유가 급등으로 기술주 전체가 빠졌다. 예상 이익 기준 주가수익비율 16.5배, 1년 만에 가장 저렴하다는 평가.\n\n1/4",
       "thread": [
-        "H200에 25% 관세가 부과되면서 중국 매출은 사실상 상실. 하지만 하이퍼스케일러 CapEx가 합산 $700B이라 나머지 시장만으로도 성장이 버틴다.",
-        "GTC가 9일 앞이다. Rubin R200 공개가 밸류에이션 재평가의 결정적 촉매. 애널리스트 57명 Strong Buy, 목표가 $265(+49%).",
-        "옵션은 풋 57%로 단기 약세 심리. 하지만 매출 +73%, FCF $58B의 펀더멘털은 건재. 지금이 GTC 전 마지막 할인일 수 있다. investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+        "AI 칩 H200에 25% 관세가 붙으면서 중국 매출은 사실상 사라졌다. 하지만 빅테크 기업들이 합산 7000억 달러를 AI에 투자 중이라 나머지 시장만으로도 성장세가 이어진다.\n\n2/4",
+        "엔비디아 기술 컨퍼런스(GTC)가 9일 앞이다. 차세대 AI 칩 Rubin R200 공개 예정. 애널리스트 57명이 적극 매수 의견, 목표 주가 $265(지금보다 49% 높음).\n\n3/4",
+        "하락에 베팅하는 옵션이 57%로 단기 경계 심리가 강하다. 하지만 실제 벌어들인 현금 580억 달러, 매출 73% 성장은 그대로. 컨퍼런스 전 마지막 할인일 수 있다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA $178, Forward P/E 16.5x — GTC D-9",
-      "text": "$NVDA -3.01% $177.82. 고용 충격+유가 급등+관세 부담 삼중 역풍. 하지만 Forward P/E 16.5x로 1년 만에 가장 저렴. GTC D-9에 Rubin R200 공개 임박. 애널리스트 57명 Strong Buy, 목표가 $265(+49%). 매출 +73%, FCF $58B 펀더멘털 훼손 없이 매크로만으로 하락 중. GTC 전 마지막 진입 기회? investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+      "hook": "NVDA $178, 예상 이익 기준 주가수익비율 16.5배",
+      "text": "$NVDA 3.01% 하락, $177.82. 고용 악화, 유가 급등, 관세 부담이 한꺼번에 닥쳤다. 하지만 예상 이익 기준 주가수익비율이 16.5배로 1년 만에 가장 저렴. 엔비디아 기술 컨퍼런스(GTC)가 9일 남았고 차세대 AI 칩 Rubin R200이 공개된다. 애널리스트 57명 적극 매수, 목표 주가 $265(지금보다 49% 높음). 매출 73% 성장, 실제 벌어들인 현금 580억 달러로 기초 체력은 그대로다 🔥"
     },
     "telegram": {
-      "hook": "NVDA $177.82 (-3.01%) — 1년 만에 가장 저렴, GTC D-9",
-      "text": "NVIDIA 일일 분석 (3/7)\n\n가격: $177.82 (-3.01%) | 시총 $4.32T\nP/E: 36.29x | Forward P/E: 16.55x\n\n핵심 이슈:\n- 📉 고용 충격 + 유가 $90+ → 테크 전반 매도세\n- 🇨🇳 H200 25% 관세 → 중국 시장 사실상 상실\n- 📊 Forward P/E 16.5x = Motley Fool '1년 만에 가장 저렴'\n- 🎯 GTC 2026 D-9: Rubin R200 공개 임박\n- 💰 매출 +73%, FCF $58.1B — 펀더멘털 훼손 없음\n\n기술적: 50일선 $186, 200일선 $186 하회 | RSI 44.8 중립\n애널리스트: Strong Buy, 컨센서스 $265 (+49%)\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+      "hook": "NVDA $177.82 (-3.01%) 1년 만에 가장 저렴, GTC 9일 남음",
+      "text": "NVIDIA 일일 분석 (3/7)\n\n가격: $177.82 (-3.01%) | 시총 $4.32T\n주가수익비율: 36.29배 | 예상 이익 기준: 16.55배\n\n핵심 이슈:\n- 📉 고용 지표 악화 + 유가 $90 돌파로 기술주 전반 하락\n- 🇨🇳 AI 칩 H200에 25% 관세 부과, 중국 매출 사실상 상실\n- 📊 예상 이익 기준 주가수익비율 16.5배 = 1년 만에 가장 저렴\n- 🎯 엔비디아 기술 컨퍼런스(GTC) 9일 남음, 차세대 칩 Rubin R200 공개 예정\n- 💰 매출 73% 성장, 실제 벌어들인 현금 580억 달러로 기초 체력 건재\n\n기술적: 50일 평균 주가 $186, 200일 평균 주가 $186 아래 | RSI 44.8 중립\n애널리스트: 적극 매수, 목표 주가 $265 (지금보다 +49%)\n\nhttps://"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $178, 1년 만에 가장 싼데... 함정일까?",
-          "text": "$NVDA -3.01% $177.82. 고용 충격 + 유가 $90 급등으로 나스닥이 무너졌다. Forward P/E 16.5x, Motley Fool이 '1년 만에 가장 저렴'이라고 했다.",
+          "hook": "NVDA $178, 1년 만에 가장 싼데 함정일까?",
+          "text": "$NVDA 3.01% 하락, $177.82 마감. 고용 지표 악화와 유가 급등으로 기술주 전체가 빠졌다. 예상 이익 기준 주가수익비율 16.5배, 1년 만에 가장 저렴하다는 평가.\n\n1/4",
           "thread": [
-            "H200에 25% 관세가 부과되면서 중국 매출은 사실상 상실. 하지만 하이퍼스케일러 CapEx가 합산 $700B이라 나머지 시장만으로도 성장이 버틴다.",
-            "GTC가 9일 앞이다. Rubin R200 공개가 밸류에이션 재평가의 결정적 촉매. 애널리스트 57명 Strong Buy, 목표가 $265(+49%).",
-            "옵션은 풋 57%로 단기 약세 심리. 하지만 매출 +73%, FCF $58B의 펀더멘털은 건재. 지금이 GTC 전 마지막 할인일 수 있다. investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+            "AI 칩 H200에 25% 관세가 붙으면서 중국 매출은 사실상 사라졌다. 하지만 빅테크 기업들이 합산 7000억 달러를 AI에 투자 중이라 나머지 시장만으로도 성장세가 이어진다.\n\n2/4",
+            "엔비디아 기술 컨퍼런스(GTC)가 9일 앞이다. 차세대 AI 칩 Rubin R200 공개 예정. 애널리스트 57명이 적극 매수 의견, 목표 주가 $265(지금보다 49% 높음).\n\n3/4",
+            "하락에 베팅하는 옵션이 57%로 단기 경계 심리가 강하다. 하지만 실제 벌어들인 현금 580억 달러, 매출 73% 성장은 그대로. 컨퍼런스 전 마지막 할인일 수 있다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "NVDA, 세상에서 가장 수익성 좋은 '싸구려'",
-          "text": "$NVDA $177.82. FCF $58B 벌고 매출 73% 성장하는 회사가 Forward P/E 16배라니. 시장이 선물을 주고 있다면, 관세와 유가가 포장지다.",
+          "hook": "NVDA, 세상에서 가장 잘 버는 '할인 상품'",
+          "text": "$NVDA $177.82. 현금 580억 달러를 벌고 매출이 73% 성장하는 회사가 예상 이익 기준 16배라니. 시장이 선물을 주는 거라면, 관세와 유가가 포장지다.\n\n1/4",
           "thread": [
-            "H200에 관세 25%? 중국 매출 상실? 안타깝지만 하이퍼스케일러들이 $700B 쏟아붓고 있어서 괜찮다. 중국 없어도 $78B 가이던스를 $5.4B 이겼다.",
-            "GTC가 9일 후다. Jensen Huang이 'Rubin R200'을 공개하면 시장이 다시 열광할 것이다. 역사적으로 GTC 전 하락은 매수 기회였다.",
-            "결론: 매크로가 아무리 무서워도, AI CapEx 사이클은 아직 초반이다. 싸게 살 수 있을 때 사야지. investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+            "AI 칩에 관세 25%? 중국 매출 상실? 안타깝지만 빅테크들이 7000억 달러를 쏟아붓고 있어서 괜찮다. 중국 없이도 다음 분기 매출 전망을 54억 달러나 이겼다.\n\n2/4",
+            "엔비디아 기술 컨퍼런스(GTC) 9일 후. 차세대 칩 Rubin R200이 공개되면 시장이 다시 열광할 것이다. 역사적으로 컨퍼런스 전 하락은 매수 기회였다.\n\n3/4",
+            "결론: 경제 상황이 아무리 무서워도 AI 투자 사이클은 아직 초반이다. 목표 주가 $265(+49%). 싸게 살 수 있을 때 사야지.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더, $180 깨졌는데 괜찮아요",
-          "text": "$NVDA -3.01% $177.82. $180 심리 지지선이 깨지면서 불안하시죠. 고용 충격에 유가 폭등까지, 매크로가 모든 걸 짓누르는 금요일이었어요.",
+          "hook": "NVDA 보유자분들, $180 깨졌는데 괜찮아요",
+          "text": "$NVDA 3.01% 하락, $177.82. $180 심리적 지지선이 무너지면서 불안하시죠. 고용 악화에 유가 폭등까지 겹친 힘든 하루였어요.\n\n1/4",
           "thread": [
-            "하지만 숫자를 보면 위안이 됩니다. Forward P/E 16.5x는 1년 만에 가장 싸고, 매출은 73% 성장, FCF는 $58B. 펀더멘털이 무너진 게 아니라 매크로가 무너진 거예요.",
-            "GTC가 9일 후입니다. Rubin R200 공개가 분위기를 바꿀 수 있어요. 애널리스트 57명이 $265를 보고 있으니, 지금은 인내의 시간.",
-            "단기 변동에 흔들리지 마세요. AI 인프라 투자는 아직 초반이고, NVIDIA는 그 중심에 있습니다. investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+            "하지만 숫자를 보면 위안이 됩니다. 예상 이익 기준 주가수익비율 16.5배는 1년 만에 가장 싸고, 매출 73% 성장, 실제 벌어들인 현금 580억 달러. 회사가 무너진 게 아니라 경제 환경이 흔들린 거예요.\n\n2/4",
+            "엔비디아 기술 컨퍼런스(GTC) 9일 후입니다. 차세대 칩 Rubin R200 공개가 분위기를 바꿀 수 있어요. 애널리스트 57명이 목표 주가 $265(+49%)를 보고 있으니 인내의 시간이에요.\n\n3/4",
+            "단기 변동에 흔들리지 마세요. AI 인프라 투자는 아직 초반이고, NVIDIA는 그 중심에 있습니다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA $178, Forward P/E 16.5x — GTC D-9",
-          "text": "$NVDA -3.01% $177.82. 고용 충격+유가 급등+관세 부담 삼중 역풍. 하지만 Forward P/E 16.5x로 1년 만에 가장 저렴. GTC D-9에 Rubin R200 공개 임박. 애널리스트 57명 Strong Buy, 목표가 $265(+49%). 매출 +73%, FCF $58B 펀더멘털 훼손 없이 매크로만으로 하락 중. GTC 전 마지막 진입 기회? investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+          "hook": "NVDA $178, 예상 이익 기준 주가수익비율 16.5배",
+          "text": "$NVDA 3.01% 하락, $177.82. 고용 악화, 유가 급등, 관세 부담이 한꺼번에 닥쳤다. 하지만 예상 이익 기준 주가수익비율이 16.5배로 1년 만에 가장 저렴. 엔비디아 기술 컨퍼런스(GTC)가 9일 남았고 차세대 AI 칩 Rubin R200이 공개된다. 애널리스트 57명 적극 매수, 목표 주가 $265(지금보다 49% 높음). 매출 73% 성장, 실제 벌어들인 현금 580억 달러로 기초 체력은 그대로다 🔥"
         },
         "witty": {
-          "hook": "NVDA, $58B 벌면서 '저렴'한 주식",
-          "text": "$NVDA $177.82. 매출 +73%, FCF $58B인데 Forward P/E가 16배. 시장이 공짜 선물을 주고 있다고 해야 할까, 뭔가 숨겨진 게 있다고 해야 할까. 관세 25%, 유가 $90+, 고용 충격. 다 맞는데 GTC가 9일 후다. Jensen이 무대에 서면 분위기가 달라진다. 역사가 그랬다. investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+          "hook": "NVDA, 580억 달러 벌면서 '저렴'한 주식",
+          "text": "$NVDA $177.82. 매출 73% 성장, 실제 벌어들인 현금 580억 달러인데 예상 이익 기준 주가수익비율이 16배. 시장이 공짜 선물을 주는 건지, 뭔가 숨겨진 게 있는 건지. 관세 25%, 유가 $90 돌파, 고용 충격. 다 맞는데 엔비디아 기술 컨퍼런스(GTC)가 9일 후다. 목표 주가 $265(+49%). 역사적으로 컨퍼런스 전 하락은 기회였다"
         },
         "empathy": {
           "hook": "NVDA $180 깨졌어요, 걱정되시죠",
-          "text": "$NVDA -3.01% $177.82. $180 심리 지지선 이탈이 불안하시죠. 고용 충격 + 유가 폭등이라는 매크로 역풍이 원인이에요. 펀더멘털은 건재합니다. Forward P/E 16.5x, 매출 +73%, FCF $58B. GTC D-9이 분위기를 바꿀 촉매가 될 수 있어요. 단기 변동에 흔들리지 마시고, 인내하시길. investory.kro.kr/stock/NVDA/analysis/2026-03-07"
+          "text": "$NVDA 3.01% 하락, $177.82. $180 심리적 지지선 이탈이 불안하시죠. 고용 악화와 유가 폭등이라는 경제 역풍이 원인이에요. 기초 체력은 건재합니다. 예상 이익 기준 주가수익비율 16.5배, 매출 73% 성장, 실제 벌어들인 현금 580억 달러. 엔비디아 기술 컨퍼런스(GTC) 9일 후가 분위기를 바꿀 계기가 될 수 있어요. 목표 주가 $265(+49%). 단기 변동에 흔들리지 마시고 인내하시길"
         }
       }
     }

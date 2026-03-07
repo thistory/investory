@@ -160,10 +160,21 @@ Write collected data as JSON in the following structure:
   // Order: catalysts/events/macro FIRST → price/technicals LAST
   //   Top: news, key events, catalysts, bull/bear cases, macro impact, company events
   //   Bottom: price levels, valuation metrics, technical analysis (SMA, RSI, etc.)
+  //
+  // ★ PLAIN LANGUAGE REQUIRED ★
+  // 주식 초보자가 읽어도 바로 이해할 수 있게 써라. overallOpinion은 리포트의 최종 요약이다.
+  // - 약어/전문 용어를 풀어서 써라:
+  //   Bad: "NHTSA FSD 데이터 마감 D-2" → Good: "미국 도로교통안전청의 자율주행 심사 마감이 이틀 남았다"
+  //   Bad: "200일 SMA $392 지지" → Good: "최근 200일 평균 주가($392) 근처에서 버티는 중"
+  //   Bad: "RSI 41 과매도 접근" → Good: "매도 압력이 커지고 있어 반등 가능성도 있다"
+  //   Bad: "Jobs shock + 유가 $90+" → Good: "고용지표 충격과 유가 90달러 돌파로 시장 전체가 흔들렸다"
+  //   Bad: "UK Feb sales -37%" → Good: "영국 2월 판매가 37% 급감했다"
+  // - 원인과 결과를 연결해서 써라. 숫자만 나열하지 말고 "왜 중요한지"를 한 마디 붙여라.
+  // - 키워드 나열 금지. 완전한 문장으로 써라.
   "overallOpinion": [
-    "핵심 이벤트/카탈리스트 + 수치 (1문장)",
-    "호재 또는 악재 요약 + 수치 (1문장)",
-    "가격, 밸류에이션, 기술적 포지션 (항상 마지막, 1문장)"
+    "핵심 이벤트/카탈리스트를 쉬운 말로 설명 + 수치 (1문장)",
+    "호재 또는 악재를 원인-결과로 요약 + 수치 (1문장)",
+    "현재 주가 위치와 앞으로의 방향을 쉽게 정리 (항상 마지막, 1문장)"
   ],
 
   // Sources (minimum 8)
@@ -191,6 +202,12 @@ Add an `snsContent` field to the report JSON. **X (Twitter) uses a thread format
   - Bad: "P/E 375x" → Good: "주가수익비율(P/E) 375배, 이익 대비 주가가 매우 비싸다"
   - Bad: "50일선 $431 하회" → Good: "최근 50일 평균 주가($431)보다 아래에 있다"
   - Bad: "컨센서스 $396" → Good: "애널리스트 평균 목표가 $396"
+  - Bad: "Jobs shock and oil surging to $90+" → Good: "고용지표 충격과 유가 90달러 돌파로 시장이 흔들렸다"
+  - Bad: "Binary event: pass triggers rally, fail risks 30% downside" → Good: "통과하면 반등, 불합격하면 30% 하락 위험이 있는 중요한 갈림길"
+  - Bad: "RSI 41 approaching oversold" → Good: "매도 압력이 커지면서 반등 가능성도 열려 있다"
+- **원인-결과 연결**: 숫자만 던지지 말고 "왜 중요한지" 한 마디를 붙여라.
+  - Bad: "UK Feb sales -37%" → Good: "영국 2월 판매가 37% 급감하면서 유럽 매출 전망이 어두워졌다"
+  - Bad: "Clinging to the 200-day SMA at $392" → Good: "최근 200일 평균 주가($392) 근처에서 버티고 있어, 이 선이 무너지면 추가 하락 가능성"
 
 **키워드 나열 금지. 짧은 문장으로 써라.**
 
@@ -227,7 +244,15 @@ snsContent는 별도로 창작하는 것이 아니라, **`overallOpinion` 필드
 > 3. **Keep the substance**: Change the tone, not the depth. Retain all numbers (targets, P/E, SMAs), catalysts, and risks from overallOpinion.
 > 4. **Engagement layer**: Layer SNS elements on top of overallOpinion content: closing questions, contrast/irony framing.
 > 5. **Length: match overallOpinion**: The total thread length should be similar to overallOpinion (350-400 chars). Don't over-compress. Deliver the same amount of information and context as overallOpinion, but in SNS tone.
-> 6. **Plain language**: Explain jargon from overallOpinion in accessible terms. "P/E 375x" → "price-to-earnings ratio of 375x (very expensive relative to profits)", "below 50-day SMA" → "trading below its 50-day average price", etc. A beginner investor should understand every sentence.
+> 6. **Plain language**: Explain jargon from overallOpinion in accessible terms. A beginner investor should understand every sentence.
+>    - Bad: "P/E 375x" → Good: "price-to-earnings ratio of 375x (very expensive relative to profits)"
+>    - Bad: "below 50-day SMA" → Good: "trading below its 50-day average price"
+>    - Bad: "Jobs shock and oil surging to $90+" → Good: "a weak jobs report and oil prices jumping above $90 rattled the market"
+>    - Bad: "Binary event: pass triggers rally" → Good: "this is a make-or-break moment: approval could spark a rally"
+>    - Bad: "RSI 41 approaching oversold" → Good: "selling pressure is building, which sometimes means a bounce is near"
+> 7. **Cause and effect**: Don't just state numbers. Explain WHY they matter in one phrase.
+>    - Bad: "UK Feb sales -37%" → Good: "UK sales plunged 37% in February, dimming the European revenue outlook"
+>    - Bad: "Clinging to the 200-day SMA at $392" → Good: "holding near its 200-day average price of $392, a key support level that could trigger further drops if broken"
 
 #### X (Twitter) Thread Format
 
