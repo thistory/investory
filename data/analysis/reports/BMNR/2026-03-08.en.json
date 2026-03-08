@@ -4,218 +4,124 @@
   "analysisDate": "2026-03-08",
   "currentPrice": 18.88,
   "marketCap": "$8.59B",
-
   "businessSummary": {
     "oneLiner": "World's largest publicly traded Ethereum holder — applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
-    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,473,587 ETH (3.71% of total supply) as of 3/1, with total crypto + cash of $9.9B. Closed 3/6 at $18.88 (-7.22%). Culper Research short report fallout continues as ETH trades flat at $1,977. Simply Wall St analyzes how MAVAN staking launch and ETH accumulation are altering the investment case. Forward P/E 24.84x, P/B 0.69x (31% NAV discount).",
+    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,473,587 ETH (3.71% of total supply) as of 3/1. Friday close $18.88 (-7.22%). Broke below $20 support, testing $18. Community rebuttal to Culper Research short report has emerged: ETH daily burn of $1.2B outpaces inflation, active addresses up 117% YoY. ETH Fear & Greed Index at 10 (Extreme Fear). Forward P/E 28.18x, P/B 0.69x.",
     "howTheyMakeMoney": [
       "ETH Treasury: 4,473,587 ETH held ($8.84B at $1,976/ETH) — core value driver",
-      "ETH Staking Revenue: 3,040,483 ETH staked, ~$172M annual revenue",
+      "ETH Staking Revenue: 3,040,483 ETH staked, $172M annual revenue",
       "Bitcoin Holdings: 195 BTC",
-      "Venture Investments: Beast Industries ($200M), Eightco Holdings ($14M) moonshot bets"
+      "Venture Investments: Beast Industries ($200M), Eightco Holdings ($14M) and other moonshot investments"
     ],
     "keyProducts": [
-      "Ethereum Treasury Strategy: 3.71% of total ETH supply concentrated holding",
+      "Ethereum Treasury Strategy: Concentrated holding of 3.71% of total ETH supply",
       "MAVAN: Made in America Validator Network — proprietary staking platform (launching early 2026)",
-      "ETH Staking: 68% of holdings staked, 3 staking provider partnerships",
-      "Moonshot Portfolio: Beast Industries, Eightco Holdings"
+      "ETH Staking: 68% of holdings staked across 3 staking provider partnerships",
+      "Moonshot Portfolio: Beast Industries, Eightco Holdings and others"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/B Ratio", "value": "0.69x", "interpretation": "31% discount to book value. Undervalued on NAV basis" },
-    { "name": "Forward P/E", "value": "24.84x", "interpretation": "Reasonable when factoring in staking revenue" },
-    { "name": "Market Cap", "value": "$8.59B", "interpretation": "Trading below ETH holding value of $8.84B" },
-    { "name": "ETH Holdings", "value": "4,473,587 ETH", "interpretation": "3.71% of total supply. Market-dominant position" },
-    { "name": "Short Interest", "value": "5.94%", "interpretation": "Elevated short selling. Increased post-Culper report" },
-    { "name": "Share Dilution (YoY)", "value": "+4,158%", "interpretation": "Extreme dilution. Core shareholder value destruction risk" },
-    { "name": "RSI", "value": "40.57", "interpretation": "Approaching oversold. Technical bounce possible" },
-    { "name": "52-Week Change", "value": "+144.56%", "interpretation": "Down sharply from highs but still up significantly YoY" }
+    {"name": "P/B Ratio", "value": "0.69x", "interpretation": "31% discount to NAV. Discount persists after $20 support break"},
+    {"name": "Forward P/E", "value": "28.18x", "interpretation": "Reflects future earnings from staking revenue"},
+    {"name": "ETH Holdings", "value": "4,473,587 ETH", "interpretation": "3.71% of total ETH supply. Largest among public companies"},
+    {"name": "BV/Share", "value": "$27.54", "interpretation": "Book value 46% premium over share price of $18.88"},
+    {"name": "Short Interest", "value": "6.24%", "interpretation": "Caution needed after Culper Research short report"},
+    {"name": "52-Week Return", "value": "+490%", "interpretation": "~5.9x from 52-week low of $3.20 to current price"},
+    {"name": "Cash Holdings", "value": "$868M", "interpretation": "Capacity for additional ETH purchases and operating costs"},
+    {"name": "Staking Revenue", "value": "$172M/year", "interpretation": "Target $253M with MAVAN launch"}
   ],
-
   "growthDrivers": [
-    {
-      "title": "Simply Wall St: MAVAN Launch + ETH Accumulation Altering Investment Case",
-      "description": "Published 3/7: Analysis of how Bitmine's 4.474M ETH accumulation and proprietary MAVAN staking platform launch are reshaping the investment thesis."
-    },
-    {
-      "title": "Culper 'Death Spiral' vs Counter-Evidence — ETH Ecosystem Debate",
-      "description": "Culper Research's short report countered by data: $1.2B daily burn, L2 active addresses +117% YoY. Non-spam wallet creation +12% YoY."
-    },
-    {
-      "title": "P/B 0.69x — 31% NAV Discount Persists",
-      "description": "Trading at massive discount to book value. ETH recovery would create amplified upside leverage."
-    },
-    {
-      "title": "ETH Staking 68% — $172M Annual Revenue Base",
-      "description": "3,040,483 ETH staked. MAVAN proprietary platform launch expected to improve yield."
-    }
+    {"title": "Culper Rebuttal Emerges — ETH Daily Burn $1.2B Exceeds Inflation", "description": "Ethereum Daily countered Culper's report: as of February, daily ETH burn is $1.2B, exceeding the 0.8% annual inflation rate. Active addresses up 117% YoY indicates real user growth."},
+    {"title": "ETH Fear & Greed at 10 — Contrarian Opportunity in Extreme Fear", "description": "The Fear & Greed Index has dropped to 10 (Extreme Fear). Historically, buying during extreme fear zones has produced outsized returns in multiple instances."},
+    {"title": "Culper Details: $7.4B Unrealized Losses, Vitalik Sold 20K ETH", "description": "According to Culper, BMNR has $7.4B in unrealized losses, and Vitalik Buterin sold 20K ETH ($40M). However, this is already largely priced into the stock."},
+    {"title": "P/B 0.69x — 31% Discount to NAV Persists", "description": "Book value $27.54 vs share price $18.88. Despite short pressure and ETH weakness, the NAV discount remains a long-term buy case."}
   ],
-
   "competitiveAdvantage": {
-    "summary": "Largest ETH holding among publicly traded companies (3.71% of supply). Tom Lee brings institutional credibility. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
+    "summary": "Largest ETH holdings among public companies (3.71% of supply). Tom Lee's joining adds institutional credibility. The only large-scale player applying MicroStrategy's BTC strategy to ETH.",
     "moats": [
-      {
-        "type": "ETH Supply Concentration",
-        "description": "3.71% of total ETH supply. Irreplaceable market position."
-      },
-      {
-        "type": "Institutional Access",
-        "description": "Provides ETH exposure via publicly traded stock. Institutional access without ETF."
-      },
-      {
-        "type": "Staking Revenue",
-        "description": "68% staked + MAVAN proprietary platform offers yield advantage over simple holding."
-      }
+      {"type": "ETH Supply Concentration", "description": "Holds 3.71% of total ETH supply. Irreplaceable market position."},
+      {"type": "Institutional Access", "description": "Provides ETH exposure via public stock. Institutional investors can access without ETFs."},
+      {"type": "Staking Revenue", "description": "68% staked + MAVAN proprietary platform gives yield advantage over simple holding."}
     ],
     "competitors": [
-      {
-        "name": "MicroStrategy (MSTR)",
-        "detail": "Original Bitcoin treasury strategy. BTC focus vs BMNR's ETH focus"
-      },
-      {
-        "name": "Grayscale Ethereum Trust (ETHE)",
-        "detail": "ETH trust fund. ETF conversion complete."
-      },
-      {
-        "name": "Coinbase (COIN)",
-        "detail": "Crypto exchange. Indirect ETH exposure."
-      }
+      {"name": "MicroStrategy (MSTR)", "detail": "Pioneer of Bitcoin treasury strategy. BTC focus vs BMNR's ETH focus"},
+      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH trust fund. Completed ETF conversion."},
+      {"name": "Coinbase (COIN)", "detail": "Crypto exchange. Indirect ETH exposure."}
     ]
   },
-
   "recentNews": [
-    {
-      "date": "2026-03-07",
-      "headline": "Simply Wall St: MAVAN Staking Launch and ETH Accumulation Altering BMNR Investment Case",
-      "significance": "Analysis of proprietary validator network launch and its potential to internalize staking revenues.",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-bitmines-ethereum-accumulation-and-mavan-staking-launch-a"
-    },
-    {
-      "date": "2026-03-07",
-      "headline": "ETH 'Death Spiral' Rebuttal — $1.2B Daily Burn Outpaces Inflation",
-      "significance": "Data-based counter to Culper report. Non-spam wallets +12% YoY, L2 active addresses +117%.",
-      "url": "https://bitcoinethereumnews.com/ethereum/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/"
-    },
-    {
-      "date": "2026-03-05",
-      "headline": "Culper Research Shorts ETH and BMNR — 'Tokenomics Impaired'",
-      "significance": "Short seller cites 90% fee decline post-Fusaka upgrade. Claims ETH tokenomics 'unrecoverable this cycle.'",
-      "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk"
-    },
-    {
-      "date": "2026-03-05",
-      "headline": "BMNR Breaks Below $20 Support — Three Consecutive Down Days",
-      "significance": "Psychological support level breached. Now testing $18 support precisely.",
-      "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-owns-3-71-of-eth-supply-now/"
-    },
-    {
-      "date": "2026-03-02",
-      "headline": "Bitmine Purchases 51,000 More ETH — Total Holdings Reach 4.474M (3.71% of Supply)",
-      "significance": "Continued ETH accumulation. Tom Lee: 'Viewing price weakness as long-term buying opportunity.'",
-      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"
-    }
+    {"date": "2026-03-07", "headline": "Ethereum Daily rebuts Culper short report — ETH daily burn $1.2B", "significance": "Daily ETH burn exceeds inflation. Active addresses up 117% YoY supports real user growth thesis", "url": "https://www.idoslaunchpad.com/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/"},
+    {"date": "2026-03-06", "headline": "BMNR breaks $20 support, plunges -7.22% as ETH dips below $2,000 intraday", "significance": "Three consecutive days of decline. Down 12% from high, next support at $18", "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/"},
+    {"date": "2026-03-05", "headline": "Culper Research short report details: $7.4B unrealized losses, Vitalik sold 20K ETH", "significance": "Claims ETH tokenomics are 'irrecoverable'. Interprets Vitalik's selling as 'exit signal'", "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk"},
+    {"date": "2026-03-03", "headline": "BitMine purchases 51,000 ETH ($98M) in weekly buy", "significance": "Aggressive accumulation strategy continues. Total holdings rise to 4.474M", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"},
+    {"date": "2026-03-02", "headline": "Bitmine announces ETH holdings reach 4.474M — total assets $9.9B", "significance": "Official 8-K filing. 3.71% of ETH supply confirmed", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html"}
   ],
-
   "analystOpinions": {
-    "consensusTarget": 47,
-    "highTarget": 56,
-    "lowTarget": 30,
-    "upsidePercent": 148.9,
-    "buyCount": 1,
-    "holdCount": 0,
-    "sellCount": 0,
-    "notableComment": "StockAnalysis: 1 analyst target $47 (133% upside). Public.com: Strong Buy $30. CoinCodex: Max estimate $55.83. Coverage extremely limited (1 analyst) — low confidence."
+    "consensusTarget": 34.5, "highTarget": 39.0, "lowTarget": 30.0, "upsidePercent": 82.73,
+    "buyCount": 2, "holdCount": 0, "sellCount": 0,
+    "notableComment": "Both analysts rate Strong Buy. Cantor Fitzgerald $39, B. Riley $30. Community rebuttal has somewhat weakened Culper report's impact. ETH stabilization is key."
   },
-
   "risks": [
-    {
-      "severity": "critical",
-      "title": "ETH Price Dependency — 90%+ NAV is ETH",
-      "description": "Further ETH decline from $1,977 would crush NAV. Culper's 'death spiral' scenario could push ETH below $1,500."
-    },
-    {
-      "severity": "critical",
-      "title": "Share Dilution +4,158% YoY",
-      "description": "Shares outstanding increased 42x in one year. Capital raises for ETH purchases severely destroy shareholder value."
-    },
-    {
-      "severity": "high",
-      "title": "Culper Research Short Report — Structural Bear Case",
-      "description": "Post-Fusaka fee decline of 90% cited. Claims ETH tokenomics 'unrecoverable this cycle.' Short interest at 5.94%."
-    },
-    {
-      "severity": "high",
-      "title": "3 Employees — Extreme Operational Risk",
-      "description": "Only 3 employees managing $9.9B in assets. Key-man risk and operational capacity concerns. Essentially an ETH holding SPV."
-    },
-    {
-      "severity": "medium",
-      "title": "Iran Conflict + Macro Risk-Off",
-      "description": "Geopolitical uncertainty driving risk-off sentiment. Crypto and high-beta stocks under pressure."
-    }
+    {"severity": "critical", "title": "ETH price concentration risk + $20 support broken", "description": "90%+ of NAV is ETH. $20 support broken, next support at $18. If ETH drops below $1,800, further plunge inevitable."},
+    {"severity": "critical", "title": "Culper short report + $7.4B unrealized losses", "description": "Claims ETH tokenomics are 'irrecoverable'. $7.4B unrealized losses and Vitalik selling pressure market sentiment."},
+    {"severity": "high", "title": "Massive share dilution — +4,158% YoY", "description": "Share count increased 42x in the past year. 50 billion share authorization request raises further dilution concerns."},
+    {"severity": "high", "title": "Macro headwinds — oil $90+, risk-off sentiment", "description": "Iran war + jobs shock driving broad risk asset selloff. Crypto directly impacted."},
+    {"severity": "medium", "title": "Persistent operating losses", "description": "TTM operating losses continue. Staking revenue insufficient to cover operating costs."}
   ],
-
   "buyReasons": [
-    {
-      "title": "P/B 0.69x — 31% NAV Discount",
-      "rationale": "Massive discount to book value. ETH recovery creates amplified leverage upside."
-    },
-    {
-      "title": "3.71% of ETH Supply — Irreplaceable Position",
-      "rationale": "Largest public ETH holder. Institutional proxy for ETH exposure."
-    },
-    {
-      "title": "MAVAN Proprietary Staking — Revenue Internalization",
-      "rationale": "68% staked + proprietary validator network launch reduces external dependency."
-    },
-    {
-      "title": "ETH Ecosystem Counter-Data — Death Spiral Overstated?",
-      "rationale": "$1.2B daily burn, L2 active addresses +117%. Culper's pessimism may be excessive."
-    }
+    {"title": "31% discount to NAV — P/B 0.69x", "rationale": "Book value $27.54 vs share price $18.88. NAV gap expected to narrow if ETH rebounds."},
+    {"title": "Community rebuttal: ETH daily burn $1.2B > inflation", "rationale": "Contrary to Culper's claims, ETH burn exceeds inflation. Tokenomics remain sound."},
+    {"title": "ETH Fear & Greed 10 — contrarian opportunity in extreme fear", "rationale": "Historically, buying during extreme fear zones has produced outsized returns."},
+    {"title": "MAVAN launch targets $253M staking revenue", "rationale": "47% revenue expansion from current $172M expected. Earnings turnaround catalyst."}
   ],
-
   "technicalPosition": {
-    "week52High": 58.50,
-    "week52Low": 7.72,
-    "currentPositionPercent": 21.9,
-    "sma50": 25.10,
-    "sma50Signal": "below",
-    "sma200": 35.79,
-    "sma200Signal": "below",
-    "rsi": 40.57,
-    "rsiSignal": "neutral"
+    "week52High": 161.0, "week52Low": 3.2, "currentPositionPercent": 9.94,
+    "sma50": 25.1, "sma50Signal": "below", "sma200": 35.78, "sma200Signal": "below",
+    "rsi": 40.57, "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "BMNR at $18.88 is testing $18 support precisely. P/B 0.69x represents a 31% NAV discount — whether this is opportunity or value trap is the central question.",
-    "Culper's 'death spiral' thesis vs bitcoinethereumnews's '$1.2B daily burn' rebuttal — the ETH tokenomics debate is heating up.",
-    "+4,158% share dilution is a serious concern. Diluting shareholders 42x to buy ETH is a red flag for long-term investors.",
-    "MAVAN proprietary staking is positive, but 3 employees managing $9.9B in assets is an inherent operational risk.",
-    "Bottom line: If you're bullish on ETH, this is a high-beta leverage play. If bearish, stay far away. No middle ground."
+    "A rebuttal to Culper Research's short report emerged over the weekend. According to Ethereum Daily, ETH daily burn is $1.2 billion, exceeding the annual inflation rate of 0.8%, and active addresses are up 117% year-over-year, contradicting Culper's claim that ETH is 'irrecoverable'.",
+    "On the other hand, the detailed findings in Culper's report are hard to ignore. BMNR's ETH holdings carry approximately $7.4 billion in unrealized losses from the highs, and even Ethereum co-founder Vitalik Buterin sold 20,000 ETH (about $40 million).",
+    "The ETH Fear & Greed Index has dropped to 10 (Extreme Fear). Historically, buying at this level has generated outsized returns, but whether that pattern repeats this cycle depends on ETH's structural health.",
+    "Both analysts maintain Strong Buy, target $34.50 (+83%). If $18 support breaks, it could slide to the $15 range, but if ETH stabilizes above $2,000, a rebound driven by NAV discount compression is possible."
   ],
-
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/statistics/", "description": "Valuation, technical indicators, financial data" },
-    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-bitmines-ethereum-accumulation-and-mavan-staking-launch-a", "description": "MAVAN staking launch investment case analysis" },
-    { "name": "CoinDesk (Culper)", "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk", "description": "Culper Research ETH short report" },
-    { "name": "CoinDesk (Purchase)", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase", "description": "51,000 ETH additional purchase" },
-    { "name": "BitcoinEthereumNews", "url": "https://bitcoinethereumnews.com/ethereum/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/", "description": "Culper rebuttal — ETH burn mechanism intact" },
-    { "name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-owns-3-71-of-eth-supply-now/", "description": "Technical analysis, Tom Lee commentary" },
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html", "description": "Official ETH holdings announcement" },
-    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "Market cap, P/E, intraday range" },
-    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "Analyst target $47" },
-    { "name": "CoinCodex", "url": "https://coincodex.com/stock/BMNR/price-prediction/", "description": "Price prediction model" }
+    {"name": "IDOSLaunchPad", "url": "https://www.idoslaunchpad.com/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/", "description": "Culper rebuttal: ETH daily burn $1.2B"},
+    {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk", "description": "Culper short report details: $7.4B unrealized losses"},
+    {"name": "BeInCrypto", "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/", "description": "BMNR $20 support break, $18 target analysis"},
+    {"name": "SpotedCrypto", "url": "https://www.spotedcrypto.com/ethereum-death-spiral-culper-short-warning/", "description": "Culper Research ETH/BMNR short report"},
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html", "description": "ETH holdings 4.474M disclosure"},
+    {"name": "Finviz", "url": "https://finviz.com/quote.ashx?t=BMNR", "description": "BMNR technical indicators"}
   ],
-
   "snsContent": {
+    "x": {
+      "hook": "Culper rebuttal emerges, ETH extreme fear",
+      "text": "$BMNR (Mar 8) Culper's 'ETH is irrecoverable' claim got a rebuttal. ETH daily burn $1.2B outpaces inflation. But $7.4B unrealized losses are real.\n\n1/4",
+      "thread": [
+        "ETH Fear & Greed Index hit 10 (Extreme Fear). Historically, buying at this level has paid off well. But this time could be different.\n\n2/4",
+        "Vitalik selling 20K ETH is a worrying sign. Trading 31% below asset value, but 42x share dilution is also a burden.\n\n3/4",
+        "Analyst target $34.50 (+83%). If ETH stabilizes above $2,000, rebound possible. If $18 breaks, $15 range risk.\n\n4/4"
+      ]
+    },
     "threads": {
-      "hook": "BMNR $18.88 — 31% NAV discount. Trap or opportunity? 🤔",
-      "text": "$BMNR -7.22% $18.88. Holds 3.71% of all ETH (4.47M tokens). Book value $27.54, stock at $19. Culper says 'death spiral' vs data showing $1.2B daily burn. Shares diluted 42x in one year — that's a real problem. 3 employees managing $9.9B. If you believe in ETH bull run = high-beta leverage. If not = stay far away. No middle ground. investory.kro.kr/stock/BMNR/analysis/2026-03-08"
+      "hook": "Culper rebuttal emerges, ETH extreme fear",
+      "text": "$BMNR (Mar 8) $18.88\n\nCulper's short report got a rebuttal. ETH daily burn $1.2B outpaces inflation, active addresses up 117%.\n\nBut $7.4B unrealized losses and Vitalik selling 20K ETH are also real. ETH Fear & Greed at 10 (Extreme Fear).\n\nTarget $34.50 (+83%). ETH stabilization is key."
     },
     "telegram": {
-      "hook": "BMNR $18.88 (-7.22%) — 3.71% of All ETH, 31% NAV Discount",
-      "text": "BMNR Daily Analysis (3/8)\n\n💰 $18.88 (-7.22%) | MCap $8.59B\n📊 P/B 0.69x | Forward P/E 24.84x | RSI 41\n\n🔑 Key Issues:\n• 🐻 Culper Research short — 'ETH death spiral'\n• 🔥 Counter: $1.2B daily burn, L2 addresses +117%\n• 📈 Simply Wall St: MAVAN staking launch changing thesis\n• ⚠️ Share dilution +4,158% YoY — 42x increase\n• 💎 4,473,587 ETH (3.71% of supply), added 51K more\n\n📐 Technical: $18 support test, 50-day $25 resistance\n🎯 Analyst $47 (149% upside) — only 1 analyst\n\nBottom line: 100% correlated to ETH direction. All-in or nothing.\n\nhttps://investory.kro.kr/stock/BMNR/analysis/2026-03-08"
+      "hook": "Culper rebuttal emerges, ETH extreme fear",
+      "text": "BMNR Daily Analysis (Mar 8)\n\nPrice: $18.88 (Friday close)\n\nKey Issues\n- Culper rebuttal: ETH daily burn $1.2B > inflation\n- Culper details: $7.4B unrealized losses, Vitalik sold\n- ETH Fear & Greed Index 10 (Extreme Fear)\n- $20 support broken, testing $18\n\nValuation\n- 31% discount to NAV\n- Both analysts Strong Buy\n\nTarget: $34.50 (+83%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {"hook": "Culper rebuttal emerges, ETH extreme fear", "text": "$BMNR (Mar 8) Culper's 'ETH is irrecoverable' claim got a rebuttal. ETH daily burn $1.2B outpaces inflation. But $7.4B unrealized losses are real.\n\n1/4", "thread": ["ETH Fear & Greed Index hit 10 (Extreme Fear). Historically, buying at this level has paid off well. But this time could be different.\n\n2/4", "Vitalik selling 20K ETH is a worrying sign. Trading 31% below asset value, but 42x share dilution is also a burden.\n\n3/4", "Analyst target $34.50 (+83%). If ETH stabilizes above $2,000, rebound possible. If $18 breaks, $15 range risk.\n\n4/4"]},
+        "witty": {"hook": "Ethereum life-or-death debate", "text": "$BMNR (Mar 8) 'ETH is dead' vs 'daily burn $1.2B, alive and well'. Where's the truth? $18.88.\n\n1/4", "thread": ["Culper: 'irrecoverable'. Community: 'burn exceeds inflation, what are you talking about'. Vitalik sold 20K ETH and stayed neutral.\n\n2/4", "Fear Index at 10. This is 'buy when there's blood in the streets' territory, but the streets could get bloodier.\n\n3/4", "Target $34.50 (+83%). Hit it and you're golden, miss and it's $15. It all comes down to whether Ethereum lives or dies.\n\n4/4"]},
+        "empathy": {"hook": "Uneasy weekend for BMNR holders", "text": "$BMNR (Mar 8) Not an easy weekend. $7.4B unrealized losses news plus Fear Index at 10. $18.88.\n\n1/4", "thread": ["But a rebuttal emerged too. ETH burn exceeds inflation and active addresses up 117%. It's not over yet.\n\n2/4", "Trading 31% below asset value, and both analysts still rate Strong Buy.\n\n3/4", "Target $34.50 (+83%). If ETH stabilizes, a rebound is possible. $18 is the next support. Hang in there a bit longer.\n\n4/4"]}
+      },
+      "threads": {
+        "fact": {"hook": "Culper rebuttal emerges, ETH extreme fear", "text": "$BMNR (Mar 8) $18.88\n\nCulper rebuttal emerged. ETH daily burn $1.2B outpaces inflation, active addresses up 117%.\n\nBut $7.4B unrealized losses and Vitalik selling are also real. Fear Index at 10.\n\nTarget $34.50 (+83%). ETH stabilization is key."},
+        "witty": {"hook": "Ethereum life-or-death debate", "text": "$BMNR (Mar 8) $18.88\n\n'Dead' vs 'alive' debate in full swing. Culper short vs community rebuttal. Vitalik sold 20K ETH and stayed neutral.\n\nFear Index at 10. 'Buy when there's blood' comes to mind, but it could get bloodier. Target $34.50 (+83%)."},
+        "empathy": {"hook": "Uneasy weekend for BMNR holders", "text": "$BMNR (Mar 8) $18.88\n\nNot an easy weekend. $7.4B loss news plus Fear Index at 10.\n\nBut a rebuttal emerged. ETH burn > inflation. It's not over. Analyst target $34.50 (+83%). Hang in there a bit longer."}
+      }
     }
   }
 }

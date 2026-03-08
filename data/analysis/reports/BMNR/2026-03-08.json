@@ -4,10 +4,9 @@
   "analysisDate": "2026-03-08",
   "currentPrice": 18.88,
   "marketCap": "$8.59B",
-
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업 — MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/1 기준 4,473,587 ETH(총 공급량의 3.71%) 보유, 총 암호화폐+현금 보유 $9.9B. 3/6 종가 $18.88(-7.22%). Culper Research 공매도 보고서 여파 지속 + ETH $1,977 약보합. Simply Wall St가 MAVAN 스테이킹 론칭과 ETH 축적 전략의 투자 케이스 변화를 분석. Forward P/E 24.84x, P/B 0.69x(NAV 31% 할인).",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/1 기준 4,473,587 ETH(총 공급량의 3.71%) 보유. 금요일 종가 $18.88(-7.22%). $20 지지선 붕괴 후 $18 테스트 중. Culper Research 공매도 보고서에 대한 커뮤니티 반박이 등장: ETH 일일 번 $1.2B로 인플레이션 초과, 활성 주소 117% YoY 성장. ETH Fear & Greed 지수 10(극단적 공포). Forward P/E 28.18x, P/B 0.69x.",
     "howTheyMakeMoney": [
       "ETH 트레저리: 4,473,587 ETH 보유 ($8.84B at $1,976/ETH) — 핵심 가치",
       "ETH 스테이킹 수익: 3,040,483 ETH 스테이킹, 연간 $172M 수익",
@@ -21,201 +20,108 @@
       "Moonshot Portfolio: Beast Industries, Eightco Holdings 등"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/B Ratio", "value": "0.69x", "interpretation": "장부가치 대비 31% 할인. NAV 기준 저평가" },
-    { "name": "Forward P/E", "value": "24.84x", "interpretation": "스테이킹 수익 반영 시 합리적 수준" },
-    { "name": "시가총액", "value": "$8.59B", "interpretation": "ETH 보유가치 $8.84B 대비 할인 거래" },
-    { "name": "ETH 보유량", "value": "4,473,587 ETH", "interpretation": "전체 공급량의 3.71%. 시장 지배적 포지션" },
-    { "name": "공매도 비율", "value": "5.94%", "interpretation": "높은 공매도 비율. Culper 보고서 후 확대" },
-    { "name": "주식 희석률 (YoY)", "value": "+4,158%", "interpretation": "극심한 희석. 주주가치 훼손 리스크 핵심" },
-    { "name": "RSI", "value": "40.57", "interpretation": "과매도 근접. 기술적 반등 가능 구간" },
-    { "name": "52주 변동", "value": "+144.56%", "interpretation": "고점 대비 큰 폭 하락했으나 1년 기준 여전히 상승" }
+    {"name": "P/B Ratio", "value": "0.69x", "interpretation": "NAV 대비 31% 할인. $20 지지선 붕괴로 할인 유지"},
+    {"name": "Forward P/E", "value": "28.18x", "interpretation": "스테이킹 수익 기반 향후 수익 반영"},
+    {"name": "ETH 보유량", "value": "4,473,587 ETH", "interpretation": "전체 ETH 공급의 3.71%. 상장 기업 중 최대"},
+    {"name": "BV/Share", "value": "$27.54", "interpretation": "주가 $18.88 대비 장부가치 46% 프리미엄"},
+    {"name": "공매도 비율", "value": "6.24%", "interpretation": "Culper Research 공매도 보고서 이후 주의 필요"},
+    {"name": "52주 수익률", "value": "+490%", "interpretation": "52주 저점 $3.20에서 현재가까지 약 5.9배"},
+    {"name": "현금 보유", "value": "$868M", "interpretation": "추가 ETH 매입 및 운영비 충당 여력"},
+    {"name": "스테이킹 수익", "value": "$172M/년", "interpretation": "MAVAN 론칭 시 $253M 목표"}
   ],
-
   "growthDrivers": [
-    {
-      "title": "Simply Wall St: MAVAN 론칭 + ETH 축적이 투자 케이스 변화 중",
-      "description": "3/7 발행: Bitmine의 ETH 축적(4.474M 토큰)과 MAVAN 자체 스테이킹 플랫폼 론칭이 투자 논리를 바꾸고 있다고 분석."
-    },
-    {
-      "title": "Culper '죽음의 나선' vs 반론 — ETH 생태계 건재 논쟁",
-      "description": "Culper Research의 ETH 공매도 보고서에 대해 bitcoinethereumnews가 '매일 $1.2B 번' 데이터 등으로 반박. L2 활성 주소 +117% YoY."
-    },
-    {
-      "title": "P/B 0.69x — NAV 대비 31% 할인 지속",
-      "description": "장부가치 대비 대폭 할인 거래 중. ETH 가격 반등 시 주가 레버리지 효과 극대화."
-    },
-    {
-      "title": "ETH 스테이킹 68% — 연간 $172M 수익 기반",
-      "description": "3,040,483 ETH 스테이킹 중. MAVAN 자체 플랫폼 론칭으로 수익률 개선 기대."
-    }
+    {"title": "Culper 반박 등장 — ETH 일일 번 $1.2B, 인플레이션 초과", "description": "Ethereum Daily가 Culper 보고서에 반박: 2월 기준 일일 ETH 번이 $1.2B로 연간 0.8% 인플레이션을 초과. 활성 주소 117% YoY 성장은 실사용자 증가."},
+    {"title": "ETH Fear & Greed 10 — 극단적 공포 속 역발상 기회", "description": "공포·탐욕 지수가 10(극단적 공포)까지 떨어졌다. 역사적으로 극단적 공포 구간에서의 매수가 초과 수익을 가져온 사례 다수."},
+    {"title": "Culper 상세: 미실현 손실 $7.4B, 비탈릭 2만 ETH 매도", "description": "Culper에 따르면 BMNR은 $7.4B의 미실현 손실을 안고 있으며, 비탈릭 부테린이 2만 ETH($40M) 매도. 반면 이는 이미 주가에 상당 부분 반영."},
+    {"title": "P/B 0.69x — NAV 대비 31% 할인 지속", "description": "장부가치 $27.54 대비 주가 $18.88. 공매도 압력과 ETH 약세에도 NAV 할인은 장기 매수 논거."}
   ],
-
   "competitiveAdvantage": {
     "summary": "상장 기업 중 최대 ETH 보유량(3.71% of supply). Tom Lee 합류로 제도권 신뢰도 확보. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
     "moats": [
-      {
-        "type": "ETH 공급량 집중",
-        "description": "전체 ETH 공급의 3.71% 보유. 시장에서 대체 불가능한 포지션."
-      },
-      {
-        "type": "제도권 접근성",
-        "description": "상장 주식으로 ETH 노출 제공. ETF 없이도 기관 투자자 접근 가능."
-      },
-      {
-        "type": "스테이킹 수익",
-        "description": "68% 스테이킹 + MAVAN 자체 플랫폼으로 단순 보유 대비 수익률 우위."
-      }
+      {"type": "ETH 공급량 집중", "description": "전체 ETH 공급의 3.71% 보유. 시장에서 대체 불가능한 포지션."},
+      {"type": "제도권 접근성", "description": "상장 주식으로 ETH 노출 제공. ETF 없이도 기관 투자자 접근 가능."},
+      {"type": "스테이킹 수익", "description": "68% 스테이킹 + MAVAN 자체 플랫폼으로 단순 보유 대비 수익률 우위."}
     ],
     "competitors": [
-      {
-        "name": "MicroStrategy (MSTR)",
-        "detail": "Bitcoin 트레저리 전략의 원조. BTC 집중 vs BMNR의 ETH 집중"
-      },
-      {
-        "name": "Grayscale Ethereum Trust (ETHE)",
-        "detail": "ETH 신탁 펀드. ETF 전환 완료."
-      },
-      {
-        "name": "Coinbase (COIN)",
-        "detail": "크립토 거래소. 간접적 ETH 노출."
-      }
+      {"name": "MicroStrategy (MSTR)", "detail": "Bitcoin 트레저리 전략의 원조. BTC 집중 vs BMNR의 ETH 집중"},
+      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH 신탁 펀드. ETF 전환 완료."},
+      {"name": "Coinbase (COIN)", "detail": "크립토 거래소. 간접적 ETH 노출."}
     ]
   },
-
   "recentNews": [
-    {
-      "date": "2026-03-07",
-      "headline": "Simply Wall St: MAVAN 스테이킹 론칭과 ETH 축적이 BMNR 투자 케이스 변화 중",
-      "significance": "자체 검증 네트워크(MAVAN) 론칭으로 스테이킹 수익 내재화 가능성 분석.",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-bitmines-ethereum-accumulation-and-mavan-staking-launch-a"
-    },
-    {
-      "date": "2026-03-07",
-      "headline": "ETH '죽음의 나선' 반박 — $1.2B 일일 번 지속, 인플레이션 억제",
-      "significance": "Culper 보고서에 대한 데이터 기반 반박. 비스팸 지갑 +12% YoY, L2 활성 주소 +117%.",
-      "url": "https://bitcoinethereumnews.com/ethereum/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/"
-    },
-    {
-      "date": "2026-03-05",
-      "headline": "Culper Research, ETH와 BMNR 공매도 — '토큰노믹스 회복 불능'",
-      "significance": "공매도 전문 리서치가 Fusaka 업그레이드 이후 ETH 수수료 90% 감소 지적. BMNR에 대한 공매도 압력 증가.",
-      "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk"
-    },
-    {
-      "date": "2026-03-05",
-      "headline": "BMNR 주가 $20 지지선 붕괴 — 3일 연속 하락",
-      "significance": "$20 심리적 지지선 이탈. 다음 지지선 $18에서 현재 정확히 테스트 중.",
-      "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-owns-3-71-of-eth-supply-now/"
-    },
-    {
-      "date": "2026-03-02",
-      "headline": "Bitmine, 51,000 ETH 추가 매수 — 총 보유량 4,474M, 공급의 3.71%",
-      "significance": "지속적 ETH 축적. Tom Lee: '가격 약세를 장기 매수 기회로 활용.'",
-      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"
-    }
+    {"date": "2026-03-07", "headline": "Ethereum Daily, Culper 공매도 보고서에 반박 — ETH 일일 번 $1.2B", "significance": "일일 ETH 소각이 인플레이션을 초과. 활성 주소 117% YoY 성장은 실사용자 증가 근거", "url": "https://www.idoslaunchpad.com/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/"},
+    {"date": "2026-03-06", "headline": "BMNR $20 지지선 붕괴, ETH 장중 $2,000 하회에 -7.22% 급락", "significance": "3일 연속 하락. 고점 대비 12% 하락, 다음 지지 $18", "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/"},
+    {"date": "2026-03-05", "headline": "Culper Research 공매도 보고서 상세: $7.4B 미실현 손실, 비탈릭 2만 ETH 매도", "significance": "ETH 토큰노믹스 '회복 불능' 주장. 비탈릭 매도를 '탈출 시그널'로 해석", "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk"},
+    {"date": "2026-03-03", "headline": "BitMine, 주간 51,000 ETH($98M) 추가 매입", "significance": "공격적 축적 전략 지속. 총 보유량 4.474M개로 증가", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"},
+    {"date": "2026-03-02", "headline": "Bitmine, ETH 보유량 4.474M 도달 발표 — 총 자산 $9.9B", "significance": "공식 8-K 공시. ETH 공급의 3.71% 확인", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html"}
   ],
-
   "analystOpinions": {
-    "consensusTarget": 47,
-    "highTarget": 56,
-    "lowTarget": 30,
-    "upsidePercent": 148.9,
-    "buyCount": 1,
-    "holdCount": 0,
-    "sellCount": 0,
-    "notableComment": "StockAnalysis: 1 analyst 목표가 $47 (133% upside). Public.com: Strong Buy $30. CoinCodex: 최고 예상 $55.83. 단, 커버리지 극히 제한적(1명)으로 신뢰도 낮음."
+    "consensusTarget": 34.5, "highTarget": 39.0, "lowTarget": 30.0, "upsidePercent": 82.73,
+    "buyCount": 2, "holdCount": 0, "sellCount": 0,
+    "notableComment": "애널리스트 2명 전원 Strong Buy. Cantor Fitzgerald $39, B. Riley $30. 커뮤니티 반박으로 Culper 보고서의 영향력이 다소 약화. ETH 안정화가 관건."
   },
-
   "risks": [
-    {
-      "severity": "critical",
-      "title": "ETH 가격 의존도 — NAV의 90%+가 ETH",
-      "description": "ETH $1,977에서 추가 하락 시 NAV 급감 불가피. Culper의 '죽음의 나선' 시나리오 현실화 시 $1,500 이하 가능."
-    },
-    {
-      "severity": "critical",
-      "title": "주식 희석률 +4,158% YoY",
-      "description": "1년 만에 주식 수 42배 증가. ETH 매수를 위한 자본 조달이 주주가치를 극도로 훼손."
-    },
-    {
-      "severity": "high",
-      "title": "Culper Research 공매도 보고서 — 구조적 약세론",
-      "description": "Fusaka 업그레이드 후 수수료 90% 감소 지적. ETH 토큰노믹스가 '이번 사이클 회복 불가'라 주장. 공매도 비율 5.94%."
-    },
-    {
-      "severity": "high",
-      "title": "직원 3명 — 운영 리스크 극대",
-      "description": "전체 직원 수 3명. 키맨 리스크와 운영 역량 부재. 사실상 ETH 보유 특수목적회사."
-    },
-    {
-      "severity": "medium",
-      "title": "이란 전쟁 + 매크로 리스크오프",
-      "description": "지정학 불안으로 위험자산 회피 심화. 크립토와 고베타 주식 모두 타격."
-    }
+    {"severity": "critical", "title": "ETH 가격 집중 리스크 + $20 지지선 붕괴", "description": "NAV의 90%+가 ETH. $20 지지 붕괴로 다음 지지 $18. ETH가 $1,800 밑으로 가면 추가 급락 불가피."},
+    {"severity": "critical", "title": "Culper 공매도 보고서 + $7.4B 미실현 손실", "description": "ETH 토큰노믹스 '회복 불능' 주장. $7.4B 미실현 손실과 비탈릭 매도가 시장 심리 압박."},
+    {"severity": "high", "title": "주식 대량 희석 — YoY +4,158%", "description": "지난 1년간 주식수가 42배 증가. 500억 주 승인 요청으로 추가 희석 우려."},
+    {"severity": "high", "title": "매크로 역풍 — 유가 $90+, 위험자산 회피", "description": "이란전쟁+고용 충격으로 위험자산 전반 매도세. 크립토도 직격."},
+    {"severity": "medium", "title": "영업손실 지속", "description": "TTM 영업손실 지속. 스테이킹 수익으로는 운영비 충당 불충분."}
   ],
-
   "buyReasons": [
-    {
-      "title": "P/B 0.69x — NAV 대비 31% 할인",
-      "rationale": "장부가치 대비 대폭 할인. ETH 반등 시 주가 레버리지 효과 극대화."
-    },
-    {
-      "title": "ETH 공급의 3.71% — 대체 불가능 포지션",
-      "rationale": "상장사 중 최대 ETH 보유. 기관 투자자의 ETH 간접 노출 수단."
-    },
-    {
-      "title": "MAVAN 자체 스테이킹 — 수익 내재화",
-      "rationale": "68% 스테이킹 + 자체 검증 네트워크 론칭으로 외부 의존도 감소."
-    },
-    {
-      "title": "ETH 생태계 반박 데이터 — 죽음의 나선 과장?",
-      "rationale": "$1.2B 일일 번, L2 활성 주소 +117%. Culper 보고서의 비관론이 과도할 수 있음."
-    }
+    {"title": "NAV 대비 31% 할인 — P/B 0.69x", "rationale": "장부가치 $27.54 vs 주가 $18.88. ETH 반등 시 NAV 갭 축소 기대."},
+    {"title": "커뮤니티 반박: ETH 일일 번 $1.2B > 인플레이션", "rationale": "Culper 주장과 달리 ETH 소각이 인플레이션을 초과. 토큰노믹스 건재."},
+    {"title": "ETH Fear & Greed 10 — 극단적 공포 역발상", "rationale": "역사적으로 극단적 공포 구간에서 매수 시 초과 수익."},
+    {"title": "MAVAN 론칭 시 스테이킹 수익 $253M 목표", "rationale": "현재 $172M에서 47% 수익 확대 기대. 실적 턴어라운드 촉매."}
   ],
-
   "technicalPosition": {
-    "week52High": 58.50,
-    "week52Low": 7.72,
-    "currentPositionPercent": 21.9,
-    "sma50": 25.10,
-    "sma50Signal": "below",
-    "sma200": 35.79,
-    "sma200Signal": "below",
-    "rsi": 40.57,
-    "rsiSignal": "neutral"
+    "week52High": 161.0, "week52Low": 3.2, "currentPositionPercent": 9.94,
+    "sma50": 25.1, "sma50Signal": "below", "sma200": 35.78, "sma200Signal": "below",
+    "rsi": 40.57, "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "BMNR $18.88은 $18 지지선에서 정확히 테스트 중이다. P/B 0.69x로 NAV 대비 31% 할인 — 이것이 기회인지 가치 함정인지가 핵심 질문.",
-    "Culper Research의 '죽음의 나선' 보고서 vs bitcoinethereumnews의 '$1.2B 일일 번' 반박 — ETH 토큰노믹스 논쟁이 뜨겁다.",
-    "주식 희석률 +4,158%는 심각한 문제. ETH를 사기 위해 주주를 42배 희석시킨 것은 장기 투자자에게 적신호.",
-    "MAVAN 자체 스테이킹 플랫폼은 긍정적이지만, 직원 3명의 회사가 $9.9B 자산을 관리하는 것은 본질적 리스크.",
-    "결론: ETH 불장을 확신하면 고베타 레버리지 플레이, ETH 약세를 예상하면 피해야 할 종목. 중립은 없다."
+    "Culper Research의 공매도 보고서에 대한 반박이 주말 중 등장했다. Ethereum Daily에 따르면 ETH 일일 소각량이 12억 달러로 연간 인플레이션(0.8%)을 초과하고 있으며, 활성 주소도 전년 대비 117% 증가해 Culper의 '회복 불능' 주장과 배치된다.",
+    "반면 Culper 보고서의 상세 내용도 무시하기 어렵다. BMNR의 ETH 보유분은 고점 대비 약 74억 달러의 미실현 손실을 기록 중이고, 이더리움 공동 창업자 비탈릭 부테린마저 2만 ETH(약 4천만 달러)를 매도했다.",
+    "ETH 공포·탐욕 지수가 10(극단적 공포)까지 떨어졌다. 역사적으로 이 수준에서의 매수는 초과 수익을 가져왔지만, 이번 사이클에서도 그 패턴이 반복될지는 ETH의 구조적 건전성에 달려 있다.",
+    "애널리스트 2명은 여전히 적극 매수, 목표가 $34.50(+83%). $18 지지선이 무너지면 $15대까지 밀릴 수 있지만, ETH가 $2,000 위에서 안정되면 NAV 할인 축소와 함께 반등이 가능하다."
   ],
-
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/statistics/", "description": "밸류에이션, 기술적 지표, 재무 데이터" },
-    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-bitmines-ethereum-accumulation-and-mavan-staking-launch-a", "description": "MAVAN 스테이킹 론칭 투자 케이스 분석" },
-    { "name": "CoinDesk (Culper)", "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk", "description": "Culper Research ETH 공매도 보고서" },
-    { "name": "CoinDesk (ETH 매수)", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase", "description": "51,000 ETH 추가 매수 보도" },
-    { "name": "BitcoinEthereumNews", "url": "https://bitcoinethereumnews.com/ethereum/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/", "description": "Culper 반박 — ETH 번 메커니즘 건재" },
-    { "name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/05/bmnr-stock-turns-bullish-as-btc-strengthens-bitmine-owns-3-71-of-eth-supply-now/", "description": "BMNR 기술적 분석, Tom Lee 코멘트" },
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html", "description": "공식 ETH 보유량 발표" },
-    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "시가총액, P/E, 일중 가격 범위" },
-    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "애널리스트 목표가 $47" },
-    { "name": "CoinCodex", "url": "https://coincodex.com/stock/BMNR/price-prediction/", "description": "주가 예측 모델" }
+    {"name": "IDOSLaunchPad", "url": "https://www.idoslaunchpad.com/ethereum-defies-bearish-short-report-as-1-2b-daily-burn-continues-to-outpace-network-inflation/", "description": "Culper 반박: ETH 일일 번 $1.2B"},
+    {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/03/05/short-seller-culper-bets-against-ether-bitmine-citing-death-spiral-risk", "description": "Culper 공매도 보고서 상세: $7.4B 미실현 손실"},
+    {"name": "BeInCrypto", "url": "https://beincrypto.com/bitmine-bmnr-stock-price-analysis-18-target/", "description": "BMNR $20 지지 붕괴, $18 타겟 분석"},
+    {"name": "SpotedCrypto", "url": "https://www.spotedcrypto.com/ethereum-death-spiral-culper-short-warning/", "description": "Culper Research ETH·BMNR 공매도 보고서"},
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-474-million-tokens-and-total-crypto-and-total-cash-holdings-of-9-9-billion-302700582.html", "description": "ETH 보유량 4.474M 공시"},
+    {"name": "Finviz", "url": "https://finviz.com/quote.ashx?t=BMNR", "description": "BMNR 종합 기술적 지표"}
   ],
-
   "snsContent": {
+    "x": {
+      "hook": "Culper 반박 등장, ETH 극단적 공포",
+      "text": "$BMNR (3/8) Culper의 '이더리움 회복 불능' 주장에 반박이 나왔다. ETH 일일 소각 $1.2B로 인플레이션 초과. 하지만 $7.4B 미실현 손실도 사실.\n\n1/4",
+      "thread": [
+        "ETH 공포 지수가 10(극단적 공포)까지 떨어졌다. 역사적으로 이 수준에서 사면 수익이 좋았지만, 이번엔 다를 수도 있다.\n\n2/4",
+        "비탈릭이 2만 ETH를 팔았다는 건 걱정되는 신호다. 자산 가치보다 31% 싸게 거래 중이지만, 주식 42배 희석도 부담.\n\n3/4",
+        "애널리스트 목표가 $34.50(+83%). ETH가 $2,000 위에서 안정되면 반등 가능. $18 무너지면 $15대 위험.\n\n4/4"
+      ]
+    },
     "threads": {
-      "hook": "BMNR $18.88 — NAV 31% 할인, 함정인가 기회인가 🤔",
-      "text": "$BMNR -7.22% $18.88. ETH 3.71%(4.47M개) 보유, 장부가 $27.54인데 주가는 $19. Culper '죽음의 나선' vs 반박 '$1.2B 일일 번'. 주식 42배 희석은 진짜 문제. 직원 3명이 $9.9B 관리. ETH 불장 확신 = 고베타 레버리지, 아니면 절대 금지. 당신은 어느 편인가? investory.kro.kr/stock/BMNR/analysis/2026-03-08"
+      "hook": "Culper 반박 등장, ETH 극단적 공포",
+      "text": "$BMNR (3/8) $18.88\n\nCulper의 공매도 보고서에 반박이 나왔다. ETH 일일 소각 $1.2B로 인플레이션을 초과하고, 활성 주소 117% 증가.\n\n반면 $7.4B 미실현 손실, 비탈릭 2만 ETH 매도도 사실. ETH 공포 지수 10(극단적 공포).\n\n목표가 $34.50(+83%). ETH 안정이 핵심."
     },
     "telegram": {
-      "hook": "BMNR $18.88 (-7.22%) — ETH 3.71% 보유, NAV 31% 할인",
-      "text": "BMNR 일일 분석 (3/8)\n\n💰 $18.88 (-7.22%) | 시총 $8.59B\n📊 P/B 0.69x | Forward P/E 24.84x | RSI 41\n\n🔑 핵심 이슈:\n• 🐻 Culper Research 공매도 — 'ETH 죽음의 나선'\n• 🔥 반박: $1.2B 일일 번, L2 활성 주소 +117%\n• 📈 Simply Wall St: MAVAN 스테이킹 론칭이 투자 케이스 변화\n• ⚠️ 주식 희석 +4,158% YoY — 42배 증가\n• 💎 ETH 4,473,587개 (공급의 3.71%), 51K 추가 매수\n\n📐 기술적: $18 지지 테스트, 50일선 $25 저항\n🎯 애널리스트 $47 (149% upside) — 단 1명\n\n결론: ETH 방향성에 100% 연동. 중립 없는 올인 베팅.\n\nhttps://investory.kro.kr/stock/BMNR/analysis/2026-03-08"
+      "hook": "Culper 반박 등장, ETH 극단적 공포",
+      "text": "BMNR 일일 분석 (3/8)\n\n가격: $18.88 (금요일 종가)\n\n핵심 이슈\n- Culper 반박: ETH 일일 소각 $1.2B > 인플레이션\n- Culper 상세: $7.4B 미실현 손실, 비탈릭 매도\n- ETH Fear & Greed 지수 10(극단적 공포)\n- $20 지지선 붕괴, $18 테스트 중\n\n밸류에이션\n- NAV 대비 31% 할인\n- 애널리스트 2명 적극 매수\n\n목표가: $34.50 (+83%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {"hook": "Culper 반박 등장, ETH 극단적 공포", "text": "$BMNR (3/8) Culper의 '이더리움 회복 불능' 주장에 반박이 나왔다. ETH 일일 소각 $1.2B로 인플레이션 초과. 하지만 $7.4B 미실현 손실도 사실.\n\n1/4", "thread": ["ETH 공포 지수가 10(극단적 공포)까지 떨어졌다. 역사적으로 이 수준에서 사면 수익이 좋았지만, 이번엔 다를 수도 있다.\n\n2/4", "비탈릭이 2만 ETH를 팔았다는 건 걱정되는 신호다. 자산 가치보다 31% 싸게 거래 중이지만, 주식 42배 희석도 부담.\n\n3/4", "애널리스트 목표가 $34.50(+83%). ETH가 $2,000 위에서 안정되면 반등 가능. $18 무너지면 $15대 위험.\n\n4/4"]},
+        "witty": {"hook": "이더리움 생사 논쟁 중", "text": "$BMNR (3/8) '이더리움 죽었다' vs '일일 소각 $1.2B 건재하다'. 진실은 어디에? $18.88.\n\n1/4", "thread": ["Culper: '회복 불능'. 커뮤니티: '소각이 인플레이션을 이기는데 무슨 소리'. 비탈릭은 2만 ETH를 팔면서 중립.\n\n2/4", "공포 지수 10. 이 정도면 '핏줄기에서 사라'는 격언이 떠오르지만, 핏줄기가 더 깊어질 수도.\n\n3/4", "목표가 $34.50(+83%). 맞으면 대박, 틀리면 $15. 결국 이더리움이 사느냐 죽느냐의 문제.\n\n4/4"]},
+        "empathy": {"hook": "BMNR 주주들, 불안한 주말", "text": "$BMNR (3/8) 주말에도 마음이 편하지 않을 거다. $7.4B 미실현 손실 뉴스에 공포 지수 10. $18.88.\n\n1/4", "thread": ["그래도 반박도 나왔다. ETH 소각이 인플레이션을 초과하고 활성 주소도 117% 늘었다. 완전히 끝난 건 아니다.\n\n2/4", "자산 가치보다 31% 싸게 거래 중이고, 애널리스트 2명은 여전히 적극 매수.\n\n3/4", "목표가 $34.50(+83%). ETH가 안정되면 반등할 수 있다. $18이 다음 지지선이다. 조금만 더 지켜보자.\n\n4/4"]}
+      },
+      "threads": {
+        "fact": {"hook": "Culper 반박 등장, ETH 극단적 공포", "text": "$BMNR (3/8) $18.88\n\nCulper 반박이 나왔다. ETH 일일 소각 $1.2B로 인플레이션 초과, 활성 주소 117% 증가.\n\n반면 $7.4B 미실현 손실, 비탈릭 매도도 사실. 공포 지수 10.\n\n목표가 $34.50(+83%). ETH 안정이 핵심."},
+        "witty": {"hook": "이더리움 생사 논쟁 중", "text": "$BMNR (3/8) $18.88\n\n'죽었다' vs '살았다' 논쟁 한복판. Culper 공매도 vs 커뮤니티 반박. 비탈릭은 2만 ETH 팔면서 중립.\n\n공포 지수 10. 핏줄기에서 사라는 격언이 떠오르지만 더 깊어질 수도. 목표가 $34.50(+83%)."},
+        "empathy": {"hook": "BMNR 주주들, 불안한 주말", "text": "$BMNR (3/8) $18.88\n\n주말에도 마음 편하지 않을 거다. $7.4B 손실 뉴스에 공포 지수 10.\n\n반박도 나왔다. ETH 소각 > 인플레이션. 완전히 끝난 건 아니다. 애널리스트 목표가 $34.50(+83%). 조금만 더 지켜보자."}
+      }
     }
   }
 }

@@ -4,10 +4,9 @@
   "analysisDate": "2026-03-08",
   "currentPrice": 396.73,
   "marketCap": "$1.49T",
-
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행·로봇·에너지 저장을 아우르는 'Physical AI Platform' 기업",
-    "description": "Tesla는 EV 제조에서 AI·로보틱스·에너지 통합 플랫폼으로 전환 중이다. FY2025 매출 $94.8B(-2.9% YoY), 순이익 46.5% 급감. 3/6 종가 $396.73(-2.17%), 고용 충격과 유가 $90+ 급등이 매크로 매도 압력을 가중. 프랑스·노르웨이 2월 시장점유율 반등, 독일 베를린 기가팩토리 노조 선거 진행 중. NHTSA FSD 데이터 제출 기한 3/9(D-1). Morgan Stanley 'coiled spring' 비유로 재평가 가능성 제시. P/E 392.38x, Forward P/E 191.85x.",
+    "description": "Tesla는 EV 제조에서 AI·로보틱스·에너지 통합 플랫폼으로 전환 중이다. FY2025 매출 $94.8B(-2.9% YoY), 순이익 46.5% 급감. 금요일 종가 $396.73(-2.17%). 내일(3/9) NHTSA FSD 안전 심사 마감 — 288만대 대상, 58건 사고 연결. 주말 중 오스틴 로보택시 기본 요금 $1→$3.25 인상, 도쿄 FSD Supervised 공개 시연 시작. P/E 368.71x, Forward P/E 150.88x.",
     "howTheyMakeMoney": [
       "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y 핵심, Model S/X Q2 2026 단종",
       "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack 유틸리티 저장",
@@ -23,37 +22,66 @@
       "FSD (Full Self-Driving, 82억 마일 누적)"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "392.38x", "interpretation": "수익 대비 극히 고평가. AI/자율주행 프리미엄 반영" },
-    { "name": "Forward P/E", "value": "191.85x", "interpretation": "향후 실적 반영해도 여전히 매우 높은 수준" },
-    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "FY2025 매출 역성장. EV 경쟁 심화 영향" },
-    { "name": "영업이익률", "value": "4.6%", "interpretation": "전년 대비 대폭 축소. 가격 인하와 비용 증가" },
-    { "name": "ROE", "value": "4.93%", "interpretation": "자기자본수익률 급락. 수익성 저하 반영" },
-    { "name": "부채비율 (D/E)", "value": "0.18x", "interpretation": "매우 건전한 재무구조. 순현금 $29.3B 보유" },
-    { "name": "FCF Yield", "value": "0.42%", "interpretation": "P/FCF 239.34x. 현금 창출 대비 고평가" },
-    { "name": "RSI", "value": "41.05", "interpretation": "중립-약세 구간. 과매도 근접" }
-  ],
-
-  "growthDrivers": [
     {
-      "title": "NHTSA FSD 데이터 제출 D-1 — 3/9 규제 분기점",
-      "description": "월요일 3/9 NHTSA에 FSD 충돌 데이터 제출 마감. 2차 연장 후 최종 기한. 통과 시 자율주행 승인 가속, 실패 시 30% 하방 리스크(Nasdaq 분석). 주말 지나면 바로 결과."
+      "name": "P/E Ratio (TTM)",
+      "value": "368.71x",
+      "interpretation": "AI/로보틱스 프리미엄이나 현실 수익 대비 극도로 높음"
     },
     {
-      "title": "프랑스·노르웨이 2월 시장점유율 반등 — 유럽 안정화 신호",
-      "description": "Reuters: Tesla가 프랑스·노르웨이 2월 시장점유율을 회복. 2년 연속 유럽 판매 감소 후 안정화 조짐. 영국 -37%와 대조적."
+      "name": "Forward P/E",
+      "value": "150.88x",
+      "interpretation": "EPS 회복 기대 반영이나 여전히 고평가"
     },
     {
-      "title": "독일 기가팩토리 노조 선거 — IG Metall vs Tesla",
-      "description": "Reuters: 독일 최대 산업 노조 IG Metall이 베를린 기가팩토리에서 영향력 확대 시도. 노사 갈등과 법적 분쟁 속 신규 근로자위원회 투표 진행."
+      "name": "PEG Ratio",
+      "value": "4.94",
+      "interpretation": "성장 대비 극단적 고평가"
     },
     {
-      "title": "BofA Buy $460 유지, 관세 역풍에도 자율주행 리더십 강조",
-      "description": "BofA Securities가 3/4 Buy 등급 재개, 목표가 $460(+16% upside). '소비자 자율주행의 현재 리더'로 평가. BNP Paribas는 $280 하향."
+      "name": "매출 성장률 (YoY)",
+      "value": "-2.93%",
+      "interpretation": "사상 첫 연간 역성장. 글로벌 EV 경쟁 심화"
+    },
+    {
+      "name": "영업이익률",
+      "value": "5.11%",
+      "interpretation": "전분기 대비 소폭 개선이나 여전히 낮은 수준"
+    },
+    {
+      "name": "FCF",
+      "value": "$6.22B",
+      "interpretation": "+73.7% YoY 반등. 운영 효율 개선"
+    },
+    {
+      "name": "부채비율 (D/E)",
+      "value": "0.18",
+      "interpretation": "매우 건전. 순현금 $29.3B"
+    },
+    {
+      "name": "ROE",
+      "value": "4.89%",
+      "interpretation": "FY2024 대비 하락. 수익성 회복 필요"
     }
   ],
-
+  "growthDrivers": [
+    {
+      "title": "NHTSA FSD 안전 심사 D-1 — 내일(3/9) 최종 결과",
+      "description": "288만대 대상 FSD 안전 데이터 제출 마감이 내일이다. 통과 시 자율주행 전국 확대 가속, 실패 시 30% 하방 리스크. 두 차례 연장 후 최종 기한."
+    },
+    {
+      "title": "오스틴 로보택시 기본 요금 인상 — $1→$3.25",
+      "description": "3/7 주말 중 오스틴 로보택시 기본 요금이 $1에서 $3.25로 인상. 5마일 기준 $6→$8.25. 높은 수요와 대기시간 관리 목적. 수익성 개선 시그널."
+    },
+    {
+      "title": "도쿄에서 FSD Supervised 공개 시연 시작",
+      "description": "Tesla가 도쿄 시내에서 FSD Supervised 소프트웨어의 공개 시연을 시작. 일본 시장 진출과 국제 FSD 확장의 첫걸음."
+    },
+    {
+      "title": "Phoenix·Miami·Las Vegas 로보택시 확장 계획",
+      "description": "2026년 중반까지 3개 도시 추가 확장 예정. 오스틴 14건 충돌 기록이 걸림돌이나, 규모 확장 의지는 확고."
+    }
+  ],
   "competitiveAdvantage": {
     "summary": "미국 EV 시장 50%+ 점유율 리더, 다만 글로벌에서는 BYD에 추월당함. 소프트웨어·제조·에너지·82억 FSD 마일의 수직 통합이 핵심 해자.",
     "moats": [
@@ -89,139 +117,209 @@
       }
     ]
   },
-
   "recentNews": [
     {
       "date": "2026-03-07",
-      "headline": "NHTSA FSD 데이터 제출 기한 D-1 — 3/9 최종 마감",
-      "significance": "2차 연장 후 월요일 마감. Tesla의 2026년 전체 궤적을 결정할 수 있는 규제 분기점.",
-      "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome"
+      "headline": "오스틴 로보택시 기본 요금 $1→$3.25 인상, 수요 관리 및 수익성 개선",
+      "significance": "대기시간 10-15분으로 높은 수요 확인. 요금 인상은 수익성 개선 시그널이나 경쟁력 우려도",
+      "url": "https://teslanorth.com/2026/03/07/tesla-robotaxi-prices-jump-in-austin-here-is-the-new-cost-for-a-5-mile-trip/"
     },
     {
-      "date": "2026-03-05",
-      "headline": "Tesla 주가 $400 테스트하며 급락 — 관세·고용 충격 복합 악재",
-      "significance": "글로벌 매크로 셀오프에 Tesla 특이적 악재(수요 둔화, 관세)까지 겹치며 다달 저점 기록.",
-      "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/"
+      "date": "2026-03-07",
+      "headline": "도쿄 시내에서 FSD Supervised 공개 시연 시작",
+      "significance": "일본 시장 진출과 국제 FSD 확장의 첫걸음. 일본 규제 당국과의 관계 구축",
+      "url": "https://www.basenor.com/blogs/news/tesla-driverless-robotaxi-is-live-what-owners-need-to-know"
     },
     {
-      "date": "2026-03-04",
-      "headline": "BofA, Tesla Buy 등급 재개 — 목표가 $460",
-      "significance": "Bank of America가 Hold에서 Buy로 상향. 자율주행 리더십에 기반한 +16% 업사이드 제시.",
-      "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html"
+      "date": "2026-03-07",
+      "headline": "NHTSA FSD 안전 심사 D-1 — 내일(3/9) 최종 마감",
+      "significance": "288만대 대상 조사, 58건 사고 연결. 오스틴 로보택시 14건 충돌. 두 차례 연장 후 최종 기한",
+      "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/"
     },
     {
-      "date": "2026-03-04",
-      "headline": "독일 IG Metall, 베를린 기가팩토리에서 영향력 확대 시도",
-      "significance": "노사 갈등 속 신규 근로자위원회 투표. 법적 분쟁과 비용 증가 리스크.",
-      "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/"
+      "date": "2026-03-06",
+      "headline": "영국 2월 판매 37% 급감(2,422대), Toyota·Stellantis EU CO2 풀 탈퇴",
+      "significance": "전체 시장 +7.2% 성장과 대조적. 유럽 전반 약세 심화",
+      "url": "https://ca.investing.com/news/economic-indicators/tesla-uk-car-sales-drop-37-as-chinese-competition-heightens-smmt-data-shows-4496417"
     },
     {
-      "date": "2026-03-02",
-      "headline": "프랑스·노르웨이 2월 시장점유율 반등",
-      "significance": "2년 연속 유럽 판매 감소 후 안정화 신호. 다만 영국 -37%와 대조적.",
-      "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/"
+      "date": "2026-03-06",
+      "headline": "고용지표 충격 + 유가 $90 급등으로 월가 10월 이후 최악의 주간",
+      "significance": "비농업 고용 급감과 이란전쟁발 유가 급등으로 광범위한 매도세. TSLA -2.17%",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html"
     }
   ],
-
   "analystOpinions": {
-    "consensusTarget": 396,
+    "consensusTarget": 426.61,
     "highTarget": 600,
     "lowTarget": 125,
-    "upsidePercent": -0.2,
-    "buyCount": 12,
-    "holdCount": 11,
-    "sellCount": 7,
-    "notableComment": "BofA: '소비자 자율주행의 현재 리더, Buy $460.' Motley Fool: 'Forward P/E 기준 1년 만에 가장 저렴한 구간.' BNP Paribas: $280 하향, 수요 둔화 우려."
+    "upsidePercent": 7.53,
+    "buyCount": 20,
+    "holdCount": 17,
+    "sellCount": 8,
+    "notableComment": "45명 애널리스트 Hold 컨센서스. 목표가 $426.61 대비 +7.5% 상승 여력. 내일 NHTSA 결과가 목표가 리비전의 핵심 촉매. 도쿄 FSD 시연이 국제 확장 기대감 추가."
   },
-
   "risks": [
     {
       "severity": "critical",
-      "title": "NHTSA FSD 기한 D-1 (3/9)",
-      "description": "월요일 FSD 충돌 데이터 제출 마감. 부적합 판정 시 자율주행 내러티브 타격 및 30% 하방 리스크. 2차 연장 후 최종 기한으로 추가 연장 가능성 낮음."
+      "title": "P/E 369x 극단적 밸류에이션",
+      "description": "현 수익 대비 극도의 고평가. AI/로보틱스 내러티브 실패 시 대규모 조정 리스크."
+    },
+    {
+      "severity": "critical",
+      "title": "NHTSA FSD 규제 리스크 (D-1, 내일 마감)",
+      "description": "288만대 대상 조사, 58건 사고 연결. 오스틴 로보택시 14건 충돌. 실패 시 FSD 프로그램 중단 및 30% 하방."
     },
     {
       "severity": "high",
-      "title": "글로벌 EV 경쟁 심화 — BYD·Xiaomi·Rivian",
-      "description": "BYD 글로벌 1위, Xiaomi YU7가 중국 Model Y 2배 판매, Rivian R2 2026 출시. 시장점유율 방어 어려움."
+      "title": "유럽 수요 붕괴 — UK -37%, EU 1월 등록 -17%",
+      "description": "영국·네덜란드·덴마크 급감. Toyota·Stellantis CO2 풀 탈퇴로 규제 수익도 축소."
     },
     {
       "severity": "high",
-      "title": "밸류에이션 극단적 고평가",
-      "description": "P/E 392x, Forward P/E 192x. 성장 둔화 시 급격한 멀티플 수축 리스크."
+      "title": "매크로 역풍 — 유가 $90+, 고용 충격",
+      "description": "이란전쟁 + 고용 급감이 소비 심리 위축. EV 구매 지연 가능성."
     },
     {
       "severity": "medium",
-      "title": "관세 25% + 유가 $90+ 매크로 역풍",
-      "description": "H200 칩 관세, 이란 전쟁발 유가 급등으로 소비 심리 위축. EV 수요 둔화 가속 가능."
-    },
-    {
-      "severity": "medium",
-      "title": "독일 노조 갈등 및 유럽 규제 크레딧 축소",
-      "description": "IG Metall 베를린 영향력 확대, Toyota·Stellantis EU CO2 풀 이탈로 크레딧 수익 감소."
+      "title": "CEO 리스크 — X 딜 재판 + 정치적 논란",
+      "description": "Musk의 법적·정치적 이슈가 소비자 반감과 브랜드 훼손을 지속적으로 가중."
     }
   ],
-
   "buyReasons": [
     {
-      "title": "자율주행 데이터 리더십 — 82억 FSD 마일",
-      "rationale": "BofA가 재확인한 경쟁 우위. 규제 승인 시 로보택시 사업으로 폭발적 성장 가능."
+      "title": "컨센서스 $427 대비 7.5% 할인 구간",
+      "rationale": "매크로 셀오프에 의한 기술적 오버슈팅. 200일 평균 위에서 지지."
     },
     {
-      "title": "에너지 사업 +27% YoY 고성장",
-      "rationale": "Megapack 수요 급증, 2026 Megapack 3 출시. EV 둔화를 보완하는 성장 엔진."
+      "title": "NHTSA 내일 통과 시 랠리 촉매",
+      "rationale": "FSD 승인이 자율주행 밸류에이션 재평가를 트리거할 수 있음."
     },
     {
-      "title": "순현금 $29.3B — 재무 안전판",
-      "rationale": "부채비율 0.18x, 현금 $44B. 역풍 속에서도 투자 여력 충분."
+      "title": "로보택시 요금 인상 — 수익성 신호",
+      "rationale": "오스틴 기본 요금 3.25배 인상은 높은 수요와 수익화 의지 확인."
     },
     {
-      "title": "유럽 시장 안정화 신호",
-      "rationale": "프랑스·노르웨이 2월 반등. 2년 연속 감소 후 바닥 형성 가능성."
+      "title": "도쿄 FSD 시연 — 국제 확장 시작",
+      "rationale": "일본 시장 진출로 FSD의 글로벌 확장 가능성 가시화."
     }
   ],
-
   "technicalPosition": {
-    "week52High": 488.54,
-    "week52Low": 272.00,
-    "currentPositionPercent": 57.6,
-    "sma50": 428.01,
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 64.1,
+    "sma50": 428.2,
     "sma50Signal": "below",
-    "sma200": 392.10,
-    "sma200Signal": "above",
-    "rsi": 41.05,
+    "sma200": 418.3,
+    "sma200Signal": "below",
+    "rsi": 41.4,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "Tesla는 $396.73으로 200일 이평선($392) 바로 위에서 아슬아슬하게 지지받고 있다. 주말이 지나면 바로 3/9 NHTSA FSD 마감이라는 초대형 이벤트가 기다리고 있다.",
-    "BofA Buy $460 vs BNP $280 — 월가 의견이 극단적으로 갈린 상황. 이는 자율주행 성공/실패에 따른 바이너리 리스크를 반영한다.",
-    "프랑스·노르웨이 반등은 유럽 바닥 신호지만, 영국 -37%와 중국 Xiaomi 위협은 여전히 심각하다.",
-    "P/E 392x는 현재 실적으로는 정당화 불가능. FSD 승인 + 로보택시 수익화가 유일한 멀티플 방어 논리다.",
-    "단기적으로 3/9 NHTSA 결과에 모든 것이 걸려 있다. 통과 시 급등, 실패 시 200일선 이탈 후 추가 하락 가능성."
+    "내일(월요일) 미국 도로교통안전청(NHTSA) 자율주행 안전 심사 최종 마감일이다. 288만대를 대상으로 한 조사에 58건의 사고가 연결되어 있어, 통과하면 강한 반등이, 실패하면 30% 급락이 예상되는 결정적 하루다.",
+    "주말 중 오스틴 로보택시 기본 요금이 3배 넘게 올랐다($1→$3.25). 대기시간이 10-15분일 정도로 수요가 높다는 뜻이고, 수익성 개선 의지를 보여준다. 또한 도쿄에서 FSD 시연이 시작되면서 국제 확장의 첫 발을 뗐다.",
+    "영국 2월 판매 37% 급감, 유가 90달러 돌파, 고용 충격 등 악재가 여전히 무겁다. 200일 평균 주가($418) 아래에 있고, 50일 평균($428)과도 상당히 벌어져 있다.",
+    "내일 심사 결과가 모든 것을 결정한다. 주말 동안 로보택시 요금 인상과 도쿄 FSD 시연이라는 작은 호재가 나왔지만, 월요일 결과를 보고 판단해도 늦지 않다."
   ],
-
   "sources": [
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/TSLA/", "description": "TSLA 실시간 주가, 시가총액, 거래량" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "밸류에이션, 기술적 지표, 재무 효율성 데이터" },
-    { "name": "Nasdaq", "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome", "description": "NHTSA 3/9 FSD 기한 분석" },
-    { "name": "Yahoo Finance (BofA)", "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html", "description": "BofA Buy $460 재개 분석" },
-    { "name": "Reuters (Europe)", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/", "description": "프랑스·노르웨이 2월 시장점유율 반등" },
-    { "name": "Reuters (IG Metall)", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "독일 기가팩토리 노조 선거" },
-    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/", "description": "TSLA 급락 원인 분석" },
-    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "시가총액 $1.49T, P/E 377.12" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-will-soar-to-this-price-in-2026/", "description": "Forward P/E 기준 밸류에이션 분석" },
-    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-could-trigger-the-next-breakout-in-tesla-stock/", "description": "Tesla 주가 돌파 트리거 분석" }
+    {
+      "name": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/03/07/tesla-robotaxi-prices-jump-in-austin-here-is-the-new-cost-for-a-5-mile-trip/",
+      "description": "오스틴 로보택시 요금 인상 ($1→$3.25)"
+    },
+    {
+      "name": "Basenor",
+      "url": "https://www.basenor.com/blogs/news/tesla-driverless-robotaxi-is-live-what-owners-need-to-know",
+      "description": "도쿄 FSD Supervised 공개 시연"
+    },
+    {
+      "name": "Electrek",
+      "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/",
+      "description": "NHTSA FSD 조사, 288만대 대상, 3/9 최종 마감"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html",
+      "description": "3/6 고용지표 충격 + 유가 급등 매크로 분석"
+    },
+    {
+      "name": "Reuters/Investing.com",
+      "url": "https://ca.investing.com/news/economic-indicators/tesla-uk-car-sales-drop-37-as-chinese-competition-heightens-smmt-data-shows-4496417",
+      "description": "영국 2월 판매 37% 급감"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/tsla/forecast/",
+      "description": "애널리스트 컨센서스 및 목표가"
+    },
+    {
+      "name": "Finviz",
+      "url": "https://finviz.com/quote.ashx?t=TSLA",
+      "description": "TSLA 기술적 지표, P/E, SMA, RSI"
+    }
   ],
-
   "snsContent": {
+    "x": {
+      "hook": "자율주행 심사 D-1, 내일이 갈림길",
+      "text": "$TSLA (3/8) 내일 자율주행 안전 심사 최종 마감. 통과하면 반등, 실패하면 30% 급락. 주말 중 로보택시 요금 3배 인상, 도쿄 FSD 시연 시작.\n\n1/4",
+      "thread": [
+        "오스틴 로보택시 기본 요금이 $1에서 $3.25로 올랐다. 대기시간 10-15분일 정도로 수요가 높다는 뜻. 수익성 개선 시그널.\n\n2/4",
+        "도쿄에서 FSD 시연이 시작됐다. 일본 시장 진출의 첫걸음. 하지만 영국 판매 37% 급감, 유가 90달러 등 악재는 여전.\n\n3/4",
+        "200일 평균($418) 아래. 목표가 $427(+7.5%). 내일 결과가 모든 걸 결정한다. 결과 보고 움직여도 늦지 않다.\n\n4/4"
+      ]
+    },
     "threads": {
-      "hook": "TSLA $397 — 내일이 운명의 날이다 🔥",
-      "text": "$TSLA $396.73(-2.17%). 200일선 $392 위 1%p. 내일 3/9 NHTSA FSD 마감. BofA $460 vs BNP $280 — 월가가 이렇게 갈리는 건 바이너리 이벤트란 뜻. 프랑스·노르웨이는 반등, 영국은 -37%. P/E 392x, 자율주행 없으면 설명 불가. 내일 통과하면 $450+, 실패하면 $350. 당신이라면 주말에 뭘 하겠는가? investory.kro.kr/stock/TSLA/analysis/2026-03-08"
+      "hook": "자율주행 심사 D-1, 내일이 갈림길",
+      "text": "$TSLA (3/8) $396.73\n\n내일 자율주행 안전 심사 최종 마감이다. 통과하면 반등, 실패하면 30% 급락할 수 있는 갈림길.\n\n주말 중 로보택시 요금 3배 인상($1→$3.25), 도쿄 FSD 시연 시작이라는 호재가 나왔다. 하지만 유럽 판매 급감, 유가 급등은 여전.\n\n목표가 $427(+7.5%). 내일 결과를 보고 판단해도 늦지 않다."
     },
     "telegram": {
-      "hook": "TSLA $396.73 — NHTSA D-1, 월요일이 모든 걸 결정한다",
-      "text": "Tesla 일일 분석 (3/8)\n\n💰 $396.73 (-2.17%) | 시총 $1.49T\n📊 P/E 392x | Forward P/E 192x | RSI 41\n\n🔑 핵심 이슈:\n• ⏰ 3/9(월) NHTSA FSD 데이터 제출 최종 마감 — 2차 연장 후 마지막\n• 📈 BofA Buy $460 재개 vs BNP $280 하향 — 극단 양극화\n• 🇫🇷🇳🇴 프랑스·노르웨이 2월 점유율 반등 (유럽 안정화)\n• 🇬🇧 영국 -37%, Xiaomi 중국에서 2:1 압도\n• 🏭 IG Metall 베를린 기가팩토리 노조 투표\n\n📐 기술적: 200일선 $392 지지, 50일선 $428 저항\n🎯 컨센서스 $396 (0% upside) — Hold\n\n결론: P/E 392x는 FSD 없이 설명 불가. 월요일 NHTSA 결과가 2026년 Tesla를 결정한다.\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-08"
+      "hook": "자율주행 심사 D-1, 내일이 갈림길",
+      "text": "Tesla 일일 분석 (3/8)\n\n가격: $396.73 (금요일 종가)\n\n핵심 이슈\n- 내일(3/9) NHTSA 자율주행 심사 최종 마감\n- 통과 시 반등, 실패 시 30% 급락 가능\n- 주말 중 오스틴 로보택시 요금 3배 인상\n- 도쿄에서 FSD 시연 시작\n\n주가 위치\n- 200일 평균($418) 아래\n- 50일 평균($428)과 괴리 확대\n\n목표가: $427 (+7.5%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "자율주행 심사 D-1, 내일이 갈림길",
+          "text": "$TSLA (3/8) 내일 자율주행 안전 심사 최종 마감. 통과하면 반등, 실패하면 30% 급락. 주말 중 로보택시 요금 3배 인상, 도쿄 FSD 시연 시작.\n\n1/4",
+          "thread": [
+            "오스틴 로보택시 기본 요금이 $1에서 $3.25로 올랐다. 대기시간 10-15분일 정도로 수요가 높다는 뜻. 수익성 개선 시그널.\n\n2/4",
+            "도쿄에서 FSD 시연이 시작됐다. 일본 시장 진출의 첫걸음. 하지만 영국 판매 37% 급감, 유가 90달러 등 악재는 여전.\n\n3/4",
+            "200일 평균($418) 아래. 목표가 $427(+7.5%). 내일 결과가 모든 걸 결정한다. 결과 보고 움직여도 늦지 않다.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "내일이 시험일",
+          "text": "$TSLA (3/8) 내일 자율주행 시험 결과 나온다. 통과하면 축포, 실패하면 30% 급락. 주말에 로보택시 요금은 올리고, 도쿄에선 FSD 시연을 시작했다.\n\n1/4",
+          "thread": [
+            "오스틴 로보택시 요금이 3배 올랐다. 수요가 넘쳐나서 가격을 올려야 할 정도라니, 좋은 건지 나쁜 건지.\n\n2/4",
+            "도쿄에서 FSD를 시연하는 건 멋지지만, 영국에선 판매가 37% 급감 중이다. 지구 반대편의 온도 차가 극심하다.\n\n3/4",
+            "목표가 $427(+7.5%). 내일 시험 보기 전에 답안지를 사는 건 위험하다. 결과 보고 움직이자.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "테슬라 주주들, 긴장의 주말",
+          "text": "$TSLA (3/8) 내일이 자율주행 심사 마감일이다. 이번 주말, 테슬라 들고 있으면 마음이 편하지 않을 거다. $396.73.\n\n1/4",
+          "thread": [
+            "그래도 주말 중 좋은 소식도 나왔다. 로보택시 요금이 올라서 수익성이 나아질 수 있고, 도쿄에서 FSD 시연도 시작됐다.\n\n2/4",
+            "영국 판매 급감과 유가 급등은 부담이지만, 200일 평균 근처에서 버티고 있다. 바닥이 단단해 보인다.\n\n3/4",
+            "목표가 $427(+7.5%). 내일 결과만 좋으면 분위기가 확 바뀔 수 있다. 조금만 더 버텨보자.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "자율주행 심사 D-1, 내일이 갈림길",
+          "text": "$TSLA (3/8) $396.73\n\n내일 자율주행 안전 심사 최종 마감이다. 통과하면 반등, 실패하면 30% 급락할 수 있는 갈림길.\n\n주말 중 로보택시 요금 3배 인상($1→$3.25), 도쿄 FSD 시연 시작이라는 호재가 나왔다. 하지만 유럽 판매 급감, 유가 급등은 여전.\n\n목표가 $427(+7.5%). 내일 결과를 보고 판단해도 늦지 않다."
+        },
+        "witty": {
+          "hook": "내일이 시험일",
+          "text": "$TSLA (3/8) $396.73\n\n내일 자율주행 시험 결과 발표. 로보택시 요금은 3배 올렸고, 도쿄에선 FSD 시연까지. 준비는 다 했는데 시험 결과가 문제.\n\n영국 판매 37% 급감, 유가 90달러. 시험 전에 답안지 사는 건 위험하다. 결과 보고 움직이자. 목표가 $427(+7.5%)."
+        },
+        "empathy": {
+          "hook": "테슬라 주주들, 긴장의 주말",
+          "text": "$TSLA (3/8) $396.73\n\n내일이 자율주행 심사 마감일. 주말 동안 마음 편하지 않았을 거다.\n\n로보택시 요금 인상, 도쿄 FSD 시연 등 작은 호재는 나왔다. 내일 결과만 좋으면 분위기가 바뀔 수 있다.\n\n목표가 $427(+7.5%). 조금만 더 버텨보자."
+        }
+      }
     }
   }
 }

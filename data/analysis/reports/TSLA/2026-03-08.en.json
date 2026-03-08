@@ -4,224 +4,161 @@
   "analysisDate": "2026-03-08",
   "currentPrice": 396.73,
   "marketCap": "$1.49T",
-
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and Physical AI Platform spanning autonomous driving, robotics, and energy storage",
-    "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY) with net income down 46.5%. Closed 3/6 at $396.73 (-2.17%) as jobs shock and oil $90+ amplified macro selling pressure. France and Norway saw February market share recovery while Germany's Gigafactory faces IG Metall union elections. NHTSA FSD data submission deadline is 3/9 (D-1). Morgan Stanley calls it a 'coiled spring.' P/E 392.38x, Forward P/E 191.85x.",
+    "oneLiner": "World's largest EV maker transitioning into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B (-2.9%), with net income plunging 46.5%. Friday close $396.73 (-2.17%). Tomorrow (3/9) is the NHTSA FSD safety review deadline — 2.88M vehicles under investigation, 58 incidents linked. Over the weekend, Austin robotaxi base fare raised from $1 to $3.25, and Tokyo FSD Supervised public demos began. P/E 368.71x, Forward P/E 150.88x.",
     "howTheyMakeMoney": [
       "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
-      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility storage",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
       "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
       "FSD subscription: $99/month autonomous driving software (subscription-only since Feb 2026)"
     ],
     "keyProducts": [
       "Model 3/Y (core EVs)",
-      "Cybertruck (base AWD trim, deliveries pushed to 2027 due to demand surge)",
+      "Cybertruck (base AWD trim with massive demand, deliveries pushed to 2027)",
       "Cybercab (autonomous robotaxi, first production 2/17, $30,000)",
       "Optimus (humanoid robot, Fremont factory conversion underway)",
-      "Megapack (utility energy storage, Megapack 3 and Mega Block launching 2026)",
-      "FSD (Full Self-Driving, 8.2 billion cumulative miles)"
+      "Megapack (utility-scale energy storage, Megapack 3 and Mega Block launching 2026)",
+      "FSD (Full Self-Driving, 8.2 billion miles accumulated)"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "392.38x", "interpretation": "Extremely high vs. earnings. Reflects AI/autonomy premium" },
-    { "name": "Forward P/E", "value": "191.85x", "interpretation": "Still very elevated even on forward estimates" },
-    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "FY2025 revenue declined. EV competition intensifying" },
-    { "name": "Operating Margin", "value": "4.6%", "interpretation": "Sharply compressed from price cuts and cost increases" },
-    { "name": "ROE", "value": "4.93%", "interpretation": "Return on equity plunged, reflecting profitability decline" },
-    { "name": "Debt/Equity", "value": "0.18x", "interpretation": "Very healthy balance sheet. Net cash $29.3B" },
-    { "name": "FCF Yield", "value": "0.42%", "interpretation": "P/FCF 239x. Overvalued vs cash generation" },
-    { "name": "RSI", "value": "41.05", "interpretation": "Neutral-bearish zone, approaching oversold" }
+    {"name": "P/E Ratio (TTM)", "value": "368.71x", "interpretation": "Extreme valuation. AI/robotics premium vs actual earnings"},
+    {"name": "Forward P/E", "value": "150.88x", "interpretation": "Reflects earnings recovery expectations but still very elevated"},
+    {"name": "PEG Ratio", "value": "4.94", "interpretation": "Significantly overvalued relative to growth"},
+    {"name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "First-ever FY decline. Global EV competition intensifying"},
+    {"name": "Operating Margin", "value": "5.11%", "interpretation": "Slight improvement QoQ but still historically low"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Operational efficiency improving"},
+    {"name": "Debt/Equity", "value": "0.18", "interpretation": "Very healthy. Net cash $29.3B"},
+    {"name": "ROE", "value": "4.89%", "interpretation": "Down from FY2024. Profitability recovery needed"}
   ],
-
   "growthDrivers": [
-    {
-      "title": "NHTSA FSD Data Deadline D-1 — March 9 Regulatory Inflection",
-      "description": "Final FSD crash data submission due Monday 3/9 after two extensions. Pass accelerates autonomy approval; fail risks 30% downside (Nasdaq analysis). Everything hinges on Monday."
-    },
-    {
-      "title": "France & Norway February Market Share Rebound — Europe Stabilizing",
-      "description": "Reuters: Tesla regained market share in France and Norway in February. Stabilization signal after two consecutive years of European sales decline. Contrasts with UK's -37%."
-    },
-    {
-      "title": "German Gigafactory Union Election — IG Metall vs Tesla",
-      "description": "Reuters: Germany's largest industrial union IG Metall seeks to expand influence at Berlin Gigafactory. New works council vote amid labor disputes and legal battles."
-    },
-    {
-      "title": "BofA Maintains Buy $460, Reinforces Autonomy Leadership",
-      "description": "Bank of America resumed coverage on 3/4 with Buy rating and $460 target (+16% upside). Called Tesla 'the current leader in consumer autonomy.' BNP Paribas cut to $280."
-    }
+    {"title": "NHTSA FSD Safety Review D-1 — Tomorrow (3/9) Final Deadline", "description": "2.88M vehicles under investigation with 58 linked incidents. Approval accelerates nationwide autonomous rollout; failure risks 30% downside. Final deadline after two extensions."},
+    {"title": "Austin Robotaxi Base Fare Raised $1→$3.25", "description": "Weekend fare increase reflects high demand (10-15 min wait times). Revenue per ride jumped from $6 to $8.25 for a 5-mile trip. Monetization signal."},
+    {"title": "Tokyo FSD Supervised Public Demos Begin", "description": "Tesla has started public demonstrations of FSD Supervised on Tokyo streets. First step toward Japan market entry and international FSD expansion."},
+    {"title": "Phoenix, Miami, Las Vegas Robotaxi Expansion Planned", "description": "Three additional cities targeted for mid-2026 expansion. Austin's 14 crash record is a hurdle, but scaling intent is clear."}
   ],
-
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share leader, though surpassed globally by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
+    "summary": "50%+ US EV market share leader, though overtaken globally by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
     "moats": [
-      {
-        "type": "Autonomous Driving Data Moat",
-        "description": "8.2 billion FSD miles. Overwhelming training data advantage vs competitors."
-      },
-      {
-        "type": "Vertical Integration",
-        "description": "In-house batteries (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."
-      },
-      {
-        "type": "Charging Network Effect",
-        "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."
-      }
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelming training data advantage over competitors."},
+      {"type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."},
+      {"type": "Charging Network Effect", "description": "NACS is North America's EV charging standard. GM, Ford, Rivian all depend on Tesla Superchargers."}
     ],
     "competitors": [
-      {
-        "name": "BYD",
-        "detail": "2025 global EV sales leader. Rapid European growth, US limited by tariffs"
-      },
-      {
-        "name": "Waymo (Alphabet)",
-        "detail": "$16B funding, $126B valuation. 400K+ weekly rides"
-      },
-      {
-        "name": "Rivian (RIVN)",
-        "detail": "R2 SUV ($45,000) launching 2026 to compete directly with Model Y"
-      },
-      {
-        "name": "Xiaomi",
-        "detail": "YU7 SUV outselling Model Y 2:1 in China"
-      }
+      {"name": "BYD", "detail": "2025 global EV sales leader. Rapid European expansion, US limited by tariffs"},
+      {"name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides"},
+      {"name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y"},
+      {"name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China"}
     ]
   },
-
   "recentNews": [
-    {
-      "date": "2026-03-07",
-      "headline": "NHTSA FSD Data Deadline D-1 — Final Submission Due March 9",
-      "significance": "After two extensions, Monday is the final deadline. Could determine Tesla's entire 2026 trajectory.",
-      "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome"
-    },
-    {
-      "date": "2026-03-05",
-      "headline": "Tesla Stock Tests $400 Support — Tariffs, Jobs Shock Compound Selling",
-      "significance": "Global macro selloff combined with Tesla-specific headwinds drove shares to multi-month lows.",
-      "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/"
-    },
-    {
-      "date": "2026-03-04",
-      "headline": "BofA Resumes Tesla Coverage at Buy with $460 Target",
-      "significance": "Upgraded from Hold to Buy. Cites consumer autonomy leadership with +16% upside.",
-      "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html"
-    },
-    {
-      "date": "2026-03-04",
-      "headline": "IG Metall Targets Breakthrough at Tesla's Berlin Gigafactory",
-      "significance": "New works council election amid labor disputes. Potential cost and operational disruption risks.",
-      "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/"
-    },
-    {
-      "date": "2026-03-02",
-      "headline": "Tesla Regains Market Share in France and Norway in February",
-      "significance": "Stabilization after two years of European sales decline. UK -37% remains a concern.",
-      "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/"
-    }
+    {"date": "2026-03-07", "headline": "Austin robotaxi base fare raised from $1 to $3.25, demand management", "significance": "Wait times averaging 10-15 minutes confirm high demand. Fare increase signals monetization intent", "url": "https://teslanorth.com/2026/03/07/tesla-robotaxi-prices-jump-in-austin-here-is-the-new-cost-for-a-5-mile-trip/"},
+    {"date": "2026-03-07", "headline": "Tokyo FSD Supervised public demonstrations begin", "significance": "First step toward Japan market entry and international FSD expansion", "url": "https://www.basenor.com/blogs/news/tesla-driverless-robotaxi-is-live-what-owners-need-to-know"},
+    {"date": "2026-03-07", "headline": "NHTSA FSD safety review D-1 — tomorrow (3/9) final deadline", "significance": "2.88M vehicles, 58 incidents, Austin robotaxi 14 crashes. Final deadline after two extensions", "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/"},
+    {"date": "2026-03-06", "headline": "UK February sales plunge 37%; Toyota and Stellantis exit EU CO2 pool", "significance": "Overall UK market grew 7.2%. European weakness broadening", "url": "https://ca.investing.com/news/economic-indicators/tesla-uk-car-sales-drop-37-as-chinese-competition-heightens-smmt-data-shows-4496417"},
+    {"date": "2026-03-06", "headline": "Jobs shock and oil past $90 cap Wall Street's worst week since October", "significance": "Nonfarm payrolls contracted, Iran war pushed oil to 2023 highs. TSLA -2.17%", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html"}
   ],
-
   "analystOpinions": {
-    "consensusTarget": 396,
-    "highTarget": 600,
-    "lowTarget": 125,
-    "upsidePercent": -0.2,
-    "buyCount": 12,
-    "holdCount": 11,
-    "sellCount": 7,
-    "notableComment": "BofA: 'Current leader in consumer autonomy, Buy $460.' Motley Fool: 'Cheapest Forward P/E in a year.' BNP Paribas: Cut to $280 on demand concerns."
+    "consensusTarget": 426.61, "highTarget": 600, "lowTarget": 125, "upsidePercent": 7.53,
+    "buyCount": 20, "holdCount": 17, "sellCount": 8,
+    "notableComment": "45 analysts, Hold consensus. Target $426.61 implies +7.5% upside. Tomorrow's NHTSA result is the key catalyst for target revisions. Tokyo FSD demo adds international expansion optionality."
   },
-
   "risks": [
-    {
-      "severity": "critical",
-      "title": "NHTSA FSD Deadline D-1 (March 9)",
-      "description": "Final FSD crash data submission deadline Monday. Adverse ruling could devastate the autonomy narrative with 30% downside risk. No more extensions likely."
-    },
-    {
-      "severity": "high",
-      "title": "Global EV Competition Intensifying — BYD, Xiaomi, Rivian",
-      "description": "BYD is global #1, Xiaomi YU7 outsells Model Y 2:1 in China, Rivian R2 launching 2026. Market share defense increasingly difficult."
-    },
-    {
-      "severity": "high",
-      "title": "Extreme Valuation Premium",
-      "description": "P/E 392x, Forward P/E 192x. Any growth deceleration risks severe multiple compression."
-    },
-    {
-      "severity": "medium",
-      "title": "25% Tariff + Oil $90+ Macro Headwinds",
-      "description": "H200 chip tariffs and Iran conflict-driven oil surge weigh on consumer sentiment and EV demand."
-    },
-    {
-      "severity": "medium",
-      "title": "German Labor Conflicts and EU Regulatory Credit Erosion",
-      "description": "IG Metall expanding influence at Berlin Gigafactory. Toyota/Stellantis EU CO2 pool exit reduces credit revenue."
-    }
+    {"severity": "critical", "title": "P/E 369x extreme valuation", "description": "Massively overvalued vs current earnings. AI/robotics narrative failure risks severe correction."},
+    {"severity": "critical", "title": "NHTSA FSD regulatory risk (D-1, tomorrow)", "description": "2.88M vehicles under investigation, 58 incidents. Austin robotaxi 14 crashes. Failure = FSD program suspension, 30% downside."},
+    {"severity": "high", "title": "European demand collapse — UK -37%, EU Jan registrations -17%", "description": "UK, Netherlands, Denmark sharp declines. Toyota/Stellantis CO2 pool exit shrinks credit revenue."},
+    {"severity": "high", "title": "Macro headwinds — oil $90+, jobs shock", "description": "Iran war + employment contraction could dampen consumer sentiment and EV purchases."},
+    {"severity": "medium", "title": "CEO risk — X deal trial + political controversies", "description": "Musk's legal and political issues continue to drive consumer backlash and brand damage."}
   ],
-
   "buyReasons": [
-    {
-      "title": "Autonomous Driving Data Leadership — 8.2B FSD Miles",
-      "rationale": "Competitive advantage confirmed by BofA. Regulatory approval could unlock explosive robotaxi growth."
-    },
-    {
-      "title": "Energy Business +27% YoY High Growth",
-      "rationale": "Megapack demand surging, Megapack 3 launching 2026. Growth engine offsetting EV slowdown."
-    },
-    {
-      "title": "Net Cash $29.3B — Financial Safety Net",
-      "rationale": "Debt/equity 0.18x, $44B cash. Ample investment capacity despite headwinds."
-    },
-    {
-      "title": "European Market Stabilization Signal",
-      "rationale": "France and Norway February rebound. Possible bottom forming after two years of decline."
-    }
+    {"title": "7.5% discount to consensus $427", "rationale": "Macro selloff overshoot. Holding above 200-day moving average support."},
+    {"title": "NHTSA pass tomorrow could trigger rally", "rationale": "FSD approval would unlock autonomous driving valuation re-rating."},
+    {"title": "Robotaxi fare increase — monetization signal", "rationale": "Austin base fare tripled to $3.25, confirming high demand and revenue potential."},
+    {"title": "Tokyo FSD demo — international expansion begins", "rationale": "Japan market entry makes global FSD expansion tangible."}
   ],
-
   "technicalPosition": {
-    "week52High": 488.54,
-    "week52Low": 272.00,
-    "currentPositionPercent": 57.6,
-    "sma50": 428.01,
-    "sma50Signal": "below",
-    "sma200": 392.10,
-    "sma200Signal": "above",
-    "rsi": 41.05,
-    "rsiSignal": "neutral"
+    "week52High": 498.83, "week52Low": 214.25, "currentPositionPercent": 64.1,
+    "sma50": 428.2, "sma50Signal": "below", "sma200": 418.3, "sma200Signal": "below",
+    "rsi": 41.4, "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "Tesla sits at $396.73, barely clinging to 200-day SMA support at $392. The weekend passes and Monday brings the NHTSA FSD deadline — a binary event for the stock.",
-    "BofA Buy $460 vs BNP $280 — Wall Street has rarely been this divided on a single stock. This reflects pure binary risk: autonomy success or failure.",
-    "France and Norway rebounds signal a European floor, but UK -37% and China's Xiaomi threat remain serious concerns.",
-    "P/E 392x is unjustifiable on current earnings alone. FSD approval + robotaxi monetization is the only multiple defense.",
-    "Near-term, everything rides on the March 9 NHTSA outcome. Pass = rally toward $450+. Fail = 200-day SMA break and further downside."
+    "Tomorrow (Monday) is the final deadline for the U.S. auto safety regulator's self-driving review. With 2.88 million vehicles under investigation and 58 incidents linked to FSD, this is the defining moment: approval could spark a sharp rally, while failure could send the stock down 30%.",
+    "Over the weekend, Tesla raised Austin robotaxi fares by more than 3x (from $1 to $3.25 base fare), signaling strong demand with 10-15 minute wait times. The company also began public FSD demonstrations on Tokyo streets, marking its first step into the Japanese market.",
+    "UK February sales plunged 37%, oil is above $90, and the jobs report was a shock — macro headwinds remain heavy. The stock sits below both its 50-day average ($428) and 200-day average ($418).",
+    "Tomorrow's review result will determine everything. The weekend brought small positives — robotaxi fare hikes and Tokyo FSD demos — but waiting for Monday's outcome remains the prudent strategy."
   ],
-
   "sources": [
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/TSLA/", "description": "Real-time TSLA price, market cap, volume" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "Valuation, technical indicators, financial data" },
-    { "name": "Nasdaq", "url": "https://www.nasdaq.com/articles/teslas-2026-may-hinge-march-9-outcome", "description": "NHTSA March 9 FSD deadline analysis" },
-    { "name": "Yahoo Finance (BofA)", "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html", "description": "BofA Buy $460 upgrade coverage" },
-    { "name": "Reuters (Europe)", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/", "description": "France/Norway February market share rebound" },
-    { "name": "Reuters (IG Metall)", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "German Gigafactory union election" },
-    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/", "description": "TSLA selloff analysis" },
-    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "Market cap $1.49T, P/E data" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-will-soar-to-this-price-in-2026/", "description": "Forward P/E valuation analysis" },
-    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/02/what-could-trigger-the-next-breakout-in-tesla-stock/", "description": "Tesla breakout trigger analysis" }
+    {"name": "TeslaNorth", "url": "https://teslanorth.com/2026/03/07/tesla-robotaxi-prices-jump-in-austin-here-is-the-new-cost-for-a-5-mile-trip/", "description": "Austin robotaxi fare increase ($1→$3.25)"},
+    {"name": "Basenor", "url": "https://www.basenor.com/blogs/news/tesla-driverless-robotaxi-is-live-what-owners-need-to-know", "description": "Tokyo FSD Supervised public demos"},
+    {"name": "Electrek", "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/", "description": "NHTSA FSD probe, 2.88M vehicles, 3/9 final deadline"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/05/stock-market-today-live-updates.html", "description": "3/6 macro analysis — jobs shock + oil surge"},
+    {"name": "Reuters/Investing.com", "url": "https://ca.investing.com/news/economic-indicators/tesla-uk-car-sales-drop-37-as-chinese-competition-heightens-smmt-data-shows-4496417", "description": "UK February sales -37%"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "Analyst consensus and targets"},
+    {"name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA technical indicators"}
   ],
-
   "snsContent": {
+    "x": {
+      "hook": "FSD review D-1, tomorrow decides",
+      "text": "$TSLA (Mar 8) Self-driving review final deadline is tomorrow. Pass = rally, fail = 30% drop. Weekend news: robotaxi fares tripled, Tokyo FSD demos started.\n\n1/4",
+      "thread": [
+        "Austin robotaxi base fare went from $1 to $3.25. Wait times are 10-15 min — demand is strong. Revenue per ride up 37%.\n\n2/4",
+        "FSD demos started in Tokyo — first step into Japan. But UK sales -37% and oil above $90 are still weighing heavy.\n\n3/4",
+        "Below both 50-day ($428) and 200-day ($418) averages. Target $427 (+7.5%). Tomorrow's result decides everything. Wait and see.\n\n4/4"
+      ]
+    },
     "threads": {
-      "hook": "TSLA $397 — Tomorrow decides everything 🔥",
-      "text": "$TSLA $396.73 (-2.17%). Sitting 1% above 200-day SMA $392. Monday 3/9 NHTSA FSD deadline — final, no more extensions. BofA says $460, BNP says $280 — Wall Street hasn't been this split in years. France/Norway rebounding, UK still -37%. P/E 392x only makes sense if FSD passes. Pass = $450+. Fail = $350. What would you do over the weekend? investory.kro.kr/stock/TSLA/analysis/2026-03-08"
+      "hook": "FSD review D-1, tomorrow decides",
+      "text": "$TSLA (Mar 8) $396.73\n\nSelf-driving review final deadline is tomorrow. Pass = rally, fail = 30% drop.\n\nWeekend positives: robotaxi fares tripled ($1→$3.25), Tokyo FSD demos started. But UK sales -37%, oil $90+, jobs shock.\n\nTarget $427 (+7.5%). Tomorrow decides everything."
     },
     "telegram": {
-      "hook": "TSLA $396.73 — NHTSA D-1, Monday Decides Everything",
-      "text": "Tesla Daily Analysis (3/8)\n\n💰 $396.73 (-2.17%) | MCap $1.49T\n📊 P/E 392x | Forward P/E 192x | RSI 41\n\n🔑 Key Issues:\n• ⏰ 3/9 (Mon) NHTSA FSD data deadline — final after 2 extensions\n• 📈 BofA Buy $460 vs BNP $280 — extreme divergence\n• 🇫🇷🇳🇴 France/Norway Feb market share rebound (Europe stabilizing)\n• 🇬🇧 UK -37%, Xiaomi outselling 2:1 in China\n• 🏭 IG Metall Berlin Gigafactory union vote\n\n📐 Technical: 200-day $392 support, 50-day $428 resistance\n🎯 Consensus $396 (0% upside) — Hold\n\nBottom line: P/E 392x is unjustifiable without FSD. Monday's NHTSA result determines Tesla's 2026.\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-08"
+      "hook": "FSD review D-1, tomorrow decides",
+      "text": "Tesla Daily Analysis (Mar 8)\n\nPrice: $396.73 (Friday close)\n\nKey Issues\n- NHTSA self-driving review final deadline tomorrow (3/9)\n- Pass = rally, fail = potential 30% drop\n- Weekend: Austin robotaxi fares tripled ($1→$3.25)\n- Tokyo FSD demos started\n\nTechnicals\n- Below 200-day avg ($418)\n- Below 50-day avg ($428)\n\nTarget: $427 (+7.5%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "FSD review D-1, tomorrow decides",
+          "text": "$TSLA (Mar 8) Self-driving review final deadline is tomorrow. Pass = rally, fail = 30% drop. Weekend news: robotaxi fares tripled, Tokyo FSD demos started.\n\n1/4",
+          "thread": [
+            "Austin robotaxi base fare went from $1 to $3.25. Wait times are 10-15 min — demand is strong. Revenue per ride up 37%.\n\n2/4",
+            "FSD demos started in Tokyo — first step into Japan. But UK sales -37% and oil above $90 are still weighing heavy.\n\n3/4",
+            "Below both 50-day ($428) and 200-day ($418) averages. Target $427 (+7.5%). Tomorrow's result decides everything. Wait and see.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Tomorrow is exam day",
+          "text": "$TSLA (Mar 8) Self-driving exam tomorrow. Robotaxi fares tripled and Tokyo got FSD demos — Tesla studied hard. But will the regulator grade on a curve?\n\n1/4",
+          "thread": [
+            "Austin fares went from $1 to $3.25. Demand is so high they raised prices 3x. That's either bullish or they're pricing out the early adopters.\n\n2/4",
+            "Tokyo FSD demos are cool, but UK sales tanked 37%. The world can't agree on whether Tesla is the future or yesterday's news.\n\n3/4",
+            "Target $427 (+7.5%). Buying before the exam is betting on the answer key. Wait for the grade.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "Tense weekend for TSLA holders",
+          "text": "$TSLA (Mar 8) Tomorrow's self-driving review deadline. If you hold Tesla, this weekend hasn't been easy. $396.73.\n\n1/4",
+          "thread": [
+            "Some good news though — robotaxi fares tripled (strong demand) and Tokyo FSD demos started (international expansion).\n\n2/4",
+            "UK sales -37% and oil above $90 are still heavy. But the stock is holding near its 200-day average.\n\n3/4",
+            "Target $427 (+7.5%). If tomorrow goes well, everything changes. Hang in there.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "FSD review D-1, tomorrow decides",
+          "text": "$TSLA (Mar 8) $396.73\n\nSelf-driving review final deadline is tomorrow. Pass = rally, fail = 30% drop.\n\nWeekend positives: robotaxi fares tripled ($1→$3.25), Tokyo FSD demos started. But UK sales -37%, oil $90+, jobs shock.\n\nTarget $427 (+7.5%). Tomorrow decides everything."
+        },
+        "witty": {
+          "hook": "Tomorrow is exam day",
+          "text": "$TSLA (Mar 8) $396.73\n\nSelf-driving exam tomorrow. Robotaxi fares tripled, Tokyo got FSD demos. Tesla studied hard but will the grade come through?\n\nUK sales -37%, oil $90. Half the world cheers, half jeers. Target $427 (+7.5%). Wait for the grade."
+        },
+        "empathy": {
+          "hook": "Tense weekend for TSLA holders",
+          "text": "$TSLA (Mar 8) $396.73\n\nTomorrow's the big day. This weekend hasn't been easy.\n\nGood signs: robotaxi fares tripled (demand is real), Tokyo FSD demos started. If tomorrow goes well, everything changes.\n\nTarget $427 (+7.5%). Hang in there."
+        }
+      }
     }
   }
 }

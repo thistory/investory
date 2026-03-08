@@ -2,12 +2,11 @@
   "symbol": "PLTR",
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-08",
-  "currentPrice": 157.16,
-  "marketCap": "$375.88B",
-
+  "currentPrice": 152.42,
+  "marketCap": "$365.0B",
   "businessSummary": {
     "oneLiner": "정부·기업용 AI 데이터 분석 플랫폼 — 미국 국방·정보기관 핵심 파트너에서 상업용 AI 강자로 변모 중",
-    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 구축한다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장 중이다. Q4 2025 매출 $1.407B(+70% YoY), 조정 영업이익률 57%. 3/6 종가 $157.16(+2.94%), 6일 연속 상승 후에도 강세 유지. 펜타곤의 Anthropic '공급망 리스크' 지정이 PLTR에 양날의 검 — Claude 의존도 리스크 vs 방산 AI 독점 기회. Peter Thiel 일본 총리 회동으로 일본 사업 확대 기대. P/E 249.46x, Forward P/E 118.90x.",
+    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 구축한다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장 중이다. Q4 2025 매출 $1.407B(+70% YoY), 조정 영업이익률 57%. 금요일 종가 $152.42(+6.14%), Peter Thiel이 일본 총리 다카이치와 도쿄에서 AI 협력 논의 후 반등. 주말 중 영국 국방부 £240M 계약 연장(수의계약) 보도 등장. P/E 246x, P/S 78x.",
     "howTheyMakeMoney": [
       "정부 계약: 미국 국방부, CIA, NSA 등 국가안보 기관 소프트웨어 라이선스 및 유지보수",
       "상업 부문: AIP 기반 기업용 AI 분석 플랫폼 구독 — 미국 상업 매출 +137% YoY",
@@ -22,205 +21,109 @@
       "Maven: 미 국방부 AI 작전 지원 시스템"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "249.46x", "interpretation": "극히 고평가. AI 프리미엄과 방산 독점 반영" },
-    { "name": "Forward P/E", "value": "118.90x", "interpretation": "향후 실적 반영해도 여전히 높은 수준" },
-    { "name": "매출 성장률 (YoY)", "value": "+70%", "interpretation": "Q4 2025 폭발적 성장. AIP가 성장 엔진" },
-    { "name": "조정 영업이익률", "value": "57%", "interpretation": "소프트웨어 업계 최상위 수준의 수익성" },
-    { "name": "ROE", "value": "25.98%", "interpretation": "건전한 자본 수익률. 흑자 전환 후 개선 중" },
-    { "name": "부채비율 (D/E)", "value": "0.03x", "interpretation": "사실상 무차입. 재무 안전성 최상" },
-    { "name": "PEG Ratio", "value": "2.66", "interpretation": "성장 대비 고평가. PEG > 2는 주의 신호" },
-    { "name": "RSI", "value": "60.96", "interpretation": "중립-강세. 과매수 아래 건전한 구간" }
+    {"name": "P/E Ratio (TTM)", "value": "246.2x", "interpretation": "반등으로 다시 상승. 극단적 밸류에이션 지속"},
+    {"name": "P/S Ratio (TTM)", "value": "77.7x", "interpretation": "소프트웨어 기업 중에서도 최고 수준의 매출 멀티플"},
+    {"name": "매출 성장률 (YoY)", "value": "+70%", "interpretation": "Q4 2025 $1.407B. AIP 가속 성장 지속"},
+    {"name": "영업이익률 (조정)", "value": "57%", "interpretation": "소프트웨어 플랫폼답게 극히 높은 수익성"},
+    {"name": "ROE", "value": "25.98%", "interpretation": "자본 대비 양호한 수익 창출"},
+    {"name": "FCF", "value": "$2.10B", "interpretation": "현금 창출 강화. 재투자 여력 확보"},
+    {"name": "부채비율 (D/E)", "value": "0.03", "interpretation": "사실상 무차입. 순현금 $6.95B"},
+    {"name": "Forward P/E", "value": "~115x", "interpretation": "수익 성장 기대감이 밸류에이션을 지탱"}
   ],
-
   "growthDrivers": [
-    {
-      "title": "펜타곤, Anthropic '공급망 리스크' 지정 — PLTR에 양날의 검",
-      "description": "국방부가 Anthropic을 공급망 리스크로 지정, 방산 계약자에 Claude 사용 금지. PLTR은 Claude를 AIP에 통합해 사용 중이라 단기 리스크, 동시에 방산 AI 독점 기회."
-    },
-    {
-      "title": "6일 연속 상승 +13%, 매크로 셀오프 역행",
-      "description": "Stocktwits: 나스닥 전체가 하락한 주에 PLTR만 6연속 상승 +13%. 목요일 프리마켓 소폭 하락 후 금요일 +2.94% 추가 상승."
-    },
-    {
-      "title": "Peter Thiel, 일본 총리 다카이치 만남 — 일본 사업 확대",
-      "description": "Benzinga: Thiel이 도쿄에서 다카이치 총리와 AI·기술 협력 논의. 일본 정부 AI 계약 수주 가능성."
-    },
-    {
-      "title": "이란 전쟁 → 미국 방산 AI 수요 급증 — PLTR 수혜",
-      "description": "TipRanks: 이란 분쟁으로 미군 AI 수요 급등. PLTR의 Maven 등 군사 AI 플랫폼 직접 수혜."
-    }
+    {"title": "영국 국방부 £240M 계약 연장 — 수의계약", "description": "주말 중 영국 국방부(MoD)가 Palantir과 £240M(약 $300M) 규모 계약을 수의계약으로 연장했다는 보도가 등장. 국제 정부 AI 매출 확대."},
+    {"title": "Peter Thiel, 일본 총리 다카이치와 AI 협력 논의", "description": "3/6 Thiel이 도쿄에서 다카이치 PM과 AI·기술 협력 논의. 일본 정부 AI 계약 수주 가능성. 금요일 +6.14% 반등의 촉매."},
+    {"title": "+6.14% 역행 반등 — 매크로 셀오프 속 단독 강세", "description": "나스닥 전체가 고용 충격+유가 급등으로 하락한 금요일에 PLTR만 +6% 상승. '지정학 파도 타기' 트레이드."},
+    {"title": "AIP 부트캠프가 엔터프라이즈 AI 지배력 강화", "description": "AIP 부트캠프 전략이 기업 고객 전환을 가속. 헬스케어·자동차 등 신규 섹터 확장 중."}
   ],
-
   "competitiveAdvantage": {
     "summary": "정부 보안 인증(Top Secret/SCI), 20년 국방·정보기관 관계, AIP를 통한 기업 AI 플랫폼 확장이 핵심 해자.",
     "moats": [
-      {
-        "type": "정부 보안 인증",
-        "description": "Top Secret/SCI 인증 보유. 경쟁사 진입 극도로 어려움."
-      },
-      {
-        "type": "전환비용",
-        "description": "Gotham/Foundry가 고객 데이터 인프라에 깊이 통합. 교체 비용 매우 높음."
-      },
-      {
-        "type": "AI 플랫폼 네트워크 효과",
-        "description": "AIP 부트캠프로 기업 고객 급속 확대. 더 많은 사용 → 더 좋은 모델."
-      }
+      {"type": "정부 보안 인증", "description": "Top Secret/SCI 인증 보유. 경쟁사 진입 극도로 어려움."},
+      {"type": "전환비용", "description": "Gotham/Foundry가 고객 데이터 인프라에 깊이 통합. 교체 비용 매우 높음."},
+      {"type": "AI 플랫폼 네트워크 효과", "description": "AIP 부트캠프로 기업 고객 급속 확대. 더 많은 사용 → 더 좋은 모델."}
     ],
     "competitors": [
-      {
-        "name": "Snowflake",
-        "detail": "데이터 클라우드 플랫폼. 엔터프라이즈 데이터 분석 경쟁"
-      },
-      {
-        "name": "Databricks",
-        "detail": "레이크하우스 플랫폼. AI/ML 워크로드 경쟁"
-      },
-      {
-        "name": "Microsoft (Azure AI)",
-        "detail": "Azure AI 서비스로 정부·기업 시장 공략"
-      },
-      {
-        "name": "C3.ai",
-        "detail": "엔터프라이즈 AI 플랫폼. 규모는 PLTR 대비 훨씬 작음"
-      }
+      {"name": "Snowflake", "detail": "데이터 클라우드 플랫폼. 엔터프라이즈 데이터 분석 경쟁"},
+      {"name": "Databricks", "detail": "레이크하우스 플랫폼. AI/ML 워크로드 경쟁"},
+      {"name": "Microsoft (Azure AI)", "detail": "Azure AI 서비스로 정부·기업 시장 공략"},
+      {"name": "C3.ai", "detail": "엔터프라이즈 AI 플랫폼. 규모는 PLTR 대비 훨씬 작음"}
     ]
   },
-
   "recentNews": [
-    {
-      "date": "2026-03-07",
-      "headline": "24/7 Wall St: Anthropic '국가안보 위협' 지정 — PLTR은 안전한가?",
-      "significance": "PLTR이 Anthropic Claude를 국방 워크플로에 사용 중. 즉시 대체 필요. 단기 리스크이자 장기 방산 AI 독점 기회.",
-      "url": "https://247wallst.com/investing/2026/03/07/anthropic-deemed-a-national-security-threat-is-palantir-technologies-at-risk/"
-    },
-    {
-      "date": "2026-03-06",
-      "headline": "PLTR +2.94% — 6일 연속 상승, 매크로 셀오프 역행",
-      "significance": "나스닥 하락 속 +2.94%. 전일 -9.92% 급락에서 이미 완전 회복.",
-      "url": "https://stocktwits.com/news-articles/markets/equity/palantir-stock-set-to-break-hottest-streak-in-nearly-a-year/cZdQF74RIdz"
-    },
-    {
-      "date": "2026-03-06",
-      "headline": "Peter Thiel, 일본 총리 다카이치 사나에와 도쿄 회동 — AI 협력 논의",
-      "significance": "일본 정부 AI 계약 수주 가능성. 아시아 시장 확장 신호.",
-      "url": "https://fortune.com/2026/03/05/palantir-ceo-alex-karp-anthropic-pentagon-r-word-anthropic-pentagon/"
-    },
-    {
-      "date": "2026-03-05",
-      "headline": "Alex Karp, Anthropic-펜타곤 분쟁에 대해 강력 비판",
-      "significance": "Fortune: Karp CEO가 AI 기업의 정부 협력 거부를 비판. PLTR의 방산 AI 독점 의지 재확인.",
-      "url": "https://fortune.com/2026/03/05/palantir-ceo-alex-karp-anthropic-pentagon-r-word-anthropic-pentagon/"
-    },
-    {
-      "date": "2026-03-04",
-      "headline": "이란 전쟁 → 미국 군사 AI 수요 급증 — PLTR 직접 수혜",
-      "significance": "TipRanks: 이란 분쟁으로 미군 AI 수요 급등. Maven 등 PLTR 군사 플랫폼 수혜.",
-      "url": "https://www.cnn.com/markets/stocks/PLTR"
-    }
+    {"date": "2026-03-07", "headline": "영국 국방부, Palantir과 £240M 계약 수의계약 연장", "significance": "경쟁 입찰 없이 계약 갱신. 국방 분야 록인(lock-in) 효과 확인. 국제 정부 매출 확대", "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance"},
+    {"date": "2026-03-06", "headline": "Peter Thiel, 일본 총리 다카이치와 도쿄에서 AI 기술 협력 논의", "significance": "Palantir Japan 사업 확대 기대. 일미 기술 동맹 심화 속 정부 AI 계약 가능성", "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance"},
+    {"date": "2026-03-06", "headline": "PLTR +6.14% 역행 반등 — 매크로 셀오프 속 단독 강세", "significance": "전일 -9.92% 급락에서 V자 반등. 시장 전체가 하락한 날 역행 상승은 강한 매수세 시그널", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai"},
+    {"date": "2026-03-06", "headline": "Seeking Alpha: 'Thiel 매도에도 매출 +70%, 마진 57%로 펀더멘털 건재'", "significance": "인사이더 매도에도 실적 지표는 AI 리더십을 확인. 장기 투자자에게 긍정적 신호", "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it"},
+    {"date": "2026-03-05", "headline": "AIP 부트캠프가 엔터프라이즈 AI 지배력 강화 — 헬스케어·자동차 확장", "significance": "AIP 전략이 새로운 산업군으로 확산. 데이터 프라이버시 이슈 주의 필요", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai"}
   ],
-
   "analystOpinions": {
-    "consensusTarget": 188,
-    "highTarget": 255,
-    "lowTarget": 45,
-    "upsidePercent": 19.6,
-    "buyCount": 16,
-    "holdCount": 7,
-    "sellCount": 5,
-    "notableComment": "MarketBeat: 28 애널리스트 Moderate Buy, 목표가 $188. Capital.com: 범위 $45-$255. 24/7 Wall St: YE26 목표 $202.50(+22%). Anthropic 리스크는 아직 미반영."
+    "consensusTarget": 193.78, "highTarget": 255, "lowTarget": 50, "upsidePercent": 27.14,
+    "buyCount": 12, "holdCount": 4, "sellCount": 2,
+    "notableComment": "18명 애널리스트 Buy 컨센서스. 목표가 $194(+27%). 영국 MoD £240M 수의계약과 일본 PM 면담이 국제 매출 확장 촉매. '지정학 파도 타기' 트레이드 유효."
   },
-
   "risks": [
-    {
-      "severity": "high",
-      "title": "Anthropic Claude 의존도 — 펜타곤 공급망 리스크 지정",
-      "description": "PLTR이 AIP에 Anthropic Claude를 통합 사용 중. 펜타곤이 Anthropic을 공급망 리스크로 지정, 즉시 대체 필요. 국방 워크플로 재구축 비용 발생."
-    },
-    {
-      "severity": "high",
-      "title": "밸류에이션 극단적 고평가 — P/E 249x, PEG 2.66",
-      "description": "성장률 대비에도 고평가. 성장 둔화 시 급격한 멀티플 수축 리스크."
-    },
-    {
-      "severity": "high",
-      "title": "Peter Thiel 내부자 매도 — 200만주 $290M",
-      "description": "3/2 Thiel이 대규모 매도. 신호적 의미에 대한 시장 우려."
-    },
-    {
-      "severity": "medium",
-      "title": "주식 희석 +4.67% YoY — SBC 높은 수준",
-      "description": "주식보상비용이 총 보수에서 높은 비중. 주주가치 희석 지속."
-    },
-    {
-      "severity": "medium",
-      "title": "정부 예산 불확실성 — 방산 지출 삭감 가능",
-      "description": "이란 전쟁으로 단기 방산 수요 증가, 그러나 장기적 예산 삭감 리스크 존재."
-    }
+    {"severity": "critical", "title": "극단적 밸류에이션 — P/E 246x, P/S 78x", "description": "반등으로 밸류에이션 부담 재확대. 성장률 둔화 시 대규모 조정 불가피."},
+    {"severity": "high", "title": "인사이더 대량 매도 — Peter Thiel $290M", "description": "3/2 Thiel이 200만주($290M) 매도. 공동 창업자의 대규모 매도는 시장 심리에 부정적."},
+    {"severity": "high", "title": "지정학적 양면성", "description": "이란전쟁 격화 → 국방주 수혜, 평화 협상 → 급락. 변동성 극심."},
+    {"severity": "medium", "title": "상업 부문 경쟁 심화", "description": "Snowflake, Databricks, Microsoft Azure AI 등과의 경쟁."},
+    {"severity": "medium", "title": "SBC(주식 보상) 희석", "description": "연 4.67% 주식수 증가. 기존 주주 희석 지속."}
   ],
-
   "buyReasons": [
-    {
-      "title": "방산 AI 독점 + 이란 전쟁 수혜",
-      "rationale": "Top Secret 인증, 20년 관계, Maven 등 경쟁사 진입 불가 영역. 이란 분쟁이 수요 가속."
-    },
-    {
-      "title": "AIP 부트캠프 → 상업 매출 +137% YoY",
-      "rationale": "기업 고객 전환 가속. 헬스케어·자동차 등 신규 섹터 확장으로 TAM 극대화."
-    },
-    {
-      "title": "조정 영업이익률 57% — 최상위 수익성",
-      "rationale": "소프트웨어 업계에서 가장 높은 마진. 스케일 효과로 추가 개선 가능."
-    },
-    {
-      "title": "Thiel 일본 총리 회동 — 국제 확장 기회",
-      "rationale": "일본·아시아 정부 AI 계약 수주 가능. 국제 매출 다변화."
-    }
+    {"title": "영국 MoD £240M 수의계약 — 국방 록인 확인", "rationale": "경쟁 입찰 없이 갱신. 국방 분야 전환비용 우위 확인. 국제 매출 다각화."},
+    {"title": "일본 PM 면담 → 아시아 정부 AI 확장", "rationale": "Thiel-다카이치 회동으로 일본 정부 AI 계약 가능성. 영국+일본 동시 확장."},
+    {"title": "미국 상업 매출 +137% YoY 폭발", "rationale": "AIP 부트캠프를 통한 기업 고객 전환이 가속. 국방 외 성장 엔진 건재."},
+    {"title": "순현금 $6.95B — 재무 건전성", "rationale": "무차입 경영에 현금 풍부. 하방 리스크 제한."}
   ],
-
   "technicalPosition": {
-    "week52High": 187.64,
-    "week52Low": 90.14,
-    "currentPositionPercent": 68.8,
-    "sma50": 157.42,
-    "sma50Signal": "below",
-    "sma200": 162.07,
-    "sma200Signal": "below",
-    "rsi": 60.96,
-    "rsiSignal": "neutral"
+    "week52High": 207.18, "week52Low": 59.78, "currentPositionPercent": 62.9,
+    "sma50": 155.4, "sma50Signal": "below", "sma200": 165.3, "sma200Signal": "below",
+    "rsi": 48.5, "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "PLTR $157.16은 50일선($157) 바로 아래에서 6일 연속 상승 모멘텀을 보이고 있다. 매크로 셀오프 속 독보적 강세.",
-    "펜타곤의 Anthropic 공급망 리스크 지정은 단기적으로 Claude 대체 비용, 장기적으로 방산 AI 독점 강화라는 양면성을 가진다.",
-    "P/E 249x는 부담이지만, 매출 +70%, 마진 57%, 미국 상업 +137%는 프리미엄의 근거가 된다.",
-    "Peter Thiel의 일본 총리 회동과 이란 전쟁 수혜는 방산·국제 확장 두 축에서 성장 모멘텀을 유지시킨다.",
-    "결론: AI 방산 독점 + 상업 확장의 이중 엔진. 밸류에이션이 유일한 약점이지만, 이 성장세에서 멀티플 방어는 가능."
+    "주말 중 영국 국방부가 Palantir과 £240M(약 3억 달러) 규모의 계약을 수의계약(경쟁 입찰 없이)으로 연장했다는 보도가 등장했다. 금요일에는 Peter Thiel이 일본 총리와 AI 협력을 논의하면서 +6.14% 반등했다.",
+    "영국과 일본 소식이 동시에 나오면서 '지정학 파도 타기' 트레이드가 부각되고 있다. 이란전쟁 장기화 속에서 국방 AI 기업으로서의 포지션이 강화되는 흐름이다.",
+    "주가수익비율 246배, 주가매출비율 78배로 여전히 매우 비싼 수준이다. Thiel이 2억9천만 달러어치 주식을 매도한 점도 부담이지만, 매출 +70% 성장과 영업이익률 57%는 탄탄하다.",
+    "50일 평균 주가($155) 돌파를 시도 중이고, 200일 평균($165)이 다음 벽이다. 월요일 영국 계약 뉴스에 대한 시장 반응이 핵심이다. 목표가 $194(+27%)."
   ],
-
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "밸류에이션, 기술적 지표, 재무 데이터" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/07/anthropic-deemed-a-national-security-threat-is-palantir-technologies-at-risk/", "description": "Anthropic 공급망 리스크 영향 분석" },
-    { "name": "Fortune", "url": "https://fortune.com/2026/03/05/palantir-ceo-alex-karp-anthropic-pentagon-r-word-anthropic-pentagon/", "description": "Karp CEO Anthropic 비판, Thiel 일본 회동" },
-    { "name": "StockTwits", "url": "https://stocktwits.com/news-articles/markets/equity/palantir-stock-set-to-break-hottest-streak-in-nearly-a-year/cZdQF74RIdz", "description": "6일 연속 상승 모멘텀" },
-    { "name": "CNN Markets", "url": "https://www.cnn.com/markets/stocks/PLTR", "description": "이란 전쟁 → 방산 AI 수요 급증" },
-    { "name": "Capital.com", "url": "https://capital.com/en-int/market-updates/palantir-stock-forecast-06-03-2026", "description": "Q4 실적 + 2026 가이던스 분석" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/", "description": "28 애널리스트 컨센서스 $193" },
-    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/PLTR/", "description": "시가총액, P/E, 일중 범위" },
-    { "name": "Investing.com", "url": "https://www.investing.com/equities/palantir-technologies-inc", "description": "PLTR 실시간 주가" },
-    { "name": "Fast Company", "url": "https://www.fastcompany.com/91493997/palantir-caught-in-middle-anthropic-pentagon-feud", "description": "Anthropic-펜타곤 갈등 속 PLTR 위치" }
+    {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/03/51088831/peter-thiel-meets-sanae-takaichi-in-tokyo-as-palantir-expands-ai-ambitions-amid-deepening-us-japan-tech-alliance", "description": "Peter Thiel-일본 PM 회동 + 영국 MoD 계약"},
+    {"name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-palantir-shares-surge-as-aip-bootcamp-strategy-cementing-dominance-in-enterprise-ai", "description": "AIP 부트캠프 엔터프라이즈 지배력"},
+    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it", "description": "Thiel 매도 분석, 펀더멘털 건재"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/is-palantir-stock-a-best-buy-in-march/", "description": "3월 PLTR 매수 분석"},
+    {"name": "Tribune India", "url": "https://www.tribuneindia.com/news/business/japan-pm-takaichi-holds-talks-with-palantirs-peter-thiel-on-advanced-tech-landscape/", "description": "일본 PM-Thiel 회동 국제 보도"},
+    {"name": "Finviz", "url": "https://finviz.com/quote.ashx?t=PLTR", "description": "PLTR 종합 기술적 지표"}
   ],
-
   "snsContent": {
+    "x": {
+      "hook": "영국 £240M 수의계약 + 일본 PM",
+      "text": "$PLTR (3/8) 주말에 영국 국방부 £240M 수의계약 연장 소식이 나왔다. 금요일엔 Thiel이 일본 총리와 AI 협력을 논의하며 +6% 반등.\n\n1/4",
+      "thread": [
+        "영국은 경쟁 입찰 없이 갱신했다. 한번 깔리면 바꾸기 어려운 국방 AI의 전환비용을 보여주는 사례.\n\n2/4",
+        "매출 70% 성장, 영업이익률 57%. 실적은 탄탄하지만 주가수익비율 246배는 여전히 비싸다. Thiel의 2억9천만 달러 매도도 부담.\n\n3/4",
+        "영국+일본 동시 확장으로 '지정학 파도 타기' 트레이드가 부각. 50일 평균($155) 돌파가 관건. 목표가 $194(+27%).\n\n4/4"
+      ]
+    },
     "threads": {
-      "hook": "PLTR $157 — 펜타곤이 Anthropic 금지, PLTR에 기회인가 위기인가 ⚔️",
-      "text": "$PLTR $157.16(+2.94%). 6일 연속 상승 +13%, 매크로 셀오프 완전 역행. 펜타곤이 Anthropic을 '공급망 리스크'로 지정 → PLTR은 Claude 대체 필요하지만, 방산 AI 독점은 더 강화. Thiel이 일본 총리 만남. 매출 +70%, 마진 57%. P/E 249x가 유일한 약점. 이 성장세면 방어 가능한가? investory.kro.kr/stock/PLTR/analysis/2026-03-08"
+      "hook": "영국 £240M 수의계약 + 일본 PM",
+      "text": "$PLTR (3/8) $152.42\n\n주말에 영국 국방부 £240M 수의계약 연장 보도. 금요일엔 Thiel-일본 총리 AI 협력 논의로 +6% 반등.\n\n영국은 경쟁 입찰 없이 갱신 — 국방 AI의 전환비용 확인. 매출 70% 성장, 영업이익률 57%.\n\nP/E 246배로 비싸지만 지정학 트레이드는 유효. 목표가 $194(+27%)."
     },
     "telegram": {
-      "hook": "PLTR $157.16 (+2.94%) — Anthropic 금지령, 방산 AI 독점 강화?",
-      "text": "Palantir 일일 분석 (3/8)\n\n💰 $157.16 (+2.94%) | 시총 $375.9B\n📊 P/E 249x | Forward P/E 119x | RSI 61\n\n🔑 핵심 이슈:\n• ⚔️ 펜타곤, Anthropic '공급망 리스크' 지정 → Claude 사용 금지\n• 📈 6일 연속 상승 +13% — 매크로 셀오프 완전 역행\n• 🇯🇵 Peter Thiel 일본 총리 다카이치 만남 — 일본 AI 계약 기대\n• 🔫 이란 전쟁 → 미군 AI 수요 급증, Maven 직접 수혜\n• 💼 미국 상업 매출 +137% YoY — AIP 부트캠프 가속\n\n📐 기술적: 50일선 $157 돌파 시도, 200일선 $162 저항\n🎯 컨센서스 $188 (+20% upside) — Moderate Buy\n\n결론: 방산 AI 독점 + AIP 상업 확장의 이중 엔진. 밸류에이션이 유일한 리스크.\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-08"
+      "hook": "영국 £240M 수의계약 + 일본 PM",
+      "text": "Palantir 일일 분석 (3/8)\n\n가격: $152.42 (금요일 종가)\n\n핵심 이슈\n- 영국 국방부 £240M 수의계약 연장 보도\n- Thiel, 일본 총리와 AI 기술 협력 논의\n- 전일 -10% 급락 후 +6% V자 반등\n\n실적\n- 매출 +70%, 영업이익률 57%\n- 주가수익비율 246배로 비싼 수준\n\n목표가: $194 (+27%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {"hook": "영국 £240M 수의계약 + 일본 PM", "text": "$PLTR (3/8) 주말에 영국 국방부 £240M 수의계약 연장 소식이 나왔다. 금요일엔 Thiel이 일본 총리와 AI 협력을 논의하며 +6% 반등.\n\n1/4", "thread": ["영국은 경쟁 입찰 없이 갱신했다. 한번 깔리면 바꾸기 어려운 국방 AI의 전환비용을 보여주는 사례.\n\n2/4", "매출 70% 성장, 영업이익률 57%. 실적은 탄탄하지만 주가수익비율 246배는 여전히 비싸다. Thiel의 2억9천만 달러 매도도 부담.\n\n3/4", "영국+일본 동시 확장으로 '지정학 파도 타기' 트레이드가 부각. 50일 평균($155) 돌파가 관건. 목표가 $194(+27%).\n\n4/4"]},
+        "witty": {"hook": "국방부도 못 끊는 중독", "text": "$PLTR (3/8) 영국 국방부가 £240M을 경쟁 입찰도 안 하고 갱신했다. 한번 깔리면 못 끊는 게 팔란티어다.\n\n1/4", "thread": ["일본 총리도 만나고, 영국 국방부도 잡았다. 지정학이 뜨거울수록 PLTR이 웃는 구조.\n\n2/4", "매출 70% 성장, 이익률 57%. 근데 Thiel 본인은 2억9천만 달러 팔았다. 믿는 건지 파는 건지.\n\n3/4", "P/E 246배는 주식이 아니라 지정학 보험이다. 목표가 $194(+27%). 월요일 영국 뉴스 반응이 관건.\n\n4/4"]},
+        "empathy": {"hook": "팔란티어 주주들, 주말에 좋은 소식", "text": "$PLTR (3/8) 주말에 좋은 소식이 나왔다. 영국 국방부 £240M 수의계약 연장. 어제 -10% 빠지고 +6% 반등한 데 이어 추가 호재.\n\n1/4", "thread": ["영국이 경쟁 입찰 없이 갱신한 건 국방 AI에서 팔란티어를 대체할 수 없다는 뜻이다.\n\n2/4", "매출 70% 성장, 이익률 57%. 회사 자체는 잘 되고 있다. P/E 246배는 부담이지만 성장이 계속되면 시간이 해결.\n\n3/4", "목표가 $194(+27%). 월요일 시장 반응이 기대된다. 조금 더 지켜보자.\n\n4/4"]}
+      },
+      "threads": {
+        "fact": {"hook": "영국 £240M 수의계약 + 일본 PM", "text": "$PLTR (3/8) $152.42\n\n영국 국방부 £240M 수의계약 연장 보도. Thiel-일본 총리 AI 협력 논의로 +6% 반등.\n\n경쟁 입찰 없이 갱신 — 국방 AI의 전환비용 확인. 매출 70%, 이익률 57%. P/E 246배. 목표가 $194(+27%)."},
+        "witty": {"hook": "국방부도 못 끊는 중독", "text": "$PLTR (3/8) $152.42\n\n영국 국방부가 £240M을 경쟁 없이 갱신. 한번 깔리면 못 끊는 게 팔란티어. 일본 총리도 만났다.\n\nP/E 246배는 지정학 보험이다. 매출 70%, 이익률 57%. Thiel은 2억9천만 팔았지만. 목표가 $194(+27%)."},
+        "empathy": {"hook": "팔란티어 주주들, 주말에 좋은 소식", "text": "$PLTR (3/8) $152.42\n\n주말에 좋은 소식. 영국 국방부 £240M 수의계약 연장. 대체 불가능하다는 뜻이다.\n\n매출 70%, 이익률 57%. 회사는 잘 되고 있다. P/E 246배는 부담이지만 성장이 계속되면 시간이 해결.\n\n목표가 $194(+27%). 월요일이 기대된다."}
+      }
     }
   }
 }
