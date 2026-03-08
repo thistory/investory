@@ -1,0 +1,117 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-09",
+  "currentPrice": 396.73,
+  "marketCap": "$1.49T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker transitioning into a 'Physical AI Platform' spanning robotaxis, humanoid robots, and energy storage",
+    "description": "Tesla is rapidly transforming from an EV manufacturer into an integrated AI, robotics, and energy platform company. FY2025 revenue was $94.8B (-2.9% YoY), with net income plunging 46.5%. Friday close $396.73 (-2.17%). Today (3/9) is the NHTSA FSD safety review final deadline — 2.88M vehicles under investigation, 58 incidents linked. Tokyo FSD Supervised demos continued over the weekend, Austin robotaxi fare hike ($1→$3.25) showing sustained demand. Market cap $1.49T, P/E 392.38x, Forward P/E 191.85x.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack utility-scale storage",
+      "Services/Other: ~13% of revenue ($12.5B). Supercharger network, insurance, maintenance",
+      "FSD subscription: $99/month autonomous driving software (subscription-only since Feb 2026)"
+    ],
+    "keyProducts": [
+      "Model 3/Y (core EVs)",
+      "Cybertruck (base AWD trim with massive demand, deliveries pushed to 2027)",
+      "Cybercab (autonomous robotaxi, first production 2/17, $30,000)",
+      "Optimus (humanoid robot, Fremont factory conversion underway)",
+      "Megapack (utility-scale energy storage, Megapack 3 and Mega Block launching 2026)",
+      "FSD (Full Self-Driving, 8.2 billion miles accumulated)"
+    ]
+  },
+  "keyMetrics": [
+    {"name": "P/E Ratio (TTM)", "value": "392.38x", "interpretation": "Extreme valuation. AI/robotics premium vs actual earnings"},
+    {"name": "Forward P/E", "value": "191.85x", "interpretation": "FY2026 EPS $2.08 estimate. Still very elevated"},
+    {"name": "PEG Ratio", "value": "4.08", "interpretation": "Significantly overvalued relative to growth rate"},
+    {"name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "First-ever FY decline. Global EV competition intensifying"},
+    {"name": "Operating Margin", "value": "4.59%", "interpretation": "Near historic lows. Significant decline from FY2022"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY rebound. Operational efficiency improving"},
+    {"name": "Debt/Equity", "value": "0.18", "interpretation": "Very healthy. Net cash $29.3B"},
+    {"name": "ROE", "value": "4.93%", "interpretation": "Down from FY2024. Profitability recovery needed"}
+  ],
+  "growthDrivers": [
+    {"title": "NHTSA FSD Safety Review — Today (3/9) Final Deadline", "description": "2.88M vehicles under investigation with 58 linked incidents. Final deadline after two extensions. Approval accelerates nationwide autonomous rollout; failure risks 30% downside and potential recall."},
+    {"title": "Austin Robotaxi Fare Hike — Monetization Signal", "description": "Base fare raised $1→$3.25, yet wait times remain 10-15 minutes showing strong demand. Revenue per 5-mile ride jumped from $6 to $8.25. Pricing power confirmed."},
+    {"title": "Tokyo FSD Supervised Demos Continue — Japan Entry", "description": "Public FSD demonstrations continued throughout the weekend in Tokyo. In dialogue with Japanese regulators, establishing beachhead for international FSD expansion."},
+    {"title": "European Recovery Signal — France & Norway Share Rebound", "description": "Per Reuters, Tesla market share rebounded in France and Norway in February. Stabilization signal after two consecutive years of European sales decline."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share leader, though overtaken globally by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
+    "moats": [
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelming training data advantage over competitors."},
+      {"type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."},
+      {"type": "Charging Network Effect", "description": "NACS is North America's EV charging standard. GM, Ford, Rivian all depend on Tesla Superchargers."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "2025 global EV sales leader. Rapid European expansion, US limited by tariffs"},
+      {"name": "Waymo (Alphabet)", "detail": "$16B funding, $126B valuation. 400K+ weekly rides"},
+      {"name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, directly competing with Model Y"},
+      {"name": "Xiaomi", "detail": "YU7 SUV outselling Model Y 2:1 in China"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-09", "headline": "NHTSA FSD safety review final deadline — 2.88M vehicles under investigation", "significance": "Final data submission deadline after two extensions. D-day for stock direction", "url": "https://www.ibtimes.com.au/tesla-stock-faces-volatility-ahead-pivotal-nhtsa-deadline-tesla-pivots-autonomy-robotics-1862965"},
+    {"date": "2026-03-07", "headline": "Austin robotaxi base fare raised from $1 to $3.25", "significance": "Excess demand driving price increase. Entering monetization trajectory", "url": "https://teslanorth.com/2026/03/07/tesla-robotaxi-prices-jump-in-austin/"},
+    {"date": "2026-03-07", "headline": "Tokyo FSD Supervised public demonstrations continue", "significance": "Japan market entry and international FSD expansion first step", "url": "https://www.basenor.com/blogs/news/tesla-driverless-robotaxi-is-live"},
+    {"date": "2026-03-05", "headline": "Jobs shock + oil past $90 triggers broad tech selloff", "significance": "Nasdaq worst week since October. TSLA -2.17%", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/"},
+    {"date": "2026-03-04", "headline": "German gigafactory union election — IG Metall breakthrough attempt", "significance": "Berlin plant labor tensions. Cost increase risk", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600,
+    "lowTarget": 25,
+    "upsidePercent": -0.15,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 7,
+    "notableComment": "Dan Ives (Wedbush) maintains $600, Gordon Johnson (GLJ) maintains $25. Extreme polarization. Morgan Stanley cut $425→$415."
+  },
+  "risks": [
+    {"severity": "critical", "title": "NHTSA FSD Review Uncertainty", "description": "Today (3/9) final deadline. 58 incidents, 14 Austin crashes. Recall or FSD restrictions could trigger 30% downside."},
+    {"severity": "high", "title": "Extreme Valuation", "description": "P/E 392x, Forward P/E 192x. Hard to justify premium amid revenue contraction."},
+    {"severity": "high", "title": "Intensifying Global EV Competition", "description": "BYD global #1, Xiaomi YU7 2:1 vs Model Y in China, Rivian R2 launching. Market share defense burden."},
+    {"severity": "medium", "title": "Macro Headwinds", "description": "Iran war prolonging, oil $90+, jobs shock. Consumer sentiment deterioration risk."},
+    {"severity": "medium", "title": "European Sales Weakness", "description": "UK sales -37%, German labor disputes. European recovery delay risk."}
+  ],
+  "buyReasons": [
+    {"title": "Undisputed Autonomous Driving Leader", "rationale": "8.2B FSD miles, Austin robotaxi commercialized, Tokyo international expansion. 2-3 years ahead of competitors."},
+    {"title": "High-Growth Energy Business", "rationale": "Megapack +27% YoY growth. Utility storage market expanding as a new growth engine."},
+    {"title": "FCF Rebound + Healthy Balance Sheet", "rationale": "FCF $6.22B (+73.7%), net cash $29.3B. Ample investment capacity."},
+    {"title": "Optimus & Cybercab Optionality", "rationale": "Humanoid robot and robotaxi not yet priced into current valuation as potential upside."}
+  ],
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 222.15,
+    "currentPositionPercent": 65.6,
+    "sma50": 428.01,
+    "sma50Signal": "below",
+    "sma200": 392.10,
+    "sma200Signal": "above",
+    "rsi": 41.05,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "With the NHTSA FSD safety review reaching its final deadline today (3/9), short-term volatility is at maximum. Approval would accelerate nationwide robotaxi expansion to Phoenix, Miami, and Vegas, enabling a $450+ re-rating. Failure could trigger recalls and FSD restrictions, opening downside to $320-350. The Austin fare hike proves demand monetization, and Tokyo demos confirm international ambitions. However, P/E 392x assumes flawless execution, while revenue contraction, European weakness, and macro headwinds weigh on sentiment. Waiting for the NHTSA outcome before entering is the prudent strategy.",
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA valuation, technicals, and financial statistics"},
+    {"name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "30 analyst consensus and price targets"},
+    {"name": "IBTimes", "url": "https://www.ibtimes.com.au/tesla-stock-faces-volatility-ahead-pivotal-nhtsa-deadline-tesla-pivots-autonomy-robotics-1862965", "description": "NHTSA FSD review deadline analysis"},
+    {"name": "Electrek", "url": "https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/", "description": "FSD data submission delay reporting"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/", "description": "TSLA decline analysis"},
+    {"name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-gains-market-france-norway-february-2026-03-02/", "description": "France and Norway market share rebound"},
+    {"name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "Berlin factory union election"},
+    {"name": "CNN Markets", "url": "https://www.cnn.com/markets/stocks/TSLA", "description": "TSLA real-time quotes and after-hours"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "Today decides Tesla's fate 🚗",
+      "text": "NHTSA FSD safety review final deadline is TODAY (3/9).\n\n2.88M vehicles, 58 incidents linked.\nPass → Nationwide robotaxi expansion, $450+ re-rating\nFail → Recall risk, $320 downside\n\nAustin fare hiked $1→$3.25 and wait times are still 15 min. Demand is proven.\n\nWould you buy before the NHTSA verdict?\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-09"
+    },
+    "telegram": {
+      "hook": "🚨 Tesla NHTSA D-Day — The Future of Autonomy Decided Today",
+      "text": "Today (3/9) is Tesla's most critical day.\n\nNHTSA FSD safety review final deadline — 2.88M vehicles, 58 incident data submission due.\nLast chance after two extensions.\n\n📊 Current status:\n• Close $396.73 (-2.17%), market cap $1.49T\n• P/E 392x — perfection-priced valuation\n• Austin robotaxi fare $1→$3.25, still 10-15 min waits\n• Tokyo FSD demos ongoing\n• France & Norway market share rebounding\n\n🎯 Scenarios:\n• Pass: Phoenix/Miami/Vegas expansion, $450+ re-rating\n• Fail: Mass recall/FSD restrictions, $320-350 downside\n\n⚠️ Risks: Revenue contraction (-2.9%), Europe weakness, BYD/Xiaomi competition\n\nWait for the verdict before entering.\n\n🔗 https://investory.kro.kr/stock/TSLA/analysis/2026-03-09"
+    }
+  }
+}

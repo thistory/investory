@@ -1,0 +1,128 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-09",
+  "currentPrice": 157.16,
+  "marketCap": "$375.9B",
+  "businessSummary": {
+    "oneLiner": "정부·기업용 AI 데이터 분석 플랫폼 — 미국 국방·정보기관 핵심 파트너에서 상업용 AI 강자로 변모 중",
+    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 구축한다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장 중이다. Q4 2025 매출 $1.407B(+70% YoY), 조정 영업이익률 57%. 금요일 종가 $157.16(+2.94%), 주간 +15% 급등 — 이란 전쟁이 국방 수요 촉진, Anthropic 블랙리스트 우려 불식. 영국 국방부 £240M 수의계약 연장 보도. P/E 249.46x, P/S 83.99x.",
+    "howTheyMakeMoney": [
+      "정부 계약: 미국 국방부, CIA, NSA 등 국가안보 기관 소프트웨어 라이선스 및 유지보수 — 매출의 ~60%",
+      "상업 부문: AIP 기반 기업용 AI 분석 플랫폼 구독 — 미국 상업 매출 +137% YoY",
+      "국제 정부: NATO 동맹국 및 Five Eyes 파트너 정부 계약",
+      "프로페셔널 서비스: 구현, 교육, 컨설팅"
+    ],
+    "keyProducts": [
+      "AIP (AI Platform): 기업 데이터에 LLM을 연결하는 AI 분석 플랫폼",
+      "Gotham: 정부·국방 데이터 분석 및 의사결정 지원",
+      "Foundry: 기업용 데이터 통합·분석 플랫폼",
+      "Apollo: 소프트웨어 배포·관리 자동화",
+      "Maven: 미 국방부 AI 작전 지원 시스템"
+    ]
+  },
+  "keyMetrics": [
+    {"name": "P/E Ratio (TTM)", "value": "249.46x", "interpretation": "극단적 프리미엄. AI·국방 성장 기대 반영"},
+    {"name": "Forward P/E", "value": "118.90x", "interpretation": "FY2026 EPS $1.34 전망. 여전히 높으나 성장률 감안"},
+    {"name": "PEG Ratio", "value": "2.66", "interpretation": "고평가 영역이나 국방·AI 프리미엄 감안 필요"},
+    {"name": "매출 성장률 (YoY)", "value": "+56.2%", "interpretation": "FY2025 $4.48B. 기업 AI+국방 수요 폭발"},
+    {"name": "영업이익률", "value": "31.5%", "interpretation": "고수익 SaaS 모델. 조정 기준 57%"},
+    {"name": "FCF", "value": "$2.1B", "interpretation": "FCF 마진 ~47%. 매우 건전한 현금 창출"},
+    {"name": "부채비율 (D/E)", "value": "0.03", "interpretation": "사실상 무차입. 순현금 $6.95B"},
+    {"name": "ROE", "value": "25.98%", "interpretation": "자본 효율 양호. 수익성 빠르게 개선 중"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "이란 전쟁이 국방 AI 수요 폭발 촉진 — 주간 +15%",
+      "description": "트럼프 대통령의 이란 전쟁이 장기화되면서 투자자들이 국방 AI 대장주 Palantir에 몰렸다. 금요일 +2.94%, 주간 +15%. 국방 수요가 매출의 60%를 차지하는 Palantir에 직접적 수혜."
+    },
+    {
+      "title": "영국 국방부 £240M 수의계약 연장",
+      "description": "주말 중 영국 MoD가 Palantir과 £240M(약 $300M) 수의계약을 연장했다는 보도. 국제 정부 매출 확대 확인."
+    },
+    {
+      "title": "Anthropic 블랙리스트 영향 제한적 — 모델 비의존적 플랫폼",
+      "description": "국방부가 Anthropic을 블랙리스트에 올렸으나, Palantir의 AIP는 모델 비의존적(model-agnostic) 아키텍처. OpenAI, Meta 등 대체 모델로 전환 가능. Reuters·Seeking Alpha 모두 영향 제한적으로 평가."
+    },
+    {
+      "title": "Peter Thiel 일본 총리와 AI 협력 논의",
+      "description": "Thiel이 도쿄에서 다카이치 PM과 AI·기술 협력 논의. 일본 정부 AI 계약 수주 가능성. 아시아 국방·정부 시장 확장."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "정부 보안 인증(Top Secret/SCI), 20년 국방·정보기관 관계, AIP를 통한 기업 AI 플랫폼 확장이 핵심 해자.",
+    "moats": [
+      {"type": "정부 보안 인증", "description": "Top Secret/SCI 인증 보유. 경쟁사 진입 극도로 어려움."},
+      {"type": "전환비용", "description": "Gotham/Foundry가 고객 데이터 인프라에 깊이 통합. 교체 비용 매우 높음."},
+      {"type": "AI 플랫폼 네트워크 효과", "description": "AIP 부트캠프로 기업 고객 급속 확대. 더 많은 사용 → 더 좋은 모델."}
+    ],
+    "competitors": [
+      {"name": "Snowflake", "detail": "데이터 클라우드 플랫폼. 엔터프라이즈 데이터 분석 경쟁"},
+      {"name": "Databricks", "detail": "레이크하우스 플랫폼. AI/ML 워크로드 경쟁"},
+      {"name": "Microsoft (Azure AI)", "detail": "Azure AI 서비스로 정부·기업 시장 공략"},
+      {"name": "C3.ai", "detail": "엔터프라이즈 AI 플랫폼. 규모는 PLTR 대비 훨씬 작음"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-06", "headline": "PLTR 주간 +15% — 이란 전쟁이 국방 수요 촉진", "significance": "나스닥 매도세 속 단독 강세. 지정학 수혜주 부각", "url": "https://www.cnbc.com/2026/03/06/palantir-stock-jumps-15percent-in-week-on-iran-war-boosts-anthropic-muted.html"},
+    {"date": "2026-03-07", "headline": "영국 국방부 £240M Palantir 계약 수의계약 연장", "significance": "국제 정부 매출 확대. 기존 고객 잠금 효과 입증", "url": "https://www.cnbc.com/2026/03/06/palantir-stock-jumps-15percent-in-week-on-iran-war-boosts-anthropic-muted.html"},
+    {"date": "2026-03-07", "headline": "Pentagon 고위 관계자: 'Anthropic 의존도를 깨달은 순간'", "significance": "국방부의 AI 다변화 필요성 인식. Palantir 모델 비의존적 아키텍처 가치 부각", "url": "https://fortune.com/2026/03/07/pentagon-emil-michael-anthropic-claude-defense-ai-openai-iran-war-palantir/"},
+    {"date": "2026-03-04", "headline": "Reuters: Palantir, Anthropic 제거 도전 직면", "significance": "Anthropic 블랙리스트로 Pentagon AI 소프트웨어 재편 필요", "url": "https://www.reuters.com/technology/palantir-faces-challenge-remove-anthropic-pentagons-ai-software-2026-03-04/"},
+    {"date": "2026-03-03", "headline": "Rosenblatt 목표가 $150→$200 상향, Strong Buy", "significance": "GTC 전 국방 AI 모멘텀 반영 목표가 상향", "url": "https://stockanalysis.com/stocks/pltr/forecast/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 188.52,
+    "highTarget": 260,
+    "lowTarget": 50,
+    "upsidePercent": 19.95,
+    "buyCount": 11,
+    "holdCount": 9,
+    "sellCount": 1,
+    "notableComment": "UBS Strong Buy 업그레이드 $180, Mizuho Buy 업그레이드 $195, Rosenblatt $200. 국방 AI 테마로 연초 대비 센티먼트 대전환."
+  },
+  "risks": [
+    {"severity": "high", "title": "극단적 밸류에이션", "description": "P/E 249x, P/S 84x. 완벽한 실행 + 지속적 성장 전제. 실적 miss 시 급락 리스크."},
+    {"severity": "high", "title": "내부자 매도 지속", "description": "주가 상승 시마다 대규모 내부자 매도 발생. 주주 가치 희석 우려."},
+    {"severity": "medium", "title": "Anthropic 제거 비용", "description": "Pentagon AI 소프트웨어에서 Anthropic 제거 작업 필요. 단기 개발 비용·일정 지연 가능."},
+    {"severity": "medium", "title": "정부 예산 의존도", "description": "매출 60%가 정부 계약. 정권 교체·예산 삭감 시 직접 영향."},
+    {"severity": "low", "title": "이란 전쟁 조기 종전 리스크", "description": "전쟁 종료 시 국방 프리미엄 소멸 가능. '지정학 파도 타기' 트레이드의 한계."}
+  ],
+  "buyReasons": [
+    {"title": "유일무이한 국방 AI 플랫폼", "rationale": "Top Secret/SCI 인증 + 20년 관계 + 모델 비의존적 아키텍처. 경쟁사 진입 불가 영역."},
+    {"title": "이란 전쟁 장기화 수혜", "rationale": "국방 예산 확대 직접 수혜. 정부 매출 60%, 전쟁 장기화 시 계약 가속."},
+    {"title": "AIP 상업 매출 폭발", "rationale": "미국 상업 매출 +137% YoY. 부트캠프 전략으로 기업 고객 빠르게 전환."},
+    {"title": "건전한 재무 + 높은 FCF 마진", "rationale": "순현금 $6.95B, FCF 마진 47%, 무차입. 투자·인수 여력 충분."}
+  ],
+  "technicalPosition": {
+    "week52High": 198.50,
+    "week52Low": 76.04,
+    "currentPositionPercent": 66.2,
+    "sma50": 157.42,
+    "sma50Signal": "below",
+    "sma200": 162.07,
+    "sma200Signal": "below",
+    "rsi": 60.96,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "이란 전쟁 장기화가 Palantir을 '지정학 AI 대장주'로 부각시키며 주간 +15% 급등했다. 영국 MoD £240M 수의계약, Peter Thiel 일본 총리 면담 등 국제 정부 계약 파이프라인이 확대되고 있다. Anthropic 블랙리스트 영향도 모델 비의존적 아키텍처 덕분에 제한적. 다만 P/E 249x, P/S 84x는 완벽한 실행을 전제한 밸류에이션이며, 이란 전쟁 조기 종전 시 프리미엄 소멸 리스크가 있다. 국방·AI 테마에 확신이 있다면 보유 지속, 신규 진입은 풀백 시 기회 포착이 적절하다.",
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "PLTR 밸류에이션·기술지표·재무 통계"},
+    {"name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21명 애널리스트 컨센서스 및 목표가"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/06/palantir-stock-jumps-15percent-in-week-on-iran-war-boosts-anthropic-muted.html", "description": "이란 전쟁 수혜 주간 +15% 분석"},
+    {"name": "Reuters", "url": "https://www.reuters.com/technology/palantir-faces-challenge-remove-anthropic-pentagons-ai-software-2026-03-04/", "description": "Anthropic 제거 도전 보도"},
+    {"name": "Fortune", "url": "https://fortune.com/2026/03/07/pentagon-emil-michael-anthropic-claude-defense-ai-openai-iran-war-palantir/", "description": "Pentagon Anthropic 의존도 인식 보도"},
+    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4878157-palantir-stock-my-first-buy-us-iran-escalation-anthropic-cancellation", "description": "이란 전쟁 + Anthropic 취소 후 첫 매수 의견"},
+    {"name": "CoinCentral", "url": "https://coincentral.com/palantir-pltr-stock-rallies-15-as-iran-war-drives-defense-demand/", "description": "국방 수요 기반 +15% 랠리 분석"},
+    {"name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/PLTR/", "description": "PLTR 실시간 시세 및 기본 정보"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "전쟁이 만든 +15% 랠리, PLTR 어디까지? 🎯",
+      "text": "이란 전쟁 장기화 → 국방 AI 대장주 Palantir 주간 +15%.\n\n영국 MoD £240M 수의계약.\nAnthropic 블랙리스트? 모델 비의존적이라 영향 없음.\n\nP/E 249x가 부담이지만,\n매출 +56%, FCF 마진 47%, 순현금 $6.95B.\n\n전쟁이 끝나면 프리미엄도 끝날까?\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-09"
+    },
+    "telegram": {
+      "hook": "🎯 PLTR 주간 +15% — 이란 전쟁이 만든 국방 AI 랠리",
+      "text": "이란 전쟁 장기화가 Palantir을 '지정학 AI 대장주'로 부각시켰다.\n금요일 종가 $157.16(+2.94%), 주간 +15%.\n\n📊 현재 상황:\n• 시총 $375.9B, P/E 249x, P/S 84x\n• Q4 매출 $1.41B (+70% YoY), 조정 영업이익률 57%\n• FCF 마진 47%, 순현금 $6.95B\n\n🔥 촉매:\n• 영국 MoD £240M 수의계약 연장\n• Anthropic 블랙리스트 → 모델 비의존적 아키텍처로 영향 제한\n• Peter Thiel 일본 총리와 AI 협력 논의\n• UBS Strong Buy 업그레이드, 목표가 $180\n\n⚠️ 리스크: 극단적 밸류에이션, 내부자 매도, 전쟁 종전 시 프리미엄 소멸\n\n국방·AI 확신 → 보유 지속. 신규 → 풀백 대기.\n\n🔗 https://investory.kro.kr/stock/PLTR/analysis/2026-03-09"
+    }
+  }
+}

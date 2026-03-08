@@ -1,0 +1,139 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-09",
+  "currentPrice": 177.82,
+  "marketCap": "$4.32T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. FY2026 매출 $215.9B(+65.5% YoY), 순이익 $120.1B(+64.8%). Q1 FY2027 가이던스 $78B(±2%), 컨센서스 $5.4B 상회. GTC 2026(3/16-19) D-7, Rubin R200 공개 임박. 금요일 종가 $177.82(-3.01%), 고용 충격+유가 급등으로 테크 전반 매도세. H200 칩에 25% 관세, 중국 시장 사실상 상실. 시가총액 $4.32T. P/E 36.29x, Forward P/E 21.56x.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
+      "게이밍: GeForce RTX 시리즈 GPU 및 DLSS 4 기술",
+      "자동차: DRIVE 플랫폼 자율주행 및 차량 AI 칩",
+      "프로페셔널 시각화: Quadro/RTX 워크스테이션 GPU",
+      "소프트웨어/플랫폼: CUDA 생태계, NVIDIA AI Enterprise, Omniverse"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra GB300: 최신 AI 가속기, 2026년 출하 129% YoY 급증 전망",
+      "Blackwell B200/GB200: 하이퍼스케일러 전량 매진",
+      "H100/H200 Tensor Core GPU: AI 업계 표준",
+      "Rubin R200: 차세대 GPU, GTC 2026(3/16-19) 공식 공개 예정",
+      "CUDA: 1,500만+ 개발자 GPU 컴퓨팅 플랫폼",
+      "DGX/HGX 시스템: 대규모 AI 학습용 턴키 서버"
+    ]
+  },
+  "keyMetrics": [
+    {"name": "P/E Ratio (TTM)", "value": "36.29x", "interpretation": "성장주 치고 합리적 수준. 1년 전 대비 크게 하락"},
+    {"name": "Forward P/E", "value": "21.56x", "interpretation": "FY2027 EPS $8.30 전망. 성장률 대비 매력적"},
+    {"name": "PEG Ratio", "value": "0.65", "interpretation": "1 미만으로 성장 대비 저평가 시그널"},
+    {"name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.9B. 전년 114% 대비 감속이나 여전히 강력"},
+    {"name": "영업이익률", "value": "60.38%", "interpretation": "세계 최고 수준. 소프트웨어급 마진"},
+    {"name": "FCF", "value": "$96.7B", "interpretation": "+58.9% YoY. 연간 FCF가 대부분 기업 시총보다 큼"},
+    {"name": "부채비율 (D/E)", "value": "0.07", "interpretation": "사실상 무차입. 순현금 $51.1B"},
+    {"name": "ROE", "value": "101.49%", "interpretation": "압도적 자본 효율성"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 (3/16-19) D-7 — Rubin R200 공개 카운트다운",
+      "description": "Jensen Huang이 산호세 GTC에서 차세대 Rubin(R200) 아키텍처를 공식 공개할 예정. 3만 명 참석 예상. LPU(Language Processing Unit) 발표 가능성도 제기. 이벤트 드리븐 재평가가 1주일 앞."
+    },
+    {
+      "title": "Motley Fool: '1년 만에 가장 저렴' — Forward P/E 21.5x",
+      "description": "관세 셀오프로 Forward P/E가 21.5x까지 내려와 PEG 0.65. 성장주 밸류에이션 기준으로 역사적 매수 영역."
+    },
+    {
+      "title": "Q1 FY2027 가이던스 $78B(±2%) — 컨센서스 대폭 상회",
+      "description": "관세 역풍에도 수요가 압도적. Blackwell 출하 가속과 하이퍼스케일러 CapEx $700B가 배경."
+    },
+    {
+      "title": "공급 커미트먼트 $95.2B 확인 — 수주잔고 사상 최대",
+      "description": "FY2026 실적 발표에서 $95.2B 이상의 확정 공급 커미트먼트 확인. 수요 가시성이 매우 높음."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습·추론 GPU 시장 90%+ 점유율. 소프트웨어+하드웨어 통합이 핵심 해자.",
+    "moats": [
+      {
+        "type": "CUDA 생태계",
+        "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."
+      },
+      {
+        "type": "설계 우위",
+        "description": "Blackwell→Rubin으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서."
+      },
+      {
+        "type": "풀스택 전략",
+        "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise)+네트워킹(Spectrum-X) 통합."
+      }
+    ],
+    "competitors": [
+      {"name": "AMD (MI300X)", "detail": "AI GPU 2위. 가격 경쟁력이나 생태계 열위"},
+      {"name": "Intel (Gaudi 3)", "detail": "AI 가속기 후발. 시장 점유율 미미"},
+      {"name": "Google TPU", "detail": "자체 AI 칩. Gemini 학습에 사용, 외부 판매 없음"},
+      {"name": "Broadcom (커스텀 ASIC)", "detail": "하이퍼스케일러 전용 AI칩 설계 수주 증가"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-05", "headline": "Tigress Financial 목표가 $350→$360 상향, Strong Buy 유지", "significance": "GTC 2026 앞두고 최고 목표가 경신", "url": "https://stockanalysis.com/stocks/nvda/forecast/"},
+    {"date": "2026-03-05", "headline": "Motley Fool: 'NVDA 1년 만에 가장 저렴' 분석", "significance": "Forward P/E 21.5x, PEG 0.65. 관세 셀오프가 만든 기회", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/"},
+    {"date": "2026-03-03", "headline": "Wedbush 목표가 $230→$300 상향", "significance": "GTC 기대감 + Blackwell 수주잔고 강세", "url": "https://stockanalysis.com/stocks/nvda/forecast/"},
+    {"date": "2026-03-03", "headline": "Motley Fool: 'GTC 2026 전에 매수해야 하나?' 분석", "significance": "지난해 GTC 전후 +14% 상승 사례. 이벤트 드리븐 트레이드 기대", "url": "https://www.fool.com/investing/2026/03/03/should-you-buy-nvidia-stock-before-march-16/"},
+    {"date": "2026-02-26", "headline": "H200 중국 생산 중단, Vera Rubin 플랫폼으로 전환", "significance": "중국 시장 사실상 포기. 미국·서방 중심 전략 전환", "url": "https://finance.yahoo.com/quote/NVDA/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 360,
+    "lowTarget": 100,
+    "upsidePercent": 48.07,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "38명 중 36명이 매수(Strong Buy+Buy). Tigress $360, Citi $300, JP Morgan $265. 압도적 낙관."
+  },
+  "risks": [
+    {"severity": "high", "title": "관세 리스크", "description": "H200에 25% 관세 부과. 중국 시장 상실. 추가 관세 확대 가능성."},
+    {"severity": "high", "title": "경쟁 심화", "description": "AMD MI300X 가격 공세, Broadcom 커스텀 ASIC 성장, Google TPU 자급. 90%+ 점유율 유지 도전."},
+    {"severity": "medium", "title": "매크로 셀오프 지속 가능성", "description": "이란 전쟁, 유가 $90+, 고용 충격. 테크 밸류에이션 전반 압축 리스크."},
+    {"severity": "medium", "title": "하이퍼스케일러 CapEx 사이클 피크 우려", "description": "$700B 투자가 지속 가능한지 의문. 과잉투자 후 조정 가능성."},
+    {"severity": "low", "title": "Blackwell 수율·공급 리스크", "description": "TSMC CoWoS 패키징 병목. 수요 대비 공급 부족 지속 가능."}
+  ],
+  "buyReasons": [
+    {"title": "AI 인프라 독보적 지배력", "rationale": "데이터센터 GPU 90%+ 점유, CUDA 1,500만 개발자, $95.2B 수주잔고. 대체 불가."},
+    {"title": "PEG 0.65 — 성장 대비 저평가", "rationale": "Forward P/E 21.5x에 매출 +65% 성장. 1 미만 PEG는 역사적 매수 신호."},
+    {"title": "GTC 2026 이벤트 촉매", "rationale": "Rubin R200 공개, LPU 가능성. 지난해 GTC 전후 +14% 사례."},
+    {"title": "사상 최대 FCF $96.7B", "rationale": "연간 FCF가 대부분 기업 전체 시총을 초과. 자사주 매입·배당 확대 여력."}
+  ],
+  "technicalPosition": {
+    "week52High": 238.87,
+    "week52Low": 100.95,
+    "currentPositionPercent": 55.7,
+    "sma50": 186.01,
+    "sma50Signal": "below",
+    "sma200": 176.14,
+    "sma200Signal": "above",
+    "rsi": 42.42,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "GTC 2026(3/16-19)이 1주일 앞으로 다가왔다. Rubin R200 공개와 LPU 발표 가능성이 이벤트 촉매로 작용할 전망이다. Forward P/E 21.5x, PEG 0.65는 65% 매출 성장 기업에게 역사적으로 저렴한 수준. 38명 애널리스트 중 36명이 매수 추천, 평균 목표가 $263(+48%). 관세·매크로 역풍이 단기 압력이나, $95.2B 수주잔고와 하이퍼스케일러 $700B CapEx가 수요를 보장한다. GTC 전 매수 후 이벤트 보유가 유효한 전략.",
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "NVDA 밸류에이션·기술지표·재무 통계"},
+    {"name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "38명 애널리스트 컨센서스 및 목표가"},
+    {"name": "StockAnalysis Financials", "url": "https://stockanalysis.com/stocks/nvda/financials/", "description": "NVDA 재무제표"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/05/nvidia-stock-hasnt-been-this-cheap-in-nearly-a-yea/", "description": "1년 만에 가장 저렴 분석"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/03/should-you-buy-nvidia-stock-before-march-16/", "description": "GTC 2026 전 매수 분석"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/buy-nvidia-stock-gtc-2026-171210084.html", "description": "GTC 2026 앞두고 애널리스트 분석"},
+    {"name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026", "description": "FY2026 실적 발표"},
+    {"name": "CNN Markets", "url": "https://www.cnn.com/markets/stocks/NVDA", "description": "NVDA 실시간 시세"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA PEG 0.65 — 1년 만에 가장 싸다 💎",
+      "text": "GTC 2026이 1주일 앞(3/16).\nRubin R200 공개 임박.\n\nForward P/E 21.5x, 매출 +65% 성장.\nPEG 0.65 — 성장 대비 저평가 영역.\n\n지난해 GTC 전후 +14% 상승.\n38명 중 36명 매수, 목표가 평균 $263(+48%).\n\n관세 셀오프가 만든 기회일까?\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-09"
+    },
+    "telegram": {
+      "hook": "💎 NVIDIA GTC D-7 — PEG 0.65의 기회인가, 관세 함정인가",
+      "text": "GTC 2026(3/16-19)이 정확히 1주일 앞으로 다가왔다.\n\nJensen Huang이 차세대 Rubin(R200)을 공개할 예정.\n지난해 GTC 전후 주가 +14% 상승한 사례가 있다.\n\n📊 현재 상황:\n• 종가 $177.82 (-3.01%), 시총 $4.32T\n• Forward P/E 21.5x, PEG 0.65 — 1년 만에 최저\n• FY2026 매출 $215.9B (+65.5%), 영업이익률 60.4%\n• FCF $96.7B — 대부분 기업 시총보다 큰 연간 현금흐름\n• 수주잔고 $95.2B 확인\n\n🎯 촉매:\n• Rubin R200 + LPU(추론 전용칩) 발표 가능\n• 38명 중 36명 매수, 목표가 $263(+48%)\n\n⚠️ 리스크: H200 25% 관세, 중국 시장 상실, 매크로 역풍\n\nGTC 전 매수 → 이벤트 보유가 유효한 전략.\n\n🔗 https://investory.kro.kr/stock/NVDA/analysis/2026-03-09"
+    }
+  }
+}
