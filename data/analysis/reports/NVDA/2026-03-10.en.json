@@ -1,0 +1,111 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-10",
+  "currentPrice": 182.65,
+  "marketCap": "$4.45T",
+  "businessSummary": {
+    "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with data center GPUs and AI accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company with AI training and inference data center accelerators as the core revenue driver. FY2026 revenue $215.9B (+65.5% YoY), net income $120.1B (+64.8%). Monday close $182.65 (+2.72%). GTC 2026 (3/17-20) is 7 days away, with Rubin R200 unveiling imminent. Q1 FY2027 guidance of $78B (±2%) beat consensus by $5.4B. Market cap $4.45T. P/E 37.07x, Forward P/E 21.61x.",
+    "howTheyMakeMoney": [
+      "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300) — ~91% of revenue",
+      "Gaming: GeForce RTX GPUs — ~6% of revenue",
+      "Professional Visualization: Omniverse, RTX — ~2% of revenue",
+      "Automotive: DRIVE platform — ~1% of revenue"
+    ],
+    "keyProducts": ["H200", "Blackwell B200/GB200/GB300", "Rubin R200 (next-gen)", "GeForce RTX 5090", "CUDA", "AI Enterprise", "Spectrum-X"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "37.07x", "interpretation": "Based on EPS $4.93. PEG 0.57 given 65% growth — historically cheap"},
+    {"name": "Forward P/E", "value": "21.61x", "interpretation": "Based on FY2027E EPS $8.30. Cheapest level in a year"},
+    {"name": "Revenue Growth (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.9B. FY2027E +67% further growth expected"},
+    {"name": "Operating Margin", "value": "62.4%", "interpretation": "Dominant margins. CUDA ecosystem lock-in effect"},
+    {"name": "FCF", "value": "$60.9B", "interpretation": "28.2% of revenue. Massive shareholder return and R&D reinvestment capacity"},
+    {"name": "ROE", "value": "119.2%", "interpretation": "Extremely efficient capital utilization"},
+    {"name": "Gross Margin", "value": "73.0%", "interpretation": "Software-level margins. Highest among hardware companies"},
+    {"name": "Debt-to-Equity", "value": "0.13x", "interpretation": "Virtually debt-free. Net cash position"}
+  ],
+  "growthDrivers": [
+    {"title": "GTC 2026 (3/17-20) T-7 — Rubin R200 Countdown", "description": "Jensen Huang to officially unveil next-gen Rubin (R200) architecture at San Jose GTC. 30,000 attendees expected. LPU (Language Processing Unit) announcement possible. Event-driven re-rating one week away."},
+    {"title": "Forward P/E 21.6x — 'Cheapest in a Year'", "description": "Tariff selloff pushed Forward P/E to 21.6x, yielding PEG 0.57. Historically in buy territory for growth stock valuation."},
+    {"title": "Q1 FY2027 Guidance $78B (±2%) — Beat Consensus by $5.4B", "description": "Demand overwhelming despite tariff headwinds. Blackwell shipment acceleration and hyperscaler CapEx $700B providing backdrop."},
+    {"title": "Blackwell Demand Explosion + Rubin Preview", "description": "GB200/GB300 order backlog extends 2+ quarters. Rubin mass production 2027 but architecture reveal expected at GTC."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA ecosystem with 15M developer lock-in, 90%+ share of AI training/inference GPU market. Software+hardware integration is the core moat.",
+    "moats": [
+      {"type": "CUDA Ecosystem", "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA."},
+      {"type": "Design Leadership", "description": "Blackwell→Rubin 2-year architecture innovation cycle. 1-2 generations ahead of competitors."},
+      {"type": "Full-Stack Strategy", "description": "Chips+systems(DGX)+software(CUDA, AI Enterprise)+networking(Spectrum-X) integration."}
+    ],
+    "competitors": [
+      {"name": "AMD (MI300X)", "detail": "AI GPU #2. Price competitive but ecosystem disadvantage"},
+      {"name": "Intel (Gaudi 3)", "detail": "Late AI accelerator entrant. Negligible market share"},
+      {"name": "Google (TPU)", "detail": "Custom AI chips. Primarily internal use"},
+      {"name": "Broadcom (ASIC)", "detail": "Custom AI chip design. Hyperscaler alternative"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-09", "headline": "Stock rebounds to $182.65 (+2.72%) — GTC anticipation building", "significance": "GTC 2026 T-7. Buying interest ahead of event"},
+    {"date": "2026-03-07", "headline": "Trefis: +61% over 12 months, revenue +65% jump", "significance": "Fundamental growth underpinning stock appreciation", "url": "https://www.trefis.com/stock/nvda/articles2/592670/what-is-happening-with-nvidia-stock-2/2026-03-07"},
+    {"date": "2026-03-05", "headline": "Tigress Financial raises target $350→$360", "significance": "New highest target. Strong Buy maintained", "url": "https://stockanalysis.com/stocks/nvda/forecast/"},
+    {"date": "2026-03-03", "headline": "Wedbush raises target $230→$300", "significance": "GTC anticipation + Blackwell demand reflected"},
+    {"date": "2026-02-26", "headline": "Q4 FY2026 earnings — Revenue $215.9B, guidance $78B", "significance": "Beat consensus by $5.4B. Revenue and profit both all-time highs", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 360,
+    "lowTarget": 100,
+    "upsidePercent": 44.15,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "36 of 38 analysts rate Buy. Tigress $360, Wedbush $300, JP Morgan $265. Forward P/E 21.6x considered historically cheap for 65% growth."
+  },
+  "risks": [
+    {"severity": "high", "title": "25% Tariff on H200", "description": "25% tariff on US-made chips. Margin pressure if unable to pass through costs."},
+    {"severity": "high", "title": "China Market Effectively Lost", "description": "Export controls block access to China's AI GPU market. Opening opportunities for competitors."},
+    {"severity": "medium", "title": "AI Bubble Concerns", "description": "ROI questions on hyperscaler $700B CapEx. Demand collapse risk if AI investment slows."},
+    {"severity": "medium", "title": "Intensifying Competition", "description": "AMD MI300X, Google TPU, Broadcom ASIC. Customers accelerating custom chip development."},
+    {"severity": "low", "title": "Market Cap Burden", "description": "$4.45T market cap. Continued high growth needed to justify further appreciation."}
+  ],
+  "buyReasons": [
+    {"title": "Monopolistic AI Infrastructure Position", "rationale": "90%+ data center AI GPU share. CUDA ecosystem switching costs extremely high."},
+    {"title": "Forward P/E 21.6x = PEG 0.57", "rationale": "Extremely reasonable valuation for 65% growth. Cheaper than S&P 500 average Forward P/E (22x)."},
+    {"title": "GTC 2026 Catalyst", "rationale": "Rubin R200 reveal in one week. Historically, GTC events followed by 10-15% stock rebounds."},
+    {"title": "Hyperscaler CapEx $700B", "rationale": "Meta, Google, Microsoft, Amazon expanding AI investment. NVIDIA as primary beneficiary."}
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 76.5,
+    "sma50": 186.40,
+    "sma50Signal": "below",
+    "sma200": 186.43,
+    "sma200Signal": "below",
+    "rsi": 48.50,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "GTC 2026 is 7 days away. Forward P/E 21.6x (PEG 0.57) is historically in buy territory given 65% growth. Trading just below 50-day and 200-day SMAs, awaiting directional breakout. GTC Rubin R200 reveal expected to trigger a push above $200. Q1 guidance of $78B confirms robust demand, and hyperscaler CapEx of $700B supports the downside. 36 of 38 analysts rate Buy with average target $263 (+44%). Short-term buying opportunity.",
+  "sources": [
+    {"name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history", "description": "NVDA price history and 52-week range"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "Analyst consensus and financial projections"},
+    {"name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026", "description": "Q4 FY2026 earnings official announcement"},
+    {"name": "Trefis", "url": "https://www.trefis.com/stock/nvda/articles2/592670/what-is-happening-with-nvidia-stock-2/2026-03-07", "description": "NVDA stock analysis"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/nvidia-corp-technical", "description": "Technical indicators (SMA50, SMA200, RSI)"},
+    {"name": "GuruFocus", "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA", "description": "Forward P/E data"},
+    {"name": "FinanceCharts", "url": "https://www.financecharts.com/stocks/NVDA/value/pe-ratio", "description": "P/E ratio history"},
+    {"name": "MacroTrends PE", "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/pe-ratio", "description": "P/E ratio analysis"},
+    {"name": "NVIDIA Newsroom GTC", "url": "https://nvidianews.nvidia.com/", "description": "GTC 2026 keynote schedule"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA Forward P/E 21.6x — cheaper than the S&P 500 🤯",
+      "text": "$182.65 (+2.72%). GTC T-7.\n\nRevenue +65%, Forward P/E 21.6x, PEG 0.57.\nCheaper than S&P 500 average (22x) for an AI monopoly.\n\n36/38 analysts say Buy.\nAverage target $263 (+44%).\n\nRubin R200 reveal is one week away.\nLast chance to board before GTC? 🚀\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-10"
+    },
+    "telegram": {
+      "hook": "NVDA Forward P/E 21.6x — cheaper than the S&P 500 🤯",
+      "text": "📊 NVDA $182.65 (+2.72%)\n\nGTC 2026 is just 7 days away. Jensen Huang's next-gen Rubin R200 reveal is imminent.\n\n📈 Key numbers:\n• FY2026 revenue $215.9B (+65.5% YoY)\n• Forward P/E 21.6x → PEG 0.57\n• Q1 FY2027 guidance $78B (beat consensus by $5.4B)\n• 36/38 analysts rate Buy, average target $263 (+44%)\n\n🎯 Tigress raised to $360, Wedbush to $300.\n\n⚠️ Risks: 25% tariff on H200, China market lost, AI bubble concerns\n\nAn AI monopoly trading cheaper than the S&P 500. Will GTC be the re-rating trigger? 🤔\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-10"
+    }
+  }
+}

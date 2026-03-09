@@ -1,0 +1,111 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-10",
+  "currentPrice": 156.43,
+  "marketCap": "$375.9B",
+  "businessSummary": {
+    "oneLiner": "정부·기업용 AI 데이터 분석 플랫폼 — 미국 국방·정보기관 핵심 파트너에서 상업용 AI 강자로 변모 중",
+    "description": "Palantir는 복잡한 데이터를 분석·통합하는 소프트웨어 플랫폼을 구축한다. AIP(AI Platform) 출시 이후 상업 부문이 폭발적으로 성장 중이다. Q4 2025 매출 $1.407B(+70% YoY), 조정 영업이익률 57%. 월요일 종가 $156.43(-0.46%). 지난주 +15% 급등 후 숨고르기. 영국 MoD £240M 수의계약 연장 보도. P/E 248.08x, P/S 83.99x.",
+    "howTheyMakeMoney": [
+      "정부 계약: 미국 국방부, CIA, NSA 등 국가안보 기관 소프트웨어 라이선스 및 유지보수 — 매출의 ~60%",
+      "상업 부문: AIP 기반 기업용 AI 분석 플랫폼 구독 — 미국 상업 매출 +137% YoY",
+      "국제 정부: NATO, 영국 MoD, 우크라이나 등 — 매출의 ~15%",
+      "전문 서비스: 배포·커스터마이징 컨설팅"
+    ],
+    "keyProducts": ["Gotham (정부)", "Foundry (기업)", "AIP (AI Platform)", "Apollo (배포 관리)", "Warp Speed (국방 공급망)"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "248.08x", "interpretation": "EPS $0.63 기준. AI 프리미엄이나 역사적 고평가 영역"},
+    {"name": "Forward P/E", "value": "116.75x", "interpretation": "FY2026E EPS $1.34 기준. 고성장 반영이나 여전히 높음"},
+    {"name": "매출 성장률 (YoY)", "value": "+56.18%", "interpretation": "FY2025 $4.48B. FY2026E +65.5% 추가 가속 전망"},
+    {"name": "영업이익률 (조정)", "value": "57%", "interpretation": "Q4 2025 기준. 소프트웨어 기업 중 최상위"},
+    {"name": "FCF 마진", "value": "63%", "interpretation": "극도로 높은 현금 전환. Q4 FCF $1.25B"},
+    {"name": "Rule of 40", "value": "113%", "interpretation": "성장률 56% + 영업이익률 57%. 소프트웨어 최상위 수준"},
+    {"name": "순현금", "value": "$5.23B", "interpretation": "무부채. 재무 건전성 극도로 양호"},
+    {"name": "FY2026 가이던스", "value": "$7.19B", "interpretation": "+60.5% YoY 성장. 경영진 자신감"}
+  ],
+  "growthDrivers": [
+    {"title": "이란 전쟁 장기화 → 국방 AI 수요 폭발", "description": "트럼프 대통령의 이란 전쟁이 장기화되면서 국방 AI 대장주 Palantir에 자금 유입. 지난주 +15%. 국방 수요가 매출의 60%를 차지."},
+    {"title": "영국 MoD £240M 수의계약 연장", "description": "영국 국방부가 Palantir과 £240M(약 $300M) 수의계약을 연장. 국제 정부 매출 확대 확인."},
+    {"title": "FY2026 가이던스 $7.19B(+60.5%)", "description": "Q4 실적 발표 시 제시한 가이던스가 컨센서스를 상회. AIP 채택 가속이 배경."},
+    {"title": "Anthropic 블랙리스트 영향 제한적", "description": "국방부가 Anthropic을 블랙리스트에 올렸으나, AIP는 모델 비의존적(model-agnostic) 아키텍처. OpenAI, Meta 등 대체 모델로 전환 가능."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "정부 보안 인증(Top Secret/SCI), 20년 국방·정보기관 관계, AIP를 통한 기업 AI 플랫폼 확장이 핵심 해자.",
+    "moats": [
+      {"type": "정부 보안 인증", "description": "Top Secret/SCI 인증 보유. 경쟁사 진입 극도로 어려움."},
+      {"type": "전환비용", "description": "Gotham/Foundry가 고객 데이터 인프라에 깊이 통합. 교체 비용 매우 높음."},
+      {"type": "AI 플랫폼 네트워크 효과", "description": "AIP 부트캠프로 기업 고객 급속 확대. 더 많은 사용 → 더 좋은 모델."}
+    ],
+    "competitors": [
+      {"name": "Snowflake", "detail": "데이터 클라우드 플랫폼. 엔터프라이즈 데이터 분석 경쟁"},
+      {"name": "Databricks", "detail": "레이크하우스 플랫폼. AI/ML 워크로드 경쟁"},
+      {"name": "C3.ai", "detail": "기업용 AI 플랫폼. 직접 경쟁이나 규모 열위"},
+      {"name": "Anduril", "detail": "국방 AI 스타트업. 자율 무기 시스템 특화"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-09", "headline": "Benzinga: 'Palantir, 빅테크 하락 속 독주' — 지정학 수혜", "significance": "테크 전반 매도세 속 PLTR만 상승. 국방 AI 대장주 포지셔닝", "url": "https://www.benzinga.com/markets/tech/26/03/51130471/why-palantir-is-soaring-while-big-tech-tanks"},
+    {"date": "2026-03-04", "headline": "Motley Fool: 'Palantir 2026 가이던스가 성장을 가속할 수 있다'", "significance": "FY2026 $7.19B 가이던스 + 미국 상업 +137% 성장 분석", "url": "https://www.fool.com/investing/2026/03/04/massive-news-palantirs-2026-forecast-could-superch/"},
+    {"date": "2026-03-05", "headline": "Capital.com: 'Q4 매출 $1.41B, FY2026 가이던스 $7.19B'", "significance": "실적 요약 및 애널리스트 반응 정리", "url": "https://capital.com/en-int/market-updates/palantir-stock-forecast-06-03-2026"},
+    {"date": "2026-03-05", "headline": "FinancialContent: 'Palantir — Agentic AI 혁명의 로직 레이어'", "significance": "AIP의 Agentic AI 활용 사례 분석. 장기 성장 내러티브", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-5-palantir-pltr-2026-the-rise-of-the-logic-layer-and-the-agentic-ai-revolution"},
+    {"date": "2026-02-26", "headline": "UBS, PLTR Strong Buy로 업그레이드 — 목표가 $180", "significance": "대형 IB의 업그레이드. 기관 관심 확대 시그널", "url": "https://stockanalysis.com/stocks/pltr/forecast/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 188.52,
+    "highTarget": 260,
+    "lowTarget": 50,
+    "upsidePercent": 20.51,
+    "buyCount": 11,
+    "holdCount": 9,
+    "sellCount": 1,
+    "notableComment": "UBS Strong Buy 업그레이드($180), Rosenblatt $200, Mizuho Buy 업그레이드($195). 매수 의견 확대 추세. 그러나 9명의 Hold가 밸류에이션 부담 반영."
+  },
+  "risks": [
+    {"severity": "high", "title": "극단적 밸류에이션", "description": "P/E 248x, P/S 84x, Forward P/E 117x. 가장 비싼 대형 소프트웨어 주식."},
+    {"severity": "high", "title": "CEO 지분 매각", "description": "Alex Karp의 정기적 대규모 지분 매각. 내부자 매도 신호."},
+    {"severity": "medium", "title": "정부 계약 집중 리스크", "description": "매출의 60%가 정부 계약. 예산 삭감 시 직격탄."},
+    {"severity": "medium", "title": "지정학 의존성", "description": "이란 전쟁 등 갈등 장기화가 수혜이나, 평화 시 모멘텀 약화."},
+    {"severity": "low", "title": "상업 매출 지속성 미검증", "description": "미국 상업 +137%의 지속 가능성 아직 미확인. AIP 도입 초기 반짝 효과 가능성."}
+  ],
+  "buyReasons": [
+    {"title": "AI 시대 국방 인프라 독점", "rationale": "Top Secret 인증 + 20년 관계. 국방 AI 경쟁 진입장벽 매우 높음."},
+    {"title": "상업 매출 폭발 (+137% YoY)", "rationale": "AIP 부트캠프 전략으로 기업 고객 급속 확대. TAM 확장."},
+    {"title": "Rule of 40 = 113%", "rationale": "성장률+영업이익률 합산 113%. 소프트웨어 최상위 효율성."},
+    {"title": "이란 전쟁 → 국방 예산 확대", "rationale": "지정학 긴장으로 미국·NATO 국방 지출 증가. 직접 수혜."}
+  ],
+  "technicalPosition": {
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 63.9,
+    "sma50": 146.33,
+    "sma50Signal": "above",
+    "sma200": 149.79,
+    "sma200Signal": "above",
+    "rsi": 56.43,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": "지난주 +15% 급등 후 $156.43으로 숨고르기. 이란 전쟁 장기화로 국방 AI 대장주 포지셔닝이 강화됐다. 50일·200일 이평선 위에서 거래되며 기술적으로 상승 추세 유지. RSI 56.4는 과매수 아닌 중립 영역. FY2026 가이던스 $7.19B(+60.5%), Rule of 40 = 113%로 펀더멘탈은 강력하나, Forward P/E 117x는 완벽한 실행을 전제로 한 가격이다. UBS·Mizuho 등 대형 IB 업그레이드가 이어지고 있어 기관 관심은 확대 중. 단기적으로 $160-$165 저항, $140 지지 예상.",
+  "sources": [
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/palantir-technologies-inc", "description": "PLTR 실시간 주가 및 기본 데이터"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "애널리스트 컨센서스 및 재무 전망"},
+    {"name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/03/51130471/why-palantir-is-soaring-while-big-tech-tanks", "description": "빅테크 하락 속 PLTR 독주 분석"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/04/massive-news-palantirs-2026-forecast-could-superch/", "description": "FY2026 가이던스 분석"},
+    {"name": "Capital.com", "url": "https://capital.com/en-int/market-updates/palantir-stock-forecast-06-03-2026", "description": "Q4 실적 및 기술적 분석"},
+    {"name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/stock-price-history", "description": "주가 이력 및 52주 고저"},
+    {"name": "FullRatio", "url": "https://fullratio.com/stocks/nasdaq-pltr/pe-ratio", "description": "P/E 비율 분석"},
+    {"name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/PLTR/", "description": "시총 및 기본 데이터"},
+    {"name": "Investing.com Technical", "url": "https://www.investing.com/equities/palantir-technologies-inc-technical", "description": "기술적 지표 (RSI, SMA50)"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "빅테크 폭락에 혼자 +15% 오른 주식 🛡️",
+      "text": "PLTR $156.43. 이란 전쟁이 바꾼 게임.\n\n국방 AI 매출 60%, Rule of 40 = 113%.\nUBS·Mizuho 잇따라 Strong Buy.\n\n영국 MoD £240M 계약 연장.\nFY2026 가이던스 $7.19B(+60%).\n\nForward P/E 117x — 비싸지만 대안이 없다.\n전쟁이 끝나면 어떻게 될까? 🤔\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-10"
+    },
+    "telegram": {
+      "hook": "빅테크 폭락에 혼자 +15% 오른 주식 🛡️",
+      "text": "📊 PLTR $156.43 (-0.46%)\n\n지난주 +15% 급등 후 오늘은 숨고르기. 테크 매도세 속 국방 AI 대장주만 독주한 이유:\n\n🔹 이란 전쟁 장기화 → 국방 AI 수요 폭발\n🔹 영국 MoD £240M 수의계약 연장\n🔹 FY2026 가이던스 $7.19B (+60.5%)\n🔹 미국 상업 매출 +137% YoY\n🔹 Rule of 40 = 113% (성장 + 수익성)\n\n📈 UBS Strong Buy 업그레이드 $180, Rosenblatt $200\n21명 중 11명 매수 → 매수 의견 확대 추세\n\n⚠️ Forward P/E 117x는 완벽한 실행 전제 가격\nCEO 지분 매각도 계속되고 있다\n\n전쟁이 끝나도 AIP 성장은 유지될까? 🤔\n\nhttps://investory.kro.kr/stock/PLTR/analysis/2026-03-10"
+    }
+  }
+}
