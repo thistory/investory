@@ -1,0 +1,184 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-11",
+  "currentPrice": 399.24,
+  "marketCap": "$1.50T",
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행·로봇·에너지 저장을 아우르는 'Physical AI Platform' 기업",
+    "description": "Tesla는 EV 제조에서 AI·로보틱스·에너지 통합 플랫폼으로 전환 중이다. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.8B(-46.5% YoY). 화요일 종가 $399.24(+0.14%). 배터리 공급사 호실적에 장 초반 $405.80까지 상승했으나 제한적 마감. VP Finance Sendil Palani 17년 만에 퇴사로 경영진 이탈 우려 지속. NHTSA FSD 안전 심사(3/9 마감) 결과 대기 중. GTC 2026(3/16-19) 앞두고 자율주행 테마 재부각. 시가총액 $1.50T, P/E 369.66x, Forward P/E 193.06x.",
+    "howTheyMakeMoney": [
+      "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y 핵심, Model S/X Q2 2026 단종",
+      "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack·Powerwall 성장",
+      "서비스/기타: 매출의 ~10%. 슈퍼차저 네트워크, 보험, 부품",
+      "FSD/소프트웨어: 라이선스 매출 약 $3B. 구독 전환 가속"
+    ],
+    "keyProducts": ["Model 3", "Model Y", "Cybertruck", "Semi", "Megapack", "Powerwall", "FSD", "Optimus Robot"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "369.66x", "interpretation": "EPS $1.08 기준. 자율주행·로보틱스 옵셔널리티를 반영한 극단적 프리미엄"},
+    {"name": "Forward P/E", "value": "193.06x", "interpretation": "FY2026E EPS $2.07 기준. 여전히 고평가이나 회복 기대 포함"},
+    {"name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "FY2025 역성장. FY2026E +11% 회복 전망"},
+    {"name": "영업이익률", "value": "4.59%", "interpretation": "FY2025 급락. 가격 전쟁 + R&D 투자 확대"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY. 현금 창출력 개선 중"},
+    {"name": "부채비율", "value": "0.18x", "interpretation": "순현금 $29.3B. 재무 건전성 양호"},
+    {"name": "ROE", "value": "4.93%", "interpretation": "FY2025 수익성 하락 반영. FY2026E 개선 전망"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "NHTSA FSD 안전 심사 결과 임박 — 자율주행 내러티브의 분수령",
+      "description": "3/9 288만대 대상 FSD 안전 데이터 제출 마감 완료. 결과에 따라 전국 자율주행 확대 가속 또는 대규모 리콜·주가 하방 리스크. 시장은 '몇 주 내' 결과 발표를 예상."
+    },
+    {
+      "title": "GTC 2026(3/16-19) 앞두고 자율주행 테마 재부각",
+      "description": "NVIDIA GTC에서 차세대 Rubin 아키텍처 공개 예정. Tesla FSD에 적용될 차세대 AI 칩 로드맵이 함께 논의될 수 있어 자율주행 섹터 전체에 관심 집중."
+    },
+    {
+      "title": "배터리 공급사 호실적 → Tesla 수혜 기대",
+      "description": "핵심 배터리 공급사의 강한 실적에 힘입어 장 초반 +1.8% 상승($405.80). 배터리 원가 하락이 Tesla 마진 개선으로 이어질 가능성."
+    },
+    {
+      "title": "Optimus Gen 3 로봇 생산 램프업 — Wright's Law 새 곡선",
+      "description": "Seeking Alpha 분석에 따르면 Optimus Gen 3 로보틱스 램프와 장기 생산 효율 향상이 TSLA의 새로운 성장 곡선을 만들 전망. 단기 차량 인도량 감소를 상쇄."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율 리더, 다만 글로벌에서는 BYD에 추월당함. 소프트웨어·제조·에너지·82억 FSD 마일의 수직 통합이 핵심 해자.",
+    "moats": [
+      {"type": "자율주행 데이터 해자", "description": "82억 FSD 마일. 경쟁사 대비 압도적 학습 데이터."},
+      {"type": "수직 통합", "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(슈퍼차저)."},
+      {"type": "충전 네트워크 효과", "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저 의존."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "2025 글로벌 EV 판매 1위. 유럽 빠른 성장, 미국은 관세로 제한"},
+      {"name": "Waymo (Alphabet)", "detail": "$160억 펀딩, 주 40만회 이상 라이드. 자율주행 직접 경쟁"},
+      {"name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) 2026 출시, Model Y 직접 경쟁"},
+      {"name": "Xiaomi", "detail": "YU7 SUV 중국에서 Model Y 대비 2:1 사전주문"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-10",
+      "headline": "VP Finance Sendil Palani 17년 만에 퇴사 — 경영진 이탈 확대",
+      "significance": "Tesla 초기부터 함께한 고위 임원의 퇴사로 경영진 유출 우려 심화. 다만 주가에 즉각적 영향은 제한적.",
+      "url": "https://electrek.co/2026/03/10/tesla-vp-finance-sendil-palani-leaves-17-years/"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "배터리 공급사 호실적에 Tesla 주가 장 초반 +1.8% 상승",
+      "significance": "핵심 배터리 서플라이어의 강한 실적이 Tesla 원가 개선 기대를 높임.",
+      "url": "https://invezz.com/news/2026/03/10/why-tesla-stock-is-surging-on-tuesday/"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "NHTSA FSD 안전 데이터 제출 마감 — 결과 대기 모드",
+      "significance": "288만대 대상 FSD 안전 심사의 최종 마감. 결과에 따라 자율주행 확대 또는 리콜 결정.",
+      "url": "https://finance.yahoo.com/news/tesla-2026-may-hinge-march-160100800.html"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "Tesla 주가 $400 하회 급락 — 규제 불확실성 + 수요 약화 신호",
+      "significance": "FSD 규제 마감 + 수요 둔화 + 테크 셀오프 삼중 악재 작용.",
+      "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/"
+    },
+    {
+      "date": "2026-03-04",
+      "headline": "독일 IG Metall, 테슬라 베를린 공장 노조 영향력 확대 시도",
+      "significance": "베를린 기가팩토리 직원 대표 선거에 노조가 적극 개입. 유럽 노동 리스크.",
+      "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600.00,
+    "lowTarget": 125.00,
+    "upsidePercent": -0.77,
+    "buyCount": 10,
+    "holdCount": 14,
+    "sellCount": 6,
+    "notableComment": "Wall Street 분열 지속. 자율주행·로봇 옵셔널리티 인정하는 강세론과 EV 수요 약화·밸류에이션 부담 지적하는 약세론이 팽팽. 중앙값 $458."
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "NHTSA FSD 심사 결과 리스크",
+      "description": "288만대 대상 안전 심사 결과에 따라 전국 FSD 확대 또는 대규모 리콜. 자율주행 내러티브 전체가 걸린 이벤트."
+    },
+    {
+      "severity": "high",
+      "title": "경영진 이탈 가속화",
+      "description": "VP Finance Sendil Palani(17년) 퇴사. 최근 1년간 다수 고위 임원 이탈. 조직 안정성 우려."
+    },
+    {
+      "severity": "high",
+      "title": "극단적 밸류에이션",
+      "description": "P/E 369.66x, Forward P/E 193.06x. PEG 4.10. 실적 대비 과도한 프리미엄."
+    },
+    {
+      "severity": "medium",
+      "title": "글로벌 EV 경쟁 심화",
+      "description": "BYD 글로벌 1위 탈환, Xiaomi YU7 중국 사전주문 폭주, Rivian R2 출시 임박."
+    },
+    {
+      "severity": "medium",
+      "title": "유럽 노동 리스크",
+      "description": "베를린 기가팩토리 노조 영향력 확대. 독일 IG Metall의 적극적 개입."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "FSD 승인 시 자율주행 플랫폼 재평가",
+      "rationale": "NHTSA 심사 통과 시 전국 로보택시 확대 가속. 오스틴 로보택시 요금 $3.25에서도 수요 견조하여 수익화 가능성 입증."
+    },
+    {
+      "title": "Optimus 로봇 + 에너지 사업 옵셔널리티",
+      "rationale": "Gen 3 로봇 램프업과 에너지 사업($12.8B, +27% YoY)이 EV 의존도를 낮추는 성장 다변화."
+    },
+    {
+      "title": "순현금 $29.3B + FCF $6.2B 개선",
+      "rationale": "재무 건전성 양호. FCF +73.7% YoY 성장으로 투자 여력 충분."
+    },
+    {
+      "title": "50일선($424) 대비 과매도 — RSI 42.64",
+      "rationale": "50일 이평선 대비 -6% 할인 거래. RSI 중립 하단에서 반등 가능성."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 262.66,
+    "currentPositionPercent": 60.5,
+    "sma50": 424.55,
+    "sma50Signal": "below",
+    "sma200": 392.70,
+    "sma200Signal": "above",
+    "rsi": 42.64,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla는 FSD 규제 심사 결과라는 '역사적 분수령' 앞에 서 있다. 화요일 $399.24로 소폭 상승 마감했으나 50일선($424) 하방에서 방향성을 탐색 중이다.",
+    "VP Finance 퇴사로 경영진 이탈 우려가 재부각됐지만, 배터리 공급사 호실적과 GTC 2026 기대감이 하방을 지지했다.",
+    "P/E 369.66x는 여전히 극단적이며, 자율주행·로봇 모멘텀 없이는 현 밸류에이션 정당화가 어렵다. NHTSA 결과가 나오기 전까지는 '관망' 스탠스가 합리적이나, 결과에 따라 급등 또는 급락 가능성이 공존한다."
+  ],
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA 주가·밸류에이션·재무 데이터"},
+    {"name": "Electrek", "url": "https://electrek.co/2026/03/10/tesla-vp-finance-sendil-palani-leaves-17-years/", "description": "VP Finance 퇴사 보도"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/10/why-tesla-stock-is-surging-on-tuesday/", "description": "배터리 공급사 호실적과 TSLA 주가 반응"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/tesla-2026-may-hinge-march-160100800.html", "description": "NHTSA FSD 마감 분석"},
+    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4880343-tesla-poised-to-start-a-new-wrights-law-curve", "description": "Optimus Gen 3 Wright's Law 분석"},
+    {"name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "베를린 공장 노조 이슈"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "기술적 지표 (이평선, RSI)"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "애널리스트 목표가 $406.84"},
+    {"name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "3/10 일중 고저 $400.36-$403.11"},
+    {"name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/pe-ratio", "description": "P/E 히스토리"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "Tesla VP Finance 17년 만에 퇴사 🚪",
+      "text": "배터리 공급사 호실적에도 $399 보합 마감. NHTSA FSD 심사 결과가 진짜 분수령 — 승인이면 전국 로보택시 확대, 실패면 리콜 폭탄. P/E 369x에 걸맞은 결과가 나올까? 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-11"
+    },
+    "telegram": {
+      "hook": "🚗 TSLA $399.24 (+0.14%) — FSD 심판의 날 카운트다운",
+      "text": "배터리 공급사 호실적에 장중 $405까지 올랐다가 보합 마감. VP Finance Sendil Palani가 17년 만에 퇴사하며 경영진 이탈 우려 재점화.\n\n핵심은 NHTSA FSD 안전 심사 결과. 3/9 마감 후 '몇 주 내' 결과 예상. 통과하면 전국 로보택시 확대 가속, 불합격이면 288만대 리콜 가능성.\n\nP/E 369x, Forward P/E 193x. GTC 2026(3/16)도 앞두고 있어 이번 주-다음 주가 변곡점이 될 수 있다. RSI 42.6으로 과매도 근접.\n\n분석 전문 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-11"
+    }
+  }
+}

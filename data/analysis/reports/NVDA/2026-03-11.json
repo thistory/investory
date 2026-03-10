@@ -1,0 +1,184 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-11",
+  "currentPrice": 184.77,
+  "marketCap": "$4.49T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력이다. FY2026 매출 $215.9B(+65.5% YoY), 순이익 $120.1B(+64.8%). 화요일 종가 $184.77(+1.16%). GTC 2026(3/16-19) D-5, Rubin R200 공개 카운트다운에 UBS 'upside bias' 코멘트로 상승. 시가총액 $4.49T. P/E 37.71x, Forward P/E 22.40x.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
+      "게이밍: GeForce RTX GPU — 매출의 ~6%",
+      "프로 비주얼리제이션: Omniverse, RTX — 매출의 ~2%",
+      "자동차: DRIVE 플랫폼 — 매출의 ~1%"
+    ],
+    "keyProducts": ["H200", "Blackwell B200/GB200/GB300", "Rubin R200 (차세대)", "GeForce RTX 5090", "CUDA", "AI Enterprise", "Spectrum-X"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "37.71x", "interpretation": "EPS $4.90 기준. AI 성장 대비 합리적 수준"},
+    {"name": "Forward P/E", "value": "22.40x", "interpretation": "FY2027E 기준. 성장주 밸류에이션으로 역사적 매수 영역"},
+    {"name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.9B. AI 수요 폭발 지속"},
+    {"name": "영업이익률", "value": "55.6%", "interpretation": "극도의 고마진. AI 가속기 독점적 지위 반영"},
+    {"name": "순이익", "value": "$120.1B", "interpretation": "+64.8% YoY. 사상 최대 실적"},
+    {"name": "FCF", "value": "N/A", "interpretation": "FY2026 현금흐름 추후 업데이트"},
+    {"name": "부채비율", "value": "0.17x", "interpretation": "순현금 포지션. 재무 건전성 최상급"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 (3/16-19) D-5 — Rubin R200 아키텍처 공개 카운트다운",
+      "description": "Jensen Huang이 산호세 GTC에서 차세대 Rubin(R200) 아키텍처를 공식 공개 예정. 3만 명 참석 예상. Feynman(2028) 로드맵, CPX/LPU 추론 솔루션, CPO 광학 네트워킹도 주요 토픽. UBS 'upside bias' 코멘트."
+    },
+    {
+      "title": "Forward P/E 22.4x — '1년 만에 가장 저렴'",
+      "description": "관세 셀오프로 Forward P/E가 22.4x까지 내려옴. +65.5% 성장률 대비 PEG <0.5. 성장주 밸류에이션 기준으로 역사적 매수 영역."
+    },
+    {
+      "title": "Q1 FY2027 가이던스 $78B(±2%) — 컨센서스 대폭 상회",
+      "description": "관세 역풍에도 수요가 압도적. Blackwell 출하 가속과 하이퍼스케일러 CapEx $700B가 배경."
+    },
+    {
+      "title": "Vera Rubin + Feynman 듀얼 아키텍처 전략",
+      "description": "GTC에서 Vera Rubin(2027 양산)과 Feynman(2028) 듀얼 아키텍처 공개 예상. 2년 주기 혁신으로 경쟁사 대비 1-2세대 우위 유지 전략."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습·추론 GPU 시장 90%+ 점유율. 소프트웨어+하드웨어 통합이 핵심 해자.",
+    "moats": [
+      {"type": "CUDA 생태계", "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."},
+      {"type": "설계 우위", "description": "Blackwell→Rubin→Feynman으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서."},
+      {"type": "풀스택 전략", "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise)+네트워킹(Spectrum-X) 통합."}
+    ],
+    "competitors": [
+      {"name": "AMD (MI300X)", "detail": "AI GPU 2위. 가격 경쟁력이나 생태계 열위"},
+      {"name": "Intel (Gaudi 3)", "detail": "AI 가속기 후발. 시장 점유율 미미"},
+      {"name": "Google (TPU)", "detail": "자체 AI 칩. 내부 사용 중심"},
+      {"name": "Broadcom (ASIC)", "detail": "커스텀 AI 칩 설계. 하이퍼스케일러 대안"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-10",
+      "headline": "GTC 2026 앞두고 NVDA +1.16% 상승 — UBS 'upside bias' 코멘트",
+      "significance": "UBS Timothy Arcuri 애널리스트가 GTC 앞두고 'upside bias' 전망. Buy/$245 유지. 이벤트 드리븐 재평가 기대.",
+      "url": "https://invezz.com/news/2026/03/10/nvidia-stock-is-rising-today-and-the-reasons-are-bigger-than-you-think/"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "GTC 2026에서 Rubin Era 개막 — 'AI 슈퍼볼' 기대감 고조",
+      "significance": "3/16-19 GTC에서 Rubin R200 아키텍처 공식 공개. 하드웨어→AI 인프라 아키텍트로의 전환 완성 선언 기대.",
+      "url": "https://www.financialcontent.com/article/marketminute-2026-3-10-nvidia-surges-as-ai-super-bowl-approaches-gtc-2026-set-to-unveil-the-rubin-era"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "TipRanks: GTC 포커스 — Feynman 로드맵, CPX/LPU, CPO 광학",
+      "significance": "Evercore 애널리스트가 GTC 3대 포커스 제시. Feynman(2028) 로드맵, CPX/LPU 추론 솔루션, CPO 광학 네트워킹.",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-ahead-of-gtc-2026-bulls-raise-the-bar"
+    },
+    {
+      "date": "2026-03-07",
+      "headline": "GTC 2026 프리뷰: Vera Rubin + Feynman 듀얼 아키텍처 공개 전망",
+      "description": "TradingKey 분석에 따르면 GTC에서 Vera Rubin과 Feynman 두 아키텍처가 동시 공개될 가능성.",
+      "significance": "듀얼 아키텍처 전략으로 2년 주기 혁신 로드맵 강화.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261657446-nvidia-gtc-2026-preview-vera-rubin-feynman-tradingkey"
+    },
+    {
+      "date": "2026-02-25",
+      "headline": "FY2026 Q4 실적 발표 — 매출 $215.9B, 순이익 $120.1B 사상 최대",
+      "significance": "Q1 FY2027 가이던스 $78B(±2%)로 컨센서스 $5.4B 상회. 성장 지속 확인.",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 350.00,
+    "lowTarget": 150.00,
+    "upsidePercent": 42.49,
+    "buyCount": 35,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "38명 중 35명 Strong Buy. UBS $245, Evercore Blackwell $0.5T 매출 사이클 후 Rubin 램프 기대. 평균 목표가 $263.29로 +42.5% 상승 여력."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "관세 리스크 — 중국 수출 제한 강화",
+      "description": "미-중 반도체 전쟁 지속. 중국향 AI 칩 수출 제한 강화 시 매출 5-10% 영향 가능."
+    },
+    {
+      "severity": "high",
+      "title": "GTC 기대 미달 리스크",
+      "description": "시장 기대가 극도로 높아진 상태. Rubin 스펙이나 Feynman 로드맵이 기대에 미달하면 'Sell the news' 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 경쟁 확대",
+      "description": "Google TPU, Broadcom·Marvell 커스텀 ASIC이 하이퍼스케일러 대안으로 부상. 장기 점유율 잠식 가능성."
+    },
+    {
+      "severity": "medium",
+      "title": "AI CapEx 사이클 피크 우려",
+      "description": "하이퍼스케일러 $700B CapEx가 지속 가능한지 시장 의문. AI ROI 증명이 지연되면 투자 축소 리스크."
+    },
+    {
+      "severity": "low",
+      "title": "밸류에이션 정상화 리스크",
+      "description": "Forward P/E 22.4x로 역사적 저점이나, 성장률 둔화 시 멀티플 수축 가능."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "GTC 2026에서 Rubin 공개 — 이벤트 드리븐 재평가 임박",
+      "rationale": "3/16 GTC에서 차세대 Rubin R200 아키텍처 공개. 2년 주기 혁신으로 경쟁 우위 재확인 기대. UBS 'upside bias'."
+    },
+    {
+      "title": "Forward P/E 22.4x — 성장 대비 역사적 저평가",
+      "rationale": "+65.5% 성장률 대비 PEG <0.5. $4.49T 시총이지만 $215.9B 매출과 $120.1B 순이익으로 뒷받침."
+    },
+    {
+      "title": "AI 인프라 지출 $700B+ — 구조적 수요 지속",
+      "rationale": "하이퍼스케일러 CapEx $700B 이상. NVIDIA GPU 없이는 AI 인프라 구축 불가능한 독점적 지위."
+    },
+    {
+      "title": "Q1 FY2027 가이던스 $78B — 초과 달성 이력",
+      "rationale": "컨센서스를 $5.4B 상회하는 가이던스 제시. 최근 8분기 연속 가이던스 초과 달성."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 78.2,
+    "sma50": 186.20,
+    "sma50Signal": "below",
+    "sma200": 183.70,
+    "sma200Signal": "above",
+    "rsi": 55.69,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "NVIDIA는 GTC 2026(3/16-19) D-5 카운트다운에 진입하며 $184.77(+1.16%)로 상승 마감했다. Rubin R200 아키텍처 공개가 5일 앞으로 다가오면서 UBS 등 주요 증권사가 'upside bias'를 제시.",
+    "Forward P/E 22.4x는 +65.5% 매출 성장률 대비 역사적으로 저렴한 수준이다. $215.9B 매출, $120.1B 순이익이라는 압도적 실적이 $4.49T 시가총액을 뒷받침.",
+    "GTC에서 Vera Rubin + Feynman 듀얼 아키텍처 공개 시 2년 주기 혁신 로드맵이 재확인되며 추가 상승 모멘텀이 기대된다. 다만 기대가 극도로 높아진 만큼 'Sell the news' 리스크도 존재. 38명 중 35명이 Strong Buy, 평균 목표가 $263.29(+42.5%)."
+  ],
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA 종가 $184.77, P/E 37.71x, Forward P/E 22.40x"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/10/nvidia-stock-is-rising-today-and-the-reasons-are-bigger-than-you-think/", "description": "GTC 앞두고 UBS upside bias 코멘트"},
+    {"name": "FinancialContent", "url": "https://www.financialcontent.com/article/marketminute-2026-3-10-nvidia-surges-as-ai-super-bowl-approaches-gtc-2026-set-to-unveil-the-rubin-era", "description": "GTC 2026 Rubin Era 기대감"},
+    {"name": "TipRanks", "url": "https://www.tipranks.com/news/nvidia-stock-forecast-ahead-of-gtc-2026-bulls-raise-the-bar", "description": "GTC 포커스: Feynman, CPX/LPU, CPO"},
+    {"name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261657446-nvidia-gtc-2026-preview-vera-rubin-feynman-tradingkey", "description": "Vera Rubin + Feynman 듀얼 아키텍처 프리뷰"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/nvidia-corp-technical", "description": "기술적 지표: RSI 55.69, SMA50 $186.2"},
+    {"name": "AltIndex", "url": "https://altindex.com/ticker/nvda/technical-analysis", "description": "50일/200일 이평선 골든크로스"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "애널리스트 평균 목표가 $273.64"},
+    {"name": "Public.com", "url": "https://public.com/stocks/nvda/forecast-price-target", "description": "37명 Buy 컨센서스, 목표가 $264.05"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVIDIA GTC 2026까지 5일 ⏰",
+      "text": "$184.77(+1.16%). UBS 'upside bias' 코멘트와 함께 Rubin R200 공개 카운트다운 돌입. Forward P/E 22.4x면 +65% 성장 기업치고 싸지 않나? 38명 중 35명 Strong Buy. 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-11"
+    },
+    "telegram": {
+      "hook": "🟢 NVDA $184.77 (+1.16%) — GTC 2026 D-5, AI 슈퍼볼 카운트다운",
+      "text": "GTC 2026(3/16-19)에서 차세대 Rubin R200 아키텍처 공개 예정. UBS Arcuri 'upside bias' 코멘트로 상승 지지.\n\nForward P/E 22.4x는 +65.5% 성장률 대비 역사적 저평가 영역. 순이익 $120.1B, 시총 $4.49T.\n\nGTC 핵심 포커스: ①Vera Rubin 아키텍처 ②Feynman(2028) 로드맵 ③CPX/LPU 추론 솔루션 ④CPO 광학 네트워킹.\n\n38명 중 35명 Strong Buy, 평균 목표가 $263(+42.5%). 이번 주가 변곡점이 될 수 있다.\n\n분석 전문 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-11"
+    }
+  }
+}

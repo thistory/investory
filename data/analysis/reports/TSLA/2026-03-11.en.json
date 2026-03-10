@@ -1,0 +1,184 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-11",
+  "currentPrice": 399.24,
+  "marketCap": "$1.50T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' company spanning autonomous driving, robotics, and energy storage",
+    "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.8B (-46.5% YoY). Tuesday close $399.24 (+0.14%). Rose as high as $405.80 on strong battery supplier earnings before settling flat. VP Finance Sendil Palani departed after 17 years, extending executive exodus concerns. Awaiting NHTSA FSD safety review results after 3/9 deadline. GTC 2026 (3/16-19) approaching with autonomous driving theme resurgence. Market cap $1.50T, P/E 369.66x, Forward P/E 193.06x.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack/Powerwall growth",
+      "Services/Other: ~10% of revenue. Supercharger network, insurance, parts",
+      "FSD/Software: ~$3B in license revenue. Subscription conversion accelerating"
+    ],
+    "keyProducts": ["Model 3", "Model Y", "Cybertruck", "Semi", "Megapack", "Powerwall", "FSD", "Optimus Robot"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "369.66x", "interpretation": "Based on EPS $1.08. Extreme premium reflecting autonomous driving/robotics optionality"},
+    {"name": "Forward P/E", "value": "193.06x", "interpretation": "Based on FY2026E EPS $2.07. Still elevated but includes recovery expectations"},
+    {"name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "FY2025 decline. FY2026E +11% recovery forecast"},
+    {"name": "Operating Margin", "value": "4.59%", "interpretation": "FY2025 sharp decline. Price war + increased R&D spending"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY. Cash generation improving"},
+    {"name": "Debt-to-Equity", "value": "0.18x", "interpretation": "Net cash $29.3B. Strong financial position"},
+    {"name": "ROE", "value": "4.93%", "interpretation": "Reflects FY2025 profitability decline. FY2026E improvement expected"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "NHTSA FSD Safety Review Results Imminent — Watershed for Autonomy Narrative",
+      "description": "FSD safety data submission for 2.88M vehicles completed on 3/9. Results could accelerate nationwide autonomous driving expansion or trigger a major recall. Market expects results 'within weeks.'"
+    },
+    {
+      "title": "GTC 2026 (3/16-19) Sparks Autonomous Driving Theme Revival",
+      "description": "NVIDIA's next-gen Rubin architecture reveal at GTC could include discussion of next-gen AI chips for Tesla FSD, drawing renewed attention to the entire autonomous driving sector."
+    },
+    {
+      "title": "Battery Supplier Strong Earnings Signal Tesla Cost Benefits",
+      "description": "Key battery supplier's strong earnings drove Tesla shares up 1.8% to $405.80 in early trading. Battery cost reductions could flow through to Tesla margin improvement."
+    },
+    {
+      "title": "Optimus Gen 3 Robot Production Ramp — New Wright's Law Curve",
+      "description": "Analysis suggests Optimus Gen 3 robotics ramp and long-term production efficiency gains could create a new growth curve for TSLA, offsetting near-term vehicle delivery declines."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "US EV market leader with 50%+ share, though globally surpassed by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
+    "moats": [
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelmingly more training data than competitors."},
+      {"type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."},
+      {"type": "Charging Network Effects", "description": "NACS as North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "Global EV sales leader in 2025. Rapid European growth, US limited by tariffs"},
+      {"name": "Waymo (Alphabet)", "detail": "$16B funding, 400K+ rides per week. Direct autonomous driving competitor"},
+      {"name": "Rivian (RIVN)", "detail": "R2 SUV ($45,000) launching 2026, direct Model Y competitor"},
+      {"name": "Xiaomi", "detail": "YU7 SUV pre-orders 2:1 vs Model Y in China"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-10",
+      "headline": "VP Finance Sendil Palani departs after 17 years — executive exodus grows",
+      "significance": "Departure of a long-tenured senior executive deepens concerns about organizational stability, though immediate stock impact was limited.",
+      "url": "https://electrek.co/2026/03/10/tesla-vp-finance-sendil-palani-leaves-17-years/"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "Tesla shares rise 1.8% on battery supplier's strong earnings",
+      "significance": "Key battery supplier's robust results raised expectations for Tesla cost improvements.",
+      "url": "https://invezz.com/news/2026/03/10/why-tesla-stock-is-surging-on-tuesday/"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "NHTSA FSD safety data submission deadline passes — awaiting results",
+      "significance": "Final deadline for 2.88M vehicle FSD safety review. Outcome determines autonomy expansion or recall.",
+      "url": "https://finance.yahoo.com/news/tesla-2026-may-hinge-march-160100800.html"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "Tesla stock tumbles below $400 — regulatory uncertainty + demand weakness",
+      "significance": "FSD regulatory deadline + demand slowdown + tech selloff triple headwinds.",
+      "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/"
+    },
+    {
+      "date": "2026-03-04",
+      "headline": "German IG Metall union targets Tesla Berlin factory for breakthrough",
+      "significance": "Works council election at Berlin Gigafactory with active union involvement. European labor risk.",
+      "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600.00,
+    "lowTarget": 125.00,
+    "upsidePercent": -0.77,
+    "buyCount": 10,
+    "holdCount": 14,
+    "sellCount": 6,
+    "notableComment": "Wall Street remains deeply divided. Bulls value autonomous driving and robotics optionality while bears point to EV demand weakness and extreme valuation. Median target $458."
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "NHTSA FSD Review Outcome Risk",
+      "description": "Safety review results for 2.88M vehicles could mean nationwide FSD expansion or a major recall. The entire autonomy narrative hangs in the balance."
+    },
+    {
+      "severity": "high",
+      "title": "Accelerating Executive Departures",
+      "description": "VP Finance Sendil Palani (17 years) departure. Multiple senior executives have left in the past year. Organizational stability concerns."
+    },
+    {
+      "severity": "high",
+      "title": "Extreme Valuation",
+      "description": "P/E 369.66x, Forward P/E 193.06x. PEG 4.10. Excessive premium relative to current earnings."
+    },
+    {
+      "severity": "medium",
+      "title": "Intensifying Global EV Competition",
+      "description": "BYD reclaiming global leadership, Xiaomi YU7 pre-order surge in China, Rivian R2 launch imminent."
+    },
+    {
+      "severity": "medium",
+      "title": "European Labor Risk",
+      "description": "Berlin Gigafactory facing union influence expansion. IG Metall actively intervening in works council elections."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "FSD Approval Could Trigger Autonomous Platform Re-rating",
+      "rationale": "NHTSA approval would accelerate nationwide robotaxi expansion. Austin robotaxi demand remains strong at $3.25 fare, proving monetization potential."
+    },
+    {
+      "title": "Optimus Robot + Energy Business Optionality",
+      "rationale": "Gen 3 robot ramp and energy business ($12.8B, +27% YoY) diversify growth beyond EV dependency."
+    },
+    {
+      "title": "Net Cash $29.3B + FCF $6.2B Improvement",
+      "rationale": "Strong financial position. FCF +73.7% YoY growth provides ample investment capacity."
+    },
+    {
+      "title": "Trading Below 50-Day SMA ($424) — RSI 42.64",
+      "rationale": "Trading at 6% discount to 50-day moving average. RSI near lower neutral zone suggests potential bounce."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 262.66,
+    "currentPositionPercent": 60.5,
+    "sma50": 424.55,
+    "sma50Signal": "below",
+    "sma200": 392.70,
+    "sma200Signal": "above",
+    "rsi": 42.64,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla stands at a 'historic watershed' with the NHTSA FSD review results imminent. Tuesday's $399.24 close (+0.14%) was flat as the stock searches for direction below its 50-day SMA ($424).",
+    "The VP Finance departure reignited executive exodus concerns, but strong battery supplier earnings and GTC 2026 anticipation supported the downside.",
+    "P/E of 369.66x remains extreme, and without autonomous driving or robotics momentum, current valuation is difficult to justify. A 'wait-and-see' stance is rational until NHTSA results arrive, though both sharp upside and downside scenarios are in play."
+  ],
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA price, valuation, and financial data"},
+    {"name": "Electrek", "url": "https://electrek.co/2026/03/10/tesla-vp-finance-sendil-palani-leaves-17-years/", "description": "VP Finance departure report"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/10/why-tesla-stock-is-surging-on-tuesday/", "description": "Battery supplier earnings and TSLA price action"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/tesla-2026-may-hinge-march-160100800.html", "description": "NHTSA FSD deadline analysis"},
+    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4880343-tesla-poised-to-start-a-new-wrights-law-curve", "description": "Optimus Gen 3 Wright's Law analysis"},
+    {"name": "Reuters", "url": "https://www.reuters.com/business/world-at-work/german-union-aims-breakthrough-tesla-berlin-plant-2026-03-04/", "description": "Berlin factory union issue"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "Technical indicators (moving averages, RSI)"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "Analyst price target $406.84"},
+    {"name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "3/10 intraday range $400.36-$403.11"},
+    {"name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/pe-ratio", "description": "P/E ratio history"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "Tesla VP Finance exits after 17 years 🚪",
+      "text": "Stock flat at $399 despite battery supplier boost. The real catalyst? NHTSA FSD review results — approval means nationwide robotaxis, failure means recall on 2.88M vehicles. Can a P/E of 369x survive that? 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-11"
+    },
+    "telegram": {
+      "hook": "🚗 TSLA $399.24 (+0.14%) — FSD Judgment Day Countdown",
+      "text": "Battery supplier earnings lifted shares to $405 intraday before settling flat. VP Finance Sendil Palani departed after 17 years, adding to executive exodus concerns.\n\nThe real story: NHTSA FSD safety review results. After the 3/9 deadline, results expected 'within weeks.' Approval unlocks nationwide robotaxis; failure could mean a 2.88M vehicle recall.\n\nP/E 369x, Forward P/E 193x. With GTC 2026 (3/16) also ahead, this week and next could be inflection points. RSI at 42.6, approaching oversold.\n\nFull analysis 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-11"
+    }
+  }
+}
