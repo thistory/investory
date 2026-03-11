@@ -1,0 +1,183 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-12",
+  "currentPrice": 401.12,
+  "marketCap": "$1.51T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' company spanning autonomous driving, robotics, and energy storage",
+    "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.8B (-46.5% YoY). Wednesday close $401.12 (+0.47%). China February sales at 58,600 units (+91% YoY) and strong battery supplier earnings supported shares. Stock up 80% over past year despite revenue decline. Market cap $1.51T, P/E 371.24x, Forward P/E ~193x.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack/Powerwall growth",
+      "Services/Other: ~10% of revenue. Supercharger network, insurance, parts",
+      "FSD/Software: ~$3B in license revenue. Subscription conversion accelerating"
+    ],
+    "keyProducts": ["Model 3", "Model Y", "Cybertruck", "Semi", "Megapack", "Powerwall", "FSD", "Optimus Robot"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "371.24x", "interpretation": "Based on EPS $1.08. Extreme premium reflecting autonomous driving/robotics optionality"},
+    {"name": "Forward P/E", "value": "~193x", "interpretation": "Based on FY2026E EPS $2.07. Includes recovery expectations"},
+    {"name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "FY2025 decline. FY2026E +11% recovery expected"},
+    {"name": "Operating Margin", "value": "4.59%", "interpretation": "Sharp decline from price war + increased R&D spending"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY. Cash generation improving"},
+    {"name": "Debt-to-Equity", "value": "0.18x", "interpretation": "Net cash $29.3B. Strong financial position"},
+    {"name": "ROE", "value": "4.93%", "interpretation": "Reflects FY2025 profitability decline. FY2026E improvement expected"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "China February Sales +91% YoY — 4th Consecutive Month of Growth",
+      "description": "Shanghai factory sold 58,600 Model 3/Y units, +91% YoY. Low base effect included, but 4 consecutive months of growth confirms China market recovery. Export numbers included."
+    },
+    {
+      "title": "80% Rally Over Past Year — Revaluation Despite Revenue Decline",
+      "description": "Stock rallied 80% despite FY2025 revenue decline and margin compression. Accelerating FSD software adoption and energy business expansion are the structural drivers."
+    },
+    {
+      "title": "GTC 2026 (3/16-19) — Autonomous Driving Theme Catalyst",
+      "description": "NVIDIA's next-gen Rubin architecture reveal at GTC could spotlight next-gen AI chips for Tesla FSD, drawing renewed attention to the entire autonomous driving sector."
+    },
+    {
+      "title": "Optimus Gen 3 Robot — New Wright's Law Growth Curve",
+      "description": "Seeking Alpha analysis: Optimus Gen 3 robotics ramp and long-term production efficiency gains could create a new growth curve offsetting near-term vehicle delivery declines."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "US EV market leader with 50%+ share, though globally surpassed by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
+    "moats": [
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelmingly more training data than competitors."},
+      {"type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."},
+      {"type": "Charging Network Effects", "description": "NACS as North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "2025 global EV sales of 2.26M units (+28%). Surpassed Tesla's 1.64M (-9%)"},
+      {"name": "Lucid (LCID)", "detail": "Q4 revenue $523M (+123%). Targeting premium EV market"},
+      {"name": "Rivian (RIVN)", "detail": "R2 launch entering mass market. Intensifying price competition"},
+      {"name": "Waymo (Alphabet)", "detail": "Expanding autonomous taxi service. L4 autonomy leader"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-11",
+      "headline": "China February EV Sales +91% YoY — Shanghai Factory 58,600 Units",
+      "significance": "4th consecutive month of sales growth. Low base effect included but confirms China market recovery. Includes exports to Europe.",
+      "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Trefis: 'How Tesla Stock Gained 80%' — Structural Analysis",
+      "significance": "Despite revenue decline and margin compression, high-margin software adoption and energy business expansion drove 80% rally.",
+      "url": "https://www.trefis.com/stock/tsla/articles2/593149/how-tesla-stock-gained-80/2026-03-11"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "Strong Battery Supplier Earnings Push TSLA to Intraday $405.80",
+      "significance": "Key battery supplier's strong results raised Tesla cost reduction expectations, driving 1.8% intraday surge.",
+      "url": "https://invezz.com/news/2026/03/10/why-tesla-stock-is-surging-on-tuesday/"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "BYD 2.26M vs Tesla 1.64M — 5 Companies Eating Tesla's Lunch",
+      "significance": "24/7 Wall St analyzes 5 competitors threatening Tesla. BYD's dominant growth is the biggest threat.",
+      "url": "https://247wallst.com/investing/2026/03/09/5-companies-quietly-eating-teslas-lunch-in-2026-and-one-is-already-winning/"
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "NHTSA FSD Safety Review Deadline (3/9) Triggers Stock Drop",
+      "significance": "FSD crash data investigation could result in fines, recalls, or robotaxi delays. Testing $400 support level.",
+      "url": "https://invezz.com/news/2026/03/05/heres-why-tesla-stock-is-tumbling-today/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600.00,
+    "lowTarget": 125.00,
+    "upsidePercent": -1.24,
+    "buyCount": 10,
+    "holdCount": 12,
+    "sellCount": 8,
+    "notableComment": "Hold consensus among 30 analysts. Average target $396.15 (-1.24% from current). Extremely divided: high $600 (robotaxi success) vs low $125 (fundamentals-based)."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Global Deliveries Declining — Surpassed by BYD",
+      "description": "2025 deliveries at 1.64M (-9% YoY). BYD delivered 2.26M (+28%), taking global #1. Further margin pressure from price competition."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 371x — Extreme Valuation",
+      "description": "P/E 371x despite revenue decline and margin compression. Autonomous driving and robotics success already priced in."
+    },
+    {
+      "severity": "high",
+      "title": "NHTSA FSD Safety Review Uncertainty",
+      "description": "Results pending after 3/9 deadline. Negative outcome could trigger recall, fines, or robotaxi delays."
+    },
+    {
+      "severity": "medium",
+      "title": "Executive Departures Continue — VP Finance Exits After 17 Years",
+      "description": "Sendil Palani VP Finance departure. Ongoing executive exit pattern raises organizational stability concerns."
+    },
+    {
+      "severity": "medium",
+      "title": "Tariff and Trade Policy Risks",
+      "description": "Shifting global trade policies and potential EV tariffs affecting China and European market access."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "China February Sales +91% — Market Recovery Confirmed",
+      "rationale": "4 consecutive months of growth confirms China market bottom. Shanghai factory utilization improvement could drive margin recovery."
+    },
+    {
+      "title": "FSD/Robotaxi — $5T+ TAM Optionality",
+      "rationale": "8.2B FSD miles data. If NHTSA review passes, nationwide robotaxi expansion. Global mobility market $5T+ potential."
+    },
+    {
+      "title": "Energy Business +27% YoY — Hidden Growth Engine",
+      "rationale": "Megapack/Powerwall generating $12.8B (+27% YoY). High-margin energy business partially offsetting vehicle revenue decline."
+    },
+    {
+      "title": "Net Cash $29.3B + FCF $6.22B — Strong Financial Position",
+      "rationale": "Near debt-free balance sheet with ample R&D investment capacity."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 214.25,
+    "currentPositionPercent": 68.2,
+    "sma50": 399.62,
+    "sma50Signal": "above",
+    "sma200": 418.30,
+    "sma200Signal": "below",
+    "rsi": 42.85,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla closed Wednesday at $401.12 (+0.47%), supported by China February sales surging 91% YoY and strong battery supplier earnings.",
+    "Despite the 80% rally over the past year, revenue declined 2.9% and operating margin compressed to 4.59%. The current price at P/E 371x largely prices in autonomous driving, robotics, and energy success.",
+    "Key catalysts are the NHTSA FSD safety review results and GTC 2026 (3/16-19). A positive FSD review could accelerate the robotaxi narrative; failure could trigger a sharp selloff. Trading near the 50-day SMA ($399.62), with 200-day SMA ($418.30) recovery as the key trend reversal signal."
+  ],
+  "sources": [
+    {"name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/", "description": "China February EV sales 58,600 units (+91% YoY)"},
+    {"name": "Trefis", "url": "https://www.trefis.com/stock/tsla/articles2/593149/how-tesla-stock-gained-80/2026-03-11", "description": "Tesla stock 80% rally analysis"},
+    {"name": "StockMarketWatch", "url": "https://stockmarketwatch.com/live/stock-market-today/", "description": "March 11 close $401.12"},
+    {"name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "Market cap $1.5T, P/E 371.24x"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/10/why-tesla-stock-is-surging-on-tuesday/", "description": "Battery supplier earnings boost"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "30 analysts Hold consensus, avg target $396.15"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "50-day SMA $399.62, RSI 42.85"},
+    {"name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/09/5-companies-quietly-eating-teslas-lunch-in-2026-and-one-is-already-winning/", "description": "BYD 2.26M vs Tesla 1.64M competition analysis"},
+    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4880343-tesla-poised-to-start-a-new-wrights-law-curve", "description": "Optimus Gen 3 Wright's Law analysis"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "China Feb sales +91% 🚀 Tesla recovery signal?",
+      "text": "Shanghai factory 58,600 units sold. 4 months of growth, closing at $401. But BYD sold 2.26M vs Tesla's 1.64M (-9%). The 80% rally is built on FSD and robotics narrative — it needs to prove out. 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-12"
+    },
+    "telegram": {
+      "hook": "🚗 TSLA $401.12 (+0.47%) — China +91%, but the real catalyst is coming",
+      "text": "China February EV sales hit 58,600 units (+91% YoY), marking 4 consecutive months of growth. Battery supplier earnings added momentum.\n\nBut the real game-changer is next week: GTC 2026 (3/16) with NVIDIA Rubin reveal + NHTSA FSD review results imminent.\n\nP/E 371x prices in autonomous driving and robotics success. Positive FSD review = robotaxi acceleration. Failure = sharp selloff. Barely holding above 50-day SMA ($399.62).\n\nFull analysis 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-12"
+    }
+  }
+}

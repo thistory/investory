@@ -1,0 +1,183 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-12",
+  "currentPrice": 186.86,
+  "marketCap": "$4.54T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65.5% YoY), 순이익 $120.1B(+64.8%). 수요일 종가 $186.86(+1.13%). Nebius에 $2B 투자 발표 + GTC 2026(3/16-19) D-4 카운트다운 + NemoClaw 오픈소스 AI 플랫폼 공개로 상승. 시가총액 $4.54T, P/E ~37.7x, Forward P/E ~22.4x.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
+      "게이밍: GeForce RTX GPU — 매출의 ~6%",
+      "프로 비주얼리제이션: Omniverse, RTX — 매출의 ~2%",
+      "자동차: DRIVE 플랫폼 — 매출의 ~1%"
+    ],
+    "keyProducts": ["H200", "Blackwell B200/GB200/GB300", "Rubin R200 (차세대)", "GeForce RTX 5090", "CUDA", "AI Enterprise", "Spectrum-X", "NemoClaw"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "~37.7x", "interpretation": "EPS $4.90 기준. AI 성장 대비 합리적 수준"},
+    {"name": "Forward P/E", "value": "~22.4x", "interpretation": "FY2027E 기준. 성장주 밸류에이션으로 역사적 매수 영역"},
+    {"name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.9B. AI 수요 폭발 지속"},
+    {"name": "영업이익률", "value": "55.6%", "interpretation": "극도의 고마진. AI 가속기 독점적 지위 반영"},
+    {"name": "순이익", "value": "$120.1B", "interpretation": "+64.8% YoY. 사상 최대 실적"},
+    {"name": "FCF", "value": "N/A", "interpretation": "FY2026 현금흐름 추후 업데이트"},
+    {"name": "부채비율", "value": "0.17x", "interpretation": "순현금 포지션. 재무 건전성 최상급"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "Nebius에 $2B 투자 — 풀스택 AI 클라우드 생태계 확장",
+      "description": "3/11 NVIDIA가 AI 클라우드 기업 Nebius에 $2B 투자 발표. 하드웨어 판매를 넘어 AI 클라우드 인프라 생태계 통합으로 전략 확장. Nebius 주가 +16% 급등."
+    },
+    {
+      "title": "GTC 2026 (3/16-19) D-4 — Rubin R200 아키텍처 공개 카운트다운",
+      "description": "Jensen Huang이 산호세 GTC에서 차세대 Rubin(R200) 아키텍처 공식 공개 예정. 에너지 효율 획기적 개선 기대. 3만 명 참석 예상."
+    },
+    {
+      "title": "NemoClaw 오픈소스 AI 플랫폼 출시 — 소프트웨어 생태계 확장",
+      "description": "GTC 2026 직전 NemoClaw 오픈소스 AI 플랫폼 공개. 하드웨어→소프트웨어 수익 모델 확장의 첫 단추. 개발자 생태계 강화."
+    },
+    {
+      "title": "Forward P/E 22.4x — '1년 만에 가장 저렴'",
+      "description": "관세 셀오프로 Forward P/E가 22.4x까지 내려옴. +65.5% 성장률 대비 PEG <0.5. 역사적 매수 영역."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습·추론 GPU 시장 90%+ 점유율. 소프트웨어+하드웨어 통합이 핵심 해자.",
+    "moats": [
+      {"type": "CUDA 생태계", "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."},
+      {"type": "설계 우위", "description": "Blackwell→Rubin→Feynman으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서."},
+      {"type": "풀스택 전략", "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise, NemoClaw)+네트워킹(Spectrum-X)+클라우드(Nebius 투자) 통합."}
+    ],
+    "competitors": [
+      {"name": "AMD (MI400)", "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대"},
+      {"name": "Intel (Gaudi 3)", "detail": "AI 가속기 후발. Windows NPU 포커스로 차별화 시도"},
+      {"name": "Google (TPU)", "detail": "자체 AI 칩. 내부 사용 중심"},
+      {"name": "Broadcom (ASIC)", "detail": "커스텀 AI 칩 설계. 하이퍼스케일러 대안"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-11",
+      "headline": "NVIDIA, Nebius에 $2B 투자 — AI 클라우드 인프라 확장",
+      "significance": "하드웨어 판매 넘어 풀스택 AI 클라우드 생태계로 전략 확장. Nebius 주가 +16% 급등. AI 인프라 투자 지속 의지 확인.",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-ai-cloud-firm-nebius-2026-03-11/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "NemoClaw 오픈소스 AI 플랫폼 출시 — GTC 앞두고 소프트웨어 야심",
+      "significance": "에이전틱 AI 개발을 위한 오픈소스 플랫폼 공개. 하드웨어 → 소프트웨어 수익 모델 확장의 첫 단추.",
+      "url": "https://www.tipranks.com/news/ahead-of-gtc-2026-nvidia-launches-open-source-ai-platform-nemoclaw"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "NVDA +1.13% — 'Silicon Fortress' AI 섹터가 시장 안정 앵커 역할",
+      "significance": "지정학 리스크에도 NVIDIA는 'Great Dispersion'에서 승자로 부각. AI 인프라 수요가 방어적 헤지 역할.",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-11-silicon-fortress-nvidia-defies-geopolitical-gravity-as-ai-sector-anchors-market-stability"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "GTC 2026 앞두고 Bull들 바 높인다 — Rubin, Feynman, CPX/LPU 포커스",
+      "significance": "Evercore 애널리스트가 GTC 3대 포커스 제시. Rubin R200 + Feynman(2028) 로드맵 + CPO 광학 네트워킹.",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-ahead-of-gtc-2026-bulls-raise-the-bar"
+    },
+    {
+      "date": "2026-02-25",
+      "headline": "FY2026 Q4 실적 — 매출 $68.13B(+73% YoY), 연간 $215.9B 사상 최대",
+      "significance": "Q1 FY2027 가이던스 $78B(±2%)로 컨센서스 대폭 상회. 데이터센터 $62.3B 기여.",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 350.00,
+    "lowTarget": 150.00,
+    "upsidePercent": 40.89,
+    "buyCount": 35,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "38명 중 35명 Strong Buy. GTC 앞두고 UBS 'upside bias', Evercore Blackwell $0.5T 매출 사이클 전망. 평균 목표가 $263.29(+40.9%)."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "GTC 기대 미달 리스크 — 'Sell the news'",
+      "description": "시장 기대 극도로 높은 상태. Rubin 스펙이나 Feynman 로드맵이 기대에 미달하면 이벤트 후 매도 가능."
+    },
+    {
+      "severity": "high",
+      "title": "관세 리스크 — 수출 제한 확대",
+      "description": "미 상무부 AI 반도체 수출 제한 확대 제안. 중국뿐 아니라 더 넓은 국제 시장 접근 제한 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 경쟁 확대",
+      "description": "Google TPU, AMD MI400, Broadcom·Marvell 커스텀 ASIC이 하이퍼스케일러 대안으로 부상."
+    },
+    {
+      "severity": "medium",
+      "title": "에너지·헬륨 공급 리스크",
+      "description": "중동 긴장으로 헬륨(실리콘 웨이퍼 냉각용) 공급 차질 우려. 유가 $120+ 상승이 데이터센터 운영 비용 증가."
+    },
+    {
+      "severity": "low",
+      "title": "밸류에이션 정상화 리스크",
+      "description": "Forward P/E 22.4x는 역사적 저점이나 성장률 둔화 시 멀티플 수축 가능."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "GTC 2026 D-4 — Rubin + Nebius $2B 투자 = 생태계 확장 가속",
+      "rationale": "하드웨어 신제품(Rubin) + 클라우드 인프라 투자(Nebius) + 소프트웨어(NemoClaw)의 3박자 성장 전략이 4일 내 GTC에서 완성."
+    },
+    {
+      "title": "Forward P/E 22.4x에 +65.5% 성장 — 성장 대비 역사적 저평가",
+      "rationale": "$215.9B 매출, $120.1B 순이익이 $4.54T 시가총액을 뒷받침. PEG <0.5."
+    },
+    {
+      "title": "AI 인프라 지출 $700B+ — 구조적 수요 지속",
+      "rationale": "하이퍼스케일러 CapEx + 국가 차원 'Sovereign AI' 투자로 수요에 바닥이 있는 구조."
+    },
+    {
+      "title": "'Silicon Fortress' — 지정학 리스크 속 방어적 성장주",
+      "rationale": "AI 섹터가 시장 불안정 속 안전 자산 역할. NVIDIA는 AI 무기상(arms dealer)으로 독보적 위치."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 79.8,
+    "sma50": 182.22,
+    "sma50Signal": "above",
+    "sma200": 183.70,
+    "sma200Signal": "above",
+    "rsi": 36.90,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "NVIDIA는 수요일 $186.86(+1.13%)로 상승 마감. Nebius $2B 투자 발표와 NemoClaw 오픈소스 AI 플랫폼 출시가 이중 촉매로 작용했다.",
+    "GTC 2026(3/16-19)까지 4일 남은 시점에서 하드웨어(Rubin)+클라우드(Nebius)+소프트웨어(NemoClaw)의 3축 생태계 전략이 구체화되고 있다. $180 지지선에서 반등 후 50일선($182.22)과 200일선($183.70)을 모두 상회.",
+    "Forward P/E 22.4x는 +65.5% 성장률 대비 역사적 저평가. 38명 중 35명 Strong Buy, 평균 목표가 $263.29(+40.9%). GTC가 변곡점이 될 수 있으나 기대 미달 시 'Sell the news' 리스크도 존재."
+  ],
+  "sources": [
+    {"name": "Reuters", "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-ai-cloud-firm-nebius-2026-03-11/", "description": "Nebius $2B 투자 발표"},
+    {"name": "TipRanks", "url": "https://www.tipranks.com/news/ahead-of-gtc-2026-nvidia-launches-open-source-ai-platform-nemoclaw", "description": "NemoClaw 오픈소스 AI 플랫폼 출시"},
+    {"name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-11-silicon-fortress-nvidia-defies-geopolitical-gravity-as-ai-sector-anchors-market-stability", "description": "3/11 종가 $186.86, +1.13%"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/11/nebius-nvidia-ai-cloud.html", "description": "Nebius +16% 급등, NVIDIA AI 클라우드 전략"},
+    {"name": "TipRanks GTC", "url": "https://www.tipranks.com/news/nvidia-stock-forecast-ahead-of-gtc-2026-bulls-raise-the-bar", "description": "GTC 포커스: Feynman, CPX/LPU, CPO"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/nvidia-corp-technical", "description": "50일선 $182.22, 기술적 지표"},
+    {"name": "AltIndex", "url": "https://altindex.com/ticker/nvda/technical-analysis", "description": "RSI 36.9, 골든크로스 유지"},
+    {"name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/11/nvidia-surges-on-ai-software-push-and-landmark-partnership-with-thinking-machines-lab/", "description": "소프트웨어 전략 + Thinking Machines Lab 파트너십"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "38명 중 35명 Buy, 평균 목표가 $263.29"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA, Nebius에 $2B 투자 💰 GTC D-4",
+      "text": "$186.86(+1.13%). Nebius $2B 투자 + NemoClaw 오픈소스 AI 플랫폼 공개. 칩 → 클라우드 → 소프트웨어로 생태계 확장 중. GTC 4일 앞두고 35/38명 Strong Buy. Forward P/E 22.4x면 이 성장률에 싸지 않나? 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-12"
+    },
+    "telegram": {
+      "hook": "🟢 NVDA $186.86 (+1.13%) — Nebius $2B + NemoClaw + GTC D-4",
+      "text": "오늘 두 가지 빅뉴스:\n1️⃣ AI 클라우드 기업 Nebius에 $2B 투자 → 풀스택 AI 생태계 확장\n2️⃣ NemoClaw 오픈소스 AI 플랫폼 출시 → 소프트웨어 수익 모델 진입\n\n50일선($182)과 200일선($183) 모두 상회하며 $180 지지 확인. Forward P/E 22.4x에 +65.5% 성장.\n\n3/16 GTC에서 Rubin R200 공개 시 재평가 폭발 가능. 38명 중 35명 Strong Buy, 평균 목표가 $263(+41%).\n\n분석 전문 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-12"
+    }
+  }
+}
