@@ -1,0 +1,183 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-13",
+  "currentPrice": 395.01,
+  "marketCap": "$1.27T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' company spanning autonomous driving, robotics, and energy storage",
+    "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.8B (-46.5% YoY). Thursday close $395.01 (-3.14%). Shares tumbled alongside the broader market (S&P -1.52%, Nasdaq -1.78%) as surging oil prices and escalating Iran tensions hammered growth stocks. Previous day's BofA Buy upgrade ($460 PT) and Macrohard (xAI joint venture) announcement failed to hold gains. Market cap $1.27T, P/E ~366x, Forward P/E ~191x.",
+    "howTheyMakeMoney": [
+      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack/Powerwall growth",
+      "Services/Other: ~10% of revenue. Supercharger network, insurance, parts",
+      "FSD/Software: ~$3B in license revenue. Subscription conversion accelerating"
+    ],
+    "keyProducts": ["Model 3", "Model Y", "Cybertruck", "Semi", "Megapack", "Powerwall", "FSD", "Optimus Robot"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "~366x", "interpretation": "Based on EPS $1.08. Extreme premium reflecting autonomous driving/robotics optionality"},
+    {"name": "Forward P/E", "value": "~191x", "interpretation": "Based on FY2026E EPS $2.07. Includes recovery expectations"},
+    {"name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "FY2025 decline. FY2026E +11% recovery expected"},
+    {"name": "Operating Margin", "value": "4.59%", "interpretation": "Sharp decline from price war + increased R&D spending"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY. Cash generation improving"},
+    {"name": "Debt-to-Equity", "value": "0.18x", "interpretation": "Net cash $29.3B. Strong financial position"},
+    {"name": "ROE", "value": "4.93%", "interpretation": "Reflects FY2025 profitability decline. FY2026E improvement expected"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "BofA Buy Upgrade — $460 Price Target, AI/Robotics Pipeline Undervalued",
+      "description": "Bank of America resumed coverage on 3/4 with Hold→Buy upgrade and $460 target. Cited Tesla's AI and robotics pipeline as undervalued optionality amid DOGE noise."
+    },
+    {
+      "title": "Macrohard (Digital Optimus) — Joint xAI Project for Software Disruption",
+      "description": "On 3/11, Musk unveiled Tesla-xAI joint project 'Macrohard' (Digital Optimus). Pairs Grok LLM with a Tesla-built AI agent to automate office work by watching screens and imitating human actions."
+    },
+    {
+      "title": "Forbes: 'Tesla's Best Growth Story Isn't Robotaxis — It's Batteries'",
+      "description": "Forbes analysis on 3/12: Energy business ($12.8B, +27% YoY) via Megapack/Powerwall is the real growth engine with higher margins than the vehicle segment."
+    },
+    {
+      "title": "GTC 2026 (3/16-19) — Autonomous Driving Catalyst D-4",
+      "description": "NVIDIA's next-gen Rubin architecture reveal at GTC could spotlight AI chips for Tesla FSD, potentially reigniting the entire autonomous driving sector."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "US EV market leader with 50%+ share, though globally surpassed by BYD. Vertical integration across software, manufacturing, energy, and 8.2B FSD miles is the core moat.",
+    "moats": [
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelmingly more training data than competitors."},
+      {"type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."},
+      {"type": "Charging Network Effects", "description": "NACS as North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "2025 global EV sales 2.26M units (+28%). Surpassed Tesla's 1.64M (-9%)"},
+      {"name": "Lucid (LCID)", "detail": "Q4 revenue $523M (+123%). Targeting premium EV market"},
+      {"name": "Rivian (RIVN)", "detail": "R2 launch for mass market. BofA Underperform $14 rating"},
+      {"name": "Waymo (Alphabet)", "detail": "Expanding robotaxi service. Leading L4 autonomous driving"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-12",
+      "headline": "TSLA -3.14% — Market-wide selloff on surging oil and Iran tensions",
+      "significance": "S&P 500 -1.52%, Dow -700 points. Iran conflict escalation drove oil prices above $100, pressuring growth stocks across the board.",
+      "url": "https://invezz.com/news/2026/03/12/why-tesla-stock-is-down-around-3-today/"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "Forbes: 'Tesla's Best Growth Story Isn't Robotaxis — It's Batteries'",
+      "significance": "Energy business at $12.8B (+27% YoY) identified as the real growth engine, with higher margins than the vehicle segment.",
+      "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Musk unveils Macrohard (Digital Optimus) — Joint Tesla-xAI AI agent project",
+      "significance": "Grok LLM + Tesla AI agent to automate office work. Software market disruption ambition. Drove +2.15% gain on the day.",
+      "url": "https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "BofA resumes TSLA with Buy upgrade and $460 price target",
+      "significance": "Hold→Buy change. AI and robotics pipeline cited as undervalued optionality. +16% upside from current price.",
+      "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "TSLA +2.15% to $407.82 — Double catalyst rally",
+      "significance": "BofA upgrade + Macrohard announcement drove gains, but all gains erased the following day.",
+      "url": "https://phemex.com/blogs/tesla-stock-price-surge-tsla-trending-traders-guide"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 406.84,
+    "highTarget": 600.00,
+    "lowTarget": 125.00,
+    "upsidePercent": 2.99,
+    "buyCount": 11,
+    "holdCount": 12,
+    "sellCount": 8,
+    "notableComment": "BofA Buy upgrade ($460 PT) newly added. Hold consensus maintained among 31 analysts with average target $406.84. Extremely polarized: high $600 (robotaxi success) vs low $125 (fundamentals-based)."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Oil Surge + Iran Conflict — Macro Headwinds Intensifying",
+      "description": "Iran tensions pushing oil above $100. Growth stock selloff pressure. Long-term EV tailwind but near-term sentiment deterioration."
+    },
+    {
+      "severity": "high",
+      "title": "Global Deliveries Declining — Surpassed by BYD",
+      "description": "2025 deliveries 1.63M (-8.6% YoY). BYD sold 2.26M (+28%), taking global EV crown."
+    },
+    {
+      "severity": "high",
+      "title": "P/E ~366x — Extreme Valuation",
+      "description": "Revenue declining and margins compressing yet P/E ~366x. Autonomous driving and robotics success largely priced in."
+    },
+    {
+      "severity": "medium",
+      "title": "xAI-Tesla Conflict of Interest Risk",
+      "description": "Macrohard project could complicate existing shareholder lawsuits over xAI conflicts of interest. Corporate governance concerns."
+    },
+    {
+      "severity": "medium",
+      "title": "-53% From December Highs — Technical Weakness Persists",
+      "description": "Trading below both 50-day ($399) and 200-day ($418) SMAs. Technical bearish phase."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "BofA Buy Upgrade $460 — AI/Robotics Undervalued",
+      "rationale": "Provides institutional cover to re-enter. AI and robotics pipeline deemed undervalued amid DOGE noise."
+    },
+    {
+      "title": "Macrohard — $5T+ Software TAM Entry",
+      "rationale": "xAI Grok + Tesla AI agent for office automation. Pivot from hardware to software platform begins."
+    },
+    {
+      "title": "Energy Business +27% YoY — Hidden Growth Engine",
+      "rationale": "Megapack/Powerwall at $12.8B revenue (+27% YoY). Forbes calls it the 'best growth story.'"
+    },
+    {
+      "title": "Net Cash $29.3B + FCF $6.22B — Financial Fortress",
+      "rationale": "Near-zero leverage with ample R&D investment capacity."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 63.5,
+    "sma50": 399.00,
+    "sma50Signal": "below",
+    "sma200": 418.30,
+    "sma200Signal": "below",
+    "rsi": 40.50,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla closed Thursday at $395.01 (-3.14%), swept up in a broad market selloff as surging oil prices and escalating Iran tensions hammered equities (S&P -1.52%, Nasdaq -1.78%).",
+    "The previous day's BofA Buy upgrade ($460 PT) and Macrohard (xAI joint venture) announcement drove a +2.15% rally, only for gains to be completely erased. The stock now trades below both 50-day ($399) and 200-day ($418) SMAs, signaling technical weakness.",
+    "The key catalyst ahead is GTC 2026 (3/16). NVIDIA's Rubin reveal could reignite the autonomous driving narrative. Paradoxically, surging oil prices could accelerate long-term EV adoption, but short-term growth stock valuation pressure dominates."
+  ],
+  "sources": [
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/12/why-tesla-stock-is-down-around-3-today/", "description": "TSLA -3.14% decline analysis, oil and Iran factors"},
+    {"name": "Forbes", "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/", "description": "Battery/energy as the real growth story"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html", "description": "Macrohard (Digital Optimus) xAI joint project reveal"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html", "description": "BofA Buy upgrade $460 price target"},
+    {"name": "Phemex", "url": "https://phemex.com/blogs/tesla-stock-price-surge-tsla-trending-traders-guide", "description": "3/12 $407.82 (+2.15%) surge analysis"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/history/", "description": "3/12 close $395.01 (-3.14%)"},
+    {"name": "Electrek", "url": "https://electrek.co/2026/03/11/musk-confirms-xai-tesla-joint-digital-optimus-project-shareholder-lawsuit/", "description": "Digital Optimus + shareholder lawsuit context"},
+    {"name": "TheStreet", "url": "https://www.thestreet.com/investing/bank-of-america-revamps-tesla-stock-price", "description": "BofA analysis detail — AI, robotaxi, robotics valuation"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "Consensus target $406.84"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA -3.14% crash 📉 BofA $460 upgrade couldn't save it",
+      "text": "Oil surge + Iran war tanked the whole market. BofA Buy ($460) and Macrohard (xAI collab) couldn't hold gains. But Forbes says the real play is batteries, not robotaxis. GTC 3/16 the next turning point? 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-13"
+    },
+    "telegram": {
+      "hook": "🔴 TSLA $395.01 (-3.14%) — Oil spike drags market, erases BofA rally",
+      "text": "Iran escalation pushed oil past $100. S&P -1.52%, Nasdaq -1.78%. Yesterday's BofA Buy upgrade ($460 PT) and Macrohard (xAI AI agent collab) drove +2.15% — all erased in one session.\n\nForbes: 'Best growth story isn't robotaxis — it's batteries.' Energy revenue $12.8B (+27% YoY).\n\nNow below both 50-day and 200-day SMAs. Technically weak, but GTC 2026 (3/16) Rubin reveal could reignite autonomous driving plays.\n\nFull analysis 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-13"
+    }
+  }
+}

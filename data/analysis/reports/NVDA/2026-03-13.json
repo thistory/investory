@@ -1,0 +1,183 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-13",
+  "currentPrice": 183.14,
+  "marketCap": "$4.45T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65.5% YoY), 순이익 $120.1B(+64.8%). 목요일 종가 $183.14(-1.55%). 시장 급락(S&P -1.52%, Nasdaq -1.78%)에 동반 하락. GTC 2026(3/16-19)까지 D-4. 'Rubin Era' — GTC가 AI 경제의 리트머스 테스트가 될 것이란 분석. 시가총액 $4.45T, P/E 37.38x, Forward P/E 22.20x.",
+    "howTheyMakeMoney": [
+      "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
+      "게이밍: GeForce RTX GPU — 매출의 ~6%",
+      "프로 비주얼리제이션: Omniverse, RTX — 매출의 ~2%",
+      "자동차: DRIVE 플랫폼 — 매출의 ~1%"
+    ],
+    "keyProducts": ["H200", "Blackwell B200/GB200/GB300", "Rubin R200 (차세대)", "GeForce RTX 5090", "CUDA", "AI Enterprise", "Spectrum-X", "NemoClaw"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "37.38x", "interpretation": "EPS $4.90 기준. AI 성장 대비 합리적 수준"},
+    {"name": "Forward P/E", "value": "22.20x", "interpretation": "FY2027E 기준. 성장주 밸류에이션으로 역사적 매수 영역"},
+    {"name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.9B. AI 수요 폭발 지속"},
+    {"name": "영업이익률", "value": "55.6%", "interpretation": "극도의 고마진. AI 가속기 독점적 지위 반영"},
+    {"name": "순이익", "value": "$120.1B", "interpretation": "+64.8% YoY. 사상 최대 실적"},
+    {"name": "FCF", "value": "N/A", "interpretation": "FY2026 현금흐름 추후 업데이트"},
+    {"name": "부채비율", "value": "0.17x", "interpretation": "순현금 포지션. 재무 건전성 최상급"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 D-4 — 'Rubin Era'가 AI 경제의 리트머스 테스트",
+      "description": "3/12 Chronicle Journal: GTC 2026(3/16-19)이 '반도체 거인과 AI 섹터 전체의 최대 시험대'라고 분석. Jensen Huang의 Rubin R200 공개가 AI 사이클 지속 여부를 결정."
+    },
+    {
+      "title": "24/7 Wall St Buy — 목표가 $209.59 제시",
+      "description": "3/12 24/7 Wall St가 독자 분석 기반 Buy 등급, $209.59 목표가(+14.4%) 제시. GTC 앞둔 구조적 매수 기회."
+    },
+    {
+      "title": "Motley Fool: '$200 이하에서 매수해야 하나? → Yes'",
+      "description": "3/11 분석: 주가 $185에서 사상 최고가 대비 -11%. +65.5% 성장률에 Forward P/E 22x는 성장 대비 저평가. $200 이하 매수 기회."
+    },
+    {
+      "title": "Forward P/E 22.2x — 관세·유가 셀오프로 더 싸졌다",
+      "description": "목요일 추가 하락으로 Forward P/E가 22.2x까지 내려옴. +65.5% 성장률 대비 PEG <0.35. 역사적 저평가 영역 심화."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습·추론 GPU 시장 90%+ 점유율. 소프트웨어+하드웨어 통합이 핵심 해자.",
+    "moats": [
+      {"type": "CUDA 생태계", "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."},
+      {"type": "설계 우위", "description": "Blackwell→Rubin→Feynman으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서."},
+      {"type": "풀스택 전략", "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise, NemoClaw)+네트워킹(Spectrum-X)+클라우드(Nebius 투자) 통합."}
+    ],
+    "competitors": [
+      {"name": "AMD (MI400)", "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대"},
+      {"name": "Intel (Gaudi 3)", "detail": "AI 가속기 후발. Windows NPU 포커스로 차별화 시도"},
+      {"name": "Google (TPU)", "detail": "자체 AI 칩. 내부 사용 중심"},
+      {"name": "Broadcom (ASIC)", "detail": "커스텀 AI 칩 설계. 하이퍼스케일러 대안"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-12",
+      "headline": "NVDA -1.55% — 시장 급락에 동반 하락, GTC D-4",
+      "significance": "S&P -1.52%, Nasdaq -1.78%. 유가 급등·이란 분쟁으로 시장 전반 셀오프. GTC 직전 포지셔닝 조정.",
+      "url": "https://stockanalysis.com/stocks/nvda/history/"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "'Rubin Era' — GTC 2026이 AI 경제의 리트머스 테스트",
+      "significance": "Chronicle Journal: GTC가 AI 섹터 전체의 방향을 결정할 최대 이벤트. Rubin R200 + Feynman 로드맵 공개 기대.",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-12-the-rubin-era-nvidias-gtc-2026-approaches-as-a-litmus-test-for-the-ai-economy"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "24/7 Wall St Buy — 목표가 $209.59, 유가 급등에도 매수 유지",
+      "description": "S&P 하락에도 불구하고 NVDA Buy 유지. 독자 분석 기반 $209.59 목표.",
+      "significance": "시장 불안 속에서도 AI 인프라 수요 구조적 지속 전망.",
+      "url": "https://247wallst.com/companies/nvda/price-prediction"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "NVIDIA, Nebius에 $2B 투자 — AI 클라우드 인프라 확장",
+      "significance": "하드웨어 판매 넘어 풀스택 AI 클라우드 생태계로 전략 확장. Nebius 주가 +16% 급등.",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-ai-cloud-firm-nebius-2026-03-11/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Motley Fool: '$200 이하에서 매수해야 하나?'",
+      "significance": "사상 최고가 대비 -11%에서 Forward P/E 22x. 매수 기회라는 분석.",
+      "url": "https://www.fool.com/investing/2026/03/11/should-you-buy-nvidia-stock-while-its-below-200/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 350.00,
+    "lowTarget": 150.00,
+    "upsidePercent": 43.76,
+    "buyCount": 35,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "38명 중 35명 Strong Buy. 평균 목표가 $263.29(+43.8%). GTC 앞두고 UBS 'upside bias', 24/7 Wall St $209.59. Forward P/E 22.2x에 +65.5% 성장 = 역사적 매수 구간."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "GTC 기대 미달 리스크 — 'Sell the news'",
+      "description": "시장 기대 극도로 높은 상태. Rubin 스펙이나 Feynman 로드맵이 기대에 미달하면 이벤트 후 매도 가능."
+    },
+    {
+      "severity": "high",
+      "title": "유가 급등·이란 분쟁 — 3일 연속 시장 하락",
+      "description": "S&P 500이 2026년 최저 종가를 기록. 유가 상승이 데이터센터 운영 비용 증가와 성장주 밸류에이션 압박을 동시에 가중."
+    },
+    {
+      "severity": "medium",
+      "title": "관세 리스크 — 수출 제한 확대",
+      "description": "미 상무부 AI 반도체 수출 제한 확대 제안. 중국뿐 아니라 더 넓은 국제 시장 접근 제한 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 경쟁 확대",
+      "description": "Google TPU, AMD MI400, Broadcom·Marvell 커스텀 ASIC이 하이퍼스케일러 대안으로 부상."
+    },
+    {
+      "severity": "low",
+      "title": "밸류에이션 정상화 리스크",
+      "description": "Forward P/E 22.2x는 역사적 저점이나 성장률 둔화 시 멀티플 수축 가능."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "GTC 2026 D-4 — Rubin R200 공개 = AI 사이클 결정적 촉매",
+      "rationale": "3/16 Jensen Huang 키노트. 차세대 아키텍처 공개가 AI 인프라 투자 방향 결정."
+    },
+    {
+      "title": "Forward P/E 22.2x에 +65.5% 성장 — 역사적 최저 밸류에이션",
+      "rationale": "$215.9B 매출, $120.1B 순이익이 $4.45T 시가총액을 뒷받침. PEG <0.35."
+    },
+    {
+      "title": "38명 중 35명 Strong Buy — 컨센서스 $263.29(+44%)",
+      "rationale": "시장 급락에도 애널리스트 컨센서스 변화 없음. 구조적 AI 수요에 대한 확신."
+    },
+    {
+      "title": "시장 셀오프가 만든 추가 할인 — 매크로 ≠ 펀더멘털",
+      "rationale": "유가·이란 리스크는 NVIDIA 사업과 직접 관련 없음. 시장 심리에 의한 할인이 매수 기회."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 76.9,
+    "sma50": 182.22,
+    "sma50Signal": "above",
+    "sma200": 183.70,
+    "sma200Signal": "below",
+    "rsi": 34.50,
+    "rsiSignal": "oversold"
+  },
+  "overallOpinion": [
+    "NVIDIA는 목요일 $183.14(-1.55%)로 하락 마감. 이란 분쟁·유가 급등으로 S&P 500이 2026년 최저 종가를 기록하는 시장 전반 셀오프에 동반했다.",
+    "GTC 2026(3/16-19)까지 4일 남은 시점에서 시장은 'Rubin Era'를 리트머스 테스트로 보고 있다. Forward P/E 22.2x는 +65.5% 성장률 대비 역사적 최저 수준으로, 유가 셀오프가 만든 추가 할인이다.",
+    "200일선($183.70) 바로 아래에서 거래 중. GTC 성공 시 50일·200일선 동시 탈환으로 기술적 반등 강화. 실패 시 $175 지지 테스트. 38명 중 35명 Strong Buy, 평균 목표가 $263.29(+44%). 매크로 노이즈가 아닌 펀더멘털로 판단할 시점."
+  ],
+  "sources": [
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "3/12 종가 $183.14, P/E 37.38, Forward PE 22.20"},
+    {"name": "Chronicle Journal", "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-12-the-rubin-era-nvidias-gtc-2026-approaches-as-a-litmus-test-for-the-ai-economy", "description": "Rubin Era — GTC 2026 AI 경제 리트머스 테스트"},
+    {"name": "24/7 Wall St", "url": "https://247wallst.com/companies/nvda/price-prediction", "description": "Buy 등급 $209.59 목표가"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/11/should-you-buy-nvidia-stock-while-its-below-200/", "description": "$200 이하 매수 기회 분석"},
+    {"name": "Reuters", "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-ai-cloud-firm-nebius-2026-03-11/", "description": "Nebius $2B 투자 발표"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/11/stock-market-today-live-updates.html", "description": "S&P -1.52%, 2026년 최저 종가"},
+    {"name": "BingX", "url": "https://bingx.com/en/learn/article/nvidia-nvda-stock-outlook-and-price-prediction-is-nvda-a-good-investment", "description": "Strong Buy 컨센서스, $263-274 목표가"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "38명 중 35명 Buy, 평균 $263.29"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "NVDA Forward P/E 22x — 역사적 최저? 📊 GTC D-4",
+      "text": "$183.14(-1.55%). 유가 급등에 시장 전반 급락했지만 NVIDIA 펀더멘털은 변한 게 없다. +65.5% 성장에 Forward P/E 22.2x. 3/16 GTC 'Rubin Era' 공개가 AI 경제의 리트머스 테스트. 35/38 Strong Buy. 매크로 vs 펀더멘털, 뭘 믿겠어? 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-13"
+    },
+    "telegram": {
+      "hook": "🟡 NVDA $183.14 (-1.55%) — 시장 급락 속 GTC D-4 카운트다운",
+      "text": "이란 분쟁 + 유가 $100+로 S&P 2026년 최저 종가. NVDA도 -1.55% 하락, 200일선($183.70) 바로 아래.\n\n하지만 Forward P/E 22.2x에 +65.5% 성장. 유가 셀오프가 만든 '추가 할인'.\n\n3/16 GTC 'Rubin Era' — Chronicle Journal은 'AI 경제의 리트머스 테스트'라 분석. 35/38 Strong Buy, 목표가 $263(+44%).\n\n매크로 노이즈인가 구조적 전환인가. 4일 후 GTC가 답을 준다.\n\n분석 전문 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-13"
+    }
+  }
+}

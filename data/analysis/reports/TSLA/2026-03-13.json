@@ -1,0 +1,182 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-13",
+  "currentPrice": 395.01,
+  "marketCap": "$1.27T",
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행·로봇·에너지를 아우르는 'Physical AI 플랫폼' 기업",
+    "description": "Tesla는 EV 제조에서 통합 AI·로봇·에너지 플랫폼으로 전환 중. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.8B(-46.5% YoY). 목요일 종가 $395.01(-3.14%). 유가 급등과 이란 긴장 고조로 시장 전반 급락(S&P -1.52%, Nasdaq -1.78%)에 동반 하락. 전일 BofA Buy 업그레이드($460 PT)와 Macrohard(xAI 합작) 발표에도 불구하고 매도 압력. 시가총액 $1.27T, P/E ~366x, Forward P/E ~191x.",
+    "howTheyMakeMoney": [
+      "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y 핵심, Model S/X 2026 Q2 단종 예정",
+      "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack/Powerwall 성장",
+      "서비스/기타: 매출의 ~10%. 슈퍼차저 네트워크, 보험, 부품",
+      "FSD/소프트웨어: 라이선스 매출 ~$3B. 구독 전환 가속화"
+    ],
+    "keyProducts": ["Model 3", "Model Y", "Cybertruck", "Semi", "Megapack", "Powerwall", "FSD", "Optimus Robot"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "~366x", "interpretation": "EPS $1.08 기준. 자율주행/로봇 옵셔널리티 반영한 극단적 프리미엄"},
+    {"name": "Forward P/E", "value": "~191x", "interpretation": "FY2026E EPS $2.07 기준. 회복 기대 포함"},
+    {"name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "FY2025 감소. FY2026E +11% 반등 전망"},
+    {"name": "영업이익률", "value": "4.59%", "interpretation": "가격전쟁 + R&D 증가로 급락"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "+73.7% YoY. 현금 창출력 개선"},
+    {"name": "부채비율", "value": "0.18x", "interpretation": "순현금 $29.3B. 재무 건전성 우수"},
+    {"name": "ROE", "value": "4.93%", "interpretation": "FY2025 수익성 하락 반영. FY2026E 개선 예상"}
+  ],
+  "growthDrivers": [
+    {
+      "title": "BofA Buy 업그레이드 — $460 목표가, AI·로봇 파이프라인 저평가 판단",
+      "description": "Bank of America가 3/4 TSLA를 Hold→Buy 업그레이드, $460 목표가 제시. AI·로봇 파이프라인이 DOGE 노이즈 속에 시장에서 과소평가됐다고 분석."
+    },
+    {
+      "title": "Macrohard(Digital Optimus) — xAI와 합작, 소프트웨어 시장 진입",
+      "description": "3/11 Musk이 Tesla-xAI 합작 프로젝트 'Macrohard(Digital Optimus)' 공개. Grok LLM이 AI 에이전트를 지휘해 사무 업무 자동화. 소프트웨어 시장 파괴 야심."
+    },
+    {
+      "title": "Forbes: 'Tesla 최고 성장 스토리는 로보택시가 아니라 배터리'",
+      "description": "3/12 Forbes 분석: Megapack·Powerwall 기반 에너지 사업이 진짜 성장 엔진. 매출 $12.8B(+27% YoY), 차량 부문보다 마진 높음."
+    },
+    {
+      "title": "GTC 2026 (3/16-19) — 자율주행 테마 부활 촉매 D-4",
+      "description": "NVIDIA GTC에서 차세대 Rubin 아키텍처 공개. Tesla FSD용 AI 칩 논의 가능성으로 자율주행 섹터 전체 재조명 기대."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율 리더(글로벌은 BYD에 추월). 소프트웨어·제조·에너지·FSD 8.2B 마일 수직 통합이 핵심 해자.",
+    "moats": [
+      {"type": "자율주행 데이터 해자", "description": "FSD 82억 마일 주행 데이터. 경쟁사 대비 압도적 학습 데이터."},
+      {"type": "수직 통합", "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(Supercharger)."},
+      {"type": "충전 네트워크 효과", "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저에 의존."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "2025 글로벌 EV 판매 226만 대(+28%). Tesla 164만 대(-9%) 추월"},
+      {"name": "Lucid (LCID)", "detail": "Q4 매출 $523M(+123%). 프리미엄 EV 시장 공략"},
+      {"name": "Rivian (RIVN)", "detail": "R2 출시로 매스마켓 진출. BofA Underperform $14 평가"},
+      {"name": "Waymo (Alphabet)", "detail": "자율주행 택시 서비스 확대. L4 자율주행 선두"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-12",
+      "headline": "TSLA -3.14% — 유가 급등·이란 긴장에 시장 전반 급락",
+      "significance": "S&P 500 -1.52%, Dow -700p. 이란 분쟁 격화로 유가 상승이 성장주 전체를 압박. BofA 업그레이드에도 불구하고 급락.",
+      "url": "https://invezz.com/news/2026/03/12/why-tesla-stock-is-down-around-3-today/"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "Forbes: 'Tesla 최고 성장 스토리는 로보택시가 아닌 배터리'",
+      "significance": "에너지 사업 $12.8B(+27% YoY)가 EV 사업 부진을 상쇄하는 진짜 성장 엔진이라는 분석.",
+      "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Musk, Macrohard(Digital Optimus) 공개 — xAI·Tesla 합작 AI 에이전트",
+      "significance": "Grok LLM + Tesla AI 에이전트로 사무 작업 자동화. 소프트웨어 시장 진출 의지. 주가 +2.15% 상승 촉매.",
+      "url": "https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "BofA, TSLA Buy 업그레이드 + $460 목표가 제시",
+      "significance": "Hold→Buy 변경. AI·로봇 파이프라인이 DOGE 노이즈 속에 저평가. 현재가 대비 +16% 업사이드.",
+      "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "TSLA +2.15% — BofA 업그레이드 + Macrohard 발표 더블 촉매",
+      "significance": "전일 $407.82로 상승 마감. 하지만 목요일 매크로 리스크에 전일 상승분 이상 반납.",
+      "url": "https://phemex.com/blogs/tesla-stock-price-surge-tsla-trending-traders-guide"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 406.84,
+    "highTarget": 600.00,
+    "lowTarget": 125.00,
+    "upsidePercent": 2.99,
+    "buyCount": 11,
+    "holdCount": 12,
+    "sellCount": 8,
+    "notableComment": "BofA Buy 업그레이드($460 PT) 신규 추가. 31명 중 Hold 컨센서스 유지이나 평균 목표가 $406.84로 소폭 상향. 극단적으로 갈리는 의견: 최고 $600(로보택시 성공) vs 최저 $125(펀더멘털 기반)."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "유가 급등 + 이란 분쟁 — 매크로 역풍 심화",
+      "description": "이란 긴장으로 유가 $100+ 돌파. 성장주 전체 셀오프 압력. EV 수요에는 장기적으로 유리하나 단기 심리 악화."
+    },
+    {
+      "severity": "high",
+      "title": "글로벌 인도량 감소 — BYD에 추월",
+      "description": "2025 인도량 163만 대(-8.6% YoY). BYD 226만 대(+28%)에 글로벌 1위 자리 내줌."
+    },
+    {
+      "severity": "high",
+      "title": "P/E ~366x — 극단적 밸류에이션",
+      "description": "매출 감소·마진 축소에도 P/E 366x. 자율주행·로봇 성공이 주가에 이미 대부분 반영."
+    },
+    {
+      "severity": "medium",
+      "title": "xAI-Tesla 합작 이해충돌 리스크",
+      "description": "Macrohard 프로젝트가 기존 주주소송(xAI 이해충돌)을 더 복잡하게 만들 수 있음. 기업 거버넌스 우려."},
+    {
+      "severity": "medium",
+      "title": "12월 고점 대비 -53% 하락 — 기술적 약세 지속",
+      "description": "52주 고점 $498.83 대비 -20.8%. 200일선 아래에서 거래 중."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "BofA Buy 업그레이드 $460 — AI·로봇 저평가",
+      "rationale": "기관 투자자에게 재진입 명분 제공. AI·로봇 파이프라인이 DOGE 노이즈 속에 과소평가됐다는 판단."
+    },
+    {
+      "title": "Macrohard — 소프트웨어 시장 $5T+ TAM 공략",
+      "rationale": "xAI Grok + Tesla AI 에이전트로 사무 자동화. 하드웨어 기업에서 소프트웨어 플랫폼으로의 전환 시작."
+    },
+    {
+      "title": "에너지 사업 +27% YoY — 숨겨진 성장 엔진",
+      "rationale": "Megapack·Powerwall이 $12.8B 매출(+27% YoY). Forbes가 '최고 성장 스토리'로 지목."
+    },
+    {
+      "title": "순현금 $29.3B + FCF $6.22B — 재무 안정성 우수",
+      "rationale": "무차입 경영에 가까운 재무 포지션. R&D 투자 여력 충분."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 63.5,
+    "sma50": 399.00,
+    "sma50Signal": "below",
+    "sma200": 418.30,
+    "sma200Signal": "below",
+    "rsi": 40.50,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla는 목요일 $395.01(-3.14%)로 급락 마감. 이란 분쟁 격화에 따른 유가 급등이 시장 전반을 끌어내렸다(S&P -1.52%, Nasdaq -1.78%).",
+    "전일 BofA Buy 업그레이드($460 PT)와 Macrohard(xAI 합작) 발표에 +2.15% 반등했으나, 하루 만에 상승분 이상 반납. 50일선($399)과 200일선($418) 모두 아래로 내려온 기술적 약세 국면.",
+    "핵심 촉매는 GTC 2026(3/16)이다. NVIDIA Rubin 공개가 자율주행 섹터 전체를 재점화할 수 있다. 유가 상승은 장기적으로 EV 전환을 가속하는 역설적 순풍이 될 수도 있으나, 단기적으로는 성장주 밸류에이션 압박이 더 크다."
+  ],
+  "sources": [
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/12/why-tesla-stock-is-down-around-3-today/", "description": "3/12 TSLA -3.14% 하락 분석, 유가·이란 요인"},
+    {"name": "Forbes", "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/", "description": "배터리/에너지가 진짜 성장 스토리"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/11/musk-unveils-joint-tesla-xai-project-macrohard.html", "description": "Macrohard(Digital Optimus) xAI 합작 프로젝트 공개"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bank-america-resumes-coverage-tesla-120907487.html", "description": "BofA Buy 업그레이드 $460 목표가"},
+    {"name": "Phemex", "url": "https://phemex.com/blogs/tesla-stock-price-surge-tsla-trending-traders-guide", "description": "3/12 $407.82(+2.15%) 상승 분석"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/history/", "description": "3/12 종가 $395.01(-3.14%)"},
+    {"name": "Electrek", "url": "https://electrek.co/2026/03/11/musk-confirms-xai-tesla-joint-digital-optimus-project-shareholder-lawsuit/", "description": "Digital Optimus + 주주소송 이슈"},
+    {"name": "TheStreet", "url": "https://www.thestreet.com/investing/bank-of-america-revamps-tesla-stock-price", "description": "BofA 분석 상세 — AI·로보택시·로봇 밸류에이션"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "컨센서스 목표가 $406.84"}
+  ],
+  "snsContent": {
+    "threads": {
+      "hook": "TSLA -3.14% 급락 📉 BofA $460 업그레이드도 무색",
+      "text": "유가 급등+이란 전쟁에 시장 붕괴. BofA Buy($460)와 Macrohard(xAI 합작) 발표에도 하루 만에 상승분 반납. 근데 Forbes가 진짜 성장은 '배터리 사업'이래. 3/16 GTC가 변곡점? 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-13"
+    },
+    "telegram": {
+      "hook": "🔴 TSLA $395.01 (-3.14%) — 유가 폭등에 시장과 함께 급락",
+      "text": "이란 분쟁 격화로 유가 $100+ 돌파. S&P -1.52%, 나스닥 -1.78%. 전일 BofA Buy 업그레이드($460 PT)와 Macrohard(xAI 합작 AI 에이전트) 발표에 +2.15% 올랐다가 하루 만에 전부 반납.\n\nForbes: '진짜 성장 스토리는 로보택시가 아니라 배터리.' 에너지 매출 $12.8B(+27% YoY).\n\n50일선·200일선 모두 하회. 기술적 약세지만 GTC 2026(3/16) Rubin 공개가 자율주행 섹터 재점화 촉매가 될 수 있다.\n\n분석 전문 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-13"
+    }
+  }
+}
