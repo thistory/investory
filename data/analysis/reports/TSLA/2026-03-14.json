@@ -1,0 +1,209 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-14",
+  "currentPrice": 391.20,
+  "marketCap": "$1.47T",
+
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행·로봇·에너지를 아우르는 'Physical AI 플랫폼' 기업",
+    "description": "Tesla는 EV 제조에서 통합 AI·로봇·에너지 플랫폼으로 전환 중. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.79B(-46.5% YoY). 금요일 종가 $391.20(-0.96%). 시장 약세 지속(S&P 500 불안)에 동반 하락. 중국 1-2월 판매 127,728대(+35% YoY)로 반등 신호. FSD 데이터 NHTSA 제출(3/9) 완료. GTC 2026(3/16-19)에서 자율주행 테마 재부각 기대. 시가총액 $1.47T, P/E ~387x, Forward P/E ~189x.",
+    "howTheyMakeMoney": [
+      "차량 판매: 매출의 ~73% ($69.5B). Model 3/Y 핵심, Model S/X 2026 Q2 단종 예정",
+      "에너지 사업: 매출의 ~14% ($12.8B, +27% YoY). Megapack/Powerwall 성장",
+      "서비스/기타: 매출의 ~10%. 슈퍼차저 네트워크, 보험, 부품",
+      "FSD/소프트웨어: 라이선스 매출 ~$3B. 구독 전환 가속화"
+    ],
+    "keyProducts": [
+      "Model 3",
+      "Model Y",
+      "Cybertruck",
+      "Semi",
+      "Megapack",
+      "Powerwall",
+      "FSD",
+      "Optimus Robot"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "386.91x", "interpretation": "극도로 높은 밸류에이션. AI·로봇 프리미엄 반영" },
+    { "name": "Forward P/E", "value": "189.17x", "interpretation": "향후 실적 개선 기대치 반영, 여전히 고평가" },
+    { "name": "매출 성장률 (YoY)", "value": "-2.9%", "interpretation": "FY2025 역성장. 차량 판매 감소가 주 원인" },
+    { "name": "영업이익률", "value": "4.59%", "interpretation": "가격 인하 전략으로 수익성 크게 하락" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "여전히 양호한 현금 창출 능력" },
+    { "name": "부채비율", "value": "0.18x", "interpretation": "매우 건전한 재무구조" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "자본효율 대폭 하락. 수익 회복 필요" },
+    { "name": "매출총이익률", "value": "18.03%", "interpretation": "가격경쟁 심화로 역사적 저점 근접" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "중국 1-2월 판매 +35% YoY 반등 — BYD 역전 가능성",
+      "description": "CNBC(3/13): 중국 공장 EV 판매 127,728대로 전년 대비 35% 증가. BYD 판매 둔화 속 Tesla 반등. 글로벌 판매 하락 추세에 긍정 신호."
+    },
+    {
+      "title": "GTC 2026 (3/16-19) — 자율주행 테마 재조명 D-2",
+      "description": "NVIDIA GTC에서 Rubin 아키텍처 공개 예정. CPU 중심 AI 에이전트 인프라가 FSD·로보택시 생태계에 촉매. Tesla 자율주행 기술 재평가 가능성."
+    },
+    {
+      "title": "FSD 데이터 NHTSA 제출 완료 — 규제 마일스톤",
+      "description": "3/9 FSD 주행 데이터를 NHTSA에 제출 완료. 규제 승인 진행 시 로보택시 타임라인 가속화 기대."
+    },
+    {
+      "title": "Macrohard(Digital Optimus) — xAI 합작 소프트웨어 진출",
+      "description": "Musk이 Tesla-xAI 합작 프로젝트 공개. Grok LLM 기반 AI 에이전트가 사무 자동화. 소프트웨어 수익원 추가 가능성."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율 리더(글로벌은 BYD에 추월). 소프트웨어·제조·에너지·FSD 8.2B 마일 수직 통합이 핵심 해자.",
+    "moats": [
+      {
+        "type": "자율주행 데이터 해자",
+        "description": "FSD 82억 마일 주행 데이터. 경쟁사 대비 압도적 학습 데이터."
+      },
+      {
+        "type": "수직 통합",
+        "description": "자체 배터리(4680), 커스텀 칩(HW4), 소프트웨어(FSD), 충전 인프라(Supercharger)."
+      },
+      {
+        "type": "충전 네트워크 효과",
+        "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저에 의존."
+      }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "2025 글로벌 EV 판매 226만 대(+28%). Tesla 164만 대(-9%) 추월" },
+      { "name": "Lucid (LCID)", "detail": "Q4 매출 $523M(+123%). 프리미엄 EV 시장 공략" },
+      { "name": "Rivian (RIVN)", "detail": "R2 출시로 매스마켓 진출" },
+      { "name": "Waymo (Alphabet)", "detail": "자율주행 택시 서비스 확대. L4 자율주행 선두" }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-03-13",
+      "headline": "Tesla 중국 1-2월 EV 판매 127,728대(+35% YoY) — BYD 하락 속 반등",
+      "significance": "글로벌 판매 하락 우려에 중국 시장 반등은 긍정적 신호. 가격 인하+신모델 효과.",
+      "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Reuters: Tesla 인도 하락 3년 연속 가능성 — 현금 소모 우려",
+      "significance": "일부 애널리스트, 2026년도 인도량 감소 전망. DOGE 참여로 Musk 집중력 분산 우려.",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "중국 판매 호조+Digital Optimus로 주가 반등 — FX Leaders",
+      "significance": "주간 +3% 상승. 중국 판매 성장과 마진 개선이 긍정 촉매.",
+      "url": "https://www.fxleaders.com/news/2026/03/11/strong-china-sales-and-digital-optimus-focus-boosts-tesla-stock-tsla-despite-mixed-earnings/"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "FSD 데이터 NHTSA 제출 — 3월 규제 마일스톤",
+      "significance": "규제 승인 여부가 로보택시 타임라인 결정. 시장 불확실성 해소 가능.",
+      "url": "https://www.ainvest.com/news/tesla-stock-crucial-march-2026-deadlines-market-signals-2603/"
+    },
+    {
+      "date": "2026-03-04",
+      "headline": "BofA Buy 업그레이드 — $460 목표가, AI·로봇 파이프라인 저평가",
+      "significance": "Bank of America Hold→Buy, AI·로봇 자산이 시장에서 과소평가됐다는 판단.",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/"
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 396.15,
+    "highTarget": 600.00,
+    "lowTarget": 43.00,
+    "upsidePercent": 1.27,
+    "buyCount": 10,
+    "holdCount": 13,
+    "sellCount": 7,
+    "notableComment": "BofA Buy 업그레이드 $460 목표가 — AI·로봇 파이프라인이 DOGE 노이즈 속에서 과소평가. 반면 매도 측은 3년 연속 인도 감소 리스크 강조."
+  },
+
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "인도량 3년 연속 감소 가능성",
+      "description": "Reuters: 일부 애널리스트가 2026년에도 EV 인도량 감소 전망. 가격 인하에도 수요 부진이면 수익성 악화 가속."
+    },
+    {
+      "severity": "high",
+      "title": "CEO Musk의 DOGE·정치 참여로 집중력 분산",
+      "description": "정부효율부서(DOGE) 참여, xAI, SpaceX 등 멀티태스킹. Tesla 경영 집중도 저하 우려."
+    },
+    {
+      "severity": "high",
+      "title": "P/E 387x — 실적 기대에 못 미치면 급락 위험",
+      "description": "극도로 높은 밸류에이션. AI·로봇·FSD가 기대 이하 시 밸류에이션 디레이팅 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "BYD 글로벌 경쟁 심화",
+      "description": "BYD가 글로벌 판매에서 Tesla 추월. 중국·유럽 시장 점유율 잠식 지속."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "중국 판매 반등 — 역성장 탈출 신호",
+      "rationale": "1-2월 중국 판매 +35% YoY. 전체 판매 하락 트렌드에서 회복 조짐."
+    },
+    {
+      "title": "에너지 사업 고성장 — 차량 의존도 감소",
+      "rationale": "에너지 매출 $12.8B(+27% YoY), 차량보다 높은 마진. 수익 다각화 진행."
+    },
+    {
+      "title": "FSD·로보택시 규제 진전",
+      "rationale": "FSD 데이터 NHTSA 제출 완료. 규제 승인 시 수조 달러 TAM 해방."
+    },
+    {
+      "title": "현금 $44B — 재무적 안전마진",
+      "rationale": "순현금 $29.3B. 경기 침체에도 투자 여력 충분."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 62.2,
+    "sma50": 420.64,
+    "sma50Signal": "below",
+    "sma200": 393.45,
+    "sma200Signal": "below",
+    "rsi": 40.02,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Tesla는 중국 판매 반등(+35%)이라는 긍정 신호에도 불구, 글로벌 인도량 감소 우려와 P/E 387x의 극한 밸류에이션이 부담. 50일·200일 이평선 모두 하회하며 기술적 약세.",
+    "GTC 2026(D-2)에서 자율주행 테마 재부각 + FSD NHTSA 규제 진전이 단기 촉매. 에너지 사업(+27%)은 수익 다각화의 핵심.",
+    "현재 가격은 EV 제조사로서는 고평가, AI·로봇 플랫폼으로서는 저평가라는 이중 해석이 가능. 장기 투자자에게는 $390대가 합리적 진입점이 될 수 있으나, 인도량 반등이 확인될 때까지 리스크 관리 필요."
+  ],
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA 실시간 밸류에이션, 재무지표, 기술적 분석" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html", "description": "Tesla 중국 1-2월 판매 +35% YoY 반등" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/", "description": "Tesla 인도 하락 3년 연속 가능성 분석" },
+    { "name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/11/strong-china-sales-and-digital-optimus-focus-boosts-tesla-stock-tsla-despite-mixed-earnings/", "description": "중국 판매 호조+Digital Optimus 주가 반등" },
+    { "name": "AInvest", "url": "https://www.ainvest.com/news/tesla-stock-crucial-march-2026-deadlines-market-signals-2603/", "description": "FSD NHTSA 데이터 제출 마일스톤" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA 애널리스트 컨센서스 $406.84" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/forecast/", "description": "TSLA 목표가 $426.61, 기술적 분석" },
+    { "name": "Macrotrends", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/stock-price-history", "description": "TSLA 52주 고저 $498.83/$214.25" },
+    { "name": "AltIndex", "url": "https://altindex.com/ticker/tsla/technical-analysis", "description": "TSLA RSI 41.4, 기술적 지표" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "테슬라 중국 판매 +35% 반등 📈 BYD는 하락?",
+      "text": "테슬라 중국 1-2월 판매 127,728대(+35% YoY)로 반등. BYD 판매는 오히려 둔화. 하지만 Reuters는 '인도 3년 연속 감소' 경고. GTC D-2, FSD 데이터 제출 완료. $391 — 위기인가, 기회인가? 🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-14"
+    },
+    "telegram": {
+      "hook": "🚗 테슬라: 중국 반등 vs 글로벌 인도 감소 — 엇갈린 신호",
+      "text": "📊 TSLA $391.20 (-0.96%)\n\n🇨🇳 중국 1-2월 EV 판매 127,728대(+35% YoY)로 깜짝 반등. BYD는 오히려 하락. 가격 인하+신모델 효과.\n\n⚠️ 하지만 Reuters는 인도량 3년 연속 감소 가능성 경고. CEO Musk의 DOGE 참여로 경영 집중도 우려.\n\n🎯 애널리스트 컨센서스: Hold, 목표가 $396 (현재가 수준)\n\n✨ 촉매: GTC 2026 D-2 (자율주행 테마), FSD NHTSA 데이터 제출 완료, 에너지 사업 +27% 성장\n\nP/E 387x가 부담이지만 $44B 현금으로 안전마진 확보. 중국 반등이 글로벌로 확산될지가 핵심.\n\n🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-14"
+    }
+  }
+}
