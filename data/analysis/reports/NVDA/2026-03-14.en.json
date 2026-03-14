@@ -7,7 +7,7 @@
 
   "businessSummary": {
     "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA is the world's largest semiconductor design company, with AI training/inference data center accelerators as the core revenue driver. FY2026 revenue $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY). Friday close $180.25 (-1.58%). GTC 2026 opens Monday (3/16) — Jensen Huang keynote to unveil Vera Rubin platform + Blackwell Ultra (B300) + agentic AI-optimized CPU racks. CNBC: 'CPU is the GTC pivot point'. Palantir sovereign AI DC architecture co-announcement. MarketBeat consensus $274.21. Market cap $4.38T, Forward P/E 22.63x.",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training/inference data center accelerators as the core revenue driver. FY2026 revenue $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY), net income $120.1B. Friday close $180.25 (-1.58%). GTC 2026 opens Monday (3/16) — Jensen Huang keynote to unveil Vera Rubin + Blackwell Ultra B300 + agentic AI CPU racks. Palantir sovereign AI DC architecture co-announcement. 38 analysts Strong Buy, consensus $263 (+46%). Market cap $4.38T, Forward P/E 21.84x, PEG 0.57.",
     "howTheyMakeMoney": [
       "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300) — ~91% of revenue",
       "Gaming: GeForce RTX GPUs — ~6% of revenue",
@@ -27,189 +27,202 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "37.15x", "interpretation": "AI growth premium reflected. Reasonable for large-cap tech" },
-    { "name": "Forward P/E", "value": "22.63x", "interpretation": "Very attractive for +65% growth. PEG ~0.35" },
-    { "name": "Revenue Growth (YoY)", "value": "+65%", "interpretation": "FY2026 $215.9B. Q4 alone +73%. Explosive growth continues" },
-    { "name": "Operating Margin", "value": "~62%", "interpretation": "Reflects monopolistic pricing power in AI GPUs. Historic highs" },
-    { "name": "Gross Margin", "value": "75.0% (Q4)", "interpretation": "Slight decline from Blackwell transition but still top-tier" },
-    { "name": "FCF", "value": "~$60B (FY2026E)", "interpretation": "Record FCF. Ample capacity for buybacks + R&D" },
-    { "name": "ROE", "value": "~115%", "interpretation": "Top-tier capital efficiency. Chip design business strength" },
-    { "name": "Debt Ratio", "value": "Low", "interpretation": "$44B+ cash equivalents. Top-tier financial health" }
+    { "name": "P/E Ratio", "value": "36.79", "interpretation": "Reasonable for growth rate. Based on $120B net income." },
+    { "name": "Forward P/E", "value": "21.84", "interpretation": "Attractive on FY2027 EPS estimates. PEG 0.57 signals undervaluation." },
+    { "name": "Revenue Growth (YoY)", "value": "+65%", "interpretation": "FY2026 revenue $215.9B — explosive growth continues." },
+    { "name": "Operating Margin", "value": "60.38%", "interpretation": "Best-in-class margins. GPU monopolistic demand sustains pricing power." },
+    { "name": "FCF", "value": "$96.68B", "interpretation": "Record-level cash generation. Overwhelming vs. $6B capex." },
+    { "name": "ROE", "value": "101.49%", "interpretation": "Transcendent capital efficiency. Maximized returns on invested capital." },
+    { "name": "Debt/Equity", "value": "0.07", "interpretation": "Virtually debt-free. Net cash $51.1B." },
+    { "name": "Gross Margin", "value": "71.07%", "interpretation": "CUDA ecosystem lock-in creates premium margins." }
   ],
 
   "growthDrivers": [
     {
-      "title": "GTC 2026 Opens Monday — Vera Rubin + CPU Agentic AI Pivot",
-      "description": "CNBC (3/13): 'CPU is the GTC star'. Agentic AI-optimized CPU racks emerging alongside GPUs as new AI infrastructure pillar. Vera Rubin (HBM4, 22TB/s) + Blackwell Ultra B300 announcement expected. 'AI's Super Bowl'."
+      "title": "GTC 2026 Opens Monday — 'The Super Bowl of AI' Catalyst Imminent",
+      "description": "NVIDIA Blog (3/14): GTC 2026, 3/16 at 11am PT Jensen Huang keynote. Attendees from 190 countries. Vera Rubin (HBM4, 22TB/s), Blackwell Ultra B300, agentic AI CPU racks to be unveiled. TechCrunch: 'AI's biggest event.'"
     },
     {
-      "title": "Palantir+NVIDIA Sovereign AI DC Architecture Co-Announcement",
-      "description": "Yahoo Finance (3/13): Turnkey sovereign AI DC architecture unveiled. GE Aerospace, Centrus Energy, LG CNS and other major customers adopting. Enterprise AI market expansion."
+      "title": "Palantir + NVIDIA Sovereign AI DC Architecture Co-Announcement",
+      "description": "Yahoo Finance (3/13): Turnkey sovereign AI DC unveiled. GE Aerospace, Centrus Energy, LG CNS and other major customers adopting. Government/enterprise AI infrastructure market expanding."
     },
     {
-      "title": "93% Analyst Buy — MarketBeat $274 (+52% Upside)",
-      "description": "MarketBeat: Consensus $274.21 (+52%). 35 of 38 analysts rate Buy. Broad consensus that market selloff is a buying opportunity."
+      "title": "38 Analysts Strong Buy — Consensus $263 (+46%)",
+      "description": "StockAnalysis: 35 of 38 Buy. MarketBeat $274.21 (+52%). Broad consensus that market selloff creates a buying opportunity."
     },
     {
-      "title": "Forward P/E 22.63x — Historically Undervalued vs Growth Rate",
-      "description": "+65% growth at Forward P/E 22.63x, PEG 0.35. Compelling value unless AI hypercycle ends."
+      "title": "Forward P/E 21.84x, PEG 0.57 — Historically Undervalued vs. Growth",
+      "description": "+65% growth with Forward P/E 21.84x. PEG 0.57 below 1 is a clear undervaluation signal."
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem with 15M+ developer lock-in, 90%+ market share in AI training/inference GPU market. Software+hardware integration is the core moat.",
+    "summary": "CUDA ecosystem with 15M+ developer lock-in, 90%+ AI training/inference GPU market share. Software + hardware integration is the core moat.",
     "moats": [
       {
         "type": "CUDA Ecosystem",
-        "description": "15M+ developer lock-in. Most AI frameworks optimized for CUDA."
+        "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA."
       },
       {
-        "type": "Design Leadership",
-        "description": "Blackwell→Rubin→Feynman 2-year architecture innovation cycle. 1-2 generations ahead of competitors."
+        "type": "Architecture Leadership",
+        "description": "Blackwell → Rubin → Feynman on 2-year innovation cycles. 1-2 generations ahead of competition."
       },
       {
         "type": "Full-Stack Strategy",
-        "description": "Chips+Systems(DGX)+Software(CUDA, AI Enterprise)+Networking(Spectrum-X) integration."
+        "description": "Chips + systems (DGX) + software (CUDA, AI Enterprise) + networking (Spectrum-X) integration."
       }
     ],
     "competitors": [
-      { "name": "AMD (MI400)", "detail": "AI GPU #2. Cost-effective alternative. Hyperscaler adoption growing" },
-      { "name": "Intel (Gaudi 3)", "detail": "Late entrant in AI accelerators. Differentiating with Windows NPU focus" },
-      { "name": "Google (TPU)", "detail": "In-house AI chip. Primarily for internal use" },
-      { "name": "Broadcom (ASIC)", "detail": "Custom AI chip design. Hyperscaler alternative" }
+      {
+        "name": "AMD (MI400)",
+        "detail": "#2 AI GPU. Cost-effective alternative. Hyperscaler adoption growing"
+      },
+      {
+        "name": "Intel (Gaudi 3)",
+        "detail": "Late AI accelerator entrant. Differentiating with Windows NPU focus"
+      },
+      {
+        "name": "Google (TPU)",
+        "detail": "Custom AI chips. Primarily internal use"
+      },
+      {
+        "name": "Broadcom (ASIC)",
+        "detail": "Custom AI chip design. Hyperscaler alternative"
+      }
     ]
   },
 
   "recentNews": [
     {
       "date": "2026-03-14",
-      "headline": "NVIDIA GTC 2026 Live Updates Blog Opens",
-      "significance": "NVIDIA Blog: GTC pre-show begins. Jensen Huang keynote Monday officially launches the Rubin Era.",
+      "headline": "GTC 2026 live updates begin — 190 countries attending, Monday keynote",
+      "significance": "'The Super Bowl of AI.' Vera Rubin + CPU agentic AI pivot is the centerpiece. Stock catalyst.",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-13",
-      "headline": "CNBC: CPU Is the GTC Pivot Point — The Agentic AI Era",
-      "significance": "Shift from GPU-only to CPU+GPU hybrid racks. Agentic AI workloads to feature CPU-only rack debut. NVIDIA TAM expansion.",
-      "url": "https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html"
+      "headline": "Palantir + NVIDIA sovereign AI DC architecture co-announcement",
+      "significance": "GE Aerospace, LG CNS adopting. Government/enterprise AI infra market expansion.",
+      "url": "https://www.businesswire.com/news/home/20260312975769/en/"
     },
     {
       "date": "2026-03-13",
-      "headline": "Yahoo Finance: GTC 2026 — NVIDIA's Biggest Event Preview",
-      "significance": "Vera Rubin + Blackwell Ultra + sovereign AI DC + autonomous driving infrastructure convergence. AI economy litmus test.",
-      "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html"
+      "headline": "CNBC: CPUs take center stage at GTC — agentic AI turning point",
+      "significance": "Shift from GPU-centric to CPU-GPU hybrid AI infrastructure. New growth axis.",
+      "url": "https://www.cnbc.com/quotes/NVDA"
     },
     {
-      "date": "2026-03-13",
-      "headline": "Seeking Alpha: Agentic AI & LPU Analysis Before GTC",
-      "significance": "Jensen Huang's agentic AI emphasis sets GTC 2026 core theme. Inference-centric architecture transition accelerating.",
-      "url": "https://seekingalpha.com/article/4882186-read-this-before-nvidia-gtc-2026-agentic-ai-and-lpu"
+      "date": "2026-03-12",
+      "headline": "TechCrunch: How to watch Jensen Huang's GTC 2026 keynote",
+      "significance": "Global media spotlight. GTC's market influence confirmed.",
+      "url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/"
     },
     {
-      "date": "2026-03-13",
-      "headline": "Palantir+NVIDIA Sovereign AI DC Architecture Unveiled",
-      "significance": "GE Aerospace, Centrus Energy, LG CNS among major adopters. Enterprise AI infrastructure market expansion.",
-      "url": "https://finance.yahoo.com/news/mission-critical-ai-partnerships-palantir-121137971.html"
+      "date": "2026-03-11",
+      "headline": "BingX: NVDA path back to $300 — powered by Blackwell + Vera Rubin",
+      "significance": "Full Blackwell cycle + Vera Rubin preview as catalyst for $300 return.",
+      "url": "https://bingx.com/en/learn/article/nvidia-nvda-stock-outlook-and-price-prediction-is-nvda-a-good-investment"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 274.21,
-    "highTarget": 270.00,
-    "lowTarget": 100.00,
-    "upsidePercent": 52.1,
+    "consensusTarget": 263.29,
+    "highTarget": 400.00,
+    "lowTarget": 135.00,
+    "upsidePercent": 46.07,
     "buyCount": 35,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "MarketBeat: Consensus $274.21 (+52%). StockAnalysis: 93% Buy/Strong Buy. Redburn: 'Unless oil hits $150, NVIDIA will dominate next week'. Broad consensus that selloff is opportunity."
+    "notableComment": "38 analysts Strong Buy consensus. MarketBeat $274.21 (+52%), StockAnalysis $263.29 (+46%). Post-GTC target upgrades expected."
   },
 
   "risks": [
     {
       "severity": "high",
-      "title": "AI Capex Cycle Peak Concerns + Oil Surge to $98",
-      "description": "WTI $98.71 (3/13). Oil surge adds cost pressure on hyperscalers + GPU demand could drop if AI investment slows."
+      "title": "AI infrastructure investment cycle slowdown possible",
+      "description": "Hyperscaler capex cycle may be nearing peak. Growth deceleration could trigger valuation reset."
     },
     {
       "severity": "high",
-      "title": "Export Controls — China/Russia Restrictions Tightening",
-      "description": "US government AI chip export controls intensifying. China market (~12% of revenue) access increasingly limited."
+      "title": "China export restrictions tightening",
+      "description": "US-China semiconductor war escalating. China market access limits impacting revenue."
     },
     {
       "severity": "medium",
-      "title": "GTC 'Sell the News' Possibility",
-      "description": "Market may have already priced in GTC expectations. Disappointment could trigger selloff."
+      "title": "AMD and custom ASIC competition intensifying",
+      "description": "AMD MI400, Broadcom/Google custom ASICs targeting hyperscaler market."
     },
     {
       "severity": "medium",
-      "title": "Blackwell→Rubin Transition Cannibalization",
-      "description": "Customers may delay Blackwell orders to wait for Rubin. Transition period revenue gap risk."
+      "title": "Trading below 50-day MA after short-term correction",
+      "description": "Below 50-day MA at $185.46. Near 200-day $177.39 support. GTC disappointment could push lower."
     },
     {
       "severity": "low",
-      "title": "$4.38T Market Cap Fatigue",
-      "description": "World's largest company title. Psychological resistance to further upside."
+      "title": "Supply constraints — Blackwell demand exceeds production",
+      "description": "Demand exceeding supply. Production bottlenecks may limit short-term revenue."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "Forward P/E 22.63x — Extreme Undervaluation vs 65% Growth",
-      "rationale": "PEG 0.35. Most attractive growth-to-valuation ratio among large-cap tech."
+      "title": "GTC 2026 — Biggest catalyst event of the year",
+      "rationale": "Monday keynote to unveil Vera Rubin, B300, agentic AI CPUs. Historical pattern: GTC = stock catalyst."
     },
     {
-      "title": "GTC 2026 Monday Opening — AI's Super Bowl Catalyst",
-      "rationale": "Vera Rubin + B300 + CPU agentic AI rack announcements to confirm demand pipeline + expand TAM."
+      "title": "Forward P/E 21.84x, PEG 0.57 — clearly undervalued",
+      "rationale": "+65% growth with Forward P/E 22x. PEG 0.57 is the most attractive level among growth stocks."
     },
     {
-      "title": "Consensus +52% Upside — $274 Target",
-      "rationale": "93% analyst Buy rating. Broad agreement that market volatility created price opportunity."
+      "title": "FCF $96.7B — record-level cash generation",
+      "rationale": "$97B annual free cash flow. Fuels buybacks, dividends, and M&A."
     },
     {
-      "title": "FY2026 Revenue $215.9B, Q4 $68.1B — Growth Accelerating",
-      "rationale": "+65% YoY growth, Q4 alone +73%. Blackwell mass shipments driving growth engine."
+      "title": "92% analysts Buy — overwhelming consensus",
+      "rationale": "35 of 38 Buy. $263-274 targets (+46-52%). Post-selloff buying opportunity."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 195.95,
-    "week52Low": 86.62,
-    "currentPositionPercent": 85.7,
-    "sma50": 140.00,
-    "sma50Signal": "above",
-    "sma200": 138.00,
+    "week52High": 207.02,
+    "week52Low": 115.83,
+    "currentPositionPercent": 70.62,
+    "sma50": 185.46,
+    "sma50Signal": "below",
+    "sma200": 177.39,
     "sma200Signal": "above",
-    "rsi": 50.0,
+    "rsi": 45.22,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "NVIDIA closed at $180.25 (-1.58%) ahead of GTC 2026 Monday opening. Forward P/E 22.63x (PEG 0.35) represents historic undervaluation relative to +65% growth.",
-    "CNBC: 'CPU is the GTC pivot' — Agentic AI-optimized CPU racks add to GPU TAM. Vera Rubin + B300 + Palantir sovereign AI DC form the next-gen demand pipeline.",
-    "Oil at $98 is a macro risk, but Redburn analyst: 'Unless oil hits $150, NVIDIA will be front and center next week'. 93% Buy consensus. Current price is a long-term buying opportunity."
+    "NVIDIA at $180.25 is in the 'calm before the storm' zone ahead of GTC 2026.",
+    "Forward P/E 21.84x and PEG 0.57 signal clear undervaluation against +65% growth. 35 of 38 analysts say Buy.",
+    "Monday's GTC keynote unveiling Vera Rubin, B300, and agentic AI CPUs should serve as a near-term catalyst.",
+    "Below 50-day MA ($185) but holding above 200-day ($177). RSI 45 neutral.",
+    "Whether the AI infrastructure capex cycle sustains is the medium-term key question. Current levels likely represent a buying opportunity."
   ],
 
   "sources": [
-    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 live updates open" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html", "description": "GTC CPU pivot analysis" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html", "description": "GTC 2026 preview" },
-    { "name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4882186-read-this-before-nvidia-gtc-2026-agentic-ai-and-lpu", "description": "Agentic AI & LPU analysis" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/mission-critical-ai-partnerships-palantir-121137971.html", "description": "Palantir+NVIDIA sovereign AI DC" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/13/stock-market-today-march-13-nvidia-slips-as-gtc-2026-conference-looms/", "description": "NVDA 3/13 close $180.25" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Consensus target $274.21" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html", "description": "Redburn analyst: NVIDIA front and center next week" },
-    { "name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer", "description": "Vera Rubin platform announcement" },
-    { "name": "NVIDIA IR", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026", "description": "FY2026 earnings release" }
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "NVDA real-time statistics, valuation, and financial data" },
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 live updates" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/", "description": "GTC keynote viewing guide" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA consensus $274.21 target" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "38 analysts Strong Buy, $263.29 consensus" },
+    { "name": "BingX", "url": "https://bingx.com/en/learn/article/nvidia-nvda-stock-outlook-and-price-prediction-is-nvda-a-good-investment", "description": "NVDA $300 return outlook analysis" },
+    { "name": "Analytics Insight", "url": "https://www.analyticsinsight.net/news/nvidia-gtc-2026-keynote-major-announcements-on-ai-gaming-cpus-and-computing", "description": "GTC 2026 major announcement preview" },
+    { "name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history", "description": "NVDA historical stock price data" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/NVDA/", "description": "NVDA real-time price and market cap" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "Monday: NVIDIA GTC opens — CPU joins the AI party 🧠",
-      "text": "FY2026 $216B (+65%), Forward P/E 22.6x. Vera Rubin + CPU agentic AI racks. 93% Buy, target $274 (+52%). Oil at $98 is the wildcard. Monday has the answers. 🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
+      "hook": "NVDA $180, GTC opens Monday — biggest AI event 🎪",
+      "text": "$180.25, Forward P/E 22x with PEG 0.57. 35/38 analysts say Buy. Monday: Vera Rubin + agentic AI CPU reveal — what cards will 'The Super Bowl of AI' play? 🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
     },
     "telegram": {
-      "hook": "🟢 NVIDIA: GTC Opens Monday — Will AI's Super Bowl Change Everything?",
-      "text": "📊 NVDA $180.25 (-1.58%)\n\n🎪 GTC 2026 Monday opening: Vera Rubin (HBM4) + Blackwell Ultra B300 + Agentic AI CPU racks.\n\n🧠 CNBC: 'CPU is GTC's pivot'. GPU-only era shifts to CPU+GPU hybrid, expanding TAM.\n\n🚀 FY2026 $215.9B (+65%), Forward P/E 22.63x, PEG 0.35 — clearly undervalued for this growth.\n\n⛽ Risk: Oil WTI $98.71. Redburn: 'Unless $150, NVIDIA leads next week'.\n\n🎯 93% Buy, MarketBeat $274 (+52%)\n📐 RSI 50 neutral, above 50/200-day MAs\n\nJensen Huang's keynote will set the direction for the AI market.\n\n🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
+      "hook": "🟢 NVDA $180 — GTC Eve, Forward P/E 22x Buying Opportunity?",
+      "text": "📊 NVDA $180.25 (-1.58%)\n\n🎪 GTC 2026 opens Monday! Jensen Huang keynote — Vera Rubin (HBM4) + B300 + agentic AI CPU unveil expected.\n\n🤝 Sovereign AI DC co-announcement with Palantir. GE Aerospace, LG CNS adopting.\n\n💰 FY2026 revenue $216B (+65%), FCF $97B, operating margin 60%.\n\n📐 Forward P/E 21.84x, PEG 0.57 — undervalued vs. growth. Below 50-day MA but above 200-day.\n🎯 35/38 analysts Buy. Consensus $263 (+46%), MarketBeat $274 (+52%).\n\n⚠️ AI capex cycle peak concerns + China export restrictions.\n\nGTC as catalyst? History says — Yes.\n\n🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
     }
   }
 }

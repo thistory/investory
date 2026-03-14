@@ -7,7 +7,7 @@
 
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
-    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65% YoY), Q4 매출 $68.1B(+73% YoY). 금요일 종가 $180.25(-1.58%). GTC 2026이 월요일(3/16) 개막 — Jensen Huang 키노트에서 Vera Rubin 플랫폼 + Blackwell Ultra(B300) + 에이전틱 AI 최적화 CPU 랙 공식 발표 예정. CNBC: 'CPU가 GTC의 핵심 전환점'. Palantir과 소버린 AI DC 아키텍처 공동 발표. MarketBeat 컨센서스 $274.21. 시가총액 $4.38T, Forward P/E 22.63x.",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65% YoY), Q4 매출 $68.1B(+73% YoY), 순이익 $120.1B. 금요일 종가 $180.25(-1.58%). GTC 2026이 월요일(3/16) 개막 — Jensen Huang 키노트에서 Vera Rubin + Blackwell Ultra B300 + 에이전틱 AI CPU 랙 발표 예정. Palantir과 소버린 AI DC 아키텍처 공동 발표. 38명 애널리스트 Strong Buy, 컨센서스 $263(+46%). 시가총액 $4.38T, Forward P/E 21.84x, PEG 0.57.",
     "howTheyMakeMoney": [
       "데이터센터: AI 학습/추론 GPU (H100, H200, Blackwell B200/GB200/GB300) — 매출의 ~91%",
       "게이밍: GeForce RTX GPU — 매출의 ~6%",
@@ -27,32 +27,32 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "37.15x", "interpretation": "AI 성장 프리미엄 반영. 테크 대형주 대비 합리적" },
-    { "name": "Forward P/E", "value": "22.63x", "interpretation": "+65% 성장률 대비 매우 매력적. PEG ~0.35" },
-    { "name": "매출 성장률 (YoY)", "value": "+65%", "interpretation": "FY2026 $215.9B. Q4만 +73%. 폭발적 성장 지속" },
-    { "name": "영업이익률", "value": "~62%", "interpretation": "AI GPU 독점적 가격 결정력 반영. 역사적 최고 수준" },
-    { "name": "총이익률", "value": "75.0% (Q4)", "interpretation": "Blackwell 전환으로 소폭 하락하나 여전히 최상위" },
-    { "name": "FCF", "value": "~$60B (FY2026E)", "interpretation": "역대 최대 FCF. 자사주매입 + R&D 투자 여력" },
-    { "name": "ROE", "value": "~115%", "interpretation": "자본 효율성 최상위. 칩 설계 비즈니스의 강점" },
-    { "name": "부채비율", "value": "낮음", "interpretation": "현금성 자산 $44B+. 재무 건전성 최상위" }
+    { "name": "P/E Ratio", "value": "36.79", "interpretation": "성장률 대비 합리적. 순이익 $120B 기반 전통 밸류에이션 접근." },
+    { "name": "Forward P/E", "value": "21.84", "interpretation": "FY2027 추정 EPS 기준 매력적. PEG 0.57로 저평가 시그널." },
+    { "name": "매출 성장률 (YoY)", "value": "+65%", "interpretation": "FY2026 매출 $215.9B로 폭발적 성장 지속." },
+    { "name": "영업이익률", "value": "60.38%", "interpretation": "극강의 마진. GPU 독점적 수요가 가격결정력 유지." },
+    { "name": "FCF", "value": "$96.68B", "interpretation": "역대급 현금 창출. Capex $6B 대비 압도적." },
+    { "name": "ROE", "value": "101.49%", "interpretation": "자본 효율성 초월적. 투하자본 대비 극대화된 수익." },
+    { "name": "부채비율 (D/E)", "value": "0.07", "interpretation": "사실상 무차입. 순현금 $51.1B." },
+    { "name": "Gross Margin", "value": "71.07%", "interpretation": "CUDA 생태계 록인이 만드는 프리미엄 마진." }
   ],
 
   "growthDrivers": [
     {
-      "title": "GTC 2026 월요일 개막 — Vera Rubin + CPU 에이전틱 AI 전환",
-      "description": "CNBC(3/13): 'GTC에서 CPU가 주인공'. 에이전틱 AI 최적화 CPU 랙이 GPU와 함께 AI 인프라의 새 축으로 등장. Vera Rubin(HBM4, 22TB/s) + Blackwell Ultra B300 발표 예정. 'AI의 슈퍼볼'."
+      "title": "GTC 2026 월요일 개막 — 'AI의 슈퍼볼' 촉매 임박",
+      "description": "NVIDIA Blog(3/14): GTC 2026, 3/16 오전 11시 PT Jensen Huang 키노트. 190개국 참석자. Vera Rubin(HBM4, 22TB/s), Blackwell Ultra B300, 에이전틱 AI CPU 랙 발표 예정. TechCrunch: 'AI의 최대 이벤트'."
     },
     {
       "title": "Palantir+NVIDIA 소버린 AI DC 아키텍처 공동 발표",
-      "description": "Yahoo Finance(3/13): 턴키 소버린 AI DC 아키텍처 공개. GE Aerospace, Centrus Energy, LG CNS 등 대형 고객 채택. 엔터프라이즈 AI 시장 확대."
+      "description": "Yahoo Finance(3/13): 턴키 소버린 AI DC 공개. GE Aerospace, Centrus Energy, LG CNS 등 대형 고객 채택. 정부·기업 AI 인프라 시장 확대."
     },
     {
-      "title": "93% 애널리스트 Buy — MarketBeat $274(+52% 상승여력)",
-      "description": "MarketBeat: 컨센서스 $274.21(+52%). StockAnalysis 38명 중 35명 Buy. 시장 셀오프가 매수 기회라는 폭넓은 합의."
+      "title": "38명 애널리스트 Strong Buy — 컨센서스 $263(+46%)",
+      "description": "StockAnalysis: 38명 중 35명 Buy. MarketBeat $274.21(+52%). 시장 셀오프가 매수 기회라는 폭넓은 합의."
     },
     {
-      "title": "Forward P/E 22.63x — 성장률 대비 역사적 저평가",
-      "description": "+65% 성장에 Forward P/E 22.63x, PEG 0.35. AI 하이퍼사이클 종료가 아닌 한 압도적 밸류."
+      "title": "Forward P/E 21.84x, PEG 0.57 — 성장률 대비 역사적 저평가",
+      "description": "+65% 성장에 Forward P/E 21.84x. PEG 0.57은 1 미만으로 명확한 저평가 시그널."
     }
   ],
 
@@ -73,143 +73,156 @@
       }
     ],
     "competitors": [
-      { "name": "AMD (MI400)", "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대" },
-      { "name": "Intel (Gaudi 3)", "detail": "AI 가속기 후발. Windows NPU 포커스로 차별화 시도" },
-      { "name": "Google (TPU)", "detail": "자체 AI 칩. 내부 사용 중심" },
-      { "name": "Broadcom (ASIC)", "detail": "커스텀 AI 칩 설계. 하이퍼스케일러 대안" }
+      {
+        "name": "AMD (MI400)",
+        "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대"
+      },
+      {
+        "name": "Intel (Gaudi 3)",
+        "detail": "AI 가속기 후발. Windows NPU 포커스로 차별화 시도"
+      },
+      {
+        "name": "Google (TPU)",
+        "detail": "자체 AI 칩. 내부 사용 중심"
+      },
+      {
+        "name": "Broadcom (ASIC)",
+        "detail": "커스텀 AI 칩 설계. 하이퍼스케일러 대안"
+      }
     ]
   },
 
   "recentNews": [
     {
       "date": "2026-03-14",
-      "headline": "NVIDIA GTC 2026 라이브 업데이트 블로그 오픈",
-      "significance": "NVIDIA Blog: GTC 프리쇼 시작. 월요일 Jensen Huang 키노트에서 Rubin Era 공식 개막. 분석가·창업자·업계 리더 패널.",
+      "headline": "GTC 2026 라이브 업데이트 시작 — 190개국 참석, 월요일 키노트",
+      "significance": "'AI의 슈퍼볼'. Vera Rubin + CPU 에이전틱 AI 전환이 핵심. 주가 촉매.",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-13",
-      "headline": "CNBC: GTC에서 CPU가 AI 칩의 전환점 — 에이전틱 AI 시대",
-      "significance": "GPU 독주에서 CPU+GPU 혼합 랙으로 전환. 에이전틱 AI 워크로드에 CPU 전용 랙 등장 예고. NVIDIA의 TAM 확대.",
-      "url": "https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html"
+      "headline": "Palantir+NVIDIA 소버린 AI DC 아키텍처 공동 발표",
+      "significance": "GE Aerospace, LG CNS 등 채택. 정부·기업 AI 인프라 시장 확대.",
+      "url": "https://www.businesswire.com/news/home/20260312975769/en/"
     },
     {
       "date": "2026-03-13",
-      "headline": "Yahoo Finance: GTC 2026 — NVIDIA 최대 이벤트 프리뷰",
-      "significance": "Vera Rubin + Blackwell Ultra + 소버린 AI DC + 자율주행 인프라 총집합. AI 경제 리트머스 테스트.",
-      "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html"
+      "headline": "CNBC: GTC에서 CPU가 주인공 — 에이전틱 AI 전환점",
+      "significance": "GPU 중심에서 CPU·GPU 하이브리드 AI 인프라로 전환. 새로운 성장 축.",
+      "url": "https://www.cnbc.com/quotes/NVDA"
     },
     {
-      "date": "2026-03-13",
-      "headline": "Seeking Alpha: GTC 전 에이전틱 AI·LPU 분석",
-      "significance": "Jensen Huang의 에이전틱 AI 강조가 GTC 2026 핵심 테마. 추론 중심 아키텍처 전환 가속.",
-      "url": "https://seekingalpha.com/article/4882186-read-this-before-nvidia-gtc-2026-agentic-ai-and-lpu"
+      "date": "2026-03-12",
+      "headline": "TechCrunch: Jensen Huang GTC 2026 키노트 시청 가이드",
+      "significance": "글로벌 미디어 주목. GTC의 시장 영향력 확인.",
+      "url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/"
     },
     {
-      "date": "2026-03-13",
-      "headline": "Palantir+NVIDIA 소버린 AI DC 아키텍처 공개",
-      "significance": "GE Aerospace, Centrus Energy, LG CNS 등 대형 고객 채택. 엔터프라이즈 AI 인프라 시장 확장.",
-      "url": "https://finance.yahoo.com/news/mission-critical-ai-partnerships-palantir-121137971.html"
+      "date": "2026-03-11",
+      "headline": "BingX: NVDA $300 복귀 가능성 분석 — Blackwell+Vera Rubin 동력",
+      "significance": "Blackwell 풀 사이클 + Vera Rubin 프리뷰가 $300 복귀 근거.",
+      "url": "https://bingx.com/en/learn/article/nvidia-nvda-stock-outlook-and-price-prediction-is-nvda-a-good-investment"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 274.21,
-    "highTarget": 270.00,
-    "lowTarget": 100.00,
-    "upsidePercent": 52.1,
+    "consensusTarget": 263.29,
+    "highTarget": 400.00,
+    "lowTarget": 135.00,
+    "upsidePercent": 46.07,
     "buyCount": 35,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "MarketBeat: 컨센서스 $274.21(+52%). StockAnalysis: 38명 중 93% Buy/Strong Buy. Redburn: 유가 $150 가지 않는 한 GTC가 시장 중심. 시장 셀오프가 매수 기회라는 합의."
+    "notableComment": "38명 애널리스트 Strong Buy 컨센서스. MarketBeat $274.21(+52%), StockAnalysis $263.29(+46%). GTC 후 목표가 상향 조정 예상."
   },
 
   "risks": [
     {
       "severity": "high",
-      "title": "AI Capex 사이클 피크 우려 + 유가 $98 급등",
-      "description": "WTI $98.71(3/13). 유가 급등이 하이퍼스케일러 비용 부담 가중 + AI 투자 둔화 시 GPU 수요 급감 가능성."
+      "title": "AI 인프라 투자 사이클 둔화 가능성",
+      "description": "하이퍼스케일러 Capex 사이클이 피크에 근접. 성장 둔화 시 밸류에이션 재평가."
     },
     {
       "severity": "high",
-      "title": "수출 규제 — 중국·러시아향 제한 심화",
-      "description": "미국 정부의 AI 칩 수출 규제 강화. 중국 시장(매출 ~12%) 접근 제한 심화."
+      "title": "중국 수출 규제 강화",
+      "description": "미중 반도체 전쟁 격화. 중국 시장 접근 제한이 매출에 영향."
     },
     {
       "severity": "medium",
-      "title": "GTC 'Sell the News' 가능성",
-      "description": "시장이 이미 GTC 기대를 주가에 반영. 기대 미달 시 실망 매도 가능성."
+      "title": "AMD·커스텀 ASIC 경쟁 심화",
+      "description": "AMD MI400, Broadcom/Google 커스텀 ASIC이 하이퍼스케일러 시장 공략."
     },
     {
       "severity": "medium",
-      "title": "Blackwell→Rubin 전환기 캐니벌리제이션",
-      "description": "고객들이 Rubin 대기 위해 Blackwell 주문 연기 가능성. 전환기 매출 공백 리스크."
+      "title": "단기 조정 후 50일선 하회",
+      "description": "50일 이평선 $185.46 하회. 200일선 $177.39 근접. GTC 실망 시 추가 하락."
     },
     {
       "severity": "low",
-      "title": "시가총액 $4.38T 피로감",
-      "description": "세계 최대 기업 타이틀. 추가 상승에 대한 심리적 저항."
+      "title": "공급 제약 — Blackwell 수요 대비 생산 부족",
+      "description": "수요 초과 상태이나 공급 병목이 단기 매출 제약."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "Forward P/E 22.63x — 65% 성장 대비 극도의 저평가",
-      "rationale": "PEG 0.35. 대형 테크주 중 가장 매력적인 성장 대비 밸류에이션."
+      "title": "GTC 2026 — 연간 최대 촉매 이벤트",
+      "rationale": "월요일 키노트에서 Vera Rubin·B300·에이전틱 AI CPU 발표. 주가 촉매 역사적 패턴."
     },
     {
-      "title": "GTC 2026 월요일 개막 — AI의 슈퍼볼 촉매",
-      "rationale": "Vera Rubin + B300 + CPU 에이전틱 AI 랙 발표가 수요 파이프라인 확인 + TAM 확대."
+      "title": "Forward P/E 21.84x, PEG 0.57 — 명확한 저평가",
+      "rationale": "+65% 성장에 Forward P/E 22x. PEG 0.57은 성장주 중 가장 매력적 수준."
     },
     {
-      "title": "컨센서스 +52% 상승여력 — $274 목표가",
-      "rationale": "93% 애널리스트 Buy. 시장 변동성이 만든 가격 매력에 폭넓은 합의."
+      "title": "FCF $96.7B — 역대급 현금 창출 능력",
+      "rationale": "연간 $97B 잉여현금흐름. 자사주 매입·배당·M&A 재원."
     },
     {
-      "title": "FY2026 매출 $215.9B, Q4 $68.1B — 성장 가속",
-      "rationale": "+65% YoY 성장에 Q4만 +73%. Blackwell 대규모 출하가 성장 엔진."
+      "title": "92% 애널리스트 Buy — 압도적 컨센서스",
+      "rationale": "38명 중 35명 Buy. $263-274 목표가(+46-52%). 시장 셀오프 후 매수 기회."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 195.95,
-    "week52Low": 86.62,
-    "currentPositionPercent": 85.7,
-    "sma50": 140.00,
-    "sma50Signal": "above",
-    "sma200": 138.00,
+    "week52High": 207.02,
+    "week52Low": 115.83,
+    "currentPositionPercent": 70.62,
+    "sma50": 185.46,
+    "sma50Signal": "below",
+    "sma200": 177.39,
     "sma200Signal": "above",
-    "rsi": 50.0,
+    "rsi": 45.22,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "NVIDIA는 GTC 2026 월요일 개막을 앞두고 $180.25(-1.58%)에 마감. Forward P/E 22.63x(PEG 0.35)는 +65% 성장 대비 역사적 저평가 영역.",
-    "CNBC: 'CPU가 GTC의 전환점' — 에이전틱 AI 최적화 CPU 랙이 GPU에 더해 TAM 확대. Vera Rubin + B300 + Palantir 소버린 AI DC가 차세대 수요 파이프라인.",
-    "유가 $98 급등이 거시 리스크이나, Redburn 애널리스트: '유가 $150 아닌 이상 NVIDIA가 다음 주 시장의 중심'. 93% Buy 컨센서스. 현 가격은 장기 매수 적기."
+    "NVIDIA $180.25는 GTC 2026 직전의 '폭풍 전 고요' 구간이다.",
+    "Forward P/E 21.84x, PEG 0.57은 +65% 성장률 대비 명확한 저평가. 38명 중 35명 Buy.",
+    "월요일 GTC 키노트가 Vera Rubin·B300·에이전틱 AI CPU를 공개하면 단기 촉매 작용 예상.",
+    "50일선($185) 하회 중이나 200일선($177) 위에서 지지. RSI 45 중립.",
+    "AI 인프라 투자 사이클 지속 여부가 중장기 관건. 현 수준은 매수 적기 가능성 높음."
   ],
 
   "sources": [
-    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 라이브 업데이트 오픈" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html", "description": "GTC CPU 전환점 분석" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html", "description": "GTC 2026 프리뷰" },
-    { "name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4882186-read-this-before-nvidia-gtc-2026-agentic-ai-and-lpu", "description": "에이전틱 AI·LPU 분석" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/mission-critical-ai-partnerships-palantir-121137971.html", "description": "Palantir+NVIDIA 소버린 AI DC" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/13/stock-market-today-march-13-nvidia-slips-as-gtc-2026-conference-looms/", "description": "NVDA 3/13 종가 $180.25" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "컨센서스 목표가 $274.21" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html", "description": "Redburn 애널리스트: NVIDIA가 다음 주 중심" },
-    { "name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer", "description": "Vera Rubin 플랫폼 공식 발표" },
-    { "name": "NVIDIA IR", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026", "description": "FY2026 실적 발표" }
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "NVDA 실시간 통계·밸류에이션·재무 데이터" },
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 라이브 업데이트" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/", "description": "GTC 키노트 시청 가이드" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA 컨센서스 $274.21 목표가" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "38명 Strong Buy, $263.29 컨센서스" },
+    { "name": "BingX", "url": "https://bingx.com/en/learn/article/nvidia-nvda-stock-outlook-and-price-prediction-is-nvda-a-good-investment", "description": "NVDA $300 복귀 전망 분석" },
+    { "name": "Analytics Insight", "url": "https://www.analyticsinsight.net/news/nvidia-gtc-2026-keynote-major-announcements-on-ai-gaming-cpus-and-computing", "description": "GTC 2026 주요 발표 전망" },
+    { "name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history", "description": "NVDA 역사적 주가 데이터" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/NVDA/", "description": "NVDA 실시간 주가·시총" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "월요일 GTC 개막 — NVIDIA가 CPU까지 접수한다 🧠",
-      "text": "FY2026 $216B(+65%), Forward P/E 22.6x. Vera Rubin+CPU 에이전틱 AI 랙. 93% Buy, 목표가 $274(+52%). 유가 $98이 변수. 월요일이 답이다. 🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
+      "hook": "NVDA $180, GTC 월요일 개막 — 올해 최대 이벤트 🎪",
+      "text": "$180.25, Forward P/E 22x에 PEG 0.57. 35/38명 Buy. 월요일 Vera Rubin + CPU 에이전틱 AI 발표 — 'AI의 슈퍼볼'이 어떤 카드를 꺼낼까? 🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
     },
     "telegram": {
-      "hook": "🟢 NVIDIA: 월요일 GTC 개막 — AI의 슈퍼볼이 모든 걸 바꿀까?",
-      "text": "📊 NVDA $180.25 (-1.58%)\n\n🎪 GTC 2026 월요일 개막: Vera Rubin(HBM4) + Blackwell Ultra B300 + 에이전틱 AI CPU 랙 발표 예정.\n\n🧠 CNBC: 'CPU가 GTC의 전환점'. GPU 독주에서 CPU+GPU 혼합으로 TAM 확대.\n\n🚀 FY2026 $215.9B(+65%), Forward P/E 22.63x, PEG 0.35 — 성장 대비 확실한 저평가.\n\n⛽ 리스크: 유가 WTI $98.71. Redburn: '$150 아닌 이상 NVIDIA가 다음 주 주인공'.\n\n🎯 93% Buy, MarketBeat $274 (+52%)\n📐 RSI 50 중립, 50일·200일선 상회\n\n다음 주 Jensen Huang 키노트가 AI 시장의 방향을 결정한다.\n\n🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
+      "hook": "🟢 NVDA $180 — GTC 전야, Forward P/E 22x 매수 기회?",
+      "text": "📊 NVDA $180.25 (-1.58%)\n\n🎪 GTC 2026 월요일 개막! Jensen Huang 키노트 — Vera Rubin(HBM4) + B300 + 에이전틱 AI CPU 발표 예정.\n\n🤝 Palantir과 소버린 AI DC 공동 발표. GE Aerospace·LG CNS 채택.\n\n💰 FY2026 매출 $216B(+65%), FCF $97B, 영업이익률 60%.\n\n📐 Forward P/E 21.84x, PEG 0.57 — 성장 대비 저평가. 50일선 하회 중이나 200일선 위.\n🎯 38명 중 35명 Buy. 컨센서스 $263(+46%), MarketBeat $274(+52%).\n\n⚠️ AI Capex 사이클 피크 우려 + 중국 수출 규제.\n\nGTC가 촉매? 역사가 말한다 — Yes.\n\n🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-14"
     }
   }
 }
