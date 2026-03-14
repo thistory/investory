@@ -3,14 +3,14 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-14",
   "currentPrice": 391.20,
-  "marketCap": "$1.47T",
+  "marketCap": "$1.26T",
 
   "businessSummary": {
     "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, and energy",
-    "description": "Tesla is transitioning from EV manufacturing to an integrated AI/robotics/energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Friday close $391.20 (-0.96%). Continued market weakness weighed on shares. China Jan-Feb sales rebounded to 127,728 units (+35% YoY). FSD data submitted to NHTSA (3/9). GTC 2026 (3/16-19) may reignite autonomous driving narrative. Market cap $1.47T, P/E ~387x, Forward P/E ~189x.",
+    "description": "Tesla is transitioning from pure EV manufacturing to an integrated AI/robotics/energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Friday close $391.20 (-0.96%). China Jan-Feb EV sales rebound is positive, but Reuters warns of potential third consecutive year of delivery decline. Musk unveiled 'Macrohard (Digital Optimus)' xAI joint project. GTC 2026 (3/16-19) could reignite autonomous driving narrative. Market cap $1.26T, P/E ~362x, Forward P/E ~188x.",
     "howTheyMakeMoney": [
-      "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y are the core, Model S/X discontinuing Q2 2026",
-      "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack/Powerwall growth",
+      "Vehicle Sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuing Q2 2026",
+      "Energy Business: ~14% of revenue ($12.8B, +27% YoY). Megapack/Powerwall growth",
       "Services/Other: ~10% of revenue. Supercharger network, insurance, parts",
       "FSD/Software: License revenue ~$3B. Subscription conversion accelerating"
     ],
@@ -27,45 +27,45 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "386.91x", "interpretation": "Extremely high valuation reflecting AI/robotics premium" },
-    { "name": "Forward P/E", "value": "189.17x", "interpretation": "Reflects earnings improvement expectations, still elevated" },
-    { "name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 negative growth. Vehicle sales decline was the main driver" },
-    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Profitability significantly impacted by price cut strategy" },
-    { "name": "FCF", "value": "$6.22B", "interpretation": "Still solid cash generation capability" },
-    { "name": "Debt/Equity", "value": "0.18x", "interpretation": "Very healthy balance sheet" },
-    { "name": "ROE", "value": "4.93%", "interpretation": "Capital efficiency sharply declined. Earnings recovery needed" },
-    { "name": "Gross Margin", "value": "18.03%", "interpretation": "Near historical lows due to intensifying price competition" }
+    { "name": "P/E (TTM)", "value": "362x", "interpretation": "Extreme valuation. Very high for an EV maker but reflects AI/robotics premium" },
+    { "name": "Forward P/E", "value": "188x", "interpretation": "Based on $2.08 EPS estimate. Still elevated" },
+    { "name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 decline. FY2026E +11.0% recovery expected" },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Down from FY2024's 7.24%. Price cuts + cost increases impacting" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "+73.7% improvement from prior year's $3.58B. Cash generation recovering" },
+    { "name": "Debt Ratio", "value": "Low", "interpretation": "$44B+ cash on hand. Minimal debt burden" },
+    { "name": "ROE", "value": "~5.8%", "interpretation": "Low return on equity. Can improve with margin recovery" },
+    { "name": "Gross Margin", "value": "18.03%", "interpretation": "Slight improvement from FY2024's 17.86%. Above EV industry average" }
   ],
 
   "growthDrivers": [
     {
-      "title": "China Jan-Feb Sales +35% YoY Rebound — BYD Reversal Possible",
-      "description": "CNBC (3/13): China-made EV sales of 127,728 units, up 35% YoY. Tesla rebounding while BYD sales slow. Positive signal amid global delivery decline concerns."
+      "title": "China Feb EV Sales +91% YoY Surge — Sales Momentum Confirmed",
+      "description": "Reuters (3/11): China-made EV sales surged 91% YoY in February, marking four consecutive months of growth. Low base effect + price cuts + new model impact. Tesla's rebound stands out as BYD slows."
     },
     {
       "title": "GTC 2026 (3/16-19) — Autonomous Driving Theme Revival D-2",
-      "description": "NVIDIA GTC set to unveil Rubin architecture. CPU-centric AI agent infrastructure could catalyze FSD/robotaxi ecosystem. Tesla autonomous tech revaluation possible."
+      "description": "NVIDIA GTC to unveil Rubin architecture. CPU-centric AI agent infrastructure could catalyze FSD/robotaxi ecosystem. Potential reassessment of Tesla's autonomous driving technology."
     },
     {
       "title": "FSD Data NHTSA Submission Complete — Regulatory Milestone",
-      "description": "FSD driving data submitted to NHTSA on 3/9. Regulatory approval could accelerate robotaxi timeline."
+      "description": "AInvest (3/10): FSD driving data submitted to NHTSA on 3/9. Regulatory approval progress could accelerate robotaxi timeline. Key event for Tesla's autonomous driving narrative."
     },
     {
-      "title": "Macrohard (Digital Optimus) — xAI Joint Venture Software Push",
-      "description": "Musk unveiled Tesla-xAI joint project. Grok LLM-based AI agents automating office work. Potential new software revenue stream."
+      "title": "Macrohard (Digital Optimus) — xAI Joint Software Venture",
+      "description": "Reuters (3/11): Musk unveiled Tesla-xAI joint 'Macrohard' project. Grok LLM-based AI agents for office automation. Potential new software revenue stream and valuation catalyst."
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share leader (globally overtaken by BYD). Vertical integration across software, manufacturing, energy, and FSD's 8.2B miles is the core moat.",
+    "summary": "50%+ US EV market share leader (globally overtaken by BYD). Software/manufacturing/energy/FSD 8.2B mile vertical integration is the core moat.",
     "moats": [
       {
         "type": "Autonomous Driving Data Moat",
-        "description": "8.2 billion FSD miles driven. Overwhelmingly superior training data vs. competitors."
+        "description": "8.2 billion FSD miles driven. Overwhelmingly more training data than competitors."
       },
       {
         "type": "Vertical Integration",
-        "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."
+        "description": "Proprietary batteries (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."
       },
       {
         "type": "Charging Network Effect",
@@ -75,135 +75,141 @@
     "competitors": [
       { "name": "BYD", "detail": "2025 global EV sales 2.26M units (+28%). Overtook Tesla's 1.64M (-9%)" },
       { "name": "Lucid (LCID)", "detail": "Q4 revenue $523M (+123%). Targeting premium EV market" },
-      { "name": "Rivian (RIVN)", "detail": "R2 launch targeting mass market entry" },
-      { "name": "Waymo (Alphabet)", "detail": "Expanding autonomous taxi services. L4 self-driving leader" }
+      { "name": "Rivian (RIVN)", "detail": "R2 launch for mass market entry" },
+      { "name": "Waymo (Alphabet)", "detail": "Expanding autonomous taxi service. L4 autonomy leader" }
     ]
   },
 
   "recentNews": [
     {
       "date": "2026-03-13",
-      "headline": "Tesla China Jan-Feb EV Sales 127,728 Units (+35% YoY) — Rebound as BYD Drops",
-      "significance": "China market rebound is a positive signal amid global delivery decline concerns. Price cuts + new model effects.",
+      "headline": "Tesla China Jan-Feb sales rebound while BYD declines",
+      "significance": "Tesla China EV sales +35% YoY rebound. BYD slowing. Signals shift in competitive dynamics.",
       "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html"
     },
     {
       "date": "2026-03-11",
-      "headline": "Reuters: Tesla Delivery Slide May Stretch to Third Year — Cash Burn Concerns",
-      "significance": "Some analysts projecting continued delivery decline in 2026. Musk's DOGE involvement raising focus concerns.",
+      "headline": "Tesla China-made EV sales jump 91% in February",
+      "significance": "Four consecutive months of growth. Low base + pricing strategy driving recovery. Hints at global delivery rebound.",
+      "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Musk unveils joint Tesla-xAI project 'Macrohard'",
+      "significance": "Grok LLM-based AI agent system for office automation. Tesla software revenue diversification strategy.",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-unveils-joint-tesla-xai-project-macrohard-eyes-software-disruption-2026-03-11/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Tesla delivery slide may stretch to third year — cash burn looms",
+      "significance": "Reuters: Some investors and analysts expect delivery decline to continue in 2026. Profitability pressure intensifying.",
       "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/"
     },
     {
       "date": "2026-03-11",
-      "headline": "Strong China Sales and Digital Optimus Focus Boost Tesla Stock",
-      "significance": "Weekly +3% gain. China sales growth and margin improvement as positive catalysts.",
-      "url": "https://www.fxleaders.com/news/2026/03/11/strong-china-sales-and-digital-optimus-focus-boosts-tesla-stock-tsla-despite-mixed-earnings/"
-    },
-    {
-      "date": "2026-03-09",
-      "headline": "FSD Data Submitted to NHTSA — March Regulatory Milestone",
-      "significance": "Regulatory approval status could determine robotaxi timeline. Market uncertainty resolution possible.",
-      "url": "https://www.ainvest.com/news/tesla-stock-crucial-march-2026-deadlines-market-signals-2603/"
-    },
-    {
-      "date": "2026-03-04",
-      "headline": "BofA Upgrades to Buy — $460 Target, AI/Robotics Pipeline Undervalued",
-      "significance": "Bank of America upgraded Hold→Buy, noting AI/robotics assets are undervalued amid DOGE noise.",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/"
+      "headline": "TSLA Stock: Analyzing the 80% Rally",
+      "significance": "Forbes: +80% gain over past year despite revenue decline and margin compression. AI/robotics/energy expectations driving the premium.",
+      "url": "https://www.forbes.com/sites/greatspeculations/2026/03/11/tsla-stock-analyzing-the-80-rally/"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 396.15,
-    "highTarget": 600.00,
-    "lowTarget": 43.00,
-    "upsidePercent": 1.27,
-    "buyCount": 10,
-    "holdCount": 13,
+    "consensusTarget": 389.12,
+    "highTarget": 600,
+    "lowTarget": 25.28,
+    "upsidePercent": -0.53,
+    "buyCount": 15,
+    "holdCount": 10,
     "sellCount": 7,
-    "notableComment": "BofA Buy upgrade with $460 target — AI/robotics pipeline undervalued amid DOGE noise. Bears highlight risk of third consecutive year of delivery declines."
+    "notableComment": "Wedbush Daniel Ives: Buy, $600 target maintained. Tigress Financial: Strong Buy, initiated at $550. GLJ Research: Strong Sell, $25 maintained — extreme opinion polarization."
   },
 
   "risks": [
     {
       "severity": "critical",
-      "title": "Potential Third Consecutive Year of Delivery Declines",
-      "description": "Reuters: Some analysts projecting 2026 delivery decline as well. Profitability erosion accelerates if pricing power weakens."
+      "title": "Potential third consecutive year of delivery decline",
+      "description": "Reuters (3/11): Some investors and analysts expect 2026 delivery decline. Intensifying EV competition + demand softening + CEO DOGE activities raising management focus concerns."
     },
     {
       "severity": "high",
-      "title": "CEO Musk's DOGE/Political Involvement Diluting Focus",
-      "description": "DOGE participation, xAI, SpaceX multitasking raising concerns about Tesla management attention."
+      "title": "P/E 362x — Extreme valuation",
+      "description": "Historically highest P/E level for an EV manufacturer. Risk of sharp correction if earnings disappoint."
     },
     {
       "severity": "high",
-      "title": "P/E 387x — Sharp Correction Risk If Expectations Miss",
-      "description": "Extreme valuation. AI/robotics/FSD underdelivery could trigger significant derating."
+      "title": "Musk Risk — DOGE political activity + management distraction",
+      "description": "CEO's involvement with government efficiency department (DOGE) reducing Tesla management focus. Boycott risks emerging."
     },
     {
       "severity": "medium",
-      "title": "BYD Global Competition Intensifying",
-      "description": "BYD overtook Tesla in global sales. Market share erosion continuing in China and Europe."
+      "title": "Operating margin declining to 4.59%",
+      "description": "FY2022 16.76% → FY2025 4.59%. Price cuts and cost increases eroding profitability."
+    },
+    {
+      "severity": "medium",
+      "title": "Intensifying China competition — BYD and local brand offensive",
+      "description": "Despite rebound, globally BYD at 2.26M vs Tesla at 1.64M units. Reversal still holds."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "China Sales Rebound — Signal of Recovery from Negative Growth",
-      "rationale": "Jan-Feb China sales +35% YoY. Recovery signs emerging from overall delivery decline trend."
+      "title": "China sales rebound — Feb +91% YoY",
+      "rationale": "Four consecutive months of growth suggest potential global delivery recovery. Beyond base effects, new models + pricing strategy contributing."
     },
     {
-      "title": "Energy Business High Growth — Reducing Vehicle Dependency",
-      "rationale": "Energy revenue $12.8B (+27% YoY), higher margins than vehicles. Revenue diversification progressing."
+      "title": "FSD NHTSA data submission — Regulatory progress",
+      "rationale": "8.2 billion miles of driving data supporting regulatory approval. Robotaxi revenue monetization could trigger revaluation."
     },
     {
-      "title": "FSD/Robotaxi Regulatory Progress",
-      "rationale": "FSD data submitted to NHTSA. Regulatory approval unlocks multi-trillion dollar TAM."
+      "title": "Energy business +27% growth — Revenue diversification",
+      "rationale": "Megapack/Powerwall revenue $12.8B. Reducing EV dependence with stable growth engine."
     },
     {
-      "title": "$44B Cash — Financial Safety Margin",
-      "rationale": "Net cash $29.3B. Ample investment capacity even in economic downturn."
+      "title": "FCF $6.2B — 73% improvement — Cash generation recovery",
+      "rationale": "$44B+ cash on hand providing ample R&D and capex capacity. Solid financial stability."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 498.83,
-    "week52Low": 214.25,
-    "currentPositionPercent": 62.2,
-    "sma50": 420.64,
+    "week52High": 488.54,
+    "week52Low": 215.01,
+    "currentPositionPercent": 64.4,
+    "sma50": 400.65,
     "sma50Signal": "below",
-    "sma200": 393.45,
+    "sma200": 408.92,
     "sma200Signal": "below",
-    "rsi": 40.02,
+    "rsi": 44.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Tesla shows a positive signal with China sales rebounding (+35%), but global delivery decline concerns and an extreme P/E of 387x remain burdensome. Trading below both 50-day and 200-day moving averages indicates technical weakness.",
-    "GTC 2026 (D-2) autonomous driving theme revival + FSD NHTSA regulatory progress provide short-term catalysts. The energy business (+27%) is key to revenue diversification.",
-    "At current prices, the stock can be interpreted as overvalued as an EV manufacturer but undervalued as an AI/robotics platform. The $390 range may be a reasonable entry for long-term investors, but risk management is needed until delivery recovery is confirmed."
+    "Tesla shows a positive signal with China Feb sales surging +91% (4 consecutive months), but Reuters' warning of 'third consecutive year of delivery decline' weighs heavily. Trading below both 50-day and 200-day MAs indicates technical weakness.",
+    "GTC 2026 (D-2) autonomous driving theme revival + FSD NHTSA regulatory progress + Macrohard software project provide near-term catalysts. Energy business (+27%) is key to revenue diversification.",
+    "P/E 362x is unexplainable as an EV manufacturer but prices in the transformation to an AI/robotics/energy platform. Conservative approach recommended until delivery recovery is confirmed."
   ],
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA real-time valuation, financial metrics, technical analysis" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html", "description": "Tesla China Jan-Feb sales +35% YoY rebound" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/", "description": "Tesla delivery decline potentially stretching to third year" },
-    { "name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/11/strong-china-sales-and-digital-optimus-focus-boosts-tesla-stock-tsla-despite-mixed-earnings/", "description": "Strong China sales and Digital Optimus boosting stock" },
-    { "name": "AInvest", "url": "https://www.ainvest.com/news/tesla-stock-crucial-march-2026-deadlines-market-signals-2603/", "description": "FSD NHTSA data submission milestone" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA analyst consensus $406.84" },
-    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/forecast/", "description": "TSLA price target $426.61, technical analysis" },
-    { "name": "Macrotrends", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/stock-price-history", "description": "TSLA 52-week high/low $498.83/$214.25" },
-    { "name": "AltIndex", "url": "https://altindex.com/ticker/tsla/technical-analysis", "description": "TSLA RSI 41.4, technical indicators" }
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html", "description": "Tesla China Jan-Feb sales rebound report" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/", "description": "Tesla China Feb sales +91% report" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-unveils-joint-tesla-xai-project-macrohard-eyes-software-disruption-2026-03-11/", "description": "Macrohard (Digital Optimus) xAI joint project announcement" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/", "description": "Third year of delivery decline concerns" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/03/11/tsla-stock-analyzing-the-80-rally/", "description": "TSLA 80% rally analysis" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "Analyst consensus and financial data" },
+    { "name": "AInvest", "url": "https://www.ainvest.com/news/tesla-stock-crucial-march-2026-deadlines-market-signals-2603/", "description": "Tesla March key events analysis" },
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "Technical indicators (SMA, RSI)" },
+    { "name": "GuruFocus", "url": "https://www.gurufocus.com/term/forward-pe-ratio/TSLA", "description": "Forward P/E data" },
+    { "name": "StockAnalysis Financials", "url": "https://stockanalysis.com/stocks/tsla/financials/", "description": "Financial statements and key metrics" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "Tesla China sales +35% rebound 📈 while BYD drops?",
-      "text": "Tesla China Jan-Feb sales hit 127,728 units (+35% YoY) while BYD slows. But Reuters warns of 'third straight year of delivery decline.' GTC D-2, FSD data submitted. $391 — crisis or opportunity? 🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-14"
+      "hook": "Tesla China Feb sales +91% surge 🚀 but...",
+      "text": "China rebound is real, but Reuters warns 'third year of delivery decline.' Musk unveils xAI 'Macrohard.' $391, below 50-day MA. GTC D-2 — autonomous driving revival coming? 🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-14"
     },
     "telegram": {
-      "hook": "🚗 Tesla: China Rebound vs Global Delivery Drop — Mixed Signals",
-      "text": "📊 TSLA $391.20 (-0.96%)\n\n🇨🇳 China Jan-Feb EV sales 127,728 units (+35% YoY) surprise rebound. BYD actually declining. Price cuts + new model effects.\n\n⚠️ But Reuters warns of potential third consecutive year of delivery decline. CEO Musk's DOGE involvement raising management focus concerns.\n\n🎯 Analyst consensus: Hold, target $396 (near current price)\n\n✨ Catalysts: GTC 2026 D-2 (autonomous theme), FSD NHTSA data submitted, energy business +27% growth\n\nP/E 387x is concerning but $44B cash provides safety margin. Whether China rebound extends globally is the key question.\n\n🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-14"
+      "hook": "🚗 Tesla: China +91% Surge vs Global Delivery Decline — Where to Look?",
+      "text": "📊 TSLA $391.20 (-0.96%)\n\n🇨🇳 China Feb EV sales +91% YoY surge. 4 consecutive months of growth. Clear rebound while BYD slows.\n\n⚠️ But Reuters: 'Third consecutive year of delivery decline' fears. CEO Musk DOGE activity + boycott risks.\n\n🤖 Musk unveils Tesla-xAI joint 'Macrohard (Digital Optimus).' Grok-based AI agents → new software revenue stream.\n\n🎯 Consensus: Hold, target $389 (nearly equal to current price)\n📐 Below 50-day MA $401, RSI 44 neutral\n\nGTC 2026 D-2 — autonomous driving theme revival is next week's key catalyst.\n\n🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-14"
     }
   }
 }

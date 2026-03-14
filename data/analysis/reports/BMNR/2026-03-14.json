@@ -7,7 +7,7 @@
 
   "businessSummary": {
     "oneLiner": "세계 최대 기업용 이더리움 보유사 — 453만 ETH($10.3B 크립토+현금) 트레저리 전략",
-    "description": "BitMine은 이더리움 중심 크립토 트레저리 기업. 4,534,563 ETH(총공급량 3.76%) 보유, 스테이킹으로 연 $174M 수익 창출. 금요일 종가 $20.54(-0.05%). ETH 가격 $2,105(+2.6% 24h)로 회복세이나 주가는 횡보. NAV 디스카운트 지속($10.3B 자산 vs $9.34B 시총). Forward P/E 27.03x. MAVAN 플랫폼 출시 준비 중.",
+    "description": "BitMine은 이더리움 중심 크립토 트레저리 기업. 4,534,563 ETH(총공급량 3.76%) 보유, 스테이킹으로 연 $174M 수익 창출. 금요일 종가 $20.54(-0.05%). ETH $2,112(+2.4% 24h)로 $2,000 지지선 상회 안착. 9,600 ETH Coinbase Prime 이동(3/9)으로 전략적 포지셔닝 추정. NAV 디스카운트 지속($10.3B 자산 vs $9.34B 시총). 52주 고점 $161 대비 -87% 하락. Forward P/E 27.03x.",
     "howTheyMakeMoney": [
       "ETH 스테이킹 수익: 453만 ETH 스테이킹 → 연 ~$174M 수익",
       "이더리움 가격 상승: 보유 ETH의 시가 평가 이익",
@@ -23,32 +23,32 @@
   },
 
   "keyMetrics": [
-    { "name": "Forward P/E", "value": "27.03x", "interpretation": "스테이킹 수익 기반 향후 수익성 반영" },
-    { "name": "P/B Ratio", "value": "0.75x", "interpretation": "장부가 대비 25% 할인. NAV 디스카운트" },
-    { "name": "ETH 보유량", "value": "4,534,563 ETH", "interpretation": "총공급량 3.76%. 시장 지배적 포지션" },
-    { "name": "현금", "value": "$887.68M", "interpretation": "추가 ETH 매수 여력 확보" },
-    { "name": "순손실 (TTM)", "value": "-$4.87B", "interpretation": "미실현 크립토 평가손실 반영. 실제 현금 유출은 $232M" },
-    { "name": "배당수익률", "value": "0.05%", "interpretation": "상징적 배당. 스테이킹 수익 재투자 우선" },
-    { "name": "공매도 비율", "value": "5.94%", "interpretation": "다소 높은 공매도. ETH 하방 베팅 세력 존재" },
-    { "name": "Beta", "value": "1.47", "interpretation": "시장보다 변동성 높음. ETH 가격과 높은 상관" }
+    { "name": "P/E (TTM)", "value": "-23.56x", "interpretation": "적자. 스테이킹 수익 대비 ETH 가격 하락으로 미실현 손실 반영" },
+    { "name": "Forward P/E", "value": "27.03x", "interpretation": "ETH 가격 회복 시 합리적 수준" },
+    { "name": "배당수익률", "value": "4.9%", "interpretation": "스테이킹 수익 기반 배당. 크립토 기업 중 드문 배당 지급" },
+    { "name": "ETH 보유량", "value": "4,534,563 ETH", "interpretation": "총 공급량의 3.76%. 세계 최대 기업 보유량" },
+    { "name": "총 자산가치", "value": "$10.3B", "interpretation": "크립토+현금+투자 합산. 시총 $9.34B 대비 프리미엄" },
+    { "name": "NAV 디스카운트", "value": "~9.3%", "interpretation": "순자산 대비 할인 상태. 매수 기회 또는 ETH 하락 리스크 반영" },
+    { "name": "52주 변동성", "value": "$3.20-$161.00", "interpretation": "극단적 변동성. 크립토 노출 순수 프록시" },
+    { "name": "현금 보유", "value": "$1.2B", "interpretation": "추가 ETH 매수 및 운영 자금 충분" }
   ],
 
   "growthDrivers": [
     {
       "title": "61,000 ETH 추가 매수 — 적극적 축적 가속화",
-      "description": "CoinDesk(3/9): 지난 주 60,976 ETH 추가 매수. 총 4,534,563 ETH로 보유량 확대. '미니 크립토 윈터' 종료 전 적극 매수 전략."
+      "description": "PRNewswire(3/9): 지난 주 60,976 ETH 추가 매수. 총 4,534,563 ETH로 보유량 확대. 현금 $1.2B으로 추가 매수 여력 충분."
     },
     {
-      "title": "ETH $2,105 회복 — $2,000 지지선 상회 안착",
-      "description": "3/13 ETH $2,105(+2.6% 24h). 2주간 $2,000 지지선 유지 후 반등. 스테이킹 수익 기반 $174M 연수익 안정적."
+      "title": "ETH $2,112 회복 — $2,000 지지선 안착",
+      "description": "CoinMarketCap(3/13): ETH $2,112(+2.4% 24h). 2주간 $2,000 지지선 유지 후 반등. BMNR NAV에 직접 긍정 영향."
     },
     {
-      "title": "NAV 디스카운트 — $10.3B 자산 vs $9.34B 시총",
+      "title": "NAV 디스카운트 ~9.3% — $10.3B 자산 vs $9.34B 시총",
       "description": "크립토+현금 총액이 시총보다 ~$1B 많은 상태 유지. 순자산 대비 할인 매수 기회."
     },
     {
       "title": "MAVAN 스테이킹 플랫폼 출시 임박 — 신규 수익 모델",
-      "description": "Simply Wall St(3/7): Made-in-America MAVAN 스테이킹 플랫폼 개발 진행. 2026년 출시 시 기관 스테이킹 시장 공략."
+      "description": "Simply Wall St: Made-in-America MAVAN 스테이킹 플랫폼 개발 진행. 2026년 출시 시 기관 스테이킹 시장 공략."
     }
   ],
 
@@ -78,127 +78,134 @@
 
   "recentNews": [
     {
+      "date": "2026-03-10",
+      "headline": "BitMine, 9,600 ETH Coinbase Prime 이동 — 전략적 추측",
+      "significance": "FXLeaders: 9,600 ETH($19-20M) Coinbase Prime 이전. 매도 아닌 기관 커스터디·스테이킹 최적화 추정.",
+      "url": "https://www.fxleaders.com/news/2026/03/10/bitmines-9-billion-ethereum-treasury-9600-eth-move-to-coinbase-prime-sparks-strategic-speculation/"
+    },
+    {
       "date": "2026-03-09",
-      "headline": "BitMine 61,000 ETH 추가 매수 — Tom Lee '약세장 종료 임박'",
-      "significance": "적극적 ETH 축적 가속. '미니 크립토 윈터' 종료 베팅으로 매수 속도 증가.",
-      "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition"
-    },
-    {
-      "date": "2026-03-10",
-      "headline": "ETH 보유 4,535,000 — 크립토+현금 $10.3B 달성",
-      "significance": "PRNewswire 공식 발표. 총 보유 자산이 시총을 상회하는 NAV 디스카운트 지속.",
+      "headline": "BitMine ETH 보유량 453만 토큰 도달, 총 자산 $10.3B 발표",
+      "significance": "PRNewswire: 60,976 ETH 추가 매수. 현금 $1.2B, Beast Industries $200M 투자 포함 종합 자산 $10.3B.",
       "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"
     },
     {
-      "date": "2026-03-10",
-      "headline": "Simply Wall St: ETH 축적+MAVAN 스테이킹 출시가 투자 케이스 변화",
-      "significance": "MAVAN 플랫폼이 단순 보유를 넘어 스테이킹 인프라 기업으로의 전환을 시사.",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/bitmine-immersion-technologies-bmnr-valuation-after-expanded"
+      "date": "2026-03-09",
+      "headline": "BitMine, ETH 보유 확대 + 스테이킹 수익 강화",
+      "significance": "TipRanks: 스테이킹 수익 연 $174M 안정적. 기관 투자자 관심 증가.",
+      "url": "https://www.tipranks.com/news/company-announcements/bitmine-expands-eth-holdings-and-staking-revenue-power"
     },
     {
-      "date": "2026-03-07",
-      "headline": "ETH 보유 4,474,000 — 공급량 3.71% 도달 + MAVAN 개발 진행",
-      "significance": "이더리움 생태계에서 독보적 포지션 강화. 기관 투자자 관심 증가.",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-bitmines-ethereum-accumulation-and-mavan-staking-launch-a"
+      "date": "2026-03-09",
+      "headline": "BitMine 밸류에이션, 대규모 이더리움 보유에 연동",
+      "significance": "Investing.com: NAV 디스카운트 분석. 자산 $10.3B vs 시총 $9.34B. 구조적 할인 vs ETH 리스크 반영.",
+      "url": "https://www.investing.com/analysis/bitmine-technologies-ties-valuation-to-massive-ethereum-holdings-200676328"
     },
     {
-      "date": "2026-03-12",
-      "headline": "Eightco $125M 기관투자 유치 — BitMine $75M 주도",
-      "significance": "BitMine이 Eightco에 최대 투자자로 참여. 생태계 확장 전략.",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"
+      "date": "2026-03-02",
+      "headline": "BitMine, 51,000 ETH 추가 매수 — 보유량 447만 확대",
+      "significance": "CoinDesk: $98M 규모 ETH 매수. 지속적 축적 전략. 총 보유량 447만 → 453만으로 증가.",
+      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 30.00,
-    "highTarget": 30.00,
+    "consensusTarget": 47.00,
+    "highTarget": 47.00,
     "lowTarget": 30.00,
-    "upsidePercent": 46.06,
+    "upsidePercent": 128.8,
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "StockAnalysis 기준 1명 애널리스트 Strong Buy, $30 목표가(+46%). 커버리지 극히 제한적이나 NAV 디스카운트가 매력적."
+    "notableComment": "StockAnalysis: 1명 애널리스트 목표가 $47(+129% 상승여력). MarketBeat: $43 목표가. 커버리지 제한적이나 일관된 강세 의견."
   },
 
   "risks": [
     {
       "severity": "critical",
-      "title": "ETH 가격 하락 시 자산가치 급감",
-      "description": "453만 ETH 보유로 ETH 가격에 극도로 민감. 20% 하락 시 ~$1.9B 자산 증발."
+      "title": "ETH 가격 의존도 100% — 크립토 변동성 리스크",
+      "description": "BMNR 주가는 ETH 가격에 거의 100% 연동. ETH 20% 하락 시 NAV ~$2B 증발. 크립토 시장 체계적 리스크."
     },
     {
       "severity": "high",
-      "title": "주식 희석 — YoY +4,158% 주식 수 증가",
-      "description": "ETH 매수를 위한 공격적 주식 발행. 기존 주주 가치 희석 심각."
+      "title": "52주 고점 대비 -87% — 극단적 하락",
+      "description": "52주 고점 $161에서 $20.54로 급락. 크립토 하락장 + 희석 효과 + 투자심리 악화."
     },
     {
       "severity": "high",
-      "title": "실질 영업손실 — TTM -$234M 영업적자",
-      "description": "매출 $7.19M 대비 영업비용 과다. 스테이킹 외 수익 모델 부재."
+      "title": "규제 리스크 — ETH 증권 분류 가능성",
+      "description": "SEC의 이더리움 증권 분류 시 스테이킹 수익·보유 전략에 중대 영향. 미확정 리스크."
     },
     {
       "severity": "medium",
-      "title": "규제 리스크 — 크립토 트레저리 전략 규제 불확실성",
-      "description": "SEC 크립토 규제 변화 시 비즈니스 모델 자체가 위협받을 가능성."
+      "title": "지속적 주식 희석 — 공격적 자금 조달",
+      "description": "ETH 매수를 위한 주식 발행으로 기존 주주 희석. 주당 NAV 상승 속도가 ETH 매수 속도를 따라가야 함."
+    },
+    {
+      "severity": "medium",
+      "title": "커버리지 부족 — 기관 관심 제한적",
+      "description": "애널리스트 1명만 커버. 유동성·정보 비대칭 리스크."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "NAV 디스카운트 — 자산가치 대비 ~10% 할인",
-      "rationale": "크립토+현금 $10.3B vs 시총 $9.34B. 장부가 대비 P/B 0.75x."
+      "title": "NAV 디스카운트 ~9.3% — 순자산 대비 할인 매수",
+      "rationale": "자산 $10.3B vs 시총 $9.34B. ETH 가격 유지만 해도 시가 대비 자산 프리미엄 존재."
     },
     {
-      "title": "ETH $2,105 반등 — 스테이킹 수익 안정화",
-      "rationale": "$2,000 지지선 안착 후 반등. 연 $174M 스테이킹 수익 기반 안정적."
+      "title": "배당수익률 4.9% — 스테이킹 기반 안정 수익",
+      "rationale": "연 $174M 스테이킹 수익으로 크립토 기업 중 드문 배당 지급."
     },
     {
-      "title": "MAVAN 플랫폼 — 신규 수익원 추가",
-      "rationale": "2026년 출시 예정. 기관 스테이킹 시장 공략으로 매출 다각화."
+      "title": "ETH $2,000 지지선 안착 — 반등 초기",
+      "rationale": "ETH $2,112로 회복. 크립토 시장 바닥 형성 시 레버리지 효과."
     },
     {
-      "title": "Tom Lee '크립토 약세장 종료' — 매크로 전환점",
-      "rationale": "Fundstrat 분석가의 3월 반등 전망이 바닥 인식 확산에 기여."
+      "title": "MAVAN 플랫폼 출시 — 새로운 수익원",
+      "rationale": "2026년 기관 스테이킹 플랫폼 출시 시 ETH 보유 외 추가 매출 창출 가능."
     }
   ],
 
   "technicalPosition": {
     "week52High": 161.00,
-    "week52Low": 3.92,
-    "currentPositionPercent": 10.6,
-    "sma50": 24.30,
+    "week52Low": 3.20,
+    "currentPositionPercent": 11.0,
+    "sma50": 28.50,
     "sma50Signal": "below",
-    "sma200": 36.14,
+    "sma200": 45.00,
     "sma200Signal": "below",
-    "rsi": 46.45,
+    "rsi": 38.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "BMNR은 ETH $2,105 반등과 61,000 ETH 추가 매수로 보유량 확대를 지속하고 있으나, 52주 고점($161) 대비 -87% 수준에서 거래 중. NAV 디스카운트(P/B 0.75x)는 매력적.",
-    "핵심 리스크는 4,158% 주식 희석과 ETH 가격 의존도. 실질 매출이 $7.19M에 불과해 ETH 가격 하락 시 방어력 없음.",
-    "MAVAN 플랫폼 출시와 기관 투자 유치(Eightco $75M)가 기업 체질 변화의 시작점. ETH에 대한 확신이 있는 투자자에게 NAV 디스카운트는 매수 기회이나, 극도의 변동성 감수 필요."
+    "BMNR은 ETH 가격에 레버리지된 순수 크립토 프록시. NAV 디스카운트 ~9.3%($10.3B 자산 vs $9.34B 시총)가 매수 논거의 핵심. 배당수익률 4.9%도 매력적.",
+    "ETH $2,112 회복으로 $2,000 지지선 안착. 주간 61,000 ETH 적극 매수 전략이 장기 확신을 보여줌. MAVAN 플랫폼 출시 시 수익 다각화 가능.",
+    "다만 52주 고점 대비 -87% 하락, 극단적 변동성($3.20-$161), 규제 불확실성은 고위험 투자. ETH 가격 전망에 대한 확신이 있는 투자자에게 적합."
   ],
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/statistics/", "description": "BMNR 실시간 밸류에이션, 재무지표" },
-    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition", "description": "61,000 ETH 추가 매수, Tom Lee 약세장 종료 전망" },
-    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "ETH 보유 4,535,000 도달 공식 발표" },
-    { "name": "Simply Wall St (밸류에이션)", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/bitmine-immersion-technologies-bmnr-valuation-after-expanded", "description": "ETH 축적 후 밸류에이션 분석" },
-    { "name": "Simply Wall St (MAVAN)", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-bitmines-ethereum-accumulation-and-mavan-staking-launch-a", "description": "MAVAN 스테이킹 출시와 투자 케이스 변화" },
-    { "name": "Coinbase", "url": "https://www.coinbase.com/price/ethereum", "description": "ETH 실시간 가격 $2,105" },
-    { "name": "CoinDesk ETH", "url": "https://www.coindesk.com/price/ethereum", "description": "ETH 가격 $2,111, 24h 거래량" },
-    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "BMNR 52주 고저, 거래량" }
+    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "ETH 보유량 453만, 총 자산 $10.3B 공식 발표" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase", "description": "51,000 ETH 추가 매수 보도" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/company-announcements/bitmine-expands-eth-holdings-and-staking-revenue-power", "description": "스테이킹 수익 및 보유 확대 분석" },
+    { "name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/10/bitmines-9-billion-ethereum-treasury-9600-eth-move-to-coinbase-prime-sparks-strategic-speculation/", "description": "9,600 ETH Coinbase Prime 이동 보도" },
+    { "name": "Investing.com", "url": "https://www.investing.com/analysis/bitmine-technologies-ties-valuation-to-massive-ethereum-holdings-200676328", "description": "밸류에이션 분석" },
+    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "ETH 보유량 트래커" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "애널리스트 목표가" },
+    { "name": "CoinMarketCap", "url": "https://coinmarketcap.com/currencies/ethereum/", "description": "ETH 실시간 가격" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "주가 및 52주 범위" },
+    { "name": "The Coin Republic", "url": "https://www.thecoinrepublic.com/2026/03/09/bitmine-news-bmnr-stock-eyes-rebound-amid-60k-eth-purchase/", "description": "BMNR 반등 분석" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "BitMine 61K ETH 추가 매수 🔷 총 453만개 돌파",
-      "text": "BMNR이 지난 주 61,000 ETH 추가 매수. 총 4,534,563 ETH(공급량 3.76%). 자산 $10.3B vs 시총 $9.34B — NAV 디스카운트 10%. ETH $2,105 반등 중. P/B 0.75x에 살까? 🔗 investory.kro.kr/stock/BMNR/analysis/2026-03-14"
+      "hook": "ETH 453만 개 들고 있는 회사, NAV 할인 9% 🤔",
+      "text": "BitMine 자산 $10.3B vs 시총 $9.34B. 배당 4.9%, ETH $2,112 반등. 52주 고점 $161 → 현재 $20. 극단적 할인인가, 함정인가? 🔗 investory.kro.kr/stock/BMNR/analysis/2026-03-14"
     },
     "telegram": {
-      "hook": "🔷 BitMine: ETH 453만개 보유, 자산이 시총보다 $1B 더 많다",
-      "text": "📊 BMNR $20.54 (-0.05%)\n\n🔷 61,000 ETH 추가 매수로 총 4,534,563 ETH(공급량 3.76%) 달성. 크립토+현금 $10.3B vs 시총 $9.34B — NAV 디스카운트 지속.\n\n💰 ETH $2,105(+2.6%)으로 반등. 스테이킹 연수익 $174M.\n\n⚠️ 리스크: YoY 4,158% 주식 희석, 매출 $7.19M에 불과, ETH 가격 종속\n\n🎯 유일 애널리스트 Strong Buy $30(+46%)\n\nMicrostrategy의 BTC 전략을 ETH에 적용한 독보적 모델. ETH 확신 있다면 P/B 0.75x는 매력적이나 극도의 변동성 각오 필요.\n\n🔗 investory.kro.kr/stock/BMNR/analysis/2026-03-14"
+      "hook": "💎 BitMine: 세계 최대 ETH 보유사, NAV 할인에 매수 기회?",
+      "text": "📊 BMNR $20.54 (-0.05%)\n\n🔷 ETH 4,534,563개 보유 (총공급량 3.76%). 지난주 61,000 ETH 추가 매수. 총자산 $10.3B vs 시총 $9.34B → NAV 디스카운트 ~9.3%.\n\n💰 스테이킹 수익 연 $174M, 배당수익률 4.9%. 크립토 기업 중 드문 인컴 플레이.\n\n⚠️ 52주 변동 $3.20-$161 극단적. ETH 가격 100% 의존. 규제 리스크도 미확정.\n\n🎯 애널리스트 목표가 $47 (+129%)\n\nETH 반등에 베팅하는 레버리지 플레이. 리스크 감수 가능한 투자자용.\n\n🔗 investory.kro.kr/stock/BMNR/analysis/2026-03-14"
     }
   }
 }
