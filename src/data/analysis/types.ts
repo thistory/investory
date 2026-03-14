@@ -124,6 +124,12 @@ export interface StockAnalysisReport {
 
   overallOpinion: string | string[];
 
+  investmentVerdict: {
+    stance: "strong-buy" | "buy" | "hold" | "sell" | "strong-sell";
+    summary: string;
+    horizon: string;
+  };
+
   sources: AnalysisSource[];
 
   snsContent?: SnsContent;

@@ -177,6 +177,19 @@ Write collected data as JSON in the following structure:
     "현재 주가 위치와 앞으로의 방향을 쉽게 정리 (항상 마지막, 1문장)"
   ],
 
+  // Investment Verdict (최종 주관적 결론)
+  // 모든 분석을 종합한 후, 투자자에게 도움이 될 주관적 판단을 내린다.
+  // stance: 데이터와 상황을 종합한 현재 시점의 투자 판단
+  // summary: "왜 이 판단인지"를 2-3문장으로 설명. 구체적 근거(숫자, 이벤트)를 포함.
+  //   초보 투자자도 이해할 수 있게 쉬운 말로 쓴다.
+  //   예: "현재 PER 15배로 동종업계 평균(25배) 대비 저평가 상태이고, AI 매출이 분기마다 2배씩 성장 중이다. 다만 중국 규제 리스크가 있어 전액 투자보다는 분할 매수가 안전하다."
+  // horizon: 이 판단이 유효한 투자 기간 (예: "3-6개월", "1-2주 (이벤트 후 재평가 필요)", "6개월-1년")
+  "investmentVerdict": {
+    "stance": "buy",          // "strong-buy" | "buy" | "hold" | "sell" | "strong-sell"
+    "summary": "근거를 포함한 2-3문장의 주관적 결론",
+    "horizon": "3-6개월"       // 판단 유효 기간
+  },
+
   // Sources (minimum 8)
   "sources": [
     { "name": "Source name", "url": "https://...", "description": "Description" }

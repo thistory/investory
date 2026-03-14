@@ -162,6 +162,36 @@ export function AnalysisReport({ report }: AnalysisReportProps) {
         )}
       </div>
 
+      {/* 최종 투자 판단 */}
+      {report.investmentVerdict && (
+        <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg p-4 sm:p-6">
+          <h3 className="text-base sm:text-lg font-semibold mb-3">
+            {t("investmentVerdict")}
+          </h3>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <div className={`px-4 py-3 rounded-lg text-center sm:text-left flex-shrink-0 ${
+              report.investmentVerdict.stance === "strong-buy" ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300" :
+              report.investmentVerdict.stance === "buy" ? "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400" :
+              report.investmentVerdict.stance === "hold" ? "bg-yellow-500/10 text-yellow-700 dark:text-yellow-300" :
+              report.investmentVerdict.stance === "sell" ? "bg-red-500/10 text-red-600 dark:text-red-400" :
+              "bg-red-500/15 text-red-700 dark:text-red-300"
+            }`}>
+              <div className="text-xl sm:text-2xl font-bold">
+                {t(`verdict${report.investmentVerdict.stance === "strong-buy" ? "StrongBuy" : report.investmentVerdict.stance === "buy" ? "Buy" : report.investmentVerdict.stance === "hold" ? "Hold" : report.investmentVerdict.stance === "sell" ? "Sell" : "StrongSell"}` as "verdictStrongBuy")}
+              </div>
+              <div className="text-xs mt-1 opacity-75">
+                {t("verdictHorizon")}: {report.investmentVerdict.horizon}
+              </div>
+            </div>
+            <div className="flex-1 p-3 bg-gray-100 dark:bg-zinc-800/50 rounded-lg">
+              <p className="text-sm sm:text-base text-gray-700 dark:text-zinc-300 leading-relaxed">
+                {report.investmentVerdict.summary}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* 핵심 숫자 */}
       <Section title={t("keyMetrics")} icon="📊">
         <div className="space-y-2.5">
