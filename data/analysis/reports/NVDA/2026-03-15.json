@@ -1,0 +1,214 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-15",
+  "currentPrice": 180.25,
+  "marketCap": "$4.38T",
+
+  "businessSummary": {
+    "oneLiner": "AI 인프라의 절대 강자 — 데이터센터 GPU 80%+ 점유율, Blackwell·Vera Rubin으로 차세대 AI 패권 구축",
+    "description": "NVIDIA는 AI 인프라의 핵심 기업. FY2026 매출 $130.5B(+114% YoY), 데이터센터 매출 $115.2B(+142% YoY). 금요일 종가 $180.25(-1.58%). GTC 2026(3/16-19) 월요일 개막 — Jensen Huang 키노트에서 Vera Rubin, Blackwell Ultra B300, 에이전틱 AI CPU 발표 예상. 38명 애널리스트 Strong Buy. 컨센서스 목표가 $274.21(+52% 업사이드). Wedbush $300 목표가 상향. 데이터센터 2026-27 매출 $0.75T, 2027-28 $1T 전망. 시가총액 $4.38T.",
+    "howTheyMakeMoney": [
+      "데이터센터: 매출의 ~88% ($115.2B). AI 훈련/추론 GPU(H100/H200/Blackwell) + 네트워킹",
+      "게이밍: 매출의 ~8% ($10.4B). GeForce RTX GPU",
+      "자동차/로봇: 매출의 ~3%. DRIVE Orin/Thor 플랫폼",
+      "프로 비주얼라이제이션: ~1%. RTX 워크스테이션 GPU"
+    ],
+    "keyProducts": [
+      "H200",
+      "Blackwell B200/B300",
+      "Vera Rubin (차세대)",
+      "NVLink",
+      "CUDA",
+      "DGX SuperPOD",
+      "DRIVE Thor"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E Ratio", "value": "33.74", "interpretation": "AI 성장 반영한 프리미엄이나 과거 대비 합리적 수준." },
+    { "name": "Forward P/E", "value": "21.84", "interpretation": "FY2027 실적 반영 시 성장 대비 적정 밸류에이션." },
+    { "name": "매출 성장률 (YoY)", "value": "+114%", "interpretation": "FY2026 $130.5B. AI 수요 폭발적 성장 지속." },
+    { "name": "영업이익률", "value": "62.3%", "interpretation": "업계 최고 수준 마진. GPU 독점적 지위 반영." },
+    { "name": "FCF", "value": "$60.9B", "interpretation": "강력한 현금 창출력. AI 투자 자금 자체 조달 가능." },
+    { "name": "부채비율 (D/E)", "value": "0.13", "interpretation": "매우 건전한 재무구조. 사실상 무차입." },
+    { "name": "ROE", "value": "119.7%", "interpretation": "극도로 높은 자기자본이익률. 자본 효율성 최상." },
+    { "name": "PEG Ratio", "value": "0.57", "interpretation": "성장률 대비 저평가 신호. PEG < 1은 매수 기회 시사." }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 월요일 개막 — Jensen Huang 키노트, Vera Rubin·B300 발표 예상",
+      "description": "Motley Fool(3/14): GTC 3/16-19 산호세 컨벤션센터. Jensen Huang 키노트 월요일 저녁. Vera Rubin 아키텍처, Blackwell Ultra B300, 에이전틱 AI CPU 발표 기대. 작년 GTC에서 주가 +6.4% 상승."
+    },
+    {
+      "title": "데이터센터 매출 2026-27 $0.75T, 2027-28 $1T 전망",
+      "description": "TipRanks(3/10): 컨센서스 기준 데이터센터 2년 누적 $0.75T → $1T. Blackwell 램프업 + Rubin 출시가 핵심 성장 드라이버."
+    },
+    {
+      "title": "Wedbush, 목표가 $230→$300 상향 — AI 빌드아웃 장기화 확신",
+      "description": "TheStreet(3/7): 5성 애널리스트 Matt Bryson, Outperform 유지 + 목표가 $300. AI 인프라 투자 사이클 장기화에 대한 확신."
+    },
+    {
+      "title": "자동차/로봇 + Physical AI — 차세대 성장 동력",
+      "description": "DRIVE Thor 플랫폼으로 자율주행 시장 진입. GTC에서 Physical AI, 로봇 제어 플랫폼 발표 예상."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "AI 훈련/추론 GPU 80%+ 독점. CUDA 소프트웨어 생태계 + NVLink 네트워킹으로 전환 비용 극대화. 경쟁사 대비 2-3년 기술 리드.",
+    "moats": [
+      { "type": "기술 해자", "description": "Blackwell B300(FP4 성능 2x), Vera Rubin 아키텍처로 경쟁사 대비 2-3년 리드 유지." },
+      { "type": "소프트웨어 해자", "description": "CUDA + cuDNN + TensorRT — 수백만 개발자 생태계. 전환 비용이 극도로 높음." },
+      { "type": "네트워크 해자", "description": "NVLink + InfiniBand로 GPU 간 초고속 연결. 대규모 AI 클러스터에서 경쟁 불가." },
+      { "type": "공급 해자", "description": "TSMC 독점 파운드리 관계. 3nm/2nm 최우선 할당." }
+    ],
+    "competitors": [
+      { "name": "AMD", "detail": "MI300X로 추격 중이나 소프트웨어 생태계 격차 큼." },
+      { "name": "Intel", "detail": "Gaudi 3 출시. 시장 점유율 미미." },
+      { "name": "Broadcom", "detail": "Google TPU 등 맞춤형 ASIC. 특정 워크로드에서 경쟁." },
+      { "name": "Amazon (Trainium)", "detail": "자체 AI 칩으로 내부 수요 대체 시도." }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-03-14",
+      "headline": "NVIDIA GTC 2026 월요일 개막 — Jensen Huang 키노트 기대감 고조",
+      "significance": "3/16-19 산호세. Vera Rubin, B300, 에이전틱 AI CPU 발표 예상. 작년 GTC 기간 +6.4% 상승.",
+      "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "NVDA 금요일 $180.25 마감 — GTC 전 포지션 조정으로 -1.58%",
+      "significance": "GTC 앞두고 트레이더 포지션 정리. 시간외 $180.20으로 소폭 추가 하락.",
+      "url": "https://www.ibtimes.com/nvidia-nvda-stock-closes-18025-march-13-amid-pre-gtc-2026-anticipation-3799201"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "Yahoo Finance: 'GTC 2026 앞두고 애널리스트들이 주목하는 3가지'",
+      "significance": "Blackwell 램프업 현황, Vera Rubin 로드맵, 에이전틱 AI 전략이 핵심 관전 포인트.",
+      "url": "https://finance.yahoo.com/news/3-key-things-analysts-watching-153002452.html"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "TipRanks: 'GTC 앞두고 불스가 바를 높이고 있다'",
+      "significance": "38 Buy, 1 Hold. 컨센서스 데이터센터 매출 2026-27 $0.75T 전망. Strong Buy 유지.",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-ahead-of-gtc-2026-bulls-raise-the-bar"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "Motley Fool: 'NVIDIA 주식 — Buy, Sell, Hold?'",
+      "significance": "매출 성장 가속화 + 마진 확대 긍정적. 밸류에이션이 리스크 감당 가능한 수준인지가 핵심.",
+      "url": "https://www.fool.com/investing/2026/03/13/nvidia-stock-buy-sell-or-hold/"
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 274.21,
+    "highTarget": 300.00,
+    "lowTarget": 135.00,
+    "upsidePercent": 52.1,
+    "buyCount": 38,
+    "holdCount": 1,
+    "sellCount": 0,
+    "notableComment": "38명 Buy, 1명 Hold, 0명 Sell. Wedbush $300 목표가 상향. TipRanks Strong Buy. GTC 2026이 단기 촉매."
+  },
+
+  "risks": [
+    {
+      "severity": "high",
+      "title": "GTC 2026 기대 미달 시 실망 매도",
+      "description": "GTC 키노트가 높아진 기대에 미치지 못하면 단기 급락 가능. 작년처럼 +6.4% 반복 보장 없음."
+    },
+    {
+      "severity": "high",
+      "title": "AI 투자 사이클 둔화 우려",
+      "description": "하이퍼스케일러(Microsoft, Google, Meta)의 AI capex 지출이 정점을 찍으면 NVIDIA 매출 성장 급감 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 규제 강화",
+      "description": "미국 대중 반도체 수출 규제 추가 강화 시 데이터센터 매출 10-15% 영향."
+    },
+    {
+      "severity": "medium",
+      "title": "경쟁사 ASIC 칩 위협",
+      "description": "Google TPU, Amazon Trainium, Broadcom 맞춤 ASIC이 특정 추론 워크로드에서 GPU 대체 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "주가 YTD 정체 — 모멘텀 약화",
+      "description": "연초 $186에서 $180으로 소폭 하락. 3월 초 $190대에서 후퇴. S&P 500 3주 연속 하락과 동조."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "PEG 0.57 — 성장 대비 저평가",
+      "rationale": "Forward P/E 21.84에 +114% 성장률. PEG < 1은 성장주 기준 매수 신호."
+    },
+    {
+      "title": "GTC 2026 — 역대급 AI 이벤트 촉매",
+      "rationale": "Vera Rubin + B300 발표로 차세대 로드맵 확인. 작년 GTC 기간 +6.4% 상승 전례."
+    },
+    {
+      "title": "38/39 애널리스트 Buy — 사실상 만장일치",
+      "rationale": "38 Buy, 1 Hold, 0 Sell. 컨센서스 $274(+52%). Wedbush $300 최고 목표가."
+    },
+    {
+      "title": "FCF $60.9B + ROE 119.7% — 펀더멘털 최강",
+      "rationale": "자체 현금 창출로 모든 AI 투자 자금 조달. 부채비율 0.13, 사실상 무차입 경영."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 196.94,
+    "week52Low": 86.62,
+    "currentPositionPercent": 84.8,
+    "sma50": 183.50,
+    "sma50Signal": "below",
+    "sma200": 165.20,
+    "sma200Signal": "above",
+    "rsi": 42,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "NVIDIA는 AI 인프라의 사실상 독점 기업이며, 펀더멘털(매출 +114%, 마진 62%, FCF $60.9B)은 압도적이다.",
+    "GTC 2026 월요일 개막이 핵심 단기 촉매. Vera Rubin + B300 발표로 차세대 로드맵 확인 예정.",
+    "38/39 애널리스트 Buy, 컨센서스 $274(+52%). 현 주가는 성장 대비 합리적(PEG 0.57).",
+    "다만 GTC 기대 미달 시 실망 매도, AI 투자 사이클 정점 도달 시 성장 둔화 리스크 존재.",
+    "50일 MA($183.50) 아래에서 거래 중이나 200일 MA($165.20) 위. 중기 상승 추세는 유지."
+  ],
+
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "AI 인프라 독점 + PEG 0.57 저평가 + GTC 촉매. 38/39 애널리스트 Buy. 단기 변동성 감수 가능한 투자자에게 매수 추천.",
+    "horizon": "6-12개월"
+  },
+
+  "sources": [
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/", "description": "GTC 2026 일정 + 주가 전망" },
+    { "name": "IBTimes", "url": "https://www.ibtimes.com/nvidia-nvda-stock-closes-18025-march-13-amid-pre-gtc-2026-anticipation-3799201", "description": "NVDA 금요일 종가 $180.25" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/nvidia-stock-forecast-ahead-of-gtc-2026-bulls-raise-the-bar", "description": "GTC 전 애널리스트 전망" },
+    { "name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/5-star-analyst-revamps-nvidia-stock-price-target", "description": "Wedbush $300 목표가 상향" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA 컨센서스 $274.21" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/3-key-things-analysts-watching-153002452.html", "description": "GTC 3대 관전 포인트" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/13/nvidia-stock-buy-sell-or-hold/", "description": "NVDA Buy/Sell/Hold 분석" },
+    { "name": "24/7 Wall St", "url": "https://247wallst.com/companies/nvda/price-prediction", "description": "NVDA 가격 예측 $181.93" },
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 공식 업데이트" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/13/stock-market-today-march-13-nvidia-slips-as-gtc-2026-conference-looms/", "description": "3/13 시장 리뷰" }
+  ],
+
+  "snsContent": {
+    "threads": {
+      "hook": "월요일, Jensen Huang이 무대에 선다 🎤",
+      "text": "GTC 2026 개막 — Vera Rubin + B300 발표 예상.\n\n38명 애널리스트 Buy, 컨센서스 $274(+52%).\nPEG 0.57이면 AI의 왕이 저평가?\n\n작년 GTC 기간 +6.4% 상승.\n올해도 반복될까?\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-15"
+    },
+    "telegram": {
+      "hook": "GTC 2026 D-1, NVIDIA의 차세대 AI를 만나다 🚀",
+      "text": "📊 NVDA $180.25 (-1.58%) | Forward P/E 21.84\n\n🎯 GTC 2026 (3/16-19) 핵심:\n• Jensen Huang 키노트 월요일 저녁 (산호세)\n• Vera Rubin 아키텍처 + Blackwell Ultra B300 발표 예상\n• 에이전틱 AI CPU 피봇 — Physical AI 시대 선언?\n\n📈 펀더멘털:\n• 매출 +114% ($130.5B) | 마진 62.3%\n• FCF $60.9B | ROE 119.7%\n• 38 Buy / 1 Hold / 0 Sell\n\n⚡ PEG 0.57 = 성장 대비 저평가 신호\n작년 GTC +6.4% 선례. 올해도 서프라이즈?\n\nhttps://investory.kro.kr/stock/NVDA/analysis/2026-03-15"
+    }
+  }
+}
