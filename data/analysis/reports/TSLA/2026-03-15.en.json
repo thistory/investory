@@ -2,12 +2,12 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-15",
-  "currentPrice": 398.50,
-  "marketCap": "$1.49T",
+  "currentPrice": 391.20,
+  "marketCap": "$1.47T",
 
   "businessSummary": {
     "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, and energy",
-    "description": "Tesla is transitioning from EV manufacturing to an integrated AI/robotics/energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Friday close $398.50 (+0.88%). 'Macrohard' unveiled — Tesla-xAI joint project where 'Digital Optimus' can allegedly emulate entire companies' functions. FTC approved Tesla's $2B xAI investment swap for sub-1% SpaceX stake. European registrations rebounded +10% YoY but Motley Fool says 'far from a strong rebound.' GTC 2026 (3/16-19) opens Monday — Jensen Huang keynote to spotlight autonomous driving and agentic AI. Market cap $1.49T, P/E ~366x.",
+    "description": "Tesla is transitioning from EV manufacturing to an integrated AI/robotics/energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Friday close $391.20 (-0.96%). China Jan-Feb sales 127,728 units (+35% YoY) — contrasting BYD's decline. Reuters warns of potential third consecutive year of delivery decline. Forbes: 'Batteries are the real growth story.' GTC 2026 (3/16-19) opens tomorrow — Jensen Huang keynote expected to announce agentic AI CPU transition. FSD EU approval expected 3/20. Market cap $1.47T, P/E ~387x.",
     "howTheyMakeMoney": [
       "Vehicle sales: ~73% of revenue ($69.5B). Model 3/Y core, Model S/X discontinuation in Q2 2026",
       "Energy business: ~14% of revenue ($12.8B, +27% YoY). Megapack/Powerwall growth",
@@ -27,189 +27,208 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "365.75", "interpretation": "Historically overvalued. Extremely expensive relative to current earnings." },
-    { "name": "Forward P/E", "value": "189.17", "interpretation": "Still premium valuation even factoring FY2026 estimates." },
-    { "name": "P/S Ratio", "value": "15.48", "interpretation": "Overvalued vs. revenue. Reflects AI/robotics story premium." },
-    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "Revenue decline. Third consecutive year of delivery drop concerns." },
-    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Margin crushed from 17% in FY2022 to 4.6% by price cuts." },
+    { "name": "P/E Ratio", "value": "386.91", "interpretation": "Historically overvalued. Extremely expensive relative to current earnings." },
+    { "name": "Forward P/E", "value": "189.17", "interpretation": "Still at a premium even factoring in FY2026 estimates." },
+    { "name": "P/S Ratio", "value": "15.48", "interpretation": "Elevated relative to revenue. AI/robotics story premium embedded." },
+    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "Negative growth. Concerns over third consecutive year of delivery decline." },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Margin erosion from price cuts. Down from 17% in FY2022." },
     { "name": "FCF", "value": "$6.22B", "interpretation": "Positive cash flow maintained. Solid against $8.5B capex." },
     { "name": "Debt/Equity", "value": "0.18", "interpretation": "Healthy balance sheet. Net cash position of $29.3B." },
-    { "name": "ROE", "value": "4.93%", "interpretation": "Return on equity sharply declined. Profitability recovery is key." }
+    { "name": "ROE", "value": "4.93%", "interpretation": "Sharp decline in return on equity. Profitability recovery is key." }
   ],
 
   "growthDrivers": [
     {
-      "title": "Macrohard Unveiled — Tesla-xAI Joint 'Digital Optimus' Targets SaaS Market",
-      "description": "Barchart (3/13): Musk revealed 'Macrohard' — combining xAI LLMs with Tesla AI agents. Claims it can 'emulate the function of entire companies.' Uses Tesla AI4 chip, directly challenging SaaS market. Reigniting 'SaaSpocalypse' fears."
+      "title": "GTC 2026 Opens Tomorrow — Autonomous Driving & Agentic AI Spotlight",
+      "description": "NVIDIA GTC (3/16-19) Monday keynote at 11 AM PT. Vera Rubin + Blackwell Ultra B300 + agentic AI CPU racks expected. Indirect catalyst for Tesla FSD/robotaxi ecosystem. Historically, NVDA gained +6.4% during GTC week."
     },
     {
-      "title": "FTC Approves xAI↔SpaceX Equity Swap — IPO Optionality Secured",
-      "description": "Meyka (3/13): Tesla's $2B xAI investment converted to sub-1% SpaceX stake. FTC approved. Exposure to SpaceX's $350B+ private valuation, future IPO optionality."
+      "title": "China Jan-Feb Sales 127,728 Units (+35% YoY) — Outpacing BYD",
+      "description": "CNBC (3/13): CPCA data shows Tesla China-made EV sales rose 35% in first two months. BYD saw decline. Four consecutive months of sales growth."
     },
     {
-      "title": "GTC 2026 Opens Monday — Autonomous Driving & Agentic AI Spotlight",
-      "description": "NVIDIA GTC (3/16-19) with Jensen Huang keynote. Vera Rubin + Blackwell Ultra B300 expected. Indirect catalyst for Tesla FSD/robotaxi ecosystem."
+      "title": "Forbes: 'Batteries Are the Real Growth Story'",
+      "description": "Forbes (3/12): The EV growth engine era has passed, but energy business ($12.8B, +27% YoY) is the next growth pillar. Megapack demand surging."
     },
     {
-      "title": "China February EV Sales +91% YoY — Strong Local Momentum",
-      "description": "Reuters (3/11): China-made EV sales growing for 4 consecutive months. +91% impressive despite low base. Relative strength vs. BYD slowdown."
+      "title": "FSD Europe Approval Expected 3/20 — Regulatory Milestone",
+      "description": "FSD Netherlands approval pushed to 3/20. If approved, EU-wide expansion possible. NHTSA data submission (3/9) completed."
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "US EV market 50%+ share leader. Software/manufacturing/energy/FSD 8.2B-mile vertical integration is core moat. However, overtaken globally by BYD.",
+    "summary": "U.S. EV market leader with 50%+ share. Software/manufacturing/energy/FSD 8.2B miles vertical integration as core moat. Rebounding in China against BYD.",
     "moats": [
-      { "type": "Technology Moat", "description": "FSD 8.2B miles of driving data + AI4 proprietary chip. Macrohard joint venture with xAI expanding software moat." },
-      { "type": "Manufacturing Moat", "description": "5 Gigafactories. Gigacasting + 4680 battery cell internalization for cost advantage." },
-      { "type": "Energy Moat", "description": "Megapack/Powerwall/Supercharger network. Energy revenue +27% YoY, driving Tesla's overall growth." },
-      { "type": "Brand Moat", "description": "Global EV icon, but Musk's DOGE-related political activities eroding brand value." }
+      {
+        "type": "Autonomous Driving Data Moat",
+        "description": "8.2 billion FSD miles driven. Overwhelming training data advantage over competitors."
+      },
+      {
+        "type": "Vertical Integration",
+        "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)."
+      },
+      {
+        "type": "Charging Network Effect",
+        "description": "NACS as North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."
+      }
     ],
     "competitors": [
-      { "name": "BYD", "detail": "2025 global EV sales leader. Dominates Tesla on price competitiveness." },
-      { "name": "Rivian", "detail": "US pickup/SUV EV. VW investment stabilizing finances." },
-      { "name": "Lucid", "detail": "Premium EV. Saudi-backed funding." },
-      { "name": "NIO", "detail": "Chinese premium EV. Battery swap model." }
+      {
+        "name": "BYD",
+        "detail": "2025 global EV sales 2.26M (+28%). However, China sales declined in early 2026"
+      },
+      {
+        "name": "Lucid (LCID)",
+        "detail": "Washington state direct sales bill passed. Accelerating premium EV competition"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "Equal direct sales rights in Washington. R2 mass market entry"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "Expanding autonomous taxi service. Leading in L4 autonomy"
+      }
     ]
   },
 
   "recentNews": [
     {
-      "date": "2026-03-13",
-      "headline": "Tesla unveils 'Macrohard' — joint xAI project 'Digital Optimus' challenges SaaS market",
-      "significance": "Tesla AI4 chip + xAI LLM fusion. Claims to 'emulate entire company functions.' SaaSpocalypse fears reignited. Accelerates AI company pivot.",
-      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-13-tesla-turns-into-a-software-killer-with-macrohard-is-the-stock-a-buy-now"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "FTC approves Tesla's xAI→SpaceX equity swap",
-      "significance": "Tesla's $2B xAI investment converted to sub-1% SpaceX stake. SpaceX IPO optionality secured.",
-      "url": "https://meyka.com/blog/tsla-stock-today-march-13-ftc-oks-xai-swap-for-spacex-equity-1303/"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "Musk admits xAI 'not built right' — rebuilding underway",
-      "significance": "Weeks after Tesla invested $2B, Musk admits xAI needs foundation-up rebuild. Governance concerns intensify.",
-      "url": "https://electrek.co/2026/03/13/elon-musk-admits-xai-built-wrong-rebuild-tesla-spacex-investment/"
+      "date": "2026-03-14",
+      "headline": "Tesla 2026.8 Software Update — Comfort Braking New Feature",
+      "significance": "Continued OTA software updates. Comfort Braking improves driving experience.",
+      "url": "https://www.basenor.com/blogs/news/tesla-update-2026-8"
     },
     {
       "date": "2026-03-14",
-      "headline": "European EV registrations +10% YoY — first rebound after 13-month decline streak",
-      "significance": "Positive but Motley Fool says 'far from a strong or secure rebound.' Model Y -24% but overall +10%.",
-      "url": "https://www.fool.com/investing/2026/03/14/finally-a-little-good-news-for-tesla-investors-or/"
+      "headline": "Motley Fool: Should You Buy Tesla Below $400?",
+      "significance": "Catalysts approaching but risks persist. Valuation debate continues.",
+      "url": "https://www.fool.com/investing/2026/03/14/should-you-buy-tesla-while-its-below-400/"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "CNBC: Tesla China Jan-Feb Sales +35% (127,728 Units), BYD Declines",
+      "significance": "China market rebound confirmed. Relative strength vs BYD. Four consecutive months of growth.",
+      "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html"
     },
     {
       "date": "2026-03-12",
-      "headline": "Forbes: 'Tesla's best growth story isn't robotaxis — it's batteries'",
-      "significance": "Megapack/energy business emerging as Tesla's real growth engine. +27% growth while EV deliveries decline.",
+      "headline": "Forbes: Tesla's Best Growth Story Isn't Robotaxis — It's Batteries",
+      "significance": "Energy business ($12.8B) as next-gen growth driver. EV growth engine narrative shifting.",
       "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/"
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Reuters: Tesla Delivery Slide May Stretch to Third Year, Cash Burn Looms",
+      "significance": "Investors and analysts cutting delivery estimates. Profit pressure intensifying.",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/"
     }
   ],
 
   "analystOpinions": {
     "consensusTarget": 406.84,
-    "highTarget": 460.00,
-    "lowTarget": 85.00,
-    "upsidePercent": 2.09,
-    "buyCount": 15,
+    "highTarget": 600.00,
+    "lowTarget": 25.28,
+    "upsidePercent": 4.00,
+    "buyCount": 12,
     "holdCount": 12,
-    "sellCount": 8,
-    "notableComment": "BofA resumes Buy + $460 target. Robotaxi launch in 7 new markets expected. Motley Fool: 'Below $400 is more interesting entry point, but FSD/robotaxi delay risks persist.'"
+    "sellCount": 6,
+    "notableComment": "30 analysts consensus Hold, average target $406.84 (+4%). MarketBeat basis. TipRanks $399.25. Extremely divided — BofA $460 Buy vs bears at $25."
   },
 
   "risks": [
     {
       "severity": "critical",
-      "title": "Third consecutive year of delivery decline risk",
-      "description": "FY2025 deliveries 1.63M (-8.5% YoY). Second straight year of decline. No FY2026 delivery guidance adds uncertainty."
+      "title": "Potential Third Consecutive Year of Delivery Decline",
+      "description": "Reuters reports investors and analysts projecting 2026 delivery decline. Revenue and profit pressure simultaneous."
     },
     {
       "severity": "high",
-      "title": "Operating margin collapse — down to 4.6%",
-      "description": "Crashed from 17% in FY2022 to 4.6% in FY2025. Price war + $20B capex burden may push FCF to -$5.19B."
+      "title": "Extreme Overvaluation",
+      "description": "P/E 387x, Forward P/E 189x, PEG 4.02. Difficult to justify against current earnings."
     },
     {
       "severity": "high",
-      "title": "P/E 366x — extreme valuation risk",
-      "description": "Extraordinarily overvalued relative to current earnings. Major correction possible if AI/robotics story doesn't materialize."
-    },
-    {
-      "severity": "high",
-      "title": "Musk DOGE/political risk + xAI governance",
-      "description": "DOGE activities damaging brand. xAI 'rebuild' admission raises questions about Tesla's $2B investment justification."
+      "title": "Executive Exodus Accelerating",
+      "description": "VP of Finance departed after 17 years. Leadership stability risk deepening."
     },
     {
       "severity": "medium",
-      "title": "BYD global #1 — intensifying competition in China/Europe",
-      "description": "BYD reclaimed global EV sales crown. Price competition intensifying in Europe and Southeast Asia."
+      "title": "FSD Europe Approval May Face Further Delays",
+      "description": "Already pushed from February to 3/20. Regulatory uncertainty persists."
+    },
+    {
+      "severity": "medium",
+      "title": "Geopolitical Risk — Iran Tensions, Oil Above $100",
+      "description": "Rising oil may accelerate EV transition but increases macro uncertainty."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "Macrohard + SpaceX stake — AI platform transition accelerating",
-      "rationale": "Tesla-xAI joint Macrohard enters AI software market. SpaceX equity swap provides exposure to $350B+ private asset."
+      "title": "GTC Tomorrow + FSD EU Approval 3/20 — Double Catalyst",
+      "rationale": "3/16 GTC keynote + 3/20 FSD EU approval — two potential catalysts in one week. Historically GTC week sees NVDA +6.4%."
     },
     {
-      "title": "Energy business +27% YoY — hidden growth engine",
-      "rationale": "Megapack/Powerwall revenue $12.8B. Energy business maintaining high growth despite EV slowdown."
+      "title": "Strong China Sales Rebound +35% YoY",
+      "rationale": "Jan-Feb 127,728 units, outperforming BYD. Four consecutive months of growth. Global demand floor confirmed."
     },
     {
-      "title": "FSD European approval imminent (3/20) — regulatory milestone",
-      "rationale": "FSD Netherlands approval expected 3/20. EU-wide expansion could drive subscription revenue surge."
+      "title": "Energy Business High Growth — Forbes 'Real Growth Story'",
+      "rationale": "Energy revenue $12.8B (+27% YoY). Megapack demand explosion. Batteries as next growth pillar."
     },
     {
-      "title": "RSI 28 — technically oversold territory",
-      "rationale": "RSI below 30 signals oversold. Short-term technical bounce possible near $400 psychological support."
+      "title": "Net Cash $29.3B — Robust Balance Sheet",
+      "rationale": "D/E 0.18, cash $44B. Overwhelming financial stability vs competitors."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 498.83,
-    "week52Low": 214.25,
-    "currentPositionPercent": 64.8,
-    "sma50": 420.92,
+    "week52High": 488.54,
+    "week52Low": 247.85,
+    "currentPositionPercent": 59.55,
+    "sma50": 420.64,
     "sma50Signal": "below",
-    "sma200": 424.66,
+    "sma200": 393.45,
     "sma200Signal": "below",
-    "rsi": 28,
-    "rsiSignal": "oversold"
+    "rsi": 40.02,
+    "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Tesla stands at a pivotal transition from EV company to AI platform.",
-    "Macrohard (Tesla+xAI) and SpaceX equity swap strengthen the AI narrative, but Musk's xAI 'rebuild' admission exposes execution risk.",
-    "Three consecutive years of delivery decline, 4.6% operating margin, and P/E 366x raise serious questions about current valuation.",
-    "Energy business (+27%) and FSD European approval (3/20) provide near-term catalysts. GTC 2026 Monday opening should reignite AI theme.",
-    "RSI 28 oversold but death cross (50-day MA below 200-day MA) confirmed — cautious approach needed until trend reversal is confirmed."
+    "Tesla at $391.20 trades below both the 50-day ($421) and 200-day ($393) moving averages — a bearish technical zone.",
+    "However, China sales +35% rebound and Forbes' 'batteries = real growth story' assessment support fundamentals.",
+    "Tomorrow's GTC 2026 keynote and 3/20 FSD EU approval — two catalysts concentrated in one week.",
+    "P/E 387x is extreme, but energy/robotics/FSD narratives could trigger re-rating if realized.",
+    "Near-term: Entering catalyst week. Mid-term: Delivery turnaround confirmation needed. Hold-to-buy territory."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "AI pivot narrative is compelling, but deteriorating fundamentals (revenue↓, margin↓) and extreme valuation (P/E 366x) create conflict. Oversold bounce possible but trend confirmation needed.",
+    "summary": "Entering GTC+FSD catalyst week. China rebound is positive but valuation burden persists. Await event outcomes for conviction.",
     "horizon": "6-12 months"
   },
 
   "sources": [
-    { "name": "Barchart", "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-13-tesla-turns-into-a-software-killer-with-macrohard-is-the-stock-a-buy-now", "description": "Tesla Macrohard announcement analysis" },
-    { "name": "Meyka", "url": "https://meyka.com/blog/tsla-stock-today-march-13-ftc-oks-xai-swap-for-spacex-equity-1303/", "description": "FTC xAI-SpaceX equity swap approval" },
-    { "name": "Electrek", "url": "https://electrek.co/2026/03/13/elon-musk-admits-xai-built-wrong-rebuild-tesla-spacex-investment/", "description": "Musk admits xAI rebuild" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/finally-a-little-good-news-for-tesla-investors-or/", "description": "European EV registration +10% analysis" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA real-time statistics, valuation, and financial data" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html", "description": "China Jan-Feb sales +35%, 127,728 units" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/", "description": "Batteries as the real growth story" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/", "description": "Third consecutive delivery decline concerns" },
     { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/should-you-buy-tesla-while-its-below-400/", "description": "Below $400 buying opportunity analysis" },
-    { "name": "Forbes", "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/", "description": "Tesla battery growth story" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/", "description": "China EV sales +91%" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA analyst consensus $406.84" },
-    { "name": "ainvest", "url": "https://www.ainvest.com/news/tesla-shares-drop-3-14-bearish-candlestick-patterns-moving-averages-confirm-downtrend-2603/", "description": "TSLA technical analysis — RSI 28, death cross" },
-    { "name": "InvestingCube", "url": "https://news.investingcube.com/shares/tesla-stock-400-floor-crack-and-what-it-means-for-your-portfolio/", "description": "$400 support level breakdown" }
+    { "name": "Basenor", "url": "https://www.basenor.com/blogs/news/tesla-update-2026-8", "description": "Tesla 2026.8 Comfort Braking update" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA consensus target $406.84" },
+    { "name": "Finbold", "url": "https://finbold.com/chatgpt-sets-tesla-stock-price-target-for-late-2026-as-oil-soars-above-100/", "description": "Year-end 2026 target $472 forecast" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "Real-time charts and technical analysis" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "Tesla just declared war on SaaS 🔥",
-      "text": "Macrohard — Tesla+xAI joint 'Digital Optimus' claims to replace entire company functions.\n\nSame day: Musk admits xAI was 'not built right' 🤔\n\nRSI 28 oversold, below $400. GTC opens Monday.\n\nWould you buy here?\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-15"
+      "hook": "Tesla $391, GTC Tomorrow + FSD Approval This Week 📢",
+      "text": "China sales +35% (127,728 units), BYD declines. Forbes: 'Batteries are the real growth story.' GTC keynote tomorrow + FSD EU approval 3/20. Buy below $400? 🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-15"
     },
     "telegram": {
-      "hook": "Tesla declares war on the SaaS market ⚡",
-      "text": "📊 TSLA $398.50 (+0.88%) | P/E 366x\n\n🔥 Key developments:\n• Macrohard unveiled — Tesla AI4 chip + xAI LLM to 'emulate entire companies'\n• FTC approves xAI↔SpaceX equity swap ($350B+ asset exposure)\n• But Musk admits xAI was 'not built right' — rebuilding\n\n📉 Technicals:\n• RSI 28 oversold | Below 50-day MA $421 & 200-day MA $425\n• Death cross confirmed — short-term bearish bias\n\n⚡ Catalysts: GTC 2026 (3/16) + FSD EU approval (3/20)\n\nEnergy +27% growth is real, but EV deliveries declining for 3rd year.\nAI dream vs. EV reality — where do you place your bet?\n\nhttps://investory.kro.kr/stock/TSLA/analysis/2026-03-15"
+      "hook": "🚗 Tesla $391 — GTC Opens Tomorrow, Catalyst Week Begins",
+      "text": "📊 TSLA $391.20 (Friday close -0.96%)\n\n🇨🇳 China Jan-Feb sales 127,728 units (+35% YoY) — BYD declines. 4 consecutive months of growth.\n\n🔋 Forbes: 'Not robotaxis, batteries are the real growth story.' Energy $12.8B (+27%).\n\n🎪 GTC 2026 keynote tomorrow! Vera Rubin + agentic AI CPU. Historically +6.4% during GTC week.\n\n📅 FSD EU approval expected 3/20 — double catalyst in one week.\n\n📐 Below 50-day $421 & 200-day $393. RSI 40.\n🎯 Consensus Hold, target $407 (+4%)\n\nCatalyst week — outcomes will determine direction.\n\n🔗 investory.kro.kr/stock/TSLA/analysis/2026-03-15"
     }
   }
 }
