@@ -2,122 +2,100 @@
   "symbol": "BMNR",
   "companyName": "BitMine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-15",
-  "currentPrice": 22.41,
+  "currentPrice": 20.54,
   "marketCap": "$9.34B",
 
   "businessSummary": {
     "oneLiner": "세계 최대 기업용 이더리움 보유사 — 453만 ETH($10.3B 크립토+현금) 트레저리 전략",
-    "description": "BitMine은 이더리움 중심 크립토 트레저리 기업. 4,534,563 ETH(총공급량 3.76%) 보유, 스테이킹으로 연 $174M 수익 창출. 금요일 종가 $22.41(+9.04%). ETH $2,074. B. Riley 목표가 $47→$30 하향(Buy 유지), Cantor Fitzgerald $39 Overweight 신규 커버리지. 기관 투자자 Newbridge·Menard Financial 신규 매수. The Block: 4,473,587 ETH($9.27B). 연초 대비 -27% 하락이나 주간 +6% 반등. 52주 고점 $161 대비 -86% 하락 지속. MAVAN 스테이킹 플랫폼 출시 임박.",
+    "description": "BitMine은 이더리움 중심 크립토 트레저리 기업. 4,534,563 ETH(총공급량 3.76%) 보유, 스테이킹으로 수익 창출. 금요일 종가 $20.54(-0.05%). ETH $2,076 수준. B. Riley $30 Buy(하향), Cantor Fitzgerald $39 Overweight. 직원 3명으로 운영되는 극도로 린한 구조. 시총 $9.3B vs 크립토+현금 $10.3B — 순자산 대비 할인 거래 중.",
     "howTheyMakeMoney": [
-      "ETH 스테이킹 수익: 300만+ ETH 스테이킹 → 연 ~$174M 수익",
-      "이더리움 가격 상승: 보유 ETH의 시가 평가 이익",
-      "마이닝 운영: GPU/ASIC 마이닝 인프라 (비중 감소)",
-      "MAVAN 플랫폼: 2026 출시 예정 — 차세대 수익 모델"
+      "ETH 스테이킹 수익 (연 ~$174M 추정)",
+      "크립토 자산 가치 상승 차익",
+      "BTC 보유 (195 BTC)",
+      "Beast Industries 투자 ($200M)"
     ],
     "keyProducts": [
-      "ETH Treasury (453만 ETH)",
-      "스테이킹 인프라",
-      "MAVAN (2026 출시)",
-      "마이닝 팜"
+      "ETH 트레저리 — 4,534,563 ETH (공급량 3.76%)",
+      "BTC 트레저리 — 195 BTC",
+      "Beast Industries 지분 — $200M",
+      "스테이킹 인프라"
     ]
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "-23.56", "interpretation": "순손실 지속. 크립토 트레저리 기업 특성상 P/E보다 NAV 기준 평가 적절." },
-    { "name": "배당수익률", "value": "4.9%", "interpretation": "ETH 스테이킹 기반 배당. 크립토 기업 중 드문 배당 지급." },
-    { "name": "시가총액", "value": "$9.34B", "interpretation": "NAV($10B+) 대비 ~6% 디스카운트. 할인 축소 추세." },
-    { "name": "ETH 보유량", "value": "4,534,563 ETH", "interpretation": "ETH 총공급량 3.76%. 시장에 직접적 영향력." },
-    { "name": "ETH 가격", "value": "$2,074", "interpretation": "ETH $2,000대 유지. $2,100 저항선 돌파 시도 중." },
-    { "name": "스테이킹 수익", "value": "연 ~$174M", "interpretation": "300만+ ETH 스테이킹으로 안정적 현금흐름 창출." },
-    { "name": "52주 변동폭", "value": "$3.92 - $161.00", "interpretation": "극단적 변동성. 크립토 레버리지 효과 반영." },
-    { "name": "연초 대비", "value": "-27%", "interpretation": "크립토 시장 조정 구간. ETH 반등 시 주가 레버리지 효과." }
+    { "name": "P/B", "value": "0.75", "interpretation": "장부가 대비 25% 할인 거래. ETH 자산가치 미반영" },
+    { "name": "Forward P/E", "value": "27.03", "interpretation": "스테이킹 수익 기반 미래 이익 기대" },
+    { "name": "ETH 보유량", "value": "4,534,563 ETH", "interpretation": "전체 공급량 3.76%. 단일 기업 최대" },
+    { "name": "크립토+현금 총자산", "value": "$10.3B", "interpretation": "시총 $9.3B 대비 프리미엄. NAV 대비 할인" },
+    { "name": "현금", "value": "$887.7M", "interpretation": "추가 ETH 매수 여력 충분" },
+    { "name": "52주 수익률", "value": "+170.26%", "interpretation": "1년간 2.7배 상승. ETH 트레저리 전략 인정" },
+    { "name": "공매도 비율", "value": "4.87%", "interpretation": "적정 수준의 숏 포지션. 과도한 약세 베팅은 아님" },
+    { "name": "RSI", "value": "46.45", "interpretation": "중립 구간. 과매수·과매도 아님" }
   ],
 
   "growthDrivers": [
     {
-      "title": "B. Riley $30 Buy + Cantor Fitzgerald $39 Overweight — 애널리스트 커버리지 확대",
-      "description": "Daily Political(3/14): B. Riley 목표가 $47→$30 하향하나 Buy 유지. Cantor Fitzgerald $39 Overweight 신규 커버리지. 기관 관심 증가."
+      "title": "60,976 ETH 추가 매수 — 총 453만 ETH 달성",
+      "description": "PRNewswire(3/9): 60,976 ETH 추가 매수로 총 보유량 4,534,563 ETH. 총 크립토+현금+투자 $10.3B 달성. 공격적 매집 지속."
+    },
+    {
+      "title": "B. Riley $30 Buy + Cantor Fitzgerald $39 Overweight — 듀얼 커버리지",
+      "description": "B. Riley 목표가 $47→$30 하향하나 Buy 유지. Cantor Fitzgerald $39 Overweight 신규 커버리지. 기관 커버리지 확대로 유동성 개선 기대."
+    },
+    {
+      "title": "ETH $2,076 — Pectra 업그레이드 기대감",
+      "description": "이더리움 Pectra 업그레이드(2026 상반기) 기대감 + $2,100 저항선 돌파 시도. ETH 가격 회복이 BMNR 주가 직접 촉매."
     },
     {
       "title": "기관 투자자 신규 매수 — Newbridge, Menard Financial Group",
-      "description": "MarketBeat(3/14): Newbridge Financial·Menard Financial Group 등 기관 투자자가 Q3에 BMNR 신규 매수. 기관 참여 확대."
-    },
-    {
-      "title": "61,000 ETH 추가 매수 — 2026년 최대 주간 매수",
-      "description": "Yahoo Finance(3/11): 지난 주 60,976 ETH 추가 매수, 2026년 최대 규모. 총 4,534,563 ETH. 5% 공급량 목표 향해 적극 축적."
-    },
-    {
-      "title": "MAVAN 스테이킹 플랫폼 출시 임박 — 신규 수익 모델",
-      "description": "Yahoo Finance: Made-in-America MAVAN 스테이킹 플랫폼 출시 임박. 기관 스테이킹 시장 공략으로 수익 다각화."
+      "description": "MarketBeat: 기관 투자자들의 신규 포지션 구축 확인. 기관 보유 비중 31.69%로 확대 중."
     }
   ],
 
   "competitiveAdvantage": {
     "summary": "세계 최대 기업 ETH 보유량(453만, 공급량 3.76%)이 핵심 해자. MicroStrategy의 BTC 전략을 ETH에 적용한 독보적 포지셔닝.",
     "moats": [
-      {
-        "type": "ETH 공급량 3.76% 보유",
-        "description": "453만 ETH 보유로 가격에 직접적 영향력. 매도 시 시장 충격 가능."
-      },
-      {
-        "type": "스테이킹 수익 기반 배당",
-        "description": "ETH 스테이킹으로 연 $174M 안정적 수익. 크립토 기업 중 드문 배당 지급."
-      },
-      {
-        "type": "선점자 우위",
-        "description": "이더리움 트레저리 전략의 첫 주자. 기관 신뢰와 브랜드 구축."
-      }
+      { "type": "ETH 공급량 3.76% 보유", "description": "453만 ETH 보유로 시장에 직접적 영향력. 매도 시 가격 충격 가능." },
+      { "type": "스테이킹 수익 기반", "description": "ETH 스테이킹으로 안정적 수익 창출. 크립토 기업 중 드문 수익 모델." },
+      { "type": "선점자 우위", "description": "이더리움 트레저리 전략의 첫 주자. MicroStrategy의 ETH 버전으로 기관 인식." }
     ],
     "competitors": [
-      {
-        "name": "MicroStrategy (MSTR)",
-        "detail": "BTC 트레저리 전략 원조. BTC $72K 랠리로 동반 강세"
-      },
-      {
-        "name": "Galaxy Digital (GLXY)",
-        "detail": "디지털 자산 투자·거래·마이닝"
-      },
-      {
-        "name": "Coinbase (COIN)",
-        "detail": "크립토 거래소. 커스터디·스테이킹 서비스"
-      },
-      {
-        "name": "Ethereum Foundation",
-        "detail": "ETH 생태계 관리. 직접 경쟁은 아니나 영향력"
-      }
+      { "name": "MicroStrategy (MSTR)", "detail": "BTC 트레저리 전략 원조. BTC 중심 vs BMNR의 ETH 중심" },
+      { "name": "Galaxy Digital (GLXY)", "detail": "크립토 금융 서비스. 다각화된 포트폴리오" },
+      { "name": "Coinbase (COIN)", "detail": "크립토 거래소. 스테이킹 서비스 제공" }
     ]
   },
 
   "recentNews": [
     {
-      "date": "2026-03-14",
-      "headline": "B. Riley 목표가 $47→$30 하향(Buy 유지), Cantor Fitzgerald $39 Overweight 신규",
-      "significance": "목표가 하향이나 Buy 유지. 신규 IB 커버리지 시작은 긍정적.",
-      "url": "https://www.dailypolitical.com/2026/03/14/newbridge-financial-services-group-inc-purchases-new-shares-in-bitmine-immersion-technologies-inc-bmnr.html"
+      "date": "2026-03-09",
+      "headline": "BitMine, ETH 보유량 453만 토큰 달성 — 총 크립토+현금 $10.3B",
+      "significance": "60,976 ETH 추가 매수. 크립토+현금+투자 $10.3B로 시총($9.3B) 초과",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"
     },
     {
       "date": "2026-03-14",
-      "headline": "기관 투자자 Newbridge·Menard Financial Group BMNR 신규 매수",
-      "significance": "기관 참여 확대. Q3 13F 공시 기준 신규 포지션.",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-menard-financial-group-llc-takes-position-in-bitmine-immersion-technologies-inc-bmnr-2026-03-14/"
-    },
-    {
-      "date": "2026-03-14",
-      "headline": "ETH $2,074 — $2,100 저항선 돌파 시도, 강세 전망 우세",
-      "significance": "CoinDCX: ETH $2,200 목표. BMNR 주가와 직결되는 ETH 가격 동향.",
-      "url": "https://coindcx.com/blog/price-predictions/ethereum-price-weekly/"
-    },
-    {
-      "date": "2026-03-11",
-      "headline": "2026년 최대 주간 ETH 매수 — 60,976 ETH 추가 축적",
-      "significance": "총 453만 ETH 달성. 5% 목표 향해 적극 매수 지속.",
-      "url": "https://finance.yahoo.com/news/bitmine-massive-ethereum-bet-deepens-091211652.html"
+      "headline": "B. Riley, 목표가 $47→$30 하향 — Buy 유지",
+      "significance": "ETH 가격 하락 반영한 목표가 하향이나 매수 의견 유지. 현재가 대비 +46% 업사이드",
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/"
     },
     {
       "date": "2026-03-09",
-      "headline": "ETH 보유 $10.3B 공시 — 총 크립토+현금 자산 업데이트",
-      "significance": "453만 ETH + BTC 195개 + Beast Industries $200M + 현금. NAV 투명성 확보.",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"
+      "headline": "BMNR +5.91% 상승 — $10.3B 트레저리 공개 후 급등",
+      "significance": "크립토 자산 가치 공개 후 투자 심리 개선",
+      "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_09/"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "Cantor Fitzgerald, $39 Overweight 신규 커버리지 개시",
+      "significance": "대형 증권사 커버리지로 기관 인지도 확대. 현재가 대비 +90% 업사이드 제시",
+      "url": "https://www.tipranks.com/stocks/bmnr/forecast"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "Tokenist: BMNR $10.3B 크립토 트레저리 공개 후 주가 상승",
+      "significance": "순자산 가치(NAV) 대비 할인 거래 부각",
+      "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/"
     }
   ],
 
@@ -125,106 +103,103 @@
     "consensusTarget": 34.50,
     "highTarget": 39.00,
     "lowTarget": 30.00,
-    "upsidePercent": 53.95,
+    "upsidePercent": 67.96,
     "buyCount": 2,
-    "holdCount": 1,
+    "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley $30 Buy, Cantor Fitzgerald $39 Overweight. 소형주 특성상 커버리지 제한적이나 커버하는 모든 애널리스트가 Buy. NAV 대비 디스카운트가 핵심 밸류에이션 지표."
+    "notableComment": "2명 애널리스트 모두 Buy 이상. B. Riley $30, Cantor Fitzgerald $39. StockAnalysis 기준 1명 $47 제시. 현재가 대비 +68% 업사이드."
   },
 
   "risks": [
     {
       "severity": "critical",
-      "title": "ETH 가격 급락 시 NAV 붕괴",
-      "description": "자산의 90%+가 ETH. ETH 50% 하락 시 NAV $5B 이하로 급감. 극단적 단일 자산 집중."
+      "title": "ETH 가격 의존도 극단적 — 단일 자산 리스크",
+      "description": "매출의 사실상 전부가 ETH 가격에 연동. ETH 50% 하락 시 NAV 급감. 분산 없음."
     },
     {
       "severity": "high",
-      "title": "52주 고점 대비 -86% — 극단적 하락 지속",
-      "description": "$161→$22. 크립토 사이클 변동성. 회복에 300%+ 상승 필요."
+      "title": "주식 희석 — YoY 4,158% 증가",
+      "description": "1년간 주식 수 41배 이상 증가. 기존 주주 극심한 희석. 추가 발행 가능성 상존."
     },
     {
       "severity": "high",
-      "title": "적자 지속 (P/E -23.56)",
-      "description": "운영 적자 지속. 스테이킹 수익만으로 운영비 충당 불확실."
+      "title": "TTM 순손실 -$4.87B — 실질 영업 수익 미미",
+      "description": "크립토 평가손실 반영이나, 실질 매출 $7.2M으로 영업 자체 수익성 부재."
     },
     {
       "severity": "medium",
-      "title": "B. Riley 목표가 36% 하향 ($47→$30)",
-      "description": "커버리지 유지하나 대폭 하향. 시장 기대 하향 조정."
+      "title": "직원 3명 — 극단적 린 구조의 양면성",
+      "description": "비용 효율적이나 운영 리스크. 키맨 의존도 극심."
     },
     {
       "severity": "medium",
-      "title": "규제 리스크 — ETH 증권 분류 가능성",
-      "description": "SEC의 ETH 증권 분류 논의. 규제 변동 시 사업 모델 타격."
+      "title": "크립토 규제 환경 불확실성",
+      "description": "미국 SEC의 크립토 규제 방향에 따라 사업 모델 자체 위험 가능."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "NAV 대비 ~6% 디스카운트 — 순자산 가치 하회",
-      "rationale": "ETH $2,074 기준 NAV ~$10B vs 시총 $9.34B. 디스카운트 축소 시 상승 여력."
+      "title": "P/B 0.75 — 순자산 대비 25% 할인",
+      "rationale": "장부가($27.54/주) 대비 현재가($20.54) 크게 할인. 크립토+현금 $10.3B vs 시총 $9.3B. NAV 대비 저평가."
     },
     {
-      "title": "애널리스트 전원 Buy — B. Riley $30 + Cantor $39",
-      "rationale": "커버하는 모든 애널리스트가 Buy/Overweight. 평균 목표가 $34.50(+54%)."
+      "title": "ETH 상승 레버리지 — 주가 베타 효과",
+      "rationale": "ETH 가격 상승 시 보유 자산 가치 직접 반영. ETH $2,500 도달 시 NAV $12B+ 가능."
     },
     {
-      "title": "4.9% 배당수익률 — 크립토 기업 유일",
-      "rationale": "스테이킹 수익 기반 배당. 인컴 투자자에게 크립토 노출 제공."
+      "title": "애널리스트 전원 Buy — 평균 목표가 $34.50",
+      "rationale": "커버리지 2명 모두 Buy 이상. 최고 $39 제시. 현재가 대비 +68% 업사이드."
     },
     {
-      "title": "기관 투자자 신규 매수 증가",
-      "rationale": "Newbridge, Menard Financial 등 기관 참여 확대. 소형주에서 기관 관심은 긍정 시그널."
+      "title": "ETH Pectra 업그레이드 — 2026 상반기 촉매",
+      "rationale": "Pectra 업그레이드로 ETH 스테이킹 효율 개선. BMNR 스테이킹 수익 확대 기대."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 161.00,
-    "week52Low": 3.92,
-    "currentPositionPercent": 11.77,
-    "sma50": 25.50,
+    "week52High": 47.80,
+    "week52Low": 5.10,
+    "currentPositionPercent": 36.15,
+    "sma50": 24.30,
     "sma50Signal": "below",
-    "sma200": 45.00,
+    "sma200": 36.14,
     "sma200Signal": "below",
-    "rsi": 42.00,
+    "rsi": 46.45,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "BMNR $22.41은 NAV($10B+) 대비 ~6% 디스카운트. ETH 가격 반등 시 상승 여력이 크다.",
-    "B. Riley·Cantor Fitzgerald 양대 IB가 모두 Buy/Overweight — 커버리지 확대는 긍정적.",
-    "기관 투자자(Newbridge, Menard Financial) 신규 매수도 소형주에서 의미 있는 시그널.",
-    "다만 52주 고점 대비 -86%, 적자 지속, ETH 단일 자산 극단적 집중이 핵심 리스크.",
-    "ETH $2,100 돌파 시 모멘텀 가속 가능. 크립토 사이클 베팅의 레버리지 플레이."
+    "BMNR은 '이더리움의 MicroStrategy'로서 독보적 포지셔닝을 확보했다. 453만 ETH(공급량 3.76%)은 단일 기업 최대이며, P/B 0.75로 순자산 대비 할인 거래 중이다.",
+    "그러나 ETH 단일 자산 의존, 41배 주식 희석, TTM 순손실 $4.87B는 심각한 리스크. 크립토 트레저리 전략의 성공은 전적으로 ETH 가격에 달려있다.",
+    "ETH가 $2,100 저항선을 돌파하고 Pectra 업그레이드가 성공적으로 진행될 경우 $30+ 도달 가능. 반면 ETH 추가 하락 시 $15 이하도 가능. 고위험-고수익 투자."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "NAV 디스카운트 + 애널리스트 전원 Buy + 기관 매수 증가. ETH 반등 시 높은 레버리지. 고위험·고보상.",
+    "summary": "NAV 대비 할인 + 애널리스트 전원 Buy. ETH 상승 시 강력한 레버리지. 단, 극단적 변동성과 희석 리스크 감수 필요.",
     "horizon": "6-12개월"
   },
 
   "sources": [
-    { "name": "Daily Political", "url": "https://www.dailypolitical.com/2026/03/14/newbridge-financial-services-group-inc-purchases-new-shares-in-bitmine-immersion-technologies-inc-bmnr.html", "description": "B. Riley $30 Buy, Cantor $39 Overweight 애널리스트 커버리지" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/filing-menard-financial-group-llc-takes-position-in-bitmine-immersion-technologies-inc-bmnr-2026-03-14/", "description": "Menard Financial Group 신규 매수" },
-    { "name": "CoinDCX", "url": "https://coindcx.com/blog/price-predictions/ethereum-price-weekly/", "description": "ETH $2,100 돌파 전망, $2,200 목표" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bitmine-massive-ethereum-bet-deepens-091211652.html", "description": "2026년 최대 주간 ETH 매수 분석" },
-    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "ETH 보유 $10.3B 공식 공시" },
-    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH 보유량 트래커 — 4,473,587 ETH" },
-    { "name": "Changelly", "url": "https://changelly.com/blog/ethereum-eth-price-predictions/", "description": "ETH $2,074 실시간 가격" },
-    { "name": "Coin Republic", "url": "https://www.thecoinrepublic.com/2026/03/09/bitmine-news-bmnr-stock-eyes-rebound-amid-60k-eth-purchase/", "description": "60K ETH 매수 후 반등 분석" },
-    { "name": "Tokenist", "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/", "description": "$10.3B 트레저리 공시 후 주가 상승" }
+    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "BMNR ETH 보유량 및 총자산 공시" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/statistics/", "description": "BMNR 통계 및 밸류에이션" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/bmnr/forecast", "description": "애널리스트 목표가 및 컨센서스" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/", "description": "BMNR 주가 분석 및 뉴스" },
+    { "name": "The Coin Republic", "url": "https://www.thecoinrepublic.com/2026/03/09/bitmine-news-bmnr-stock-eyes-rebound-amid-60k-eth-purchase/", "description": "60K ETH 추가 매수 뉴스" },
+    { "name": "StocksToTrade", "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_09/", "description": "BMNR 주가 급등 분석" },
+    { "name": "Tokenist", "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/", "description": "크립토 트레저리 공개 후 주가 반응" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/price/ethereum", "description": "이더리움 실시간 가격" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "BMNR $22, 애널리스트 전원 Buy — 기관도 매수 중 🏦",
-      "text": "B. Riley $30, Cantor $39 Buy. 기관 투자자 신규 매수까지. NAV $10B vs 시총 $9.3B 디스카운트. ETH $2,100 돌파하면 어떻게 될까? 🔗 investory.kro.kr/stock/BMNR/analysis/2026-03-15"
+      "hook": "시총 $9.3B인데 자산이 $10.3B? 🤔",
+      "text": "BMNR이 ETH 453만개(공급량 3.76%)를 보유 중.\n\nP/B 0.75 = 장부가 대비 25% 할인.\n\n애널리스트 전원 Buy, 목표가 $34.50(+68%).\n\n다만 직원 3명, 주식 41배 희석이 함정. ETH에 올인할 용기 있어? 👉 investory.kro.kr/stock/BMNR/analysis/2026-03-15"
     },
     "telegram": {
-      "hook": "💎 BMNR $22.41 — 애널리스트 전원 Buy, 기관 매수 확대",
-      "text": "📊 BMNR $22.41 (금요일 +9.04%)\n\n🏦 B. Riley $30 Buy + Cantor Fitzgerald $39 Overweight. 커버 애널리스트 전원 매수.\n\n📈 기관 투자자 Newbridge·Menard Financial 신규 포지션. 소형주에서 기관 관심 = 긍정 시그널.\n\n🪙 ETH $2,074 — $2,100 저항선 돌파 시 $2,200 목표. 453만 ETH 보유.\n\n💰 4.9% 배당수익률 — 크립토 기업 유일. 스테이킹 연 $174M.\n\n⚠️ 52주 고점 $161 대비 -86%. 적자 지속. ETH 단일 자산 집중.\n\n🎯 평균 목표가 $34.50(+54% 상승여력)\n\nNAV 디스카운트 + 기관 관심 = 레버리지 기회?\n\n🔗 investory.kro.kr/stock/BMNR/analysis/2026-03-15"
+      "hook": "ETH 453만개 보유 기업, 할인 중 💎",
+      "text": "📊 BMNR $20.54 (-0.05%)\n\n🔥 핵심\n• ETH 4,534,563개 보유 (공급량 3.76%) — 단일 기업 세계 최대\n• 크립토+현금 $10.3B vs 시총 $9.3B → P/B 0.75 할인\n• B. Riley $30 Buy + Cantor Fitzgerald $39 Overweight\n• ETH $2,076, Pectra 업그레이드 상반기 기대\n\n⚠️ 리스크: ETH 단일 의존, 주식 41배 희석, TTM 순손실 $4.87B, 직원 3명\n\n💡 'ETH의 MicroStrategy' — NAV 할인 매수 기회 vs 극단적 변동성\n\nETH 상승에 베팅한다면? 🎰\n\n👉 investory.kro.kr/stock/BMNR/analysis/2026-03-15"
     }
   }
 }

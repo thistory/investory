@@ -6,187 +6,163 @@
   "marketCap": "$4.38T",
 
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing — dominating global AI infrastructure with datacenter GPUs and accelerators",
-    "description": "NVIDIA is the world's largest semiconductor design company, with AI training/inference datacenter accelerators as its core revenue driver. FY2026 revenue $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY), net income $120.1B. Friday close $180.25 (-1.58%). GTC 2026 opens tomorrow (3/16) — Jensen Huang keynote expected to unveil Vera Rubin + Blackwell Ultra B300 + agentic AI CPU transition. Thinking Machines Lab 1GW Vera Rubin multi-year partnership announced. Motley Fool: historically +6.4% gain during GTC week. 93% of analysts rate Buy, consensus $267-273 (+46-49%). FCF $178B forecast (all-time record for any company). Market cap $4.38T, Forward P/E 21.84x, PEG 0.57.",
+    "oneLiner": "The undisputed leader in AI computing — dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. FY2026 revenue $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY), net income $120.1B. Friday close $180.25 (-1.58%). GTC 2026 opens today (3/16) — Jensen Huang keynote expected to unveil Vera Rubin + Blackwell Ultra B300 + agentic AI CPU.",
     "howTheyMakeMoney": [
-      "Data Center: AI training/inference GPUs (H100, H200, Blackwell B200/GB200/GB300) — ~91% of revenue",
-      "Gaming: GeForce RTX GPUs — ~6% of revenue",
-      "Professional Visualization: Omniverse, RTX — ~2% of revenue",
-      "Automotive: DRIVE platform — ~1% of revenue"
+      "Data center AI accelerators (Blackwell, Hopper GPUs)",
+      "AI software platforms (CUDA, AI Enterprise)",
+      "Gaming GPUs (GeForce RTX)",
+      "Automotive (DRIVE platform)",
+      "Networking (Spectrum-X, InfiniBand)"
     ],
     "keyProducts": [
-      "H200",
-      "Blackwell B200/GB200/GB300",
-      "Vera Rubin R200 (next-gen)",
-      "Blackwell Ultra B300",
-      "GeForce RTX 5090",
-      "CUDA",
-      "AI Enterprise",
-      "Spectrum-X"
+      "Blackwell Ultra B300 — Next-gen AI training accelerator",
+      "Vera Rubin VR200 — H2 2026 launch, next-next-gen architecture",
+      "DGX SuperPOD — Enterprise AI infrastructure",
+      "CUDA — GPU computing platform",
+      "DRIVE — Autonomous driving platform"
     ]
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "36.79", "interpretation": "Reasonable relative to growth. Traditional valuation based on $120B net income." },
-    { "name": "Forward P/E", "value": "21.84", "interpretation": "Attractive on FY2027 EPS estimates. PEG 0.57 signals undervaluation." },
-    { "name": "Revenue Growth (YoY)", "value": "+65%", "interpretation": "Explosive growth continues. FY2026 revenue $215.9B." },
-    { "name": "Operating Margin", "value": "60.38%", "interpretation": "Exceptional margins. Monopolistic GPU demand maintains pricing power." },
-    { "name": "FCF", "value": "$96.68B", "interpretation": "Record cash generation. FY2027 FCF forecast $178B." },
-    { "name": "ROE", "value": "101.49%", "interpretation": "Transcendent capital efficiency. Maximum returns on invested capital." },
-    { "name": "Debt/Equity", "value": "0.07", "interpretation": "Virtually debt-free. Net cash $51.1B." },
-    { "name": "Gross Margin", "value": "71.07%", "interpretation": "Premium margins from CUDA ecosystem lock-in." }
+    { "name": "P/E (TTM)", "value": "36.79", "interpretation": "Reasonable vs large-cap tech. Near historic P/E lows" },
+    { "name": "Forward P/E", "value": "21.84", "interpretation": "FY2027 growth expectations reflected. PEG 0.57 signals undervaluation" },
+    { "name": "Revenue Growth (YoY)", "value": "+65%", "interpretation": "FY2026 $215.9B achieved. AI demand explosion continues" },
+    { "name": "Operating Margin", "value": "60.38%", "interpretation": "Highest in semiconductor industry. Monopolistic margins" },
+    { "name": "FCF", "value": "$96.68B", "interpretation": "Annual FCF ~$97B — all-time record cash generation" },
+    { "name": "Debt/Equity", "value": "0.07", "interpretation": "Extremely low debt. Virtually debt-free" },
+    { "name": "ROE", "value": "101.49%", "interpretation": "100%+ return on equity. Maximum capital efficiency" },
+    { "name": "RSI", "value": "45.22", "interpretation": "Neutral zone. Wait-and-see ahead of GTC" }
   ],
 
   "growthDrivers": [
     {
-      "title": "GTC 2026 Opens Tomorrow — 'Super Bowl of AI' Catalyst",
-      "description": "NVIDIA Blog (3/14): GTC 2026, 3/16 at 11 AM PT Jensen Huang keynote. Vera Rubin (HBM4, 22TB/s), Blackwell Ultra B300, agentic AI CPU racks expected. Motley Fool: historically +6.4% gain during GTC week (last year 3/21-24). 190 countries attending."
+      "title": "GTC 2026 Opens Today — 'The Super Bowl of AI' as Top Catalyst",
+      "description": "NVIDIA Blog (3/15): GTC 2026, 3/16 Jensen Huang keynote. Vera Rubin VR200 (HBM4, 3.3x inference performance vs Blackwell), Blackwell Ultra B300, agentic AI CPU expected. Historically +6.4% gain during GTC week."
     },
     {
-      "title": "Thinking Machines Lab — 1GW Vera Rubin Multi-Year Partnership",
-      "description": "NVIDIA Blog: Multi-year strategic partnership with Thinking Machines Lab to deploy at least 1GW of Vera Rubin systems for frontier model training. Major infrastructure contract."
+      "title": "Thinking Machines Lab — 1GW Vera Rubin Strategic Partnership",
+      "description": "NVIDIA Blog: Multi-year strategic partnership with Thinking Machines Lab. At least 1GW of Vera Rubin systems for frontier model training."
     },
     {
-      "title": "93% Analysts Buy — Consensus $267-273 (+46-49%)",
-      "description": "CoinCentral: 93% of analysts rate Buy. MarketBeat $274.21 (+52%), StockAnalysis $263.29 (+46%). FCF $178B forecast is all-time record for any company."
+      "title": "FY2026 Revenue $215.9B (+65%) — AI Demand Cycle Continues",
+      "description": "Q4 revenue $68.1B (+73% YoY). Hyperscaler (AWS, Azure, GCP) AI infrastructure investment competition continues. FY2027 revenue projected at $352B."
     },
     {
-      "title": "Forward P/E 21.84x, PEG 0.57 — Historically Undervalued for Growth",
-      "description": "+65% growth with Forward P/E 21.84x. PEG 0.57 below 1 is a clear undervaluation signal."
+      "title": "Enterprise AI Software Platform Expansion",
+      "description": "Motley Fool (3/10): NVIDIA expanding beyond hardware into AI Enterprise software platform. Growing recurring revenue share."
     }
   ],
 
   "competitiveAdvantage": {
     "summary": "CUDA ecosystem with 15M+ developer lock-in, 90%+ AI training/inference GPU market share. Software+hardware integration is the core moat.",
     "moats": [
-      {
-        "type": "CUDA Ecosystem",
-        "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA."
-      },
-      {
-        "type": "Design Leadership",
-        "description": "Blackwell→Rubin→Feynman 2-year architecture cadence. 1-2 generations ahead of competitors."
-      },
-      {
-        "type": "Full-Stack Strategy",
-        "description": "Chips+systems(DGX)+software(CUDA, AI Enterprise)+networking(Spectrum-X) integration."
-      }
+      { "type": "CUDA Ecosystem", "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA." },
+      { "type": "Design Leadership", "description": "Blackwell→Rubin→Feynman 2-year architecture cadence. 1-2 generations ahead of competitors." },
+      { "type": "Full-Stack Strategy", "description": "Chips+Systems(DGX)+Software(CUDA, AI Enterprise)+Networking(Spectrum-X) integration." }
     ],
     "competitors": [
-      {
-        "name": "AMD (MI400)",
-        "detail": "AI GPU #2. Cost-effective alternative. Expanding hyperscaler adoption"
-      },
-      {
-        "name": "Intel (Gaudi 3)",
-        "detail": "Late AI accelerator entrant. Differentiating with Windows NPU focus"
-      },
-      {
-        "name": "Google (TPU)",
-        "detail": "Internal AI chips. Primarily internal use"
-      },
-      {
-        "name": "Broadcom (ASIC)",
-        "detail": "Custom AI chip design. Hyperscaler alternative"
-      }
+      { "name": "AMD (MI400)", "detail": "AI GPU #2. Cost-effective alternative. Growing hyperscaler adoption" },
+      { "name": "Intel (Gaudi 3)", "detail": "AI accelerator market entry. Foundry transition underway" },
+      { "name": "Custom Chips (Google TPU, Amazon Trainium)", "detail": "Hyperscaler in-house AI chips. Attempting to reduce NVIDIA dependency" }
     ]
   },
 
   "recentNews": [
     {
-      "date": "2026-03-14",
-      "headline": "Motley Fool: GTC Week Historically +6.4% — Will It Repeat?",
-      "significance": "Last year's GTC period 3/21-24 saw +6.4% vs S&P +1.3%. More challenging in this year's bearish market.",
-      "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/"
-    },
-    {
-      "date": "2026-03-14",
-      "headline": "Thinking Machines Lab + NVIDIA 1GW Vera Rubin Multi-Year Partnership",
-      "significance": "Large-scale infrastructure contract for frontier model training. Early Vera Rubin demand secured.",
+      "date": "2026-03-15",
+      "headline": "NVIDIA GTC 2026 Opens Today — Vera Rubin + Thinking Machines Lab Partnership Announced",
+      "significance": "1GW Vera Rubin system partnership. Next-gen architecture details expected",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-14",
-      "headline": "IBTimes: NVDA Closes $180.25, Pre-GTC Positioning",
-      "significance": "Investors adjusting positions ahead of GTC. -1.58% decline reflects wait-and-see mode.",
+      "headline": "Motley Fool: 'NVIDIA Historically Gains +6.4% During GTC Week'",
+      "significance": "Historical GTC catalyst pattern. Investor expectations elevated",
+      "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "TipRanks: 'Is NVDA Still Undervalued Ahead of GTC?'",
+      "significance": "11.5% below ATH of $207. Forward PE 21.84 is attractive relative to growth",
+      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-jumps-ahead-of-gtc-2026-is-nvda-still-undervalued"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "NVDA Closes at $180.25 — Pre-GTC Position Trimming",
+      "significance": "Friday -1.58% decline. Pre-event profit taking. Direction depends on GTC outcome",
       "url": "https://www.ibtimes.com/nvidia-nvda-stock-closes-18025-march-13-amid-pre-gtc-2026-anticipation-3799201"
     },
     {
-      "date": "2026-03-13",
-      "headline": "CoinCentral: 93% Analysts Buy, FCF $178B All-Time Record Forecast",
-      "significance": "Overwhelming Wall Street bullish consensus. FCF forecast is highest ever for any company.",
-      "url": "https://coincentral.com/nvidia-nvda-stock-what-wall-street-expects-at-gtc-2026-on-monday/"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "TipRanks: Is NVDA Still Undervalued Before GTC? Forward P/E 22x Analysis",
-      "significance": "11.5% below ATH at $183. Rising earnings estimates vs declining price = undervaluation debate.",
-      "url": "https://www.tipranks.com/news/nvidia-stock-forecast-jumps-ahead-of-gtc-2026-is-nvda-still-undervalued"
+      "date": "2026-03-12",
+      "headline": "Vera Rubin VR200 Delivers 3.3x Inference Performance vs Blackwell Ultra — H2 2026 Launch",
+      "significance": "Next-gen architecture with overwhelming performance gains. Technology gap vs competitors widens",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261657446-nvidia-gtc-2026-preview-vera-rubin-feynman-tradingkey"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 267.00,
+    "consensusTarget": 263.29,
     "highTarget": 400.00,
-    "lowTarget": 135.00,
-    "upsidePercent": 48.13,
+    "lowTarget": 140.00,
+    "upsidePercent": 46.07,
     "buyCount": 35,
-    "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "38 analysts, 93% Buy. CoinCentral $267-273 (+46-49%), MarketBeat $274.21 (+52%). FCF $178B forecast is all-time record for any company. Target upgrades expected post-GTC."
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "Strong Buy consensus from 38 analysts. Average target $263 — +46% upside. MarketBeat $274, TickerGate $278. Zero sell ratings."
   },
 
   "risks": [
     {
       "severity": "high",
-      "title": "AI Infrastructure Capex Cycle Slowdown Risk",
-      "description": "Hyperscaler capex cycle nearing peak. Growing ROI validation demands. Growth slowdown would trigger valuation reassessment."
+      "title": "Custom AI Chip Competition — Hyperscaler Self-Development",
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia. Largest customers developing in-house chips to reduce NVIDIA dependency."
     },
     {
       "severity": "high",
-      "title": "China Export Restrictions Tightening",
-      "description": "US-China semiconductor war escalating. China market access limitations impacting revenue."
+      "title": "AI Investment Cycle Slowdown Risk",
+      "description": "Hyperscaler capex deceleration could cause GPU demand cliff. AI ROI questions could trigger investment pullback."
     },
     {
       "severity": "medium",
-      "title": "AMD and Custom ASIC Competition Intensifying",
-      "description": "AMD MI400, Broadcom/Google custom ASICs targeting hyperscaler market."
+      "title": "US-China Tech Restrictions — Export Controls",
+      "description": "Continued US restrictions on AI chip exports to China. Risk to China data center revenue ($10B+)."
     },
     {
       "severity": "medium",
-      "title": "Below 50-Day SMA $185 — GTC Disappointment Could Push Lower",
-      "description": "Below 50-day MA but holding above 200-day $177. GTC miss could test 200-day support."
+      "title": "Revenue Concentration — Top 4 Customer Dependency",
+      "description": "Microsoft, Meta, Amazon, Google account for 40%+ of revenue. Order reduction from any could impact results."
     },
     {
       "severity": "low",
-      "title": "Macro Headwinds — Oil Prices and Geopolitics",
-      "description": "Oil above $100, Iran tensions creating broad market pressure. Affecting AI stocks too."
+      "title": "AMD MI400 Competition — Cost-Effective Alternative",
+      "description": "AMD's next-gen MI400 could substitute some workloads on price-performance basis."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "GTC 2026 Tomorrow — Biggest Annual Catalyst Event",
-      "rationale": "Tomorrow's keynote reveals Vera Rubin, B300, agentic AI CPUs. Historical GTC week gain +6.4%. Thinking Machines 1GW partnership already pre-announced."
+      "title": "GTC 2026 Catalyst — Historical +6.4% Gain Pattern",
+      "rationale": "Historical GTC week strength. Vera Rubin + agentic AI announcements as stock re-rating catalyst."
     },
     {
-      "title": "Forward P/E 21.84x, PEG 0.57 — Clearly Undervalued",
-      "rationale": "+65% growth at Forward P/E 22x. PEG 0.57 is the most attractive among growth stocks. 11.5% below ATH."
+      "title": "Forward P/E 21.84, PEG 0.57 — Undervalued Relative to Growth",
+      "rationale": "Forward P/E of 22x against 60%+ FY2027 revenue growth is attractive. PEG below 1 signals undervaluation."
     },
     {
-      "title": "FCF $178B Forecast — All-Time Record for Any Company",
-      "rationale": "FY2027 FCF $178B projection. Buyback, dividend, and M&A firepower. Unmatched cash generation."
+      "title": "FCF $97B — Among the World's Top Cash Generators",
+      "rationale": "Annual FCF of $97B supports buybacks, dividends, and M&A. Shareholder return expansion expected."
     },
     {
-      "title": "93% Analysts Buy — Overwhelming Consensus",
-      "rationale": "35 of 38 analysts rate Buy. $267-274 targets (+46-52%). Market selloff creating buying opportunity."
+      "title": "60% Operating Margin — Monopolistic Pricing Power",
+      "rationale": "Highest margins in semiconductors. CUDA lock-in + sustained AI demand defends margin structure."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 207.02,
-    "week52Low": 115.83,
-    "currentPositionPercent": 70.62,
+    "week52High": 207.00,
+    "week52Low": 110.00,
+    "currentPositionPercent": 72.42,
     "sma50": 185.46,
     "sma50Signal": "below",
     "sma200": 177.39,
@@ -196,39 +172,37 @@
   },
 
   "overallOpinion": [
-    "NVIDIA at $180.25 is in the 'calm before the storm' — the last day before GTC 2026.",
-    "Tomorrow's Jensen Huang keynote unveils Vera Rubin, B300, and agentic AI CPUs. The Thinking Machines 1GW partnership is just the opening act.",
-    "Forward P/E 21.84x, PEG 0.57 — clearly undervalued for +65% growth. 93% of analysts rate Buy.",
-    "Below 50-day SMA ($185) but supported by 200-day ($177). RSI 45 neutral.",
-    "History says GTC is a catalyst — and the setup looks compelling. This could be the buy-the-dip moment."
+    "NVIDIA is the undisputed leader in AI infrastructure, delivering FY2026 revenue of $216B (+65%), 60% operating margin, and $97B FCF — extraordinary results.",
+    "GTC 2026 opens today with Vera Rubin + agentic AI announcements as near-term catalysts. Forward P/E of 22x and PEG of 0.57 represent rational valuation for 65% growth.",
+    "Key risks include hyperscaler custom chip development and AI capex cycle slowdown. However, the CUDA ecosystem and 2-year architecture innovation cadence (Blackwell→Rubin→Feynman) maintain the technology gap. Maintain Strong Buy."
   ],
 
   "investmentVerdict": {
     "stance": "strong-buy",
-    "summary": "GTC opens tomorrow. PEG 0.57 undervaluation + 93% Buy + FCF $178B forecast. Market correction creating buying opportunity.",
-    "horizon": "12 months"
+    "summary": "Essential AI infrastructure company. PEG 0.57 undervaluation + GTC catalyst. Attractive for both short and long term.",
+    "horizon": "12-24 months"
   },
 
   "sources": [
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/", "description": "GTC week historical +6.4% gain analysis" },
-    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 live updates + Thinking Machines partnership" },
-    { "name": "IBTimes", "url": "https://www.ibtimes.com/nvidia-nvda-stock-closes-18025-march-13-amid-pre-gtc-2026-anticipation-3799201", "description": "NVDA $180.25 close, pre-GTC positioning" },
-    { "name": "CoinCentral", "url": "https://coincentral.com/nvidia-nvda-stock-what-wall-street-expects-at-gtc-2026-on-monday/", "description": "93% Buy, FCF $178B forecast" },
-    { "name": "TipRanks", "url": "https://www.tipranks.com/news/nvidia-stock-forecast-jumps-ahead-of-gtc-2026-is-nvda-still-undervalued", "description": "Pre-GTC undervaluation analysis" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "NVDA real-time statistics and valuation" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html", "description": "GTC 2026 outlook — Vera Rubin + Vera Ultra" },
-    { "name": "Analytics Insight", "url": "https://www.analyticsinsight.net/news/nvidia-gtc-2026-keynote-major-announcements-on-ai-gaming-cpus-and-computing", "description": "GTC major announcement expectations" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA consensus target $274.21" }
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "NVDA statistics and valuation" },
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 official news and announcements" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/", "description": "GTC historical price pattern analysis" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/nvidia-stock-forecast-jumps-ahead-of-gtc-2026-is-nvda-still-undervalued", "description": "NVDA valuation analysis" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261657446-nvidia-gtc-2026-preview-vera-rubin-feynman-tradingkey", "description": "Vera Rubin technical specs analysis" },
+    { "name": "IBTimes", "url": "https://www.ibtimes.com/nvidia-nvda-stock-closes-18025-march-13-amid-pre-gtc-2026-anticipation-3799201", "description": "NVDA Friday close analysis" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/nvda/forecast/", "description": "Analyst consensus and targets" },
+    { "name": "BingX", "url": "https://bingx.com/en/learn/article/nvidia-nvda-stock-outlook-and-price-prediction-is-nvda-a-good-investment", "description": "NVDA outlook analysis" },
+    { "name": "Deeper Insights", "url": "https://deeperinsights.com/ai-blog/what-to-expect-from-nvidia-gtc-2026/", "description": "GTC 2026 expectations" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "NVDA $180, GTC Tomorrow — Super Bowl of AI D-1 🎪",
-      "text": "Forward P/E 22x, PEG 0.57. 35/38 analysts Buy. Tomorrow: Vera Rubin + agentic AI CPUs. Historically +6.4% during GTC week. This time? 🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-15"
+      "hook": "NVIDIA GTC opens today 🔥 Historically +6.4% week",
+      "text": "Vera Rubin VR200 = 3.3x Blackwell inference performance.\n\nForward P/E 22x, PEG 0.57 = undervalued for growth.\n\nFCF $97B, 60% operating margin. These numbers real?\n\n38 analysts all say Buy, target $263 (+46%) 👉 investory.kro.kr/stock/NVDA/analysis/2026-03-15"
     },
     "telegram": {
-      "hook": "🟢 NVDA $180 — GTC Opens Tomorrow! Super Bowl of AI D-1",
-      "text": "📊 NVDA $180.25 (Friday -1.58%)\n\n🎪 GTC 2026 opens tomorrow! Jensen Huang keynote — Vera Rubin (HBM4) + B300 + agentic AI CPUs.\n\n🤝 Thinking Machines Lab 1GW Vera Rubin multi-year partnership pre-announced.\n\n📈 Historically +6.4% during GTC week (S&P +1.3%).\n\n💰 FY2026 revenue $216B (+65%), FCF $97B. FY2027 FCF $178B forecast (all-time record).\n\n📐 Forward P/E 21.84x, PEG 0.57 — undervalued. Below 50-day, above 200-day.\n🎯 93% Buy. Consensus $267-274 (+46-52%).\n\n⚠️ AI capex peak concerns + China export restrictions.\n\nGTC = catalyst. History proves it.\n\n🔗 investory.kro.kr/stock/NVDA/analysis/2026-03-15"
+      "hook": "GTC 2026 D-Day! NVDA undervalued opportunity? 🚀",
+      "text": "📊 NVDA $180.25 (-1.58%)\n\n🔥 GTC 2026 Opens Today\n• Jensen Huang keynote — Vera Rubin VR200 (3.3x inference ↑) + Blackwell Ultra B300\n• Thinking Machines Lab 1GW strategic partnership\n• Historically +6.4% gain during GTC week\n\n📈 Key Metrics\n• FY2026 revenue $215.9B (+65% YoY)\n• Operating margin 60.38%, FCF $96.7B\n• Forward P/E 21.84, PEG 0.57 — undervalued for growth\n\n⚠️ Risks: Custom chip competition, AI capex cycle, US-China restrictions\n\n💡 38 analysts all Buy, target $263 (+46%)\n\nThe undisputed AI king — will GTC open the next chapter? 🤔\n\n👉 investory.kro.kr/stock/NVDA/analysis/2026-03-15"
     }
   }
 }

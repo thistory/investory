@@ -3,188 +3,165 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-15",
   "currentPrice": 150.95,
-  "marketCap": "$361.0B",
+  "marketCap": "$361.02B",
 
   "businessSummary": {
     "oneLiner": "정부·민간 AI 데이터 분석 플랫폼 리더 — Gotham(국방)·Foundry(기업)·AIP(AI 플랫폼)의 3축 체제",
-    "description": "Palantir는 정부·민간 조직의 데이터 통합·분석·AI 의사결정 플랫폼 제공. FY2025 매출 $4.48B(+70% YoY), 조정 영업이익률 57%. 금요일 종가 $150.95(-1.66%). Finbold: PLTR 데스크로스 발생 — 50일선이 200일선 하향 돌파, 2021년 10월 패턴 반복 우려. YTD -10% 하락. AIPCon 9(3/12) 대형 파트너십 발표. NVIDIA와 소버린 AI DC 공동 발표. Motley Fool: '2023년 이후 +2,200% 상승, 지속 가능한가?' 시가총액 $361.0B, P/E ~240x.",
+    "description": "Palantir는 정부·민간 조직의 데이터 통합·분석·AI 의사결정 플랫폼 제공. FY2025 매출 $4.48B(+56% YoY), 조정 영업이익률 32%. 금요일 종가 $150.95(-1.66%). 데스크로스 발생(50일선이 200일선 하향 돌파) — 기술적 약세 신호. AIPCon 9(3/12)에서 GE Aerospace, Polymarket 등 대규모 파트너십 발표. 2026 가이던스 매출 $7.18-7.20B(+61%).",
     "howTheyMakeMoney": [
-      "정부 계약: Gotham·Apollo — 국방, 정보기관, NATO 등 (~55% 매출)",
-      "상업 계약: Foundry·AIP — 기업 AI 플랫폼, Boot Camp 전략 (~45% 매출)",
-      "SaaS 모델: 연간 구독 + 확장 기반. Net Dollar Retention 120%+"
+      "정부 계약 (Gotham — 국방·정보기관 데이터 분석)",
+      "기업 AI 플랫폼 (Foundry — 산업 데이터 분석)",
+      "AIP (AI Platform — LLM 기반 의사결정 도구)",
+      "AIP 부트캠프 (5일 집중 파일럿→전사 확장)"
     ],
     "keyProducts": [
-      "Gotham",
-      "Foundry",
-      "AIP (Artificial Intelligence Platform)",
-      "Apollo",
-      "Warp Speed",
-      "Ontology",
-      "Vergence AI (TWG AI 합작)"
+      "Gotham — 국방·정보기관 미션 크리티컬 분석",
+      "Foundry — 기업 데이터 통합·분석",
+      "AIP — AI 에이전트 오케스트레이션 플랫폼",
+      "PFCS Forward — DISA 인증 군사 플랫폼",
+      "Ontology — AI-인간 협업 인터페이스"
     ]
   },
 
   "keyMetrics": [
-    { "name": "P/E Ratio", "value": "239.60", "interpretation": "극단적 프리미엄. 성장 스토리와 AI 독점적 포지셔닝 반영." },
-    { "name": "Forward P/E", "value": "114.20", "interpretation": "FY2026 실적 반영해도 여전히 고밸류. PEG 2.55." },
-    { "name": "매출 성장률 (YoY)", "value": "+70%", "interpretation": "폭발적 성장. 미상업 부문 +109%가 견인." },
-    { "name": "영업이익률", "value": "31.59%", "interpretation": "SaaS 고마진 모델. 조정 영업이익률 57%." },
-    { "name": "Gross Margin", "value": "82.37%", "interpretation": "소프트웨어 기업 최상위 수준. 가격결정력 극대화." },
-    { "name": "FCF", "value": "$2.10B", "interpretation": "FCF 마진 46.94%. 매출의 절반이 잉여현금흐름." },
-    { "name": "부채비율 (D/E)", "value": "0.03", "interpretation": "사실상 무차입. 순현금 $6.95B." },
-    { "name": "ROE", "value": "25.98%", "interpretation": "자본 효율성 우수. ROIC 271.81% 초월적." }
+    { "name": "P/E (TTM)", "value": "239.60", "interpretation": "극도로 높은 밸류에이션. AI 프리미엄 최대치 반영" },
+    { "name": "Forward P/E", "value": "114.20", "interpretation": "FY2026 EPS $1.34 기대. 여전히 섹터 최고 수준" },
+    { "name": "매출 성장률 (YoY)", "value": "+56.18%", "interpretation": "FY2025 $4.48B. FY2026 가이던스 $7.18-7.20B(+61%)" },
+    { "name": "영업이익률", "value": "31.59%", "interpretation": "SaaS 기업 중 최상위 마진" },
+    { "name": "FCF", "value": "$2.10B", "interpretation": "FCF 마진 47%. 높은 현금 전환율" },
+    { "name": "부채비율 (D/E)", "value": "0.03", "interpretation": "사실상 무차입. 현금 $7.18B 보유" },
+    { "name": "ROE", "value": "25.98%", "interpretation": "양호한 자본 수익률" },
+    { "name": "RSI", "value": "53.16", "interpretation": "중립 구간. 데스크로스 발생에도 과매도 아님" }
   ],
 
   "growthDrivers": [
     {
       "title": "AIPCon 9 미션크리티컬 파트너십 대거 발표 (3/12)",
-      "description": "BusinessWire(3/12): GE Aerospace(군 항공 정비), Centrus Energy(원자력 AI), Ondas(드론 ISR), World View(성층권 ISR), LG CNS 등 멀티이어 계약 체결."
+      "description": "BusinessWire(3/12): GE Aerospace(군 항공 정비), Centrus Energy(원자력 AI), Ondas(드론 ISR), World View(성층권 ISR), LG CNS 등 멀티이어 계약 체결. 의료·공급망·제품개발 AI 적용 데모."
     },
     {
       "title": "Polymarket 스포츠 베팅 무결성 플랫폼 — 새 TAM 개척",
-      "description": "Barchart(3/13): Polymarket+TWG AI와 Vergence AI 엔진 기반 스포츠 무결성 플랫폼 구축. 예측시장이라는 완전히 새로운 TAM 진출."
+      "description": "Barchart(3/13): Polymarket+TWG AI와 Vergence AI 스포츠 무결성 플랫폼 공동 개발. 예측 시장+AI 분석의 새로운 응용 영역."
     },
     {
-      "title": "NVIDIA+Palantir 소버린 AI DC — GTC 연계 촉매",
-      "description": "Yahoo Finance(3/13): 턴키 소버린 AI DC 공동 발표. 내일 GTC 키노트에서 추가 상세 가능."
+      "title": "2026 가이던스 $7.18-7.20B(+61%) — 역대 최고 성장 전망",
+      "description": "Tickeron: 2026 매출 가이던스 $7.18-7.20B, YoY +61% 성장. 기존 컨센서스를 크게 상회. AIP 부트캠프 전략의 상업 매출 전환 가속."
     },
     {
-      "title": "Motley Fool: 2023년 이후 +2,200% — 성장 모멘텀 지속 가능성",
-      "description": "Motley Fool(3/11): 미상업 +115% 가이던스, Boot Camp 높은 전환율. 극적 성장이 밸류에이션 프리미엄 정당화 논쟁."
+      "title": "UBS Strong Buy 업그레이드 + Mizuho Buy 업그레이드",
+      "description": "StockAnalysis(2/26): UBS $180 Strong Buy 업그레이드. Mizuho $195 Buy 업그레이드. 대형 IB들의 긍정 전환."
     }
   ],
 
   "competitiveAdvantage": {
     "summary": "정부·국방 AI 분야 20년+ 실적. 보안 등급 클리어런스가 진입 장벽. 'Ontology' 플랫폼이 AI와 인간의 협업 인터페이스로 독보적 해자.",
     "moats": [
-      {
-        "type": "보안 등급 해자",
-        "description": "미 국방부·정보기관 최고 보안 등급 클리어런스. 경쟁사 진입 불가."
-      },
-      {
-        "type": "Ontology 플랫폼",
-        "description": "AI·인간 에이전트의 '도구 공장'. 전장 계획, 표적 식별에서 독보적."
-      },
-      {
-        "type": "AIP 부트캠프 전략",
-        "description": "5일 집중 파일럿으로 기업 고객 확보 후 전사 확장. 높은 전환율."
-      }
+      { "type": "보안 등급 해자", "description": "미 국방부·정보기관 최고 보안 등급 클리어런스. 경쟁사 진입 불가." },
+      { "type": "Ontology 플랫폼", "description": "AI·인간 에이전트의 '도구 공장'. 전장 계획, 표적 식별에서 독보적." },
+      { "type": "AIP 부트캠프 전략", "description": "5일 집중 파일럿으로 기업 고객 확보 후 전사 확장. 높은 전환율." }
     ],
     "competitors": [
-      {
-        "name": "Microsoft (Azure AI)",
-        "detail": "클라우드 AI 플랫폼. 범용 접근 vs Palantir 전문 분석"
-      },
-      {
-        "name": "Snowflake",
-        "detail": "데이터 레이크하우스. 분석 영역 일부 중복"
-      },
-      {
-        "name": "C3.ai",
-        "detail": "엔터프라이즈 AI 경쟁. 규모·수익성에서 열위"
-      },
-      {
-        "name": "Anduril",
-        "detail": "국방 AI 스타트업. 급성장하나 Palantir 대비 소규모"
-      }
+      { "name": "Microsoft (Azure AI)", "detail": "클라우드 AI 플랫폼. 범용 접근 vs Palantir 전문 분석" },
+      { "name": "Snowflake", "detail": "데이터 레이크하우스. 분석 플랫폼으로 영역 확장" },
+      { "name": "C3.ai", "detail": "엔터프라이즈 AI. 규모와 실적에서 Palantir에 열세" }
     ]
   },
 
   "recentNews": [
     {
-      "date": "2026-03-15",
-      "headline": "Finbold: PLTR 데스크로스 발생 — 50일선이 200일선 하향 돌파",
-      "significance": "2021년 10월 패턴 반복. 당시 단기 반등 후 추가 하락. 기술적 약세 심화.",
+      "date": "2026-03-14",
+      "headline": "Finbold: PLTR 데스크로스 발생 — $70 크래시 가능성 경고",
+      "significance": "50일선이 200일선 하향 돌파. 2021년 10월 패턴 반복 우려. 기술적 약세 신호",
       "url": "https://finbold.com/palantir-stock-hit-with-death-cross-70-crash-next/"
     },
     {
-      "date": "2026-03-13",
-      "headline": "Polymarket+Palantir+TWG AI 스포츠 베팅 무결성 플랫폼 발표",
-      "significance": "예측시장 AI 진출. Vergence AI 엔진 기반 부정 탐지. 새 TAM.",
-      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-13-palantir-is-now-a-sports-betting-stock-does-that-make-pltr-a-buy-here"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "NVIDIA+Palantir 소버린 AI DC 아키텍처 공동 발표",
-      "significance": "턴키 국가 AI 인프라. GE Aerospace, LG CNS 등 채택.",
-      "url": "https://www.businesswire.com/news/home/20260312975769/en/"
-    },
-    {
       "date": "2026-03-12",
-      "headline": "AIPCon 9 — GE Aerospace·Centrus·Ondas·World View 파트너십",
-      "significance": "미션크리티컬 분야 멀티이어 계약. 국방·에너지·항공 동시 확장.",
-      "url": "https://www.businesswire.com/news/home/20260312975769/en/Palantirs-Newest-Customers-Reveal-the-Secrets-Behind-Their-Success-at-AIPCon-9"
+      "headline": "AIPCon 9: GE Aerospace, Polymarket, LG CNS 등 대규모 파트너십 발표",
+      "significance": "의료·국방·공급망·스포츠 베팅 등 다양한 산업 AI 적용 확대",
+      "url": "https://pro.thestreet.com/market-commentary/from-ge-to-nvidia-palantirs-aipcon-9-announcements-investors-cant-ignore"
     },
     {
       "date": "2026-03-11",
-      "headline": "Motley Fool: 2023년 이후 +2,200%, 지속 가능한가?",
-      "significance": "극적 성장에도 밸류에이션 부담. 미상업 +115% 가이던스가 핵심.",
+      "headline": "Motley Fool: 'PLTR 2023년 이후 +2,200% 상승 — 지속 가능한가?'",
+      "significance": "밸류에이션 과열 우려. 일부 월가 애널리스트 -68% 하락 가능성 제시",
       "url": "https://www.fool.com/investing/2026/03/11/palantir-is-up-over-2200-since-2023-can-its-run-co/"
+    },
+    {
+      "date": "2026-03-03",
+      "headline": "Rosenblatt, 목표가 $150→$200 상향 — Strong Buy 유지",
+      "significance": "AIPCon 성과 반영. 12개월 목표가 +32% 업사이드",
+      "url": "https://stockanalysis.com/stocks/pltr/forecast/"
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "UBS, Strong Buy로 업그레이드 — 목표가 $180",
+      "significance": "대형 IB의 긍정 전환. FY2026 가이던스 호평",
+      "url": "https://stockanalysis.com/stocks/pltr/forecast/"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 192.68,
-    "highTarget": 255.00,
+    "consensusTarget": 193.75,
+    "highTarget": 260.00,
     "lowTarget": 50.00,
-    "upsidePercent": 27.65,
-    "buyCount": 12,
-    "holdCount": 5,
-    "sellCount": 3,
-    "notableComment": "20명 Buy 컨센서스, $192.68(+28%). MarketBeat 기준. 중간값 $200. 밸류에이션 우려 vs 성장 모멘텀 양분. 데스크로스 기술적 약세에도 Buy 유지."
+    "upsidePercent": 28.35,
+    "buyCount": 11,
+    "holdCount": 8,
+    "sellCount": 1,
+    "notableComment": "20명 애널리스트 Buy 컨센서스. 평균 $193.75(+28%). Rosenblatt $200 Strong Buy, UBS $180. 단, 1명 Sell($50) — 밸류에이션 과열 경고."
   },
 
   "risks": [
     {
       "severity": "critical",
-      "title": "데스크로스 발생 — 2021년 10월 패턴 반복",
-      "description": "Finbold: 50일선이 200일선 하향 돌파. 2021년 당시 단기 반등 후 장기 하락(-80%). 기술적 위험 신호."
+      "title": "데스크로스 발생 — 기술적 약세 신호",
+      "description": "50일 이평선($153.85)이 200일선($162.81) 하향 돌파. 2021년 10월 유사 패턴 후 -60% 하락한 전례. 단기 추가 하락 가능."
     },
     {
       "severity": "high",
-      "title": "극단적 밸류에이션 — P/E 240x, Forward P/E 114x",
-      "description": "성장은 뛰어나나 밸류에이션이 완벽한 실행을 요구. 실적 미스 시 급락 리스크."
+      "title": "극단적 밸류에이션 — P/E 240배, PS 81배",
+      "description": "매출 $4.48B 기업이 시총 $361B. 성장 둔화 시 멀티플 급격 수축 위험."
     },
     {
       "severity": "high",
-      "title": "주식보상(SBC) 희석 — 주식수 +4.67% YoY",
-      "description": "연간 주식수 4.67% 증가. 주당 가치 희석이 장기 리스크."
+      "title": "주식 희석 — YoY +4.67%",
+      "description": "스톡 옵션 기반 보상으로 연간 5% 가까운 희석. 장기 주주 가치 훼손."
     },
     {
       "severity": "medium",
-      "title": "정부 예산 삭감 리스크",
-      "description": "매출 55%가 정부 의존. 예산 삭감 시 파이프라인 영향."
+      "title": "정부 예산 의존 — 정치적 리스크",
+      "description": "국방 예산 삭감 시 정부 계약 매출 타격. DOGE 관련 정치적 리스크."
     },
     {
       "severity": "medium",
-      "title": "YTD -10% — 시장 심리 악화",
-      "description": "+2,200% 급등 후 조정. 차익 실현 매물 출회 가능."
+      "title": "대형 테크 기업과의 AI 플랫폼 경쟁",
+      "description": "Microsoft, Google, Amazon의 AI 플랫폼이 기업 시장 공략 강화. 상업 매출 성장 둔화 가능."
     }
   ],
 
   "buyReasons": [
     {
-      "title": "AIPCon 9 파트너십 폭발 — 실질적 계약 확보",
-      "rationale": "GE Aerospace·Centrus·Ondas·World View·LG CNS 등 미션크리티컬 멀티이어 계약. 매출 가시성 향상."
+      "title": "2026 가이던스 $7.2B(+61%) — 역대 최고 성장률",
+      "rationale": "가이던스가 기존 컨센서스를 크게 상회. AIP 상업 매출 전환 가속으로 성장 확신."
     },
     {
-      "title": "미상업 부문 +115% 가이던스 — 폭발적 성장",
-      "rationale": "Boot Camp 전략의 높은 전환율. 기업 AI 도입 가속. TAM 확장."
+      "title": "AIPCon 9 대규모 파트너십 — TAM 확장",
+      "rationale": "의료, 스포츠, 에너지, 항공 등 새로운 산업 진출. 정부 의존도 탈피 가속."
     },
     {
-      "title": "FCF 마진 47% — 현금 창출의 기계",
-      "rationale": "매출의 절반이 잉여현금흐름. D/E 0.03, 순현금 $6.95B."
+      "title": "보안 등급 해자 — 대체 불가 포지셔닝",
+      "rationale": "국방·정보기관 최고 등급 클리어런스는 수년간의 투자 결과. 신규 경쟁자 진입 사실상 불가."
     },
     {
-      "title": "NVIDIA 소버린 AI DC + GTC 연계 촉매",
-      "rationale": "내일 GTC 키노트에서 NVIDIA+Palantir 소버린 DC 추가 상세 가능. AI 인프라 레벨 파트너."
+      "title": "FCF 마진 47% + 무차입 — 재무 건전성 최강",
+      "rationale": "현금 $7.18B, 부채 $229M. FCF 마진 47%로 자체 성장 자금 조달 충분."
     }
   ],
 
   "technicalPosition": {
-    "week52High": 199.75,
-    "week52Low": 83.65,
-    "currentPositionPercent": 57.97,
+    "week52High": 210.53,
+    "week52Low": 76.50,
+    "currentPositionPercent": 55.56,
     "sma50": 153.85,
     "sma50Signal": "below",
     "sma200": 162.81,
@@ -194,39 +171,36 @@
   },
 
   "overallOpinion": [
-    "Palantir $150.95에서 데스크로스 발생 — 기술적으로 가장 위험한 신호다.",
-    "2021년 10월 유사 패턴에서 단기 반등 후 -80% 추가 하락했던 전례가 있다.",
-    "그러나 2021년과 달리 지금은 매출 +70%, FCF 마진 47%, 실질 계약 폭발 — 펀더멘털은 다르다.",
-    "내일 GTC에서 NVIDIA+Palantir 소버린 DC 추가 상세가 촉매 가능.",
-    "기술적 약세 vs 펀더멘털 강세. P/E 240x 부담 감안 시 Hold, 장기 확신 시 분할 매수."
+    "Palantir는 AI 데이터 분석의 독보적 리더로서 FY2025 매출 $4.48B(+56%), FY2026 가이던스 $7.2B(+61%)라는 폭발적 성장을 보여주고 있다.",
+    "그러나 데스크로스 발생과 P/E 240배의 극단적 밸류에이션은 심각한 리스크. 2021년 유사 패턴 후 -60% 하락한 전례가 있다.",
+    "AIPCon 9의 대규모 파트너십 발표는 TAM 확장을 입증하나, $361B 시총이 $4.48B 매출을 정당화하려면 수년간의 고성장이 필수. 장기 투자자에게는 Buy이나, 단기 기술적 약세 신호에 주의."
   ],
 
   "investmentVerdict": {
-    "stance": "hold",
-    "summary": "데스크로스 기술적 위험 + P/E 240x 부담. 펀더멘털은 강하나 밸류에이션·기술적 약세 교차. 분할 매수 관점.",
-    "horizon": "12개월"
+    "stance": "buy",
+    "summary": "폭발적 성장(+61% 가이던스) + 보안 등급 해자. 단, 데스크로스와 극단적 밸류에이션 감안 시 분할 매수 전략 권장.",
+    "horizon": "12-24개월"
   },
 
   "sources": [
-    { "name": "Finbold", "url": "https://finbold.com/palantir-stock-hit-with-death-cross-70-crash-next/", "description": "PLTR 데스크로스 발생, 2021년 패턴 분석" },
-    { "name": "BusinessWire", "url": "https://www.businesswire.com/news/home/20260312975769/en/Palantirs-Newest-Customers-Reveal-the-Secrets-Behind-Their-Success-at-AIPCon-9", "description": "AIPCon 9 파트너십 발표" },
-    { "name": "Barchart", "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-13-palantir-is-now-a-sports-betting-stock-does-that-make-pltr-a-buy-here", "description": "Polymarket 스포츠 AI 파트너십" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/11/palantir-is-up-over-2200-since-2023-can-its-run-co/", "description": "+2,200% 성장 지속 가능성 분석" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/", "description": "PLTR 컨센서스 $192.68 목표가" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "PLTR 실시간 통계·밸류에이션" },
-    { "name": "ad-hoc-news.de", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/palantir-technologies-inc-stock-isin-us69608a1088-faces-pressure-amid/68674995", "description": "PLTR $150.95 금요일 종가" },
-    { "name": "WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/pltr", "description": "PLTR 시총·주가 데이터" },
-    { "name": "eand.co", "url": "https://eand.co/palantir-ticker-pltr-stock-news-and-price-analysis", "description": "PLTR 종합 분석" }
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "PLTR 통계 및 밸류에이션" },
+    { "name": "StockAnalysis Forecast", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "애널리스트 컨센서스 및 목표가" },
+    { "name": "Finbold", "url": "https://finbold.com/palantir-stock-hit-with-death-cross-70-crash-next/", "description": "PLTR 데스크로스 분석" },
+    { "name": "TheStreet Pro", "url": "https://pro.thestreet.com/market-commentary/from-ge-to-nvidia-palantirs-aipcon-9-announcements-investors-cant-ignore", "description": "AIPCon 9 파트너십 분석" },
+    { "name": "Tickeron", "url": "https://tickeron.com/ticker/PLTR/", "description": "PLTR 가이던스 및 AI 분석" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/", "description": "PLTR 목표가 및 전망" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/11/palantir-is-up-over-2200-since-2023-can-its-run-co/", "description": "PLTR 장기 상승 지속 가능성 분석" },
+    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies", "description": "PLTR 펀더멘털 분석" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "PLTR $151, 데스크로스 발생 ⚠️ — 2021년 악몽 반복?",
-      "text": "50일선이 200일선 하향 돌파. 2021년엔 이후 -80% 추가 하락. 그때와 다른 점? 매출 +70%, FCF 마진 47%, AIPCon 계약 폭발. 펀더멘털 vs 기술적 약세, 누가 이길까? 🔗 investory.kro.kr/stock/PLTR/analysis/2026-03-15"
+      "hook": "PLTR 데스크로스 발생… 2021년 악몽 재현? 💀",
+      "text": "Palantir, 50일선이 200일선 아래로. 2021년엔 이후 -60% 폭락.\n\n근데 이번엔 다르다? 가이던스 $7.2B(+61%), AIPCon에서 GE·Polymarket 파트너십.\n\nP/E 240배 vs 성장률 61%. 어떻게 봐야 할까?\n\n👉 investory.kro.kr/stock/PLTR/analysis/2026-03-15"
     },
     "telegram": {
-      "hook": "🛡️ PLTR $151 — 데스크로스 발생, 기술적 위험 신호",
-      "text": "📊 PLTR $150.95 (금요일 -1.66%)\n\n⚠️ 데스크로스 발생: 50일선이 200일선 하향 돌파. 2021년 10월 유사 패턴 → 이후 -80% 추가 하락.\n\n💪 그러나 펀더멘털은 다르다: 매출 +70%, FCF 마진 47%, AIPCon 9 대형 계약 폭발.\n\n🎰 Polymarket 스포츠 AI + NVIDIA 소버린 DC — 새 TAM 개척.\n\n🎪 내일 GTC에서 NVIDIA+PLTR 소버린 DC 추가 발표 가능.\n\n📐 YTD -10%. P/E 240x. SBC 희석 +4.67%.\n🎯 Buy 컨센서스, 목표가 $193(+28%)\n\n데스크로스 공포 vs 펀더멘털 자신감. 분할 매수 구간?\n\n🔗 investory.kro.kr/stock/PLTR/analysis/2026-03-15"
+      "hook": "PLTR 데스크로스 vs 61% 성장 — 누가 이길까? ⚔️",
+      "text": "📊 PLTR $150.95 (-1.66%)\n\n⚠️ 기술적 신호\n• 데스크로스 발생 — 50일선($153.85) < 200일선($162.81)\n• 2021년 유사 패턴 후 -60% 하락 전례\n\n🔥 펀더멘털\n• FY2026 가이던스 $7.18-7.20B (+61% YoY)\n• AIPCon 9: GE Aerospace, Polymarket, LG CNS 대규모 파트너십\n• UBS Strong Buy $180, Rosenblatt $200\n• FCF 마진 47%, 현금 $7.18B\n\n⚠️ 리스크: P/E 240배, 연 5% 희석, 정부 예산 의존\n\n💡 컨센서스: Buy, 목표가 $193.75 (+28%)\n\n데스크로스가 함정인가, 매수 기회인가? 🤔\n\n👉 investory.kro.kr/stock/PLTR/analysis/2026-03-15"
     }
   }
 }
