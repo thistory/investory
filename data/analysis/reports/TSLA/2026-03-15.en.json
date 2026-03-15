@@ -6,156 +6,161 @@
   "marketCap": "$1.47T",
 
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, and energy",
-    "description": "Tesla is transitioning from EV manufacturing to an integrated AI/robotics/energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Friday close $391.20 (-0.96%). Tesla-xAI joint project 'Macrohard (Digital Optimus)' unveiled; xAI investment converted to SpaceX stake ahead of IPO — formalizing financial ties across Musk's empire. Battery business emerging as the next growth driver.",
+    "oneLiner": "World's largest EV maker evolving into a 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
+    "description": "Tesla is transitioning from EV manufacturing to an integrated AI/robotics/energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Friday close $391.20 (-0.96%). Musk announced Terafab AI chip fab project launching in 7 days (3/14) — Tesla's self-manufactured AI chip era begins. Optimus 3 robot production starting this summer. Tesla-xAI joint 'Macrohard (Digital Optimus)' project and xAI→SpaceX equity conversion accelerating Musk ecosystem integration.",
     "howTheyMakeMoney": [
       "Electric vehicle sales (Model 3/Y/S/X, Cybertruck)",
       "Energy storage & generation (Megapack, Powerwall, Solar)",
       "Services & charging (Supercharger network, insurance, OTA upgrades)",
-      "FSD (Full Self-Driving) subscriptions and licensing",
+      "FSD (Full Self-Driving) subscriptions & licensing",
       "Regulatory credit sales"
     ],
     "keyProducts": [
       "Model Y/3 — Global EV bestsellers",
-      "Cybertruck — Electric pickup truck",
+      "Cybertruck — Electric pickup",
       "Megapack — Utility-scale battery storage",
-      "FSD — Full Self-Driving software",
-      "Optimus — Humanoid robot"
+      "FSD — Autonomous driving software",
+      "Optimus — Humanoid robot",
+      "Terafab — Self-manufactured AI chip facility"
     ]
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "386.91", "interpretation": "Extremely high valuation. Based on EPS $1.08. Reflects AI/robotics premium" },
+    { "name": "P/E (TTM)", "value": "386.91", "interpretation": "Extremely high valuation. Based on EPS $1.08. Reflects future AI/robotics premium" },
     { "name": "Forward P/E", "value": "189.17", "interpretation": "FY2026 EPS improvement expected but still sector-highest level" },
-    { "name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 revenue decline. Concerns about third consecutive year of delivery drops" },
-    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Margin compression continues due to price war" },
-    { "name": "FCF", "value": "$6.22B", "interpretation": "Solid cash generation. Total cash $44B on hand" },
-    { "name": "Debt/Equity", "value": "0.18", "interpretation": "Strong financial health" },
-    { "name": "ROE", "value": "4.93%", "interpretation": "Low return on equity vs. large-cap tech peers" },
-    { "name": "RSI", "value": "40.02", "interpretation": "Neutral-to-bearish zone. 7% below 50-day SMA ($420.64)" }
+    { "name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 negative growth. Third consecutive year of delivery decline concerns" },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Margin compression from price competition continues" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "Healthy cash generation. Total cash $44B" },
+    { "name": "D/E Ratio", "value": "0.18", "interpretation": "Excellent financial health" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "Low return on equity vs. large tech peers" },
+    { "name": "RSI", "value": "40.02", "interpretation": "Neutral-to-bearish zone. -7% gap from 50-day SMA ($420.64)" }
   ],
 
   "growthDrivers": [
     {
+      "title": "Terafab AI Chip Fab Project — Launch in 7 Days",
+      "description": "Reuters (3/14): Musk announced Tesla's Terafab project launching in 7 days. AI5 chip self-manufacturing facility marking Tesla's AI hardware self-sufficiency era. Small-batch production 2026 → volume production 2027."
+    },
+    {
+      "title": "Optimus 3 Robot — Production Starting This Summer",
+      "description": "Teslarati (3/14): Musk confirmed Optimus 3 robot slow production starting this summer. S-curve manufacturing ramp-up. Plans to release new design every year. Volume production target 2027."
+    },
+    {
       "title": "Tesla-xAI Joint 'Macrohard (Digital Optimus)' Project Unveiled",
-      "description": "Reuters (3/11): Musk unveiled Tesla-xAI joint project 'Macrohard' targeting software market disruption. Separately, xAI investment converted to SpaceX stake ahead of IPO — formalizing cross-company synergies."
+      "description": "Reuters (3/11): Musk unveiled joint Tesla-xAI project 'Macrohard' targeting software market disruption. xAI investment converted to SpaceX equity — Musk ecosystem synergy formalized ahead of SpaceX IPO."
     },
     {
-      "title": "GTC 2026 Opens Today — Autonomous Driving & Agentic AI in Focus",
-      "description": "NVIDIA GTC (3/16-19) Jensen Huang keynote. Vera Rubin + Blackwell Ultra B300 announcements expected. Indirect catalyst for Tesla FSD/robotaxi ecosystem. Historically, NVDA +6.4% during GTC week."
+      "title": "China February Sales Surge 91% — 4 Consecutive Months of Growth",
+      "description": "Reuters (3/11): Tesla China-made EV sales surged 91% YoY in February. Low base effect from last year, but 4 consecutive months of growth. Recovery signal vs. BYD."
     },
     {
-      "title": "China February Sales Surge 91% YoY — 4th Consecutive Month of Growth",
-      "description": "Reuters (3/11): Tesla China-made EV sales jumped 91% YoY in February. Low base effect but 4 consecutive months of growth. Rebound signal vs. BYD."
-    },
-    {
-      "title": "Batteries Are the Real Growth Story — Forbes Analysis",
-      "description": "Forbes (3/12): 'Tesla's best growth story isn't robotaxis — it's batteries.' Megapack demand explosion; energy segment is the key to offsetting auto margin decline."
+      "title": "Battery Business Is the Real Growth Story — Forbes Analysis",
+      "description": "Forbes (3/12): 'Tesla's best growth story isn't robotaxis — it's batteries.' Megapack demand explosion, energy segment as key offset to auto margin decline."
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share leader. Software/manufacturing/energy/FSD 8.2B mile vertical integration is the core moat. xAI/SpaceX connection expands the Musk ecosystem.",
+    "summary": "US EV market 50%+ share leader. Software/manufacturing/energy/FSD 8.2B miles vertical integration is the core moat. Terafab adds AI chip self-sufficiency. xAI/SpaceX connection expands Musk ecosystem.",
     "moats": [
-      { "type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles driven. Overwhelming training data advantage over competitors." },
-      { "type": "Vertical Integration", "description": "In-house battery (4680), custom chips (HW4), software (FSD), charging infrastructure (Supercharger)." },
-      { "type": "Charging Network Effect", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers." }
+      { "type": "Autonomous Driving Data Moat", "description": "FSD 8.2 billion miles of driving data. Overwhelmingly more training data than competitors." },
+      { "type": "Vertical Integration + AI Chip Manufacturing", "description": "In-house battery (4680), custom chips (HW4→AI5 Terafab), software (FSD), charging infrastructure (Supercharger)." },
+      { "type": "Charging Network Effect", "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers." }
     ],
     "competitors": [
-      { "name": "BYD", "detail": "Global EV sales leader. Strong price competitiveness. Dominates Chinese market" },
+      { "name": "BYD", "detail": "Global EV sales #1. Strong price competitiveness. Dominant in China" },
       { "name": "Rivian (RIVN)", "detail": "Electric pickup/SUV. Amazon logistics partner" },
-      { "name": "Lucid (LCID)", "detail": "Premium EV sedan. Saudi-backed investment" }
+      { "name": "Lucid (LCID)", "detail": "Premium EV sedan. Saudi-backed" }
     ]
   },
 
   "recentNews": [
     {
+      "date": "2026-03-14",
+      "headline": "Musk Announces Tesla Terafab AI Chip Fab Project Launch in 7 Days",
+      "significance": "Tesla's self-manufactured AI chip (AI5) facility. Reduces NVIDIA dependency. Volume production target 2027",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-teslas-gigantic-chip-fab-project-launch-seven-days-2026-03-14/"
+    },
+    {
+      "date": "2026-03-14",
+      "headline": "Optimus 3 Robot Production Starting This Summer — Annual Design Refresh Planned",
+      "significance": "Humanoid robot commercialization materializing. S-curve manufacturing ramp. Volume production 2027",
+      "url": "https://www.teslarati.com/tesla-xai-digital-optimus-explained/"
+    },
+    {
       "date": "2026-03-12",
-      "headline": "Tesla Converts xAI Investment Into SpaceX Stake — Government Cleared",
-      "significance": "Formalizes financial ties across Musk empire ahead of SpaceX IPO. Indirect SpaceX exposure for Tesla shareholders",
+      "headline": "Tesla Converts xAI Investment into SpaceX Stake — Government Approved",
+      "significance": "Musk inter-company financial linkage formalized ahead of SpaceX IPO. Indirect SpaceX exposure for Tesla shareholders",
       "url": "https://www.bloomberg.com/news/articles/2026-03-12/tesla-converts-xai-investment-into-spacex-stake-ahead-of-ipo"
     },
     {
       "date": "2026-03-11",
-      "headline": "Musk Unveils Tesla-xAI Joint 'Macrohard (Digital Optimus)' — Software Disruption",
-      "significance": "AI software market entry. Tesla's AI strategy takes concrete shape",
+      "headline": "Musk Unveils Joint Tesla-xAI 'Macrohard (Digital Optimus)' — Software Disruption",
+      "significance": "Entry into AI software market. Tesla's AI strategy crystallized",
       "url": "https://www.reuters.com/business/autos-transportation/musk-unveils-joint-tesla-xai-project-macrohard-eyes-software-disruption-2026-03-11/"
     },
     {
-      "date": "2026-03-12",
-      "headline": "Forbes: 'Tesla's Best Growth Story Isn't Robotaxis — It's Batteries'",
-      "significance": "Megapack-driven energy business as next growth engine offsetting auto margin decline",
-      "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/"
-    },
-    {
       "date": "2026-03-11",
-      "headline": "Reuters: 'Tesla Delivery Slide May Stretch to Third Year'",
-      "significance": "Investors and analysts cutting FY2026 delivery estimates. Cash burn concerns",
-      "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/"
-    },
-    {
-      "date": "2026-03-11",
-      "headline": "Tesla China February Sales Jump 91% YoY — 4th Consecutive Month of Growth",
+      "headline": "Tesla China February Sales Surge 91% YoY — 4 Consecutive Months Up",
       "significance": "China market recovery signal. Low base effect but positive trend",
       "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/"
     }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 396.23,
+    "consensusTarget": 399.25,
     "highTarget": 600.00,
     "lowTarget": 125.00,
-    "upsidePercent": 1.29,
+    "upsidePercent": 2.06,
     "buyCount": 10,
     "holdCount": 12,
     "sellCount": 5,
-    "notableComment": "Hold consensus from 27 analysts. Average target $396 — virtually flat vs current price. TickerNerd median $458; bulls target up to $600."
+    "notableComment": "31 analysts with Hold consensus. TipRanks avg $399.25, MarketBeat $406.84. Bulls target up to $600, but overall consensus at current price level."
   },
 
   "risks": [
     {
       "severity": "high",
-      "title": "Third Consecutive Year of Delivery Decline Possible",
-      "description": "Reuters: Investors and analysts cutting FY2026 delivery estimates. Risk of further revenue and profit decline."
+      "title": "Potential Third Consecutive Year of Delivery Decline",
+      "description": "Reuters: Investors and analysts cutting FY2026 delivery estimates. Risk of further revenue/profit decline."
     },
     {
       "severity": "high",
       "title": "Extreme Valuation — P/E 387x",
-      "description": "TTM P/E 387x, Forward P/E 189x. Sharp multiple contraction risk if growth decelerates."
+      "description": "TTM P/E 387x, Forward P/E 189x. Multiple could collapse sharply if growth slows."
     },
     {
       "severity": "high",
       "title": "NHTSA FSD Investigation — Regulatory Risk",
-      "description": "NHTSA investigating FSD vehicles. Tighter regulation could delay autonomous driving monetization."
+      "description": "Economic Times (3/9): NHTSA investigating FSD vehicles. March 9 data submission deadline. Tighter regulation could delay autonomous driving monetization."
     },
     {
       "severity": "medium",
-      "title": "Musk Leadership Spread Thin",
-      "description": "Simultaneously running Tesla, xAI, SpaceX, X (Twitter), DOGE. CEO distraction concerns persist."
+      "title": "Musk Leadership Dispersion",
+      "description": "Simultaneously running Tesla, xAI, SpaceX, X (Twitter), DOGE. CEO focus concerns persist."
     },
     {
       "severity": "medium",
       "title": "Intensifying Global EV Competition",
-      "description": "BYD and Chinese competitors' price advantage. Market share erosion in Europe and Southeast Asia."
+      "description": "BYD and Chinese EV makers' price competitiveness. Market share losses in Europe and Southeast Asia."
     }
   ],
 
   "buyReasons": [
     {
+      "title": "Terafab AI Chip Self-Manufacturing — Vertical Integration Complete",
+      "rationale": "AI5 chip self-production reduces NVIDIA dependency. AI hardware cost savings + supply security. Accelerates transformation into AI infrastructure company."
+    },
+    {
+      "title": "Optimus 3 Commercialization — Dawn of Robot Era",
+      "rationale": "Production starting this summer, volume production 2027. Success unlocks $12T+ robot TAM. Annual new design refresh planned."
+    },
+    {
       "title": "xAI/SpaceX Ecosystem Integration — New Value Creation",
-      "rationale": "Macrohard project + SpaceX stake conversion concretizes Musk ecosystem synergies. Tesla stock evolving into an AI/space complex play."
+      "rationale": "Macrohard project + SpaceX equity conversion materializes Musk ecosystem synergy. Tesla stock evolves into AI/space combo play."
     },
     {
       "title": "Battery/Energy Business — Second Growth Engine",
-      "rationale": "Megapack demand explosion; energy segment high growth. New revenue stream offsetting auto margin decline."
-    },
-    {
-      "title": "China Sales Recovery — 4 Consecutive Months of Growth",
-      "rationale": "February YoY +91% surge. Recovery in the world's largest EV market signals global delivery rebound."
-    },
-    {
-      "title": "$44B Cash — Strongest Balance Sheet",
-      "rationale": "Net cash $29.3B, FCF $6.2B. Overwhelming financial firepower vs competitors for continued R&D and capex."
+      "rationale": "Megapack demand explosion, high-growth energy segment. New revenue stream offsetting auto margin decline."
     }
   ],
 
@@ -172,38 +177,38 @@
   },
 
   "overallOpinion": [
-    "Tesla faces real challenges with EV revenue decline (-2.9%) and margin compression (operating margin 4.6%), but has secured new growth axes through the xAI/SpaceX connection and battery business.",
-    "P/E of 387x includes AI/robotics/energy 'platform premium,' but risks sharp multiple contraction if third consecutive year of delivery decline materializes.",
-    "China February sales +91% is positive, but NHTSA FSD investigation and intensifying global competition warrant caution. Hold at current levels; buying opportunity below $350."
+    "Tesla faces real challenges with negative revenue growth (-2.9%) and margin compression (operating margin 4.6%), yet is simultaneously pursuing Terafab AI chip self-manufacturing + Optimus 3 robot commercialization + xAI/SpaceX integration as powerful future growth pillars.",
+    "P/E 387x includes AI/robotics/energy/chip 'platform premium,' but if third consecutive delivery decline materializes, multiple could adjust sharply.",
+    "Terafab launch (~3/21) and GTC 2026 (3/16) are near-term catalysts. NHTSA FSD investigation is a concern. Hold at current levels; aggressive buy opportunity below $350."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Valuation burden vs platform transition expectations in balance. Watch-and-wait recommended until xAI/battery growth becomes tangible.",
+    "summary": "Valuation burden vs. Terafab/Optimus/platform transition expectations at equilibrium. Need to confirm tangible progress after Terafab launch.",
     "horizon": "12-18 months"
   },
 
   "sources": [
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/statistics/", "description": "TSLA statistics and valuation data" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-teslas-gigantic-chip-fab-project-launch-seven-days-2026-03-14/", "description": "Terafab AI chip fab project launch announcement" },
+    { "name": "Teslarati", "url": "https://www.teslarati.com/tesla-xai-digital-optimus-explained/", "description": "Digital Optimus and Optimus 3 production details" },
     { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/tesla-delivery-slide-may-stretch-third-year-some-fear-cash-burn-looms-2026-03-11/", "description": "Tesla delivery decline concerns" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-unveils-joint-tesla-xai-project-macrohard-eyes-software-disruption-2026-03-11/", "description": "Macrohard project announcement" },
-    { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-12/tesla-converts-xai-investment-into-spacex-stake-ahead-of-ipo", "description": "xAI to SpaceX stake conversion" },
-    { "name": "Forbes", "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/", "description": "Battery growth story analysis" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-unveils-joint-tesla-xai-project-macrohard-eyes-software-disruption-2026-03-11/", "description": "Macrohard project unveiling" },
+    { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-12/tesla-converts-xai-investment-into-spacex-stake-ahead-of-ipo", "description": "xAI→SpaceX equity conversion" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/alanohnsman/2026/03/12/teslas-best-growth-story-isnt-robotaxis-its-batteries/", "description": "Battery business growth analysis" },
     { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/teslas-china-made-ev-sales-jump-91-february-2026-03-11/", "description": "Tesla China February sales surge" },
-    { "name": "CNN Markets", "url": "https://www.cnn.com/markets/stocks/TSLA", "description": "TSLA real-time price data" },
-    { "name": "Public.com", "url": "https://public.com/stocks/tsla/forecast-price-target", "description": "Analyst consensus and price targets" },
-    { "name": "FullRatio", "url": "https://fullratio.com/stocks/nasdaq-tsla/pe-ratio", "description": "P/E ratio analysis" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/", "description": "GTC 2026 analysis" }
+    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/tsla/forecast", "description": "Analyst consensus $399.25" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA target $406.84" },
+    { "name": "FinTech Weekly", "url": "https://www.fintechweekly.com/news/tesla-terafab-project-launch-ai-chip-fab-musk-march-2026", "description": "Terafab project details" }
   ],
 
   "snsContent": {
     "threads": {
-      "hook": "Tesla + xAI just merged forces 🤖🚀",
-      "text": "Musk unveiled Tesla×xAI joint 'Macrohard.' Also secured SpaceX stake.\n\nBut reality check: 3rd year of delivery decline fears + P/E 387x.\n\nMeanwhile China Feb sales +91%, Forbes says batteries are the real story.\n\nBuy at $391 or wait? 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-15"
+      "hook": "Tesla is making its own AI chips now 🏭",
+      "text": "Musk: Terafab AI chip fab launching in 7 days.\n\nOptimus 3 production this summer. AI chips + robots + FSD = vertical integration complete.\n\nBut P/E 387x, 3rd year of delivery decline looming.\n\n$391 — buying the future or buying the dream? 👉 investory.kro.kr/stock/TSLA/analysis/2026-03-15"
     },
     "telegram": {
-      "hook": "Tesla+xAI = 'Macrohard' Is Born 🤖",
-      "text": "📊 TSLA $391.20 (-0.96%)\n\n🔥 Key News\n• Musk unveils Tesla-xAI joint 'Macrohard (Digital Optimus)' — software disruption play\n• xAI investment → SpaceX stake conversion approved ahead of IPO\n• China Feb sales +91% YoY (4 consecutive months ↑)\n• Forbes: 'Batteries are the real growth story'\n\n⚠️ Risks: 3rd year delivery decline possible, P/E 387x, NHTSA FSD probe\n\n💡 Consensus: Hold, target $396 (+1.3% vs current)\n\nPlatform transition promise vs valuation burden. Which side are you on? 🤔\n\n👉 investory.kro.kr/stock/TSLA/analysis/2026-03-15"
+      "hook": "Tesla Terafab Launch D-7 🏭🔥",
+      "text": "📊 TSLA $391.20 (-0.96%)\n\n🚀 Key News This Week\n• Musk: Terafab AI chip fab launching in 7 days (3/14) — self-made AI chips\n• Optimus 3 robot production starting this summer\n• Tesla-xAI 'Macrohard' + xAI→SpaceX equity swap\n• China Feb sales +91% (4 consecutive months up)\n\n⚠️ Risks: 3rd year delivery decline, P/E 387x, NHTSA FSD probe\n\n💡 Consensus: Hold, target $399 (+2%)\n\nWill Terafab be a game-changer or another promise? 🤔\n\n👉 investory.kro.kr/stock/TSLA/analysis/2026-03-15"
     }
   }
 }
