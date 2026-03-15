@@ -1,0 +1,265 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-16",
+  "currentPrice": 180.25,
+  "marketCap": "$4.38T",
+
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 -- 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습과 추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65% YoY), Q4 매출 $68.1B(+73% YoY), 순이익 $120.1B. 금요일 종가 $180.25(-1.58%). GTC 2026이 오늘(3/16) 개막, Jensen Huang 키노트에서 Vera Rubin + Blackwell Ultra B300 + 에이전틱 AI CPU 발표 예정. Cantor 애널리스트 '신뢰 회복 직전'이라 평가.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (Blackwell, Hopper GPU)",
+      "AI 소프트웨어 플랫폼 (CUDA, AI Enterprise)",
+      "게이밍 GPU (GeForce RTX)",
+      "자동차 (DRIVE 플랫폼)",
+      "네트워킹 (Spectrum-X, InfiniBand)"
+    ],
+    "keyProducts": [
+      "Blackwell Ultra B300 -- 차세대 AI 훈련 가속기",
+      "Vera Rubin VR200 -- 2026 H2 출시 예정 차차세대 아키텍처",
+      "DGX SuperPOD -- 엔터프라이즈 AI 인프라",
+      "CUDA -- GPU 컴퓨팅 플랫폼",
+      "DRIVE -- 자율주행 플랫폼"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "36.79", "interpretation": "대형 테크 대비 합리적. 역대 최저 수준의 P/E" },
+    { "name": "Forward P/E", "value": "21.84", "interpretation": "FY2027 성장 기대 반영. PEG 0.57로 성장 대비 저평가" },
+    { "name": "매출 성장률 (YoY)", "value": "+65%", "interpretation": "FY2026 $215.9B 달성. AI 수요 폭발 지속" },
+    { "name": "영업이익률", "value": "60.38%", "interpretation": "반도체 업계 최고 수준. 독점적 마진" },
+    { "name": "FCF", "value": "$96.68B", "interpretation": "연간 FCF 약 $97B, 사상 최대 현금 창출" },
+    { "name": "부채비율 (D/E)", "value": "0.07", "interpretation": "극도로 낮은 부채. 사실상 무차입" },
+    { "name": "ROE", "value": "101.49%", "interpretation": "100% 이상 자본 수익률. 자본 효율 극대화" },
+    { "name": "RSI", "value": "42", "interpretation": "중립 구간. GTC 앞두고 관망세" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "GTC 2026 오늘 개막, 'AI의 슈퍼볼' 최대 촉매",
+      "description": "Yahoo Finance(3/15): GTC 2026, 3/16 Jensen Huang 키노트. Vera Rubin VR200(HBM4, Blackwell 대비 3.3배 추론 성능), Blackwell Ultra B300, 에이전틱 AI CPU 발표 예정. 역사적으로 GTC 주간 +6.4% 상승."
+    },
+    {
+      "title": "Cantor 애널리스트 '신뢰 회복 직전', 강력 매수 유지",
+      "description": "TipRanks(3/13): Cantor Fitzgerald 톱 애널리스트가 'We are on the cusp of regaining confidence'라며 NVDA 강력 매수 유지. 목표가 $273.61(+52%)."
+    },
+    {
+      "title": "Thinking Machines Lab, 1GW Vera Rubin 전략적 파트너십",
+      "description": "NVIDIA Blog: Thinking Machines Lab과 다년간 전략 파트너십 체결. 최소 1GW의 Vera Rubin 시스템 배치로 프론티어 모델 훈련 지원."
+    },
+    {
+      "title": "FY2026 매출 $215.9B(+65%), AI 수요 사이클 지속",
+      "description": "Q4 매출 $68.1B(+73% YoY). 하이퍼스케일러(AWS, Azure, GCP)의 AI 인프라 투자 경쟁 지속. FY2027 매출 $352B 전망."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습과 추론 GPU 시장 90%+ 점유율. 소프트웨어+하드웨어 통합이 핵심 해자.",
+    "moats": [
+      { "type": "CUDA 생태계", "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화." },
+      { "type": "설계 우위", "description": "Blackwell에서 Rubin, Feynman으로 2년 주기 아키텍처 혁신. 경쟁사 대비 1-2세대 앞서." },
+      { "type": "풀스택 전략", "description": "칩+시스템(DGX)+소프트웨어(CUDA, AI Enterprise)+네트워킹(Spectrum-X) 통합." }
+    ],
+    "competitors": [
+      { "name": "AMD (MI400)", "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대" },
+      { "name": "Intel (Gaudi 3)", "detail": "AI 가속기 시장 진입. 파운드리 전환 중" },
+      { "name": "커스텀 칩 (Google TPU, Amazon Trainium)", "detail": "하이퍼스케일러 자체 AI 칩. NVIDIA 의존도 축소 시도" }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-03-16",
+      "headline": "NVIDIA GTC 2026 개막, Jensen Huang 키노트 오늘 11am PT 예정",
+      "significance": "190개국 참석자가 모인 가운데 SAP Center에서 키노트 진행. Vera Rubin, 에이전틱 AI CPU, NemoClaw 플랫폼 발표 예상",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "date": "2026-03-15",
+      "headline": "Motley Fool: 'NVIDIA는 2020년대 가장 중요한 주식으로 남을 것'",
+      "significance": "AI 네트워킹 매출 263% YoY 성장(Q4 FY2026). Nokia, Intel 등에도 투자 확대",
+      "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "CNBC: 'NVIDIA GTC에서 CPU가 주역, Vera CPU로 에이전틱 AI 시대 개척'",
+      "significance": "NVIDIA가 CPU 시장에 본격 진출. Meta 데이터센터에 Vera CPU 독립 배치 시작. Intel, AMD CPU 시장 도전",
+      "url": "https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "Cantor 톱 애널리스트: 'NVDA 신뢰 회복 직전', 목표가 $273.61",
+      "significance": "대형 IB 톱 애널리스트의 강력 매수 신호. 현재가 대비 +52% 업사이드",
+      "url": "https://www.tipranks.com/news/top-cantor-analyst-is-bullish-on-nvidia-stock-nvda-ahead-of-gtc-2026-says-we-are-on-the-cusp-of-regaining-confidence"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "Investopedia: 'AI의 우드스탁' GTC 2026, NemoClaw AI 에이전트 플랫폼 공개 예정",
+      "significance": "Wired 보도에 따르면 NemoClaw라는 AI 에이전트 플랫폼 발표 예상. 주가 반등 계기 될 수 있다",
+      "url": "https://www.investopedia.com/what-to-expect-from-nvidia-gtc-2026-gpu-technology-conference-nvda-woodstock-of-ai-11926068"
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 274.21,
+    "highTarget": 400.00,
+    "lowTarget": 140.00,
+    "upsidePercent": 52.13,
+    "buyCount": 38,
+    "holdCount": 1,
+    "sellCount": 0,
+    "notableComment": "39명 애널리스트 Strong Buy 컨센서스. MarketBeat $274.21, Stocknear $262.50, TickerGate $277.82. 셀 의견 0명. Cantor 톱 애널리스트 '신뢰 회복 직전'."
+  },
+
+  "risks": [
+    {
+      "severity": "high",
+      "title": "커스텀 AI 칩 경쟁, 하이퍼스케일러 자체 개발",
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia. 최대 고객들이 자체 칩 개발로 NVIDIA 의존도 축소 시도."
+    },
+    {
+      "severity": "high",
+      "title": "AI 투자 사이클 둔화 가능성",
+      "description": "하이퍼스케일러 CAPEX 감속 시 GPU 수요 급감 위험. AI ROI 의문 부상 시 투자 축소 가능."
+    },
+    {
+      "severity": "medium",
+      "title": "미중 기술 규제, 중국 수출 제한",
+      "description": "미국의 대중 AI 칩 수출 규제 지속. 중국 데이터센터 매출($10B+) 제한 리스크."
+    },
+    {
+      "severity": "medium",
+      "title": "매출 집중도, 상위 4개 고객 의존",
+      "description": "Microsoft, Meta, Amazon, Google이 매출의 40%+ 차지. 특정 고객 발주 감소 시 실적 충격."
+    },
+    {
+      "severity": "low",
+      "title": "AMD MI400 경쟁, 비용 효율 대안",
+      "description": "AMD의 차세대 MI400이 가격 대비 성능으로 일부 워크로드 대체 가능."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "GTC 2026 오늘 개막, 역사적 +6.4% 주간 상승 패턴",
+      "rationale": "GTC 주간 역사적 강세. Vera Rubin + 에이전틱 AI + NemoClaw 발표가 주가 리레이팅 촉매."
+    },
+    {
+      "title": "Forward P/E 21.84, PEG 0.57, 성장 대비 저평가",
+      "rationale": "FY2027 매출 성장률 60%+ 대비 Forward P/E 22배는 매력적. PEG 0.57은 1 미만으로 저평가 시그널."
+    },
+    {
+      "title": "FCF $97B, 세계 최고 현금 창출 기업 중 하나",
+      "rationale": "연간 FCF $97B으로 자사주 매입, 배당, M&A 여력 충분. 주주 환원 확대 기대."
+    },
+    {
+      "title": "Cantor 톱 애널리스트 '신뢰 회복 직전', $273.61",
+      "rationale": "대형 IB 톱 애널리스트의 강력 매수 코멘트. 39명 중 38명 Buy. 현재가 대비 +52% 업사이드."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 207.00,
+    "week52Low": 110.00,
+    "currentPositionPercent": 72.42,
+    "sma50": 185.46,
+    "sma50Signal": "below",
+    "sma200": 177.39,
+    "sma200Signal": "above",
+    "rsi": 42,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "GTC 2026이 오늘 개막한다. Jensen Huang 키노트에서 Vera Rubin(추론 성능 3.3배), 에이전틱 AI CPU, NemoClaw 플랫폼이 발표될 예정이고, 역사적으로 GTC 주간에는 +6.4% 상승했다.",
+    "FY2026 매출 $216B(+65%), 영업이익률 60%, FCF $97B으로 AI 인프라 지배력이 확실하다. AI 네트워킹 매출은 전년 대비 263% 성장했고, CPU 시장까지 확장 중이다.",
+    "Forward P/E 22배에 PEG 0.57로 65% 성장률 대비 저평가 상태다. 39명 애널리스트 중 38명이 매수 의견이고, 평균 목표가 $274(+52%)다. 50일 평균($185) 아래에 있지만 200일 평균($177) 위에서 버티고 있다."
+  ],
+
+  "investmentVerdict": {
+    "stance": "strong-buy",
+    "summary": "AI 시대의 필수 인프라 기업이다. GTC 2026 오늘 개막으로 단기 촉매가 눈앞에 있고, PEG 0.57로 성장 대비 저평가 상태다. CPU 시장 진출과 에이전틱 AI 플랫폼 발표로 사업 영역도 확장되고 있다. 최대 리스크는 커스텀 칩 경쟁과 AI CAPEX 사이클이지만, CUDA 생태계와 2년 주기 아키텍처 혁신이 기술 격차를 유지하고 있다.",
+    "horizon": "12-24개월"
+  },
+
+  "sources": [
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 공식 실시간 업데이트 페이지" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html", "description": "GTC 2026 개막 프리뷰" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html", "description": "NVIDIA CPU 전략 피봇, Vera CPU 상세 보도" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/top-cantor-analyst-is-bullish-on-nvidia-stock-nvda-ahead-of-gtc-2026-says-we-are-on-the-cusp-of-regaining-confidence", "description": "Cantor 톱 애널리스트 $273.61 매수 의견" },
+    { "name": "Investopedia", "url": "https://www.investopedia.com/what-to-expect-from-nvidia-gtc-2026-gpu-technology-conference-nvda-woodstock-of-ai-11926068", "description": "GTC 2026 NemoClaw AI 에이전트 플랫폼 보도" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/", "description": "NVIDIA 2020년대 가장 중요한 주식 분석" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/", "description": "GTC 역사적 주가 패턴 분석" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA 목표가 $274.21 컨센서스" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261657446-nvidia-gtc-2026-preview-vera-rubin-feynman-tradingkey", "description": "Vera Rubin 기술 사양, Rubin 추론 비용 Blackwell의 1/10" },
+    { "name": "Stocknear", "url": "https://stocknear.com/stocks/NVDA/forecast", "description": "NVDA 애널리스트 목표가 중앙값 $262.50" },
+    { "name": "TickerGate", "url": "https://www.tickergate.com/stocks/nvda/stock-forecast", "description": "79명 애널리스트 평균 목표가 $277.82" },
+    { "name": "AktienFinanz", "url": "https://aktienfinanz.com/en/stocks/nvda", "description": "RSI 42 중립, 200일 이동평균 위 기술적 분석" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "NVIDIA GTC 오늘 개막, AI의 슈퍼볼 시작",
+      "text": "$NVDA (3/16) GTC 2026 오늘 개막. Vera Rubin(추론 3.3배), 에이전틱 AI CPU, NemoClaw 발표 예정. 역사적으로 GTC 주간 +6.4% 상승. $180.25.\n\n1/4",
+      "thread": [
+        "FY2026 매출 $216B(+65%), 영업이익률 60%, FCF $97B. AI 네트워킹 매출만 263% 성장. CPU 시장까지 확장 중이다.\n\n2/4",
+        "Forward P/E 22배, PEG 0.57. 65% 성장률 치고는 싸다. 39명 중 38명 매수, 목표가 $274(+52%).\n\n3/4",
+        "50일 평균($185) 아래지만 200일 평균($177) 위. 오늘 키노트 결과가 이번 주 방향을 결정한다.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVIDIA GTC 오늘 개막, AI의 슈퍼볼 시작",
+      "text": "$NVDA (3/16) $180.25(-1.58%)\n\nGTC 2026이 오늘 개막한다. Jensen Huang 키노트에서 Vera Rubin(추론 3.3배), 에이전틱 AI CPU, NemoClaw AI 에이전트 플랫폼이 발표된다. 역사적으로 GTC 주간에는 +6.4% 상승.\n\nFY2026 매출 $216B(+65%), 영업이익률 60%, FCF $97B. AI 네트워킹 매출 263% 성장, CPU 시장까지 진출 중이다.\n\nForward P/E 22배, PEG 0.57로 저평가 상태. 39명 중 38명 매수, 목표가 $274(+52%). 오늘 키노트가 이번 주 방향을 결정한다."
+    },
+    "telegram": {
+      "hook": "GTC 2026 오늘 개막! NVDA $180에서 잡을까?",
+      "text": "NVIDIA 일일 분석 (3/16)\n\n가격: $180.25 (-1.58%)\n\n핵심 이슈\n- GTC 2026 오늘 개막, Jensen Huang 키노트 11am PT\n- Vera Rubin(추론 3.3배), 에이전틱 AI CPU, NemoClaw 플랫폼 발표 예정\n- 역사적 GTC 주간 +6.4% 상승 패턴\n- Cantor 톱 애널리스트 '신뢰 회복 직전'\n- AI 네트워킹 매출 263% YoY 성장\n\n핵심 지표\n- FY2026 매출 $215.9B (+65% YoY)\n- 영업이익률 60%, FCF $97B\n- Forward P/E 21.84, PEG 0.57\n\n주가 위치\n- 50일 평균($185) 아래\n- 200일 평균($177) 위에서 버팀\n- RSI 42 (중립)\n\n리스크: 커스텀 칩 경쟁, AI CAPEX 사이클, 미중 규제\n\n목표가: $274 (+52%), 39명 중 38명 Buy"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVIDIA GTC 오늘 개막, AI의 슈퍼볼 시작",
+          "text": "$NVDA (3/16) GTC 2026 오늘 개막. Vera Rubin(추론 3.3배), 에이전틱 AI CPU, NemoClaw 발표 예정. 역사적으로 GTC 주간 +6.4% 상승. $180.25.\n\n1/4",
+          "thread": [
+            "FY2026 매출 $216B(+65%), 영업이익률 60%, FCF $97B. AI 네트워킹 매출만 263% 성장. CPU 시장까지 확장 중이다.\n\n2/4",
+            "Forward P/E 22배, PEG 0.57. 65% 성장률 치고는 싸다. 39명 중 38명 매수, 목표가 $274(+52%).\n\n3/4",
+            "50일 평균($185) 아래지만 200일 평균($177) 위. 오늘 키노트 결과가 이번 주 방향을 결정한다.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Jensen Huang이 가죽재킷 입고 무대에 서면 주가가 오른다",
+          "text": "$NVDA (3/16) GTC 오늘 개막. Vera Rubin은 추론 3.3배, 비용은 1/10. 경쟁사가 따라올 즈음엔 또 다음 세대가 나온다. $180.25.\n\n1/4",
+          "thread": [
+            "매출 $216B에 영업이익률 60%. 반도체 회사인데 소프트웨어 마진이 나온다. FCF $97B이면 매일 $2.6억씩 현금이 쌓이는 셈.\n\n2/4",
+            "Forward P/E 22배인데 성장률은 65%. PEG 0.57이면 시장이 아직 이 성장을 다 반영 못 한 거다.\n\n3/4",
+            "39명 중 38명이 사라고 하고, 1명만 관망. 그 1명이 누군지가 궁금하다. 목표가 $274(+52%).\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 들고 있으면 이번 GTC가 설레면서도 긴장될 거다",
+          "text": "$NVDA (3/16) $180.25. ATH $207에서 -13% 빠진 자리다. 연초부터 빠져서 지칠 수 있다. 하지만 오늘 GTC가 시작된다.\n\n1/4",
+          "thread": [
+            "Vera Rubin(추론 3.3배), NemoClaw AI 에이전트 플랫폼. 실적은 이미 증명됐다. 매출 $216B(+65%), FCF $97B. 숫자로는 흠잡을 게 없다.\n\n2/4",
+            "39명 중 38명 매수 의견, 목표가 $274(+52%). Forward P/E 22배는 이 성장률 대비 합리적이다. 시장이 감정적으로 눌러놓은 구간.\n\n3/4",
+            "GTC 주간은 역사적으로 +6.4% 올랐다. 오늘 키노트가 분위기를 바꿀 수 있다. 조금만 더 지켜보자.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVIDIA GTC 오늘 개막, AI의 슈퍼볼 시작",
+          "text": "$NVDA (3/16) $180.25(-1.58%)\n\nGTC 2026이 오늘 개막한다. Jensen Huang 키노트에서 Vera Rubin(추론 3.3배), 에이전틱 AI CPU, NemoClaw AI 에이전트 플랫폼이 발표된다. 역사적으로 GTC 주간에는 +6.4% 상승.\n\nFY2026 매출 $216B(+65%), 영업이익률 60%, FCF $97B. AI 네트워킹 매출 263% 성장, CPU 시장까지 진출 중이다.\n\nForward P/E 22배, PEG 0.57로 저평가 상태. 39명 중 38명 매수, 목표가 $274(+52%). 오늘 키노트가 이번 주 방향을 결정한다."
+        },
+        "witty": {
+          "hook": "Jensen Huang이 가죽재킷 입고 무대에 서면 주가가 오른다",
+          "text": "$NVDA (3/16) $180.25(-1.58%)\n\nGTC 오늘 개막. Vera Rubin은 추론 3.3배 빠르고, 비용은 1/10. 경쟁사가 지금 세대 따라잡을 때쯤이면 NVIDIA는 벌써 다음 세대를 꺼낸다.\n\n매출 $216B에 영업이익률 60%. 반도체 회사인데 소프트웨어 마진. FCF $97B이면 매일 $2.6억씩 현금이 쌓인다. 39명 중 38명이 사라고 하는데, 1명은 아마 AMD 주주일 거다.\n\nForward P/E 22배, 성장률 65%. 목표가 $274(+52%). 가죽재킷의 마법이 오늘 또 통할지 지켜보자."
+        },
+        "empathy": {
+          "hook": "NVDA 들고 있으면 이번 GTC가 설레면서도 긴장될 거다",
+          "text": "$NVDA (3/16) $180.25(-1.58%)\n\nATH $207에서 -13% 빠진 자리. 연초부터 빠져서 지칠 수 있다. 하지만 오늘 GTC가 시작된다. Vera Rubin(추론 3.3배), NemoClaw AI 에이전트 플랫폼이 발표될 예정이다.\n\n실적은 이미 증명됐다. 매출 $216B(+65%), FCF $97B. 39명 중 38명이 매수 의견이고, 평균 목표가 $274(+52%). Forward P/E 22배는 이 성장률 대비 합리적이다.\n\nGTC 주간은 역사적으로 +6.4% 올랐다. 오늘 키노트가 분위기를 바꿀 수 있다. 조금만 더 지켜보자."
+        }
+      }
+    }
+  }
+}
