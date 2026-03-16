@@ -2,172 +2,253 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-16",
-  "currentPrice": 20.55,
-  "marketCap": "$9.34B",
+  "currentPrice": 21.84,
+  "marketCap": "$9.42B",
+
   "businessSummary": {
-    "oneLiner": "World's largest publicly traded Ethereum treasury company, applying MicroStrategy's Bitcoin playbook to Ethereum",
-    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,534,563 ETH (3.76% of total supply) as of 3/8, with total crypto + cash of $10.3B. Recently completed an OTC purchase of 5,000 ETH from the Ethereum Foundation at $2,042.96/ETH ($10.2M). TipRanks shows 2 analysts covering with average target $34.50 (+68%).",
+    "oneLiner": "The world's largest publicly traded Ethereum treasury company, applying MicroStrategy's Bitcoin playbook to Ethereum",
+    "description": "Originally a Bitcoin mining company, Bitmine pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of March 8, it holds 4,534,563 ETH (3.76% of total supply), with total crypto and cash of $10.3B. Friday close $21.84 (+6.25%). Tom Lee joined the Eightco (ORBS) board and BMNR invested $75M, expanding into the broader crypto ecosystem. P/B ~0.70x, market cap $9.42B.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,534,563 ETH (~$9.5B at ~$2,090/ETH) -- core value",
-      "ETH Staking: ~3M ETH staked, MAVAN launch projected to generate ~$253M annual revenue",
-      "Dividends: 4.9% yield -- only crypto treasury company offering dividends",
-      "Bitcoin Holdings: 195 BTC (supplementary)"
+      "ETH Treasury: 4,534,563 ETH (~$9.6B at ~$2,109/ETH), core value driver",
+      "ETH Staking Revenue: ~3M ETH staked, ~$174M annual revenue",
+      "Dividends: 5.3% yield, the only dividend-paying crypto treasury stock",
+      "Bitcoin Holdings: 195 BTC (secondary)"
     ],
     "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings"]
   },
+
   "keyMetrics": [
-    {"name": "P/B (Price-to-Book)", "value": "~0.70x", "interpretation": "Trading 30% below asset value. Extreme discount vs MicroStrategy (2-3x)"},
-    {"name": "ETH Holdings", "value": "4,534,563 ETH", "interpretation": "3.76% of total ETH supply. World's largest public ETH treasury"},
-    {"name": "Total Crypto + Cash", "value": "~$10.6B", "interpretation": "ETH ~$9.5B + cash $1.2B at ~$2,090/ETH"},
-    {"name": "Dividend Yield", "value": "4.9%", "interpretation": "Only dividend-paying crypto treasury company. Attractive for income investors"},
-    {"name": "Forward P/E", "value": "58.37x", "interpretation": "Based on FY2026 estimated EPS $0.35. MAVAN launch expected to improve earnings"},
-    {"name": "P/E (TTM)", "value": "Negative (EPS -$0.93)", "interpretation": "ETH mark-to-market losses. Actual cash flow from staking revenue"},
-    {"name": "Staked ETH", "value": "3,040,483 ETH", "interpretation": "67% of holdings staked. MAVAN launch projected $253M+ annual revenue"},
-    {"name": "YTD Return", "value": "~-33%", "interpretation": "ETH weakness and short-seller report dragged YTD performance"}
+    { "name": "P/B (TTM)", "value": "0.70x", "interpretation": "Trading at 30% discount to NAV. Persistently undervalued relative to book value" },
+    { "name": "ETH Holdings", "value": "4,534,563 ETH", "interpretation": "3.76% of total ETH supply. Largest publicly traded ETH treasury" },
+    { "name": "Total Crypto + Cash", "value": "$10.3B", "interpretation": "ETH ~$9.6B + Cash $868M. NAV premium over $9.42B market cap" },
+    { "name": "Dividend Yield", "value": "5.3%", "interpretation": "Only dividend-paying crypto treasury stock. Attractive to income investors" },
+    { "name": "Staking Revenue", "value": "~$174M/year", "interpretation": "~3M ETH staked generating stable passive income" },
+    { "name": "P/E (TTM)", "value": "N/A (EPS -$1.32)", "interpretation": "Net loss reflects ETH mark-to-market. Actual cash flow comes from staking" },
+    { "name": "Avg Daily Volume", "value": "$1.0B", "interpretation": "Institutional-grade liquidity. $1B average daily dollar volume" },
+    { "name": "YTD Return", "value": "-28.7%", "interpretation": "Significant decline from ETH weakness + short seller report impact" }
   ],
+
   "growthDrivers": [
-    {"title": "Ethereum Foundation OTC Deal, Top-Tier ETH Ecosystem Connection", "description": "CoinCentral (3/15): Ethereum Foundation sold 5,000 ETH directly to BitMine at $2,042.96/ETH ($10.2M). A direct deal with the Foundation signals BMNR's elevated status within the ETH ecosystem."},
-    {"title": "Analyst Coverage Expanded to 2, Average Target $34.50 (+68%)", "description": "TipRanks (3/16): Second analyst initiated coverage beyond B. Riley. Average 12-month target $34.50, Moderate Buy consensus. Growing institutional attention."},
-    {"title": "MAVAN Staking Platform Q1 2026 Launch Imminent", "description": "Made in America Validator Network to cut third-party staking fees. Projected $253M+ annual revenue upon launch. Transforms from a passive ETH holder to an active revenue generator."},
-    {"title": "P/B 0.70x, 30% Discount to NAV Persists", "description": "Market cap $9.34B vs estimated treasury $10.6B+. MicroStrategy trades at P/B 2-3x. Seeking Alpha analysis suggests 'this could be the bottom.'"}
+    {
+      "title": "Tom Lee Joins Eightco (ORBS) Board + BMNR Invests $75M",
+      "description": "Yahoo Finance (3/12): Eightco raised $125M total from BMNR ($75M), Ark Invest ($25M), and Payward/Kraken ($25M). Tom Lee joined the board. Eightco invests strategically in companies including OpenAI and Beast Industries, expanding BMNR's crypto ecosystem influence."
+    },
+    {
+      "title": "Institutional Investors Entering, Menard Financial Group Buys In",
+      "description": "MarketBeat (3/14): Menard Financial Group purchased 49,965 shares in Q3 as a new position. Growing institutional interest improves price discovery efficiency."
+    },
+    {
+      "title": "P/B 0.70x, Persistent 30% Discount to NAV",
+      "description": "Market cap $9.42B vs total assets $10.3B. MicroStrategy (MSTR) trades at P/B 2-3x. NAV discount closure alone implies 50%+ upside."
+    },
+    {
+      "title": "MAVAN Proprietary Staking Platform Launching Q1 2026",
+      "description": "Made in America Validator Network eliminates third-party staking fees. Regulatory-friendly US-based validators. Expected to improve yield."
+    }
   ],
+
   "competitiveAdvantage": {
-    "summary": "Largest public ETH holding (3.76% of supply). Tom Lee brings institutional credibility. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
+    "summary": "Largest ETH holdings among publicly traded companies (3.76% of supply). Tom Lee's involvement brings institutional credibility. The only large-scale player applying MicroStrategy's BTC playbook to Ethereum.",
     "moats": [
-      {"type": "ETH Supply Concentration", "description": "3.76% of total ETH supply. Irreplaceable market position."},
-      {"type": "Institutional Access", "description": "Public stock providing ETH exposure. Accessible to institutions without ETF."},
-      {"type": "Ethereum Foundation Direct Dealing", "description": "OTC deal with Foundation establishes top-tier ETH ecosystem status."}
+      { "type": "ETH Supply Concentration", "description": "Holds 3.76% of total ETH supply. Irreplaceable market position." },
+      { "type": "Institutional Access", "description": "Provides ETH exposure via public stock. Accessible to institutions without ETF." },
+      { "type": "Staking Yield Advantage", "description": "~3M ETH staked + proprietary MAVAN platform for superior yields vs simple holding." }
     ],
     "competitors": [
-      {"name": "MicroStrategy (MSTR)", "detail": "Pioneer of Bitcoin treasury strategy. BTC focus vs BMNR's ETH focus"},
-      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor. Different fee structure"},
-      {"name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model"}
+      { "name": "MicroStrategy (MSTR)", "detail": "Pioneer of Bitcoin treasury strategy. BTC-focused vs BMNR's ETH focus" },
+      { "name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor. Different fee structure" },
+      { "name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model" }
     ]
   },
+
   "recentNews": [
-    {"date": "2026-03-15", "headline": "Ethereum Foundation sells 5,000 ETH to BitMine via OTC ($10.2M at $2,042.96/ETH)", "significance": "Direct Foundation deal elevates BMNR's ETH ecosystem status. Symbolic and strategic milestone", "url": "https://coincentral.com/ethereum-foundation-completes-10-2m-eth-sale-to-bitmine-bmnr/"},
-    {"date": "2026-03-16", "headline": "TipRanks: 'The Ultimate ETH Proxy'. 2 analysts covering, average target $34.50 (+68%)", "significance": "Second analyst coverage initiated. Target upgraded to $34.50. Growing institutional interest signal", "url": "https://www.tipranks.com/news/bitmine-stock-tracks-ethereums-price-to-a-t-as-it-proves-to-be-the-ultimate-proxy-for-eth-investors"},
-    {"date": "2026-03-10", "headline": "Seeking Alpha: 'This Could Be the Bottom' as crypto legislation gains momentum", "significance": "MAVAN projected to generate $253M+ staking revenue. Crypto bill passage could resolve regulatory uncertainty", "url": "https://seekingalpha.com/article/4880000-bitmine-immersion-technologies-this-could-be-the-bottom-as-legislation-becomes-more-likely"},
-    {"date": "2026-03-09", "headline": "ETH holdings reach 4,534,563 tokens, total crypto + cash $10.3B. Record weekly purchase of 60,976 ETH", "significance": "NAV premium vs market cap reconfirmed. Tom Lee: 'Mini crypto winter is nearly over'", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"},
-    {"date": "2026-03-16", "headline": "CoinGape: BMNR named among top 3 trending crypto stocks this week (BMNR, CRCL, MSTR)", "significance": "Friday close $20.55, intraday high $22.76. High volatility but sustained investor attention", "url": "https://coingape.com/news/stocks/3-trending-crypto-stocks-to-watch-bmnr-crcl-and-mstr-what-to-expect-this-week/"}
+    {
+      "date": "2026-03-14",
+      "headline": "Menard Financial Group purchases 49,965 BMNR shares as new position",
+      "significance": "Q3 13F filing confirms new institutional entry. Improves price discovery",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-menard-financial-group-llc-takes-position-in-bitmine-immersion-technologies-inc-bmnr-2026-03-14/"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "BMNR surges 6.25%, touches intraday high of $22.76. Up 582% from 52-week low",
+      "significance": "Strong buying pressure with volume. Intraday high $22.76 before closing at $21.84",
+      "url": "https://www.gurufocus.com/news/8708005/bitmine-immersion-technologies-inc-bmnr-shares-up-625-on-mar-13"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "Tom Lee joins Eightco (ORBS) board. BMNR invests $75M alongside Ark Invest and Kraken",
+      "significance": "Total $125M raise. Expands Tom Lee's crypto ecosystem influence. BMNR diversifies strategic investments",
+      "url": "https://finance.yahoo.com/news/bitmines-tom-lee-joins-eightco-163804738.html"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "ETH holdings reach 4,534,563 tokens. Total crypto and cash at $10.3B",
+      "significance": "Confirms NAV premium over market cap. Also announced 60,976 ETH additional purchase",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"
+    },
+    {
+      "date": "2026-03-09",
+      "headline": "Tom Lee: 'Mini crypto winter nearly over' as Bitmine buys 61,000 more ETH",
+      "significance": "Aggressive accumulation during downturn signals long-term conviction",
+      "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition"
+    }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 34.50,
-    "highTarget": 39.00,
+    "consensusTarget": 30.00,
+    "highTarget": 30.00,
     "lowTarget": 30.00,
-    "upsidePercent": 67.88,
-    "buyCount": 2,
+    "upsidePercent": 37.36,
+    "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "TipRanks: 2 analysts, Moderate Buy consensus. Average target $34.50 (+68%). B. Riley maintains Strong Buy at $30. Second analyst added, expanding coverage."
+    "notableComment": "B. Riley Securities' Fedor Shabalin is the sole analyst with coverage. Maintains Strong Buy at $30 target. Bankless Times also identifies $30 as next technical target. Coverage is extremely limited but NAV-based fair value suggests $27+."
   },
+
   "risks": [
-    {"severity": "critical", "title": "ETH Price Dependency", "description": "Over 90% of assets in ETH. Further ETH decline hits NAV directly. Drop to $1,500 would bring treasury below $8B, erasing the NAV discount."},
-    {"severity": "high", "title": "Short-Seller Report Overhang", "description": "Culper Research short report continues to pressure selling. Key driver of NAV discount expansion."},
-    {"severity": "high", "title": "87% Decline from 52-Week High", "description": "From $161 peak to $20.55, an 87% plunge. Technical recovery requires significant time."},
-    {"severity": "medium", "title": "Geopolitical Risk (Iran Conflict)", "description": "Prolonged conflict pressures risk assets broadly. Direct impact on crypto markets."},
-    {"severity": "medium", "title": "Dilution Risk", "description": "Ongoing capital raises to fund ETH purchases. Share issuance dilutes existing shareholders."},
-    {"severity": "medium", "title": "Regulatory Risk", "description": "Potential SEC crypto regulation tightening. However, recent legislation momentum is a positive signal."}
+    {
+      "severity": "critical",
+      "title": "ETH Price Dependency: 90%+ of Assets in ETH",
+      "description": "At ETH $2,109, treasury is ~$9.6B. A drop to $1,500 would shrink treasury to $6.8B, implying a stock price around $14."
+    },
+    {
+      "severity": "high",
+      "title": "Ongoing Short Seller Report Impact",
+      "description": "Culper Research short report continues to create selling pressure. Main driver of NAV discount. Additional short reports possible."
+    },
+    {
+      "severity": "high",
+      "title": "Extremely Limited Analyst Coverage",
+      "description": "Only 1 analyst covers BMNR. Insufficient institutional attention leads to price discovery inefficiency. Menard Financial's entry helps but still inadequate."
+    },
+    {
+      "severity": "medium",
+      "title": "Regulatory Risk",
+      "description": "Potential SEC crypto regulation tightening. Risk of changing accounting standards for treasury companies."
+    },
+    {
+      "severity": "medium",
+      "title": "Dilution Risk",
+      "description": "Ongoing capital raises to fund ETH purchases. The $75M Eightco investment also represents cash outflow."
+    }
   ],
+
   "buyReasons": [
-    {"title": "P/B 0.70x, 30% Discount to NAV", "rationale": "Market cap $9.34B vs estimated treasury $10.6B+. Extreme discount vs MicroStrategy's P/B 2-3x."},
-    {"title": "Ethereum Foundation Direct OTC Deal", "rationale": "Direct dealing with ETH's founding organization boosts institutional credibility and ecosystem standing."},
-    {"title": "MAVAN Launch Imminent, Revenue Structure Transformation", "rationale": "Q1 2026 launch projected. $253M+ annual staking revenue would dramatically improve Forward P/E."},
-    {"title": "Analyst Coverage Expanding, Target $34.50 (+68%)", "rationale": "From 1 to 2 analysts. Both Buy-rated. Beginning of wider institutional coverage."}
+    {
+      "title": "P/B 0.70x: Extreme NAV Discount vs MSTR",
+      "rationale": "Market cap $9.42B vs total assets $10.3B. MicroStrategy trades at P/B 2-3x. Discount closure alone implies 50%+ upside."
+    },
+    {
+      "title": "Tom Lee Expanding Crypto Ecosystem via Eightco Board",
+      "rationale": "The $75M Eightco investment + board seat creates indirect connections to OpenAI, Beast Industries. BMNR evolving into crypto investment platform."
+    },
+    {
+      "title": "5.3% Dividend + $174M Annual Staking Revenue",
+      "rationale": "Only dividend-paying crypto treasury stock. Staking revenue funds distributions. Unique income proposition for crypto exposure."
+    },
+    {
+      "title": "Institutional Entry Beginning, ETH Recovery Provides Leverage",
+      "rationale": "Menard Financial entering. If ETH recovers to $2,500, treasury reaches $11.3B, implying $26+ stock price."
+    }
   ],
+
   "technicalPosition": {
     "week52High": 161.00,
     "week52Low": 3.20,
-    "currentPositionPercent": 10.99,
-    "sma50": 31.35,
+    "currentPositionPercent": 11.80,
+    "sma50": 22.50,
     "sma50Signal": "below",
-    "sma200": 32.00,
+    "sma200": 28.00,
     "sma200Signal": "below",
-    "rsi": 44,
+    "rsi": 48.00,
     "rsiSignal": "neutral"
   },
+
   "overallOpinion": [
-    "The Ethereum Foundation sold ETH directly to BitMine: 5,000 ETH ($10.2M) via OTC. Dealing directly with the Foundation itself signals that BMNR's standing within the ETH ecosystem has fundamentally changed.",
-    "Analyst coverage expanded from 1 to 2, with the average target rising from $30 to $34.50 (+68%). TipRanks now calls BMNR 'the ultimate ETH proxy.' Also named among top 3 trending crypto stocks this week.",
-    "P/B at 0.70x means a 30% discount to asset value persists, and MAVAN staking platform Q1 launch is imminent. However, with 87% below the 52-week high and 90% of assets in ETH, any further crypto decline is a direct hit."
+    "Tom Lee joined the Eightco board and invested $75M, transforming BMNR from a pure ETH holder into a crypto ecosystem investment platform with indirect ties to OpenAI and Beast Industries.",
+    "Friday's 6.25% surge to $21.84 came with institutional entry (Menard Financial). Yet at P/B 0.70x, BMNR still trades at a 30% discount to NAV. MicroStrategy commands P/B 2-3x for the same playbook with Bitcoin.",
+    "Trading below its 50-day ($22.50) and 200-day ($28) moving averages, down 86% from the 52-week high of $161. Target price $30 (+37%). ETH needs to confirm a bottom around $2,109 for a sustained recovery."
   ],
+
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "The Ethereum Foundation OTC deal and analyst coverage expansion (2 analysts, $34.50) signal growing institutional credibility. NAV discount of 30% and imminent MAVAN launch are positive. However, 90% ETH dependency means dollar-cost averaging is the safer approach.",
+    "summary": "A 30% discount to NAV is attractive even if ETH just holds current levels. Tom Lee's Eightco board seat expands the ecosystem story, and institutional buying has started. However, 90%+ ETH concentration means this is best approached as a small position with dollar-cost averaging.",
     "horizon": "3-6 months"
   },
+
   "sources": [
-    {"name": "CoinCentral", "url": "https://coincentral.com/ethereum-foundation-completes-10-2m-eth-sale-to-bitmine-bmnr/", "description": "Ethereum Foundation 5,000 ETH OTC sale ($10.2M)"},
-    {"name": "TipRanks", "url": "https://www.tipranks.com/news/bitmine-stock-tracks-ethereums-price-to-a-t-as-it-proves-to-be-the-ultimate-proxy-for-eth-investors", "description": "'The Ultimate ETH Proxy' analysis, avg target $34.50"},
-    {"name": "CoinGape", "url": "https://coingape.com/news/stocks/3-trending-crypto-stocks-to-watch-bmnr-crcl-and-mstr-what-to-expect-this-week/", "description": "Top 3 trending crypto stocks, Friday close $20.55"},
-    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "4,534,563 ETH, $10.3B treasury official announcement (3/9)"},
-    {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition", "description": "Tom Lee 'mini crypto winter nearly over', 60,976 ETH purchase"},
-    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/4880000-bitmine-immersion-technologies-this-could-be-the-bottom-as-legislation-becomes-more-likely", "description": "'This could be the bottom' analysis, MAVAN $253M+ revenue projection"},
-    {"name": "TipRanks (Alpha)", "url": "https://www.tipranks.com/news/bitmine-stock-continues-to-generate-negative-alpha-as-tom-lees-treasury-strategy-backfires", "description": "2 analysts avg target $34.50, +83% upside"},
-    {"name": "Parameter", "url": "https://parameter.io/bitmine-bmnr-acquires-10-2m-in-eth-from-ethereum-foundation/", "description": "Ethereum Foundation OTC deal detailed analysis"},
-    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "Analyst targets, Forward P/E 58x, revenue outlook"},
-    {"name": "TradingView", "url": "https://www.tradingview.com/symbols/AMEX-BMNR/", "description": "BMNR real-time price $20.55"}
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bitmines-tom-lee-joins-eightco-163804738.html", "description": "Tom Lee joins Eightco board, BMNR $75M investment" },
+    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html", "description": "Eightco $125M institutional commitment announcement" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/filing-menard-financial-group-llc-takes-position-in-bitmine-immersion-technologies-inc-bmnr-2026-03-14/", "description": "Menard Financial Group new 49,965 share position" },
+    { "name": "GuruFocus", "url": "https://www.gurufocus.com/news/8708005/bitmine-immersion-technologies-inc-bmnr-shares-up-625-on-mar-13", "description": "March 13 +6.25% surge, intraday high $22.76, 52-week data" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition", "description": "Tom Lee 'mini crypto winter nearly over', 61,000 ETH purchase" },
+    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "4,534,563 ETH, $10.3B treasury official announcement" },
+    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH holdings tracker" },
+    { "name": "StockTitan", "url": "https://www.stocktitan.net/news/BMNR/", "description": "BMNR stock price $20.54 (3/13), market cap $9.3B" },
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/06/bitmine-stock-price-forecast-heres-why-bmnr-is-ripe-for-a-breakout/", "description": "BMNR technical analysis, next target $30" },
+    { "name": "GNG Research", "url": "https://www.gngresearch.com/stock/BMNR/", "description": "BMNR market cap $9.42B, comprehensive analysis" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "Ethereum Foundation just sold ETH directly to BMNR",
-      "text": "$BMNR (3/16) $20.55. The Ethereum Foundation sold 5,000 ETH directly to BitMine via OTC ($10.2M). Foundation dealing means BMNR has arrived in the ETH ecosystem.\n\n1/4",
+      "hook": "Tom Lee is turning an ETH vault into a crypto investment platform",
+      "text": "$BMNR (3/16) Tom Lee joined Eightco's board and invested $75M. BMNR is evolving beyond ETH holding into a crypto ecosystem platform. $21.84 (+6.25%).\n\n1/4",
       "thread": [
-        "Analyst coverage doubled from 1 to 2. Average target up to $34.50 (+68%). TipRanks now calls it 'the ultimate ETH proxy.'\n\n2/4",
-        "P/B 0.70x means 30% below asset value. MicroStrategy trades at 2-3x. MAVAN staking Q1 launch imminent, $253M annual revenue potential.\n\n3/4",
-        "Risks: 90% in ETH, down 87% from 52-week high. Target $34.50 (+68%). High-risk contrarian play.\n\n4/4"
+        "4,534,563 ETH (3.76% of supply). Total assets $10.3B vs market cap $9.42B. P/B 0.70x. MicroStrategy trades at P/B 2-3x. Institutions are starting to enter (Menard Financial new position).\n\n2/4",
+        "5.3% dividend plus $174M annual staking revenue. The only crypto stock that pays dividends.\n\n3/4",
+        "Below 50-day ($22.50) and 200-day ($28) averages. Target $30 (+37%). ETH bottom confirmation is key.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Ethereum Foundation just sold ETH directly to BMNR",
-      "text": "$BMNR $20.55 (3/16)\n\nThe Ethereum Foundation completed an OTC sale of 5,000 ETH to BitMine at $2,042.96 each ($10.2M). When the organization that created ETH deals with you directly, your ecosystem status changes.\n\nAnalyst coverage expanded to 2 with avg target $34.50 (+68%). P/B 0.70x means 30% below NAV. MAVAN staking Q1 launch could transform the revenue model.\n\nDown 87% from 52-week high. 90% in ETH. High risk but the risk-reward skews positive at these levels."
+      "hook": "Tom Lee is turning an ETH vault into a crypto investment platform",
+      "text": "$BMNR (3/16) $21.84 (+6.25%)\n\nTom Lee joined the Eightco board and BMNR invested $75M, connecting indirectly to OpenAI and Beast Industries. This is no longer just an ETH holding company. It's becoming a crypto ecosystem investment platform.\n\n4,534,563 ETH (3.76% of supply). Total assets $10.3B vs market cap $9.42B. P/B 0.70x while MicroStrategy trades at P/B 2-3x. Institutions are starting to enter.\n\nBelow 50-day ($22.50) and 200-day ($28) averages. Target $30 (+37%). ETH bottom confirmation is the key to recovery."
     },
     "telegram": {
-      "hook": "Ethereum Foundation sold ETH directly to BMNR",
-      "text": "BMNR Daily Analysis (3/16)\n\nPrice: $20.55\nMarket Cap: $9.34B\n\nKey Developments\n- Ethereum Foundation OTC sale: 5,000 ETH ($10.2M)\n- Analyst coverage: 2 analysts, avg target $34.50 (+68%)\n- TipRanks: 'The Ultimate ETH Proxy'\n- P/B 0.70x, 30% NAV discount\n- MAVAN staking Q1 launch imminent ($253M+ revenue)\n\nTechnical Position\n- 87% below 52-week high\n- RSI 44 (recovering from oversold)\n- Below 50-day/200-day MAs\n\nRisks: 90% ETH dependency, short-seller report overhang\nTarget: $34.50 (+68%)"
+      "hook": "Tom Lee expanding BMNR into crypto investment platform",
+      "text": "BMNR Daily Analysis (3/16)\n\nPrice: $21.84 (+6.25%)\n\nKey Developments\n- Tom Lee joins Eightco (ORBS) board + BMNR invests $75M\n- Part of $125M raise with Ark Invest and Kraken\n- Menard Financial Group buys 49,965 shares (new position)\n- 4,534,563 ETH held (3.76% of supply)\n- Total crypto + cash $10.3B vs market cap $9.42B\n\nPrice Position\n- P/B 0.70x (30% NAV discount)\n- Below 50-day avg ($22.50)\n- Below 200-day avg ($28)\n- RSI 48 (neutral)\n\nTarget: $30 (+37%)\nETH bottom confirmation is key to recovery."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Ethereum Foundation just sold ETH directly to BMNR",
-          "text": "$BMNR (3/16) $20.55. The Ethereum Foundation sold 5,000 ETH directly to BitMine via OTC ($10.2M). Foundation dealing means BMNR has arrived in the ETH ecosystem.\n\n1/4",
+          "hook": "Tom Lee is turning an ETH vault into a crypto investment platform",
+          "text": "$BMNR (3/16) Tom Lee joined Eightco's board and invested $75M. BMNR is evolving beyond ETH holding into a crypto ecosystem platform. $21.84 (+6.25%).\n\n1/4",
           "thread": [
-            "Analyst coverage doubled from 1 to 2. Average target up to $34.50 (+68%). TipRanks now calls it 'the ultimate ETH proxy.'\n\n2/4",
-            "P/B 0.70x means 30% below asset value. MicroStrategy trades at 2-3x. MAVAN staking Q1 launch imminent, $253M annual revenue potential.\n\n3/4",
-            "Risks: 90% in ETH, down 87% from 52-week high. Target $34.50 (+68%). High-risk contrarian play.\n\n4/4"
+            "4,534,563 ETH (3.76% of supply). Total assets $10.3B vs market cap $9.42B. P/B 0.70x. MicroStrategy trades at P/B 2-3x. Institutions are starting to enter (Menard Financial new position).\n\n2/4",
+            "5.3% dividend plus $174M annual staking revenue. The only crypto stock that pays dividends.\n\n3/4",
+            "Below 50-day ($22.50) and 200-day ($28) averages. Target $30 (+37%). ETH bottom confirmation is key.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "The people who made ETH are selling it directly to BMNR",
-          "text": "$BMNR (3/16) $20.55. Ethereum Foundation handed over 5,000 ETH directly. When the creators sell to the biggest holder, that's VIP treatment.\n\n1/4",
+          "hook": "A company with $10.3B in the vault is selling for $9.4B",
+          "text": "$BMNR (3/16) Market cap $9.42B. Vault: $10.3B. You're buying a dollar for 70 cents. Meanwhile MicroStrategy sells that same dollar for $2-3. $21.84.\n\n1/4",
           "thread": [
-            "Analysts doubled to 2. Target $34.50 (+68%). Remember when coverage was zero? Progress.\n\n2/4",
-            "P/B 0.70x. Vault holds $10.6B, market says $9.3B. This sale ends when MAVAN launches.\n\n3/4",
-            "Down 87% from highs. Buying the bottom feels exactly like this. Target $34.50 (+68%). Conviction required.\n\n4/4"
+            "Tom Lee says 'crypto winter is almost over', buys 61,000 more ETH, joins another board, and drops $75M. The man doesn't bluff.\n\n2/4",
+            "5.3% dividend from a crypto stock. Staking ETH and getting paid for it. BMNR shareholders eat while others watch.\n\n3/4",
+            "Target $30 (+37%). Down 86% from 52-week high of $161. If ETH wakes up, the leverage is terrifying.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR holders, there's good news this week",
-          "text": "$BMNR (3/16) $20.55. Down 87% from highs. It's been a rough ride. But this week brought real good news.\n\n1/4",
+          "hook": "BMNR holders, down 86% from highs but bottom signals are emerging",
+          "text": "$BMNR (3/16) $21.84. Down 86% from the 52-week high of $161. If you've been holding, it's been rough. But Friday's +6.25% surge is changing the mood.\n\n1/4",
           "thread": [
-            "Ethereum Foundation sold 5,000 ETH directly to BitMine. That's recognition of BMNR as a key ETH ecosystem player.\n\n2/4",
-            "Analysts expanded to 2, target up to $34.50 (+68%). Attention is slowly returning.\n\n3/4",
-            "MAVAN launch is the answer. $253M annual revenue would transform this company. Hang in there with a small position.\n\n4/4"
+            "Tom Lee isn't just talking. He bought 61,000 more ETH, joined Eightco's board, and invested $75M. Management is putting money where their mouth is.\n\n2/4",
+            "Total assets $10.3B vs market cap $9.42B. P/B 0.70x is a 30% discount to NAV. Institutions are quietly starting to buy.\n\n3/4",
+            "Target $30 (+37%). If ETH confirms a bottom, recovery could be sharp. Dollar-cost averaging is the way.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Ethereum Foundation just sold ETH directly to BMNR",
-          "text": "$BMNR $20.55 (3/16)\n\nThe Ethereum Foundation completed an OTC sale of 5,000 ETH to BitMine at $2,042.96 each ($10.2M). When the organization that created ETH deals with you directly, your ecosystem status changes.\n\nAnalyst coverage expanded to 2 with avg target $34.50 (+68%). P/B 0.70x means 30% below NAV. MAVAN staking Q1 launch could transform the revenue model.\n\nDown 87% from 52-week high. 90% in ETH. High risk but the risk-reward skews positive at these levels."
+          "hook": "Tom Lee is turning an ETH vault into a crypto investment platform",
+          "text": "$BMNR (3/16) $21.84 (+6.25%)\n\nTom Lee joined the Eightco board and BMNR invested $75M, connecting indirectly to OpenAI and Beast Industries. This is no longer just an ETH holding company. It's becoming a crypto ecosystem investment platform.\n\n4,534,563 ETH (3.76% of supply). Total assets $10.3B vs market cap $9.42B. P/B 0.70x while MicroStrategy trades at P/B 2-3x. Institutions are starting to enter.\n\nBelow 50-day ($22.50) and 200-day ($28) averages. Target $30 (+37%). ETH bottom confirmation is the key to recovery."
         },
         "witty": {
-          "hook": "The people who made ETH are selling it directly to BMNR",
-          "text": "$BMNR $20.55 (3/16)\n\nEthereum Foundation sold 5,000 ETH directly ($10.2M). When the people who created ETH sell to the biggest holder, that's not just a transaction, it's a partnership.\n\nAnalysts doubled to 2, target $34.50 (+68%). Last year it was zero coverage. P/B 0.70x means the vault is worth more than the stock price.\n\nDown 87% from highs. Until MAVAN actually launches, everything is a faith trade. But if it does, $34.50 might just be the beginning."
+          "hook": "A company with $10.3B in the vault is selling for $9.4B",
+          "text": "$BMNR (3/16) $21.84 (+6.25%)\n\nMarket cap $9.42B. In the vault: $10.3B. That's buying a dollar for 70 cents. MicroStrategy runs the same playbook with Bitcoin and trades at P/B 2-3x.\n\nTom Lee says 'crypto winter is almost over', buys 61,000 more ETH, joins another board, and drops $75M. The man's conviction is next level. Plus 5.3% dividend from a crypto stock, the only one that pays.\n\nTarget $30 (+37%). Down 86% from the $161 high. If ETH wakes up, the leverage is terrifying."
         },
         "empathy": {
-          "hook": "BMNR holders, there's good news this week",
-          "text": "$BMNR $20.55 (3/16)\n\nDown 87% from the $161 peak. If you're holding, it's been genuinely painful.\n\nBut this week is different. The Ethereum Foundation sold 5,000 ETH directly to BitMine, and analyst coverage expanded to 2 with the target rising to $34.50 (+68%). The market is slowly recognizing BMNR.\n\nMAVAN launch could be the real turning point. $253M annual revenue would make this a completely different company. Hang in there with a small position."
+          "hook": "BMNR holders, down 86% from highs but bottom signals are emerging",
+          "text": "$BMNR (3/16) $21.84 (+6.25%)\n\nDown 86% from the 52-week high of $161. If you've been holding through this, it's been genuinely painful.\n\nBut Friday's +6.25% surge, Tom Lee joining Eightco's board, and institutions starting to buy are early bottom signals. Total assets $10.3B vs market cap $9.42B. P/B 0.70x is still a 30% discount to what's in the vault.\n\nTarget $30 (+37%). If ETH confirms a bottom, recovery could be swift. Patience and dollar-cost averaging are the play here."
         }
       }
     }
