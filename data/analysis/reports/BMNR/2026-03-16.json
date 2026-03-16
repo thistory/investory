@@ -3,252 +3,172 @@
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-16",
   "currentPrice": 21.84,
-  "marketCap": "$9.42B",
-
+  "marketCap": "$9.46B",
   "businessSummary": {
-    "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/8 기준 4,534,563 ETH(총 공급량의 3.76%) 보유, 총 크립토+현금 $10.3B. 금요일 종가 $21.84(+6.25%). Tom Lee가 Eightco(ORBS) 이사회에 합류하고 BMNR이 $75M을 투자하면서 크립토 생태계 확장에 나섰다. P/B ~0.70x, 시총 $9.42B.",
+    "oneLiner": "세계 최대 상장 Ethereum 보유 기업 — MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/16 기준 4,596,000 ETH(총 공급량의 3.81%) 보유, 총 크립토+현금 $11.5B. 금요일 종가 $21.84(+6.25%). ETH 가격 $2,268(+4%) 반등과 함께 보유액 $11.5B 공시. ARK(Cathie Wood), Founders Fund, Bill Miller III, Pantera 등 프리미어 기관투자자 그룹 공개. Eightco($ORBS) 추가 투자 $80M으로 OpenAI 지분 간접 노출. MAVAN 스테이킹 Q1 2026 론칭 예정.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,534,563 ETH 보유 (~$9.6B at ~$2,109/ETH), 핵심 가치",
-      "ETH 스테이킹 수익: ~3M ETH 스테이킹, 연간 ~$174M 수익",
-      "배당: 5.3% 배당수익률, 크립토 트레저리 기업 중 유일",
-      "비트코인 보유: 195 BTC 보유 (부수적)"
+      "ETH 트레저리: 4,596,000 ETH 보유 (~$10.4B at $2,268/ETH) — 핵심 가치",
+      "ETH 스테이킹 수익: 3,040,515 ETH 스테이킹($6.6B), 연간 ~$180M+ 수익",
+      "배당: 5.3% 배당수익률 — 크립토 트레저리 기업 중 유일",
+      "비트코인 보유: 195 BTC 보유 (부수적)",
+      "Moonshot 투자: Beast Industries $200M, Eightco(ORBS) $94M(OpenAI 지분 간접 노출)"
     ],
-    "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings"]
+    "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings", "Moonshot Investments"]
   },
-
   "keyMetrics": [
-    { "name": "P/B (TTM)", "value": "0.70x", "interpretation": "NAV 대비 30% 할인 거래. 순자산가치 대비 저평가 지속" },
-    { "name": "ETH 보유량", "value": "4,534,563 ETH", "interpretation": "전체 ETH 공급의 3.76%. 세계 최대 상장 ETH 트레저리" },
-    { "name": "총 크립토+현금", "value": "$10.3B", "interpretation": "ETH ~$9.6B + 현금 $868M. 시총 $9.42B 대비 NAV 프리미엄" },
-    { "name": "배당수익률", "value": "5.3%", "interpretation": "크립토 트레저리 기업 중 유일한 배당. 인컴 투자자 유인" },
-    { "name": "스테이킹 수익", "value": "연 ~$174M", "interpretation": "~3M ETH 스테이킹으로 안정적 패시브 인컴 창출" },
-    { "name": "P/E (TTM)", "value": "적자 (EPS -$1.32)", "interpretation": "ETH 시가평가손 반영. 실제 현금흐름은 스테이킹 수익으로 발생" },
-    { "name": "일평균 거래대금", "value": "$1.0B", "interpretation": "기관 수준 유동성. 일평균 $10억 거래" },
-    { "name": "YTD 수익률", "value": "-28.7%", "interpretation": "ETH 약세 + 공매도 보고서로 연초 대비 큰 폭 하락" }
+    {"name": "P/B (TTM)", "value": "0.82x", "interpretation": "NAV 대비 18% 할인 거래. 총 자산 $11.5B 대비 시총 $9.46B"},
+    {"name": "ETH 보유량", "value": "4,596,000 ETH", "interpretation": "전체 ETH 공급의 3.81%. 세계 최대 상장 ETH 트레저리. '5% 연금술' 목표의 76% 달성"},
+    {"name": "총 크립토+현금", "value": "$11.5B", "interpretation": "ETH $10.4B + 현금 $1.2B + Moonshots $294M. 1주 만에 $10.3B에서 $1.2B 증가"},
+    {"name": "배당수익률", "value": "5.3%", "interpretation": "크립토 트레저리 기업 중 유일한 배당. 인컴 투자자 유인"},
+    {"name": "스테이킹 ETH", "value": "3,040,515 ETH ($6.6B)", "interpretation": "보유 ETH의 66%를 스테이킹. 연간 $180M+ 패시브 수익"},
+    {"name": "P/E (TTM)", "value": "적자 (EPS -$1.32)", "interpretation": "ETH 시가평가손 반영. 실제 현금흐름은 스테이킹 수익이 핵심"},
+    {"name": "일평균 거래대금", "value": "$1.0B", "interpretation": "미국 주식 거래량 105위. 기관급 유동성"},
+    {"name": "YTD 수익률", "value": "-29%", "interpretation": "연초 대비 하락했으나 최근 1주 +5.9% 반등"}
   ],
-
   "growthDrivers": [
-    {
-      "title": "Tom Lee, Eightco(ORBS) 이사회 합류 + BMNR $75M 투자",
-      "description": "Yahoo Finance(3/12): Eightco가 BMNR $75M, Ark Invest $25M, Payward(Kraken) $25M 등 총 $125M 투자 유치. Tom Lee가 이사회에 합류. Eightco는 OpenAI, Beast Industries 등에 전략 투자하는 회사로, BMNR의 크립토 생태계 영향력 확장."
-    },
-    {
-      "title": "기관투자자 신규 진입, Menard Financial Group 매수",
-      "description": "MarketBeat(3/14): Menard Financial Group이 3분기에 49,965주를 새로 매수. 기관의 관심이 확대되면서 가격 발견 효율성 개선 기대."
-    },
-    {
-      "title": "P/B 0.70x, NAV 대비 30% 할인 지속",
-      "description": "시총 $9.42B vs 총 자산 $10.3B. MicroStrategy(MSTR)가 P/B 2-3배에 거래되는 점 대비 극도의 저평가. 할인율 축소만으로도 50%+ 상승 여력."
-    },
-    {
-      "title": "MAVAN 자체 스테이킹 플랫폼 2026 Q1 론칭",
-      "description": "Made in America Validator Network로 제3자 스테이킹 수수료 절감. 규제 친화적 미국 기반 밸리데이터. 수익률 개선 기대."
-    }
+    {"title": "$11.5B 트레저리 공시, 1주 만에 $1.2B 증가", "description": "PRNewswire(3/16): ETH 4,596,000개로 늘어나며 총 자산 $11.5B 달성. 지난주 대비 $1.2B 증가. ETH 가격 반등($2,268)과 60,999 ETH 추가 매수 효과. 시총 $9.46B 대비 NAV 프리미엄 지속."},
+    {"title": "프리미어 기관투자자 그룹 공식 공개", "description": "PRNewswire(3/16): ARK(Cathie Wood), MOZAYYX, Founders Fund, Bill Miller III, Pantera, Kraken, DCG, Galaxy Digital이 지원하는 기관투자자 명단 처음 공개. 제도권 신뢰도 대폭 상승."},
+    {"title": "Eightco(ORBS) 추가 투자 $80M, OpenAI 지분 간접 노출", "description": "PRNewswire(3/16): ORBS에 $80M 추가 투자로 총 $94M. ORBS는 OpenAI 지분 $50M 매수한 유일한 상장 기업. 간접적 OpenAI 노출 확보."},
+    {"title": "ETH Foundation에서 직접 5,000 ETH 매입", "description": "PRNewswire(3/16): Ethereum Foundation이 운영 자금 마련을 위해 BMNR에 5,000 ETH 직접 매각. ETH 생태계와의 공식적 관계 형성."},
+    {"title": "MAVAN 자체 스테이킹 플랫폼 Q1 2026 론칭 임박", "description": "Made in America Validator Network로 제3자 스테이킹 수수료 절감. 3,040,515 ETH($6.6B) 스테이킹 중. 수익률 개선 기대."}
   ],
-
   "competitiveAdvantage": {
-    "summary": "상장 기업 중 최대 ETH 보유량(3.76% of supply). Tom Lee 합류로 제도권 신뢰도 확보. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
+    "summary": "상장 기업 중 최대 ETH 보유량(3.81% of supply). Tom Lee + ARK + Founders Fund + Pantera 등 최정상급 기관 백업. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
     "moats": [
-      { "type": "ETH 공급량 집중", "description": "전체 ETH 공급의 3.76% 보유. 시장에서 대체 불가능한 포지션." },
-      { "type": "제도권 접근성", "description": "상장 주식으로 ETH 노출 제공. ETF 없이도 기관 투자자 접근 가능." },
-      { "type": "스테이킹 수익", "description": "~3M ETH 스테이킹 + MAVAN 자체 플랫폼으로 단순 보유 대비 수익률 우위." }
+      {"type": "ETH 공급량 집중", "description": "전체 ETH 공급의 3.81% 보유. '5% 연금술' 목표 76% 달성. 시장에서 대체 불가능."},
+      {"type": "제도권 투자자 진영", "description": "ARK(Cathie Wood), Founders Fund, Pantera, Galaxy Digital 등 크립토 최정상 기관들이 지원."},
+      {"type": "스테이킹 수익 + 배당", "description": "3M+ ETH 스테이킹 + MAVAN 자체 플랫폼. 5.3% 배당과 패시브 수익 동시 제공."}
     ],
     "competitors": [
-      { "name": "MicroStrategy (MSTR)", "detail": "Bitcoin 트레저리 전략의 원조. BTC 집중 vs BMNR의 ETH 집중" },
-      { "name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF 경쟁. 수수료 구조 차이" },
-      { "name": "Coinbase (COIN)", "detail": "거래소 기반 크립토 노출. 사업 모델 근본적 차이" }
+      {"name": "MicroStrategy (MSTR)", "detail": "Bitcoin 트레저리 전략의 원조. BTC 집중 vs BMNR의 ETH 집중"},
+      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF 경쟁. 수수료 구조 차이"},
+      {"name": "Coinbase (COIN)", "detail": "거래소 기반 크립토 노출. 사업 모델 근본적 차이"}
     ]
   },
-
   "recentNews": [
-    {
-      "date": "2026-03-14",
-      "headline": "Menard Financial Group, BMNR 49,965주 신규 매수. 기관 관심 확대",
-      "significance": "3분기 13F 공시로 기관 신규 진입 확인. 가격 발견 효율성 개선 기대",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-menard-financial-group-llc-takes-position-in-bitmine-immersion-technologies-inc-bmnr-2026-03-14/"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "BMNR +6.25% 급등, 장중 $22.76 터치. 52주 저점 대비 582% 위",
-      "significance": "매수세 유입으로 장중 $22.76까지 상승 후 $21.84 마감. 거래량 동반한 반등",
-      "url": "https://www.gurufocus.com/news/8708005/bitmine-immersion-technologies-inc-bmnr-shares-up-625-on-mar-13"
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "Tom Lee, Eightco(ORBS) 이사회 합류. BMNR이 $75M 투자, Ark Invest, Kraken도 참여",
-      "significance": "총 $125M 투자 유치. Tom Lee의 크립토 생태계 영향력 확장. BMNR의 전략적 투자 다각화",
-      "url": "https://finance.yahoo.com/news/bitmines-tom-lee-joins-eightco-163804738.html"
-    },
-    {
-      "date": "2026-03-09",
-      "headline": "ETH 보유량 4,534,563 토큰, 총 크립토+현금 $10.3B 공시",
-      "significance": "시총 대비 NAV 프리미엄 재확인. 60,976 ETH 추가 매수도 동시 발표",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"
-    },
-    {
-      "date": "2026-03-09",
-      "headline": "Tom Lee, '미니 크립토 윈터 거의 끝났다'며 61,000 ETH 추가 매수",
-      "significance": "하락장에서도 공격적 ETH 매집. 장기 확신 시그널. CoinDesk 보도",
-      "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition"
-    }
+    {"date": "2026-03-16", "headline": "ETH 보유량 4,596,000 토큰 도달, 총 크립토+현금 $11.5B 공시. ARK, Founders Fund 등 기관 명단 공개", "significance": "1주 만에 $1.2B 증가. 3.81% ETH 공급 점유. 최정상 기관투자자 그룹 처음 공식 공개", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html"},
+    {"date": "2026-03-16", "headline": "CoinDesk: Bitmine, 지난주 60,999 ETH 추가 매수. Tom Lee '이란 전쟁에도 크립토 강세' 주장", "significance": "지정학적 불확실성 속에서도 공격적 매집 지속. 장기 확신 시그널", "url": "https://www.coindesk.com/business/2026/03/16/bitmine-buys-60-999-ether-as-tom-lee-touts-crypto-strength-amid-iran-war"},
+    {"date": "2026-03-16", "headline": "ETH 가격 $2,268 돌파(+4%), ETH ETF 순유입 $26.7M(BlackRock ETHA $32.4M 유입)", "significance": "ETH 반등으로 BMNR NAV 직접 수혜. ETF 자금 유입이 ETH 시장 지지", "url": "https://coincentral.com/ethereum-eth-price-eth-rises-above-2200-as-etf-inflows-and-institutional-buying-increase/"},
+    {"date": "2026-03-16", "headline": "Eightco(ORBS)에 $80M 추가 투자, ORBS의 OpenAI 지분 $50M 매수 지원", "significance": "세계 유일 상장 OpenAI 지분 보유 기업에 투자. 간접적 AI 생태계 노출 확보", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html"},
+    {"date": "2026-03-13", "headline": "BMNR 주가 $21.84 마감(+6.25%), 장중 $22.76까지 상승", "significance": "52주 저점 $3.20 대비 582% 상승. ETH 반등 기대감과 기관 매수세 반영", "url": "https://www.gurufocus.com/news/8708005/bitmine-immersion-technologies-inc-bmnr-shares-up-625-on-mar-13"}
   ],
-
   "analystOpinions": {
     "consensusTarget": 30.00,
-    "highTarget": 30.00,
+    "highTarget": 34.50,
     "lowTarget": 30.00,
     "upsidePercent": 37.36,
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley Securities Fedor Shabalin이 유일한 커버리지. $30 Strong Buy 유지. Bankless Times도 다음 기술적 목표를 $30으로 제시. 커버리지 극히 제한적이지만 NAV 기반 적정가는 $27+ 수준."
+    "notableComment": "B. Riley Securities가 $30 Strong Buy 유지. Tokenist 기준 평균 목표가 $34.50(+58%). 커버리지가 극히 제한적이나, ARK/Pantera 등 대형 기관이 직접 투자하고 있어 기관 관심은 높음."
   },
-
   "risks": [
-    {
-      "severity": "critical",
-      "title": "ETH 가격 의존성, 자산의 90%+가 ETH",
-      "description": "ETH $2,109 기준 트레저리 ~$9.6B. ETH가 $1,500까지 하락하면 트레저리 $6.8B, 주가 $14 수준으로 급락 가능."
-    },
-    {
-      "severity": "high",
-      "title": "공매도 보고서 영향 지속",
-      "description": "Culper Research 공매도 보고서 발행 이후 매도 압력 지속. NAV 할인 확대의 직접 원인. 추가 공매도 보고서 가능성."
-    },
-    {
-      "severity": "high",
-      "title": "극도로 제한된 애널리스트 커버리지",
-      "description": "1명만 커버. 기관 관심 부족으로 가격 발견 비효율. Menard Financial 등 신규 진입이 있지만 아직 부족."
-    },
-    {
-      "severity": "medium",
-      "title": "규제 리스크",
-      "description": "SEC 크립토 규제 강화 가능성. 트레저리 기업 회계 기준 변경 리스크."
-    },
-    {
-      "severity": "medium",
-      "title": "희석 리스크",
-      "description": "ETH 매수를 위한 지속적 자본 조달. $75M Eightco 투자 등 현금 유출도 병행."
-    }
+    {"severity": "critical", "title": "ETH 가격 의존성 (자산 90%+가 ETH)", "description": "4,596,000 ETH가 자산의 대부분. ETH $1,500 하락 시 트레저리 $6.9B, NAV 30%+ 축소. ETH 가격과 운명을 함께한다."},
+    {"severity": "high", "title": "공매도 보고서 영향 + 높은 변동성", "description": "Culper Research 공매도 보고서 영향 지속. 52주 고점 $161에서 -86% 하락한 이력. 극단적 변동성 각오 필요."},
+    {"severity": "high", "title": "극도로 제한된 애널리스트 커버리지", "description": "정식 커버리지 1명뿐. 기관 투자는 늘었으나 시장의 가격 발견이 비효율적."},
+    {"severity": "medium", "title": "지속적 주식 희석", "description": "ETH 매수 자금 조달을 위한 주식 발행. 35일간 833,000 ETH를 매수한 자금의 출처가 희석."},
+    {"severity": "medium", "title": "규제 리스크", "description": "SEC 크립토 규제 변경, ETH 증권 분류 가능성. 트레저리 기업 회계 기준 변경 리스크."}
   ],
-
   "buyReasons": [
-    {
-      "title": "P/B 0.70x, MSTR 대비 극단적 NAV 할인",
-      "rationale": "시총 $9.42B vs 총 자산 $10.3B. MicroStrategy P/B 2-3x 대비 극단적 저평가. 할인율 축소만으로 50%+ 상승 여력."
-    },
-    {
-      "title": "Tom Lee 크립토 생태계 확장, Eightco 이사회 합류",
-      "rationale": "Eightco 투자($75M) + 이사회 합류로 OpenAI, Beast Industries 등 차세대 기술 기업과 간접 연결. BMNR의 투자 플랫폼화."
-    },
-    {
-      "title": "5.3% 배당 + 연 $174M 스테이킹 수익",
-      "rationale": "크립토 주식 중 유일한 배당. 스테이킹 수익으로 배당 지급 가능. 인컴 투자자에게 차별화된 매력."
-    },
-    {
-      "title": "기관 신규 진입 시작, ETH 반등 시 레버리지 효과",
-      "rationale": "Menard Financial 등 기관 매수 시작. ETH가 $2,500으로 반등하면 트레저리 $11.3B, 주가 $26+ 가능."
-    }
+    {"title": "P/B 0.82x, NAV 대비 18% 할인", "rationale": "시총 $9.46B vs 총 자산 $11.5B. MSTR은 P/B 2-3x에 거래. 할인이 줄어도 30%+ 상승 여력."},
+    {"title": "최정상 기관투자자 그룹 (ARK, Founders Fund, Pantera)", "rationale": "Cathie Wood, Peter Thiel의 Founders Fund, Pantera Capital이 직접 투자. 제도권 신뢰도가 다른 크립토 주식 대비 압도적."},
+    {"title": "ETH 반등 시 레버리지 효과", "rationale": "ETH $2,268에서 $3,000으로 32% 오르면 NAV ~$14B, 주당 $32+. 현재가 대비 47% 상승 잠재력."},
+    {"title": "5.3% 배당 + 스테이킹 + OpenAI 간접 노출", "rationale": "크립토 배당 유일, MAVAN 스테이킹 론칭 임박, Eightco 통한 OpenAI 지분까지. 다각화된 가치."}
   ],
-
   "technicalPosition": {
     "week52High": 161.00,
     "week52Low": 3.20,
     "currentPositionPercent": 11.80,
     "sma50": 22.50,
     "sma50Signal": "below",
-    "sma200": 28.00,
+    "sma200": 27.00,
     "sma200Signal": "below",
     "rsi": 48.00,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
-    "Tom Lee가 Eightco 이사회에 합류하면서 BMNR이 단순 ETH 보유를 넘어 크립토 생태계 투자 플랫폼으로 진화하고 있다. $75M 투자를 통해 OpenAI, Beast Industries 등과 간접 연결됐다.",
-    "금요일 +6.25% 급등으로 $21.84 마감. 기관도 들어오기 시작했다(Menard Financial 신규 매수). 하지만 P/B 0.70x로 아직 NAV 대비 30% 할인, MicroStrategy(P/B 2-3x)와 비교하면 극단적 저평가다.",
-    "50일선($22.50)과 200일선($28) 아래에 있고 52주 고점 $161 대비 86% 하락한 상태다. 목표가 $30(+37%). ETH $2,109 수준에서 바닥을 확인해야 본격 반등이 가능하다."
+    "오늘 총 자산 $11.5B를 공시했다. 1주 만에 $1.2B가 늘었는데, ETH 가격이 $2,268로 4% 반등하면서 보유 자산 가치가 올랐고 60,999 ETH도 추가 매수했다. ARK(Cathie Wood), Founders Fund, Pantera 등 최정상 기관투자자 명단도 처음 공개됐다.",
+    "시총 $9.46B인데 금고에 $11.5B가 들어있다(P/B 0.82x). MicroStrategy가 P/B 2-3배에 거래되는 걸 생각하면 아직 저평가 구간이다. 다만 ETH 가격이 다시 빠지면 NAV도 같이 줄어드는 양날의 검이다.",
+    "$21.84 마감(+6.25%). 50일선($22.50)과 200일선($27) 아래지만 반등 추세다. 목표가 $30(+37%). ETH가 $2,200 위에서 버티는지가 핵심이다."
   ],
-
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "NAV 대비 30% 할인은 ETH 가격이 현 수준만 유지해도 매력적이다. Tom Lee의 Eightco 이사회 합류로 생태계 확장 중이고, 기관 매수도 시작됐다. 다만 ETH 가격 의존도가 90%+로 높아 소규모 비중 분할 매수가 적합하다.",
+    "summary": "NAV 대비 18% 할인에 ARK, Founders Fund 등 최정상 기관이 뒷받침하는 구조다. ETH 반등($2,268) + ETF 순유입($26.7M)이 긍정적. 다만 ETH 하락 시 NAV 직격탄이므로 포트폴리오의 5-10% 이내 소규모 비중으로 접근 권고.",
     "horizon": "3-6개월"
   },
-
   "sources": [
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bitmines-tom-lee-joins-eightco-163804738.html", "description": "Tom Lee Eightco 이사회 합류, BMNR $75M 투자 보도" },
-    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html", "description": "Eightco $125M 투자 유치 공식 발표" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/filing-menard-financial-group-llc-takes-position-in-bitmine-immersion-technologies-inc-bmnr-2026-03-14/", "description": "Menard Financial Group 49,965주 신규 매수" },
-    { "name": "GuruFocus", "url": "https://www.gurufocus.com/news/8708005/bitmine-immersion-technologies-inc-bmnr-shares-up-625-on-mar-13", "description": "3/13 +6.25% 급등, 장중 $22.76, 52주 고저 데이터" },
-    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/09/mini-crypto-winter-nearly-over-says-tom-lee-as-bitmine-ramps-up-pace-of-ether-acquisition", "description": "Tom Lee '미니 크립토 윈터 종료 임박', 61,000 ETH 매수" },
-    { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "4,534,563 ETH, $10.3B 트레저리 공식 발표" },
-    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH 보유량 추적 데이터" },
-    { "name": "StockTitan", "url": "https://www.stocktitan.net/news/BMNR/", "description": "BMNR 주가 $20.54(3/13), 시총 $9.3B 데이터" },
-    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/06/bitmine-stock-price-forecast-heres-why-bmnr-is-ripe-for-a-breakout/", "description": "BMNR 기술적 분석, 다음 목표 $30" },
-    { "name": "GNG Research", "url": "https://www.gngresearch.com/stock/BMNR/", "description": "BMNR 시총 $9.42B, 종합 분석" }
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html", "description": "4,596,000 ETH, $11.5B 트레저리 공시 + 기관투자자 명단"},
+    {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/16/bitmine-buys-60-999-ether-as-tom-lee-touts-crypto-strength-amid-iran-war", "description": "60,999 ETH 추가 매수, Tom Lee 이란 전쟁 크립토 강세론"},
+    {"name": "CoinCentral", "url": "https://coincentral.com/ethereum-eth-price-eth-rises-above-2200-as-etf-inflows-and-institutional-buying-increase/", "description": "ETH $2,268 돌파, ETF 순유입 $26.7M"},
+    {"name": "GuruFocus", "url": "https://www.gurufocus.com/news/8708005/bitmine-immersion-technologies-inc-bmnr-shares-up-625-on-mar-13", "description": "BMNR +6.25% 마감, 52주 고저 데이터"},
+    {"name": "Tokenist", "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/", "description": "애널리스트 평균 목표가 $34.50"},
+    {"name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/bitmine-immersion-technologies-bmnr-valuation-after-expanded", "description": "BMNR 밸류에이션 분석, ETH 트레저리 가치평가"},
+    {"name": "TipRanks", "url": "https://www.tipranks.com/news/company-announcements/bitmine-expands-eth-holdings-and-staking-revenue-power", "description": "스테이킹 수익 확대, $30 목표가"},
+    {"name": "FXLeaders", "url": "https://www.fxleaders.com/news/2026/03/10/bitmines-9-billion-ethereum-treasury-9600-eth-move-to-coinbase-prime-sparks-strategic-speculation/", "description": "9,600 ETH Coinbase Prime 이동 분석"},
+    {"name": "StockTitan", "url": "https://www.stocktitan.net/news/BMNR/", "description": "BMNR 뉴스 허브, $11.5B 8-K 공시"},
+    {"name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH 보유량 트래커"}
   ],
-
   "snsContent": {
     "x": {
-      "hook": "Tom Lee가 ETH 금고 회사를 투자 플랫폼으로 키우고 있다",
-      "text": "$BMNR (3/16) Tom Lee가 Eightco 이사회에 합류하고 $75M을 투자했다. 단순 ETH 보유를 넘어 크립토 생태계 투자 플랫폼으로 진화 중. $21.84(+6.25%).\n\n1/4",
+      "hook": "금고에 $11.5B, 시총은 $9.5B. ARK, Founders Fund가 뒤에 있다",
+      "text": "$BMNR (3/16) 총 자산 $11.5B 공시. 1주 만에 $1.2B 증가. ETH 4,596,000개(공급의 3.81%). ARK, Founders Fund, Pantera가 뒷받침. $21.84.\n\n1/4",
       "thread": [
-        "ETH 4,534,563개(공급의 3.76%), 총 자산 $10.3B인데 시총은 $9.42B. P/B 0.70x. MicroStrategy는 P/B 2-3x다. 기관도 들어오기 시작했다(Menard Financial 신규 매수).\n\n2/4",
-        "5.3% 배당에 연 $174M 스테이킹 수익까지. 크립토 주식 중 배당 주는 곳은 여기뿐이다.\n\n3/4",
-        "50일선($22.50), 200일선($28) 아래. 목표가 $30(+37%). ETH 바닥 확인이 관건이다.\n\n4/4"
+        "ETH $2,268로 4% 반등. ETF 순유입 $26.7M(BlackRock 주도). 60,999 ETH 추가 매수하면서 ETH Foundation에서 직접 5,000 ETH도 사왔다.\n\n2/4",
+        "시총 $9.46B vs 자산 $11.5B = P/B 0.82x. MSTR이 P/B 2-3x인 걸 생각하면 아직 갈 길이 있다. 배당 5.3%까지.\n\n3/4",
+        "50일선($22.50), 200일선($27) 아래지만 반등 중. 목표가 $30(+37%). ETH가 $2,200 위에서 버틸지가 관건.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tom Lee가 ETH 금고 회사를 투자 플랫폼으로 키우고 있다",
-      "text": "$BMNR (3/16) $21.84(+6.25%)\n\nTom Lee가 Eightco 이사회에 합류하면서 BMNR이 변하고 있다. $75M 투자로 OpenAI, Beast Industries 등과 간접 연결. 단순 ETH 보유를 넘어 크립토 생태계 투자 플랫폼으로 진화 중이다.\n\nETH 4,534,563개(공급의 3.76%), 총 자산 $10.3B인데 시총 $9.42B. P/B 0.70x로 NAV 대비 30% 할인. MSTR은 P/B 2-3x다. 기관도 들어오기 시작했다.\n\n50일선($22.50), 200일선($28) 아래. 목표가 $30(+37%). ETH 바닥 확인이 반등의 열쇠다."
+      "hook": "금고에 $11.5B, 시총은 $9.5B. 최정상 기관이 뒤에 있다",
+      "text": "$BMNR (3/16) $21.84(+6.25%)\n\n총 자산 $11.5B를 공시했다. 1주 만에 $1.2B 증가. ETH 4,596,000개로 전체 공급의 3.81%. ARK(Cathie Wood), Founders Fund, Pantera, Galaxy Digital이 뒤에 있다는 게 처음 공식 확인됐다.\n\nETH $2,268(+4%) 반등에 ETF 순유입 $26.7M. 시총 $9.46B인데 금고에 $11.5B라서 P/B 0.82x. MSTR이 2-3x인 걸 생각하면 할인 구간이다.\n\n50일선($22.50) 아래지만 반등 추세. 목표가 $30(+37%). ETH 방향이 모든 걸 결정한다."
     },
     "telegram": {
-      "hook": "Tom Lee, BMNR을 크립토 투자 플랫폼으로 확장 중",
-      "text": "BMNR 일일 분석 (3/16)\n\n가격: $21.84 (+6.25%)\n\n핵심 이슈\n- Tom Lee, Eightco(ORBS) 이사회 합류 + BMNR $75M 투자\n- Ark Invest, Kraken 모회사와 함께 총 $125M 투자 유치 참여\n- Menard Financial Group 49,965주 신규 매수 (기관 진입)\n- ETH 4,534,563개 보유 (공급의 3.76%)\n- 총 크립토+현금 $10.3B vs 시총 $9.42B\n\n주가 위치\n- P/B 0.70x (NAV 대비 30% 할인)\n- 50일 평균($22.50) 아래\n- 200일 평균($28) 아래\n- RSI 48 (중립)\n\n목표가: $30 (+37%)\nETH 바닥 확인이 반등의 열쇠다."
+      "hook": "BMNR 자산 $11.5B 돌파, ARK/Founders Fund 공식 백업",
+      "text": "BMNR 일일 분석 (3/16)\n\n가격: $21.84 (+6.25%)\n\n핵심 이슈\n- 총 크립토+현금 $11.5B 공시 (1주 전 $10.3B)\n- ETH 4,596,000개 보유 (공급의 3.81%)\n- ARK, Founders Fund, Pantera 등 기관 명단 처음 공개\n- ETH $2,268(+4%), ETF 순유입 $26.7M\n- Eightco(ORBS) $80M 추가 투자, OpenAI 간접 노출\n\n밸류에이션\n- 시총 $9.46B vs NAV $11.5B (P/B 0.82x)\n- MSTR은 P/B 2-3x\n- 배당수익률 5.3%\n\n주가 위치\n- 50일 평균($22.50) 아래\n- 200일 평균($27) 아래\n- RSI 48 (중립)\n\n목표가: $30 (+37%)\nETH 방향이 핵심 변수"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tom Lee가 ETH 금고 회사를 투자 플랫폼으로 키우고 있다",
-          "text": "$BMNR (3/16) Tom Lee가 Eightco 이사회에 합류하고 $75M을 투자했다. 단순 ETH 보유를 넘어 크립토 생태계 투자 플랫폼으로 진화 중. $21.84(+6.25%).\n\n1/4",
+          "hook": "금고에 $11.5B, 시총은 $9.5B. ARK, Founders Fund가 뒤에 있다",
+          "text": "$BMNR (3/16) 총 자산 $11.5B 공시. 1주 만에 $1.2B 증가. ETH 4,596,000개(공급의 3.81%). ARK, Founders Fund, Pantera가 뒷받침. $21.84.\n\n1/4",
           "thread": [
-            "ETH 4,534,563개(공급의 3.76%), 총 자산 $10.3B인데 시총은 $9.42B. P/B 0.70x. MicroStrategy는 P/B 2-3x다. 기관도 들어오기 시작했다(Menard Financial 신규 매수).\n\n2/4",
-            "5.3% 배당에 연 $174M 스테이킹 수익까지. 크립토 주식 중 배당 주는 곳은 여기뿐이다.\n\n3/4",
-            "50일선($22.50), 200일선($28) 아래. 목표가 $30(+37%). ETH 바닥 확인이 관건이다.\n\n4/4"
+            "ETH $2,268로 4% 반등. ETF 순유입 $26.7M(BlackRock 주도). 60,999 ETH 추가 매수하면서 ETH Foundation에서 직접 5,000 ETH도 사왔다.\n\n2/4",
+            "시총 $9.46B vs 자산 $11.5B = P/B 0.82x. MSTR이 P/B 2-3x인 걸 생각하면 아직 갈 길이 있다. 배당 5.3%까지.\n\n3/4",
+            "50일선($22.50), 200일선($27) 아래지만 반등 중. 목표가 $30(+37%). ETH가 $2,200 위에서 버틸지가 관건.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "금고에 $10.3B 넣어두고 $9.4B에 팔리는 회사가 있다",
-          "text": "$BMNR (3/16) 시총 $9.42B인데 금고에 $10.3B가 들어있다. 1달러를 70센트에 살 수 있는 셈이다. 한편 MicroStrategy는 1달러를 $2-3에 판다. $21.84.\n\n1/4",
+          "hook": "시총보다 금고가 더 큰 주식, Cathie Wood도 샀다",
+          "text": "$BMNR (3/16) 금고에 $11.5B, 시총은 $9.46B. 회사를 통째로 사면 $2B 남는 셈이다. Cathie Wood도 이 계산을 한 듯.\n\n1/4",
           "thread": [
-            "Tom Lee는 '크립토 겨울 거의 끝났다'면서 61,000 ETH를 더 사고, Eightco 이사회에 앉고, $75M까지 투자했다. 확신이 대단하다.\n\n2/4",
-            "5.3% 배당까지 주는 크립토 주식은 여기뿐이다. ETH 들고 배당 받는 건 BMNR 주주의 특권.\n\n3/4",
-            "목표가 $30(+37%). 52주 고점 $161에서 86% 빠진 자리. ETH만 살아나면 레버리지가 무섭다.\n\n4/4"
+            "35일 만에 ETH 833,000개를 쓸어담았다. ETH Foundation한테도 직접 사왔다. Tom Lee는 '이란 전쟁이어도 크립토는 강하다'고.\n\n2/4",
+            "MSTR이 BTC 트레저리로 P/B 2-3x 받는데, BMNR은 ETH 트레저리에 P/B 0.82x. 배당 5.3%는 보너스.\n\n3/4",
+            "목표가 $30(+37%). ETH가 올라야 이 계산이 맞고, 빠지면 금고도 줄어든다. 양날의 검.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR 주주들, 52주 고점에서 86% 빠졌지만 바닥 신호가 보인다",
-          "text": "$BMNR (3/16) $21.84. 52주 고점 $161에서 86% 빠진 자리다. 힘들었을 거다. 하지만 금요일 +6.25% 급등으로 분위기가 바뀌고 있다.\n\n1/4",
+          "hook": "BMNR 들고 있다면, 오늘 뉴스는 반가울 거다",
+          "text": "$BMNR (3/16) $21.84(+6.25%). 52주 고점 $161에서 -86% 빠져서 힘들었을 거다. 하지만 오늘 $11.5B 자산 공시가 나왔다.\n\n1/4",
           "thread": [
-            "Tom Lee는 크립토 겨울이 끝나간다며 61,000 ETH를 더 샀다. Eightco 이사회에 합류하고 $75M까지 투자. 경영진이 확신을 행동으로 보여주고 있다.\n\n2/4",
-            "총 자산 $10.3B, 시총 $9.42B. P/B 0.70x면 NAV 대비 30% 할인이다. 기관도 조금씩 들어오기 시작했다.\n\n3/4",
-            "목표가 $30(+37%). ETH 바닥만 확인되면 반등 탄력이 클 수 있다. 분할 매수로 접근하자.\n\n4/4"
+            "ARK, Founders Fund, Pantera가 뒤에 있다는 게 처음 확인됐다. 혼자 들고 있는 게 아니었다.\n\n2/4",
+            "ETH $2,268(+4%) 반등. ETF 자금도 들어오고 있다. P/B 0.82x면 자산 대비 아직 싸다.\n\n3/4",
+            "목표가 $30(+37%). ETH 방향이 핵심이지만, 기관 백업이 확인된 건 분명한 호재다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tom Lee가 ETH 금고 회사를 투자 플랫폼으로 키우고 있다",
-          "text": "$BMNR (3/16) $21.84(+6.25%)\n\nTom Lee가 Eightco 이사회에 합류하면서 BMNR이 변하고 있다. $75M 투자로 OpenAI, Beast Industries 등과 간접 연결. 단순 ETH 보유를 넘어 크립토 생태계 투자 플랫폼으로 진화 중이다.\n\nETH 4,534,563개(공급의 3.76%), 총 자산 $10.3B인데 시총 $9.42B. P/B 0.70x로 NAV 대비 30% 할인. MSTR은 P/B 2-3x다. 기관도 들어오기 시작했다.\n\n50일선($22.50), 200일선($28) 아래. 목표가 $30(+37%). ETH 바닥 확인이 반등의 열쇠다."
+          "hook": "금고에 $11.5B, 시총은 $9.5B. 최정상 기관이 뒤에 있다",
+          "text": "$BMNR (3/16) $21.84(+6.25%)\n\n총 자산 $11.5B를 공시했다. 1주 만에 $1.2B 증가. ETH 4,596,000개로 전체 공급의 3.81%. ARK(Cathie Wood), Founders Fund, Pantera, Galaxy Digital이 뒤에 있다는 게 처음 공식 확인됐다.\n\nETH $2,268(+4%) 반등에 ETF 순유입 $26.7M. 시총 $9.46B인데 금고에 $11.5B라서 P/B 0.82x. MSTR이 2-3x인 걸 생각하면 할인 구간이다.\n\n50일선($22.50) 아래지만 반등 추세. 목표가 $30(+37%). ETH 방향이 모든 걸 결정한다."
         },
         "witty": {
-          "hook": "금고에 $10.3B 넣어두고 $9.4B에 팔리는 회사가 있다",
-          "text": "$BMNR (3/16) $21.84(+6.25%)\n\n시총 $9.42B인데 금고에 $10.3B가 들어있다. 1달러를 70센트에 사는 격이다. MicroStrategy는 같은 구조를 P/B 2-3배에 판다.\n\nTom Lee는 '크립토 겨울 거의 끝났다'면서 61,000 ETH를 더 사고, Eightco 이사회에 앉고, $75M까지 투자했다. 확신의 끝판왕이다. 5.3% 배당까지 주는 크립토 주식은 여기뿐.\n\n목표가 $30(+37%). 52주 고점 $161에서 86% 빠진 자리. ETH만 살아나면 레버리지가 무섭다."
+          "hook": "시총보다 금고가 더 큰 주식, Cathie Wood도 샀다",
+          "text": "$BMNR (3/16) $21.84(+6.25%)\n\n금고에 $11.5B인데 시총은 $9.46B. 회사를 통째로 인수하면 $2B가 남는 구조다. Cathie Wood(ARK), Peter Thiel(Founders Fund), Pantera도 이 계산을 했을 거다.\n\nETH 4,596,000개를 깔고 앉아서 5.3% 배당까지 준다. MSTR은 BTC 들고 P/B 2-3x 받는데 여기는 0.82x. 시장이 아직 못 따라온 건지, 이유가 있는 건지.\n\nETH $2,268 반등 중. 목표가 $30(+37%). ETH가 방향을 정해줄 때까지 배당이나 받으면서 기다려도 된다."
         },
         "empathy": {
-          "hook": "BMNR 주주들, 52주 고점에서 86% 빠졌지만 바닥 신호가 보인다",
-          "text": "$BMNR (3/16) $21.84(+6.25%)\n\n52주 고점 $161에서 86% 빠진 자리. 주주라면 많이 힘들었을 거다.\n\n하지만 금요일 +6.25% 급등, Tom Lee의 Eightco 이사회 합류, 기관 신규 매수 등 바닥 신호가 하나둘 나오고 있다. 총 자산 $10.3B, 시총 $9.42B. P/B 0.70x면 아직도 NAV 대비 30% 할인이다.\n\n목표가 $30(+37%). ETH 바닥만 확인되면 반등 탄력이 클 수 있다. 분할 매수로 인내하자."
+          "hook": "BMNR 들고 있다면, 오늘 뉴스는 반가울 거다",
+          "text": "$BMNR (3/16) $21.84(+6.25%)\n\n52주 고점 $161에서 -86%. 들고 있으면 정말 힘들었을 거다. 하지만 오늘 $11.5B 자산 공시와 함께 ARK, Founders Fund, Pantera가 뒤에 있다는 게 처음 공식 확인됐다.\n\nETH $2,268(+4%) 반등에 ETF도 순유입 중. P/B 0.82x는 자산 대비 여전히 할인이다. 기관들이 사고 있다는 건 의미가 있다.\n\n목표가 $30(+37%). ETH 방향이 핵심이고 변동성은 클 수 있다. 하지만 혼자 들고 있는 게 아니라는 건 확실해졌다."
         }
       }
     }
