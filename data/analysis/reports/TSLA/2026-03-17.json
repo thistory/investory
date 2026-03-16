@@ -1,0 +1,269 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-17",
+  "currentPrice": 396.50,
+  "marketCap": "$1.27T",
+
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
+    "description": "Tesla는 EV 제조에서 통합 AI, 로봇, 에너지 플랫폼으로 전환 중. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.79B(-46.5% YoY). 월요일 종가 $396.50(+1.35%). Terafab AI 칩 팹 3/21(토) 런치 확정, 로직+메모리+패키징을 하나의 시설에서 처리하는 수직 통합 계획 공개. 'Macrohard'(Digital Optimus)라는 Tesla-xAI 합작 엔터프라이즈 AI 시스템도 발표. NVIDIA GTC에서 NemoClaw가 발표되며 AI 생태계 확장.",
+    "howTheyMakeMoney": [
+      "전기차 판매 (Model 3/Y, Cybertruck)",
+      "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
+      "서비스, 충전 (Supercharger 네트워크, 보험, OTA 업그레이드)",
+      "FSD(Full Self-Driving) 구독 및 라이선싱",
+      "규제 크레딧 판매"
+    ],
+    "keyProducts": [
+      "Model Y/3 - 글로벌 EV 베스트셀러",
+      "Cybertruck - 전기 픽업",
+      "Megapack - 유틸리티 스케일 배터리",
+      "FSD - 자율주행 소프트웨어",
+      "Optimus - 휴머노이드 로봇 (Fremont 공장 전환 중)",
+      "Terafab - AI 칩 자체 생산 시설 (3/21 런치, 로직+메모리+패키징 통합)",
+      "Macrohard - Tesla-xAI 합작 엔터프라이즈 AI 시스템"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "364.02", "interpretation": "극도로 높은 밸류에이션. AI, 로봇, 에너지 플랫폼 프리미엄이 반영된 수치" },
+    { "name": "Forward P/E", "value": "190.32", "interpretation": "FY2026 실적 개선 기대를 반영하지만 여전히 섹터 최고 수준" },
+    { "name": "매출 성장률 (YoY)", "value": "-2.9%", "interpretation": "FY2025 역성장. 딜리버리 감소와 가격 인하 영향" },
+    { "name": "영업이익률", "value": "4.59%", "interpretation": "가격 인하 경쟁으로 마진 압축 지속. BYD와의 가격 전쟁 심화" },
+    { "name": "FCF", "value": "$6.22B", "interpretation": "현금 창출력 양호. 총 현금 $44B 보유" },
+    { "name": "부채비율 (D/E)", "value": "0.08", "interpretation": "재무 건전성 우수. 대형 테크 중에서도 낮은 수준" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "대형 테크 대비 낮은 자본 수익률. 마진 회복이 관건" },
+    { "name": "RSI", "value": "42", "interpretation": "중립에서 약세 구간. Terafab 기대감으로 반등 시작" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Terafab 3/21 런치 D-5: 로직+메모리+패키징 수직 통합 공개",
+      "description": "Teslarati(3/16): Terafab은 단순한 AI 칩 공장이 아니라 로직 프로세싱, 메모리 스토리지, 어드밴스드 패키징을 하나의 시설에서 처리하는 2nm급 팹. 세계 어떤 기업도 시도하지 않은 수준의 수직 통합. $200억+ 투자 규모."
+    },
+    {
+      "title": "Macrohard(Digital Optimus): Tesla-xAI 합작 엔터프라이즈 AI",
+      "description": "Simply Wall St(3/16): Musk가 Tesla와 xAI의 합작 시스템 'Macrohard'를 공개. 엔터프라이즈급 생성형 AI 애플리케이션을 위한 플랫폼. Terafab과 함께 AI 하드웨어+소프트웨어 수직 통합 완성."
+    },
+    {
+      "title": "Optimus 3 로봇, 올 여름 생산 시작 + Fremont 공장 전환",
+      "description": "Teslarati(3/14): Musk가 Optimus 3 올 여름 저속 생산 시작 확인. Model S/X 생산 종료하고 Fremont 공장을 Optimus 생산으로 전환. 2027년 대량 생산 목표."
+    },
+    {
+      "title": "중국 1-2월 판매 +35% YoY, 글로벌 반등 신호",
+      "description": "Finbold(3/15): 중국에서 만든 Tesla EV 판매가 1-2월 127,728대로 전년 대비 35% 이상 증가. 유럽 2월 등록도 +10% YoY."
+    },
+    {
+      "title": "유가 하락으로 시장 전반 반등, EV 섹터 수혜",
+      "description": "Investopedia(3/16): 호르무즈 해협 긴장 완화로 WTI 원유 5% 하락($94). 시장 전반 급등(S&P +1%, Nasdaq +1.2%). 에너지 비용 하락은 EV 수요에 긍정적."
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율 리더. FSD 82억 마일 데이터, Supercharger NACS 표준, 수직 통합이 핵심 해자. 그러나 BYD가 글로벌 판매에서 추월하며 경쟁 격차 축소 중.",
+    "moats": [
+      { "type": "자율주행 데이터 해자", "description": "FSD 82억 마일 주행 데이터. 경쟁사 대비 압도적 학습 데이터." },
+      { "type": "수직 통합 + AI 칩 자체 생산", "description": "자체 배터리(4680), 커스텀 칩(Terafab 로직+메모리), 소프트웨어(FSD), 충전 인프라(Supercharger)." },
+      { "type": "충전 네트워크 효과", "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저에 의존." }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "글로벌 EV 판매 1위(2025년 226만대 vs Tesla 164만대). 11개 신모델, 640마일 세단, 5분 충전 기술 공개" },
+      { "name": "Rivian (RIVN)", "detail": "전기 픽업/SUV. Amazon 물류 파트너" },
+      { "name": "Lucid (LCID)", "detail": "프리미엄 EV 세단. 사우디 투자" }
+    ]
+  },
+
+  "recentNews": [
+    {
+      "date": "2026-03-16",
+      "headline": "Terafab 범위 확대: 로직+메모리+패키징을 한 지붕 아래. 세계 어떤 기업도 시도하지 않은 수준",
+      "significance": "Electrek: 반도체 경험 제로에서 세계 최대 2nm 팹을 운영하겠다는 계획. 성공하면 NVIDIA 의존 탈피, 실패하면 수십억 달러 매몰 비용",
+      "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Macrohard(Digital Optimus): Tesla-xAI 합작 엔터프라이즈 AI 시스템 공개",
+      "significance": "AI 소프트웨어 사업 진출. Terafab 하드웨어 + Macrohard 소프트웨어로 수직 통합 완성 시도",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Musk, Terafab이 로직+메모리 칩 모두 생산한다고 확인. 주가 +2% 상승 후 마감",
+      "significance": "단순 AI 칩 팹이 아닌 종합 반도체 시설로 범위 확대. 시장은 긍정 반응(+1.35% 마감)",
+      "url": "https://www.gurufocus.com/news/8715859/tesla-stock-rises-as-musk-unveils-bold-ai-chip-terafab-plan"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "BYD 경쟁 가속: 2025년 EV 226만대(+28%) vs Tesla 164만대(-8%)",
+      "significance": "BYD가 11개 신모델, 640마일 세단, 5분 충전 기술 공개. 글로벌 EV 판매에서 Tesla를 추월",
+      "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "유가 5% 급락($94), 시장 전반 급등. S&P +1%, Nasdaq +1.2%",
+      "significance": "호르무즈 해협 긴장 완화 기대. 에너지 비용 하락은 EV 수요와 소비자 심리에 긍정적",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
+    }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 406.84,
+    "highTarget": 600.00,
+    "lowTarget": 25.00,
+    "upsidePercent": 2.61,
+    "buyCount": 10,
+    "holdCount": 12,
+    "sellCount": 5,
+    "notableComment": "컨센서스 $406.84(+2.6%), Hold 다수. Dan Ives $600(낙관), Gordon Johnson $25(극단적 약세). Terafab 결과와 Q1 딜리버리가 목표가 방향을 결정할 것."
+  },
+
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "BYD 경쟁 가속, 글로벌 EV 점유율 역전",
+      "description": "BYD 2025년 EV 226만대(+28%) vs Tesla 164만대(-8%). 11개 신모델, 640마일 세단, 5분 충전. 기술 격차도 좁혀지고 있다."
+    },
+    {
+      "severity": "high",
+      "title": "Terafab 실행 리스크: 반도체 경험 제로",
+      "description": "Electrek(3/16): 반도체 제조 경험이 전무한 Tesla가 세계 최대 2nm 팹을 운영하겠다는 계획. 로직+메모리+패키징 통합은 TSMC, Samsung도 하지 않는 수준. 실패 시 수십억 달러 매몰 비용."
+    },
+    {
+      "severity": "high",
+      "title": "200일 이동평균선 이탈, 약세장 진입",
+      "description": "9월 이후 처음으로 200일선 아래 마감. ATH 대비 20%+ 하락. 기관 매도 가속."
+    },
+    {
+      "severity": "high",
+      "title": "극단적 밸류에이션, P/E 364배",
+      "description": "TTM P/E 364배, Forward P/E 190배. 성장 둔화와 경쟁 심화 시 멀티플이 급격히 하락할 수 있다."
+    },
+    {
+      "severity": "medium",
+      "title": "Musk 리더십 분산 + DOGE 논란",
+      "description": "Tesla, xAI, SpaceX, X(Twitter), DOGE, Macrohard까지 동시 경영. 집중력 희석 우려."
+    }
+  ],
+
+  "buyReasons": [
+    {
+      "title": "Terafab 3/21 런치: 로직+메모리+패키징 수직 통합",
+      "rationale": "단순 AI 칩 넘어 종합 반도체 시설로 확장. 성공 시 NVIDIA, TSMC 의존 모두 탈피. 반도체 역사의 전환점이 될 수 있다."
+    },
+    {
+      "title": "Macrohard: AI 소프트웨어 사업 진출",
+      "rationale": "Tesla 하드웨어 + xAI 소프트웨어 합작. 엔터프라이즈 AI 시장 진출로 수익원 다각화."
+    },
+    {
+      "title": "중국 1-2월 판매 +35%, 유가 하락 수혜",
+      "rationale": "BYD 대비 점유율 회복 신호. 유가 하락($94)은 EV 전환 속도를 늦출 수 있지만 소비자 심리 개선."
+    },
+    {
+      "title": "Optimus 로봇 + Fremont 공장 전환",
+      "rationale": "Model S/X 종료하고 Optimus 생산 전환. 성공 시 TAM $12T+ 로봇 시장 진입."
+    }
+  ],
+
+  "technicalPosition": {
+    "week52High": 488.54,
+    "week52Low": 227.00,
+    "currentPositionPercent": 64.80,
+    "sma50": 419.98,
+    "sma50Signal": "below",
+    "sma200": 425.48,
+    "sma200Signal": "below",
+    "rsi": 42,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Terafab이 단순 AI 칩 공장에서 로직+메모리+패키징 통합 시설로 범위가 확대됐다. 토요일 3/21 런치가 확정됐고, Tesla-xAI 합작 AI 시스템 'Macrohard'까지 공개됐다. 시장은 +1.35%로 긍정 반응했다.",
+    "하지만 Electrek은 '반도체 경험 제로로 세계 최대 2nm 팹을 운영하겠다'며 냉정한 시각을 보냈다. BYD는 여전히 226만대(+28%)로 압도적이고, P/E 364배에 200일선 아래라는 기술적 약세도 부담이다.",
+    "$396.50 마감. 50일선($420), 200일선($425) 모두 아래. 목표가 $407(+2.6%). 토요일 Terafab 런치 결과가 단기 방향을 결정한다. 성공이 확인될 때까지 관망이 안전하다."
+  ],
+
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "Terafab 범위 확대와 Macrohard 발표는 긍정적이나, 반도체 경험 부재라는 근본적 리스크가 남아있다. BYD 경쟁과 P/E 364배 부담도 크다. 3/21 Terafab 런치 결과를 확인한 뒤 판단해도 늦지 않다.",
+    "horizon": "1-2주 (Terafab 런치 후 재평가)"
+  },
+
+  "sources": [
+    { "name": "Electrek", "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/", "description": "Terafab 비판: 반도체 경험 제로, 로직+메모리+패키징 통합의 비현실성" },
+    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p", "description": "Macrohard(Digital Optimus) 공개, Terafab AI 통합 분석" },
+    { "name": "GURUFocus", "url": "https://www.gurufocus.com/news/8715859/tesla-stock-rises-as-musk-unveils-bold-ai-chip-terafab-plan", "description": "Terafab 로직+메모리 칩 생산 계획, TSLA +2% 반응" },
+    { "name": "Teslarati", "url": "https://www.teslarati.com/tesla-terafab-ai-chip-factory/", "description": "Terafab $200억+ 투자, 수직 통합 칩 팹 상세" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/", "description": "BYD 경쟁 가속 분석. 226만대(+28%) vs Tesla 164만대(-8%)" },
+    { "name": "Investopedia", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762", "description": "3/16 시장 마감 요약. 유가 하락, 주요 지수 급등" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/tesla-terafab-macrohard-push-ai-152216788.html", "description": "Terafab+Macrohard AI 야심과 밸류에이션 분석" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA 컨센서스 목표가 $406.84" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/16/heres-why-tesla-stock-is-rising-today-as-musk-teases-terafab-launch/", "description": "Tesla 상승 이유: Terafab 런치 기대감" },
+    { "name": "CoinCentral", "url": "https://coincentral.com/tesla-tsla-stock-terafab-ai-chip-fab-set-to-launch-within-days/", "description": "Terafab 런치 D-5, Digitimes 확인 보도" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "Terafab이 AI 칩 공장에서 종합 반도체 시설로 커졌다",
+      "text": "$TSLA (3/17) Terafab이 로직+메모리+패키징을 한 지붕 아래로 모은다. 3/21 런치 확정. Tesla-xAI 합작 'Macrohard' AI 시스템도 공개. $396.50(+1.35%).\n\n1/4",
+      "thread": [
+        "Electrek은 '반도체 경험 제로로 세계 최대 2nm 팹을 운영하겠다고?'라며 냉정한 반응. 성공하면 역사적, 실패하면 수십억 매몰.\n\n2/4",
+        "BYD는 226만대(+28%)로 여전히 압도적. P/E 364배에 200일선 아래. 리스크는 분명하다.\n\n3/4",
+        "유가 $94로 5% 급락, 시장 전반 급등. 목표가 $407(+2.6%). 토요일 Terafab 결과가 모든 걸 결정한다.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "Terafab이 AI 칩 공장에서 종합 반도체 시설로 커졌다",
+      "text": "$TSLA (3/17) $396.50(+1.35%)\n\nTerafab이 단순 AI 칩 공장이 아니라 로직+메모리+패키징을 한 시설에서 만드는 종합 반도체 팹으로 확대됐다. Tesla-xAI 합작 'Macrohard' AI 시스템도 공개. 3/21 런치 확정.\n\nElectrek은 '반도체 경험 제로인 회사가 TSMC도 안 하는 걸 하겠다고?'라며 냉정했다. BYD는 226만대(+28%)로 계속 압도적이고, P/E 364배 부담도 크다.\n\n50일선($420), 200일선($425) 모두 아래. 목표가 $407(+2.6%). 유가 하락으로 시장은 반등했지만, 토요일 Terafab 결과가 진짜 방향을 정한다."
+    },
+    "telegram": {
+      "hook": "Terafab 범위 확대 + Macrohard 공개, 토요일 런치 D-5",
+      "text": "Tesla 일일 분석 (3/17)\n\n가격: $396.50 (+1.35%)\n\n핵심 이슈\n- Terafab: 로직+메모리+패키징 수직 통합으로 범위 확대\n- Macrohard(Digital Optimus): Tesla-xAI 합작 엔터프라이즈 AI\n- 3/21(토) Terafab 런치 확정, D-5\n- Electrek: '반도체 경험 제로, 비현실적' 비판\n- 유가 5% 급락($94), 시장 전반 급등\n\n주가 위치\n- 50일 평균($420) 아래\n- 200일 평균($425) 아래\n- RSI 42 (중립)\n\n리스크: P/E 364배, BYD 경쟁, 반도체 경험 부재\n목표가: $406.84 (+2.6%)\nTerafab 런치 결과가 방향을 결정한다"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Terafab이 AI 칩 공장에서 종합 반도체 시설로 커졌다",
+          "text": "$TSLA (3/17) Terafab이 로직+메모리+패키징을 한 지붕 아래로 모은다. 3/21 런치 확정. Tesla-xAI 합작 'Macrohard' AI 시스템도 공개. $396.50(+1.35%).\n\n1/4",
+          "thread": [
+            "Electrek은 '반도체 경험 제로로 세계 최대 2nm 팹을 운영하겠다고?'라며 냉정한 반응. 성공하면 역사적, 실패하면 수십억 매몰.\n\n2/4",
+            "BYD는 226만대(+28%)로 여전히 압도적. P/E 364배에 200일선 아래. 리스크는 분명하다.\n\n3/4",
+            "유가 $94로 5% 급락, 시장 전반 급등. 목표가 $407(+2.6%). 토요일 Terafab 결과가 모든 걸 결정한다.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Tesla가 칩도 만들겠다고 한다, TSMC도 안 하는 걸",
+          "text": "$TSLA (3/17) Terafab이 로직+메모리+패키징을 다 만든다고 한다. TSMC도 안 하는 조합이다. Tesla-xAI 합작은 이름이 'Macrohard'. 진심인 듯. $396.50.\n\n1/4",
+          "thread": [
+            "Electrek은 '반도체 경험 제로'라고 쏘아붙였다. 맞는 말이긴 한데, SpaceX도 처음엔 그랬다.\n\n2/4",
+            "BYD는 640마일 세단에 5분 충전인데, Musk는 로봇 공장이랑 칩 공장을 짓고 있다. 같은 자동차 회사가 맞나.\n\n3/4",
+            "P/E 364배에 목표가 $407(+2.6%). 토요일에 Terafab이 되면 천재, 안 되면 또 약속 불이행.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "Tesla 주주들, Terafab 소식에 기대와 불안이 교차할 거다",
+          "text": "$TSLA (3/17) $396.50(+1.35%). Terafab이 로직+메모리+패키징까지 확대됐다. 기대도 커졌지만 리스크도 커졌다.\n\n1/4",
+          "thread": [
+            "Electrek의 '경험 제로' 비판은 맞다. 하지만 시장은 +1.35%로 반응했다. 아직 믿음은 남아있다.\n\n2/4",
+            "유가가 $94로 5% 빠지면서 시장 전반이 올랐다. Tesla도 흐름에 올라탔다.\n\n3/4",
+            "토요일이 분수령이다. 성급하게 움직이기보다 결과를 확인하고 판단해도 된다. 목표가 $407(+2.6%).\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Terafab이 AI 칩 공장에서 종합 반도체 시설로 커졌다",
+          "text": "$TSLA (3/17) $396.50(+1.35%)\n\nTerafab이 단순 AI 칩 공장이 아니라 로직+메모리+패키징을 한 시설에서 만드는 종합 반도체 팹으로 확대됐다. Tesla-xAI 합작 'Macrohard' AI 시스템도 공개. 3/21 런치 확정.\n\nElectrek은 '반도체 경험 제로인 회사가 TSMC도 안 하는 걸 하겠다고?'라며 냉정했다. BYD는 226만대(+28%)로 계속 압도적이고, P/E 364배 부담도 크다.\n\n50일선($420), 200일선($425) 모두 아래. 목표가 $407(+2.6%). 유가 하락으로 시장은 반등했지만, 토요일 Terafab 결과가 진짜 방향을 정한다."
+        },
+        "witty": {
+          "hook": "Tesla가 칩도 만들겠다고 한다, TSMC도 안 하는 걸",
+          "text": "$TSLA (3/17) $396.50(+1.35%)\n\nTerafab이 로직+메모리+패키징을 한 지붕 아래서 다 만든다고 한다. TSMC, Samsung도 안 하는 조합이다. 이름은 또 'Macrohard'. Microsoft 견제인가.\n\nElectrek은 '반도체 경험 제로로 세계 최대 2nm 팹을?'이라며 쏘아붙였다. 맞는 말이지만, Musk는 불가능하다는 걸 좋아하는 사람이다.\n\nP/E 364배에 목표가 $407(+2.6%). 토요일 결과가 천재와 허풍의 경계를 정한다."
+        },
+        "empathy": {
+          "hook": "Tesla 주주들, Terafab 소식에 기대와 불안이 교차할 거다",
+          "text": "$TSLA (3/17) $396.50(+1.35%)\n\nTerafab 범위가 로직+메모리+패키징까지 확대됐다. 기대도 커졌지만 리스크도 커졌다. Electrek의 '경험 제로' 비판은 날카롭다.\n\n하지만 시장은 +1.35%로 반응했고, 유가 $94 하락에 전체 시장도 반등했다. 중국 판매 +35%도 여전히 긍정적이다.\n\n토요일이 분수령이다. 성급하게 움직이기보다 결과를 보고 판단해도 늦지 않다. 목표가 $407(+2.6%). 조금만 더 기다려보자."
+        }
+      }
+    }
+  }
+}
