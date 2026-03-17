@@ -5,8 +5,8 @@
   "currentPrice": 183.13,
   "marketCap": "$4.45T",
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing -- dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue engine. FY2026 revenue hit $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY), net income $120.1B. Monday close $183.13 (+1.6%). At the GTC 2026 keynote, Jensen Huang announced Blackwell+Vera Rubin orders reaching $1 trillion through 2027. He unveiled Groq 3 LPU (from the $20B December acquisition) and revealed Vera Rubin achieves 10x performance per watt versus Grace Blackwell. Next-gen rack architecture Kyber was also debuted.",
+    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. FY2026 revenue $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY), net income $120.1B. Monday close $183.13 (+1.6%). At GTC 2026, Jensen Huang announced Blackwell+Vera Rubin orders reaching $1 trillion through 2027. Also unveiled Groq 3 LPU, DLSS 5, and Vera Rubin Space Module. Dan Ives (Wedbush) called GTC 'a milestone in AI history'.",
     "howTheyMakeMoney": [
       "Data center AI accelerators (Blackwell, Hopper GPUs)",
       "AI software platforms (CUDA, AI Enterprise, NemoClaw)",
@@ -15,33 +15,34 @@
       "Networking (Spectrum-X, InfiniBand)"
     ],
     "keyProducts": [
-      "Vera Rubin VR200 -- next-gen AI accelerator, 10x perf/watt, shipping H2 2026",
-      "Groq 3 LPU -- inference-optimized language processing unit, from $20B acquisition, Q3 ship",
-      "Kyber -- next-gen rack architecture with 144 vertically stacked GPUs",
-      "NemoClaw -- enterprise AI agent (OpenClaw) development toolkit",
-      "DRIVE -- autonomous driving platform (Uber 28-city partnership)"
+      "Vera Rubin VR200 - Next-gen AI accelerator, 10x perf/watt, H2 2026 shipment",
+      "Groq 3 LPU - Inference-specialized language processing unit, Q3 shipment",
+      "Kyber - Next-gen 144-GPU vertical rack architecture",
+      "NemoClaw - Enterprise AI agent development platform",
+      "DLSS 5 - 3D-guided neural rendering, probabilistic rendering",
+      "DRIVE - Autonomous driving platform (Uber 28-city partnership)"
     ]
   },
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "36.97x",
-      "interpretation": "Below semiconductor sector average (53x) and modest premium to S&P 500 average (27x). Actually cheaper than peers AMD (108x) and Broadcom (89x)"
+      "value": "37.6x",
+      "interpretation": "Below semiconductor sector average (53x), modest premium to S&P 500 (27x). Cheaper than AMD (108x), Broadcom (89x)"
     },
     {
       "name": "Forward P/E",
       "value": "21.84x",
-      "interpretation": "Nearly identical to S&P 500 Forward P/E (21x). With 65% growth, PEG of 0.57 signals historically undervalued territory"
+      "interpretation": "Nearly identical to S&P 500 Forward P/E (21x). PEG 0.57 at 65% growth rate signals historical undervaluation"
     },
     {
       "name": "Revenue Growth (YoY)",
       "value": "+65%",
-      "interpretation": "FY2026 $215.9B achieved. Q1 FY2027 guidance of $78B (+77%)"
+      "interpretation": "FY2026 $215.9B achieved. Q1 FY2027 guidance $78B (+77%)"
     },
     {
       "name": "Operating Margin",
       "value": "60.38%",
-      "interpretation": "Best-in-class among semiconductors. Gross margin 71.1%. Monopolistic margin structure maintained"
+      "interpretation": "Best-in-class in semiconductors. Gross margin 71.1% with monopolistic pricing power"
     },
     {
       "name": "FCF",
@@ -51,157 +52,157 @@
     {
       "name": "Debt-to-Equity",
       "value": "0.07",
-      "interpretation": "Extremely low leverage. Effectively debt-free"
+      "interpretation": "Extremely low leverage. Virtually debt-free"
     },
     {
       "name": "ROE",
       "value": "101.49%",
-      "interpretation": "Over 100% return on equity. Capital efficiency maximized"
+      "interpretation": "Over 100% return on equity. Maximum capital efficiency"
     },
     {
       "name": "RSI",
       "value": "44",
-      "interpretation": "Neutral zone. Bounce starting after GTC announcements"
+      "interpretation": "Neutral zone. Post-GTC bounce underway"
     }
   ],
   "growthDrivers": [
     {
       "title": "GTC Keynote: $1T Blackwell+Vera Rubin Orders Through 2027",
-      "description": "CNBC (3/16): Jensen Huang announced combined Blackwell and Vera Rubin orders reaching $1 trillion through 2027, double last year's $500B outlook. Q1 FY2027 revenue guidance of $78B (+77% YoY) marks 11 consecutive quarters of 55%+ growth."
+      "description": "CNBC (3/16): Jensen Huang announced combined Blackwell and Vera Rubin orders reaching $1 trillion through 2027, double last year's $500B projection. Q1 FY2027 revenue guidance $78B (+77% YoY)."
     },
     {
-      "title": "Vera Rubin: 10x Performance Per Watt, 1.3M Component System",
-      "description": "CNBC (3/16): Vera Rubin delivers 10x performance per watt versus Grace Blackwell. A 1.3 million component system shipping H2 2026. Energy efficiency is a decisive advantage as it becomes the biggest challenge in AI infrastructure."
+      "title": "Vera Rubin: 10x Performance per Watt, 1.3M-Part System",
+      "description": "CNBC (3/16): 10x perf/watt vs Grace Blackwell. 1.3 million component system, H2 2026 shipment. Also unveiled Space Module at 25x H100 for orbital data centers."
     },
     {
-      "title": "Groq 3 LPU Unveiled, 35x Inference Efficiency Gain",
-      "description": "CNBC (3/16): First chip from the $20B Groq acquisition. Groq 3 LPX rack with 256 LPUs pairs with Vera Rubin to boost tokens per watt by 35x. Shipping Q3."
+      "title": "Groq 3 LPU + DLSS 5 Revealed",
+      "description": "Tom's Hardware (3/16): Groq 3 LPU from $20B acquisition delivers 35x inference efficiency. DLSS 5 introduces 3D-guided neural rendering and probabilistic rendering. Day 2 features DOE climate/energy AI discussion."
     },
     {
-      "title": "Palantir Partnership: Targeting $600B Sovereign AI Market",
-      "description": "Seeking Alpha (3/13): Partnership with Palantir to deploy data-sovereign AI solutions for governments and enterprises. First-mover advantage in the Sovereign AI market projected to reach $600B by 2030."
+      "title": "Palantir Partnership: Sovereign AI $600B Market",
+      "description": "Seeking Alpha (3/13): Co-developed Sovereign AI OS reference architecture with Palantir for government self-hosted AI data centers. Targeting ~$600B market by 2030."
     },
     {
       "title": "Uber 28-City Autonomous Driving + NemoClaw Agent Platform",
-      "description": "CNBC (3/16): Partnership with Uber to deploy NVIDIA DRIVE AV-based autonomous vehicles across 28 cities on 4 continents by 2028. NemoClaw is an OpenClaw-based enterprise AI agent development toolkit."
+      "description": "CNBC (3/16): NVIDIA DRIVE AV-based autonomous vehicles deploying to 28 cities across 4 continents by 2028 with Uber. NemoClaw enterprise AI agent development tool launched."
     }
   ],
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem lock-in with 15M+ developers, 90%+ market share in AI training and inference GPUs. Groq acquisition extends dominance into inference. Software+hardware+inference integration is the core moat.",
+    "summary": "15M+ developer CUDA ecosystem lock-in, 90%+ market share in AI training and inference GPUs. Groq acquisition extends into inference market. Software+hardware+inference integration is the core moat.",
     "moats": [
       {
         "type": "CUDA Ecosystem",
-        "description": "15M+ developer lock-in. Most AI frameworks optimized for CUDA. GTC celebrated CUDA's 20th anniversary, reinforcing ecosystem expansion."
+        "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA. CUDA 20th anniversary celebrated at GTC."
       },
       {
         "type": "Design Leadership + Groq Acquisition",
-        "description": "Two-year innovation cycles from Blackwell to Rubin to Kyber. Groq acquisition adds inference-specialized chips. 1-2 generations ahead of competitors."
+        "description": "2-year innovation cycles from Blackwell to Rubin to Kyber. Groq adds inference-specialized chips. 1-2 generations ahead of competitors."
       },
       {
         "type": "Full-Stack Strategy",
-        "description": "Chips+systems(DGX)+software(CUDA, NemoClaw)+networking(Spectrum-X)+inference(Groq) integration."
+        "description": "Chips+systems (DGX)+software (CUDA, NemoClaw)+networking (Spectrum-X)+inference (Groq) integration."
       }
     ],
     "competitors": [
       {
         "name": "AMD (MI400)",
-        "detail": "#2 in AI GPUs. Cost-effective alternative with growing hyperscaler adoption"
+        "detail": "No. 2 AI GPU. Cost-effective alternative. Growing hyperscaler adoption"
       },
       {
         "name": "Intel (Gaudi 3)",
-        "detail": "Entering AI accelerator market. Undergoing foundry transition"
+        "detail": "Entering AI accelerator market. Foundry transition underway"
       },
       {
         "name": "Custom Chips (Google TPU, Amazon Trainium)",
-        "detail": "Hyperscaler in-house AI chips. Attempting to reduce NVIDIA dependency"
+        "detail": "Hyperscaler in-house AI chips reducing NVIDIA dependence"
       }
     ]
   },
   "recentNews": [
     {
+      "date": "2026-03-17",
+      "headline": "GTC Day 2: DOE climate/energy AI session, Dan Ives calls GTC 'a milestone in AI history'",
+      "significance": "TheStreet: Wedbush Dan Ives praised GTC as proving full-stack AI infrastructure dominance. 54/57 analysts rate Buy, avg target $268",
+      "url": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-blunt-message-on-nvidia-stock-after-gtc"
+    },
+    {
       "date": "2026-03-16",
-      "headline": "GTC Keynote: $1T Blackwell+Vera Rubin orders through 2027. Groq 3 LPU, Kyber architecture, NemoClaw announced",
-      "significance": "Doubled from $500B last year. Groq 3 LPU is first result of $20B acquisition. Inference-first strategy counters TPU and Trainium competition",
+      "headline": "GTC Keynote: $1T orders, Groq 3 LPU, Vera Rubin, Kyber, DLSS 5, NemoClaw",
+      "significance": "CNBC: Doubled from last year's $500B. Groq 3 LPU 35x inference efficiency. DLSS 5 probabilistic rendering. Vera Rubin Space Module also revealed",
       "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
     },
     {
       "date": "2026-03-16",
-      "headline": "Vera Rubin Space Module announced: 25x AI compute vs H100, designed for orbital data centers",
-      "significance": "Opening a brand new market in space AI infrastructure. Addresses satellite data processing and orbital computing demand",
+      "headline": "Vera Rubin Space Module: 25x H100 AI compute for orbital data centers",
+      "significance": "Tom's Hardware: Pioneering space AI infrastructure. Addressing satellite data processing and orbital computing demand",
       "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "Palantir Sovereign AI partnership announced for data-sovereign AI deployment",
-      "significance": "Targeting the $600B Sovereign AI market by 2030. Addressing government and defense AI infrastructure demand",
-      "url": "https://seekingalpha.com/article/4881794-nvidia-the-palantir-partnership-is-a-trillion-dollar-catalyst"
     },
     {
       "date": "2026-03-16",
       "headline": "Reuters: $1T chip revenue opportunity. Inference positioned as core AI chip growth driver",
-      "significance": "Emphasis on the training-to-inference shift. Groq+Vera Rubin combo is the central strategy",
+      "significance": "Emphasis on training-to-inference shift. Groq+Vera Rubin combination as core strategy",
       "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/"
     },
     {
-      "date": "2026-03-16",
-      "headline": "Investopedia: Major indices surge, S&P +1%, NVDA +1.6% at close. Oil decline eases market tensions",
-      "significance": "Strait of Hormuz tension easing combined with GTC catalysts drove broad tech rally",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
+      "date": "2026-03-13",
+      "headline": "Palantir Sovereign AI partnership announced, expanding data sovereignty AI deployment",
+      "significance": "Seeking Alpha: Targeting $600B Sovereign AI market by 2030. Addressing government and defense AI infrastructure demand",
+      "url": "https://seekingalpha.com/article/4881794-nvidia-the-palantir-partnership-is-a-trillion-dollar-catalyst"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 274.21,
+    "consensusTarget": 267.54,
     "highTarget": 400.0,
     "lowTarget": 140.0,
-    "upsidePercent": 49.74,
-    "buyCount": 38,
-    "holdCount": 1,
-    "sellCount": 0,
-    "notableComment": "Strong Buy consensus from 39 analysts. Post-$1T order announcement, target upgrades likely. Wells Fargo's Aaron Rakers (top 1% analyst) maintains $265 target. Cantor sees 'confidence recovery imminent.' GTC results expected to push consensus above $274."
+    "upsidePercent": 46.09,
+    "buyCount": 54,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "54 of 57 analysts rate Buy (Koyfin). Consensus $267.54 (+46%). Dan Ives (Wedbush) calls GTC 'proof of full-stack AI dominance.' Morgan Stanley reinstated NVDA as top semiconductor pick at $260. Post-GTC target revisions expected."
   },
   "risks": [
     {
       "severity": "high",
       "title": "Custom AI chip competition from hyperscalers",
-      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia. Largest customers developing in-house chips to reduce NVIDIA dependency."
+      "description": "Google TPU v6, Amazon Trainium3, Microsoft Maia. Largest customers developing in-house chips to reduce NVIDIA dependence."
     },
     {
       "severity": "high",
       "title": "AI investment cycle slowdown risk",
-      "description": "If hyperscaler CAPEX decelerates, GPU demand could drop sharply. Questions about AI ROI could trigger spending cuts."
+      "description": "Hyperscaler CAPEX deceleration could sharply reduce GPU demand. AI ROI skepticism could trigger spending cuts."
     },
     {
       "severity": "medium",
-      "title": "US-China tech restrictions and EU tariff threats",
-      "description": "Ongoing US AI chip export controls on China. China data center revenue ($10B+) at risk. Trump administration reportedly pushing 15-20% minimum tariff on all EU goods."
+      "title": "US-China tech restrictions and EU tariffs",
+      "description": "Ongoing US AI chip export controls to China. China data center revenue ($10B+) at risk. Trump administration reportedly pushing 15-20% minimum EU tariffs."
     },
     {
       "severity": "medium",
       "title": "Groq acquisition integration risk",
-      "description": "Technology integration of the $20B Groq acquisition may not go smoothly. The heterogeneous LPU+GPU architecture combination is an unproven strategy."
+      "description": "$20B Groq acquisition may face integration challenges. LPU+GPU heterogeneous architecture combination is unproven."
     },
     {
       "severity": "low",
       "title": "AMD MI400 competition as cost-effective alternative",
-      "description": "AMD's next-gen MI400 could displace NVIDIA in some workloads on price-performance basis."
+      "description": "AMD's next-gen MI400 could substitute for some workloads on price-performance basis."
     }
   ],
   "buyReasons": [
     {
-      "title": "$1T order announcement at GTC, historic backlog scale",
-      "rationale": "Doubled from $500B last year. Vera Rubin+Groq 3 combo captures inference market too. Revenue visibility secured through 2027."
+      "title": "GTC $1T Order Announcement, Historic Backlog",
+      "rationale": "Doubled from $500B last year. Vera Rubin+Groq 3 combination captures inference market. Visibility through 2027 secured."
     },
     {
-      "title": "Forward P/E 22x, PEG 0.57, undervalued vs growth",
-      "rationale": "Q1 FY2027 revenue guidance of $78B (+77% YoY). PEG below 1 is a clear undervaluation signal. Lowest valuation since last April's tariff crash."
+      "title": "Forward P/E 22x, PEG 0.57, Undervalued vs Growth",
+      "rationale": "Q1 FY2027 guidance $78B (+77% YoY). PEG below 1.0 is a clear undervaluation signal. 54/57 analysts rate Buy."
     },
     {
-      "title": "Groq acquisition extends inference market dominance",
-      "rationale": "Groq 3 LPU combined with Vera Rubin improves tokens per watt by 35x. Differentiated inference strategy versus Google TPU and Amazon Trainium."
+      "title": "Groq Acquisition Expands Inference Market Dominance",
+      "rationale": "Groq 3 LPU combined with Vera Rubin delivers 35x tokens per watt. Differentiated inference strategy vs Google TPU, Amazon Trainium."
     },
     {
-      "title": "FCF $97B, world's top cash generating company",
-      "rationale": "Annual FCF of $97B funds buybacks, dividends, and M&A. Aggressive AI infrastructure expansion like $2B Nebius investment."
+      "title": "FCF $97B, World's Top Cash Generator",
+      "rationale": "Annual FCF $97B funds buybacks, dividends, and M&A. Ample capacity for aggressive AI infrastructure expansion."
     }
   ],
   "technicalPosition": {
@@ -216,21 +217,35 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Yesterday's GTC keynote saw Jensen Huang announce $1 trillion in orders through 2027, doubling last year's $500B figure. Groq 3 LPU (inference-specialized chip) and Vera Rubin (10x performance per watt) were unveiled, plus a Palantir Sovereign AI partnership was added to the mix.",
-    "Revenue $216B (+65%), FCF $97B, operating margin 60%. Q1 guidance $78B (+77%). The business is expanding explosively into Uber's 28-city autonomous driving, NemoClaw AI agents, and orbital data centers via Vera Rubin Space Module.",
-    "Risks remain real. Google and Amazon keep pushing custom AI chips, and Trump's EU tariff push adds uncertainty. Groq integration could hit bumps too.",
-    "$183.13 close (+1.6%). Down 14% from 52-week high of $212. Forward P/E 22x with PEG 0.57 means it's still cheap for 77% growth. 38 of 39 analysts say Buy with a $274 target (+50%)."
+    "GTC keynote confirmed $1T orders, Groq 3 LPU, Vera Rubin, and DLSS 5. Dan Ives (Wedbush) called it 'a milestone in AI history,' and 54 of 57 analysts rate Buy. The strategy to dominate inference is being validated by numbers.",
+    "Revenue $216B (+65%), FCF $97B, operating margin 60%. Q1 guidance $78B (+77%). Business expanding explosively into Uber autonomous driving, Palantir Sovereign AI, and space chips.",
+    "Forward P/E 22x with PEG 0.57 remains cheap for 77% growth. Down 14% from the 52-week high of $212. Bouncing above the 200-day ($177). Consensus $268 (+46%), with post-GTC target revisions just a matter of time."
   ],
   "investmentVerdict": {
     "stance": "strong-buy",
-    "summary": "GTC confirmed $1T in orders, Groq 3 LPU, and Vera Rubin's 10x efficiency. Forward P/E of 22x and PEG of 0.57 represent undervaluation against 77% growth, the lowest valuation since last year's tariff shock. Custom chip competition is a risk, but Groq acquisition, two-year architecture innovation cycles, and the Palantir Sovereign AI partnership maintain the lead.",
+    "summary": "GTC confirmed $1T orders, Groq 3 LPU, and Vera Rubin 10x efficiency. Forward P/E 22x and PEG 0.57 make this undervalued vs 77% growth. 54/57 analysts rate Buy. Custom chip competition is a risk, but Groq acquisition and full-stack strategy maintain the lead.",
     "horizon": "12-24 months"
   },
   "sources": [
     {
+      "name": "TheStreet (Dan Ives)",
+      "url": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-blunt-message-on-nvidia-stock-after-gtc",
+      "description": "Dan Ives GTC assessment: proof of full-stack AI infrastructure dominance"
+    },
+    {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
-      "description": "Detailed GTC keynote coverage. $1T orders, Groq 3 LPU, Kyber architecture"
+      "description": "GTC keynote details: $1T orders, Groq 3 LPU, Kyber architecture"
+    },
+    {
+      "name": "StockTwits/Koyfin",
+      "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-gtc-2026-so-what-s-wall-street-s-verdict/cZ33vbxRIQl",
+      "description": "54/57 analysts Buy, avg target $267.54. NemoClaw analysis"
+    },
+    {
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
+      "description": "GTC keynote live blog: DLSS 5, Vera Rubin Space Module, Groq 3 LPU details"
     },
     {
       "name": "Reuters",
@@ -238,14 +253,9 @@
       "description": "$1T chip revenue opportunity, inference market strategy"
     },
     {
-      "name": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
-      "description": "GTC keynote live blog. Vera Rubin Space Module 25x, CUDA 20th anniversary"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "NVDA consensus target $274.21, 39 analysts"
+      "name": "Barchart",
+      "url": "https://www.barchart.com/story/news/777998/nvidia-stock-is-treading-water-below-its-50-day-moving-average-as-gtc-2026-kicks-off-how-to-play-it-here",
+      "description": "Morgan Stanley $260 target, reinstated as top semiconductor pick"
     },
     {
       "name": "Seeking Alpha",
@@ -253,24 +263,14 @@
       "description": "Palantir partnership, Sovereign AI $600B market analysis"
     },
     {
-      "name": "StockInvest.us",
-      "url": "https://stockinvest.us/stock/NVDA",
-      "description": "52-week high $212.19, low $86.62, market cap $4.45T"
-    },
-    {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/financials/NVDA/",
-      "description": "FY2026 revenue $215.9B, gross margin 71.1%"
-    },
-    {
-      "name": "Wells Fargo (Yahoo Finance)",
-      "url": "https://finance.yahoo.com/news/wells-fargo-message-investors-nvidia-202313141.html",
-      "description": "Aaron Rakers $265 target, top 1% ranked analyst"
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/nvda-stock-today-march-17-gtc-reveals-vera-rubin-1t-ai-demand-1703/",
+      "description": "P/E 37.6x, 20.9x sales, PEG 1.75 valuation analysis"
     },
     {
       "name": "Motley Fool",
       "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/",
-      "description": "Forward P/E 22x, lowest valuation since tariff crash"
+      "description": "Forward P/E 22x, lowest valuation since tariff shock"
     },
     {
       "name": "Investopedia",
@@ -280,64 +280,64 @@
   ],
   "snsContent": {
     "x": {
-      "hook": "NVIDIA just dropped $1T in orders at GTC, double last year",
-      "text": "$NVDA (3/17) GTC keynote results: $1T orders through 2027 (2x last year's $500B). Groq 3 LPU 35x inference, Vera Rubin 10x perf/watt. $183 (+1.6%).\n\n1/4",
+      "hook": "GTC confirms $1T orders, 54/57 analysts say Buy",
+      "text": "$NVDA (Mar 17) GTC confirmed $1T orders through 2027. Dan Ives calls it 'a milestone in AI history.' Groq 3 35x inference, Vera Rubin 10x, DLSS 5. $183 (+1.6%).\n\n1/4",
       "thread": [
-        "Revenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber 28-city AV, space chips, Palantir Sovereign AI partnership.\n\n2/4",
-        "Forward P/E 22x, PEG 0.57. Still cheap for a 77% grower. 38/39 analysts Buy, target $274 (+50%).\n\n3/4",
-        "Down 14% from 52w high $212. Holding above 200-day SMA ($177). Once GTC numbers get priced in, target upgrades are inevitable.\n\n4/4"
+        "Revenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber autonomous driving, space chips, Palantir Sovereign AI. The moat keeps widening.\n\n2/4",
+        "Forward P/E 22x, PEG 0.57. Cheap for 77% growth. 54/57 Buy, consensus $268 (+46%). Post-GTC upgrades coming.\n\n3/4",
+        "Down 14% from 52-week high $212. Bouncing above 200-day ($177). Breaking the 50-day ($185) is the next test.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVIDIA just dropped $1T in orders at GTC, double last year",
-      "text": "$NVDA (3/17) $183.13 (+1.6%)\n\nGTC keynote results are in. Jensen Huang announced $1 trillion in Blackwell+Vera Rubin orders through 2027. Exactly double last year's $500B. Groq 3 LPU (35x inference efficiency) and next-gen rack Kyber were also unveiled.\n\nRevenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber 28-city autonomous driving, Palantir Sovereign AI, orbital Vera Rubin Space Module. Pipeline is stacked.\n\nForward P/E 22x, PEG 0.57. 38/39 analysts say Buy, target $274 (+50%). Down 14% from 52w high $212. Target upgrades are a matter of time."
+      "hook": "GTC confirms $1T orders, Dan Ives calls it 'historic'",
+      "text": "$NVDA (Mar 17) $183.13 (+1.6%)\n\nGTC keynote confirmed $1T in orders through 2027. Dan Ives (Wedbush) called it 'a milestone in AI history.' Groq 3 LPU (35x inference), Vera Rubin (10x per watt), and DLSS 5 all unveiled.\n\nRevenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber autonomous driving, Palantir Sovereign AI, space chips. Business scope is expanding explosively.\n\n54/57 Buy, consensus $268 (+46%). Forward P/E 22x, PEG 0.57. Down 14% from the 52-week high. Target upgrades are just a matter of time."
     },
     "telegram": {
-      "hook": "GTC Keynote Results: $1T Orders, Groq 3 LPU, Vera Rubin",
-      "text": "NVIDIA Daily Analysis (3/17)\n\nPrice: $183.13 (+1.6%)\n\nGTC Keynote Highlights\n- $1T orders through 2027 (2x last year's $500B)\n- Vera Rubin: 10x perf/watt, shipping H2 2026\n- Groq 3 LPU: 35x inference efficiency, Q3 ship\n- Kyber: next-gen 144-GPU rack architecture\n- Palantir: Sovereign AI partnership\n- Uber: 28-city autonomous driving partnership\n- Vera Rubin Space Module: 25x vs H100\n\nKey Metrics\n- FY2026 Revenue $215.9B (+65%)\n- Q1 FY2027 Guide $78B (+77%)\n- Forward P/E 21.84, PEG 0.57\n- FCF $97B, Operating Margin 60%\n- Down 14% from 52w high $212.19\n\nTarget: $274 (+50%), 38/39 Buy"
+      "hook": "GTC $1T orders + Groq 3 + Vera Rubin + DLSS 5",
+      "text": "NVIDIA Daily Analysis (Mar 17)\n\nPrice: $183.13 (+1.6%)\n\nGTC Keynote Highlights\n- $1T orders through 2027 (2x last year's $500B)\n- Vera Rubin: 10x perf/watt, H2 2026\n- Groq 3 LPU: 35x inference, Q3\n- DLSS 5: 3D neural rendering\n- Kyber: 144-GPU next-gen rack\n- Palantir Sovereign AI + Uber 28 cities\n\nKey Metrics\n- FY2026 revenue $215.9B (+65%)\n- Q1 FY2027 guide $78B (+77%)\n- Forward P/E 21.84, PEG 0.57\n- FCF $97B, operating margin 60%\n- 54/57 analysts Buy\n\nTarget: $267.54 (+46%)\nVerdict: Strong Buy"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVIDIA just dropped $1T in orders at GTC, double last year",
-          "text": "$NVDA (3/17) GTC keynote results: $1T orders through 2027 (2x last year's $500B). Groq 3 LPU 35x inference, Vera Rubin 10x perf/watt. $183 (+1.6%).\n\n1/4",
+          "hook": "GTC confirms $1T orders, 54/57 analysts say Buy",
+          "text": "$NVDA (Mar 17) GTC confirmed $1T orders through 2027. Dan Ives calls it 'a milestone in AI history.' Groq 3 35x inference, Vera Rubin 10x, DLSS 5. $183 (+1.6%).\n\n1/4",
           "thread": [
-            "Revenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber 28-city AV, space chips, Palantir Sovereign AI partnership.\n\n2/4",
-            "Forward P/E 22x, PEG 0.57. Still cheap for a 77% grower. 38/39 analysts Buy, target $274 (+50%).\n\n3/4",
-            "Down 14% from 52w high $212. Holding above 200-day SMA ($177). Once GTC numbers get priced in, target upgrades are inevitable.\n\n4/4"
+            "Revenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber autonomous driving, space chips, Palantir Sovereign AI. The moat keeps widening.\n\n2/4",
+            "Forward P/E 22x, PEG 0.57. Cheap for 77% growth. 54/57 Buy, consensus $268 (+46%). Post-GTC upgrades coming.\n\n3/4",
+            "Down 14% from 52-week high $212. Bouncing above 200-day ($177). Breaking the 50-day ($185) is the next test.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Jensen said $1 trillion. The leather jacket magic lives on.",
-          "text": "$NVDA (3/17) GTC: $1T orders announced. 2x last year. Bought Groq for $20B, shipped Groq 3 LPU in 3 months. $183.\n\n1/4",
+          "hook": "Jensen said $1T, Dan Ives said 'historic', the market said +1.6%",
+          "text": "$NVDA (Mar 17) $1T in orders, Groq 3, DLSS 5, space chips. Jensen spent 2 hours and left nothing on the table. Market gave +1.6%. Clearly still digesting. $183.\n\n1/4",
           "thread": [
-            "FCF $97B means $260M in cash piling up every single day. Now they're sending chips to space. Vera Rubin Space Module. Dead serious.\n\n2/4",
-            "PEG 0.57 and 38/39 analysts say buy. The one holdout is probably an AMD shareholder.\n\n3/4",
-            "Target $274 (+50%). Down 14% from highs. If the keynote numbers are real, $274 is the conservative case.\n\n4/4"
+            "FCF $97B. That's $2.6B per day. Uber self-driving, Palantir national AI, orbital data centers. 54/57 Buy.\n\n2/4",
+            "PEG 0.57 but still below the 50-day. The market is sleeping on a $1T announcement. That won't last.\n\n3/4",
+            "Consensus $268 (+46%). Down 14% from $212. At this price, the math speaks for itself.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "If you held NVDA, yesterday's GTC was the relief you needed",
-          "text": "$NVDA (3/17) $183 (+1.6%). Down 14% from ATH $212, that's been stressful. But yesterday GTC confirmed $1T in orders.\n\n1/4",
+          "hook": "NVDA holders, GTC delivered the answers you needed",
+          "text": "$NVDA (Mar 17) $183 (+1.6%). Down 14% from $212, it hasn't been easy. But GTC confirmed $1T orders, Groq 3, and DLSS 5.\n\n1/4",
           "thread": [
-            "Groq 3 LPU, Vera Rubin 10x efficiency, Kyber architecture. Jensen answered with numbers and products. Execution is already proven.\n\n2/4",
-            "38/39 Buy, target $274 (+50%). PEG 0.57. The market was pricing in fear, not fundamentals.\n\n3/4",
-            "Holding above 200-day SMA ($177). Tariff noise is there, but $1T in orders more than offsets the anxiety.\n\n4/4"
+            "Dan Ives called it 'a milestone.' The numbers back it up: $216B revenue, $97B FCF, $78B Q1 guide (+77%).\n\n2/4",
+            "54/57 Buy, consensus $268 (+46%). Market only gave +1.6% but recognition is coming.\n\n3/4",
+            "Holding above 200-day ($177). Breaking $185 changes the momentum. Your patience is about to pay off.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVIDIA just dropped $1T in orders at GTC, double last year",
-          "text": "$NVDA (3/17) $183.13 (+1.6%)\n\nGTC keynote results are in. Jensen Huang announced $1 trillion in Blackwell+Vera Rubin orders through 2027. Exactly double last year's $500B. Groq 3 LPU (35x inference efficiency) and next-gen rack Kyber were also unveiled.\n\nRevenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber 28-city autonomous driving, Palantir Sovereign AI, orbital Vera Rubin Space Module. Pipeline is stacked.\n\nForward P/E 22x, PEG 0.57. 38/39 analysts say Buy, target $274 (+50%). Down 14% from 52w high $212. Target upgrades are a matter of time."
+          "hook": "GTC confirms $1T orders, Dan Ives calls it 'historic'",
+          "text": "$NVDA (Mar 17) $183.13 (+1.6%)\n\nGTC keynote confirmed $1T in orders through 2027. Dan Ives (Wedbush) called it 'a milestone in AI history.' Groq 3 LPU (35x inference), Vera Rubin (10x per watt), and DLSS 5 all unveiled.\n\nRevenue $216B (+65%), FCF $97B. Q1 guide $78B (+77%). Uber autonomous driving, Palantir Sovereign AI, space chips. Business scope is expanding explosively.\n\n54/57 Buy, consensus $268 (+46%). Forward P/E 22x, PEG 0.57. Down 14% from the 52-week high. Target upgrades are just a matter of time."
         },
         "witty": {
-          "hook": "Jensen said $1 trillion. The leather jacket magic lives on.",
-          "text": "$NVDA (3/17) $183.13 (+1.6%)\n\nGTC dropped $1T in orders. Casually doubled last year's $500B. Bought Groq for $20B, shipped Groq 3 LPU in 3 months with 35x inference efficiency.\n\nFCF $97B ($260M/day), space data center chips, Palantir sovereign AI. 38/39 analysts say buy but the market only gave it +1.6%. Still digesting.\n\nTarget $274 (+50%). PEG 0.57 means the keynote is only half priced in. The leather jacket magic is far from over."
+          "hook": "Jensen's 2-hour keynote left nothing on the table",
+          "text": "$NVDA (Mar 17) $183.13 (+1.6%)\n\n$1T in orders, Groq 3, DLSS 5, space chips, self-driving, sovereign AI. Jensen spent 2 hours and left nothing unsaid. Dan Ives called it 'historic.' The market gave +1.6%. Still digesting.\n\nFCF $97B (that's $2.6B per day), PEG 0.57, and 54/57 analysts say Buy. The stock is still below its 50-day. The disconnect won't last.\n\nConsensus $268 (+46%). Down 14% from $212. The numbers are screaming opportunity."
         },
         "empathy": {
-          "hook": "NVDA holders, yesterday's GTC was the relief you needed",
-          "text": "$NVDA (3/17) $183.13 (+1.6%)\n\nDown 14% from ATH $212. Custom chip fears, tariff headlines. It's been rough.\n\nBut yesterday GTC delivered: $1T orders, Groq 3 LPU, Vera Rubin 10x efficiency. Jensen answered with hard numbers. Revenue $216B, FCF $97B, Q1 guide $78B (+77%).\n\n38/39 Buy, target $274 (+50%). Bouncing off the 200-day SMA. This week could be the turning point. The patience paid off."
+          "hook": "NVDA holders, GTC delivered the validation you've been waiting for",
+          "text": "$NVDA (Mar 17) $183.13 (+1.6%)\n\nDown 14% from $212, custom chip fears, tariff headlines. It's been rough. But GTC just delivered comprehensive answers.\n\n$1T orders, Groq 3, Vera Rubin, DLSS 5. Dan Ives called it 'a milestone.' Revenue $216B, FCF $97B, Q1 guide $78B (+77%). The fundamentals have never been stronger.\n\n54/57 Buy, consensus $268 (+46%). Holding above the 200-day and starting to bounce. This week could be the turning point. Your patience is paying off."
         }
       }
     }

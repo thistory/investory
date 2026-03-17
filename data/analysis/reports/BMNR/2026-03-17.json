@@ -6,10 +6,10 @@
   "marketCap": "$9.8B",
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업 -- MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/15 기준 4,595,562 ETH(총 공급량의 3.81%) 보유, 총 크립토+현금 $11.5B. 월요일 종가 $22.60(+10.03%). ETH $2,250 반등에 힘입어 급등. ARK(Cathie Wood), Founders Fund, Pantera 등 프리미어 기관투자자 진영. Eightco($ORBS) $125M 기관 투자 유치를 주도($75M)해 OpenAI 지분 간접 노출 확보.",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/15 기준 4,595,562 ETH(총 공급량의 3.81%) 보유, 총 크립토+현금 $11.5B. 월요일 종가 $22.60(+10.03%). CoinDesk에 따르면 ETH가 10% 급등하면서 BTC 상승폭을 앞질렀고, BMNR의 2주간 122,000 ETH($2.8억+) 매수가 ETH 랠리의 한 축으로 작용. Simply Wall St은 +13.9% 상승 후 밸류에이션 분석을 발표.",
     "howTheyMakeMoney": [
       "ETH 트레저리: 4,595,562 ETH 보유 (~$10.3B at $2,250/ETH) -- 핵심 가치",
-      "ETH 스테이킹 수익: 3,040,515 ETH 스테이킹, 연간 ~$180M+ 수익 (전량 스테이킹 시 $272M 가능)",
+      "ETH 스테이킹 수익: 3,040,515 ETH 스테이킹, 연간 ~$180M+ 수익",
       "배당: 5.3% 배당수익률 -- 크립토 트레저리 기업 중 유일",
       "비트코인 보유: 196 BTC 보유 (부수적)",
       "Moonshot 투자: Beast Industries $200M, Eightco(ORBS) $83M(OpenAI 지분 $50M 간접 노출)"
@@ -19,19 +19,19 @@
   "keyMetrics": [
     {"name": "P/B (TTM)", "value": "0.83x", "interpretation": "NAV 대비 17% 할인 거래. 총 자산 $11.8B 대비 시총 $9.8B. MSTR(P/B 2-3x) 대비 극도의 할인"},
     {"name": "ETH 보유량", "value": "4,595,562 ETH", "interpretation": "전체 ETH 공급의 3.81%. 세계 최대 상장 ETH 트레저리. '5% 연금술' 목표의 76% 달성"},
-    {"name": "총 크립토+현금", "value": "$11.5B", "interpretation": "ETH $10.0B(at $2,185/ETH) + 현금 $1.2B + Beast $200M + Eightco $83M. 1주 전 대비 $1.2B 증가"},
+    {"name": "총 크립토+현금", "value": "$11.5B", "interpretation": "ETH $10.0B(at $2,185/ETH) + 현금 $1.2B + Beast $200M + Eightco $83M"},
     {"name": "배당수익률", "value": "5.3%", "interpretation": "크립토 트레저리 기업 중 유일한 배당. 인컴 투자자 유인"},
-    {"name": "스테이킹 ETH", "value": "3,040,515 ETH", "interpretation": "보유 ETH의 66%를 스테이킹. 연간 $180M+ 패시브 수익. 전량 스테이킹 시 $272M"},
-    {"name": "P/E (TTM)", "value": "적자 (EPS -$0.05/Q)", "interpretation": "ETH 시가평가손 반영으로 적자(순이익률 -67,546%). 전통 P/E 비교 불가. 크립토 섹터 평균 P/E 45x, S&P 500 평균 P/E 24x 대비 P/B(0.83x)로 평가하는 것이 적절"},
+    {"name": "스테이킹 ETH", "value": "3,040,515 ETH", "interpretation": "보유 ETH의 66%를 스테이킹. 연간 $180M+ 패시브 수익"},
+    {"name": "P/E (TTM)", "value": "적자 (EPS -$0.05/Q)", "interpretation": "ETH 시가평가손 반영으로 적자. 크립토 섹터 평균 P/E 45x, S&P 500 평균 24x 대비 P/B(0.83x)로 평가하는 것이 적절"},
     {"name": "ROE", "value": "7.89%", "interpretation": "크립토 회계 왜곡 감안 시 양의 자기자본이익률. 스테이킹 수익이 기여"},
     {"name": "일평균 거래대금", "value": "$1.0B", "interpretation": "미국 주식 거래량 105위. 기관급 유동성"}
   ],
   "growthDrivers": [
-    {"title": "Eightco(ORBS) $125M 기관 투자 유치 주도 -- ARK, Payward 동반", "description": "PRNewswire(3/12): BMNR이 $75M을 투자하고 ARK($25M), Payward($25M)가 동반 참여한 $125M 기관 투자 확보. ORBS는 OpenAI 지분 $50M 보유한 유일한 상장 기업. Tom Lee가 ORBS 이사회 합류."},
-    {"title": "월요일 +10% 급등, $11.5B 트레저리 + 기관 명단 공개", "description": "PRNewswire(3/16): ETH 4,595,562개로 총 자산 $11.5B 공시. ARK(Cathie Wood), Founders Fund, Bill Miller III, Pantera, Kraken, DCG, Galaxy Digital 기관 명단 최초 공식 공개. ETH $2,250 반등과 맞물려 급등."},
-    {"title": "ETH SuperTrend 매수 전환 -- 9월 이후 처음", "description": "Ali Charts(3/16): ETH SuperTrend 지표가 매도에서 매수로 전환. 과거 두 번의 전환에서 52%와 174% 상승한 전례. BMNR은 ETH 레버리지 주식으로 직접 수혜."},
-    {"title": "BlackRock 지분 165.6% 증가 + ARK 9.4M주 보유", "description": "24/7 Wall St(3/16): BlackRock이 BMNR 지분을 165.6% 늘렸고, ARK Invest가 약 940만 주를 보유. 대형 기관의 적극적 매집이 확인됨."},
-    {"title": "MAVAN 자체 스테이킹 플랫폼 Q1 2026 론칭 임박", "description": "Made in America Validator Network로 제3자 스테이킹 수수료 절감. 전량 스테이킹 시 연간 $272M 수익 가능. Q1 2026 론칭 예정."}
+    {"title": "CoinDesk: ETH 10% 급등, BMNR 매수가 시장 랠리의 한 축", "description": "CoinDesk(3/16): ETH가 10% 급등하며 BTC를 앞질렀다. BMNR이 2주간 122,000 ETH($2.8억+)를 매수하면서 ETF 수요와 함께 ETH 상승의 핵심 수요 원천으로 주목됐다."},
+    {"title": "Eightco(ORBS) $125M 기관 투자 유치 주도, ARK/Payward 동반", "description": "PRNewswire(3/12): BMNR이 $75M을 투자하고 ARK($25M), Payward($25M)가 동반 참여한 $125M 기관 투자 확보. ORBS는 OpenAI 지분 $50M 보유한 유일한 상장 기업. Tom Lee가 ORBS 이사회 합류."},
+    {"title": "BlackRock 지분 165.6% 증가 + ARK 9.4M주 보유 확인", "description": "24/7 Wall St(3/16): BlackRock이 BMNR 지분을 165.6% 늘렸고, ARK Invest가 약 940만 주를 보유. 대형 기관의 적극적 매집이 확인됨."},
+    {"title": "ETH SuperTrend 매수 전환, 9월 이후 처음", "description": "Coinpedia(3/16): ETH SuperTrend 지표가 매도에서 매수로 전환. 과거 두 번의 전환에서 52%와 174% 상승한 전례. BMNR은 ETH 레버리지 주식으로 직접 수혜."},
+    {"title": "MAVAN 자체 스테이킹 플랫폼 Q1 2026 론칭 임박", "description": "Made in America Validator Network로 제3자 스테이킹 수수료 절감. 전량 스테이킹 시 연간 $272M 수익 가능."}
   ],
   "competitiveAdvantage": {
     "summary": "상장 기업 중 최대 ETH 보유량(3.81% of supply). Tom Lee + ARK + Founders Fund + Pantera 등 최정상급 기관 백업. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
@@ -47,11 +47,11 @@
     ]
   },
   "recentNews": [
+    {"date": "2026-03-17", "headline": "Simply Wall St: BMNR +13.9% 급등 후 밸류에이션 재분석. '주가 변동성 속 가치 평가' 발표", "significance": "주류 금융 분석 플랫폼의 상세 밸류에이션 커버리지 확대. NAV 할인 구간에서의 투자 기회 분석", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-3"},
+    {"date": "2026-03-16", "headline": "CoinDesk: ETH 10% 급등, BMNR 2주간 122,000 ETH($2.8억+) 매수가 시장 랠리의 한 축", "significance": "ETH 랠리의 핵심 수요원으로 BMNR이 주류 크립토 미디어에서 주목. ETF 수요와 함께 가격 상승 드라이버", "url": "https://www.coindesk.com/markets/2026/03/16/ether-surges-10-leading-crypto-rebound-as-etf-demand-bitmine-buying-pick-up"},
     {"date": "2026-03-16", "headline": "BMNR +10% 급등($22.60), ETH 4,595,562개 보유 $11.5B 트레저리 공시. 기관 명단 공개", "significance": "ARK, Founders Fund, Pantera 등 프리미어 기관 명단 최초 공개. ETH $2,250 반등과 동시 급등", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html"},
     {"date": "2026-03-16", "headline": "BlackRock 지분 165.6% 증가, ARK 약 940만 주 보유 확인", "significance": "세계 최대 자산운용사 BlackRock과 ARK의 적극 매집. 기관 신뢰도 최고치", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/"},
-    {"date": "2026-03-16", "headline": "ETH SuperTrend 매수 전환, 9월 이후 처음. 과거 52%/174% 상승 전례", "significance": "기술적 매수 신호가 강력. BMNR은 ETH 레버리지 주식으로 직접 수혜", "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/"},
-    {"date": "2026-03-12", "headline": "Eightco(ORBS) $125M 기관 투자 확보 -- BMNR $75M 주도, ARK $25M, Payward $25M", "significance": "BMNR이 주도한 대형 투자. Tom Lee ORBS 이사회 합류. OpenAI 지분 간접 노출 확대", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html"},
-    {"date": "2026-03-16", "headline": "Motley Fool: BMNR +13.44% $23.30, 크립토 시장 회복에 시장을 뒤흔들었다", "significance": "장중 최고 $23.24, 시간외 $23.30까지 상승. 주류 금융 미디어 커버리지 확대", "url": "https://www.fool.com/investing/2026/03/16/why-bitmine-immersion-technologies-stock-rocked-th/"}
+    {"date": "2026-03-12", "headline": "Eightco(ORBS) $125M 기관 투자 확보, BMNR $75M 주도, ARK $25M, Payward $25M", "significance": "BMNR이 주도한 대형 투자. Tom Lee ORBS 이사회 합류. OpenAI 지분 간접 노출 확대", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html"}
   ],
   "analystOpinions": {
     "consensusTarget": 34.50,
@@ -61,18 +61,18 @@
     "buyCount": 3,
     "holdCount": 1,
     "sellCount": 0,
-    "notableComment": "Cantor Fitzgerald Overweight/$39(1/5 신규), B. Riley Buy/$30(2/23 $47에서 하향), 총 4명 커버(2 Strong Buy, 1 Buy, 1 Hold). GURUFocus 기준 평균 목표가 $43(High $60). BlackRock 지분 165.6% 증가와 ARK 9.4M주 보유가 기관 관심 증가를 반영."
+    "notableComment": "Cantor Fitzgerald Overweight/$39, B. Riley Buy/$30. 총 4명 커버. FX Leaders는 $30 목표가 전망. BlackRock +165.6%와 ARK 9.4M주 보유가 기관 관심을 반영."
   },
   "risks": [
     {"severity": "critical", "title": "ETH 가격 의존성 (자산 90%+가 ETH)", "description": "4,595,562 ETH가 자산의 대부분. ETH $1,500 하락 시 트레저리 $6.9B, NAV 30%+ 축소. 사실상 ETH 레버리지 주식."},
-    {"severity": "high", "title": "50일선($24.18), 200일선($36.04) 하회 -- 기술적 약세 구간", "description": "주가 $22.60은 두 주요 이동평균선 모두 아래. 반등에도 불구하고 기술적으로 약세 영역. 52주 고점 $161 대비 -86%."},
-    {"severity": "high", "title": "지속적 주식 희석", "description": "ETH 매수 자금 조달을 위한 주식 발행. 순이익률 -67,546%는 회계상 왜곡이지만 희석 리스크는 실재함. 35일간 833,000 ETH를 매수한 자금 출처 주의."},
+    {"severity": "high", "title": "50일선($24.18), 200일선($36.04) 하회, 기술적 약세 구간", "description": "주가 $22.60은 두 주요 이동평균선 모두 아래. 반등에도 불구하고 기술적으로 약세 영역. 52주 고점 $161 대비 -86%."},
+    {"severity": "high", "title": "지속적 주식 희석", "description": "ETH 매수 자금 조달을 위한 주식 발행. 순이익률 -67,546%는 회계상 왜곡이지만 희석 리스크는 실재함."},
     {"severity": "medium", "title": "공매도 보고서 영향 지속", "description": "Culper Research 공매도 보고서 이후 매도 압력 지속. NAV 할인 구간이 장기화된 원인 중 하나."},
     {"severity": "medium", "title": "규제 리스크", "description": "SEC 크립토 규제 변경, ETH 증권 분류 가능성. 트레저리 기업 회계 기준 변경 리스크."}
   ],
   "buyReasons": [
     {"title": "P/B 0.83x, NAV 대비 17% 할인 + BlackRock 165% 증가", "rationale": "시총 $9.8B vs 총 자산 $11.8B. BlackRock이 지분을 165.6% 늘린 것은 NAV 할인이 기회라는 기관의 판단."},
-    {"title": "ETH SuperTrend 매수 전환, 과거 52%/174% 상승 전례", "rationale": "9월 이후 첫 매수 전환. ETH가 본격 반등하면 BMNR은 레버리지 효과로 더 크게 움직인다."},
+    {"title": "CoinDesk: BMNR 매수가 ETH 랠리의 핵심 드라이버로 부상", "rationale": "2주간 122,000 ETH($2.8억+) 매수. ETF 수요와 함께 ETH 10% 급등의 주역. 시장 영향력이 확대되고 있다."},
     {"title": "최정상 기관투자자 진영 (ARK 9.4M주, BlackRock, Founders Fund)", "rationale": "Cathie Wood, Peter Thiel의 Founders Fund, Pantera, Galaxy Digital이 직접 투자. 제도권 신뢰도 압도적."},
     {"title": "5.3% 배당 + 스테이킹 연 $180M + OpenAI 간접 노출", "rationale": "크립토 배당 유일, MAVAN 전량 스테이킹 시 $272M, Eightco 통한 OpenAI 지분까지. 다중 수익원."}
   ],
@@ -88,87 +88,87 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Eightco $125M 기관 투자를 BMNR이 주도($75M)하며 ARK, Payward가 동반했다. ETH SuperTrend가 9월 이후 처음 매수로 전환됐고 과거 이 신호 후 52%/174% 올랐다. BlackRock 지분 165.6% 증가, ARK 940만 주 보유가 확인되며 기관 매집이 가속되고 있다.",
+    "CoinDesk가 BMNR의 2주간 122,000 ETH($2.8억+) 매수를 ETH 10% 급등의 핵심 드라이버로 보도했다. BlackRock +165.6%, ARK 940만 주, ETH SuperTrend 매수 전환까지, 기관 매집과 기술적 신호가 동시에 나오고 있다.",
     "시총 $9.8B인데 금고에 $11.8B(P/B 0.83x). MSTR이 P/B 2-3배인 걸 생각하면 아직 저평가 구간이다. 배당 5.3%에 스테이킹 연 $180M, MAVAN 전량 가동 시 $272M까지 가능하다.",
-    "다만 50일선($24.18)과 200일선($36.04) 모두 아래에 있어 기술적 저항이 남아 있다. 애널리스트 4명 평균 목표가 $34.50(+53%). ETH 반등 지속 여부가 가장 큰 변수다."
+    "다만 50일선($24.18)과 200일선($36.04) 모두 아래에 있어 기술적 저항이 남아 있다. 애널리스트 평균 목표가 $34.50(+53%). ETH 반등 지속 여부가 가장 큰 변수다."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "NAV 대비 17% 할인(P/B 0.83x)에 BlackRock +165.6%, ARK 940만 주 등 대형 기관이 적극 매집 중. ETH SuperTrend 매수 전환과 $125M Eightco 투자 주도 등 카탈리스트가 풍부하다. 다만 50일선/200일선 하회와 ETH 하락 리스크를 감안해 포트폴리오의 5-10% 소규모 비중으로 접근.",
+    "summary": "NAV 대비 17% 할인(P/B 0.83x)에 BlackRock +165.6%, ARK 940만 주 등 대형 기관이 적극 매집 중. CoinDesk가 ETH 랠리의 핵심 드라이버로 BMNR을 주목했고, ETH SuperTrend 매수 전환도 확인됐다. 다만 50일선/200일선 하회와 ETH 하락 리스크를 감안해 소규모 비중으로 접근.",
     "horizon": "3-6개월"
   },
   "sources": [
+    {"name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-3", "description": "BMNR +13.9% 급등 후 밸류에이션 재분석"},
+    {"name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/03/16/ether-surges-10-leading-crypto-rebound-as-etf-demand-bitmine-buying-pick-up", "description": "ETH 10% 급등, BMNR 2주간 122,000 ETH 매수가 시장 랠리의 핵심 수요원"},
     {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html", "description": "$11.5B 트레저리 공시, ETH 4,595,562개, 기관투자자 명단"},
-    {"name": "PRNewswire (Eightco)", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html", "description": "ORBS $125M 기관 투자 - BMNR $75M, ARK $25M, Payward $25M"},
+    {"name": "PRNewswire (Eightco)", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html", "description": "ORBS $125M 기관 투자, BMNR $75M, ARK $25M, Payward $25M"},
     {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/", "description": "BlackRock +165.6%, ARK 9.4M주, 평균 목표가 $34.50"},
-    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/16/why-bitmine-immersion-technologies-stock-rocked-th/", "description": "+13.44% 급등 분석, 시간외 $23.30"},
-    {"name": "GURUFocus", "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16", "description": "3/16 종가 $22.60, 장중 $23.24, 애널리스트 평균 $43(High $60)"},
-    {"name": "MarketBeat/Markets Daily", "url": "https://www.themarketsdaily.com/2026/03/16/bitmine-immersion-technologies-nyseamericanbmnr-trading-up-11-6-still-a-buy.html", "description": "50일선 $24.18, 200일선 $36.04, 애널리스트 4명(2 Strong Buy, 1 Buy, 1 Hold)"},
-    {"name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/17/bmnr-stock-heads-to-30-as-bitmine-accelerates-eth-holdings-to-4-6-million-tokens/", "description": "BMNR 15%+ 급등, $30 목표가 전망"},
+    {"name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/17/bmnr-stock-heads-to-30-as-bitmine-accelerates-eth-holdings-to-4-6-million-tokens/", "description": "BMNR $30 목표가 전망, ETH 보유 가속화 분석"},
     {"name": "CoinCentral", "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/", "description": "60,999 ETH 매수(2026년 최대), 현금 $1.2B 유지"},
     {"name": "Coinpedia", "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/", "description": "ETH SuperTrend 매수 전환, 과거 52%/174% 상승 전례"},
-    {"name": "Decrypt", "url": "https://decrypt.co/360894/bitmines-tom-lee-joins-eightco-board-stock-jumps-125m-fundraise", "description": "Tom Lee ORBS 이사회 합류, ARK $25M 투자"}
+    {"name": "StockTwits", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bmnr-stock-jumps-after-tom-lee-backed-bitmine-buys-60-k-ethereum/cZ32CBCRIfY", "description": "60,999 ETH 매수 후 12%+ 급등"},
+    {"name": "FX Leaders (Surge)", "url": "https://www.fxleaders.com/news/2026/03/17/bitmine-immersion-technologies-bmnr-stock-surges-14-as-ethereum-holdings-top-4-5-million-tokens/", "description": "BMNR +14% 급등, 기관 컨센서스 Buy, 목표가 $34.50"}
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR +10% 급등, BlackRock이 165% 더 샀다",
-      "text": "$BMNR (3/17) $22.60(+10%). BlackRock 지분 165.6% 증가, ARK 940만 주 보유 확인. ETH SuperTrend 9월 이후 첫 매수 전환. 과거 이 신호 후 52%/174% 올랐다.\n\n1/4",
+      "hook": "CoinDesk: BMNR 매수가 ETH 10% 랠리의 핵심 드라이버",
+      "text": "$BMNR (3/17) $22.60(+10%). CoinDesk가 2주간 122,000 ETH($2.8억+) 매수를 ETH 랠리의 핵심 수요원으로 보도. BlackRock +165.6%, ARK 940만 주.\n\n1/4",
       "thread": [
-        "금고 $11.8B vs 시총 $9.8B(P/B 0.83x). Eightco $125M 투자를 BMNR이 $75M 주도, ARK $25M 동반. OpenAI 지분까지 간접 확보.\n\n2/4",
-        "배당 5.3%, 스테이킹 연 $180M. MAVAN 전량 가동 시 $272M. 크립토인데 배당 주고 기관이 몰린다.\n\n3/4",
-        "목표가 $34.50(+53%). 다만 50일선($24.18), 200일선($36.04) 모두 아래. ETH 반등 지속이 핵심.\n\n4/4"
+        "금고 $11.8B vs 시총 $9.8B(P/B 0.83x). MSTR이 P/B 2-3배인 걸 생각하면 할인폭이 크다. ETH SuperTrend 매수 전환, 과거 52%/174% 올랐다.\n\n2/4",
+        "배당 5.3%, 스테이킹 연 $180M. MAVAN 전량 가동 시 $272M. Eightco 투자로 OpenAI 간접 노출까지.\n\n3/4",
+        "목표가 $34.50(+53%). 다만 50일선($24.18), 200일선($36.04) 모두 아래. ETH 방향이 모든 걸 결정한다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR +10% 급등, BlackRock이 165% 더 샀다",
-      "text": "$BMNR (3/17) $22.60(+10%)\n\nBlackRock 지분 165.6% 증가, ARK 940만 주 보유 확인. ETH SuperTrend 9월 이후 첫 매수 전환으로 과거 52%/174% 상승 전례.\n\n금고 $11.8B vs 시총 $9.8B(P/B 0.83x). Eightco $125M 투자를 BMNR이 $75M 주도, ARK $25M 동반. OpenAI 간접 노출까지.\n\n배당 5.3%, 스테이킹 연 $180M. 목표가 $34.50(+53%). 다만 50일선/200일선 아래라 기술적 저항은 남아 있다."
+      "hook": "CoinDesk: BMNR 매수가 ETH 10% 랠리의 핵심 드라이버",
+      "text": "$BMNR (3/17) $22.60(+10%)\n\nCoinDesk가 BMNR의 2주간 122,000 ETH($2.8억+) 매수를 ETH 10% 급등의 핵심 수요원으로 보도했다. BlackRock +165.6%, ARK 940만 주 보유, ETH SuperTrend 매수 전환까지 기관과 기술적 신호가 동시에 나오고 있다.\n\n금고 $11.8B vs 시총 $9.8B(P/B 0.83x). MSTR이 P/B 2-3배인 점을 감안하면 아직 저평가. 배당 5.3%에 스테이킹 연 $180M.\n\n목표가 $34.50(+53%). 50일선/200일선 아래라 기술적 저항은 있지만, 큰손들이 사고 있다는 건 의미 있는 신호다."
     },
     "telegram": {
-      "hook": "BMNR +10%, BlackRock 165% 추가 매수",
-      "text": "BMNR 일일 분석 (3/17)\n\n가격: $22.60 (+10.03%)\n\n핵심 이슈\n- BlackRock 지분 165.6% 증가, ARK 940만 주 보유\n- ETH SuperTrend 매수 전환 (9월 이후 처음)\n- 과거 전환 후 52%/174% 상승 전례\n- Eightco $125M 투자 주도 (BMNR $75M, ARK $25M)\n- Tom Lee ORBS 이사회 합류\n\n밸류에이션\n- 시총 $9.8B vs NAV $11.8B (P/B 0.83x)\n- ETH 4,595,562개 (공급의 3.81%)\n- 배당 5.3%, 스테이킹 연 $180M\n\n기술적\n- 50일선 $24.18 (하회), 200일선 $36.04 (하회)\n- RSI 48 (중립)\n- 애널리스트 4명 평균 $34.50 (+53%)\n\nETH 반등 지속 여부가 핵심 변수"
+      "hook": "CoinDesk: BMNR 매수가 ETH 랠리 핵심 드라이버",
+      "text": "BMNR 일일 분석 (3/17)\n\n가격: $22.60 (+10.03%)\n\n핵심 이슈\n- CoinDesk: 2주간 122,000 ETH 매수가 ETH 랠리 핵심\n- BlackRock 지분 165.6% 증가, ARK 940만 주\n- ETH SuperTrend 매수 전환 (9월 이후 처음)\n- Simply Wall St 밸류에이션 재분석 발표\n- Eightco $125M 투자 주도 (OpenAI 간접 노출)\n\n밸류에이션\n- 시총 $9.8B vs NAV $11.8B (P/B 0.83x)\n- ETH 4,595,562개 (공급의 3.81%)\n- 배당 5.3%, 스테이킹 연 $180M\n\n기술적\n- 50일선 $24.18 (하회), 200일선 $36.04 (하회)\n- RSI 48 (중립)\n\n목표가: $34.50 (+53%)\nETH 반등 지속 여부가 핵심 변수"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR +10% 급등, BlackRock이 165% 더 샀다",
-          "text": "$BMNR (3/17) $22.60(+10%). BlackRock 지분 165.6% 증가, ARK 940만 주 보유 확인. ETH SuperTrend 9월 이후 첫 매수 전환. 과거 이 신호 후 52%/174% 올랐다.\n\n1/4",
+          "hook": "CoinDesk: BMNR 매수가 ETH 10% 랠리의 핵심 드라이버",
+          "text": "$BMNR (3/17) $22.60(+10%). CoinDesk가 2주간 122,000 ETH($2.8억+) 매수를 ETH 랠리의 핵심 수요원으로 보도. BlackRock +165.6%, ARK 940만 주.\n\n1/4",
           "thread": [
-            "금고 $11.8B vs 시총 $9.8B(P/B 0.83x). Eightco $125M 투자를 BMNR이 $75M 주도, ARK $25M 동반. OpenAI 지분까지 간접 확보.\n\n2/4",
-            "배당 5.3%, 스테이킹 연 $180M. MAVAN 전량 가동 시 $272M. 크립토인데 배당 주고 기관이 몰린다.\n\n3/4",
-            "목표가 $34.50(+53%). 다만 50일선($24.18), 200일선($36.04) 모두 아래. ETH 반등 지속이 핵심.\n\n4/4"
+            "금고 $11.8B vs 시총 $9.8B(P/B 0.83x). MSTR이 P/B 2-3배인 걸 생각하면 할인폭이 크다. ETH SuperTrend 매수 전환, 과거 52%/174% 올랐다.\n\n2/4",
+            "배당 5.3%, 스테이킹 연 $180M. MAVAN 전량 가동 시 $272M. Eightco 투자로 OpenAI 간접 노출까지.\n\n3/4",
+            "목표가 $34.50(+53%). 다만 50일선($24.18), 200일선($36.04) 모두 아래. ETH 방향이 모든 걸 결정한다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "BlackRock이 165% 더 사고 있는데 우리는 뭘 하고 있나",
-          "text": "$BMNR (3/17) 금고 $11.8B, 시총 $9.8B. 회사를 사면 $2B 남는 구조인데 BlackRock이 165% 더 샀다. ARK도 940만 주. 큰손들은 이미 움직이고 있다.\n\n1/4",
+          "hook": "BMNR이 ETH를 너무 많이 사서 CoinDesk가 '시장을 움직인다'고 했다",
+          "text": "$BMNR (3/17) 2주간 122,000 ETH를 사들였더니 CoinDesk가 ETH 랠리의 원인으로 지목했다. BlackRock도 165% 더 샀다. $22.60(+10%).\n\n1/4",
           "thread": [
-            "ETH SuperTrend 매수 전환. 지난 두 번은 52%, 174% 올랐다. BMNR은 ETH 3.81% 들고 있는 레버리지 주식. 계산기를 두드릴 때다.\n\n2/4",
-            "Eightco $125M 투자도 BMNR이 주도. OpenAI 지분까지. 배당 5.3%에 스테이킹 $180M. 크립토 회사가 배당을 준다니.\n\n3/4",
-            "목표가 $34.50(+53%). 50일선/200일선 아래라 아직 험하지만, BlackRock이 사는 건 이유가 있겠지.\n\n4/4"
+            "금고 $11.8B, 시총 $9.8B. 인수하면 $2B 남는다. MSTR은 P/B 2-3배인데 여기는 0.83배. 할인 매장이 따로 없다.\n\n2/4",
+            "배당 5.3%에 스테이킹 $180M. 크립토인데 배당 주고 BlackRock이 산다. 세상이 변했다.\n\n3/4",
+            "목표가 $34.50(+53%). 50일선 아래지만 ETH가 반등하면 이 주식이 가장 먼저 움직인다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "$161에서 $22까지, 그래도 큰손들은 사고 있다",
-          "text": "$BMNR (3/17) $22.60(+10%). 52주 고점 $161에서 -86%. 정말 힘든 시간이었을 거다. 하지만 BlackRock이 165% 더 샀고, ARK가 940만 주를 들고 있다.\n\n1/4",
+          "hook": "$161에서 $22까지, 그래도 CoinDesk가 '핵심 플레이어'라 불렀다",
+          "text": "$BMNR (3/17) $22.60(+10%). 52주 고점 $161에서 -86%. 힘들었을 거다. 하지만 CoinDesk가 ETH 랠리의 핵심으로 BMNR을 꼽았다.\n\n1/4",
           "thread": [
-            "ETH SuperTrend가 매수로 바뀌었다. 9월 이후 처음이고 지난 두 번은 52%/174% 올랐다. 반등의 첫 신호일 수 있다.\n\n2/4",
-            "금고에 $11.8B인데 시총은 $9.8B. 배당 5.3%. 들고 있으면 배당이라도 받을 수 있다. 혼자가 아니다.\n\n3/4",
-            "목표가 $34.50(+53%). 아직 50일선/200일선 아래지만 큰손들이 사고 있다는 건 의미 있는 신호다.\n\n4/4"
+            "BlackRock +165.6%, ARK 940만 주. 큰손들은 여전히 사고 있다. 혼자가 아니다. ETH SuperTrend도 매수 전환됐다.\n\n2/4",
+            "금고 $11.8B vs 시총 $9.8B. 배당 5.3%. 들고 있으면 배당이라도 받을 수 있다.\n\n3/4",
+            "목표가 $34.50(+53%). 기다리는 게 힘들어도 기관들의 움직임은 확실히 긍정적이다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR +10% 급등, BlackRock이 165% 더 샀다",
-          "text": "$BMNR (3/17) $22.60(+10%)\n\nBlackRock 지분 165.6% 증가, ARK 940만 주 보유 확인. ETH SuperTrend 9월 이후 첫 매수 전환으로 과거 52%/174% 상승 전례.\n\n금고 $11.8B vs 시총 $9.8B(P/B 0.83x). Eightco $125M 투자를 BMNR이 $75M 주도, ARK $25M 동반. OpenAI 간접 노출까지.\n\n배당 5.3%, 스테이킹 연 $180M. 목표가 $34.50(+53%). 다만 50일선/200일선 아래라 기술적 저항은 남아 있다."
+          "hook": "CoinDesk: BMNR 매수가 ETH 10% 랠리의 핵심 드라이버",
+          "text": "$BMNR (3/17) $22.60(+10%)\n\nCoinDesk가 BMNR의 2주간 122,000 ETH($2.8억+) 매수를 ETH 10% 급등의 핵심 수요원으로 보도했다. BlackRock +165.6%, ARK 940만 주 보유, ETH SuperTrend 매수 전환까지 기관과 기술적 신호가 동시에 나오고 있다.\n\n금고 $11.8B vs 시총 $9.8B(P/B 0.83x). MSTR이 P/B 2-3배인 점을 감안하면 아직 저평가. 배당 5.3%에 스테이킹 연 $180M.\n\n목표가 $34.50(+53%). 50일선/200일선 아래라 기술적 저항은 있지만, 큰손들이 사고 있다는 건 의미 있는 신호다."
         },
         "witty": {
-          "hook": "BlackRock이 165% 더 사고 있는데 시장은 아직 모르나",
-          "text": "$BMNR (3/17) $22.60(+10%)\n\n금고에 $11.8B인데 시총은 $9.8B. 인수하면 $2B 남는 구조다. 그런데 BlackRock이 165% 더 사고 ARK가 940만 주를 쥐고 있다.\n\nEightco $125M 투자도 주도하고 OpenAI 간접 지분까지 확보. 배당 5.3%에 스테이킹 $180M. MSTR은 P/B 2-3x인데 여기는 0.83x.\n\n목표가 $34.50(+53%). 50일선 아래라 험하지만 큰손들의 계산기가 같은 답을 가리키고 있다."
+          "hook": "BMNR이 ETH를 너무 많이 사서 시장을 움직였다",
+          "text": "$BMNR (3/17) $22.60(+10%)\n\n2주간 122,000 ETH를 사들였더니 CoinDesk가 ETH 랠리의 원인으로 지목했다. BlackRock도 165% 더 샀고 ARK가 940만 주를 쥐고 있다. 시장을 움직이는 ETH 고래가 됐다.\n\n금고 $11.8B, 시총 $9.8B. MSTR은 P/B 2-3배인데 여기는 0.83배. 배당 5.3%에 스테이킹 $180M. 크립토가 배당을 준다니.\n\n목표가 $34.50(+53%). 50일선 아래지만 CoinDesk가 주목하기 시작했다. 이야기가 바뀌고 있다."
         },
         "empathy": {
-          "hook": "$161에서 -86%, 그래도 BlackRock은 165% 더 샀다",
-          "text": "$BMNR (3/17) $22.60(+10%)\n\n52주 고점 $161에서 -86%. 공매도 보고서, 희석, ETH 하락까지. 정말 힘든 시간이었을 거다. 하지만 오늘 +10% 반등이 나왔다.\n\nBlackRock이 지분을 165.6% 늘렸고 ARK가 940만 주를 들고 있다. 혼자가 아니다. ETH SuperTrend도 매수 전환됐다.\n\n목표가 $34.50(+53%). 배당 5.3% 받으면서 기다려도 된다. 반등의 첫 걸음이 시작됐다."
+          "hook": "52주 고점에서 -86%, 그래도 CoinDesk가 '핵심'이라 불렀다",
+          "text": "$BMNR (3/17) $22.60(+10%)\n\n$161에서 $22까지. 공매도 보고서, 희석, ETH 하락. 정말 힘든 시간이었을 거다. 하지만 이번 주는 다르다.\n\nCoinDesk가 BMNR 매수를 ETH 랠리의 핵심으로 보도했다. BlackRock +165.6%, ARK 940만 주. 큰손들이 움직이고 있다. 배당 5.3%도 위안이 된다.\n\n목표가 $34.50(+53%). 기다린 시간이 길었지만 기관의 움직임은 분명히 긍정적이다."
         }
       }
     }

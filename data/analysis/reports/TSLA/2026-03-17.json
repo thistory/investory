@@ -6,7 +6,7 @@
   "marketCap": "$1.48T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
-    "description": "Tesla는 EV 제조에서 통합 AI, 로봇, 에너지 플랫폼으로 전환 중. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.79B(-46.5% YoY). 월요일(3/16) 종가 $395.56(+1.1%). Terafab AI 칩 팹 3/21(토) 런치 확정, 로직+메모리+패키징을 하나의 시설에서 처리하는 수직 통합 계획 공개. 'Macrohard'(Digital Optimus)라는 Tesla-xAI 합작 엔터프라이즈 AI 시스템도 발표. Cybercab 생산라인이 주당 수백 대 규모로 설계 중이며 4월 양산 시작 예정.",
+    "description": "Tesla는 EV 제조에서 통합 AI, 로봇, 에너지 플랫폼으로 전환 중. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.79B(-46.5% YoY). 월요일(3/16) 종가 $395.56(+1.1%). Terafab AI 칩 팹 3/21(토) 런치 확정, 로직+메모리+패키징을 하나의 시설에서 처리하는 수직 통합 계획 공개. 오늘(3/17) 미국 정부가 LG에너지솔루션과의 $43억 LFP 배터리 공장 계약을 공식 확인, Megapack 3용 미국산 셀 공급 확보.",
     "howTheyMakeMoney": [
       "전기차 판매 (Model 3/Y, Cybertruck)",
       "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
@@ -18,7 +18,7 @@
       "Model Y/3 - 글로벌 EV 베스트셀러",
       "Cybertruck - 전기 픽업",
       "Cybercab - 자율주행 로보택시 (4월 양산 시작 예정)",
-      "Megapack - 유틸리티 스케일 배터리",
+      "Megapack 3 - 차세대 유틸리티 배터리 (5 MWh, LG LFP 셀 탑재 예정)",
       "FSD - 자율주행 소프트웨어 (v14.2.2.5)",
       "Optimus - 휴머노이드 로봇 (Fremont 공장 전환 중)",
       "Terafab - AI 칩 자체 생산 시설 (3/21 런치, 로직+메모리+패키징 통합)",
@@ -64,10 +64,14 @@
     {
       "name": "RSI",
       "value": "40",
-      "interpretation": "중립에서 약세 구간. Terafab 기대감으로 반등 시도 중이나 모멘텀은 약하다"
+      "interpretation": "중립에서 약세 구간. Terafab 기대감과 LG 배터리 딜로 반등 시도 중이나 모멘텀은 약하다"
     }
   ],
   "growthDrivers": [
+    {
+      "title": "LG에너지솔루션과 $43억 LFP 배터리 공장 계약 확정",
+      "description": "Reuters(3/17): 미국 정부가 Tesla-LG $43억 LFP 배터리 제조 시설(미시간 랜싱) 계약을 공식 확인. Megapack 3용 미국산 셀로 2027년 생산 시작. 2.8리터 대형 셀로 유닛당 5 MWh 달성(기존 3.9 MWh 대비 28% 증가). 국내 배터리 공급망 강화."
+    },
     {
       "title": "Terafab 3/21 런치 D-4: 로직+메모리+패키징 수직 통합 공개",
       "description": "Teslarati(3/16): Terafab은 단순한 AI 칩 공장이 아니라 로직 프로세싱, 메모리 스토리지, 어드밴스드 패키징을 하나의 시설에서 처리하는 2nm급 팹. 세계 어떤 기업도 시도하지 않은 수준의 수직 통합. $200억+ 투자 규모."
@@ -79,10 +83,6 @@
     {
       "title": "Macrohard(Digital Optimus): Tesla-xAI 합작 엔터프라이즈 AI",
       "description": "Simply Wall St(3/16): Musk가 Tesla와 xAI의 합작 시스템 'Macrohard'를 공개. 엔터프라이즈급 생성형 AI 애플리케이션을 위한 플랫폼. Terafab과 함께 AI 하드웨어+소프트웨어 수직 통합 완성."
-    },
-    {
-      "title": "Optimus 3 로봇, 올 여름 생산 시작 + Fremont 공장 전환",
-      "description": "Teslarati(3/14): Musk가 Optimus 3 올 여름 저속 생산 시작 확인. Model S/X 생산 종료하고 Fremont 공장을 Optimus 생산으로 전환. 2027년 대량 생산 목표."
     },
     {
       "title": "중국 1-2월 판매 +35% YoY, 글로벌 반등 신호",
@@ -122,9 +122,15 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-17",
+      "headline": "미국 정부, Tesla-LG $43억 LFP 배터리 공장 계약 공식 확인. Megapack 3용 미국산 셀",
+      "significance": "Reuters: 미시간 랜싱에 LFP 프리즘 셀 제조 시설 건설. 2027년 생산 시작, 2030년까지 계약. Megapack 3은 유닛당 5 MWh(기존 대비 28% 증가). 에너지 사업 성장에 핵심 공급망 확보",
+      "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/"
+    },
+    {
       "date": "2026-03-16",
       "headline": "Terafab 범위 확대: 로직+메모리+패키징을 한 지붕 아래. 주가 +1.1% 반응",
-      "significance": "Electrek: 반도체 경험 제로에서 세계 최대 2nm 팹을 운영하겠다는 계획. 성공하면 NVIDIA 의존 탈피, 실패하면 수십억 달러 매몰 비용. 시장은 고점 $403.73 찍고 $395.56 마감",
+      "significance": "Electrek: 반도체 경험 제로에서 세계 최대 2nm 팹을 운영하겠다는 계획. 성공하면 NVIDIA 의존 탈피, 실패하면 수십억 달러 매몰 비용",
       "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/"
     },
     {
@@ -142,14 +148,8 @@
     {
       "date": "2026-03-13",
       "headline": "NHTSA FSD 조사 심화: 오스틴 로보택시 14건 교통위반, 철도 건널목 사고",
-      "significance": "goodcarbadcar: FSD 데이터 제출 기한(3/9) 이후 288만대 대상 조사 확대. 80건 교통위반, 오스틴 로보택시 14건. 규제 리스크 상존",
+      "significance": "goodcarbadcar: FSD 데이터 제출 기한(3/9) 이후 288만대 대상 조사 확대. 80건 교통위반. 규제 리스크 상존",
       "url": "https://www.goodcarbadcar.net/tesla-fsd-nhtsa-investigation-railroad-crossing-robotaxi-2026/"
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "CFO Taneja 주식 2,264주 매도 + Director Murdoch 60,000주 매도",
-      "significance": "SEC 공시: 내부자 3개월간 87,995주($3,831만) 매도. CFO 매도는 세금 관련 루틴이나, 내부자 매도 규모가 커서 투자심리에 부정적",
-      "url": "https://www.themarketsdaily.com/2026/03/10/tesla-nasdaqtsla-cfo-vaibhav-taneja-sells-2264-shares.html"
     }
   ],
   "analystOpinions": {
@@ -160,7 +160,7 @@
     "buyCount": 19,
     "holdCount": 13,
     "sellCount": 9,
-    "notableComment": "컨센서스 $406.84(+2.9%), Hold 다수. New Street Research $600(최고), Wells Fargo $125(최저, Underweight). Terafab이 변혁적일 수 있다는 분석과 반도체 경험 부재에 대한 우려가 공존."
+    "notableComment": "컨센서스 $406.84(+2.9%), Hold 다수. New Street Research $600(최고), Wells Fargo $125(최저, Underweight). Simply Wall St 적정가 $421.61. LG 배터리 딜로 에너지 사업 전망 상향 가능."
   },
   "risks": [
     {
@@ -176,7 +176,7 @@
     {
       "severity": "high",
       "title": "NHTSA FSD 조사 확대, Cybercab 규제 허들",
-      "description": "288만대 대상 FSD 조사, 오스틴 로보택시 14건 교통위반, 철도 건널목 사고. Cybercab은 스티어링 없는 차량으로 미국 내 판매 전 규제 승인이 필수. 안전 문제로 지연 가능성."
+      "description": "288만대 대상 FSD 조사, 오스틴 로보택시 14건 교통위반, 철도 건널목 사고. Cybercab은 스티어링 없는 차량으로 미국 내 판매 전 규제 승인이 필수."
     },
     {
       "severity": "high",
@@ -196,8 +196,8 @@
   ],
   "buyReasons": [
     {
-      "title": "Terafab 3/21 런치: 로직+메모리+패키징 수직 통합",
-      "rationale": "단순 AI 칩 넘어 종합 반도체 시설로 확장. 성공 시 NVIDIA, TSMC 의존 모두 탈피. 반도체 역사의 전환점이 될 수 있다."
+      "title": "LG $43억 배터리 딜 + Terafab 3/21 런치: 에너지+AI 동시 확장",
+      "rationale": "Megapack 3용 미국산 LFP 셀 공급 확보로 에너지 사업 성장 가속. Terafab은 NVIDIA, TSMC 의존 탈피의 첫 걸음. 두 가지 성장축이 동시에 구체화."
     },
     {
       "title": "Cybercab 4월 양산 시작 + Macrohard AI 사업 진출",
@@ -213,7 +213,7 @@
     },
     {
       "title": "재무 건전성 우수, 현금 $44B 보유",
-      "rationale": "D/E 0.08, 유동비율 2.16. Terafab $200억+ 투자를 감당할 수 있는 현금 여력."
+      "rationale": "D/E 0.08, 유동비율 2.16. Terafab $200억+, LG 배터리 딜 등 대규모 투자를 감당할 수 있는 현금 여력."
     }
   ],
   "technicalPosition": {
@@ -228,29 +228,38 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Terafab이 3/21 런치 D-4로 다가오면서 시장은 +1.1%로 반응했다. Cybercab 생산라인도 4월 양산 목표로 순조롭게 진행 중이고, Macrohard 발표로 AI 사업 확장도 구체화되고 있다.",
-    "하지만 NHTSA가 FSD 조사를 확대하며 288만대를 대상으로 교통위반 80건을 조사 중이다. 내부자 매도도 3개월간 $3,831만 규모로 계속되고 있다. Syrah 흑연 공급 분쟁은 4차 연장됐다.",
-    "P/E 366배에 50일선($420), 200일선($426) 모두 아래. RSI 40으로 모멘텀 약하다. 목표가 $407(+2.9%). 토요일 Terafab 런치와 4월 Cybercab 양산이 단기 방향을 결정한다.",
-    "기술적으로 $382-$392가 핵심 지지선. 이탈 시 추가 하락 가능. 성급하게 움직이기보다 Terafab 런치 결과를 확인한 뒤 판단해도 늦지 않다."
+    "오늘 미국 정부가 LG에너지솔루션과의 $43억 LFP 배터리 공장 계약을 확인했다. Megapack 3용 미국산 셀이 2027년부터 생산되며, 에너지 사업의 핵심 공급망이 확보됐다. Terafab 런치도 D-4(3/21 토요일)로 다가왔고, Cybercab 4월 양산도 순조롭다.",
+    "하지만 NHTSA가 FSD 조사를 288만대로 확대 중이고, 내부자 매도 3개월간 $3,831만이 계속되고 있다. Electrek은 반도체 경험 제로인 Tesla의 Terafab 계획을 정면 비판했다.",
+    "P/E 366배에 50일선($420), 200일선($426) 모두 아래. RSI 40으로 모멘텀 약하다. 목표가 $407(+2.9%). Terafab 런치와 LG 배터리 딜이 에너지 사업 기대를 높이지만, 성급하게 들어가기보다 토요일 결과를 확인한 뒤 판단해도 늦지 않다."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Terafab+Cybercab+Macrohard로 촉매는 풍부하나, P/E 366배와 NHTSA 조사 확대, 내부자 매도 지속이 부담이다. 3/21 Terafab 런치와 4월 Cybercab 양산 결과를 확인한 뒤 재평가가 안전하다.",
+    "summary": "LG $43억 배터리 딜로 에너지 사업 공급망이 확보됐고, Terafab+Cybercab+Macrohard까지 촉매는 풍부하다. 하지만 P/E 366배와 NHTSA 조사 확대, 내부자 매도가 부담이다. 3/21 Terafab 런치 결과를 확인한 뒤 재평가가 안전하다.",
     "horizon": "1-2주 (Terafab 런치 후 재평가)"
   },
   "sources": [
     {
-      "name": "TickerReport",
-      "url": "https://www.tickerreport.com/banking-finance/13382622/tesla-nasdaqtsla-stock-price-up-1-1-heres-what-happened.html",
-      "description": "TSLA 3/16 종가 $395.56, 시총 $1.48T, P/E 366.26, D/E 0.08, ROE 4.86%, 애널리스트 19Buy/13Hold/9Sell"
+      "name": "Reuters (LG Battery)",
+      "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/",
+      "description": "Tesla-LG $43억 LFP 배터리 공장 계약 공식 확인. 미시간 랜싱, 2027년 생산 시작"
     },
     {
-      "name": "Electrek",
+      "name": "Electrek (LG Battery)",
+      "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/",
+      "description": "Megapack 3용 2.8리터 LFP 셀. 유닛당 5 MWh(기존 3.9 MWh 대비 28% 증가)"
+    },
+    {
+      "name": "TickerReport",
+      "url": "https://www.tickerreport.com/banking-finance/13382622/tesla-nasdaqtsla-stock-price-up-1-1-heres-what-happened.html",
+      "description": "TSLA 3/16 종가 $395.56, 시총 $1.48T, P/E 366.26, D/E 0.08, ROE 4.86%"
+    },
+    {
+      "name": "Electrek (Terafab)",
       "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/",
       "description": "Terafab 비판: 반도체 경험 제로, 로직+메모리+패키징 통합의 비현실성"
     },
     {
-      "name": "Reuters",
+      "name": "Reuters (Syrah)",
       "url": "https://www.reuters.com/business/autos-transportation/australias-syrah-tesla-extend-deadline-resolve-alleged-default-graphite-supply-2026-03-15/",
       "description": "Syrah-Tesla 흑연 공급 분쟁 4차 기한 연장 (6/1)"
     },
@@ -270,19 +279,9 @@
       "description": "TSLA 컨센서스 목표가 $406.84, 19Buy/13Hold/9Sell"
     },
     {
-      "name": "TradersUnion",
-      "url": "https://tradersunion.com/news/financial-news/show/1709952-tesla-rises-1-63percent-to-usd397-50/",
-      "description": "RSI 39.95, MACD 매도 시그널, ADX 21.37"
-    },
-    {
-      "name": "The Markets Daily",
-      "url": "https://www.themarketsdaily.com/2026/03/10/tesla-nasdaqtsla-cfo-vaibhav-taneja-sells-2264-shares.html",
-      "description": "CFO Taneja 2,264주 매도, Director Murdoch 60,000주 매도"
-    },
-    {
       "name": "Simply Wall St",
       "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p",
-      "description": "Macrohard(Digital Optimus) 공개, Terafab AI 통합 분석"
+      "description": "적정가 $421.61, Macrohard 분석. 자율주행+에너지 투자 스토리 전환 분석"
     },
     {
       "name": "Motley Fool",
@@ -292,64 +291,64 @@
   ],
   "snsContent": {
     "x": {
-      "hook": "Terafab D-4, Cybercab 4월 양산, 그런데 NHTSA는 조사 확대 중",
-      "text": "$TSLA (3/17) $395.56(+1.1%). Terafab 토요일 런치 D-4, Cybercab 4월 양산 순조. 하지만 NHTSA가 FSD 조사를 288만대로 확대 중. 내부자 3개월 $3,831만 매도.\n\n1/4",
+      "hook": "Tesla-LG $43억 배터리 딜 확정, Terafab D-4",
+      "text": "$TSLA (3/17) 미국 정부가 LG와의 $43억 LFP 배터리 공장 계약을 확인했다. Megapack 3용 미국산 셀, 2027년 생산 시작. Terafab 토요일 런치까지 D-4. $395.56.\n\n1/4",
       "thread": [
-        "Terafab은 로직+메모리+패키징 수직 통합. Electrek은 '반도체 경험 제로'라며 비판. 성공하면 역사적, 실패하면 수십억 매몰.\n\n2/4",
-        "Syrah 흑연 분쟁 4차 연장(6/1). BYD 226만대(+28%) vs Tesla 164만대(-8%). P/E 366배.\n\n3/4",
-        "50일선($420), 200일선($426) 모두 아래. RSI 40. 목표가 $407(+2.9%). Terafab 런치가 모든 걸 결정한다.\n\n4/4"
+        "Megapack 3은 유닛당 5 MWh로 28% 증가. 에너지 사업 공급망이 드디어 확보됐다. Cybercab 4월 양산도 순조롭게 진행 중.\n\n2/4",
+        "NHTSA는 288만대 FSD 조사를 확대 중이고, 내부자 3개월 $3,831만 매도. P/E 366배. 호재와 악재가 동시에 쌓이고 있다.\n\n3/4",
+        "50일선($420), 200일선($426) 모두 아래. RSI 40. 목표가 $407(+2.9%). 토요일 Terafab 런치가 방향을 결정한다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Terafab D-4, Cybercab 4월 양산, 그런데 NHTSA는 조사 확대 중",
-      "text": "$TSLA (3/17) $395.56(+1.1%)\n\nTerafab 토요일 런치가 D-4로 다가왔다. Cybercab 생산라인도 4월 양산 목표로 주당 수백 대 규모 설계 중. Macrohard로 AI 사업 확장도 구체화.\n\n하지만 NHTSA가 FSD 조사를 288만대로 확대, 오스틴 로보택시 14건 교통위반 조사 중. 내부자 3개월간 $3,831만 매도. Syrah 흑연 분쟁은 4차 연장(6/1).\n\nP/E 366배, 50일선($420)과 200일선($426) 모두 아래. RSI 40. 목표가 $407(+2.9%). 토요일 Terafab 런치와 4월 Cybercab 양산이 방향을 결정한다."
+      "hook": "Tesla-LG $43억 배터리 딜 확정, Terafab D-4",
+      "text": "$TSLA (3/17) $395.56(+1.1%)\n\n오늘 미국 정부가 Tesla-LG $43억 LFP 배터리 공장 계약을 공식 확인했다. 미시간 랜싱에서 2027년부터 Megapack 3용 미국산 셀을 생산한다. 유닛당 5 MWh로 기존 대비 28% 증가. 에너지 사업의 핵심 퍼즐이 맞춰졌다.\n\nTerafab 토요일 런치도 D-4. Cybercab 4월 양산, Macrohard AI까지 촉매가 줄줄이 대기 중. 하지만 NHTSA 288만대 조사와 내부자 매도가 여전히 부담.\n\nP/E 366배, 50일선과 200일선 모두 아래. RSI 40. 목표가 $407(+2.9%). Terafab 결과를 보고 판단해도 늦지 않다."
     },
     "telegram": {
-      "hook": "Terafab D-4 + Cybercab 4월 양산 vs NHTSA 조사 확대",
-      "text": "Tesla 일일 분석 (3/17)\n\n가격: $395.56 (+1.1%)\n시총: $1.48T\n\n핵심 이슈\n- Terafab 3/21 런치 D-4: 로직+메모리+패키징 수직 통합\n- Cybercab 생산라인 설계 완료, 4월 양산 시작 목표\n- NHTSA FSD 조사 확대: 288만대, 교통위반 80건\n- 내부자 3개월 $3,831만 매도 (CFO+Director)\n- Syrah 흑연 분쟁 4차 연장 (6/1)\n\n주가 위치\n- 52주 고점 $498.83 / 저점 $214.25\n- 50일 평균($420) 아래\n- 200일 평균($426) 아래\n- RSI 40 (중립, 약세 가까움)\n\nP/E: 366x / Forward P/E: 186x\n목표가: $406.84 (+2.9%)\n판정: Hold - Terafab 런치 결과 확인 후 재평가"
+      "hook": "LG $43억 배터리 딜 확정 + Terafab D-4",
+      "text": "Tesla 일일 분석 (3/17)\n\n가격: $395.56 (+1.1%)\n시총: $1.48T\n\n오늘의 핵심\n- 미국 정부, Tesla-LG $43억 LFP 배터리 계약 확인\n- Megapack 3용 미국산 셀, 2027년 생산 시작\n- 유닛당 5 MWh (기존 3.9 MWh 대비 28% 증가)\n\n이번 주 이벤트\n- Terafab 3/21 런치 D-4 (로직+메모리+패키징 통합)\n- Cybercab 4월 양산 준비 순조\n- NHTSA FSD 288만대 조사 확대 중\n\n주가 위치\n- 52주 고점 $498.83 / 저점 $214.25\n- 50일 평균($420) 아래\n- 200일 평균($426) 아래\n- RSI 40 (중립, 약세 가까움)\n\nP/E: 366x / Forward P/E: 186x\n목표가: $406.84 (+2.9%)\n판정: Hold, Terafab 런치 결과 확인 후 재평가"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Terafab D-4, Cybercab 4월 양산, 그런데 NHTSA는 조사 확대 중",
-          "text": "$TSLA (3/17) $395.56(+1.1%). Terafab 토요일 런치 D-4, Cybercab 4월 양산 순조. 하지만 NHTSA가 FSD 조사를 288만대로 확대 중. 내부자 3개월 $3,831만 매도.\n\n1/4",
+          "hook": "Tesla-LG $43억 배터리 딜 확정, Terafab D-4",
+          "text": "$TSLA (3/17) 미국 정부가 LG와의 $43억 LFP 배터리 공장 계약을 확인했다. Megapack 3용 미국산 셀, 2027년 생산 시작. Terafab 토요일 런치까지 D-4. $395.56.\n\n1/4",
           "thread": [
-            "Terafab은 로직+메모리+패키징 수직 통합. Electrek은 '반도체 경험 제로'라며 비판. 성공하면 역사적, 실패하면 수십억 매몰.\n\n2/4",
-            "Syrah 흑연 분쟁 4차 연장(6/1). BYD 226만대(+28%) vs Tesla 164만대(-8%). P/E 366배.\n\n3/4",
-            "50일선($420), 200일선($426) 모두 아래. RSI 40. 목표가 $407(+2.9%). Terafab 런치가 모든 걸 결정한다.\n\n4/4"
+            "Megapack 3은 유닛당 5 MWh로 28% 증가. 에너지 사업 공급망이 드디어 확보됐다. Cybercab 4월 양산도 순조롭게 진행 중.\n\n2/4",
+            "NHTSA는 288만대 FSD 조사를 확대 중이고, 내부자 3개월 $3,831만 매도. P/E 366배. 호재와 악재가 동시에 쌓이고 있다.\n\n3/4",
+            "50일선($420), 200일선($426) 모두 아래. RSI 40. 목표가 $407(+2.9%). 토요일 Terafab 런치가 방향을 결정한다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla가 반도체도 로보택시도 다 하겠다는데, NHTSA가 딴지를 건다",
-          "text": "$TSLA (3/17) Terafab D-4, Cybercab 4월 양산. 근데 NHTSA가 288만대 조사하고, 내부자들은 $3,831만어치 팔았다. CFO도 팔았다. $395.56.\n\n1/4",
+          "hook": "Tesla가 배터리도 칩도 로봇도 다 직접 만들겠다고 한다",
+          "text": "$TSLA (3/17) LG랑 $43억 배터리 공장, 토요일엔 Terafab 런치, 4월엔 Cybercab. Tesla는 안 만드는 게 뭔지 궁금해진다. $395.56.\n\n1/4",
           "thread": [
-            "TSMC도 안 하는 로직+메모리 통합을 Tesla가 한다. 반도체 경험? 없다. 하지만 SpaceX도 처음엔 로켓을 날려먹었다.\n\n2/4",
-            "Syrah 흑연 분쟁 4차 연장. 이쯤 되면 연장이 취미다. BYD는 226만대 팔면서 여유롭다.\n\n3/4",
-            "P/E 366배인데 목표가 $407(+2.9%). 이 괴리감이 Tesla다. 토요일에 답이 나온다.\n\n4/4"
+            "Megapack 3이 5 MWh가 됐다. 28% 더 큰 배터리. 근데 NHTSA는 288만대를 조사하고, CFO는 주식을 판다. 양손잡이 뉴스.\n\n2/4",
+            "P/E 366배인데 에너지 공급망 뉴스에 시장 반응은 +1.1%. Tesla에겐 $43억도 일상인 모양이다.\n\n3/4",
+            "목표가 $407(+2.9%). 이 괴리감이 Tesla다. 토요일에 반도체 역사를 쓰든 흑역사를 쓰든, 결판난다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla 주주들, 촉매는 많은데 불확실성도 많아서 힘들 거다",
-          "text": "$TSLA (3/17) $395.56(+1.1%). Terafab, Cybercab, Macrohard까지 촉매가 많다. 근데 NHTSA 조사와 내부자 매도가 마음을 무겁게 한다.\n\n1/4",
+          "hook": "Tesla 주주들, 촉매는 쏟아지는데 주가는 답답할 거다",
+          "text": "$TSLA (3/17) $395.56. LG $43억 배터리 딜에 Terafab D-4까지, 뉴스는 좋은데 주가가 안 움직이면 답답하다. 50일선 $420이 벽처럼 느껴질 거다.\n\n1/4",
           "thread": [
-            "Electrek의 '경험 제로' 비판은 뼈아프지만, 시장은 아직 +1.1%로 반응했다. 희망은 남아있다.\n\n2/4",
-            "Syrah 분쟁 연장, BYD 압도적 성장. 쉬운 구간은 아니다. 하지만 현금 $44B가 버텨주고 있다.\n\n3/4",
-            "토요일이 분수령이다. 지금은 관망해도 괜찮다. 결과 보고 판단해도 늦지 않다. 목표가 $407(+2.9%).\n\n4/4"
+            "하지만 에너지 사업 공급망이 확보됐다는 건 중요하다. Megapack 3의 5 MWh는 실질적 매출 성장으로 이어질 수 있다.\n\n2/4",
+            "NHTSA 조사와 내부자 매도가 마음을 무겁게 하지만, 현금 $44B가 버텨주고 있다. 당장 위기는 아니다.\n\n3/4",
+            "목표가 $407(+2.9%). 토요일 Terafab 런치가 분수령이다. 조급하게 움직이지 않아도 괜찮다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Terafab D-4, Cybercab 4월 양산, 그런데 NHTSA는 조사 확대 중",
-          "text": "$TSLA (3/17) $395.56(+1.1%)\n\nTerafab 토요일 런치가 D-4로 다가왔다. Cybercab 생산라인도 4월 양산 목표로 주당 수백 대 규모 설계 중. Macrohard로 AI 사업 확장도 구체화.\n\n하지만 NHTSA가 FSD 조사를 288만대로 확대, 오스틴 로보택시 14건 교통위반 조사 중. 내부자 3개월간 $3,831만 매도. Syrah 흑연 분쟁은 4차 연장(6/1).\n\nP/E 366배, 50일선($420)과 200일선($426) 모두 아래. RSI 40. 목표가 $407(+2.9%). 토요일 Terafab 런치와 4월 Cybercab 양산이 방향을 결정한다."
+          "hook": "Tesla-LG $43억 배터리 딜 확정, Terafab D-4",
+          "text": "$TSLA (3/17) $395.56(+1.1%)\n\n오늘 미국 정부가 Tesla-LG $43억 LFP 배터리 공장 계약을 공식 확인했다. 미시간 랜싱에서 2027년부터 Megapack 3용 미국산 셀을 생산한다. 유닛당 5 MWh로 기존 대비 28% 증가. 에너지 사업의 핵심 퍼즐이 맞춰졌다.\n\nTerafab 토요일 런치도 D-4. Cybercab 4월 양산, Macrohard AI까지 촉매가 줄줄이 대기 중. 하지만 NHTSA 288만대 조사와 내부자 매도가 여전히 부담.\n\nP/E 366배, 50일선과 200일선 모두 아래. RSI 40. 목표가 $407(+2.9%). Terafab 결과를 보고 판단해도 늦지 않다."
         },
         "witty": {
-          "hook": "Tesla가 반도체도 로보택시도 다 하겠다는데, NHTSA가 딴지를 건다",
-          "text": "$TSLA (3/17) $395.56(+1.1%)\n\nTerafab D-4, Cybercab 4월 양산. TSMC도 안 하는 로직+메모리 통합을 반도체 경험 없이 하겠다는 회사. 근데 SpaceX도 처음엔 그랬다.\n\nNHTSA는 288만대 조사 중이고, CFO랑 이사가 합쳐서 $3,831만어치를 팔았다. Syrah 흑연 분쟁은 4차 연장. 연장이 취미인가.\n\nP/E 366배에 목표가 $407(+2.9%). 토요일에 천재인지 허풍인지 결판난다."
+          "hook": "Tesla, 배터리도 칩도 로봇도 직접 만드는 회사",
+          "text": "$TSLA (3/17) $395.56(+1.1%)\n\nLG랑 $43억 배터리 공장 계약이 확정됐다. Megapack 3은 5 MWh로 28% 커졌고, 토요일엔 Terafab 런치, 4월엔 Cybercab. Tesla는 안 만드는 게 뭔지 궁금해진다.\n\n근데 NHTSA는 288만대 조사 중이고, CFO는 주식 팔고, P/E는 366배다. 이 회사는 호재와 악재가 항상 같이 온다.\n\n목표가 $407(+2.9%). 토요일에 반도체 역사를 쓰든 수십억 매몰이든, 결판난다. 그때까지는 관망."
         },
         "empathy": {
-          "hook": "Tesla 주주들, 촉매는 많은데 불확실성도 많아서 힘들 거다",
-          "text": "$TSLA (3/17) $395.56(+1.1%)\n\nTerafab, Cybercab, Macrohard까지 촉매가 쏟아지고 있다. 기대할 이유는 충분하다. 하지만 NHTSA가 288만대 FSD 조사를 확대했고, 내부자들은 $3,831만어치를 매도했다.\n\nSyrah 흑연 분쟁도 4차 연장. 좋은 뉴스와 나쁜 뉴스가 동시에 오는 시기다. 현금 $44B가 버텨주니 당장 위기는 아니다.\n\n토요일이 분수령이다. 성급하게 움직이기보다 결과를 보고 판단해도 늦지 않다. 목표가 $407(+2.9%)."
+          "hook": "Tesla 주주들, 좋은 뉴스인데 주가가 안 움직여서 답답할 거다",
+          "text": "$TSLA (3/17) $395.56(+1.1%)\n\nLG $43억 배터리 딜에 Terafab D-4, Cybercab 양산까지. 뉴스는 쏟아지는데 주가는 50일선($420) 아래에서 답답하게 움직이고 있다.\n\nNHTSA 조사와 내부자 매도가 발목을 잡고 있다. 하지만 에너지 공급망 확보는 진짜 의미 있는 진전이다. 현금 $44B도 든든하다.\n\n토요일이 분수령이다. Terafab이 성공하면 분위기가 완전히 바뀔 수 있다. 지금은 결과를 기다려도 괜찮다. 목표가 $407(+2.9%)."
         }
       }
     }

@@ -1,0 +1,345 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-18",
+  "currentPrice": 181.93,
+  "marketCap": "$4.42T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자 — 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습·추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65% YoY), 순이익 $120.1B(+64.7%). 화요일(3/17) 종가 $181.93(-0.70%). GTC 2026 이틀째에도 불구하고 '소문에 사고 뉴스에 판다' 패턴으로 소폭 하락. Jensen Huang이 Blackwell+Vera Rubin 주문이 2027년까지 $1조에 달할 것이라 발표했지만 시장 반응은 미온적.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (Blackwell, Hopper GPU)",
+      "AI 소프트웨어 플랫폼 (CUDA, AI Enterprise, NemoClaw)",
+      "게이밍 GPU (GeForce RTX)",
+      "자동차 (DRIVE 플랫폼)",
+      "네트워킹 (Spectrum-X, InfiniBand)"
+    ],
+    "keyProducts": [
+      "Vera Rubin VR200 — 차세대 AI 가속기, 와트당 성능 10배, 2026 H2 출하",
+      "Groq 3 LPU — 추론 특화 언어 처리 유닛, 토큰/와트 35배 개선, Q3 출하",
+      "Kyber — 144 GPU 수직 배치 차세대 랙 아키텍처",
+      "NemoClaw — 엔터프라이즈 AI 에이전트 개발 도구",
+      "DLSS 5 — 3D 기반 신경 렌더링",
+      "DRIVE — 자율주행 플랫폼 (Uber 28개 도시, BYD, Hyundai 파트너십)"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "37.13x",
+      "interpretation": "반도체 업종 평균(53x)보다 낮고, 경쟁사 AMD(108x), Broadcom(89x) 대비 오히려 저렴"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "22.05x",
+      "interpretation": "S&P 500 Forward P/E(21x)와 거의 동일. 65% 성장률 감안 시 PEG 0.57로 역사적 저평가 구간"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "+65.5%",
+      "interpretation": "FY2026 $215.9B 달성. Q1 FY2027 가이던스 $78B(+77%)"
+    },
+    {
+      "name": "영업이익률",
+      "value": "60.38%",
+      "interpretation": "반도체 업계 최고 수준. 매출총이익률 71.1%와 함께 독점적 마진 유지"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.68B",
+      "interpretation": "연간 FCF 약 $97B, 사상 최대 현금 창출. $50B 자사주 매입 여력"
+    },
+    {
+      "name": "부채비율 (D/E)",
+      "value": "0.13",
+      "interpretation": "극도로 건전한 재무 구조. 현금 $43.2B 보유"
+    },
+    {
+      "name": "ROE",
+      "value": "119.8%",
+      "interpretation": "압도적 자본 효율성. S&P 500 전체에서도 최상위"
+    },
+    {
+      "name": "EPS",
+      "value": "$4.90",
+      "interpretation": "+66.7% YoY. 지속적 EPS 성장이 밸류에이션 부담을 빠르게 해소"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "GTC 2026: $1조 주문 전망, Vera Rubin + Groq 3 공개",
+      "description": "Jensen Huang이 Blackwell+Vera Rubin 주문이 2027년까지 $1조에 달할 것이라 발표. 전년 전망의 2배. Vera Rubin VR200은 와트당 성능 10배, Groq 3 LPU는 토큰/와트 35배 개선."
+    },
+    {
+      "title": "DRIVE 플랫폼: Uber(28개 도시), BYD, Hyundai 대형 파트너십",
+      "description": "GTC에서 자율주행 DRIVE 플랫폼의 대규모 확장 발표. Uber가 28개 도시에 NVIDIA DRIVE 탑재, BYD와 Hyundai도 합류. Tesla FSD에 대한 가장 강력한 대안으로 부상."
+    },
+    {
+      "title": "Q1 FY2027 가이던스 $78B(+77%) — 성장 가속",
+      "description": "다음 분기 가이던스가 시장 기대를 크게 상회. AI 인프라 투자 사이클이 여전히 초기 단계."
+    },
+    {
+      "title": "Kyber 144-GPU 랙 + Vera Rubin Space Module",
+      "description": "데이터센터에서 우주까지. Kyber 아키텍처로 GPU 밀도 극대화, 우주 데이터센터 모듈까지 사업 범위 확장."
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "AI 가속기 시장 70%+ 점유율. CUDA 생태계가 15년간 구축한 소프트웨어 해자. 하드웨어+소프트웨어+네트워킹 풀스택으로 경쟁사 진입 장벽 극대화.",
+    "moats": [
+      {
+        "type": "CUDA 소프트웨어 생태계",
+        "description": "15년간 구축된 개발자 생태계. 400만+ CUDA 개발자. AMD ROCm, Intel oneAPI 대비 압도적 성숙도."
+      },
+      {
+        "type": "풀스택 AI 플랫폼",
+        "description": "GPU + 네트워킹(InfiniBand/Spectrum-X) + 소프트웨어(NemoClaw) + 자율주행(DRIVE)까지 수직 통합."
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY2026 $216B 매출로 R&D 투자 여력 극대화. 매년 새로운 아키텍처 출시 가능."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD (MI350/MI400)",
+        "detail": "AI 가속기 시장 진입. MI350 출시 예정이나 소프트웨어 생태계에서 큰 격차"
+      },
+      {
+        "name": "Broadcom (Custom ASIC)",
+        "detail": "Google TPU 등 맞춤형 AI 칩 설계. 특정 워크로드에서 경쟁"
+      },
+      {
+        "name": "Intel (Gaudi)",
+        "detail": "AI 가속기 시장 재진입 시도. 시장 점유율 미미"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-17",
+      "headline": "GTC Day 2: Groq 3 LPU 공개, Vera Rubin Space Module, DLSS 5 발표",
+      "significance": "Tom's Hardware: 2시간+ 키노트에서 Vera CPU, Groq LPU, 우주 데이터센터 모듈까지 공개. 하지만 주가는 -0.70%로 '뉴스에 팔다' 패턴",
+      "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "NVIDIA DRIVE, Uber(28개 도시), BYD, Hyundai와 대형 파트너십 발표",
+      "significance": "자율주행 플랫폼 DRIVE가 '안드로이드'형 개방 생태계로 급성장. Tesla FSD에 직접적 도전. Uber 주가 +2.6%",
+      "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Jensen Huang: Blackwell+Vera Rubin $1조 주문 전망 (2027년까지)",
+      "significance": "CNBC: 전년 $5,000억 전망의 2배. AI 인프라 투자 사이클이 가속 중이라는 강력한 시그널",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Cantor Fitzgerald: Overweight 유지, 목표가 $300",
+      "significance": "GTC 이후에도 목표가 $300 유지. 현재가 대비 +65% 상승 여력 전망",
+      "url": "https://www.gurufocus.com/news/8719092/nvidia-nvda-maintains-overweight-rating-according-to-analyst-report-nvda-stock-news"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "KeyBanc: Overweight 유지, 목표가 $275",
+      "significance": "John Vinh 애널리스트가 GTC 이후 $275 목표가 유지. AI 데이터센터 수요 지속 전망",
+      "url": "https://www.gurufocus.com/news/8719317/nvda-keybanc-reiterates-overweight-rating-maintains-price-target-nvda-stock-news"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 263.29,
+    "highTarget": 300.0,
+    "lowTarget": 150.0,
+    "upsidePercent": 44.72,
+    "buyCount": 39,
+    "holdCount": 4,
+    "sellCount": 0,
+    "notableComment": "Strong Buy 컨센서스. 목표가 $263(+44.7%). Cantor $300, KeyBanc $275 유지. GTC에서 $1조 주문 전망이 나왔지만 주가는 하락 — 이는 매수 기회로 해석 가능. Forward P/E 22x에 65% 성장 = PEG 0.34."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "GTC 이후 '뉴스에 팔다' 패턴, 단기 모멘텀 약화",
+      "description": "GTC Day 1에서 +1.7%였으나 Day 2에서 -0.70%. $1조 주문 전망에도 주가 하락. 단기적으로 기대가 이미 가격에 반영됐다는 시그널."
+    },
+    {
+      "severity": "high",
+      "title": "이란 전쟁 + 유가 $100+ 매크로 리스크",
+      "description": "호르무즈 해협 긴장으로 Brent $100+ 돌파. 경기 침체 우려 시 AI 투자 사이클이 둔화될 수 있다."
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 규제 지속",
+      "description": "미국의 대중국 AI 칩 수출 규제로 중국 시장 접근 제한. Huawei 등 중국 대안 칩 개발 가속."
+    },
+    {
+      "severity": "medium",
+      "title": "경쟁사 캐치업: AMD MI350, 커스텀 ASIC 성장",
+      "description": "AMD, Broadcom, 자체 칩(Google TPU, Amazon Trainium)이 점진적으로 시장 점유율 잠식 시도."
+    },
+    {
+      "severity": "low",
+      "title": "Groq 인수 통합 리스크",
+      "description": "$200억 Groq 인수의 기술·인력 통합이 순조롭게 진행되어야 추론 시장 장악 가능."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Forward P/E 22x + 65% 성장 = PEG 0.34, 역사적 저평가",
+      "rationale": "S&P 500 평균과 동일한 Forward P/E인데 성장률은 3배. 성장주 기준으로 명백히 저평가."
+    },
+    {
+      "title": "$1조 주문 전망 — AI 인프라 사이클은 초기 단계",
+      "rationale": "GTC에서 2027년까지 $1조 주문 전망. 클라우드, 소버린 AI, 엔터프라이즈 모두 AI 투자 확대 중."
+    },
+    {
+      "title": "DRIVE 플랫폼 — $1조 자율주행 TAM 진입",
+      "rationale": "Uber, BYD, Hyundai 파트너십으로 자율주행 시장의 '안드로이드' 포지션 확보. 새로운 성장 동력."
+    },
+    {
+      "title": "GTC 하락 = 매수 기회, 50일선 근처 기술적 지지",
+      "rationale": "50일선 $185 근처에서 거래 중. GTC 후 차익 실현에 따른 일시적 하락은 진입 기회."
+    },
+    {
+      "title": "FCF $97B, $50B 자사주 매입 — 주주환원 극대화",
+      "rationale": "사상 최대 현금 창출과 대규모 자사주 매입이 하방 지지."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 75.9,
+    "sma50": 185.46,
+    "sma50Signal": "below",
+    "sma200": 177.39,
+    "sma200Signal": "above",
+    "rsi": 52,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "GTC 2026의 하이라이트는 압도적이었다. $1조 주문 전망, Vera Rubin, Groq 3 LPU, DRIVE 대형 파트너십. 하지만 주가는 화요일 -0.70%로 마감했다. 전형적인 '뉴스에 팔다' 패턴이다.",
+    "그러나 이것이 바로 기회다. Forward P/E 22x에 65% 성장률이면 PEG 0.34. S&P 500 평균과 같은 P/E인데 성장률은 3배다. 39명 중 39명 애널리스트가 Buy/Strong Buy를 유지하고, 컨센서스 $263(+44.7%)이다.",
+    "50일선($185) 바로 아래에서 거래 중이고, 200일선($177)은 지지 역할. RSI 52로 중립. GTC 이후 차익 실현이 마무리되면 상승 재개 가능성이 높다. 단기 변동성을 감수할 수 있다면 현재가는 매력적인 진입 구간."
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "GTC 2026에서 $1조 주문 전망과 Vera Rubin/Groq 3/DRIVE 파트너십이 공개됐지만, 주가는 -0.70% 하락. 'Sell the news' 패턴이지만 Forward P/E 22x에 65% 성장(PEG 0.34)은 명백한 저평가. 50일선 근처의 기술적 위치도 양호. 단기 변동성을 감수할 수 있다면 현재가는 좋은 진입 기회.",
+    "horizon": "3-6개월 (Vera Rubin 출하 시작 + Q1 FY2027 실적)"
+  },
+  "sources": [
+    {
+      "name": "CNBC (GTC Keynote)",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "Jensen Huang $1조 주문 전망, Groq 3 LPX, Vera Rubin 발표"
+    },
+    {
+      "name": "Tom's Hardware (GTC Live)",
+      "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
+      "description": "GTC 2시간+ 키노트: Vera CPU, Groq LPU, DLSS 5, Space Module"
+    },
+    {
+      "name": "Parameter.io (DRIVE)",
+      "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/",
+      "description": "DRIVE 플랫폼 Uber/BYD/Hyundai 파트너십 상세"
+    },
+    {
+      "name": "Cantor Fitzgerald",
+      "url": "https://www.gurufocus.com/news/8719092/nvidia-nvda-maintains-overweight-rating-according-to-analyst-report-nvda-stock-news",
+      "description": "Overweight 유지, 목표가 $300"
+    },
+    {
+      "name": "KeyBanc",
+      "url": "https://www.gurufocus.com/news/8719317/nvda-keybanc-reiterates-overweight-rating-maintains-price-target-nvda-stock-news",
+      "description": "Overweight 유지, 목표가 $275"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "description": "NVDA 종가 $181.93, 시총 $4.42T, PE 37.13, Forward PE 22.05"
+    },
+    {
+      "name": "Barchart",
+      "url": "https://www.barchart.com/story/news/777998/nvidia-stock-is-treading-water-below-its-50-day-moving-average-as-gtc-2026-kicks-off-how-to-play-it-here",
+      "description": "50일선 $185 아래에서 거래, GTC 이후 기술적 분석"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/17/stock-market-today-live-coverage/",
+      "description": "NVDA +0.74% 장중 언급, Fed 매파 스탠스 경고"
+    },
+    {
+      "name": "CNET (GTC)",
+      "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
+      "description": "GTC 전체 AI/로보틱스 뉴스 종합"
+    },
+    {
+      "name": "Google Finance",
+      "url": "https://www.google.com/finance/quote/NVDA:NASDAQ",
+      "description": "실시간 주가 확인"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVIDIA GTC에서 $1조 주문 전망. 그런데 주가는 하락했다.",
+      "text": "$NVDA (3/18) $181.93(-0.70%) GTC Day 2인데 주가가 빠졌다. Jensen Huang이 $1조 주문 전망을 발표했는데도. 전형적인 'Sell the News'.\n\n하지만 Forward P/E 22x에 성장률 65%. PEG 0.34.\n\n1/4",
+      "thread": [
+        "DRIVE 플랫폼이 Uber 28개 도시, BYD, Hyundai와 파트너십을 맺었다. 자율주행 시장의 '안드로이드'가 탄생하고 있다. $1조 TAM 진입.\n\n2/4",
+        "애널리스트 39명 전원 Buy. 컨센서스 $263(+44.7%). Cantor $300, KeyBanc $275. 이 정도 합의를 보기가 쉽지 않다.\n\n3/4",
+        "50일선($185) 바로 아래. 200일선($177) 지지. GTC 차익 실현이 끝나면 상승 재개 가능. 진입 기회.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "GTC에서 $1조. 주가는 -0.70%. 이게 기회다.",
+      "text": "$NVDA (3/18) $181.93(-0.70%)\n\nGTC 2026 이틀째. Jensen Huang이 Blackwell+Vera Rubin $1조 주문을 전망했고, DRIVE는 Uber/BYD/Hyundai와 파트너십을 맺었다. 그런데 주가는 떨어졌다.\n\nForward P/E 22x에 65% 성장. PEG 0.34. S&P 500과 같은 P/E인데 성장률은 3배. 39명 애널리스트 전원 Buy. 컨센서스 $263(+44.7%).\n\n50일선 아래 단기 약세지만, 이건 GTC 차익 실현이다. 진입 기회."
+    },
+    "telegram": {
+      "hook": "GTC $1조 주문 전망 vs 'Sell the News'",
+      "text": "NVIDIA 일일 분석 (3/18)\n\n가격: $181.93 (-0.70%)\n시총: $4.42T\n\n오늘의 핵심\n- GTC Day 2: Groq 3 LPU, Vera Rubin Space Module, DLSS 5\n- Jensen Huang: $1조 주문 전망 (2027년까지)\n- DRIVE, Uber(28개 도시)/BYD/Hyundai 파트너십\n- Cantor $300, KeyBanc $275 목표가 유지\n\n왜 하락했나?\n- 전형적인 'Sell the News' 패턴\n- 기대가 이미 가격에 반영\n\n밸류에이션\n- P/E: 37.13x / Forward P/E: 22.05x\n- PEG: 0.34 (역사적 저평가)\n- 매출 성장률: +65.5%\n\n주가 위치\n- 52주: $86.62-$212.19\n- 50일선($185) 바로 아래\n- 200일선($177) 위\n- RSI 52 (중립)\n\n목표가: $263.29 (+44.7%)\n판정: Buy, GTC 차익 실현 = 진입 기회"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVIDIA GTC $1조 주문 전망, 주가 -0.70%",
+          "text": "$NVDA (3/18) $181.93(-0.70%). GTC Day 2 하락. Forward P/E 22x, 성장률 65%, PEG 0.34. 39 Buy/0 Sell. 컨센서스 $263(+44.7%).\n\n1/4",
+          "thread": [
+            "GTC 핵심: Vera Rubin VR200(와트당 10x), Groq 3 LPU(토큰/와트 35x), DRIVE-Uber 28개 도시. $1조 주문 전망.\n\n2/4",
+            "Cantor $300(OW), KeyBanc $275(OW) 유지. 반도체 업종 P/E 53x 대비 NVDA 37x. 성장 대비 저평가.\n\n3/4",
+            "50일선($185) 아래 단기 약세. 200일선($177) 지지. Vera Rubin H2 출하가 다음 촉매.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "$1조 주문이라는데 시장이 하품을 했다",
+          "text": "$NVDA (3/18) $181.93(-0.70%). Jensen Huang이 '$1조 주문 전망'이라고 했는데 시장 반응: '아, 네.' GTC에서 뭘 발표해도 주가가 안 오르는 마법.\n\n1/4",
+          "thread": [
+            "Forward P/E 22x인데 65% 성장 중인 회사. 이 숫자를 보고도 안 사면 뭘 사겠나. PEG 0.34는 농담 같은 숫자다.\n\n2/4",
+            "DRIVE가 Uber, BYD, Hyundai까지 모았다. Tesla가 혼자서 모든 걸 만들겠다는 동안, NVIDIA는 모두를 친구로 만들었다.\n\n3/4",
+            "50일선 아래. GTC 끝나면 차익 실현도 끝난다. 그때가 진입 타이밍.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "GTC에 기대 걸었던 NVIDIA 투자자들, 오늘은 아쉬울 거다",
+          "text": "$NVDA (3/18) $181.93(-0.70%). GTC에서 이렇게 좋은 뉴스가 나왔는데 주가가 떨어지면 허탈하다. 특히 월요일 +1.7% 반등을 보고 기대했던 분들.\n\n1/4",
+          "thread": [
+            "하지만 숫자를 보자. Forward P/E 22x, 성장률 65%, PEG 0.34. 이 가격이 비싼 게 아니다.\n\n2/4",
+            "39명 애널리스트 전원이 Buy다. $263(+44.7%). 시장이 단기적으로 못 알아보는 거다.\n\n3/4",
+            "GTC 차익 실현이 끝나면 다시 올라간다. 지금은 인내의 시간.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVIDIA GTC $1조 주문, 주가 -0.70%. 기회인가?",
+          "text": "$NVDA (3/18) $181.93(-0.70%)\n\nGTC Day 2 하락. Jensen Huang $1조 주문 전망, DRIVE Uber/BYD/Hyundai 파트너십, Groq 3 LPU 공개. Forward P/E 22x, 성장 65%, PEG 0.34.\n\n39 Buy/0 Sell. 컨센서스 $263(+44.7%). 50일선 아래 단기 약세지만 펀더멘탈은 강력. 진입 기회."
+        },
+        "witty": {
+          "hook": "$1조라는데 시장이 하품. NVIDIA 할인 코너 오픈",
+          "text": "$NVDA (3/18) $181.93(-0.70%)\n\nJensen이 '$1조'라고 했다. 시장이 '알겠어'라고 하고 주가를 내렸다. GTC 매년 이 패턴이다.\n\nForward P/E 22x에 65% 성장. 이 숫자를 보고도 안 사면 대체 뭘 사겠나. DRIVE가 Uber, BYD, Hyundai까지 모은 건 덤이다.\n\nGTC 끝나면 차익 실현도 끝난다. 할인 코너가 열렸다."
+        },
+        "empathy": {
+          "hook": "GTC 기대했는데 주가가 빠져서 아쉬운 분들에게",
+          "text": "$NVDA (3/18) $181.93(-0.70%)\n\nGTC에서 최고의 뉴스가 나왔는데 주가가 떨어지면 허탈하다. 하지만 이건 시장의 단기적 변덕이지, 회사의 문제가 아니다.\n\nForward P/E 22x, 65% 성장, PEG 0.34. 39명 전원 Buy. 컨센서스 $263(+44.7%). 숫자가 모든 걸 말해준다.\n\nGTC 차익 실현이 끝나면 다시 올라간다. 조급해하지 않아도 된다."
+        }
+      }
+    }
+  }
+}

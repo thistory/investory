@@ -1,0 +1,123 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-18",
+  "currentPrice": 399.27,
+  "marketCap": "$1.28T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomy, robotics, energy, and AI chips",
+    "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Closed Tuesday (3/17) at $399.27 (+0.94%). NVIDIA's DRIVE platform announced major partnerships with Uber, BYD, and Hyundai at GTC, directly challenging Tesla's FSD dominance. Electrek reported an imminent large-scale ATM offering to fund Terafab — the first major capital raise since 2020.",
+    "howTheyMakeMoney": ["EV sales (Model 3/Y, Cybertruck)", "Energy storage & generation (Megapack, Powerwall, Solar)", "Services & charging (Supercharger, insurance, OTA)", "FSD subscriptions & licensing", "Regulatory credit sales"],
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab (robotaxi, April production start)", "Megapack 3 (5 MWh, LG LFP cells)", "FSD v14.2.2.5", "Optimus humanoid robot", "Terafab AI chip fab (3/21 launch)", "Macrohard (Tesla-xAI enterprise AI)"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "367.7x", "interpretation": "13.6x S&P 500 average. Extreme premium reflecting AI, robotics, energy expectations"},
+    {"name": "Forward P/E", "value": "155.9x", "interpretation": "Based on FY2026 EPS consensus $2.56. High growth expectations priced in"},
+    {"name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 $94.8B decline. Delivery drop (-8.6%) and price cuts"},
+    {"name": "Operating Margin", "value": "4.59%", "interpretation": "Margin compression from price war with BYD"},
+    {"name": "FCF", "value": "$6.22B", "interpretation": "Healthy cash generation. $44B total cash"},
+    {"name": "D/E Ratio", "value": "0.08", "interpretation": "Excellent financial health"},
+    {"name": "ROE", "value": "4.86%", "interpretation": "Below large-cap tech peers. Margin recovery needed"},
+    {"name": "RSI", "value": "42", "interpretation": "Neutral-bearish. Slight bounce but weak momentum"}
+  ],
+  "growthDrivers": [
+    {"title": "Terafab Launch D-3: First Step in AI Chip Vertical Integration", "description": "Logic+memory+packaging in one 2nm fab. 3/21 launch. But Electrek reports imminent ATM offering for $25-40B funding."},
+    {"title": "LG Energy $4.3B LFP Battery Plant Confirmed", "description": "US government confirmed Tesla-LG deal for Megapack 3 US-made cells. Production starting 2027. 5 MWh per unit (+28%)."},
+    {"title": "Cybercab April Production Start", "description": "Steering-wheel-free autonomous robotaxi. Targeting 2M units/year. Regulatory approval is key hurdle."},
+    {"title": "China Jan-Feb Sales +35% YoY", "description": "127,728 China-made EVs sold in Jan-Feb, +35% YoY. European Feb registrations also +10% YoY."},
+    {"title": "Macrohard: Tesla-xAI Enterprise AI Joint Venture", "description": "Enterprise-grade generative AI platform. AI hardware+software vertical integration with Terafab."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share. FSD 8.2B miles of data, Supercharger NACS standard, vertical integration. But NVIDIA DRIVE's partnerships with Uber/BYD/Hyundai are cracking the autonomy monopoly.",
+    "moats": [
+      {"type": "Autonomous Driving Data Moat", "description": "8.2B FSD miles. But NVIDIA DRIVE catching up with Uber 28-city, BYD, Hyundai partnerships."},
+      {"type": "Vertical Integration + Own AI Chips", "description": "Own battery (4680), custom chips (Terafab), software (FSD), charging (Supercharger)."},
+      {"type": "Charging Network Effects", "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Supercharger."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "Global EV sales #1 (2025: 2.26M vs Tesla 1.64M). 640-mile sedan, 5-min charging"},
+      {"name": "NVIDIA DRIVE", "detail": "GTC 2026 partnerships with Uber (28 cities), BYD, Hyundai. Most direct FSD competitor"},
+      {"name": "Waymo (Alphabet)", "detail": "Commercial robotaxi service expanding. Tech maturity advantage but limited scalability"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-17", "headline": "Electrek: Imminent ATM offering for Terafab funding — first major raise since 2020", "significance": "Potential $25-40B capital raise. Short-term dilution pressure but long-term AI chip self-sufficiency", "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/"},
+    {"date": "2026-03-17", "headline": "NVIDIA DRIVE partners with Uber (28 cities), BYD, and Hyundai", "significance": "Most direct threat to Tesla's FSD monopoly. NVIDIA positioning as 'Android of autonomy'", "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/"},
+    {"date": "2026-03-17", "headline": "US government confirms Tesla-LG $4.3B LFP battery plant deal", "significance": "Megapack 3 US-made cells from 2027. Energy business supply chain secured", "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/"},
+    {"date": "2026-03-17", "headline": "S&P 500 +0.25%, market rebounds amid Iran war. Oil (Brent $100+) rising", "significance": "Consumer discretionary +1%. TSLA +0.94% slight outperformance", "url": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html"},
+    {"date": "2026-03-16", "headline": "Terafab scope: logic+memory+packaging under one roof", "significance": "Ambitious 2nm fab with zero semiconductor experience. High risk, high reward", "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 406.84,
+    "highTarget": 600.0,
+    "lowTarget": 125.0,
+    "upsidePercent": 1.9,
+    "buyCount": 19,
+    "holdCount": 13,
+    "sellCount": 9,
+    "notableComment": "Consensus $406.84 (+1.9%), majority Hold. Imminent ATM offering and NVIDIA DRIVE competition add downside risk."
+  },
+  "risks": [
+    {"severity": "critical", "title": "Imminent ATM Offering — Major Dilution Risk", "description": "First large-scale capital raise since 2020. $25-40B Terafab costs require significant equity issuance."},
+    {"severity": "critical", "title": "NVIDIA DRIVE Partnerships — Autonomy Monopoly Cracking", "description": "Uber (28 cities), BYD, Hyundai joining NVIDIA's open platform. Challenges Tesla's closed FSD ecosystem."},
+    {"severity": "high", "title": "BYD Competition Accelerating", "description": "BYD 2025 EV: 2.26M (+28%) vs Tesla 1.64M (-8%). Price war intensifying."},
+    {"severity": "high", "title": "NHTSA FSD Investigation Expanding", "description": "2.88M vehicles under investigation. Austin robotaxi violations. Regulatory hurdle for Cybercab."},
+    {"severity": "high", "title": "Extreme Valuation: P/E 368x", "description": "Further EPS dilution possible with capital raise."},
+    {"severity": "medium", "title": "Iran War + Oil $100+ — Macro Uncertainty", "description": "Strait of Hormuz tensions. Consumer spending weakness could hurt EV demand."}
+  ],
+  "buyReasons": [
+    {"title": "Terafab D-3 + LG Battery Deal: Energy+AI Expansion", "rationale": "If Terafab succeeds, first step to NVIDIA independence. LG deal secures energy supply chain."},
+    {"title": "Cybercab + Macrohard: Revenue Diversification", "rationale": "Robotaxi commercialization and enterprise AI market entry."},
+    {"title": "China Sales +35%, Delivery Rebound Signal", "rationale": "China recovery signals FY2026 delivery rebound. Energy segment at record margins."},
+    {"title": "Cash $44B, D/E 0.08 — Strong Balance Sheet", "rationale": "Even with ATM offering, existing cash provides significant buffer."}
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 65.0,
+    "sma50": 419.98,
+    "sma50Signal": "below",
+    "sma200": 426.02,
+    "sma200Signal": "below",
+    "rsi": 42,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Tesla closed at $399.27 (+0.94%) but two key risks surfaced: Electrek reported an imminent ATM offering for Terafab funding — the first major capital raise since 2020. And NVIDIA's DRIVE platform announced partnerships with Uber (28 cities), BYD, and Hyundai, directly challenging Tesla's FSD monopoly.",
+    "P/E 368x, below both 50-day ($420) and 200-day ($426) moving averages. RSI 42. Target $407 (+1.9%). Saturday's Terafab launch is the inflection point, but the ATM offering overhang will likely cap upside in the near term. Patience required.",
+    "Catalysts are abundant — Terafab, LG battery deal, Cybercab — but the dilution risk and NVIDIA DRIVE competition make this a 'wait and see' moment."
+  ],
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "Rich catalysts but imminent ATM offering and NVIDIA DRIVE competition create significant headwinds. P/E 368x with potential further dilution. Wait for Terafab launch results and ATM terms.",
+    "horizon": "1-2 weeks (Post-Terafab launch + ATM terms)"
+  },
+  "sources": [
+    {"name": "Electrek (Capital Raise)", "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/", "description": "Imminent ATM offering for Terafab funding"},
+    {"name": "Parameter.io (NVIDIA DRIVE)", "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/", "description": "NVIDIA DRIVE Uber/BYD/Hyundai partnerships"},
+    {"name": "CNBC (Market)", "url": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html", "description": "S&P 500 +0.25% market rebound"},
+    {"name": "Reuters (LG Battery)", "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/", "description": "Tesla-LG $4.3B battery deal confirmed"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "Consensus target $406.84"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/17/tesla-stock-below-400-but-analysts-see-upside-ahead/", "description": "Analyst upside analysis"},
+    {"name": "Benzinga", "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51279594/tesla-stock-is-climbing-whats-going-on", "description": "Terafab launch in 7 days"},
+    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/TSLA:NASDAQ", "description": "TSLA closing price $399.27"}
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "Tesla ATM offering imminent + NVIDIA builds an autonomy army",
+      "text": "$TSLA (3/18) $399.27 (+0.94%) Terafab D-3 but two negatives hit:\n1. Electrek: ATM offering imminent, first since 2020\n2. NVIDIA DRIVE partners with Uber, BYD, Hyundai\n\nP/E 368x. Target $407 (+1.9%). Wait for Saturday.\n\n1/3",
+      "thread": [
+        "NVIDIA is building the 'Android of autonomy.' Tesla's closed FSD model faces its biggest challenge yet. The monopoly thesis is cracking.\n\n2/3",
+        "Below 50-day ($420) and 200-day ($426). RSI 42. Terafab launch Saturday is the inflection point. ATM terms will determine the near-term.\n\n3/3"
+      ]
+    },
+    "threads": {
+      "hook": "Tesla ATM offering + NVIDIA autonomy alliance",
+      "text": "$TSLA (3/18) $399.27 (+0.94%)\n\nTwo risks emerged today: Electrek reports imminent ATM offering for Terafab funding — first since 2020. And NVIDIA DRIVE signed partnerships with Uber (28 cities), BYD, and Hyundai.\n\nP/E 368x, below both moving averages. Target $407 (+1.9%). Saturday's Terafab launch is make-or-break."
+    },
+    "telegram": {
+      "hook": "ATM Offering + NVIDIA DRIVE Partnerships",
+      "text": "Tesla Daily Analysis (3/18)\n\nPrice: $399.27 (+0.94%)\nMkt Cap: $1.28T\n\nKey Developments\n- Electrek: ATM offering imminent for Terafab\n- First major capital raise since 2020\n- NVIDIA DRIVE partners: Uber/BYD/Hyundai\n\nThis Week\n- Terafab 3/21 launch D-3\n- Cybercab April production prep\n- NHTSA FSD investigation ongoing\n\nTechnicals\n- Below 50-day ($420) and 200-day ($426)\n- RSI 42 (neutral)\n\nP/E: 368x | Target: $406.84 (+1.9%)\nVerdict: Hold — wait for ATM terms + Terafab results"
+    }
+  }
+}

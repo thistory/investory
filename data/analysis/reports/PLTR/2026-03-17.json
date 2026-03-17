@@ -6,7 +6,7 @@
   "marketCap": "$361B",
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더 - Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
-    "description": "Palantir는 정부, 민간 조직의 데이터 통합, 분석, AI 의사결정 플랫폼 제공. FY2025 매출 $4.48B(+56% YoY), Q4 매출 $1.41B(+70% YoY, 역대 최고). 조정 영업이익률 32%. 월요일 종가 $152.72(+1.17%). AIPCon 9(3/12)에서 NVIDIA와 소버린 AI OS 공개. GTC에서 사장 Aki Jain 연설. Polymarket 스포츠 베팅 AI 모니터링 진출.",
+    "description": "Palantir는 정부, 민간 조직의 데이터 통합, 분석, AI 의사결정 플랫폼 제공. FY2025 매출 $4.48B(+56% YoY), Q4 매출 $1.41B(+70% YoY, 역대 최고). 월요일 종가 $152.72(+1.17%). AIPCon 9(3/12)에서 NVIDIA와 소버린 AI OS 공개. GTC에서 사장 Aki Jain 연설. Yahoo Finance는 이란 전쟁에서 미군이 Palantir 소프트웨어로 전술적 우위를 확보하고 있다고 보도. GE Aerospace와의 AI 항공 정비 협력도 진행 중.",
     "howTheyMakeMoney": [
       "정부 계약 (Gotham - 국방, 정보기관 데이터 분석)",
       "기업 AI 플랫폼 (Foundry - 산업 데이터 분석)",
@@ -25,12 +25,12 @@
     {
       "name": "P/E (TTM)",
       "value": "242.4x",
-      "interpretation": "S&P 500 평균(27x)의 9배, 소프트웨어 업종 평균(45x)의 5.4배. 섹터 중앙값 Forward P/E 21.3x 대비 극도로 높은 프리미엄. 다만 Datadog(290x), CrowdStrike(적자)와 비교하면 동종 내 중간 수준"
+      "interpretation": "S&P 500 평균(27x)의 9배, 소프트웨어 업종 평균(45x)의 5.4배. 다만 Datadog(290x), CrowdStrike(적자)와 비교하면 동종 내 중간 수준"
     },
     {
       "name": "Forward P/E",
       "value": "115.9x",
-      "interpretation": "S&P 500 Forward P/E(21x)의 5.5배. 섹터 중앙값(21.3x)의 5.4배. GuruFocus GF Value $58.93 대비 현저히 고평가 판정"
+      "interpretation": "S&P 500 Forward P/E(21x)의 5.5배. GuruFocus GF Value $58.93 대비 현저히 고평가 판정"
     },
     {
       "name": "매출 성장률 (YoY)",
@@ -60,25 +60,29 @@
     {
       "name": "RSI",
       "value": "56.4",
-      "interpretation": "중립 구간. $1B 계약, AIPCon 9, GTC 효과로 소폭 상승 중"
+      "interpretation": "중립 구간. 이란 전쟁 수혜 기대와 GTC 효과로 소폭 상승 중"
     }
   ],
   "growthDrivers": [
     {
-      "title": "AIPCon 9에서 NVIDIA 소버린 AI OS 공개, 글로벌 AI 인프라 시장 공략",
-      "description": "Barchart(3/16): 3/12 AIPCon 9에서 NVIDIA와 '소버린 AI OS 레퍼런스 아키텍처' 공개. 각국 정부의 자체 AI 데이터센터 구축 시장(~$600B) 공략. 미 해군, SAP, Accenture 등 참여."
+      "title": "이란 전쟁에서 미군 전술적 우위 확보, Palantir 소프트웨어가 핵심",
+      "description": "Yahoo Finance(3/17): 미국과 동맹군이 이란 전쟁에서 Palantir 소프트웨어로 전술적 우위를 확보하고 있다고 보도. 실전에서 실패가 용납되지 않는 환경에서 검증된 성과."
     },
     {
-      "title": "$10억 국방 AI 계약 수주, 정부 매출 가속",
-      "description": "Motley Fool(3/16): Palantir가 $10억 규모 국방 AI 계약을 확보했다. 이란 전쟁 확대로 국방 AI 지출이 급증하면서 최대 수혜자로 부상."
+      "title": "AIPCon 9에서 NVIDIA 소버린 AI OS 공개, $600B 시장 공략",
+      "description": "Barchart(3/16): 3/12 AIPCon 9에서 NVIDIA와 '소버린 AI OS 레퍼런스 아키텍처' 공개. 각국 정부의 자체 AI 데이터센터 구축 시장 공략."
     },
     {
-      "title": "GTC에서 Palantir 사장 연설, NVIDIA NemoClaw 파트너십 심화",
-      "description": "NVIDIA Blog(3/16): Palantir 사장 Aki Jain이 GTC 가속 컴퓨팅 세션에서 연설. NemoClaw(에이전트 개발 도구) 발표와 함께 소버린 AI OS의 전략적 위치 강화."
+      "title": "$10억 국방 AI 계약 수주 + GE Aerospace AI 파트너십",
+      "description": "Motley Fool(3/16): $10억 국방 AI 계약 확보. ExecutiveBiz(3/17): GE Aerospace가 Palantir AIP로 항공 정비, 공급망, 고객 서비스 자동화. 국방 물류청(DLA) AI 계약도 수주."
+    },
+    {
+      "title": "GTC에서 Palantir 사장 연설, NemoClaw 파트너십 심화",
+      "description": "NVIDIA Blog(3/16): Palantir 사장 Aki Jain이 GTC 가속 컴퓨팅 세션에서 연설. NemoClaw 발표와 함께 소버린 AI OS의 전략적 위치 강화."
     },
     {
       "title": "Polymarket 스포츠 베팅 AI 모니터링 진출, 새 수익원",
-      "description": "The Block(3/10): Polymarket이 Palantir, TWG AI와 'Vergence AI 엔진' 기반 스포츠 베팅 무결성 플랫폼 구축. 예측 시장 모니터링이라는 새 영역 개척."
+      "description": "The Block(3/10): Polymarket이 Palantir, TWG AI와 'Vergence AI 엔진' 기반 스포츠 베팅 무결성 플랫폼 구축."
     }
   ],
   "competitiveAdvantage": {
@@ -114,34 +118,34 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-17",
+      "headline": "Yahoo Finance: 이란 전쟁에서 미군이 Palantir 소프트웨어로 전술적 우위 확보",
+      "significance": "실전 검증이 가장 강력한 마케팅. 국방 AI 지출 급증으로 최대 수혜자 부상",
+      "url": "https://finance.yahoo.com/news/palantir-just-got-headline-grabbing-130300567.html"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "GE Aerospace, Palantir AIP로 항공 정비, 공급망, 고객 서비스 자동화 확대",
+      "significance": "ExecutiveBiz: DLA AI 계약도 수주. AIP의 산업별 침투가 국방에서 항공, 물류로 확산",
+      "url": "https://www.executivebiz.com/articles/ge-palantir-ai-aviation-readiness"
+    },
+    {
       "date": "2026-03-16",
-      "headline": "GTC에서 Palantir 사장 연설 + NVIDIA NemoClaw 발표로 AI 에이전트 생태계 핵심 위치 확인",
+      "headline": "GTC에서 Palantir 사장 연설 + NVIDIA NemoClaw 발표, AI 에이전트 생태계 핵심",
       "significance": "NVIDIA 최대 행사에서 사장급 연설. NemoClaw 발표가 소버린 AI OS의 실용성을 강화",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-16",
-      "headline": "Motley Fool: Palantir $10억 국방 AI 계약 수주. 이란 전쟁으로 정부 AI 지출 폭발 전망",
-      "significance": "단일 계약 규모 $10억. 이란 전쟁 확대로 국방 예산 급증, 최대 수혜 기대",
+      "headline": "Motley Fool: $10억 국방 AI 계약 수주. Mirae Asset $942.7M 보유 확인",
+      "significance": "단일 계약 $10억. Mirae Asset(한국 미래에셋)이 $942.7M 규모 보유. 기관 매수세 지속",
       "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/"
     },
     {
       "date": "2026-03-12",
-      "headline": "AIPCon 9 개최: NVIDIA와 소버린 AI OS 레퍼런스 아키텍처 공개, 미 해군/SAP/Accenture 참여",
-      "significance": "9번째 AIPCon에서 정부 자체 AI 데이터센터용 턴키 솔루션 공개. Dell과의 협업도 확대",
+      "headline": "AIPCon 9 개최: NVIDIA와 소버린 AI OS 공개, 미 해군/SAP/Accenture 참여",
+      "significance": "9번째 AIPCon에서 정부 자체 AI 데이터센터용 턴키 솔루션 공개",
       "url": "https://www.barchart.com/story/news/779707/should-you-buy-palantir-stock-after-aipcon-2026"
-    },
-    {
-      "date": "2026-03-10",
-      "headline": "Polymarket, Palantir-TWG AI와 스포츠 베팅 무결성 플랫폼 구축. Vergence AI 엔진 기반",
-      "significance": "예측 시장 모니터링이라는 완전히 새로운 영역 진출. AI 플랫폼의 범용성 입증",
-      "url": "https://www.theblock.co/post/393009/polymarket-peter-thiel-palantir-develop-sports-betting-ai-monitoring-tool"
-    },
-    {
-      "date": "2026-03-15",
-      "headline": "BNP Paribas, Palantir 보유량 17.6% 확대. 기관 매수세 지속",
-      "significance": "밸류에이션 부담에도 기관들이 지분 확대. 장기 성장성에 베팅",
-      "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html"
     }
   ],
   "analystOpinions": {
@@ -152,7 +156,7 @@
     "buyCount": 16,
     "holdCount": 10,
     "sellCount": 2,
-    "notableComment": "28명 애널리스트 중 16명 Buy. 컨센서스 $192.68(+26%). AIPCon 9 + GTC 연설 + $10억 계약 이후 목표가 상향 가능. TipRanks는 460% 5년 상승에도 밸류에이션 부담으로 약세 의견."
+    "notableComment": "28명 중 16명 Buy. 컨센서스 $192.68(+26%). 이란 전쟁 수혜와 GTC/AIPCon 이벤트 이후 목표가 상향 가능. Mirae Asset $942.7M 보유로 글로벌 기관 관심 확대."
   },
   "risks": [
     {
@@ -183,16 +187,16 @@
   ],
   "buyReasons": [
     {
-      "title": "AIPCon 9 + GTC + $10억 국방 계약, 3연타 호재",
-      "rationale": "AIPCon 9에서 소버린 AI OS 공개(3/12), GTC에서 사장 연설(3/16), $10억 국방 계약 수주(3/15). 일주일 사이 3개의 대형 이벤트가 성장 스토리를 강화."
+      "title": "이란 전쟁 실전 검증 + AIPCon + GTC + $10억 계약, 연속 호재",
+      "rationale": "Yahoo Finance가 이란 전쟁에서의 실전 우위를 보도. AIPCon 소버린 AI OS, GTC 사장 연설, $10억 국방 계약, GE Aerospace AI까지. 성장 스토리가 계속 강화."
     },
     {
       "title": "Q4 매출 +70% YoY, 미국 상업 +137%로 폭발적 성장",
-      "rationale": "Q4 매출 $1.41B 역대 최고. TCV $4.26B(+138%). FY2026 가이던스 $7.2B(+61%). 미국 매출이 77%로 수익 구조 안정."
+      "rationale": "Q4 매출 $1.41B 역대 최고. TCV $4.26B(+138%). FY2026 가이던스 $7.2B(+61%)."
     },
     {
-      "title": "Polymarket 스포츠 베팅 AI 모니터링, 새 시장 개척",
-      "rationale": "Vergence AI 엔진 기반 예측 시장 무결성 감시. 정부/기업을 넘어 핀테크, 예측 시장으로 TAM 확장."
+      "title": "Polymarket AI + GE Aerospace로 새 시장 개척",
+      "rationale": "스포츠 베팅 무결성, 항공 정비 AI. 정부/기업을 넘어 핀테크, 항공까지 TAM 확장."
     },
     {
       "title": "FCF 마진 47% + 무차입, 재무 건전성 최강",
@@ -211,21 +215,30 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "AIPCon 9에서 NVIDIA와 소버린 AI OS를 공개했고, 같은 주에 $10억 국방 계약과 GTC 사장 연설까지 3연타 호재가 나왔다. Polymarket 스포츠 베팅 AI 진출로 정부/기업을 넘어 새 시장도 열리고 있다.",
-    "Q4 매출 $1.41B(+70%)로 역대 최고를 갈아치웠고, 미국 상업 매출은 +137% 폭발했다. 가이던스 $7.2B(+61%)도 컨센서스를 크게 상회. 기관들은 흔들림 없이 사고 있다(BNP Paribas +17.6%).",
-    "다만 P/E 242배, 2026 YTD -14%로 고밸류에이션 부담은 여전하다. 한 달간 +16% 반등했지만 52주 최고가($208) 대비 -26%.",
-    "$152.72 마감. 50일선($154) 바로 아래에서 돌파를 시도 중이다. 컨센서스 $193(+26%). RSI 56으로 과매수도 과매도도 아닌 중립."
+    "Yahoo Finance가 이란 전쟁에서 미군이 Palantir 소프트웨어로 전술적 우위를 확보하고 있다고 보도했다. 실전 검증이야말로 가장 강력한 마케팅이다. AIPCon 소버린 AI OS, GTC 사장 연설, $10억 국방 계약, GE Aerospace AI까지 호재가 끊이지 않는다.",
+    "Q4 매출 $1.41B(+70%)로 역대 최고를 갈아치웠고, 미국 상업 매출 +137%. Mirae Asset $942.7M 보유 등 글로벌 기관 매수세도 이어지고 있다.",
+    "다만 P/E 242배, YTD -14%로 고밸류에이션 부담은 여전하다. $152.72 마감, 50일선($154) 바로 아래에서 돌파를 시도 중. 컨센서스 $193(+26%). RSI 56으로 중립."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "AIPCon 9, GTC, $10억 국방 계약의 3연타 호재가 성장 스토리를 한층 강화한다. Q4 매출 +70%, 가이던스 +61%의 초고속 성장이 P/E 242배의 일부를 정당화하지만, 섹터 중앙값의 5배가 넘는 프리미엄은 분할 매수가 현명하다.",
+    "summary": "이란 전쟁 실전 검증, AIPCon, GTC, $10억 국방 계약, GE Aerospace AI까지 카탈리스트가 연속으로 터지고 있다. Q4 +70%, 가이던스 +61%의 초고속 성장이 P/E 242배의 일부를 정당화하지만, 섹터 중앙값의 5배가 넘는 프리미엄은 분할 매수가 현명하다.",
     "horizon": "6-12개월"
   },
   "sources": [
     {
+      "name": "Yahoo Finance (Iran War)",
+      "url": "https://finance.yahoo.com/news/palantir-just-got-headline-grabbing-130300567.html",
+      "description": "이란 전쟁에서 미군이 Palantir 소프트웨어로 전술적 우위 확보"
+    },
+    {
+      "name": "ExecutiveBiz",
+      "url": "https://www.executivebiz.com/articles/ge-palantir-ai-aviation-readiness",
+      "description": "GE Aerospace, Palantir AIP로 항공 정비, 공급망, DLA AI 계약"
+    },
+    {
       "name": "Barchart",
       "url": "https://www.barchart.com/story/news/779707/should-you-buy-palantir-stock-after-aipcon-2026",
-      "description": "AIPCon 9 분석, 소버린 AI OS, Forward P/E 148x, 섹터 중앙값 21.3x"
+      "description": "AIPCon 9 분석, 소버린 AI OS, 이란 전쟁 수혜 +16.3% 한달 반등"
     },
     {
       "name": "Motley Fool",
@@ -243,14 +256,9 @@
       "description": "Polymarket-Palantir Vergence AI 스포츠 베팅 모니터링"
     },
     {
-      "name": "MacroTrends",
-      "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/pe-ratio",
-      "description": "P/E TTM 242.41(3/16), 시가총액 $313B, 분기별 EPS 추이"
-    },
-    {
-      "name": "GuruFocus",
-      "url": "https://www.gurufocus.com/term/forward-pe-ratio/PLTR",
-      "description": "Forward P/E 115.85(3/15), GF Value $58.93"
+      "name": "Daily Political (Mirae)",
+      "url": "https://www.dailypolitical.com/2026/03/17/mirae-asset-global-etfs-holdings-ltd-has-942-70-million-stock-holdings-in-palantir-technologies-inc-pltr.html",
+      "description": "Mirae Asset $942.7M 보유. NVIDIA-Palantir 소버린 AI 하이라이트"
     },
     {
       "name": "MarketBeat",
@@ -258,86 +266,76 @@
       "description": "애널리스트 컨센서스 $192.68, 28명 중 16 Buy"
     },
     {
-      "name": "247 Wall St",
-      "url": "https://247wallst.com/investing/2026/03/16/why-i-wouldnt-dare-buy-palantir-stocks-latest-bounce/",
-      "description": "이란 전쟁 수혜 반등 분석, 밸류에이션 약세론"
-    },
-    {
-      "name": "Daily Political",
-      "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html",
-      "description": "BNP Paribas PLTR 보유량 17.6% 확대"
+      "name": "GuruFocus",
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/PLTR",
+      "description": "Forward P/E 115.85(3/15), GF Value $58.93"
     },
     {
       "name": "Investing.com",
       "url": "https://www.investing.com/equities/palantir-technologies-inc-technical",
       "description": "RSI 56.4, MACD 3.35, 기술적 분석"
-    },
-    {
-      "name": "TipRanks",
-      "url": "https://www.tipranks.com/news/palantir-stock-pltr-surges-460-in-five-years-why-im-bearish",
-      "description": "5년 460% 상승 후 약세론, Forward P/E 114x"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
-      "text": "$PLTR (3/17) AIPCon 9에서 NVIDIA 소버린 AI OS 공개. GTC 사장 연설 + $10억 국방 계약. Polymarket 스포츠 AI까지. $152.72(+1.17%).\n\n1/4",
+      "hook": "이란 전쟁에서 미군이 Palantir로 전술적 우위를 잡고 있다",
+      "text": "$PLTR (3/17) Yahoo Finance: 이란 전쟁에서 Palantir 소프트웨어가 미군의 전술적 우위를 만들고 있다. AIPCon, GTC, $10억 계약까지. $152.72(+1.17%).\n\n1/4",
       "thread": [
-        "Q4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137% 폭발. 가이던스 $7.2B(+61%). BNP Paribas +17.6% 등 기관 매수세.\n\n2/4",
-        "P/E 242배, YTD -14%로 고밸류 부담은 사실. 52주 최고 $208 대비 -26%. 다만 한 달 +16% 반등 중.\n\n3/4",
-        "50일선($154) 돌파 시도 중. RSI 56 중립. 컨센서스 $193(+26%). 분할 매수 전략이 합리적.\n\n4/4"
+        "GE Aerospace도 AIP로 항공 정비 자동화. Q4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. Mirae Asset $943M 보유.\n\n2/4",
+        "P/E 242배, YTD -14%로 비싸다는 건 사실. 하지만 +56% 성장에 이란 전쟁 수혜까지. 한 달 +16% 반등 중.\n\n3/4",
+        "50일선($154) 돌파 시도. RSI 56 중립. 컨센서스 $193(+26%). 분할 매수가 합리적.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
-      "text": "$PLTR (3/17) $152.72(+1.17%)\n\nAIPCon 9에서 NVIDIA와 소버린 AI OS를 공개했고, GTC에서 사장이 연설, $10억 국방 계약까지. Polymarket 스포츠 베팅 AI 모니터링에도 진출하면서 플랫폼 범용성을 입증했다.\n\nQ4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. 가이던스 $7.2B(+61%). 기관들은 흔들림 없이 사고 있다(BNP Paribas +17.6%).\n\nP/E 242배, YTD -14% 부담이 있지만 한 달 +16% 반등 중. 50일선($154) 돌파 시도. 컨센서스 $193(+26%)."
+      "hook": "이란 전쟁에서 실전 검증, Palantir의 가장 강력한 마케팅",
+      "text": "$PLTR (3/17) $152.72(+1.17%)\n\nYahoo Finance가 이란 전쟁에서 미군이 Palantir 소프트웨어로 전술적 우위를 확보하고 있다고 보도했다. 실전 검증이 곧 마케팅이다. AIPCon 소버린 AI OS, GTC 사장 연설, $10억 국방 계약, GE Aerospace AI까지 호재가 끊이지 않는다.\n\nQ4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. Mirae Asset $943M 보유. 글로벌 기관 관심 확대.\n\nP/E 242배 부담이 있지만 한 달 +16% 반등. 50일선($154) 돌파 시도 중. 컨센서스 $193(+26%)."
     },
     "telegram": {
-      "hook": "AIPCon 9 + GTC 사장 연설 + $10억 계약 + Polymarket AI",
-      "text": "Palantir 일일 분석 (3/17)\n\n가격: $152.72 (+1.17%)\n\n핵심 이슈\n- AIPCon 9: NVIDIA와 소버린 AI OS 공개 (3/12)\n- GTC에서 사장 Aki Jain 연설 (3/16)\n- $10억 규모 국방 AI 계약 수주 (3/15)\n- Polymarket 스포츠 베팅 AI 모니터링 진출 (3/10)\n- BNP Paribas 보유량 17.6% 확대\n\n실적 하이라이트\n- Q4 매출 $1.41B (+70% YoY, 역대 최고)\n- 미국 상업 매출 +137% YoY\n- FY2026 가이던스 $7.2B (+61%)\n\n주가 위치\n- 52주 최고($208) 대비 -26%\n- 50일 평균($154) 바로 아래\n- RSI 56.4 (중립)\n- 한 달간 +16.3% 반등\n\n목표가: $192.68 (+26%)\nP/E 242배 부담 있지만 성장률이 강력. 분할 매수 추천"
+      "hook": "이란 전쟁 실전 검증 + AIPCon + GTC + $10억 계약",
+      "text": "Palantir 일일 분석 (3/17)\n\n가격: $152.72 (+1.17%)\n\n핵심 이슈\n- Yahoo Finance: 이란 전쟁에서 Palantir로 미군 전술적 우위\n- GE Aerospace, AIP로 항공 정비/물류 자동화\n- AIPCon 9: NVIDIA 소버린 AI OS (3/12)\n- GTC 사장 연설 + NemoClaw (3/16)\n- $10억 국방 AI 계약 수주\n- Mirae Asset $942.7M 보유 확인\n\n실적\n- Q4 매출 $1.41B (+70% YoY, 역대 최고)\n- 미국 상업 +137%\n- FY2026 가이던스 $7.2B (+61%)\n\n주가 위치\n- 52주 최고 $208 대비 -26%\n- 50일선($154) 바로 아래\n- RSI 56.4 (중립)\n- 한 달 +16.3% 반등\n\n목표가: $192.68 (+26%)\n분할 매수 추천"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
-          "text": "$PLTR (3/17) AIPCon 9에서 NVIDIA 소버린 AI OS 공개. GTC 사장 연설 + $10억 국방 계약. Polymarket 스포츠 AI까지. $152.72(+1.17%).\n\n1/4",
+          "hook": "이란 전쟁에서 미군이 Palantir로 전술적 우위를 잡고 있다",
+          "text": "$PLTR (3/17) Yahoo Finance: 이란 전쟁에서 Palantir 소프트웨어가 미군의 전술적 우위를 만들고 있다. AIPCon, GTC, $10억 계약까지. $152.72(+1.17%).\n\n1/4",
           "thread": [
-            "Q4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137% 폭발. 가이던스 $7.2B(+61%). BNP Paribas +17.6% 등 기관 매수세.\n\n2/4",
-            "P/E 242배, YTD -14%로 고밸류 부담은 사실. 52주 최고 $208 대비 -26%. 다만 한 달 +16% 반등 중.\n\n3/4",
-            "50일선($154) 돌파 시도 중. RSI 56 중립. 컨센서스 $193(+26%). 분할 매수 전략이 합리적.\n\n4/4"
+            "GE Aerospace도 AIP로 항공 정비 자동화. Q4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. Mirae Asset $943M 보유.\n\n2/4",
+            "P/E 242배, YTD -14%로 비싸다는 건 사실. 하지만 +56% 성장에 이란 전쟁 수혜까지. 한 달 +16% 반등 중.\n\n3/4",
+            "50일선($154) 돌파 시도. RSI 56 중립. 컨센서스 $193(+26%). 분할 매수가 합리적.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Palantir, 일주일에 3번 주가 올릴 뉴스를 쏟아냈다",
-          "text": "$PLTR (3/17) AIPCon, GTC, $10억 계약까지. 일주일에 호재를 3개나 쏟아내면 주가가 안 올라도 이상할 지경이다. $152.72.\n\n1/4",
+          "hook": "Palantir 소프트웨어가 전쟁에서 이기고 있다, 주가도 따라갈 차례",
+          "text": "$PLTR (3/17) Yahoo Finance가 이란 전쟁에서 Palantir의 전술적 우위를 보도했다. 국방 AI 최고의 마케팅은 실전이다. $152.72.\n\n1/4",
           "thread": [
-            "Q4 매출 +70%, 미국 상업 +137%. 숫자가 너무 커서 실감이 안 되면 이건 어떨까. TCV $4.26B(+138%). 역대급.\n\n2/4",
-            "P/E 242배라고 비싸다는데, Polymarket 스포츠 AI까지 하는 회사가 몇 개나 될까. 사업 영역이 무한 확장 중.\n\n3/4",
-            "50일선 코앞. 뚫으면 200일선($163)이 다음 타깃. 컨센서스 $193(+26%). 이 속도면 금방이다.\n\n4/4"
+            "AIPCon, GTC, $10억 계약, GE Aerospace까지. 일주일에 호재 4개면 분기 치 뉴스다. 매출 +70% 역대 최고.\n\n2/4",
+            "P/E 242배라고 비싸다는데, 전쟁에서 쓰이는 소프트웨어는 경기 침체도 안 탄다. Mirae Asset도 $943M 들고 있다.\n\n3/4",
+            "50일선 코앞. 뚫으면 200일선($163)이 다음이다. 컨센서스 $193(+26%). 모멘텀이 오고 있다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR 주주들, -26% 버틴 보람이 느껴지는 한 주다",
-          "text": "$PLTR (3/17) $152.72(+1.17%). 52주 최고 $208에서 -26% 빠졌다. 쉽지 않았을 거다. 하지만 이번 주 뉴스는 다르다.\n\n1/4",
+          "hook": "PLTR 주주들, -26% 버틴 보람이 느껴지기 시작한다",
+          "text": "$PLTR (3/17) $152.72(+1.17%). 고점 $208에서 -26%. 쉽지 않았을 거다. 하지만 Yahoo Finance가 이란 전쟁에서의 실전 성과를 보도하기 시작했다.\n\n1/4",
           "thread": [
-            "AIPCon 9, GTC 사장 연설, $10억 국방 계약. 일주일 만에 3개의 대형 이벤트가 나왔다. 기관도 BNP +17.6%로 사고 있다.\n\n2/4",
-            "Q4 매출 +70% 역대 최고, 가이던스 +61%. 숫자는 확실히 성장하고 있다. Polymarket AI까지 새 시장이 열리고 있다.\n\n3/4",
-            "50일선($154) 돌파를 시도 중이다. 컨센서스 $193(+26%). 조금씩 분할 매수가 현명한 접근이다.\n\n4/4"
+            "AIPCon, GTC, $10억 계약, GE Aerospace AI. 뉴스가 바뀌고 있다. Mirae Asset $943M으로 한국 기관도 들어왔다.\n\n2/4",
+            "Q4 +70% 역대 최고, 가이던스 +61%. 숫자는 분명히 성장하고 있다. 한 달간 +16% 반등이 그 증거다.\n\n3/4",
+            "50일선($154) 돌파 시도 중. 컨센서스 $193(+26%). 분할 매수로 차근차근 접근하면 된다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
-          "text": "$PLTR (3/17) $152.72(+1.17%)\n\nAIPCon 9에서 NVIDIA와 소버린 AI OS를 공개했고, GTC에서 사장이 연설, $10억 국방 계약까지. Polymarket 스포츠 베팅 AI 모니터링에도 진출하면서 플랫폼 범용성을 입증했다.\n\nQ4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. 가이던스 $7.2B(+61%). 기관들은 흔들림 없이 사고 있다(BNP Paribas +17.6%).\n\nP/E 242배, YTD -14% 부담이 있지만 한 달 +16% 반등 중. 50일선($154) 돌파 시도. 컨센서스 $193(+26%)."
+          "hook": "이란 전쟁에서 실전 검증, Palantir의 가장 강력한 마케팅",
+          "text": "$PLTR (3/17) $152.72(+1.17%)\n\nYahoo Finance가 이란 전쟁에서 미군이 Palantir 소프트웨어로 전술적 우위를 확보하고 있다고 보도했다. 실전 검증이 곧 마케팅이다. AIPCon 소버린 AI OS, GTC 사장 연설, $10억 국방 계약, GE Aerospace AI까지 호재가 끊이지 않는다.\n\nQ4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. Mirae Asset $943M 보유. 글로벌 기관 관심 확대.\n\nP/E 242배 부담이 있지만 한 달 +16% 반등. 50일선($154) 돌파 시도 중. 컨센서스 $193(+26%)."
         },
         "witty": {
-          "hook": "Palantir, 일주일에 호재 3개를 쏟아내는 회사",
-          "text": "$PLTR (3/17) $152.72(+1.17%)\n\nAIPCon에서 NVIDIA 소버린 AI OS 공개, GTC에서 사장이 무대에 서고, $10억 국방 계약까지. 여기에 Polymarket 스포츠 AI까지? 일주일 치 뉴스가 아니라 분기 치 뉴스다.\n\nQ4 +70%, 미국 상업 +137%. TCV $4.26B(+138%). P/E 242배가 비싸다고? 이 성장률이면 내년엔 훨씬 싸 보일 수도.\n\n50일선 돌파가 코앞이다. 컨센서스 $193(+26%). 이란 전쟁이 국방 AI 예산을 올리고, Palantir가 그 돈을 가져간다."
+          "hook": "전쟁에서 이기게 해주는 소프트웨어, 주가도 이길 차례",
+          "text": "$PLTR (3/17) $152.72(+1.17%)\n\nYahoo Finance가 이란 전쟁에서의 전술적 우위를 보도했다. 최고의 영업이란 실전에서 증명하는 거다. 여기에 AIPCon, GTC, $10억 계약, GE Aerospace까지. 일주일에 호재 4개.\n\nQ4 +70%, 미국 상업 +137%, 가이던스 +61%. P/E 242배라지만 전쟁에서 쓰이는 소프트웨어는 경기를 안 탄다. Mirae Asset도 $943M을 넣었다.\n\n50일선 코앞. 컨센서스 $193(+26%). 실적이 이러면 밸류에이션도 결국 정당화된다."
         },
         "empathy": {
-          "hook": "PLTR 주주들, 52주 최고에서 -26% 빠진 뒤 반등의 실마리가 보인다",
-          "text": "$PLTR (3/17) $152.72(+1.17%)\n\n$208에서 $152까지 내려오는 동안 쉽지 않았을 거다. YTD -14%, S&P보다 훨씬 부진했고. 하지만 이번 주는 분위기가 다르다.\n\nAIPCon 9에서 NVIDIA 소버린 AI OS를 공개하고, GTC 사장 연설, $10억 국방 계약. Q4 매출 +70%, 가이던스 +61%. 기관도 사고 있다.\n\n50일선($154) 돌파를 시도 중이다. 한 달간 +16% 반등. 컨센서스 $193(+26%). 조급하지 않게 분할로 접근하면 된다."
+          "hook": "PLTR 주주들, 고점에서 -26%, 하지만 반등의 신호가 분명해지고 있다",
+          "text": "$PLTR (3/17) $152.72(+1.17%)\n\n$208에서 $152까지. YTD -14%. 힘든 시간이었을 거다. 하지만 이번 주는 분위기가 확실히 다르다.\n\nYahoo Finance가 이란 전쟁에서의 실전 성과를 보도했다. AIPCon, GTC, $10억 계약, GE Aerospace AI. 한 달간 +16% 반등이 우연이 아니다.\n\n50일선($154) 돌파를 시도 중이다. 컨센서스 $193(+26%). 조급하지 않게 분할로 접근하면 된다. 반등의 토대가 쌓이고 있다."
         }
       }
     }
