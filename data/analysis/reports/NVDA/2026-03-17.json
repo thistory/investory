@@ -41,7 +41,7 @@
     {
       "name": "영업이익률",
       "value": "60.38%",
-      "interpretation": "반도체 업계 최고 수준. 독점적 마진 유지"
+      "interpretation": "반도체 업계 최고 수준. 매출총이익률 71.1%와 함께 독점적 마진 유지"
     },
     {
       "name": "FCF",
@@ -78,8 +78,8 @@
       "description": "CNBC(3/16): $200억에 인수한 Groq의 첫 칩 Groq 3 LPU를 공개. 256개 LPU가 장착된 Groq 3 LPX 랙은 Vera Rubin과 함께 배치되어 와트당 토큰 생성량을 35배 높인다. Q3 출하 예정."
     },
     {
-      "title": "Kyber: 차세대 랙 아키텍처 프로토타입 공개",
-      "description": "CNBC(3/16): Rubin 이후의 차세대 랙 아키텍처 Kyber 프로토타입을 최초 공개. 144개 GPU를 수직으로 배치해 밀도를 높이고 지연시간을 낮춘다. Vera Rubin Ultra에 탑재되어 2027년 출하 예정."
+      "title": "Palantir 파트너십: Sovereign AI $600B 시장 공략",
+      "description": "Seeking Alpha(3/13): Palantir와 협력해 데이터 주권 AI 솔루션을 정부 및 기업에 배포. 2030년까지 $600B 규모로 예상되는 Sovereign AI 시장에서 선점 효과."
     },
     {
       "title": "Uber 28개 도시 자율주행 + NemoClaw 에이전트 플랫폼",
@@ -91,7 +91,7 @@
     "moats": [
       {
         "type": "CUDA 생태계",
-        "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."
+        "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화. GTC에서 CUDA 20주년을 기념하며 생태계 확장."
       },
       {
         "type": "설계 우위 + Groq 인수",
@@ -131,16 +131,16 @@
       "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang"
     },
     {
+      "date": "2026-03-13",
+      "headline": "Palantir와 Sovereign AI 파트너십 발표, 데이터 주권 AI 배포 확대",
+      "significance": "2030년까지 $600B 규모 Sovereign AI 시장 공략. 정부 및 국방 AI 인프라 수요에 대응",
+      "url": "https://seekingalpha.com/article/4881794-nvidia-the-palantir-partnership-is-a-trillion-dollar-catalyst"
+    },
+    {
       "date": "2026-03-16",
       "headline": "Reuters: 칩 매출 기회 $1조. 추론 시장을 AI 칩 핵심 성장 동력으로 제시",
       "significance": "학습에서 추론으로의 전환 강조. Groq+Vera Rubin 조합이 핵심 전략",
       "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "Thinking Machines Lab과 기가와트급 Vera Rubin 장기 파트너십 체결",
-      "significance": "프런티어 모델 훈련을 위한 대규모 인프라 계약. 스타트업도 NVIDIA 대규모 고객으로 부상",
-      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-16",
@@ -157,7 +157,7 @@
     "buyCount": 38,
     "holdCount": 1,
     "sellCount": 0,
-    "notableComment": "39명 애널리스트 Strong Buy 컨센서스. $1조 주문 발표 후 목표가 추가 상향 가능. Cantor '신뢰 회복 직전'. GTC 결과로 컨센서스 $274 이상으로 조정 예상."
+    "notableComment": "39명 애널리스트 Strong Buy 컨센서스. $1조 주문 발표 후 목표가 추가 상향 가능. Wells Fargo Aaron Rakers(상위 1% 애널리스트) $265 목표가 유지, Cantor '신뢰 회복 직전'. GTC 결과로 컨센서스 $274 이상으로 조정 예상."
   },
   "risks": [
     {
@@ -172,8 +172,8 @@
     },
     {
       "severity": "medium",
-      "title": "미중 기술 규제, 중국 수출 제한",
-      "description": "미국의 대중 AI 칩 수출 규제 지속. 중국 데이터센터 매출($10B+) 제한 리스크."
+      "title": "미중 기술 규제, 중국 수출 제한 및 EU 관세",
+      "description": "미국의 대중 AI 칩 수출 규제 지속. 중국 데이터센터 매출($10B+) 제한 리스크. 트럼프 행정부 EU 15-20% 최소 관세 추진 보도."
     },
     {
       "severity": "medium",
@@ -193,7 +193,7 @@
     },
     {
       "title": "Forward P/E 22배, PEG 0.57, 성장 대비 저평가",
-      "rationale": "Q1 FY2027 매출 $78B(+77% YoY) 가이던스. PEG 0.57은 1 미만으로 명확한 저평가 시그널."
+      "rationale": "Q1 FY2027 매출 $78B(+77% YoY) 가이던스. PEG 0.57은 1 미만으로 명확한 저평가 시그널. 작년 4월 관세 충격 이후 처음 보는 밸류에이션 수준."
     },
     {
       "title": "Groq 인수로 추론 시장 지배력 확대",
@@ -201,13 +201,13 @@
     },
     {
       "title": "FCF $97B, 세계 최고 현금 창출 기업",
-      "rationale": "연간 FCF $97B으로 자사주 매입, 배당, M&A 여력 충분. 주주 환원 확대 기대."
+      "rationale": "연간 FCF $97B으로 자사주 매입, 배당, M&A 여력 충분. Nebius $2B 투자 등 공격적 AI 인프라 확장 자금."
     }
   ],
   "technicalPosition": {
-    "week52High": 207.0,
-    "week52Low": 110.0,
-    "currentPositionPercent": 75.39,
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 76.86,
     "sma50": 185.46,
     "sma50Signal": "below",
     "sma200": 177.39,
@@ -216,13 +216,14 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "오늘 GTC 키노트에서 Jensen Huang이 2027년까지 $1조 주문을 발표했다. 작년 $5000억에서 2배로 뛴 숫자다. Groq 3 LPU(추론 특화 칩)와 Vera Rubin(와트당 성능 10배)도 공개했다.",
-    "매출 $216B(+65%), FCF $97B, 영업이익률 60%. Q1 가이던스 $78B(+77%)까지. 여기에 Uber 28개 도시 자율주행, NemoClaw AI 에이전트 플랫폼, 우주 데이터센터용 Vera Rubin Space Module까지 사업 영역이 폭발적으로 넓어지고 있다.",
-    "$183.13 마감(+1.6%). Forward P/E 22배에 PEG 0.57이면 77% 성장률 대비 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%). 200일선($177) 위에서 반등 중이다."
+    "어제 GTC 키노트에서 Jensen Huang이 2027년까지 $1조 주문을 발표했다. 작년 $5000억에서 2배로 뛴 숫자다. Groq 3 LPU(추론 특화 칩)와 Vera Rubin(와트당 성능 10배)도 공개했고, Palantir와 Sovereign AI 파트너십까지 더해졌다.",
+    "매출 $216B(+65%), FCF $97B, 영업이익률 60%. Q1 가이던스 $78B(+77%)까지. Uber 28개 도시 자율주행, NemoClaw AI 에이전트 플랫폼, 우주 데이터센터용 Vera Rubin Space Module까지 사업 영역이 폭발적으로 넓어지고 있다.",
+    "리스크도 있다. 구글, 아마존이 자체 AI 칩을 계속 밀고 있고, 트럼프 행정부의 EU 관세 추진 뉴스도 부담이다. Groq 통합이 순조롭지 않을 가능성도 열어둬야 한다.",
+    "$183.13 마감(+1.6%). 52주 고점 $212에서 -14% 빠진 자리. Forward P/E 22배에 PEG 0.57이면 77% 성장률 대비 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%)."
   ],
   "investmentVerdict": {
     "stance": "strong-buy",
-    "summary": "GTC에서 $1조 주문, Groq 3 LPU, Vera Rubin 10배 효율이 모두 확인됐다. PEG 0.57로 77% 성장 대비 저평가. 커스텀 칩 경쟁은 리스크지만 Groq 인수와 2년 주기 아키텍처 혁신이 격차를 유지한다. 대형 테크 중 가장 강력한 성장 스토리.",
+    "summary": "GTC에서 $1조 주문, Groq 3 LPU, Vera Rubin 10배 효율이 모두 확인됐다. Forward P/E 22배, PEG 0.57로 77% 성장 대비 저평가이며 작년 관세 충격 이후 최저 밸류에이션이다. 커스텀 칩 경쟁은 리스크지만 Groq 인수와 2년 주기 아키텍처 혁신, Palantir Sovereign AI 파트너십이 격차를 유지한다.",
     "horizon": "12-24개월"
   },
   "sources": [
@@ -239,104 +240,104 @@
     {
       "name": "Tom's Hardware",
       "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
-      "description": "GTC 키노트 라이브 블로그. Vera Rubin Space Module 25x"
+      "description": "GTC 키노트 라이브 블로그. Vera Rubin Space Module 25x, CUDA 20주년"
     },
     {
-      "name": "TechRadar",
-      "url": "https://www.techradar.com/pro/live/nvidia-gtc-2026-live-coverage-all-the-news-and-updates-as-it-happens",
-      "description": "GTC 라이브 커버리지. Vera Rubin 패밀리, Groq 3 LPU"
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "NVDA 목표가 $274.21 컨센서스, 39명 애널리스트"
     },
     {
-      "name": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
-      "description": "Thinking Machines Lab 기가와트급 파트너십"
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4881794-nvidia-the-palantir-partnership-is-a-trillion-dollar-catalyst",
+      "description": "Palantir 파트너십, Sovereign AI $600B 시장 분석"
+    },
+    {
+      "name": "StockInvest.us",
+      "url": "https://stockinvest.us/stock/NVDA",
+      "description": "52주 고점 $212.19, 저점 $86.62, 시가총액 $4.45T"
+    },
+    {
+      "name": "StockTitan",
+      "url": "https://www.stocktitan.net/financials/NVDA/",
+      "description": "FY2026 매출 $215.9B, 매출총이익률 71.1%"
+    },
+    {
+      "name": "Wells Fargo (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/wells-fargo-message-investors-nvidia-202313141.html",
+      "description": "Aaron Rakers 목표가 $265, 상위 1% 애널리스트"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/",
+      "description": "Forward P/E 22배, 관세 충격 이후 최저 밸류에이션"
     },
     {
       "name": "Investopedia",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
       "description": "3/16 시장 마감 요약. NVDA +1.6%"
-    },
-    {
-      "name": "ServeTheHome",
-      "url": "https://www.servethehome.com/nvidia-gtc-2026-keynote-live-coverage/",
-      "description": "Groq+Rubin 분리 추론 아키텍처 분석"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/",
-      "description": "NVIDIA 2020년대 가장 중요한 주식 분석"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "NVDA 목표가 $274.21 컨센서스"
-    },
-    {
-      "name": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/03/16/nvidia-rises-as-ceo-jensen-huang-takes-the-stage-at-gtc-event/",
-      "description": "GTC 키노트 당일 주가 반응 분석"
     }
   ],
   "snsContent": {
     "x": {
       "hook": "NVIDIA GTC에서 $1조 주문 발표, 작년의 2배",
-      "text": "$NVDA (3/17) GTC 키노트 결과가 나왔다. 2027년까지 $1조 주문(작년 $5000억의 2배). Groq 3 LPU로 추론 35배 효율, Vera Rubin 와트당 10배. $183.13(+1.6%).\n\n1/4",
+      "text": "$NVDA (3/17) GTC 키노트 결과. 2027년까지 $1조 주문(작년 $5000억의 2배). Groq 3 LPU 추론 35배, Vera Rubin 와트당 10배. $183(+1.6%).\n\n1/4",
       "thread": [
-        "매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 28개 도시 자율주행, 우주 데이터센터용 칩까지 발표했다.\n\n2/4",
-        "Forward P/E 22배, PEG 0.57. 77% 성장하는 회사치고는 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%).\n\n3/4",
-        "200일선($177) 위에서 반등 중. GTC 주간 역사적 +6.4% 패턴도 있다. 키노트 내용만 보면 목표가 상향은 시간문제.\n\n4/4"
+        "매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 28개 도시 자율주행, 우주용 칩, Palantir Sovereign AI 파트너십까지.\n\n2/4",
+        "Forward P/E 22배, PEG 0.57. 77% 성장 회사치고 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%).\n\n3/4",
+        "52주 고점 $212에서 -14%. 200일선($177) 위에서 반등 중. 키노트 숫자 반영되면 목표가 상향은 시간문제.\n\n4/4"
       ]
     },
     "threads": {
       "hook": "NVIDIA GTC에서 $1조 주문 발표, 작년의 2배",
-      "text": "$NVDA (3/17) $183.13(+1.6%)\n\nGTC 키노트 결과가 나왔다. Jensen Huang이 2027년까지 Blackwell+Vera Rubin 주문이 $1조라고 발표했다. 작년 $5000억의 정확히 2배. Groq 3 LPU(추론 35배 효율)와 차세대 랙 Kyber도 공개했다.\n\n매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 자율주행 28개 도시, 우주 데이터센터용 Vera Rubin Space Module까지. 실적도 파이프라인도 흠잡을 데가 없다.\n\nForward P/E 22배, PEG 0.57. 39명 중 38명 매수, 목표가 $274(+50%). 200일선($177) 위에서 반등 중. 목표가 상향은 시간문제다."
+      "text": "$NVDA (3/17) $183.13(+1.6%)\n\nGTC 키노트 결과가 나왔다. Jensen Huang이 2027년까지 Blackwell+Vera Rubin 주문이 $1조라고 발표했다. 작년 $5000억의 정확히 2배. Groq 3 LPU(추론 35배 효율)와 차세대 랙 Kyber도 공개했다.\n\n매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 자율주행 28개 도시, Palantir Sovereign AI, 우주 데이터센터용 Vera Rubin Space Module까지. 실적도 파이프라인도 흠잡을 데가 없다.\n\nForward P/E 22배, PEG 0.57. 39명 중 38명 매수, 목표가 $274(+50%). 52주 고점 $212에서 -14% 빠진 자리. 목표가 상향은 시간문제다."
     },
     "telegram": {
       "hook": "GTC 키노트 결과: $1조 주문, Groq 3 LPU, Vera Rubin",
-      "text": "NVIDIA 일일 분석 (3/17)\n\n가격: $183.13 (+1.6%)\n\nGTC 키노트 핵심\n- 2027년까지 $1조 주문 (작년 $5000억의 2배)\n- Vera Rubin: 와트당 성능 10배, 2026 H2 출하\n- Groq 3 LPU: 추론 35배 효율, Q3 출하\n- Kyber: 차세대 144 GPU 랙 아키텍처\n- NemoClaw: 엔터프라이즈 AI 에이전트 개발 도구\n- Uber 28개 도시 자율주행 파트너십\n- Vera Rubin Space Module: H100 대비 25배\n\n핵심 지표\n- FY2026 매출 $215.9B (+65%)\n- Q1 FY2027 가이던스 $78B (+77%)\n- Forward P/E 21.84, PEG 0.57\n- FCF $97B, 영업이익률 60%\n\n목표가: $274 (+50%), 39명 중 38명 Buy"
+      "text": "NVIDIA 일일 분석 (3/17)\n\n가격: $183.13 (+1.6%)\n\nGTC 키노트 핵심\n- 2027년까지 $1조 주문 (작년 $5000억의 2배)\n- Vera Rubin: 와트당 성능 10배, 2026 H2 출하\n- Groq 3 LPU: 추론 35배 효율, Q3 출하\n- Kyber: 차세대 144 GPU 랙 아키텍처\n- Palantir: Sovereign AI 파트너십\n- Uber 28개 도시 자율주행 파트너십\n- Vera Rubin Space Module: H100 대비 25배\n\n핵심 지표\n- FY2026 매출 $215.9B (+65%)\n- Q1 FY2027 가이던스 $78B (+77%)\n- Forward P/E 21.84, PEG 0.57\n- FCF $97B, 영업이익률 60%\n- 52주 고점 $212.19에서 -14%\n\n목표가: $274 (+50%), 39명 중 38명 Buy"
     },
     "tones": {
       "x": {
         "fact": {
           "hook": "NVIDIA GTC에서 $1조 주문 발표, 작년의 2배",
-          "text": "$NVDA (3/17) GTC 키노트 결과가 나왔다. 2027년까지 $1조 주문(작년 $5000억의 2배). Groq 3 LPU로 추론 35배 효율, Vera Rubin 와트당 10배. $183.13(+1.6%).\n\n1/4",
+          "text": "$NVDA (3/17) GTC 키노트 결과. 2027년까지 $1조 주문(작년 $5000억의 2배). Groq 3 LPU 추론 35배, Vera Rubin 와트당 10배. $183(+1.6%).\n\n1/4",
           "thread": [
-            "매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 28개 도시 자율주행, 우주 데이터센터용 칩까지 발표했다.\n\n2/4",
-            "Forward P/E 22배, PEG 0.57. 77% 성장하는 회사치고는 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%).\n\n3/4",
-            "200일선($177) 위에서 반등 중. GTC 주간 역사적 +6.4% 패턴도 있다. 키노트 내용만 보면 목표가 상향은 시간문제.\n\n4/4"
+            "매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 28개 도시 자율주행, 우주용 칩, Palantir Sovereign AI 파트너십까지.\n\n2/4",
+            "Forward P/E 22배, PEG 0.57. 77% 성장 회사치고 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%).\n\n3/4",
+            "52주 고점 $212에서 -14%. 200일선($177) 위에서 반등 중. 키노트 숫자 반영되면 목표가 상향은 시간문제.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Jensen Huang이 $1조를 말했다, 가죽재킷의 마법은 건재하다",
-          "text": "$NVDA (3/17) GTC에서 $1조 주문 발표. 작년 $5000억에서 2배. Groq를 $200억에 사더니 벌써 Groq 3 LPU를 꺼냈다. 인수한 지 3개월. $183.13.\n\n1/4",
+          "hook": "Jensen Huang이 $1조를 말했다, 가죽재킷의 마법은 건재",
+          "text": "$NVDA (3/17) GTC에서 $1조 주문 발표. 작년 $5000억에서 2배. Groq를 $200억에 사더니 3개월 만에 Groq 3 LPU를 꺼냈다. $183.\n\n1/4",
           "thread": [
-            "FCF $97B이면 하루에 $2.6억씩 현금이 쌓인다. 우주에도 칩을 보내겠다고 한다. Vera Rubin Space Module. 진지하다.\n\n2/4",
+            "FCF $97B이면 하루에 $2.6억씩 현금이 쌓인다. 우주에도 칩 보내고, Palantir랑 국가 AI까지. 뭘 안 하는 건지 궁금하다.\n\n2/4",
             "PEG 0.57인데 39명 중 38명이 사라고 한다. 나머지 1명은 아마 AMD 주주일 거다.\n\n3/4",
-            "목표가 $274(+50%). 키노트에서 나온 숫자가 진짜면 $274도 보수적이다. 가죽재킷의 마법은 아직 끝나지 않았다.\n\n4/4"
+            "목표가 $274(+50%). 52주 고점 $212에서 -14% 빠져 있다. 키노트 숫자가 진짜면 $274도 보수적이다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 들고 있었으면 오늘 GTC 결과에 안도했을 거다",
-          "text": "$NVDA (3/17) $183.13(+1.6%). ATH $207에서 -12% 빠져서 불안했을 수 있다. 하지만 오늘 GTC에서 $1조 주문이 확인됐다.\n\n1/4",
+          "hook": "NVDA 들고 있었으면 어제 GTC 결과에 안도했을 거다",
+          "text": "$NVDA (3/17) $183(+1.6%). ATH $212에서 -14% 빠져서 불안했을 수 있다. 하지만 어제 GTC에서 $1조 주문이 확인됐다.\n\n1/4",
           "thread": [
             "Groq 3 LPU, Vera Rubin 10배 효율, Kyber 아키텍처. Jensen Huang이 숫자와 제품으로 대답했다. 실적은 이미 증명돼 있다.\n\n2/4",
             "39명 중 38명 매수, 목표가 $274(+50%). PEG 0.57. 시장이 감정적으로 눌러놓은 구간이었다.\n\n3/4",
-            "200일선($177) 위에서 버텼고, GTC 주간 역사적 +6.4%. 이번 주가 분위기 전환점이 될 수 있다.\n\n4/4"
+            "200일선($177) 위에서 버텼다. 관세 우려가 있지만 $1조 수주가 불안을 상쇄하고도 남는다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
           "hook": "NVIDIA GTC에서 $1조 주문 발표, 작년의 2배",
-          "text": "$NVDA (3/17) $183.13(+1.6%)\n\nGTC 키노트 결과가 나왔다. Jensen Huang이 2027년까지 Blackwell+Vera Rubin 주문이 $1조라고 발표했다. 작년 $5000억의 정확히 2배. Groq 3 LPU(추론 35배 효율)와 차세대 랙 Kyber도 공개했다.\n\n매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 자율주행 28개 도시, 우주 데이터센터용 Vera Rubin Space Module까지. 실적도 파이프라인도 흠잡을 데가 없다.\n\nForward P/E 22배, PEG 0.57. 39명 중 38명 매수, 목표가 $274(+50%). 200일선($177) 위에서 반등 중. 목표가 상향은 시간문제다."
+          "text": "$NVDA (3/17) $183.13(+1.6%)\n\nGTC 키노트 결과가 나왔다. Jensen Huang이 2027년까지 Blackwell+Vera Rubin 주문이 $1조라고 발표했다. 작년 $5000억의 정확히 2배. Groq 3 LPU(추론 35배 효율)와 차세대 랙 Kyber도 공개했다.\n\n매출 $216B(+65%), FCF $97B. Q1 가이던스 $78B(+77%). Uber 자율주행 28개 도시, Palantir Sovereign AI, 우주 데이터센터용 Vera Rubin Space Module까지. 실적도 파이프라인도 흠잡을 데가 없다.\n\nForward P/E 22배, PEG 0.57. 39명 중 38명 매수, 목표가 $274(+50%). 52주 고점 $212에서 -14% 빠진 자리. 목표가 상향은 시간문제다."
         },
         "witty": {
-          "hook": "Jensen Huang이 $1조를 말했다, 가죽재킷의 마법은 건재하다",
-          "text": "$NVDA (3/17) $183.13(+1.6%)\n\nGTC에서 $1조 주문을 발표했다. 작년 $5000억에서 슬쩍 2배로 올려놨다. Groq를 $200억에 인수한 지 3개월 만에 벌써 Groq 3 LPU 칩을 꺼냈고, 추론 35배 효율이라고 한다.\n\nFCF $97B(하루 $2.6억), 우주 데이터센터용 칩까지. 39명 중 38명이 사라고 하는데 시장은 +1.6%만 줬다. 아직 소화 중인 듯.\n\n목표가 $274(+50%). PEG 0.57이면 키노트 내용의 절반만 반영된 거다. 가죽재킷의 마법은 끝나지 않았다."
+          "hook": "Jensen Huang이 $1조를 말했다, 가죽재킷의 마법은 건재",
+          "text": "$NVDA (3/17) $183.13(+1.6%)\n\nGTC에서 $1조 주문을 발표했다. 작년 $5000억에서 슬쩍 2배로 올려놨다. Groq를 $200억에 인수한 지 3개월 만에 벌써 Groq 3 LPU 칩을 꺼냈고, 추론 35배 효율이라고 한다.\n\nFCF $97B(하루 $2.6억), 우주 데이터센터용 칩에 Palantir 국가 AI까지. 39명 중 38명이 사라고 하는데 시장은 +1.6%만 줬다. 아직 소화 중인 듯.\n\n목표가 $274(+50%). PEG 0.57이면 키노트 내용의 절반만 반영된 거다. 가죽재킷의 마법은 끝나지 않았다."
         },
         "empathy": {
-          "hook": "NVDA 주주들, 오늘 GTC 결과에 안도했을 거다",
-          "text": "$NVDA (3/17) $183.13(+1.6%)\n\nATH $207에서 -12% 빠진 자리. 커스텀 칩 경쟁 우려에 AI 거품론까지. 불안했을 수 있다.\n\n하지만 오늘 GTC에서 $1조 주문, Groq 3 LPU, Vera Rubin 10배 효율이 모두 확인됐다. 숫자로 대답한 거다. 매출 $216B, FCF $97B, Q1 가이던스 $78B(+77%).\n\n39명 중 38명 매수, 목표가 $274(+50%). 200일선 위에서 반등 시작. 이번 주가 분위기 전환점이 될 수 있다. 기다린 보람이 있었다."
+          "hook": "NVDA 주주들, 어제 GTC 결과에 안도했을 거다",
+          "text": "$NVDA (3/17) $183.13(+1.6%)\n\nATH $212에서 -14% 빠진 자리. 커스텀 칩 경쟁 우려에 관세 뉴스까지. 불안했을 수 있다.\n\n하지만 어제 GTC에서 $1조 주문, Groq 3 LPU, Vera Rubin 10배 효율이 모두 확인됐다. 숫자로 대답한 거다. 매출 $216B, FCF $97B, Q1 가이던스 $78B(+77%).\n\n39명 중 38명 매수, 목표가 $274(+50%). 200일선 위에서 반등 시작. 이번 주가 분위기 전환점이 될 수 있다. 기다린 보람이 있었다."
         }
       }
     }

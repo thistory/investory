@@ -3,10 +3,10 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-17",
   "currentPrice": 152.72,
-  "marketCap": "$365B",
+  "marketCap": "$361B",
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더 - Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
-    "description": "Palantir는 정부, 민간 조직의 데이터 통합, 분석, AI 의사결정 플랫폼 제공. FY2025 매출 $4.48B(+56% YoY), 조정 영업이익률 32%. 월요일 종가 $152.72(+1.17%). $10억 규모 국방 AI 계약 수주(3/15). NVIDIA GTC에서 Palantir 사장 Aki Jain이 가속 컴퓨팅 세션 연설. NVIDIA NemoClaw 발표로 AI 에이전트 생태계에서 Palantir의 소버린 AI OS 위상 강화.",
+    "description": "Palantir는 정부, 민간 조직의 데이터 통합, 분석, AI 의사결정 플랫폼 제공. FY2025 매출 $4.48B(+56% YoY), Q4 매출 $1.41B(+70% YoY, 역대 최고). 조정 영업이익률 32%. 월요일 종가 $152.72(+1.17%). AIPCon 9(3/12)에서 NVIDIA와 소버린 AI OS 공개. GTC에서 사장 Aki Jain 연설. Polymarket 스포츠 베팅 AI 모니터링 진출.",
     "howTheyMakeMoney": [
       "정부 계약 (Gotham - 국방, 정보기관 데이터 분석)",
       "기업 AI 플랫폼 (Foundry - 산업 데이터 분석)",
@@ -24,23 +24,23 @@
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "242.8x",
-      "interpretation": "S&P 500 평균(27x)의 9배, 소프트웨어 업종 평균(45x)의 5.4배. 같은 AI 소프트웨어 Datadog(290x), CrowdStrike(적자)와 비교하면 동종 내에서는 중간 수준"
+      "value": "242.4x",
+      "interpretation": "S&P 500 평균(27x)의 9배, 소프트웨어 업종 평균(45x)의 5.4배. 섹터 중앙값 Forward P/E 21.3x 대비 극도로 높은 프리미엄. 다만 Datadog(290x), CrowdStrike(적자)와 비교하면 동종 내 중간 수준"
     },
     {
       "name": "Forward P/E",
-      "value": "115.5x",
-      "interpretation": "S&P 500 Forward P/E(21x)의 5.5배. 매출 성장률 +61%를 반영해도 비싼 편이지만, Rule of 40이 127로 SaaS 업계 최상위권"
+      "value": "115.9x",
+      "interpretation": "S&P 500 Forward P/E(21x)의 5.5배. 섹터 중앙값(21.3x)의 5.4배. GuruFocus GF Value $58.93 대비 현저히 고평가 판정"
     },
     {
       "name": "매출 성장률 (YoY)",
       "value": "+56.18%",
-      "interpretation": "FY2025 $4.48B. FY2026 가이던스 $7.18-7.20B(+61%)"
+      "interpretation": "FY2025 $4.48B. Q4 $1.41B(+70% YoY, 역대 최고). FY2026 가이던스 $7.18-7.20B(+61%). 미국 상업 매출 +137% 폭발"
     },
     {
       "name": "영업이익률",
       "value": "31.59%",
-      "interpretation": "SaaS 기업 중 최상위 마진"
+      "interpretation": "SaaS 기업 중 최상위 마진. Q4 GAAP 순이익 $609M 기록"
     },
     {
       "name": "FCF",
@@ -59,26 +59,26 @@
     },
     {
       "name": "RSI",
-      "value": "55",
-      "interpretation": "중립 구간. $1B 계약과 GTC 효과로 소폭 상승"
+      "value": "56.4",
+      "interpretation": "중립 구간. $1B 계약, AIPCon 9, GTC 효과로 소폭 상승 중"
     }
   ],
   "growthDrivers": [
     {
+      "title": "AIPCon 9에서 NVIDIA 소버린 AI OS 공개, 글로벌 AI 인프라 시장 공략",
+      "description": "Barchart(3/16): 3/12 AIPCon 9에서 NVIDIA와 '소버린 AI OS 레퍼런스 아키텍처' 공개. 각국 정부의 자체 AI 데이터센터 구축 시장(~$600B) 공략. 미 해군, SAP, Accenture 등 참여."
+    },
+    {
       "title": "$10억 국방 AI 계약 수주, 정부 매출 가속",
-      "description": "Motley Fool(3/16): Palantir가 $10억 규모 국방 AI 계약을 확보했다. 정부 AI 지출 폭발 시 Palantir가 최대 수혜자가 될 수 있다는 분석."
+      "description": "Motley Fool(3/16): Palantir가 $10억 규모 국방 AI 계약을 확보했다. 이란 전쟁 확대로 국방 AI 지출이 급증하면서 최대 수혜자로 부상."
     },
     {
-      "title": "GTC에서 Palantir 사장 연설, NVIDIA 파트너십 심화",
-      "description": "NVIDIA Blog(3/16): Palantir 사장 Aki Jain이 GTC 가속 컴퓨팅 세션에서 연설. NVIDIA NemoClaw(OpenClaw 에이전트 개발 도구) 발표와 함께 소버린 AI OS의 전략적 중요성 부각."
+      "title": "GTC에서 Palantir 사장 연설, NVIDIA NemoClaw 파트너십 심화",
+      "description": "NVIDIA Blog(3/16): Palantir 사장 Aki Jain이 GTC 가속 컴퓨팅 세션에서 연설. NemoClaw(에이전트 개발 도구) 발표와 함께 소버린 AI OS의 전략적 위치 강화."
     },
     {
-      "title": "NVIDIA와 소버린 AI OS 공동 출시, $600B 시장",
-      "description": "SDxCentral(3/13): 각국 정부가 자체 인프라에서 AI를 운영할 수 있는 턴키 솔루션. $600B 소버린 AI 시장 공략."
-    },
-    {
-      "title": "2026 가이던스 $7.18-7.20B(+61%), 역대 최고 성장 전망",
-      "description": "기존 컨센서스를 크게 상회하는 가이던스. AIP 부트캠프 전략의 상업 매출 전환 가속."
+      "title": "Polymarket 스포츠 베팅 AI 모니터링 진출, 새 수익원",
+      "description": "The Block(3/10): Polymarket이 Palantir, TWG AI와 'Vergence AI 엔진' 기반 스포츠 베팅 무결성 플랫폼 구축. 예측 시장 모니터링이라는 새 영역 개척."
     }
   ],
   "competitiveAdvantage": {
@@ -116,59 +116,59 @@
     {
       "date": "2026-03-16",
       "headline": "GTC에서 Palantir 사장 연설 + NVIDIA NemoClaw 발표로 AI 에이전트 생태계 핵심 위치 확인",
-      "significance": "NVIDIA 최대 행사에서 사장급 연설. NemoClaw(OpenClaw 에이전트 도구) 발표가 소버린 AI OS의 실용성을 강화",
+      "significance": "NVIDIA 최대 행사에서 사장급 연설. NemoClaw 발표가 소버린 AI OS의 실용성을 강화",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-16",
-      "headline": "Motley Fool: Palantir $10억 국방 AI 계약 수주. 정부 AI 지출 폭발 시 최대 수혜",
-      "significance": "단일 계약 규모 $10억. 정부 매출 가속과 가이던스 상향 가능성",
+      "headline": "Motley Fool: Palantir $10억 국방 AI 계약 수주. 이란 전쟁으로 정부 AI 지출 폭발 전망",
+      "significance": "단일 계약 규모 $10억. 이란 전쟁 확대로 국방 예산 급증, 최대 수혜 기대",
       "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/"
     },
     {
-      "date": "2026-03-16",
-      "headline": "Palantir-GE Aerospace 군 항공 정비 AI 파트너십 분석",
-      "significance": "국방 AI 적용 범위가 정보 분석에서 항공 정비까지 확대. 실질적 수익화 단계 진입",
-      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-16-palantir-and-ge-aerospace-are-working-together-on-military-aircraft-is-pltr-or-ge-stock-a-better-buy-here"
+      "date": "2026-03-12",
+      "headline": "AIPCon 9 개최: NVIDIA와 소버린 AI OS 레퍼런스 아키텍처 공개, 미 해군/SAP/Accenture 참여",
+      "significance": "9번째 AIPCon에서 정부 자체 AI 데이터센터용 턴키 솔루션 공개. Dell과의 협업도 확대",
+      "url": "https://www.barchart.com/story/news/779707/should-you-buy-palantir-stock-after-aipcon-2026"
+    },
+    {
+      "date": "2026-03-10",
+      "headline": "Polymarket, Palantir-TWG AI와 스포츠 베팅 무결성 플랫폼 구축. Vergence AI 엔진 기반",
+      "significance": "예측 시장 모니터링이라는 완전히 새로운 영역 진출. AI 플랫폼의 범용성 입증",
+      "url": "https://www.theblock.co/post/393009/polymarket-peter-thiel-palantir-develop-sports-betting-ai-monitoring-tool"
     },
     {
       "date": "2026-03-15",
       "headline": "BNP Paribas, Palantir 보유량 17.6% 확대. 기관 매수세 지속",
       "significance": "밸류에이션 부담에도 기관들이 지분 확대. 장기 성장성에 베팅",
       "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "이란 혁명수비대(IRGC), Palantir를 군사 기술 잠재적 타깃으로 지목",
-      "significance": "국방 AI 리더로서의 영향력 부각. 지정학적 리스크 동시 부상",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51205650/why-is-palantir-stock-falling-thursday"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 200.41,
+    "consensusTarget": 192.68,
     "highTarget": 260.0,
     "lowTarget": 50.0,
-    "upsidePercent": 31.23,
+    "upsidePercent": 26.17,
     "buyCount": 16,
     "holdCount": 10,
     "sellCount": 2,
-    "notableComment": "28명 애널리스트 중 16명 Buy. 컨센서스 $200.41(+31%). $10억 계약과 GTC 연설 후 목표가 상향 가능. Rosenblatt $200, UBS $180."
+    "notableComment": "28명 애널리스트 중 16명 Buy. 컨센서스 $192.68(+26%). AIPCon 9 + GTC 연설 + $10억 계약 이후 목표가 상향 가능. TipRanks는 460% 5년 상승에도 밸류에이션 부담으로 약세 의견."
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "데스크로스 발생, 기술적 약세 신호",
-      "description": "50일 이평선이 200일선 하향 돌파. 2021년 10월 유사 패턴 후 -60% 하락한 전례. 단기 추가 하락 가능."
+      "title": "극단적 밸류에이션, P/E 242배, Forward P/E 116배",
+      "description": "섹터 중앙값 Forward P/E 21.3x의 5.4배. GuruFocus GF Value $58.93 대비 현저히 고평가. 성장 둔화 시 멀티플 급격 수축 위험."
     },
     {
       "severity": "high",
-      "title": "극단적 밸류에이션, P/E 243배, PS 81배",
-      "description": "매출 $4.48B 기업이 시총 $365B. 성장 둔화 시 멀티플 급격 수축 위험."
+      "title": "2026 YTD -14%, 52주 최고가 대비 -26% 하락",
+      "description": "S&P 500 -2.2% 대비 크게 부진. AI 버블 우려와 고밸류에이션 주식 매도세의 직접 타격."
     },
     {
       "severity": "high",
-      "title": "이란 IRGC 타깃 지목, 지정학적 리스크",
-      "description": "이란 혁명수비대가 Palantir를 군사 기술 기업으로 잠재 타깃에 올렸다. 국방 AI 리더의 양날의 검."
+      "title": "이란 전쟁 확대, 양날의 검",
+      "description": "국방 AI 수요 급증의 촉매이지만, 지정학적 불확실성이 시장 전반을 압박. 전쟁 종료 시 디펜스 프리미엄 소멸 위험."
     },
     {
       "severity": "medium",
@@ -183,16 +183,16 @@
   ],
   "buyReasons": [
     {
-      "title": "$10억 국방 AI 계약 + GTC 사장 연설",
-      "rationale": "단일 $10억 계약으로 정부 매출 가속 확인. GTC에서 NVIDIA NemoClaw와 소버린 AI OS의 전략적 위치 강화."
+      "title": "AIPCon 9 + GTC + $10억 국방 계약, 3연타 호재",
+      "rationale": "AIPCon 9에서 소버린 AI OS 공개(3/12), GTC에서 사장 연설(3/16), $10억 국방 계약 수주(3/15). 일주일 사이 3개의 대형 이벤트가 성장 스토리를 강화."
     },
     {
-      "title": "2026 가이던스 $7.2B(+61%), 역대 최고 성장률",
-      "rationale": "가이던스가 기존 컨센서스를 크게 상회. AIP 상업 매출 전환 가속."
+      "title": "Q4 매출 +70% YoY, 미국 상업 +137%로 폭발적 성장",
+      "rationale": "Q4 매출 $1.41B 역대 최고. TCV $4.26B(+138%). FY2026 가이던스 $7.2B(+61%). 미국 매출이 77%로 수익 구조 안정."
     },
     {
-      "title": "기관투자자 매수세 확대",
-      "rationale": "BNP Paribas +17.6% 등 다수 기관이 지분 확대. 밸류에이션 부담에도 장기 성장성에 베팅."
+      "title": "Polymarket 스포츠 베팅 AI 모니터링, 새 시장 개척",
+      "rationale": "Vergence AI 엔진 기반 예측 시장 무결성 감시. 정부/기업을 넘어 핀테크, 예측 시장으로 TAM 확장."
     },
     {
       "title": "FCF 마진 47% + 무차입, 재무 건전성 최강",
@@ -200,51 +200,67 @@
     }
   ],
   "technicalPosition": {
-    "week52High": 210.53,
+    "week52High": 207.52,
     "week52Low": 76.5,
-    "currentPositionPercent": 56.88,
+    "currentPositionPercent": 58.17,
     "sma50": 153.85,
     "sma50Signal": "below",
     "sma200": 162.81,
     "sma200Signal": "below",
-    "rsi": 55,
+    "rsi": 56.4,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "$10억 규모 국방 AI 계약을 따냈고, 오늘 NVIDIA GTC에서 Palantir 사장이 직접 연설했다. NVIDIA는 NemoClaw(AI 에이전트 개발 도구)를 발표하면서 소버린 AI OS의 실용성이 한층 강화됐다.",
-    "기관투자자들은 데스크로스와 이란 리스크에도 흔들림 없이 매수 중이다(BNP Paribas +17.6%). 가이던스 $7.2B(+61%)은 역대 최고 성장률이고, GE Aerospace 군 항공 정비까지 사업 범위가 넓어지고 있다.",
-    "$152.72 마감(+1.17%). 50일선($154) 바로 아래에서 돌파를 시도 중이다. 목표가 $200(+31%). $10억 계약과 GTC 파트너십이 반등 계기가 될 수 있다."
+    "AIPCon 9에서 NVIDIA와 소버린 AI OS를 공개했고, 같은 주에 $10억 국방 계약과 GTC 사장 연설까지 3연타 호재가 나왔다. Polymarket 스포츠 베팅 AI 진출로 정부/기업을 넘어 새 시장도 열리고 있다.",
+    "Q4 매출 $1.41B(+70%)로 역대 최고를 갈아치웠고, 미국 상업 매출은 +137% 폭발했다. 가이던스 $7.2B(+61%)도 컨센서스를 크게 상회. 기관들은 흔들림 없이 사고 있다(BNP Paribas +17.6%).",
+    "다만 P/E 242배, 2026 YTD -14%로 고밸류에이션 부담은 여전하다. 한 달간 +16% 반등했지만 52주 최고가($208) 대비 -26%.",
+    "$152.72 마감. 50일선($154) 바로 아래에서 돌파를 시도 중이다. 컨센서스 $193(+26%). RSI 56으로 과매수도 과매도도 아닌 중립."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "$10억 국방 계약과 NVIDIA NemoClaw 파트너십이 성장 스토리를 강화한다. FY2026 +61% 가이던스와 기관 매수세도 긍정적. 데스크로스와 P/E 243배 부담은 분할 매수로 대응.",
+    "summary": "AIPCon 9, GTC, $10억 국방 계약의 3연타 호재가 성장 스토리를 한층 강화한다. Q4 매출 +70%, 가이던스 +61%의 초고속 성장이 P/E 242배의 일부를 정당화하지만, 섹터 중앙값의 5배가 넘는 프리미엄은 분할 매수가 현명하다.",
     "horizon": "6-12개월"
   },
   "sources": [
     {
+      "name": "Barchart",
+      "url": "https://www.barchart.com/story/news/779707/should-you-buy-palantir-stock-after-aipcon-2026",
+      "description": "AIPCon 9 분석, 소버린 AI OS, Forward P/E 148x, 섹터 중앙값 21.3x"
+    },
+    {
       "name": "Motley Fool",
       "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/",
-      "description": "$10억 국방 AI 계약 수주, 정부 AI 지출 폭발 전망"
+      "description": "$10억 국방 AI 계약 수주, 이란 전쟁 수혜 전망"
     },
     {
       "name": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
-      "description": "GTC 2026 프로그램, Palantir 사장 연설, NemoClaw 발표"
+      "description": "GTC 2026, Palantir 사장 연설, NemoClaw 발표"
     },
     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
-      "description": "GTC 키노트, NemoClaw(OpenClaw 에이전트) 상세"
+      "name": "The Block",
+      "url": "https://www.theblock.co/post/393009/polymarket-peter-thiel-palantir-develop-sports-betting-ai-monitoring-tool",
+      "description": "Polymarket-Palantir Vergence AI 스포츠 베팅 모니터링"
     },
     {
-      "name": "SDxCentral",
-      "url": "https://www.sdxcentral.com/news/nvidia-partners-with-palantir-on-sovereign-ai/",
-      "description": "NVIDIA-Palantir 소버린 AI OS 출시"
+      "name": "MacroTrends",
+      "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/pe-ratio",
+      "description": "P/E TTM 242.41(3/16), 시가총액 $313B, 분기별 EPS 추이"
     },
     {
-      "name": "FinancialContent/Barchart",
-      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-16-palantir-and-ge-aerospace-are-working-together-on-military-aircraft-is-pltr-or-ge-stock-a-better-buy-here",
-      "description": "Palantir-GE Aerospace 군 항공 정비 파트너십"
+      "name": "GuruFocus",
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/PLTR",
+      "description": "Forward P/E 115.85(3/15), GF Value $58.93"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/",
+      "description": "애널리스트 컨센서스 $192.68, 28명 중 16 Buy"
+    },
+    {
+      "name": "247 Wall St",
+      "url": "https://247wallst.com/investing/2026/03/16/why-i-wouldnt-dare-buy-palantir-stocks-latest-bounce/",
+      "description": "이란 전쟁 수혜 반등 분석, 밸류에이션 약세론"
     },
     {
       "name": "Daily Political",
@@ -252,86 +268,76 @@
       "description": "BNP Paribas PLTR 보유량 17.6% 확대"
     },
     {
-      "name": "Benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51205650/why-is-palantir-stock-falling-thursday",
-      "description": "이란 IRGC 타깃 지목 + 기술적 분석"
+      "name": "Investing.com",
+      "url": "https://www.investing.com/equities/palantir-technologies-inc-technical",
+      "description": "RSI 56.4, MACD 3.35, 기술적 분석"
     },
     {
-      "name": "Investopedia",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
-      "description": "3/16 시장 마감 요약. S&P +1%, Nasdaq +1.2%"
-    },
-    {
-      "name": "TradersUnion",
-      "url": "https://tradersunion.com/news/financial-news/show/1707687-palantir-gains-0-25percent-to-usd151-38/",
-      "description": "PLTR 기술적 분석, $145-$155 횡보 채널"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/",
-      "description": "PLTR 목표가 $200.41 컨센서스"
+      "name": "TipRanks",
+      "url": "https://www.tipranks.com/news/palantir-stock-pltr-surges-460-in-five-years-why-im-bearish",
+      "description": "5년 460% 상승 후 약세론, Forward P/E 114x"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Palantir $10억 국방 계약 + GTC에서 사장이 직접 연설",
-      "text": "$PLTR (3/17) $10억 국방 AI 계약 수주. 오늘 NVIDIA GTC에서 사장이 연설하고, NemoClaw로 소버린 AI 생태계가 강화됐다. $152.72(+1.17%).\n\n1/4",
+      "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
+      "text": "$PLTR (3/17) AIPCon 9에서 NVIDIA 소버린 AI OS 공개. GTC 사장 연설 + $10억 국방 계약. Polymarket 스포츠 AI까지. $152.72(+1.17%).\n\n1/4",
       "thread": [
-        "기관은 흔들림 없이 사고 있다. BNP Paribas +17.6%. 가이던스 $7.2B(+61%)은 역대급이고, GE Aerospace 군 항공 정비까지 영역 확대.\n\n2/4",
-        "데스크로스와 이란 리스크가 부담이지만, 50일선($154) 돌파를 시도 중이다. MACD도 상승 전환.\n\n3/4",
-        "목표가 $200(+31%). $10억 계약과 NVIDIA 파트너십이 반등의 계기가 될 수 있다.\n\n4/4"
+        "Q4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137% 폭발. 가이던스 $7.2B(+61%). BNP Paribas +17.6% 등 기관 매수세.\n\n2/4",
+        "P/E 242배, YTD -14%로 고밸류 부담은 사실. 52주 최고 $208 대비 -26%. 다만 한 달 +16% 반등 중.\n\n3/4",
+        "50일선($154) 돌파 시도 중. RSI 56 중립. 컨센서스 $193(+26%). 분할 매수 전략이 합리적.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Palantir $10억 국방 계약 + GTC에서 사장이 직접 연설",
-      "text": "$PLTR (3/17) $152.72(+1.17%)\n\n$10억 규모 국방 AI 계약을 따냈고, 오늘 NVIDIA GTC에서 사장이 직접 연설했다. NemoClaw 발표로 소버린 AI OS의 실용성이 강화됐다.\n\n기관투자자들은 데스크로스에도 매수 확대 중(BNP Paribas +17.6%). 가이던스 $7.2B(+61%), GE Aerospace 군 항공 정비까지 사업이 넓어지고 있다.\n\n50일선($154) 바로 아래에서 돌파 시도 중. 목표가 $200(+31%). 계약과 GTC가 반등 계기가 될 수 있다."
+      "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
+      "text": "$PLTR (3/17) $152.72(+1.17%)\n\nAIPCon 9에서 NVIDIA와 소버린 AI OS를 공개했고, GTC에서 사장이 연설, $10억 국방 계약까지. Polymarket 스포츠 베팅 AI 모니터링에도 진출하면서 플랫폼 범용성을 입증했다.\n\nQ4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. 가이던스 $7.2B(+61%). 기관들은 흔들림 없이 사고 있다(BNP Paribas +17.6%).\n\nP/E 242배, YTD -14% 부담이 있지만 한 달 +16% 반등 중. 50일선($154) 돌파 시도. 컨센서스 $193(+26%)."
     },
     "telegram": {
-      "hook": "$10억 국방 계약 + GTC 사장 연설 + NemoClaw",
-      "text": "Palantir 일일 분석 (3/17)\n\n가격: $152.72 (+1.17%)\n\n핵심 이슈\n- $10억 규모 국방 AI 계약 수주 (3/15)\n- Palantir 사장 Aki Jain, NVIDIA GTC 연설\n- NVIDIA NemoClaw 발표로 소버린 AI 생태계 강화\n- GE Aerospace 군 항공 정비 AI 파트너십\n- BNP Paribas 보유량 17.6% 확대\n\n주가 위치\n- 50일 평균($154) 바로 아래\n- 200일 평균($163) 아래\n- RSI 55 (중립, 소폭 상승)\n- 데스크로스 발생\n\n목표가: $200.41 (+31%)\n$10억 계약과 GTC가 반등 계기"
+      "hook": "AIPCon 9 + GTC 사장 연설 + $10억 계약 + Polymarket AI",
+      "text": "Palantir 일일 분석 (3/17)\n\n가격: $152.72 (+1.17%)\n\n핵심 이슈\n- AIPCon 9: NVIDIA와 소버린 AI OS 공개 (3/12)\n- GTC에서 사장 Aki Jain 연설 (3/16)\n- $10억 규모 국방 AI 계약 수주 (3/15)\n- Polymarket 스포츠 베팅 AI 모니터링 진출 (3/10)\n- BNP Paribas 보유량 17.6% 확대\n\n실적 하이라이트\n- Q4 매출 $1.41B (+70% YoY, 역대 최고)\n- 미국 상업 매출 +137% YoY\n- FY2026 가이던스 $7.2B (+61%)\n\n주가 위치\n- 52주 최고($208) 대비 -26%\n- 50일 평균($154) 바로 아래\n- RSI 56.4 (중립)\n- 한 달간 +16.3% 반등\n\n목표가: $192.68 (+26%)\nP/E 242배 부담 있지만 성장률이 강력. 분할 매수 추천"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Palantir $10억 국방 계약 + GTC에서 사장이 직접 연설",
-          "text": "$PLTR (3/17) $10억 국방 AI 계약 수주. 오늘 NVIDIA GTC에서 사장이 연설하고, NemoClaw로 소버린 AI 생태계가 강화됐다. $152.72(+1.17%).\n\n1/4",
+          "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
+          "text": "$PLTR (3/17) AIPCon 9에서 NVIDIA 소버린 AI OS 공개. GTC 사장 연설 + $10억 국방 계약. Polymarket 스포츠 AI까지. $152.72(+1.17%).\n\n1/4",
           "thread": [
-            "기관은 흔들림 없이 사고 있다. BNP Paribas +17.6%. 가이던스 $7.2B(+61%)은 역대급이고, GE Aerospace 군 항공 정비까지 영역 확대.\n\n2/4",
-            "데스크로스와 이란 리스크가 부담이지만, 50일선($154) 돌파를 시도 중이다. MACD도 상승 전환.\n\n3/4",
-            "목표가 $200(+31%). $10억 계약과 NVIDIA 파트너십이 반등의 계기가 될 수 있다.\n\n4/4"
+            "Q4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137% 폭발. 가이던스 $7.2B(+61%). BNP Paribas +17.6% 등 기관 매수세.\n\n2/4",
+            "P/E 242배, YTD -14%로 고밸류 부담은 사실. 52주 최고 $208 대비 -26%. 다만 한 달 +16% 반등 중.\n\n3/4",
+            "50일선($154) 돌파 시도 중. RSI 56 중립. 컨센서스 $193(+26%). 분할 매수 전략이 합리적.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "이란은 때리겠다 하는데, Palantir는 $10억 계약에 GTC 무대까지",
-          "text": "$PLTR (3/17) 이란은 '타깃'이라 하고, 미국 국방부는 $10억을 줬다. 적도 인정하는 존재감. GTC에선 사장이 NVIDIA 무대에 섰다. $152.72.\n\n1/4",
+          "hook": "Palantir, 일주일에 3번 주가 올릴 뉴스를 쏟아냈다",
+          "text": "$PLTR (3/17) AIPCon, GTC, $10억 계약까지. 일주일에 호재를 3개나 쏟아내면 주가가 안 올라도 이상할 지경이다. $152.72.\n\n1/4",
           "thread": [
-            "BNP Paribas는 17.6% 더 샀다. 데스크로스에도 기관은 조용히 줍줍. P/E 243배라고 안 사진 않는다.\n\n2/4",
-            "$600B 소버린 AI에 NemoClaw까지. 가이던스 $7.2B(+61%). 이 성장률이면 P/E가 빠르게 내려올 수도.\n\n3/4",
-            "목표가 $200(+31%). 50일선 돌파하면 차트가 달라진다. 이란 리스크? 국방 예산만 올리는 효과다.\n\n4/4"
+            "Q4 매출 +70%, 미국 상업 +137%. 숫자가 너무 커서 실감이 안 되면 이건 어떨까. TCV $4.26B(+138%). 역대급.\n\n2/4",
+            "P/E 242배라고 비싸다는데, Polymarket 스포츠 AI까지 하는 회사가 몇 개나 될까. 사업 영역이 무한 확장 중.\n\n3/4",
+            "50일선 코앞. 뚫으면 200일선($163)이 다음 타깃. 컨센서스 $193(+26%). 이 속도면 금방이다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR 주주들, 오늘은 좋은 뉴스가 겹쳤다",
-          "text": "$PLTR (3/17) $152.72(+1.17%). 데스크로스에 이란 리스크까지 불안했을 거다. 하지만 오늘은 다르다.\n\n1/4",
+          "hook": "PLTR 주주들, -26% 버틴 보람이 느껴지는 한 주다",
+          "text": "$PLTR (3/17) $152.72(+1.17%). 52주 최고 $208에서 -26% 빠졌다. 쉽지 않았을 거다. 하지만 이번 주 뉴스는 다르다.\n\n1/4",
           "thread": [
-            "$10억 국방 계약을 따냈고, GTC에서 사장이 직접 연설했다. NVIDIA가 NemoClaw를 발표하면서 파트너십이 더 깊어졌다.\n\n2/4",
-            "기관들도 흔들리지 않고 있다. BNP Paribas +17.6%. 가이던스 $7.2B(+61%)은 진짜 강하다.\n\n3/4",
-            "50일선($154) 돌파가 코앞이다. 목표가 $200(+31%). 불안하면 분할 매수로 접근해도 된다.\n\n4/4"
+            "AIPCon 9, GTC 사장 연설, $10억 국방 계약. 일주일 만에 3개의 대형 이벤트가 나왔다. 기관도 BNP +17.6%로 사고 있다.\n\n2/4",
+            "Q4 매출 +70% 역대 최고, 가이던스 +61%. 숫자는 확실히 성장하고 있다. Polymarket AI까지 새 시장이 열리고 있다.\n\n3/4",
+            "50일선($154) 돌파를 시도 중이다. 컨센서스 $193(+26%). 조금씩 분할 매수가 현명한 접근이다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Palantir $10억 국방 계약 + GTC에서 사장이 직접 연설",
-          "text": "$PLTR (3/17) $152.72(+1.17%)\n\n$10억 규모 국방 AI 계약을 따냈고, 오늘 NVIDIA GTC에서 사장이 직접 연설했다. NemoClaw 발표로 소버린 AI OS의 실용성이 강화됐다.\n\n기관투자자들은 데스크로스에도 매수 확대 중(BNP Paribas +17.6%). 가이던스 $7.2B(+61%), GE Aerospace 군 항공 정비까지 사업이 넓어지고 있다.\n\n50일선($154) 바로 아래에서 돌파 시도 중. 목표가 $200(+31%). 계약과 GTC가 반등 계기가 될 수 있다."
+          "hook": "Palantir 일주일 만에 3연타 호재: AIPCon + GTC + $10억 계약",
+          "text": "$PLTR (3/17) $152.72(+1.17%)\n\nAIPCon 9에서 NVIDIA와 소버린 AI OS를 공개했고, GTC에서 사장이 연설, $10억 국방 계약까지. Polymarket 스포츠 베팅 AI 모니터링에도 진출하면서 플랫폼 범용성을 입증했다.\n\nQ4 매출 $1.41B(+70%) 역대 최고. 미국 상업 +137%. 가이던스 $7.2B(+61%). 기관들은 흔들림 없이 사고 있다(BNP Paribas +17.6%).\n\nP/E 242배, YTD -14% 부담이 있지만 한 달 +16% 반등 중. 50일선($154) 돌파 시도. 컨센서스 $193(+26%)."
         },
         "witty": {
-          "hook": "이란은 때리겠다 하는데, Palantir는 $10억 계약에 GTC 무대까지",
-          "text": "$PLTR (3/17) $152.72(+1.17%)\n\n이란은 '타깃'이라 하고, 미국 국방부는 $10억을 줬다. GTC에선 NVIDIA가 무대를 내줬다. 적도 인정하는 존재감이란 이런 거다.\n\nBNP Paribas는 17.6% 더 사고 있다. $600B 소버린 AI에 NemoClaw까지. P/E 243배라 비싸 보여도 +61% 성장이면 이야기가 다르다.\n\n50일선 돌파가 코앞이다. 목표가 $200(+31%). 이란 리스크는 역설적으로 국방 예산만 올리는 효과다."
+          "hook": "Palantir, 일주일에 호재 3개를 쏟아내는 회사",
+          "text": "$PLTR (3/17) $152.72(+1.17%)\n\nAIPCon에서 NVIDIA 소버린 AI OS 공개, GTC에서 사장이 무대에 서고, $10억 국방 계약까지. 여기에 Polymarket 스포츠 AI까지? 일주일 치 뉴스가 아니라 분기 치 뉴스다.\n\nQ4 +70%, 미국 상업 +137%. TCV $4.26B(+138%). P/E 242배가 비싸다고? 이 성장률이면 내년엔 훨씬 싸 보일 수도.\n\n50일선 돌파가 코앞이다. 컨센서스 $193(+26%). 이란 전쟁이 국방 AI 예산을 올리고, Palantir가 그 돈을 가져간다."
         },
         "empathy": {
-          "hook": "PLTR 주주들, 오늘은 좋은 뉴스가 겹쳤다",
-          "text": "$PLTR (3/17) $152.72(+1.17%)\n\n데스크로스, 이란 타깃, P/E 243배. 마음이 편하지 않았을 거다. 하지만 오늘 $10억 국방 계약 소식과 GTC 사장 연설이 나왔다.\n\nNVIDIA가 NemoClaw를 발표하면서 파트너십이 한층 깊어졌고, 기관들은 흔들림 없이 매수 중이다(BNP Paribas +17.6%).\n\n50일선($154) 돌파가 코앞이다. 가이던스 $7.2B(+61%)도 역대급. 목표가 $200(+31%). 조금씩 기다린 보람이 나올 수 있다."
+          "hook": "PLTR 주주들, 52주 최고에서 -26% 빠진 뒤 반등의 실마리가 보인다",
+          "text": "$PLTR (3/17) $152.72(+1.17%)\n\n$208에서 $152까지 내려오는 동안 쉽지 않았을 거다. YTD -14%, S&P보다 훨씬 부진했고. 하지만 이번 주는 분위기가 다르다.\n\nAIPCon 9에서 NVIDIA 소버린 AI OS를 공개하고, GTC 사장 연설, $10억 국방 계약. Q4 매출 +70%, 가이던스 +61%. 기관도 사고 있다.\n\n50일선($154) 돌파를 시도 중이다. 한 달간 +16% 반등. 컨센서스 $193(+26%). 조급하지 않게 분할로 접근하면 된다."
         }
       }
     }

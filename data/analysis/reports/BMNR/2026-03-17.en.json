@@ -2,341 +2,173 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-17",
-  "currentPrice": 22.6,
+  "currentPrice": 22.60,
   "marketCap": "$9.8B",
   "businessSummary": {
-    "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum",
-    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,596,000 ETH (3.81% of total supply) as of 3/16, with total crypto + cash of $11.5B. Monday close $22.60 (+10.03%). ETH rally to $2,250 drove the surge. ARK (Cathie Wood), Founders Fund, Pantera among premier institutional backers. Eightco ($ORBS) additional $80M investment provides indirect OpenAI exposure.",
+    "oneLiner": "The world's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to ETH as a digital asset treasury company",
+    "description": "Originally a Bitcoin mining company, Bitmine pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/15, the company holds 4,595,562 ETH (3.81% of total supply), with total crypto + cash holdings of $11.5B. Monday's close: $22.60 (+10.03%), surging on ETH's bounce to $2,250. Backed by premier institutional investors including ARK (Cathie Wood), Founders Fund, and Pantera. Led Eightco ($ORBS) $125M institutional raise ($75M from BMNR), gaining indirect exposure to OpenAI equity.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,596,000 ETH (~$10.3B at $2,250/ETH)",
-      "ETH Staking: 3,040,515 ETH staked, ~$180M+ annual revenue",
-      "Dividend: 5.3% yield, only crypto treasury company paying dividends",
-      "Bitcoin: 196 BTC (minor)",
-      "Moonshot Investments: Beast Industries $200M, Eightco (ORBS) $94M (indirect OpenAI exposure)"
+      "ETH Treasury: Holds 4,595,562 ETH (~$10.3B at $2,250/ETH), the core value driver",
+      "ETH Staking Revenue: 3,040,515 ETH staked, generating ~$180M+ annually ($272M potential at full staking)",
+      "Dividends: 5.3% yield, the only crypto treasury company paying dividends",
+      "Bitcoin Holdings: 196 BTC (supplementary)",
+      "Moonshot Investments: Beast Industries $200M, Eightco (ORBS) $83M (indirect $50M OpenAI equity exposure)"
     ],
-    "keyProducts": [
-      "Ethereum Treasury",
-      "ETH Staking",
-      "MAVAN Validator Network",
-      "Crypto Holdings",
-      "Moonshot Investments"
-    ]
+    "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings", "Moonshot Investments"]
   },
   "keyMetrics": [
-    {
-      "name": "P/B (TTM)",
-      "value": "0.83x",
-      "interpretation": "Trading at 17% discount to NAV. Total assets $11.8B vs market cap $9.8B"
-    },
-    {
-      "name": "ETH Holdings",
-      "value": "4,596,000 ETH",
-      "interpretation": "3.81% of total ETH supply. World's largest public ETH treasury. 76% of '5% Alchemy' target"
-    },
-    {
-      "name": "Total Crypto + Cash",
-      "value": "$11.8B",
-      "interpretation": "ETH $10.3B (at $2,250) + Cash $1.2B + Moonshots $294M. Rising on ETH rebound"
-    },
-    {
-      "name": "Dividend Yield",
-      "value": "5.3%",
-      "interpretation": "Only crypto treasury company with dividends. Income investor appeal"
-    },
-    {
-      "name": "Staked ETH",
-      "value": "3,040,515 ETH",
-      "interpretation": "66% of holdings staked. $180M+ annual passive income"
-    },
-    {
-      "name": "P/E (TTM)",
-      "value": "Negative (EPS -$1.32)",
-      "interpretation": "Loss-making due to ETH mark-to-market. P/B (0.83x) is the appropriate metric, trading at a deep discount to S&P 500 average P/B (4.5x)"
-    },
-    {
-      "name": "Daily Trading Volume",
-      "value": "$1.0B+",
-      "interpretation": "Top-tier US stock liquidity. Institutional-grade volume"
-    },
-    {
-      "name": "YTD Return",
-      "value": "-29%",
-      "interpretation": "Down from year-start but rebounding. ETH SuperTrend flipped bullish"
-    }
+    {"name": "P/B Ratio (TTM)", "value": "0.83x", "interpretation": "Trading at a 17% discount to NAV. Market cap $9.8B vs. total assets $11.8B. Deeply discounted compared to MSTR (P/B 2-3x)"},
+    {"name": "ETH Holdings", "value": "4,595,562 ETH", "interpretation": "3.81% of total ETH supply. World's largest publicly listed ETH treasury. 76% of the way to the '5% Alchemy' target"},
+    {"name": "Total Crypto + Cash", "value": "$11.5B", "interpretation": "ETH $10.0B (at $2,185/ETH) + Cash $1.2B + Beast $200M + Eightco $83M. Up $1.2B from one week ago"},
+    {"name": "Dividend Yield", "value": "5.3%", "interpretation": "Only crypto treasury company paying a dividend. Attractive to income-oriented investors"},
+    {"name": "Staked ETH", "value": "3,040,515 ETH", "interpretation": "66% of holdings are staked, generating $180M+ in passive annual income. Full staking could yield $272M"},
+    {"name": "P/E Ratio (TTM)", "value": "N/A (EPS -$0.05/Q)", "interpretation": "Reported net loss due to ETH mark-to-market accounting (net margin -67,546%). Traditional P/E not applicable. P/B (0.83x) is the more appropriate valuation metric vs. crypto sector avg P/E 45x and S&P 500 avg P/E 24x"},
+    {"name": "ROE", "value": "7.89%", "interpretation": "Positive return on equity despite crypto accounting distortions, driven by staking revenue"},
+    {"name": "Avg. Daily Trading Volume", "value": "$1.0B", "interpretation": "Ranked 105th among U.S. equities by volume. Institutional-grade liquidity"}
   ],
   "growthDrivers": [
-    {
-      "title": "Monday +10.03% Surge on ETH Rally and $11.5B Treasury Disclosure",
-      "description": "GURUFocus (3/16): BMNR closed at $22.60 (+10.03%), reaching intraday high of $23.24. ETH breaking $2,250 lifted treasury value. Combined with $11.5B disclosure and institutional backer reveal."
-    },
-    {
-      "title": "ETH SuperTrend Flipped to Buy, Historically Preceded 52%/174% Rallies",
-      "description": "Ali Charts (3/16): First SuperTrend buy signal since September. Previous two instances led to 52% and 174% gains. Major technical bullish signal for ETH and BMNR."
-    },
-    {
-      "title": "Premier Institutional Backers Officially Revealed",
-      "description": "PRNewswire (3/16): ARK (Cathie Wood), MOZAYYX, Founders Fund, Bill Miller III, Pantera, Kraken, DCG, Galaxy Digital officially disclosed as backers for the first time."
-    },
-    {
-      "title": "Eightco (ORBS) Additional $80M Investment, Indirect OpenAI Exposure",
-      "description": "PRNewswire (3/16): $80M additional to ORBS (total $94M). ORBS holds $50M in OpenAI shares, the only publicly traded company with direct OpenAI equity."
-    },
-    {
-      "title": "MAVAN Staking Platform Q1 2026 Launch Imminent",
-      "description": "Made in America Validator Network to reduce third-party staking fees. Revenue improvement expected."
-    }
+    {"title": "Led Eightco (ORBS) $125M Institutional Raise with ARK and Payward", "description": "PRNewswire (3/12): BMNR committed $75M, joined by ARK ($25M) and Payward ($25M) in a $125M institutional raise for Eightco. ORBS is the only publicly listed company with $50M in OpenAI equity. Tom Lee joined the ORBS board."},
+    {"title": "Monday's 10% Surge on $11.5B Treasury Disclosure + Institutional Roster", "description": "PRNewswire (3/16): Disclosed 4,595,562 ETH and $11.5B total holdings. First official reveal of institutional backers: ARK (Cathie Wood), Founders Fund, Bill Miller III, Pantera, Kraken, DCG, and Galaxy Digital. Rally coincided with ETH rebounding to $2,250."},
+    {"title": "ETH SuperTrend Flips to Buy for First Time Since September", "description": "Ali Charts (3/16): ETH SuperTrend indicator flipped from sell to buy. The previous two flips preceded rallies of 52% and 174%. BMNR, as a leveraged ETH equity play, stands to benefit directly."},
+    {"title": "BlackRock Stake Up 165.6%, ARK Holds 9.4M Shares", "description": "24/7 Wall St (3/16): BlackRock increased its BMNR position by 165.6%, while ARK Invest holds approximately 9.4M shares. Clear evidence of aggressive institutional accumulation."},
+    {"title": "MAVAN Self-Staking Platform Set for Q1 2026 Launch", "description": "The Made in America Validator Network will reduce third-party staking fees. Full staking deployment could generate $272M in annual revenue. Q1 2026 launch on track."}
   ],
   "competitiveAdvantage": {
-    "summary": "Largest public ETH holdings at 3.81% of supply. Tom Lee + ARK + Founders Fund + Pantera top-tier institutional backing. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
+    "summary": "Largest ETH holding among publicly listed companies (3.81% of supply). Backed by an elite institutional roster including Tom Lee, ARK, Founders Fund, and Pantera. The only company executing MicroStrategy's BTC strategy on Ethereum at scale.",
     "moats": [
-      {
-        "type": "ETH Supply Concentration",
-        "description": "3.81% of total ETH supply. 76% toward '5% Alchemy' target. Irreplaceable market position."
-      },
-      {
-        "type": "Institutional Investor Coalition",
-        "description": "ARK (Cathie Wood), Founders Fund, Pantera, Galaxy Digital. Premier crypto institutions."
-      },
-      {
-        "type": "Staking Revenue + Dividend",
-        "description": "3M+ ETH staked + MAVAN platform. 5.3% dividend plus passive income."
-      }
+      {"type": "ETH Supply Concentration", "description": "Holds 3.81% of total ETH supply. 76% toward the '5% Alchemy' goal. Virtually irreplaceable market position."},
+      {"type": "Institutional Investor Base", "description": "ARK (9.4M shares), BlackRock (+165.6%), Founders Fund, Pantera, and Galaxy Digital among the top-tier crypto institutional backers."},
+      {"type": "Staking Income + Dividends", "description": "3M+ ETH staked with proprietary MAVAN platform. Combines 5.3% dividend yield with passive staking revenue, a unique proposition in crypto."}
     ],
     "competitors": [
-      {
-        "name": "MicroStrategy (MSTR)",
-        "detail": "Bitcoin treasury pioneer. BTC focus vs BMNR's ETH focus"
-      },
-      {
-        "name": "Grayscale Ethereum Trust (ETHE)",
-        "detail": "ETH ETF competitor. Different fee structure"
-      },
-      {
-        "name": "Coinbase (COIN)",
-        "detail": "Exchange-based crypto exposure. Fundamentally different model"
-      }
+      {"name": "MicroStrategy (MSTR)", "detail": "The OG Bitcoin treasury play. BTC-focused vs. BMNR's ETH focus. Trades at P/B 2-3x premium compared to BMNR"},
+      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor with different fee structure"},
+      {"name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-16",
-      "headline": "BMNR surges 10.03% to $22.60, intraday high $23.24. ETH rally + $11.5B disclosure",
-      "significance": "Double-digit gain in a broadly positive market. ETH rebound and institutional revelation drove momentum",
-      "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "24/7 Wall St: Bitmine soars 11%, Tom Lee's Ethereum bet gets even bigger",
-      "significance": "4,596,000 ETH (3.81% of supply). 60,999 ETH purchase was the largest of 2026",
-      "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "ETH SuperTrend flips to Buy for first time since September. Previous signals: +52%, +174%",
-      "significance": "Powerful technical buy signal. BMNR as leveraged ETH play stands to benefit disproportionately",
-      "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "CoinCentral: Bitmine makes largest ETH purchase of 2026 (60,999 ETH), cash at $1.2B",
-      "significance": "Aggressive accumulation while maintaining $1.2B cash. Balanced aggression and stability",
-      "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "Bitcoin hits $74,200, ETH breaks $2,250. Strait of Hormuz tensions ease, crypto rallies",
-      "significance": "Oil pullback + geopolitical de-escalation drives broad crypto recovery",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
-    }
+    {"date": "2026-03-16", "headline": "BMNR surges 10% to $22.60, discloses 4,595,562 ETH and $11.5B treasury. Institutional roster revealed", "significance": "First official disclosure of ARK, Founders Fund, Pantera and other premier institutional backers. Rally coincided with ETH bounce to $2,250", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html"},
+    {"date": "2026-03-16", "headline": "BlackRock increases stake by 165.6%, ARK confirmed holding ~9.4M shares", "significance": "The world's largest asset manager and ARK both aggressively accumulating. Institutional conviction at new highs", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/"},
+    {"date": "2026-03-16", "headline": "ETH SuperTrend flips to buy for first time since September. Prior signals preceded 52%/174% rallies", "significance": "Powerful technical buy signal. BMNR as a leveraged ETH equity stands to benefit directly", "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/"},
+    {"date": "2026-03-12", "headline": "Eightco (ORBS) secures $125M institutional commitment led by BMNR ($75M), ARK ($25M), Payward ($25M)", "significance": "BMNR-led mega investment. Tom Lee joins ORBS board. Expands indirect OpenAI equity exposure", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html"},
+    {"date": "2026-03-16", "headline": "Motley Fool: BMNR +13.44% to $23.30, 'rocked the market' on crypto recovery", "significance": "Hit intraday high of $23.24, after-hours $23.30. Expanding mainstream financial media coverage", "url": "https://www.fool.com/investing/2026/03/16/why-bitmine-immersion-technologies-stock-rocked-th/"}
   ],
   "analystOpinions": {
-    "consensusTarget": 30.0,
-    "highTarget": 34.5,
-    "lowTarget": 30.0,
-    "upsidePercent": 32.74,
-    "buyCount": 1,
-    "holdCount": 0,
+    "consensusTarget": 34.50,
+    "highTarget": 60.00,
+    "lowTarget": 30.00,
+    "upsidePercent": 52.65,
+    "buyCount": 3,
+    "holdCount": 1,
     "sellCount": 0,
-    "notableComment": "B. Riley $30 Strong Buy maintained. Coverage extremely limited, but ARK/Pantera direct investment indicates strong institutional conviction. ETH rally could drive upgrades."
+    "notableComment": "Cantor Fitzgerald initiated Overweight/$39 (1/5), B. Riley rates Buy/$30 (cut from $47 on 2/23). 4 analysts covering: 2 Strong Buy, 1 Buy, 1 Hold. GURUFocus consensus target $43 (High $60). BlackRock's 165.6% stake increase and ARK's 9.4M-share position signal growing institutional conviction."
   },
   "risks": [
-    {
-      "severity": "critical",
-      "title": "ETH price dependency (90%+ of assets in ETH)",
-      "description": "4,596,000 ETH is the vast majority of assets. ETH dropping to $1,500 would shrink treasury to $6.9B, NAV down 30%+."
-    },
-    {
-      "severity": "high",
-      "title": "Short seller report impact + extreme volatility",
-      "description": "Culper Research short report effects persist. Stock collapsed 86% from 52-week high of $161."
-    },
-    {
-      "severity": "high",
-      "title": "Extremely limited analyst coverage",
-      "description": "Only 1 formal coverage. Despite growing institutional interest, price discovery remains inefficient."
-    },
-    {
-      "severity": "medium",
-      "title": "Ongoing share dilution",
-      "description": "Equity issuance to fund ETH purchases. 833,000 ETH acquired in 35 days raises dilution concerns."
-    },
-    {
-      "severity": "medium",
-      "title": "Regulatory risk",
-      "description": "SEC crypto regulation changes, potential ETH security classification. Treasury company accounting standard risks."
-    }
+    {"severity": "critical", "title": "ETH Price Dependency (90%+ of assets in ETH)", "description": "4,595,562 ETH represents the vast majority of assets. If ETH drops to $1,500, treasury falls to $6.9B, a 30%+ NAV contraction. Effectively a leveraged ETH equity."},
+    {"severity": "high", "title": "Below 50-Day ($24.18) and 200-Day ($36.04) Moving Averages", "description": "At $22.60, the stock trades below both key moving averages. Despite the bounce, it remains in technically bearish territory. Down 86% from 52-week high of $161."},
+    {"severity": "high", "title": "Ongoing Share Dilution", "description": "Continuous equity issuance to fund ETH purchases. While the -67,546% net margin is an accounting distortion, dilution risk is real. Monitor the funding source behind 833,000 ETH purchased over 35 days."},
+    {"severity": "medium", "title": "Lingering Short Seller Report Impact", "description": "Selling pressure persists following the Culper Research short report. One of the factors contributing to the prolonged NAV discount."},
+    {"severity": "medium", "title": "Regulatory Risk", "description": "Potential SEC crypto regulatory changes, possible ETH securities classification. Risk of changes to treasury company accounting standards."}
   ],
   "buyReasons": [
-    {
-      "title": "P/B 0.83x, 17% discount to NAV",
-      "rationale": "Market cap $9.8B vs assets $11.8B. MSTR trades at P/B 2-3x. Closing the discount alone implies 20%+ upside."
-    },
-    {
-      "title": "ETH SuperTrend buy signal, historically preceded 52%/174% gains",
-      "rationale": "First buy signal since September. If ETH enters a sustained rally, BMNR's leveraged exposure amplifies gains."
-    },
-    {
-      "title": "Premier institutional backers (ARK, Founders Fund, Pantera)",
-      "rationale": "Cathie Wood, Peter Thiel's Founders Fund, Pantera directly invested. Institutional credibility unmatched in crypto stocks."
-    },
-    {
-      "title": "5.3% dividend + staking + OpenAI indirect exposure",
-      "rationale": "Only crypto treasury with dividends, MAVAN staking launch imminent, Eightco provides OpenAI equity exposure."
-    }
+    {"title": "P/B 0.83x, 17% NAV Discount + BlackRock Up 165%", "rationale": "Market cap $9.8B vs. total assets $11.8B. BlackRock increasing its stake by 165.6% signals institutional conviction that the NAV discount represents opportunity."},
+    {"title": "ETH SuperTrend Buy Signal, Prior Signals Led to 52%/174% Rallies", "rationale": "First buy flip since September. If ETH sustains its recovery, BMNR amplifies the upside through its leveraged exposure."},
+    {"title": "Elite Institutional Backing (ARK 9.4M Shares, BlackRock, Founders Fund)", "rationale": "Cathie Wood's ARK, Peter Thiel's Founders Fund, Pantera, and Galaxy Digital are direct investors. Institutional credibility is overwhelming."},
+    {"title": "5.3% Dividend + $180M Annual Staking + Indirect OpenAI Exposure", "rationale": "Only crypto treasury paying dividends. MAVAN at full capacity could yield $272M. Plus OpenAI equity exposure via Eightco. Multiple revenue streams."}
   ],
   "technicalPosition": {
-    "week52High": 161.0,
-    "week52Low": 3.2,
-    "currentPositionPercent": 12.3,
-    "sma50": 22.5,
-    "sma50Signal": "above",
-    "sma200": 27.0,
+    "week52High": 161.00,
+    "week52Low": 3.20,
+    "currentPositionPercent": 12.30,
+    "sma50": 24.18,
+    "sma50Signal": "below",
+    "sma200": 36.04,
     "sma200Signal": "below",
-    "rsi": 52,
+    "rsi": 48,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "BMNR surged 10% on Monday as ETH broke $2,250 and the SuperTrend indicator flipped to buy for the first time since September. Previous SuperTrend buy signals preceded 52% and 174% rallies.",
-    "Market cap $9.8B with $11.8B in the vault (P/B 0.83x). ARK, Founders Fund, and Pantera are backing this, and it pays a 5.3% dividend. MicroStrategy gets P/B 2-3x for BTC, so the discount here is striking.",
-    "Closed at $22.60, breaking above the 50-day SMA ($22.50). Target $30 (+33%). If ETH's rally has legs, this is still early innings."
+    "BMNR led the Eightco $125M institutional raise with $75M, joined by ARK and Payward. ETH's SuperTrend flipped to buy for the first time since September, a signal that preceded 52% and 174% rallies in the past. BlackRock boosted its stake by 165.6% and ARK holds 9.4M shares, with institutional accumulation clearly accelerating.",
+    "Market cap sits at $9.8B against $11.8B in the vault (P/B 0.83x). Compared to MSTR trading at P/B 2-3x, this still looks undervalued. The 5.3% dividend yield plus $180M annual staking revenue, potentially $272M with MAVAN at full capacity, makes the income case compelling.",
+    "That said, the stock remains below both the 50-day ($24.18) and 200-day ($36.04) moving averages, so technical resistance is real. The 4-analyst consensus target is $34.50 (+53%). Whether ETH sustains its rally is the single biggest variable."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "ETH SuperTrend buy signal and 50-day SMA breakout create a strong technical setup. NAV discount of 17% with ARK, Founders Fund backing. ETH downside remains the core risk, so keep position size at 5-10% of portfolio.",
+    "summary": "Trading at a 17% discount to NAV (P/B 0.83x) while BlackRock (+165.6%), ARK (9.4M shares), and other major institutions are actively accumulating. Catalysts are abundant: ETH SuperTrend buy signal and the $125M Eightco investment lead. However, given the stock's position below both the 50-day and 200-day moving averages and ETH downside risk, a modest 5-10% portfolio allocation is the prudent approach.",
     "horizon": "3-6 months"
   },
   "sources": [
-    {
-      "name": "GURUFocus",
-      "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16",
-      "description": "BMNR +10.03% close, intraday $23.24"
-    },
-    {
-      "name": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/",
-      "description": "11% surge, Tom Lee ETH bet expansion"
-    },
-    {
-      "name": "CoinCentral",
-      "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/",
-      "description": "60,999 ETH purchase (largest of 2026), $1.2B cash maintained"
-    },
-    {
-      "name": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html",
-      "description": "$11.5B treasury disclosure + institutional backers"
-    },
-    {
-      "name": "Coinpedia",
-      "url": "https://coinpedia.org/price-analysis/ethereum-price-signals-major-breakout-is-a-20-rally-coming-next/",
-      "description": "ETH $2,250 breakout, SuperTrend buy signal"
-    },
-    {
-      "name": "Bankless Times",
-      "url": "https://www.banklesstimes.com/articles/2026/03/16/heres-why-bitmine-stock-price-is-eyeing-a-comeback-this-week/",
-      "description": "BMNR falling wedge pattern, comeback outlook"
-    },
-    {
-      "name": "StockTwits",
-      "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bmnr-stock-jumps-after-tom-lee-backed-bitmine-buys-60-k-ethereum/cZ32CBCRIfY",
-      "description": "Tom Lee backing, 60K ETH purchase social reaction"
-    },
-    {
-      "name": "Investopedia",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
-      "description": "BTC $74,200, broad market surge"
-    },
-    {
-      "name": "Tokenist",
-      "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/",
-      "description": "Analyst avg target $34.50"
-    },
-    {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/news/ORBS/",
-      "description": "ORBS additional $80M investment, ARK/Payward participation"
-    }
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html", "description": "$11.5B treasury disclosure, 4,595,562 ETH, institutional investor roster"},
+    {"name": "PRNewswire (Eightco)", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html", "description": "ORBS $125M institutional raise: BMNR $75M, ARK $25M, Payward $25M"},
+    {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/", "description": "BlackRock +165.6%, ARK 9.4M shares, consensus target $34.50"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/16/why-bitmine-immersion-technologies-stock-rocked-th/", "description": "+13.44% surge analysis, after-hours $23.30"},
+    {"name": "GURUFocus", "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16", "description": "3/16 close $22.60, intraday high $23.24, analyst avg $43 (High $60)"},
+    {"name": "MarketBeat/Markets Daily", "url": "https://www.themarketsdaily.com/2026/03/16/bitmine-immersion-technologies-nyseamericanbmnr-trading-up-11-6-still-a-buy.html", "description": "50-day SMA $24.18, 200-day SMA $36.04, 4 analysts (2 Strong Buy, 1 Buy, 1 Hold)"},
+    {"name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/17/bmnr-stock-heads-to-30-as-bitmine-accelerates-eth-holdings-to-4-6-million-tokens/", "description": "BMNR up 15%+, $30 price target outlook"},
+    {"name": "CoinCentral", "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/", "description": "60,999 ETH purchase (largest of 2026), $1.2B cash maintained"},
+    {"name": "Coinpedia", "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/", "description": "ETH SuperTrend buy flip, prior signals preceded 52%/174% rallies"},
+    {"name": "Decrypt", "url": "https://decrypt.co/360894/bitmines-tom-lee-joins-eightco-board-stock-jumps-125m-fundraise", "description": "Tom Lee joins ORBS board, ARK $25M investment"}
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR surges 10%, ETH SuperTrend just flipped bullish",
-      "text": "$BMNR (Mar 17) +10.03% to $22.60. ETH broke $2,250, SuperTrend flipped buy for the first time since Sept. Previous signals: +52% and +174%. 50-day SMA cleared.\n\n1/4",
+      "hook": "BMNR +10% as BlackRock boosts stake 165%",
+      "text": "$BMNR (3/17) $22.60 (+10%). BlackRock increases stake 165.6%, ARK holds 9.4M shares. ETH SuperTrend flips to buy for the first time since Sept. Prior signals preceded 52% and 174% rallies.\n\n1/4",
       "thread": [
-        "Vault holds $11.8B, market cap is $9.8B (P/B 0.83x). ARK, Founders Fund, Pantera are backing this. 5.3% dividend too.\n\n2/4",
-        "Largest ETH purchase of 2026: 60,999 tokens. Cash stayed at $1.2B. Aggressive yet disciplined.\n\n3/4",
-        "Target $30 (+33%). If ETH's rally continues, BMNR moves faster on leverage. Still early if SuperTrend is right.\n\n4/4"
+        "Treasury $11.8B vs market cap $9.8B (P/B 0.83x). BMNR led the Eightco $125M raise with $75M, ARK added $25M. Indirect OpenAI equity exposure secured.\n\n2/4",
+        "5.3% dividend yield, $180M annual staking revenue. MAVAN at full capacity could hit $272M. A crypto company that actually pays you to hold.\n\n3/4",
+        "Analyst target $34.50 (+53%). Still below 50-day ($24.18) and 200-day ($36.04) SMAs. ETH sustaining its rally is the key.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR surges 10%, ETH SuperTrend just flipped bullish",
-      "text": "$BMNR (Mar 17) $22.60 (+10.03%)\n\nETH broke $2,250 and BMNR surged 10%. The ETH SuperTrend indicator flipped to buy for the first time since September. Previous buy signals preceded 52% and 174% rallies.\n\nMarket cap $9.8B, vault holds $11.8B (P/B 0.83x). ARK, Founders Fund, Pantera are behind it. Bought 60,999 ETH (largest of 2026) while keeping $1.2B cash. 5.3% dividend.\n\n50-day SMA ($22.50) cleared. Target $30 (+33%). If this is the start of an ETH rally cycle, we're still in the early innings."
+      "hook": "BMNR +10% as BlackRock boosts stake 165%",
+      "text": "$BMNR (3/17) $22.60 (+10%)\n\nBlackRock increases stake 165.6%, ARK holds 9.4M shares. ETH SuperTrend flips to buy for the first time since Sept, with prior signals preceding 52%/174% rallies.\n\nTreasury $11.8B vs market cap $9.8B (P/B 0.83x). BMNR led the Eightco $125M raise with $75M, ARK added $25M. Indirect OpenAI exposure secured.\n\n5.3% dividend, $180M annual staking. Analyst target $34.50 (+53%). Still below 50-day/200-day SMAs, so technical resistance remains."
     },
     "telegram": {
-      "hook": "BMNR +10%, ETH Buy Signal + 50-Day SMA Breakout",
-      "text": "BMNR Daily Analysis (Mar 17)\n\nPrice: $22.60 (+10.03%)\n\nKey Developments\n- ETH breaks $2,250, BMNR surges 10%\n- ETH SuperTrend flips to buy (first since Sept)\n- Historical precedent: +52% and +174%\n- 50-day SMA ($22.50) breakout\n- BTC $74,200, broad crypto rally\n\nValuation\n- Market cap $9.8B vs NAV $11.8B (P/B 0.83x)\n- ETH 4,596,000 (3.81% of supply)\n- Dividend yield 5.3%\n\nTarget: $30 (+33%)\nETH rally continuation = rapid BMNR upside"
+      "hook": "BMNR +10%, BlackRock adds 165% more",
+      "text": "BMNR Daily Analysis (3/17)\n\nPrice: $22.60 (+10.03%)\n\nKey Developments\n- BlackRock stake up 165.6%, ARK holds 9.4M shares\n- ETH SuperTrend flips to buy (first since Sept)\n- Prior flips preceded 52%/174% rallies\n- Led Eightco $125M raise (BMNR $75M, ARK $25M)\n- Tom Lee joins ORBS board\n\nValuation\n- Market cap $9.8B vs NAV $11.8B (P/B 0.83x)\n- 4,595,562 ETH (3.81% of supply)\n- 5.3% dividend, $180M annual staking\n\nTechnicals\n- 50-day SMA $24.18 (below), 200-day SMA $36.04 (below)\n- RSI 48 (neutral)\n- 4-analyst consensus $34.50 (+53%)\n\nWhether ETH sustains its rally is the key variable"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR surges 10%, ETH SuperTrend just flipped bullish",
-          "text": "$BMNR (Mar 17) +10.03% to $22.60. ETH broke $2,250, SuperTrend flipped buy for the first time since Sept. Previous signals: +52% and +174%. 50-day SMA cleared.\n\n1/4",
+          "hook": "BMNR +10% as BlackRock boosts stake 165%",
+          "text": "$BMNR (3/17) $22.60 (+10%). BlackRock increases stake 165.6%, ARK holds 9.4M shares. ETH SuperTrend flips to buy for the first time since Sept. Prior signals preceded 52% and 174% rallies.\n\n1/4",
           "thread": [
-            "Vault holds $11.8B, market cap is $9.8B (P/B 0.83x). ARK, Founders Fund, Pantera are backing this. 5.3% dividend too.\n\n2/4",
-            "Largest ETH purchase of 2026: 60,999 tokens. Cash stayed at $1.2B. Aggressive yet disciplined.\n\n3/4",
-            "Target $30 (+33%). If ETH's rally continues, BMNR moves faster on leverage. Still early if SuperTrend is right.\n\n4/4"
+            "Treasury $11.8B vs market cap $9.8B (P/B 0.83x). BMNR led the Eightco $125M raise with $75M, ARK added $25M. Indirect OpenAI equity exposure secured.\n\n2/4",
+            "5.3% dividend yield, $180M annual staking revenue. MAVAN at full capacity could hit $272M. A crypto company that actually pays you to hold.\n\n3/4",
+            "Analyst target $34.50 (+53%). Still below 50-day ($24.18) and 200-day ($36.04) SMAs. ETH sustaining its rally is the key.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "The company worth less than its own vault just jumped 10%",
-          "text": "$BMNR (Mar 17) Vault: $11.8B. Market cap: $9.8B. Buy the whole company, you're $2B richer. Today it jumped 10% and people noticed. $22.60.\n\n1/4",
+          "hook": "BlackRock is buying 165% more and you're still on the sidelines",
+          "text": "$BMNR (3/17) Treasury $11.8B, market cap $9.8B. Buy the whole company, pocket $2B. BlackRock added 165.6% more. ARK holds 9.4M shares. The smart money already moved.\n\n1/4",
           "thread": [
-            "Cathie Wood, Peter Thiel, Pantera are all in. It pays 5.3% dividends. A crypto stock with a dividend. Read that again.\n\n2/4",
-            "MSTR gets P/B 2-3x for holding BTC. BMNR holds ETH at 0.83x. Either the market can't do math or there's a reason.\n\n3/4",
-            "Target $30 (+33%). ETH SuperTrend says buy. If it's right like the last two times, 52%+ from here.\n\n4/4"
+            "ETH SuperTrend just flipped buy. Last two times? 52% and 174% rallies. BMNR holds 3.81% of all ETH. Time to run the numbers.\n\n2/4",
+            "Led the Eightco $125M raise. OpenAI exposure included. 5.3% dividend plus $180M staking. A crypto company paying dividends. Wild times.\n\n3/4",
+            "Target $34.50 (+53%). Below both the 50-day and 200-day, so it's still rough. But when BlackRock buys, there's usually a reason.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR holders, today's +10% must have felt like relief",
-          "text": "$BMNR (Mar 17) $22.60 (+10.03%). Down 86% from the $161 high. Brutal. But today the tide started turning.\n\n1/4",
+          "hook": "From $161 to $22. But the big players are buying",
+          "text": "$BMNR (3/17) $22.60 (+10%). Down 86% from the 52-week high of $161. It's been a brutal ride. But BlackRock just added 165.6% and ARK holds 9.4M shares.\n\n1/4",
           "thread": [
-            "ETH SuperTrend flipped buy for the first time since September. The last two times, gains were 52% and 174%. 50-day SMA cleared too.\n\n2/4",
-            "ARK, Founders Fund are officially behind you. You're not alone. And 5.3% dividend pays while you wait.\n\n3/4",
-            "Target $30 (+33%). ETH direction is everything, but the first real buy signal in months just fired. Hold steady.\n\n4/4"
+            "ETH SuperTrend flipped to buy. First time since Sept. Last two signals led to 52%/174% rallies. Could be the first sign of a real turnaround.\n\n2/4",
+            "Treasury $11.8B, market cap $9.8B. 5.3% dividend. At least you're getting paid while you wait. You're not alone in this.\n\n3/4",
+            "Target $34.50 (+53%). Still below the 50-day and 200-day, but institutions buying at these levels sends a meaningful signal.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR surges 10%, ETH SuperTrend just flipped bullish",
-          "text": "$BMNR (Mar 17) $22.60 (+10.03%)\n\nETH broke $2,250 and BMNR surged 10%. The ETH SuperTrend indicator flipped to buy for the first time since September. Previous buy signals preceded 52% and 174% rallies.\n\nMarket cap $9.8B, vault holds $11.8B (P/B 0.83x). ARK, Founders Fund, Pantera are behind it. Bought 60,999 ETH (largest of 2026) while keeping $1.2B cash. 5.3% dividend.\n\n50-day SMA ($22.50) cleared. Target $30 (+33%). If this is the start of an ETH rally cycle, we're still in the early innings."
+          "hook": "BMNR +10% as BlackRock boosts stake 165%",
+          "text": "$BMNR (3/17) $22.60 (+10%)\n\nBlackRock increases stake 165.6%, ARK holds 9.4M shares. ETH SuperTrend flips to buy for the first time since Sept, with prior signals preceding 52%/174% rallies.\n\nTreasury $11.8B vs market cap $9.8B (P/B 0.83x). BMNR led the Eightco $125M raise with $75M, ARK added $25M. Indirect OpenAI exposure secured.\n\n5.3% dividend, $180M annual staking. Analyst target $34.50 (+53%). Still below 50-day/200-day SMAs, so technical resistance remains."
         },
         "witty": {
-          "hook": "The company worth less than its vault just jumped 10%",
-          "text": "$BMNR (Mar 17) $22.60 (+10.03%)\n\nVault holds $11.8B, market cap is $9.8B. Buy the whole company, pocket $2B. Cathie Wood, Peter Thiel, and Pantera all did the math.\n\nPays 5.3% dividend while you wait. MSTR gets P/B 2-3x for BTC. This is 0.83x for ETH. Either the market is slow or knows something.\n\n50-day SMA cleared, SuperTrend says buy. Target $30 (+33%). If ETH keeps running, this was the on-ramp."
+          "hook": "BlackRock is buying 165% more but the market hasn't noticed",
+          "text": "$BMNR (3/17) $22.60 (+10%)\n\nTreasury $11.8B, market cap $9.8B. Acquire the company and you're $2B in the green. Meanwhile BlackRock adds 165.6% and ARK sits on 9.4M shares.\n\nLed the Eightco $125M raise and locked in indirect OpenAI exposure. 5.3% dividend plus $180M staking. MSTR trades at P/B 2-3x. This one? 0.83x.\n\nTarget $34.50 (+53%). Below the 50-day, so it's rough out there. But the big money's calculators all point the same direction."
         },
         "empathy": {
-          "hook": "BMNR holders, today's 10% rally must have felt like relief",
-          "text": "$BMNR (Mar 17) $22.60 (+10.03%)\n\n86% down from $161. Short reports, dilution, endless red. It's been painful. But today offered a real sign of life.\n\nETH SuperTrend flipped buy for the first time since September. Previous signals led to 52% and 174% rallies. ARK and Founders Fund are confirmed backers. You're not holding this alone.\n\n50-day SMA cleared. Target $30 (+33%). 5.3% dividend pays while you wait. The first real buy signal in months just fired."
+          "hook": "Down 86% from the peak. But BlackRock just bought 165% more",
+          "text": "$BMNR (3/17) $22.60 (+10%)\n\n52-week high of $161, now down 86%. Short seller reports, dilution, ETH sliding. It's been a tough road. But today brought a 10% bounce.\n\nBlackRock increased its position 165.6% and ARK holds 9.4M shares. You're not alone. ETH SuperTrend flipped to buy too.\n\nTarget $34.50 (+53%). Collect that 5.3% dividend while you wait. The first step of a recovery may have just begun."
         }
       }
     }
