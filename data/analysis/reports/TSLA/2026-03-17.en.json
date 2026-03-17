@@ -2,55 +2,159 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-17",
-  "currentPrice": 396.50,
+  "currentPrice": 396.5,
   "marketCap": "$1.27T",
   "businessSummary": {
     "oneLiner": "World's largest EV maker and a 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
     "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Monday close $396.50 (+1.35%). Terafab AI chip fab confirmed for March 21 launch, now revealed to integrate logic, memory, and advanced packaging under one roof. 'Macrohard' (Digital Optimus), a joint Tesla-xAI enterprise AI system, was also announced. NVIDIA's GTC NemoClaw announcement expands the broader AI agent ecosystem.",
-    "howTheyMakeMoney": ["EV sales (Model 3/Y, Cybertruck)", "Energy storage and generation (Megapack, Powerwall, Solar)", "Services and charging (Supercharger network, insurance, OTA)", "FSD subscription and licensing", "Regulatory credit sales"],
-    "keyProducts": ["Model Y/3 - global EV bestsellers", "Cybertruck - electric pickup", "Megapack - utility-scale battery", "FSD - autonomous driving software", "Optimus - humanoid robot (Fremont factory conversion)", "Terafab - vertically integrated chip fab (3/21 launch, logic+memory+packaging)", "Macrohard - Tesla-xAI joint enterprise AI system"]
+    "howTheyMakeMoney": [
+      "EV sales (Model 3/Y, Cybertruck)",
+      "Energy storage and generation (Megapack, Powerwall, Solar)",
+      "Services and charging (Supercharger network, insurance, OTA)",
+      "FSD subscription and licensing",
+      "Regulatory credit sales"
+    ],
+    "keyProducts": [
+      "Model Y/3 - global EV bestsellers",
+      "Cybertruck - electric pickup",
+      "Megapack - utility-scale battery",
+      "FSD - autonomous driving software",
+      "Optimus - humanoid robot (Fremont factory conversion)",
+      "Terafab - vertically integrated chip fab (3/21 launch, logic+memory+packaging)",
+      "Macrohard - Tesla-xAI joint enterprise AI system"
+    ]
   },
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "364.02", "interpretation": "Extremely elevated valuation reflecting AI, robotics, energy platform premium" },
-    { "name": "Forward P/E", "value": "190.32", "interpretation": "FY2026 recovery priced in but still sector-high" },
-    { "name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 contraction from delivery declines and price cuts" },
-    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Margin compression from BYD price war" },
-    { "name": "FCF", "value": "$6.22B", "interpretation": "Solid cash generation. $44B total cash" },
-    { "name": "Debt-to-Equity", "value": "0.08", "interpretation": "Excellent balance sheet health" },
-    { "name": "ROE", "value": "4.93%", "interpretation": "Low vs large-cap tech. Margin recovery is key" },
-    { "name": "RSI", "value": "42", "interpretation": "Neutral to bearish. Rebounding on Terafab optimism" }
+    {
+      "name": "P/E (TTM)",
+      "value": "364.02",
+      "interpretation": "13.5x the S&P 500 average (27x) and 24x the traditional auto sector average (15x). Extreme premium reflecting AI, robotics, and energy platform expectations"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "190.32",
+      "interpretation": "9x the S&P 500 Forward P/E (21x). Compared to BYD (18x) and Rivian (loss-making), Tesla commands the highest multiple in the EV sector"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "-2.9%",
+      "interpretation": "FY2025 contraction from delivery declines and price cuts"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "4.59%",
+      "interpretation": "Margin compression from BYD price war"
+    },
+    {
+      "name": "FCF",
+      "value": "$6.22B",
+      "interpretation": "Solid cash generation. $44B total cash"
+    },
+    {
+      "name": "Debt-to-Equity",
+      "value": "0.08",
+      "interpretation": "Excellent balance sheet health"
+    },
+    {
+      "name": "ROE",
+      "value": "4.93%",
+      "interpretation": "Low vs large-cap tech. Margin recovery is key"
+    },
+    {
+      "name": "RSI",
+      "value": "42",
+      "interpretation": "Neutral to bearish. Rebounding on Terafab optimism"
+    }
   ],
   "growthDrivers": [
-    { "title": "Terafab March 21 Launch D-5: Logic + Memory + Packaging Under One Roof", "description": "Teslarati (3/16): Terafab is not just an AI chip factory but a 2nm fab integrating logic processing, memory storage, and advanced packaging. No company has attempted this level of vertical integration. $20B+ investment." },
-    { "title": "Macrohard (Digital Optimus): Tesla-xAI Joint Enterprise AI", "description": "Simply Wall St (3/16): Musk unveiled 'Macrohard,' a joint Tesla-xAI system for enterprise generative AI applications. Completes the AI hardware + software vertical integration alongside Terafab." },
-    { "title": "Optimus 3 Robot Production Starting This Summer + Fremont Conversion", "description": "Teslarati (3/14): Musk confirmed Optimus 3 low-volume production starting this summer. Model S/X production ending, Fremont converting to Optimus. Mass production target 2027." },
-    { "title": "China Jan-Feb Sales +35% YoY, Global Recovery Signal", "description": "Finbold (3/15): China-made Tesla EV sales reached 127,728 units in Jan-Feb, up 35%+ YoY. Europe Feb registrations also +10% YoY." },
-    { "title": "Oil Price Drop Drives Broad Market Rally, EV Sector Benefits", "description": "Investopedia (3/16): Strait of Hormuz tensions easing pushed WTI crude down 5% to $94. S&P +1%, Nasdaq +1.2%. Lower energy costs positive for consumer sentiment." }
+    {
+      "title": "Terafab March 21 Launch D-5: Logic + Memory + Packaging Under One Roof",
+      "description": "Teslarati (3/16): Terafab is not just an AI chip factory but a 2nm fab integrating logic processing, memory storage, and advanced packaging. No company has attempted this level of vertical integration. $20B+ investment."
+    },
+    {
+      "title": "Macrohard (Digital Optimus): Tesla-xAI Joint Enterprise AI",
+      "description": "Simply Wall St (3/16): Musk unveiled 'Macrohard,' a joint Tesla-xAI system for enterprise generative AI applications. Completes the AI hardware + software vertical integration alongside Terafab."
+    },
+    {
+      "title": "Optimus 3 Robot Production Starting This Summer + Fremont Conversion",
+      "description": "Teslarati (3/14): Musk confirmed Optimus 3 low-volume production starting this summer. Model S/X production ending, Fremont converting to Optimus. Mass production target 2027."
+    },
+    {
+      "title": "China Jan-Feb Sales +35% YoY, Global Recovery Signal",
+      "description": "Finbold (3/15): China-made Tesla EV sales reached 127,728 units in Jan-Feb, up 35%+ YoY. Europe Feb registrations also +10% YoY."
+    },
+    {
+      "title": "Oil Price Drop Drives Broad Market Rally, EV Sector Benefits",
+      "description": "Investopedia (3/16): Strait of Hormuz tensions easing pushed WTI crude down 5% to $94. S&P +1%, Nasdaq +1.2%. Lower energy costs positive for consumer sentiment."
+    }
   ],
   "competitiveAdvantage": {
     "summary": "50%+ US EV market share leader. 8.2B FSD miles of data, Supercharger NACS standard, and vertical integration are core moats. But BYD has overtaken globally.",
     "moats": [
-      { "type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelming training data advantage vs competitors." },
-      { "type": "Vertical Integration + In-House Chips", "description": "In-house batteries (4680), custom chips (Terafab logic+memory), software (FSD), charging (Supercharger)." },
-      { "type": "Charging Network Effect", "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers." }
+      {
+        "type": "Autonomous Driving Data Moat",
+        "description": "8.2 billion FSD miles. Overwhelming training data advantage vs competitors."
+      },
+      {
+        "type": "Vertical Integration + In-House Chips",
+        "description": "In-house batteries (4680), custom chips (Terafab logic+memory), software (FSD), charging (Supercharger)."
+      },
+      {
+        "type": "Charging Network Effect",
+        "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."
+      }
     ],
     "competitors": [
-      { "name": "BYD", "detail": "Global EV sales leader (2025: 2.26M vs Tesla 1.64M). 11 new models, 640-mile sedan, 5-min charging" },
-      { "name": "Rivian (RIVN)", "detail": "Electric pickup/SUV. Amazon logistics partner" },
-      { "name": "Lucid (LCID)", "detail": "Premium EV sedan. Saudi investment" }
+      {
+        "name": "BYD",
+        "detail": "Global EV sales leader (2025: 2.26M vs Tesla 1.64M). 11 new models, 640-mile sedan, 5-min charging"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "Electric pickup/SUV. Amazon logistics partner"
+      },
+      {
+        "name": "Lucid (LCID)",
+        "detail": "Premium EV sedan. Saudi investment"
+      }
     ]
   },
   "recentNews": [
-    { "date": "2026-03-16", "headline": "Terafab scope expanded: logic + memory + packaging integration. Unprecedented in semiconductor history", "significance": "Electrek: Zero semiconductor experience attempting the world's largest 2nm fab. Success means NVIDIA/TSMC independence; failure means billions sunk", "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/" },
-    { "date": "2026-03-16", "headline": "Macrohard (Digital Optimus): Tesla-xAI joint enterprise AI system unveiled", "significance": "Entry into AI software business. Terafab hardware + Macrohard software = vertical integration attempt", "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p" },
-    { "date": "2026-03-16", "headline": "Musk confirms Terafab will produce both logic and memory chips. Stock +2% intraday", "significance": "Expanded from simple AI chip fab to comprehensive semiconductor facility. Market reacted positively (+1.35% close)", "url": "https://www.gurufocus.com/news/8715859/tesla-stock-rises-as-musk-unveils-bold-ai-chip-terafab-plan" },
-    { "date": "2026-03-16", "headline": "BYD competition accelerating: 2025 EV sales 2.26M (+28%) vs Tesla 1.64M (-8%)", "significance": "BYD unveiled 11 new models, 640-mile sedan, 5-min charging. Global EV leadership gap widening", "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/" },
-    { "date": "2026-03-16", "headline": "Oil plunges 5% to $94, broad market surges. S&P +1%, Nasdaq +1.2%", "significance": "Strait of Hormuz de-escalation hopes. Lower energy costs benefit EV demand and consumer sentiment", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762" }
+    {
+      "date": "2026-03-16",
+      "headline": "Terafab scope expanded: logic + memory + packaging integration. Unprecedented in semiconductor history",
+      "significance": "Electrek: Zero semiconductor experience attempting the world's largest 2nm fab. Success means NVIDIA/TSMC independence; failure means billions sunk",
+      "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Macrohard (Digital Optimus): Tesla-xAI joint enterprise AI system unveiled",
+      "significance": "Entry into AI software business. Terafab hardware + Macrohard software = vertical integration attempt",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Musk confirms Terafab will produce both logic and memory chips. Stock +2% intraday",
+      "significance": "Expanded from simple AI chip fab to comprehensive semiconductor facility. Market reacted positively (+1.35% close)",
+      "url": "https://www.gurufocus.com/news/8715859/tesla-stock-rises-as-musk-unveils-bold-ai-chip-terafab-plan"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "BYD competition accelerating: 2025 EV sales 2.26M (+28%) vs Tesla 1.64M (-8%)",
+      "significance": "BYD unveiled 11 new models, 640-mile sedan, 5-min charging. Global EV leadership gap widening",
+      "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Oil plunges 5% to $94, broad market surges. S&P +1%, Nasdaq +1.2%",
+      "significance": "Strait of Hormuz de-escalation hopes. Lower energy costs benefit EV demand and consumer sentiment",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
+    }
   ],
   "analystOpinions": {
     "consensusTarget": 406.84,
-    "highTarget": 600.00,
-    "lowTarget": 25.00,
+    "highTarget": 600.0,
+    "lowTarget": 25.0,
     "upsidePercent": 2.61,
     "buyCount": 10,
     "holdCount": 12,
@@ -58,22 +162,54 @@
     "notableComment": "Consensus $406.84 (+2.6%), majority Hold. Dan Ives $600 (bull), Gordon Johnson $25 (extreme bear). Terafab results and Q1 deliveries will determine target direction."
   },
   "risks": [
-    { "severity": "critical", "title": "BYD competition accelerating, global EV share reversal", "description": "BYD 2025 EV sales 2.26M (+28%) vs Tesla 1.64M (-8%). 11 new models, 640-mile sedan, 5-min charging." },
-    { "severity": "high", "title": "Terafab execution risk: zero semiconductor experience", "description": "Electrek (3/16): Tesla has zero chip manufacturing experience yet plans the world's largest 2nm fab with logic+memory+packaging, something even TSMC/Samsung don't do." },
-    { "severity": "high", "title": "Below 200-day SMA, bear market territory", "description": "First close below 200-day since September. 20%+ below ATH. Institutional selling accelerating." },
-    { "severity": "high", "title": "Extreme valuation: P/E 364x", "description": "TTM P/E 364x, Forward P/E 190x. Multiple compression risk if growth stalls or competition intensifies." },
-    { "severity": "medium", "title": "Musk leadership dilution + DOGE controversy", "description": "Simultaneously running Tesla, xAI, SpaceX, X, DOGE, and now Macrohard. Focus dilution concerns." }
+    {
+      "severity": "critical",
+      "title": "BYD competition accelerating, global EV share reversal",
+      "description": "BYD 2025 EV sales 2.26M (+28%) vs Tesla 1.64M (-8%). 11 new models, 640-mile sedan, 5-min charging."
+    },
+    {
+      "severity": "high",
+      "title": "Terafab execution risk: zero semiconductor experience",
+      "description": "Electrek (3/16): Tesla has zero chip manufacturing experience yet plans the world's largest 2nm fab with logic+memory+packaging, something even TSMC/Samsung don't do."
+    },
+    {
+      "severity": "high",
+      "title": "Below 200-day SMA, bear market territory",
+      "description": "First close below 200-day since September. 20%+ below ATH. Institutional selling accelerating."
+    },
+    {
+      "severity": "high",
+      "title": "Extreme valuation: P/E 364x",
+      "description": "TTM P/E 364x, Forward P/E 190x. Multiple compression risk if growth stalls or competition intensifies."
+    },
+    {
+      "severity": "medium",
+      "title": "Musk leadership dilution + DOGE controversy",
+      "description": "Simultaneously running Tesla, xAI, SpaceX, X, DOGE, and now Macrohard. Focus dilution concerns."
+    }
   ],
   "buyReasons": [
-    { "title": "Terafab 3/21 launch: logic + memory + packaging vertical integration", "rationale": "Beyond AI chips to comprehensive semiconductor facility. If successful, independence from both NVIDIA and TSMC." },
-    { "title": "Macrohard: AI software business entry", "rationale": "Tesla hardware + xAI software joint venture. Revenue diversification into enterprise AI market." },
-    { "title": "China Jan-Feb sales +35%, oil price decline tailwind", "rationale": "Market share recovery signal vs BYD. Oil decline ($94) improves consumer sentiment." },
-    { "title": "Optimus robot + Fremont factory conversion", "rationale": "Model S/X ending, Optimus production starting. If successful, $12T+ robotics TAM entry." }
+    {
+      "title": "Terafab 3/21 launch: logic + memory + packaging vertical integration",
+      "rationale": "Beyond AI chips to comprehensive semiconductor facility. If successful, independence from both NVIDIA and TSMC."
+    },
+    {
+      "title": "Macrohard: AI software business entry",
+      "rationale": "Tesla hardware + xAI software joint venture. Revenue diversification into enterprise AI market."
+    },
+    {
+      "title": "China Jan-Feb sales +35%, oil price decline tailwind",
+      "rationale": "Market share recovery signal vs BYD. Oil decline ($94) improves consumer sentiment."
+    },
+    {
+      "title": "Optimus robot + Fremont factory conversion",
+      "rationale": "Model S/X ending, Optimus production starting. If successful, $12T+ robotics TAM entry."
+    }
   ],
   "technicalPosition": {
     "week52High": 488.54,
-    "week52Low": 227.00,
-    "currentPositionPercent": 64.80,
+    "week52Low": 227.0,
+    "currentPositionPercent": 64.8,
     "sma50": 419.98,
     "sma50Signal": "below",
     "sma200": 425.48,
@@ -92,16 +228,56 @@
     "horizon": "1-2 weeks (reassess after Terafab launch)"
   },
   "sources": [
-    { "name": "Electrek", "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/", "description": "Terafab critique: zero semiconductor experience, impracticality of logic+memory+packaging" },
-    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p", "description": "Macrohard (Digital Optimus) reveal, Terafab AI integration analysis" },
-    { "name": "GURUFocus", "url": "https://www.gurufocus.com/news/8715859/tesla-stock-rises-as-musk-unveils-bold-ai-chip-terafab-plan", "description": "Terafab logic+memory chip plans, TSLA +2% reaction" },
-    { "name": "Teslarati", "url": "https://www.teslarati.com/tesla-terafab-ai-chip-factory/", "description": "Terafab $20B+ investment, vertically integrated fab details" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/", "description": "BYD competition analysis: 2.26M (+28%) vs Tesla 1.64M (-8%)" },
-    { "name": "Investopedia", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762", "description": "March 16 market close: oil drops, indexes surge" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/tesla-terafab-macrohard-push-ai-152216788.html", "description": "Terafab + Macrohard AI ambitions and valuation analysis" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA consensus target $406.84" },
-    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/16/heres-why-tesla-stock-is-rising-today-as-musk-teases-terafab-launch/", "description": "Tesla stock rising on Terafab launch expectations" },
-    { "name": "CoinCentral", "url": "https://coincentral.com/tesla-tsla-stock-terafab-ai-chip-fab-set-to-launch-within-days/", "description": "Terafab launch D-5, Digitimes confirmation" }
+    {
+      "name": "Electrek",
+      "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/",
+      "description": "Terafab critique: zero semiconductor experience, impracticality of logic+memory+packaging"
+    },
+    {
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/teslas-terafab-and-macrohard-deepen-ai-integration-in-high-p",
+      "description": "Macrohard (Digital Optimus) reveal, Terafab AI integration analysis"
+    },
+    {
+      "name": "GURUFocus",
+      "url": "https://www.gurufocus.com/news/8715859/tesla-stock-rises-as-musk-unveils-bold-ai-chip-terafab-plan",
+      "description": "Terafab logic+memory chip plans, TSLA +2% reaction"
+    },
+    {
+      "name": "Teslarati",
+      "url": "https://www.teslarati.com/tesla-terafab-ai-chip-factory/",
+      "description": "Terafab $20B+ investment, vertically integrated fab details"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/",
+      "description": "BYD competition analysis: 2.26M (+28%) vs Tesla 1.64M (-8%)"
+    },
+    {
+      "name": "Investopedia",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
+      "description": "March 16 market close: oil drops, indexes surge"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/tesla-terafab-macrohard-push-ai-152216788.html",
+      "description": "Terafab + Macrohard AI ambitions and valuation analysis"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
+      "description": "TSLA consensus target $406.84"
+    },
+    {
+      "name": "Invezz",
+      "url": "https://invezz.com/news/2026/03/16/heres-why-tesla-stock-is-rising-today-as-musk-teases-terafab-launch/",
+      "description": "Tesla stock rising on Terafab launch expectations"
+    },
+    {
+      "name": "CoinCentral",
+      "url": "https://coincentral.com/tesla-tsla-stock-terafab-ai-chip-fab-set-to-launch-within-days/",
+      "description": "Terafab launch D-5, Digitimes confirmation"
+    }
   ],
   "snsContent": {
     "x": {

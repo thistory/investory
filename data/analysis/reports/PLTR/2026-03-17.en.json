@@ -7,49 +7,147 @@
   "businessSummary": {
     "oneLiner": "Government and enterprise AI data analytics platform leader, built on Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
     "description": "Palantir provides data integration, analytics, and AI decision-making platforms for government and commercial organizations. FY2025 revenue $4.48B (+56% YoY), adjusted operating margin 32%. Monday close $152.72 (+1.17%). Secured a $1 billion defense AI contract (3/15). Palantir president Aki Jain spoke at NVIDIA GTC on accelerated computing. NVIDIA's NemoClaw announcement strengthens Palantir's sovereign AI OS position in the AI agent ecosystem.",
-    "howTheyMakeMoney": ["Government contracts (Gotham: defense and intelligence analytics)", "Enterprise AI platform (Foundry: industrial data analytics)", "AIP (AI Platform: LLM-powered decision tools)", "AIP Boot Camps (5-day intensive pilots to enterprise expansion)"],
-    "keyProducts": ["Gotham: mission-critical defense and intelligence analytics", "Foundry: enterprise data integration and analytics", "AIP: AI agent orchestration platform", "Sovereign AI Data Center OS: joint NVIDIA architecture", "Ontology: AI-human collaboration interface"]
+    "howTheyMakeMoney": [
+      "Government contracts (Gotham: defense and intelligence analytics)",
+      "Enterprise AI platform (Foundry: industrial data analytics)",
+      "AIP (AI Platform: LLM-powered decision tools)",
+      "AIP Boot Camps (5-day intensive pilots to enterprise expansion)"
+    ],
+    "keyProducts": [
+      "Gotham: mission-critical defense and intelligence analytics",
+      "Foundry: enterprise data integration and analytics",
+      "AIP: AI agent orchestration platform",
+      "Sovereign AI Data Center OS: joint NVIDIA architecture",
+      "Ontology: AI-human collaboration interface"
+    ]
   },
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "242.8x", "interpretation": "Extremely elevated valuation reflecting peak AI premium" },
-    { "name": "Forward P/E", "value": "115.5x", "interpretation": "FY2026 EPS $1.34 expected. Still sector-highest" },
-    { "name": "Revenue Growth (YoY)", "value": "+56.18%", "interpretation": "FY2025 $4.48B. FY2026 guidance $7.18-7.20B (+61%)" },
-    { "name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS companies" },
-    { "name": "FCF", "value": "$2.10B", "interpretation": "FCF margin 47%. High cash conversion" },
-    { "name": "Debt-to-Equity", "value": "0.03", "interpretation": "Virtually debt-free. $7.18B cash" },
-    { "name": "ROE", "value": "25.98%", "interpretation": "Solid return on equity" },
-    { "name": "RSI", "value": "55", "interpretation": "Neutral, slightly rising on $1B contract and GTC" }
+    {
+      "name": "P/E (TTM)",
+      "value": "242.8x",
+      "interpretation": "9x the S&P 500 average (27x), 5.4x the software sector average (45x). Comparable to AI peers Datadog (290x), while CrowdStrike is loss-making"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "115.5x",
+      "interpretation": "5.5x the S&P 500 Forward P/E (21x). Expensive even with +61% revenue growth, but Rule of 40 at 127 is best-in-class SaaS"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "+56.18%",
+      "interpretation": "FY2025 $4.48B. FY2026 guidance $7.18-7.20B (+61%)"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "31.59%",
+      "interpretation": "Top-tier among SaaS companies"
+    },
+    {
+      "name": "FCF",
+      "value": "$2.10B",
+      "interpretation": "FCF margin 47%. High cash conversion"
+    },
+    {
+      "name": "Debt-to-Equity",
+      "value": "0.03",
+      "interpretation": "Virtually debt-free. $7.18B cash"
+    },
+    {
+      "name": "ROE",
+      "value": "25.98%",
+      "interpretation": "Solid return on equity"
+    },
+    {
+      "name": "RSI",
+      "value": "55",
+      "interpretation": "Neutral, slightly rising on $1B contract and GTC"
+    }
   ],
   "growthDrivers": [
-    { "title": "$1 Billion Defense AI Contract Secured", "description": "Motley Fool (3/16): Palantir won a $1 billion government contract for defense AI. Positions the company as the primary beneficiary if government AI spending explodes." },
-    { "title": "Palantir President Spoke at GTC, NVIDIA Partnership Deepening", "description": "NVIDIA Blog (3/16): President Aki Jain spoke at GTC accelerated computing session. NVIDIA's NemoClaw (OpenClaw agent toolkit) announcement strengthens the sovereign AI OS's practical relevance." },
-    { "title": "NVIDIA Sovereign AI OS Joint Launch, $600B Market", "description": "SDxCentral (3/13): Turnkey solution enabling governments to run AI on their own infrastructure. Targeting $600B sovereign AI market." },
-    { "title": "FY2026 Guidance $7.18-7.20B (+61%), Record Growth Outlook", "description": "Guidance significantly above prior consensus. AIP boot camp commercial revenue conversion accelerating." }
+    {
+      "title": "$1 Billion Defense AI Contract Secured",
+      "description": "Motley Fool (3/16): Palantir won a $1 billion government contract for defense AI. Positions the company as the primary beneficiary if government AI spending explodes."
+    },
+    {
+      "title": "Palantir President Spoke at GTC, NVIDIA Partnership Deepening",
+      "description": "NVIDIA Blog (3/16): President Aki Jain spoke at GTC accelerated computing session. NVIDIA's NemoClaw (OpenClaw agent toolkit) announcement strengthens the sovereign AI OS's practical relevance."
+    },
+    {
+      "title": "NVIDIA Sovereign AI OS Joint Launch, $600B Market",
+      "description": "SDxCentral (3/13): Turnkey solution enabling governments to run AI on their own infrastructure. Targeting $600B sovereign AI market."
+    },
+    {
+      "title": "FY2026 Guidance $7.18-7.20B (+61%), Record Growth Outlook",
+      "description": "Guidance significantly above prior consensus. AIP boot camp commercial revenue conversion accelerating."
+    }
   ],
   "competitiveAdvantage": {
     "summary": "20+ years in government and defense AI. Security clearance requirements create insurmountable barriers. NVIDIA sovereign AI + NemoClaw partnership positions Palantir at the core of the AI agent ecosystem.",
     "moats": [
-      { "type": "Security Clearance Moat", "description": "Top-secret clearance with US DoD and intelligence agencies. Competitors cannot enter." },
-      { "type": "NVIDIA Sovereign AI + NemoClaw Partnership", "description": "Sovereign AI OS + NVIDIA hardware + NemoClaw agent ecosystem. Triple partnership." },
-      { "type": "AIP Boot Camp Strategy", "description": "5-day intensive pilot converts to enterprise-wide deployment. High conversion rate." }
+      {
+        "type": "Security Clearance Moat",
+        "description": "Top-secret clearance with US DoD and intelligence agencies. Competitors cannot enter."
+      },
+      {
+        "type": "NVIDIA Sovereign AI + NemoClaw Partnership",
+        "description": "Sovereign AI OS + NVIDIA hardware + NemoClaw agent ecosystem. Triple partnership."
+      },
+      {
+        "type": "AIP Boot Camp Strategy",
+        "description": "5-day intensive pilot converts to enterprise-wide deployment. High conversion rate."
+      }
     ],
     "competitors": [
-      { "name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General-purpose vs Palantir's specialized analytics" },
-      { "name": "Snowflake", "detail": "Data lakehouse expanding into analytics" },
-      { "name": "C3.ai", "detail": "Enterprise AI. Smaller scale and weaker track record than Palantir" }
+      {
+        "name": "Microsoft (Azure AI)",
+        "detail": "Cloud AI platform. General-purpose vs Palantir's specialized analytics"
+      },
+      {
+        "name": "Snowflake",
+        "detail": "Data lakehouse expanding into analytics"
+      },
+      {
+        "name": "C3.ai",
+        "detail": "Enterprise AI. Smaller scale and weaker track record than Palantir"
+      }
     ]
   },
   "recentNews": [
-    { "date": "2026-03-16", "headline": "Palantir president spoke at GTC + NVIDIA NemoClaw strengthens AI agent ecosystem position", "significance": "C-suite level presence at NVIDIA's flagship event. NemoClaw makes sovereign AI OS more practically relevant", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/" },
-    { "date": "2026-03-16", "headline": "Motley Fool: Palantir secures $1B defense AI contract. Could surge if government AI spending explodes", "significance": "Single contract worth $1B. Government revenue acceleration and potential guidance raise", "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/" },
-    { "date": "2026-03-16", "headline": "Palantir-GE Aerospace military aircraft maintenance AI partnership analyzed", "significance": "Defense AI expanding from intelligence to aircraft maintenance. Entering practical monetization phase", "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-16-palantir-and-ge-aerospace-are-working-together-on-military-aircraft-is-pltr-or-ge-stock-a-better-buy-here" },
-    { "date": "2026-03-15", "headline": "BNP Paribas increases Palantir holdings by 17.6%. Institutional buying continues", "significance": "Institutions expanding positions despite valuation concerns. Long-term growth conviction", "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html" },
-    { "date": "2026-03-13", "headline": "Iran's IRGC identifies Palantir as potential military technology target", "significance": "Underscores influence as defense AI leader. Geopolitical risk simultaneously elevated", "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51205650/why-is-palantir-stock-falling-thursday" }
+    {
+      "date": "2026-03-16",
+      "headline": "Palantir president spoke at GTC + NVIDIA NemoClaw strengthens AI agent ecosystem position",
+      "significance": "C-suite level presence at NVIDIA's flagship event. NemoClaw makes sovereign AI OS more practically relevant",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Motley Fool: Palantir secures $1B defense AI contract. Could surge if government AI spending explodes",
+      "significance": "Single contract worth $1B. Government revenue acceleration and potential guidance raise",
+      "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Palantir-GE Aerospace military aircraft maintenance AI partnership analyzed",
+      "significance": "Defense AI expanding from intelligence to aircraft maintenance. Entering practical monetization phase",
+      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-16-palantir-and-ge-aerospace-are-working-together-on-military-aircraft-is-pltr-or-ge-stock-a-better-buy-here"
+    },
+    {
+      "date": "2026-03-15",
+      "headline": "BNP Paribas increases Palantir holdings by 17.6%. Institutional buying continues",
+      "significance": "Institutions expanding positions despite valuation concerns. Long-term growth conviction",
+      "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "Iran's IRGC identifies Palantir as potential military technology target",
+      "significance": "Underscores influence as defense AI leader. Geopolitical risk simultaneously elevated",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51205650/why-is-palantir-stock-falling-thursday"
+    }
   ],
   "analystOpinions": {
     "consensusTarget": 200.41,
-    "highTarget": 260.00,
-    "lowTarget": 50.00,
+    "highTarget": 260.0,
+    "lowTarget": 50.0,
     "upsidePercent": 31.23,
     "buyCount": 16,
     "holdCount": 10,
@@ -57,21 +155,53 @@
     "notableComment": "16 of 28 analysts rate Buy. Consensus $200.41 (+31%). $1B contract and GTC speech may trigger upgrades. Rosenblatt $200, UBS $180."
   },
   "risks": [
-    { "severity": "critical", "title": "Death cross formed, bearish technical signal", "description": "50-day SMA crossed below 200-day SMA. Similar pattern in Oct 2021 preceded -60% decline." },
-    { "severity": "high", "title": "Extreme valuation: P/E 243x, P/S 81x", "description": "$4.48B revenue company at $365B market cap. Multiple compression risk if growth slows." },
-    { "severity": "high", "title": "Iran IRGC target designation, geopolitical risk", "description": "Iran's Revolutionary Guard listed Palantir as a potential military tech target. Double-edged sword of defense AI leadership." },
-    { "severity": "medium", "title": "Share dilution +4.67% YoY", "description": "Stock-based compensation driving nearly 5% annual dilution. Long-term shareholder value erosion." },
-    { "severity": "medium", "title": "Big tech AI platform competition", "description": "Microsoft, Google, Amazon intensifying enterprise AI platform efforts. Commercial growth deceleration possible." }
+    {
+      "severity": "critical",
+      "title": "Death cross formed, bearish technical signal",
+      "description": "50-day SMA crossed below 200-day SMA. Similar pattern in Oct 2021 preceded -60% decline."
+    },
+    {
+      "severity": "high",
+      "title": "Extreme valuation: P/E 243x, P/S 81x",
+      "description": "$4.48B revenue company at $365B market cap. Multiple compression risk if growth slows."
+    },
+    {
+      "severity": "high",
+      "title": "Iran IRGC target designation, geopolitical risk",
+      "description": "Iran's Revolutionary Guard listed Palantir as a potential military tech target. Double-edged sword of defense AI leadership."
+    },
+    {
+      "severity": "medium",
+      "title": "Share dilution +4.67% YoY",
+      "description": "Stock-based compensation driving nearly 5% annual dilution. Long-term shareholder value erosion."
+    },
+    {
+      "severity": "medium",
+      "title": "Big tech AI platform competition",
+      "description": "Microsoft, Google, Amazon intensifying enterprise AI platform efforts. Commercial growth deceleration possible."
+    }
   ],
   "buyReasons": [
-    { "title": "$1B defense AI contract + GTC presidential speech", "rationale": "$1B single contract confirms government revenue acceleration. GTC appearance with NemoClaw strengthens sovereign AI strategic position." },
-    { "title": "FY2026 guidance $7.2B (+61%), record growth rate", "rationale": "Guidance well above prior consensus. AIP commercial conversion accelerating." },
-    { "title": "Institutional buying expanding", "rationale": "BNP Paribas +17.6% among multiple institutions increasing stakes despite valuation." },
-    { "title": "47% FCF margin + debt-free balance sheet", "rationale": "$7.18B cash, $229M debt. 47% FCF margin funds organic growth." }
+    {
+      "title": "$1B defense AI contract + GTC presidential speech",
+      "rationale": "$1B single contract confirms government revenue acceleration. GTC appearance with NemoClaw strengthens sovereign AI strategic position."
+    },
+    {
+      "title": "FY2026 guidance $7.2B (+61%), record growth rate",
+      "rationale": "Guidance well above prior consensus. AIP commercial conversion accelerating."
+    },
+    {
+      "title": "Institutional buying expanding",
+      "rationale": "BNP Paribas +17.6% among multiple institutions increasing stakes despite valuation."
+    },
+    {
+      "title": "47% FCF margin + debt-free balance sheet",
+      "rationale": "$7.18B cash, $229M debt. 47% FCF margin funds organic growth."
+    }
   ],
   "technicalPosition": {
     "week52High": 210.53,
-    "week52Low": 76.50,
+    "week52Low": 76.5,
     "currentPositionPercent": 56.88,
     "sma50": 153.85,
     "sma50Signal": "below",
@@ -91,16 +221,56 @@
     "horizon": "6-12 months"
   },
   "sources": [
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/", "description": "$1B defense AI contract, government AI spending outlook" },
-    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 program, Palantir president speech, NemoClaw" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC keynote, NemoClaw (OpenClaw agent) details" },
-    { "name": "SDxCentral", "url": "https://www.sdxcentral.com/news/nvidia-partners-with-palantir-on-sovereign-ai/", "description": "NVIDIA-Palantir sovereign AI OS launch" },
-    { "name": "Barchart", "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-16-palantir-and-ge-aerospace-are-working-together-on-military-aircraft-is-pltr-or-ge-stock-a-better-buy-here", "description": "Palantir-GE Aerospace military aircraft partnership" },
-    { "name": "Daily Political", "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html", "description": "BNP Paribas PLTR holdings +17.6%" },
-    { "name": "Benzinga", "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51205650/why-is-palantir-stock-falling-thursday", "description": "Iran IRGC target + technical analysis" },
-    { "name": "Investopedia", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762", "description": "March 16 market close: S&P +1%, Nasdaq +1.2%" },
-    { "name": "TradersUnion", "url": "https://tradersunion.com/news/financial-news/show/1707687-palantir-gains-0-25percent-to-usd151-38/", "description": "PLTR technical analysis, $145-$155 channel" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/", "description": "PLTR consensus target $200.41" }
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/16/prediction-palantir-could-surge-if-government-ai-s/",
+      "description": "$1B defense AI contract, government AI spending outlook"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "description": "GTC 2026 program, Palantir president speech, NemoClaw"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "GTC keynote, NemoClaw (OpenClaw agent) details"
+    },
+    {
+      "name": "SDxCentral",
+      "url": "https://www.sdxcentral.com/news/nvidia-partners-with-palantir-on-sovereign-ai/",
+      "description": "NVIDIA-Palantir sovereign AI OS launch"
+    },
+    {
+      "name": "Barchart",
+      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-16-palantir-and-ge-aerospace-are-working-together-on-military-aircraft-is-pltr-or-ge-stock-a-better-buy-here",
+      "description": "Palantir-GE Aerospace military aircraft partnership"
+    },
+    {
+      "name": "Daily Political",
+      "url": "https://www.dailypolitical.com/2026/03/15/bnp-paribas-boosts-holdings-in-palantir-technologies-inc-pltr.html",
+      "description": "BNP Paribas PLTR holdings +17.6%"
+    },
+    {
+      "name": "Benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51205650/why-is-palantir-stock-falling-thursday",
+      "description": "Iran IRGC target + technical analysis"
+    },
+    {
+      "name": "Investopedia",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
+      "description": "March 16 market close: S&P +1%, Nasdaq +1.2%"
+    },
+    {
+      "name": "TradersUnion",
+      "url": "https://tradersunion.com/news/financial-news/show/1707687-palantir-gains-0-25percent-to-usd151-38/",
+      "description": "PLTR technical analysis, $145-$155 channel"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/",
+      "description": "PLTR consensus target $200.41"
+    }
   ],
   "snsContent": {
     "x": {

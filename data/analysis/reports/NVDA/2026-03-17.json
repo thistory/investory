@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-17",
   "currentPrice": 183.13,
   "marketCap": "$4.45T",
-
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자 -- 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
     "description": "NVIDIA는 세계 최대 반도체 설계 기업으로, AI 학습과 추론 데이터센터 가속기가 핵심 매출 동력. FY2026 매출 $215.9B(+65% YoY), Q4 매출 $68.1B(+73% YoY), 순이익 $120.1B. 월요일 종가 $183.13(+1.6%). GTC 2026 키노트에서 Jensen Huang이 Blackwell+Vera Rubin 주문이 2027년까지 $1조에 달할 것이라 발표. Groq 3 LPU(12월 $200억 인수)를 공개하고, Vera Rubin은 Grace Blackwell 대비 와트당 성능 10배를 달성한다고 밝혔다. 차세대 랙 아키텍처 Kyber도 최초 공개.",
@@ -23,18 +22,48 @@
       "DRIVE -- 자율주행 플랫폼 (Uber 28개 도시 파트너십)"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "36.97", "interpretation": "대형 테크 대비 합리적. $1조 주문 발표에도 멀티플 부담 적음" },
-    { "name": "Forward P/E", "value": "21.84", "interpretation": "FY2027 성장 기대 반영. PEG 0.57로 성장 대비 저평가" },
-    { "name": "매출 성장률 (YoY)", "value": "+65%", "interpretation": "FY2026 $215.9B 달성. Q1 FY2027 가이던스 $78B(+77%)" },
-    { "name": "영업이익률", "value": "60.38%", "interpretation": "반도체 업계 최고 수준. 독점적 마진 유지" },
-    { "name": "FCF", "value": "$96.68B", "interpretation": "연간 FCF 약 $97B, 사상 최대 현금 창출" },
-    { "name": "부채비율 (D/E)", "value": "0.07", "interpretation": "극도로 낮은 부채. 사실상 무차입" },
-    { "name": "ROE", "value": "101.49%", "interpretation": "100% 이상 자본 수익률. 자본 효율 극대화" },
-    { "name": "RSI", "value": "44", "interpretation": "중립 구간. GTC 발표 후 반등 시작" }
+    {
+      "name": "P/E (TTM)",
+      "value": "36.97x",
+      "interpretation": "반도체 업종 평균(53x)보다 낮고, S&P 500 평균(27x) 대비 소폭 프리미엄. 경쟁사 AMD(108x), Broadcom(89x) 대비 오히려 저렴하다"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.84x",
+      "interpretation": "S&P 500 Forward P/E(21x)와 거의 동일. 65% 성장률 감안 시 PEG 0.57로, 성장 대비 역사적 저평가 구간"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "+65%",
+      "interpretation": "FY2026 $215.9B 달성. Q1 FY2027 가이던스 $78B(+77%)"
+    },
+    {
+      "name": "영업이익률",
+      "value": "60.38%",
+      "interpretation": "반도체 업계 최고 수준. 독점적 마진 유지"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.68B",
+      "interpretation": "연간 FCF 약 $97B, 사상 최대 현금 창출"
+    },
+    {
+      "name": "부채비율 (D/E)",
+      "value": "0.07",
+      "interpretation": "극도로 낮은 부채. 사실상 무차입"
+    },
+    {
+      "name": "ROE",
+      "value": "101.49%",
+      "interpretation": "100% 이상 자본 수익률. 자본 효율 극대화"
+    },
+    {
+      "name": "RSI",
+      "value": "44",
+      "interpretation": "중립 구간. GTC 발표 후 반등 시작"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "GTC 키노트: Blackwell+Vera Rubin 주문 $1조(2027년까지)",
@@ -57,21 +86,37 @@
       "description": "CNBC(3/16): Uber와 NVIDIA DRIVE AV 소프트웨어 기반 자율주행 차량을 4개 대륙 28개 도시에 2028년까지 배치 발표. NemoClaw는 OpenClaw 기반 엔터프라이즈 AI 에이전트 개발 도구."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "CUDA 생태계 1,500만 개발자 록인, AI 학습과 추론 GPU 시장 90%+ 점유율. Groq 인수로 추론 시장까지 확장. 소프트웨어+하드웨어+추론 통합이 핵심 해자.",
     "moats": [
-      { "type": "CUDA 생태계", "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화." },
-      { "type": "설계 우위 + Groq 인수", "description": "Blackwell에서 Rubin, Kyber로 2년 주기 혁신. Groq 인수로 추론 특화 칩까지 보유. 경쟁사 대비 1-2세대 앞서." },
-      { "type": "풀스택 전략", "description": "칩+시스템(DGX)+소프트웨어(CUDA, NemoClaw)+네트워킹(Spectrum-X)+추론(Groq) 통합." }
+      {
+        "type": "CUDA 생태계",
+        "description": "1,500만+ 개발자 록인. AI 프레임워크 대부분이 CUDA에 최적화."
+      },
+      {
+        "type": "설계 우위 + Groq 인수",
+        "description": "Blackwell에서 Rubin, Kyber로 2년 주기 혁신. Groq 인수로 추론 특화 칩까지 보유. 경쟁사 대비 1-2세대 앞서."
+      },
+      {
+        "type": "풀스택 전략",
+        "description": "칩+시스템(DGX)+소프트웨어(CUDA, NemoClaw)+네트워킹(Spectrum-X)+추론(Groq) 통합."
+      }
     ],
     "competitors": [
-      { "name": "AMD (MI400)", "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대" },
-      { "name": "Intel (Gaudi 3)", "detail": "AI 가속기 시장 진입. 파운드리 전환 중" },
-      { "name": "커스텀 칩 (Google TPU, Amazon Trainium)", "detail": "하이퍼스케일러 자체 AI 칩. NVIDIA 의존도 축소 시도" }
+      {
+        "name": "AMD (MI400)",
+        "detail": "AI GPU 2위. 비용 효율적 대안. 하이퍼스케일러 채택 확대"
+      },
+      {
+        "name": "Intel (Gaudi 3)",
+        "detail": "AI 가속기 시장 진입. 파운드리 전환 중"
+      },
+      {
+        "name": "커스텀 칩 (Google TPU, Amazon Trainium)",
+        "detail": "하이퍼스케일러 자체 AI 칩. NVIDIA 의존도 축소 시도"
+      }
     ]
   },
-
   "recentNews": [
     {
       "date": "2026-03-16",
@@ -104,18 +149,16 @@
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
     }
   ],
-
   "analystOpinions": {
     "consensusTarget": 274.21,
-    "highTarget": 400.00,
-    "lowTarget": 140.00,
+    "highTarget": 400.0,
+    "lowTarget": 140.0,
     "upsidePercent": 49.74,
     "buyCount": 38,
     "holdCount": 1,
     "sellCount": 0,
     "notableComment": "39명 애널리스트 Strong Buy 컨센서스. $1조 주문 발표 후 목표가 추가 상향 가능. Cantor '신뢰 회복 직전'. GTC 결과로 컨센서스 $274 이상으로 조정 예상."
   },
-
   "risks": [
     {
       "severity": "high",
@@ -143,7 +186,6 @@
       "description": "AMD의 차세대 MI400이 가격 대비 성능으로 일부 워크로드 대체 가능."
     }
   ],
-
   "buyReasons": [
     {
       "title": "GTC에서 $1조 주문 발표, 역사적 수주 규모",
@@ -162,10 +204,9 @@
       "rationale": "연간 FCF $97B으로 자사주 매입, 배당, M&A 여력 충분. 주주 환원 확대 기대."
     }
   ],
-
   "technicalPosition": {
-    "week52High": 207.00,
-    "week52Low": 110.00,
+    "week52High": 207.0,
+    "week52Low": 110.0,
     "currentPositionPercent": 75.39,
     "sma50": 185.46,
     "sma50Signal": "below",
@@ -174,32 +215,68 @@
     "rsi": 44,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
     "오늘 GTC 키노트에서 Jensen Huang이 2027년까지 $1조 주문을 발표했다. 작년 $5000억에서 2배로 뛴 숫자다. Groq 3 LPU(추론 특화 칩)와 Vera Rubin(와트당 성능 10배)도 공개했다.",
     "매출 $216B(+65%), FCF $97B, 영업이익률 60%. Q1 가이던스 $78B(+77%)까지. 여기에 Uber 28개 도시 자율주행, NemoClaw AI 에이전트 플랫폼, 우주 데이터센터용 Vera Rubin Space Module까지 사업 영역이 폭발적으로 넓어지고 있다.",
     "$183.13 마감(+1.6%). Forward P/E 22배에 PEG 0.57이면 77% 성장률 대비 여전히 싸다. 39명 중 38명 매수, 목표가 $274(+50%). 200일선($177) 위에서 반등 중이다."
   ],
-
   "investmentVerdict": {
     "stance": "strong-buy",
     "summary": "GTC에서 $1조 주문, Groq 3 LPU, Vera Rubin 10배 효율이 모두 확인됐다. PEG 0.57로 77% 성장 대비 저평가. 커스텀 칩 경쟁은 리스크지만 Groq 인수와 2년 주기 아키텍처 혁신이 격차를 유지한다. 대형 테크 중 가장 강력한 성장 스토리.",
     "horizon": "12-24개월"
   },
-
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 키노트 상세 보도. $1조 주문, Groq 3 LPU, Kyber 아키텍처" },
-    { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/", "description": "칩 매출 $1조 기회, 추론 시장 전략" },
-    { "name": "Tom's Hardware", "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang", "description": "GTC 키노트 라이브 블로그. Vera Rubin Space Module 25x" },
-    { "name": "TechRadar", "url": "https://www.techradar.com/pro/live/nvidia-gtc-2026-live-coverage-all-the-news-and-updates-as-it-happens", "description": "GTC 라이브 커버리지. Vera Rubin 패밀리, Groq 3 LPU" },
-    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "Thinking Machines Lab 기가와트급 파트너십" },
-    { "name": "Investopedia", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762", "description": "3/16 시장 마감 요약. NVDA +1.6%" },
-    { "name": "ServeTheHome", "url": "https://www.servethehome.com/nvidia-gtc-2026-keynote-live-coverage/", "description": "Groq+Rubin 분리 추론 아키텍처 분석" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/", "description": "NVIDIA 2020년대 가장 중요한 주식 분석" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA 목표가 $274.21 컨센서스" },
-    { "name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/16/nvidia-rises-as-ceo-jensen-huang-takes-the-stage-at-gtc-event/", "description": "GTC 키노트 당일 주가 반응 분석" }
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "GTC 키노트 상세 보도. $1조 주문, Groq 3 LPU, Kyber 아키텍처"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/",
+      "description": "칩 매출 $1조 기회, 추론 시장 전략"
+    },
+    {
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
+      "description": "GTC 키노트 라이브 블로그. Vera Rubin Space Module 25x"
+    },
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/live/nvidia-gtc-2026-live-coverage-all-the-news-and-updates-as-it-happens",
+      "description": "GTC 라이브 커버리지. Vera Rubin 패밀리, Groq 3 LPU"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "description": "Thinking Machines Lab 기가와트급 파트너십"
+    },
+    {
+      "name": "Investopedia",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
+      "description": "3/16 시장 마감 요약. NVDA +1.6%"
+    },
+    {
+      "name": "ServeTheHome",
+      "url": "https://www.servethehome.com/nvidia-gtc-2026-keynote-live-coverage/",
+      "description": "Groq+Rubin 분리 추론 아키텍처 분석"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/",
+      "description": "NVIDIA 2020년대 가장 중요한 주식 분석"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "NVDA 목표가 $274.21 컨센서스"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/03/16/nvidia-rises-as-ceo-jensen-huang-takes-the-stage-at-gtc-event/",
+      "description": "GTC 키노트 당일 주가 반응 분석"
+    }
   ],
-
   "snsContent": {
     "x": {
       "hook": "NVIDIA GTC에서 $1조 주문 발표, 작년의 2배",

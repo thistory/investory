@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-17",
   "currentPrice": 183.13,
   "marketCap": "$4.45T",
-
   "businessSummary": {
     "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
     "description": "NVIDIA is the world's largest semiconductor design company, with AI training and inference data center accelerators as its core revenue driver. FY2026 revenue $215.9B (+65% YoY), Q4 revenue $68.1B (+73% YoY), net income $120.1B. Monday close $183.13 (+1.6%). At GTC 2026, Jensen Huang announced Blackwell+Vera Rubin orders reaching $1 trillion through 2027. Unveiled Groq 3 LPU (from $20B acquisition), Vera Rubin delivering 10x performance per watt vs Grace Blackwell, and next-gen Kyber rack architecture.",
@@ -23,18 +22,48 @@
       "DRIVE -- autonomous driving platform (Uber 28-city partnership)"
     ]
   },
-
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "36.97", "interpretation": "Reasonable vs large-cap tech. Near historical lows for NVDA" },
-    { "name": "Forward P/E", "value": "21.84", "interpretation": "FY2027 growth priced in. PEG 0.57 signals undervaluation" },
-    { "name": "Revenue Growth (YoY)", "value": "+65%", "interpretation": "FY2026 $215.9B. Q1 FY2027 guidance $78B (+77%)" },
-    { "name": "Operating Margin", "value": "60.38%", "interpretation": "Best-in-class for semiconductors. Monopolistic margins" },
-    { "name": "FCF", "value": "$96.68B", "interpretation": "~$97B annual FCF, record cash generation" },
-    { "name": "Debt-to-Equity", "value": "0.07", "interpretation": "Virtually debt-free balance sheet" },
-    { "name": "ROE", "value": "101.49%", "interpretation": "100%+ return on equity. Maximum capital efficiency" },
-    { "name": "RSI", "value": "44", "interpretation": "Neutral. Rebounding after GTC announcements" }
+    {
+      "name": "P/E (TTM)",
+      "value": "36.97",
+      "interpretation": "Below the semiconductor sector average (53x) and modest premium to S&P 500 (27x). Cheaper than peers AMD (108x) and Broadcom (89x)"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.84",
+      "interpretation": "Nearly identical to S&P 500 Forward P/E (21x). With 65% growth, PEG of 0.57 signals historical undervaluation"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "+65%",
+      "interpretation": "FY2026 $215.9B. Q1 FY2027 guidance $78B (+77%)"
+    },
+    {
+      "name": "Operating Margin",
+      "value": "60.38%",
+      "interpretation": "Best-in-class for semiconductors. Monopolistic margins"
+    },
+    {
+      "name": "FCF",
+      "value": "$96.68B",
+      "interpretation": "~$97B annual FCF, record cash generation"
+    },
+    {
+      "name": "Debt-to-Equity",
+      "value": "0.07",
+      "interpretation": "Virtually debt-free balance sheet"
+    },
+    {
+      "name": "ROE",
+      "value": "101.49%",
+      "interpretation": "100%+ return on equity. Maximum capital efficiency"
+    },
+    {
+      "name": "RSI",
+      "value": "44",
+      "interpretation": "Neutral. Rebounding after GTC announcements"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "GTC Keynote: $1 Trillion in Blackwell+Vera Rubin Orders Through 2027",
@@ -57,21 +86,37 @@
       "description": "CNBC (3/16): Uber to deploy NVIDIA DRIVE AV-powered autonomous vehicles across 28 cities on 4 continents by 2028. NemoClaw is the enterprise AI agent development toolkit built on OpenClaw."
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "15M+ developer CUDA ecosystem lock-in, 90%+ market share in AI training and inference GPUs. Groq acquisition extends dominance into inference. Software+hardware+inference integration is the core moat.",
     "moats": [
-      { "type": "CUDA Ecosystem", "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA." },
-      { "type": "Design Lead + Groq Acquisition", "description": "2-year architecture cycles from Blackwell to Rubin to Kyber. Groq adds inference-specialized chips. 1-2 generations ahead of competition." },
-      { "type": "Full-Stack Strategy", "description": "Chips + systems (DGX) + software (CUDA, NemoClaw) + networking (Spectrum-X) + inference (Groq) integration." }
+      {
+        "type": "CUDA Ecosystem",
+        "description": "15M+ developers locked in. Most AI frameworks optimized for CUDA."
+      },
+      {
+        "type": "Design Lead + Groq Acquisition",
+        "description": "2-year architecture cycles from Blackwell to Rubin to Kyber. Groq adds inference-specialized chips. 1-2 generations ahead of competition."
+      },
+      {
+        "type": "Full-Stack Strategy",
+        "description": "Chips + systems (DGX) + software (CUDA, NemoClaw) + networking (Spectrum-X) + inference (Groq) integration."
+      }
     ],
     "competitors": [
-      { "name": "AMD (MI400)", "detail": "No. 2 in AI GPUs. Cost-effective alternative gaining hyperscaler traction" },
-      { "name": "Intel (Gaudi 3)", "detail": "AI accelerator market entrant. Foundry transition ongoing" },
-      { "name": "Custom chips (Google TPU, Amazon Trainium)", "detail": "Hyperscaler in-house AI chips aiming to reduce NVIDIA dependence" }
+      {
+        "name": "AMD (MI400)",
+        "detail": "No. 2 in AI GPUs. Cost-effective alternative gaining hyperscaler traction"
+      },
+      {
+        "name": "Intel (Gaudi 3)",
+        "detail": "AI accelerator market entrant. Foundry transition ongoing"
+      },
+      {
+        "name": "Custom chips (Google TPU, Amazon Trainium)",
+        "detail": "Hyperscaler in-house AI chips aiming to reduce NVIDIA dependence"
+      }
     ]
   },
-
   "recentNews": [
     {
       "date": "2026-03-16",
@@ -104,18 +149,16 @@
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
     }
   ],
-
   "analystOpinions": {
     "consensusTarget": 274.21,
-    "highTarget": 400.00,
-    "lowTarget": 140.00,
+    "highTarget": 400.0,
+    "lowTarget": 140.0,
     "upsidePercent": 49.74,
     "buyCount": 38,
     "holdCount": 1,
     "sellCount": 0,
     "notableComment": "39 analysts, Strong Buy consensus. $1T order announcement likely triggers further target upgrades. Cantor: 'On the cusp of regaining confidence.' Consensus $274 expected to move higher post-GTC."
   },
-
   "risks": [
     {
       "severity": "high",
@@ -143,7 +186,6 @@
       "description": "AMD's next-gen MI400 could substitute for some workloads on price-performance basis."
     }
   ],
-
   "buyReasons": [
     {
       "title": "$1 trillion in orders announced at GTC, historic backlog",
@@ -162,10 +204,9 @@
       "rationale": "Annual FCF of $97B enables buybacks, dividends, and M&A. Shareholder return expansion expected."
     }
   ],
-
   "technicalPosition": {
-    "week52High": 207.00,
-    "week52Low": 110.00,
+    "week52High": 207.0,
+    "week52Low": 110.0,
     "currentPositionPercent": 75.39,
     "sma50": 185.46,
     "sma50Signal": "below",
@@ -174,32 +215,68 @@
     "rsi": 44,
     "rsiSignal": "neutral"
   },
-
   "overallOpinion": [
     "Jensen Huang announced $1 trillion in orders through 2027 at today's GTC keynote, double last year's $500B figure. Groq 3 LPU (inference-specialized) and Vera Rubin (10x perf/watt) were also unveiled.",
     "Revenue $216B (+65%), FCF $97B, operating margin 60%. Q1 guidance $78B (+77%). Add Uber's 28-city autonomous fleet, NemoClaw AI agent platform, and the Vera Rubin Space Module, and the business scope is expanding explosively.",
     "Closed at $183.13 (+1.6%). Forward P/E of 22x with PEG 0.57 is still cheap for 77% growth. 38 of 39 analysts say buy, target $274 (+50%). Holding above 200-day SMA ($177) and rebounding."
   ],
-
   "investmentVerdict": {
     "stance": "strong-buy",
     "summary": "GTC confirmed $1T orders, Groq 3 LPU, and Vera Rubin 10x efficiency. PEG 0.57 signals undervaluation vs 77% growth. Custom chip competition is a risk, but the Groq acquisition and 2-year architecture cycles maintain the lead. The strongest growth story in large-cap tech.",
     "horizon": "12-24 months"
   },
-
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC keynote coverage: $1T orders, Groq 3 LPU, Kyber architecture" },
-    { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/", "description": "$1T chip revenue opportunity, inference strategy" },
-    { "name": "Tom's Hardware", "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang", "description": "GTC keynote live blog. Vera Rubin Space Module 25x" },
-    { "name": "TechRadar", "url": "https://www.techradar.com/pro/live/nvidia-gtc-2026-live-coverage-all-the-news-and-updates-as-it-happens", "description": "GTC live coverage. Vera Rubin family, Groq 3 LPU" },
-    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "Thinking Machines Lab gigawatt-scale partnership" },
-    { "name": "Investopedia", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762", "description": "March 16 market close: NVDA +1.6%" },
-    { "name": "ServeTheHome", "url": "https://www.servethehome.com/nvidia-gtc-2026-keynote-live-coverage/", "description": "Groq+Rubin disaggregated inference architecture analysis" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/", "description": "NVIDIA as the most important stock of the 2020s" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA consensus target $274.21" },
-    { "name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/16/nvidia-rises-as-ceo-jensen-huang-takes-the-stage-at-gtc-event/", "description": "GTC keynote stock reaction analysis" }
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "GTC keynote coverage: $1T orders, Groq 3 LPU, Kyber architecture"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/",
+      "description": "$1T chip revenue opportunity, inference strategy"
+    },
+    {
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang",
+      "description": "GTC keynote live blog. Vera Rubin Space Module 25x"
+    },
+    {
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/pro/live/nvidia-gtc-2026-live-coverage-all-the-news-and-updates-as-it-happens",
+      "description": "GTC live coverage. Vera Rubin family, Groq 3 LPU"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "description": "Thinking Machines Lab gigawatt-scale partnership"
+    },
+    {
+      "name": "Investopedia",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
+      "description": "March 16 market close: NVDA +1.6%"
+    },
+    {
+      "name": "ServeTheHome",
+      "url": "https://www.servethehome.com/nvidia-gtc-2026-keynote-live-coverage/",
+      "description": "Groq+Rubin disaggregated inference architecture analysis"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/15/why-nvidia-could-remain-the-most-important-stock-o/",
+      "description": "NVIDIA as the most important stock of the 2020s"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "NVDA consensus target $274.21"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/03/16/nvidia-rises-as-ceo-jensen-huang-takes-the-stage-at-gtc-event/",
+      "description": "GTC keynote stock reaction analysis"
+    }
   ],
-
   "snsContent": {
     "x": {
       "hook": "NVIDIA just announced $1 trillion in orders at GTC, double last year",

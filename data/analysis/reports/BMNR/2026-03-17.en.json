@@ -2,55 +2,157 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-17",
-  "currentPrice": 22.60,
+  "currentPrice": 22.6,
   "marketCap": "$9.8B",
   "businessSummary": {
     "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum",
     "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,596,000 ETH (3.81% of total supply) as of 3/16, with total crypto + cash of $11.5B. Monday close $22.60 (+10.03%). ETH rally to $2,250 drove the surge. ARK (Cathie Wood), Founders Fund, Pantera among premier institutional backers. Eightco ($ORBS) additional $80M investment provides indirect OpenAI exposure.",
-    "howTheyMakeMoney": ["ETH Treasury: 4,596,000 ETH (~$10.3B at $2,250/ETH)", "ETH Staking: 3,040,515 ETH staked, ~$180M+ annual revenue", "Dividend: 5.3% yield, only crypto treasury company paying dividends", "Bitcoin: 196 BTC (minor)", "Moonshot Investments: Beast Industries $200M, Eightco (ORBS) $94M (indirect OpenAI exposure)"],
-    "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings", "Moonshot Investments"]
+    "howTheyMakeMoney": [
+      "ETH Treasury: 4,596,000 ETH (~$10.3B at $2,250/ETH)",
+      "ETH Staking: 3,040,515 ETH staked, ~$180M+ annual revenue",
+      "Dividend: 5.3% yield, only crypto treasury company paying dividends",
+      "Bitcoin: 196 BTC (minor)",
+      "Moonshot Investments: Beast Industries $200M, Eightco (ORBS) $94M (indirect OpenAI exposure)"
+    ],
+    "keyProducts": [
+      "Ethereum Treasury",
+      "ETH Staking",
+      "MAVAN Validator Network",
+      "Crypto Holdings",
+      "Moonshot Investments"
+    ]
   },
   "keyMetrics": [
-    {"name": "P/B (TTM)", "value": "0.83x", "interpretation": "Trading at 17% discount to NAV. Total assets $11.8B vs market cap $9.8B"},
-    {"name": "ETH Holdings", "value": "4,596,000 ETH", "interpretation": "3.81% of total ETH supply. World's largest public ETH treasury. 76% of '5% Alchemy' target"},
-    {"name": "Total Crypto + Cash", "value": "$11.8B", "interpretation": "ETH $10.3B (at $2,250) + Cash $1.2B + Moonshots $294M. Rising on ETH rebound"},
-    {"name": "Dividend Yield", "value": "5.3%", "interpretation": "Only crypto treasury company with dividends. Income investor appeal"},
-    {"name": "Staked ETH", "value": "3,040,515 ETH", "interpretation": "66% of holdings staked. $180M+ annual passive income"},
-    {"name": "P/E (TTM)", "value": "Negative (EPS -$1.32)", "interpretation": "Mark-to-market ETH losses reflected. Staking revenue is the real cash flow driver"},
-    {"name": "Daily Trading Volume", "value": "$1.0B+", "interpretation": "Top-tier US stock liquidity. Institutional-grade volume"},
-    {"name": "YTD Return", "value": "-29%", "interpretation": "Down from year-start but rebounding. ETH SuperTrend flipped bullish"}
+    {
+      "name": "P/B (TTM)",
+      "value": "0.83x",
+      "interpretation": "Trading at 17% discount to NAV. Total assets $11.8B vs market cap $9.8B"
+    },
+    {
+      "name": "ETH Holdings",
+      "value": "4,596,000 ETH",
+      "interpretation": "3.81% of total ETH supply. World's largest public ETH treasury. 76% of '5% Alchemy' target"
+    },
+    {
+      "name": "Total Crypto + Cash",
+      "value": "$11.8B",
+      "interpretation": "ETH $10.3B (at $2,250) + Cash $1.2B + Moonshots $294M. Rising on ETH rebound"
+    },
+    {
+      "name": "Dividend Yield",
+      "value": "5.3%",
+      "interpretation": "Only crypto treasury company with dividends. Income investor appeal"
+    },
+    {
+      "name": "Staked ETH",
+      "value": "3,040,515 ETH",
+      "interpretation": "66% of holdings staked. $180M+ annual passive income"
+    },
+    {
+      "name": "P/E (TTM)",
+      "value": "Negative (EPS -$1.32)",
+      "interpretation": "Loss-making due to ETH mark-to-market. P/B (0.83x) is the appropriate metric, trading at a deep discount to S&P 500 average P/B (4.5x)"
+    },
+    {
+      "name": "Daily Trading Volume",
+      "value": "$1.0B+",
+      "interpretation": "Top-tier US stock liquidity. Institutional-grade volume"
+    },
+    {
+      "name": "YTD Return",
+      "value": "-29%",
+      "interpretation": "Down from year-start but rebounding. ETH SuperTrend flipped bullish"
+    }
   ],
   "growthDrivers": [
-    {"title": "Monday +10.03% Surge on ETH Rally and $11.5B Treasury Disclosure", "description": "GURUFocus (3/16): BMNR closed at $22.60 (+10.03%), reaching intraday high of $23.24. ETH breaking $2,250 lifted treasury value. Combined with $11.5B disclosure and institutional backer reveal."},
-    {"title": "ETH SuperTrend Flipped to Buy, Historically Preceded 52%/174% Rallies", "description": "Ali Charts (3/16): First SuperTrend buy signal since September. Previous two instances led to 52% and 174% gains. Major technical bullish signal for ETH and BMNR."},
-    {"title": "Premier Institutional Backers Officially Revealed", "description": "PRNewswire (3/16): ARK (Cathie Wood), MOZAYYX, Founders Fund, Bill Miller III, Pantera, Kraken, DCG, Galaxy Digital officially disclosed as backers for the first time."},
-    {"title": "Eightco (ORBS) Additional $80M Investment, Indirect OpenAI Exposure", "description": "PRNewswire (3/16): $80M additional to ORBS (total $94M). ORBS holds $50M in OpenAI shares, the only publicly traded company with direct OpenAI equity."},
-    {"title": "MAVAN Staking Platform Q1 2026 Launch Imminent", "description": "Made in America Validator Network to reduce third-party staking fees. Revenue improvement expected."}
+    {
+      "title": "Monday +10.03% Surge on ETH Rally and $11.5B Treasury Disclosure",
+      "description": "GURUFocus (3/16): BMNR closed at $22.60 (+10.03%), reaching intraday high of $23.24. ETH breaking $2,250 lifted treasury value. Combined with $11.5B disclosure and institutional backer reveal."
+    },
+    {
+      "title": "ETH SuperTrend Flipped to Buy, Historically Preceded 52%/174% Rallies",
+      "description": "Ali Charts (3/16): First SuperTrend buy signal since September. Previous two instances led to 52% and 174% gains. Major technical bullish signal for ETH and BMNR."
+    },
+    {
+      "title": "Premier Institutional Backers Officially Revealed",
+      "description": "PRNewswire (3/16): ARK (Cathie Wood), MOZAYYX, Founders Fund, Bill Miller III, Pantera, Kraken, DCG, Galaxy Digital officially disclosed as backers for the first time."
+    },
+    {
+      "title": "Eightco (ORBS) Additional $80M Investment, Indirect OpenAI Exposure",
+      "description": "PRNewswire (3/16): $80M additional to ORBS (total $94M). ORBS holds $50M in OpenAI shares, the only publicly traded company with direct OpenAI equity."
+    },
+    {
+      "title": "MAVAN Staking Platform Q1 2026 Launch Imminent",
+      "description": "Made in America Validator Network to reduce third-party staking fees. Revenue improvement expected."
+    }
   ],
   "competitiveAdvantage": {
     "summary": "Largest public ETH holdings at 3.81% of supply. Tom Lee + ARK + Founders Fund + Pantera top-tier institutional backing. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
     "moats": [
-      {"type": "ETH Supply Concentration", "description": "3.81% of total ETH supply. 76% toward '5% Alchemy' target. Irreplaceable market position."},
-      {"type": "Institutional Investor Coalition", "description": "ARK (Cathie Wood), Founders Fund, Pantera, Galaxy Digital. Premier crypto institutions."},
-      {"type": "Staking Revenue + Dividend", "description": "3M+ ETH staked + MAVAN platform. 5.3% dividend plus passive income."}
+      {
+        "type": "ETH Supply Concentration",
+        "description": "3.81% of total ETH supply. 76% toward '5% Alchemy' target. Irreplaceable market position."
+      },
+      {
+        "type": "Institutional Investor Coalition",
+        "description": "ARK (Cathie Wood), Founders Fund, Pantera, Galaxy Digital. Premier crypto institutions."
+      },
+      {
+        "type": "Staking Revenue + Dividend",
+        "description": "3M+ ETH staked + MAVAN platform. 5.3% dividend plus passive income."
+      }
     ],
     "competitors": [
-      {"name": "MicroStrategy (MSTR)", "detail": "Bitcoin treasury pioneer. BTC focus vs BMNR's ETH focus"},
-      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor. Different fee structure"},
-      {"name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different model"}
+      {
+        "name": "MicroStrategy (MSTR)",
+        "detail": "Bitcoin treasury pioneer. BTC focus vs BMNR's ETH focus"
+      },
+      {
+        "name": "Grayscale Ethereum Trust (ETHE)",
+        "detail": "ETH ETF competitor. Different fee structure"
+      },
+      {
+        "name": "Coinbase (COIN)",
+        "detail": "Exchange-based crypto exposure. Fundamentally different model"
+      }
     ]
   },
   "recentNews": [
-    {"date": "2026-03-16", "headline": "BMNR surges 10.03% to $22.60, intraday high $23.24. ETH rally + $11.5B disclosure", "significance": "Double-digit gain in a broadly positive market. ETH rebound and institutional revelation drove momentum", "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16"},
-    {"date": "2026-03-16", "headline": "24/7 Wall St: Bitmine soars 11%, Tom Lee's Ethereum bet gets even bigger", "significance": "4,596,000 ETH (3.81% of supply). 60,999 ETH purchase was the largest of 2026", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/"},
-    {"date": "2026-03-16", "headline": "ETH SuperTrend flips to Buy for first time since September. Previous signals: +52%, +174%", "significance": "Powerful technical buy signal. BMNR as leveraged ETH play stands to benefit disproportionately", "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/"},
-    {"date": "2026-03-16", "headline": "CoinCentral: Bitmine makes largest ETH purchase of 2026 (60,999 ETH), cash at $1.2B", "significance": "Aggressive accumulation while maintaining $1.2B cash. Balanced aggression and stability", "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/"},
-    {"date": "2026-03-16", "headline": "Bitcoin hits $74,200, ETH breaks $2,250. Strait of Hormuz tensions ease, crypto rallies", "significance": "Oil pullback + geopolitical de-escalation drives broad crypto recovery", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"}
+    {
+      "date": "2026-03-16",
+      "headline": "BMNR surges 10.03% to $22.60, intraday high $23.24. ETH rally + $11.5B disclosure",
+      "significance": "Double-digit gain in a broadly positive market. ETH rebound and institutional revelation drove momentum",
+      "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "24/7 Wall St: Bitmine soars 11%, Tom Lee's Ethereum bet gets even bigger",
+      "significance": "4,596,000 ETH (3.81% of supply). 60,999 ETH purchase was the largest of 2026",
+      "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "ETH SuperTrend flips to Buy for first time since September. Previous signals: +52%, +174%",
+      "significance": "Powerful technical buy signal. BMNR as leveraged ETH play stands to benefit disproportionately",
+      "url": "https://coinpedia.org/news/bitcoin-price-today-live-updates-why-is-crypto-going-up-16th-march/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "CoinCentral: Bitmine makes largest ETH purchase of 2026 (60,999 ETH), cash at $1.2B",
+      "significance": "Aggressive accumulation while maintaining $1.2B cash. Balanced aggression and stability",
+      "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Bitcoin hits $74,200, ETH breaks $2,250. Strait of Hormuz tensions ease, crypto rallies",
+      "significance": "Oil pullback + geopolitical de-escalation drives broad crypto recovery",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762"
+    }
   ],
   "analystOpinions": {
-    "consensusTarget": 30.00,
-    "highTarget": 34.50,
-    "lowTarget": 30.00,
+    "consensusTarget": 30.0,
+    "highTarget": 34.5,
+    "lowTarget": 30.0,
     "upsidePercent": 32.74,
     "buyCount": 1,
     "holdCount": 0,
@@ -58,25 +160,57 @@
     "notableComment": "B. Riley $30 Strong Buy maintained. Coverage extremely limited, but ARK/Pantera direct investment indicates strong institutional conviction. ETH rally could drive upgrades."
   },
   "risks": [
-    {"severity": "critical", "title": "ETH price dependency (90%+ of assets in ETH)", "description": "4,596,000 ETH is the vast majority of assets. ETH dropping to $1,500 would shrink treasury to $6.9B, NAV down 30%+."},
-    {"severity": "high", "title": "Short seller report impact + extreme volatility", "description": "Culper Research short report effects persist. Stock collapsed 86% from 52-week high of $161."},
-    {"severity": "high", "title": "Extremely limited analyst coverage", "description": "Only 1 formal coverage. Despite growing institutional interest, price discovery remains inefficient."},
-    {"severity": "medium", "title": "Ongoing share dilution", "description": "Equity issuance to fund ETH purchases. 833,000 ETH acquired in 35 days raises dilution concerns."},
-    {"severity": "medium", "title": "Regulatory risk", "description": "SEC crypto regulation changes, potential ETH security classification. Treasury company accounting standard risks."}
+    {
+      "severity": "critical",
+      "title": "ETH price dependency (90%+ of assets in ETH)",
+      "description": "4,596,000 ETH is the vast majority of assets. ETH dropping to $1,500 would shrink treasury to $6.9B, NAV down 30%+."
+    },
+    {
+      "severity": "high",
+      "title": "Short seller report impact + extreme volatility",
+      "description": "Culper Research short report effects persist. Stock collapsed 86% from 52-week high of $161."
+    },
+    {
+      "severity": "high",
+      "title": "Extremely limited analyst coverage",
+      "description": "Only 1 formal coverage. Despite growing institutional interest, price discovery remains inefficient."
+    },
+    {
+      "severity": "medium",
+      "title": "Ongoing share dilution",
+      "description": "Equity issuance to fund ETH purchases. 833,000 ETH acquired in 35 days raises dilution concerns."
+    },
+    {
+      "severity": "medium",
+      "title": "Regulatory risk",
+      "description": "SEC crypto regulation changes, potential ETH security classification. Treasury company accounting standard risks."
+    }
   ],
   "buyReasons": [
-    {"title": "P/B 0.83x, 17% discount to NAV", "rationale": "Market cap $9.8B vs assets $11.8B. MSTR trades at P/B 2-3x. Closing the discount alone implies 20%+ upside."},
-    {"title": "ETH SuperTrend buy signal, historically preceded 52%/174% gains", "rationale": "First buy signal since September. If ETH enters a sustained rally, BMNR's leveraged exposure amplifies gains."},
-    {"title": "Premier institutional backers (ARK, Founders Fund, Pantera)", "rationale": "Cathie Wood, Peter Thiel's Founders Fund, Pantera directly invested. Institutional credibility unmatched in crypto stocks."},
-    {"title": "5.3% dividend + staking + OpenAI indirect exposure", "rationale": "Only crypto treasury with dividends, MAVAN staking launch imminent, Eightco provides OpenAI equity exposure."}
+    {
+      "title": "P/B 0.83x, 17% discount to NAV",
+      "rationale": "Market cap $9.8B vs assets $11.8B. MSTR trades at P/B 2-3x. Closing the discount alone implies 20%+ upside."
+    },
+    {
+      "title": "ETH SuperTrend buy signal, historically preceded 52%/174% gains",
+      "rationale": "First buy signal since September. If ETH enters a sustained rally, BMNR's leveraged exposure amplifies gains."
+    },
+    {
+      "title": "Premier institutional backers (ARK, Founders Fund, Pantera)",
+      "rationale": "Cathie Wood, Peter Thiel's Founders Fund, Pantera directly invested. Institutional credibility unmatched in crypto stocks."
+    },
+    {
+      "title": "5.3% dividend + staking + OpenAI indirect exposure",
+      "rationale": "Only crypto treasury with dividends, MAVAN staking launch imminent, Eightco provides OpenAI equity exposure."
+    }
   ],
   "technicalPosition": {
-    "week52High": 161.00,
-    "week52Low": 3.20,
-    "currentPositionPercent": 12.30,
-    "sma50": 22.50,
+    "week52High": 161.0,
+    "week52Low": 3.2,
+    "currentPositionPercent": 12.3,
+    "sma50": 22.5,
     "sma50Signal": "above",
-    "sma200": 27.00,
+    "sma200": 27.0,
     "sma200Signal": "below",
     "rsi": 52,
     "rsiSignal": "neutral"
@@ -92,16 +226,56 @@
     "horizon": "3-6 months"
   },
   "sources": [
-    {"name": "GURUFocus", "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16", "description": "BMNR +10.03% close, intraday $23.24"},
-    {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/", "description": "11% surge, Tom Lee ETH bet expansion"},
-    {"name": "CoinCentral", "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/", "description": "60,999 ETH purchase (largest of 2026), $1.2B cash maintained"},
-    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html", "description": "$11.5B treasury disclosure + institutional backers"},
-    {"name": "Coinpedia", "url": "https://coinpedia.org/price-analysis/ethereum-price-signals-major-breakout-is-a-20-rally-coming-next/", "description": "ETH $2,250 breakout, SuperTrend buy signal"},
-    {"name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/16/heres-why-bitmine-stock-price-is-eyeing-a-comeback-this-week/", "description": "BMNR falling wedge pattern, comeback outlook"},
-    {"name": "StockTwits", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bmnr-stock-jumps-after-tom-lee-backed-bitmine-buys-60-k-ethereum/cZ32CBCRIfY", "description": "Tom Lee backing, 60K ETH purchase social reaction"},
-    {"name": "Investopedia", "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762", "description": "BTC $74,200, broad market surge"},
-    {"name": "Tokenist", "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/", "description": "Analyst avg target $34.50"},
-    {"name": "StockTitan", "url": "https://www.stocktitan.net/news/ORBS/", "description": "ORBS additional $80M investment, ARK/Payward participation"}
+    {
+      "name": "GURUFocus",
+      "url": "https://www.gurufocus.com/news/8715773/bitmine-immersion-technologies-inc-bmnr-shares-up-1003-on-mar-16",
+      "description": "BMNR +10.03% close, intraday $23.24"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/",
+      "description": "11% surge, Tom Lee ETH bet expansion"
+    },
+    {
+      "name": "CoinCentral",
+      "url": "https://coincentral.com/bitmine-bmnr-stock-rises-9-after-biggest-eth-purchase-of-2026/",
+      "description": "60,999 ETH purchase (largest of 2026), $1.2B cash maintained"
+    },
+    {
+      "name": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html",
+      "description": "$11.5B treasury disclosure + institutional backers"
+    },
+    {
+      "name": "Coinpedia",
+      "url": "https://coinpedia.org/price-analysis/ethereum-price-signals-major-breakout-is-a-20-rally-coming-next/",
+      "description": "ETH $2,250 breakout, SuperTrend buy signal"
+    },
+    {
+      "name": "Bankless Times",
+      "url": "https://www.banklesstimes.com/articles/2026/03/16/heres-why-bitmine-stock-price-is-eyeing-a-comeback-this-week/",
+      "description": "BMNR falling wedge pattern, comeback outlook"
+    },
+    {
+      "name": "StockTwits",
+      "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bmnr-stock-jumps-after-tom-lee-backed-bitmine-buys-60-k-ethereum/cZ32CBCRIfY",
+      "description": "Tom Lee backing, 60K ETH purchase social reaction"
+    },
+    {
+      "name": "Investopedia",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03162026-11926762",
+      "description": "BTC $74,200, broad market surge"
+    },
+    {
+      "name": "Tokenist",
+      "url": "https://tokenist.com/bitmine-immersion-bmnr-stock-rises-after-revealing-10-3b-crypto-treasury/",
+      "description": "Analyst avg target $34.50"
+    },
+    {
+      "name": "StockTitan",
+      "url": "https://www.stocktitan.net/news/ORBS/",
+      "description": "ORBS additional $80M investment, ARK/Payward participation"
+    }
   ],
   "snsContent": {
     "x": {
