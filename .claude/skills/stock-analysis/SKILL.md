@@ -99,8 +99,16 @@ Write collected data as JSON in the following structure:
   },
 
   // Key metrics (around 6)
+  // ★ P/E 비교 기준 필수 ★
+  // P/E(PER)를 표시할 때는 반드시 비교 기준을 함께 제시한다:
+  //   - 업종/섹터 평균 P/E (예: "반도체 업종 평균 35x 대비 47x")
+  //   - S&P 500 평균 P/E (예: "S&P 500 평균 22x 대비 381x")
+  //   - 동종 경쟁사 P/E (예: "AMD 45x, Intel 25x 대비")
+  //   - Forward P/E도 동일하게 비교 기준 포함
+  // interpretation 필드에 비교 수치를 포함해서 투자자가 "이게 비싼 건지 싼 건지" 즉시 판단할 수 있게 한다.
+  // 예: { "name": "P/E (TTM)", "value": "47.7x", "interpretation": "반도체 업종 평균(35x)보다 높지만, 65% 성장률 감안 시 PEG 0.73으로 합리적" }
   "keyMetrics": [
-    { "name": "P/E (Price-to-Earnings)", "value": "373x", "interpretation": "Interpretation" }
+    { "name": "P/E (Price-to-Earnings)", "value": "373x", "interpretation": "S&P 500 평균(22x) 대비 17배. 업종 평균 대비 극단적 프리미엄" }
   ],
 
   // Growth drivers
