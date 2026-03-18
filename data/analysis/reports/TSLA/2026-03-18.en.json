@@ -3,121 +3,349 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-18",
   "currentPrice": 399.27,
-  "marketCap": "$1.28T",
+  "marketCap": "1.50T",
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomy, robotics, energy, and AI chips",
-    "description": "Tesla is transitioning from EV manufacturing to an integrated AI, robotics, and energy platform. FY2025 revenue $94.8B (-2.9% YoY), net income $3.79B (-46.5% YoY). Closed Tuesday (3/17) at $399.27 (+0.94%). NVIDIA's DRIVE platform announced major partnerships with Uber, BYD, and Hyundai at GTC, directly challenging Tesla's FSD dominance. Electrek reported an imminent large-scale ATM offering to fund Terafab — the first major capital raise since 2020.",
-    "howTheyMakeMoney": ["EV sales (Model 3/Y, Cybertruck)", "Energy storage & generation (Megapack, Powerwall, Solar)", "Services & charging (Supercharger, insurance, OTA)", "FSD subscriptions & licensing", "Regulatory credit sales"],
-    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab (robotaxi, April production start)", "Megapack 3 (5 MWh, LG LFP cells)", "FSD v14.2.2.5", "Optimus humanoid robot", "Terafab AI chip fab (3/21 launch)", "Macrohard (Tesla-xAI enterprise AI)"]
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
+    "description": "Tesla is expanding beyond EV sales into FSD autonomous driving, Cybercab robotaxi, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08, and Q4 2025 gross margin hit 20.1%, the highest in two years. Key growth catalysts accelerate in 2026 with Cybercab production starting in April and Optimus Gen 3 unveiling.",
+    "howTheyMakeMoney": [
+      "Electric vehicle sales (Model 3/Y, Cybertruck)",
+      "Energy generation and storage (Megapack, Powerwall, Solar)",
+      "Services and charging (Supercharger network, insurance, OTA upgrades)",
+      "FSD (Full Self-Driving) subscriptions and licensing",
+      "Regulatory credit sales"
+    ],
+    "keyProducts": [
+      "Model Y/3",
+      "Cybertruck",
+      "Cybercab",
+      "Megapack 3",
+      "FSD",
+      "Optimus",
+      "Terafab",
+      "Macrohard"
+    ]
   },
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "367.7x", "interpretation": "13.6x S&P 500 average. Extreme premium reflecting AI, robotics, energy expectations"},
-    {"name": "Forward P/E", "value": "155.9x", "interpretation": "Based on FY2026 EPS consensus $2.56. High growth expectations priced in"},
-    {"name": "Revenue Growth (YoY)", "value": "-2.9%", "interpretation": "FY2025 $94.8B decline. Delivery drop (-8.6%) and price cuts"},
-    {"name": "Operating Margin", "value": "4.59%", "interpretation": "Margin compression from price war with BYD"},
-    {"name": "FCF", "value": "$6.22B", "interpretation": "Healthy cash generation. $44B total cash"},
-    {"name": "D/E Ratio", "value": "0.08", "interpretation": "Excellent financial health"},
-    {"name": "ROE", "value": "4.86%", "interpretation": "Below large-cap tech peers. Margin recovery needed"},
-    {"name": "RSI", "value": "42", "interpretation": "Neutral-bearish. Slight bounce but weak momentum"}
+    {
+      "name": "P/E (TTM)",
+      "value": "394.90x",
+      "interpretation": "Extreme premium vs S&P 500 avg (~23x) and auto sector avg (~16x). Reflects AI/robotics/energy future value but highly controversial valuation"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "193.08x",
+      "interpretation": "Based on 2026 EPS estimates. Half of TTM but still elevated even among growth stocks"
+    },
+    {
+      "name": "Gross Margin",
+      "value": "18.03% (Q4: 20.1%)",
+      "interpretation": "Q4 2025 hit 2-year high of 20.1%. Improving trend despite pricing pressure through cost efficiencies"
+    },
+    {
+      "name": "Revenue (TTM)",
+      "value": "$94.83B",
+      "interpretation": "Q4 revenue of $24.9B slightly beat consensus. Targeting $100B+ in 2026"
+    },
+    {
+      "name": "FCF (TTM)",
+      "value": "$6.22B",
+      "interpretation": "Operating cash flow of $14.75B minus capex of $8.53B. Maintaining cash generation amid Cybercab/Terafab investments"
+    },
+    {
+      "name": "Debt-to-Equity",
+      "value": "0.18x",
+      "interpretation": "Net cash of $29.34B ($7.82/share). Exceptional balance sheet with ample capacity for large-scale investments"
+    }
   ],
   "growthDrivers": [
-    {"title": "Terafab Launch D-3: First Step in AI Chip Vertical Integration", "description": "Logic+memory+packaging in one 2nm fab. 3/21 launch. But Electrek reports imminent ATM offering for $25-40B funding."},
-    {"title": "LG Energy $4.3B LFP Battery Plant Confirmed", "description": "US government confirmed Tesla-LG deal for Megapack 3 US-made cells. Production starting 2027. 5 MWh per unit (+28%)."},
-    {"title": "Cybercab April Production Start", "description": "Steering-wheel-free autonomous robotaxi. Targeting 2M units/year. Regulatory approval is key hurdle."},
-    {"title": "China Jan-Feb Sales +35% YoY", "description": "127,728 China-made EVs sold in Jan-Feb, +35% YoY. European Feb registrations also +10% YoY."},
-    {"title": "Macrohard: Tesla-xAI Enterprise AI Joint Venture", "description": "Enterprise-grade generative AI platform. AI hardware+software vertical integration with Terafab."}
+    {
+      "title": "Cybercab Robotaxi Production Launch",
+      "description": "Production starts April 2026. Dedicated 2-seat robotaxi without steering wheel, targeting hundreds per week. Austin Gigafactory pop-up event (Mar 13-14) completed public demo. Combined with FSD v14 for unmanned taxi service."
+    },
+    {
+      "title": "Optimus Humanoid Robot",
+      "description": "Gen 3 unveiling in Q1 2026. Digital Optimus UX launch targeted ~6 months out (Sep 2026). Starting with factory tasks, expanding to general labor replacement market."
+    },
+    {
+      "title": "FSD Autonomous Driving Expansion",
+      "description": "FSD v14 achieves full autonomy in designated zones. Subscription and licensing model expected to drive high-margin software revenue. Regulatory approval remains the key variable."
+    },
+    {
+      "title": "Energy Business Surge",
+      "description": "Megapack 3 mass production driving energy storage revenue growth. Emerging as high-margin business offsetting automotive margin pressure."
+    },
+    {
+      "title": "Terafab and Affordable Models",
+      "description": "Next-gen affordable EV and Tesla Semi production starting 2026. Volume growth re-acceleration through expanded manufacturing capacity."
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share. FSD 8.2B miles of data, Supercharger NACS standard, vertical integration. But NVIDIA DRIVE's partnerships with Uber/BYD/Hyundai are cracking the autonomy monopoly.",
+    "summary": "Vertically integrated manufacturing, proprietary AI chips and supercomputers, global charging infrastructure, and billions of miles of driving data create compounding competitive advantages",
     "moats": [
-      {"type": "Autonomous Driving Data Moat", "description": "8.2B FSD miles. But NVIDIA DRIVE catching up with Uber 28-city, BYD, Hyundai partnerships."},
-      {"type": "Vertical Integration + Own AI Chips", "description": "Own battery (4680), custom chips (Terafab), software (FSD), charging (Supercharger)."},
-      {"type": "Charging Network Effects", "description": "NACS is North American EV charging standard. GM, Ford, Rivian depend on Tesla Supercharger."}
+      {
+        "type": "Technology (Autonomous Driving Data)",
+        "description": "Billions of miles of real-world driving data with proprietary AI training infrastructure (Dojo). FSD v14 closest to Level 4 autonomy."
+      },
+      {
+        "type": "Vertical Integration",
+        "description": "In-house design and production of battery cells (4680), powertrain, and AI chips. Cost advantage and rapid innovation cycles."
+      },
+      {
+        "type": "Brand and Ecosystem",
+        "description": "Supercharger adopted as North American standard (NACS). Integrated ecosystem spanning insurance, OTA, charging, and energy."
+      },
+      {
+        "type": "Scale Economics",
+        "description": "Annual production capacity of ~1.8M+ vehicles. Four Gigafactories plus Terafab expansion deepening cost advantage vs competitors."
+      }
     ],
     "competitors": [
-      {"name": "BYD", "detail": "Global EV sales #1 (2025: 2.26M vs Tesla 1.64M). 640-mile sedan, 5-min charging"},
-      {"name": "NVIDIA DRIVE", "detail": "GTC 2026 partnerships with Uber (28 cities), BYD, Hyundai. Most direct FSD competitor"},
-      {"name": "Waymo (Alphabet)", "detail": "Commercial robotaxi service expanding. Tech maturity advantage but limited scalability"}
+      {
+        "name": "BYD",
+        "detail": "Surpassed Tesla in global EV sales volume in 2025. Strong in China and affordable segments, but gaps in autonomous driving and software."
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "Operating L4 robotaxi commercially. Expanding in select cities but different approach with dedicated vehicles and LiDAR dependency limiting scalability."
+      },
+      {
+        "name": "Rivian / Lucid",
+        "detail": "Competing in premium EV segment. Behind Tesla in production scale and profitability. Rivian has Amazon van volumes."
+      },
+      {
+        "name": "Legacy OEMs (GM, Ford, VW, Hyundai)",
+        "detail": "Accelerating EV transition but structurally disadvantaged in software capabilities and margin structure vs Tesla."
+      }
     ]
   },
   "recentNews": [
-    {"date": "2026-03-17", "headline": "Electrek: Imminent ATM offering for Terafab funding — first major raise since 2020", "significance": "Potential $25-40B capital raise. Short-term dilution pressure but long-term AI chip self-sufficiency", "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/"},
-    {"date": "2026-03-17", "headline": "NVIDIA DRIVE partners with Uber (28 cities), BYD, and Hyundai", "significance": "Most direct threat to Tesla's FSD monopoly. NVIDIA positioning as 'Android of autonomy'", "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/"},
-    {"date": "2026-03-17", "headline": "US government confirms Tesla-LG $4.3B LFP battery plant deal", "significance": "Megapack 3 US-made cells from 2027. Energy business supply chain secured", "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/"},
-    {"date": "2026-03-17", "headline": "S&P 500 +0.25%, market rebounds amid Iran war. Oil (Brent $100+) rising", "significance": "Consumer discretionary +1%. TSLA +0.94% slight outperformance", "url": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html"},
-    {"date": "2026-03-16", "headline": "Terafab scope: logic+memory+packaging under one roof", "significance": "Ambitious 2nm fab with zero semiconductor experience. High risk, high reward", "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/"}
+    {
+      "date": "2026-03-17",
+      "headline": "Tesla research report: 'From Automotive Titan to AI Hegemon' transformation analysis",
+      "significance": "Analysis positions 2026 as the pivotal year for AI transformation with FSD v14, Cybercab April production, Optimus Gen 3. Catalyst for stock re-rating.",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-17-tesla-at-the-crossroads-from-automotive-titan-to-ai-hegemon-research-report"
+    },
+    {
+      "date": "2026-03-13",
+      "headline": "Tesla hosts Cybercab/Optimus/FSD public pop-up event in Austin",
+      "significance": "First public event for hands-on Cybercab, Optimus, and FSD experience. Strengthens market confidence in robotaxi materialization.",
+      "url": "https://www.basenor.com/blogs/news/tesla-autonomy-pop-up-in-austin-see-cybercab-optimus-fsd-live"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "Cybercab production line targeting hundreds weekly, setup underway",
+      "significance": "Confirms production line setup ahead of April launch. Initial volume vs market expectations is the key question.",
+      "url": "https://www.teslarati.com/tesla-cybercab-line-targeting-hundreds-weekly-report/"
+    },
+    {
+      "date": "2026-01-28",
+      "headline": "Q4 2025 earnings: EPS $0.50 beats consensus, gross margin hits 20.1%",
+      "significance": "EPS beat consensus ($0.44) by 25%. Gross margin at 2-year high. Stock fell 3.3% post-earnings on sell-the-news.",
+      "url": "https://electrek.co/2026/01/28/tesla-tsla-releases-q4-2025-financial-results-slight-beat-on-earnings/"
+    },
+    {
+      "date": "2026-01-28",
+      "headline": "FY 2025 annual results: Revenue $94.8B, GAAP EPS $1.08",
+      "significance": "Annual revenue growth maintained but vehicle deliveries trending down. Non-GAAP EPS $1.66 with energy/services contribution expanding.",
+      "url": "https://www.teslarati.com/tesla-tsla-q4-and-fy-2025-earnings-results/"
+    }
   ],
   "analystOpinions": {
-    "consensusTarget": 406.84,
+    "consensusTarget": 389.12,
     "highTarget": 600.0,
-    "lowTarget": 125.0,
-    "upsidePercent": 1.9,
-    "buyCount": 19,
-    "holdCount": 13,
-    "sellCount": 9,
-    "notableComment": "Consensus $406.84 (+1.9%), majority Hold. Imminent ATM offering and NVIDIA DRIVE competition add downside risk."
+    "lowTarget": 25.28,
+    "upsidePercent": -2.54,
+    "buyCount": 13,
+    "holdCount": 11,
+    "sellCount": 7,
+    "notableComment": "Wedbush maintains $600 high target (AI/robotaxi premium). GLJ Research at $25 low (overvaluation thesis). Consensus Hold among 31 analysts with extremely polarized views."
   },
   "risks": [
-    {"severity": "critical", "title": "Imminent ATM Offering — Major Dilution Risk", "description": "First large-scale capital raise since 2020. $25-40B Terafab costs require significant equity issuance."},
-    {"severity": "critical", "title": "NVIDIA DRIVE Partnerships — Autonomy Monopoly Cracking", "description": "Uber (28 cities), BYD, Hyundai joining NVIDIA's open platform. Challenges Tesla's closed FSD ecosystem."},
-    {"severity": "high", "title": "BYD Competition Accelerating", "description": "BYD 2025 EV: 2.26M (+28%) vs Tesla 1.64M (-8%). Price war intensifying."},
-    {"severity": "high", "title": "NHTSA FSD Investigation Expanding", "description": "2.88M vehicles under investigation. Austin robotaxi violations. Regulatory hurdle for Cybercab."},
-    {"severity": "high", "title": "Extreme Valuation: P/E 368x", "description": "Further EPS dilution possible with capital raise."},
-    {"severity": "medium", "title": "Iran War + Oil $100+ — Macro Uncertainty", "description": "Strait of Hormuz tensions. Consumer spending weakness could hurt EV demand."}
+    {
+      "severity": "critical",
+      "title": "Extreme Valuation Risk",
+      "description": "TTM P/E of 394.9x is 17x the S&P 500 (23x) and 25x the auto sector (16x). Any growth story delay or disappointment could trigger severe multiple compression."
+    },
+    {
+      "severity": "high",
+      "title": "Robotaxi/FSD Regulatory Uncertainty",
+      "description": "Cybercab unmanned operation requires federal and state regulatory approvals. Limited regulatory approval track record vs Waymo, with political risk increasing on any accident."
+    },
+    {
+      "severity": "high",
+      "title": "Vehicle Sales Growth Slowdown",
+      "description": "2025 vehicle deliveries trending down. Low-cost competition from Chinese rivals like BYD and slowing global EV demand growth threaten the core business."
+    },
+    {
+      "severity": "high",
+      "title": "Elon Musk Risk",
+      "description": "DOGE activities and political controversies negatively impacting brand image and sales. Ongoing CEO focus dilution concerns."
+    },
+    {
+      "severity": "medium",
+      "title": "Macro and Tariff Risk",
+      "description": "Interest rate environment, US-China trade tensions, and tariff policies affecting global supply chain and demand. Geopolitical risks for Europe/China sales."
+    },
+    {
+      "severity": "medium",
+      "title": "New Business Execution Risk",
+      "description": "Cybercab, Optimus, and Semi all targeting 2026 production start, but Tesla's history of timeline delays means potential delays remain."
+    }
   ],
   "buyReasons": [
-    {"title": "Terafab D-3 + LG Battery Deal: Energy+AI Expansion", "rationale": "If Terafab succeeds, first step to NVIDIA independence. LG deal secures energy supply chain."},
-    {"title": "Cybercab + Macrohard: Revenue Diversification", "rationale": "Robotaxi commercialization and enterprise AI market entry."},
-    {"title": "China Sales +35%, Delivery Rebound Signal", "rationale": "China recovery signals FY2026 delivery rebound. Energy segment at record margins."},
-    {"title": "Cash $44B, D/E 0.08 — Strong Balance Sheet", "rationale": "Even with ATM offering, existing cash provides significant buffer."}
+    {
+      "title": "2026 Catalyst Concentration",
+      "description": "Cybercab April production, Optimus Gen 3, FSD v14, Semi production: the most new products launching simultaneously in Tesla's history. Successful execution transforms the revenue mix qualitatively."
+    },
+    {
+      "title": "Hidden Energy Business Growth",
+      "description": "Megapack 3 mass production positioning energy segment as high-margin growth engine. Diversification effect offsetting automotive margin pressure."
+    },
+    {
+      "title": "Exceptional Balance Sheet",
+      "description": "Net cash of $29.3B, D/E 0.18x. Capable of funding large-scale R&D and capex internally. Dominant financial firepower vs competitors."
+    },
+    {
+      "title": "AI/Robotics Platform Premium",
+      "description": "Transition from car company to Physical AI platform. FSD licensing, Optimus labor replacement, and TAM expansion potential justify current valuation thesis."
+    }
   ],
   "technicalPosition": {
     "week52High": 498.83,
-    "week52Low": 214.25,
-    "currentPositionPercent": 65.0,
-    "sma50": 419.98,
+    "week52Low": 249.84,
+    "currentPositionPercent": 60.0,
+    "sma50": 418.79,
     "sma50Signal": "below",
-    "sma200": 426.02,
-    "sma200Signal": "below",
-    "rsi": 42,
+    "sma200": 393.85,
+    "sma200Signal": "above",
+    "rsi": 45.29,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Tesla closed at $399.27 (+0.94%) but two key risks surfaced: Electrek reported an imminent ATM offering for Terafab funding — the first major capital raise since 2020. And NVIDIA's DRIVE platform announced partnerships with Uber (28 cities), BYD, and Hyundai, directly challenging Tesla's FSD monopoly.",
-    "P/E 368x, below both 50-day ($420) and 200-day ($426) moving averages. RSI 42. Target $407 (+1.9%). Saturday's Terafab launch is the inflection point, but the ATM offering overhang will likely cap upside in the near term. Patience required.",
-    "Catalysts are abundant — Terafab, LG battery deal, Cybercab — but the dilution risk and NVIDIA DRIVE competition make this a 'wait and see' moment."
+    "Cybercab April production, Optimus Gen 3 reveal, FSD v14: 2026 is packed with catalysts. If execution delivers, Tesla fully transforms from automaker to AI platform.",
+    "But at 395x P/E, every future promise is already priced in. This is a 'betting on expectations' zone with significant downside risk if results disappoint.",
+    "Trading below 50-day SMA ($418) but above 200-day ($393). RSI at 45 shows neutral momentum without clear short-term direction.",
+    "Long-term believers can dollar-cost average here. Short-term traders should wait for Cybercab production confirmation. Current: $399."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Rich catalysts but imminent ATM offering and NVIDIA DRIVE competition create significant headwinds. P/E 368x with potential further dilution. Wait for Terafab launch results and ATM terms.",
-    "horizon": "1-2 weeks (Post-Terafab launch + ATM terms)"
+    "summary": "2026 is Tesla's most critical execution year. Cybercab, Optimus, and FSD all begin their promised timelines, but the 395x P/E already prices in perfect execution, leaving more downside risk than upside potential. Existing holders should maintain positions, but new entry is better timed after April Cybercab production confirmation.",
+    "horizon": "6-12 months"
   },
   "sources": [
-    {"name": "Electrek (Capital Raise)", "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/", "description": "Imminent ATM offering for Terafab funding"},
-    {"name": "Parameter.io (NVIDIA DRIVE)", "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/", "description": "NVIDIA DRIVE Uber/BYD/Hyundai partnerships"},
-    {"name": "CNBC (Market)", "url": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html", "description": "S&P 500 +0.25% market rebound"},
-    {"name": "Reuters (LG Battery)", "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/", "description": "Tesla-LG $4.3B battery deal confirmed"},
-    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "Consensus target $406.84"},
-    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/17/tesla-stock-below-400-but-analysts-see-upside-ahead/", "description": "Analyst upside analysis"},
-    {"name": "Benzinga", "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51279594/tesla-stock-is-climbing-whats-going-on", "description": "Terafab launch in 7 days"},
-    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/TSLA:NASDAQ", "description": "TSLA closing price $399.27"}
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/tsla/statistics/",
+      "description": "TSLA valuation, financial metrics, and technical indicators"
+    },
+    {
+      "name": "MacroTrends",
+      "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/stock-price-history",
+      "description": "Tesla stock price history and closing data"
+    },
+    {
+      "name": "Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/TSLA/",
+      "description": "Real-time price, market cap, P/E data"
+    },
+    {
+      "name": "TipRanks",
+      "url": "https://www.tipranks.com/stocks/tsla/forecast",
+      "description": "Analyst consensus and buy/hold/sell distribution"
+    },
+    {
+      "name": "Benzinga",
+      "url": "https://www.benzinga.com/quote/TSLA/analyst-ratings",
+      "description": "Analyst targets and latest rating changes"
+    },
+    {
+      "name": "Electrek",
+      "url": "https://electrek.co/2026/01/28/tesla-tsla-releases-q4-2025-financial-results-slight-beat-on-earnings/",
+      "description": "Q4 2025 earnings analysis and consensus comparison"
+    },
+    {
+      "name": "Teslarati",
+      "url": "https://www.teslarati.com/tesla-tsla-q4-and-fy-2025-earnings-results/",
+      "description": "FY2025 annual results and delivery data"
+    },
+    {
+      "name": "Financial Content",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-17-tesla-at-the-crossroads-from-automotive-titan-to-ai-hegemon-research-report",
+      "description": "Research report on Tesla AI transformation thesis"
+    },
+    {
+      "name": "Basenor",
+      "url": "https://www.basenor.com/blogs/news/tesla-autonomy-pop-up-in-austin-see-cybercab-optimus-fsd-live",
+      "description": "Austin autonomy pop-up event coverage"
+    },
+    {
+      "name": "Teslarati",
+      "url": "https://www.teslarati.com/tesla-cybercab-line-targeting-hundreds-weekly-report/",
+      "description": "Cybercab production line progress report"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla ATM offering imminent + NVIDIA builds an autonomy army",
-      "text": "$TSLA (3/18) $399.27 (+0.94%) Terafab D-3 but two negatives hit:\n1. Electrek: ATM offering imminent, first since 2020\n2. NVIDIA DRIVE partners with Uber, BYD, Hyundai\n\nP/E 368x. Target $407 (+1.9%). Wait for Saturday.\n\n1/3",
+      "hook": "Tesla's make-or-break year has begun",
+      "text": "$TSLA (3/18) Cybercab production starts April. Optimus Gen 3 incoming. FSD v14 live. 2026 is loaded with catalysts. But at 395x P/E, everything's already priced in. $399.\n\n1/4",
       "thread": [
-        "NVIDIA is building the 'Android of autonomy.' Tesla's closed FSD model faces its biggest challenge yet. The monopoly thesis is cracking.\n\n2/3",
-        "Below 50-day ($420) and 200-day ($426). RSI 42. Terafab launch Saturday is the inflection point. ATM terms will determine the near-term.\n\n3/3"
+        "Energy is the hidden gem. Megapack 3 mass production turning energy into a high-margin growth engine. Q4 gross margin hit 20.1%, 2-year high.\n\n2/4",
+        "Problem: P/E 395x is 17x the S&P 500 average. One missed target and this reprices fast. Musk's DOGE controversies aren't helping brand perception either.\n\n3/4",
+        "Below 50-day SMA ($418), above 200-day ($393). Analyst avg target $389, actually below current price. DCA for believers, wait for Cybercab proof for everyone else.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla ATM offering + NVIDIA autonomy alliance",
-      "text": "$TSLA (3/18) $399.27 (+0.94%)\n\nTwo risks emerged today: Electrek reports imminent ATM offering for Terafab funding — first since 2020. And NVIDIA DRIVE signed partnerships with Uber (28 cities), BYD, and Hyundai.\n\nP/E 368x, below both moving averages. Target $407 (+1.9%). Saturday's Terafab launch is make-or-break."
+      "hook": "Tesla 2026: catalyst overload or priced to perfection?",
+      "text": "$TSLA (3/18) $399.27\n\nCybercab production starts April. Optimus Gen 3 reveal imminent. FSD v14 achieving full autonomy in designated zones. This is the most catalyst-rich year in Tesla history.\n\nEnergy business is quietly becoming a beast. Megapack 3 mass production, Q4 gross margin hit 20.1%. This segment alone could justify a significant chunk of the valuation.\n\nBut 395x P/E means every promise needs to land perfectly. Net cash of $29.3B gives firepower, but BYD is outselling Tesla globally and Musk's political activities weigh on the brand.\n\nVerdict: Hold for existing positions, new entry better after Cybercab production data in late April. Analyst consensus at $389, below current price."
     },
     "telegram": {
-      "hook": "ATM Offering + NVIDIA DRIVE Partnerships",
-      "text": "Tesla Daily Analysis (3/18)\n\nPrice: $399.27 (+0.94%)\nMkt Cap: $1.28T\n\nKey Developments\n- Electrek: ATM offering imminent for Terafab\n- First major capital raise since 2020\n- NVIDIA DRIVE partners: Uber/BYD/Hyundai\n\nThis Week\n- Terafab 3/21 launch D-3\n- Cybercab April production prep\n- NHTSA FSD investigation ongoing\n\nTechnicals\n- Below 50-day ($420) and 200-day ($426)\n- RSI 42 (neutral)\n\nP/E: 368x | Target: $406.84 (+1.9%)\nVerdict: Hold — wait for ATM terms + Terafab results"
+      "hook": "TSLA Daily Analysis",
+      "text": "Tesla Daily Analysis (3/18)\n\nPrice: $399.27 | Market Cap: $1.50T\n\nKey Catalysts\n- Cybercab production starting April\n- Optimus Gen 3 reveal in Q1\n- FSD v14 full autonomy in designated zones\n- Megapack 3 mass production\n\nFinancials\n- P/E: 394.9x (S&P avg 23x)\n- Gross Margin: 20.1% (Q4, 2yr high)\n- Net Cash: $29.3B\n- FCF: $6.2B\n\nAnalysts: 13 Buy, 11 Hold, 7 Sell\nTarget: $389 (-2.5%)\n\nVerdict: Hold. Wait for Cybercab production proof."
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Tesla's make-or-break year has begun",
+          "text": "$TSLA (3/18) Cybercab production starts April. Optimus Gen 3 incoming. FSD v14 live. 2026 is loaded with catalysts. But at 395x P/E, everything's already priced in. $399.\n\n1/4",
+          "thread": [
+            "Energy is the hidden gem. Megapack 3 mass production turning energy into a high-margin growth engine. Q4 gross margin hit 20.1%, 2-year high.\n\n2/4",
+            "Problem: P/E 395x is 17x the S&P 500 average. One missed target and this reprices fast. Musk's DOGE controversies aren't helping brand perception either.\n\n3/4",
+            "Below 50-day SMA ($418), above 200-day ($393). Analyst avg target $389, actually below current price. DCA for believers, wait for Cybercab proof for everyone else.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Tesla trading at 395x earnings. No pressure.",
+          "text": "$TSLA (3/18) Tesla's launching a robotaxi, a humanoid robot, AND an AI chip fab this year. Meanwhile the stock trades at 395x earnings. No big deal. $399.\n\n1/4",
+          "thread": [
+            "The energy business is quietly printing money (20.1% margins) while everyone argues about Cybercab. Classic Tesla: the boring stuff actually works.\n\n2/4",
+            "Analysts can't agree on anything. High target $600, low target $25. That's not a range, that's a philosophical disagreement about the future of humanity.\n\n3/4",
+            "Net cash $29.3B, below 50-day SMA. If you believe in the AI platform story, this is a buy. If you want proof first, April's your month. Consensus target $389.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "TSLA holders, it's been a ride",
+          "text": "$TSLA (3/18) If you're holding Tesla, you know the drill. Big promises, big volatility. But 2026 really does feel different. Cybercab, Optimus, FSD v14 all materializing. $399.\n\n1/4",
+          "thread": [
+            "The 395x P/E makes every dip feel scary. But remember: net cash $29.3B, gross margin improving, energy business quietly becoming a beast.\n\n2/4",
+            "Analyst targets range from $25 to $600. That tells you nobody knows. And that's okay. This stock has always been about conviction vs. consensus.\n\n3/4",
+            "If you've held through worse, April Cybercab production data could finally validate the thesis. Stay patient, stay diversified. Avg target $389.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Tesla 2026: catalyst overload or priced to perfection?",
+          "text": "$TSLA (3/18) $399.27\n\nCybercab production starts April. Optimus Gen 3 reveal imminent. FSD v14 achieving full autonomy in designated zones. This is the most catalyst-rich year in Tesla history.\n\nEnergy business is quietly becoming a beast. Megapack 3 mass production, Q4 gross margin hit 20.1%. This segment alone could justify a significant chunk of the valuation.\n\nBut 395x P/E means every promise needs to land perfectly. Net cash of $29.3B gives firepower, but BYD is outselling Tesla globally and Musk's political activities weigh on the brand.\n\nVerdict: Hold for existing positions, new entry better after Cybercab production data in late April. Analyst consensus at $389, below current price."
+        },
+        "witty": {
+          "hook": "Tesla: building the future while the stock prices in 2030",
+          "text": "$TSLA (3/18) $399.27\n\nTesla is simultaneously launching a robotaxi, a humanoid robot, an AI chip factory, and an energy empire. The stock trades at 395x earnings because apparently that all makes perfect sense.\n\nMeanwhile the boring energy division is quietly hitting 20.1% margins and nobody's talking about it. Classic Tesla: the thing that works gets ignored.\n\nAnalysts range from $25 to $600. That's not analysis, that's a Rorschach test.\n\nIf you need certainty, Tesla's not for you. If you're okay with controlled chaos, April Cybercab production will tell us a lot."
+        },
+        "empathy": {
+          "hook": "To every Tesla shareholder checking the price daily",
+          "text": "$TSLA (3/18) $399.27\n\nHolding Tesla has never been easy and 2026 won't be different. But this time the catalysts aren't just slides in a presentation. Cybercab production actually starts in April. Optimus Gen 3 is real.\n\nYes, 395x P/E is terrifying. Yes, BYD is outselling Tesla globally. Yes, the Musk factor cuts both ways. These are legitimate concerns.\n\nBut $29.3B in net cash, 20.1% gross margins improving, and the energy business alone growing into something meaningful. The fundamentals are better than the sentiment.\n\nStay patient. April will provide clarity. And if you've held through 2024-2025, you can handle this too."
+        }
+      }
     }
   }
 }

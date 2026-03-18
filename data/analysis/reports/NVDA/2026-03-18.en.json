@@ -2,121 +2,236 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-18",
-  "currentPrice": 181.93,
-  "marketCap": "$4.42T",
+  "currentPrice": 183.19,
+  "marketCap": "4.38T",
   "businessSummary": {
-    "oneLiner": "Undisputed king of AI computing — dominating global AI infrastructure with datacenter GPUs and accelerators",
-    "description": "NVIDIA is the world's largest semiconductor design company. AI training and inference datacenter accelerators are the core revenue driver. FY2026 revenue $215.9B (+65% YoY), net income $120.1B (+64.7%). Closed Tuesday (3/17) at $181.93 (-0.70%). Despite GTC 2026 Day 2, stock fell in a classic 'sell the news' pattern. Jensen Huang projected $1T in Blackwell+Vera Rubin orders through 2027, but market reaction was muted.",
-    "howTheyMakeMoney": ["Datacenter AI accelerators (Blackwell, Hopper GPU)", "AI software platforms (CUDA, AI Enterprise, NemoClaw)", "Gaming GPUs (GeForce RTX)", "Automotive (DRIVE platform)", "Networking (Spectrum-X, InfiniBand)"],
-    "keyProducts": ["Vera Rubin VR200 — next-gen AI accelerator, 10x perf/watt, H2 2026 ship", "Groq 3 LPU — inference-specialized, 35x tokens/watt improvement", "Kyber — 144-GPU vertical rack architecture", "NemoClaw — enterprise AI agent tools", "DLSS 5 — neural rendering", "DRIVE — autonomous driving platform (Uber 28 cities, BYD, Hyundai)"]
-  },
-  "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "37.13x", "interpretation": "Below semiconductor avg (53x). Cheaper than AMD (108x), Broadcom (89x)"},
-    {"name": "Forward P/E", "value": "22.05x", "interpretation": "Nearly equal to S&P 500 avg (21x). With 65% growth, PEG 0.34 — historically undervalued"},
-    {"name": "Revenue Growth (YoY)", "value": "+65.5%", "interpretation": "FY2026 $215.9B. Q1 FY2027 guidance $78B (+77%)"},
-    {"name": "Operating Margin", "value": "60.38%", "interpretation": "Best in semiconductor industry. Gross margin 71.1%"},
-    {"name": "FCF", "value": "$96.68B", "interpretation": "~$97B annual FCF, all-time high. $50B buyback capacity"},
-    {"name": "D/E Ratio", "value": "0.13", "interpretation": "Extremely healthy balance sheet. $43.2B cash"},
-    {"name": "ROE", "value": "119.8%", "interpretation": "Exceptional capital efficiency. Top-tier across S&P 500"},
-    {"name": "EPS", "value": "$4.90", "interpretation": "+66.7% YoY. Rapid EPS growth reducing valuation burden"}
-  ],
-  "growthDrivers": [
-    {"title": "GTC 2026: $1T Order Pipeline, Vera Rubin + Groq 3", "description": "Jensen Huang projects $1T in Blackwell+Vera Rubin orders through 2027, doubling prior year. Vera Rubin VR200: 10x perf/watt. Groq 3 LPU: 35x tokens/watt."},
-    {"title": "DRIVE Platform: Uber (28 Cities), BYD, Hyundai", "description": "Massive autonomous driving expansion. NVIDIA positioning as 'Android of autonomy.' New $1T TAM."},
-    {"title": "Q1 FY2027 Guidance $78B (+77%) — Growth Accelerating", "description": "Next quarter guidance well above expectations. AI infrastructure investment cycle still in early stages."},
-    {"title": "Kyber 144-GPU Rack + Vera Rubin Space Module", "description": "From datacenter to space. Kyber maximizes GPU density; space datacenter module expands addressable market."}
-  ],
-  "competitiveAdvantage": {
-    "summary": "70%+ AI accelerator market share. 15-year CUDA ecosystem moat. Full-stack hardware+software+networking creates extreme barriers to entry.",
-    "moats": [
-      {"type": "CUDA Software Ecosystem", "description": "15 years, 4M+ developers. AMD ROCm and Intel oneAPI far behind in maturity."},
-      {"type": "Full-Stack AI Platform", "description": "GPU + networking + software + autonomous driving. Vertical integration."},
-      {"type": "Economies of Scale", "description": "$216B revenue maximizes R&D reinvestment. Annual architecture cadence."}
+    "oneLiner": "The undisputed leader in AI compute, dominating global AI infrastructure through data center GPUs and accelerators",
+    "howTheyMakeMoney": [
+      "Data Center AI Accelerators",
+      "AI Software Platform (CUDA)",
+      "Gaming GPUs",
+      "Automotive (DRIVE)",
+      "Networking"
     ],
-    "competitors": [
-      {"name": "AMD (MI350/MI400)", "detail": "AI accelerator market entry. Software ecosystem gap remains wide"},
-      {"name": "Broadcom (Custom ASIC)", "detail": "Google TPU and custom chips. Competitive in specific workloads"},
-      {"name": "Intel (Gaudi)", "detail": "Re-entering AI accelerator market. Minimal market share"}
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Groq 3 LPU",
+      "Kyber",
+      "NemoClaw",
+      "DLSS 5",
+      "DRIVE"
     ]
   },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": 37.4,
+      "description": "Premium to semiconductor sector average of ~25x, reflecting AI growth trajectory"
+    },
+    {
+      "name": "Forward P/E",
+      "value": 29.9,
+      "description": "Valuation compression expected as FY27 earnings ramp"
+    },
+    {
+      "name": "Revenue Growth (YoY)",
+      "value": "73%",
+      "description": "Q4 FY26 revenue of $68.1B, 73% year-over-year increase"
+    },
+    {
+      "name": "Gross Margin",
+      "value": "75.0%",
+      "description": "Q4 FY26 GAAP basis, improving from 73.4% in Q3"
+    },
+    {
+      "name": "Net Income (Q4 FY26)",
+      "value": "$42.96B",
+      "description": "Up 94% year-over-year on a GAAP basis"
+    },
+    {
+      "name": "Annual Revenue (FY26)",
+      "value": "$215.9B",
+      "description": "Record full-year revenue, up 65% from $130.5B in FY25"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "driver": "Vera Rubin Platform Launch",
+      "detail": "Shipping H2 2026. Delivers 10x performance per watt versus Grace Blackwell predecessor. Full rack-scale system integrating NVL72 GPUs, Vera CPUs, Groq 3 LPX inference accelerators, and BlueField-4 STX storage."
+    },
+    {
+      "driver": "Agentic AI Demand Explosion",
+      "detail": "Enterprise AI adoption shifting from chatbots to autonomous agents spawning sub-agents. Token generation volumes surging, driving unprecedented inference compute demand."
+    },
+    {
+      "driver": "$1 Trillion Order Pipeline",
+      "detail": "At GTC 2026, CEO Huang disclosed combined Blackwell and Vera Rubin purchase orders reaching $1T through 2027, doubling the prior $500B estimate from a year ago."
+    },
+    {
+      "driver": "Groq Acquisition Synergies",
+      "detail": "Integration of $20B Groq acquisition yielding Groq 3 LPU, which boosts Rubin GPU tokens-per-watt by 35x. The 256-LPU Groq 3 LPX rack ships Q3 CY2026."
+    },
+    {
+      "driver": "Q1 FY27 Guidance Beat",
+      "detail": "Revenue guidance of $78B implies 77% YoY growth. Eleventh consecutive quarter of 55%+ revenue growth, signaling no deceleration in AI infrastructure buildout."
+    }
+  ],
+  "competitiveAdvantage": [
+    {
+      "moat": "CUDA Ecosystem Lock-in",
+      "detail": "Millions of developers building on CUDA creates formidable switching costs. Competing frameworks remain materially behind in tooling and library support."
+    },
+    {
+      "moat": "Full-Stack AI Factory",
+      "detail": "Vertical integration spanning GPUs, CPUs, networking (BlueField), and software (NemoClaw, Omniverse). Vera Rubin DSX reference design standardizes AI factory deployment."
+    },
+    {
+      "moat": "Annual Architecture Cadence",
+      "detail": "Blackwell to Vera Rubin to Rubin Ultra to Feynman (2028). Accelerated roadmap keeps competitors perpetually one generation behind."
+    },
+    {
+      "moat": "Scale Economics",
+      "detail": "$4.5T market cap and $216B annual revenue enable unmatched R&D investment. FY26 operating expenses of $23B dwarf competitor budgets."
+    }
+  ],
   "recentNews": [
-    {"date": "2026-03-17", "headline": "GTC Day 2: Groq 3 LPU, Vera Rubin Space Module, DLSS 5 unveiled", "significance": "2hr+ keynote packed with announcements but stock fell 0.70%. Classic sell-the-news", "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang"},
-    {"date": "2026-03-17", "headline": "NVIDIA DRIVE partners with Uber (28 cities), BYD, Hyundai", "significance": "Open autonomous platform gaining critical mass. New revenue pillar", "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/"},
-    {"date": "2026-03-17", "headline": "Jensen Huang: $1T order pipeline through 2027", "significance": "Doubles prior year projection. AI infrastructure cycle accelerating", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"},
-    {"date": "2026-03-17", "headline": "Cantor Fitzgerald: Overweight, PT $300", "significance": "+65% upside from current levels", "url": "https://www.gurufocus.com/news/8719092/nvidia-nvda-maintains-overweight-rating-according-to-analyst-report-nvda-stock-news"},
-    {"date": "2026-03-17", "headline": "KeyBanc: Overweight, PT $275", "significance": "AI datacenter demand remains robust", "url": "https://www.gurufocus.com/news/8719317/nvda-keybanc-reiterates-overweight-rating-maintains-price-target-nvda-stock-news"}
+    {
+      "date": "2026-03-17",
+      "headline": "GTC 2026: Huang discloses $1T Blackwell + Vera Rubin order pipeline through 2027",
+      "source": "CNBC",
+      "impact": "Positive"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Vera Rubin platform unveiled: NVL72 GPU racks, Vera CPU racks, Groq 3 LPX integrated system",
+      "source": "NVIDIA Newsroom",
+      "impact": "Positive"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Groq 3 LPU debut delivers 35x tokens-per-watt improvement alongside Rubin GPUs",
+      "source": "Tom's Hardware",
+      "impact": "Positive"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Kyber next-gen rack architecture prototype shown, targeting Rubin Ultra in 2027",
+      "source": "Reuters",
+      "impact": "Positive"
+    },
+    {
+      "date": "2026-02-25",
+      "headline": "Q4 FY26 earnings: Revenue $68.1B (+73% YoY), Q1 FY27 guidance $78B",
+      "source": "NVIDIA IR",
+      "impact": "Positive"
+    }
   ],
   "analystOpinions": {
-    "consensusTarget": 263.29,
-    "highTarget": 300.0,
-    "lowTarget": 150.0,
-    "upsidePercent": 44.72,
-    "buyCount": 39,
-    "holdCount": 4,
-    "sellCount": 0,
-    "notableComment": "Strong Buy consensus. $263 target (+44.7%). Forward P/E 22x with 65% growth = PEG 0.34. GTC sell-the-news dip is a buying opportunity."
+    "consensus": "Strong Buy",
+    "averageTarget": 270.0,
+    "highTarget": 320.0,
+    "lowTarget": 185.0,
+    "numberOfAnalysts": 38,
+    "recentCalls": [
+      "StockAnalysis consensus target $263.29 (+43.7% upside)",
+      "MarketBeat consensus target $274.21",
+      "TipRanks 3-month average target $273.61",
+      "Post-GTC target revisions expected across the Street"
+    ]
   },
   "risks": [
-    {"severity": "high", "title": "Post-GTC 'Sell the News' — Short-term Momentum Weak", "description": "Stock fell despite blockbuster announcements. Expectations may be priced in short-term."},
-    {"severity": "high", "title": "Iran War + Oil $100+ Macro Risk", "description": "Strait of Hormuz tensions. Economic slowdown could dampen AI spending cycle."},
-    {"severity": "medium", "title": "China Export Controls", "description": "US restrictions limit China market access. Huawei developing alternatives."},
-    {"severity": "medium", "title": "Competitor Catch-up: AMD MI350, Custom ASICs", "description": "AMD, Broadcom, Google TPU gradually chipping at market share."},
-    {"severity": "low", "title": "Groq Acquisition Integration Risk", "description": "$20B Groq acquisition needs smooth tech and talent integration."}
+    {
+      "risk": "Valuation Premium",
+      "detail": "Trailing P/E of 37x remains elevated versus semiconductor sector average of ~25x. Any growth deceleration could trigger multiple compression."
+    },
+    {
+      "risk": "China Export Restrictions",
+      "detail": "Q1 FY27 guidance excludes China data center compute revenue. Ongoing U.S. export controls continue to limit TAM access."
+    },
+    {
+      "risk": "Competitive Intensification",
+      "detail": "AMD MI450, Google TPU v6, Microsoft Maia, and Amazon Trainium represent accelerating custom silicon competition."
+    },
+    {
+      "risk": "Gross Margin Pressure",
+      "detail": "FY26 annual gross margin declined to 71.1% from 75.0% in FY25. Product transition costs and mix shifts could sustain pressure."
+    },
+    {
+      "risk": "Energy and Infrastructure Bottlenecks",
+      "detail": "Surging AI data center power demand may constrain deployment timelines, potentially delaying customer revenue realization."
+    }
   ],
   "buyReasons": [
-    {"title": "Forward P/E 22x + 65% Growth = PEG 0.34", "rationale": "Same P/E as S&P 500 but 3x the growth. Clearly undervalued on growth basis."},
-    {"title": "$1T Order Pipeline — AI Cycle Still Early", "rationale": "Cloud, sovereign AI, enterprise all expanding AI investment."},
-    {"title": "DRIVE Platform — $1T Autonomous Driving TAM", "rationale": "Uber, BYD, Hyundai partnerships. New massive revenue driver."},
-    {"title": "GTC Pullback = Entry Opportunity", "rationale": "Near 50-day SMA ($185). Post-GTC profit-taking creates entry point."},
-    {"title": "FCF $97B, $50B Buyback — Maximum Shareholder Return", "rationale": "Record cash generation and massive buyback provide downside support."}
+    "GTC 2026 confirms $1T order pipeline, validating structural AI infrastructure demand",
+    "Vera Rubin delivers 10x performance-per-watt, addressing critical energy efficiency concerns",
+    "Groq 3 LPU integration creates differentiated inference capability for the agentic AI era",
+    "Forward P/E below 30x represents reasonable valuation given sustained 70%+ revenue growth",
+    "Wall Street consensus of Strong Buy across 38 analysts with average target implying 47% upside"
   ],
   "technicalPosition": {
-    "week52High": 212.19,
-    "week52Low": 86.62,
-    "currentPositionPercent": 75.9,
-    "sma50": 185.46,
-    "sma50Signal": "below",
-    "sma200": 177.39,
-    "sma200Signal": "above",
-    "rsi": 52,
-    "rsiSignal": "neutral"
+    "trend": "Near-term consolidation, medium-to-long-term uptrend intact",
+    "rsi": 36.9,
+    "fiftyDayMA": 184.72,
+    "support": 175.0,
+    "resistance": 195.0,
+    "macd": "Below signal line, indicating near-term bearish momentum",
+    "summary": "RSI at 36.9 approaching oversold territory. Trading below 50-day EMA of $184.72, though GTC catalyst may trigger mean reversion. Key support at $175, resistance at $195. Long-term uptrend structure preserved."
   },
   "overallOpinion": [
-    "GTC 2026 was spectacular — $1T order pipeline, Vera Rubin, Groq 3 LPU, DRIVE mega-partnerships. Yet the stock fell 0.70%. Classic sell-the-news.",
-    "But this is the opportunity. Forward P/E 22x with 65% growth = PEG 0.34. All 39 analysts rate Buy/Strong Buy. Consensus $263 (+44.7%). Near 50-day SMA with 200-day support below.",
-    "Post-GTC profit-taking should subside, setting up for a resumption of the uptrend. Current price is an attractive entry for investors who can tolerate short-term volatility."
+    "NVIDIA redefined the AI infrastructure frontier at GTC 2026. Vera Rubin delivers a 10x leap in performance per watt, attacking the energy bottleneck head-on, while Groq LPU integration maximizes inference efficiency.",
+    "The order pipeline doubled to $1T through 2027. Agentic AI has moved beyond chatbots to become essential enterprise infrastructure, driving explosive token generation demand.",
+    "Near-term technicals warrant caution with RSI near 37 and shares trading below the 50-day moving average. However, the $78B Q1 guidance and GTC announcements could serve as powerful catalysts.",
+    "Forward P/E below 30x is reasonable for this growth profile. China risk and margin pressure bear monitoring, but for AI infrastructure exposure, NVDA remains the single best vehicle."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "GTC sell-the-news dip at Forward P/E 22x with 65% growth (PEG 0.34) is a clear buying opportunity. 39/39 analysts Buy. Consensus $263 (+44.7%). Near technical support.",
-    "horizon": "3-6 months (Vera Rubin shipments + Q1 FY2027 earnings)"
+    "summary": "GTC 2026 delivered massive catalysts with Vera Rubin, Groq 3, and DRIVE partnerships. The $1T order pipeline and Q1 guidance of $78B (+77%) show accelerating growth, making the current $183 price at 47x P/E reasonable given 65% revenue growth.",
+    "horizon": "6-12 months"
   },
   "sources": [
-    {"name": "CNBC (GTC)", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "$1T order pipeline, Vera Rubin, Groq 3"},
-    {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang", "description": "GTC keynote live coverage"},
-    {"name": "Parameter.io", "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/", "description": "DRIVE partnerships detail"},
-    {"name": "Cantor Fitzgerald", "url": "https://www.gurufocus.com/news/8719092/nvidia-nvda-maintains-overweight-rating-according-to-analyst-report-nvda-stock-news", "description": "OW, PT $300"},
-    {"name": "KeyBanc", "url": "https://www.gurufocus.com/news/8719317/nvda-keybanc-reiterates-overweight-rating-maintains-price-target-nvda-stock-news", "description": "OW, PT $275"},
-    {"name": "Stock Analysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA closing data"},
-    {"name": "Barchart", "url": "https://www.barchart.com/story/news/777998/nvidia-stock-is-treading-water-below-its-50-day-moving-average-as-gtc-2026-kicks-off-how-to-play-it-here", "description": "Technical analysis"},
-    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/NVDA:NASDAQ", "description": "Real-time price"}
+    "CNBC - Nvidia GTC 2026 Keynote Coverage (2026-03-17)",
+    "NVIDIA Newsroom - Q4 FY26 Financial Results (2026-02-25)",
+    "NVIDIA Newsroom - Vera Rubin Platform Launch (2026-03-16)",
+    "Reuters - Nvidia bets on AI inference (2026-03-17)",
+    "Tom's Hardware - GTC 2026 Keynote Live Blog (2026-03-16)",
+    "MacroTrends - NVDA Stock Price & PE Ratio (2026-03)",
+    "StockAnalysis.com - NVDA Analyst Forecasts (2026-03)",
+    "TipRanks - NVDA Technical Analysis & Targets (2026-03)",
+    "MarketBeat - NVDA Forecast (2026-03)",
+    "Fortune - Nvidia Q4 2026 Earnings (2026-02-25)",
+    "Data Center Knowledge - GTC 2026 Vera Rubin (2026-03-17)"
   ],
   "snsContent": {
     "x": {
-      "hook": "NVIDIA unveiled $1T at GTC. The stock dropped.",
-      "text": "$NVDA (3/18) $181.93 (-0.70%) GTC Day 2 but stock fell. Jensen Huang projected $1T in orders. Market shrugged. Classic sell-the-news.\n\nBut Forward P/E 22x, 65% growth, PEG 0.34. This is the dip.\n\n1/3",
+      "hook": "NVIDIA GTC 2026: The $1T AI era begins",
+      "text": "NVIDIA GTC 2026 recap\n\nVera Rubin: 10x perf/watt\nGroq 3 LPU: 35x tokens/watt\nOrder pipeline: $1T through 2027\nQ4 revenue $68.1B (+73%)\n\nAgentic AI runs on NVDA infrastructure. Full stop.",
       "thread": [
-        "DRIVE signed Uber (28 cities), BYD, Hyundai. The 'Android of autonomy' is born. 39/39 analysts Buy. Consensus $263 (+44.7%).\n\n2/3",
-        "Near 50-day SMA ($185), above 200-day ($177). Post-GTC profit-taking creates entry. $97B FCF provides floor.\n\n3/3"
+        "1/ NVIDIA GTC 2026 full breakdown\n\nJensen Huang delivered again. Vera Rubin platform unveiled, $1T order pipeline confirmed. The next chapter of AI infrastructure just started.",
+        "2/ Vera Rubin NVL72\n\n10x performance per watt vs Grace Blackwell. 1.3 million components per rack. Shipping H2 2026. Energy efficiency is the battleground and NVDA just raised the bar.",
+        "3/ Groq 3 LPU\n\nThe $20B Groq acquisition pays off. 256 LPUs per rack. Combined with Rubin GPUs, 35x improvement in tokens per watt. Shipping Q3 2026.",
+        "4/ The numbers\n\nQ4 revenue: $68.1B (+73% YoY)\nFY26 revenue: $215.9B\nQ1 FY27 guidance: $78B\nNet income: $43B\nGross margin: 75%\n\n11 straight quarters of 55%+ growth.",
+        "5/ Investment case\n\nForward P/E sub-30x. 38 analysts at Strong Buy. Avg target $270 (+47% upside). RSI near 37, approaching oversold. Mid-to-long term entry looks compelling."
       ]
     },
     "threads": {
-      "hook": "$1T pipeline. Stock drops. This is the buy signal.",
-      "text": "$NVDA (3/18) $181.93 (-0.70%)\n\nGTC 2026 Day 2. $1T orders, Vera Rubin, Groq 3 LPU, DRIVE with Uber/BYD/Hyundai. Stock fell. Sell-the-news.\n\nForward P/E 22x with 65% growth = PEG 0.34. Same P/E as S&P 500 with 3x the growth. 39/39 analysts Buy. $263 target (+44.7%).\n\nThis dip is the opportunity."
+      "hook": "Here's everything that matters from NVIDIA GTC 2026",
+      "text": "Here's everything that matters from NVIDIA GTC 2026.\n\nVera Rubin is finally here. The headline number: 10x performance per watt versus Grace Blackwell. In a world where power is the biggest bottleneck for AI scaling, this is the spec that matters most.\n\nThe Groq acquisition is already producing results. Groq 3 LPU sits alongside Rubin GPUs and delivers 35x tokens-per-watt improvement. Jensen called it unifying two processors of extreme differences.\n\nThe order pipeline doubled to $1T through 2027. Q1 guidance is $78B, implying 77% YoY growth. Agentic AI demand is driving token generation volumes off the charts.\n\nShares at $183, forward P/E below 30x. For this kind of growth trajectory, the valuation remains reasonable. The risk-reward setup looks attractive from here."
     },
     "telegram": {
-      "hook": "GTC $1T vs Sell-the-News Dip",
-      "text": "NVIDIA Daily Analysis (3/18)\n\nPrice: $181.93 (-0.70%)\nMkt Cap: $4.42T\n\nGTC Highlights\n- $1T order pipeline (2027)\n- Vera Rubin VR200, Groq 3 LPU\n- DRIVE: Uber/BYD/Hyundai partnerships\n- Cantor $300, KeyBanc $275 targets\n\nValuation\n- P/E: 37.13x | Fwd P/E: 22.05x\n- PEG: 0.34 (historically undervalued)\n- Revenue growth: +65.5%\n\nTechnicals\n- Near 50-day ($185)\n- Above 200-day ($177)\n- RSI 52 (neutral)\n\nTarget: $263.29 (+44.7%)\nVerdict: Buy — GTC sell-the-news = entry opportunity"
+      "hook": "GTC 2026 in one line: AI infra just got reset",
+      "text": "NVIDIA GTC 2026 Key Takeaways\n\nVera Rubin: 10x perf/watt\nGroq 3 LPU: 35x tokens/watt\n$1T order pipeline through 2027\nQ4 rev $68.1B, Q1 guidance $78B\n\nPrice: $183 / Forward P/E: 30x\n38 analysts Strong Buy, avg target $270\n\nFor AI infrastructure conviction, NVDA remains the primary vehicle."
+    },
+    "tones": {
+      "x": {
+        "fact": "NVIDIA GTC 2026 recap\n\nVera Rubin: 10x perf/watt\nGroq 3 LPU: 35x tokens/watt\nOrder pipeline: $1T through 2027\nQ4 revenue $68.1B (+73%)\n\nAgentic AI runs on NVDA infrastructure. Full stop.",
+        "witty": "Jensen showed up in the leather jacket again but this time he brought a $1T receipt. Vera Rubin does 10x per watt, Groq LPU does 35x. The numbers are so big they feel fake but $68B in quarterly revenue is very real.",
+        "empathy": "Thinking about AI stocks but NVDA feels expensive at $183? GTC 2026 suggests we're still early innings. RSI at 37 means the stock is catching its breath. Sometimes the best entries feel uncomfortable."
+      },
+      "threads": {
+        "fact": "Here's everything that matters from NVIDIA GTC 2026.\n\nVera Rubin is finally here. The headline number: 10x performance per watt versus Grace Blackwell. In a world where power is the biggest bottleneck for AI scaling, this is the spec that matters most.\n\nThe Groq acquisition is already producing results. Groq 3 LPU sits alongside Rubin GPUs and delivers 35x tokens-per-watt improvement. Jensen called it unifying two processors of extreme differences.\n\nThe order pipeline doubled to $1T through 2027. Q1 guidance is $78B, implying 77% YoY growth. Agentic AI demand is driving token generation volumes off the charts.\n\nShares at $183, forward P/E below 30x. For this kind of growth trajectory, the valuation remains reasonable. The risk-reward setup looks attractive from here.",
+        "witty": "NVIDIA's GTC is basically the Apple keynote for AI infrastructure, except the numbers have more zeros.\n\nJensen casually mentions a $1T order pipeline with the calm energy of someone ordering coffee. Vera Rubin does 10x per watt, Groq LPU does 35x. These aren't marketing numbers, they're backed by $68B quarterly revenue.\n\nAlso the man has a roadmap through 2028 Feynman architecture. I'm convinced he keeps a 10-year plan in his leather jacket pocket.",
+        "empathy": "If you've been watching NVIDIA from the sidelines wondering if you missed the move, you're not alone.\n\nGTC 2026 makes a compelling case that we're still in the middle innings. $1T in orders, 10x efficiency gains, and the shift to agentic AI is just getting started.\n\nThe stock is near $183 with RSI at 37, catching its breath after a massive run. No one can predict the bottom, but the long-term thesis has never been stronger. Sometimes the hardest entries are the best ones."
+      }
     }
   }
 }

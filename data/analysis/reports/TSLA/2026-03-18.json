@@ -3,10 +3,10 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-18",
   "currentPrice": 399.27,
-  "marketCap": "$1.28T",
+  "marketCap": "1.50T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
-    "description": "Tesla는 EV 제조에서 통합 AI, 로봇, 에너지 플랫폼으로 전환 중. FY2025 매출 $94.8B(-2.9% YoY), 순이익 $3.79B(-46.5% YoY). 화요일(3/17) 종가 $399.27(+0.94%). NVIDIA GTC에서 DRIVE 플랫폼이 Uber, BYD, Hyundai와 대형 파트너십을 체결하며 Tesla 자율주행 독점 위상에 도전. Electrek은 Terafab 자금 조달을 위해 2020년 이후 첫 대규모 유상증자(ATM offering)가 임박했다고 보도.",
+    "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. 2026년 4월부터 Cybercab 생산, Optimus Gen 3 공개 등 핵심 성장 촉매가 본격화된다.",
     "howTheyMakeMoney": [
       "전기차 판매 (Model 3/Y, Cybertruck)",
       "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
@@ -14,337 +14,327 @@
       "FSD(Full Self-Driving) 구독 및 라이선싱",
       "규제 크레딧 판매"
     ],
-    "keyProducts": [
-      "Model Y/3 - 글로벌 EV 베스트셀러",
-      "Cybertruck - 전기 픽업",
-      "Cybercab - 자율주행 로보택시 (4월 양산 시작 예정)",
-      "Megapack 3 - 차세대 유틸리티 배터리 (5 MWh, LG LFP 셀 탑재 예정)",
-      "FSD - 자율주행 소프트웨어 (v14.2.2.5)",
-      "Optimus - 휴머노이드 로봇 (Fremont 공장 전환 중)",
-      "Terafab - AI 칩 자체 생산 시설 (3/21 런치, 로직+메모리+패키징 통합)",
-      "Macrohard - Tesla-xAI 합작 엔터프라이즈 AI 시스템"
-    ]
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Macrohard"]
   },
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "367.7x",
-      "interpretation": "S&P 500 평균(27x)의 13.6배. AI, 로봇, 에너지 사업 기대가 반영된 극단적 프리미엄"
+      "value": "394.90x",
+      "interpretation": "S&P 500 평균(약 23x), 자동차 섹터 평균(약 16x) 대비 극단적 프리미엄. AI/로봇/에너지 미래가치를 반영하지만, 실적 대비 고평가 논란 지속"
     },
     {
       "name": "Forward P/E",
-      "value": "155.9x",
-      "interpretation": "FY2026 EPS 컨센서스 $2.56 기준. 성장 기대가 크지만 밸류에이션 부담도 상당"
+      "value": "193.08x",
+      "interpretation": "2026년 EPS 추정치 기준. TTM 대비 절반 수준이나 여전히 성장주 중에서도 높은 밸류에이션"
     },
     {
-      "name": "매출 성장률 (YoY)",
-      "value": "-2.9%",
-      "interpretation": "FY2025 $94.8B 역성장. 딜리버리 감소(-8.6%)와 가격 인하 영향"
+      "name": "매출총이익률",
+      "value": "18.03% (Q4: 20.1%)",
+      "interpretation": "Q4 2025에서 2년 만에 최고치 20.1% 기록. 가격 인하 압력 속에서도 원가 효율화로 개선 추세"
     },
     {
-      "name": "영업이익률",
-      "value": "4.59%",
-      "interpretation": "가격 인하 경쟁으로 마진 압축 지속. BYD와의 가격 전쟁 심화"
+      "name": "매출 (TTM)",
+      "value": "948.3억 달러",
+      "interpretation": "Q4 매출 249억 달러로 컨센서스 소폭 상회. 연간 1,000억 달러 돌파가 2026년 목표"
     },
     {
-      "name": "FCF",
-      "value": "$6.22B",
-      "interpretation": "현금 창출력 양호. 총 현금 $44B 보유. Terafab $200억+ 투자 감당 가능"
+      "name": "FCF (TTM)",
+      "value": "62.2억 달러",
+      "interpretation": "영업현금흐름 147.5억 달러에서 설비투자 85.3억 달러 차감. Cybercab/Terafab 투자 확대 속 현금 창출력 유지"
     },
     {
       "name": "부채비율 (D/E)",
-      "value": "0.08",
-      "interpretation": "재무 건전성 우수. 대형 테크 중에서도 낮은 수준"
-    },
-    {
-      "name": "ROE",
-      "value": "4.86%",
-      "interpretation": "대형 테크 대비 낮은 자본 수익률. 마진 회복이 관건"
-    },
-    {
-      "name": "RSI",
-      "value": "42",
-      "interpretation": "중립에서 약세 구간. 소폭 반등했으나 모멘텀은 여전히 약하다"
+      "value": "0.18x",
+      "interpretation": "순현금 293.4억 달러(주당 $7.82) 보유. 재무 건전성 매우 우수하며 대규모 투자 여력 충분"
     }
   ],
   "growthDrivers": [
     {
-      "title": "Terafab 3/21 런치 D-3: AI 칩 수직 통합의 첫 걸음",
-      "description": "Terafab은 로직+메모리+패키징을 하나의 시설에서 처리하는 2nm급 팹. 3/21(토) 런치 예정. 다만 Electrek은 Terafab 자금 조달을 위한 대규모 유상증자(ATM offering)가 임박했다고 보도, $25-40B 비용 추정."
+      "title": "Cybercab 로보택시 생산 개시",
+      "description": "2026년 4월 생산 시작 예정. 핸들 없는 2인승 전용 로보택시로 주당 수백 대 생산 목표. 오스틴 기가팩토리에서 팝업 이벤트(3월 13-14일)를 열어 대중 공개 완료. FSD v14과 결합해 무인택시 서비스 본격화"
     },
     {
-      "title": "LG에너지솔루션 $43억 LFP 배터리 공장 계약 확정",
-      "description": "미국 정부가 Tesla-LG $43억 LFP 배터리 제조 시설(미시간 랜싱) 계약을 공식 확인. Megapack 3용 미국산 셀로 2027년 생산 시작. 유닛당 5 MWh(기존 대비 28% 증가)."
+      "title": "Optimus 휴머노이드 로봇",
+      "description": "Q1 2026에 Gen 3 공개. 디지털 Optimus는 약 6개월 후(2026년 9월경) UX 출시 목표. 공장 내 작업부터 시작해 범용 노동 대체 시장 진입"
     },
     {
-      "title": "Cybercab 4월 양산 시작, 주당 수백 대 규모",
-      "description": "스티어링 휠/페달 없는 완전 자율주행 차량. 연 200만대 목표. 규제 승인이 핵심 허들."
+      "title": "FSD 자율주행 확장",
+      "description": "FSD v14이 지정 구역에서 완전자율주행 달성. 구독 및 라이선싱 모델로 고마진 소프트웨어 매출 성장 기대. 규제 승인이 핵심 변수"
     },
     {
-      "title": "중국 1-2월 판매 +35% YoY, 글로벌 반등 신호",
-      "description": "중국에서 만든 Tesla EV 판매가 1-2월 127,728대로 전년 대비 35% 이상 증가. 유럽 2월 등록도 +10% YoY."
+      "title": "에너지 사업 급성장",
+      "description": "Megapack 3 대량 생산으로 에너지 저장 매출 급증. 자동차 마진 압박을 상쇄하는 고수익 사업부로 자리매김"
     },
     {
-      "title": "Macrohard(Digital Optimus): Tesla-xAI 합작 엔터프라이즈 AI",
-      "description": "Tesla와 xAI의 합작 시스템 'Macrohard'. 엔터프라이즈급 생성형 AI 플랫폼. Terafab과 함께 AI 하드웨어+소프트웨어 수직 통합."
+      "title": "신규 생산시설(Terafab) 및 저가 모델",
+      "description": "차세대 저가 EV와 Tesla Semi 2026년 생산 시작 예정. 대량 생산 체제 강화로 볼륨 성장 재가속 기대"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "미국 EV 시장 50%+ 점유율 리더. FSD 82억 마일 데이터, Supercharger NACS 표준, 수직 통합이 핵심 해자. 하지만 NVIDIA DRIVE가 Uber/BYD/Hyundai와 파트너십을 맺으며 자율주행 독점에 균열이 생기고 있다.",
+    "summary": "수직통합 제조, 자체 AI칩과 슈퍼컴퓨터, 글로벌 충전 인프라, 수십억 마일의 주행 데이터 등 복합적 경쟁 우위 보유",
     "moats": [
       {
-        "type": "자율주행 데이터 해자",
-        "description": "FSD 82억 마일 주행 데이터. 하지만 NVIDIA DRIVE가 Uber 28개 도시, BYD, Hyundai와 파트너십으로 데이터 우위를 추격 중."
+        "type": "기술 (자율주행 데이터)",
+        "description": "수십억 마일의 실제 주행 데이터와 자체 AI 학습 인프라(Dojo). FSD v14으로 레벨4 자율주행에 가장 근접"
       },
       {
-        "type": "수직 통합 + AI 칩 자체 생산",
-        "description": "자체 배터리(4680), 커스텀 칩(Terafab 로직+메모리), 소프트웨어(FSD), 충전 인프라(Supercharger)."
+        "type": "수직통합 제조",
+        "description": "배터리 셀(4680), 파워트레인, AI칩까지 자체 설계/생산. 원가 우위와 빠른 혁신 사이클 확보"
       },
       {
-        "type": "충전 네트워크 효과",
-        "description": "NACS가 북미 EV 충전 표준. GM, Ford, Rivian이 Tesla 슈퍼차저에 의존."
+        "type": "브랜드 및 생태계",
+        "description": "Supercharger가 북미 표준(NACS) 채택. 보험, OTA, 충전, 에너지까지 아우르는 통합 생태계"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "연간 약 180만 대 이상 생산 능력. 기가팩토리 4곳 + Terafab 확장으로 경쟁사 대비 원가 우위 심화"
       }
     ],
     "competitors": [
       {
         "name": "BYD",
-        "detail": "글로벌 EV 판매 1위(2025년 226만대 vs Tesla 164만대). 640마일 세단, 5분 충전 기술"
-      },
-      {
-        "name": "NVIDIA DRIVE",
-        "detail": "GTC 2026에서 Uber(28개 도시), BYD, Hyundai 파트너십 발표. Tesla FSD의 가장 강력한 경쟁자로 부상"
+        "detail": "2025년 글로벌 EV 판매량 기준 테슬라를 추월. 중국 시장과 저가 세그먼트에서 강세. 다만 자율주행과 소프트웨어에서는 격차 존재"
       },
       {
         "name": "Waymo (Alphabet)",
-        "detail": "상용 로보택시 서비스 확장 중. 기술 성숙도에서 앞서지만 확장성은 Tesla 대비 제한적"
+        "detail": "L4 로보택시 상용 운행 중. 지정 도시에서 서비스 확대 중이나, 전용 차량과 LiDAR 의존으로 확장성에서 테슬라와 다른 접근"
+      },
+      {
+        "name": "Rivian / Lucid",
+        "detail": "프리미엄 EV 시장에서 경쟁. 생산 규모와 수익성에서 테슬라 대비 열위. Rivian은 아마존 밴 물량 확보"
+      },
+      {
+        "name": "전통 OEM (GM, Ford, VW, 현대)",
+        "detail": "EV 전환 가속 중이나, 소프트웨어 역량과 마진 구조에서 테슬라 대비 구조적 불리"
       }
     ]
   },
   "recentNews": [
     {
       "date": "2026-03-17",
-      "headline": "Electrek: Terafab 자금 조달 위해 대규모 유상증자(ATM offering) 임박",
-      "significance": "2020년 이후 첫 대규모 자본 조달. $25-40B 비용의 Terafab 건설을 위한 자금이 필요. 단기적으로 주가 희석 압력, 장기적으로는 AI 칩 자체 생산 역량 확보",
-      "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/"
+      "headline": "테슬라 리서치 리포트: '자동차 타이탄에서 AI 헤게모니로' 전환점 분석",
+      "significance": "FSD v14, Cybercab 4월 생산, Optimus Gen 3 공개 등 2026년이 AI 전환의 원년이라는 분석. 주가 촉매 기대",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-17-tesla-at-the-crossroads-from-automotive-titan-to-ai-hegemon-research-report"
     },
     {
-      "date": "2026-03-17",
-      "headline": "NVIDIA DRIVE가 Uber(28개 도시), BYD, Hyundai와 파트너십 체결",
-      "significance": "Tesla의 자율주행 독점에 가장 직접적인 위협. NVIDIA가 '자율주행의 안드로이드'로 포지셔닝하며 Tesla의 '자율주행의 iOS' 모델에 도전",
-      "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/"
+      "date": "2026-03-13",
+      "headline": "테슬라, 오스틴에서 Cybercab/Optimus/FSD 대중 팝업 이벤트 개최",
+      "significance": "일반 대중이 Cybercab, Optimus, FSD를 직접 체험하는 첫 공개 행사. 로보택시 실체화에 대한 시장 신뢰 강화",
+      "url": "https://www.basenor.com/blogs/news/tesla-autonomy-pop-up-in-austin-see-cybercab-optimus-fsd-live"
     },
     {
-      "date": "2026-03-17",
-      "headline": "미국 정부, Tesla-LG $43억 LFP 배터리 공장 계약 공식 확인",
-      "significance": "Megapack 3용 미국산 셀, 2027년 생산 시작. 에너지 사업 공급망 확보",
-      "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/"
+      "date": "2026-03-12",
+      "headline": "Cybercab 생산라인, 주당 수백 대 목표로 가동 준비 중",
+      "significance": "4월 생산 시작을 앞두고 생산라인 셋업 진행 확인. 초기 물량이 시장 기대에 부합하는지가 관건",
+      "url": "https://www.teslarati.com/tesla-cybercab-line-targeting-hundreds-weekly-report/"
     },
     {
-      "date": "2026-03-17",
-      "headline": "S&P 500 +0.25% 마감, 이란 전쟁 속 반등. 유가 상승(Brent $100+) 지속",
-      "significance": "세인트 패트릭스 데이 랠리. 소비재 +1%, 에너지 +1% 주도. Tesla +0.94%로 시장 대비 소폭 아웃퍼폼",
-      "url": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html"
+      "date": "2026-01-28",
+      "headline": "Q4 2025 실적 발표: EPS $0.50으로 컨센서스 상회, 매출총이익률 20.1% 달성",
+      "significance": "EPS 컨센서스($0.44) 대비 25% 상회. 매출총이익률 2년 만에 최고치. 다만 주가는 실적 발표 후 3.3% 하락",
+      "url": "https://electrek.co/2026/01/28/tesla-tsla-releases-q4-2025-financial-results-slight-beat-on-earnings/"
     },
     {
-      "date": "2026-03-16",
-      "headline": "Terafab 3/21 런치 D-5: 로직+메모리+패키징 수직 통합 공개",
-      "significance": "반도체 경험 제로에서 세계 최대 2nm 팹 도전. 성공 시 NVIDIA 의존 탈피, 실패 시 수십억 달러 매몰 비용",
-      "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/"
+      "date": "2026-01-28",
+      "headline": "FY 2025 연간 실적: 매출 948억 달러, GAAP EPS $1.08",
+      "significance": "연간 기준 매출 성장 유지하나 차량 인도량은 감소 추세. Non-GAAP EPS $1.66으로 에너지/서비스 부문 기여 확대",
+      "url": "https://www.teslarati.com/tesla-tsla-q4-and-fy-2025-earnings-results/"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 406.84,
-    "highTarget": 600.0,
-    "lowTarget": 125.0,
-    "upsidePercent": 1.9,
-    "buyCount": 19,
-    "holdCount": 13,
-    "sellCount": 9,
-    "notableComment": "컨센서스 $406.84(+1.9%), Hold 다수. New Street Research $600(최고), Wells Fargo $125(최저, Underweight). Invezz: '분석가들이 상승 여력을 본다'지만 유상증자 임박과 NVIDIA DRIVE 경쟁이 부정적 변수."
+    "consensusTarget": 389.12,
+    "highTarget": 600.00,
+    "lowTarget": 25.28,
+    "upsidePercent": -2.54,
+    "buyCount": 13,
+    "holdCount": 11,
+    "sellCount": 7,
+    "notableComment": "Wedbush $600 최고 목표가 유지(AI/로보택시 프리미엄), GLJ Research $25 최저(과대평가 주장). 31명 중 컨센서스 Hold로 의견 극단 양분"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "Terafab 유상증자 임박 — 대규모 주가 희석 리스크",
-      "description": "Electrek(3/17): 2020년 이후 첫 대규모 ATM offering이 임박. $25-40B 비용 충당 필요. 유상증자 규모와 타이밍에 따라 단기 주가에 상당한 압력."
-    },
-    {
-      "severity": "critical",
-      "title": "NVIDIA DRIVE 파트너십 — 자율주행 독점 위상 균열",
-      "description": "NVIDIA DRIVE가 GTC 2026에서 Uber(28개 도시), BYD, Hyundai와 파트너십 발표. Tesla FSD의 '닫힌 생태계' 전략에 대한 가장 강력한 도전. 자율주행 TAM 독점 가정이 흔들릴 수 있다."
+      "title": "극단적 밸류에이션 리스크",
+      "description": "TTM P/E 394.9x는 S&P 500(23x)의 17배, 자동차 섹터(16x)의 25배 수준. 성장 스토리가 지연되거나 실망시 급격한 멀티플 축소 가능"
     },
     {
       "severity": "high",
-      "title": "BYD 경쟁 가속, 글로벌 EV 점유율 역전",
-      "description": "BYD 2025년 EV 226만대(+28%) vs Tesla 164만대(-8%). 11개 신모델, 640마일 세단, 5분 충전."
+      "title": "로보택시/FSD 규제 불확실성",
+      "description": "Cybercab의 무인 운행에는 연방/주 단위 규제 승인 필요. Waymo 대비 규제 승인 이력이 부족하며, 사고 발생 시 정치적 리스크 증가"
     },
     {
       "severity": "high",
-      "title": "NHTSA FSD 조사 확대, Cybercab 규제 허들",
-      "description": "288만대 대상 FSD 조사, 오스틴 로보택시 14건 교통위반. Cybercab은 규제 승인이 필수."
+      "title": "차량 판매 성장 둔화",
+      "description": "2025년 차량 인도량이 감소 추세. BYD 등 중국 경쟁사의 저가 공세와 글로벌 EV 수요 성장 둔화가 핵심 사업 위협"
     },
     {
       "severity": "high",
-      "title": "극단적 밸류에이션, P/E 368배",
-      "description": "TTM P/E 368배, Forward P/E 156배. 유상증자 시 EPS 추가 희석 가능."
+      "title": "일론 머스크 리스크",
+      "description": "DOGE 활동 등 정치적 논란이 브랜드 이미지와 판매에 부정적 영향. CEO 집중력 분산 우려 지속"
     },
     {
       "severity": "medium",
-      "title": "이란 전쟁 + 유가 $100+ — 매크로 불확실성",
-      "description": "호르무즈 해협 긴장 지속, Brent $100+ 돌파. 소비자 지출 위축 시 EV 수요에 부정적."
+      "title": "거시경제 및 관세 리스크",
+      "description": "금리 환경 변화, 미중 무역 갈등, 관세 정책이 글로벌 공급망과 수요에 영향. 유럽/중국 판매에 지정학적 리스크"
+    },
+    {
+      "severity": "medium",
+      "title": "신규 사업 실행 리스크",
+      "description": "Cybercab, Optimus, Semi 모두 2026년 생산 시작 목표이나, 테슬라의 일정 지연 이력 감안 시 딜레이 가능성 상존"
     }
   ],
   "buyReasons": [
     {
-      "title": "Terafab D-3 + LG 배터리 딜: 에너지+AI 동시 확장",
-      "rationale": "3/21 Terafab 런치가 성공하면 NVIDIA 의존 탈피의 첫 걸음. LG $43억 배터리 딜로 에너지 사업 공급망도 확보."
+      "title": "2026년 핵심 촉매 집중",
+      "description": "Cybercab 4월 생산, Optimus Gen 3, FSD v14, Semi 양산 등 역대 가장 많은 신제품이 동시에 출시. 실행만 되면 매출 구조 질적 전환"
     },
     {
-      "title": "Cybercab 4월 양산 + Macrohard AI 사업 진출",
-      "rationale": "로보택시 사업화 첫 걸음. Macrohard로 엔터프라이즈 AI 시장 진출. 자동차 넘어선 수익원 다각화."
+      "title": "에너지 사업의 숨은 성장",
+      "description": "Megapack 3 대량 생산으로 에너지 부문이 고마진 성장 엔진으로 부상. 자동차 마진 압박을 상쇄하는 다각화 효과"
     },
     {
-      "title": "중국 1-2월 판매 +35%, 딜리버리 반등 신호",
-      "rationale": "중국 반등이 FY2026 딜리버리 회복 신호. 에너지 부문도 5분기 연속 최고 수익."
+      "title": "압도적 재무 건전성",
+      "description": "순현금 293억 달러, D/E 0.18x. 대규모 R&D/설비 투자를 자체 자금으로 감당 가능. 경쟁사 대비 압도적 재무 여력"
     },
     {
-      "title": "현금 $44B, D/E 0.08 — 유상증자 없이도 투자 여력",
-      "rationale": "재무 건전성 최상위. 유상증자가 불가피하더라도 기존 현금이 버퍼 역할."
+      "title": "AI/로봇 플랫폼 프리미엄",
+      "description": "단순 자동차 회사가 아닌 Physical AI 플랫폼으로의 전환. FSD 라이선싱, Optimus 노동 대체 등 TAM 확장 잠재력이 현재 밸류에이션의 근거"
     }
   ],
   "technicalPosition": {
     "week52High": 498.83,
-    "week52Low": 214.25,
-    "currentPositionPercent": 65.0,
-    "sma50": 419.98,
+    "week52Low": 249.84,
+    "currentPositionPercent": 60.0,
+    "sma50": 418.79,
     "sma50Signal": "below",
-    "sma200": 426.02,
-    "sma200Signal": "below",
-    "rsi": 42,
+    "sma200": 393.85,
+    "sma200Signal": "above",
+    "rsi": 45.29,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "오늘 Tesla는 $399.27(+0.94%)로 소폭 반등했지만, 두 가지 핵심 리스크가 수면 위로 올라왔다. 첫째, Electrek이 Terafab 자금 조달을 위한 대규모 유상증자(ATM offering)가 임박했다고 보도했다. 2020년 이후 처음이며, 주가 희석 압력이 상당할 수 있다.",
-    "둘째, NVIDIA GTC에서 DRIVE 플랫폼이 Uber(28개 도시), BYD, Hyundai와 대형 파트너십을 발표했다. Tesla FSD의 '닫힌 생태계' 전략에 가장 직접적인 도전이며, 자율주행 TAM 독점이라는 핵심 투자 논리에 균열이 생기고 있다.",
-    "P/E 368배에 50일선($420), 200일선($426) 모두 아래. RSI 42로 약세 구간. 목표가 $407(+1.9%). 토요일 Terafab 런치가 분수령이지만, 유상증자 오버행이 단기적으로 주가를 눌러놓을 가능성이 높다. 인내심이 필요한 구간."
+    "Cybercab 4월 양산, Optimus Gen 3 공개, FSD v14 등 2026년 촉매가 쏟아지는 해. 실행만 되면 자동차 회사에서 AI 플랫폼으로 완전히 탈바꿈한다.",
+    "다만 P/E 395배는 모든 미래가 완벽히 실현될 때의 가격. 지금은 '기대'에 베팅하는 구간이라 실망 매물 리스크가 크다.",
+    "50일선(418) 아래, 200일선(393) 위에서 방향성 탐색 중. RSI 45로 과매도는 아니지만 단기 모멘텀은 약하다.",
+    "장기 믿음이 있다면 분할매수 구간. 단기 트레이딩이면 Cybercab 생산 확인 후 진입이 안전하다. 현재가 $399."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Terafab D-3, LG 배터리 딜, Cybercab 양산 등 촉매는 풍부하지만, 유상증자 임박과 NVIDIA DRIVE 경쟁이라는 두 가지 핵심 리스크가 부각됐다. P/E 368배에서 추가 희석까지 감안하면 진입 시점이 아니다. Terafab 런치 결과와 유상증자 조건을 확인한 뒤 재평가.",
-    "horizon": "1-2주 (Terafab 런치 + 유상증자 조건 확인 후)"
+    "summary": "2026년은 테슬라의 가장 중요한 실행의 해다. Cybercab, Optimus, FSD 모두 약속된 일정이 시작되지만, P/E 395배의 밸류에이션은 완벽한 실행을 이미 반영하고 있어 추가 상승 여력보다 실망 리스크가 크다. 기존 보유자는 유지하되, 신규 진입은 4월 Cybercab 생산 확인 후가 적절하다.",
+    "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Electrek (Capital Raise)",
-      "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/",
-      "description": "Terafab 자금 조달 위한 대규모 유상증자(ATM offering) 임박 보도"
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/tsla/statistics/",
+      "description": "TSLA 밸류에이션, 재무지표, 기술적 지표 종합 통계"
     },
     {
-      "name": "Parameter.io (NVIDIA DRIVE)",
-      "url": "https://parameter.io/tesla-tsla-stock-slides-as-nvidia-drive-secures-major-partnerships-with-uber-byd-and-hyundai/",
-      "description": "NVIDIA DRIVE, Uber/BYD/Hyundai 파트너십으로 Tesla FSD에 도전"
+      "name": "MacroTrends",
+      "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/stock-price-history",
+      "description": "테슬라 주가 히스토리 및 종가 데이터"
     },
     {
-      "name": "CNBC (Market)",
-      "url": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html",
-      "description": "S&P 500 +0.25% at 6,716.09, 이란 전쟁 속 반등"
+      "name": "Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/TSLA/",
+      "description": "실시간 주가, 시가총액, P/E 데이터"
     },
     {
-      "name": "Reuters (LG Battery)",
-      "url": "https://www.reuters.com/business/energy/us-government-confirms-tesla-lg-energy-solutions-43-billion-battery-deal-2026-03-17/",
-      "description": "Tesla-LG $43억 LFP 배터리 공장 계약 공식 확인"
+      "name": "TipRanks",
+      "url": "https://www.tipranks.com/stocks/tsla/forecast",
+      "description": "애널리스트 컨센서스 및 매수/보유/매도 분포"
     },
     {
-      "name": "MarketBeat (Forecast)",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
-      "description": "TSLA 컨센서스 목표가 $406.84, 19Buy/13Hold/9Sell"
+      "name": "Benzinga",
+      "url": "https://www.benzinga.com/quote/TSLA/analyst-ratings",
+      "description": "애널리스트 목표가 및 최신 등급 변경"
     },
     {
-      "name": "Invezz",
-      "url": "https://invezz.com/news/2026/03/17/tesla-stock-below-400-but-analysts-see-upside-ahead/",
-      "description": "Tesla $400 아래, 분석가들은 상승 여력 전망"
+      "name": "Electrek",
+      "url": "https://electrek.co/2026/01/28/tesla-tsla-releases-q4-2025-financial-results-slight-beat-on-earnings/",
+      "description": "Q4 2025 실적 분석 및 컨센서스 비교"
     },
     {
-      "name": "Benzinga (Terafab)",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51279594/tesla-stock-is-climbing-whats-going-on",
-      "description": "Musk, Terafab 7일 내 런치 발표. 칩 공급 확보 전략"
+      "name": "Teslarati",
+      "url": "https://www.teslarati.com/tesla-tsla-q4-and-fy-2025-earnings-results/",
+      "description": "FY 2025 연간 실적 및 GAAP/Non-GAAP EPS"
     },
     {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/TSLA:NASDAQ",
-      "description": "TSLA 종가 $399.27, 시간외 $398.71"
+      "name": "Teslarati (Cybercab)",
+      "url": "https://www.teslarati.com/tesla-cybercab-line-targeting-hundreds-weekly-report/",
+      "description": "Cybercab 생산라인 준비 상황 및 주간 생산 목표"
     },
     {
-      "name": "Electrek (Terafab Criticism)",
-      "url": "https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/",
-      "description": "Terafab 비판: 반도체 경험 제로, 수직 통합의 비현실성"
+      "name": "Basenor",
+      "url": "https://www.basenor.com/blogs/news/tesla-autonomy-pop-up-in-austin-see-cybercab-optimus-fsd-live",
+      "description": "오스틴 Autonomy 팝업 이벤트 상세 보도"
     },
     {
-      "name": "Motley Fool (BYD)",
-      "url": "https://www.fool.com/investing/2026/03/16/this-should-make-tesla-investors-extremely-nervous/",
-      "description": "BYD 경쟁 가속: 226만대 vs Tesla 164만대"
+      "name": "FinancialContent",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-17-tesla-at-the-crossroads-from-automotive-titan-to-ai-hegemon-research-report",
+      "description": "테슬라 AI 헤게모니 전환 리서치 리포트"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla, 유상증자 임박 + NVIDIA가 자율주행 동맹군을 결성했다",
-      "text": "$TSLA (3/18) $399.27(+0.94%) Terafab D-3인데 악재가 두 개 터졌다.\n\n1. Electrek: 유상증자(ATM) 임박, 2020년 이후 첫 대규모 자본 조달\n2. NVIDIA DRIVE가 Uber, BYD, Hyundai와 파트너십\n\n1/4",
+      "hook": "테슬라, 자동차 회사 졸업식이 다가온다",
+      "text": "테슬라, 자동차 회사 졸업식이 다가온다\n\nCybercab 4월 양산, Optimus Gen 3, FSD v14. 2026년 촉매 폭탄. 다만 P/E 395배는 완벽한 실행을 이미 반영 중. $399\n\n1/3",
       "thread": [
-        "Terafab $25-40B 비용을 현금 $44B만으로는 부족하다. 유상증자 규모에 따라 EPS 희석이 상당할 수 있다. 시장은 아직 가격에 반영하지 않았다.\n\n2/4",
-        "NVIDIA DRIVE가 '자율주행의 안드로이드'로 포지셔닝 중. Tesla의 '폐쇄형 iOS' 모델에 직접적 도전. FSD 독점이라는 핵심 투자 논리가 흔들린다.\n\n3/4",
-        "P/E 368x, 50일선($420) 아래, RSI 42. 목표가 $407(+1.9%). 토요일 Terafab 런치가 분수령. 유상증자 조건 확인 전까지는 관망.\n\n4/4"
+        "테슬라, 자동차 회사 졸업식이 다가온다\n\nCybercab 4월 양산, Optimus Gen 3, FSD v14. 2026년 촉매 폭탄. 다만 P/E 395배는 완벽한 실행을 이미 반영 중. $399\n\n1/3",
+        "Q4 매출총이익률 20.1%로 2년 최고. 순현금 293억 달러. 재무는 탄탄한데, 문제는 차량 인도량 감소 추세. BYD가 저가로 밀어붙이는 중\n\n2/3",
+        "50일선 아래, 200일선 위. RSI 45로 방향 탐색 구간. 장기 신념이면 분할매수, 단기면 Cybercab 생산 확인 후 진입이 안전\n\n3/3"
       ]
     },
     "threads": {
-      "hook": "Tesla 유상증자 임박 + NVIDIA 자율주행 동맹 결성",
-      "text": "$TSLA (3/18) $399.27(+0.94%)\n\nTerafab D-3인데 오늘 악재 두 개가 동시에 나왔다.\n\nElectrek이 Terafab 자금 조달을 위한 대규모 유상증자가 임박했다고 보도. 2020년 이후 처음이다. 그리고 NVIDIA GTC에서 DRIVE 플랫폼이 Uber 28개 도시, BYD, Hyundai와 파트너십을 발표하며 Tesla FSD 독점에 균열.\n\nP/E 368x, 50일선 아래. 목표가 $407(+1.9%). 유상증자 조건과 Terafab 결과를 모두 확인해야 한다."
+      "hook": "테슬라 2026, 약속의 해가 시작됐다",
+      "text": "테슬라 2026, 약속의 해가 시작됐다\n\nCybercab 4월 양산 시작. Optimus Gen 3 공개. FSD v14 무인 운행. 올해 실행 못 하면 변명할 게 없다.\n\nQ4 매출총이익률 20.1%로 반등, 순현금 293억 달러로 재무 철벽. 그런데 P/E가 395배. S&P 평균의 17배다.\n\n50일선(418) 아래로 내려왔고, RSI 45. 단기 모멘텀은 약하지만 200일선(393)이 지지선 역할 중.\n\n장기 보유자는 유지. 신규 진입은 4월 Cybercab 생산 실적 확인 후가 현명하다. $399."
     },
     "telegram": {
-      "hook": "유상증자 임박 + NVIDIA DRIVE 파트너십",
-      "text": "Tesla 일일 분석 (3/18)\n\n가격: $399.27 (+0.94%)\n시총: $1.28T\n\n오늘의 핵심\n- Electrek: Terafab 자금 조달 위한 유상증자(ATM) 임박\n- 2020년 이후 첫 대규모 자본 조달\n- NVIDIA DRIVE, Uber/BYD/Hyundai 파트너십으로 FSD 독점 위협\n\n이번 주 이벤트\n- Terafab 3/21 런치 D-3\n- Cybercab 4월 양산 준비\n- NHTSA FSD 288만대 조사 진행 중\n\n주가 위치\n- 52주 고점 $498.83 / 저점 $214.25\n- 50일 평균($420) 아래\n- 200일 평균($426) 아래\n- RSI 42 (중립)\n\nP/E: 368x / Forward P/E: 156x\n목표가: $406.84 (+1.9%)\n판정: Hold, 유상증자 조건 + Terafab 결과 확인 후 재평가"
+      "hook": "TSLA $399 | Hold",
+      "text": "TSLA $399 | Hold\n\nCybercab 4월 양산, Optimus Gen 3, FSD v14 등 2026년 촉매 집중. P/E 395배로 완벽 실행 이미 반영.\n\nQ4 매출총이익률 20.1%(2년 최고), 순현금 293억 달러. 50일선 아래, 200일선 위, RSI 45 중립.\n\n장기 신념이면 분할매수 구간. 단기면 4월 확인 후 진입."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla, 유상증자 임박 + NVIDIA 자율주행 동맹 결성",
-          "text": "$TSLA (3/18) $399.27(+0.94%). Electrek: Terafab 자금 조달 위한 대규모 유상증자(ATM) 임박. NVIDIA DRIVE는 Uber/BYD/Hyundai 파트너십으로 FSD 독점에 도전.\n\n1/4",
+          "hook": "테슬라, 자동차 회사 졸업식이 다가온다",
+          "text": "테슬라, 자동차 회사 졸업식이 다가온다\n\nCybercab 4월 양산, Optimus Gen 3, FSD v14. 2026년 촉매 폭탄. 다만 P/E 395배는 완벽한 실행을 이미 반영 중. $399\n\n1/3",
           "thread": [
-            "Terafab $25-40B 비용. 현금 $44B에서 상당 부분을 충당하겠지만 유상증자 불가피. 규모에 따라 EPS 희석 상당.\n\n2/4",
-            "NVIDIA DRIVE가 Uber 28개 도시에 탑재된다. BYD, Hyundai도 합류. Tesla의 '닫힌 FSD 생태계'에 가장 직접적인 도전.\n\n3/4",
-            "P/E 368x, 50일선($420) 아래. 목표가 $407(+1.9%). Terafab 런치(3/21)와 유상증자 조건 확인 필요.\n\n4/4"
+            "테슬라, 자동차 회사 졸업식이 다가온다\n\nCybercab 4월 양산, Optimus Gen 3, FSD v14. 2026년 촉매 폭탄. 다만 P/E 395배는 완벽한 실행을 이미 반영 중. $399\n\n1/3",
+            "Q4 매출총이익률 20.1%로 2년 최고. 순현금 293억 달러. 재무는 탄탄한데, 문제는 차량 인도량 감소 추세. BYD가 저가로 밀어붙이는 중\n\n2/3",
+            "50일선 아래, 200일선 위. RSI 45로 방향 탐색 구간. 장기 신념이면 분할매수, 단기면 Cybercab 생산 확인 후 진입이 안전\n\n3/3"
           ]
         },
         "witty": {
-          "hook": "Tesla가 돈을 찍고, NVIDIA가 동맹을 모은다",
-          "text": "$TSLA (3/18) $399.27. Musk가 칩 공장을 짓겠다고 했더니, 시장이 \"돈은?\"이라고 물었다. 유상증자 임박. 한편 NVIDIA는 Uber+BYD+Hyundai를 한 편으로 모았다.\n\n1/4",
+          "hook": "P/E 395배, 이건 주식이 아니라 종교다",
+          "text": "P/E 395배, 이건 주식이 아니라 종교다\n\nCybercab 4월에 나온다는데, 일론이 말한 일정이 맞은 적이 언제였지? 그래도 이번엔 생산라인 사진까지 나왔다. $399\n\n1/3",
           "thread": [
-            "Terafab은 $25-40B짜리 꿈이다. 현금 $44B가 있어도 모자란 규모. '2020년 이후 첫 유상증자'라는 문구가 시장을 긴장시킨다.\n\n2/4",
-            "NVIDIA: '자율주행? 우리가 플랫폼 만들 테니 다 같이 하자.' Tesla: '아니, 나 혼자 다 할 거야.' 어디서 많이 본 iOS vs Android 구도다.\n\n3/4",
-            "P/E 368x에서 주식을 더 찍겠다고? 토요일 Terafab 런치가 성공해야 이 스토리가 살아남는다.\n\n4/4"
+            "P/E 395배, 이건 주식이 아니라 종교다\n\nCybercab 4월에 나온다는데, 일론이 말한 일정이 맞은 적이 언제였지? 그래도 이번엔 생산라인 사진까지 나왔다. $399\n\n1/3",
+            "순현금 293억 달러인데 P/E가 395배. 현금은 많은데 버는 건 적다는 뜻. 근데 이 회사는 '앞으로' 벌 돈으로 평가받는 종목이라\n\n2/3",
+            "RSI 45, 50일선 아래. 차트만 보면 약세인데, 테슬라는 차트 무시하고 트윗 하나에 10% 움직이는 종목. 심장 약한 분은 ETF로\n\n3/3"
           ]
         },
         "empathy": {
-          "hook": "Tesla 주주들, 유상증자 소식에 마음이 무거울 거다",
-          "text": "$TSLA (3/18) $399.27(+0.94%). 주가는 올랐지만 유상증자 임박 소식이 나왔다. NVIDIA DRIVE 파트너십까지. 토요일을 기다리는 마음이 복잡할 거다.\n\n1/4",
+          "hook": "테슬라 주주들, 올해가 진짜 고비다",
+          "text": "테슬라 주주들, 올해가 진짜 고비다\n\n몇 년간 '내년엔 나온다'던 Cybercab이 드디어 4월 양산. 이번에 안 되면 정말 지친다. 근데 P/E 395배가 부담이긴 해. $399\n\n1/3",
           "thread": [
-            "하지만 Terafab이 성공하면 NVIDIA 의존에서 벗어나는 첫 걸음이다. 단기 희석보다 장기 가치를 볼 때가 될 수도 있다.\n\n2/4",
-            "현금 $44B, D/E 0.08. Tesla의 재무 체력은 여전히 강하다. 유상증자가 전부 나쁜 건 아니다.\n\n3/4",
-            "목표가 $407(+1.9%). 조급하게 움직이지 않아도 괜찮다. 토요일이 답을 줄 거다.\n\n4/4"
+            "테슬라 주주들, 올해가 진짜 고비다\n\n몇 년간 '내년엔 나온다'던 Cybercab이 드디어 4월 양산. 이번에 안 되면 정말 지친다. 근데 P/E 395배가 부담이긴 해. $399\n\n1/3",
+            "매출총이익률 20% 회복하고, 순현금 293억 달러 쌓았고, Optimus도 Gen 3까지 왔어. 성과는 있는데 주가가 안 따라와서 답답한 시기\n\n2/3",
+            "지금 팔면 Cybercab 터질 때 후회하고, 들고 있자니 P/E가 무섭고. 결론은 분할매수로 심리적 부담 줄이기. 같이 버텨보자\n\n3/3"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla, 유상증자 임박 + NVIDIA DRIVE 대형 파트너십",
-          "text": "$TSLA (3/18) $399.27(+0.94%)\n\nTerafab D-3. Electrek이 자금 조달을 위한 대규모 유상증자가 임박했다고 보도. NVIDIA DRIVE는 GTC에서 Uber(28개 도시), BYD, Hyundai 파트너십을 발표하며 자율주행 시장 경쟁 구도를 바꾸고 있다.\n\nP/E 368x, 50일선 아래. 목표가 $407(+1.9%). 유상증자 조건과 Terafab 결과가 핵심 변수."
+          "hook": "테슬라 2026, 약속의 해가 시작됐다",
+          "text": "테슬라 2026, 약속의 해가 시작됐다\n\nCybercab 4월 양산 시작. Optimus Gen 3 공개. FSD v14 무인 운행. 올해 실행 못 하면 변명할 게 없다.\n\nQ4 매출총이익률 20.1%로 반등, 순현금 293억 달러로 재무 철벽. 그런데 P/E가 395배. S&P 평균의 17배다.\n\n50일선(418) 아래로 내려왔고, RSI 45. 단기 모멘텀은 약하지만 200일선(393)이 지지선 역할 중.\n\n장기 보유자는 유지. 신규 진입은 4월 Cybercab 생산 실적 확인 후가 현명하다. $399."
         },
         "witty": {
-          "hook": "Tesla: 칩 공장 짓겠다. 시장: 돈은?",
-          "text": "$TSLA (3/18) $399.27(+0.94%)\n\nTerafab D-3인데 '유상증자 임박' 뉴스가 나왔다. $25-40B짜리 꿈에 돈이 필요하다는 건 당연한데, 시장은 '희석'이라는 단어에 민감하다.\n\n한편 NVIDIA는 Uber+BYD+Hyundai를 '자율주행 안드로이드' 동맹으로 모았다. Tesla vs 세계 구도가 점점 현실화.\n\n토요일이 D-day다. P/E 368x에서 유상증자까지 감안하면, Terafab이 대단한 걸 보여줘야 한다."
+          "hook": "테슬라: P/E 395배의 믿음 vs 현실",
+          "text": "테슬라: P/E 395배의 믿음 vs 현실\n\n일론이 '올해는 진짜'라고 했다. Cybercab, Optimus, Semi 전부. 매년 듣던 말인데 이번엔 생산라인 사진이 있다는 게 다르다.\n\nQ4 마진 20.1% 회복은 진짜 잘했다. 근데 차는 덜 팔리고 있고, BYD는 더 싸게 더 많이 만들고 있다.\n\nRSI 45에 50일선 아래. 차트쟁이들은 '약세'라 하지만, 테슬라는 원래 펀더멘탈이 아니라 내러티브로 움직이는 종목.\n\n결론: 종교에 가까운 투자. 신자는 사고, 불신자는 숏치고, 보통 사람은 ETF 사자. $399."
         },
         "empathy": {
-          "hook": "Tesla 주주들, 토요일이 올 때까지 긴 3일이 될 거다",
-          "text": "$TSLA (3/18) $399.27(+0.94%)\n\n유상증자 임박 소식에 마음이 복잡할 거다. NVIDIA가 Uber, BYD, Hyundai까지 모으는 걸 보면 더 그렇다.\n\n하지만 현금 $44B에 D/E 0.08. Tesla의 재무 체력은 아직 건재하다. Terafab이 성공하면 지금의 고민이 투자 기회였다고 말하게 될 수도 있다.\n\n토요일까지 기다리자. 목표가 $407(+1.9%)."
+          "hook": "테슬라 장투자, 지금이 가장 어려운 시기",
+          "text": "테슬라 장투자, 지금이 가장 어려운 시기\n\n고점(498) 대비 20% 빠졌고, BYD한테 판매량 밀리고, 일론은 정치판에 빠져있고. 근데 Cybercab이 4월에 진짜 나온다.\n\n순현금 293억 달러, 마진 회복, Optimus Gen 3까지. 숫자만 보면 나쁘지 않은데, P/E 395배라는 기대치의 무게가 어깨를 짓누른다.\n\n지금 가장 중요한 건 '버틸 수 있느냐'. 분할매수로 평단 관리하면서, 4월 Cybercab 생산 숫자 확인하는 게 현실적인 전략이다. $399."
         }
       }
     }
