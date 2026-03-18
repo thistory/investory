@@ -2,296 +2,172 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-18",
-  "currentPrice": 23.47,
-  "marketCap": "10.64B",
+  "currentPrice": 23.39,
+  "marketCap": "$10.1B",
   "businessSummary": {
-    "oneLiner": "세계 최대 상장 Ethereum 보유 기업 — MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "Bitmine Immersion Technologies는 원래 비트코인 채굴 기업이었으나 Ethereum 트레저리 전략으로 피벗한 회사다. 현재 4,595,562 ETH(전체 ETH 공급량의 3.81%)를 보유하며, 그 중 3,040,515 ETH를 스테이킹 중이다. MicroStrategy가 Bitcoin에 했던 것처럼 Ethereum에 대한 기업 트레저리 전략을 실행하며, MAVAN 밸리데이터 네트워크를 통한 자체 스테이킹 인프라도 구축 중이다. 총 암호화폐, 현금 및 투자 자산 규모는 $11.5B에 달한다.",
+    "oneLiner": "세계 최대 상장 Ethereum 보유 기업 -- MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/16 기준 4,595,562 ETH(총 공급량의 3.81%) 보유, 총 크립토+현금 $11.5B. 월요일 종가 $23.39(+11.6%). $11.5B 트레저리 공시 후 급반등. 시총 약 $10.1B.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,595,562 ETH 보유 ($10.04B 상당)",
-      "ETH 스테이킹 수익: 3,040,515 ETH 스테이킹 중 ($6.6B)",
-      "비트코인 보유: 196 BTC",
-      "투자 포트폴리오: Beast Industries $200M, Eightco $83M",
-      "현금 보유: $1.2B"
+      "ETH 트레저리: 4,595,562 ETH 보유 (~$10.0B at $2,185/ETH)",
+      "ETH 스테이킹 수익: 3,040,515 ETH 스테이킹, 연간 ~$174M 수익",
+      "배당: 5.3% 배당수익률",
+      "비트코인 보유: 196 BTC + Beast Industries $200M 투자"
     ],
-    "keyProducts": [
-      "Ethereum Treasury",
-      "ETH Staking",
-      "MAVAN Validator Network",
-      "Crypto Holdings"
-    ]
+    "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings", "Beast Industries"]
   },
   "keyMetrics": [
-    {
-      "name": "ETH 보유량",
-      "value": "4,595,562 ETH",
-      "interpretation": "전체 ETH 공급량의 3.81%. 'Alchemy of 5%' 목표의 70% 이상 달성"
-    },
-    {
-      "name": "스테이킹 ETH",
-      "value": "3,040,515 ETH ($6.6B)",
-      "interpretation": "세계 최대 규모의 ETH 스테이킹. 안정적 수익 창출 기반"
-    },
-    {
-      "name": "총 자산 포트폴리오",
-      "value": "$11.5B",
-      "interpretation": "암호화폐 + 현금 + 문샷 투자 합산. 시가총액 대비 프리미엄 존재"
-    },
-    {
-      "name": "P/E 비율",
-      "value": "-26.82",
-      "interpretation": "적자 상태로 전통적 밸류에이션 적용 어려움. ETH NAV 기준 평가 필요"
-    },
-    {
-      "name": "시가총액",
-      "value": "$10.64B",
-      "interpretation": "ETH 보유가치 $10.04B 대비 약간의 프리미엄. NAV에 근접"
-    },
-    {
-      "name": "배당수익률",
-      "value": "4.3%",
-      "interpretation": "스테이킹 수익 기반 배당 지급. 크립토 트레저리 기업 중 이례적"
-    }
+    {"name": "P/B", "value": "0.88x", "interpretation": "NAV $26.62 대비 12% 할인. MSTR(P/B 2-3x) 대비 여전히 저평가"},
+    {"name": "ETH 보유량", "value": "4,595,562 ETH", "interpretation": "전체 ETH 공급의 3.81%. 세계 최대 상장 ETH 트레저리"},
+    {"name": "총 크립토+현금", "value": "$11.5B", "interpretation": "ETH $10.0B + 현금 + BTC + Beast $200M. 시총 $10.1B 대비 NAV 프리미엄"},
+    {"name": "배당수익률", "value": "5.3%", "interpretation": "크립토 트레저리 기업 중 유일한 배당. 인컴 투자자 유인"},
+    {"name": "스테이킹 수익", "value": "연 ~$174M", "interpretation": "3,040,515 ETH 스테이킹. 보유 ETH의 66%를 운용"},
+    {"name": "P/E (TTM)", "value": "적자 (EPS -$1.32)", "interpretation": "ETH 시가평가손 반영. P/B로 평가하는 것이 적절"},
+    {"name": "일평균 거래대금", "value": "$1.0-1.2B", "interpretation": "기관급 유동성. 대형 물량 소화 가능"},
+    {"name": "YTD 수익률", "value": "~-32%", "interpretation": "고점 대비 하락폭 크지만 최근 반등세"}
   ],
   "growthDrivers": [
-    {
-      "title": "ETH 공급량 5% 목표 ('Alchemy of 5%')",
-      "description": "현재 3.81%에서 5% 목표까지 지속적 매입 진행 중. 6개월 만에 70% 이상 달성하며 빠른 속도로 ETH 축적"
-    },
-    {
-      "title": "MAVAN 밸리데이터 네트워크 Q1 2026 런칭",
-      "description": "자체 스테이킹 솔루션 MAVAN 출시 임박. 현재 외부 스테이킹 대비 더 높은 수익률 기대. 스테이킹 비용 절감 및 수익 극대화"
-    },
-    {
-      "title": "ETH 가격 상승 레버리지",
-      "description": "460만 ETH 보유로 ETH 가격 상승 시 NAV 급증. ETH 투자 프록시로서 기관 자금 유입 경로 역할"
-    },
-    {
-      "title": "문샷 투자 포트폴리오",
-      "description": "Beast Industries ($200M), Eightco ($83M) 등 전략적 투자를 통한 포트폴리오 다각화 및 추가 성장 동력 확보"
-    }
+    {"title": "$11.5B 트레저리 공시로 +11.6% 급반등", "description": "3/16 $11.5B 크립토+현금 보유 공시. 일주일 전 $10.3B에서 $1.2B 증가. 시총 대비 NAV 프리미엄 재확인."},
+    {"title": "P/B 0.88x, NAV 대비 12% 할인 지속", "description": "장부가치 $26.62 대비 주가 $23.39. MSTR(P/B 2-3x) 대비 저평가. 갭 축소 시 추가 상승 여력."},
+    {"title": "MAVAN 자체 스테이킹 플랫폼 Q1 2026 론칭", "description": "Made in America Validator Network. 제3자 스테이킹 수수료 절감. 규제 친화적 미국 내 운영."},
+    {"title": "배당수익률 5.3%와 기관투자자 확대", "description": "ARK(Cathie Wood), Founders Fund, Bill Miller III, Pantera, Kraken, DCG, Galaxy Digital 등 프리미엄 기관 투자자 확보."}
   ],
   "competitiveAdvantage": {
-    "summary": "세계 최대 상장 ETH 보유 기업으로, Ethereum 생태계에 대한 기관 투자 접근성을 제공하는 유일무이한 포지션을 확보",
+    "summary": "상장 기업 중 최대 ETH 보유량(3.81% of supply). Tom Lee + ARK + Founders Fund + Pantera 등 최정상급 기관 백업. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
     "moats": [
-      {
-        "type": "규모의 경제",
-        "description": "4.6M ETH(전체 공급량 3.81%)를 보유한 최대 규모의 상장 ETH 트레저리. 후발주자가 이 규모를 따라잡기 극히 어려움"
-      },
-      {
-        "type": "스테이킹 인프라",
-        "description": "3M ETH 이상 스테이킹 + MAVAN 자체 밸리데이터 네트워크로 수익률 극대화 및 비용 절감"
-      },
-      {
-        "type": "선점 효과",
-        "description": "MicroStrategy의 BTC 전략을 ETH에 최초로 대규모 적용. ETH 투자 프록시로서의 브랜드 인지도 구축"
-      }
+      {"type": "ETH 공급량 집중", "description": "전체 ETH 공급의 3.81% 보유. 시장에서 대체 불가능한 독점적 포지션."},
+      {"type": "제도권 투자자 진영", "description": "ARK, BlackRock, Founders Fund, Pantera, Galaxy Digital 등 크립토 최정상 기관들이 지원."},
+      {"type": "스테이킹 수익 + 배당", "description": "3M+ ETH 스테이킹 + MAVAN 자체 플랫폼. 5.3% 배당과 패시브 수익 동시 제공."}
     ],
     "competitors": [
-      {
-        "name": "MicroStrategy (MSTR)",
-        "detail": "Bitcoin 트레저리 전략의 원조. BTC 시장에서 동일한 역할 수행. ETH와의 직접 경쟁은 아니지만 비교 대상"
-      },
-      {
-        "name": "Ethereum ETF (ETH Spot ETFs)",
-        "detail": "기관 투자자들의 ETH 노출 대안. BMNR은 레버리지 + 스테이킹 수익이라는 차별점 보유"
-      },
-      {
-        "name": "Lido Finance",
-        "detail": "최대 ETH 리퀴드 스테이킹 프로토콜. 비상장이지만 스테이킹 시장에서의 경쟁자"
-      }
+      {"name": "MicroStrategy (MSTR)", "detail": "Bitcoin 트레저리 전략의 원조. BTC 집중 vs BMNR의 ETH 집중. P/B 2-3x로 BMNR 대비 프리미엄"},
+      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF 경쟁. 수수료 구조 차이"},
+      {"name": "Coinbase (COIN)", "detail": "거래소 기반 크립토 노출. 사업 모델 근본적 차이"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-16",
-      "headline": "Bitmine, ETH 보유량 4,595,562개 달성 및 총 자산 $11.5B 공개",
-      "significance": "역대 최대 ETH 보유 기록 갱신. 스테이킹 3.04M ETH로 세계 최대 스테이커 지위 확인",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html"
-    },
-    {
-      "date": "2026-03-17",
-      "headline": "BMNR 주가 14% 급등, ETH 보유 발표에 시장 환호",
-      "significance": "하루 만에 14% 상승하며 $23.79까지 도달. 거래량 폭증으로 시장 관심 집중",
-      "url": "https://www.fxleaders.com/news/2026/03/17/bitmine-immersion-technologies-bmnr-stock-surges-14-as-ethereum-holdings-top-4-5-million-tokens/"
-    },
-    {
-      "date": "2026-03-17",
-      "headline": "Simply Wall St: BMNR 주가 급등 후 밸류에이션 분석",
-      "significance": "1주일간 13% 상승세에 주목하며 밸류에이션 재평가 논의 활발",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-3"
-    },
-    {
-      "date": "2026-03-10",
-      "headline": "MAVAN 스테이킹 네트워크 Q1 2026 런칭 확정, 스테이킹 수익률 업계 벤치마크 상회",
-      "significance": "자체 밸리데이터 인프라 출시로 스테이킹 비용 절감 및 수익 극대화 기대",
-      "url": "https://www.tipranks.com/news/company-announcements/bitmine-expands-eth-holdings-and-staking-revenue-power"
-    },
-    {
-      "date": "2026-03-02",
-      "headline": "Bitmine, $98M 규모 ETH 추가 매입으로 보유량 4.47M ETH 돌파",
-      "significance": "2026년 최대 규모의 주간 ETH 매입 단행. 공격적 매집 전략 지속 확인",
-      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"
-    }
+    {"date": "2026-03-16", "headline": "ETH 보유량 4,595,562 토큰, 총 크립토+현금 $11.5B 공시", "significance": "8-K 공시. 일주일 전 $10.3B에서 $1.2B 증가. 기관투자자 명단 동시 공개", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html"},
+    {"date": "2026-03-16", "headline": "주가 11.6% 급등, $23.39 마감. MAVAN Q1 2026 론칭 일정 확인", "significance": "$11.5B 트레저리 공시 직후 급반등. MAVAN 스테이킹 플랫폼 Q1 론칭 재확인"},
+    {"date": "2026-03-16", "headline": "ARK(Cathie Wood), Founders Fund, Pantera, Galaxy Digital 등 기관투자자 지지 확인", "significance": "프리미어 기관 투자자 명단 공식 공개. Bill Miller III, Kraken, DCG도 포함"},
+    {"date": "2026-03-09", "headline": "이전 트레저리 업데이트: $10.3B, 60,976 ETH 추가 매수", "significance": "한 주 만에 $1.2B 증가의 출발점. 공격적 ETH 매집 지속 확인", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"},
+    {"date": "2026-03-02", "headline": "ETH 보유량 4,474,000 돌파, $98M ETH 추가 매수", "significance": "연초부터 지속된 공격적 ETH 매집. 주당 수만 ETH 추가 매수 패턴", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase"}
   ],
   "analystOpinions": {
-    "consensusTarget": 34.5,
-    "highTarget": 39.0,
-    "lowTarget": 30.0,
-    "upsidePercent": 47.0,
+    "consensusTarget": 34.50,
+    "highTarget": 39.00,
+    "lowTarget": 30.00,
+    "upsidePercent": 47.5,
     "buyCount": 2,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "Strong Buy 컨센서스. B. Riley Securities 등 애널리스트들이 ETH 트레저리 전략의 차별성과 MAVAN 스테이킹 네트워크 런칭에 주목하며 목표가 상향 가능성 시사"
+    "notableComment": "B. Riley $30 Strong Buy, Cantor Fitzgerald $39 Overweight. Simply Wall St 평균 $34.50. 커버리지 극히 제한적이나 전원 매수 의견."
   },
   "risks": [
-    {
-      "severity": "높음",
-      "title": "ETH 가격 하락 리스크",
-      "description": "460만 ETH 집중 보유로 ETH 가격 하락 시 NAV 급감. 레버리지 효과가 양날의 검으로 작용"
-    },
-    {
-      "severity": "높음",
-      "title": "규제 리스크",
-      "description": "ETH 스테이킹의 증권 분류 가능성, 암호화폐 규제 강화 시 사업 모델 자체에 타격"
-    },
-    {
-      "severity": "중간",
-      "title": "자산 집중 리스크",
-      "description": "단일 자산(ETH)에 극도로 집중된 포트폴리오. 분산 투자 부재로 체계적 리스크 노출"
-    },
-    {
-      "severity": "중간",
-      "title": "희석 리스크",
-      "description": "ETH 매입을 위한 지속적 주식/채권 발행으로 기존 주주 지분 희석 가능성"
-    },
-    {
-      "severity": "중간",
-      "title": "MAVAN 실행 리스크",
-      "description": "자체 밸리데이터 네트워크 MAVAN의 기술적 안정성 및 수익성이 아직 검증되지 않음"
-    }
+    {"severity": "critical", "title": "ETH 가격 의존성", "description": "자산의 90%+ ETH. ETH $1,500으로 하락 시 트레저리 $6.9B, NAV 40%+ 축소. 사실상 ETH 레버리지 주식."},
+    {"severity": "high", "title": "공매도 보고서 영향 지속", "description": "Culper Research 공매도 보고서 이후 매도 압력 지속. NAV 할인 구간이 장기화된 원인 중 하나."},
+    {"severity": "high", "title": "제한된 애널리스트 커버리지 (2명)", "description": "B. Riley와 Cantor Fitzgerald만 커버. 기관 리서치 부족으로 가격 발견 기능 약화."},
+    {"severity": "medium", "title": "규제 리스크", "description": "SEC 크립토 규제 변경, ETH 증권 분류 가능성. 트레저리 기업 회계 기준 변경 리스크."},
+    {"severity": "medium", "title": "희석 리스크", "description": "ETH 매수 위한 지속적 자본 조달. 주식 발행으로 기존 주주 지분 희석 가능성."}
   ],
   "buyReasons": [
-    {
-      "title": "ETH 레버리지 투자의 최적 수단",
-      "rationale": "460만 ETH 보유로 ETH 가격 상승 시 주가 상승 폭이 ETH 자체보다 클 수 있음. ETH 직접 매수 대비 스테이킹 수익 추가 확보"
-    },
-    {
-      "title": "NAV 대비 합리적 밸류에이션",
-      "rationale": "시가총액 $10.64B vs ETH 보유가치 $10.04B + 현금 $1.2B + 투자 $283M. NAV 합산 $11.5B 대비 소폭 디스카운트"
-    },
-    {
-      "title": "스테이킹 수익 기반 배당",
-      "rationale": "3M ETH 스테이킹으로 안정적 수익 창출. 배당수익률 4.3%로 암호화폐 관련주 중 독보적"
-    },
-    {
-      "title": "애널리스트 전원 Strong Buy",
-      "rationale": "컨센서스 목표가 $34.50으로 현재가 대비 47% 상승여력. 최고 목표가 $39까지 제시"
-    }
+    {"title": "P/B 0.88x, NAV 대비 할인 지속", "rationale": "시총 $10.1B vs 총 자산 $11.5B. MSTR이 P/B 2-3x에 거래되는 점 감안하면 상당한 할인. NAV 갭 축소만으로도 +40% 이상 가능."},
+    {"title": "ETH 공급 3.81% 독점적 포지션", "rationale": "전체 ETH 공급의 3.81%를 보유한 세계 최대 상장 ETH 트레저리. 대체 불가능한 시장 지배력."},
+    {"title": "5.3% 배당 + 스테이킹 수익 $174M", "rationale": "크립토 트레저리 기업 중 유일한 배당. 3,040,515 ETH 스테이킹으로 연 $174M 패시브 수익."},
+    {"title": "프리미엄 기관 투자자 라인업", "rationale": "ARK(Cathie Wood), Founders Fund, Bill Miller III, Pantera, Galaxy Digital, Kraken, DCG. 최정상급 기관들의 공개적 지지."}
   ],
   "technicalPosition": {
-    "week52High": 30.5,
-    "week52Low": 2.8,
-    "currentPositionPercent": 74.6,
-    "sma50": 19.8,
-    "sma50Signal": "상향 돌파 (강세)",
-    "sma200": 14.5,
-    "sma200Signal": "상향 돌파 (강세)",
-    "rsi": 68.5,
-    "rsiSignal": "과매수 근접이나 아직 중립 상단 (주의)"
+    "week52High": 161.00,
+    "week52Low": 3.44,
+    "currentPositionPercent": 12.66,
+    "sma50": 22.50,
+    "sma50Signal": "above",
+    "sma200": 28.00,
+    "sma200Signal": "below",
+    "rsi": 55.0,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "BMNR은 460만 ETH를 보유한 세계 최대 상장 ETH 트레저리 기업이다. ETH 가격에 대한 레버리지 투자 수단으로 기관 자금이 몰리고 있다.",
-    "최근 ETH 보유량 발표 후 14% 급등하며 $23.47 기록. 애널리스트 전원 Strong Buy, 목표가 $34.50으로 47% 상승여력 있다.",
-    "3M ETH 스테이킹과 MAVAN 런칭 임박은 긍정적이나, 단일 자산 집중과 ETH 가격 변동성이 최대 리스크다.",
-    "NAV 대비 소폭 디스카운트 구간. ETH 강세 전망이라면 매수 매력적이나 변동성 감내 필수."
+    "$11.5B 트레저리 공시 후 주가가 11.6% 급반등했다. 일주일 전 $10.3B에서 $1.2B 늘었고, ETH 보유량은 4,595,562개로 전체 공급의 3.81%다. 큰손들이 계속 사고 있다는 신호다.",
+    "시총 $10.1B인데 금고에 $11.5B가 있다(P/B 0.88x). MSTR이 장부가의 2-3배에 거래되는 걸 생각하면 아직 싼 편이다. 배당 5.3%에 스테이킹 연 $174M도 있다.",
+    "다만 ETH 가격 $2,185가 모든 걸 좌우한다. ETH가 빠지면 NAV도 같이 줄어든다. 52주 고점 $161 대비 -85%인 자리라 반등 여력은 크지만, 변동성도 크다. 소규모 비중으로 접근하는 게 맞다."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "ETH 강세장에서 레버리지 노출을 원하는 투자자에게 적합. NAV 디스카운트 + 스테이킹 수익 + MAVAN 모멘텀이 상승 촉매. 단, ETH 하락 시 레버리지 손실 감수해야 함",
+    "summary": "NAV 대비 12% 할인(P/B 0.88x)에 거래 중. $11.5B 트레저리 대비 시총 $10.1B로 자산가치보다 싸다. ARK, Founders Fund 등 프리미엄 기관이 공개 지지하고 있고, MAVAN 론칭이 임박했다. 다만 ETH 가격 의존도가 90%+ 이므로 소규모 비중 추천.",
     "horizon": "3-6개월"
   },
   "sources": [
-    {
-      "name": "Robinhood",
-      "url": "https://robinhood.com/us/en/stocks/BMNR/",
-      "description": "BMNR 실시간 주가, 시가총액, P/E, 배당수익률 데이터"
-    },
-    {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/equities/bitmine-immersion-tech",
-      "description": "BMNR 주가 및 기술적 분석 데이터"
-    },
-    {
-      "name": "TipRanks",
-      "url": "https://www.tipranks.com/stocks/bmnr/forecast",
-      "description": "애널리스트 목표가 및 컨센서스 데이터 (평균 $34.50)"
-    },
-    {
-      "name": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html",
-      "description": "Bitmine 공식 ETH 보유량 및 총 자산 $11.5B 공시"
-    },
-    {
-      "name": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase",
-      "description": "$98M ETH 추가 매입 뉴스 및 스테이킹 현황"
-    },
-    {
-      "name": "FX Leaders",
-      "url": "https://www.fxleaders.com/news/2026/03/17/bmnr-stock-heads-toward-30-as-bitmine-accelerates-eth-holdings-to-4-6-million-tokens/",
-      "description": "BMNR 주가 $30 향한 상승세 분석 및 ETH 보유 현황"
-    },
-    {
-      "name": "StockAnalysis",
-      "url": "https://stockanalysis.com/stocks/bmnr/",
-      "description": "BMNR 기업 개요, ETH 보유 비율, 애널리스트 전망"
-    },
-    {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-3",
-      "description": "BMNR 밸류에이션 분석 및 최근 주가 변동성 리뷰"
-    },
-    {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/BMNR/",
-      "description": "BMNR 종합 주가 정보 및 재무 데이터"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/",
-      "description": "BMNR 애널리스트 목표가 $43 및 전망 데이터"
-    }
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html", "description": "ETH 4,595,562개 보유, $11.5B 트레저리 공시 (3/16)"},
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "이전 트레저리 업데이트: $10.3B, 4,534,563 ETH (3/9)"},
+    {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/02/bitmine-boosts-ether-holdings-to-4-47m-tokens-after-usd98m-eth-purchase", "description": "ETH 4,474,000 돌파, $98M 추가 매수 (3/2)"},
+    {"name": "TipRanks", "url": "https://www.tipranks.com/stocks/bmnr/forecast", "description": "애널리스트 목표가 $34.50, 전원 매수 의견"},
+    {"name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies", "description": "BMNR 밸류에이션 분석, P/B 할인 상세"},
+    {"name": "BeInCrypto", "url": "https://beincrypto.com/bitmine-ethereum-treasury-strategy/", "description": "BMNR Ethereum 트레저리 전략 상세 분석"},
+    {"name": "StockTitan", "url": "https://stocktitan.net/press-releases/bmnr/", "description": "BMNR 공시 및 보도자료 아카이브"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/", "description": "BMNR 기관 보유, 애널리스트 평가, 기술적 분석"},
+    {"name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/16/bitmine-soars-11-tom-lees-ethereum-bet-just-got-even-bigger/", "description": "BlackRock +165.6%, ARK 9.4M주 보유 확인"},
+    {"name": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/03/17/bmnr-stock-heads-to-30-as-bitmine-accelerates-eth-holdings-to-4-6-million-tokens/", "description": "BMNR $30 목표가 전망"}
   ],
   "snsContent": {
     "x": {
-      "hook": "세계 최대 ETH 보유 기업 BMNR, $11.5B 자산 공개 후 14% 폭등",
-      "text": "BMNR이 460만 ETH 보유 발표 후 14% 급등. 시총 $10.6B인데 보유자산 $11.5B로 NAV 디스카운트 구간. ETH 강세론자라면 주목할 종목이다.",
+      "hook": "BMNR 금고 $11.5B, 시총 $10.1B. 금고가 더 크다",
+      "text": "$BMNR (3/18) $23.39(+11.6%). $11.5B 트레저리 공시 후 급반등. ETH 4,595,562개(공급 3.81%). 시총보다 금고가 $1.4B 더 크다.\n\n1/4",
       "thread": [
-        "1/4 BMNR 460만 ETH 보유 공개 후 14% 폭등. 전체 ETH 공급량의 3.81%를 한 기업이 보유 중. MicroStrategy의 BTC 전략을 ETH에 적용한 회사다",
-        "2/4 핵심 숫자: ETH 4,595,562개($10B), 스테이킹 3,040,515개($6.6B), 현금 $1.2B, 투자 $283M. 총 $11.5B인데 시총은 $10.6B. NAV 디스카운트",
-        "3/4 MAVAN 밸리데이터 네트워크 Q1 런칭 임박. 자체 스테이킹으로 비용 절감+수익 극대화. 배당수익률 4.3%로 크립토주 중 독보적",
-        "4/4 애널리스트 전원 Strong Buy. 목표가 $34.50(+47%). 리스크는 ETH 가격 의존도와 단일 자산 집중. ETH $3000 가면 BMNR은 $35+ 가능성"
+        "P/B 0.88x로 NAV 대비 12% 할인. MSTR은 P/B 2-3배에 거래된다. 이 갭이 좁혀지면 +40% 이상 가능. 50일선 위로 올라왔다.\n\n2/4",
+        "배당 5.3%, 스테이킹 연 $174M. MAVAN Q1 론칭 임박. ARK, Founders Fund, Pantera, Galaxy Digital이 공개 지지.\n\n3/4",
+        "목표가 $34.50(+47.5%). 다만 ETH $2,185가 핵심 변수. ETH 빠지면 NAV도 줄어든다. 소규모 비중 추천.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "MicroStrategy는 Bitcoin이었다면, BMNR은 Ethereum이다",
-      "text": "Bitmine Immersion Technologies가 460만 ETH 보유를 공개하며 주가 14% 폭등했다. 전체 ETH 공급량의 3.81%를 보유한 세계 최대 상장 ETH 트레저리 기업이다.\n\n총 자산 $11.5B인데 시가총액은 $10.6B. NAV 디스카운트 구간에서 거래 중이다. 3백만 ETH 이상을 스테이킹해 안정적 수익도 창출하고 있다.\n\nMAVAN 밸리데이터 네트워크가 Q1에 런칭 예정이고, 애널리스트 전원이 Strong Buy를 외치고 있다. 목표가 $34.50. 현재가 대비 47% 상승여력.\n\n물론 리스크도 있다. ETH 가격에 극도로 의존적이고, 지속적 주식 발행으로 희석 가능성이 있다. 하지만 ETH 강세를 믿는다면 이것만한 레버리지 플레이는 없다."
+      "hook": "BMNR 금고가 시총보다 크다",
+      "text": "$BMNR (3/18) $23.39(+11.6%)\n\n$11.5B 트레저리 공시 후 급반등. ETH 4,595,562개로 전체 공급의 3.81%. 시총 $10.1B인데 금고에 $11.5B가 있다(P/B 0.88x).\n\nMSTR이 장부가의 2-3배에 거래되는 걸 감안하면 아직 저평가 구간. 배당 5.3%에 스테이킹 연 $174M. MAVAN Q1 론칭 임박.\n\n목표가 $34.50(+47.5%). ARK, Founders Fund, Pantera가 공개 지지하지만 ETH $2,185에 모든 게 달려 있다."
     },
     "telegram": {
-      "hook": "BMNR 14% 폭등, 460만 ETH 보유 공개",
-      "text": "BMNR이 460만 ETH($10B) 보유 공시 후 14% 급등했다.\n\n핵심: 시총 $10.6B vs 총자산 $11.5B = NAV 디스카운트. 3M ETH 스테이킹 중이고 배당 4.3%. MAVAN 런칭 임박.\n\n애널리스트 전원 Strong Buy, 목표가 $34.50(+47%). ETH 프록시 투자로는 최적의 선택지."
+      "hook": "BMNR 금고 $11.5B vs 시총 $10.1B",
+      "text": "BMNR 일일 분석 (3/18)\n\n가격: $23.39 (+11.6%)\n\n핵심 이슈\n- $11.5B 트레저리 공시 (ETH 4,595,562개, 공급의 3.81%)\n- 일주일 전 $10.3B에서 $1.2B 증가\n- MAVAN 스테이킹 플랫폼 Q1 론칭 확인\n- ARK, Founders Fund, Pantera, Galaxy Digital 공개 지지\n\n밸류에이션\n- P/B 0.88x (NAV $26.62 대비 12% 할인)\n- 시총 $10.1B vs 총 자산 $11.5B\n- 배당 5.3%, 스테이킹 연 $174M\n\n기술적\n- 50일선 $22.50 (상회), 200일선 $28.00 (하회)\n- RSI 55 (중립)\n\n목표가: $34.50 (+47.5%)\nETH $2,185 방향이 핵심 변수"
     },
     "tones": {
       "x": {
-        "fact": "BMNR이 460만 ETH 보유 발표 후 14% 급등. 시총 $10.6B인데 보유자산 $11.5B로 NAV 디스카운트 구간. ETH 강세론자라면 주목할 종목이다.",
-        "witty": "BMNR이 ETH를 460만개나 쓸어담았다. 전체 공급량의 3.8%. 이 정도면 비탈릭 부테린도 놀랄 듯. 14% 폭등은 시작일 뿐?",
-        "empathy": "크립토 겨울을 버텨낸 ETH 홀더들에게 희소식. BMNR이 460만 ETH로 기관급 ETH 투자의 문을 열었다. 주가 14% 급등, 이제 시작이다."
+        "fact": {
+          "hook": "BMNR 금고 $11.5B, 시총 $10.1B. 금고가 더 크다",
+          "text": "$BMNR (3/18) $23.39(+11.6%). $11.5B 트레저리 공시 후 급반등. ETH 4,595,562개(공급 3.81%). 시총보다 금고가 $1.4B 더 크다.\n\n1/4",
+          "thread": [
+            "P/B 0.88x로 NAV 대비 12% 할인. MSTR은 P/B 2-3배에 거래된다. 이 갭이 좁혀지면 +40% 이상 가능. 50일선 위로 올라왔다.\n\n2/4",
+            "배당 5.3%, 스테이킹 연 $174M. MAVAN Q1 론칭 임박. ARK, Founders Fund, Pantera, Galaxy Digital이 공개 지지.\n\n3/4",
+            "목표가 $34.50(+47.5%). 다만 ETH $2,185가 핵심 변수. ETH 빠지면 NAV도 줄어든다. 소규모 비중 추천.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "BMNR 시총보다 금고가 크다. 인수하면 $1.4B 남는 셈",
+          "text": "$BMNR (3/18) $23.39(+11.6%). 시총 $10.1B인데 금고 $11.5B. 이론상 사서 해체하면 $1.4B 남는다. 왜 아직 싼 걸까?\n\n1/4",
+          "thread": [
+            "P/B 0.88x. MSTR은 2-3배인데. ETH 4,595,562개 = 전체 공급의 3.81%. 이 정도면 ETH 고래가 아니라 ETH 자체다.\n\n2/4",
+            "배당 5.3%에 스테이킹 $174M. 크립토인데 배당 주고 Cathie Wood가 산다. 세상 참 많이 변했다.\n\n3/4",
+            "목표가 $34.50(+47.5%). 물론 ETH가 빠지면 다 소용없다. 그게 함정이다.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "52주 고점 $161에서 $23까지. 그래도 금고는 $11.5B",
+          "text": "$BMNR (3/18) $23.39(+11.6%). $161에서 $23. 85% 빠졌다. 버틴 사람들 정말 대단하다. 이번에 $11.5B 트레저리 공시로 반등이 시작됐다.\n\n1/4",
+          "thread": [
+            "금고 $11.5B vs 시총 $10.1B. 장부가보다 싸게 살 수 있는 구간이다. ARK, Pantera, Founders Fund가 함께하고 있다.\n\n2/4",
+            "배당 5.3%로 기다리는 동안 수익이 나온다. 스테이킹 연 $174M. 시간이 편이 되는 구조다.\n\n3/4",
+            "목표가 $34.50(+47.5%). ETH 가격이 변수지만 여기서 기관들이 사고 있다는 건 의미 있는 신호다.\n\n4/4"
+          ]
+        }
       },
       "threads": {
-        "fact": "Bitmine Immersion Technologies가 460만 ETH 보유를 공개하며 주가 14% 폭등했다. 전체 ETH 공급량의 3.81%를 보유한 세계 최대 상장 ETH 트레저리 기업이다.\n\n총 자산 $11.5B인데 시가총액은 $10.6B. NAV 디스카운트 구간에서 거래 중이다. 3백만 ETH 이상을 스테이킹해 안정적 수익도 창출하고 있다.\n\nMAVAN 밸리데이터 네트워크가 Q1에 런칭 예정이고, 애널리스트 전원이 Strong Buy를 외치고 있다. 목표가 $34.50. 현재가 대비 47% 상승여력.\n\n물론 리스크도 있다. ETH 가격에 극도로 의존적이고, 지속적 주식 발행으로 희석 가능성이 있다. 하지만 ETH 강세를 믿는다면 이것만한 레버리지 플레이는 없다.",
-        "witty": "MicroStrategy가 Bitcoin을 쓸어담을 때 미쳤다고 했다. 이제 BMNR이 ETH를 460만개 모았다. 전체 공급량의 3.8%.\n\n시총 $10.6B인데 들고 있는 자산이 $11.5B. 수학적으로 이건 할인 중이라는 뜻이다. 숫자는 거짓말을 안 한다.\n\nMAVAN 밸리데이터 런칭하면 스테이킹 수익까지 극대화. 배당 4.3% 주는 크립토 회사가 어디 있나.\n\n리스크? ETH가 폭락하면 같이 간다. 근데 ETH 장기 강세를 믿는다면, BMNR만한 레버리지 플레이가 또 있을까.",
-        "empathy": "ETH를 믿지만 직접 보유하기엔 불안한 투자자들이 있다. BMNR은 그런 사람들을 위한 기업이다.\n\n460만 ETH를 전문가들이 관리하고, 스테이킹으로 수익을 만들고, 배당까지 준다. 직접 지갑 관리하고 해킹 걱정하는 것보다 편하다.\n\n물론 주가는 ETH와 함께 출렁인다. 14% 하루에 오르기도 하고, 반대도 가능하다. 하지만 장기적으로 ETH 생태계 성장에 베팅한다면 안정적인 선택지가 될 수 있다."
+        "fact": {
+          "hook": "BMNR 금고가 시총보다 크다",
+          "text": "$BMNR (3/18) $23.39(+11.6%)\n\n$11.5B 트레저리 공시 후 급반등. ETH 4,595,562개로 전체 공급의 3.81%. 시총 $10.1B인데 금고에 $11.5B가 있다(P/B 0.88x).\n\nMSTR이 장부가의 2-3배에 거래되는 걸 감안하면 아직 저평가 구간. 배당 5.3%에 스테이킹 연 $174M. MAVAN Q1 론칭 임박.\n\n목표가 $34.50(+47.5%). ARK, Founders Fund, Pantera가 공개 지지하지만 ETH $2,185에 모든 게 달려 있다."
+        },
+        "witty": {
+          "hook": "BMNR 금고가 시총보다 크다. 수학이 안 맞는다",
+          "text": "$BMNR (3/18) $23.39(+11.6%)\n\n시총 $10.1B < 금고 $11.5B. 인수해서 해체하면 $1.4B 남는 회사다. ETH 4,595,562개 = 전체 공급의 3.81%. 이 회사가 아니라 ETH 자체를 사는 거다.\n\nP/B 0.88x인데 MSTR은 2-3배. 배당 5.3%에 Cathie Wood가 산다. 크립토가 이렇게 점잖아질 줄 몰랐다.\n\n목표가 $34.50(+47.5%). 물론 ETH가 빠지면 다 허사. 그게 이 투자의 매력이자 함정이다."
+        },
+        "empathy": {
+          "hook": "$161에서 $23까지 버틴 분들에게",
+          "text": "$BMNR (3/18) $23.39(+11.6%)\n\n52주 고점 $161에서 -85%. 공매도 보고서, ETH 하락, 끝없는 희석. 정말 힘든 시간이었을 거다.\n\n하지만 $11.5B 트레저리 공시와 함께 반등이 시작됐다. ARK, Founders Fund, Pantera가 함께하고 있다. 배당 5.3%로 기다리는 동안에도 수익이 나온다.\n\n목표가 $34.50(+47.5%). ETH 가격이 핵심이지만 기관들의 움직임은 분명히 긍정적이다."
+        }
       }
     }
   }

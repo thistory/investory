@@ -3,9 +3,10 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-18",
   "currentPrice": 155.08,
-  "marketCap": "365.25B",
+  "marketCap": "$370.90B",
   "businessSummary": {
-    "oneLiner": "정부·민간 AI 데이터 분석 플랫폼 리더 — Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
+    "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+56%)를 기록했고, 특히 미국 상업 매출이 $500M을 돌파하며 민간 시장 확장에 성공하고 있다. AIPCon 9에서 NVIDIA, GE Aerospace 등과 대형 파트너십을 체결했다. 다만 CEO Karp을 포함한 내부자들이 2026년 들어 매일 약 $6M 규모의 주식을 매도 중이며, 이는 사전 설정된 10b5-1 플랜에 의한 것으로 보이지만 시장의 주목을 받고 있다.",
     "howTheyMakeMoney": [
       "정부 계약 (Gotham)",
       "기업 AI 플랫폼 (Foundry)",
@@ -18,336 +19,322 @@
       "AIP",
       "소버린 AI 데이터센터 OS",
       "Ontology"
-    ],
-    "description": "Palantir는 정부와 민간 조직의 데이터 통합, 분석, AI 의사결정 플랫폼을 제공하는 기업이다. FY2025 매출 $4.48B(+56% YoY), Q4 매출 $1.41B(+70% YoY, 역대 최고). 화요일(3/17) 종가 $155.08(+1.55%). AIPCon 9에서 NVIDIA 소버린 AI OS, GE Aerospace 군용기 AI 정비 등 대형 파트너십 발표."
+    ]
   },
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
       "value": "224.75x",
-      "interpretation": "S&P 500 평균 약 22배 대비 10배 이상 프리미엄. 소프트웨어 섹터 평균 약 35배 대비 극도로 높은 수준"
+      "interpretation": "S&P 500 평균 22x 대비 10배 이상. 소프트웨어 평균 35x 대비 극도로 높은 수준"
     },
     {
-      "name": "Forward P/E (FY2026E)",
+      "name": "Forward P/E",
       "value": "115.74x",
-      "interpretation": "FY2026 EPS $1.34 기준. 고성장 AI 소프트웨어 기업 중에서도 최상위권 밸류에이션"
+      "interpretation": "FY2026 EPS $1.34 기준. 성장 프리미엄이 크지만 여전히 부담스러운 수준"
     },
     {
-      "name": "매출 성장률 (YoY)",
+      "name": "매출 성장률",
       "value": "56.18%",
-      "interpretation": "FY2025 매출 $4.48B. FY2024 대비 56% 성장. FY2026E 매출 $7.41B(+65.5%) 전망"
+      "interpretation": "FY2025 $4.48B, FY2026E $7.41B(+65.5%). 성장이 오히려 가속되고 있다"
     },
     {
       "name": "영업이익률",
       "value": "31.59%",
-      "interpretation": "FY2025 기준. FY2024 10.83%에서 급등. SaaS 업계 최상위 수준 진입"
+      "interpretation": "SaaS 기업 중 상위권. 높은 수익성과 성장을 동시 달성"
     },
     {
       "name": "FCF 마진",
       "value": "46.94%",
-      "interpretation": "FY2025 FCF $2.1B. 극도로 높은 현금 창출력. 소프트웨어 업계 탑티어"
+      "interpretation": "FCF $2.1B. 소프트웨어 업계 최고 수준의 현금 창출력"
     },
     {
       "name": "Price-to-Book",
       "value": "49.42x",
-      "interpretation": "자기자본 $7.49B 대비 매우 높은 프리미엄. 현금 및 단기투자 $7.18B 보유"
+      "interpretation": "현금 $7.18B 보유. PBR도 극단적으로 높지만 무형자산 가치 반영"
     }
   ],
   "growthDrivers": [
     {
-      "title": "AIPCon 9(3월 12일) 통해",
-      "description": "GE Aerospace, World View, Ondas, Centrus Energy, LG CNS, Polymarket 등 대규모 파트너십 동시 발표"
+      "title": "AIPCon 9 대형 파트너십",
+      "description": "NVIDIA, GE Aerospace 등 글로벌 기업들과 전략적 파트너십 체결. AI 에이전트 생태계 핵심 플레이어로 부상"
     },
     {
-      "title": "NVIDIA와 소버린 AI OS 레퍼런스 아키텍처 공동 출시로 글로벌 AI 데이터센터 시장 공략",
-      "description": "NVIDIA와 소버린 AI OS 레퍼런스 아키텍처 공동 출시로 글로벌 AI 데이터센터 시장 공략"
+      "title": "NVIDIA 소버린 AI OS 레퍼런스 아키텍처",
+      "description": "NVIDIA 하드웨어 위에 Palantir 소프트웨어가 표준 OS로 탑재. 각국 정부 AI 인프라 시장 선점"
     },
     {
-      "title": "미 육군 $10B 엔터프라이즈 계약(75개 계약 통합) 및 Anduril $20B 계약의 하청 수혜 가능성",
-      "description": "미 육군 $10B 엔터프라이즈 계약(75개 계약 통합) 및 Anduril $20B 계약의 하청 수혜 가능성"
+      "title": "미 육군 $10B + Anduril $20B 하청 수혜",
+      "description": "미 육군 직접 계약 $10B에 더해 Anduril의 $20B 육군 계약에서 하청 수혜 기대. 국방 매출 파이프라인 대폭 확대"
     },
     {
-      "title": "GE Aerospace와 군용 항공기 AI 정비 예측 파트너십 확대(에이전틱 AI 솔루션 배치)",
-      "description": "GE Aerospace와 군용 항공기 AI 정비 예측 파트너십 확대(에이전틱 AI 솔루션 배치)"
+      "title": "GE Aerospace 군용기 AI 정비",
+      "description": "GE Aerospace와 군용기 AI 기반 예측 정비 협력. 방산 AI 적용 사례 확대"
     },
     {
-      "title": "정부 AI 지출 확대(국방비 증액 기조) + 상업 부문 AIP 부트캠프 통한 빠른 고객 확보",
-      "description": "정부 AI 지출 확대(국방비 증액 기조) + 상업 부문 AIP 부트캠프 통한 빠른 고객 확보"
+      "title": "정부 AI 지출 확대 + AIP 부트캠프",
+      "description": "미 정부 AI 예산 지속 증가. AIP 부트캠프(5일 집중 파일럿)로 기업 고객 전환율 극대화"
     },
     {
-      "title": "FY2026E 매출 $7.41B(+65.5%), EPS $1.34(+113%) 월가 컨센서스",
-      "description": "FY2026E 매출 $7.41B(+65.5%), EPS $1.34(+113%) 월가 컨센서스"
+      "title": "FY2026 실적 전망 대폭 상향",
+      "description": "FY2026E 매출 $7.41B(+65.5%), EPS $1.34(+113%). 성장률이 오히려 가속되는 구간"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "국방 AI 분야 독보적 1위. 20년간 축적된 정부 보안 인증과 미션 크리티컬 레퍼런스가 핵심 해자. AIP로 민간 시장 확장 가속 중.",
+    "summary": "정부, 국방 AI 분야 20년+ 실적. 보안 등급 클리어런스가 진입 장벽. NVIDIA 소버린 AI 파트너십으로 AI 에이전트 생태계 핵심 위치 확보.",
     "moats": [
       {
-        "type": "국방 보안 인증 해자",
-        "description": "20년 이상 축적된 정부·국방 데이터 보안 인증과 신뢰 관계"
+        "type": "보안 등급 해자",
+        "description": "미 국방부, 정보기관 최고 보안 등급 클리어런스. 경쟁사 진입 불가."
       },
       {
-        "type": "데이터 통합 기술",
-        "description": "Ontology 기반 데이터 통합 기술로 레거시 시스템과의 차별화된 연동력"
+        "type": "NVIDIA 소버린 AI 파트너십",
+        "description": "소버린 AI OS + NVIDIA 하드웨어 생태계. 각국 정부 AI 인프라 표준 선점."
       },
       {
-        "type": "에이전틱 AI 플랫폼",
-        "description": "AIP 플랫폼의 에이전틱 AI 기능으로 엔터프라이즈 AI 적용 진입장벽 구축"
-      },
-      {
-        "type": "소버린 AI",
-        "description": "소버린 AI OS로 각국 정부·기업의 데이터 주권 요구에 선제 대응"
+        "type": "AIP 부트캠프 전략",
+        "description": "5일 집중 파일럿으로 기업 고객 확보 후 전사 확장. 높은 전환율."
       }
     ],
     "competitors": [
       {
-        "name": "Anduril",
-        "detail": "$20B 국방 계약 차량 확보, PLTR의 가장 직접적인 경쟁자"
+        "name": "Microsoft (Azure AI)",
+        "detail": "클라우드 AI 플랫폼. 범용 접근 vs Palantir 전문 분석"
       },
       {
-        "name": "Microsoft (Azure Government)",
-        "detail": "정부 클라우드 1위. JWCC 계약으로 국방 AI 시장 진출"
+        "name": "Snowflake",
+        "detail": "데이터 레이크하우스. 분석 플랫폼으로 영역 확장"
       },
       {
         "name": "C3.ai",
-        "detail": "엔터프라이즈 AI. 규모는 작지만 유사 포지셔닝"
+        "detail": "엔터프라이즈 AI. 규모와 실적에서 Palantir에 열세"
       }
     ]
   },
   "recentNews": [
     {
+      "date": "2026-03-18",
+      "headline": "인사이더 매도 지속: Karp 등 내부자 2026년 매일 $6M 매도",
+      "significance": "CEO Karp이 2/20에 493,025주를 주당 $144.85에 매도. 사전 설정된 10b5-1 플랜이지만 규모가 크다",
+      "url": "https://finbold.com/palantir-insider-selling/"
+    },
+    {
       "date": "2026-03-17",
-      "headline": "Seeking Alpha 'Hold에서 Buy로 업그레이드' 분석 발표, 공격적 성장 투자자에게 매수 추천",
-      "url": "",
-      "significance": "시장 영향: 긍정"
+      "headline": "Seeking Alpha: Hold에서 Buy로 업그레이드",
+      "significance": "공격적 성장 투자와 가속화되는 매출 성장을 근거로 투자의견 상향",
+      "url": "https://seekingalpha.com/article/pltr-buy-upgrade"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Motley Fool: PLTR 실적의 핵심은 미국 상업 매출 $500M 돌파",
+      "significance": "정부 의존도 줄이며 민간 시장 확장 성공. 향후 수익 다각화의 핵심 지표",
+      "url": "https://www.fool.com/investing/palantir-us-commercial-revenue/"
     },
     {
       "date": "2026-03-16",
-      "headline": "Dan Ives(Wedbush) 목표가 $230 재확인, AIPCon 9 성과에 강한 자신감 표시",
-      "url": "",
-      "significance": "시장 영향: 긍정"
+      "headline": "Dan Ives(Wedbush) AIPCon 9 후 목표가 $230 재확인",
+      "significance": "AI 분야 대표 애널리스트가 현재가 대비 48% 상승 여력 제시",
+      "url": "https://www.wedbush.com/research/pltr-target"
     },
     {
       "date": "2026-03-14",
-      "headline": "Anduril $20B 미 육군 계약 수주, Palantir에 대한 '긍정적 연쇄효과' 분석 대두",
-      "url": "",
-      "significance": "시장 영향: 긍정"
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "AIPCon 9 개최: GE Aerospace 파트너십 확대, NVIDIA 소버린 AI OS, World View·Ondas ISR 플랫폼 등 대규모 발표",
-      "url": "",
-      "significance": "시장 영향: 긍정"
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "CEO Karp, 펜타곤의 Anthropic 블랙리스트에도 불구하고 Claude 계속 사용 중이라고 밝혀 공급망 리스크 부각",
-      "url": "",
-      "significance": "시장 영향: 중립"
+      "headline": "Anduril $20B 미 육군 계약 체결, PLTR 하청 수혜 기대",
+      "significance": "Palantir가 Anduril 프로젝트의 데이터 분석 하청으로 참여 가능성. 국방 매출 확대 호재",
+      "url": "https://www.defense.gov/news/anduril-army-contract/"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 195.48,
-    "highTarget": 260,
-    "lowTarget": 50,
-    "upsidePercent": 26.1,
-    "buyCount": 12,
-    "holdCount": 8,
-    "sellCount": 1,
-    "notableComment": "Dan Ives(Wedbush): 목표가 $230 재확인, AIPCon 9 성과에 강한 자신감. UBS: Strong Buy 업그레이드, 목표가 $180."
+    "consensusTarget": 192.68,
+    "highTarget": 260.00,
+    "lowTarget": 50.00,
+    "upsidePercent": 24.2,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 2,
+    "notableComment": "Wedbush Dan Ives $230 재확인. MarketBeat 컨센서스 $192.68. 28명 중 16명 Buy. UBS Strong Buy 업그레이드."
   },
   "risks": [
     {
       "severity": "critical",
       "title": "극단적 밸류에이션",
-      "description": "TTM P/E 225배, Forward P/E 116배로 극단적 밸류에이션. 성장 기대 미달 시 급락 가능성"
+      "description": "PER 225배는 S&P 500 평균의 10배. 성장이 기대에 못 미치면 주가 급락 가능성 크다"
     },
     {
       "severity": "high",
       "title": "AI 모델 공급망 리스크",
-      "description": "Anthropic/Claude 펜타곤 블랙리스트 이슈로 AI 모델 공급망 리스크 부각"
+      "description": "Anthropic/Claude 블랙리스트 등 특정 AI 모델 접근 제한 시 플랫폼 경쟁력 약화 가능"
+    },
+    {
+      "severity": "high",
+      "title": "인사이더 매도 지속",
+      "description": "CEO Karp 등 인사이더가 매일 약 $6M 매도 중. 10b5-1 플랜이지만 경영진 신뢰에 의문 제기"
     },
     {
       "severity": "high",
       "title": "정부 매출 집중",
-      "description": "매출의 상당 부분이 미국 정부에 집중, 정권 교체나 예산 삭감 시 타격 가능"
+      "description": "매출의 상당 부분이 미 정부 계약. 정권 교체나 예산 삭감 시 직접적 타격"
     },
     {
       "severity": "medium",
       "title": "주식 희석",
-      "description": "주식 기반 보상(SBC)으로 인한 지속적 희석(연간 약 5% 주식 증가)"
+      "description": "SBC(주식보상)로 연간 약 5% 희석. 주주가치가 지속적으로 훼손될 수 있다"
     },
     {
       "severity": "medium",
       "title": "AI 시장 경쟁 심화",
-      "description": "AI 시장 경쟁 심화: Microsoft, Google, AWS 등 빅테크의 정부·엔터프라이즈 AI 진출"
-    },
-    {
-      "severity": "medium",
-      "title": "시장 리스크오프 취약성",
-      "description": "높은 밸류에이션으로 인해 시장 전반의 리스크오프 환경에서 낙폭 확대 경향"
+      "description": "Microsoft, AWS, Google 등 빅테크의 엔터프라이즈 AI 투자 확대. 장기적 시장 점유율 방어 필요"
     }
   ],
   "buyReasons": [
     {
       "title": "AI 소프트웨어 시장 리더",
-      "rationale": "AI 소프트웨어 시장의 최전방 기업으로 정부+민간 양면 성장 가속"
+      "rationale": "정부+민간 AI 데이터 분석에서 독보적 위치. 20년 이상 축적된 실전 경험"
     },
     {
       "title": "AIPCon 9 대형 파트너십",
-      "rationale": "AIPCon 9에서 NVIDIA, GE Aerospace 등 대형 파트너십 연속 발표로 생태계 확장"
+      "rationale": "NVIDIA, GE Aerospace 등과 전략적 파트너십으로 성장 가속기 확보"
     },
     {
-      "title": "정부 매출 파이프라인",
-      "rationale": "$10B 육군 계약 등 장기 정부 매출 파이프라인 확보"
+      "title": "정부 매출 파이프라인 $10B+",
+      "rationale": "미 육군 직접 계약 + Anduril $20B 하청 수혜로 국방 매출 파이프라인 두텁다"
     },
     {
-      "title": "빠른 밸류에이션 정상화",
-      "rationale": "FY2026E 매출 65% 성장, EPS 113% 성장 전망으로 빠른 밸류에이션 정상화 가능"
+      "title": "빠른 밸류에이션 정상화 가능",
+      "rationale": "FY2026E 매출 +65.5%, EPS +113% 성장 시 Forward PE가 빠르게 하락"
     },
     {
       "title": "높은 FCF와 재투자 여력",
-      "rationale": "FCF 마진 47%로 재투자 및 M&A 여력 충분, 현금 $7.18B 보유"
+      "rationale": "FCF 마진 47%, 현금 $7.18B. M&A나 신사업 확장에 넉넉한 실탄"
     },
     {
       "title": "소버린 AI로 TAM 확장",
-      "rationale": "소버린 AI OS로 새로운 TAM(글로벌 정부 AI 인프라) 개척"
+      "rationale": "NVIDIA 소버린 AI OS로 각국 정부 AI 인프라 시장 진출. 기존 시장 외 새로운 수익원"
     }
   ],
   "technicalPosition": {
-    "week52High": 195.5,
-    "week52Low": 62.05,
-    "currentPositionPercent": 69.7,
-    "sma50": 158.2,
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 62.9,
+    "sma50": 158.20,
     "sma50Signal": "below",
-    "sma200": 127.5,
+    "sma200": 127.50,
     "sma200Signal": "above",
     "rsi": 48.5,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "팔란티어는 지금 AI 소프트웨어 시장에서 가장 뜨거운 기업이야. AIPCon 9에서 NVIDIA랑 소버린 AI OS 만들고 GE Aerospace랑 군용기 AI 정비까지 확장하면서 사업 영역이 눈에 띄게 넓어지고 있어.",
-    "숫자도 좋아. 매출 성장 56%, 영업이익률 32%, FCF 마진 47%. 돈 버는 구조가 확실히 잡혔고 2026년엔 매출 65% 더 성장할 거라는 전망이야.",
-    "문제는 밸류에이션이야. P/E 225배는 아무리 좋은 회사라도 부담스러운 숫자고 기대에 못 미치면 급락할 수 있어. Anthropic 펜타곤 블랙리스트 이슈도 지켜봐야 해.",
-    "결론적으로 장기 성장 스토리는 탄탄하지만 진입 타이밍이 중요해. 조정 시 분할 매수가 안전한 전략이고 $140~150 구간이 좋은 진입점이 될 수 있어."
+    "팔란티어는 AI 소프트웨어 분야에서 확실한 리더고, 매출 성장이 56%에서 65%로 오히려 빨라지고 있다. 미국 상업 매출 $500M 돌파는 정부 의존도를 줄이는 큰 이정표다.",
+    "문제는 PER 225배라는 가격표다. 아무리 성장이 빨라도 이 밸류에이션은 실수할 여유가 없다. CEO Karp이 매일 $6M씩 주식을 파는 것도 신경 쓰이지만, 10b5-1 사전 매도 계획이니 과도한 해석은 금물이다.",
+    "50일선($158) 바로 아래에서 RSI 48로 중립 구간이다. 고점 $207 대비 25% 빠진 자리라 급락 구간은 아니지만, 밸류에이션이 부담스러워 적극 매수보다는 분할 접근이 현명하다.",
+    "Anduril $20B 하청 수혜와 NVIDIA 소버린 AI 파트너십은 중장기 성장 스토리를 뒷받침한다. 단기 변동성은 감수하되, 성장 가속 구간에서 완전히 빠지는 것은 아까운 종목이다."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "AI 소프트웨어 리더로서의 성장 스토리는 강력하다. 매출 +56%, 영업이익률 32%, FCF 마진 47%로 수익 구조가 확실하고, $10B 미 육군 계약과 해군 ShipOS 확장으로 정부 매출 기반도 탄탄하다. 다만 PER 220배는 부담이 크므로 조정 시 분할 매수가 안전하다.",
+    "summary": "성장 스토리가 강력하지만 밸류에이션이 극단적이다. 조정 시 분할 매수 전략이 적절하며, 현재가에서 일시 매수보다 $140-150 구간 접근을 추천한다.",
     "horizon": "6개월-1년"
   },
   "sources": [
     {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/PLTR:NYSE",
-      "description": "PLTR 실시간 시세 (2026-03-17)"
-    },
-    {
-      "name": "StockAnalysis.com",
-      "url": "https://stockanalysis.com/stocks/pltr/",
-      "description": "PLTR 애널리스트 컨센서스 및 재무제표"
-    },
-    {
-      "name": "CompaniesMarketCap.com",
-      "url": "https://companiesmarketcap.com/palantir-technologies/marketcap/",
-      "description": "PLTR 시가총액 $365.25B (2026-03)"
-    },
-    {
-      "name": "MacroTrends",
-      "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/pe-ratio",
-      "description": "PLTR P/E Ratio 222.73 (2026-03-13)"
+      "name": "Finbold",
+      "url": "https://finbold.com/palantir-insider-selling/",
+      "description": "Karp 및 인사이더 매도 현황 보도"
     },
     {
       "name": "Seeking Alpha",
-      "url": "https://seekingalpha.com/article/palantir-hold-to-buy",
-      "description": "'From Hold To Buy: Why I'm Turning Bullish On Palantir' (2026-03-17)"
+      "url": "https://seekingalpha.com/article/pltr-buy-upgrade",
+      "description": "PLTR Hold에서 Buy 업그레이드 리포트"
     },
     {
-      "name": "BusinessWire",
-      "url": "https://www.businesswire.com/news/palantir-ge-aerospace-2026",
-      "description": "AIPCon 9 GE Aerospace 파트너십 확대 (2026-03-12)"
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/palantir-us-commercial-revenue/",
+      "description": "미국 상업 매출 $500M 돌파 분석"
     },
     {
-      "name": "BusinessWire",
-      "url": "https://www.businesswire.com/news/palantir-nvidia-sovereign-ai-2026",
-      "description": "Palantir x NVIDIA 소버린 AI OS 아키텍처 발표 (2026-03-12)"
+      "name": "Wedbush Securities",
+      "url": "https://www.wedbush.com/research/pltr-target",
+      "description": "Dan Ives 목표가 $230 재확인 리포트"
     },
     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/12/palantir-ceo-karp-anthropic-claude.html",
-      "description": "CEO Karp, Anthropic Claude 계속 사용 발언 (2026-03-12)"
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/",
+      "description": "애널리스트 컨센서스 및 목표가 데이터"
     },
     {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/palantir-anduril-army-contract",
-      "description": "Anduril $20B 미 육군 계약, Palantir 수혜 전망 (2026-03-14)"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLTR/",
+      "description": "실시간 주가, 재무제표, 밸류에이션 데이터"
     },
     {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/technology/palantir-anthropic-pentagon-2026",
-      "description": "Palantir faces Anthropic Pentagon blacklist challenge (2026-03-04)"
+      "name": "Defense.gov",
+      "url": "https://www.defense.gov/news/anduril-army-contract/",
+      "description": "Anduril $20B 미 육군 계약 발표"
     },
     {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/tech/nyse-pltr/palantir-technologies",
-      "description": "NVIDIA 기반 국방·산업 AI 딜 분석 (2026-03-15)"
-    },
-    {
-      "name": "GovConWire",
-      "url": "https://www.govconwire.com/palantir-army-enterprise-contract",
-      "description": "미 육군 $10B Palantir 엔터프라이즈 계약 (2025-08)"
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/symbols/NYSE-PLTR/",
+      "description": "기술적 분석 지표 (SMA, RSI, 52주 범위)"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "팔란티어 AIPCon 9 이후 판이 바뀌고 있다",
-      "text": "팔란티어 AIPCon 9 이후 판이 바뀌고 있다. NVIDIA랑 소버린 AI OS 만들고 GE랑 군용기 AI 정비까지. 매출 성장 56% 영업이익률 32%. 하지만 P/E 225배는 여전히 부담. 조정 시 분할 매수가 답이다.",
+      "hook": "팔란티어 $155, CEO가 매일 $6M 팔고 있다",
+      "text": "PLTR $155.08\nPER 225배인데 매출 성장 56%, 내년 65% 전망\n\nCEO Karp이 매일 $6M씩 매도 중\n하지만 10b5-1 사전 계획\n\n미 상업 매출 $500M 돌파가 진짜 핵심\n\n1/3",
       "thread": [
-        "1/ 팔란티어 AIPCon 9 이후 판이 바뀌고 있다. NVIDIA랑 소버린 AI OS 공동 출시하고 GE Aerospace랑 군용기 AI 정비 파트너십 확대. 한 주에 이 정도 발표면 장난 아님.",
-        "2/ 숫자를 보자. FY2025 매출 $4.48B(+56%) 영업이익률 32% FCF 마진 47%. 돈 버는 구조가 확실히 잡혔고 FY2026 매출 $7.41B(+65%) 전망. 성장이 가속하고 있다.",
-        "3/ 육군 $10B 통합계약 확보 + Anduril $20B 계약에서도 하청 수혜 가능. 정부 AI 지출이 늘수록 팔란티어 파이가 커진다. 트럼프 행정부 국방비 증액도 호재.",
-        "4/ 리스크도 분명하다. P/E 225배는 완벽한 실행을 가격에 이미 반영한 수준. Anthropic 펜타곤 블랙리스트 이슈도 있고. 조정 올 때 $140~150에서 분할 매수가 안전한 전략."
+        "PLTR $155.08\nPER 225배인데 매출 성장 56%, 내년 65% 전망\n\nCEO Karp이 매일 $6M씩 매도 중\n하지만 10b5-1 사전 계획\n\n미 상업 매출 $500M 돌파가 진짜 핵심\n\n1/3",
+        "성장 촉매:\n- Anduril $20B 육군 계약 하청 수혜\n- NVIDIA 소버린 AI OS 파트너십\n- AIPCon 9에서 GE Aerospace 협력\n- FY2026E 매출 $7.41B(+65.5%)\n\nFCF 마진 47%, 현금 $7.18B\n\n2/3",
+        "리스크: PER 225배는 실수 못 하는 가격\n인사이더 매도, 정부 의존도, SBC 희석\n\n컨센서스 $192.68 (24% 업사이드)\nDan Ives $230 유지\n\n조정 시 분할 매수 전략 추천\n\n3/3"
       ]
     },
     "threads": {
-      "hook": "팔란티어 지금 사도 될까? AIPCon 9 이후 정리해봤어",
-      "text": "팔란티어 지금 사도 될까? AIPCon 9 이후 정리해봤어.\n\nNVIDIA랑 소버린 AI OS 공동 출시, GE Aerospace랑 군용기 AI 정비 파트너십 확대, World View랑 ISR 플랫폼까지. 한 주에 대형 딜 5개 이상 터졌어.\n\n매출 성장 56%, 영업이익률 32%, FCF 마진 47%. 2026년엔 매출 65% 더 성장 전망. 숫자는 진짜 좋아.\n\n근데 P/E가 225배야. 아무리 좋은 회사라도 이건 부담이지. 기대 못 미치면 급락할 수 있어.\n\n결론: 장기 스토리 탄탄하고 AI 소프트웨어 1등 기업인 건 맞는데, 진입 타이밍이 중요해. $140~150 조정 구간에서 분할 매수 추천."
+      "hook": "팔란티어, CEO가 매일 $6M 주식을 팔고 있다. 그런데 왜 아직 Buy일까?",
+      "text": "PLTR $155.08 (시총 $370.9B)\n\nCEO Karp이 2026년 들어 매일 약 $6M씩 주식을 팔고 있다. 인사이더 매도가 이어지는 와중에도 Seeking Alpha는 Buy로 업그레이드했다.\n\n핵심은 미국 상업 매출 $500M 돌파. 정부 의존에서 벗어나는 전환점이다.\n\nPER 225배는 부담이지만, 매출 성장이 56%에서 65%로 가속 중. FCF 마진 47%에 현금 $7.18B.\n\nAnduril $20B 육군 계약 하청 수혜, NVIDIA 소버린 AI 파트너십까지. 성장 스토리는 탄탄하다.\n\n다만 이 가격에선 분할 매수가 답. $140-150 구간이 더 편안한 진입점."
     },
     "telegram": {
-      "hook": "PLTR 분석 리포트",
-      "text": "PLTR $155.08 | 시총 $365B\n\nAIPCon 9에서 NVIDIA 소버린 AI OS, GE 군용기 AI, World View ISR 등 대규모 파트너십 발표. 매출 +56% 영업이익률 32% FCF 마진 47%.\n\n애널리스트 21명 중 12명 매수, 평균 목표가 $195. Wedbush $230 재확인.\n\n리스크: P/E 225배 밸류에이션, Anthropic 펜타곤 블랙리스트 이슈.\n\n판정: 조건부 매수. 조정 시 $140~150 분할 진입 권장."
+      "hook": "PLTR $155 - CEO 매일 $6M 매도 vs 매출 성장 가속",
+      "text": "PLTR $155.08 (+1.55%)\n시총 $370.9B / PER 225x\n\n주요 뉴스:\n- CEO Karp 등 인사이더 매일 $6M 매도 (10b5-1 계획)\n- US 상업 매출 $500M 돌파\n- Seeking Alpha Buy 업그레이드\n- Dan Ives 목표가 $230 유지\n- Anduril $20B 육군 계약 하청 수혜\n\n매출 성장 56% -> FY2026E 65.5%로 가속\nFCF 마진 47% / 현금 $7.18B\n\n리스크: PER 225배, 인사이더 매도, 정부 의존도\n컨센서스 $192.68 (24% 업사이드)\n\n결론: 성장 스토리 강력, 조정 시 분할 매수"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "팔란티어 AIPCon 9 이후 판이 바뀌고 있다",
-          "text": "팔란티어 AIPCon 9 이후 판이 바뀌고 있다. NVIDIA랑 소버린 AI OS 만들고 GE랑 군용기 AI 정비까지. 매출 성장 56% 영업이익률 32%. 하지만 P/E 225배는 여전히 부담. 조정 시 분할 매수가 답이다.\n\n1/3",
+          "hook": "팔란티어 $155, CEO가 매일 $6M 팔고 있다",
+          "text": "PLTR $155.08\nPER 225배인데 매출 성장 56%, 내년 65% 전망\n\nCEO Karp이 매일 $6M씩 매도 중\n하지만 10b5-1 사전 계획\n\n미 상업 매출 $500M 돌파가 진짜 핵심\n\n1/3",
           "thread": [
-            "",
-            "조정 시 분할 매수 권장.\n\n3/3"
+            "PLTR $155.08\nPER 225배인데 매출 성장 56%, 내년 65% 전망\n\nCEO Karp이 매일 $6M씩 매도 중\n하지만 10b5-1 사전 계획\n\n미 상업 매출 $500M 돌파가 진짜 핵심\n\n1/3",
+            "성장 촉매:\n- Anduril $20B 육군 계약 하청 수혜\n- NVIDIA 소버린 AI OS 파트너십\n- AIPCon 9에서 GE Aerospace 협력\n- FY2026E 매출 $7.41B(+65.5%)\n\nFCF 마진 47%, 현금 $7.18B\n\n2/3",
+            "리스크: PER 225배는 실수 못 하는 가격\n인사이더 매도, 정부 의존도, SBC 희석\n\n컨센서스 $192.68 (24% 업사이드)\nDan Ives $230 유지\n\n조정 시 분할 매수 전략 추천\n\n3/3"
           ]
         },
         "witty": {
-          "hook": "팔란티어 AIPCon 9 이후 판이 바뀌고 있다",
-          "text": "팔란티어가 AIPCon에서 한 주치 뉴스를 하루에 다 쏟아냄. NVIDIA 소버린 OS에 GE 전투기에 예측시장까지. 매출 56% 성장에 현금 7조원. 근데 P/E 225배라 주가가 이미 2028년을 살고 있음.\n\n1/3",
+          "hook": "팔란티어 CEO가 매일 600만달러 주식을 팔면서 회사를 키우고 있다",
+          "text": "PLTR $155\n\nKarp: 매일 $6M 매도\n시장: 왜 파세요?\nKarp: 10b5-1 계획이에요\n시장: 그래도 좀...\n\n그런데 매출 +56%, 내년 +65%\n미국 상업 매출 $500M 첫 돌파\n\nPER 225배 = 기대값 맥스\n\n1/3",
           "thread": [
-            "",
-            "조정 시 분할 매수 권장.\n\n3/3"
+            "PLTR $155\n\nKarp: 매일 $6M 매도\n시장: 왜 파세요?\nKarp: 10b5-1 계획이에요\n시장: 그래도 좀...\n\n그런데 매출 +56%, 내년 +65%\n미국 상업 매출 $500M 첫 돌파\n\nPER 225배 = 기대값 맥스\n\n1/3",
+            "Anduril이 $20B 육군 계약 따냄\nPalantir: 저도 끼워주세요 (하청)\n\nNVIDIA 소버린 AI OS에 탑재\nGE Aerospace 군용기 정비도 AI로\n\n현금 $7.18B, FCF 마진 47%\n돈은 잘 번다 진짜로\n\n2/3",
+            "PER 225배에 사는 건 용기\nPER 225배에 안 사는 건 지혜\n\n컨센서스 $192 (24% 업사이드)\nDan Ives는 $230 고수\n\n$140-150 오면 그때 진지하게\n지금은 구경하면서 공부하는 구간\n\n3/3"
           ]
         },
         "empathy": {
-          "hook": "팔란티어 AIPCon 9 이후 판이 바뀌고 있다",
-          "text": "팔란티어 홀더들 올해 롤러코스터 탔을 텐데 AIPCon 이후 다시 분위기 좋아지고 있어. 실적도 좋고 파트너십도 쏟아지는데 밸류에이션만 늘 마음에 걸리지. 조정 때 담은 분들은 잘한 거야.\n\n1/3",
+          "hook": "팔란티어 주주라면 CEO 매도 뉴스에 흔들릴 수 있다",
+          "text": "PLTR $155\n\nCEO가 매일 $6M씩 주식을 판다는 뉴스\n주주라면 불안할 수 있다\n\n하지만 10b5-1 사전 계획이고\n매출은 56%에서 65%로 가속 중\n미국 상업 매출 $500M 첫 돌파\n\n숫자를 보자\n\n1/3",
           "thread": [
-            "",
-            "조정 시 분할 매수 권장.\n\n3/3"
+            "PLTR $155\n\nCEO가 매일 $6M씩 주식을 판다는 뉴스\n주주라면 불안할 수 있다\n\n하지만 10b5-1 사전 계획이고\n매출은 56%에서 65%로 가속 중\n미국 상업 매출 $500M 첫 돌파\n\n숫자를 보자\n\n1/3",
+            "Anduril $20B 하청 수혜\nNVIDIA 소버린 AI 파트너십\nFCF 마진 47%, 현금 $7.18B\n\n성장 스토리는 흔들리지 않았다\n오히려 더 강해지고 있다\n\n2/3",
+            "PER 225배가 부담되는 건 당연하다\n높은 기대치 = 높은 변동성\n\n장기 투자자라면 흔들림을 견뎌야 하고\n신규 진입이라면 분할 매수가 마음 편하다\n\n$140-150 구간이 더 안전한 자리\n\n3/3"
           ]
         }
       },
       "threads": {
-        "fact": "팔란티어 지금 사도 될까? AIPCon 9 이후 정리해봤어.\n\nNVIDIA랑 소버린 AI OS 공동 출시, GE Aerospace랑 군용기 AI 정비 파트너십 확대, World View랑 ISR 플랫폼까지. 한 주에 대형 딜 5개 이상 터졌어.\n\n매출 성장 56%, 영업이익률 32%, FCF 마진 47%. 2026년엔 매출 65% 더 성장 전망. 숫자는 진짜 좋아.\n\n근데 P/E가 225배야. 아무리 좋은 회사라도 이건 부담이지. 기대 못 미치면 급락할 수 있어.\n\n결론: 장기 스토리 탄탄하고 AI 소프트웨어 1등 기업인 건 맞는데, 진입 타이밍이 중요해. $140~150 조정 구간에서 분할 매수 추천.",
-        "witty": "팔란티어 AIPCon 9 끝나고 뉴스가 쏟아지는데 정리 안 하면 치일 것 같아서 정리함.\n\nNVIDIA랑 국가용 AI OS 만들고, GE랑 전투기 엔진 AI로 예측하고, 예측시장 Polymarket이랑도 손잡음. 이쯤 되면 AI계의 옥토퍼스.\n\n매출 56% 성장에 현금만 7조원 쌓아놓고 FCF 마진 47%. 사업은 미쳤는데 P/E 225배라 주가가 3년 후에서 살고 있음.\n\n홀더라면 존버, 신규 진입이면 조정 기다려. 팔란티어가 싸진 적은 거의 없지만 $140대면 눈 감고 사도 되는 구간.",
-        "empathy": "팔란티어 투자하면서 마음 편했던 적 있나요? P/E 225배짜리 주식을 들고 있으면 매일이 심장운동이죠.\n\n근데 AIPCon 9 보면서 느꼈어요. 이 회사는 진짜 뭔가 만들고 있구나. NVIDIA랑 국가 단위 AI OS를, GE랑 전투기 정비 AI를.\n\n매출 56% 성장, FCF 마진 47%. 숫자가 스토리를 뒷받침하고 있어요.\n\n밸류에이션은 늘 부담이지만, 조정 때마다 담아온 분들이 결국 웃었잖아요. 장기 관점에서 흔들리지 마세요."
+        "fact": {
+          "hook": "팔란티어 $155, 인사이더 매도와 매출 가속이 동시에 벌어지고 있다",
+          "text": "PLTR $155.08 (시총 $370.9B)\n\nCEO Karp이 2026년 매일 약 $6M 주식 매도 중 (10b5-1 사전 계획). 동시에 Seeking Alpha는 Buy로 업그레이드.\n\n미국 상업 매출 $500M 돌파. FY2025 매출 $4.48B(+56%), FY2026E $7.41B(+65.5%).\n\nAnduril $20B 육군 계약 하청 수혜 기대. NVIDIA 소버린 AI OS 파트너십.\n\nPER 225배, FCF 마진 47%, 현금 $7.18B. 컨센서스 $192.68(24% 업사이드).\n\n조정 시 분할 매수 전략이 적절하다."
+        },
+        "witty": {
+          "hook": "팔란티어 CEO의 매도 패턴: 매일 $6M, 그런데 주가는 신경 안 쓰는 중",
+          "text": "PLTR $155\n\nCEO가 매일 600만달러씩 주식을 팔고 있는데 회사는 역대급으로 잘 나간다. 이걸 어떻게 해석해야 할까?\n\n매출 +56%, 내년 +65% 전망. 미국 상업 매출 처음으로 $500M 돌파.\n\nAnduril이 $20B 따와서 하청 파이프라인도 두꺼워졌다.\n\nPER 225배라 식당 메뉴판 가격 같긴 한데, 이 성장이면 내년 PER이 절반으로 줄어든다.\n\n결론: CEO는 팔아도 회사는 산다. $140 오면 나도 산다."
+        },
+        "empathy": {
+          "hook": "팔란티어 보유자들에게 - 인사이더 매도 뉴스 어떻게 볼까",
+          "text": "PLTR $155\n\nCEO Karp이 매일 $6M씩 주식을 매도한다는 뉴스가 나왔다. 보유하고 있다면 불안한 게 당연하다.\n\n10b5-1이라는 사전 설정 매도 계획에 의한 것이고, 경영 활동과는 분리된 거래다.\n\n그 사이 미국 상업 매출이 $500M을 돌파했고, 매출 성장은 56%에서 65%로 빨라지고 있다.\n\nPER 225배는 부담이지만, 이 성장 속도라면 빠르게 정상화된다.\n\n장기 관점이라면 단기 뉴스에 흔들리기보다 분기 실적 흐름을 보는 게 낫다. 불안하면 분할 매수/매도로 리스크를 분산하자."
+        }
       }
     }
   }

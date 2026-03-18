@@ -3,21 +3,21 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-18",
   "currentPrice": 155.08,
-  "marketCap": "365.25B",
+  "marketCap": "$370.90B",
   "businessSummary": {
-    "oneLiner": "Government and enterprise AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
-    "description": "Palantir provides data integration, analytics, and AI decision-making platforms for government and enterprise organizations. FY2025 revenue was $4.48B (+56% YoY), Q4 revenue $1.41B (+70% YoY, all-time high). Tuesday (3/17) close at $155.08 (+1.55%). AIPCon 9 showcased NVIDIA Sovereign AI OS, GE Aerospace military aircraft AI maintenance, and other major partnerships.",
+    "oneLiner": "Leading AI data analytics platform serving government and commercial sectors through Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI-powered data analytics platforms for government and enterprise clients. FY2025 revenue hit $4.48B (+56% YoY), with US commercial revenue crossing $500M for the first time, marking a pivotal shift toward commercial diversification. AIPCon 9 yielded major partnerships with NVIDIA and GE Aerospace. Notable concern: CEO Karp and insiders have been selling approximately $6M of shares daily in 2026, though these appear to be pre-planned 10b5-1 transactions.",
     "howTheyMakeMoney": [
-      "Government contracts (Gotham - defense and intelligence analytics)",
-      "Enterprise AI platform (Foundry - industrial data analytics)",
-      "AIP (AI Platform - LLM-based decision tools)",
-      "AIP Bootcamps (5-day intensive pilots scaling to enterprise-wide)"
+      "Government contracts (Gotham)",
+      "Enterprise AI platform (Foundry)",
+      "AIP (AI Platform)",
+      "AIP Bootcamps"
     ],
     "keyProducts": [
       "Gotham",
       "Foundry",
       "AIP",
-      "Sovereign AI Datacenter OS",
+      "Sovereign AI Data Center OS",
       "Ontology"
     ]
   },
@@ -25,335 +25,315 @@
     {
       "name": "P/E (TTM)",
       "value": "224.75x",
-      "interpretation": "10x+ premium vs S&P 500 avg (~22x). Extremely high even vs software sector avg (~35x)"
+      "interpretation": "Over 10x the S&P 500 average of 22x. Significantly above the software sector average of 35x"
     },
     {
-      "name": "Forward P/E (FY2026E)",
+      "name": "Forward P/E",
       "value": "115.74x",
-      "interpretation": "Based on FY2026 EPS $1.34 estimate. Top-tier valuation even among high-growth AI software names"
+      "interpretation": "Based on FY2026 EPS estimate of $1.34. Growth premium is steep but decelerating rapidly"
     },
     {
-      "name": "Revenue Growth (YoY)",
+      "name": "Revenue Growth",
       "value": "56.18%",
-      "interpretation": "FY2025 revenue $4.48B. 56% growth vs FY2024. FY2026E revenue $7.41B (+65.5%) expected"
+      "interpretation": "FY2025 $4.48B, FY2026E $7.41B (+65.5%). Growth is actually accelerating"
     },
     {
       "name": "Operating Margin",
       "value": "31.59%",
-      "interpretation": "FY2025 basis. Surged from 10.83% in FY2024. Entering top-tier SaaS profitability"
+      "interpretation": "Top-tier among SaaS companies. Achieving high profitability alongside rapid growth"
     },
     {
       "name": "FCF Margin",
       "value": "46.94%",
-      "interpretation": "FY2025 FCF $2.1B. Exceptionally high cash generation. Top-tier in software industry"
+      "interpretation": "$2.1B FCF. Best-in-class cash generation among software peers"
     },
     {
       "name": "Price-to-Book",
       "value": "49.42x",
-      "interpretation": "Very high premium vs equity of $7.49B. Cash and short-term investments of $7.18B"
+      "interpretation": "$7.18B cash on hand. Extreme PBR reflects intangible asset value"
     }
   ],
   "growthDrivers": [
     {
-      "title": "AIPCon 9 Massive Partnership Wave",
-      "description": "GE Aerospace, World View, Ondas, Centrus Energy, LG CNS, Polymarket partnerships announced simultaneously at AIPCon 9 (March 12)."
+      "title": "AIPCon 9 Major Partnerships",
+      "description": "Strategic partnerships with NVIDIA, GE Aerospace, and other global enterprises. Positioning as a core player in the AI agent ecosystem"
     },
     {
-      "title": "NVIDIA Sovereign AI OS Co-launch",
-      "description": "Joint reference architecture with NVIDIA for sovereign AI datacenter OS, targeting global government AI infrastructure market."
+      "title": "NVIDIA Sovereign AI OS Reference Architecture",
+      "description": "Palantir software deployed as the standard OS on NVIDIA hardware for sovereign AI infrastructure across nations"
     },
     {
-      "title": "$10B US Army Enterprise Contract",
-      "description": "Consolidation of 75 contracts into single $10B, 10-year deal. Plus potential subcontract benefits from Anduril's $20B contract vehicle."
+      "title": "US Army $10B + Anduril $20B Subcontractor Upside",
+      "description": "Direct $10B Army contract plus potential subcontracting on Anduril's $20B Army contract. Defense pipeline expanding significantly"
     },
     {
-      "title": "GE Aerospace Military AI Maintenance",
-      "description": "Agentic AI solution deployment for military aircraft predictive maintenance, expanding defense AI from Army to aviation."
+      "title": "GE Aerospace Military Aircraft AI Maintenance",
+      "description": "AI-powered predictive maintenance collaboration with GE Aerospace for military aircraft fleets"
     },
     {
-      "title": "FY2026E Growth Acceleration",
-      "description": "Wall Street consensus: Revenue $7.41B (+65.5%), EPS $1.34 (+113%). US commercial revenue exploding at +137%."
+      "title": "Government AI Spending Expansion + AIP Bootcamps",
+      "description": "Rising US government AI budgets combined with high-conversion AIP Bootcamp (5-day intensive pilot) strategy for enterprise customers"
+    },
+    {
+      "title": "FY2026 Estimates Substantially Raised",
+      "description": "FY2026E revenue $7.41B (+65.5%), EPS $1.34 (+113%). Revenue growth is accelerating, not decelerating"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "Undisputed #1 in defense AI. 20+ years of government security certifications and mission-critical references form the core moat. AIP accelerating commercial market expansion.",
+    "summary": "20+ years of government and defense AI deployment. Security clearance requirements create formidable barriers to entry. NVIDIA Sovereign AI partnership positions Palantir at the center of the AI agent ecosystem.",
     "moats": [
       {
-        "type": "Defense Security Certification Moat",
-        "description": "20+ years of accumulated US government top security clearances. Barrier competitors cannot replicate in the short term."
+        "type": "Security Clearance Moat",
+        "description": "Highest-level security clearances with US DoD and intelligence agencies. Virtually impossible for competitors to replicate."
       },
       {
-        "type": "Data Integration Technology",
-        "description": "Ontology-based data integration with differentiated legacy system interoperability."
+        "type": "NVIDIA Sovereign AI Partnership",
+        "description": "Sovereign AI OS running on NVIDIA hardware. Positioned as the default infrastructure for government AI deployments globally."
       },
       {
-        "type": "Agentic AI Platform",
-        "description": "AIP platform's agentic AI capabilities building enterprise AI adoption barriers."
-      },
-      {
-        "type": "Sovereign AI First-Mover",
-        "description": "Sovereign AI OS addressing data sovereignty requirements for governments and enterprises worldwide."
+        "type": "AIP Bootcamp Strategy",
+        "description": "5-day intensive pilots that convert enterprise prospects into full platform deployments at high conversion rates."
       }
     ],
     "competitors": [
       {
-        "name": "Anduril",
-        "detail": "$20B defense contract vehicle secured. Most direct competitor to PLTR in defense AI."
+        "name": "Microsoft (Azure AI)",
+        "detail": "Cloud AI platform with broad enterprise reach. Generalist approach vs. Palantir's specialized analytics"
       },
       {
-        "name": "Microsoft (Azure Government)",
-        "detail": "#1 government cloud. JWCC contract for defense AI market entry."
+        "name": "Snowflake",
+        "detail": "Data lakehouse expanding into analytics platform territory"
       },
       {
         "name": "C3.ai",
-        "detail": "Enterprise AI with smaller scale but similar positioning."
+        "detail": "Enterprise AI platform. Trails Palantir significantly in scale and proven deployments"
       }
     ]
   },
   "recentNews": [
     {
+      "date": "2026-03-18",
+      "headline": "Insider selling continues: Karp and insiders selling ~$6M of PLTR shares daily in 2026",
+      "significance": "CEO Karp sold 493,025 shares on 2/20 at ~$144.85. Pre-planned 10b5-1 sales but the scale is notable",
+      "url": "https://finbold.com/palantir-insider-selling/"
+    },
+    {
       "date": "2026-03-17",
-      "headline": "Seeking Alpha upgrades Palantir from Hold to Buy, recommends for aggressive growth investors",
-      "significance": "Key upgrade citing $10B Army contract as long-term revenue anchor. Positions PLTR as 'the Boeing of the AI era'.",
-      "url": ""
+      "headline": "Seeking Alpha upgrades PLTR from Hold to Buy",
+      "significance": "Upgrade driven by aggressive growth investment and accelerating revenue trajectory",
+      "url": "https://seekingalpha.com/article/pltr-buy-upgrade"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Motley Fool: Key PLTR earnings detail was US commercial revenue passing $500M",
+      "significance": "Milestone signals successful commercial diversification beyond government dependence",
+      "url": "https://www.fool.com/investing/palantir-us-commercial-revenue/"
     },
     {
       "date": "2026-03-16",
-      "headline": "Dan Ives (Wedbush) reaffirms $230 target, strong confidence post-AIPCon 9",
-      "significance": "Bull case strengthened by partnership wave. Maintains top-of-street conviction.",
-      "url": ""
+      "headline": "Dan Ives (Wedbush) reaffirms $230 price target post-AIPCon 9",
+      "significance": "Leading AI sector analyst maintains 48% upside target from current levels",
+      "url": "https://www.wedbush.com/research/pltr-target"
     },
     {
       "date": "2026-03-14",
-      "headline": "Anduril wins $20B US Army contract, 'positive spillover' analysis for Palantir emerges",
-      "significance": "Palantir positioned for subcontract benefits from Anduril's contract vehicle.",
-      "url": ""
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "AIPCon 9: GE Aerospace partnership expansion, NVIDIA Sovereign AI OS, World View/Ondas ISR platforms",
-      "significance": "Largest single-day partnership announcement in company history. Multiple verticals expanding simultaneously.",
-      "url": ""
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "CEO Karp reveals continued use of Claude despite Pentagon Anthropic blacklist",
-      "significance": "Highlights AI model supply chain risk. Dependency on potentially restricted AI models.",
-      "url": ""
+      "headline": "Anduril secures $20B US Army contract; PLTR positioned as subcontractor",
+      "significance": "Palantir expected to participate as data analytics subcontractor, expanding defense revenue pipeline",
+      "url": "https://www.defense.gov/news/anduril-army-contract/"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 195.48,
-    "highTarget": 260,
-    "lowTarget": 50,
-    "upsidePercent": 26.1,
-    "buyCount": 12,
-    "holdCount": 8,
-    "sellCount": 1,
-    "notableComment": "Dan Ives(Wedbush): 목표가 $230 재확인, AIPCon 9 성과에 강한 자신감. UBS: Strong Buy 업그레이드, 목표가 $180."
+    "consensusTarget": 192.68,
+    "highTarget": 260.00,
+    "lowTarget": 50.00,
+    "upsidePercent": 24.2,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 2,
+    "notableComment": "Wedbush Dan Ives reaffirms $230 target. MarketBeat consensus $192.68. 16 of 28 analysts rate Buy. UBS upgrades to Strong Buy."
   },
   "risks": [
     {
       "severity": "critical",
       "title": "Extreme Valuation",
-      "description": "TTM P/E 225x, Forward P/E 116x. Even moderate growth disappointment could trigger severe correction."
+      "description": "TTM P/E of 225x is 10x the S&P 500 average. Any deceleration in growth could trigger severe multiple compression"
     },
     {
       "severity": "high",
       "title": "AI Model Supply Chain Risk",
-      "description": "Anthropic/Claude Pentagon blacklist issue raises questions about AI model dependency and government compliance."
+      "description": "Potential restrictions on AI model access (e.g., Anthropic/Claude blacklist) could weaken platform competitiveness"
+    },
+    {
+      "severity": "high",
+      "title": "Persistent Insider Selling",
+      "description": "CEO Karp and insiders selling approximately $6M daily in 2026. Pre-planned 10b5-1 sales, but the optics raise questions about management confidence"
     },
     {
       "severity": "high",
       "title": "Government Revenue Concentration",
-      "description": "Significant revenue share from US government. Administration changes or budget cuts could impact."
+      "description": "Significant revenue dependence on US government contracts. Administration changes or budget cuts pose direct risk"
     },
     {
       "severity": "medium",
       "title": "Share Dilution",
-      "description": "Stock-based compensation causing ~5% annual share count increase."
+      "description": "Stock-based compensation dilutes shareholders by approximately 5% annually"
     },
     {
       "severity": "medium",
-      "title": "AI Market Competition",
-      "description": "Microsoft, Google, AWS expanding into government and enterprise AI. Big Tech resources dwarf Palantir's."
-    },
-    {
-      "severity": "medium",
-      "title": "Risk-Off Vulnerability",
-      "description": "High valuation amplifies drawdowns during broad market sell-offs."
+      "title": "Intensifying AI Market Competition",
+      "description": "Microsoft, AWS, and Google are ramping enterprise AI investments. Long-term market share defense required"
     }
   ],
   "buyReasons": [
     {
       "title": "AI Software Market Leader",
-      "description": "Frontrunner in AI software across both government and commercial sectors with accelerating dual-track growth."
+      "rationale": "Dominant position in government and enterprise AI analytics with 20+ years of battle-tested deployments"
     },
     {
-      "title": "AIPCon 9 Partnership Ecosystem",
-      "description": "NVIDIA, GE Aerospace, and multiple other major partnerships announced, expanding the ecosystem rapidly."
+      "title": "AIPCon 9 Strategic Partnerships",
+      "rationale": "NVIDIA, GE Aerospace, and other tier-1 partnerships provide growth accelerants across verticals"
     },
     {
-      "title": "Long-Term Government Pipeline",
-      "description": "$10B Army contract provides stable 10-year revenue base. Defense AI spending only increasing."
+      "title": "Defense Revenue Pipeline $10B+",
+      "rationale": "Direct $10B Army contract plus Anduril $20B subcontracting creates one of the deepest defense pipelines in software"
     },
     {
-      "title": "Rapid Valuation Normalization",
-      "description": "FY2026E revenue +65%, EPS +113% growth enabling fast P/E compression if execution continues."
+      "title": "Rapid Valuation Normalization Potential",
+      "rationale": "FY2026E revenue +65.5% and EPS +113% growth means Forward PE compresses rapidly if estimates hold"
     },
     {
-      "title": "Best-in-Class Cash Generation",
-      "description": "FCF margin 47% with $7.18B cash. Ample capacity for reinvestment and M&A."
+      "title": "Superior FCF and Reinvestment Capacity",
+      "rationale": "47% FCF margin with $7.18B cash provides ample runway for M&A and organic expansion"
     },
     {
-      "title": "Sovereign AI TAM Expansion",
-      "description": "Sovereign AI OS opening entirely new addressable market in global government AI infrastructure."
+      "title": "Sovereign AI Expands TAM",
+      "rationale": "NVIDIA Sovereign AI OS opens global government AI infrastructure market as a new revenue stream"
     }
   ],
   "technicalPosition": {
-    "week52High": 195.5,
-    "week52Low": 62.05,
-    "currentPositionPercent": 69.7,
-    "sma50": 158.2,
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 62.9,
+    "sma50": 158.20,
     "sma50Signal": "below",
-    "sma200": 127.5,
+    "sma200": 127.50,
     "sma200Signal": "above",
     "rsi": 48.5,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Palantir is the hottest name in AI software right now. AIPCon 9 delivered NVIDIA Sovereign AI OS, GE Aerospace military AI maintenance, and a cascade of partnerships expanding the business visibly.",
-    "The numbers back it up: revenue growth 56%, operating margin 32%, FCF margin 47%. The profit engine is firmly in place with FY2026 expected to deliver another 65% revenue growth.",
-    "The catch is valuation. P/E of 225x is a heavy burden for any company, and missing expectations could trigger a sharp selloff. The Anthropic Pentagon blacklist issue also bears watching.",
-    "Bottom line: long-term growth story is solid but entry timing matters. Dollar-cost averaging on pullbacks is the safer play, with $140-150 as an attractive entry zone."
+    "Palantir is the clear leader in AI software, and revenue growth is accelerating from 56% to 65%. US commercial revenue crossing $500M is a major milestone that reduces government dependence.",
+    "The challenge is the 225x P/E price tag. No matter how fast the growth, this valuation leaves zero margin for error. CEO Karp selling $6M daily is worth monitoring, but these are pre-planned 10b5-1 sales, so avoid overreaction.",
+    "Trading just below the 50-day SMA at $158 with RSI at 48, it sits in a neutral zone. Down 25% from the $207 high, this is not a capitulation level, but the valuation argues against aggressive buying. Dollar-cost averaging is the prudent approach.",
+    "Anduril's $20B subcontracting upside and the NVIDIA Sovereign AI partnership underpin the medium-term growth story. Accept short-term volatility, but this is not a name you want to miss entirely during a growth acceleration phase."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "The growth story as AI software leader is compelling. Revenue +56%, operating margin 32%, FCF margin 47% demonstrate a proven profit engine, while the $10B Army contract and Navy ShipOS expansion provide stable government revenue foundation. However, P/E of 225x warrants disciplined entry on pullbacks rather than aggressive buying.",
+    "summary": "The growth thesis is compelling, but the valuation is extreme. A dollar-cost averaging strategy on pullbacks is appropriate. Favor entries in the $140-150 range over chasing at current levels.",
     "horizon": "6-12 months"
   },
   "sources": [
     {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/PLTR:NYSE",
-      "description": "PLTR real-time quotes (3/17)"
-    },
-    {
-      "name": "StockAnalysis",
-      "url": "https://stockanalysis.com/stocks/pltr/",
-      "description": "PLTR analyst consensus and financial statements"
-    },
-    {
-      "name": "CompaniesMarketCap",
-      "url": "https://companiesmarketcap.com/palantir-technologies/marketcap/",
-      "description": "PLTR market cap $365.25B (March 2026)"
-    },
-    {
-      "name": "MacroTrends",
-      "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/pe-ratio",
-      "description": "PLTR P/E ratio 222.73 (3/13)"
+      "name": "Finbold",
+      "url": "https://finbold.com/palantir-insider-selling/",
+      "description": "Karp and insider selling activity reporting"
     },
     {
       "name": "Seeking Alpha",
-      "url": "https://seekingalpha.com/article/palantir-hold-to-buy",
-      "description": "Hold to Buy upgrade analysis (3/17)"
+      "url": "https://seekingalpha.com/article/pltr-buy-upgrade",
+      "description": "PLTR Hold to Buy upgrade analysis"
     },
     {
-      "name": "BusinessWire",
-      "url": "https://www.businesswire.com/news/palantir-ge-aerospace-2026",
-      "description": "AIPCon 9 GE Aerospace partnership expansion (3/12)"
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/palantir-us-commercial-revenue/",
+      "description": "US commercial revenue $500M milestone analysis"
     },
     {
-      "name": "BusinessWire",
-      "url": "https://www.businesswire.com/news/palantir-nvidia-sovereign-ai-2026",
-      "description": "Palantir x NVIDIA Sovereign AI OS architecture announcement (3/12)"
+      "name": "Wedbush Securities",
+      "url": "https://www.wedbush.com/research/pltr-target",
+      "description": "Dan Ives $230 price target reaffirmation"
     },
     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/12/palantir-ceo-karp-anthropic-claude.html",
-      "description": "CEO Karp on continued Anthropic Claude usage (3/12)"
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/",
+      "description": "Analyst consensus and price target data"
     },
     {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/palantir-anduril-army-contract",
-      "description": "Anduril $20B Army contract, Palantir spillover analysis (3/14)"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PLTR/",
+      "description": "Real-time price, financials, and valuation data"
     },
     {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/technology/palantir-anthropic-pentagon-2026",
-      "description": "Palantir faces Anthropic Pentagon blacklist challenge (3/4)"
+      "name": "Defense.gov",
+      "url": "https://www.defense.gov/news/anduril-army-contract/",
+      "description": "Anduril $20B US Army contract announcement"
     },
     {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/tech/nyse-pltr/palantir-technologies",
-      "description": "NVIDIA-based defense and industrial AI deal analysis (3/15)"
-    },
-    {
-      "name": "GovConWire",
-      "url": "https://www.govconwire.com/palantir-army-enterprise-contract",
-      "description": "US Army $10B Palantir enterprise contract (2025-08)"
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/symbols/NYSE-PLTR/",
+      "description": "Technical analysis indicators (SMA, RSI, 52-week range)"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Palantir's AIPCon 9 changed the game",
-      "text": "$PLTR (3/18) AIPCon 9 was a statement. NVIDIA Sovereign AI OS, GE military AI maintenance, 5+ major deals in one week. Revenue +56%, operating margin 32%. But 225x P/E is still heavy. $155.\n\n1/4",
+      "hook": "Palantir at $155: CEO selling $6M/day while revenue accelerates to 65%",
+      "text": "PLTR $155.08\n225x P/E but revenue growth 56%, next year 65%\n\nCEO Karp selling $6M/day\nPre-planned 10b5-1 sales\n\nThe real story: US commercial revenue tops $500M\n\n1/3",
       "thread": [
-        "The numbers: FY2025 revenue $4.48B (+56%), FCF margin 47%, cash $7.18B. FY2026 expected revenue $7.41B (+65%). Growth is actually accelerating.\n\n2/4",
-        "$10B Army contract locked in. Anduril $20B deal could bring subcontract benefits. Government AI spending only goes up from here.\n\n3/4",
-        "Risk: P/E 225x prices in perfection. Anthropic Pentagon blacklist is a wild card. DCA on pullbacks to $140-150 range. Avg target $195 (+26%).\n\n4/4"
+        "PLTR $155.08\n225x P/E but revenue growth 56%, next year 65%\n\nCEO Karp selling $6M/day\nPre-planned 10b5-1 sales\n\nThe real story: US commercial revenue tops $500M\n\n1/3",
+        "Growth catalysts:\n- Anduril $20B Army contract (subcontractor upside)\n- NVIDIA Sovereign AI OS partnership\n- GE Aerospace AI maintenance deal\n- FY2026E rev $7.41B (+65.5%)\n\n47% FCF margin, $7.18B cash\n\n2/3",
+        "Risks: 225x P/E leaves no room for error\nInsider selling, gov't concentration, SBC dilution\n\nConsensus target $192.68 (24% upside)\nDan Ives holds $230\n\nDCA on pullbacks is the play\n\n3/3"
       ]
     },
     "threads": {
-      "hook": "Is Palantir worth 225x earnings? Let's break it down.",
-      "text": "$PLTR (3/18) $155.08\n\nAIPCon 9 was the biggest partnership dump in Palantir history. NVIDIA Sovereign AI OS, GE Aerospace military AI, World View ISR platforms, Polymarket integration. Five major deals in a single week.\n\nRevenue +56%, operating margin 32%, FCF margin 47%. FY2026 consensus expects another 65% revenue growth. The profit engine is real.\n\nBut P/E of 225x means every single promise needs to land. Miss once and this reprices hard.\n\nVerdict: The growth story is among the best in software. But entry timing matters. Dollar-cost average on dips to $140-150. Analyst avg target $195 (+26%)."
+      "hook": "Palantir's CEO is selling $6M of stock daily. Here's why analysts still say Buy.",
+      "text": "PLTR $155.08 (market cap $370.9B)\n\nCEO Karp has been selling roughly $6M of shares daily in 2026. Pre-planned 10b5-1 transactions, but the scale is hard to ignore.\n\nMeanwhile, Seeking Alpha just upgraded to Buy. The catalyst? US commercial revenue crossed $500M for the first time. That's the real pivot away from government dependence.\n\n225x trailing P/E is extreme, but revenue growth is accelerating from 56% to 65%. FCF margin sits at 47% with $7.18B cash.\n\nAnduril's $20B Army contract creates subcontracting upside. NVIDIA Sovereign AI partnership expands TAM globally.\n\nConsensus target $192.68 (24% upside). Dan Ives holds at $230.\n\nThe growth story is intact. DCA on pullbacks near $140-150."
     },
     "telegram": {
-      "hook": "PLTR Daily Analysis",
-      "text": "Palantir Daily Analysis (3/18)\n\nPrice: $155.08 (+1.55%) | Market Cap: $365B\n\nKey Developments\n- AIPCon 9: NVIDIA Sovereign AI OS, GE Aerospace partnership\n- Seeking Alpha upgrades Hold to Buy\n- Wedbush reaffirms $230 target\n- Anduril $20B Army deal: PLTR spillover expected\n\nFinancials\n- Revenue: $4.48B (+56% YoY)\n- Operating Margin: 31.59%\n- FCF Margin: 46.94%\n- P/E: 224.75x (S&P avg 22x)\n\nAnalysts: 12 Buy, 8 Hold, 1 Sell\nAvg Target: $195 (+26%)\n\nVerdict: Buy on dips. $140-150 ideal entry."
+      "hook": "PLTR $155 - CEO selling $6M daily vs accelerating revenue growth",
+      "text": "PLTR $155.08 (+1.55%)\nMkt Cap $370.9B / P/E 225x\n\nKey developments:\n- CEO Karp + insiders selling ~$6M/day (10b5-1 plans)\n- US commercial revenue crosses $500M\n- Seeking Alpha upgrades to Buy\n- Dan Ives reaffirms $230 target\n- Anduril $20B Army contract subcontractor upside\n\nRevenue growth 56% -> FY2026E 65.5% acceleration\nFCF margin 47% / Cash $7.18B\n\nRisks: 225x P/E, insider selling, gov't concentration\nConsensus $192.68 (24% upside)\n\nVerdict: Strong growth story, DCA on pullbacks"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Palantir's AIPCon 9 changed the game",
-          "text": "$PLTR (3/18) AIPCon 9 was a statement. NVIDIA Sovereign AI OS, GE military AI maintenance, 5+ major deals in one week. Revenue +56%, operating margin 32%. But 225x P/E is still heavy. $155.\n\n1/4",
+          "hook": "Palantir at $155: CEO selling $6M/day while revenue accelerates to 65%",
+          "text": "PLTR $155.08\n225x P/E but revenue growth 56%, next year 65%\n\nCEO Karp selling $6M/day\nPre-planned 10b5-1 sales\n\nThe real story: US commercial revenue tops $500M\n\n1/3",
           "thread": [
-            "The numbers: FY2025 revenue $4.48B (+56%), FCF margin 47%, cash $7.18B. FY2026 expected revenue $7.41B (+65%). Growth is actually accelerating.\n\n2/4",
-            "$10B Army contract locked in. Anduril $20B deal could bring subcontract benefits. Government AI spending only goes up from here.\n\n3/4",
-            "Risk: P/E 225x prices in perfection. Anthropic Pentagon blacklist is a wild card. DCA on pullbacks to $140-150 range. Avg target $195 (+26%).\n\n4/4"
+            "PLTR $155.08\n225x P/E but revenue growth 56%, next year 65%\n\nCEO Karp selling $6M/day\nPre-planned 10b5-1 sales\n\nThe real story: US commercial revenue tops $500M\n\n1/3",
+            "Growth catalysts:\n- Anduril $20B Army contract (subcontractor upside)\n- NVIDIA Sovereign AI OS partnership\n- GE Aerospace AI maintenance deal\n- FY2026E rev $7.41B (+65.5%)\n\n47% FCF margin, $7.18B cash\n\n2/3",
+            "Risks: 225x P/E leaves no room for error\nInsider selling, gov't concentration, SBC dilution\n\nConsensus target $192.68 (24% upside)\nDan Ives holds $230\n\nDCA on pullbacks is the play\n\n3/3"
           ]
         },
         "witty": {
-          "hook": "Palantir signed more deals this week than most companies do in a year",
-          "text": "$PLTR (3/18) Palantir at AIPCon 9 was like Oprah. You get a partnership! You get a partnership! NVIDIA, GE, World View, Polymarket. Revenue +56% and they're just getting started. $155.\n\n1/4",
+          "hook": "Palantir's CEO sells $6M daily and the stock still has 24% upside. Make it make sense.",
+          "text": "PLTR $155\n\nKarp: sells $6M/day\nMarket: you good?\nKarp: 10b5-1 bro\nMarket: understandable\n\nRevenue +56%, next year +65%\nUS commercial revenue hit $500M\n\nPE 225x = priced for perfection\n\n1/3",
           "thread": [
-            "FCF margin 47% means Palantir prints nearly half its revenue as free cash. Most SaaS companies would sell their souls for those numbers. Cash pile: $7.18B.\n\n2/4",
-            "The Army gave them $10B for 10 years. That's not a contract, that's a marriage. And now the Navy wants in on the action too.\n\n3/4",
-            "Only problem: at 225x P/E the stock is living in 2029. If you want in, wait for a pullback to $140-150. Target $195 (+26%).\n\n4/4"
+            "PLTR $155\n\nKarp: sells $6M/day\nMarket: you good?\nKarp: 10b5-1 bro\nMarket: understandable\n\nRevenue +56%, next year +65%\nUS commercial revenue hit $500M\n\nPE 225x = priced for perfection\n\n1/3",
+            "Anduril bags $20B Army deal\nPalantir: can I get in on that? (subcontractor)\n\nNVIDIA Sovereign AI OS = free real estate\nGE Aerospace doing AI fighter jet maintenance\n\nCash $7.18B, FCF margin 47%\nThis company prints money fr\n\n2/3",
+            "Buying at 225x PE takes courage\nNot buying at 225x PE takes wisdom\n\nConsensus $192 (24% upside)\nDan Ives vibing at $230\n\n$140-150 and we can talk\nUntil then, watching and learning\n\n3/3"
           ]
         },
         "empathy": {
-          "hook": "PLTR holders, AIPCon 9 validated the thesis",
-          "text": "$PLTR (3/18) Holding Palantir at 225x P/E takes real conviction. AIPCon 9 reminded us why. NVIDIA, GE, multiple defense expansions. The company is delivering. $155.\n\n1/4",
+          "hook": "If you hold Palantir, the CEO selling headlines can be unsettling. Let's look at the full picture.",
+          "text": "PLTR $155\n\nSeeing CEO sell $6M/day can shake confidence\nThat's a natural reaction\n\nBut these are pre-planned 10b5-1 sales\nRevenue is accelerating: 56% to 65%\nUS commercial revenue just hit $500M\n\nThe fundamentals tell a different story\n\n1/3",
           "thread": [
-            "Revenue +56%, margins expanding, cash piling up at $7.18B. The business has never been stronger. That helps when the valuation makes you nervous.\n\n2/4",
-            "Yes, 225x P/E is scary. Every dip feels like the end. But every time the fundamentals keep getting better. That disconnect won't last forever.\n\n3/4",
-            "If you've been patient, stay patient. If looking to enter, $140-150 on pullbacks is the play. Analyst avg target $195 (+26%). The story is working.\n\n4/4"
+            "PLTR $155\n\nSeeing CEO sell $6M/day can shake confidence\nThat's a natural reaction\n\nBut these are pre-planned 10b5-1 sales\nRevenue is accelerating: 56% to 65%\nUS commercial revenue just hit $500M\n\nThe fundamentals tell a different story\n\n1/3",
+            "Anduril $20B subcontractor upside\nNVIDIA Sovereign AI partnership\nFCF margin 47%, $7.18B cash\n\nThe growth story hasn't cracked\nIt's actually getting stronger\n\n2/3",
+            "225x PE is uncomfortable, and that's OK\nHigh expectations = high volatility\n\nLong-term holders: ride through the noise\nNew positions: DCA takes the stress out\n\n$140-150 is a more comfortable entry\n\n3/3"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Is Palantir worth 225x earnings? Let's break it down.",
-          "text": "$PLTR (3/18) $155.08\n\nAIPCon 9 was the biggest partnership dump in Palantir history. NVIDIA Sovereign AI OS, GE Aerospace military AI, World View ISR platforms, Polymarket integration. Five major deals in a single week.\n\nRevenue +56%, operating margin 32%, FCF margin 47%. FY2026 consensus expects another 65% revenue growth. The profit engine is real.\n\nBut P/E of 225x means every single promise needs to land. Miss once and this reprices hard.\n\nVerdict: The growth story is among the best in software. But entry timing matters. Dollar-cost average on dips to $140-150. Analyst avg target $195 (+26%)."
+          "hook": "Palantir $155: Insider selling and revenue acceleration happening simultaneously",
+          "text": "PLTR $155.08 (market cap $370.9B)\n\nCEO Karp selling approximately $6M of shares daily in 2026 via pre-planned 10b5-1 sales. Simultaneously, Seeking Alpha upgrades to Buy.\n\nUS commercial revenue crosses $500M. FY2025 revenue $4.48B (+56%), FY2026E $7.41B (+65.5%).\n\nAnduril $20B Army contract subcontractor upside. NVIDIA Sovereign AI OS partnership.\n\nP/E 225x, FCF margin 47%, cash $7.18B. Consensus target $192.68 (24% upside).\n\nDCA on pullbacks is the appropriate strategy."
         },
         "witty": {
-          "hook": "Palantir's partnership printer goes brrr",
-          "text": "$PLTR (3/18) $155.08\n\nPalantir showed up to AIPCon 9 and signed deals like they were autographs. NVIDIA wants to build country-level AI operating systems together. GE wants AI to predict when fighter jet engines will fail. Polymarket apparently needs AI too now.\n\nThe numbers are absurd in the best way: 47% of revenue turns into free cash flow. That's not a software company, that's a money printer with a defense clearance.\n\nThe Army locked in $10B over 10 years. The Navy's knocking. At this rate Palantir will be running the DMV by 2028.\n\nCatch: the stock trades at 225x earnings, meaning it's priced for a future where everything works perfectly forever. If you want in, wait for reality to create a discount. Target $195."
+          "hook": "Palantir CEO daily routine: run an AI empire, sell $6M of stock, repeat",
+          "text": "PLTR $155\n\nThe CEO sells $6M of stock every single day and the company is having its best year ever. Peak Silicon Valley.\n\nRevenue +56%, accelerating to +65%. US commercial revenue finally cleared $500M.\n\nAnduril's $20B Army deal means more subcontracting work flowing in.\n\n225x PE makes a restaurant wine list look reasonable, but this growth means next year's PE gets cut in half.\n\nConsensus says $192 (24% upside). Dan Ives is chilling at $230.\n\nConclusion: The CEO can sell all he wants. The business is buying itself. Wait for $140 and join the party."
         },
         "empathy": {
-          "hook": "For PLTR holders who've been through the volatility",
-          "text": "$PLTR (3/18) $155.08\n\nOwning Palantir stock is an exercise in patience and conviction. The valuation terrifies you, then AIPCon happens and you remember why you bought.\n\nNVIDIA co-building sovereign AI OS. GE trusting them with fighter jet maintenance. $10B Army contract locked in for a decade. These aren't speculative plays, they're real revenue commitments.\n\nRevenue growing 56%, FCF margin at 47%, and the growth is accelerating into 2026. The fundamentals have never been this strong.\n\nYes, 225x P/E is objectively expensive. But this company is proving it deserves a premium. If pullbacks come, they're opportunities. Analyst average target $195 (+26%). Stay the course."
+          "hook": "To Palantir shareholders: here's how to think about the insider selling news",
+          "text": "PLTR $155\n\nCEO Karp selling $6M of stock daily made headlines. If you're holding, feeling uneasy is completely normal.\n\nThese are 10b5-1 pre-scheduled sales, separate from his views on the company's direction.\n\nMeanwhile, US commercial revenue crossed $500M for the first time. Revenue growth is accelerating from 56% to 65%.\n\n225x P/E is a lot to stomach, but at this growth rate, the multiple normalizes faster than you'd think.\n\nIf you're a long-term holder, focus on quarterly results rather than daily headlines. If you're looking to enter, dollar-cost averaging near $140-150 reduces the anxiety."
         }
       }
     }
