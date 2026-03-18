@@ -1,0 +1,124 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-19",
+  "currentPrice": 392.78,
+  "marketCap": "$1.47T",
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
+    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08, and Q4 2025 gross margin hit 20.1%, a two-year high. Key growth catalysts begin in April 2026 with Cybercab production and Optimus Gen 3 unveiling.",
+    "howTheyMakeMoney": ["EV sales (Model 3/Y, Cybertruck)", "Energy storage/generation (Megapack, Powerwall, Solar)", "Services/Charging (Supercharger, Insurance, OTA)", "FSD subscription and licensing", "Regulatory credit sales"],
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Macrohard"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "390x", "interpretation": "Extreme premium vs S&P 500 avg (~23x) and auto sector (~16x). Reflects AI/robotics/energy optionality but overvaluation concerns persist"},
+    {"name": "Forward P/E", "value": "191x", "interpretation": "Based on FY2026 EPS consensus. High growth expectations but execution risk remains"},
+    {"name": "Gross Margin", "value": "18.03% (Q4: 20.1%)", "interpretation": "Q4 2025 hit 2-year high of 20.1%. Margin recovery signal despite pricing pressure"},
+    {"name": "Revenue TTM", "value": "$94.83B", "interpretation": "FY2025 annual revenue. Slight YoY decline but energy segment driving growth"},
+    {"name": "FCF TTM", "value": "$6.22B", "interpretation": "Healthy cash generation. $44B total cash to fund massive capex"},
+    {"name": "D/E Ratio", "value": "0.18x", "interpretation": "Strong balance sheet. Among lowest in large tech"}
+  ],
+  "growthDrivers": [
+    {"title": "Samsung AI6 Chip $16.5B Partnership in Taylor, Texas", "description": "Samsung will produce Tesla's next-gen AI6 (HW6) chip on 2nm process at Taylor, TX fab. $16.5B deal through 2033. Currently in post-silicon validation, H2 2027 production target but delayed ~6 months to Q4 2027 per Electrek."},
+    {"title": "Terafab Launch D-2 (March 21): Vertical Integration of Logic+Memory+Packaging", "description": "Terafab is a 2nm-class fab integrating logic, memory, and advanced packaging in one facility. Estimated $25-40B investment. Musk has left open partnerships with Samsung, TSMC, and potentially Intel."},
+    {"title": "LG Energy Solution $4.3B LFP Battery Plant Confirmed", "description": "US government officially confirmed Tesla-LG $4.3B LFP battery manufacturing facility in Lansing, Michigan. 2.8L large-format cells for Megapack 3, achieving 5 MWh per unit (28% increase from 3.9 MWh)."},
+    {"title": "Cybercab Production Line Targeting Hundreds Per Week, April Start", "description": "Production line designed for hundreds of units per week, targeting 2M annual. No steering wheel or pedals — regulatory approval is the key hurdle."},
+    {"title": "China Jan-Feb Sales +35% YoY", "description": "127,728 Tesla EVs sold in China Jan-Feb, up 35%+ YoY while BYD declined. Strong recovery signal in China market."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share leader. 8.2B FSD miles, NACS charging standard, and vertical integration form core moats. However, BYD has overtaken globally.",
+    "moats": [
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelming training data advantage vs competitors."},
+      {"type": "Vertical Integration + Custom AI Chips", "description": "In-house battery (4680), custom chips (Terafab), software (FSD), charging infra (Supercharger)."},
+      {"type": "Charging Network Effect", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."}
+    ],
+    "competitors": [
+      {"name": "BYD", "detail": "Global EV sales leader (2.26M in 2025 vs Tesla 1.64M). 11 new models, 640-mile sedan, 5-min charging"},
+      {"name": "Rivian (RIVN)", "detail": "Electric pickup/SUV. Amazon logistics partner"},
+      {"name": "Lucid (LCID)", "detail": "Premium EV sedan. Saudi investment"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-18", "headline": "Samsung confirms Tesla AI6 chip production at Taylor, TX on 2nm (H2 2027)", "significance": "$16.5B long-term partnership. AI6 is the core chip for FSD and Optimus. ~6 month delay to Q4 2027", "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/"},
+    {"date": "2026-03-18", "headline": "Inflation surprise causes broad market selloff, TSLA -1.63%", "significance": "Hotter than expected CPI pushed Dow to 2026 low. Macro-driven, not company-specific", "url": "https://invezz.com/news/2026/03/18/why-tesla-stock-is-down-in-the-red-today/"},
+    {"date": "2026-03-17", "headline": "US government confirms Tesla-LG $4.3B LFP battery supply deal", "significance": "Megapack 3 dedicated battery cell plant. Major energy supply chain strengthening", "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/"},
+    {"date": "2026-03-17", "headline": "Terafab expansion plans point to first capital raise since 2020", "significance": "Terafab estimated $25-40B. Total 3-5 year capex needs $80-100B. Secondary offering appears inevitable", "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/"},
+    {"date": "2026-03-13", "headline": "China Jan-Feb sales 127,728 units, +35% YoY (BYD declined)", "significance": "China market reversal signal. Global delivery recovery expectations strengthened", "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 408.42,
+    "highTarget": 600.00,
+    "lowTarget": 25.28,
+    "upsidePercent": 4.0,
+    "buyCount": 17,
+    "holdCount": 17,
+    "sellCount": 9,
+    "notableComment": "43 analysts: 15 Strong Buy, 17 Hold, 9 Strong Sell. Extreme polarization. Wedbush $600 highest, consensus $408.42. Upgrades expected after Terafab launch."
+  },
+  "risks": [
+    {"severity": "critical", "title": "BYD Competition Accelerating", "description": "BYD sold 2.26M EVs in 2025 (+28%) vs Tesla 1.64M (-8%). Aggressive emerging market expansion."},
+    {"severity": "high", "title": "Terafab + Samsung AI6 Execution Risk", "description": "Tesla has zero semiconductor manufacturing experience yet plans $25-40B fab. Samsung AI6 delayed 6 months. Total 3-5 year capex needs $80-100B, making capital raise inevitable."},
+    {"severity": "high", "title": "Extreme Valuation, P/E 390x", "description": "TTM P/E 390x, Forward P/E 191x. Any growth slowdown could trigger severe multiple compression."},
+    {"severity": "high", "title": "Secondary Offering Nearly Certain", "description": "FCF of $6.2B cannot cover $20B+ 2026 capex plus $25-40B Terafab. Electrek projects first equity raise since 2020 is inevitable."},
+    {"severity": "medium", "title": "Musk Leadership Dilution", "description": "Simultaneously leading Tesla, xAI, SpaceX, X, DOGE, and Macrohard. Focus concerns persist."}
+  ],
+  "buyReasons": [
+    {"title": "Samsung AI6 + Terafab: Semiconductor Independence Roadmap", "rationale": "Samsung $16.5B partnership secures AI6 chip production. Terafab March 21 launch as first step toward NVIDIA/TSMC independence. Dual-track approach diversifies risk."},
+    {"title": "LG $4.3B Battery Deal + Energy Acceleration", "rationale": "US-made LFP cells for Megapack 3 secure energy supply chain. Energy segment gross profit hit $1.1B, reducing EV dependence."},
+    {"title": "Cybercab April Production + Macrohard AI Business", "rationale": "Robotaxi commercialization begins. Macrohard entry into enterprise AI market diversifies revenue beyond automotive."},
+    {"title": "China Jan-Feb Sales +35%, Global Recovery Signal", "rationale": "China rebound signals global delivery recovery. Gaining market share despite price war."}
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 249.84,
+    "currentPositionPercent": 57.4,
+    "sma50": 415.0,
+    "sma50Signal": "below",
+    "sma200": 394.0,
+    "sma200Signal": "below",
+    "rsi": 36.0,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Samsung's confirmation of Tesla AI6 chip production at Taylor, TX ($16.5B partnership) adds to the semiconductor independence roadmap, though production has slipped ~6 months to Q4 2027. Combined with Terafab's March 21 launch, the chip strategy is taking shape.",
+    "The inflation surprise drove the broader market sharply lower, pushing Tesla below its 200-day MA ($394) to $392.78. No company-specific bad news, but the macro headwind is real.",
+    "Terafab investment of $25-40B and total 3-5 year capex needs of $80-100B make a capital raise nearly inevitable. Catalysts are abundant, but dilution risk is the key variable.",
+    "RSI at 36 approaches oversold territory with the 200-day MA broken. A short-term bounce is possible, but waiting for clarity on the capital raise and Terafab launch results is the safer approach."
+  ],
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "Growth catalysts are abundant (Samsung AI6, LG battery, Terafab) but an inevitable capital raise and P/E 390x valuation create headwinds. With the 200-day MA broken, it's safer to wait for Terafab launch results and capital raise details before committing.",
+    "horizon": "6-12 months"
+  },
+  "sources": [
+    {"name": "SamMobile", "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/", "description": "Samsung Tesla AI6 chip Taylor TX 2nm production confirmed"},
+    {"name": "Electrek (AI6 Delay)", "url": "https://electrek.co/2026/03/12/tesla-ai6-chip-delayed-samsung-2nm-production-slips/", "description": "Tesla AI6 chip delayed ~6 months to Q4 2027"},
+    {"name": "Electrek (Capital Raise)", "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/", "description": "Terafab $25-40B, 3-5 year needs $80-100B. Capital raise inevitable"},
+    {"name": "Electrek (LG Battery)", "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/", "description": "Tesla-LG $4.3B LFP battery deal confirmed"},
+    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html", "description": "China Jan-Feb sales 127,728 units, +35% YoY"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/18/why-tesla-stock-is-down-in-the-red-today/", "description": "TSLA down on inflation surprise analysis"},
+    {"name": "Barchart", "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-18-as-tesla-gears-up-to-launch-terafab-is-tsla-stock-a-buy", "description": "43 analyst consensus $408.42, Hold rating"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/", "description": "TSLA real-time price, financials, P/E data"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/dear-tesla-stock-fans-mark-154407921.html", "description": "Terafab March 21 launch analysis"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA consensus target and analyst ratings"}
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "Tesla seals $16.5B Samsung chip deal. But the 200-day MA just broke",
+      "text": "$TSLA (3/19) $392.78 (-1.63%). Samsung AI6 chip $16.5B partnership confirmed. 2nm at Taylor, TX, but delayed 6 months to Q4 2027. Terafab launch D-2.\n\n1/4",
+      "thread": [
+        "Inflation surprise hammered the broader market. Tesla fell below its 200-day MA ($394). No company-specific bad news, just macro headwinds.\n\n2/4",
+        "Terafab alone needs $25-40B. Total 3-5 year investment: $80-100B. With FCF at $6.2B, a capital raise is virtually certain. First since 2020.\n\n3/4",
+        "RSI 36, near oversold. Catalysts are abundant but dilution risk is the key variable. Wait for Terafab launch results and capital raise clarity. Hold.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "Tesla's Samsung chip deal couldn't save it from the inflation selloff",
+      "text": "$TSLA (3/19) $392.78 (-1.63%)\n\nSamsung confirmed AI6 chip production at Taylor, TX on 2nm. $16.5B partnership but delayed ~6 months to Q4 2027. Terafab launches in 2 days.\n\nThe problem is money. Terafab $25-40B, total 3-5 year needs $80-100B. A capital raise is inevitable. Inflation surprise pushed Tesla below its 200-day MA. RSI 36. Lots of catalysts but no rush. Hold."
+    },
+    "telegram": {
+      "hook": "Samsung AI6 $16.5B deal confirmed, 200-day MA broken",
+      "text": "Tesla Daily Analysis (3/19)\n\nPrice: $392.78 (-1.63%)\nMkt Cap: $1.47T\n\nKey Points\n- Samsung AI6 chip $16.5B partnership (Taylor TX, 2nm)\n- Production delayed ~6 months, Q4 2027 realistic\n- Terafab March 21 launch D-2 ($25-40B investment)\n- Inflation surprise drove broad market selloff\n- Capital raise virtually certain (3-5yr needs $80-100B)\n\nTechnicals\n- Below 200-day MA ($394)\n- Below 50-day MA ($415)\n- RSI 36 (near oversold)\n\nP/E: 390x / Forward P/E: 191x\nTarget: $408.42 (+4.0%)\nVerdict: Hold (6-12 months)"
+    }
+  }
+}
