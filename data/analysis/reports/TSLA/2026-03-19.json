@@ -2,8 +2,8 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-19",
-  "currentPrice": 392.78,
-  "marketCap": "$1.47T",
+  "currentPrice": 398.09,
+  "marketCap": "$1.50T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
     "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. 2026년 4월부터 Cybercab 생산, Optimus Gen 3 공개 등 핵심 성장 촉매가 본격화된다.",
@@ -28,12 +28,12 @@
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "390x",
+      "value": "395x",
       "interpretation": "S&P 500 평균(약 23x), 자동차 섹터 평균(약 16x) 대비 극단적 프리미엄. AI/로봇/에너지 미래가치를 반영하지만, 실적 대비 고평가 논란 지속"
     },
     {
       "name": "Forward P/E",
-      "value": "191x",
+      "value": "193x",
       "interpretation": "FY2026 EPS 컨센서스 기준. 성장 기대가 높지만 실현까지 시간이 필요하다"
     },
     {
@@ -59,20 +59,20 @@
   ],
   "growthDrivers": [
     {
-      "title": "Samsung AI6 칩 $16.5B 파트너십, 텍사스 Taylor 공장에서 2nm 양산",
-      "description": "Samsung이 Tesla의 차세대 AI6(HW6) 칩을 2nm 공정으로 텍사스 Taylor 공장에서 생산한다. 계약 규모 $16.5B(2033년까지). 현재 포스트 실리콘 검증 단계이며 H2 2027 양산 예정이나, Electrek에 따르면 약 6개월 지연되어 Q4 2027이 현실적이다."
+      "title": "Samsung AI6 칩 $16.5B 파운드리 계약 확정",
+      "description": "Samsung이 주주총회에서 Tesla AI6(HW6) 칩을 텍사스 테일러 공장에서 2nm(SF2P) 공정으로 양산한다고 확인했다. 2033년까지 $16.5B 규모. 다만 Electrek(3/12)에 따르면 AI6 MPW(시제품) 생산이 약 6개월 지연되어 Samsung의 수율 문제가 남아있다."
     },
     {
-      "title": "Terafab 3/21 런치 D-2: 로직+메모리+패키징 수직 통합 공개",
-      "description": "Terafab은 단순한 AI 칩 공장이 아니라 로직 프로세싱, 메모리 스토리지, 어드밴스드 패키징을 하나의 시설에서 처리하는 2nm급 팹. 예상 투자 규모 $25-40B. Musk는 Samsung, TSMC, Intel과도 칩 생산 협력을 열어두고 있다."
+      "title": "Terafab 3/21 런치 D-2: 세계 최대 2nm AI 칩 팹 착공",
+      "description": "Terafab은 로직, 메모리, 어드밴스드 패키징을 하나의 시설에서 처리하는 수직 통합 팹이다. $200억+ 투자 규모. 3/21 런치는 착공식/초기 장비 설치 단계이며, AI5 칩 소량 생산 2026년, 본격 양산 2027년 예정."
     },
     {
       "title": "LG에너지솔루션과 $43억 LFP 배터리 공장 계약 확정",
-      "description": "미국 정부가 Tesla-LG $43억 LFP 배터리 제조 시설(미시간 랜싱) 계약을 공식 확인. Megapack 3용 미국산 셀로 2027년 생산 시작. 2.8리터 대형 셀로 유닛당 5 MWh 달성(기존 3.9 MWh 대비 28% 증가)."
+      "description": "미국 정부가 미시간 랜싱 LFP 셀 제조 시설 계약을 공식 확인. Megapack 3용 미국산 셀로 2027년 생산 시작. 유닛당 5 MWh 달성(기존 3.9 MWh 대비 28% 증가)."
     },
     {
-      "title": "Cybercab 생산라인, 주당 수백 대 규모로 4월 양산 시작",
-      "description": "Cybercab 생산라인이 주당 수백 대 규모로 설계 중. 연 200만대 목표. 스티어링 휠과 페달이 없는 완전 자율주행 차량으로 규제 허들이 남아있지만, 생산 인프라 구축은 순조롭게 진행 중."
+      "title": "Cybercab 4월 양산 시작, Macrohard AI 사업 진출",
+      "description": "Cybercab 생산라인이 주당 수백 대 규모로 설계 중. Macrohard(Tesla-xAI 합작)는 엔터프라이즈급 AI 플랫폼으로 자동차 넘어선 수익원 다각화."
     },
     {
       "title": "중국 1-2월 판매 +35% YoY, 글로벌 반등 신호",
@@ -80,7 +80,7 @@
     }
   ],
   "competitiveAdvantage": {
-    "summary": "미국 EV 시장 50%+ 점유율 리더. FSD 82억 마일 데이터, Supercharger NACS 표준, 수직 통합이 핵심 해자. 그러나 BYD가 글로벌 판매에서 추월하며 경쟁 격차 축소 중.",
+    "summary": "미국 EV 시장 50%+ 점유율 리더. FSD 82억 마일 데이터, Supercharger NACS 표준, 수직 통합이 핵심 해자. Samsung AI6 파운드리 계약으로 자체 칩 생태계 구축 가속.",
     "moats": [
       {
         "type": "자율주행 데이터 해자",
@@ -88,7 +88,7 @@
       },
       {
         "type": "수직 통합 + AI 칩 자체 생산",
-        "description": "자체 배터리(4680), 커스텀 칩(Terafab 로직+메모리), 소프트웨어(FSD), 충전 인프라(Supercharger)."
+        "description": "자체 배터리(4680), 커스텀 칩(Terafab+Samsung AI6), 소프트웨어(FSD), 충전 인프라(Supercharger)."
       },
       {
         "type": "충전 네트워크 효과",
@@ -113,15 +113,15 @@
   "recentNews": [
     {
       "date": "2026-03-18",
-      "headline": "Samsung, Tesla AI6 칩 텍사스 Taylor 공장에서 2nm 양산 확정 (H2 2027)",
-      "significance": "$16.5B 규모 장기 파트너십. AI6(HW6)는 FSD와 Optimus의 핵심 칩이다. 다만 약 6개월 지연으로 Q4 2027이 현실적",
+      "headline": "Samsung, Tesla AI6 칩 2nm 양산 확정: 텍사스 테일러 공장, $16.5B 계약",
+      "significance": "Samsung 주주총회에서 AI6(HW6) 칩 파운드리 계약 공식 확인. 2027년 하반기 양산 목표. Tesla의 듀얼 파운드리 전략(Samsung+TSMC) 구체화",
       "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/"
     },
     {
       "date": "2026-03-18",
-      "headline": "인플레이션 서프라이즈로 시장 전체 급락, TSLA -1.63% 마감",
-      "significance": "예상보다 높은 물가 지표에 다우존스가 2026년 저점을 기록. 개별 악재가 아닌 매크로 요인으로 하락",
-      "url": "https://invezz.com/news/2026/03/18/why-tesla-stock-is-down-in-the-red-today/"
+      "headline": "Musk, 신형 Tesla Roadster 공개 시점 암시: 'next-level banger'",
+      "significance": "Roadster 프로토타입 디자인 변경 확인. 정확한 공개일은 미정이나 기대감 조성",
+      "url": "https://www.teslaoracle.com/2026/03/18/musk-hints-at-new-tesla-roadster-unveiling-date-it-will-be-a-banger-next-level-he-says/"
     },
     {
       "date": "2026-03-17",
@@ -130,27 +130,27 @@
       "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/"
     },
     {
-      "date": "2026-03-17",
-      "headline": "Terafab 확장 계획으로 2020년 이후 첫 자본 조달 가능성 부각",
-      "significance": "Terafab 예상 투자 $25-40B. 향후 3-5년 총 투자 수요 $80-100B. 유상증자 불가피 전망",
-      "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/"
-    },
-    {
       "date": "2026-03-13",
       "headline": "중국 1-2월 판매 127,728대, 전년비 35% 증가(BYD는 하락)",
       "significance": "중국 시장 반전 신호. 글로벌 판매 회복 기대 강화",
       "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html"
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "Tesla AI6 칩 약 6개월 지연: Samsung 2nm 수율 문제",
+      "significance": "AI6 MPW 생산 지연. 듀얼 파운드리 전략이 보험 역할을 하지만, Samsung 2nm 공정 성숙도가 관건",
+      "url": "https://electrek.co/2026/03/12/tesla-ai6-chip-delayed-samsung-2nm-production-slips/"
     }
   ],
   "analystOpinions": {
     "consensusTarget": 408.42,
     "highTarget": 600.00,
     "lowTarget": 25.28,
-    "upsidePercent": 4.0,
-    "buyCount": 17,
+    "upsidePercent": 2.6,
+    "buyCount": 15,
     "holdCount": 17,
     "sellCount": 9,
-    "notableComment": "43명 중 15명 Strong Buy, 17명 Hold, 9명 Strong Sell로 극단 양분. Wedbush $600 최고 목표가 유지. Barchart 기준 컨센서스 $408.42. Terafab 런치 후 업그레이드 기대."
+    "notableComment": "Barchart 기준 43명 중 Hold 컨센서스. Strong Buy 15명, Strong Sell 9명으로 극단 양분. 평균 목표가 $408.42로 상승 여력 3%에 불과."
   },
   "risks": [
     {
@@ -161,7 +161,12 @@
     {
       "severity": "high",
       "title": "Terafab + Samsung AI6 실행 리스크",
-      "description": "반도체 경험이 전무한 Tesla가 $25-40B 규모 칩 팹을 운영하겠다는 계획. Samsung AI6 생산도 6개월 지연(Q4 2027). Terafab 포함 향후 3-5년 투자 수요 $80-100B로 자본 조달이 불가피하다."
+      "description": "반도체 경험 제로인 Tesla가 세계 최대 2nm 팹을 운영하겠다는 계획. Samsung AI6 칩은 이미 6개월 지연됐고, 2nm 수율 문제가 해결되지 않았다. $200억+ 설비투자 매몰 비용 리스크."
+    },
+    {
+      "severity": "high",
+      "title": "극단적 밸류에이션, P/E 395배",
+      "description": "TTM P/E 395배, Forward P/E 193배. 성장 둔화와 경쟁 심화 시 멀티플이 급격히 하락할 수 있다."
     },
     {
       "severity": "high",
@@ -169,14 +174,9 @@
       "description": "288만대 대상 FSD 조사, 오스틴 로보택시 14건 교통위반, 철도 건널목 사고. Cybercab은 스티어링 없는 차량으로 미국 내 판매 전 규제 승인이 필수."
     },
     {
-      "severity": "high",
-      "title": "극단적 밸류에이션, P/E 390배",
-      "description": "TTM P/E 390배, Forward P/E 191배. 성장 둔화와 경쟁 심화 시 멀티플이 급격히 하락할 수 있다."
-    },
-    {
-      "severity": "high",
-      "title": "유상증자 거의 확실, 주주 희석 리스크",
-      "description": "Electrek은 2025년 FCF $6.2B에 비해 2026년 capex가 $20B+ 이상이고, Terafab까지 합산하면 현금으로 감당 불가능하다고 분석. 2020년 이후 첫 유상증자가 불가피한 상황."
+      "severity": "medium",
+      "title": "자본 조달 리스크, 주주 희석 가능성",
+      "description": "2026년 $20B+ 설비투자 가이던스. Electrek은 2020년 이후 첫 유상증자 가능성을 제기. 주주 희석 리스크."
     },
     {
       "severity": "medium",
@@ -186,59 +186,53 @@
   ],
   "buyReasons": [
     {
-      "title": "Samsung AI6 + Terafab: 반도체 자립 로드맵 구체화",
-      "rationale": "Samsung $16.5B 파트너십으로 AI6 칩 양산 확보. Terafab 3/21 런치로 장기적 NVIDIA, TSMC 의존 탈피의 첫 걸음. 두 트랙 동시 진행으로 리스크 분산."
+      "title": "Samsung AI6 $16.5B + LG $43억: 칩+배터리 공급망 동시 확보",
+      "rationale": "AI6 칩 파운드리와 Megapack 배터리 셀 공급이 동시에 확정됐다. AI 칩 자체 생산과 에너지 사업 확장의 핵심 병목이 해소되고 있다."
     },
     {
-      "title": "LG $43억 배터리 딜 + 에너지 사업 가속",
-      "rationale": "Megapack 3용 미국산 LFP 셀 공급 확보로 에너지 사업 성장 가속. 에너지 부문 총이익 $1.1B 달성으로 EV 의존도 줄어드는 중."
+      "title": "Terafab 3/21 런치 + Cybercab 4월 양산",
+      "rationale": "이틀 후 Terafab 착공, 다음 달 Cybercab 양산 시작. 단기 촉매가 연이어 예정돼 있다."
     },
     {
-      "title": "Cybercab 4월 양산 + Macrohard AI 사업 진출",
-      "rationale": "로보택시 사업화 첫 걸음. Macrohard로 엔터프라이즈 AI 시장 진출. 자동차 넘어선 수익원 다각화."
+      "title": "중국 1-2월 판매 +35%, 에너지 사업 5분기 연속 최고 수익",
+      "rationale": "중국 반등이 글로벌 딜리버리 회복 신호. 에너지 부문 총이익 $1.1B 달성으로 EV 의존도 줄어드는 중."
     },
     {
-      "title": "중국 1-2월 판매 +35%, 글로벌 반등 신호",
-      "rationale": "중국 반등이 글로벌 딜리버리 회복 신호. 가격 전쟁 속에서도 점유율 확보 중."
+      "title": "Optimus 로봇 + Fremont 공장 전환",
+      "rationale": "Model S/X 종료하고 Optimus 생산 전환. 성공 시 TAM $12T+ 로봇 시장 진입."
     }
   ],
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 249.84,
-    "currentPositionPercent": 57.4,
+    "currentPositionPercent": 59.5,
     "sma50": 415.0,
     "sma50Signal": "below",
     "sma200": 394.0,
-    "sma200Signal": "below",
-    "rsi": 36.0,
+    "sma200Signal": "above",
+    "rsi": 38.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Samsung이 Tesla AI6 칩을 텍사스 Taylor 공장에서 2nm로 양산한다는 소식이 나왔다. $16.5B 규모 장기 파트너십이지만, 양산 시점이 6개월 밀려 Q4 2027이 현실적이다. Terafab 3/21 런치와 합쳐 반도체 자립 로드맵이 윤곽을 잡아가고 있다.",
-    "인플레이션 서프라이즈로 시장 전체가 급락했고, Tesla도 -1.63% 하락하며 200일선($394) 아래로 떨어졌다. 개별 악재는 없지만 매크로 환경이 나빠진 것이 부담이다.",
-    "Terafab 투자 $25-40B에 향후 3-5년 총 투자 수요 $80-100B. Electrek은 유상증자가 거의 불가피하다고 본다. 촉매는 풍부하지만 희석 리스크가 가장 큰 변수다.",
-    "200일선이 깨졌고 RSI 36으로 과매도에 근접 중이다. 단기 반등 가능성은 있지만, 유상증자 구체화 전까지는 관망이 현명하다."
+    "Samsung이 주주총회에서 Tesla AI6 칩의 2nm 양산을 공식 확인했다. $16.5B 규모 계약으로 텍사스 테일러 공장에서 2027년 하반기부터 생산된다. 다만 AI6 시제품(MPW)은 6개월 지연된 상태라 Samsung의 수율 해결이 관건이다.",
+    "이틀 후인 3/21 Terafab 착공식이 예정돼 있고, LG 배터리 $43억 딜도 확정된 상태다. 칩과 배터리 공급망이 동시에 구체화되면서 Tesla의 수직 통합 전략이 실체를 갖춰가고 있다.",
+    "그러나 $398에서 거의 움직이지 않는 주가가 말해주듯, 시장은 이미 많은 것을 반영하고 있다. P/E 395배에 애널리스트 43명 컨센서스가 Hold다. 200일선($394) 위에서 지지는 받고 있지만, 50일선($415)을 넘어서지 못하고 있다."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Samsung AI6, LG 배터리, Terafab 등 성장 촉매는 풍부하지만, 유상증자 불가피 전망과 P/E 390배 밸류에이션이 부담이다. 200일선이 깨진 상태에서 매수보다는 유상증자 구체화와 Terafab 런치 결과를 확인한 뒤 판단하는 것이 안전하다.",
+    "summary": "Samsung AI6와 LG 배터리 딜로 공급망이 확보되고, Terafab 착공이 이틀 앞이다. 하지만 AI6 지연과 P/E 395배 밸류에이션, 43명 애널리스트 Hold 컨센서스를 감안하면 현 가격에서 적극 매수보다는 관망이 적절하다.",
     "horizon": "6-12개월"
   },
   "sources": [
     {
       "name": "SamMobile (Samsung AI6)",
       "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/",
-      "description": "Samsung, Tesla AI6 칩 텍사스 Taylor 공장 2nm 양산 확정"
+      "description": "Samsung AI6 칩 텍사스 테일러 공장 2nm 양산 확인, $16.5B 계약"
     },
     {
       "name": "Electrek (AI6 Delay)",
       "url": "https://electrek.co/2026/03/12/tesla-ai6-chip-delayed-samsung-2nm-production-slips/",
-      "description": "Tesla AI6 칩 생산 약 6개월 지연, Q4 2027 양산 전망"
-    },
-    {
-      "name": "Electrek (Capital Raise)",
-      "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/",
-      "description": "Terafab $25-40B 투자, 향후 3-5년 $80-100B 자본 수요. 유상증자 불가피 분석"
+      "description": "Tesla AI6 칩 MPW 생산 약 6개월 지연, Samsung 2nm 수율 문제"
     },
     {
       "name": "Electrek (LG Battery Deal)",
@@ -246,96 +240,101 @@
       "description": "Tesla-LG $43억 LFP 배터리 공장 계약 공식 확인"
     },
     {
+      "name": "Tesla Oracle (Roadster)",
+      "url": "https://www.teslaoracle.com/2026/03/18/musk-hints-at-new-tesla-roadster-unveiling-date-it-will-be-a-banger-next-level-he-says/",
+      "description": "Musk 신형 Roadster 공개 시점 암시"
+    },
+    {
+      "name": "Barchart (Analyst Consensus)",
+      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-18-as-tesla-gears-up-to-launch-terafab-is-tsla-stock-a-buy",
+      "description": "43명 애널리스트 Hold 컨센서스, 평균 목표가 $408.42"
+    },
+    {
       "name": "CNBC (China Sales)",
       "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html",
       "description": "중국 1-2월 판매 127,728대, 전년비 35% 증가"
     },
     {
-      "name": "Invezz",
-      "url": "https://invezz.com/news/2026/03/18/why-tesla-stock-is-down-in-the-red-today/",
-      "description": "인플레이션 서프라이즈로 TSLA 하락 분석"
-    },
-    {
-      "name": "Barchart (Analyst)",
-      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-18-as-tesla-gears-up-to-launch-terafab-is-tsla-stock-a-buy",
-      "description": "43명 애널리스트 컨센서스 $408.42, Hold 등급"
-    },
-    {
-      "name": "StockAnalysis",
-      "url": "https://stockanalysis.com/stocks/tsla/",
-      "description": "TSLA 실시간 주가, 재무 데이터, P/E 등 기본 지표"
-    },
-    {
-      "name": "Yahoo Finance (Terafab)",
-      "url": "https://finance.yahoo.com/news/dear-tesla-stock-fans-mark-154407921.html",
-      "description": "Terafab 3/21 런치 앞둔 TSLA 투자 분석"
+      "name": "Electrek (Capital Raise)",
+      "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/",
+      "description": "Terafab 확장으로 2020년 이후 첫 자본 조달 가능성 분석"
     },
     {
       "name": "MarketBeat",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
-      "description": "TSLA 컨센서스 목표가 및 애널리스트 등급 분포"
+      "description": "TSLA 컨센서스 목표가 $406.84, 애널리스트 등급 분포"
+    },
+    {
+      "name": "Tesery (Terafab)",
+      "url": "https://www.tesery.com/blogs/news/tesla-terafab-set-for-launch-inside-the-20-billion-ai-chip-factory-reshaping-the-auto-industry",
+      "description": "Terafab 3/21 런치 상세 분석. 착공식 및 초기 장비 설치 단계"
+    },
+    {
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/tsla/",
+      "description": "TSLA 재무 데이터, P/E, 매출, FCF 등 기본 지표"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla, Samsung과 $16.5B 칩 동맹. 200일선은 깨졌다",
-      "text": "$TSLA (3/19) $392.78(-1.63%). Samsung AI6 칩 $16.5B 파트너십 확정. 텍사스 Taylor에서 2nm 양산, 하지만 6개월 밀려 Q4 2027. Terafab 런치 D-2.\n\n1/4",
+      "hook": "Tesla AI6 칩 $16.5B 삼성 계약 확정, Terafab D-2",
+      "text": "$TSLA (3/19) $398.09. Samsung이 AI6 칩 2nm 양산을 공식 확인했다. $16.5B, 텍사스 테일러 공장. 다만 시제품은 6개월 지연 중. 이틀 후 Terafab 착공식.\n\n1/4",
       "thread": [
-        "인플레이션 서프라이즈에 시장 전체 급락. Tesla도 200일선($394)이 깨졌다. 개별 악재는 아니지만 매크로가 발목을 잡는다.\n\n2/4",
-        "Terafab $25-40B, 향후 3-5년 총 $80-100B 투자 필요. Electrek은 유상증자가 거의 확실하다고 본다. FCF $6.2B으로는 턱없이 부족.\n\n3/4",
-        "RSI 36으로 과매도 근접. 촉매는 풍부하지만 유상증자 리스크가 핵심 변수. 200일선 회복과 자본 조달 구체화를 지켜보자. Hold.\n\n4/4"
+        "Samsung 주총에서 AI6(HW6) 파운드리를 확정했지만, Electrek에 따르면 MPW 생산이 반년 밀렸다. 수율 문제가 아직 남아있다.\n\n2/4",
+        "LG $43억 배터리 딜은 이미 확정. 칩+배터리 공급망이 동시에 잡혔다. 중국 판매도 35% 반등. 촉매는 풍부하다.\n\n3/4",
+        "문제는 P/E 395배에 43명 애널리스트 컨센서스가 Hold라는 것. 목표가 $408(+3%). 200일선 위에서 지지 중이지만 서두를 이유는 없다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla, Samsung 칩 동맹에도 200일선 깨졌다",
-      "text": "$TSLA (3/19) $392.78(-1.63%)\n\nSamsung이 Tesla AI6 칩을 텍사스 Taylor에서 2nm로 양산한다. $16.5B 장기 파트너십이지만 양산이 6개월 밀려 Q4 2027. Terafab 3/21 런치와 합쳐 반도체 자립 로드맵이 윤곽을 잡아가고 있다.\n\n문제는 돈이다. Terafab $25-40B에 향후 3-5년 $80-100B. 유상증자가 불가피하다. 인플레이션 서프라이즈에 200일선($394)이 깨졌고 RSI 36. 촉매는 많지만 서두를 이유는 없다. Hold."
+      "hook": "Samsung, Tesla AI6 칩 양산 확정. 근데 6개월 밀렸다.",
+      "text": "$TSLA (3/19) $398.09\n\nSamsung이 주주총회에서 Tesla AI6 칩 2nm 양산을 공식 확인했다. 텍사스 테일러 공장, $16.5B 규모. 하지만 시제품 생산은 6개월 지연됐고, 수율이 아직 해결되지 않았다.\n\n모레(3/21) Terafab 착공식이 예정돼 있고, LG $43억 배터리 딜도 확정된 상태. 칩과 배터리 공급망이 동시에 구체화되고 있다.\n\n그러나 주가는 $398에서 꿈쩍도 안 한다. P/E 395배, 애널리스트 컨센서스 Hold, 목표가 $408(+3%). 촉매는 풍부하지만 시장은 이미 알고 있다."
     },
     "telegram": {
-      "hook": "Samsung AI6 $16.5B 파트너십, 200일선 하회",
-      "text": "Tesla 일일 분석 (3/19)\n\n가격: $392.78 (-1.63%)\n시총: $1.47T\n\n핵심 포인트\n- Samsung AI6 칩 $16.5B 파트너십 (텍사스 Taylor, 2nm)\n- 양산 시점 6개월 지연, Q4 2027 현실적\n- Terafab 3/21 런치 D-2 ($25-40B 투자)\n- 인플레이션 서프라이즈로 시장 전체 급락\n- 유상증자 불가피 전망 (향후 3-5년 $80-100B)\n\n주가 위치\n- 200일선($394) 하회\n- 50일 평균($415) 아래\n- RSI 36 (과매도 근접)\n\nP/E: 390x / Forward P/E: 191x\n목표가: $408.42 (+4.0%)\n판정: Hold (6-12개월)"
+      "hook": "Samsung AI6 $16.5B 확정 + Terafab D-2",
+      "text": "Tesla 일일 분석 (3/19)\n\n가격: $398.09 (보합)\n시총: $1.50T\n\n핵심 포인트\n- Samsung AI6(HW6) 칩 2nm 양산 확정 ($16.5B, 텍사스 테일러)\n- 다만 AI6 시제품 6개월 지연 (2nm 수율 문제)\n- Terafab 착공 3/21 (D-2)\n- LG $43억 배터리 딜 확정 (Megapack 3)\n- 중국 1-2월 판매 +35% YoY\n\n주가 위치\n- 52주 고점 $498.83 / 저점 $249.84\n- 50일 평균($415) 아래 / 200일 평균($394) 위\n- RSI 38 (중립)\n\nP/E: 395x / Forward P/E: 193x\n목표가: $408.42 (+3%, 43명 Hold)\n판정: Hold (6-12개월)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla, Samsung과 $16.5B 칩 동맹. 200일선은 깨졌다",
-          "text": "$TSLA (3/19) $392.78(-1.63%). Samsung AI6 칩 $16.5B 파트너십 확정. 텍사스 Taylor에서 2nm 양산, 하지만 6개월 밀려 Q4 2027. Terafab 런치 D-2.\n\n1/4",
+          "hook": "Tesla AI6 칩 $16.5B 삼성 계약 확정, Terafab D-2",
+          "text": "$TSLA (3/19) $398.09. Samsung이 AI6 칩 2nm 양산을 공식 확인했다. $16.5B, 텍사스 테일러 공장. 다만 시제품은 6개월 지연 중. 이틀 후 Terafab 착공식.\n\n1/4",
           "thread": [
-            "인플레이션 서프라이즈에 시장 전체 급락. Tesla도 200일선($394)이 깨졌다. 개별 악재는 아니지만 매크로가 발목을 잡는다.\n\n2/4",
-            "Terafab $25-40B, 향후 3-5년 총 $80-100B 투자 필요. Electrek은 유상증자가 거의 확실하다고 본다. FCF $6.2B으로는 턱없이 부족.\n\n3/4",
-            "RSI 36으로 과매도 근접. 촉매는 풍부하지만 유상증자 리스크가 핵심 변수. 200일선 회복과 자본 조달 구체화를 지켜보자. Hold.\n\n4/4"
+            "Samsung 주총에서 AI6(HW6) 파운드리를 확정했지만, Electrek에 따르면 MPW 생산이 반년 밀렸다. 수율 문제가 아직 남아있다.\n\n2/4",
+            "LG $43억 배터리 딜은 이미 확정. 칩+배터리 공급망이 동시에 잡혔다. 중국 판매도 35% 반등. 촉매는 풍부하다.\n\n3/4",
+            "문제는 P/E 395배에 43명 애널리스트 컨센서스가 Hold라는 것. 목표가 $408(+3%). 200일선 위에서 지지 중이지만 서두를 이유는 없다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla, 칩 공장 짓겠다고 $100B 필요. 주식 좀 찍어야 할 듯",
-          "text": "$TSLA (3/19) $392.78. Samsung이 AI6 칩을 만들어주겠다고 했는데 6개월 밀렸다. Terafab은 모레 런치. 돈은? 유상증자. P/E 390배.\n\n1/4",
+          "hook": "Tesla가 칩도 만들고 배터리도 만들고 차도 만든다",
+          "text": "$TSLA (3/19) $398.09. Samsung이 AI6 칩 양산을 확정했는데, 시제품은 6개월 밀렸다. 계약은 $16.5B인데 수율은 아직. Tesla의 취미: 큰 계획.\n\n1/4",
           "thread": [
-            "인플레이션 서프라이즈에 다우가 2026년 바닥을 찍었다. Tesla 혼자 빠진 게 아니라 시장 전체가 빠졌다. 200일선은 덤으로 깨짐.\n\n2/4",
-            "$25-40B 칩 팹 + $20B capex + LG 배터리 $4.3B. 합산하면 현금이 모자란다. FCF $6.2B으로 $100B 투자를 감당할 방법이 없다.\n\n3/4",
-            "그래도 Samsung, LG, TSMC가 줄 서서 Tesla와 손잡겠다고 하는 건 의미가 있다. 문제는 타이밍. RSI 36. 조급하지 말자. Hold.\n\n4/4"
+            "모레 Terafab 착공식이다. 반도체 경험 제로인 회사가 세계 최대 2nm 팹을 짓겠다는 건 여전히 SF 영화 같은 이야기다. $200억+.\n\n2/4",
+            "그래도 LG $43억 배터리, 중국 +35%, Cybercab 다음 달. 촉매 리스트가 A4 한 장이다. 문제는 주가가 이걸 다 알고 $398에서 자고 있다는 것.\n\n3/4",
+            "P/E 395배, 43명 애널리스트 Hold, 목표가 $408. 3% 올라봤자 커피 한 잔 값이다. 지켜보자.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla 주주들, 200일선이 깨져서 불안할 수 있다",
-          "text": "$TSLA (3/19) $392.78. 200일선이 깨졌다. 인플레이션 서프라이즈에 시장 전체가 빠진 거라 Tesla만의 문제는 아니다. 그래도 불안한 건 당연하다.\n\n1/4",
+          "hook": "Tesla 주주들, 촉매는 많은데 주가가 안 움직여서 답답하지",
+          "text": "$TSLA (3/19) $398.09. Samsung AI6 확정, Terafab D-2, LG 배터리 딜. 좋은 뉴스가 계속 나오는데 주가는 제자리다. 기다리는 게 쉽지 않을 거다.\n\n1/4",
           "thread": [
-            "Samsung AI6 $16.5B, LG 배터리 $4.3B, Terafab 모레 런치. 뉴스는 계속 좋다. 문제는 이 모든 걸 실현하려면 돈이 많이 필요하다는 것.\n\n2/4",
-            "유상증자 얘기가 나오는 건 성장통이다. $80-100B 투자는 미래를 위한 것이지 적자 보전이 아니다. 다만 단기 희석은 피할 수 없다.\n\n3/4",
-            "RSI 36이면 반등 가능한 구간이기도 하다. Terafab 런치 결과를 보고 판단해도 늦지 않다. 조급하지 않아도 된다. Hold.\n\n4/4"
+            "AI6 시제품이 6개월 밀린 건 아쉽지만, $16.5B 계약 자체가 확정된 건 의미 있다. Samsung 수율이 해결되면 2027년부터 본격 생산이다.\n\n2/4",
+            "모레 Terafab 착공식, 다음 달 Cybercab 양산. 촉매가 곧 현실이 된다. 중국 판매 35% 반등도 든든한 버팀목이다.\n\n3/4",
+            "200일선 위에서 버티고 있고, RSI 38은 과매도에 가깝다. P/E가 부담되더라도 장기 관점에선 지금이 인내의 시간이다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla, Samsung 칩 동맹에도 200일선 깨졌다",
-          "text": "$TSLA (3/19) $392.78(-1.63%)\n\nSamsung이 Tesla AI6 칩을 텍사스 Taylor에서 2nm로 양산한다. $16.5B 장기 파트너십이지만 양산이 6개월 밀려 Q4 2027. Terafab 3/21 런치와 합쳐 반도체 자립 로드맵이 윤곽을 잡아가고 있다.\n\n문제는 돈이다. Terafab $25-40B에 향후 3-5년 $80-100B. 유상증자가 불가피하다. 인플레이션 서프라이즈에 200일선($394)이 깨졌고 RSI 36. 촉매는 많지만 서두를 이유는 없다. Hold."
+          "hook": "Samsung, Tesla AI6 칩 양산 확정. 근데 6개월 밀렸다.",
+          "text": "$TSLA (3/19) $398.09\n\nSamsung이 주주총회에서 Tesla AI6 칩 2nm 양산을 공식 확인했다. 텍사스 테일러 공장, $16.5B 규모. 하지만 시제품 생산은 6개월 지연됐고, 수율이 아직 해결되지 않았다.\n\n모레(3/21) Terafab 착공식이 예정돼 있고, LG $43억 배터리 딜도 확정된 상태. 칩과 배터리 공급망이 동시에 구체화되고 있다.\n\n그러나 주가는 $398에서 꿈쩍도 안 한다. P/E 395배, 애널리스트 컨센서스 Hold, 목표가 $408(+3%). 촉매는 풍부하지만 시장은 이미 알고 있다."
         },
         "witty": {
-          "hook": "Tesla 투자 계획 합산하니 $100B. 현금은 $44B",
-          "text": "$TSLA (3/19) $392.78(-1.63%)\n\nSamsung AI6, LG 배터리, Terafab, Cybercab. 뉴스 리스트는 화려한데 가격표를 합산하면 $80-100B이다. FCF $6.2B으로 감당할 수 있을 리가 없다.\n\n인플레이션 서프라이즈에 200일선이 깨졌고 유상증자가 코앞이다. 그래도 Samsung, LG, TSMC가 줄 서는 건 Tesla니까 가능한 일이다. RSI 36. 바닥이 가까울 수 있지만 서두를 이유도 없다. Hold."
+          "hook": "Tesla, 칩공장 짓고 배터리공장 짓고 차공장도 짓고",
+          "text": "$TSLA (3/19) $398.09\n\nSamsung이 AI6 양산을 확정했는데, 시제품은 반년 밀렸다. $16.5B 계약 따고 6개월 지연이라니, Tesla답다.\n\nTerafab 착공이 모레인데, 반도체 경험 제로인 회사가 세계 최대 2nm 팹을. 한편 LG 배터리 $43억, 중국 +35%, Cybercab 다음 달 양산.\n\n촉매 목록만 보면 올인하고 싶지만, P/E 395배에 43명이 Hold라고 한다. $408 목표가면 커피값 수익이다. 기다리자."
         },
         "empathy": {
-          "hook": "Tesla 200일선 하회, 유상증자 불안까지",
-          "text": "$TSLA (3/19) $392.78(-1.63%)\n\n200일선이 깨지면 기분이 좋을 수 없다. 인플레이션 서프라이즈에 시장 전체가 빠진 거라 Tesla 자체 문제는 아니다.\n\nSamsung AI6, LG 배터리, Terafab 등 성장 촉매는 역대급으로 많다. 다만 이걸 실현하려면 $80-100B이 필요하고 유상증자가 불가피하다. 성장통이지만 단기 희석은 부담이다.\n\nRSI 36으로 과매도 근접. Terafab 런치 결과를 보고 판단해도 된다. 조급하지 않아도 괜찮다. Hold."
+          "hook": "Tesla 좋은 뉴스만 나오는데 왜 $398인지 답답하다면",
+          "text": "$TSLA (3/19) $398.09\n\nSamsung AI6 $16.5B 확정, LG $43억 배터리, Terafab D-2, 중국 +35%. 뉴스만 보면 올라야 할 것 같은데 주가는 미동도 없다. 답답할 수 있다.\n\nAI6 시제품 6개월 지연은 불안 요소지만, 계약 자체가 확정된 건 장기적으로 의미 있다. 모레 Terafab 착공, 다음 달 Cybercab.\n\n200일선에서 버티고 있고, 촉매가 하나씩 현실이 되는 중이다. P/E 395배가 부담되더라도, 이 시간이 지나면 돌아볼 수 있다."
         }
       }
     }

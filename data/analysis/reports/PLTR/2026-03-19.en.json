@@ -3,47 +3,53 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-19",
   "currentPrice": 152.77,
-  "marketCap": "$365.5B",
+  "marketCap": "$365.4B",
   "businessSummary": {
-    "oneLiner": "Leader in government and enterprise AI data analytics platforms with Gotham (defense), Foundry (enterprise), and AIP (AI Platform) trilateral structure",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue hit $4.48B (+56%), with US commercial revenue surpassing $500M — a milestone in civilian market expansion. AIPCon 9 saw major partnerships with NVIDIA, GE Aerospace, and others. UBS raised its target to $200 but shares fell -1.49% on inflation surprise.",
-    "howTheyMakeMoney": ["Government contracts (Gotham)", "Enterprise AI platform (Foundry)", "AIP (AI Platform)", "AIP Bootcamps"],
-    "keyProducts": ["Gotham", "Foundry", "AIP", "Sovereign AI Datacenter OS", "Ontology"]
+    "oneLiner": "Government and enterprise AI data analytics platform leader, operating on three pillars: Gotham (defense), Foundry (enterprise), AIP (AI platform)",
+    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue reached $4.48B (+56%), with U.S. commercial revenue surpassing $500M, marking successful civilian market expansion. The U.S. Navy's ShipOS project recently expanded with Keel joining, extending defense AI applications to submarine production. CTO Shyam Sankar stated that 'the U.S. has only 8 days of weapons for a major fight against China and needs 800,' underscoring the urgency of defense AI investment.",
+    "howTheyMakeMoney": [
+      "Government contracts (Gotham)",
+      "Enterprise AI platform (Foundry)",
+      "AIP (AI Platform)",
+      "AIP Boot Camps"
+    ],
+    "keyProducts": ["Gotham", "Foundry", "AIP", "ShipOS", "Sovereign AI Data Center OS", "Ontology"]
   },
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "221.5x", "interpretation": "10x+ S&P 500 average (22x). Extremely elevated even vs software avg (35x)"},
-    {"name": "Forward P/E", "value": "114.0x", "interpretation": "Based on FY2026 EPS $1.34. Significant growth premium but still demanding"},
-    {"name": "Revenue Growth", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026E $7.41B (+65.5%). Growth is accelerating, not decelerating"},
-    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS companies. High profitability with high growth"},
+    {"name": "P/E (TTM)", "value": "221x", "interpretation": "Over 10x the S&P 500 avg (22x). Extreme premium even vs software avg (35x)"},
+    {"name": "Forward P/E", "value": "114x", "interpretation": "Based on FY2026 EPS $1.34. Large growth premium but still elevated"},
+    {"name": "Revenue Growth", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026E $7.41B (+65.5%). Growth is actually accelerating"},
+    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS companies. High profitability alongside rapid growth"},
     {"name": "FCF Margin", "value": "46.94%", "interpretation": "FCF $2.1B. Best-in-class cash generation in software"},
-    {"name": "Price-to-Book", "value": "48.7x", "interpretation": "$7.18B cash on hand. PBR extreme but reflects intangible asset value"}
+    {"name": "Revenue Backlog", "value": "$11.2B", "interpretation": "Per Motley Fool. Multi-year revenue visibility secured"}
   ],
   "growthDrivers": [
-    {"title": "UBS Raises Target to $200 from $180, Buy Maintained", "description": "Analyst Karl Keirstead raised 11.1%. AIPCon 9 partnerships and government AI spending expansion cited as key drivers."},
-    {"title": "AIPCon 9 Major Partnerships", "description": "Strategic partnerships with NVIDIA, GE Aerospace, and other global companies. Establishing position as AI agent ecosystem key player."},
-    {"title": "NVIDIA Sovereign AI OS Reference Architecture", "description": "Palantir software as standard OS on NVIDIA hardware. Securing government AI infrastructure market globally."},
-    {"title": "US Army $10B + Anduril $20B Subcontracting", "description": "$10B direct Army contract plus expected subcontracting from Anduril's $20B Army deal. Defense revenue pipeline significantly expanded."},
-    {"title": "FY2026 Estimates Significantly Raised", "description": "FY2026E revenue $7.41B (+65.5%), EPS $1.34 (+113%). Growth rate accelerating."}
+    {"title": "Navy ShipOS $448M: AI Expands to Submarine Production", "description": "Keel Holdings joined Palantir and the U.S. Navy on the ShipOS initiative. $448M authorized funding deploys Foundry and AIP across naval shipyards, submarine construction, and 100+ suppliers. Defense AI extending beyond the battlefield to manufacturing."},
+    {"title": "UBS Raises Target to $200, Maintains Buy", "description": "UBS analyst Karl Keirstead raised the target from $180 to $200 (+11%). Cites accelerating growth and AIP adoption as key drivers."},
+    {"title": "CTO Sankar: '8 Days vs 800 Days' Defense AI Imperative", "description": "CTO Shyam Sankar stated the U.S. has 'lost deterrence' with only 8 days of weapons for a China conflict and needs 800. Powerful narrative for defense AI budget expansion."},
+    {"title": "$11.2B Revenue Backlog + $10B Army + $20B Anduril Subcontract", "description": "Motley Fool analysis: $11.2B backlog, $10B direct Army contract, and Anduril $20B subcontract potential. Multi-year pipeline is extremely robust."},
+    {"title": "FY2026 Revenue Outlook $7.41B (+65.5%), Growth Accelerating", "description": "From 56% in FY2025 to 65.5% in FY2026. EPS expected to grow 113%."},
+    {"title": "NVIDIA Sovereign AI OS Reference Architecture", "description": "Palantir software as the standard OS on NVIDIA hardware. Positioned to capture sovereign AI infrastructure markets globally."}
   ],
   "competitiveAdvantage": {
-    "summary": "20+ years in government/defense AI. Security clearance as entry barrier. NVIDIA Sovereign AI partnership secures core position in AI agent ecosystem.",
+    "summary": "20+ years of government/defense AI track record. Security clearance creates insurmountable barriers. ShipOS expands AI applications to military manufacturing.",
     "moats": [
-      {"type": "Security Clearance Moat", "description": "Highest security clearance with DoD and intelligence agencies. Competitors cannot enter."},
-      {"type": "NVIDIA Sovereign AI Partnership", "description": "Sovereign AI OS + NVIDIA hardware ecosystem. Preempting global government AI infrastructure standards."},
-      {"type": "AIP Bootcamp Strategy", "description": "5-day intensive pilot converts enterprise prospects with high conversion rates."}
+      {"type": "Security Clearance Moat", "description": "Highest-level DoD and intelligence community clearances. Competitors cannot enter."},
+      {"type": "ShipOS + Military AI", "description": "AI deployed in submarine production, naval shipyards. Expanding beyond battlefield to manufacturing."},
+      {"type": "NVIDIA Sovereign AI Partnership", "description": "Sovereign AI OS + NVIDIA hardware ecosystem. Positioned as the standard for national AI infrastructure."}
     ],
     "competitors": [
-      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General approach vs Palantir's specialized analytics"},
+      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General-purpose vs Palantir's specialized analytics"},
       {"name": "Snowflake", "detail": "Data lakehouse expanding into analytics platform territory"},
-      {"name": "C3.ai", "detail": "Enterprise AI. Trails Palantir in scale and track record"}
+      {"name": "C3.ai", "detail": "Enterprise AI. Trailing Palantir in scale and execution"}
     ]
   },
   "recentNews": [
-    {"date": "2026-03-18", "headline": "UBS raises target to $200 from $180, maintains Buy", "significance": "Karl Keirstead's 11.1% raise. Post-AIPCon institutional sentiment improving", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news"},
-    {"date": "2026-03-18", "headline": "PLTR -1.49% to $152.77 on inflation surprise", "significance": "UBS upgrade couldn't offset macro weakness. Schaeffer's spots bullish crossover signal", "url": "https://www.schaeffersresearch.com/content/analysis/2026/03/18/software-stock-could-bounce-after-bullish-crossover"},
-    {"date": "2026-03-17", "headline": "Seeking Alpha upgrades from Hold to Buy", "significance": "Aggressive growth investment and accelerating revenue cited as upgrade rationale", "url": "https://seekingalpha.com/article/pltr-buy-upgrade"},
-    {"date": "2026-03-16", "headline": "Dan Ives (Wedbush) reaffirms $230 target post-AIPCon 9", "significance": "Leading AI analyst sees 50% upside from current levels", "url": "https://www.wedbush.com/research/pltr-target"},
-    {"date": "2026-03-14", "headline": "Anduril wins $20B US Army contract, PLTR subcontracting expected", "significance": "Palantir likely to participate as data analytics subcontractor. Defense revenue expansion", "url": "https://www.defense.gov/news/anduril-army-contract/"}
+    {"date": "2026-03-18", "headline": "PLTR drops 1.5% to $152.77 despite ShipOS expansion news", "significance": "Navy ShipOS positive but broader market weakness dragged stock down", "url": "https://ts2.tech/en/palantir-stock-price-today-pltr-slips-even-after-new-navy-shipos-push/"},
+    {"date": "2026-03-18", "headline": "UBS raises target from $180 to $200, maintains Buy", "significance": "Karl Keirstead cites accelerating growth and AIP expansion as basis for 11% target increase", "url": "https://www.marketbeat.com/instant-alerts/ubs-group-issues-positive-forecast-for-palantir-technologies-nasdaqpltr-stock-price-2026-03-18/"},
+    {"date": "2026-03-18", "headline": "CTO Sankar: 'U.S. has only 8 days of weapons for China war, needs 800'", "significance": "Emphasizes urgency of defense AI investment. Strengthens Palantir's defense revenue narrative", "url": "https://247wallst.com/investing/2026/03/18/palantir-cto-u-s-has-only-8-days-of-weapons-for-china-war-needs-800/"},
+    {"date": "2026-03-17", "headline": "Keel joins Palantir and U.S. Navy on ShipOS initiative ($448M)", "significance": "AI deployment for submarine production acceleration. Foundry/AIP across 100+ suppliers", "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production"},
+    {"date": "2026-03-18", "headline": "Motley Fool: $11.2B backlog, $10B Army deal, 61% growth", "significance": "Comprehensive analysis of multi-year pipeline and growth acceleration", "url": "https://www.fool.com/investing/2026/03/18/palantir-has-an-112-billion-revenue-backlog-a-10-b/"}
   ],
   "analystOpinions": {
     "consensusTarget": 194.05,
@@ -53,22 +59,20 @@
     "buyCount": 16,
     "holdCount": 10,
     "sellCount": 2,
-    "notableComment": "UBS $200 (+11% raise), Wedbush $230 maintained. MarketBeat consensus $194.05. Seeking Alpha Buy upgrade. 16 of 28 Buy."
+    "notableComment": "UBS Karl Keirstead raised to $200 (Buy). Wedbush Dan Ives maintains $230. MarketBeat consensus $194.05. 16 of 28 rate Buy."
   },
   "risks": [
-    {"severity": "critical", "title": "Extreme Valuation", "description": "PER 221x is 10x S&P 500 average. Any growth miss could trigger severe price decline."},
-    {"severity": "high", "title": "Insider Selling Continues", "description": "CEO Karp and insiders selling ~$6M daily. 10b5-1 plan but raises management confidence questions."},
-    {"severity": "high", "title": "Government Revenue Concentration", "description": "Significant revenue from US government contracts. Administration changes or budget cuts pose direct risk."},
-    {"severity": "medium", "title": "Macro Risk: Inflation Surprise", "description": "Higher than expected CPI pushes back rate cut expectations. Particularly unfavorable for high-valuation growth stocks."},
-    {"severity": "medium", "title": "Share Dilution", "description": "SBC causes ~5% annual dilution. Ongoing shareholder value erosion."},
-    {"severity": "medium", "title": "AI Market Competition", "description": "Microsoft, AWS, Google expanding enterprise AI investment aggressively. Long-term market share defense required."}
+    {"severity": "critical", "title": "Extreme Valuation", "description": "P/E 221x is 10x the S&P 500 average. Any growth miss could trigger sharp decline."},
+    {"severity": "high", "title": "Insider Selling Continues", "description": "CEO Karp and insiders selling ~$6M daily. 10b5-1 plan but raises trust questions."},
+    {"severity": "high", "title": "Government Revenue Concentration", "description": "Significant portion of revenue from U.S. government contracts. Political shifts or budget cuts pose direct risk."},
+    {"severity": "medium", "title": "Stock Dilution", "description": "~5% annual dilution from SBC. Ongoing shareholder value erosion."},
+    {"severity": "medium", "title": "AI Market Competition", "description": "Microsoft, AWS, Google expanding enterprise AI investments. Long-term market share defense required."}
   ],
   "buyReasons": [
-    {"title": "UBS $200 + Wedbush $230 Targets", "rationale": "Major institutions raising or reaffirming post-AIPCon. Seeking Alpha also upgraded to Buy. Institutional buy sentiment improving."},
-    {"title": "AI Software Market Leader with Accelerating Growth", "rationale": "FY2025 +56%, FY2026E +65.5%. Growth accelerating, not decelerating. US commercial $500M milestone reduces government dependency."},
-    {"title": "Defense Pipeline $10B+", "rationale": "Direct Army contract + Anduril $20B subcontracting creates thick defense revenue pipeline."},
-    {"title": "Strong FCF and Reinvestment Capacity", "rationale": "FCF margin 47%, $7.18B cash. Ample firepower for M&A or new business expansion."},
-    {"title": "Sovereign AI TAM Expansion", "rationale": "NVIDIA Sovereign AI OS enables global government AI infrastructure market entry. New revenue stream beyond existing markets."}
+    {"title": "ShipOS $448M: AI Reaches Military Manufacturing", "rationale": "AI deployed in submarine production, naval shipyards, 100+ suppliers. Defense AI expanding beyond the battlefield."},
+    {"title": "$11.2B Backlog + $10B Army + $20B Anduril", "rationale": "Extremely robust pipeline providing multi-year growth visibility."},
+    {"title": "FY2026 Revenue +65.5%, Growth Accelerating", "rationale": "From 56% to 65.5%. EPS +113%. Earnings are catching up to the valuation at pace."},
+    {"title": "UBS $200 Upgrade, Institutional Interest Growing", "rationale": "UBS raised target 11%. Consensus $194 implies 27% upside from current levels."}
   ],
   "technicalPosition": {
     "week52High": 207.52,
@@ -78,48 +82,88 @@
     "sma50Signal": "below",
     "sma200": 127.50,
     "sma200Signal": "above",
-    "rsi": 47.0,
+    "rsi": 46.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "UBS raised its target to $200 but the inflation surprise dragged the broader market lower, taking PLTR down -1.49%. High-valuation growth stocks are especially sensitive to rate expectations, and macro headwinds are blowing.",
-    "Seeking Alpha Buy upgrade, UBS $200, Wedbush $230 — institutional buy sentiment is clearly improving. AIPCon 9 partnerships and Anduril $20B subcontracting support this shift.",
-    "PER 221x remains demanding, but with revenue growth accelerating from 56% to 65%, Forward P/E can normalize quickly. CEO Karp's daily $6M selling is psychologically concerning but mechanically a pre-set 10b5-1 plan.",
-    "Just below the 50-day MA ($158) with RSI 47 at neutral. Schaeffer's detected a bullish crossover signal. Dollar-cost averaging approach is prudent."
+    "Keel joining the Navy ShipOS project extends Palantir's defense AI from the battlefield to submarine manufacturing. The $448M program deploys across 100+ suppliers. CTO Sankar's '8 days vs 800 days' statement underscores the urgency of defense AI investment.",
+    "UBS raised its target to $200 and the $11.2B backlog with 65.5% revenue growth outlook is solid. But despite ShipOS news, the stock fell 1.5%. At 221x P/E, good news alone isn't enough to move the needle.",
+    "Sitting just below the 50-day MA ($158) with RSI at 46, the stock is in neutral territory. Down 26% from the $207 high. The valuation makes lump-sum buying uncomfortable, so dollar-cost averaging in the $140-150 range is the prudent approach."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "UBS $200 raise and revenue acceleration (+65.5%) strengthen the investment thesis. PER 221x is demanding but can normalize quickly given growth speed. DCA approach recommended given inflation risk and valuation premium.",
-    "horizon": "6 months - 1 year"
+    "summary": "ShipOS expansion, $11.2B backlog, and 65.5% growth acceleration are compelling. UBS $200 upgrade adds conviction. But at 221x P/E, dollar-cost averaging into the $140-150 zone is recommended over buying at current levels.",
+    "horizon": "6 months to 1 year"
   },
   "sources": [
-    {"name": "UBS (Target Raise)", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news", "description": "UBS Karl Keirstead raises PLTR target $180 to $200, Buy"},
-    {"name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/ubs-group-issues-positive-forecast-for-palantir-technologies-nasdaqpltr-stock-price-2026-03-18/", "description": "UBS target raise coverage. Consensus $194.05"},
-    {"name": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/analysis/2026/03/18/software-stock-could-bounce-after-bullish-crossover", "description": "PLTR bullish crossover technical signal detected"},
-    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/article/pltr-buy-upgrade", "description": "PLTR upgraded Hold to Buy. $10B Army contract key catalyst"},
-    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/18/something-big-is-happening-inside-palantirs-busine/", "description": "Palantir internal business transformation and government AI spending"},
-    {"name": "Wedbush", "url": "https://www.wedbush.com/research/pltr-target", "description": "Dan Ives reaffirms $230 target"},
-    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/", "description": "PLTR real-time price, financials, P/E data"},
-    {"name": "Defense.gov", "url": "https://www.defense.gov/news/anduril-army-contract/", "description": "Anduril $20B US Army contract announcement"},
-    {"name": "DefenseWorld", "url": "https://www.defenseworld.net/2026/03/18/captrust-financial-advisors-boosts-stock-position-in-palantir-technologies-inc-pltr.html", "description": "Captrust and institutional investors expanding PLTR positions"}
+    {"name": "ts2.tech (Price)", "url": "https://ts2.tech/en/palantir-stock-price-today-pltr-slips-even-after-new-navy-shipos-push/", "description": "PLTR -1.5% to $152.77 despite ShipOS news"},
+    {"name": "MarketBeat (UBS)", "url": "https://www.marketbeat.com/instant-alerts/ubs-group-issues-positive-forecast-for-palantir-technologies-nasdaqpltr-stock-price-2026-03-18/", "description": "UBS target raised from $180 to $200, Buy maintained"},
+    {"name": "247 Wall St (CTO)", "url": "https://247wallst.com/investing/2026/03/18/palantir-cto-u-s-has-only-8-days-of-weapons-for-china-war-needs-800/", "description": "CTO Sankar '8 days of weapons' statement"},
+    {"name": "BusinessWire (ShipOS)", "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production", "description": "Keel joins Palantir and Navy on ShipOS. $448M authorized"},
+    {"name": "Motley Fool (Backlog)", "url": "https://www.fool.com/investing/2026/03/18/palantir-has-an-112-billion-revenue-backlog-a-10-b/", "description": "$11.2B backlog, $10B Army, 61% growth analysis"},
+    {"name": "GuruFocus (UBS)", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news", "description": "UBS Karl Keirstead $200 target raise details"},
+    {"name": "Semafor (CTO)", "url": "https://www.semafor.com/article/03/18/2026/palantir-cto-says-us-has-lost-deterrence", "description": "CTO Sankar 'U.S. has lost deterrence' interview"},
+    {"name": "Motley Fool (Business)", "url": "https://www.fool.com/investing/2026/03/18/something-big-is-happening-inside-palantirs-busine/", "description": "Inside Palantir's business transformation"},
+    {"name": "MarketBeat (Consensus)", "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/", "description": "Consensus $194.05, 28 analyst distribution"}
   ],
   "snsContent": {
     "x": {
-      "hook": "UBS raised Palantir to $200. The stock dropped anyway",
-      "text": "$PLTR (3/19) $152.77 (-1.49%). UBS raised target to $200 (+11%). Inflation surprise crashed the market. Bullish news buried.\n\n1/4",
+      "hook": "Palantir CTO: US has only 8 days of weapons for a China war",
+      "text": "$PLTR (Mar 19) $152.77 (-1.5%). CTO Sankar: 'We have 8 days of weapons for China. Need 800.' Keel joins Navy ShipOS, $448M for submarine production AI.\n\n1/3",
       "thread": [
-        "Seeking Alpha Buy upgrade, Wedbush $230 maintained. Institutional buy sentiment clearly improving. AIPCon partnerships + Anduril $20B subcontracting.\n\n2/4",
-        "PER 221x is demanding but revenue accelerating 56% → 65%. FCF margin 47%, $7.18B cash. Forward P/E normalizing fast at this growth.\n\n3/4",
-        "Just below 50-day MA with bullish crossover signal. Consensus $194 (+27%). DCA approach is the smart play.\n\n4/4"
+        "UBS raised target to $200. $11.2B backlog, revenue +65.5% outlook. Growth is accelerating. But at 221x P/E, good news isn't enough to lift the stock.\n\n2/3",
+        "Below 50-day MA, RSI 46. Down 26% from highs. Consensus $194 (+27%). Dollar-cost average in the $140-150 range.\n\n3/3"
       ]
     },
     "threads": {
-      "hook": "UBS raised Palantir target to $200 — why did the stock fall?",
-      "text": "$PLTR (3/19) $152.77 (-1.49%)\n\nUBS raised to $200, Seeking Alpha upgraded to Buy. But the inflation surprise dragged the market down — not Palantir's fault.\n\nRevenue growth 56% → 65%, FCF margin 47%, $7.18B cash. Numbers are solid. PER 221x is the only issue.\n\nSchaeffer's spotted a bullish crossover. DCA into position. Consensus $194 (+27%)."
+      "hook": "Palantir CTO: '8 days of weapons won't deter China'",
+      "text": "$PLTR (Mar 19) $152.77 (-1.5%)\n\nCTO Sankar: 'We have 8 days of weapons for a major fight against China. That's not deterrence. You need 800 days.' Keel joined the Navy ShipOS project, deploying AI across submarine production ($448M).\n\nUBS raised its target to $200. $11.2B backlog with 65.5% growth outlook. Yet the stock dropped 1.5% on the day. At 221x P/E, even great news gets a shrug.\n\nConsensus $194 (+27%). The $140-150 range offers a more comfortable entry for dollar-cost averaging."
     },
     "telegram": {
-      "hook": "PLTR: UBS $200 raise, inflation drags -1.49%",
-      "text": "Palantir Daily Analysis (3/19)\n\nPrice: $152.77 (-1.49%)\nMkt Cap: $365.5B\n\nKey News\n- UBS target $180 → $200, Buy maintained\n- Seeking Alpha Hold → Buy upgrade\n- Inflation surprise caused broad selloff\n- Schaeffer's bullish crossover signal\n- CEO Karp insider selling continues ($6M/day)\n\nKey Metrics\n- PER 221x / Forward P/E 114x\n- Revenue growth 56%, FY2026E +65.5%\n- FCF margin 47%, cash $7.18B\n\nTechnicals\n- 50-day $158 (below) / 200-day $127.50 (above)\n- RSI 47 (neutral)\n\nConsensus: $194.05 (+27.0%)\nVerdict: Buy (DCA, 6 months - 1 year)"
+      "hook": "PLTR $152.77: ShipOS expansion + UBS $200 upgrade",
+      "text": "Palantir Daily Analysis (Mar 19)\n\nPrice: $152.77 (-1.5%)\nMkt Cap: $365.4B / P/E 221x\n\nKey News\n- Keel joins Navy ShipOS ($448M, submarine AI)\n- UBS raises target $180 to $200 (Buy)\n- CTO Sankar: 'US has 8 days of weapons for China'\n- $11.2B revenue backlog\n- CEO Karp continues ~$6M daily stock sales\n\nRevenue: FY2025 $4.48B (+56%), FY2026E $7.41B (+65.5%)\nFCF Margin 47% / Cash $7.18B\n\nTechnicals\n- Below 50-day MA ($158) / Above 200-day MA ($128)\n- RSI 46 (neutral)\n\nConsensus $194.05 (+27%)\nVerdict: Buy (DCA, 6mo-1yr)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Palantir CTO: US has only 8 days of weapons for a China war",
+          "text": "$PLTR (Mar 19) $152.77 (-1.5%). CTO Sankar: 'We have 8 days of weapons for China. Need 800.' Keel joins Navy ShipOS, $448M for submarine production AI.\n\n1/3",
+          "thread": [
+            "UBS raised target to $200. $11.2B backlog, revenue +65.5% outlook. Growth is accelerating. But at 221x P/E, good news isn't enough to lift the stock.\n\n2/3",
+            "Below 50-day MA, RSI 46. Down 26% from highs. Consensus $194 (+27%). Dollar-cost average in the $140-150 range.\n\n3/3"
+          ]
+        },
+        "witty": {
+          "hook": "Palantir CTO says 8 days of ammo. CEO sells $6M of stock daily.",
+          "text": "$PLTR (Mar 19) $152.77 (-1.5%). CTO says we need 800 days of weapons. Palantir's solution: ShipOS for submarine factories. CEO's solution: sell $6M of stock every day.\n\n1/3",
+          "thread": [
+            "UBS bumped target to $200 while CEO bumps stock sales. $11.2B backlog, 65.5% growth. The business is fire. The insider selling is... a choice.\n\n2/3",
+            "221x P/E means good news gets a shrug. This stock's daily routine: great news, red candle. $140 is where I'd get serious. Consensus $194.\n\n3/3"
+          ]
+        },
+        "empathy": {
+          "hook": "Palantir holders, dropping on good news again. It's exhausting.",
+          "text": "$PLTR (Mar 19) $152.77 (-1.5%). ShipOS expansion, UBS upgrade, CTO's defense message. All positive, yet the stock fell. At 221x P/E, this is the reality.\n\n1/3",
+          "thread": [
+            "$11.2B backlog, 65.5% growth outlook. The business has never been stronger. CEO selling is a 10b5-1 plan, not a red flag.\n\n2/3",
+            "Down 26% from highs. If the valuation concerns you, dollar-cost averaging is your friend. The growth story hasn't changed.\n\n3/3"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Palantir CTO: '8 days of weapons won't deter China'",
+          "text": "$PLTR (Mar 19) $152.77 (-1.5%)\n\nCTO Sankar: 'We have 8 days of weapons for a major fight against China. That's not deterrence. You need 800 days.' Keel joined the Navy ShipOS project, deploying AI across submarine production ($448M).\n\nUBS raised its target to $200. $11.2B backlog with 65.5% growth outlook. Yet the stock dropped 1.5% on the day. At 221x P/E, even great news gets a shrug.\n\nConsensus $194 (+27%). The $140-150 range offers a more comfortable entry for dollar-cost averaging."
+        },
+        "witty": {
+          "hook": "Palantir put AI in submarine factories. The stock went underwater too.",
+          "text": "$PLTR (Mar 19) $152.77 (-1.5%)\n\nCTO says '8 days of weapons.' The irony: PLTR holders have felt like they've been in a war zone for 26% from highs. ShipOS brings AI to submarine production but the stock submerged anyway.\n\nUBS bumped to $200. CEO bumps $6M of stock sales per day. $11.2B backlog, 65.5% growth. The business writes comedy and tragedy simultaneously.\n\n221x P/E means every day is an adventure. $140 is where the ride gets interesting."
+        },
+        "empathy": {
+          "hook": "To Palantir holders watching great news and red candles",
+          "text": "$PLTR (Mar 19) $152.77 (-1.5%)\n\nShipOS expansion, UBS upgrade, CTO's powerful defense message. The headlines couldn't be better, yet the stock dropped again. At 221x P/E, this is the emotional tax you pay.\n\nBut the business is at its strongest ever. $11.2B backlog, 65.5% growth, 47% FCF margin. The fundamentals are catching up to the valuation.\n\nDown 26% from highs. If you're long-term, these days test your conviction but don't change the thesis. Dollar-cost averaging smooths the ride."
+        }
+      }
     }
   }
 }

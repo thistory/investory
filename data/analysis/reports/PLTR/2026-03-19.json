@@ -3,10 +3,10 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-19",
   "currentPrice": 152.77,
-  "marketCap": "$365.5B",
+  "marketCap": "$365.4B",
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
-    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+56%)를 기록했고, 특히 미국 상업 매출이 $500M을 돌파하며 민간 시장 확장에 성공하고 있다. AIPCon 9에서 NVIDIA, GE Aerospace 등과 대형 파트너십을 체결했다. UBS가 목표가를 $180에서 $200로 상향했지만 인플레이션 서프라이즈에 주가는 -1.49% 하락.",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+56%)를 기록했고, 특히 미국 상업 매출이 $500M을 돌파하며 민간 시장 확장에 성공하고 있다. 최근 미 해군 ShipOS 프로젝트에 Keel이 합류하면서 국방 AI 적용 범위가 잠수함 생산까지 확대됐다. CTO Shyam Sankar는 '미국은 중국과의 전쟁에 8일분 무기만 보유하고 있으며 800일분이 필요하다'고 발언해 국방 AI 투자 필요성을 강조했다.",
     "howTheyMakeMoney": [
       "정부 계약 (Gotham)",
       "기업 AI 플랫폼 (Foundry)",
@@ -17,6 +17,7 @@
       "Gotham",
       "Foundry",
       "AIP",
+      "ShipOS",
       "소버린 AI 데이터센터 OS",
       "Ontology"
     ]
@@ -24,12 +25,12 @@
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "221.5x",
+      "value": "221x",
       "interpretation": "S&P 500 평균 22x 대비 10배 이상. 소프트웨어 평균 35x 대비 극도로 높은 수준"
     },
     {
       "name": "Forward P/E",
-      "value": "114.0x",
+      "value": "114x",
       "interpretation": "FY2026 EPS $1.34 기준. 성장 프리미엄이 크지만 여전히 부담스러운 수준"
     },
     {
@@ -48,47 +49,51 @@
       "interpretation": "FCF $2.1B. 소프트웨어 업계 최고 수준의 현금 창출력"
     },
     {
-      "name": "Price-to-Book",
-      "value": "48.7x",
-      "interpretation": "현금 $7.18B 보유. PBR도 극단적으로 높지만 무형자산 가치 반영"
+      "name": "매출 백로그",
+      "value": "$11.2B",
+      "interpretation": "Motley Fool 기준. 향후 수년간의 매출 가시성 확보"
     }
   ],
   "growthDrivers": [
     {
-      "title": "UBS 목표가 $180에서 $200로 상향, Buy 유지",
-      "description": "Karl Keirstead 애널리스트가 11.1% 상향. AIPCon 9 파트너십과 정부 AI 지출 확대를 핵심 근거로 제시."
+      "title": "미 해군 ShipOS $448M: 잠수함 생산 AI 적용",
+      "description": "Keel Holdings가 Palantir, 미 해군과 함께 ShipOS 프로젝트에 합류했다. $448M 규모로 해군 조선소, 잠수함 건조, 100+ 공급업체에 Foundry와 AIP를 배치한다. 국방 AI가 전장을 넘어 군수 생산에까지 확장되고 있다."
     },
     {
-      "title": "AIPCon 9 대형 파트너십",
-      "description": "NVIDIA, GE Aerospace 등 글로벌 기업들과 전략적 파트너십 체결. AI 에이전트 생태계 핵심 플레이어로 부상"
+      "title": "UBS 목표가 $200으로 상향, Buy 유지",
+      "description": "UBS Karl Keirstead가 목표가를 $180에서 $200으로 11% 올렸다. Buy 등급 유지. 성장 가속과 AIP 확산을 근거로 제시."
+    },
+    {
+      "title": "CTO Sankar: '8일 vs 800일' 국방 AI 투자 촉구",
+      "description": "CTO Shyam Sankar가 '미국은 중국과의 전쟁에 8일분 무기만 있고 800일분이 필요하다. 억지력을 잃었다'고 발언. 국방 AI 예산 증가의 강력한 내러티브."
+    },
+    {
+      "title": "$11.2B 매출 백로그 + $10B 육군 계약",
+      "description": "Motley Fool 분석: $11.2B 매출 백로그, $10B 미 육군 직접 계약, Anduril $20B 하청 수혜. 향후 수년간 매출 파이프라인이 두텁다."
+    },
+    {
+      "title": "FY2026 매출 전망 $7.41B(+65.5%), 성장 가속",
+      "description": "FY2025 56% 성장에서 FY2026 65.5%로 오히려 빨라지는 구간. EPS +113% 전망."
     },
     {
       "title": "NVIDIA 소버린 AI OS 레퍼런스 아키텍처",
-      "description": "NVIDIA 하드웨어 위에 Palantir 소프트웨어가 표준 OS로 탑재. 각국 정부 AI 인프라 시장 선점"
-    },
-    {
-      "title": "미 육군 $10B + Anduril $20B 하청 수혜",
-      "description": "미 육군 직접 계약 $10B에 더해 Anduril의 $20B 육군 계약에서 하청 수혜 기대. 국방 매출 파이프라인 대폭 확대"
-    },
-    {
-      "title": "FY2026 실적 전망 대폭 상향",
-      "description": "FY2026E 매출 $7.41B(+65.5%), EPS $1.34(+113%). 성장률이 오히려 가속되는 구간"
+      "description": "NVIDIA 하드웨어 위에 Palantir 소프트웨어가 표준 OS로 탑재. 각국 정부 AI 인프라 시장 선점."
     }
   ],
   "competitiveAdvantage": {
-    "summary": "정부, 국방 AI 분야 20년+ 실적. 보안 등급 클리어런스가 진입 장벽. NVIDIA 소버린 AI 파트너십으로 AI 에이전트 생태계 핵심 위치 확보.",
+    "summary": "정부, 국방 AI 분야 20년+ 실적. 보안 등급 클리어런스가 진입 장벽. ShipOS로 군수 생산까지 AI 적용 범위 확대.",
     "moats": [
       {
         "type": "보안 등급 해자",
         "description": "미 국방부, 정보기관 최고 보안 등급 클리어런스. 경쟁사 진입 불가."
       },
       {
-        "type": "NVIDIA 소버린 AI 파트너십",
-        "description": "소버린 AI OS + NVIDIA 하드웨어 생태계. 각국 정부 AI 인프라 표준 선점."
+        "type": "ShipOS + 군수 AI",
+        "description": "잠수함 생산, 해군 조선소에 AI 배치. 전장 넘어 군수 생산 전반으로 확장."
       },
       {
-        "type": "AIP 부트캠프 전략",
-        "description": "5일 집중 파일럿으로 기업 고객 확보 후 전사 확장. 높은 전환율."
+        "type": "NVIDIA 소버린 AI 파트너십",
+        "description": "소버린 AI OS + NVIDIA 하드웨어 생태계. 각국 정부 AI 인프라 표준 선점."
       }
     ],
     "competitors": [
@@ -109,33 +114,33 @@
   "recentNews": [
     {
       "date": "2026-03-18",
-      "headline": "UBS, 목표가 $180에서 $200로 상향, Buy 유지",
-      "significance": "Karl Keirstead 애널리스트의 11.1% 상향. AIPCon 이후 기관 투자 심리 개선 확인",
-      "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news"
+      "headline": "PLTR -1.5%, ShipOS 호재에도 하락 마감($152.77)",
+      "significance": "해군 ShipOS 확장 발표에도 시장 전반 약세에 동반 하락",
+      "url": "https://ts2.tech/en/palantir-stock-price-today-pltr-slips-even-after-new-navy-shipos-push/"
     },
     {
       "date": "2026-03-18",
-      "headline": "인플레이션 서프라이즈에 PLTR -1.49%, $152.77 마감",
-      "significance": "UBS 목표가 상향에도 불구하고 매크로 약세에 하락. Schaeffer's는 불리시 크로스오버 신호를 포착",
-      "url": "https://www.schaeffersresearch.com/content/analysis/2026/03/18/software-stock-could-bounce-after-bullish-crossover"
+      "headline": "UBS, 목표가 $180→$200 상향, Buy 유지",
+      "significance": "Karl Keirstead가 성장 가속과 AIP 확산을 근거로 11% 목표가 상향",
+      "url": "https://www.marketbeat.com/instant-alerts/ubs-group-issues-positive-forecast-for-palantir-technologies-nasdaqpltr-stock-price-2026-03-18/"
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "CTO Sankar: '미국은 중국전 8일분 무기만 보유, 800일분 필요'",
+      "significance": "국방 AI 투자 필요성 강조. Palantir의 국방 매출 내러티브 강화",
+      "url": "https://247wallst.com/investing/2026/03/18/palantir-cto-u-s-has-only-8-days-of-weapons-for-china-war-needs-800/"
     },
     {
       "date": "2026-03-17",
-      "headline": "Seeking Alpha: Hold에서 Buy로 업그레이드",
-      "significance": "공격적 성장 투자와 가속화되는 매출 성장을 근거로 투자의견 상향",
-      "url": "https://seekingalpha.com/article/pltr-buy-upgrade"
+      "headline": "Keel, Palantir, 미 해군 ShipOS 프로젝트 합류($448M)",
+      "significance": "잠수함 생산 가속화를 위한 AI 배치. 100+ 공급업체에 Foundry/AIP 확산",
+      "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production"
     },
     {
-      "date": "2026-03-16",
-      "headline": "Dan Ives(Wedbush) AIPCon 9 후 목표가 $230 재확인",
-      "significance": "AI 분야 대표 애널리스트가 현재가 대비 50% 상승 여력 제시",
-      "url": "https://www.wedbush.com/research/pltr-target"
-    },
-    {
-      "date": "2026-03-14",
-      "headline": "Anduril $20B 미 육군 계약 체결, PLTR 하청 수혜 기대",
-      "significance": "Palantir가 Anduril 프로젝트의 데이터 분석 하청으로 참여 가능성. 국방 매출 확대 호재",
-      "url": "https://www.defense.gov/news/anduril-army-contract/"
+      "date": "2026-03-18",
+      "headline": "Motley Fool: $11.2B 백로그, $10B 육군 계약, 61% 성장",
+      "significance": "향후 수년간의 매출 파이프라인과 성장 가속을 종합 분석",
+      "url": "https://www.fool.com/investing/2026/03/18/palantir-has-an-112-billion-revenue-backlog-a-10-b/"
     }
   ],
   "analystOpinions": {
@@ -146,60 +151,51 @@
     "buyCount": 16,
     "holdCount": 10,
     "sellCount": 2,
-    "notableComment": "UBS $200(+11% 상향), Wedbush $230 유지. MarketBeat 컨센서스 $194.05. Seeking Alpha Buy 업그레이드. 28명 중 16명 Buy."
+    "notableComment": "UBS Karl Keirstead $200 상향(Buy). Wedbush Dan Ives $230 유지. MarketBeat 컨센서스 $194.05. 28명 중 16명 Buy."
   },
   "risks": [
     {
       "severity": "critical",
       "title": "극단적 밸류에이션",
-      "description": "PER 221배는 S&P 500 평균의 10배. 성장이 기대에 못 미치면 주가 급락 가능성 크다"
+      "description": "PER 221배는 S&P 500 평균의 10배. 성장이 기대에 못 미치면 주가 급락 가능성 크다."
     },
     {
       "severity": "high",
       "title": "인사이더 매도 지속",
-      "description": "CEO Karp 등 인사이더가 매일 약 $6M 매도 중. 10b5-1 플랜이지만 경영진 신뢰에 의문 제기"
+      "description": "CEO Karp 등 내부자가 매일 약 $6M 매도 중. 10b5-1 플랜이지만 경영진 신뢰에 의문 제기."
     },
     {
       "severity": "high",
       "title": "정부 매출 집중",
-      "description": "매출의 상당 부분이 미 정부 계약. 정권 교체나 예산 삭감 시 직접적 타격"
-    },
-    {
-      "severity": "medium",
-      "title": "매크로 리스크: 인플레이션 서프라이즈",
-      "description": "예상보다 높은 물가 지표로 금리 인하 기대 후퇴. 고밸류에이션 성장주에 특히 불리한 환경"
+      "description": "매출의 상당 부분이 미 정부 계약. 정권 교체나 예산 삭감 시 직접적 타격."
     },
     {
       "severity": "medium",
       "title": "주식 희석",
-      "description": "SBC(주식보상)로 연간 약 5% 희석. 주주가치가 지속적으로 훼손될 수 있다"
+      "description": "SBC(주식보상)로 연간 약 5% 희석. 주주가치가 지속적으로 훼손될 수 있다."
     },
     {
       "severity": "medium",
       "title": "AI 시장 경쟁 심화",
-      "description": "Microsoft, AWS, Google 등 빅테크의 엔터프라이즈 AI 투자 확대. 장기적 시장 점유율 방어 필요"
+      "description": "Microsoft, AWS, Google 등 빅테크의 엔터프라이즈 AI 투자 확대. 장기적 시장 점유율 방어 필요."
     }
   ],
   "buyReasons": [
     {
-      "title": "UBS $200 상향 + Wedbush $230 유지",
-      "rationale": "주요 기관이 AIPCon 이후 목표가를 상향하거나 재확인. Seeking Alpha도 Buy 업그레이드. 기관 매수 심리 개선 중."
+      "title": "ShipOS $448M: 군수 생산까지 AI 확장",
+      "rationale": "잠수함 생산, 해군 조선소, 100+ 공급업체에 AI 배치. 국방 AI가 전장 넘어 생산 현장까지 확대되고 있다."
     },
     {
-      "title": "AI 소프트웨어 시장 리더, 매출 성장 가속",
-      "rationale": "FY2025 +56%, FY2026E +65.5%. 성장이 둔화가 아니라 가속 중. 미국 상업 매출 $500M 돌파로 정부 의존도 줄어드는 중."
+      "title": "$11.2B 백로그 + $10B 육군 + $20B Anduril 하청",
+      "rationale": "매출 파이프라인이 극도로 두텁다. 향후 수년간의 성장 가시성 확보."
     },
     {
-      "title": "정부 매출 파이프라인 $10B+",
-      "rationale": "미 육군 직접 계약 + Anduril $20B 하청 수혜로 국방 매출 파이프라인 두텁다"
+      "title": "FY2026 매출 +65.5%, 성장 가속",
+      "rationale": "FY2025 56%에서 FY2026 65.5%로 가속. EPS +113%. 실적이 밸류에이션을 정당화하는 속도."
     },
     {
-      "title": "높은 FCF와 재투자 여력",
-      "rationale": "FCF 마진 47%, 현금 $7.18B. M&A나 신사업 확장에 넉넉한 실탄"
-    },
-    {
-      "title": "소버린 AI로 TAM 확장",
-      "rationale": "NVIDIA 소버린 AI OS로 각국 정부 AI 인프라 시장 진출. 기존 시장 외 새로운 수익원"
+      "title": "UBS $200 상향, 기관 관심 확대",
+      "rationale": "UBS가 목표가를 11% 올렸고, 컨센서스 $194는 현재가 대비 27% 업사이드."
     }
   ],
   "technicalPosition": {
@@ -210,127 +206,122 @@
     "sma50Signal": "below",
     "sma200": 127.50,
     "sma200Signal": "above",
-    "rsi": 47.0,
+    "rsi": 46.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "UBS가 목표가를 $200로 올렸지만, 인플레이션 서프라이즈에 시장 전체가 하락하면서 PLTR도 -1.49% 빠졌다. 고밸류에이션 성장주는 금리 환경에 특히 민감한데, 매크로가 역풍을 불고 있다.",
-    "Seeking Alpha Buy 업그레이드, UBS $200, Wedbush $230까지. 기관 매수 심리는 분명히 개선되고 있다. AIPCon 9 파트너십과 Anduril $20B 하청 수혜가 이를 뒷받침한다.",
-    "PER 221배는 여전히 부담스럽지만 매출 성장이 56%에서 65%로 가속 중이다. Forward P/E가 빠르게 정상화될 수 있는 구간. 다만 CEO Karp의 일 $6M 매도는 심리적 부담이다.",
-    "50일선($158) 바로 아래에서 RSI 47로 중립 구간. Schaeffer's가 불리시 크로스오버 신호를 포착했다. 분할 매수 접근이 현명하다."
+    "미 해군 ShipOS 프로젝트에 Keel이 합류하면서 Palantir의 국방 AI가 전장을 넘어 잠수함 건조 현장까지 확대됐다. $448M 규모로 100개 이상 공급업체에 배치된다. CTO Sankar의 '8일 vs 800일' 발언은 국방 AI 투자의 절박성을 보여준다.",
+    "UBS가 목표가를 $200으로 올렸고, $11.2B 백로그와 65.5% 매출 성장 전망은 탄탄하다. 하지만 ShipOS 호재에도 주가는 1.5% 빠졌다. PER 221배에서는 좋은 뉴스만으로는 부족하다.",
+    "50일선($158) 바로 아래에서 RSI 46으로 중립 구간이다. 고점 $207 대비 26% 빠진 자리. 밸류에이션이 부담스러워 일시 매수보다는 $140-150 구간에서 분할 접근이 현명하다."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "UBS $200 상향과 매출 가속(+65.5%)이 투자 논리를 강화한다. PER 221배는 부담이지만 성장 속도를 감안하면 빠르게 정상화 가능. 인플레이션 리스크와 밸류에이션을 감안해 분할 매수 추천.",
+    "summary": "ShipOS 확장, $11.2B 백로그, 65.5% 성장 가속은 강력하다. UBS $200 상향도 긍정적이다. 다만 PER 221배에서 현재가 매수보다는 $140-150 구간 분할 매수를 추천한다.",
     "horizon": "6개월-1년"
   },
   "sources": [
     {
-      "name": "UBS (Target Raise)",
-      "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news",
-      "description": "UBS Karl Keirstead, PLTR 목표가 $180에서 $200로 상향, Buy 유지"
+      "name": "ts2.tech (Price)",
+      "url": "https://ts2.tech/en/palantir-stock-price-today-pltr-slips-even-after-new-navy-shipos-push/",
+      "description": "PLTR -1.5% $152.77 마감. ShipOS 호재에도 하락"
     },
     {
       "name": "MarketBeat (UBS)",
       "url": "https://www.marketbeat.com/instant-alerts/ubs-group-issues-positive-forecast-for-palantir-technologies-nasdaqpltr-stock-price-2026-03-18/",
-      "description": "UBS 목표가 상향 보도. 컨센서스 $194.05"
+      "description": "UBS 목표가 $180->$200 상향, Buy 유지"
     },
     {
-      "name": "Schaeffer's Research",
-      "url": "https://www.schaeffersresearch.com/content/analysis/2026/03/18/software-stock-could-bounce-after-bullish-crossover",
-      "description": "PLTR 불리시 크로스오버 기술적 신호 포착"
+      "name": "247 Wall St (CTO)",
+      "url": "https://247wallst.com/investing/2026/03/18/palantir-cto-u-s-has-only-8-days-of-weapons-for-china-war-needs-800/",
+      "description": "CTO Sankar '8일분 무기' 발언 보도"
     },
     {
-      "name": "Seeking Alpha",
-      "url": "https://seekingalpha.com/article/pltr-buy-upgrade",
-      "description": "PLTR Hold에서 Buy 업그레이드. $10B 육군 계약이 핵심"
+      "name": "BusinessWire (ShipOS)",
+      "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production",
+      "description": "Keel, Palantir, 미 해군 ShipOS 프로젝트 합류. $448M"
     },
     {
-      "name": "Motley Fool",
+      "name": "Motley Fool (Backlog)",
+      "url": "https://www.fool.com/investing/2026/03/18/palantir-has-an-112-billion-revenue-backlog-a-10-b/",
+      "description": "$11.2B 백로그, $10B 육군, 61% 성장 분석"
+    },
+    {
+      "name": "GuruFocus (UBS)",
+      "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news",
+      "description": "UBS Karl Keirstead $200 목표가 상향 상세"
+    },
+    {
+      "name": "Semafor (CTO)",
+      "url": "https://www.semafor.com/article/03/18/2026/palantir-cto-says-us-has-lost-deterrence",
+      "description": "CTO Sankar '미국은 억지력을 잃었다' 인터뷰"
+    },
+    {
+      "name": "Motley Fool (Business)",
       "url": "https://www.fool.com/investing/2026/03/18/something-big-is-happening-inside-palantirs-busine/",
-      "description": "Palantir 내부 사업 변화와 정부 AI 지출 확대 분석"
+      "description": "Palantir 사업 내부 변화 분석"
     },
     {
-      "name": "Wedbush Securities",
-      "url": "https://www.wedbush.com/research/pltr-target",
-      "description": "Dan Ives 목표가 $230 재확인"
-    },
-    {
-      "name": "StockAnalysis",
-      "url": "https://stockanalysis.com/stocks/pltr/",
-      "description": "PLTR 실시간 주가, 재무 데이터, P/E 등 기본 지표"
-    },
-    {
-      "name": "Defense.gov",
-      "url": "https://www.defense.gov/news/anduril-army-contract/",
-      "description": "Anduril $20B 미 육군 계약 발표"
-    },
-    {
-      "name": "DefenseWorld (Institutional)",
-      "url": "https://www.defenseworld.net/2026/03/18/captrust-financial-advisors-boosts-stock-position-in-palantir-technologies-inc-pltr.html",
-      "description": "Captrust 등 기관투자자 PLTR 포지션 확대"
+      "name": "MarketBeat (Consensus)",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/",
+      "description": "컨센서스 $194.05, 28명 애널리스트 분포"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "UBS가 팔란티어 $200으로 올렸다. 주가는 빠졌지만",
-      "text": "$PLTR (3/19) $152.77(-1.49%). UBS가 목표가 $200으로 상향(+11%). 인플레이션 서프라이즈에 시장 전체 하락. 호재가 묻힌 하루.\n\n1/4",
+      "hook": "팔란티어 CTO: 미국은 중국전 8일분 무기밖에 없다",
+      "text": "$PLTR (3/19) $152.77(-1.5%). CTO Sankar가 '미국은 8일분 무기만 있고 800일분이 필요하다'고 했다. 해군 ShipOS에 Keel이 합류, $448M 규모.\n\n1/3",
       "thread": [
-        "Seeking Alpha Buy 업그레이드, Wedbush $230 유지. 기관 매수 심리가 분명히 개선 중이다. AIPCon 파트너십과 Anduril $20B 하청이 근거.\n\n2/4",
-        "PER 221배는 부담이지만 매출 56%에서 65%로 가속. FCF 마진 47%, 현금 $7.18B. 성장 속도라면 Forward P/E가 빠르게 내려간다.\n\n3/4",
-        "50일선 바로 아래에서 불리시 크로스오버 신호. 컨센서스 $194(+27%). 분할 매수 접근이 현명하다.\n\n4/4"
+        "UBS가 목표가를 $200으로 올렸다. $11.2B 백로그, 매출 +65.5% 전망. 성장은 빨라지고 있다. 하지만 PER 221배에서 좋은 뉴스만으로는 부족하다.\n\n2/3",
+        "50일선 아래, RSI 46. 고점 대비 26% 하락. 컨센서스 $194(+27%). 분할 매수 전략으로 $140-150 구간 접근 추천.\n\n3/3"
       ]
     },
     "threads": {
-      "hook": "UBS $200 상향에도 팔란티어가 빠진 이유",
-      "text": "$PLTR (3/19) $152.77(-1.49%)\n\nUBS가 목표가를 $200로 올렸고, Seeking Alpha는 Buy로 업그레이드했다. 그런데 주가는 빠졌다. 인플레이션 서프라이즈에 시장 전체가 눌린 탓이다.\n\n매출 성장 56%에서 65%로 가속, FCF 마진 47%, 현금 $7.18B. 숫자는 탄탄하다. PER 221배만 빼면.\n\nSchaeffer's가 불리시 크로스오버를 포착했다. 분할 매수로 접근하자. 컨센서스 $194(+27%)."
+      "hook": "팔란티어 CTO: '8일분 무기로 중국과 싸울 수 없다'",
+      "text": "$PLTR (3/19) $152.77(-1.5%)\n\nCTO Sankar가 '미국은 중국과의 전쟁에 8일분 무기만 있다. 800일분이 필요하다. 억지력을 잃었다'고 발언했다. 해군 ShipOS에 Keel이 합류하며 잠수함 생산까지 AI가 확장됐다($448M).\n\nUBS가 목표가를 $200으로 올렸고, $11.2B 백로그에 매출 65.5% 성장 전망. 하지만 PER 221배에서 좋은 뉴스에도 1.5% 빠졌다.\n\n컨센서스 $194(+27%). 현재가보다 $140-150에서 분할 접근이 더 편안하다."
     },
     "telegram": {
-      "hook": "PLTR UBS $200 상향, 인플레이션에 -1.49%",
-      "text": "Palantir 일일 분석 (3/19)\n\n가격: $152.77 (-1.49%)\n시총: $365.5B\n\n주요 뉴스\n- UBS 목표가 $180에서 $200로 상향, Buy 유지\n- Seeking Alpha Hold에서 Buy 업그레이드\n- 인플레이션 서프라이즈에 시장 전체 하락\n- Schaeffer's 불리시 크로스오버 신호\n- CEO Karp 인사이더 매도 지속 ($6M/일)\n\n핵심 지표\n- PER 221x / Forward P/E 114x\n- 매출 성장 56%, FY2026E +65.5%\n- FCF 마진 47%, 현금 $7.18B\n\n기술적\n- 50일선 $158 (하회) / 200일선 $127.50 (상회)\n- RSI 47 (중립)\n\n컨센서스: $194.05 (+27.0%)\n판정: Buy (분할 매수, 6개월-1년)"
+      "hook": "PLTR $152.77: ShipOS 확장 + UBS $200 상향",
+      "text": "팔란티어 일일 분석 (3/19)\n\n가격: $152.77 (-1.5%)\n시총: $365.4B / PER 221x\n\n주요 뉴스\n- Keel, 해군 ShipOS 합류 ($448M, 잠수함 생산 AI)\n- UBS 목표가 $180->$200 상향 (Buy)\n- CTO Sankar: '미국 중국전 8일분 무기' 발언\n- $11.2B 매출 백로그\n- CEO Karp 매일 $6M 매도 지속\n\n매출: FY2025 $4.48B(+56%), FY2026E $7.41B(+65.5%)\nFCF 마진 47% / 현금 $7.18B\n\n주가 위치\n- 50일 평균($158) 아래 / 200일 평균($128) 위\n- RSI 46 (중립)\n\n컨센서스 $194.05 (+27%)\n판정: Buy (분할, 6개월-1년)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "UBS가 팔란티어 $200으로 올렸다. 주가는 빠졌지만",
-          "text": "$PLTR (3/19) $152.77(-1.49%). UBS가 목표가 $200으로 상향(+11%). 인플레이션 서프라이즈에 시장 전체 하락. 호재가 묻힌 하루.\n\n1/4",
+          "hook": "팔란티어 CTO: 미국은 중국전 8일분 무기밖에 없다",
+          "text": "$PLTR (3/19) $152.77(-1.5%). CTO Sankar가 '미국은 8일분 무기만 있고 800일분이 필요하다'고 했다. 해군 ShipOS에 Keel이 합류, $448M 규모.\n\n1/3",
           "thread": [
-            "Seeking Alpha Buy 업그레이드, Wedbush $230 유지. 기관 매수 심리가 분명히 개선 중이다. AIPCon 파트너십과 Anduril $20B 하청이 근거.\n\n2/4",
-            "PER 221배는 부담이지만 매출 56%에서 65%로 가속. FCF 마진 47%, 현금 $7.18B. 성장 속도라면 Forward P/E가 빠르게 내려간다.\n\n3/4",
-            "50일선 바로 아래에서 불리시 크로스오버 신호. 컨센서스 $194(+27%). 분할 매수 접근이 현명하다.\n\n4/4"
+            "UBS가 목표가를 $200으로 올렸다. $11.2B 백로그, 매출 +65.5% 전망. 성장은 빨라지고 있다. 하지만 PER 221배에서 좋은 뉴스만으로는 부족하다.\n\n2/3",
+            "50일선 아래, RSI 46. 고점 대비 26% 하락. 컨센서스 $194(+27%). 분할 매수 전략으로 $140-150 구간 접근 추천.\n\n3/3"
           ]
         },
         "witty": {
-          "hook": "UBS가 PLTR 목표가 올리는 날 시장이 빠졌다. 타이밍",
-          "text": "$PLTR $152.77. UBS가 목표가 $200으로 올리는 날 인플레이션이 터졌다. Karp은 매일 $6M씩 파는 중. 타이밍이 기가 막히다.\n\n1/4",
+          "hook": "팔란티어 CTO: 8일분 무기로 뭘 하겠나",
+          "text": "$PLTR (3/19) $152.77(-1.5%). CTO가 '중국전 8일분 무기'라고 했다. 그 8일을 800일로 만드는 게 Palantir의 장사다. ShipOS로 잠수함 공장까지 AI.\n\n1/3",
           "thread": [
-            "Seeking Alpha도 Buy로 올렸고 Wedbush $230. 다들 사라고 하는데 PER 221배. 이 주식은 항상 이런 딜레마다.\n\n2/4",
-            "매출 +65%로 가속, FCF 마진 47%. 숫자만 보면 좋은 회사 맞다. 다만 '이 가격에?'라는 질문이 항상 따라붙는다.\n\n3/4",
-            "불리시 크로스오버라니, 기술적으로도 신호가 나왔다. $150 근처면 분할로 접근해볼 만하다.\n\n4/4"
+            "UBS가 $200으로 올렸는데 CEO는 매일 $6M 판다. 주주와 경영진의 온도차가 코미디. 그래도 $11.2B 백로그는 실제 숫자.\n\n2/3",
+            "PER 221배에 좋은 뉴스가 나와도 빠진다. 이 주식의 일상이다. $140 오면 그때 진지하게. 컨센서스 $194.\n\n3/3"
           ]
         },
         "empathy": {
-          "hook": "팔란티어 주주들, 좋은 뉴스에도 빠지면 마음이 복잡하지",
-          "text": "$PLTR $152.77(-1.49%). UBS가 $200로 올렸는데 주가가 빠지면 짜증이 날 수 있다. 인플레이션 탓이지 Palantir 문제가 아니다.\n\n1/4",
+          "hook": "팔란티어 주주들, 좋은 뉴스에도 빠지면 지칠 수 있다",
+          "text": "$PLTR (3/19) $152.77(-1.5%). ShipOS 확장, UBS 상향, CTO 발언까지. 좋은 뉴스인데도 빠졌다. PER 221배의 숙명이다.\n\n1/3",
           "thread": [
-            "Seeking Alpha Buy, UBS $200, Wedbush $230. 기관들이 하나씩 편을 들고 있다. 매출 +65% 가속은 거짓말이 아니다.\n\n2/4",
-            "PER 221배에 CEO 매도까지. 불안한 요소가 있는 건 사실이다. 하지만 이 성장 속도면 밸류에이션은 빠르게 정상화된다.\n\n3/4",
-            "50일선 아래지만 불리시 크로스오버. 한 번에 사지 말고 나눠서 모으자. 시간이 편이 되는 주식이다.\n\n4/4"
+            "$11.2B 백로그, 65.5% 성장 전망. 사업 자체는 역대 최고 구간이다. CEO 매도는 10b5-1 계획이니 과도한 걱정은 금물.\n\n2/3",
+            "고점 대비 26% 빠진 자리. 밸류에이션이 부담되면 분할 매수로 리스크를 나누자. 시간이 편이다.\n\n3/3"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "UBS $200 상향에도 팔란티어가 빠진 이유",
-          "text": "$PLTR (3/19) $152.77(-1.49%)\n\nUBS가 목표가를 $200로 올렸고, Seeking Alpha는 Buy로 업그레이드했다. 그런데 주가는 빠졌다. 인플레이션 서프라이즈에 시장 전체가 눌린 탓이다.\n\n매출 성장 56%에서 65%로 가속, FCF 마진 47%, 현금 $7.18B. 숫자는 탄탄하다. PER 221배만 빼면.\n\nSchaeffer's가 불리시 크로스오버를 포착했다. 분할 매수로 접근하자. 컨센서스 $194(+27%)."
+          "hook": "팔란티어 CTO: '8일분 무기로 중국과 싸울 수 없다'",
+          "text": "$PLTR (3/19) $152.77(-1.5%)\n\nCTO Sankar가 '미국은 중국과의 전쟁에 8일분 무기만 있다. 800일분이 필요하다. 억지력을 잃었다'고 발언했다. 해군 ShipOS에 Keel이 합류하며 잠수함 생산까지 AI가 확장됐다($448M).\n\nUBS가 목표가를 $200으로 올렸고, $11.2B 백로그에 매출 65.5% 성장 전망. 하지만 PER 221배에서 좋은 뉴스에도 1.5% 빠졌다.\n\n컨센서스 $194(+27%). 현재가보다 $140-150에서 분할 접근이 더 편안하다."
         },
         "witty": {
-          "hook": "UBS가 사라고 하는 날 인플레이션이 터졌다",
-          "text": "$PLTR (3/19) $152.77(-1.49%)\n\nUBS 목표가 $200, Seeking Alpha Buy 업그레이드. 두 개의 호재가 나란히. 그런데 인플레이션이 파티를 망쳤다.\n\nKarp은 여전히 매일 $6M씩 판다. PER 221배. 이 주식의 모순: 모든 숫자가 좋은데 가격표가 부담스럽다.\n\n매출 +65%면 Forward P/E가 빠르게 정상화된다. 불리시 크로스오버까지. $150 근처라면 분할 매수 타이밍."
+          "hook": "팔란티어, 잠수함 공장까지 AI를 넣었는데 주가는 잠수했다",
+          "text": "$PLTR (3/19) $152.77(-1.5%)\n\nCTO가 '8일분 무기'라고 하니까 투자자들은 '내 계좌도 8일분 수명인데'라고 느꼈을 거다. ShipOS로 잠수함 공장에 AI를 넣었지만 주가는 오히려 잠수.\n\nUBS $200 상향, $11.2B 백로그, 매출 65.5% 성장. 근데 CEO는 매일 $6M 매도 중. 이 코미디는 언제 끝나나.\n\nPER 221배의 주식에선 좋은 뉴스에 빠지는 게 일상이다. $140 오면 다시 보자."
         },
         "empathy": {
-          "hook": "PLTR 보유자들, 좋은 뉴스에도 빠지는 날은 힘들다",
-          "text": "$PLTR (3/19) $152.77(-1.49%)\n\nUBS $200 상향, Seeking Alpha Buy. 좋은 뉴스가 나왔는데 주가가 빠지면 마음이 복잡하다. 충분히 이해한다.\n\n인플레이션 서프라이즈에 시장 전체가 빠진 것이지 Palantir 문제가 아니다. 매출 +65% 가속, FCF 47%, 기관들 편 들기 시작.\n\n불리시 크로스오버 신호까지 나왔다. 인내심을 갖고 분할 매수하면 시간이 보상해줄 수 있는 구간이다."
+          "hook": "팔란티어 보유자들, 좋은 뉴스에 하락하면 힘들다",
+          "text": "$PLTR (3/19) $152.77(-1.5%)\n\nShipOS 확장, UBS $200 상향, CTO의 강력한 국방 AI 메시지. 뉴스만 보면 올라야 하는데 1.5% 빠졌다. PER 221배 주식의 현실이다.\n\n하지만 사업은 역대 최고 구간이다. $11.2B 백로그, 65.5% 성장, FCF 마진 47%. 실적이 밸류에이션을 따라가고 있다.\n\n고점 대비 26% 빠진 자리. 분할 매수로 접근하면 이런 날도 버틸 수 있다. 장기적으로 성장 스토리는 변하지 않았다."
         }
       }
     }
