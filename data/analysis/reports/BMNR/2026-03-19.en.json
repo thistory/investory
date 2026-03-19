@@ -2,54 +2,202 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-19",
-  "currentPrice": 20.20,
+  "currentPrice": 20.2,
   "marketCap": "$8.75B",
   "businessSummary": {
     "oneLiner": "The world's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
-    "description": "Originally a Bitcoin mining company, Bitmine pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/15, it holds 4,595,562 ETH (~3.81% of total supply), with total crypto + cash of $11.5B. JPMorgan took a $102.5M position, and the company secured indirect OpenAI exposure through an $80M Eightco investment.",
+    "description": "Originally a Bitcoin mining company that pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/15, holds 4,595,562 ETH (~3.81% of total supply), with total crypto+cash of $11.5B. JPMorgan opened a new $102.5M position, and an $80M investment in Eightco provides indirect exposure to OpenAI.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,595,562 ETH (~$10B at ~$2,180/ETH), core value driver",
-      "ETH Staking: ~3M ETH staked, ~$174M annual income",
-      "Dividends: 5.3% yield, only crypto treasury company paying dividends",
-      "Indirect OpenAI exposure via Eightco Holdings (~$83M value)"
+      "ETH Treasury: Holds 4,595,562 ETH (~$10B at ~$2,180/ETH), core value driver",
+      "ETH Staking Revenue: ~3M ETH staked, generating ~$174M annually",
+      "Dividends: 5.3% dividend yield, the only crypto treasury company offering dividends",
+      "Indirect OpenAI exposure through Eightco stake (~$83M value)"
     ],
-    "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Eightco Holdings Investment"]
+    "keyProducts": [
+      "Ethereum Treasury",
+      "ETH Staking",
+      "MAVAN Validator Network",
+      "Eightco Holdings Investment"
+    ]
   },
   "keyMetrics": [
-    {"name": "P/B (TTM)", "value": "0.61x", "interpretation": "Trading at 39% discount to NAV. Market cap $8.75B vs total assets $11.5B. Extreme undervaluation vs MSTR's P/B of 2-3x"},
-    {"name": "ETH Holdings", "value": "4,595,562 ETH", "interpretation": "~3.81% of total ETH supply. World's largest public ETH treasury. 61,000+ ETH added in 2 weeks"},
-    {"name": "Total Crypto + Cash", "value": "$11.5B", "interpretation": "Per filing. Real-time value may be slightly lower due to ETH price decline"},
-    {"name": "Dividend Yield", "value": "5.3%", "interpretation": "Only crypto treasury company paying dividends. Income investor appeal"},
-    {"name": "Staking Income", "value": "~$174M/year", "interpretation": "~3M ETH staked. Passive income generation"},
-    {"name": "OpenAI Exposure", "value": "$83M (Eightco stake)", "interpretation": "Eightco invested $50M in OpenAI + $25M in Beast Industries. BMNR holds ~7% of Eightco"}
+    {
+      "name": "P/B Ratio",
+      "value": "~0.58x",
+      "description": "Further ETH decline has widened the discount to NAV. From 0.61x on 3/18, adjusting for ETH -7% brings it to approximately 0.58x"
+    },
+    {
+      "name": "ETH Holdings",
+      "value": "4,595,562 ETH",
+      "description": "Approximately 3.81% of total ETH supply. The largest holding among publicly traded companies worldwide"
+    },
+    {
+      "name": "Total Crypto+Cash",
+      "value": "~$9.97B → ~$9.5B",
+      "description": "~$9.97B at ETH $2,170. Could shrink below $9.5B reflecting additional decline on 3/19"
+    },
+    {
+      "name": "Dividend Yield",
+      "value": "5.3%",
+      "description": "The only crypto treasury company paying dividends. 5.3% at current price"
+    },
+    {
+      "name": "Staking Revenue",
+      "value": "~$174M/year",
+      "description": "~3M ETH currently staked. ETH-denominated returns remain stable despite price decline"
+    },
+    {
+      "name": "Indirect OpenAI Exposure",
+      "value": "$83M",
+      "description": "Indirect OpenAI investment through Eightco stake. Value independent of crypto"
+    }
   ],
   "growthDrivers": [
-    {"title": "Eightco $80M Investment: Indirect OpenAI Exposure", "description": "Invested $80M in Eightco Holdings, which acquired $50M in OpenAI and $25M in Beast Industries. Tom Lee joined Eightco's board. Signals expansion beyond crypto treasury into AI ecosystem."},
-    {"title": "5,000 ETH OTC Purchase from Ethereum Foundation", "description": "Completed the second OTC transaction directly with the Ethereum Foundation. This institutional relationship enables future large-scale ETH acquisitions through a privileged channel."},
-    {"title": "JPMorgan $102.5M New Position", "description": "JPMorgan Chase established a 1,974,144-share (~$102.5M) position in Q3. The world's largest bank's entry validates institutional access."},
-    {"title": "P/B 0.61x: NAV Discount Deepened to 39%", "description": "Crypto selloff widened the discount. With MSTR trading at P/B 2-3x, NAV convergence alone implies 60%+ upside."},
-    {"title": "MAVAN Staking Platform Launch 2026", "description": "Made in America Validator Network to reduce third-party staking fees. US-based, regulation-friendly validator infrastructure."}
+    {
+      "title": "$80M Eightco investment secures indirect OpenAI exposure",
+      "description": "Invested an additional $80M in Eightco Holdings. Eightco has $50M in OpenAI and $25M in Beast Industries. Tom Lee joined Eightco's board. A signal of expansion beyond crypto treasury into the AI ecosystem."
+    },
+    {
+      "title": "Direct OTC purchase of 5,000 ETH from Ethereum Foundation",
+      "description": "Completed a second OTC deal with the Ethereum Foundation. Directly purchased 5,000 ETH, demonstrating an institutional relationship with EF. Secured a channel for future large-scale acquisitions."
+    },
+    {
+      "title": "JPMorgan opens $102.5M new position",
+      "description": "JPMorgan Chase took a new position of 1,974,144 shares (~$102.5M) in Q3. Entry by the world's largest bank signals growing institutional interest."
+    },
+    {
+      "title": "P/B at 0.58x, NAV discount widens to 42%",
+      "description": "The crypto selloff has pushed the stock further below NAV. Extremely undervalued compared to MSTR trading at P/B 2-3x. Significant upside if the NAV discount narrows."
+    },
+    {
+      "title": "MAVAN proprietary staking platform launching in 2026",
+      "description": "Made in America Validator Network to reduce third-party staking fees. Expected to improve yields. A regulation-friendly, U.S.-based validator."
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "Largest public ETH holdings (3.81% of supply). Tom Lee brings institutional credibility. JPMorgan entry validates institutional access. Eightco provides OpenAI exposure diversification.",
+    "summary": "Largest ETH holdings among public companies (3.81% of supply). Tom Lee's involvement brings institutional credibility. JPMorgan's entry validates institutional access. Diversification through Eightco provides OpenAI exposure.",
     "moats": [
-      {"type": "ETH Supply Concentration", "description": "Holds 3.81% of total ETH supply. Irreplaceable market position."},
-      {"type": "Institutional Access", "description": "JPMorgan $102.5M entry. Public equity providing ETH exposure without ETF. Institutional gateway."},
-      {"type": "Ethereum Foundation Relationship", "description": "Two OTC transactions with EF. Privileged channel for large-scale ETH acquisition."}
+      {
+        "type": "ETH Supply Concentration",
+        "description": "Holds 3.81% of total ETH supply. An irreplaceable position in the market."
+      },
+      {
+        "type": "Expanding Institutional Access",
+        "description": "JPMorgan's $102.5M entry. Provides ETH exposure via public equity. Institutional investors can gain access without an ETF."
+      },
+      {
+        "type": "Ethereum Foundation Relationship",
+        "description": "Completed second OTC deal with EF. Secured a privileged channel for large-scale ETH acquisitions."
+      }
     ],
     "competitors": [
-      {"name": "MicroStrategy (MSTR)", "detail": "Original Bitcoin treasury play. BTC focus vs BMNR's ETH focus. Both fell ~6% on 3/18."},
-      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competition. Different fee structure"},
-      {"name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model"}
+      {
+        "name": "MicroStrategy (MSTR)",
+        "detail": "The pioneer of the Bitcoin treasury strategy. BTC-focused vs BMNR's ETH focus. Also dropped 6% on 3/18."
+      },
+      {
+        "name": "Grayscale Ethereum Trust (ETHE)",
+        "detail": "Competes for ETH ETF exposure. Different fee structure"
+      },
+      {
+        "name": "Coinbase (COIN)",
+        "detail": "Exchange-based crypto exposure. Fundamentally different business model"
+      }
     ]
   },
   "recentNews": [
-    {"date": "2026-03-18", "headline": "BMNR Drops 7.62% as Crypto Market Sells Off (BTC -4%, ETH -6%)", "significance": "Fell alongside MSTR. Questions emerge about crypto treasury trade momentum", "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_18/"},
-    {"date": "2026-03-18", "headline": "JPMorgan Chase Acquires 1,974,144 Shares ($102.5M) New Position", "significance": "World's largest bank takes new position. Institutional interest expanding", "url": "https://www.tickerreport.com/banking-finance/13384729/jpmorgan-chase-co-takes-102-52-million-position-in-bitmine-immersion-technologies-inc-bmnr.html"},
-    {"date": "2026-03-16", "headline": "Eightco $125M Funding: BMNR $75M, ARK, Payward. OpenAI $50M Investment", "significance": "BMNR invested $75M in Eightco, which invested in OpenAI and Beast Industries. Tom Lee joins board", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html"},
-    {"date": "2026-03-16", "headline": "Largest ETH Purchase of 2026 + 5,000 ETH OTC from Ethereum Foundation", "significance": "Total crypto + cash $11.5B filing. Second OTC transaction with EF", "url": "https://www.stocktitan.net/sec-filings/BMNR/8-k-bitmine-immersion-technologies-inc-reports-material-event-96dde048d94e.html"},
-    {"date": "2026-03-17", "headline": "Simply Wall St: BMNR +13.9% Surge, Valuation Analysis", "significance": "Rallied on OpenAI exposure + ETH accumulation. Gave back gains next day (-7.62%)", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/bitmine-immersion-ties-openai-exposure-to-growing-ethereum-s"}
+    {
+      "date": "2026-03-19",
+      "headline": "Crypto market plunges: BTC $69,971 (-5.55%), ETH -6.98%, Fear & Greed at 23",
+      "summary": "Fed's hawkish stance and Iran tensions trigger broad risk-asset selloff. Extreme fear spreads across the entire crypto market.",
+      "url": "https://blockchainmagazine.net/crypto-market-today-2026-03-19/"
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "BMNR plunges -7.62% amid broad crypto market weakness",
+      "summary": "Fell alongside MSTR. Concerns over weakening momentum for the treasury trade.",
+      "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_18/"
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "JPMorgan Chase discloses new purchase of 1,974,144 BMNR shares ($102.5M)",
+      "summary": "A signal of growing institutional interest. The world's largest bank has taken a major position in BMNR.",
+      "url": "https://www.tickerreport.com/banking-finance/13384729/jpmorgan-chase-co-takes-102-52-million-position-in-bitmine-immersion-technologies-inc-bmnr.html"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Eightco $125M funding: BMNR $75M, ARK, Payward participate. $50M invested in OpenAI",
+      "summary": "Tom Lee joins the board. Expansion beyond crypto treasury into the AI ecosystem.",
+      "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Largest ETH purchase of 2026 + direct OTC acquisition of 5,000 ETH from EF",
+      "summary": "Disclosed total crypto+cash of $11.5B. Completed second OTC deal with Ethereum Foundation.",
+      "url": "https://www.stocktitan.net/sec-filings/BMNR/8-k-bitmine-immersion-technologies-inc-reports-material-event-96dde048d94e.html"
+    }
   ],
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "Crypto cascade selloff: BTC breaks below $70K, ETH -7%, extreme fear",
+      "description": "On 3/19, BTC fell below $70K and ETH dropped 7%. Fear & Greed at 23. Fed hawkishness + Iran tensions triggered a full risk-asset selloff. A direct hit on BMNR as a leveraged ETH play."
+    },
+    {
+      "severity": "critical",
+      "title": "Maximum ETH price dependency, consecutive crash zone",
+      "description": "-7.62% on 3/18, followed by another ETH -7% drop on 3/19. Potential for massive losses over two consecutive days. Treasury value could evaporate by $700M+ in a single day."
+    },
+    {
+      "severity": "high",
+      "title": "Crypto treasury trade fatigue",
+      "description": "247 Wall St analyzed the concurrent decline of MSTR and BMNR. The market is questioning the sustainability of this strategy. Eroding confidence in the crypto treasury model itself."
+    },
+    {
+      "severity": "high",
+      "title": "Eightco investment risk: $80M concentration",
+      "description": "Major investment in a company trading below $0.01 per share. Questions about financial soundness. Uncertainty around investment recovery."
+    },
+    {
+      "severity": "medium",
+      "title": "Extremely limited analyst coverage",
+      "description": "Only covered by one analyst at B. Riley Securities. Insufficient research relative to market interest. Weak price discovery mechanism."
+    },
+    {
+      "severity": "medium",
+      "title": "Dilution risk",
+      "description": "Ongoing capital raises to fund ETH purchases. Persistent potential for shareholder value dilution."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "P/B below 0.58x, maximum discount to NAV",
+      "description": "The crypto crash has widened the discount further. Leveraged upside on an ETH rebound. Extremely undervalued compared to MSTR at P/B 2-3x."
+    },
+    {
+      "title": "Indirect OpenAI exposure + EF OTC relationship",
+      "description": "Value independent of the crypto crash. AI ecosystem access through Eightco. Privileged acquisition channel with EF."
+    },
+    {
+      "title": "JPMorgan's $102.5M entry",
+      "description": "Institutional validation from the world's largest bank. The disclosed position remains valid despite the selloff. A starting point for institutional capital inflows."
+    },
+    {
+      "title": "5.3% dividend + extreme Fear & Greed index (23)",
+      "description": "Periods of extreme fear have historically been buying opportunities. Dividend provides downside protection. The only dividend-paying stock among crypto treasury companies."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 161.0,
+    "week52Low": 3.44,
+    "currentPositionPercent": 10.64,
+    "sma50": 23.5,
+    "sma50Signal": "below",
+    "sma200": 28.64,
+    "sma200Signal": "below",
+    "rsi": 40.0,
+    "rsiSignal": "neutral"
+  },
   "analystOpinions": {
     "consensusTarget": 30,
     "highTarget": 30,
@@ -58,109 +206,124 @@
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley's Fedor Shabalin is the sole coverage. $30 target, Strong Buy. Limited coverage but JPMorgan entry may catalyze additional analyst initiation."
-  },
-  "risks": [
-    {"severity": "critical", "title": "Extreme ETH Price Dependency: -7.62% Drop Proves It", "description": "90%+ of assets in ETH. Stock dropped 7.62% when ETH fell 6%, worse than the underlying. Leverage effect cuts both ways. Questions about crypto treasury trade losing steam."},
-    {"severity": "high", "title": "Crypto Market Weakness Persists", "description": "BTC $71,300 (-4%), ETH ~$2,180 (-6%). 247 Wall St analyzed the MSTR/BMNR selloff as 'treasury trade fatigue.'"},
-    {"severity": "high", "title": "Eightco Investment Risk: $80M in Sub-Penny Stock", "description": "Eightco trades below $0.01/share. $80M investment in it is bold. OpenAI exposure is attractive but Eightco's own financial health and liquidity are questionable."},
-    {"severity": "high", "title": "Extremely Limited Analyst Coverage", "description": "Only 1 analyst covers. Inefficient price discovery. JPMorgan entry could be a catalyst for change."},
-    {"severity": "medium", "title": "Dilution Risk", "description": "Continuous capital raises for ETH purchases. Existing shareholder dilution risk."}
-  ],
-  "buyReasons": [
-    {"title": "P/B 0.61x: 39% NAV Discount Deepened", "rationale": "Market cap $8.75B vs total assets $11.5B. Crypto selloff widened the discount. NAV convergence alone implies 60%+ upside."},
-    {"title": "OpenAI Exposure + Ethereum Foundation OTC Relationship", "rationale": "Indirect $50M OpenAI exposure via Eightco. Direct OTC relationship with Ethereum Foundation is a unique competitive advantage."},
-    {"title": "JPMorgan $102.5M: Institutional Validation", "rationale": "World's largest bank took a $100M+ position. Validates institutional access and may catalyze additional inflows."},
-    {"title": "5.3% Dividend + Staking Income + Accumulation in Downturn", "rationale": "$174M annual staking income funds dividends. 61,000+ ETH added during selloff shows long-term conviction."}
-  ],
-  "technicalPosition": {
-    "week52High": 161.00,
-    "week52Low": 3.44,
-    "currentPositionPercent": 10.64,
-    "sma50": 23.50,
-    "sma50Signal": "below",
-    "sma200": 28.64,
-    "sma200Signal": "below",
-    "rsi": 40.0,
-    "rsiSignal": "neutral"
+    "notableComment": "Only covered by B. Riley Securities. $30 price target, Strong Buy. No coverage change despite the crypto crash."
   },
   "overallOpinion": [
-    "Bitmine invested $80M in Eightco to gain indirect OpenAI exposure ($50M) and bought 5,000 ETH directly from the Ethereum Foundation via OTC. The company is expanding beyond crypto treasury into the AI ecosystem.",
-    "But the stock dropped 7.62% on March 18 as crypto sold off, pushing P/B down to 0.61x. It fell harder than ETH itself, proving the leverage effect is a double-edged sword. '247 Wall St' is asking whether the crypto treasury trade is running out of steam.",
-    "Trading below both the 50-day ($23.50) and 200-day ($28.64) MAs at $20.20. But the vault holds $11.5B while market cap is $8.75B. Below JPMorgan's entry price. A contrarian entry for small portfolio allocations."
+    "BTC has fallen below $70K and ETH has dropped 7% for two consecutive days, hitting BMNR directly. Fear & Greed at 23 — the market is in a state of extreme fear.",
+    "But a company with $9.97B in assets trading at $8.75B is clearly at a discount. JPMorgan put in $102.5M before the short-term crash, and institutional conviction doesn't change overnight.",
+    "In the short term, if ETH falls further, BMNR goes with it. That's an unavoidable structural risk. But the peak of fear could actually be an entry point.",
+    "The key question is where ETH's bottom is. Once Fed and geopolitical risks ease, the rebound could be as amplified as the leverage."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "P/B 0.61x means paying $61 for a company with $100 in the vault. OpenAI exposure, EF relationship, and JPMorgan entry strengthen fundamentals. However, extreme ETH dependency demands a portfolio allocation of 3-5% maximum. Only for investors who can stomach leveraged downside risk.",
+    "summary": "The crypto market is gripped by extreme fear, but BMNR's 42% discount to NAV and JPMorgan's institutional validation remain intact. If you can stomach short-term volatility, there's a strong chance that a Fear & Greed reading of 23 marks a historic buying zone.",
     "horizon": "3-6 months"
   },
   "sources": [
-    {"name": "StocksToTrade", "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_18/", "description": "BMNR -7.62% crash amid crypto selloff"},
-    {"name": "247 Wall St", "url": "https://247wallst.com/investing/2026/03/18/strategy-and-bitmine-immersion-technologies-tumble-6-is-the-crypto-treasury-trade-running-out-of-steam/", "description": "BMNR/MSTR selloff analysis. Crypto treasury trade fatigue"},
-    {"name": "PRNewswire (Eightco)", "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html", "description": "Eightco $125M funding. BMNR $75M, ARK, Payward. OpenAI $50M"},
-    {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/12/eightco-shares-jump-on-usd125-million-funding-commitment-investment-in-openai-beast-industries", "description": "BMNR 7% stake in Eightco, $75M investment details"},
-    {"name": "StockTitan (SEC Filing)", "url": "https://www.stocktitan.net/sec-filings/BMNR/8-k-bitmine-immersion-technologies-inc-reports-material-event-96dde048d94e.html", "description": "$11.5B treasury filing. 5,000 ETH OTC from Ethereum Foundation"},
-    {"name": "Ticker Report (JPMorgan)", "url": "https://www.tickerreport.com/banking-finance/13384729/jpmorgan-chase-co-takes-102-52-million-position-in-bitmine-immersion-technologies-inc-bmnr.html", "description": "JPMorgan Chase $102.5M BMNR new position"},
-    {"name": "CoinCentral", "url": "https://coincentral.com/bitmine-bmnr-stock-rises-14-on-openai-exposure-via-eightco-deal/", "description": "+14% on OpenAI exposure. Eightco position valued at $83M"},
-    {"name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/bitmine-immersion-ties-openai-exposure-to-growing-ethereum-s", "description": "OpenAI exposure + ETH staking theme analysis"},
-    {"name": "Phemex", "url": "https://phemex.com/blogs/ethereum-march-2026-price-etf-fomc-outlook", "description": "ETH $2,327, 52-week high $4,831, low $1,473"}
+    {
+      "name": "Blockchain Magazine",
+      "url": "https://blockchainmagazine.net/crypto-market-today-2026-03-19/",
+      "description": "2026-03-19 crypto market crash overview and Fear & Greed Index"
+    },
+    {
+      "name": "StocksToTrade",
+      "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_18/",
+      "description": "BMNR 3/18 -7.62% plunge news and analysis"
+    },
+    {
+      "name": "Ticker Report",
+      "url": "https://www.tickerreport.com/banking-finance/13384729/jpmorgan-chase-co-takes-102-52-million-position-in-bitmine-immersion-technologies-inc-bmnr.html",
+      "description": "JPMorgan Chase $102.5M new BMNR position disclosure"
+    },
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/eightco-nasdaq-orbs-secures-125m-in-institutional-commitments-led-by-bitmine-nyse-bmnr-cathie-woods-ark-invest-and-payward-to-expand-into-next-generation-technology-302712148.html",
+      "description": "Eightco $125M funding round, BMNR $75M participation, OpenAI investment"
+    },
+    {
+      "name": "Stock Titan",
+      "url": "https://www.stocktitan.net/sec-filings/BMNR/8-k-bitmine-immersion-technologies-inc-reports-material-event-96dde048d94e.html",
+      "description": "BMNR 8-K: Largest ETH purchase + EF OTC 5,000 ETH"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/BMNR/",
+      "description": "BMNR real-time price, market cap, technical indicators"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "description": "Ethereum real-time price and market data"
+    },
+    {
+      "name": "Alternative.me",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "description": "Crypto Fear & Greed Index real-time data"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR secures OpenAI exposure, then drops 7.62%",
-      "text": "$BMNR (Mar 19) $20.20 (-7.62%). Crypto selloff hit hard. But the company just invested $80M in Eightco for OpenAI exposure and bought 5,000 ETH direct from the Ethereum Foundation.\n\n1/3",
+      "hook": "BTC below $70K, ETH -7%, BMNR at max NAV discount",
+      "text": "$BMNR (3/19) $20.20(-7.62%). BTC $69,971, ETH -7%. Fear & Greed 23. 4,595,562 ETH holder at 42% NAV discount. JPMorgan in at $102.5M.\n\n1/3",
       "thread": [
-        "Vault holds $11.5B, market cap $8.75B. P/B 0.61x = 39% NAV discount. Now trading below JPMorgan's $102.5M entry price. 5.3% dividend yield.\n\n2/3",
-        "ETH dropped 6%, stock dropped 7.62%. Leverage cuts both ways. But at this price, NAV convergence alone means 60%+ upside. Small position, contrarian play.\n\n3/3"
+        "Two-day crypto crash could evaporate $700M+ in treasury value. But P/B 0.61x vs MSTR's 2-3x is extreme undervaluation. Fear creates opportunity.\n\n2/3",
+        "5.3% dividend, $174M/yr staking. Leveraged upside on ETH recovery. Target $30(+48.5%). Buy zone if you can handle short-term pain.\n\n3/3"
       ]
     },
     "threads": {
-      "hook": "BMNR: OpenAI exposure secured, ETH selloff sends stock down 7.62%",
-      "text": "$BMNR (Mar 19) $20.20 (-7.62%)\n\nInvested $80M in Eightco for indirect OpenAI exposure ($50M) and bought 5,000 ETH directly from the Ethereum Foundation. Expanding from crypto treasury into AI ecosystem.\n\nBut ETH fell 6% and the stock dropped 7.62%. Leverage is a double-edged sword. '247 Wall St' asking if the treasury trade is losing steam.\n\nVault: $11.5B. Market cap: $8.75B. P/B 0.61x, below JPMorgan's entry. Contrarian entry zone for small allocations."
+      "hook": "A company holding 4.6M ETH is 42% off its NAV",
+      "text": [
+        "BMNR $20.20. The world's largest publicly traded ETH holder (4,595,562 ETH) is trading at a 42% discount to NAV. Price target $30, upside potential 48.5%.",
+        "Crypto market in freefall: BTC $69,971 (-5.55%), ETH -6.98%. Fear & Greed Index at 23 (extreme fear). The Fed's hawkish stance and Iran tensions have triggered a broad risk-asset selloff.",
+        "BMNR plunged -7.62% on 3/18, and with ETH's further drop on 3/19, treasury value could shrink by over $700M in a single day. P/B has fallen to 0.58x.",
+        "Yet JPMorgan took a new position of $102.5M (1.97M shares). The world's largest bank made its move — a judgment separate from the short-term selloff.",
+        "Bonus cards: $80M investment in Eightco provides $83M in indirect OpenAI exposure — value independent of crypto. The 5.3% dividend also reduces the cost of waiting.",
+        "The risks are clear. The structure is extremely dependent on ETH price. But historically, buying at a 42% discount to NAV when the Fear index is at 23 has produced good results. A 3-6 month horizon."
+      ]
     },
     "telegram": {
-      "hook": "BMNR $20.20: Crypto Selloff, But OpenAI Exposure Secured",
-      "text": "BMNR Daily Analysis (Mar 19)\n\nPrice: $20.20 (-7.62%)\nMkt Cap: $8.75B / P/B: 0.61x\n\nKey Points\n- Crypto selloff (ETH -6%, BTC -4%)\n- $80M Eightco investment (OpenAI $50M exposure)\n- 5,000 ETH OTC from Ethereum Foundation\n- JPMorgan $102.5M new position\n- Total treasury $11.5B vs market cap $8.75B\n- Dividend yield 5.3%\n\nTechnicals\n- 52-week: $161 / $3.44\n- Below 50-day ($23.50) and 200-day ($28.64)\n\nTarget: $30 (49% upside, 1 analyst)\nVerdict: Buy (small allocation, 3-6 months)"
+      "hook": "BMNR: BTC Below $70K, ETH -7%, Extreme Fear",
+      "text": "Bitmine Daily Analysis (3/19)\n\nPrice: $20.20 (-7.62%)\nMkt Cap: $8.75B / P/B 0.61x\n\nCrypto Crash\n- BTC $69,971 (-5.55%)\n- ETH -6.98%, Fear & Greed 23\n- Hawkish Fed + Iran conflict\n\nKey News\n- JPMorgan $102.5M new position\n- Eightco $80M, OpenAI exposure\n- 5,000 ETH OTC from EF\n\nHoldings: 4,595,562 ETH (~$9.97B)\nDividend 5.3% / Staking ~$174M/yr\n\nTarget $30 (+48.5%), 1 Buy\nVerdict: Buy (3-6mo)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR secures OpenAI exposure, then drops 7.62%",
-          "text": "$BMNR (Mar 19) $20.20 (-7.62%). Crypto selloff hit hard. But the company just invested $80M in Eightco for OpenAI exposure and bought 5,000 ETH direct from the Ethereum Foundation.\n\n1/3",
+          "hook": "BTC below $70K, ETH -7%, BMNR at max NAV discount",
+          "text": "$BMNR (3/19) $20.20(-7.62%). BTC $69,971, ETH -7%. Fear & Greed 23. 4,595,562 ETH holder at 42% NAV discount. JPMorgan in at $102.5M.\n\n1/3",
           "thread": [
-            "Vault holds $11.5B, market cap $8.75B. P/B 0.61x = 39% NAV discount. Now trading below JPMorgan's $102.5M entry price. 5.3% dividend yield.\n\n2/3",
-            "ETH dropped 6%, stock dropped 7.62%. Leverage cuts both ways. But at this price, NAV convergence alone means 60%+ upside. Small position, contrarian play.\n\n3/3"
+            "Two-day crypto crash could evaporate $700M+ in treasury value. But P/B 0.61x vs MSTR's 2-3x is extreme undervaluation. Fear creates opportunity.\n\n2/3",
+            "5.3% dividend, $174M/yr staking. Leveraged upside on ETH recovery. Target $30(+48.5%). Buy zone if you can handle short-term pain.\n\n3/3"
           ]
         },
         "witty": {
-          "hook": "BMNR vault: $11.5B. Market cap: $8.75B. Math isn't mathing.",
-          "text": "$BMNR (Mar 19) $20.20 (-7.62%). Got OpenAI exposure, bought ETH from the Foundation itself. Then ETH sneezed and BMNR caught pneumonia. $11.5B in the vault though.\n\n1/3",
+          "hook": "BTC under $70K and everyone discovers value",
+          "text": "$BMNR (3/19) $20.20. BTC $69,971, ETH -7%. Fear at 23 but P/B 0.61x. Buying $9.97B assets for $8.75B isn't a sale, it's a panic.\n\n1/3",
           "thread": [
-            "JPMorgan paid more for their shares than you'd pay today. The world's biggest bank is now underwater on BMNR. P/B 0.61x is on sale.\n\n2/3",
-            "Putting $80M into a sub-penny stock is either genius or insane. But that sub-penny stock owns OpenAI shares. High risk, high absurdity, high potential.\n\n3/3"
+            "JPMorgan put $102.5M in before the panic. Institutions wait for these days. Retail runs from them. Tom Lee joined for the same reason.\n\n2/3",
+            "5.3% dividend cushion + wait for ETH recovery. Leverage cuts both ways but at this NAV discount, the shield is bigger than the sword. Target $30(+48.5%).\n\n3/3"
           ]
         },
         "empathy": {
-          "hook": "BMNR holders, -7.62% after yesterday's rally hurts",
-          "text": "$BMNR (Mar 19) $20.20 (-7.62%). Rally one day, crash the next. This rollercoaster is exhausting. When ETH drops, you drop harder.\n\n1/3",
+          "hook": "BMNR holders, two straight crash days hurt",
+          "text": "$BMNR (3/19) $20.20(-7.62%). BTC below $70K, ETH -7%. Two days in a row makes you not want to check your account. Completely understandable.\n\n1/3",
           "thread": [
-            "But vault still holds $11.5B. Market cap $8.75B. OpenAI exposure, EF relationship, JPMorgan in. Fundamentals haven't changed since yesterday.\n\n2/3",
-            "If your position size is manageable, you can weather this. The NAV discount won't last forever. Time is the variable.\n\n3/3"
+            "But $9.97B assets at $8.75B with JPMorgan's $102.5M entry. Extreme fear zones have historically been buying opportunities.\n\n2/3",
+            "5.3% dividend as cushion, leveraged upside on ETH recovery. If you can weather the storm. Target $30(+48.5%).\n\n3/3"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR: OpenAI exposure secured, ETH selloff sends stock down 7.62%",
-          "text": "$BMNR (Mar 19) $20.20 (-7.62%)\n\nInvested $80M in Eightco for indirect OpenAI exposure ($50M) and bought 5,000 ETH directly from the Ethereum Foundation. Expanding from crypto treasury into AI ecosystem.\n\nBut ETH fell 6% and the stock dropped 7.62%. Leverage is a double-edged sword. '247 Wall St' asking if the treasury trade is losing steam.\n\nVault: $11.5B. Market cap: $8.75B. P/B 0.61x, below JPMorgan's entry. Contrarian entry zone for small allocations."
+          "hook": "A company holding 4.6M ETH is 42% off its NAV",
+          "text": ""
         },
         "witty": {
-          "hook": "BMNR got OpenAI, bought ETH from the Foundation, then dropped 7.62%",
-          "text": "$BMNR (Mar 19) $20.20 (-7.62%)\n\nOpenAI exposure: check. EF direct OTC: check. Then ETH sneezed and BMNR caught the flu. Leverage is a cruel mistress.\n\nJPMorgan paid more for their shares. You can now buy below the world's biggest bank. $11.5B vault, $8.75B market cap. The math is absurd.\n\nPutting $80M into a sub-penny stock with OpenAI inside is either visionary or reckless. Maybe both. Either way, P/B 0.61x is interesting."
+          "hook": "A company holding 4.6M ETH is 42% off its NAV",
+          "text": ""
         },
         "empathy": {
-          "hook": "BMNR holders, after yesterday's surge, today's 7.62% drop stings",
-          "text": "$BMNR (Mar 19) $20.20 (-7.62%)\n\nUp yesterday, down today. This volatility can exhaust anyone. When ETH falls, the stock falls harder, and that's just the reality of holding leveraged crypto exposure.\n\nBut the vault still holds $11.5B and market cap is $8.75B. OpenAI, EF relationship, JPMorgan. The company is the same, just cheaper than yesterday.\n\nIf your allocation is small enough to handle this, the NAV discount eventually closes. It just takes time."
+          "hook": "A company holding 4.6M ETH is 42% off its NAV",
+          "text": ""
         }
       }
     }

@@ -57,28 +57,28 @@
   ],
   "growthDrivers": [
     {
+      "title": "Musk, SpaceX AI와 Tesla의 Nvidia 칩 대규모 주문 지속 확인",
+      "description": "Reuters 보도. Terafab 자체 칩 전환 전까지 최대 AI 수요처 유지. Musk의 공개 확인은 AI 칩 수요의 구조적 견고함을 재확인시킨다."
+    },
+    {
       "title": "중국 H200 판매 승인: 베이징이 문을 열었다",
-      "description": "Reuters(3/18): 베이징이 엔비디아 H200 AI 칩의 중국 판매를 승인했다. 젠슨 황이 GTC에서 미국 수출 허가와 중국 고객 주문을 확인했다. Groq 칩의 중국용 버전도 준비 중이다. 한때 매출 20%를 차지했던 중국 시장 재진입의 첫 걸음."
+      "description": "Jensen Huang이 GTC에서 직접 확인. Groq 중국용도 준비 중. 잃어버린 중국 매출 20%가 돌아올 가능성."
     },
     {
       "title": "GTC 2026 마무리: AI 추론 시장 $1T 매출 기회",
-      "description": "Reuters 보도: 엔비디아가 AI 칩의 매출 기회가 2027년까지 최소 1조 달러에 달할 수 있다고 밝혔다. 'In fact, we are going to be short'라며 컴퓨팅 수요가 공급을 넘어설 것이라 확신. GTC 최종일(3/19)까지 헬스케어, 로보틱스, 자율주행 등 분야별 발표 지속."
+      "description": "작년 $500B에서 2배 상향. 추론 시장이 훈련 시장을 넘어서며 새로운 성장 엔진으로 부상."
     },
     {
       "title": "Vera Rubin 플랫폼: 와트당 10배 성능",
-      "description": "Grace Blackwell 대비 와트당 성능이 10배 향상된 차세대 Vera Rubin NVL72 플랫폼을 GTC 2026에서 공개. 데이터센터 전력 효율의 새로운 기준."
-    },
-    {
-      "title": "Groq 3 LPU 통합: 와트당 35배 추론 성능",
-      "description": "Vera Rubin GPU 대비 토큰당 와트 효율이 35배 높은 Groq 3 LPU를 공개. $17B 라이선싱 딜로 확보한 기술. AI 추론 시장의 폭발적 성장에 대응."
+      "description": "Grace Blackwell 대비 10배 에너지 효율. 데이터센터 전력 병목 해소의 열쇠."
     },
     {
       "title": "5계층 풀스택 AI 플랫폼",
-      "description": "칩, 에이전트 런타임, 오픈 모델, 팩토리 블루프린트, 소프트웨어 플랫폼을 아우르는 5계층 AI 플랫폼 전략을 발표. 하드웨어 판매를 넘어 AI 공장 전체의 청사진을 제공하는 플랫폼 비즈니스로 확장 중."
+      "description": "칩 넘어 AI 공장 전체 청사진. 하드웨어에서 소프트웨어, 에이전트 런타임까지 수직 통합."
     },
     {
-      "title": "Bank of America $300 목표가 유지, Buy",
-      "description": "BofA 애널리스트 Vivek Arya가 GTC 2026 후 CFO 미팅을 거쳐 Buy 등급과 $300 목표가를 재확인했다. 현재가 대비 65% 이상 상승 여력."
+      "title": "Bank of America $300 목표가 유지",
+      "description": "Vivek Arya Buy 재확인. 61명 애널리스트 중 58명이 Buy 의견."
     }
   ],
   "competitiveAdvantage": {
@@ -119,218 +119,214 @@
   "recentNews": [
     {
       "date": "2026-03-19",
-      "headline": "GTC 2026 최종일(Day 4): 헬스케어 AI, 휴머노이드 로봇 네비게이션 데모",
-      "significance": "AlphaFold DB에 170만개 단백질 구조 추가, RealSense 자율 휴머노이드 네비게이션. GTC 4일간의 발표가 마무리되는 날",
+      "title": "Musk, SpaceX AI와 Tesla가 Nvidia 칩 대규모 주문을 계속하겠다고 밝혀",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "GTC 2026 최종일(Day 4): 헬스케어 AI, 휴머노이드 로봇 데모",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
     {
       "date": "2026-03-18",
-      "headline": "베이징, 엔비디아 H200 AI 칩 중국 판매 승인",
-      "significance": "중국 시장 재진입의 첫 걸음. 한때 매출 20%였던 시장에 다시 접근 가능. Groq 칩 중국용 버전도 준비 중",
+      "title": "베이징, 엔비디아 H200 AI 칩 중국 판매 승인",
       "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/"
     },
     {
       "date": "2026-03-18",
-      "headline": "BofA Vivek Arya: Buy 유지, $300 목표가 재확인",
-      "significance": "GTC 2026 후 CFO 미팅을 거쳐 현재가 대비 65% 상승 여력 제시",
+      "title": "BofA Vivek Arya: Buy 유지, $300 목표가 재확인",
       "url": "https://finance.yahoo.com/news/bank-america-resets-nvidia-stock-173300287.html"
     },
     {
-      "date": "2026-03-17",
-      "headline": "AI 추론 칩 매출 기회 $1T: 젠슨 황 GTC 키노트",
-      "significance": "2027년까지 AI 칩 매출 기회 최소 1조 달러. '공급이 부족할 것이라 확신'. 작년 $500B 전망에서 2배 상향",
-      "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/"
-    },
-    {
-      "date": "2026-02-25",
-      "headline": "Q4 FY26 실적 발표: 매출 $68.1B, Q1 FY27 가이던스 $78B",
-      "significance": "Q4 매출 681억 달러(+73% YoY). Q1 가이던스 780억 달러로 성장 지속 확인",
-      "url": "https://stockanalysis.com/stocks/nvda/"
+      "date": "2026-03-18",
+      "title": "Fed 매파적 경고에 기술주 압박, GTC 호재에도 주가 보합",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-march-18-2026"
     }
   ],
-  "analystOpinions": {
-    "consensusTarget": 274.30,
-    "highTarget": 320.00,
-    "lowTarget": 185.00,
-    "upsidePercent": 50.8,
-    "buyCount": 58,
-    "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "BofA Vivek Arya $300 목표가 재확인. 61명 중 58명 Buy. 컨센서스 $274.30. GTC 후에도 주가 반응이 미약해 오히려 매수 기회라는 분석 다수."
-  },
   "risks": [
     {
       "severity": "high",
+      "title": "Fed 매파적 스탠스 + 이란 지정학",
+      "description": "금리 인하 지연. 성장주 밸류에이션 압력. 3/18 Dow -400, 기술주 전반적 약세. 이란 긴장 고조로 안전자산 선호 심화."
+    },
+    {
+      "severity": "high",
       "title": "중국 수출 제한 불확실성",
-      "description": "H200 판매가 승인됐지만, 최신 칩(Blackwell, Vera Rubin)은 여전히 수출 제한. 미중 관계 변화에 따라 언제든 재규제 가능."
+      "description": "H200 승인됐지만 최신 칩(Blackwell, Vera Rubin)은 여전히 제한. 정치적 변수에 따라 다시 막힐 가능성 상존."
     },
     {
       "severity": "medium",
       "title": "GTC 후 주가 무반응, 기대 선반영",
-      "description": "1조 달러 수주, 중국 승인, 5계층 플랫폼 등 대형 발표에도 주가가 거의 안 움직였다. 시장이 이미 많은 것을 반영하고 차익 실현 매물과 균형을 맞추는 중."
+      "description": "대형 발표에도 거의 안 움직임. Vera Rubin, 중국 승인 등 호재가 이미 주가에 반영됐을 가능성."
     },
     {
       "severity": "medium",
       "title": "경쟁 심화",
-      "description": "AMD MI450, Google TPU v6, Microsoft Maia, Amazon Trainium 등 경쟁자들이 AI 가속기 시장에 적극 진입 중."
+      "description": "AMD MI450, Google TPU v6 등 경쟁 가속기 등장. 하이퍼스케일러 자체 칩 개발도 위협 요인."
     },
     {
       "severity": "medium",
-      "title": "DLSS 5 백래시",
-      "description": "GTC 2026에서 DLSS 5 관련 소비자 반발이 나타남. 게이밍 부문 브랜드 리스크."
-    },
-    {
-      "severity": "medium",
-      "title": "에너지 및 인프라 병목",
-      "description": "AI 데이터센터의 전력 소비 급증으로 에너지 공급이 AI 확장의 병목이 될 수 있다."
+      "title": "에너지 인프라 병목",
+      "description": "AI 데이터센터 전력 소비 급증. 전력 공급 부족이 AI 인프라 확장의 물리적 한계로 작용할 수 있다."
     }
   ],
   "buyReasons": [
     {
-      "title": "중국 H200 판매 승인: 잃어버린 매출의 귀환",
-      "rationale": "베이징이 H200 판매를 승인하면서 한때 매출 20%를 차지했던 중국 시장에 다시 접근할 수 있게 됐다. Groq 중국용 버전까지 준비 중."
+      "title": "Musk까지 대규모 주문 확인: AI 칩 수요는 견고하다",
+      "description": "Tesla, SpaceX AI가 지속 주문. Terafab 자체 칩 전환 전까지 Nvidia가 최대 AI 수요처의 핵심 공급자."
     },
     {
-      "title": "AI 추론 매출 $1T: 작년 전망의 2배",
-      "rationale": "GTC에서 AI 칩 매출 기회를 $1T로 상향. 젠슨 황은 '공급이 부족할 것'이라며 수요 초과를 확신. $500B에서 2배 상향."
+      "title": "중국 H200 승인: 잃어버린 매출 20%의 귀환",
+      "description": "베이징의 H200 승인으로 중국 시장 재진입. Groq 중국용도 준비되며 추가 매출 기회."
     },
     {
-      "title": "Forward P/E 30배 미만, 성장 대비 합리적",
-      "rationale": "Forward P/E 29.7배에 매출 성장률 65%, PEG 0.57은 고성장 기술주 중에서도 매력적인 밸류에이션이다."
+      "title": "Forward P/E 30배 미만, PEG 0.57",
+      "description": "65% 성장률 대비 밸류에이션이 합리적. 성장주 중에서도 가성비 좋은 수준."
     },
     {
-      "title": "61명 애널리스트 중 58명 Strong Buy",
-      "rationale": "압도적 다수의 애널리스트가 매수 의견. 컨센서스 목표가 $274(+51%), BofA $300."
+      "title": "61명 중 58명 Buy, BofA $300",
+      "description": "압도적 애널리스트 Buy 컨센서스. Bank of America $300 목표가 재확인."
     }
   ],
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
     "currentPositionPercent": 75.9,
-    "sma50": 185.00,
+    "sma50": 185.0,
     "sma50Signal": "below",
-    "sma200": 170.00,
+    "sma200": 170.0,
     "sma200Signal": "above",
     "rsi": 36.0,
     "rsiSignal": "neutral"
   },
+  "analystOpinions": {
+    "consensusTarget": 274.3,
+    "highTarget": 320.0,
+    "lowTarget": 185.0,
+    "upsidePercent": 50.8,
+    "buyCount": 58,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "BofA Vivek Arya $300 재확인. Musk까지 대규모 주문 확인. 61명 중 58명 Buy. GTC 후에도 주가 반응 미약해 오히려 매수 기회."
+  },
   "overallOpinion": [
-    "GTC 2026이 마무리되는 날이다. 4일간 1조 달러 추론 매출 기회, 중국 H200 승인, Vera Rubin 10배 성능, 5계층 플랫폼까지 쏟아냈다. 젠슨 황은 '공급이 부족할 것'이라며 작년 $500B 전망을 $1T로 두 배 올렸다.",
-    "이 모든 발표에도 주가는 $181.93으로 거의 안 움직였다. TipRanks는 '왜 탑 애널리스트들이 여전히 낙관적인가'라는 제목을 달았다. 61명 중 58명이 Buy인데 주가가 반응하지 않는 건, 시장이 소화하는 시간이 필요하다는 뜻이다.",
-    "RSI 36으로 과매도 근접, 50일선($185) 바로 아래. 52주 고점 $212에서 14% 빠진 자리에서 Forward P/E 29.7배, PEG 0.57이다. GTC 후 조정 구간은 중장기 투자자에게 매력적인 진입 기회."
+    "GTC 2026 최종일을 맞아 4일간의 대형 발표가 마무리된다. Vera Rubin, 5계층 풀스택, 중국 H200 승인까지 펀더멘털 호재는 역대급이었지만, 주가는 거의 반응하지 않았다.",
+    "Musk가 SpaceX AI와 Tesla의 Nvidia 칩 대규모 주문을 공개 확인한 것은 AI 칩 수요의 구조적 견고함을 보여주는 강력한 신호다. 중국 H200 승인까지 더해지며 매출 성장 경로가 더 넓어졌다.",
+    "다만 Fed의 매파적 경고와 이란 지정학 리스크로 성장주 전반이 압박받고 있다. 3/19 선물도 하락 출발하며 기술주에서 방어주로 로테이션이 진행 중이다.",
+    "RSI 36으로 과매도 근접, 50일선($185) 아래에서 거래 중이지만 200일선($170) 위를 유지하고 있어 중기 상승 추세는 건재하다. 단기 변동성을 감내할 수 있다면 매수 기회로 판단한다."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "중국 H200 승인, $1T 추론 매출 기회, GTC 풀스택 전략이 장기 성장을 뒷받침한다. GTC 후 주가 무반응은 시장 소화 과정이지 펀더멘털 약화가 아니다. RSI 36의 조정 구간에서 Forward P/E 30배 미만은 매력적이다.",
+    "summary": "GTC 2026에서 확인된 압도적 기술 리더십, Musk의 대규모 주문 확인, 중국 H200 승인 등 펀더멘털 호재가 산적하지만 Fed 매파 스탠스와 지정학 리스크로 단기 조정 중이다. Forward P/E 30배 미만, PEG 0.57, RSI 36의 과매도 근접 구간에서 중장기 매수 기회로 판단한다.",
     "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Reuters (AI Inference $1T)",
-      "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/",
-      "description": "AI 칩 매출 기회 $1T. Groq $17B 라이선싱. '공급이 부족할 것'"
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/",
+      "description": "Musk의 SpaceX AI, Tesla Nvidia 칩 대규모 주문 지속 확인 보도"
     },
     {
-      "name": "TipRanks (GTC Analysis)",
-      "url": "https://www.tipranks.com/news/nvidia-nvda-stock-flat-amid-gtc-2026-why-top-analysts-are-still-bullish",
-      "description": "NVDA -0.70% $181.93. GTC 후에도 주가 무반응. 애널리스트 낙관론 분석"
-    },
-    {
-      "name": "Reuters (China H200)",
+      "name": "Reuters",
       "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/",
-      "description": "베이징, 엔비디아 H200 중국 판매 승인. Groq 중국용 버전 준비"
+      "description": "베이징 엔비디아 H200 AI 칩 중국 판매 승인 보도"
     },
     {
-      "name": "Yahoo Finance (BofA)",
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "description": "GTC 2026 최종일 헬스케어 AI, 휴머노이드 로봇 데모 공식 발표"
+    },
+    {
+      "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/news/bank-america-resets-nvidia-stock-173300287.html",
       "description": "BofA Vivek Arya Buy 유지, $300 목표가 재확인"
     },
     {
-      "name": "Forbes (GTC Platform)",
-      "url": "https://www.forbes.com/sites/janakirammsv/2026/03/18/nvidia-turns-gtc-2026-into-a-full-stack-platform-play/",
-      "description": "GTC 2026 5계층 풀스택 AI 플랫폼 전략 분석"
+      "name": "TheStreet",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-march-18-2026",
+      "description": "Fed 매파적 경고에 기술주 압박, GTC 호재에도 주가 보합"
     },
     {
-      "name": "NVIDIA Blog (GTC Day 4)",
-      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
-      "description": "GTC 2026 라이브 업데이트. 헬스케어 AI, 로보틱스, 최종일"
+      "name": "NVIDIA IR",
+      "url": "https://investor.nvidia.com/financial-info/quarterly-results",
+      "description": "FY26 실적 발표 자료. 매출 $215.9B, 순이익 Q4 $42.96B"
     },
     {
-      "name": "WallStreetZen",
-      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda",
-      "description": "52주 고점 $212.19, 저점 $86.62"
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/investing/stock/nvda",
+      "description": "NVDA 실시간 시세, 기술적 지표, 애널리스트 컨센서스"
     },
     {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "컨센서스 목표가 $274.30, 61명 애널리스트 분포"
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/symbol/NVDA",
+      "description": "NVDA 밸류에이션 분석, P/E, Forward P/E, PEG 비율"
     },
     {
-      "name": "TechRepublic (GTC Day 4)",
-      "url": "https://www.techrepublic.com/article/news-nvidia-gtc-2026-live-updates/",
-      "description": "GTC Day 4: IBM 파트너십, RealSense 휴머노이드, AlphaFold 170만 구조"
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/quote/NVDA:US",
+      "description": "NVDA 시장 데이터, 애널리스트 목표가 컨센서스 $274.30"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "GTC 4일간 $1T 퍼부었는데 주가는 미동도 없다",
-      "text": "$NVDA (3/19) $181.93(-0.7%). GTC 마지막 날. 4일간 $1T 추론 매출, 중국 승인, 5계층 플랫폼을 쏟아냈는데 주가는 안 움직였다. 58/61 Buy.\n\n1/4",
+      "hook": "NVDA GTC 끝, Musk까지 칩 주문 확인",
+      "text": "🟢 NVDA $181.93 | 컨센서스 $274.30 (+50.8%)\n\nGTC 2026 최종일. Musk가 SpaceX AI와 Tesla의 Nvidia 칩 대규모 주문을 공개 확인했다. 중국 H200 승인까지 터졌지만 Fed 매파 압박에 주가는 눌려있다.\n\n1/4",
       "thread": [
-        "젠슨 황: '공급이 부족할 것이라 확신'. 작년 $500B 전망을 $1T로 두 배 올렸다. H200 중국 판매 승인은 잃어버린 매출 20%의 귀환.\n\n2/4",
-        "FY26 $215.9B(+65%), Forward P/E 29.7배, PEG 0.57. BofA $300 목표가. 이 숫자에 이 가격이면 시장이 소화 중이라는 뜻이다.\n\n3/4",
-        "RSI 36, 52주 고점 $212에서 14% 하락. 50일선 바로 아래. GTC 후 조정은 매수 기회다. 컨센서스 $274(+51%).\n\n4/4"
+        "GTC 4일간 핵심 성과:\n- Vera Rubin NVL72 공개 (와트당 10배)\n- 중국 H200 판매 승인\n- AI 추론 시장 $1T 전망\n- Musk 대규모 주문 확인\n\nForward P/E 29.7x, PEG 0.57. 성장 대비 싸다.\n\n2/4",
+        "리스크 체크:\n- Fed 매파 스탠스로 금리 인하 지연\n- 이란 지정학 긴장 고조\n- GTC 호재에도 주가 무반응 (기대 선반영)\n- RSI 36 과매도 근접, 50일선 아래\n\n하지만 200일선 위, 중기 추세 건재.\n\n3/4",
+        "결론: BofA $300 재확인, 61명 중 58명 Buy. RSI 36 과매도 근접 구간에서 단기 변동성 감내 가능하다면 6-12개월 매수 기회.\n\nNVDA $181.93 → $274.30 (+50.8%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "엔비디아 GTC 4일, $1T 쏟아냈는데 주가가 안 움직인다",
-      "text": "$NVDA (3/19) $181.93(-0.7%)\n\nGTC 마지막 날이다. 4일간 $1T 추론 매출 기회, 중국 H200 승인, Vera Rubin 10배, Groq 35배, 5계층 플랫폼까지 쏟아냈다. 젠슨 황은 '공급이 부족할 것'이라며 작년 전망을 두 배로 올렸다.\n\n이 모든 발표에도 주가는 거의 안 움직였다. 58명이 Buy인데 시장은 소화 중이다. 차익 실현 매물과 새로운 기대가 균형을 잡고 있다.\n\nRSI 36, Forward P/E 29.7배. 52주 고점에서 14% 빠진 자리. 이 조정이 진입 기회다."
+      "hook": "NVDA GTC 끝, Musk까지 칩 주문 확인",
+      "text": "🟢 NVDA $181.93 | 컨센서스 목표가 $274.30 (+50.8%)\n\nGTC 2026 최종일을 맞아 4일간의 대형 발표가 마무리된다. Musk가 SpaceX AI와 Tesla의 Nvidia 칩 대규모 주문 지속을 공개 확인했고, 중국 H200 판매 승인까지 나왔다.\n\n핵심 호재:\n- Vera Rubin NVL72 (와트당 10배 효율)\n- 5계층 풀스택 AI 플랫폼\n- 중국 H200 승인으로 잃어버린 매출 20% 회복 가능\n- Musk 대규모 주문으로 AI 칩 수요 구조적 견고함 재확인\n- BofA $300 목표가 재확인, 61명 중 58명 Buy\n\n리스크:\n- Fed 매파 경고로 성장주 전반 압박\n- 이란 지정학 긴장\n- GTC 호재에도 주가 무반응 (기대 선반영)\n\n기술적 위치: RSI 36 과매도 근접, 50일선($185) 아래지만 200일선($170) 위 유지. Forward P/E 29.7x, PEG 0.57.\n\n결론: 단기 변동성 감내 가능하다면 6-12개월 관점 매수 기회. 펀더멘털은 역대급인데 매크로가 누르고 있는 구간이다."
     },
     "telegram": {
-      "hook": "NVDA: GTC 최종일, $1T 매출 기회에도 보합",
-      "text": "엔비디아 일일 분석 (3/19)\n\n가격: $181.93 (-0.7%)\n시총: $4.42T\n\n핵심 포인트\n- GTC 2026 최종일 (Day 4)\n- AI 추론 매출 기회 $1T (작년 $500B에서 2배)\n- 젠슨 황: '공급이 부족할 것'\n- 베이징 H200 중국 판매 승인\n- BofA $300 목표가 재확인\n- 헬스케어 AI + 로보틱스 데모\n\n실적\n- FY26: $215.9B (+65%)\n- Q1 FY27 가이던스: $78B (+77%)\n- Forward P/E 29.7x / PEG 0.57\n\n주가 위치\n- 52주: $212.19 ~ $86.62\n- RSI 36 (과매도 근접)\n- 50일선($185) 아래 / 200일선($170) 위\n\n컨센서스 $274.30 (+51%), 58/61 Buy\n판정: Buy (6-12개월)"
+      "hook": "NVDA GTC 끝, Musk까지 칩 주문 확인",
+      "text": "🟢 <b>NVDA $181.93</b> | 목표 $274.30 (+50.8%)\n\nGTC 2026 최종일. 4일간 역대급 발표 마무리.\n\n<b>핵심 호재</b>\n• Musk, SpaceX AI/Tesla 칩 대규모 주문 확인\n• 중국 H200 판매 승인 (매출 20% 회복 가능)\n• Vera Rubin NVL72 공개 (와트당 10배)\n• AI 추론 시장 $1T 전망\n\n<b>리스크</b>\n• Fed 매파 스탠스, 금리 인하 지연\n• 이란 지정학 긴장\n• GTC 호재에도 주가 무반응\n\n<b>기술적</b>: RSI 36 과매도 근접 | 50일선 아래 | 200일선 위\nForward P/E 29.7x | PEG 0.57 | 61명 중 58명 Buy\n\n<b>결론</b>: 매크로 압박 속 펀더멘털 역대급. 6-12개월 매수 기회."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "GTC 4일간 $1T 퍼부었는데 주가는 미동도 없다",
-          "text": "$NVDA (3/19) $181.93(-0.7%). GTC 마지막 날. 4일간 $1T 추론 매출, 중국 승인, 5계층 플랫폼을 쏟아냈는데 주가는 안 움직였다. 58/61 Buy.\n\n1/4",
+          "hook": "NVDA $181.93, 컨센서스 $274 괴리 50.8%",
+          "text": "📊 NVDA $181.93 | 컨센서스 $274.30 (+50.8%)\n\nGTC 2026 최종일. Musk가 SpaceX AI, Tesla의 Nvidia 칩 대규모 주문 지속을 확인. 중국 H200 승인. Forward P/E 29.7x, PEG 0.57.\n\n1/4",
           "thread": [
-            "젠슨 황: '공급이 부족할 것이라 확신'. 작년 $500B 전망을 $1T로 두 배 올렸다. H200 중국 판매 승인은 잃어버린 매출 20%의 귀환.\n\n2/4",
-            "FY26 $215.9B(+65%), Forward P/E 29.7배, PEG 0.57. BofA $300 목표가. 이 숫자에 이 가격이면 시장이 소화 중이라는 뜻이다.\n\n3/4",
-            "RSI 36, 52주 고점 $212에서 14% 하락. 50일선 바로 아래. GTC 후 조정은 매수 기회다. 컨센서스 $274(+51%).\n\n4/4"
+            "GTC 4일 성과:\n- Vera Rubin NVL72 (와트당 10배)\n- 중국 H200 판매 승인\n- AI 추론 시장 $1T 전망\n- FY26 매출 $215.9B (+65% YoY)\n- 매출총이익률 75.0%\n\n2/4",
+            "리스크 요인:\n- Fed 매파 스탠스, 금리 인하 지연\n- 이란 지정학 긴장\n- RSI 36, 50일선($185) 하회\n- GTC 호재 주가 미반영\n\n200일선($170) 위 유지. 중기 추세 건재.\n\n3/4",
+            "애널리스트: 61명 중 58명 Buy, BofA $300 재확인. 고가 $320, 저가 $185.\n\nNVDA $181.93 → $274.30 (+50.8%). 6-12개월 매수 의견.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "젠슨 황이 $1T를 외쳤는데 주가가 잠들었다",
-          "text": "$NVDA (3/19) $181.93. GTC 4일 동안 1조 달러, 중국 승인, 35배 성능을 다 보여줬는데 주가는 0.7% 빠졌다. 시장: '알겠고 이미 반영했어.'\n\n1/4",
+          "hook": "Musk도 결국 Jensen한테 전화한다",
+          "text": "Musk: 자체 칩 만들 거다\n또한 Musk: SpaceX AI랑 Tesla 칩 대량 주문요 😂\n\nNVDA $181.93 | 목표 $274.30 (+50.8%). GTC 최종일인데 주가는 낮잠 중.\n\n1/4",
           "thread": [
-            "젠슨: '공급이 부족할 거다'. 작년에 $500B이라더니 이제 $1T. 내년엔 $10T 하겠다. 근데 이 사람 말이 맞았던 적이 더 많다.\n\n2/4",
-            "Forward P/E 30도 안 되는 회사가 매출 65% 성장. PEG 0.57. 보통 이런 주식이 이 가격이면 뭔가 잘못된 건데, 잘못된 건 시장의 관심이다.\n\n3/4",
-            "58명이 사라는데 주가가 움직이면 그게 더 이상하다. RSI 36이면 세일 중. 52주 고점에서 14% 할인. $NVDA\n\n4/4"
+            "GTC에서 Vera Rubin, 중국 승인, $1T 추론 시장까지 쏟아냈는데 주가 반응: \"알고 있었음\" 😐\n\nRSI 36이면 세일 시즌 아닌가. Fed가 분위기 깎는 중이지만 펀더멘털은 역대급.\n\n2/4",
+            "중국이 H200 문을 열어줬다. Jensen이 직접 확인한 건 처음이다. 잃어버린 매출 20%가 돌아올 수 있다는 얘기.\n\nFed 매파에 이란 긴장까지. 세상이 불안할수록 AI는 필요하다.\n\n3/4",
+            "61명 중 58명 Buy. BofA $300. PEG 0.57이면 성장주 치고 거의 바겐세일.\n\nNVDA $181.93에 RSI 36. 무서우면 안 사도 된다. 근데 6개월 후 후회할 수 있다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "엔비디아 GTC에서 다 보여줬는데, 주가가 왜 이럴까",
-          "text": "$NVDA (3/19) $181.93(-0.7%). GTC 4일간 $1T 발표에 중국 승인까지. 기대했던 만큼 움직이지 않으면 지치는 게 당연하다.\n\n1/4",
+          "hook": "NVDA 들고 있으면 불안한 요즘",
+          "text": "Fed 매파 발언에 선물 하락, 기술주 로테이션. NVDA 들고 있으면 불안할 수 있다. RSI 36, 50일선 아래.\n\n하지만 $181.93에서 목표 $274.30(+50.8%). 흔들려도 펀더멘털은 건재하다.\n\n1/4",
           "thread": [
-            "시장이 이렇게 큰 발표를 한꺼번에 소화하려면 시간이 필요하다. 차익 실현 매물이 새로운 매수세와 맞서고 있는 구간이다.\n\n2/4",
-            "$215.9B 매출(+65%), Forward P/E 29.7배, 58/61 Buy. 숫자가 이걸 말하고 있다. 주가는 늦게 따라올 뿐이다.\n\n3/4",
-            "RSI 36, 고점 대비 14% 하락. 이 조정이 힘들어도 장기 추세는 살아있다. BofA $300. 인내의 보상이 올 수 있다.\n\n4/4"
+            "GTC에서 Musk 주문 확인, 중국 H200 승인까지 나왔는데 주가가 안 오르면 답답하지.\n\n시장은 매크로에 눌린 것. NVDA 자체 문제가 아니다. 61명 중 58명이 Buy라고 말하고 있다.\n\n2/4",
+            "Fed가 금리를 안 내리겠다는데 성장주가 편할 수 없다. 이란 긴장까지 겹치면서 안전자산으로 돈이 빠지는 중.\n\nNVDA $181.93 | PEG 0.57. 가격 대비 성장은 여전히 매력적이다.\n\n3/4",
+            "단기 변동성 감내할 자신 있다면 지금이 기회일 수 있다. 200일선 위, Forward P/E 30배 미만, 65% 성장.\n\nNVDA $181.93 → $274.30 (+50.8%). 6-12개월 관점. 조급하지 않게.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "엔비디아 GTC 4일, $1T 쏟아냈는데 주가가 안 움직인다",
-          "text": "$NVDA (3/19) $181.93(-0.7%)\n\nGTC 마지막 날이다. 4일간 $1T 추론 매출 기회, 중국 H200 승인, Vera Rubin 10배, Groq 35배, 5계층 플랫폼까지 쏟아냈다. 젠슨 황은 '공급이 부족할 것'이라며 작년 전망을 두 배로 올렸다.\n\n이 모든 발표에도 주가는 거의 안 움직였다. 58명이 Buy인데 시장은 소화 중이다. 차익 실현 매물과 새로운 기대가 균형을 잡고 있다.\n\nRSI 36, Forward P/E 29.7배. 52주 고점에서 14% 빠진 자리. 이 조정이 진입 기회다."
+          "hook": "NVDA $181.93, 컨센서스 $274 괴리 50.8%",
+          "text": "📊 NVDA $181.93 | 컨센서스 목표가 $274.30 (+50.8%)\n\nGTC 2026 최종일(Day 4). 4일간의 핵심 발표를 정리한다.\n\n호재:\n- Musk, SpaceX AI/Tesla Nvidia 칩 대규모 주문 지속 확인 (Reuters)\n- 베이징, H200 AI 칩 중국 판매 승인\n- Vera Rubin NVL72 공개: Grace Blackwell 대비 와트당 10배 효율\n- AI 추론 시장 $1T 매출 기회 (전년 $500B에서 2배 상향)\n- FY26 매출 $215.9B (+65% YoY), Q4 순이익 $42.96B (+94%)\n\n리스크:\n- Fed 매파적 경고로 성장주 밸류에이션 압력\n- 이란 지정학 리스크, 안전자산 선호 심화\n- GTC 호재에도 주가 무반응 (기대 선반영 가능성)\n- 최신 칩(Blackwell, Vera Rubin)은 여전히 중국 수출 제한\n\n기술적 포지션: RSI 36 과매도 근접, 50일선($185) 하회, 200일선($170) 상회.\nForward P/E 29.7x, PEG 0.57. 61명 중 58명 Buy, BofA $300 재확인.\n\n결론: 매크로 압박 속 펀더멘털 역대급. 6-12개월 매수 의견."
         },
         "witty": {
-          "hook": "엔비디아, $1T 외치고 주가는 낮잠",
-          "text": "$NVDA (3/19) $181.93\n\nGTC 4일간의 성적표: $1T 매출 기회, 중국 문 열림, Groq 35배 성능, 5계층 플랫폼. 젠슨 황이 이 정도를 보여줬는데 주가가 0.7% 빠졌다면, 그건 주가가 졸고 있는 거다.\n\n작년 $500B이 올해 $1T. 내년엔 $10T이라 해도 놀랍지 않다. Forward P/E 30배도 안 되는 회사가 65% 성장이면 보통 반도체가 아니다.\n\n58명 Buy, RSI 36, 고점에서 14% 할인. 이런 세일은 자주 안 온다."
+          "hook": "Musk도 결국 Jensen한테 전화한다",
+          "text": "Musk: \"자체 칩 만들 거임\"\n또한 Musk: \"SpaceX AI랑 Tesla 칩 대량 주문 부탁\" 😂\n\nNVDA $181.93인데 컨센서스가 $274.30(+50.8%). 누가 봐도 싸 보이는데 Fed가 분위기를 깎는 중이다.\n\nGTC 4일 동안 Vera Rubin, 중국 H200 승인, $1T 추론 시장 전망까지 쏟아냈는데 주가 반응: \"다 알고 있었음\" 😐\n\nRSI 36이면 세일 시즌 아닌가. 50일선 밑으로 내려왔지만 200일선은 버티고 있다. 61명 중 58명이 Buy라고 외치는데 시장은 Fed 눈치만 보는 중.\n\nBofA $300 목표가 재확인. PEG 0.57이면 성장주 중에서 거의 바겐세일 수준이다.\n\n6-12개월 묵힐 각오 있으면 지금이 기회. 없으면 구경하다가 올라간 다음 후회하면 된다."
         },
         "empathy": {
-          "hook": "엔비디아 홀더들, GTC 후에도 안 오르면 답답하다",
-          "text": "$NVDA (3/19) $181.93(-0.7%)\n\n$1T 매출, 중국 승인, 5계층 플랫폼. GTC에서 이만큼 보여줬는데 주가가 거의 안 움직인다. 기대했던 만큼의 반응이 없으면 지치는 게 당연하다.\n\n하지만 이렇게 큰 발표를 시장이 소화하려면 시간이 필요하다. 58명이 Buy라는 건 방향이 정해져 있다는 뜻이다.\n\nForward P/E 29.7배, RSI 36, 고점 대비 14% 하락. 숫자는 매력적이다. 이 조정이 나중에 돌아보면 기회였을 수 있다."
+          "hook": "NVDA 들고 있으면 불안한 요즘",
+          "text": "GTC에서 역대급 발표가 쏟아졌는데 내 NVDA는 왜 안 오르지. 그 마음 이해한다.\n\nNVDA $181.93 | 컨센서스 $274.30 (+50.8%)\n\nMusk가 대규모 주문을 확인하고, 중국 H200 승인까지 나왔는데 주가는 꿈쩍도 안 한다. Fed 매파 발언과 이란 긴장이 시장 전체를 누르고 있어서 그렇다. NVDA만의 문제가 아니다.\n\nRSI 36으로 과매도 근접. 50일선 아래로 내려왔지만 200일선은 지키고 있다. 중기 추세는 살아있다.\n\n61명 중 58명이 Buy. BofA는 $300을 재확인했다. Forward P/E 29.7x에 PEG 0.57이면 성장 대비 합리적인 가격이다.\n\n단기 변동성이 불편하다면 분할 매수도 방법이다. 6-12개월 관점에서 펀더멘털은 역대급이다. 조급하지 않게 가자."
         }
       }
     }
