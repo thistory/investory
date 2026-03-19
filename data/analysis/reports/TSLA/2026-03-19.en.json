@@ -2,339 +2,172 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-19",
-  "currentPrice": 398.09,
-  "marketCap": "$1.50T",
+  "currentPrice": 392.78,
+  "marketCap": "$1.26T",
   "businessSummary": {
     "oneLiner": "The world's largest EV maker and a 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
-    "description": "Tesla has expanded beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08, and Q4 2025 gross margin hit 20.1%, a two-year high. Key growth catalysts including Cybercab production and Optimus Gen 3 are set to ramp starting April 2026.",
+    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue hit $94.8B with GAAP EPS of $1.08. Q4 2025 gross margin reached 20.1%, a two-year high. Key growth catalysts including Cybercab production and Optimus Gen 3 kick off from April 2026.",
     "howTheyMakeMoney": [
       "Electric vehicle sales (Model 3/Y, Cybertruck)",
-      "Energy storage and generation (Megapack, Powerwall, Solar)",
-      "Services and charging (Supercharger network, insurance, OTA upgrades)",
-      "FSD (Full Self-Driving) subscriptions and licensing",
+      "Energy generation & storage (Megapack, Powerwall, Solar)",
+      "Services & charging (Supercharger network, insurance, OTA upgrades)",
+      "FSD subscriptions and licensing",
       "Regulatory credit sales"
     ],
-    "keyProducts": [
-      "Model Y/3",
-      "Cybertruck",
-      "Cybercab",
-      "Megapack 3",
-      "FSD",
-      "Optimus",
-      "Terafab",
-      "Macrohard"
-    ]
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Macrohard"]
   },
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "395x",
-      "interpretation": "Extreme premium vs S&P 500 avg (~23x) and auto sector avg (~16x). Reflects AI/robotics/energy optionality but invites overvaluation debate"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "193x",
-      "interpretation": "Based on FY2026 EPS consensus. Growth expectations are high but require time to materialize"
-    },
-    {
-      "name": "Gross Margin",
-      "value": "18.03% (Q4: 20.1%)",
-      "interpretation": "Q4 2025 hit a two-year high of 20.1%. Margin recovery signal despite pricing pressure"
-    },
-    {
-      "name": "Revenue TTM",
-      "value": "$94.83B",
-      "interpretation": "FY2025 annual revenue. Slight YoY decline but energy segment driving growth"
-    },
-    {
-      "name": "FCF TTM",
-      "value": "$6.22B",
-      "interpretation": "Healthy cash generation. $44B total cash provides buffer for massive capex"
-    },
-    {
-      "name": "Debt-to-Equity",
-      "value": "0.18x",
-      "interpretation": "Strong balance sheet. Among the lowest leverage in large-cap tech"
-    }
+    {"name": "P/E (TTM)", "value": "235x", "interpretation": "Extreme premium vs S&P 500 avg (23x) and auto sector avg (16x). Based on EPS $1.67. Reflects AI/robotics/energy future but valuation debate persists"},
+    {"name": "Forward P/E", "value": "155x", "interpretation": "Based on FY2026 EPS consensus $2.53. Barclays expects Q1 deliveries of 350K, warning of EV business deceleration"},
+    {"name": "Gross Margin", "value": "18.03% (Q4: 20.1%)", "interpretation": "Q4 2025 hit two-year high of 20.1%. Margin recovery signal amid pricing pressure"},
+    {"name": "Revenue TTM", "value": "$94.83B", "interpretation": "FY2025 annual revenue. Slight YoY decline but Energy segment driving growth"},
+    {"name": "FCF TTM", "value": "$6.22B", "interpretation": "Healthy cash generation. $44B total cash to fund massive capex plans"},
+    {"name": "Net Margin", "value": "4.0%", "interpretation": "Compressed margins from price competition and R&D expansion"}
   ],
   "growthDrivers": [
-    {
-      "title": "Samsung AI6 Chip $16.5B Foundry Deal Confirmed",
-      "description": "Samsung confirmed at its AGM that it will produce Tesla's AI6 (HW6) chip at its Taylor, Texas fab using its 2nm SF2P process. The deal is valued at $16.5B through 2033. However, Electrek (3/12) reports the AI6 MPW run has been delayed by about 6 months due to Samsung's yield challenges."
-    },
-    {
-      "title": "Terafab Launch March 21 (D-2): World's Largest 2nm AI Chip Fab",
-      "description": "Terafab will vertically integrate logic processing, memory storage, and advanced packaging in a single facility. $20B+ investment. The March 21 launch is a ceremonial groundbreaking, with AI5 chip small-batch production expected in 2026 and volume production in 2027."
-    },
-    {
-      "title": "LG Energy Solution $4.3B LFP Battery Plant Confirmed",
-      "description": "The U.S. government confirmed the Lansing, Michigan LFP cell manufacturing facility contract. Megapack 3 cells to begin production in 2027, achieving 5 MWh per unit (28% increase from 3.9 MWh)."
-    },
-    {
-      "title": "Cybercab April Production Start, Macrohard AI Platform",
-      "description": "Cybercab production line designed for hundreds per week. Macrohard (Tesla-xAI joint venture) enters enterprise AI, diversifying beyond vehicles."
-    },
-    {
-      "title": "China Sales +35% YoY in Jan-Feb, Global Recovery Signal",
-      "description": "Tesla China-made EV sales reached 127,728 units in Jan-Feb, up 35%+ YoY. BYD numbers actually declined, signaling a market share reversal."
-    }
+    {"title": "Samsung AI6 Chip $16.5B Foundry Deal Confirmed", "description": "Samsung confirmed at its AGM that it will produce Tesla's AI6 (HW6) chip at its Texas Taylor fab using 2nm (SF2P) process. $16.5B deal through 2033. However, AI6 MPW production is delayed ~6 months due to Samsung yield issues."},
+    {"title": "Terafab Launch D-2: World's Largest 2nm AI Chip Fab", "description": "Terafab is a vertically integrated fab handling logic, memory, and advanced packaging. $20B+ investment. March 21 launch marks groundbreaking/initial equipment installation."},
+    {"title": "LG Energy Solution $4.3B LFP Battery Deal Confirmed", "description": "US government confirmed the Michigan Lansing LFP cell manufacturing facility contract. US-made cells for Megapack 3, production starting 2027."},
+    {"title": "Cybercab Production Starting April, Macrohard AI Venture", "description": "Cybercab production line designed for hundreds per week. Macrohard (Tesla-xAI JV) enters enterprise AI as a new revenue stream beyond vehicles."},
+    {"title": "China Jan-Feb Sales +35% YoY, Global Rebound Signal", "description": "Tesla EV sales from China reached 127,728 units in Jan-Feb, up 35%+ YoY. BYD numbers actually declined, signaling a China market reversal."}
   ],
   "competitiveAdvantage": {
-    "summary": "50%+ U.S. EV market share leader. 8.2B miles of FSD data, Supercharger NACS standard, and vertical integration form the core moat. Samsung AI6 foundry deal accelerates custom chip ecosystem.",
+    "summary": "50%+ US EV market share leader. 8.2B FSD miles, Supercharger NACS standard, and vertical integration form core moats. Samsung AI6 foundry deal accelerates custom chip ecosystem.",
     "moats": [
-      {
-        "type": "Autonomous Driving Data Moat",
-        "description": "8.2 billion FSD miles driven. Overwhelmingly more training data than any competitor."
-      },
-      {
-        "type": "Vertical Integration + Custom AI Chips",
-        "description": "In-house batteries (4680), custom chips (Terafab + Samsung AI6), software (FSD), charging infrastructure (Supercharger)."
-      },
-      {
-        "type": "Charging Network Effect",
-        "description": "NACS is the North American EV charging standard. GM, Ford, and Rivian depend on Tesla Superchargers."
-      }
+      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelmingly more training data than any competitor."},
+      {"type": "Vertical Integration + Custom AI Chips", "description": "In-house batteries (4680), custom chips (Terafab + Samsung AI6), software (FSD), charging infrastructure (Supercharger)."},
+      {"type": "Charging Network Effects", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."}
     ],
     "competitors": [
-      {
-        "name": "BYD",
-        "detail": "Global EV sales leader (2.26M in 2025 vs Tesla's 1.64M). 11 new models, 640-mile sedan, 5-min charging tech"
-      },
-      {
-        "name": "Rivian (RIVN)",
-        "detail": "Electric pickup/SUV. Amazon logistics partner"
-      },
-      {
-        "name": "Lucid (LCID)",
-        "detail": "Premium EV sedan. Saudi-backed"
-      }
+      {"name": "BYD", "detail": "Global EV sales leader (2.26M in 2025 vs Tesla 1.64M). 11 new models, 640-mile sedan, 5-min charging tech"},
+      {"name": "Rivian (RIVN)", "detail": "Electric pickups/SUVs. Amazon logistics partner"},
+      {"name": "Lucid (LCID)", "detail": "Premium EV sedan. Saudi-backed"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-18",
-      "headline": "Samsung confirms Tesla AI6 chip 2nm production at Taylor, Texas fab ($16.5B deal)",
-      "significance": "Samsung AGM officially confirmed AI6 (HW6) foundry contract. Volume production target H2 2027. Tesla's dual-foundry strategy (Samsung + TSMC) takes shape",
-      "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/"
-    },
-    {
-      "date": "2026-03-18",
-      "headline": "Musk hints at new Tesla Roadster unveiling: 'next-level banger'",
-      "significance": "Roadster prototype design changes confirmed. No exact date but building anticipation",
-      "url": "https://www.teslaoracle.com/2026/03/18/musk-hints-at-new-tesla-roadster-unveiling-date-it-will-be-a-banger-next-level-he-says/"
-    },
-    {
-      "date": "2026-03-17",
-      "headline": "U.S. government confirms Tesla-LG Energy Solution $4.3B LFP battery deal",
-      "significance": "Megapack 3 dedicated battery cell plant. Major energy supply chain security",
-      "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/"
-    },
-    {
-      "date": "2026-03-13",
-      "headline": "China Jan-Feb sales 127,728 units, +35% YoY (BYD declined)",
-      "significance": "China market reversal signal. Global delivery recovery expectations strengthened",
-      "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html"
-    },
-    {
-      "date": "2026-03-12",
-      "headline": "Tesla AI6 chip delayed ~6 months as Samsung 2nm production slips",
-      "significance": "AI6 MPW production delayed. Dual-foundry strategy provides insurance but Samsung yield maturity is key",
-      "url": "https://electrek.co/2026/03/12/tesla-ai6-chip-delayed-samsung-2nm-production-slips/"
-    }
+    {"date": "2026-03-19", "headline": "Musk Twitter Trial Goes to Jury: Up to $2B in Damages at Stake", "significance": "Shareholders allege Musk deliberately drove down Twitter stock during the 2022 acquisition. Jury deliberation could result in $2B+ damages", "url": "https://meyka.com/blog/tsla-stock-today-march-19-jury-weighs-twitter-fraud-2b-risk-1903/"},
+    {"date": "2026-03-18", "headline": "Musk and SEC in Active Settlement Talks Over Twitter Disclosures", "significance": "Separate from shareholder trial. Both sides told the court 'further proceedings might not be necessary'", "url": "https://www.techradar.com/pro/further-proceedings-might-not-be-necessary-elon-musk-and-sec-in-talks-to-settle-twitter-deal-lawsuit"},
+    {"date": "2026-03-18", "headline": "Barclays: Tesla EV Business Losing Investor Focus", "significance": "Investor attention shifting to AI and future growth. Q1 deliveries estimated at 350K. $20B capex planned but core auto business matters", "url": "https://finance.yahoo.com/news/tesla-ev-business-seen-losing-171923837.html"},
+    {"date": "2026-03-18", "headline": "Samsung Confirms Tesla AI6 Chip 2nm Production at Texas Taylor Fab", "significance": "Samsung AGM confirmed AI6 (HW6) foundry deal. 2027 H2 production target", "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/"},
+    {"date": "2026-03-17", "headline": "US Government Confirms Tesla-LG $4.3B LFP Battery Deal", "significance": "Megapack 3 battery cell factory. Major supply security for energy business", "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/"}
   ],
   "analystOpinions": {
-    "consensusTarget": 408.42,
+    "consensusTarget": 406.84,
     "highTarget": 600.00,
     "lowTarget": 25.28,
-    "upsidePercent": 2.6,
+    "upsidePercent": 3.6,
     "buyCount": 15,
     "holdCount": 17,
     "sellCount": 9,
-    "notableComment": "Barchart: 43 analysts, Hold consensus. 15 Strong Buys vs 9 Strong Sells, deeply divided. Mean target $408.42 offers only 3% upside."
+    "notableComment": "MarketBeat consensus $406.84. Hold rating across 43 analysts. Barclays warns of EV business losing focus while monitoring Q1 deliveries."
   },
   "risks": [
-    {
-      "severity": "critical",
-      "title": "BYD Competition Accelerating, Global EV Share Reversal",
-      "description": "BYD sold 2.26M EVs in 2025 (+28%) vs Tesla's 1.64M (-8%). 11 new models, 640-mile sedan, 5-minute charging. Aggressive expansion in emerging markets."
-    },
-    {
-      "severity": "high",
-      "title": "Terafab + Samsung AI6 Execution Risk",
-      "description": "Tesla has zero semiconductor manufacturing experience yet plans the world's largest 2nm fab. Samsung AI6 is already 6 months delayed with unresolved yield issues. $20B+ capex at risk."
-    },
-    {
-      "severity": "high",
-      "title": "Extreme Valuation, P/E 395x",
-      "description": "TTM P/E 395x, Forward P/E 193x. Any growth slowdown or competitive intensification could trigger multiple compression."
-    },
-    {
-      "severity": "high",
-      "title": "NHTSA FSD Investigation, Cybercab Regulatory Hurdles",
-      "description": "2.88M vehicle FSD investigation, Austin robotaxi traffic violations, railroad crossing incident. Cybercab requires regulatory approval before U.S. sales."
-    },
-    {
-      "severity": "medium",
-      "title": "Capital Raise Risk, Potential Shareholder Dilution",
-      "description": "2026 capex guidance $20B+. Electrek suggests first capital raise since 2020. Dilution risk."
-    },
-    {
-      "severity": "medium",
-      "title": "Musk Leadership Spread + DOGE Controversy",
-      "description": "Simultaneously running Tesla, xAI, SpaceX, X, DOGE, and Macrohard. Focus dilution concerns persist."
-    }
+    {"severity": "critical", "title": "Musk Twitter Trial $2B+ Risk", "description": "Jury deliberation underway on whether Musk committed securities fraud during the 2022 Twitter acquisition. Damages could exceed $2B. SEC settlement talks also in progress separately."},
+    {"severity": "critical", "title": "BYD Competition Intensifying", "description": "BYD sold 2.26M EVs in 2025 (+28%) vs Tesla's 1.64M (-8%). 11 new models, 640-mile sedan, 5-min charging. Aggressive push into emerging markets."},
+    {"severity": "high", "title": "Barclays: EV Business Losing Focus, Q1 Uncertainty", "description": "Barclays warns investor attention is shifting to AI while core EV business is overlooked. Q1 deliveries estimated at 350K. US sales weakness persists."},
+    {"severity": "high", "title": "Terafab + Samsung AI6 Execution Risk", "description": "Tesla has zero semiconductor experience yet plans the world's largest 2nm fab. Samsung AI6 chip already delayed 6 months. $20B+ capex sunk cost risk."},
+    {"severity": "high", "title": "Stretched Valuation at P/E 235x", "description": "TTM P/E 235x (EPS $1.67), 10x S&P 500 average. Net margin compressed to 4%. Multiple compression risk if growth disappoints."},
+    {"severity": "medium", "title": "Capital Raise Risk", "description": "$20B+ capex guidance for 2026. Electrek flags potential first secondary offering since 2020. Dilution risk."}
   ],
   "buyReasons": [
-    {
-      "title": "Samsung AI6 $16.5B + LG $4.3B: Chip + Battery Supply Chain Secured",
-      "rationale": "Both AI chip foundry and Megapack battery cell supply confirmed simultaneously. Key bottlenecks for AI chip production and energy expansion being resolved."
-    },
-    {
-      "title": "Terafab March 21 Launch + Cybercab April Production",
-      "rationale": "Terafab groundbreaking in 2 days, Cybercab production next month. Near-term catalysts are lined up."
-    },
-    {
-      "title": "China Sales +35%, Energy Revenue at 5-Quarter High",
-      "rationale": "China recovery signals global delivery rebound. Energy segment gross profit reached $1.1B, reducing EV dependency."
-    },
-    {
-      "title": "Optimus Robot + Fremont Factory Conversion",
-      "rationale": "Model S/X discontinued to convert Fremont for Optimus production. If successful, TAM expands to $12T+ robotics market."
-    }
+    {"title": "Samsung AI6 $16.5B + LG $4.3B: Chip and Battery Supply Secured", "rationale": "Both AI chip foundry and Megapack battery cell supply confirmed simultaneously. Key bottlenecks for chip production and energy expansion are being resolved."},
+    {"title": "Terafab Launch D-2 + Cybercab April Production", "rationale": "Terafab groundbreaking in two days, Cybercab production next month. Near-term catalysts lined up."},
+    {"title": "China Sales +35%, Energy Business at Record Profit", "rationale": "China rebound signals global delivery recovery. Energy gross profit hit $1.1B, reducing EV dependency."},
+    {"title": "SEC Settlement Could Remove Overhang", "rationale": "Active settlement talks with SEC on Twitter disclosure case. 'Further proceedings may not be necessary' is a positive signal."}
   ],
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 249.84,
-    "currentPositionPercent": 59.5,
-    "sma50": 415.0,
+    "currentPositionPercent": 57.4,
+    "sma50": 418.79,
     "sma50Signal": "below",
-    "sma200": 394.0,
-    "sma200Signal": "above",
-    "rsi": 38.0,
+    "sma200": 393.85,
+    "sma200Signal": "below",
+    "rsi": 36.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Samsung confirmed Tesla AI6 chip 2nm production at its AGM. The $16.5B deal will see chips made at the Taylor, Texas fab from H2 2027. However, the AI6 prototype (MPW) is already 6 months behind schedule, and Samsung's yield issues remain unresolved.",
-    "Terafab breaks ground in 2 days (March 21), and the LG $4.3B battery deal is already locked in. Tesla's vertical integration strategy is gaining substance with both chip and battery supply chains materializing simultaneously.",
-    "Yet the stock sits flat at $398, which tells you the market has priced in a lot. At 395x P/E with 43 analysts at a Hold consensus, there's only 3% upside to the $408 target. It's holding above the 200-day MA ($394) but can't break through the 50-day ($415)."
+    "The Musk Twitter trial has gone to the jury. Shareholders allege he deliberately tanked Twitter stock during the 2022 acquisition, with damages potentially exceeding $2B. SEC settlement talks are progressing separately, creating dual legal overhangs.",
+    "Barclays warned that investors are fixated on AI/robotics while ignoring the core EV business. Q1 deliveries are estimated at just 350K with US sales weakness persisting. Terafab launches in two days but meaningful revenue is still 1-2 years away.",
+    "The stock closed below its 200-day moving average ($393.85) at $392.78. The gap with the 50-day ($418.79) is widening. At P/E 235x with 43 analysts rating Hold, waiting for legal risk resolution is prudent."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Samsung AI6 and LG battery deals secure the supply chain, with Terafab groundbreaking just days away. But the AI6 delay, 395x P/E, and analyst Hold consensus suggest patience rather than aggressive buying at current levels.",
-    "horizon": "6-12 months"
+    "summary": "The Twitter trial $2B risk and SEC settlement create significant near-term uncertainty. Terafab groundbreaking (D-2) and Samsung AI6 confirmation are positive, but the break below the 200-day MA and Barclays' EV warning suggest waiting for legal resolution before entry.",
+    "horizon": "3-6 months"
   },
   "sources": [
-    {
-      "name": "SamMobile (Samsung AI6)",
-      "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/",
-      "description": "Samsung confirms AI6 chip production at Taylor, Texas fab on 2nm process, $16.5B deal"
-    },
-    {
-      "name": "Electrek (AI6 Delay)",
-      "url": "https://electrek.co/2026/03/12/tesla-ai6-chip-delayed-samsung-2nm-production-slips/",
-      "description": "Tesla AI6 chip MPW delayed ~6 months due to Samsung 2nm yield issues"
-    },
-    {
-      "name": "Electrek (LG Battery Deal)",
-      "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/",
-      "description": "Tesla-LG $4.3B LFP battery plant contract officially confirmed"
-    },
-    {
-      "name": "Tesla Oracle (Roadster)",
-      "url": "https://www.teslaoracle.com/2026/03/18/musk-hints-at-new-tesla-roadster-unveiling-date-it-will-be-a-banger-next-level-he-says/",
-      "description": "Musk hints at new Roadster unveiling timeline"
-    },
-    {
-      "name": "Barchart (Analyst Consensus)",
-      "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-18-as-tesla-gears-up-to-launch-terafab-is-tsla-stock-a-buy",
-      "description": "43 analysts, Hold consensus, mean target $408.42"
-    },
-    {
-      "name": "CNBC (China Sales)",
-      "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html",
-      "description": "China Jan-Feb sales 127,728 units, +35% YoY"
-    },
-    {
-      "name": "Electrek (Capital Raise)",
-      "url": "https://electrek.co/2026/03/17/tesla-tsla-terafab-capital-raise-secondary-offering/",
-      "description": "Analysis of potential first capital raise since 2020 for Terafab expansion"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
-      "description": "TSLA consensus target and analyst ratings"
-    },
-    {
-      "name": "Tesery (Terafab)",
-      "url": "https://www.tesery.com/blogs/news/tesla-terafab-set-for-launch-inside-the-20-billion-ai-chip-factory-reshaping-the-auto-industry",
-      "description": "Terafab March 21 launch analysis"
-    },
-    {
-      "name": "StockAnalysis",
-      "url": "https://stockanalysis.com/stocks/tsla/",
-      "description": "TSLA financial data and valuation metrics"
-    }
+    {"name": "Meyka (Twitter Trial)", "url": "https://meyka.com/blog/tsla-stock-today-march-19-jury-weighs-twitter-fraud-2b-risk-1903/", "description": "Musk Twitter trial jury deliberation, $2B+ risk. P/E 235, EPS $1.67"},
+    {"name": "TechRadar (SEC Settlement)", "url": "https://www.techradar.com/pro/further-proceedings-might-not-be-necessary-elon-musk-and-sec-in-talks-to-settle-twitter-deal-lawsuit", "description": "Musk-SEC Twitter disclosure settlement talks"},
+    {"name": "Yahoo Finance (Barclays)", "url": "https://finance.yahoo.com/news/tesla-ev-business-seen-losing-171923837.html", "description": "Barclays: EV business losing investor focus. Q1 deliveries 350K estimate"},
+    {"name": "BNN Bloomberg (Trial)", "url": "https://www.bnnbloomberg.ca/business/company-news/2026/03/17/closing-arguments-set-to-begin-in-twitter-shareholder-trial-accusing-musk-of-driving-down-stock/", "description": "Twitter shareholder trial closing arguments"},
+    {"name": "SamMobile (Samsung AI6)", "url": "https://www.sammobile.com/news/samsung-on-track-to-begin-teslas-16-5-billion-ai-chip-production-in-2027/", "description": "Samsung AI6 chip Texas Taylor fab 2nm production confirmed"},
+    {"name": "Electrek (LG Battery)", "url": "https://electrek.co/2026/03/17/tesla-lg-energy-solution-4-3-billion-lfp-battery-deal-megapack-confirmed/", "description": "Tesla-LG $4.3B LFP battery factory deal confirmed"},
+    {"name": "Barchart (Consensus)", "url": "https://markets.financialcontent.com/stocks/article/barchart-2026-3-18-as-tesla-gears-up-to-launch-terafab-is-tsla-stock-a-buy", "description": "43 analysts Hold consensus, mean target $408.42"},
+    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "TSLA consensus target $406.84, analyst distribution"},
+    {"name": "ts2.tech", "url": "https://ts2.tech/en/tesla-stock-price-today-why-tsla-is-holding-near-400-after-samsung-chip-news/", "description": "Tesla near $400 after Samsung chip news"},
+    {"name": "Invezz", "url": "https://invezz.com/news/2026/03/18/why-tesla-stock-is-down-in-the-red-today/", "description": "Hotter inflation data pressuring Tesla stock"}
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla AI6 chip: Samsung confirms $16.5B deal, Terafab D-2",
-      "text": "$TSLA (Mar 19) $398.09. Samsung confirmed AI6 chip 2nm production at its AGM. $16.5B deal at Taylor, Texas. But prototypes are 6 months late. Terafab groundbreaking in 2 days.\n\n1/4",
+      "hook": "Musk Twitter trial goes to jury, $2B damages at stake",
+      "text": "$TSLA (Mar 19) $392.78 (-1.63%). Musk Twitter trial is now with the jury. Up to $2B in damages. SEC settlement talks also underway. Stock fell below its 200-day MA.\n\n1/4",
       "thread": [
-        "Samsung locked in AI6 (HW6) foundry, but Electrek says MPW production slipped 6 months. Yield issues remain. The dual-foundry strategy (Samsung + TSMC) provides insurance.\n\n2/4",
-        "LG $4.3B battery deal already confirmed. Chip + battery supply chains materializing simultaneously. China sales +35%. Catalysts are stacking up.\n\n3/4",
-        "The catch: 395x P/E, 43 analysts at Hold, target $408 (+3%). Holding above 200-day MA ($394) but stuck below 50-day ($415). Plenty of catalysts, no rush. Hold.\n\n4/4"
+        "Barclays warns investors are ignoring Tesla's core EV business. Q1 deliveries estimated at 350K. US sales weak. The bread-and-butter business needs attention.\n\n2/4",
+        "Samsung AI6 $16.5B confirmed, LG battery $4.3B, Terafab D-2. Supply chain cards are strong but revenue realization is 1-2 years away.\n\n3/4",
+        "P/E 235x, 43 analysts at Hold. Below 200-day MA ($393.85). No reason to rush until trial outcome. Target $407 (+4%).\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Samsung confirms Tesla AI6 chip production. But it's 6 months late.",
-      "text": "$TSLA (Mar 19) $398.09\n\nSamsung confirmed at its AGM that it will produce Tesla's AI6 chip on its 2nm process at the Taylor, Texas fab. $16.5B deal through 2033. But the prototype run is 6 months behind schedule due to yield issues.\n\nTerafab breaks ground in 2 days (March 21). LG $4.3B battery deal already locked in. Both chip and battery supply chains are coming together.\n\nYet the stock won't budge from $398. P/E 395x, 43 analysts say Hold, target $408 (+3%). The market knows all of this already."
+      "hook": "Tesla faces $2B Twitter trial as stock breaks below 200-day MA",
+      "text": "$TSLA (Mar 19) $392.78 (-1.63%)\n\nThe Musk Twitter trial has gone to jury deliberation. Shareholders allege he deliberately tanked the stock during the 2022 acquisition, with damages potentially exceeding $2B. SEC settlement talks are also in progress.\n\nBarclays warns investors are ignoring the core EV business as they fixate on AI. Q1 deliveries estimated at 350K with US sales weakness.\n\nStock broke below the 200-day MA at $392.78. P/E 235x, 43 analysts Hold. Waiting for trial outcome and Q1 earnings (Apr 21) is prudent."
     },
     "telegram": {
-      "hook": "Samsung AI6 $16.5B confirmed + Terafab D-2",
-      "text": "Tesla Daily Analysis (Mar 19)\n\nPrice: $398.09 (flat)\nMkt Cap: $1.50T\n\nKey Points\n- Samsung confirms AI6 (HW6) 2nm production ($16.5B, Taylor TX)\n- AI6 prototype delayed 6 months (2nm yield issues)\n- Terafab groundbreaking Mar 21 (D-2)\n- LG $4.3B battery deal confirmed (Megapack 3)\n- China Jan-Feb sales +35% YoY\n\nTechnicals\n- 52wk high $498.83 / low $249.84\n- Below 50-day MA ($415) / Above 200-day MA ($394)\n- RSI 38 (neutral)\n\nP/E: 395x / Forward P/E: 193x\nTarget: $408.42 (+3%, 43 analysts Hold)\nVerdict: Hold (6-12 months)"
+      "hook": "TSLA: Twitter Trial $2B Risk + 200-Day MA Break",
+      "text": "Tesla Daily Analysis (Mar 19)\n\nPrice: $392.78 (-1.63%)\nMkt Cap: $1.26T / P/E: 235x\n\nKey Issues\n- Musk Twitter trial at jury deliberation ($2B+ damages)\n- SEC Twitter disclosure settlement talks\n- Barclays: EV business losing investor focus\n- Q1 deliveries est. 350K\n- Terafab launch D-2 (Mar 21)\n\nTechnicals\n- Below 200-day MA ($393.85)\n- 50-day MA ($418.79) gap widening\n- RSI 36 (near oversold)\n\nTarget: $406.84 (+4%, 43 Hold)\nQ1 Earnings: Apr 21\nVerdict: Hold (until legal risk clears)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla AI6 chip: Samsung confirms $16.5B deal, Terafab D-2",
-          "text": "$TSLA (Mar 19) $398.09. Samsung confirmed AI6 chip 2nm production at its AGM. $16.5B deal at Taylor, Texas. But prototypes are 6 months late. Terafab groundbreaking in 2 days.\n\n1/4",
+          "hook": "Musk Twitter trial goes to jury, $2B damages at stake",
+          "text": "$TSLA (Mar 19) $392.78 (-1.63%). Musk Twitter trial is now with the jury. Up to $2B in damages. SEC settlement talks also underway. Stock fell below its 200-day MA.\n\n1/4",
           "thread": [
-            "Samsung locked in AI6 (HW6) foundry, but Electrek says MPW production slipped 6 months. Yield issues remain. The dual-foundry strategy (Samsung + TSMC) provides insurance.\n\n2/4",
-            "LG $4.3B battery deal already confirmed. Chip + battery supply chains materializing simultaneously. China sales +35%. Catalysts are stacking up.\n\n3/4",
-            "The catch: 395x P/E, 43 analysts at Hold, target $408 (+3%). Holding above 200-day MA ($394) but stuck below 50-day ($415). Plenty of catalysts, no rush. Hold.\n\n4/4"
+            "Barclays warns investors are ignoring Tesla's core EV business. Q1 deliveries estimated at 350K. US sales weak. The bread-and-butter business needs attention.\n\n2/4",
+            "Samsung AI6 $16.5B confirmed, LG battery $4.3B, Terafab D-2. Supply chain cards are strong but revenue realization is 1-2 years away.\n\n3/4",
+            "P/E 235x, 43 analysts at Hold. Below 200-day MA ($393.85). No reason to rush until trial outcome. Target $407 (+4%).\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla's building chip fabs, battery plants, and cars all at once",
-          "text": "$TSLA (Mar 19) $398.09. Samsung confirmed AI6 production. $16.5B deal. But the prototype is 6 months late. Tesla's hobby: announce big, deliver eventually.\n\n1/4",
+          "hook": "Musk is in court, in SEC talks, and launching Terafab. All at once.",
+          "text": "$TSLA (Mar 19) $392.78 (-1.63%). Twitter trial went to jury: did Musk tank the stock on purpose? That's a $2B question. Meanwhile SEC wants to settle separately. Legal bills alone could fund a startup.\n\n1/4",
           "thread": [
-            "Terafab breaks ground in 2 days. A company with zero semiconductor experience building the world's largest 2nm fab. $20B+. Bold is an understatement.\n\n2/4",
-            "LG $4.3B battery done, China +35%, Cybercab next month. The catalyst list fills a whole page. The stock? Sleeping at $398.\n\n3/4",
-            "395x P/E, 43 analysts say Hold, target $408. That's 3% upside, barely covers your brokerage fee. Watch and wait.\n\n4/4"
+            "Barclays: investors only see AI robots. But most of the revenue comes from selling cars. Q1 needs 350K deliveries, and robots can't drive them to dealers yet.\n\n2/4",
+            "Terafab groundbreaking in 2 days but the courtroom drama is getting more coverage. Samsung $16.5B, LG $4.3B. Cards are great, vibes are not.\n\n3/4",
+            "Below the 200-day MA. P/E 235x, Hold consensus. Grab some popcorn and wait for the verdict.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla bulls, catalysts everywhere but the stock won't move",
-          "text": "$TSLA (Mar 19) $398.09. Samsung AI6 confirmed, Terafab D-2, LG battery deal. Great news keeps coming but the price just sits there. The wait is frustrating.\n\n1/4",
+          "hook": "Tesla holders, a trial plus 200-day break. Tough day.",
+          "text": "$TSLA (Mar 19) $392.78 (-1.63%). Twitter trial at jury, $2B risk materializing. Stock broke below the 200-day MA. It's okay to feel uneasy.\n\n1/4",
           "thread": [
-            "AI6 prototype being 6 months late is disappointing, but the $16.5B contract itself is locked in. Once Samsung's yields improve, 2027 production is real.\n\n2/4",
-            "Terafab groundbreaking in 2 days, Cybercab production next month. The catalysts are about to become reality. China +35% is also a solid foundation.\n\n3/4",
-            "Holding above 200-day MA, RSI 38 near oversold. Even with the P/E burden, long-term holders are in a patience game. This time will pass.\n\n4/4"
+            "SEC settlement talks progressing is a silver lining. 'Further proceedings may not be necessary.' One less overhang if resolved.\n\n2/4",
+            "Terafab D-2, Samsung AI6, LG battery. Long-term cards remain strong. Short-term legal risk is just obscuring them.\n\n3/4",
+            "RSI 36, near oversold. A not-guilty verdict could spark a sharp rebound. This is the patience zone.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Samsung confirms Tesla AI6 chip production. But it's 6 months late.",
-          "text": "$TSLA (Mar 19) $398.09\n\nSamsung confirmed at its AGM that it will produce Tesla's AI6 chip on its 2nm process at the Taylor, Texas fab. $16.5B deal through 2033. But the prototype run is 6 months behind schedule due to yield issues.\n\nTerafab breaks ground in 2 days (March 21). LG $4.3B battery deal already locked in. Both chip and battery supply chains are coming together.\n\nYet the stock won't budge from $398. P/E 395x, 43 analysts say Hold, target $408 (+3%). The market knows all of this already."
+          "hook": "Tesla faces $2B Twitter trial as stock breaks below 200-day MA",
+          "text": "$TSLA (Mar 19) $392.78 (-1.63%)\n\nThe Musk Twitter trial has gone to jury deliberation. Shareholders allege he deliberately tanked the stock during the 2022 acquisition, with damages potentially exceeding $2B. SEC settlement talks are also in progress.\n\nBarclays warns investors are ignoring the core EV business as they fixate on AI. Q1 deliveries estimated at 350K with US sales weakness.\n\nStock broke below the 200-day MA at $392.78. P/E 235x, 43 analysts Hold. Waiting for trial outcome and Q1 earnings (Apr 21) is prudent."
         },
         "witty": {
-          "hook": "Tesla: building a chip fab, battery plant, and robotaxi factory simultaneously",
-          "text": "$TSLA (Mar 19) $398.09\n\nSamsung confirmed AI6 production but the prototype is 6 months late. $16.5B contract signed, yield not solved. Classic Tesla: sign the check first, figure it out later.\n\nTerafab breaks ground in 2 days. Zero semiconductor experience, world's largest 2nm fab. LG battery $4.3B done, China +35%, Cybercab next month.\n\nThe catalyst list is impressive. The stock doesn't care. P/E 395x, 43 analysts say Hold, target $408. Patience."
+          "hook": "Musk is juggling courtrooms and chip fabs simultaneously",
+          "text": "$TSLA (Mar 19) $392.78 (-1.63%)\n\nTwitter trial went to jury. $2B question: did Musk deliberately tank the stock? SEC also wants a separate settlement. The legal team must be billing overtime.\n\nBarclays says investors only see AI. But most revenue comes from selling Model Ys. Q1 needs 350K deliveries, and no robot is doing that yet.\n\nBelow the 200-day MA, P/E 235x. Terafab launches in 2 days but the real drama is in the courtroom. Verdict first, then we talk."
         },
         "empathy": {
-          "hook": "To Tesla holders wondering why $398 with all this good news",
-          "text": "$TSLA (Mar 19) $398.09\n\nSamsung AI6 $16.5B confirmed. LG $4.3B battery done. Terafab in 2 days. China +35%. The news couldn't be better, yet the stock sits still. It's understandable to feel frustrated.\n\nThe AI6 delay is a concern, but the contract is locked. Terafab groundbreaking and Cybercab production are imminent. These catalysts are becoming real.\n\nHolding above the 200-day MA with RSI near oversold. The P/E is steep but catalysts are materializing one by one. This patience could pay off."
+          "hook": "Tesla shareholders, trial plus 200-day break is rough",
+          "text": "$TSLA (Mar 19) $392.78 (-1.63%)\n\nTwitter trial $2B risk plus breaking below the 200-day MA. If you're holding, this week feels especially long.\n\nSEC settlement talks progressing is at least some comfort. One resolution at a time. Terafab, Samsung AI6, LG battery, all the long-term pieces are still strong.\n\nLegal uncertainty is overshadowing everything right now. RSI 36 suggests selling pressure is overdone. If you can wait for the outcome, it may be worth it."
         }
       }
     }
