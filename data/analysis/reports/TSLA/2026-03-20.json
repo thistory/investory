@@ -2,7 +2,7 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-20",
-  "currentPrice": 380.45,
+  "currentPrice": 380.30,
   "marketCap": "$1.22T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
@@ -29,7 +29,7 @@
     {
       "name": "P/E (TTM)",
       "value": "228x",
-      "interpretation": "S&P 500 평균(약 23x), 자동차 섹터 평균(약 16x) 대비 극단적 프리미엄. 주가 하락으로 235x에서 소폭 개선됐지만 여전히 고평가"
+      "interpretation": "S&P 500 평균(약 23x), 자동차 섹터 평균(약 16x) 대비 극단적 프리미엄. 가격 하락에도 여전히 고평가"
     },
     {
       "name": "Forward P/E",
@@ -59,24 +59,24 @@
   ],
   "growthDrivers": [
     {
+      "title": "$2.9B 중국산 태양광 장비 구매 협상: 100GW 미국 태양광 생산 목표",
+      "description": "Reuters 독점 보도(3/20)에 따르면 Tesla가 Suzhou Maxwell Technologies 등 중국 기업들로부터 $2.9B 규모의 태양광 제조 장비 구매를 협상 중이다. 2028년 말까지 미국 내 100GW 태양광 생산을 목표로 하며, 텍사스에 올 가을 전 배송 예정. 에너지 사업 수직 통합 가속."
+    },
+    {
       "title": "Samsung AI6 칩 $16.5B 파운드리 계약 확정",
-      "description": "Samsung이 주주총회에서 Tesla AI6(HW6) 칩을 텍사스 테일러 공장에서 2nm(SF2P) 공정으로 양산한다고 확인했다. 2033년까지 $16.5B 규모. 다만 Electrek(3/12)에 따르면 AI6 MPW(시제품) 생산이 약 6개월 지연되어 Samsung의 수율 문제가 남아있다."
+      "description": "Samsung이 주주총회에서 Tesla AI6(HW6) 칩을 텍사스 테일러 공장에서 2nm(SF2P) 공정으로 양산한다고 확인했다. 2033년까지 $16.5B 규모. 다만 AI6 MPW(시제품) 생산이 약 6개월 지연되어 Samsung의 수율 문제가 남아있다."
     },
     {
       "title": "Terafab 반도체 유닛 공식 발표: $200억+ AI 칩 팹",
       "description": "Tesla가 연간 수천억 개 커스텀 칩 생산을 목표로 하는 Terafab 반도체 사업부를 공식 발표했다. AI 학습, FSD 추론, Optimus 로봇에 필요한 칩을 자체 생산해 외부 의존도를 낮추고 마진을 높이는 전략이다."
     },
     {
-      "title": "LG에너지솔루션과 $43억 LFP 배터리 공장 계약 확정",
-      "description": "미국 정부가 미시간 랜싱 LFP 셀 제조 시설 계약을 공식 확인. Megapack 3용 미국산 셀로 2027년 생산 시작. 유닛당 5 MWh 달성(기존 3.9 MWh 대비 28% 증가)."
-    },
-    {
       "title": "Cybercab 4월 양산 시작, Macrohard AI 사업 진출",
       "description": "Cybercab 생산라인이 주당 수백 대 규모로 설계 중. Macrohard(Tesla-xAI 합작)는 엔터프라이즈급 AI 플랫폼으로 자동차 넘어선 수익원 다각화."
     },
     {
-      "title": "중국 1-2월 판매 +35% YoY, 글로벌 반등 신호",
-      "description": "중국에서 만든 Tesla EV 판매가 1-2월 127,728대로 전년 대비 35% 이상 증가. BYD 수치는 오히려 하락하며 중국 시장 반전 신호."
+      "title": "중국 1-2월 판매 +35% YoY, 트럼프 방중 5-6주 내 재추진",
+      "description": "중국에서 만든 Tesla EV 판매가 1-2월 127,728대로 전년 대비 35% 이상 증가. 백악관이 트럼프 방중을 5-6주 내 재추진한다고 발표해 관세, 규제 완화 기대감도 부상."
     }
   ],
   "competitiveAdvantage": {
@@ -112,28 +112,28 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-20",
+      "headline": "Reuters 독점: Tesla, 중국 기업들과 $2.9B 태양광 장비 구매 협상",
+      "significance": "Suzhou Maxwell Technologies 등에서 태양광 패널, 셀 제조 장비를 구매해 2028년까지 미국 내 100GW 태양광 생산을 목표로 한다. 텍사스에 올 가을 전 배송 예정. 에너지 사업 수직 통합의 대형 신호탄.",
+      "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/"
+    },
+    {
       "date": "2026-03-19",
       "headline": "NHTSA, FSD 조사 '엔지니어링 분석'으로 격상: 320만 대 대상, 리콜 가능성",
-      "significance": "NHTSA가 시야 제한 조건에서의 FSD 안전성에 대한 조사를 본격적 엔지니어링 분석으로 격상. 9건 사고(1건 사망) 후 강제 리콜 가능성까지 대두되며 자율주행 전략 전체에 불확실성 가중.",
+      "significance": "NHTSA가 시야 제한 조건에서의 FSD 안전성에 대한 조사를 본격적 엔지니어링 분석으로 격상. 9건 사고(1건 사망) 후 강제 리콜 가능성까지 대두.",
       "url": "https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-tesla-vehicles-with-fsd-2026-03-19/"
     },
     {
       "date": "2026-03-19",
       "headline": "Terafab 반도체 사업부 공식 발표: 연간 수천억 개 커스텀 칩 생산 목표",
-      "significance": "Tesla가 AI5 칩부터 자체 생산하는 반도체 팹 사업을 공식화. 외부 의존도 축소와 마진 개선의 장기 전략이지만 대규모 자본투자($200억+) 필요.",
+      "significance": "Tesla가 AI5 칩부터 자체 생산하는 반도체 팹 사업을 공식화. 외부 의존도 축소와 마진 개선의 장기 전략.",
       "url": "https://247wallst.com/investing/2026/03/19/teslas-terafab-could-be-the-game-changer-that-recharges-the-stock/"
     },
     {
       "date": "2026-03-19",
       "headline": "Fed 금리 동결(3.5-3.75%), 2026년 1회 인하만 전망: 시장 급락",
-      "significance": "Fed가 금리를 동결하고 올해 인하를 1회로 축소. S&P 500과 Nasdaq이 1.4% 하락하며 성장주에 직접 타격. 고밸류에이션 TSLA에 특히 불리한 환경.",
+      "significance": "Fed가 금리를 동결하고 올해 인하를 1회로 축소. S&P 500과 Nasdaq이 1.4% 하락하며 성장주에 직접 타격.",
       "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html"
-    },
-    {
-      "date": "2026-03-19",
-      "headline": "CUSMA 무역협정 재검토 개시: 멕시코 부품 조달 비용 상승 우려",
-      "significance": "미국, 멕시코, 캐나다 무역협정(CUSMA) 재검토 협상이 시작됐다. 아시아산 부품의 멕시코 우회 수입을 막기 위해 원산지 규정이 강화될 경우 Tesla의 멕시코 부품 조달 비용이 상승할 수 있다.",
-      "url": "https://www.bnnbloomberg.ca/business/2026/03/16/tricky-negotiations-begin-monday-to-renew-a-trade-pact-between-the-united-states-mexico-and-canada/"
     },
     {
       "date": "2026-03-19",
@@ -146,7 +146,7 @@
     "consensusTarget": 406.84,
     "highTarget": 600.00,
     "lowTarget": 19.05,
-    "upsidePercent": 6.9,
+    "upsidePercent": 7.0,
     "buyCount": 19,
     "holdCount": 13,
     "sellCount": 9,
@@ -170,37 +170,32 @@
     },
     {
       "severity": "high",
-      "title": "UBS Q1 딜리버리 하향 + GLJ Sell 재확인",
-      "description": "UBS가 수요 둔화와 로보택시 경쟁 심화로 Q1 추정 하향. GLJ Research는 FSD 조사 후 Sell 재확인. 매도 압력 가중."
-    },
-    {
-      "severity": "high",
       "title": "밸류에이션 부담, P/E 228배",
       "description": "S&P 500 평균 23배 대비 10배 프리미엄. 금리 인하 지연 시 멀티플 압축 위험 가중."
     },
     {
       "severity": "medium",
-      "title": "CUSMA 재검토에 따른 멕시코 공급망 리스크",
-      "description": "CUSMA 무역협정 재검토로 원산지 규정 강화 가능. 멕시코 경유 아시아 부품 조달 비용이 상승할 수 있다."
+      "title": "$2.9B 태양광 장비의 중국 수출 승인 불확실성",
+      "description": "태양광 장비 일부는 중국 상무부 수출 승인이 필요하다. 미중 관계 변동에 따라 승인이 지연되거나 차단될 수 있으며, 100GW 목표 달성에 차질 가능."
     },
     {
       "severity": "medium",
-      "title": "Terafab 자본 집약도 리스크",
-      "description": "반도체 팹은 대규모 자본투자($200억+)가 필요. 장기적으로 수익성 개선이 가능하지만 단기 현금 유출 부담."
+      "title": "CUSMA 재검토에 따른 멕시코 공급망 리스크",
+      "description": "CUSMA 무역협정 재검토로 원산지 규정 강화 가능. 멕시코 경유 아시아 부품 조달 비용이 상승할 수 있다."
     }
   ],
   "buyReasons": [
+    {
+      "title": "$2.9B 태양광 장비 투자: 에너지 수직 통합 가속",
+      "rationale": "100GW 미국산 태양광 생산 목표. 데이터센터 전력 수요 폭증 시대에 자체 에너지 공급 능력은 핵심 경쟁력."
+    },
     {
       "title": "Terafab 발표: 자체 반도체 시대 개막",
       "rationale": "다른 자동차 회사는 절대 할 수 없는 자체 칩 생산. 성공 시 AI/FSD/Optimus의 수직 통합 완성."
     },
     {
-      "title": "Samsung AI6 $16.5B + LG $43억: 칩+배터리 공급망 동시 확보",
-      "rationale": "반도체와 배터리 핵심 공급망을 미국 내에서 확보하며 장기 경쟁력 강화."
-    },
-    {
-      "title": "중국 1-2월 +35%, 에너지 사업 최고 수익",
-      "rationale": "중국 시장 반등과 에너지 저장 사업의 성장이 EV 본업 둔화를 상쇄."
+      "title": "중국 1-2월 +35%, 트럼프 방중 재추진으로 관세 완화 기대",
+      "rationale": "중국 시장 반등과 미중 정상회담 재추진으로 상하이 공장 규제 완화 기대감 부상."
     },
     {
       "title": "Cybercab 4월 양산 시작",
@@ -210,7 +205,7 @@
   "technicalPosition": {
     "week52High": 489.88,
     "week52Low": 249.84,
-    "currentPositionPercent": 54.4,
+    "currentPositionPercent": 54.3,
     "sma50": 418.79,
     "sma50Signal": "below",
     "sma200": 393.85,
@@ -219,30 +214,30 @@
     "rsiSignal": "oversold"
   },
   "overallOpinion": [
-    "NHTSA가 FSD 조사를 엔지니어링 분석으로 격상하면서 320만 대가 강제 리콜 대상이 될 수 있다. 자율주행이 Tesla 장기 가치의 핵심인데, 규제 리스크가 한층 커졌다.",
-    "Fed가 금리를 동결하고 올해 인하를 1회로 줄이면서 S&P가 1.4% 급락했다. P/E 228배인 Tesla에 가장 불리한 환경이다. UBS도 Q1 딜리버리를 하향 조정했다.",
-    "현재가 $380.45로 200일선($394) 아래, RSI 33으로 과매도 진입. 52주 고점에서 22% 하락했다. Terafab과 Cybercab 4월 양산이라는 촉매가 있지만, 지금은 매크로와 규제 역풍이 더 강하다."
+    "Tesla가 중국 기업들과 $2.9B 규모의 태양광 장비 구매를 협상 중이다. 2028년까지 미국 내 100GW 태양광 생산이 목표로, 에너지 사업의 스케일이 근본적으로 달라질 수 있다.",
+    "NHTSA가 FSD 조사를 엔지니어링 분석으로 격상했고, Fed는 올해 인하를 1회로 줄였다. P/E 228배에 두 가지 악재가 동시에 터지면서 $380.30까지 밀렸다.",
+    "200일선($394) 아래, RSI 33 과매도. Terafab, Cybercab 4월 양산, 태양광 대형 투자까지 촉매는 풍부하지만 규제와 금리 역풍이 더 강하다. FSD 조사 결과를 보고 판단해도 늦지 않다."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "NHTSA FSD 조사 격상과 Fed 인하 축소가 동시에 터지며 하락 압력이 심화됐다. Terafab 발표와 Cybercab 4월 양산이라는 촉매가 있지만, P/E 228배에 200일선 아래, RSI 33 과매도라도 규제 불확실성이 해소되기 전 추격 매수는 위험하다. FSD 조사 결과와 Q1 실적 확인 후 판단이 안전하다.",
+    "summary": "NHTSA FSD 조사 격상과 Fed 인하 축소가 동시에 터지며 하락 압력이 심화됐다. $2.9B 태양광 투자와 Terafab, Cybercab 4월 양산이라는 촉매가 있지만, P/E 228배에 200일선 아래, RSI 33 과매도라도 규제 불확실성이 해소되기 전 추격 매수는 위험하다. FSD 조사 결과와 Q1 실적 확인 후 판단이 안전하다.",
     "horizon": "3-6개월"
   },
   "sources": [
     {
+      "name": "Reuters - Tesla Solar Equipment",
+      "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/",
+      "description": "Tesla $2.9B 중국산 태양광 장비 구매 협상 독점 보도 (3/20)"
+    },
+    {
+      "name": "CNBC - Tesla Solar Equipment",
+      "url": "https://www.cnbc.com/2026/03/20/tesla-talks-with-chinese-firms-for-2point9-billion-worth-of-solar-equipment.html",
+      "description": "100GW 미국 태양광 생산 목표, 텍사스 배송, 중국 수출 승인 필요"
+    },
+    {
       "name": "Reuters - NHTSA FSD Probe",
       "url": "https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-tesla-vehicles-with-fsd-2026-03-19/",
       "description": "NHTSA의 FSD 엔지니어링 분석 격상 및 320만 대 조사 보도"
-    },
-    {
-      "name": "CNBC - NHTSA FSD Reduced Visibility",
-      "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html",
-      "description": "FSD의 시야 제한 조건(안개, 눈부심) 안전성 문제 상세 보도"
-    },
-    {
-      "name": "247 Wall St - Tesla Three Stories",
-      "url": "https://247wallst.com/investing/2026/03/19/tesla-fades-three-big-stories-are-moving-the-stock-today-and-theyre-pulling-in-different-directions/",
-      "description": "NHTSA 조사, Terafab 발표, 충전 네트워크 개방의 세 가지 동시 영향 분석"
     },
     {
       "name": "247 Wall St - Terafab",
@@ -257,7 +252,7 @@
     {
       "name": "Capital.com - Tesla Forecast",
       "url": "https://capital.com/en-int/market-updates/tesla-stock-forecast-18-03-2026",
-      "description": "41명 애널리스트 컨센서스 $406.84, BNP Paribas $280, BofA $460, Wedbush $600 상세"
+      "description": "41명 애널리스트 컨센서스 $406.84, BNP Paribas $280, BofA $460, Wedbush $600"
     },
     {
       "name": "TipRanks - TSLA Analysis",
@@ -270,9 +265,9 @@
       "description": "TSLA 애널리스트 컨센서스 목표가 $406.84, 41명 평균"
     },
     {
-      "name": "BNN Bloomberg - CUSMA Review",
-      "url": "https://www.bnnbloomberg.ca/business/2026/03/16/tricky-negotiations-begin-monday-to-renew-a-trade-pact-between-the-united-states-mexico-and-canada/",
-      "description": "CUSMA 무역협정 재검토 협상 시작, 원산지 규정 강화 가능성"
+      "name": "Meyka - TSLA 3/20",
+      "url": "https://meyka.com/blog/tsla-stock-today-march-20-leavitt-says-china-trip-reset-in-weeks-2003/",
+      "description": "백악관 Leavitt 트럼프 방중 5-6주 내 재추진 시사"
     },
     {
       "name": "Tesla IR",
@@ -282,64 +277,64 @@
   ],
   "snsContent": {
     "x": {
-      "hook": "NHTSA FSD 조사 격상, Tesla 3% 급락",
-      "text": "$TSLA $380.45(-3.14%)\n\nNHTSA가 FSD 조사를 엔지니어링 분석으로 격상했다. 320만 대 강제 리콜 가능성. Fed도 올해 인하를 1회로 줄이며 시장 전체가 급락.\n\n목표가 $406.84(+6.9%)\n\n1/4",
+      "hook": "Tesla, $2.9B 태양광 장비로 에너지 판을 키운다",
+      "text": "$TSLA $380.30(-3.28%)\n\nTesla가 중국 기업들과 $2.9B 태양광 장비 구매를 협상 중이다. 2028년까지 미국 내 100GW 생산 목표. 에너지 사업의 스케일이 달라진다.\n\n목표가 $406.84(+7.0%)\n\n1/4",
       "thread": [
-        "Terafab 반도체 사업부를 공식 발표했다. 자체 칩 만드는 자동차 회사는 Tesla뿐. Cybercab 4월 양산도 임박.\n\n반면 UBS가 Q1 딜리버리를 하향했고 GLJ는 Sell을 재확인했다.\n\n2/4",
-        "Fed 금리 동결 3.5-3.75%, 올해 인하 1회. S&P 1.4% 급락. P/E 228배인 Tesla에 가장 나쁜 소식.\n\nCUSMA 재검토도 시작돼 멕시코 부품 비용 상승 우려까지.\n\n3/4",
-        "200일선($394) 아래, RSI 33 과매도. 52주 고점 대비 -22%.\n\nHold. FSD 조사 결과와 Q1 실적 확인이 먼저다.\n\n$380.45, 목표 $406.84(+6.9%)\n\n4/4"
+        "NHTSA가 FSD 조사를 엔지니어링 분석으로 격상. 320만 대 강제 리콜 가능성. Fed도 올해 인하 1회로 줄여 시장 전체가 급락했다.\n\nP/E 228배에 가장 나쁜 환경.\n\n2/4",
+        "Terafab 자체 칩 팹 발표, Cybercab 4월 양산 임박, 트럼프 방중 5-6주 내 재추진 시사. 촉매는 쌓이고 있다.\n\n200일선($394) 아래, RSI 33 과매도.\n\n3/4",
+        "Hold. 규제와 금리 역풍이 촉매보다 강하다. FSD 조사 결과를 보고 판단해도 늦지 않다.\n\n$380.30, 목표 $406.84(+7.0%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla, NHTSA 격상과 Fed 인하 축소로 급락",
-      "text": "$TSLA $380.45(-3.14%)\n\nNHTSA가 FSD 조사를 엔지니어링 분석으로 격상했다. 320만 대가 대상이고, 9건 사고(1건 사망) 후 강제 리콜 가능성까지 나왔다. 자율주행이 Tesla 장기 가치의 핵심인데 규제 리스크가 한층 커졌다.\n\nFed는 금리를 3.5-3.75%로 동결하고 올해 인하를 1회로 줄였다. S&P가 1.4% 급락했고, P/E 228배인 Tesla에 가장 불리한 환경이다. UBS도 Q1 딜리버리를 하향 조정했다.\n\nTerafab 반도체 사업부를 공식 발표한 건 장기 호재다. 자체 칩을 생산하는 자동차 회사는 Tesla뿐이다. Cybercab 4월 양산도 다가온다.\n\n200일선($394) 아래, RSI 33 과매도. 목표가 $406.84(+6.9%). 촉매는 있지만 규제와 매크로 역풍이 더 강하다. Hold."
+      "hook": "Tesla $2.9B 태양광 투자, 악재 속 장기 베팅",
+      "text": "$TSLA $380.30(-3.28%)\n\nTesla가 중국 기업들과 $2.9B 규모의 태양광 장비 구매를 협상 중이다. 2028년까지 미국 내 100GW 태양광 생산이 목표로, 데이터센터 전력 수요 시대에 자체 에너지 공급 능력을 확보하려는 대형 베팅이다.\n\nNHTSA가 FSD 조사를 엔지니어링 분석으로 격상했고, Fed는 올해 인하를 1회로 줄였다. 두 악재가 동시에 터지면서 $380까지 밀렸다. P/E 228배에 가장 불리한 환경.\n\nTerafab 자체 칩, Cybercab 4월 양산, 트럼프 방중 재추진까지 촉매는 쌓이지만 지금은 역풍이 더 강하다. 200일선 아래, RSI 33 과매도. Hold. 목표 $406.84(+7.0%)."
     },
     "telegram": {
-      "hook": "TSLA 급락: FSD 조사 격상 + Fed 인하 축소",
-      "text": "TSLA $380.45 (-3.14%)\n\n핵심 이슈\n- NHTSA FSD 조사 엔지니어링 분석 격상 (320만 대)\n- Fed 금리 동결, 2026 인하 1회로 축소\n- UBS Q1 딜리버리 하향, GLJ Sell 재확인\n- Terafab 반도체 사업부 공식 발표 (호재)\n- CUSMA 재검토 개시, 멕시코 부품 비용 우려\n\n기술적 위치\n- 200일선($394) 아래\n- RSI 33 과매도\n- 52주 고점 대비 -22%\n\n목표가: $406.84 (+6.9%)\n판단: Hold. 규제 불확실성과 매크로 역풍이 촉매보다 강하다."
+      "hook": "TSLA $2.9B 태양광 + NHTSA 격상 + Fed 동결",
+      "text": "TSLA $380.30 (-3.28%)\n\n핵심 이슈\n- Reuters 독점: $2.9B 중국산 태양광 장비 구매 협상 (100GW 목표)\n- NHTSA FSD 조사 엔지니어링 분석 격상 (320만 대)\n- Fed 금리 동결, 2026 인하 1회로 축소\n- Terafab 반도체 사업부 공식 발표\n- 트럼프 방중 5-6주 내 재추진 시사\n\n기술적 위치\n- 200일선($394) 아래\n- RSI 33 과매도\n- 52주 고점 대비 -22%\n\n목표가: $406.84 (+7.0%)\n판단: Hold. FSD 조사 결과와 Q1 실적 확인 후 판단."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NHTSA FSD 조사 격상, Tesla 3% 급락",
-          "text": "$TSLA $380.45(-3.14%)\n\nNHTSA가 FSD 조사를 엔지니어링 분석으로 격상했다. 320만 대 강제 리콜 가능성. Fed도 올해 인하를 1회로 줄이며 시장 전체가 급락.\n\n목표가 $406.84(+6.9%)\n\n1/4",
+          "hook": "Tesla, $2.9B 태양광 장비로 에너지 판을 키운다",
+          "text": "$TSLA $380.30(-3.28%)\n\nTesla가 중국 기업들과 $2.9B 태양광 장비 구매를 협상 중이다. 2028년까지 미국 내 100GW 생산 목표. 에너지 사업의 스케일이 달라진다.\n\n목표가 $406.84(+7.0%)\n\n1/4",
           "thread": [
-            "Terafab 반도체 사업부를 공식 발표했다. 자체 칩 만드는 자동차 회사는 Tesla뿐. Cybercab 4월 양산도 임박.\n\n반면 UBS가 Q1 딜리버리를 하향했고 GLJ는 Sell을 재확인했다.\n\n2/4",
-            "Fed 금리 동결 3.5-3.75%, 올해 인하 1회. S&P 1.4% 급락. P/E 228배인 Tesla에 가장 나쁜 소식.\n\nCUSMA 재검토도 시작돼 멕시코 부품 비용 상승 우려까지.\n\n3/4",
-            "200일선($394) 아래, RSI 33 과매도. 52주 고점 대비 -22%.\n\nHold. FSD 조사 결과와 Q1 실적 확인이 먼저다.\n\n$380.45, 목표 $406.84(+6.9%)\n\n4/4"
+            "NHTSA가 FSD 조사를 엔지니어링 분석으로 격상. 320만 대 강제 리콜 가능성. Fed도 올해 인하 1회로 줄여 시장 전체가 급락했다.\n\nP/E 228배에 가장 나쁜 환경.\n\n2/4",
+            "Terafab 자체 칩 팹 발표, Cybercab 4월 양산 임박, 트럼프 방중 5-6주 내 재추진 시사. 촉매는 쌓이고 있다.\n\n200일선($394) 아래, RSI 33 과매도.\n\n3/4",
+            "Hold. 규제와 금리 역풍이 촉매보다 강하다. FSD 조사 결과를 보고 판단해도 늦지 않다.\n\n$380.30, 목표 $406.84(+7.0%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "자체 칩 팹 만드는 날 FSD가 리콜 위기",
-          "text": "$TSLA $380.45(-3.14%)\n\nTerafab으로 자체 칩을 만들겠다는 날, NHTSA가 \"그 칩 위에 돌아가는 FSD, 좀 위험한데요\"라고 했다. 타이밍이 기가 막힌다.\n\n목표가 $406.84(+6.9%)\n\n1/4",
+          "hook": "태양광에 $2.9B 쓰는 날, FSD는 리콜 위기",
+          "text": "$TSLA $380.30(-3.28%)\n\n100GW 태양광을 만들겠다며 $2.9B 장비를 사는 날, NHTSA가 FSD 320만 대를 들여다보고 있다. Musk의 야망과 현실은 항상 시차가 있다.\n\n목표 $406.84(+7.0%)\n\n1/4",
           "thread": [
-            "Fed: 올해 인하 1번만\nUBS: Q1 딜리버리 하향\nGLJ: Sell\nCUSMA: 멕시코 비용 올라갈 수도\n\n어딜 봐도 호재를 찾기 어렵다.\n\n2/4",
-            "그래도 Terafab은 진짜다. 자체 칩 만드는 자동차 회사, 세상에 Tesla 하나뿐. Cybercab 4월 양산도 시작.\n\n문제는 이 호재가 터진 날 시장이 다 빠졌다는 거다.\n\n3/4",
-            "RSI 33 과매도, 고점 대비 -22%. 세일인가, 함정인가.\n\nHold. NHTSA 결과 보고 사도 늦지 않다.\n\n$380.45, 목표 $406.84(+6.9%)\n\n4/4"
+            "Fed: 인하 1번만\nNHTSA: FSD 위험\nUBS: 딜리버리 하향\n\n그런데 Musk는 Terafab으로 칩 만들고, Cybercab 양산하고, 태양광까지. 악재를 무시하는 재주가 있다.\n\n2/4",
+            "트럼프 방중 5-6주 내 재추진. 상하이 공장 호재 될 수 있지만, 지금 시장은 호재에 반응하지 않는다.\n\nRSI 33 과매도, 200일선 아래.\n\n3/4",
+            "Hold. 촉매 카드는 한 움큼인데 시장이 안 본다. FSD 결과 나오면 달라질 수 있다.\n\n$380.30, 목표 $406.84(+7.0%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla 주주들, 쉽지 않은 하루였다",
-          "text": "$TSLA $380.45(-3.14%)\n\nNHTSA 조사 격상에 Fed 인하 축소까지. 고점에서 22% 빠진 주가를 보면 마음이 무거울 거다.\n\n목표가 $406.84(+6.9%)\n\n1/4",
+          "hook": "Tesla 주주들, 고점에서 22% 빠져 힘들지",
+          "text": "$TSLA $380.30(-3.28%)\n\nNHTSA 격상에 Fed 인하 축소까지. 고점에서 22% 빠진 주가를 보면 마음이 무거울 거다. 오늘은 $2.9B 태양광 투자 소식이 위안이 된다.\n\n목표 $406.84(+7.0%)\n\n1/4",
           "thread": [
-            "솔직히 NHTSA 조사가 걱정된다. 320만 대 강제 리콜 가능성. FSD가 Tesla의 미래인데 규제가 벽을 세우고 있다. UBS도 Q1 전망을 낮췄다.\n\n2/4",
-            "그래도 Terafab은 다른 회사가 따라할 수 없는 무기다. Cybercab 4월 양산도 시작한다. 회사가 무너지는 건 아니다.\n\nRSI 33 과매도. 이전에도 이 수준에서 반등한 적이 있다.\n\n3/4",
-            "지금은 추가 매수보다 관망이 맞다. NHTSA 결과와 Q1 실적을 기다리자. 과매도에서 반등한 적이 한두 번이 아니다.\n\n$380.45, 목표 $406.84(+6.9%)\n\n4/4"
+            "솔직히 NHTSA 조사가 걱정된다. 320만 대 리콜 가능성. FSD가 Tesla 미래의 핵심인데 규제가 벽을 세우고 있다.\n\n하지만 Terafab, Cybercab, 태양광까지 회사가 멈춘 건 아니다.\n\n2/4",
+            "트럼프 방중이 5-6주 내 재추진된다. 중국 1-2월 +35% 반등에 이어 상하이 호재가 올 수도.\n\nRSI 33 과매도. 이전에도 이 수준에서 반등했다.\n\n3/4",
+            "지금은 추가 매수보다 관망이 맞다. NHTSA 결과와 Q1 실적 확인 후가 안전하다.\n\n$380.30, 목표 $406.84(+7.0%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla, NHTSA 격상과 Fed 인하 축소로 급락",
-          "text": "$TSLA $380.45(-3.14%)\n\nNHTSA가 FSD 조사를 엔지니어링 분석으로 격상했다. 320만 대가 대상이고, 9건 사고(1건 사망) 후 강제 리콜 가능성까지 나왔다.\n\nFed는 금리를 3.5-3.75%로 동결하고 올해 인하를 1회로 줄였다. S&P 1.4% 급락. P/E 228배인 Tesla에 가장 불리한 환경.\n\nTerafab 반도체 사업부 공식 발표와 Cybercab 4월 양산이 호재지만, UBS Q1 하향, GLJ Sell 재확인. 200일선 아래, RSI 33 과매도. 목표가 $406.84(+6.9%). Hold."
+          "hook": "Tesla $2.9B 태양광 투자, 악재 속 장기 베팅",
+          "text": "$TSLA $380.30(-3.28%)\n\nTesla가 중국 기업들과 $2.9B 규모의 태양광 장비 구매를 협상 중이다. 100GW 미국 생산 목표. NHTSA FSD 격상과 Fed 인하 축소로 $380까지 밀렸지만 에너지 사업 대형 베팅은 장기 호재.\n\nTerafab 자체 칩, Cybercab 4월 양산, 트럼프 방중 재추진까지 촉매는 쌓인다. P/E 228배, 200일선 아래, RSI 33 과매도. Hold. 목표 $406.84(+7.0%)."
         },
         "witty": {
-          "hook": "칩 팹 발표한 날 FSD가 리콜 위기라니",
-          "text": "$TSLA $380.45(-3.14%)\n\nTerafab으로 자체 칩을 만들겠다고 발표한 날, NHTSA가 \"그 칩 위의 FSD, 좀 위험한데요\"라고 했다. 타이밍이 기가 막힌다.\n\n320만 대 조사 격상에 강제 리콜 가능성. Fed는 올해 인하 1번만 하겠다고. S&P 1.4% 급락. P/E 228배 성장주에 이보다 나쁜 조합이 있을까.\n\nCUSMA 재검토까지 시작돼서 멕시코 부품 비용 상승 우려도 추가됐다. 악재가 줄을 서서 기다리는 중이다.\n\n그래도 Terafab은 진짜 무기다. 자체 칩 만드는 자동차 회사, 세상에 Tesla뿐. RSI 33 과매도에 고점 대비 -22%. 세일인지 함정인지는 NHTSA가 결정한다.\n\n목표가 $406.84(+6.9%). Hold."
+          "hook": "태양광 $2.9B에 칩 팹까지, FSD 리콜 위기인데",
+          "text": "$TSLA $380.30(-3.28%)\n\nMusk가 $2.9B로 태양광 장비를 사고, Terafab으로 칩을 만들고, Cybercab을 양산하려 한다. 그런데 NHTSA는 FSD 320만 대를 들여다보고, Fed는 인하 1번만 하겠다고. 야망과 현실의 시차가 늘 Tesla다.\n\n트럼프 방중 5-6주 내 재추진, 중국 판매 +35%. 호재는 있는데 시장이 무시 중이다. RSI 33 과매도, 200일선 아래.\n\n촉매 카드는 한 움큼인데 시장의 손이 묶여 있다. Hold. 목표 $406.84(+7.0%)."
         },
         "empathy": {
-          "hook": "Tesla 주주들에게 드리는 솔직한 이야기",
-          "text": "$TSLA $380.45(-3.14%)\n\n고점 $490에서 여기까지 내려왔다. 22% 하락. 오늘도 NHTSA 조사 격상에 Fed 인하 축소까지 겹치면서 힘든 하루였을 거다.\n\nNHTSA가 FSD 조사를 엔지니어링 분석으로 올렸다. 320만 대 대상, 강제 리콜 가능성. FSD가 Tesla의 미래인데 규제가 벽을 세우고 있다. UBS도 Q1 전망을 낮추고 GLJ는 Sell을 재확인했다.\n\n그래도 회사가 무너지는 건 아니다. Terafab으로 자체 칩을 만드는 건 다른 회사가 따라올 수 없는 영역이다. Cybercab 4월 양산, 중국 +35% 반등도 있다.\n\nRSI 33 과매도. 이전에도 이 수준에서 반등한 적이 많다. 지금은 추가 매수보다 관망이 맞다. NHTSA 결과와 Q1 실적을 보자.\n\n목표가 $406.84(+6.9%). Hold."
+          "hook": "Tesla 주주들에게, 22% 하락은 아프지만 촉매는 쌓인다",
+          "text": "$TSLA $380.30(-3.28%)\n\n고점에서 22% 빠졌다. NHTSA FSD 격상에 Fed 인하 축소까지 겹치면서 힘든 시기다. 속상한 마음 충분히 이해한다.\n\n하지만 회사가 멈춘 건 아니다. $2.9B 태양광 장비 협상, Terafab 자체 칩, Cybercab 4월 양산. 트럼프 방중 재추진으로 중국 호재도 기대된다. RSI 33 과매도에서 이전에도 반등한 적이 많다.\n\n지금은 추가 매수보다 관망이 맞다. NHTSA 결과와 Q1 실적을 기다리자. Hold. 목표 $406.84(+7.0%)."
         }
       }
     }
