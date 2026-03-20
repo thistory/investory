@@ -2,8 +2,8 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-20",
-  "currentPrice": 179.50,
-  "marketCap": "$4.37T",
+  "currentPrice": 178.56,
+  "marketCap": "$4.36T",
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
     "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 칩, 에이전트 런타임, 오픈 모델, 팩토리 블루프린트, 소프트웨어 플랫폼을 아우르는 5계층 풀스택 AI 플랫폼 전략을 공개하며 단순 칩 회사를 넘어 AI 인프라 전체를 지배하는 플랫폼 기업으로의 전환을 가속하고 있다. FY26 매출 2,159억 달러를 기록하며 전년 대비 65% 성장했고, 차세대 Vera Rubin 플랫폼과 Groq 3 LPU까지 공개하며 기술 리더십을 더욱 공고히 했다.",
@@ -26,13 +26,13 @@
   "keyMetrics": [
     {
       "name": "P/E TTM",
-      "value": "36.5x",
+      "value": "36.6x",
       "interpretation": "반도체 섹터 평균(25x) 대비 프리미엄이지만, 65% 매출 성장률 감안 시 PEG 0.56으로 합리적"
     },
     {
       "name": "Forward P/E",
-      "value": "29.3x",
-      "interpretation": "FY27 EPS $6.13 기준. 성장주 중에서는 매력적인 수준"
+      "value": "25.9x",
+      "interpretation": "FY27 EPS $6.88 기준. 성장률 65% 대비 PEG 0.40으로 매력적. BofA는 17x 수준까지 볼 수 있다고 평가"
     },
     {
       "name": "매출 성장률 YoY",
@@ -40,25 +40,25 @@
       "interpretation": "FY26 $215.9B. 11분기 연속 55% 이상 성장"
     },
     {
+      "name": "순이익 FY26",
+      "value": "$120.1B",
+      "interpretation": "순이익률 55.6%. 하드웨어 업종에서 전례 없는 수준"
+    },
+    {
       "name": "매출총이익률",
       "value": "75.0% (Q4)",
       "interpretation": "전분기 73.4%에서 개선. Blackwell 초기 마진 압박에서 회복"
     },
     {
-      "name": "순이익 Q4",
-      "value": "$42.96B",
-      "interpretation": "전년비 94% 증가"
-    },
-    {
-      "name": "연간 매출 FY26",
-      "value": "$215.9B",
-      "interpretation": "전년 $130.5B에서 65% 성장"
+      "name": "Q1 FY27 가이던스",
+      "value": "$78B",
+      "interpretation": "시장 기대치를 상회. 전년 동기 대비 55%+ 성장 전망"
     }
   ],
   "growthDrivers": [
     {
       "title": "Rosenblatt $325 목표가 상향: 월가 최강세 의견",
-      "description": "Rosenblatt Securities가 GTC 후 경영진 미팅을 반영해 목표가를 $300에서 $325로 상향. 현재가 대비 81% 업사이드. AI 인프라 투자의 구조적 성장을 재확인."
+      "description": "Rosenblatt Securities가 GTC 후 경영진 미팅을 반영해 목표가를 $300에서 $325로 상향. 현재가 대비 82% 업사이드. AI 인프라 투자의 구조적 성장을 재확인."
     },
     {
       "title": "중국 H200 판매 승인: 베이징이 문을 열었다",
@@ -126,12 +126,12 @@
     {
       "date": "2026-03-19",
       "headline": "Rosenblatt, 목표가 $300에서 $325로 상향: Buy 유지",
-      "significance": "GTC 후 경영진 미팅 반영. 현재가 대비 81% 업사이드로 월가 최강세 의견. AI 인프라 투자 구조적 성장 재확인.",
+      "significance": "GTC 후 경영진 미팅 반영. 현재가 대비 82% 업사이드로 월가 최강세 의견. AI 인프라 투자 구조적 성장 재확인.",
       "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html"
     },
     {
       "date": "2026-03-19",
-      "headline": "GTC 2026 최종일(Day 4): 헬스케어 AI, 휴머노이드 로봇 데모",
+      "headline": "GTC 2026 최종일(Day 4): 헬스케어 AI, 휴머노이드 로봇, NPN 파트너 시상",
       "significance": "4일간의 GTC 마무리. Vera Rubin, 5계층 풀스택, 중국 H200 승인까지 발표했지만 주가는 Fed 역풍에 눌려있다.",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
     },
@@ -148,6 +148,16 @@
       "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/"
     }
   ],
+  "analystOpinions": {
+    "consensusTarget": 274.3,
+    "highTarget": 325.0,
+    "lowTarget": 185.0,
+    "upsidePercent": 53.6,
+    "buyCount": 58,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "Rosenblatt $325 신규 최고 목표가. BofA $300 재확인. 61명 중 58명 Buy. Fed 역풍에도 펀더멘털 강세론 강화. 38명은 Strong Buy 등급."
+  },
   "risks": [
     {
       "severity": "high",
@@ -157,7 +167,7 @@
     {
       "severity": "high",
       "title": "중국 수출 제한 불확실성",
-      "description": "H200 승인됐지만 최신 칩(Blackwell, Vera Rubin)은 여전히 제한. 정치적 변수에 따라 다시 막힐 가능성."
+      "description": "H200 승인됐지만 최신 칩(Blackwell, Vera Rubin)은 여전히 제한. 중국은 데이터센터 매출의 20-25%를 차지했던 시장. 정치적 변수에 따라 다시 막힐 가능성."
     },
     {
       "severity": "medium",
@@ -178,50 +188,40 @@
   "buyReasons": [
     {
       "title": "Rosenblatt $325 + BofA $300: 월가 컨센서스 압도적 Buy",
-      "rationale": "Rosenblatt $325(+81%), BofA $300(+67%), 컨센서스 $274.30(+53%). 61명 중 58명 Buy. 역대급 강세론."
+      "rationale": "Rosenblatt $325(+82%), BofA $300(+68%), 컨센서스 $274.30(+54%). 61명 중 58명 Buy, 38명 Strong Buy. 역대급 강세론."
     },
     {
       "title": "중국 H200 승인: 잃어버린 매출 20%의 귀환",
       "rationale": "베이징의 H200 승인으로 중국 시장 재진입. Groq 중국용도 준비되며 추가 매출 기회."
     },
     {
-      "title": "Forward P/E 30배 미만, PEG 0.56",
-      "rationale": "65% 성장률 대비 밸류에이션이 합리적. 성장주 중에서도 가성비 좋은 수준."
+      "title": "Forward P/E 26배, PEG 0.40",
+      "rationale": "FY27 EPS $6.88 기준 Forward P/E 25.9배. 65% 성장률 대비 PEG 0.40으로 역사적으로 매우 저렴한 구간."
     },
     {
       "title": "Fed 역풍 속 과매도 구간: 매수 기회",
-      "rationale": "RSI 34로 과매도 근접. 펀더멘털은 역대 최강인데 매크로가 누르고 있어 가격 괴리 발생."
+      "rationale": "RSI 37로 과매도 근접. 펀더멘털은 역대 최강인데 매크로가 누르고 있어 가격 괴리 발생."
     }
   ],
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
-    "currentPositionPercent": 74.0,
+    "currentPositionPercent": 73.2,
     "sma50": 184.97,
     "sma50Signal": "below",
     "sma200": 184.15,
     "sma200Signal": "below",
-    "rsi": 34.0,
-    "rsiSignal": "oversold"
-  },
-  "analystOpinions": {
-    "consensusTarget": 274.3,
-    "highTarget": 325.0,
-    "lowTarget": 185.0,
-    "upsidePercent": 52.8,
-    "buyCount": 58,
-    "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "Rosenblatt $325 신규 최고 목표가. BofA $300 재확인. 61명 중 58명 Buy. Fed 역풍에도 펀더멘털 강세론 강화."
+    "rsi": 37.0,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "GTC 2026이 끝났지만 Fed가 올해 인하를 1회로 줄이며 시장 전체가 급락했다. NVDA도 50일선과 200일선 아래로 내려왔고 RSI 34로 과매도에 진입했다. GTC 호재가 주가에 반영되지 못하는 상황.",
-    "하지만 Rosenblatt가 목표가를 $325로 올렸고(+81%), 중국 H200 승인, Musk 대규모 주문 확인, Vera Rubin 공개 등 펀더멘털 호재는 역대급이다. Forward P/E 29.3배에 PEG 0.56이면 성장 대비 합리적인 가격.",
-    "200일선($184) 아래로 떨어진 건 중기 추세 전환 신호일 수 있지만, 65% 매출 성장과 $274 컨센서스 감안 시 매크로 압박이 풀리면 빠르게 회복할 구간이다. 단기 변동성 감내 가능하다면 분할 매수 구간."
+    "GTC 2026에서 Vera Rubin, 중국 H200 승인, Musk 대규모 주문 확인까지 역대급 발표가 나왔지만, Fed가 올해 인하를 1회로 줄이며 S&P와 나스닥이 1.4% 급락했다. NVDA도 $178.56으로 3일 연속 하락.",
+    "펀더멘털은 역대 최강이다. FY26 매출 $215.9B(+65%), 순이익 $120.1B, 순이익률 55.6%. Q1 FY27 가이던스 $78B는 시장 기대를 넘겼고, Rosenblatt는 목표가를 $325(+82%)로 올렸다. Forward P/E 25.9배, PEG 0.40.",
+    "50일선($185)과 200일선($184) 아래로 밀리며 RSI 37로 과매도 근접. 매크로가 누르고 있지만 이런 괴리 구간이 역사적으로 좋은 진입점이었다. 매크로 압박이 풀리면 가장 빨리 반등할 종목. 분할 매수 유효."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Fed 인하 축소로 단기 하락했지만, GTC에서 확인된 기술 리더십(Vera Rubin, 중국 승인, $1T 추론 시장), Rosenblatt $325 목표가, PEG 0.56의 합리적 밸류에이션을 종합하면 중장기 매수 기회다. RSI 34 과매도에서 200일선 아래로 떨어진 건 불편하지만, 이런 구간이 역사적으로 최고의 진입점이었다.",
+    "summary": "Fed 인하 축소로 단기 하락했지만, GTC에서 확인된 기술 리더십(Vera Rubin, 중국 승인, $1T 추론 시장), Rosenblatt $325 목표가, PEG 0.40의 합리적 밸류에이션을 종합하면 중장기 매수 기회다. RSI 37 과매도 근접에서 200일선 아래로 떨어진 건 불편하지만, 순이익률 55.6%에 65% 성장 중인 기업이 이 가격이면 역사적으로 최고의 진입점이었다.",
     "horizon": "6-12개월"
   },
   "sources": [
@@ -248,17 +248,22 @@
     {
       "name": "NVIDIA Blog - GTC",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
-      "description": "GTC 2026 최종일 공식 발표"
+      "description": "GTC 2026 최종일 공식 발표, NPN 파트너 시상"
     },
     {
-      "name": "TipRanks",
-      "url": "https://www.tipranks.com/news/nvidia-nvda-stock-flat-amid-gtc-2026-why-top-analysts-are-still-bullish",
-      "description": "GTC 기간 주가 부진 분석, 애널리스트 강세론 유지"
+      "name": "MEXC Blog - NVDA Analysis",
+      "url": "https://blog.mexc.com/news/nvidia-stock-nvda-2026-record-earnings-falling-price-what-is-actually-going-on/",
+      "description": "FY26 매출 $215.9B, 순이익 $120.1B, 순이익률 55.6%, Q1 FY27 가이던스 $78B, RSI 37.19"
     },
     {
-      "name": "Benzinga",
-      "url": "https://www.benzinga.com/money/nvidia-stock-price-prediction",
-      "description": "NVDA 주가 예측, P/E 37.13, 시총 $4.38T"
+      "name": "StockInvest.us",
+      "url": "https://stockinvest.us/stock/NVDA",
+      "description": "NVDA 종가 $178.56 (-1.02%), 3일 연속 하락"
+    },
+    {
+      "name": "WallStreetZen",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda",
+      "description": "P/E 36.59x, 시총 $4.38T, 52주 최고 $212.19, 최저 $86.62"
     },
     {
       "name": "MarketBeat",
@@ -266,71 +271,76 @@
       "description": "NVDA 컨센서스 목표가 $274.30"
     },
     {
-      "name": "DailyPolitical",
-      "url": "https://www.dailypolitical.com/2026/03/19/nvidia-corporation-nvda-stock-position-lowered-by-sunbelt-securities-inc.html",
-      "description": "50일 SMA $184.97, 200일 SMA $184.15 기술적 지표"
+      "name": "Parameter.io",
+      "url": "https://parameter.io/nvidia-nvda-stock-gains-momentum-as-wall-street-eyes-gtc-2026-conference/",
+      "description": "BofA Forward PE 17x 수준 평가, $300 목표가"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/19/prediction-nvidia-stock-will-be-worth-this-2-years/",
+      "description": "Jensen Huang AI 인프라 지출 2030년 연 $4T 전망"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA 200일선 아래로, Fed가 눌렀다",
-      "text": "$NVDA $179.50\n\nGTC 끝났는데 Fed가 올해 인하를 1회로 줄이며 S&P 1.4% 급락. 200일선 아래로 떨어졌다.\n\nRosenblatt $325(+81%) 상향, 컨센서스 $274(+53%)\n\n1/4",
+      "hook": "NVDA GTC 역대급 발표에도 Fed가 눌렀다",
+      "text": "$NVDA $178.56 (-1.02%)\n\nGTC에서 역대급 발표가 나왔지만 Fed가 인하를 1회로 줄이며 시장 급락. 50일선, 200일선 아래로 밀렸다.\n\nRosenblatt $325(+82%), 컨센서스 $274(+54%)\n\n1/4",
       "thread": [
-        "GTC 4일간 쏟아진 호재:\n- Vera Rubin 공개 (와트당 10배)\n- 중국 H200 승인\n- Musk 대규모 칩 주문 확인\n- AI 추론 시장 $1T\n\nForward P/E 29.3x, PEG 0.56. 성장 대비 싸다.\n\n2/4",
-        "리스크: Fed 3.5-3.75% 동결, 인하 1회 전망. 7명은 올해 동결 예상. GTC 호재에도 주가 무반응. RSI 34 과매도.\n\n하지만 펀더멘털은 역대급.\n\n3/4",
-        "61명 중 58명 Buy. Rosenblatt $325, BofA $300.\n\n매크로 압박이 풀리면 가장 빨리 반등할 종목.\n$179.50, 목표 $274.30(+53%)\n\nBuy. 분할 매수 구간.\n\n4/4"
+        "GTC 4일간 호재:\n- Vera Rubin(와트당 10배)\n- 중국 H200 승인\n- Musk 대규모 칩 주문 확인\n- AI 추론 시장 $1T\n\nFY26 매출 $215.9B(+65%), 순이익 $120.1B, 마진 55.6%.\n\n2/4",
+        "리스크: Fed 3.5-3.75% 동결, 인하 1회 전망. Blackwell/Vera Rubin은 중국 수출 제한 유지. GTC 호재에도 3일 연속 하락.\n\nRSI 37 과매도 근접. Forward P/E 25.9x, PEG 0.40.\n\n3/4",
+        "61명 중 58명 Buy. Rosenblatt $325, BofA $300.\n\n매크로 압박이 풀리면 가장 먼저 반등할 종목.\n$178.56, 목표 $274(+54%)\n\nBuy. 분할 매수 구간.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA Fed 급락으로 200일선 하회, 매수 기회?",
-      "text": "$NVDA $179.50\n\nGTC 2026이 끝나고 Fed가 올해 인하를 1회로 줄이면서 S&P가 1.4% 급락했다. NVDA도 50일선과 200일선 아래로 떨어졌고 RSI 34로 과매도에 진입했다.\n\nGTC 4일간 역대급 호재가 쏟아졌다. Vera Rubin(와트당 10배), 중국 H200 승인, Musk 대규모 주문 확인, AI 추론 시장 $1T 전망. Rosenblatt는 목표가를 $325(+81%)로 올렸다.\n\nForward P/E 29.3배, PEG 0.56. 65% 성장률 대비 합리적인 가격. 61명 중 58명 Buy, 컨센서스 $274.30(+53%).\n\n매크로가 누르고 있지만 펀더멘털은 역대급. 이런 괴리가 벌어지는 구간이 역사적으로 최고의 진입점이었다. Buy. 분할 매수."
+      "hook": "NVDA GTC 호재 vs Fed 역풍, 누가 이길까",
+      "text": "$NVDA $178.56 (-1.02%)\n\nGTC 2026이 끝나고 Fed가 올해 인하를 1회로 줄이면서 S&P 1.4% 급락. NVDA도 50일선($185)과 200일선($184) 아래로 밀렸고 RSI 37로 과매도 근접.\n\nGTC 4일간 역대급 호재가 쏟아졌다. Vera Rubin(와트당 10배), 중국 H200 승인, Musk 대규모 주문 확인, AI 추론 시장 $1T 전망. Rosenblatt는 목표가를 $325(+82%)로 올렸다.\n\nFY26 매출 $215.9B(+65%), 순이익 $120.1B, 순이익률 55.6%. Q1 FY27 가이던스 $78B는 시장 기대를 넘겼다. Forward P/E 25.9배, PEG 0.40.\n\n61명 중 58명 Buy. 매크로가 누르고 있지만 펀더멘털은 역대급. 이런 괴리 구간이 역사적으로 최고의 진입점이었다. Buy. 분할 매수."
     },
     "telegram": {
-      "hook": "NVDA Fed 급락, 200일선 아래 과매도",
-      "text": "NVDA $179.50\n\n핵심 이슈\n- Fed 금리 동결, 2026 인하 1회로 축소\n- Rosenblatt 목표가 $300->$325 상향 (+81%)\n- GTC 마무리: Vera Rubin, 중국 H200 승인\n- Musk Nvidia 칩 대규모 주문 확인\n\n기술적: 50일선/200일선 모두 아래, RSI 34 과매도\n목표가: $274.30 (+53%)\n\n판단: Buy. 매크로 역풍 속 펀더멘털 역대급. 분할 매수 구간."
+      "hook": "NVDA GTC 역대급 발표, Fed 역풍에 과매도 근접",
+      "text": "NVDA $178.56 (-1.02%)\n\n핵심 이슈\n- Fed 금리 동결, 2026 인하 1회로 축소\n- Rosenblatt 목표가 $300->$325 상향(+82%)\n- GTC 마무리: Vera Rubin, 중국 H200 승인\n- Musk Nvidia 칩 대규모 주문 확인\n- FY26 순이익 $120.1B, 순이익률 55.6%\n\n기술적: 50일선/200일선 모두 아래, RSI 37 과매도 근접\n목표가: $274.30(+54%)\n\n판단: Buy. 매크로 역풍 속 펀더멘털 역대급. 분할 매수 구간."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA 200일선 아래로, Fed가 눌렀다",
-          "text": "$NVDA $179.50\n\nGTC 끝났는데 Fed가 올해 인하를 1회로 줄이며 S&P 1.4% 급락. 200일선 아래로 떨어졌다.\n\nRosenblatt $325(+81%) 상향, 컨센서스 $274(+53%)\n\n1/4",
+          "hook": "NVDA GTC 역대급 발표에도 Fed가 눌렀다",
+          "text": "$NVDA $178.56 (-1.02%)\n\nGTC에서 역대급 발표가 나왔지만 Fed가 인하를 1회로 줄이며 시장 급락. 50일선, 200일선 아래로 밀렸다.\n\nRosenblatt $325(+82%), 컨센서스 $274(+54%)\n\n1/4",
           "thread": [
-            "GTC 4일간 쏟아진 호재:\n- Vera Rubin 공개 (와트당 10배)\n- 중국 H200 승인\n- Musk 대규모 칩 주문 확인\n- AI 추론 시장 $1T\n\nForward P/E 29.3x, PEG 0.56. 성장 대비 싸다.\n\n2/4",
-            "리스크: Fed 3.5-3.75% 동결, 인하 1회 전망. 7명은 올해 동결 예상. GTC 호재에도 주가 무반응. RSI 34 과매도.\n\n하지만 펀더멘털은 역대급.\n\n3/4",
-            "61명 중 58명 Buy. Rosenblatt $325, BofA $300.\n\n매크로 압박이 풀리면 가장 빨리 반등할 종목.\n$179.50, 목표 $274.30(+53%)\n\nBuy. 분할 매수 구간.\n\n4/4"
+            "GTC 4일간 호재:\n- Vera Rubin(와트당 10배)\n- 중국 H200 승인\n- Musk 대규모 칩 주문 확인\n- AI 추론 시장 $1T\n\nFY26 매출 $215.9B(+65%), 순이익 $120.1B, 마진 55.6%.\n\n2/4",
+            "리스크: Fed 3.5-3.75% 동결, 인하 1회 전망. Blackwell/Vera Rubin은 중국 수출 제한 유지. GTC 호재에도 3일 연속 하락.\n\nRSI 37 과매도 근접. Forward P/E 25.9x, PEG 0.40.\n\n3/4",
+            "61명 중 58명 Buy. Rosenblatt $325, BofA $300.\n\n매크로 압박이 풀리면 가장 먼저 반등할 종목.\n$178.56, 목표 $274(+54%)\n\nBuy. 분할 매수 구간.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "PEG 0.56인데 Fed가 세일을 열었다",
-          "text": "$NVDA $179.50\n\nGTC에서 역대급 발표를 쏟아냈더니 Fed가 \"인하 1번만\" 하고 시장을 때렸다. Jensen이 뭘 발표해도 Jerome이 이기는 시장.\n\n목표 $274(+53%), $325(+81%)\n\n1/4",
+          "hook": "PEG 0.40인데 Fed가 세일을 열었다",
+          "text": "$NVDA $178.56\n\nJensen이 GTC에서 4일간 미래를 보여줬는데 Jerome이 \"인하 1번\" 한마디로 다 지웠다. AI의 왕이 금리의 노예가 된 하루.\n\n목표 $274(+54%), $325(+82%)\n\n1/4",
           "thread": [
-            "Musk: \"칩 대량 주문\" 중국: \"H200 승인\" Rosenblatt: \"$325\" Fed: \"인하 1번\"\n\n3 대 1인데 1이 이겼다. 그게 중앙은행이니까.\n\nPEG 0.56. 이 가격이 싼 건 확실하다.\n\n2/4",
-            "200일선 밑, RSI 34. GTC 호재를 온몸에 두르고 과매도라니. AI 수요가 줄어서가 아니다. 금리가 문제일 뿐.\n\n61명 중 58명 Buy. 이견이 없다.\n\n3/4",
-            "매크로가 풀리면 NVDA가 제일 먼저 반등한다. 65% 성장에 Forward P/E 29배.\n\n$179.50, 목표 $274.30(+53%)\n\nBuy. 두려울 때가 기회다.\n\n4/4"
+            "Musk: \"칩 대량 주문\" 중국: \"H200 승인\" Rosenblatt: \"$325\" Fed: \"인하 1번\"\n\n3 대 1인데 1이 이겼다. 그게 중앙은행이니까.\n\nPEG 0.40. 이 가격이 싼 건 확실하다.\n\n2/4",
+            "순이익 $120.1B, 마진 55.6%. 하드웨어 회사라고 하기엔 너무 벌고 있다. RSI 37, 200일선 아래.\n\n61명 중 58명 Buy인데 시장만 안 사고 있다.\n\n3/4",
+            "매크로가 풀리면 NVDA가 제일 먼저 반등한다. 65% 성장에 Forward P/E 25.9x.\n\n$178.56, 목표 $274(+54%)\n\nBuy. 두려울 때가 기회다.\n\n4/4"
           ]
         },
         "empathy": {
           "hook": "NVDA 홀더들, GTC 호재가 먹히지 않아 답답하지",
-          "text": "$NVDA $179.50\n\n4일간 역대급 GTC가 끝났는데 주가는 오히려 빠졌다. Fed가 인하를 1회로 줄이며 시장 전체를 눌렀다. 속상할 거다.\n\n목표 $274(+53%)\n\n1/4",
+          "text": "$NVDA $178.56\n\n4일간 역대급 GTC가 끝났는데 주가는 3일째 빠지고 있다. Fed가 인하를 1회로 줄이며 시장 전체를 눌렀다. 속상할 거다.\n\n목표 $274(+54%)\n\n1/4",
           "thread": [
             "Vera Rubin, 중국 H200, Musk 주문 확인. 호재가 이렇게 많은데 왜 안 오르나. 이건 NVDA 문제가 아니라 매크로 문제다.\n\n61명 중 58명이 Buy라고 외치고 있다.\n\n2/4",
-            "RSI 34로 과매도. 200일선도 깨졌다. 불안하지만 이런 구간에서 반등한 역사가 NVDA에는 많다.\n\nForward P/E 29배, PEG 0.56. 펀더멘털은 흠잡을 데가 없다.\n\n3/4",
-            "조급하지 말자. 매크로 역풍은 영원하지 않다. 금리가 방향을 틀면 NVDA가 가장 먼저 반응한다.\n\n$179.50, 목표 $274.30(+53%)\n\nBuy. 분할 매수로 버티자.\n\n4/4"
+            "RSI 37로 과매도 근접. 200일선도 깨졌다. 불안하지만 순이익 $120.1B, 마진 55.6%. 펀더멘털은 흠잡을 데가 없다.\n\nForward P/E 25.9x, PEG 0.40.\n\n3/4",
+            "조급하지 말자. 매크로 역풍은 영원하지 않다. 금리가 방향을 틀면 NVDA가 가장 먼저 반응한다.\n\n$178.56, 목표 $274(+54%)\n\nBuy. 분할 매수로 버티자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA Fed 급락으로 200일선 하회",
-          "text": "$NVDA $179.50\n\nGTC 2026이 끝났지만 Fed가 올해 인하를 1회로 줄이면서 S&P 1.4% 급락. NVDA도 50일선($185)과 200일선($184) 아래로 떨어졌고 RSI 34로 과매도 진입.\n\nGTC 4일간 호재: Vera Rubin(와트당 10배), 중국 H200 승인, Musk 대규모 주문, AI 추론 $1T. Rosenblatt $325(+81%). Forward P/E 29.3배, PEG 0.56.\n\n61명 중 58명 Buy. 매크로 압박 속 펀더멘털 역대급. 분할 매수 구간. 컨센서스 $274.30(+53%)."
+          "hook": "NVDA Fed 급락으로 200일선 하회, 과매도 근접",
+          "text": "$NVDA $178.56 (-1.02%)\n\nGTC 2026이 끝났지만 Fed가 올해 인하를 1회로 줄이면서 S&P 1.4% 급락. NVDA도 50일선($185)과 200일선($184) 아래로 밀렸고 RSI 37로 과매도 근접.\n\nGTC 4일간 호재: Vera Rubin(와트당 10배), 중국 H200 승인, Musk 대규모 주문, AI 추론 $1T. Rosenblatt $325(+82%). FY26 순이익 $120.1B, 순이익률 55.6%.\n\nForward P/E 25.9배, PEG 0.40. 61명 중 58명 Buy. 매크로 압박 속 펀더멘털 역대급. 분할 매수 구간. 컨센서스 $274(+54%)."
         },
         "witty": {
           "hook": "Jensen의 GTC vs Jerome의 금리, 승자는",
-          "text": "$NVDA $179.50\n\nJensen Huang이 GTC에서 4일간 미래를 보여줬다. Vera Rubin, 중국 승인, $1T 추론 시장. Musk까지 칩 주문을 확인해줬다.\n\n그런데 Jerome Powell이 \"인하 1번만\" 한마디 하니까 다 날아갔다. 200일선 아래, RSI 34. GTC 호재를 몸에 두르고 과매도라니.\n\nRosenblatt $325(+81%), 61명 중 58명 Buy, PEG 0.56. 이 숫자들이 틀린 게 아니라 시장이 매크로에 눌린 것뿐.\n\n금리가 방향을 틀면 NVDA가 가장 빠르게 반등한다. 두려울 때가 기회. 목표 $274(+53%). Buy."
+          "text": "$NVDA $178.56\n\nJensen이 GTC에서 4일간 미래를 보여줬다. Vera Rubin, 중국 승인, $1T 추론 시장. Musk까지 칩 주문을 확인해줬다.\n\n그런데 Jerome Powell이 \"인하 1번만\" 한마디 하니까 다 날아갔다. 200일선 아래, RSI 37. GTC 호재를 몸에 두르고 과매도라니.\n\nRosenblatt $325(+82%), 61명 중 58명 Buy, PEG 0.40. 순이익 $120.1B, 마진 55.6%. 이 숫자들이 틀린 게 아니라 시장이 매크로에 눌린 것뿐.\n\n금리가 방향을 틀면 NVDA가 가장 빠르게 반등한다. 두려울 때가 기회. 목표 $274(+54%). Buy."
         },
         "empathy": {
           "hook": "NVDA 홀더들, GTC 끝나고 더 빠져서 답답하지",
-          "text": "$NVDA $179.50\n\n역대급 GTC가 끝났는데 주가가 오히려 빠졌다. Fed가 인하를 1회로 줄이며 시장 전체를 깔아뭉갰다. 기대가 컸던 만큼 실망도 클 거다.\n\n하지만 이건 NVDA의 문제가 아니다. Vera Rubin, 중국 H200 승인, Musk 주문 확인까지, 펀더멘털은 흠잡을 데가 없다. 61명 중 58명이 Buy, Rosenblatt는 $325(+81%)까지 봤다.\n\nRSI 34, 200일선 아래. 차트만 보면 무섭다. 하지만 PEG 0.56에 Forward P/E 29배면 매크로 역풍이 지나간 후 가장 먼저 반등할 종목이다.\n\n조급하지 않게 분할 매수. 금리 환경이 바뀌면 기회가 온다. 목표 $274(+53%). Buy."
+          "text": "$NVDA $178.56\n\n역대급 GTC가 끝났는데 주가가 3일째 빠지고 있다. Fed가 인하를 1회로 줄이며 시장 전체를 깔아뭉갰다. 기대가 컸던 만큼 실망도 클 거다.\n\n하지만 이건 NVDA의 문제가 아니다. Vera Rubin, 중국 H200 승인, Musk 주문 확인까지, 펀더멘털은 흠잡을 데가 없다. 순이익 $120.1B, 마진 55.6%. 61명 중 58명이 Buy, Rosenblatt는 $325(+82%)까지 봤다.\n\nRSI 37, 200일선 아래. 차트만 보면 무섭다. 하지만 PEG 0.40에 Forward P/E 25.9배면 매크로 역풍이 지나간 후 가장 먼저 반등할 종목이다.\n\n조급하지 않게 분할 매수. 금리 환경이 바뀌면 기회가 온다. 목표 $274(+54%). Buy."
         }
       }
     }

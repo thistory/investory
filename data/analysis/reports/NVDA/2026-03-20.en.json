@@ -2,11 +2,11 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-20",
-  "currentPrice": 179.50,
-  "marketCap": "$4.37T",
+  "currentPrice": 178.56,
+  "marketCap": "$4.36T",
   "businessSummary": {
-    "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled a 5-layer full-stack AI platform strategy spanning chips, agent runtime, open models, factory blueprints, and software. FY26 revenue hit $215.9B (+65% YoY), and the next-gen Vera Rubin platform and Groq 3 LPU further cemented its technology leadership.",
+    "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure through data center GPUs and accelerators",
+    "description": "NVIDIA is the leading provider of GPU-based AI accelerated computing, operating a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled its five-layer full-stack AI platform strategy spanning chips, agent runtimes, open models, factory blueprints, and software platforms, accelerating its transition from a chip company to a platform company dominating the entire AI infrastructure stack. NVIDIA posted $215.9 billion in FY26 revenue, up 65% year-over-year, and unveiled the next-generation Vera Rubin platform alongside the Groq 3 LPU, further cementing its technology leadership.",
     "howTheyMakeMoney": [
       "Data center AI accelerators (80%+ of revenue)",
       "AI software platforms (CUDA, NIM, NemoClaw)",
@@ -14,160 +14,333 @@
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Groq 3 LPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Groq 3 LPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
   "keyMetrics": [
-    {"name": "P/E TTM", "value": "36.5x", "interpretation": "Premium to semiconductor avg (25x) but PEG 0.56 makes it reasonable given 65% revenue growth"},
-    {"name": "Forward P/E", "value": "29.3x", "interpretation": "Based on FY27 EPS $6.13. Attractive for a growth stock"},
-    {"name": "Revenue Growth YoY", "value": "65%", "interpretation": "FY26 $215.9B. 11 consecutive quarters above 55% growth"},
-    {"name": "Gross Margin", "value": "75.0% (Q4)", "interpretation": "Improved from 73.4% prior quarter. Recovery from early Blackwell margin pressure"},
-    {"name": "Net Income Q4", "value": "$42.96B", "interpretation": "Up 94% YoY"},
-    {"name": "Annual Revenue FY26", "value": "$215.9B", "interpretation": "Up 65% from $130.5B"}
+    {
+      "name": "P/E TTM",
+      "value": "36.6x",
+      "interpretation": "Premium vs. semiconductor sector avg (25x), but justified by 65% revenue growth, yielding PEG of 0.56"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "25.9x",
+      "interpretation": "Based on FY27 EPS of $6.88. PEG of 0.40 vs. growth rate is compelling. BofA sees as low as 17x"
+    },
+    {
+      "name": "Revenue Growth YoY",
+      "value": "65%",
+      "interpretation": "FY26 revenue of $215.9B. 11 consecutive quarters above 55% growth"
+    },
+    {
+      "name": "Net Income FY26",
+      "value": "$120.1B",
+      "interpretation": "Net margin of 55.6%, unprecedented for a hardware company"
+    },
+    {
+      "name": "Gross Margin",
+      "value": "75.0% (Q4)",
+      "interpretation": "Up from 73.4% in Q3. Recovery from early Blackwell margin pressure"
+    },
+    {
+      "name": "Q1 FY27 Guidance",
+      "value": "$78B",
+      "interpretation": "Above consensus expectations. Implies 55%+ year-over-year growth"
+    }
   ],
   "growthDrivers": [
-    {"title": "Rosenblatt Raises Target to $325: Wall Street's Most Bullish Call", "description": "Rosenblatt raised from $300 to $325 after GTC management meetings. Implies 81% upside. Reinforces structural AI infrastructure growth thesis."},
-    {"title": "China H200 Sales Approved: Beijing Opens the Door", "description": "Jensen Huang confirmed at GTC. Groq China version also in preparation. Lost China revenue (20%) could return."},
-    {"title": "GTC 2026 Wrap: $1T AI Inference Market Opportunity", "description": "Doubled from $500B last year. Inference surpassing training as the new growth engine."},
-    {"title": "Vera Rubin Platform: 10x Performance per Watt", "description": "10x energy efficiency vs Grace Blackwell. Key to solving data center power bottlenecks."},
-    {"title": "5-Layer Full-Stack AI Platform", "description": "Beyond chips to complete AI factory blueprint. Vertical integration from hardware to agent runtime."},
-    {"title": "Musk Confirms Continued Large Nvidia Chip Orders", "description": "Tesla/SpaceX AI will continue large-scale Nvidia purchases. Confirms structural durability of AI chip demand."}
+    {
+      "title": "Rosenblatt raises target to $325: Wall Street's most bullish call",
+      "description": "Rosenblatt Securities raised its price target from $300 to $325 following post-GTC management meetings. Implies 82% upside from current levels. Reaffirms structural growth in AI infrastructure spending."
+    },
+    {
+      "title": "China H200 sales approved: Beijing opens the door",
+      "description": "Jensen Huang confirmed at GTC. Groq for China also in preparation. Lost China revenue (20% of data center) could return."
+    },
+    {
+      "title": "GTC 2026 wrap-up: $1T inference market opportunity",
+      "description": "Doubled from $500B last year. Inference surpassing training as a new growth engine."
+    },
+    {
+      "title": "Vera Rubin platform: 10x performance per watt",
+      "description": "10x energy efficiency versus Grace Blackwell. Key to solving data center power bottlenecks."
+    },
+    {
+      "title": "Five-layer full-stack AI platform",
+      "description": "Beyond chips: a complete AI factory blueprint. Vertical integration from hardware to software to agent runtimes."
+    },
+    {
+      "title": "Musk confirms continued massive Nvidia chip orders",
+      "description": "Tesla and SpaceX AI confirmed they will continue large-scale purchases of Nvidia chips. Reaffirms structural strength of AI chip demand."
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
+    "summary": "CUDA ecosystem dominance, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      {"type": "CUDA Ecosystem", "description": "Most AI developers worldwide build on CUDA. 15+ years of accumulated libraries are impossible to replicate short-term."},
-      {"type": "Full-Stack AI Factory", "description": "Self-supplied GPU, CPU (Grace), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw)."},
-      {"type": "Annual Architecture Roadmap", "description": "From Hopper to Blackwell to Vera Rubin, annual new architectures maintain a 2-3 year tech lead."},
-      {"type": "Economies of Scale", "description": "$215.9B annual revenue provides overwhelming advantages in R&D, production negotiations, and customer acquisition."}
+      {
+        "type": "CUDA Ecosystem",
+        "description": "The vast majority of AI developers worldwide build on CUDA. Over 15 years of accumulated software ecosystem and libraries that competitors cannot replicate in the short term."
+      },
+      {
+        "type": "Full-Stack AI Factory",
+        "description": "Self-supplies GPUs, CPUs (Grace), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw) in a vertically integrated structure."
+      },
+      {
+        "type": "Annual Architecture Roadmap",
+        "description": "From Hopper to Blackwell to Vera Rubin, new architectures ship annually, maintaining a 2-3 year technology gap over competitors."
+      },
+      {
+        "type": "Economies of Scale",
+        "description": "At $215.9B annual revenue, NVIDIA has overwhelming advantages in R&D investment, manufacturing leverage, and customer acquisition. A $1 trillion order pipeline proves it."
+      }
     ],
     "competitors": [
-      {"name": "AMD MI450", "detail": "Next-gen AI accelerator catching up but ROCm software ecosystem significantly trails CUDA"},
-      {"name": "Google TPU v6", "detail": "Custom chip optimized for Google's own workloads. Powerful within Google Cloud but less versatile"},
-      {"name": "Custom chips (MS Maia, Amazon Trainium)", "detail": "Hyperscalers accelerating in-house chip development but lagging in general-purpose AI acceleration"}
+      {
+        "name": "AMD MI450",
+        "detail": "Next-gen AI accelerator closing the gap, but software ecosystem (ROCm) significantly behind CUDA"
+      },
+      {
+        "name": "Google TPU v6",
+        "detail": "Custom silicon optimized for internal AI workloads. Powerful within Google Cloud but lacks broad applicability"
+      },
+      {
+        "name": "Custom chips (MS Maia, Amazon Trainium)",
+        "detail": "Hyperscalers accelerating custom chip development, but still behind NVIDIA in general-purpose AI acceleration"
+      }
     ]
   },
   "recentNews": [
-    {"date": "2026-03-19", "headline": "Fed Holds Rates at 3.5-3.75%, Signals Only 1 Cut in 2026", "significance": "S&P and Nasdaq dropped ~1.4%. Growth stock pressure intensifies. GTC gains wiped out.", "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html"},
-    {"date": "2026-03-19", "headline": "Rosenblatt Raises Target from $300 to $325: Buy Maintained", "significance": "Post-GTC management meeting-driven upgrade. 81% upside, Wall Street's most bullish call.", "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html"},
-    {"date": "2026-03-19", "headline": "GTC 2026 Final Day: Healthcare AI, Humanoid Robot Demos", "significance": "4-day GTC concludes. Vera Rubin, full-stack platform, China H200 approval announced but stock weighed down by Fed.", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"},
-    {"date": "2026-03-19", "headline": "Musk Confirms SpaceX AI, Tesla Will Keep Ordering Nvidia Chips at Scale", "significance": "Major AI demand source confirmed. Structural durability of chip demand reaffirmed.", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/"},
-    {"date": "2026-03-18", "headline": "Beijing Approves Nvidia H200 AI Chip Sales in China", "significance": "Lost China revenue (20%) could return. Jensen Huang confirmed at GTC.", "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/"}
+    {
+      "date": "2026-03-19",
+      "headline": "Fed holds rates at 3.5-3.75%, cuts 2026 rate-cut forecast to just one: S&P/Nasdaq -1.4%",
+      "significance": "The Fed held rates steady and projected only one cut this year. Broad selling pressure on growth stocks. GTC tailwinds offset by macro headwinds.",
+      "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html"
+    },
+    {
+      "date": "2026-03-19",
+      "headline": "Rosenblatt raises price target from $300 to $325: maintains Buy",
+      "significance": "Reflects post-GTC management meetings. 82% upside from current levels, the highest target on Wall Street. Reaffirms structural AI infrastructure growth.",
+      "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html"
+    },
+    {
+      "date": "2026-03-19",
+      "headline": "GTC 2026 final day (Day 4): healthcare AI, humanoid robotics, NPN partner awards",
+      "significance": "Four-day GTC wraps up. Vera Rubin, five-layer full-stack, China H200 approval all announced, but shares weighed down by Fed headwinds.",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "date": "2026-03-19",
+      "headline": "Musk confirms SpaceX AI and Tesla will keep ordering Nvidia chips at scale",
+      "significance": "Will remain a major AI demand source until Terafab custom chip transition. Reaffirms structural strength of AI chip demand.",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/"
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "Beijing approves Nvidia H200 AI chip sales to China",
+      "significance": "Lost China revenue (20% of data center) could return. Confirmed directly by Jensen Huang.",
+      "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/"
+    }
   ],
-  "risks": [
-    {"severity": "high", "title": "Fed Rate Hold + Only 1 Cut Expected", "description": "Fed held at 3.5-3.75% with 7 members expecting no cuts. Growth stock valuation pressure continues."},
-    {"severity": "high", "title": "China Export Restriction Uncertainty", "description": "H200 approved but latest chips (Blackwell, Vera Rubin) still restricted. Political reversal risk remains."},
-    {"severity": "medium", "title": "GTC Rally Failure: Expectations Priced In", "description": "Major announcements over 4 days but stock declined. Vera Rubin, China approval may already be reflected."},
-    {"severity": "medium", "title": "Competition Intensifying", "description": "AMD MI450, Google TPU v6 emerging. Hyperscaler in-house chips also a threat."},
-    {"severity": "medium", "title": "Energy Infrastructure Bottleneck", "description": "AI data center power consumption surging. Power supply constraints could physically limit AI infrastructure expansion."}
-  ],
-  "buyReasons": [
-    {"title": "Rosenblatt $325 + BofA $300: Overwhelming Buy Consensus", "rationale": "Rosenblatt $325 (+81%), BofA $300 (+67%), consensus $274.30 (+53%). 58 of 61 analysts say Buy."},
-    {"title": "China H200 Approval: 20% Lost Revenue Returning", "rationale": "Beijing's H200 approval reopens China market. Groq China version also in preparation."},
-    {"title": "Forward P/E Under 30x, PEG 0.56", "rationale": "Reasonable valuation for 65% growth. Among the best value-for-growth ratios in tech."},
-    {"title": "Oversold in a Fed-Driven Selloff: Buying Opportunity", "rationale": "RSI 34 oversold. Fundamentals are the strongest ever but macro is suppressing the price."}
-  ],
-  "technicalPosition": {
-    "week52High": 212.19,
-    "week52Low": 86.62,
-    "currentPositionPercent": 74.0,
-    "sma50": 184.97,
-    "sma50Signal": "below",
-    "sma200": 184.15,
-    "sma200Signal": "below",
-    "rsi": 34.0,
-    "rsiSignal": "oversold"
-  },
   "analystOpinions": {
     "consensusTarget": 274.3,
     "highTarget": 325.0,
     "lowTarget": 185.0,
-    "upsidePercent": 52.8,
+    "upsidePercent": 53.6,
     "buyCount": 58,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "Rosenblatt new Street-high $325. BofA $300 reaffirmed. 58 of 61 Buy. Fed headwinds strengthening bullish fundamental case."
+    "notableComment": "Rosenblatt sets new Street-high target at $325. BofA reaffirms $300. 58 of 61 analysts rate Buy, 38 at Strong Buy. Bullish thesis strengthens despite Fed headwinds."
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Fed rate hold + single cut forecast: growth stock pressure",
+      "description": "Fed held at 3.5-3.75% and projects only one cut this year. S&P/Nasdaq fell 1.4%. Growth stock valuation compression continues."
+    },
+    {
+      "severity": "high",
+      "title": "China export restriction uncertainty",
+      "description": "H200 approved, but latest chips (Blackwell, Vera Rubin) remain restricted. China was 20-25% of data center revenue. Political variables could shut the door again."
+    },
+    {
+      "severity": "medium",
+      "title": "GTC news met with indifference, expectations priced in",
+      "description": "Four days of major announcements yet shares declined. Vera Rubin, China approval, and other catalysts may already be reflected in the price."
+    },
+    {
+      "severity": "medium",
+      "title": "Intensifying competition",
+      "description": "AMD MI450, Google TPU v6, and other competing accelerators emerging. Hyperscaler custom chip development is also a threat."
+    },
+    {
+      "severity": "medium",
+      "title": "Energy infrastructure bottleneck",
+      "description": "AI data center power consumption surging. Power supply constraints could become a physical limit on AI infrastructure expansion."
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Rosenblatt $325 + BofA $300: overwhelming Wall Street Buy consensus",
+      "rationale": "Rosenblatt $325 (+82%), BofA $300 (+68%), consensus $274.30 (+54%). 58 of 61 analysts rate Buy, 38 at Strong Buy. Historically bullish conviction."
+    },
+    {
+      "title": "China H200 approval: 20% of lost revenue returns",
+      "rationale": "Beijing's H200 approval reopens the Chinese market. Groq for China also in prep, adding further revenue upside."
+    },
+    {
+      "title": "Forward P/E 26x, PEG 0.40",
+      "rationale": "At FY27 EPS of $6.88, forward P/E is 25.9x. PEG of 0.40 vs. 65% growth rate represents a historically cheap entry zone."
+    },
+    {
+      "title": "Oversold on macro headwinds: buying opportunity",
+      "rationale": "RSI at 37, near oversold. Fundamentals are at all-time highs but macro is the drag, creating a price dislocation."
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 73.2,
+    "sma50": 184.97,
+    "sma50Signal": "below",
+    "sma200": 184.15,
+    "sma200Signal": "below",
+    "rsi": 37.0,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "GTC 2026 concluded but the Fed cutting its 2026 rate outlook to just 1 sent the entire market tumbling. NVDA fell below both its 50-day and 200-day SMAs with RSI at 34, entering oversold territory despite record-breaking announcements.",
-    "Rosenblatt raised its target to $325 (+81%), China H200 was approved, Musk confirmed large-scale orders, and Vera Rubin was unveiled. Fundamentals have never been stronger. Forward P/E 29.3x with PEG 0.56 is compelling for 65% growth.",
-    "Breaking below the 200-day SMA ($184) signals potential medium-term trend change, but with 65% revenue growth and $274 consensus, the stock should recover quickly once macro pressure eases. For investors who can tolerate short-term volatility, this is a dollar-cost averaging opportunity."
+    "GTC 2026 delivered blockbuster announcements from Vera Rubin to China H200 approval and Musk confirming massive chip orders, but the Fed cutting its 2026 rate-cut forecast to just one sent the S&P and Nasdaq down 1.4%. NVDA fell to $178.56, marking three straight days of declines.",
+    "Fundamentals have never been stronger. FY26 revenue hit $215.9B (+65%), net income $120.1B at a 55.6% margin. Q1 FY27 guidance of $78B beat expectations, and Rosenblatt raised its target to $325 (+82%). Forward P/E at 25.9x with a PEG of 0.40.",
+    "The stock sits below both its 50-day ($185) and 200-day ($184) moving averages with RSI at 37, near oversold. Historically, these dislocations between macro pressure and peak fundamentals have been excellent entry points. When macro headwinds ease, NVDA tends to rebound first. Dollar-cost averaging is warranted."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Short-term decline driven by Fed hawkishness, but GTC-confirmed technology leadership (Vera Rubin, China approval, $1T inference market), Rosenblatt $325, and PEG 0.56 make this a compelling mid-to-long-term buy. RSI 34 oversold below the 200-day SMA is uncomfortable, but historically these setups have been the best entry points for NVDA.",
+    "summary": "Short-term pressure from the Fed's hawkish pivot, but the investment case is compelling: GTC confirmed technology leadership (Vera Rubin, China approval, $1T inference market), Rosenblatt's $325 target, and a PEG of 0.40 make this an attractive entry. Trading below both key moving averages at RSI 37 is uncomfortable, but for a company posting 55.6% net margins on 65% growth, these levels have historically been among the best buying opportunities.",
     "horizon": "6-12 months"
   },
   "sources": [
-    {"name": "Yahoo Finance - Fed Decision", "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html", "description": "Fed holds rates at 3.5-3.75%, signals only 1 cut in 2026"},
-    {"name": "Yahoo Finance - Rosenblatt", "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html", "description": "Rosenblatt raises NVDA target to $325, post-GTC management meetings"},
-    {"name": "Reuters - China H200", "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/", "description": "Beijing approves Nvidia H200 chip sales in China"},
-    {"name": "Reuters - Musk Nvidia Order", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/", "description": "Musk confirms continued large-scale Nvidia chip purchasing"},
-    {"name": "NVIDIA Blog - GTC", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 Day 4 official announcements"},
-    {"name": "TipRanks", "url": "https://www.tipranks.com/news/nvidia-nvda-stock-flat-amid-gtc-2026-why-top-analysts-are-still-bullish", "description": "Analysis of NVDA price inaction during GTC, analyst bullish consensus"},
-    {"name": "Benzinga", "url": "https://www.benzinga.com/money/nvidia-stock-price-prediction", "description": "NVDA price prediction, P/E 37.13, market cap $4.38T"},
-    {"name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA consensus target $274.30"},
-    {"name": "DailyPolitical", "url": "https://www.dailypolitical.com/2026/03/19/nvidia-corporation-nvda-stock-position-lowered-by-sunbelt-securities-inc.html", "description": "50-day SMA $184.97, 200-day SMA $184.15 technical data"}
+    {
+      "name": "Yahoo Finance - Fed Decision",
+      "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html",
+      "description": "Fed rate hold at 3.5-3.75% and 2026 single cut projection"
+    },
+    {
+      "name": "Yahoo Finance - Rosenblatt",
+      "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html",
+      "description": "Rosenblatt raises NVDA target to $325 after post-GTC management meetings"
+    },
+    {
+      "name": "Reuters - China H200",
+      "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/",
+      "description": "Beijing approves H200 chip sales to China"
+    },
+    {
+      "name": "Reuters - Musk Nvidia Order",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/",
+      "description": "Musk confirms continued large-scale Nvidia chip orders"
+    },
+    {
+      "name": "NVIDIA Blog - GTC",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "description": "GTC 2026 final day recap and NPN partner awards"
+    },
+    {
+      "name": "MEXC Blog - NVDA Analysis",
+      "url": "https://blog.mexc.com/news/nvidia-stock-nvda-2026-record-earnings-falling-price-what-is-actually-going-on/",
+      "description": "FY26 revenue $215.9B, net income $120.1B, 55.6% margin, Q1 FY27 guidance $78B, RSI 37.19"
+    },
+    {
+      "name": "StockInvest.us",
+      "url": "https://stockinvest.us/stock/NVDA",
+      "description": "NVDA closing price $178.56 (-1.02%), third consecutive decline"
+    },
+    {
+      "name": "WallStreetZen",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda",
+      "description": "P/E 36.59x, market cap $4.38T, 52-week high $212.19, low $86.62"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "NVDA consensus price target $274.30"
+    },
+    {
+      "name": "Parameter.io",
+      "url": "https://parameter.io/nvidia-nvda-stock-gains-momentum-as-wall-street-eyes-gtc-2026-conference/",
+      "description": "BofA evaluates forward PE at 17x level, $300 target"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/19/prediction-nvidia-stock-will-be-worth-this-2-years/",
+      "description": "Jensen Huang projects AI infrastructure spending to reach $4T annually by 2030"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA falls below 200-day SMA as Fed strikes",
-      "text": "$NVDA $179.50\n\nGTC is over but the Fed cut its 2026 outlook to just 1 rate cut. S&P dropped 1.4%. NVDA fell below both 50-day and 200-day SMAs.\n\nRosenblatt $325 (+81%), consensus $274 (+53%)\n\n1/4",
+      "hook": "NVDA: GTC blockbusters meet Fed headwinds",
+      "text": "$NVDA $178.56 (-1.02%)\n\nGTC delivered blockbusters but the Fed cut its 2026 rate-cut forecast to just one. Below 50-day and 200-day SMAs.\n\nRosenblatt $325 (+82%), consensus $274 (+54%)\n\n1/4",
       "thread": [
-        "GTC highlights:\n- Vera Rubin (10x per watt)\n- China H200 approved\n- Musk confirms large chip orders\n- $1T inference market\n\nForward P/E 29.3x, PEG 0.56. Growth is not reflected in price.\n\n2/4",
-        "Risk: Fed 3.5-3.75% hold, only 1 cut expected. 7 members see zero cuts. GTC catalyst failed to lift stock. RSI 34 oversold.\n\nBut fundamentals are the strongest ever.\n\n3/4",
-        "58 of 61 Buy. Rosenblatt $325, BofA $300.\n\nWhen macro pressure lifts, NVDA rebounds first.\n$179.50, target $274.30 (+53%)\n\nBuy. Dollar-cost average here.\n\n4/4"
+        "GTC highlights:\n- Vera Rubin (10x perf/watt)\n- China H200 approval\n- Musk confirmed massive orders\n- $1T inference market\n\nFY26 rev $215.9B (+65%), net income $120.1B, margin 55.6%.\n\n2/4",
+        "Risks: Fed holding at 3.5-3.75%, just 1 cut expected. Blackwell/Vera Rubin still restricted in China. GTC news met with 3 straight days of declines.\n\nRSI 37, near oversold. Forward P/E 25.9x, PEG 0.40.\n\n3/4",
+        "58 of 61 analysts say Buy. Rosenblatt $325, BofA $300.\n\nWhen macro pressure lifts, NVDA rebounds first.\n$178.56, target $274 (+54%)\n\nBuy. Dollar-cost average here.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA drops below key levels on Fed, buying opportunity?",
-      "text": "$NVDA $179.50\n\nGTC 2026 concluded with record announcements but the Fed's decision to signal only 1 rate cut in 2026 sent the S&P down 1.4%. NVDA fell below both its 50-day ($185) and 200-day ($184) SMAs. RSI at 34, entering oversold.\n\nThe fundamentals couldn't be stronger. Vera Rubin (10x efficiency), China H200 approval, Musk confirming large-scale orders, $1T inference market. Rosenblatt raised to $325 (+81%). 58 of 61 analysts say Buy.\n\nForward P/E 29.3x, PEG 0.56. The price disconnect from fundamentals has rarely been this wide.\n\nBuy. Dollar-cost average into this macro-driven weakness. Consensus target $274.30 (+53%)."
+      "hook": "NVDA: GTC peak vs. Fed pressure, who wins?",
+      "text": "$NVDA $178.56 (-1.02%)\n\nGTC 2026 wrapped up with blockbuster announcements, but the Fed cutting its 2026 rate-cut forecast to just one sent the S&P down 1.4%. NVDA slipped below its 50-day ($185) and 200-day ($184) moving averages with RSI at 37, near oversold.\n\nThe four-day GTC delivered historic catalysts: Vera Rubin (10x perf/watt), China H200 approval, Musk confirming massive chip orders, and a $1T inference market projection. Rosenblatt raised its target to $325 (+82%).\n\nFY26 revenue hit $215.9B (+65%), net income $120.1B at a 55.6% margin. Q1 FY27 guidance of $78B beat expectations. Forward P/E at 25.9x, PEG 0.40.\n\n58 of 61 analysts rate Buy. Macro is the only headwind. When it lifts, NVDA rebounds first. Consensus $274 (+54%). Buy. Dollar-cost average."
     },
     "telegram": {
-      "hook": "NVDA drops below 200-day on Fed hawkishness",
-      "text": "NVDA $179.50\n\nKey Events\n- Fed holds rates, cuts 2026 outlook to 1 cut\n- Rosenblatt raises target $300->$325 (+81%)\n- GTC wrap: Vera Rubin, China H200 approved\n- Musk confirms large Nvidia chip orders\n\nTechnicals: Below 50/200-day SMA, RSI 34 oversold\nTarget: $274.30 (+53%)\n\nVerdict: Buy. Strongest fundamentals ever, macro-suppressed price. DCA opportunity."
+      "hook": "NVDA: GTC blockbusters, Fed headwinds, near oversold",
+      "text": "NVDA $178.56 (-1.02%)\n\nKey Issues\n- Fed holds rates, cuts 2026 rate-cut forecast to 1\n- Rosenblatt raises target $300->$325 (+82%)\n- GTC wrap-up: Vera Rubin, China H200 approval\n- Musk confirms massive Nvidia chip orders\n- FY26 net income $120.1B, margin 55.6%\n\nTechnicals: Below 50-day/200-day SMAs, RSI 37 near oversold\nTarget: $274.30 (+54%)\n\nVerdict: Buy. Peak fundamentals vs. macro headwinds. Dollar-cost average zone."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $179.50, consensus gap at 53%",
-          "text": "$NVDA $179.50 | Consensus $274.30 (+53%)\n\nFed held 3.5-3.75%, signaled 1 cut. S&P -1.4%. Below 50/200-day SMAs. RSI 34.\n\nRosenblatt $325 (+81%). 58/61 Buy.\nPEG 0.56. FY26 rev $215.9B (+65%)\n\n1/4",
+          "hook": "NVDA: GTC blockbusters meet Fed headwinds",
+          "text": "$NVDA $178.56 (-1.02%)\n\nGTC delivered blockbusters but the Fed cut its 2026 rate-cut forecast to just one. Below 50-day and 200-day SMAs.\n\nRosenblatt $325 (+82%), consensus $274 (+54%)\n\n1/4",
           "thread": [
-            "GTC 4-day recap:\n- Vera Rubin NVL72 (10x/watt)\n- China H200 approved\n- Musk large-scale orders confirmed\n- $1T inference TAM\n- Q4 margin 75%, net income $42.96B\n\n2/4",
-            "Risks:\n- Fed hawkish: 7 members expect 0 cuts\n- GTC catalyst failed to move stock\n- China export limits on latest chips remain\n- RSI 34, below key SMAs\n\n200-day breakdown needs watching.\n\n3/4",
-            "58/61 Buy. Rosenblatt $325, BofA $300.\nForward P/E 29.3x. PEG 0.56.\n\n$179.50 -> $274.30 (+53%). Buy.\n\n4/4"
+            "GTC highlights:\n- Vera Rubin (10x perf/watt)\n- China H200 approval\n- Musk confirmed massive orders\n- $1T inference market\n\nFY26 rev $215.9B (+65%), net income $120.1B, margin 55.6%.\n\n2/4",
+            "Risks: Fed holding at 3.5-3.75%, just 1 cut expected. Blackwell/Vera Rubin still restricted in China. GTC news met with 3 straight days of declines.\n\nRSI 37, near oversold. Forward P/E 25.9x, PEG 0.40.\n\n3/4",
+            "58 of 61 analysts say Buy. Rosenblatt $325, BofA $300.\n\nWhen macro pressure lifts, NVDA rebounds first.\n$178.56, target $274 (+54%)\n\nBuy. Dollar-cost average here.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Jensen delivered, Jerome deleted the gains",
-          "text": "$NVDA $179.50\n\nJensen spent 4 days showing the future. Jerome spent 5 minutes erasing it. \"1 cut this year.\" S&P -1.4%. Thanks, Fed.\n\nRosenblatt: $325 (+81%). The market: nah.\n\n1/4",
+          "hook": "PEG 0.40 and the Fed just put it on sale",
+          "text": "$NVDA $178.56\n\nJensen spent 4 days showing us the future at GTC. Then Jerome said \"one cut\" and erased it all. The AI king, enslaved by interest rates.\n\nTarget $274 (+54%), $325 (+82%)\n\n1/4",
           "thread": [
-            "Musk: \"we'll buy a lot of your chips\"\nChina: \"H200 approved\"\nRosenblatt: \"$325\"\nFed: \"1 cut, maybe\"\n\n3 vs 1 and the 1 won. That's central banking for you.\n\nPEG 0.56. This price is wrong.\n\n2/4",
-            "Below 200-day SMA, RSI 34. NVDA wearing GTC medals while standing in the oversold zone. AI demand didn't shrink. Rates just won't drop.\n\n58/61 Buy. Zero disagreement on fundamentals.\n\n3/4",
-            "When macro turns, NVDA leads the bounce. 65% growth, Forward P/E 29x.\n\n$179.50, target $274.30 (+53%). Buy when others fear the Fed.\n\n4/4"
+            "Musk: \"buying tons of chips.\" China: \"H200 approved.\" Rosenblatt: \"$325.\" Fed: \"one cut.\"\n\nThree bulls vs. one bear. The bear won. That's what central banks do.\n\nPEG 0.40. This is cheap. Period.\n\n2/4",
+            "Net income $120.1B, margin 55.6%. Some \"hardware company.\" RSI 37, below 200-day SMA.\n\n58 of 61 analysts say Buy. Everyone's bullish except the market.\n\n3/4",
+            "When macro turns, NVDA snaps back first. 65% growth at forward P/E 25.9x.\n\n$178.56, target $274 (+54%)\n\nBuy. Fear is the best discount.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA holders, GTC rally stolen by the Fed",
-          "text": "$NVDA $179.50\n\nYou watched 4 days of incredible GTC announcements. Then the Fed said \"1 cut\" and it all disappeared. Below the 200-day. Frustrating.\n\nBut the fundamentals haven't changed.\n\n1/4",
+          "hook": "NVDA holders: GTC was great, so why is it down?",
+          "text": "$NVDA $178.56\n\nFour days of historic GTC announcements and the stock fell for 3 straight days. The Fed cutting its rate-cut forecast to one crushed the whole market. It stings.\n\nTarget $274 (+54%)\n\n1/4",
           "thread": [
-            "Vera Rubin, China H200, Musk orders. The business is firing on all cylinders. This drop is macro, not NVDA-specific. 58 of 61 analysts agree.\n\n2/4",
-            "RSI 34 oversold. These levels have produced strong bounces historically. Forward P/E 29x, PEG 0.56. The value case is clear.\n\n3/4",
-            "Don't panic. Dollar-cost average if you can. When rates turn, NVDA leads the recovery.\n\n$179.50, target $274.30 (+53%). Buy.\n\n4/4"
+            "Vera Rubin, China H200, Musk orders. How much more good news do you need? This isn't an NVDA problem. It's a macro problem.\n\n58 of 61 analysts are screaming Buy.\n\n2/4",
+            "RSI 37, near oversold. Below the 200-day. Scary chart. But net income is $120.1B at 55.6% margins. The numbers are flawless.\n\nForward P/E 25.9x, PEG 0.40.\n\n3/4",
+            "Don't panic. Macro headwinds don't last forever. When rates turn, NVDA moves first.\n\n$178.56, target $274 (+54%)\n\nBuy. Stay patient. Dollar-cost average.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA $179.50, Fed drives below key SMAs",
-          "text": "$NVDA $179.50 | Consensus $274.30 (+53%)\n\nFed held at 3.5-3.75%, signaled only 1 cut in 2026. S&P dropped 1.4%. NVDA fell below 50-day ($185) and 200-day ($184) SMAs. RSI 34 oversold.\n\nGTC 4 days: Vera Rubin (10x/watt), China H200 approved, Musk large-scale orders, $1T inference TAM. Rosenblatt raised to $325 (+81%). Forward P/E 29.3x, PEG 0.56. 58/61 Buy.\n\nBuy. Macro-driven weakness creates entry opportunity. DCA recommended."
+          "hook": "NVDA drops below 200-day SMA on Fed, near oversold",
+          "text": "$NVDA $178.56 (-1.02%)\n\nGTC 2026 wrapped up but the Fed cutting its 2026 rate-cut forecast to one sent the S&P down 1.4%. NVDA below its 50-day ($185) and 200-day ($184) SMAs, RSI 37 near oversold.\n\nGTC highlights: Vera Rubin (10x perf/watt), China H200 approval, Musk massive orders, $1T inference market. Rosenblatt $325 (+82%). FY26 net income $120.1B, margin 55.6%.\n\nForward P/E 25.9x, PEG 0.40. 58 of 61 analysts rate Buy. Peak fundamentals vs. macro pressure. Dollar-cost average zone. Consensus $274 (+54%)."
         },
         "witty": {
-          "hook": "Jensen showed the future, Jerome hit delete",
-          "text": "$NVDA $179.50\n\nJensen Huang spent 4 days at GTC unveiling Vera Rubin, getting China approval, and hearing Musk promise massive orders. The stock's response after the Fed said \"1 cut this year\"? Below the 200-day SMA.\n\nRosenblatt sees $325 (+81%). The market sees Jerome Powell. Right now, Powell is winning.\n\n58 of 61 analysts say Buy. PEG 0.56 means you're paying less for growth than almost any tech stock. But when the central bank says higher for longer, even the best fundamentals take a backseat.\n\nRSI 34. Historically, these are the levels you wished you'd bought at. Consensus $274 (+53%). Buy if you can stomach the volatility."
+          "hook": "Jensen's GTC vs. Jerome's rates: who wins?",
+          "text": "$NVDA $178.56\n\nJensen spent four days at GTC painting the future: Vera Rubin, China approval, $1T inference market. Musk even confirmed his chip orders.\n\nThen Jerome Powell said \"one cut\" and the market forgot all of it. Below the 200-day, RSI 37. Wearing GTC tailwinds and still near oversold.\n\nRosenblatt $325 (+82%), 58 of 61 analysts Buy, PEG 0.40. Net income $120.1B, margin 55.6%. The numbers aren't wrong. The market is just spooked by rates.\n\nWhen macro turns, NVDA snaps back first. Fear is the best sale price. Target $274 (+54%). Buy."
         },
         "empathy": {
-          "hook": "NVDA holders after GTC: why isn't it working?",
-          "text": "$NVDA $179.50\n\nFour days of the most impressive tech conference in years. Vera Rubin. China approval. Musk orders. And the stock is lower than before it started. That has to sting.\n\nThis isn't about NVDA. The Fed said 1 cut this year, 7 members think zero. The entire growth stock complex is under pressure. NVDA just happened to host its best GTC ever during the worst possible macro week.\n\n58 of 61 analysts say Buy. Rosenblatt raised to $325 (+81%). Forward P/E 29x, PEG 0.56. The fundamentals are screaming \"buy\" while the macro is whispering \"wait.\"\n\nRSI 34, below the 200-day. It's uncomfortable. But these setups have historically been NVDA's best entry points. Dollar-cost average and be patient. Target $274 (+53%). Buy."
+          "hook": "NVDA holders: GTC ended and it dropped more. Frustrating.",
+          "text": "$NVDA $178.56\n\nHistoric GTC ended and the stock fell for a third straight day. The Fed cutting rate cuts to one crushed the whole market. After all that anticipation, the disappointment is real.\n\nBut this isn't NVDA's fault. Vera Rubin, China H200 approval, Musk order confirmation, the fundamentals are spotless. Net income $120.1B, margin 55.6%. 58 of 61 analysts say Buy, Rosenblatt sees $325 (+82%).\n\nRSI 37, below the 200-day. The chart looks scary. But PEG 0.40 at forward P/E 25.9x means this rebounds first when macro pressure eases.\n\nNo need to rush. Dollar-cost average in. When the rate environment shifts, the opportunity will be obvious. Target $274 (+54%). Buy."
         }
       }
     }

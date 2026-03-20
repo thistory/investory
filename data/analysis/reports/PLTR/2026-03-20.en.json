@@ -5,59 +5,65 @@
   "currentPrice": 155.68,
   "marketCap": "$372B",
   "businessSummary": {
-    "oneLiner": "Government and enterprise AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI Platform)",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue hit $4.48B (+56%), with US commercial revenue surpassing $500M. The recent Keel integration into the Navy ShipOS project expanded defense AI into submarine production. The stock has risen 1,860% over 3 years while experiencing 10+ drops of 20% or more.",
-    "howTheyMakeMoney": ["Government contracts (Gotham)", "Enterprise AI platform (Foundry)", "AIP (AI Platform)", "AIP Bootcamps"],
-    "keyProducts": ["Gotham", "Foundry", "AIP", "ShipOS", "Sovereign AI Data Center OS", "Ontology"]
+    "oneLiner": "Government and commercial AI data analytics leader built on three pillars: Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI-powered data analytics platforms for governments and enterprises. FY2025 revenue hit $4.48B (+56%), with U.S. commercial revenue crossing $500M as the company proves it can scale beyond defense. The company recently expanded its defense AI reach with the Keel partnership on the Navy's ShipOS submarine production initiative. The stock is up 1,860% over three years but has experienced 10+ drawdowns of 20% or more during that period.",
+    "howTheyMakeMoney": [
+      "Government contracts (Gotham)",
+      "Enterprise AI platform (Foundry)",
+      "AIP (AI Platform)",
+      "AIP Boot Camps"
+    ],
+    "keyProducts": ["Gotham", "Foundry", "AIP", "ShipOS", "Sovereign AI Datacenter OS", "Ontology"]
   },
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "226x", "interpretation": "10x+ the S&P 500 avg (22x). Extreme even for software avg (35x)"},
-    {"name": "Forward P/E", "value": "116x", "interpretation": "Based on FY2026 EPS $1.34. Heavy growth premium but still demanding"},
-    {"name": "Revenue Growth", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026E $7.41B (+65.5%). Growth is actually accelerating"},
-    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS companies. High profitability alongside high growth"},
-    {"name": "FCF Margin", "value": "46.94%", "interpretation": "FCF $2.1B. Best-in-class cash generation in software"},
-    {"name": "Revenue Backlog", "value": "$11.2B", "interpretation": "Multi-year revenue visibility secured"}
+    {"name": "P/E (TTM)", "value": "228.8x", "interpretation": "More than 10x the S&P 500 average of 22x. Motley Fool calls it a 2,500% premium to the index. Extreme even by software standards (sector avg ~35x)"},
+    {"name": "Forward P/E", "value": "116x", "interpretation": "Based on FY2026 EPS estimate of $1.34. Growth premium is steep but reflects accelerating revenue trajectory"},
+    {"name": "Price-to-Sales", "value": "79.8x", "interpretation": "Investors pay ~$80 for every $1 of Palantir revenue. Typical SaaS companies trade at 10-15x sales"},
+    {"name": "Revenue Growth (YoY)", "value": "56.18%", "interpretation": "FY2025 $4.48B. FY2026 guidance $7.18-7.20B (+60%). U.S. commercial revenue projected +115%"},
+    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS companies. Achieving high profitability alongside rapid growth"},
+    {"name": "FCF Margin", "value": "46.94%", "interpretation": "FCF of $2.1B. Best-in-class cash generation for software. However, FCF yield is under 1% at current valuation"}
   ],
   "growthDrivers": [
-    {"title": "PLTR Rises While Market Crashes: Defense AI Independent Momentum", "description": "S&P dropped 1.4% on Fed hawkishness while PLTR rose 1.9%. Defense AI has its own momentum that overcomes macro headwinds."},
-    {"title": "UBS $200 Upgrade + Wedbush $230 Maintained", "description": "UBS Karl Keirstead raised from $180 to $200 (+29%). Wedbush maintained $230 Buy. Wall Street bull case accelerating."},
-    {"title": "NYT: 'Silicon Valley Bet on War. It's Paying Off'", "description": "NYT spotlighted Palantir as the poster child of defense AI investment success. Defense tech going mainstream."},
-    {"title": "Navy ShipOS $448M: AI Applied to Submarine Production", "description": "Keel joined Palantir's Navy ShipOS project, applying AI to submarine production lines. Defense AI scope expanding."},
-    {"title": "$11.2B Revenue Backlog + $10B Army Contract", "description": "$10B Army contract reshaping defense software market. $11.2B backlog provides multi-year visibility."},
-    {"title": "FY2026 Revenue Outlook $7.41B (+65.5%), Growth Accelerating", "description": "Growth rate accelerating from 56% to 65.5%. AI platform demand explosion."}
+    {"title": "PLTR rose while market dropped on Fed hawkishness", "description": "While the S&P 500 fell 1.4% after the Fed cut rate projections, PLTR climbed 1.9%. Defense AI demonstrated independent momentum against macro headwinds."},
+    {"title": "UBS raises target to $200, Wedbush holds $230", "description": "UBS analyst Karl Keirstead raised his price target from $180 to $200 (+29%). Wedbush maintained its $230 Buy target. Wall Street bullishness is accelerating."},
+    {"title": "NYT: 'Silicon Valley bet on war. It's being rewarded.'", "description": "The New York Times spotlighted Palantir as a key success story in defense AI investing. Defense tech is going mainstream."},
+    {"title": "Navy ShipOS $448M: AI applied to submarine production", "description": "Keel joined Palantir on the Navy's ShipOS initiative, extending AI applications to submarine production lines and expanding defense AI scope."},
+    {"title": "$11.2B revenue backlog + $10B Army contract", "description": "The $10B Army contract is reshaping defense software. $11.2B backlog provides multi-year revenue visibility."},
+    {"title": "FY2026 revenue guidance $7.18-7.20B (+60%), growth accelerating", "description": "From FY2025 $4.48B to FY2026 guidance of $7.18-7.20B. Growth rate is accelerating, not decelerating. U.S. commercial revenue projected to jump 115%."}
   ],
   "competitiveAdvantage": {
-    "summary": "20+ year track record in government/defense AI. Security clearance creates insurmountable entry barriers. ShipOS expands AI from battlefield to military production.",
+    "summary": "20+ years of government and defense AI track record. Security clearances create near-impenetrable barriers to entry. ShipOS extends AI from the battlefield to military production.",
     "moats": [
-      {"type": "Security Clearance Moat", "description": "Top-level clearance with DoD and intelligence agencies. Competitors cannot enter."},
-      {"type": "ShipOS + Military Production AI", "description": "AI deployed in submarine production, naval shipyards. Expanding beyond battlefield to entire military supply chain."},
-      {"type": "NVIDIA Sovereign AI Partnership", "description": "Sovereign AI OS + NVIDIA hardware ecosystem. Positioning for government AI infrastructure standard globally."}
+      {"type": "Security clearance moat", "description": "Holds highest-level security clearances with the DoD and intelligence agencies. Competitors cannot easily replicate this."},
+      {"type": "ShipOS + military production AI", "description": "AI deployed in submarine production and naval shipyards. Expanding beyond the battlefield into military manufacturing."},
+      {"type": "NVIDIA sovereign AI partnership", "description": "Sovereign AI OS combined with NVIDIA hardware ecosystem. Positioning to become the standard for government AI infrastructure globally."}
     ],
     "competitors": [
-      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General-purpose vs Palantir's specialized analytics"},
-      {"name": "Snowflake", "detail": "Data lakehouse. Expanding into analytics platform territory"},
-      {"name": "C3.ai", "detail": "Enterprise AI. Trailing Palantir in scale and execution"}
+      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform taking a generalist approach vs Palantir's specialized analytics"},
+      {"name": "Snowflake", "detail": "Data lakehouse expanding into analytics platforms"},
+      {"name": "C3.ai", "detail": "Enterprise AI competitor trailing Palantir in scale and execution"}
     ]
   },
   "recentNews": [
-    {"date": "2026-03-19", "headline": "PLTR Rises 1.9% Against Market as Fed Cuts Rate Outlook", "significance": "S&P -1.4%, Nasdaq -1.4% while PLTR bucked the trend. Defense AI independent momentum confirmed.", "url": "https://stockinvest.us/stock/PLTR"},
-    {"date": "2026-03-19", "headline": "UBS Raises Target from $180 to $200, Maintains Buy", "significance": "Karl Keirstead sees +29% upside. Combined with Wedbush $230 (+48%), Wall Street bull case strengthens.", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news"},
-    {"date": "2026-03-19", "headline": "NYT: Silicon Valley Bet on War, It's Paying Off", "significance": "Palantir spotlighted as defense AI success story. Mainstream media validates defense tech thesis.", "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html"},
-    {"date": "2026-03-19", "headline": "UK Privacy Backlash Risks NHS Contract", "significance": "Privacy concerns in UK threaten NHS contract. Government revenue concentration creates political vulnerability.", "url": "https://meyka.com/blog/pltr-stock-today-march-19-uk-privacy-backlash-risks-nhs-deal-1903/"},
-    {"date": "2026-03-17", "headline": "Keel Joins Palantir Navy ShipOS Project ($448M)", "significance": "AI applied to submarine production. Defense AI scope maximized.", "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production"}
+    {"date": "2026-03-19", "headline": "Palantir partners with Moder on AI mortgage platform", "significance": "Freedom Mortgage is the first pilot customer for AI-powered mortgage operations. Proves commercial expansion beyond defense into financial services.", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry"},
+    {"date": "2026-03-20", "headline": "Mizuho reiterates Outperform after exec meeting", "significance": "Mizuho reaffirmed Outperform rating with $195 target after management access. Analyst consensus rises to $196.32.", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting"},
+    {"date": "2026-03-19", "headline": "Pentagon pushes 6-month wind-down of Anthropic Claude from Maven", "significance": "DoD wants to remove Anthropic's Claude from Maven within 6 months, but military users say it's not that simple. Palantir Maven contracts exceed $1B.", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/"},
+    {"date": "2026-03-19", "headline": "UBS raises price target to $200 from $180, maintains Buy", "significance": "Karl Keirstead sees 29% upside from current levels. Combined with Wedbush at $230 (+48%), Wall Street's bull case strengthens.", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news"},
+    {"date": "2026-03-17", "headline": "Keel joins Palantir on Navy ShipOS initiative ($448M)", "significance": "AI now extends to submarine production. Maximizing defense AI application scope.", "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production"}
   ],
   "risks": [
-    {"severity": "critical", "title": "Extreme Valuation at 226x P/E", "description": "10x the S&P 500 average. Fed rate cut reduction increases multiple compression risk. Though PLTR bucked the market today, maintaining defense AI premium."},
-    {"severity": "high", "title": "Continued Insider Selling", "description": "CEO Alex Karp selling ~$6M daily. Management actively taking profits at current levels."},
-    {"severity": "high", "title": "Government Revenue Concentration + UK NHS Privacy", "description": "UK privacy backlash threatens NHS contract. High government revenue dependence creates political vulnerability."},
-    {"severity": "medium", "title": "Share Dilution", "description": "~5% annual dilution from stock-based compensation. Erodes per-share value over time."},
-    {"severity": "medium", "title": "AI Market Competition", "description": "Microsoft, AWS, Google investing heavily in AI platforms. Enterprise AI competition intensifying."}
+    {"severity": "critical", "title": "Extreme valuation: P/E 228x, P/S 80x", "description": "Trading at 10x the S&P 500 average P/E. Motley Fool describes it as a 2,500% premium to the index. FCF yield under 1%, meaning it would take over 100 years to recoup an investment at current cash generation."},
+    {"severity": "high", "title": "Persistent insider selling", "description": "CEO Alex Karp sold 493K shares ($66M) on 2/20. Director Stephen Cohen sold 327K shares ($43.7M), disposing of 99.8% of his holdings. Management is actively taking profits at current levels."},
+    {"severity": "high", "title": "Pentagon Anthropic Claude removal risk", "description": "The DoD is pushing to remove Anthropic's Claude from Maven within 6 months. Palantir's Maven contracts exceed $1B. Switching AI engines could be costly and time-consuming."},
+    {"severity": "high", "title": "Government revenue concentration + UK NHS privacy backlash", "description": "Privacy pushback in the UK threatens NHS contract. High government revenue dependency makes the company vulnerable to political risk."},
+    {"severity": "medium", "title": "Stock dilution", "description": "Stock-based compensation dilutes shares by roughly 5% annually. Per-share value erosion eats into long-term returns."},
+    {"severity": "medium", "title": "Intensifying AI competition", "description": "OpenAI announced plans to sell AI to U.S. defense agencies via AWS. Microsoft, AWS, and Google are all investing heavily in AI platforms."}
   ],
   "buyReasons": [
-    {"title": "Only Stock Rising in Fed Crash: Defense AI Momentum", "rationale": "S&P -1.4% while PLTR +1.9%. Market-immune defense AI premium confirmed."},
-    {"title": "UBS $200 + Wedbush $230: Wall Street Target Rush", "rationale": "UBS upgraded to $200, Wedbush maintained $230. 16 of 28 analysts Buy."},
-    {"title": "$11.2B Backlog + 65.5% Growth Acceleration", "rationale": "Top-tier revenue visibility. Growth accelerating, not decelerating."},
-    {"title": "NYT Defense AI Spotlight: Mainstream Validation", "rationale": "Major media validates defense AI success thesis. Long-term positive for investor sentiment."}
+    {"title": "Moder mortgage partnership: AI expansion from defense to finance", "rationale": "Freedom Mortgage pilot proves Palantir's commercial reach beyond defense. U.S. commercial revenue projected to grow 115%."},
+    {"title": "Bucked the market sell-off: defense AI shows independent momentum", "rationale": "Rose 1.9% while S&P 500 dropped 1.4%. Defense AI premium is insulated from macro headwinds."},
+    {"title": "Three firms simultaneously bullish: UBS $200, Wedbush $230, Mizuho $195", "rationale": "Consensus target $196.32 (+26.1%). 16 Buy and 2 Strong Buy ratings out of 28 analysts."},
+    {"title": "$11.2B backlog + 60% growth acceleration", "rationale": "Best-in-class revenue visibility. FY2026 guidance of $7.18-7.20B shows growth is accelerating."}
   ],
   "technicalPosition": {
     "week52High": 207.52,
@@ -71,92 +77,97 @@
     "rsiSignal": "neutral"
   },
   "analystOpinions": {
-    "consensusTarget": 194.05,
+    "consensusTarget": 196.32,
     "highTarget": 260.0,
     "lowTarget": 50.0,
-    "upsidePercent": 24.6,
+    "upsidePercent": 26.1,
     "buyCount": 16,
     "holdCount": 10,
     "sellCount": 2,
-    "notableComment": "UBS $200 (+29%) upgrade, Wedbush $230 (+48%) maintained. 16 of 28 Buy. Defense AI premium confirmed as PLTR bucked the market selloff."
+    "notableComment": "UBS raised to $200 (+29%), Wedbush holds $230 (+48%), Mizuho reiterates Outperform at $195. 16 Buy + 2 Strong Buy out of 28 analysts. Moder mortgage partnership accelerates commercial momentum."
   },
   "overallOpinion": [
-    "While the Fed cut its rate outlook to 1 and the S&P dropped 1.4%, PLTR rose 1.9%. Defense AI has demonstrated independent momentum that overcomes macro headwinds.",
-    "UBS raised its target to $200 and NYT spotlighted Palantir as the defense AI success story. The $11.2B backlog and 65.5% growth acceleration provide the strongest fundamental backdrop in the company's history.",
-    "P/E 226x remains extreme and CEO Karp's daily $6M selling is a concern. Below the 50-day SMA ($158) but above the 200-day ($127), the long-term uptrend is intact. Buy on dips with dollar-cost averaging."
+    "Palantir partnered with Moder to build an AI mortgage platform, with Freedom Mortgage as its first client. The company is proving it can expand beyond defense, and U.S. commercial revenue is projected to grow 115% this year.",
+    "The Pentagon is trying to remove Anthropic's Claude from Maven, but military users are pushing back. With Palantir's Maven contracts exceeding $1B, the AI engine transition adds near-term uncertainty.",
+    "UBS ($200), Wedbush ($230), and Mizuho ($195) are all bullish simultaneously. At 228x P/E, it trades at a 2,500% premium to the S&P 500, but 60%+ growth acceleration justifies a Buy on pullbacks. Currently just below the 50-day SMA at $158."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "PLTR proved its defense AI independent momentum by rising against a 1.4% market crash. UBS $200 upgrade, NYT spotlight, $11.2B backlog, and 65.5% growth acceleration make the fundamental case the strongest ever. P/E 226x is demanding but the stock has recovered from every 20%+ drawdown in 3 years. Buy on pullbacks with dollar-cost averaging.",
-    "horizon": "6 months - 1 year"
+    "summary": "The Moder mortgage partnership proves Palantir can extend its AI platform beyond defense into financial services. Three major firms are simultaneously bullish with a consensus target of $196 (+26%). While the 228x P/E is extreme, FY2026 guidance of $7.18-7.20B (+60%) and U.S. commercial revenue growth of 115% support the premium. Monitor the Pentagon's Anthropic wind-down for near-term risk, but the overall case favors buying on dips.",
+    "horizon": "6-12 months"
   },
   "sources": [
-    {"name": "StockInvest.us", "url": "https://stockinvest.us/stock/PLTR", "description": "PLTR March 19 close $155.68 confirmed"},
-    {"name": "GuruFocus", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news", "description": "UBS $200 target upgrade, Karl Keirstead Buy maintained"},
-    {"name": "New York Times", "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html", "description": "Defense AI success story analysis, Palantir spotlighted"},
-    {"name": "Meyka", "url": "https://meyka.com/blog/pltr-stock-today-march-19-uk-privacy-backlash-risks-nhs-deal-1903/", "description": "UK privacy backlash and NHS contract risk"},
-    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-investors-just-got-071500160.html", "description": "3-year 1,860% rise and volatility analysis"},
-    {"name": "BusinessWire", "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production", "description": "ShipOS $448M project announcement"},
-    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/18/palantir-stock-backlog/", "description": "$11.2B revenue backlog analysis"},
-    {"name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/ubs-group-issues-positive-forecast-for-palantir-technologies-nasdaqpltr-stock-price-2026-03-18/", "description": "UBS, Wedbush target details"},
-    {"name": "Yahoo Finance - Fed", "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html", "description": "Fed rate hold and S&P crash coverage"}
+    {"name": "BusinessWire (Moder)", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry", "description": "Palantir-Moder AI mortgage platform partnership announcement"},
+    {"name": "Seeking Alpha (Mizuho)", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting", "description": "Mizuho reiterates Outperform with $195 target"},
+    {"name": "Reuters (Anthropic)", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/", "description": "Pentagon pushes 6-month Anthropic Claude wind-down from Maven"},
+    {"name": "ts2.tech", "url": "https://ts2.tech/en/palantir-stock-climbs-as-new-ai-mortgage-deal-ubs-target-hike-help-pltr-buck-weak-market/", "description": "PLTR comprehensive news for 3/19, $155.68 close, UBS upgrade, Moder partnership"},
+    {"name": "GuruFocus", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news", "description": "UBS raises price target to $200, Karl Keirstead maintains Buy"},
+    {"name": "MarketBeat / Markets Daily", "url": "https://www.themarketsdaily.com/2026/03/19/palantir-technologies-nasdaqpltr-trading-1-9-higher-following-analyst-upgrade.html", "description": "Consensus target $196.32, analyst rating distribution (28 analysts)"},
+    {"name": "BusinessWire (ShipOS)", "url": "https://www.businesswire.com/news/home/20260317125637/en/Keel-Joins-Palantir-and-U.S.-Navy-in-ShipOS-Initiative-to-Accelerate-Submarine-and-Broader-Naval-Production", "description": "ShipOS $448M partnership announcement"},
+    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/19/palantir-stock-investors-great-news-wall-street/", "description": "Analysis of 2,500% premium valuation vs S&P 500"},
+    {"name": "Reuters (OpenAI)", "url": "https://www.reuters.com/business/retail-consumer/openai-sell-ai-us-agencies-through-amazon-cloud-unit-information-reports-2026-03-17/", "description": "OpenAI to sell AI to U.S. defense and government via AWS"},
+    {"name": "Meyka", "url": "https://meyka.com/blog/pltr-stock-today-march-20-mizuho-reiterates-bullish-view-on-palantir-2003/", "description": "P/E 228.8, P/S 79.8, P/B 50.3 valuation data"}
   ],
   "snsContent": {
     "x": {
-      "hook": "S&P crashes -1.4%, PLTR rises +1.9%",
-      "text": "$PLTR $155.68 (+1.9%)\n\nFed cut rate outlook to 1 cut. S&P -1.4%. But PLTR rose. Defense AI doesn't care about the Fed.\n\nUBS $200 (+29%) upgrade. Consensus $194 (+24.6%)\n\n1/3",
+      "hook": "Palantir goes from submarines to mortgages",
+      "text": "$PLTR $155.68 (+1.9%)\n\nPalantir partnered with Moder to build an AI mortgage platform. Freedom Mortgage is the first client. U.S. commercial revenue set to jump 115% as defense AI goes mainstream.\n\n1/4",
       "thread": [
-        "NYT spotlights defense AI success. UBS $200, Wedbush $230.\n\n$11.2B backlog, FY2026 +65.5% growth acceleration. P/E 226x is expensive but the reasons are real.\n\n2/3",
-        "Risk: CEO Karp sells $6M daily. NHS privacy concerns.\n\nBut 10 drops of 20%+, all recovered.\n\n$155.68, target $194 (+24.6%)\nBuy. DCA on dips.\n\n3/3"
+        "Pentagon wants Anthropic's Claude out of Maven in 6 months. Military users say no. Palantir Maven contracts top $1B. Transition risk is real.\n\n2/4",
+        "UBS $200, Wedbush $230, Mizuho $195. Three firms bullish at once. P/E 228x is extreme but 60%+ revenue growth is accelerating.\n\n3/4",
+        "Just below the 50-day SMA ($158), well above the 200-day ($127). Consensus $196 (+26%).\nBuy on dips.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR rises while the market crashes on Fed",
-      "text": "$PLTR $155.68 (+1.9%)\n\nThe Fed cut its 2026 rate outlook to just 1 cut and the S&P dropped 1.4%. PLTR was the rare stock that rose. Defense AI has its own momentum.\n\nUBS raised to $200 (+29%), NYT spotlighted defense AI success, and the $11.2B backlog paired with 65.5% growth acceleration make the fundamental case the strongest ever.\n\nP/E 226x is extreme and CEO Karp sells $6M daily. But this stock has recovered from every 20%+ drawdown in 3 years.\n\nBelow the 50-day but above the 200-day. Consensus $194 (+24.6%). Buy on pullbacks."
+      "hook": "Palantir proves it can go beyond defense",
+      "text": "$PLTR $155.68 (+1.9%)\n\nPalantir partnered with Moder to build an AI mortgage platform, with Freedom Mortgage as its first client. The company is proving it can expand beyond defense, and U.S. commercial revenue is projected to grow 115% this year.\n\nThe Pentagon wants Anthropic's Claude removed from Maven within 6 months, but military users are pushing back hard. With Palantir's Maven contracts exceeding $1B, the transition adds real near-term uncertainty.\n\nUBS ($200), Wedbush ($230), and Mizuho ($195) are all bullish. At 228x P/E it trades at a 2,500% premium to the S&P 500, but 60%+ growth acceleration makes this a buy on pullbacks. Currently just below the 50-day SMA at $158. Consensus target $196 (+26%)."
     },
     "telegram": {
-      "hook": "PLTR rises solo as Fed crashes market",
-      "text": "PLTR $155.68 (+1.9%)\n\nKey Events\n- S&P -1.4% on Fed, PLTR rises alone\n- UBS $200 upgrade, Wedbush $230 maintained\n- NYT defense AI success spotlight\n- NHS privacy risk (UK)\n\nTechnicals: Below 50-day, above 200-day, RSI 48\nTarget: $194.05 (+24.6%)\n\nVerdict: Buy. Defense AI momentum overcomes macro. DCA on dips."
+      "hook": "PLTR expands AI from defense to mortgages",
+      "text": "PLTR $155.68 (+1.9%)\n\nKey Developments\n- Partnered with Moder on AI mortgage platform (Freedom Mortgage pilot)\n- U.S. commercial revenue projected +115%\n- Pentagon pushing Anthropic Claude removal from Maven ($1B+ contracts at risk)\n- Mizuho reiterates Outperform, $195 target\n\nAnalyst Targets\n- UBS $200, Wedbush $230, Mizuho $195\n- Consensus $196.32 (+26.1%)\n- 16 Buy, 2 Strong Buy, 10 Hold, 2 Sell\n\nTechnical: Below 50-day SMA ($158), above 200-day ($127), RSI 48\n\nVerdict: Buy. Commercial expansion proven + growth accelerating. Buy on dips."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR +1.9% vs S&P -1.4%",
-          "text": "$PLTR $155.68 (+1.9%)\n\nFed cut rate outlook to 1 cut. S&P -1.4%. But PLTR rose. Defense AI doesn't care about the Fed.\n\nUBS $200 (+29%) upgrade. Consensus $194 (+24.6%)\n\n1/3",
+          "hook": "Palantir goes from submarines to mortgages",
+          "text": "$PLTR $155.68 (+1.9%)\n\nPalantir partnered with Moder to build an AI mortgage platform. Freedom Mortgage is the first client. U.S. commercial revenue set to jump 115% as defense AI goes mainstream.\n\n1/4",
           "thread": [
-            "NYT spotlights defense AI success. UBS $200, Wedbush $230.\n\n$11.2B backlog, FY2026 +65.5% growth acceleration. P/E 226x is expensive but the reasons are real.\n\n2/3",
-            "Risk: CEO Karp sells $6M daily. NHS privacy concerns.\n\nBut 10 drops of 20%+, all recovered.\n\n$155.68, target $194 (+24.6%)\nBuy. DCA on dips.\n\n3/3"
+            "Pentagon wants Anthropic's Claude out of Maven in 6 months. Military users say no. Palantir Maven contracts top $1B. Transition risk is real.\n\n2/4",
+            "UBS $200, Wedbush $230, Mizuho $195. Three firms bullish at once. P/E 228x is extreme but 60%+ revenue growth is accelerating.\n\n3/4",
+            "Just below the 50-day SMA ($158), well above the 200-day ($127). Consensus $196 (+26%).\nBuy on dips.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Fed crashes the party, PLTR doesn't notice",
-          "text": "$PLTR $155.68 (+1.9%)\n\nEveryone panicking about Fed rate cuts. PLTR out here putting AI in submarines and ignoring the macro entirely.\n\nS&P -1.4%. PLTR: \"Anyway, here's a $448M Navy contract.\"\n\n1/3",
+          "hook": "From submarines to home loans, Palantir does it all",
+          "text": "$PLTR $155.68 (+1.9%)\n\nPalantir put AI in submarines. Now it's doing mortgages. Freedom Mortgage is the guinea pig. At this rate they'll have an AI dog walker by Q3.\n\n1/4",
           "thread": [
-            "NYT: War pays. UBS: $200. Wedbush: $230. Karp: *sells $6M daily*\n\nThe CEO is selling and analysts are upgrading. Peak Palantir energy.\n\nP/E 226x. 1,860% in 3 years. The expensive stock that keeps getting more expensive.\n\n2/3",
-            "20%+ drops: 10 times. Recoveries: 10 times.\n\nStatistically, betting against PLTR recoveries has been a losing trade.\n\n$155.68, target $194 (+24.6%). Buy.\n\n3/3"
+            "Pentagon: Remove Anthropic from Maven\nMilitary: No thanks\n\nPalantir Maven deals top $1B. Turns out ripping out AI from warfighters is harder than installing it.\n\n2/4",
+            "228x P/E. 2,500% pricier than the S&P. And yet revenue is growing 60%. The stock that's always too expensive and keeps getting more expensive.\n\nUBS $200, Wedbush $230, Mizuho $195.\n\n3/4",
+            "CEO Karp sells daily. Analysts raise targets daily. Someone's right, someone's early.\n\n$155.68, target $196 (+26%).\nBuy. Scary but worth it.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR holders, today you earned it",
-          "text": "$PLTR $155.68 (+1.9%)\n\nTough week for growth stocks. Fed hawkish, market crashing. But PLTR rose today. Defense AI holders, this is your moment.\n\nUBS $200 upgrade validates the thesis.\n\n1/3",
+          "hook": "Good day to be a PLTR shareholder",
+          "text": "$PLTR $155.68 (+1.9%)\n\nMarket sold off and PLTR climbed. New mortgage AI deal too. If you've held through the volatility, today feels like a reward.\n\n1/4",
           "thread": [
-            "P/E 226x is scary. Karp selling daily is unnerving. But $11.2B backlog and 65.5% growth are real.\n\n10 drops of 20%+, all recovered. The pattern is clear.\n\n2/3",
-            "Defense AI goes where the market can't follow. Stay patient, DCA on dips.\n\n$155.68, target $194 (+24.6%). Buy.\n\n3/3"
+            "There are real concerns. Pentagon wants Anthropic out of Maven and that's a $1B+ contract. The transition won't be smooth.\n\nBut the military pushing back shows how deeply embedded Palantir is.\n\n2/4",
+            "228x P/E is scary. CEO selling is unsettling. But commercial revenue is up 115% and three major firms just raised targets.\n\nThis stock has dropped 20%+ ten times in 3 years. It recovered every time.\n\n3/4",
+            "$155.68, target $196 (+26%).\nBuy. The ones who held through the shakes came out ahead.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR +1.9% defies Fed-driven selloff",
-          "text": "$PLTR $155.68 (+1.9%)\n\nFed held rates, signaled 1 cut. S&P -1.4%. PLTR rose against the market. UBS $200 (+29%) upgrade, Wedbush $230 (+48%) maintained. NYT defense AI spotlight.\n\n$11.2B backlog, +65.5% growth. P/E 226x. Below 50-day, above 200-day, RSI 48.\n\n16 of 28 Buy. Consensus $194 (+24.6%). Buy on pullbacks."
+          "hook": "Palantir expands AI from defense to financial services",
+          "text": "$PLTR $155.68 (+1.9%)\n\nPalantir partnered with Moder to build an AI mortgage platform, with Freedom Mortgage as its first client. U.S. commercial revenue is projected to grow 115% as the company proves it can scale beyond defense.\n\nThe Pentagon wants Anthropic's Claude removed from Maven within 6 months, but military users are pushing back. Palantir Maven contracts exceed $1B, adding near-term transition uncertainty.\n\nUBS ($200), Wedbush ($230), and Mizuho ($195) are all bullish. At 228x P/E it trades at a 2,500% premium to the S&P, but 60%+ growth acceleration supports the premium. Consensus $196 (+26%). Buy on pullbacks."
         },
         "witty": {
-          "hook": "The market cried, PLTR went to war",
-          "text": "$PLTR $155.68 (+1.9%)\n\nFed: \"1 cut this year.\" Market: *crashes 1.4%* Palantir: *puts AI in submarines, goes up*\n\nNYT wrote that Silicon Valley bet on war and it paid off. 1,860% in 3 years is indeed paying off. CEO Karp agrees, which is why he sells $6M worth every single day.\n\nUBS raised to $200. Wedbush says $230. The $11.2B backlog and 65.5% growth acceleration make this the rare company where the bull case keeps getting stronger.\n\nP/E 226x. Expensive? Obviously. Going higher? Historically, yes. $155.68, target $194 (+24.6%). Buy."
+          "hook": "Submarines, then mortgages. Palantir's AI empire expands",
+          "text": "$PLTR $155.68 (+1.9%)\n\nPalantir went from putting AI in submarines to putting AI in mortgage applications. Freedom Mortgage signed up as the first guinea pig. The expansion speed rivals the stock price trajectory.\n\nMeanwhile, the Pentagon wants Anthropic out of Maven but military users won't let go. $1B+ in contracts makes switching AI engines about as easy as switching submarine propulsion systems.\n\n228x P/E. 2,500% pricier than the S&P average. But revenue is growing 60%+ and analysts keep raising targets. UBS $200, Wedbush $230, Mizuho $195. CEO Karp sells shares daily while analysts raise targets daily. Classic Palantir.\n\n$155.68, target $196 (+26%). Buy. The stock that's always too expensive and never stops climbing."
         },
         "empathy": {
-          "hook": "For PLTR holders, today was a good day",
-          "text": "$PLTR $155.68 (+1.9%)\n\nAfter a week of Fed anxiety, market crashes, and growth stock pain, today felt different. PLTR rose while everything else fell. Defense AI holders, you earned this.\n\nUBS upgraded to $200. NYT validated the defense tech thesis. $11.2B backlog and 65.5% growth mean the fundamentals are the strongest they've ever been.\n\nYes, P/E 226x is extreme. Yes, Karp sells daily. But this stock has recovered from every 20%+ drop in 3 years. The pattern is your friend.\n\n$155.68, target $194 (+24.6%). Buy on dips. The defense AI story isn't ending anytime soon."
+          "hook": "PLTR holders, today brings good news",
+          "text": "$PLTR $155.68 (+1.9%)\n\nThe market dropped and PLTR rose. On top of that, the Moder mortgage AI partnership was announced. For those worried about over-reliance on defense, this is welcome news. U.S. commercial revenue is on track to grow 115%.\n\nThere are legitimate concerns. The Pentagon wants Anthropic removed from Maven, and with $1B+ in contracts, that transition won't be seamless. But the fact that military users are refusing to let go shows just how deeply embedded Palantir has become.\n\n228x P/E is a scary number. CEO selling is unsettling. But this stock has dropped 20%+ ten times in three years and recovered every single time. UBS $200, Wedbush $230, Mizuho $195.\n\n$155.68, target $196 (+26%). Buy. Those who held through the turbulence came out ahead."
         }
       }
     }
