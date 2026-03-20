@@ -1,0 +1,174 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-21",
+  "currentPrice": 150.68,
+  "marketCap": "$360B",
+  "businessSummary": {
+    "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+56%)를 기록했고, 특히 미국 상업 매출이 $500M을 돌파하며 민간 시장 확장에 성공하고 있다. 최근 미 해군 ShipOS 프로젝트에 Keel이 합류하면서 국방 AI 적용 범위가 잠수함 생산까지 확대됐다. 3년간 주가 1,860% 상승했지만, 그 기간 20% 이상 하락도 10회 이상 경험한 고변동성 종목이다.",
+    "howTheyMakeMoney": [
+      "정부 계약 (Gotham)",
+      "기업 AI 플랫폼 (Foundry)",
+      "AIP (AI Platform)",
+      "AIP 부트캠프"
+    ],
+    "keyProducts": ["Gotham", "Foundry", "AIP", "ShipOS", "소버린 AI 데이터센터 OS", "Ontology"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "221x", "interpretation": "S&P 500 평균 22x 대비 10배. 하락에도 여전히 극단적 프리미엄. 다만 전쟁이 방산 AI 지출을 늘릴 수 있다"},
+    {"name": "Forward P/E", "value": "112x", "interpretation": "FY2026 EPS $1.34 기준. 전쟁 수혜 기대감이 프리미엄을 지탱"},
+    {"name": "P/S (매출 대비 주가)", "value": "77x", "interpretation": "SaaS 평균 10-15x 대비 극단적이지만 성장률 60%+로 정당화 시도"},
+    {"name": "매출 성장률", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026 가이던스 $7.18-7.20B(+60%). 미국 상업 매출 +115% 전망"},
+    {"name": "영업이익률", "value": "31.59%", "interpretation": "SaaS 기업 중 상위권. 높은 수익성과 성장 동시 달성"},
+    {"name": "FCF 마진", "value": "46.94%", "interpretation": "FCF $2.1B. 소프트웨어 업계 최고 수준의 현금 창출력"}
+  ],
+  "growthDrivers": [
+    {"title": "이란전 $200B 전쟁 예산: 방산 AI 수요 폭증 기대", "description": "Pentagon이 이란전에 $200B 예산을 요청했다. 전쟁 확대는 군사 AI, 정보 분석, 물류 자동화 수요를 급증시킨다. Palantir의 Gotham, Maven, ShipOS 모두 직접 수혜."},
+    {"title": "Moder AI 모기지 파트너십: 금융 서비스 진출", "description": "Freedom Mortgage를 첫 파일럿으로 AI 모기지 운영 플랫폼 공동 개발. 국방 넘어 금융까지 상업 확장 입증."},
+    {"title": "Mizuho '소프트웨어에 비교 대상 없다' Outperform $195 재확인", "description": "Mizuho가 경영진 미팅 후 Outperform 재확인. '소프트웨어 업계에서 비교 대상이 없는 기업'이라고 평가."},
+    {"title": "UBS $200 상향 + Wedbush $230 유지", "description": "UBS Karl Keirstead가 $180에서 $200으로 목표가 상향(+33%). Wedbush $230 Buy 유지."},
+    {"title": "미 해군 ShipOS $448M: 잠수함 생산 AI 적용", "description": "Keel이 Palantir과 함께 미 해군 ShipOS 프로젝트에 합류. 잠수함 생산 라인에 AI를 적용."},
+    {"title": "$11.2B 매출 백로그 + $10B 육군 계약", "description": "$10B 규모 육군 계약이 방산 소프트웨어 시장을 재편. 향후 수년간 매출 가시성 확보."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "정부, 국방 AI 분야 20년+ 실적. 보안 등급 클리어런스가 진입 장벽. ShipOS로 군수 생산까지 AI 적용 범위 확대.",
+    "moats": [
+      {"type": "보안 등급 해자", "description": "미 국방부, 정보기관 최고 보안 등급 클리어런스. 경쟁사 진입 불가."},
+      {"type": "ShipOS + 군수 AI", "description": "잠수함 생산, 해군 조선소에 AI 배치. 전장 넘어 군수 생산 전반으로 확장."},
+      {"type": "NVIDIA 소버린 AI 파트너십", "description": "소버린 AI OS + NVIDIA 하드웨어 생태계. 각국 정부 AI 인프라 표준 선점."}
+    ],
+    "competitors": [
+      {"name": "Microsoft (Azure AI)", "detail": "클라우드 AI 플랫폼. 범용 접근 vs Palantir 전문 분석"},
+      {"name": "Snowflake", "detail": "데이터 레이크하우스. 분석 플랫폼으로 영역 확장"},
+      {"name": "C3.ai", "detail": "엔터프라이즈 AI. 규모와 실적에서 Palantir에 열세"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-20", "headline": "이란전 지상전 확대: Pentagon $200B 전쟁 예산 요청", "significance": "전쟁 확대는 방산 AI 지출 증가를 의미한다. Palantir의 Gotham, Maven, ShipOS가 모두 직접 수혜. 다만 시장 전체 하락으로 PLTR도 -3.25% 하락.", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil"},
+    {"date": "2026-03-20", "headline": "Motley Fool: '시장이 Palantir를 여전히 놓치고 있다'", "significance": "Palantir가 비싸 보이지만 성장 대비 밸류에이션 갭이 크다는 분석. Rule of 40 점수 127%의 희소성 강조.", "url": "https://www.fool.com/investing/2026/03/20/is-it-too-late-to-buy-palantir-or-is-the-market-st/"},
+    {"date": "2026-03-20", "headline": "Mizuho Outperform $195 재확인, 경영진 미팅 후 최강세", "significance": "'소프트웨어에 비교 대상 없다' 평가. 상업 AI 파일럿이 유료 전환되는 속도에 주목.", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting"},
+    {"date": "2026-03-19", "headline": "Moder와 AI 모기지 플랫폼 파트너십 발표", "significance": "Freedom Mortgage 파일럿. 국방 넘어 금융까지 AI 확장 입증.", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry"},
+    {"date": "2026-03-19", "headline": "펜타곤, Anthropic Claude 6개월 퇴출 추진 중", "significance": "국방부가 Maven에서 Anthropic Claude를 6개월 내 제거하려 하지만 군 현장은 교체 반발. Maven $10억+ 규모.", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 196.32,
+    "highTarget": 260.0,
+    "lowTarget": 50.0,
+    "upsidePercent": 30.3,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 2,
+    "notableComment": "UBS $200(+33%), Wedbush $230(+53%), Mizuho $195 재확인. 28명 중 16명 Buy. 이란전 $200B 예산이 방산 AI 수요를 폭증시킬 수 있어 방산 프리미엄 유지."
+  },
+  "risks": [
+    {"severity": "critical", "title": "극단적 밸류에이션 P/E 221배, P/S 77배", "description": "S&P 500 평균 22배 대비 10배. FCF 수익률 1% 미만. 전쟁 수혜 기대에도 밸류에이션 부담은 여전."},
+    {"severity": "high", "title": "이란전 장기화 시 경기침체 리스크", "description": "Pentagon $200B 예산은 방산에 유리하지만, 호르무즈 봉쇄와 유가 폭등이 경기침체를 유발하면 민간 IT 지출이 급감할 수 있다. 상업 매출 비중이 커지는 Palantir에 양면의 칼."},
+    {"severity": "high", "title": "인사이더 매도 지속", "description": "CEO Alex Karp $660만, Stephen Cohen $4,374만 매도. 경영진이 현 주가에서 적극 차익 실현 중."},
+    {"severity": "high", "title": "스위스 소송 + NHS 논란: 유럽 리스크", "description": "Guardian이 스위스 소송을 '위협 캠페인'으로 보도. NHS 최대 병원 그룹 의장 퇴임. 유럽 공공 계약 리스크 심화."},
+    {"severity": "medium", "title": "주식 희석", "description": "주식보상(SBC)으로 연간 약 5% 희석. 장기 수익률을 갉아먹는 구조."},
+    {"severity": "medium", "title": "펜타곤 Anthropic Claude 퇴출 혼란", "description": "Maven AI 엔진 교체 시 비용과 시간 소요. 단기 불확실성."}
+  ],
+  "buyReasons": [
+    {"title": "이란전 $200B: 방산 AI 수요의 구조적 증가", "rationale": "전쟁이 확대될수록 군사 AI, 정보 분석, 물류 자동화 수요가 급증. Palantir는 가장 직접적인 수혜 기업."},
+    {"title": "시장 대비 방어적: S&P -1.5% 속 PLTR 200일선 위 유지", "rationale": "200일선($127) 위를 유지하며 상대적 강세. 방산 테마가 하락장에서 방어 역할."},
+    {"title": "Moder 모기지 + 3곳 동시 강세: 성장 스토리 건재", "rationale": "금융 진출로 TAM 확대. UBS/Wedbush/Mizuho 3곳 강세 유지."},
+    {"title": "Rule of 40 점수 127%: 성장+수익성 동시 달성", "rationale": "매출 60% 성장과 영업이익률 31%를 동시에 달성하는 기업은 극히 드물다."}
+  ],
+  "technicalPosition": {
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 59.8,
+    "sma50": 157.00,
+    "sma50Signal": "below",
+    "sma200": 127.50,
+    "sma200Signal": "above",
+    "rsi": 43.0,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "이란전이 지상전으로 확대되면서 Pentagon이 $200B 전쟁 예산을 요청했다. 전쟁 확대는 방산 AI에 가장 직접적인 호재다. Palantir의 Gotham, Maven, ShipOS가 모두 수혜 대상이다.",
+    "시장 전체가 -1.5% 밀렸지만 Palantir는 200일선($127) 위를 유지하며 상대적 강세를 보였다. Moder 모기지 파트너십, Mizuho 최강세 유지 등 성장 스토리도 건재하다.",
+    "50일선($157) 아래로 내려왔지만 200일선 위. P/E 221배 부담이지만 전쟁이 방산 AI 지출을 구조적으로 늘린다면 프리미엄이 정당화될 수 있다. 조정 시 분할 매수. Buy."
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "이란전 $200B 예산은 Palantir에 구조적 호재다. Gotham, Maven, ShipOS 모두 직접 수혜. P/E 221배 부담이지만 Rule of 40 127%, 매출 60% 성장 가속, $11.2B 백로그가 뒷받침한다. 유럽 리스크와 인사이더 매도는 경계 대상이지만 미국 방산+상업 확장은 견조. 조정 시 분할 매수.",
+    "horizon": "6개월-1년"
+  },
+  "sources": [
+    {"name": "NYT - Iran War $200B", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil", "description": "Pentagon $200B 전쟁 예산 요청, 이란 지상전 확대"},
+    {"name": "Motley Fool - PLTR Still Missing", "url": "https://www.fool.com/investing/2026/03/20/is-it-too-late-to-buy-palantir-or-is-the-market-st/", "description": "'시장이 아직 Palantir를 놓치고 있다' 분석"},
+    {"name": "Seeking Alpha - Mizuho", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting", "description": "Mizuho Outperform $195 재확인"},
+    {"name": "BusinessWire - Moder", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry", "description": "Palantir-Moder AI 모기지 파트너십"},
+    {"name": "Reuters - Anthropic Maven", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/", "description": "펜타곤 Anthropic Claude 퇴출 추진"},
+    {"name": "TradingKey - PLTR -3.25%", "url": "https://www.tradingkey.com/news/Market-Movers/261704501-market-movers-pltr-20260320", "description": "PLTR 3/20 -3.25% 하락, 소프트웨어 섹터 대비 언더퍼폼"},
+    {"name": "QuiverQuant - PLTR Earnings", "url": "https://www.quiverquant.com/news/Palantir+Technologies+Stock+(PLTR)+Opinions+on+Earnings+Acceleration+and+New+Deals", "description": "70% 매출 성장, 41% 영업마진, $11.2B 백로그"},
+    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/PLTR:NASDAQ", "description": "PLTR 종가 $150.68, 시간외 $151.55"},
+    {"name": "Guardian - Swiss Lawsuit", "url": "https://www.theguardian.com/global-development/2026/mar/20/us-tech-giant-palantir-swiss-magazine-wav", "description": "Palantir 스위스 소송, 유럽 리스크"}
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "Palantir $150, 이란전 $200B가 방산 AI의 판을 바꾼다",
+      "text": "$PLTR $150.68(-3.25%)\n\nPentagon이 이란전 $200B 예산을 요청했다. 전쟁 확대는 Gotham, Maven, ShipOS 모두에 직접 호재. 시장 -1.5% 속에서도 200일선 위 유지.\n\n1/4",
+      "thread": [
+        "Mizuho '비교 대상 없다', UBS $200, Wedbush $230. 3곳 동시 강세. Moder 모기지로 금융까지 확장 중.\n\nRule of 40 127%, 매출 60% 성장 가속.\n\n2/4",
+        "P/E 221배 부담이지만 전쟁이 방산 AI 지출을 구조적으로 늘린다면 이 프리미엄이 정당화될 수 있다.\n\n유럽 소송 리스크는 주시.\n\n3/4",
+        "Buy. 방산 AI는 전쟁 속 가장 강한 테마. 조정 시 분할 매수.\n\n$150.68, 목표 $196(+30%)\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "Palantir, 이란전 $200B 예산이 방산 AI 수요를 바꾼다",
+      "text": "$PLTR $150.68(-3.25%)\n\nPentagon이 이란전 $200B 예산을 요청하면서 방산 AI 수요가 구조적으로 바뀔 수 있다. Palantir의 Gotham, Maven, ShipOS 모두 직접 수혜.\n\nMizuho '비교 대상 없다' 재확인, UBS $200, Wedbush $230. Moder 모기지 파트너십으로 금융까지 확장. Rule of 40 127%.\n\n50일선 아래지만 200일선 위. P/E 221배 부담이나 전쟁이 프리미엄을 정당화할 수 있다. Buy. 조정 시 분할 매수. 목표 $196(+30%)."
+    },
+    "telegram": {
+      "hook": "PLTR $150, 이란전 수혜 기대 + 방산 AI 모멘텀",
+      "text": "PLTR $150.68 (-3.25%)\n\n핵심 이슈\n- Pentagon 이란전 $200B 예산 요청 (방산 AI 수혜)\n- S&P 200일선 아래 추락, 시장 4주 연속 하락\n- Mizuho '비교 대상 없다' Outperform $195\n- Moder AI 모기지 파트너십 (Freedom Mortgage)\n- 200일선($127) 위 유지, 상대적 강세\n\n기술적: 50일선($157) 아래, 200일선 위, RSI 43\n목표가: $196.32(+30.3%)\n\n판단: Buy. 전쟁이 방산 AI 지출을 구조적으로 늘린다. 조정 시 분할 매수."
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Palantir $150, 이란전 $200B가 방산 AI의 판을 바꾼다",
+          "text": "$PLTR $150.68(-3.25%)\n\nPentagon이 이란전 $200B 예산을 요청했다. 전쟁 확대는 Gotham, Maven, ShipOS 모두에 직접 호재. 시장 -1.5% 속에서도 200일선 위 유지.\n\n1/4",
+          "thread": [
+            "Mizuho '비교 대상 없다', UBS $200, Wedbush $230. 3곳 동시 강세. Moder 모기지로 금융까지 확장 중.\n\nRule of 40 127%, 매출 60% 성장 가속.\n\n2/4",
+            "P/E 221배 부담이지만 전쟁이 방산 AI 지출을 구조적으로 늘린다면 이 프리미엄이 정당화될 수 있다.\n\n유럽 소송 리스크는 주시.\n\n3/4",
+            "Buy. 방산 AI는 전쟁 속 가장 강한 테마. 조정 시 분할 매수.\n\n$150.68, 목표 $196(+30%)\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "전쟁 예산 $200B. Palantir의 전화기가 울리고 있다",
+          "text": "$PLTR $150.68(-3.25%)\n\nPentagon이 $200B를 달라고 했다. 전쟁이 터지면 AI로 분석하고 AI로 물류를 돌려야 한다. Palantir의 전화기가 바빠질 수밖에 없다.\n\n목표 $196(+30%)\n\n1/4",
+          "thread": [
+            "P/E 221배인데 Mizuho는 '비교 대상 없다'고 한다. 비싸다고 욕하면서 안 살 수가 없는 기업.\n\nRule of 40 127%. 숫자가 반박을 막는다.\n\n2/4",
+            "Karp는 계속 주식을 팔고, 유럽에선 소송을 걸고. 그런데 미국 방산 매출은 멈추지 않는다.\n\n전쟁이 최대 마케팅 도구가 되는 아이러니.\n\n3/4",
+            "Buy. 전쟁 시대에 방산 AI만큼 강한 테마는 없다.\n\n$150.68, 목표 $196(+30%)\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "PLTR 홀더들, -3.25% 또 빠졌지만 방산 테마가 살아있다",
+          "text": "$PLTR $150.68(-3.25%)\n\n시장이 무너지는데 같이 밀렸다. 변동성이 큰 종목이라 지칠 수 있다. 하지만 이란전 $200B 예산이 방산 AI의 판을 바꿀 수 있다.\n\n목표 $196(+30%)\n\n1/4",
+          "thread": [
+            "Mizuho, UBS, Wedbush 3곳 강세. 모기지 AI로 금융까지 확장 중. 200일선 위를 유지하고 있다.\n\n전쟁 속 방산 AI가 가장 견고한 테마.\n\n2/4",
+            "P/E 221배가 부담스럽지만 3년간 20%+ 하락 10번, 전부 회복했다. 이번에도 그럴 수 있다.\n\n3/4",
+            "Buy. 흔들려도 버텨왔다. 조정 시 분할 매수.\n\n$150.68, 목표 $196(+30%)\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Palantir, 이란전 $200B로 방산 AI 수요 구조 변화",
+          "text": "$PLTR $150.68(-3.25%)\n\nPentagon $200B 전쟁 예산. Gotham, Maven, ShipOS 직접 수혜. 시장 -1.5% 속 200일선 위 유지.\n\nMizuho '비교 대상 없다', UBS $200, Wedbush $230. Rule of 40 127%, 매출 60% 성장.\n\nBuy. 전쟁이 방산 AI를 구조적으로 키운다. 목표 $196(+30%)."
+        },
+        "witty": {
+          "hook": "Pentagon이 $200B를 쓰면 Palantir 전화기가 울린다",
+          "text": "$PLTR $150.68(-3.25%)\n\nPentagon이 이란전 $200B를 요청했다. 전쟁을 하려면 AI가 필요하고, 방산 AI 하면 Palantir다. P/E 221배인데 Mizuho는 '비교 대상 없다'고 한다.\n\nKarp는 주식을 팔고, 유럽에선 소송을 하지만, 미국 방산은 멈추지 않는다. Rule of 40 127%를 달성하는 기업에 대해 할 말이 없다.\n\nBuy. 전쟁 시대의 최대 수혜주. 목표 $196(+30%)."
+        },
+        "empathy": {
+          "hook": "PLTR 홀더들, 시장이 무너져도 방산 테마는 살아있다",
+          "text": "$PLTR $150.68(-3.25%)\n\n시장 전체가 전쟁 공포에 빠졌다. PLTR도 같이 밀렸다. 변동성이 큰 종목이라 매일 흔들리면 지친다.\n\n하지만 이란전 $200B 예산은 방산 AI에 직접 호재다. Mizuho, UBS, Wedbush 모두 강세. 200일선 위를 유지하고 있다.\n\n3년간 20%+ 하락 10번, 전부 회복. 이번에도 그럴 수 있다. 조정 시 분할 매수. Buy. 목표 $196(+30%)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-21",
+  "currentPrice": 150.68,
+  "marketCap": "$360B",
+  "businessSummary": {
+    "oneLiner": "Government and commercial AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI Platform)",
+    "description": "Palantir builds AI data analytics platforms for government and enterprise clients. FY2025 revenue hit $4.48B (+56%), with US commercial revenue surpassing $500M. The Navy ShipOS project now includes submarine production AI. Stock gained 1,860% over three years but experienced 10+ drawdowns of 20%+.",
+    "howTheyMakeMoney": ["Government contracts (Gotham)", "Enterprise AI platform (Foundry)", "AIP (AI Platform)", "AIP Bootcamps"],
+    "keyProducts": ["Gotham", "Foundry", "AIP", "ShipOS", "Sovereign AI Data Center OS", "Ontology"]
+  },
+  "keyMetrics": [
+    {"name": "P/E (TTM)", "value": "221x", "interpretation": "10x S&P 500 avg (22x). Still extreme but war-driven defense AI spending may justify the premium"},
+    {"name": "Forward P/E", "value": "112x", "interpretation": "Based on FY2026 EPS $1.34. War premium sustaining elevated multiples"},
+    {"name": "P/S Ratio", "value": "77x", "interpretation": "Extreme vs SaaS avg 10-15x but justified by 60%+ growth acceleration"},
+    {"name": "Revenue Growth", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026 guidance $7.18-7.20B (+60%). US commercial +115%"},
+    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS. Growth and profitability simultaneously"},
+    {"name": "FCF Margin", "value": "46.94%", "interpretation": "FCF $2.1B. Industry-leading cash generation"}
+  ],
+  "growthDrivers": [
+    {"title": "Iran War $200B Budget: Structural Defense AI Demand Surge", "description": "Pentagon requested $200B for the Iran war. War expansion drives explosive demand for military AI, intelligence analysis, and logistics automation. Gotham, Maven, ShipOS all direct beneficiaries."},
+    {"title": "Moder AI Mortgage Partnership: Financial Services Entry", "description": "Freedom Mortgage as first pilot for AI mortgage operations platform. Beyond defense, expanding into finance."},
+    {"title": "Mizuho: 'No Comparable in Software' Outperform $195", "description": "Post-management meeting, Mizuho reaffirmed Outperform. Called Palantir unparalleled in software."},
+    {"title": "UBS $200 Raise + Wedbush $230 Maintained", "description": "UBS raised from $180 to $200 (+33%). Wedbush $230 Buy maintained."},
+    {"title": "Navy ShipOS $448M: AI for Submarine Production", "description": "Keel joined Palantir's Navy ShipOS project. AI applied to submarine production lines."},
+    {"title": "$11.2B Revenue Backlog + $10B Army Contract", "description": "$10B Army contract reshaping defense software market. Multi-year revenue visibility secured."}
+  ],
+  "competitiveAdvantage": {
+    "summary": "20+ year government and defense AI track record. Security clearances create insurmountable entry barriers. ShipOS expands AI across military production.",
+    "moats": [
+      {"type": "Security Clearance Moat", "description": "Highest-level DoD and intelligence clearances. Competitors cannot enter."},
+      {"type": "ShipOS + Military AI", "description": "AI deployed in submarine production and naval shipyards. Beyond battlefield to military manufacturing."},
+      {"type": "NVIDIA Sovereign AI Partnership", "description": "Sovereign AI OS + NVIDIA hardware ecosystem. Setting government AI infrastructure standards globally."}
+    ],
+    "competitors": [
+      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General approach vs Palantir's specialized analytics"},
+      {"name": "Snowflake", "detail": "Data lakehouse expanding into analytics"},
+      {"name": "C3.ai", "detail": "Enterprise AI. Lags Palantir in scale and track record"}
+    ]
+  },
+  "recentNews": [
+    {"date": "2026-03-20", "headline": "Iran Ground War: Pentagon Requests $200B War Budget", "significance": "War expansion means direct benefit for defense AI. Gotham, Maven, ShipOS all in scope. PLTR fell 3.25% with broader market.", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil"},
+    {"date": "2026-03-20", "headline": "Motley Fool: 'Market Is Still Missing Something on Palantir'", "significance": "Analysis argues PLTR looks expensive but growth-adjusted gap is significant. Rule of 40 score of 127% is rare.", "url": "https://www.fool.com/investing/2026/03/20/is-it-too-late-to-buy-palantir-or-is-the-market-st/"},
+    {"date": "2026-03-20", "headline": "Mizuho Reaffirms Outperform $195: 'No Comparable'", "significance": "Post-management meeting bullish call. Focus on AIP pilot-to-paid conversion rates.", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting"},
+    {"date": "2026-03-19", "headline": "Moder AI Mortgage Platform Partnership Announced", "significance": "Freedom Mortgage pilot. Financial services entry validates commercial expansion beyond defense.", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry"},
+    {"date": "2026-03-19", "headline": "Pentagon Pushing to Remove Anthropic Claude from Maven", "significance": "Six-month timeline to replace Claude in $1B+ Maven contract. Short-term disruption risk.", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/"}
+  ],
+  "analystOpinions": {
+    "consensusTarget": 196.32,
+    "highTarget": 260.0,
+    "lowTarget": 50.0,
+    "upsidePercent": 30.3,
+    "buyCount": 16,
+    "holdCount": 10,
+    "sellCount": 2,
+    "notableComment": "UBS $200 (+33%), Wedbush $230 (+53%), Mizuho $195 reaffirmed. 16 of 28 Buy. Iran war $200B budget could structurally boost defense AI demand."
+  },
+  "risks": [
+    {"severity": "critical", "title": "Extreme Valuation: 221x P/E, 77x P/S", "description": "10x S&P 500 average. FCF yield under 1%. Even war tailwinds may not justify this premium if recession hits."},
+    {"severity": "high", "title": "Iran War Prolongation: Recession vs Defense Spending", "description": "$200B war budget helps defense, but Hormuz blockade and oil surge could trigger recession that crushes commercial IT spending. Double-edged sword for Palantir as commercial revenue grows."},
+    {"severity": "high", "title": "Insider Selling Continues", "description": "CEO Alex Karp $6.6M, Stephen Cohen $43.7M in recent sales. Management actively taking profits."},
+    {"severity": "high", "title": "Swiss Lawsuit + NHS Controversy: European Risk", "description": "Guardian labeled Swiss magazine lawsuit as 'intimidation campaign'. NHS hospital group chair resigned over Palantir advisory role."},
+    {"severity": "medium", "title": "Stock Dilution", "description": "~5% annual dilution from SBC. Erodes long-term returns."},
+    {"severity": "medium", "title": "Pentagon Anthropic Claude Removal Disruption", "description": "Maven AI engine replacement creates cost and timeline uncertainty."}
+  ],
+  "buyReasons": [
+    {"title": "Iran War $200B: Structural Defense AI Demand Increase", "rationale": "War expansion directly increases military AI, intelligence, and logistics automation demand. Palantir is the most direct beneficiary."},
+    {"title": "Defensive Relative Strength: Holding Above 200-Day MA", "rationale": "Staying above 200-day ($127) while S&P breaks below its own. Defense theme provides downside protection."},
+    {"title": "Moder Mortgage + Triple Analyst Bullishness", "rationale": "Financial services TAM expansion. UBS/Wedbush/Mizuho all bullish simultaneously."},
+    {"title": "Rule of 40 Score 127%: Growth + Profitability Rarity", "rationale": "60% growth and 31% operating margin simultaneously achieved by very few companies."}
+  ],
+  "technicalPosition": {
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 59.8,
+    "sma50": 157.00,
+    "sma50Signal": "below",
+    "sma200": 127.50,
+    "sma200Signal": "above",
+    "rsi": 43.0,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "The Iran war expanded to ground operations with Pentagon requesting $200B. War expansion is the most direct positive catalyst for defense AI. Palantir's Gotham, Maven, and ShipOS are all beneficiaries.",
+    "The broader market fell 1.5%, but Palantir maintained its position above the 200-day MA ($127), showing relative strength. The Moder mortgage partnership and triple analyst bullishness from Mizuho, UBS, and Wedbush keep the growth story intact.",
+    "Below the 50-day ($157) but above the 200-day. P/E 221x is daunting, but if war structurally increases defense AI spending, the premium may be justified. Buy on pullbacks."
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Iran war's $200B budget is a structural tailwind for Palantir. Gotham, Maven, ShipOS all directly benefit. P/E 221x is challenging, but Rule of 40 at 127%, 60% growth acceleration, and $11.2B backlog provide support. European risks and insider selling require monitoring, but US defense and commercial expansion remain solid. Buy on dips.",
+    "horizon": "6-12 months"
+  },
+  "sources": [
+    {"name": "NYT - Iran War $200B", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil", "description": "Pentagon $200B war budget request"},
+    {"name": "Motley Fool - PLTR", "url": "https://www.fool.com/investing/2026/03/20/is-it-too-late-to-buy-palantir-or-is-the-market-st/", "description": "Market still missing Palantir analysis"},
+    {"name": "Seeking Alpha - Mizuho", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting", "description": "Mizuho Outperform $195 reaffirmed"},
+    {"name": "BusinessWire - Moder", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry", "description": "Palantir-Moder AI mortgage partnership"},
+    {"name": "Reuters - Anthropic Maven", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/", "description": "Pentagon Anthropic Claude removal push"},
+    {"name": "TradingKey - PLTR", "url": "https://www.tradingkey.com/news/Market-Movers/261704501-market-movers-pltr-20260320", "description": "PLTR -3.25% on March 20"},
+    {"name": "QuiverQuant", "url": "https://www.quiverquant.com/news/Palantir+Technologies+Stock+(PLTR)+Opinions+on+Earnings+Acceleration+and+New+Deals", "description": "70% revenue growth, 41% margins, $11.2B backlog"},
+    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/PLTR:NASDAQ", "description": "PLTR close $150.68, after-hours $151.55"},
+    {"name": "Guardian - Swiss", "url": "https://www.theguardian.com/global-development/2026/mar/20/us-tech-giant-palantir-swiss-magazine-wav", "description": "Palantir Swiss lawsuit, European risk"}
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "Palantir $150: Pentagon's $200B war budget changes everything",
+      "text": "$PLTR $150.68 (-3.25%)\n\nPentagon requested $200B for Iran war. Ground war means Gotham, Maven, ShipOS all in demand. Holding above 200-day MA despite market crash.\n\n1/4",
+      "thread": [
+        "Mizuho: 'No comparable.' UBS $200, Wedbush $230. Triple bullish. Moder mortgage partnership expands into finance.\n\nRule of 40: 127%. Revenue +60%.\n\n2/4",
+        "P/E 221x is steep but war structurally increases defense AI budgets. If the premium was ever justified, it's now.\n\nEuropean lawsuit risk worth watching.\n\n3/4",
+        "Buy. Defense AI is the strongest theme in a war market. DCA on dips.\n\n$150.68, target $196 (+30%)\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "Palantir: $200B war budget reshapes defense AI demand",
+      "text": "$PLTR $150.68 (-3.25%)\n\nPentagon requested $200B for the Iran war, directly boosting demand for Gotham, Maven, and ShipOS. Palantir held above its 200-day MA while S&P broke below its own.\n\nMizuho calls it 'unparalleled in software.' UBS $200, Wedbush $230. Moder mortgage expands TAM into finance. Rule of 40 at 127%.\n\n50-day below but 200-day above. P/E 221x but war may justify it. Buy on dips. Target $196 (+30%)."
+    },
+    "telegram": {
+      "hook": "PLTR $150: War budget $200B, defense AI momentum",
+      "text": "PLTR $150.68 (-3.25%)\n\nKey Issues\n- Pentagon $200B Iran war budget (defense AI tailwind)\n- S&P below 200-day MA, PLTR holds above its own\n- Mizuho 'no comparable' Outperform $195\n- Moder AI mortgage (Freedom Mortgage pilot)\n- Above 200-day ($127), below 50-day ($157)\n\nTarget: $196.32 (+30.3%)\nVerdict: Buy. War structurally increases defense AI. DCA on dips."
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Palantir $150: Pentagon's $200B war budget changes everything",
+          "text": "$PLTR $150.68 (-3.25%)\n\nPentagon requested $200B for Iran war. Ground war means Gotham, Maven, ShipOS all in demand. Holding above 200-day MA despite market crash.\n\n1/4",
+          "thread": ["Mizuho: 'No comparable.' UBS $200, Wedbush $230. Rule of 40: 127%.\n\n2/4", "P/E 221x steep but war justifies defense AI premium.\n\n3/4", "Buy. Defense AI strongest theme. DCA.\n\n$150.68, target $196 (+30%)\n\n4/4"]
+        },
+        "witty": {
+          "hook": "$200B war budget. Palantir's phone is ringing",
+          "text": "$PLTR $150.68 (-3.25%)\n\nPentagon needs $200B for Iran. Wars need AI for intel, logistics, targeting. Palantir's phone hasn't stopped ringing since the first missile.\n\nTarget $196 (+30%)\n\n1/4",
+          "thread": ["P/E 221x and Mizuho says 'no comparable.' Expensive and irreplaceable. That's the pitch.\n\nKarp keeps selling stock while analysts keep raising targets.\n\n2/4", "Swiss lawsuits, NHS drama. Europe is skeptical. But Pentagon isn't, and $200B speaks louder.\n\n3/4", "Buy. War is tragic. Defense AI stocks are not.\n\n$150.68, target $196 (+30%)\n\n4/4"]
+        },
+        "empathy": {
+          "hook": "PLTR holders, -3.25% but defense theme is alive",
+          "text": "$PLTR $150.68 (-3.25%)\n\nMarket crashed and PLTR fell with it. Volatility is exhausting for a stock that's already swung 20%+ ten times in three years.\n\nBut $200B war budget is real.\n\n1/4",
+          "thread": ["Mizuho, UBS, Wedbush all bullish. Moder partnership, 200-day holding. The foundation is solid even if the ride is rough.\n\n2/4", "Every 20%+ drop recovered. Rule of 40 at 127% means the business keeps compounding.\n\n3/4", "Buy. Hang in there. DCA on weakness.\n\n$150.68, target $196 (+30%)\n\n4/4"]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Palantir: $200B war budget creates structural AI demand shift",
+          "text": "$PLTR $150.68 (-3.25%)\n\nPentagon $200B Iran war budget. Gotham, Maven, ShipOS direct beneficiaries. 200-day MA holding.\n\nMizuho 'no comparable', UBS $200, Wedbush $230. Rule of 40: 127%.\n\nBuy. Defense AI is the strongest theme. Target $196 (+30%)."
+        },
+        "witty": {
+          "hook": "Pentagon wants $200B. Palantir's calendar just filled up",
+          "text": "$PLTR $150.68 (-3.25%)\n\nPentagon asked for $200B. You can't fight a war without AI for intelligence, logistics, and targeting. Palantir's Gotham was literally built for this.\n\nMizuho says 'no comparable.' Karp sells stock while analysts raise targets. The stock swings 20% like it's Tuesday. P/E 221x, Rule of 40 127%.\n\nBuy. War is the ultimate defense AI marketing event. Target $196 (+30%)."
+        },
+        "empathy": {
+          "hook": "PLTR holders, another -3% day. But the defense thesis just got stronger",
+          "text": "$PLTR $150.68 (-3.25%)\n\nAnother red day. The market is crashing on Iran war fears and PLTR fell with it. If you've held through ten 20%+ drops in three years, you know the drill.\n\nBut this time, the war is directly boosting your thesis. $200B Pentagon budget means more Gotham, more Maven, more ShipOS. Mizuho, UBS, Wedbush all bullish.\n\nStay patient. DCA on dips. Buy. Target $196 (+30%)."
+        }
+      }
+    }
+  }
+}
