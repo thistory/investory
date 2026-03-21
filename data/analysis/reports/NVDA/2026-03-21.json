@@ -26,33 +26,33 @@
   "keyMetrics": [
     {
       "name": "P/E TTM",
-      "value": "35.0x",
-      "interpretation": "반도체 섹터 평균(25x) 대비 프리미엄이지만, 65% 매출 성장률 감안 시 PEG 0.54로 합리적"
+      "value": "35.2x",
+      "interpretation": "반도체 섹터 평균(25x)과 S&P 500 평균(22x) 대비 프리미엄이지만, 65% 매출 성장률 감안 시 PEG 0.54로 합리적. 12개월 평균 44.7x에서 21% 하락"
     },
     {
-      "name": "Forward P/E",
-      "value": "25.1x",
-      "interpretation": "FY27 EPS $6.88 기준. 성장률 65% 대비 PEG 0.39로 매력적. 역사적 저점 구간"
+      "name": "Forward P/E (NTM)",
+      "value": "20.8x",
+      "interpretation": "NTM EPS $8.31 기준. 반도체 섹터 Fwd P/E(28x)보다 낮고 S&P 500(19x)에 근접. 성장주로서 이례적 저평가 구간"
     },
     {
       "name": "매출 성장률 YoY",
       "value": "65%",
-      "interpretation": "FY26 $215.9B. 11분기 연속 55% 이상 성장"
+      "interpretation": "FY26 $215.9B. 11분기 연속 55% 이상 성장. Q1 FY27 가이던스 $78B로 모멘텀 지속"
     },
     {
       "name": "순이익 FY26",
       "value": "$120.1B",
-      "interpretation": "순이익률 55.6%. 하드웨어 업종에서 전례 없는 수준"
+      "interpretation": "순이익률 55.6%. 하드웨어 업종에서 전례 없는 수준. 소프트웨어 대기업과 비슷한 마진 구조"
     },
     {
       "name": "매출총이익률",
-      "value": "75.0% (Q4)",
-      "interpretation": "전분기 73.4%에서 개선. Blackwell 초기 마진 압박에서 회복"
+      "value": "71.3% (TTM)",
+      "interpretation": "Q4 75.0%로 개선 추세. Blackwell 초기 마진 압박에서 회복하며 상승 중"
     },
     {
-      "name": "Q1 FY27 가이던스",
-      "value": "$78B",
-      "interpretation": "시장 기대치를 상회. 전년 동기 대비 55%+ 성장 전망"
+      "name": "ROE",
+      "value": "101.5%",
+      "interpretation": "자본 대비 수익 창출력 극강. 자본 효율성에서 빅테크 중 최상위"
     }
   ],
   "growthDrivers": [
@@ -114,219 +114,225 @@
   },
   "recentNews": [
     {
-      "date": "2026-03-20",
-      "headline": "CBS: Pentagon 이란 지상군 투입 준비, S&P 500 200일선 붕괴",
-      "significance": "S&P 500이 -1.5% 하락하며 6,506.48로 마감. 200일 이상 만에 처음 200일선 아래. 성장주 전반에 매도 압력 극심.",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sink-as-oil-swings-amid-iran-war-jitters-225246829.html"
+      "date": "2026-03-21",
+      "headline": "GTC 2026 마감 후 주가 -3.28% 급락, 5일 연속 하락",
+      "significance": "GTC 주간 마지막 거래일에 가장 큰 일일 하락폭 기록. $178에서 시작해 $172.70 마감. 시간외 $174.90으로 소폭 반등.",
+      "url": "https://www.cnbc.com/quotes/NVDA"
     },
     {
       "date": "2026-03-20",
-      "headline": "NVDA 인사이더 매도: 회계 책임자 $942,944 매각",
-      "significance": "Donald F. Robertson Jr.가 4,596주를 $942,944에 매각. 소액이지만 인사이더 매도 지속.",
-      "url": "https://ng.investing.com/news/insider-trading-news/nvidia-principal-accounting-officer-sells-942944-in-nvda-stock-93CH-2404116"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "$1T 매출 전망에도 투자자 반응 냉담: 하이퍼스케일러 지출 의문",
-      "significance": "CoinCentral이 'GTC의 $1T 예측이 왜 충분하지 않았나' 분석. 하이퍼스케일러 AI 지출 지속성에 의문 제기.",
-      "url": "https://coincentral.com/nvidia-nvda-stock-why-a-1-trillion-forecast-still-wasnt-enough-for-investors/"
-    },
-    {
-      "date": "2026-03-19",
-      "headline": "Rosenblatt, 목표가 $300에서 $325로 상향: Buy 유지",
-      "significance": "GTC 후 경영진 미팅 반영. 현재가 대비 88% 업사이드. 월가 최강세 의견.",
-      "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html"
+      "headline": "GTC 2026 최종일: 에이전틱 AI, 피지컬 AI, 로보틱스 총정리",
+      "significance": "CNET이 GTC 전체 하이라이트를 정리. 칩, 소프트웨어, 로보틱스를 아우르는 풀스택 AI 전략 재확인.",
+      "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/"
     },
     {
       "date": "2026-03-18",
-      "headline": "베이징, 엔비디아 H200 AI 칩 중국 판매 승인",
-      "significance": "잃어버린 중국 매출 20%가 돌아올 가능성. Jensen Huang 직접 확인.",
-      "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/"
+      "headline": "Rosenblatt, 목표가 $300에서 $325로 상향: Buy 유지",
+      "significance": "GTC 후 경영진 미팅 반영. 현재가 대비 88% 업사이드. 월가 최강세 의견.",
+      "url": "https://247wallst.com/investing/2026/03/18/nvidia-price-target-raised-to-325-wall-street-says-1-trillion-blackwell-revenue-is-coming/"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Jensen Huang, 중국 AI 칩 변형 제품 제조 재개 확인",
+      "significance": "Reuters 보도. 중국 맞춤형 칩 생산 재개로 잃어버린 중국 매출 회복 신호.",
+      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "Jensen Huang 키노트: Blackwell+Rubin $1T 주문 기회, 추론 시장 폭발",
+      "significance": "CNBC 보도. $500B에서 $1T으로 상향. 에이전틱 AI가 추론 수요를 구조적으로 증가시킨다는 핵심 테제.",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 267.54,
-    "highTarget": 325.0,
-    "lowTarget": 185.0,
-    "upsidePercent": 54.9,
+    "consensusTarget": 275.4,
+    "highTarget": 352.0,
+    "lowTarget": 100.0,
+    "upsidePercent": 59.5,
     "buyCount": 58,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "Rosenblatt $325(+88%) 최고 목표가. BofA $300, 247wallst 3곳이 $300+ 제시. 61명 중 58명 Buy, 38명 Strong Buy. 컨센서스 $267.54."
+    "notableComment": "Evercore ISI $352 최고 목표가. Tigress $350, Rosenblatt $325, Citi $330, BofA $275, Goldman $250. 주가 하락으로 컨센서스 대비 업사이드 59.5%로 확대. 61명 중 58명 Buy."
   },
   "risks": [
     {
-      "severity": "critical",
-      "title": "이란 전쟁 확전 리스크: S&P 500 200일선 붕괴",
-      "description": "CBS가 Pentagon 이란 지상군 투입 준비를 보도. S&P 500이 200일선 아래로 떨어지며 시장 전체가 기술적 하락 신호. 성장주 매도 압력 극심."
+      "severity": "high",
+      "title": "GTC 호재 무효화: 5일 연속 하락과 기대 선반영 논란",
+      "description": "역대급 GTC 주간에도 주가 5일 연속 하락(-6.6%). $1T 전망에도 투자자 반응 냉담. 호재가 이미 반영됐거나, 매크로가 펀더멘털을 압도하고 있다."
     },
     {
       "severity": "high",
-      "title": "GTC $1T 전망에도 시장 무반응: 기대 선반영 우려",
-      "description": "5일간 GTC 발표에도 주가 5일 연속 하락. 하이퍼스케일러 AI 지출 지속성에 의문. 호재가 이미 반영됐을 가능성."
+      "title": "데스크로스 임박: 50일선 200일선 수렴",
+      "description": "50일 이동평균($183.8)이 200일선($183.9)과 거의 일치. 데스크로스 확인 시 기술적 매도 신호가 추가 하방 압력을 줄 수 있다."
     },
     {
       "severity": "high",
-      "title": "Fed 금리 동결 + 인하 기대 소멸",
-      "description": "시장이 2026년 금리 인하를 완전히 할인하지 않기 시작. 성장주 밸류에이션 압력 지속."
+      "title": "지정학 리스크와 매크로 역풍 지속",
+      "description": "중동 긴장, 유가 상승, Fed 금리 동결 장기화. 성장주 밸류에이션에 구조적 압력."
     },
     {
       "severity": "medium",
-      "title": "인사이더 매도 지속",
-      "description": "회계 책임자가 $942K 매각. 소액이지만 꾸준한 인사이더 매도 패턴."
+      "title": "중국 수출 제한 불확실성",
+      "description": "H200 승인됐지만 Blackwell, Vera Rubin 등 최신 칩은 여전히 제한. 정치적 변수에 따라 다시 막힐 가능성."
     },
     {
       "severity": "medium",
-      "title": "경쟁 심화",
-      "description": "AMD MI450, Google TPU v6, Tesla Terafab 등 경쟁 가속기 등장. 하이퍼스케일러 자체 칩 개발도 위협 요인."
+      "title": "하이퍼스케일러 자체 칩 개발 가속",
+      "description": "AMD MI450, Google TPU v6, MS Maia, Amazon Trainium 등 경쟁 가속기 등장. 장기적 시장 점유율 위협."
     }
   ],
   "buyReasons": [
     {
-      "title": "Forward P/E 25.1배, PEG 0.39: 역사적 저점",
-      "rationale": "FY27 EPS $6.88 기준. 65% 성장률 대비 PEG 0.39는 NVDA 역사상 가장 저렴한 구간 중 하나."
+      "title": "Forward P/E 20.8배: NVDA 역사상 가장 저렴한 구간",
+      "rationale": "NTM EPS $8.31 기준 Forward P/E 20.8x. 반도체 섹터 평균(28x)보다 낮고 S&P 500(19x)에 근접. 65% 성장률 대비 PEG 0.32로 극단적 저평가."
     },
     {
-      "title": "Rosenblatt $325(+88%) + 61명 중 58명 Buy",
-      "rationale": "주가 하락으로 업사이드가 54.9%로 확대. 38명 Strong Buy. 역대급 강세론."
+      "title": "컨센서스 $275(+59%) + 61명 중 58명 Buy",
+      "rationale": "Evercore $352, Tigress $350, Rosenblatt $325. 주가 하락으로 업사이드가 역대급으로 확대."
     },
     {
-      "title": "중국 H200 승인: 잃어버린 매출 20%의 귀환",
-      "rationale": "베이징의 H200 승인으로 중국 시장 재진입. 추가 매출 기회."
+      "title": "중국 H200 승인 + $1T 추론 시장 개화",
+      "rationale": "중국 매출 회복과 추론 시장 폭발이라는 이중 성장 촉매. $500B에서 $1T으로 상향된 시장 기회."
     },
     {
-      "title": "매크로 압박 속 과매도: 최고의 진입점",
-      "rationale": "RSI 33으로 과매도 접근. 순이익률 55.6%에 65% 성장 중인 기업이 200일선 아래면 역사적 매수 기회."
+      "title": "5일 연속 하락 후 시간외 반등 시작",
+      "rationale": "시간외 $174.90(+1.27%)으로 반등 조짐. RSI 중립 구간에서 매크로 개선 시 빠른 회복 가능."
     }
   ],
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
     "currentPositionPercent": 68.6,
-    "sma50": 184.00,
+    "sma50": 183.80,
     "sma50Signal": "below",
-    "sma200": 183.00,
+    "sma200": 183.90,
     "sma200Signal": "below",
-    "rsi": 33.0,
+    "rsi": 42.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "CBS의 이란 지상군 투입 보도로 S&P 500이 200일선 아래로 붕괴했고, NVDA도 $172.70으로 GTC 이후 5일 연속 하락. 역대급 발표를 쏟아냈지만 전쟁 공포가 모든 호재를 삼켰다.",
-    "펀더멘털은 흠잡을 데 없다. FY26 순이익 $120.1B, Forward P/E 25.1배, PEG 0.39. Rosenblatt $325(+88%), 61명 중 58명 Buy. 중국 H200 승인까지. 이 가격에서의 펀더멘털 괴리는 역사적 수준이다.",
-    "50일선($184)과 200일선($183) 아래에서 RSI 33. 이란 리스크가 변수지만 매크로가 풀리면 가장 먼저 반등할 종목. 전쟁 공포 속 공포에 사는 분할 매수 적기. Buy."
+    "GTC 2026에서 $1T 추론 시장, Vera Rubin, 중국 H200, Musk 주문까지 역대급 호재가 쏟아졌지만 NVDA는 5일 연속 하락하며 $172.70(-3.28%)을 기록했다. 시간외 $174.90으로 소폭 반등 중.",
+    "펀더멘털은 압도적이다. FY26 매출 $215.9B(+65%), 순이익률 55.6%, Forward P/E 20.8배(PEG 0.32). Evercore $352, Rosenblatt $325 등 목표가 대비 59% 업사이드. 61명 중 58명 Buy.",
+    "50일선과 200일선이 $183.8~183.9에서 수렴하며 데스크로스 임박. 주가는 두 이평선 아래, RSI 42. GTC 호재 소화와 매크로 반전이 맞물리면 급반등 가능한 기술적 위치다.",
+    "Buy. 펀더멘털 대비 가격 괴리가 역대급이다. 분할 매수로 접근하되, 데스크로스 확인 시 $165 지지선 추가 매수 전략 유효."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "이란 전쟁 공포로 5일 연속 하락했지만, FY26 순이익 $120.1B에 Forward P/E 25.1배(PEG 0.39)는 NVDA 역사상 가장 저렴한 구간이다. 중국 H200 승인, $1T 추론 시장, Musk 주문 확인까지 촉매가 풍부. GTC 호재가 전쟁 공포에 묻혔지만 지정학이 안정되면 가장 먼저 반등할 종목. 공포 속 분할 매수 유효.",
+    "summary": "GTC 호재에도 5일 연속 하락으로 Forward P/E 20.8배(PEG 0.32)까지 떨어진 NVDA는 역사적 저평가 구간에 진입했다. 순이익 $120.1B, 컨센서스 $275(+59%), 중국 시장 재개, $1T 추론 기회까지 촉매가 풍부하다. 데스크로스 리스크 있으나 매크로 전환 시 가장 먼저 반등할 종목. 분할 매수.",
     "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Yahoo Finance - Market Close",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sink-as-oil-swings-amid-iran-war-jitters-225246829.html",
-      "description": "S&P 500 -1.51% (6,506.48), 이란 전쟁 공포, Nasdaq -2.01%"
+      "name": "CNBC - NVDA Quote",
+      "url": "https://www.cnbc.com/quotes/NVDA",
+      "description": "NVDA 실시간 주가, 키 스탯, P/E, Forward P/E, 시가총액"
     },
     {
-      "name": "CoinCentral - NVDA Analysis",
-      "url": "https://coincentral.com/nvidia-nvda-stock-why-a-1-trillion-forecast-still-wasnt-enough-for-investors/",
-      "description": "$1T 매출 전망에도 투자자 반응 냉담"
+      "name": "CNBC - GTC 2026 Keynote",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "Jensen Huang 키노트: $1T 주문 기회, Vera Rubin 공개"
     },
     {
-      "name": "Investing.com - Insider Selling",
-      "url": "https://ng.investing.com/news/insider-trading-news/nvidia-principal-accounting-officer-sells-942944-in-nvda-stock-93CH-2404116",
-      "description": "회계 책임자 4,596주 $942,944 매각"
+      "name": "Reuters - China AI Chip",
+      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/",
+      "description": "중국 AI 칩 변형 제품 제조 재개 확인"
     },
     {
-      "name": "Yahoo Finance - Rosenblatt",
-      "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html",
-      "description": "Rosenblatt $325 목표가 상향"
+      "name": "247 Wall St - Price Target",
+      "url": "https://247wallst.com/investing/2026/03/18/nvidia-price-target-raised-to-325-wall-street-says-1-trillion-blackwell-revenue-is-coming/",
+      "description": "Rosenblatt $325 목표가 상향, 컨센서스 $267.54"
     },
     {
-      "name": "Reuters - China H200",
-      "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/",
-      "description": "베이징 H200 판매 승인"
+      "name": "TECHi - NVDA Analysis",
+      "url": "https://www.techi.com/nvidia-stock/",
+      "description": "애널리스트 목표가 범위: $100~$352, 컨센서스 $263"
     },
     {
-      "name": "Reuters - Musk Nvidia Order",
-      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/",
-      "description": "Musk Nvidia 칩 대규모 주문 확인"
+      "name": "CNET - GTC 2026 Recap",
+      "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
+      "description": "GTC 2026 전체 하이라이트: 에이전틱 AI, 피지컬 AI, 로보틱스"
     },
     {
-      "name": "WallStreetZen - NVDA",
-      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda",
-      "description": "NVDA $172.70, 시총 $4.20T, P/E 35.03x"
+      "name": "MarketBeat - NVDA Forecast",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "컨센서스 목표가 $275.40, 애널리스트 평점"
     },
     {
-      "name": "247 Wall St - $300 Target",
-      "url": "https://247wallst.com/investing/2026/03/17/three-wall-street-giants-see-nvda-reaching-300-heres-the-1-trillion-reason-why/",
-      "description": "월가 3곳 $300+ 목표가, 컨센서스 $267.54"
+      "name": "AltIndex - NVDA Technicals",
+      "url": "https://altindex.com/ticker/nvda/technical-analysis",
+      "description": "50일선 $183.8, 200일선 $183.9, 데스크로스 수렴"
     },
     {
-      "name": "CBS News - Pentagon Iran",
-      "url": "https://www.cbsnews.com/news/trump-administration-iran-ground-troop-preparations/",
-      "description": "Pentagon 이란 지상군 투입 준비 보도"
+      "name": "TipRanks - NVDA Technical",
+      "url": "https://www.tipranks.com/stocks/nvda/technical-analysis",
+      "description": "RSI(14) 47.33, STOCH 48.07, 200일선 $177.83"
+    },
+    {
+      "name": "FinanceCharts - NVDA P/E",
+      "url": "https://www.financecharts.com/stocks/NVDA/value/pe-ratio",
+      "description": "P/E TTM 36.44, Forward P/E 29.94, 12개월 평균 44.72"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $173, GTC 끝나고 5일째 하락. PEG 0.39인데",
-      "text": "$NVDA $172.70(-3.28%)\n\n이란 전쟁 보도에 S&P 500이 200일선 아래로 붕괴. GTC 역대급 발표 5일 연속 무시. RSI 33.\n\nRosenblatt $325(+88%)\n\n1/4",
+      "hook": "NVDA $172, GTC 주간 5일 연속 하락. Fwd P/E 20배대",
+      "text": "$NVDA $172.70(-3.28%)\n\n역대급 GTC가 끝났다. $1T 추론 시장, Vera Rubin, 중국 H200. 그런데 5일 연속 하락. 데스크로스 임박.\n\nForward P/E 20.8x, PEG 0.32.\n\n1/4",
       "thread": [
-        "FY26 순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. NVDA 역사상 가장 저렴한 구간이다.\n\n61명 중 58명 Buy, 38명 Strong Buy.\n\n2/4",
-        "중국 H200 승인, Musk 대규모 주문, $1T 추론 시장. 호재가 쏟아지는데 이란 전쟁 공포가 전부 삼켰다.\n\n3/4",
-        "Buy. 전쟁 공포 속 공포에 사는 기회. 매크로 풀리면 가장 먼저 간다.\n\n$172.70, 목표 $267(+55%)\n\n4/4"
+        "FY26 매출 $215.9B(+65%), 순이익률 55.6%. Forward P/E가 S&P 500(19x)에 근접한 20.8배. 65% 성장하는 기업치고 이 멀티플은 역사적이다.\n\n2/4",
+        "Evercore $352, Rosenblatt $325, Citi $330. 컨센서스 $275(+59%). 61명 중 58명 Buy. 시간외 $174.90으로 반등 시작.\n\n3/4",
+        "Buy. 데스크로스 주의하되, 이 가격에서 펀더멘털 괴리는 역대급. 분할 매수.\n\n$172.70, 목표 $275(+59%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA $173, 역사적 저평가에서 전쟁 공포에 눌리는 중",
-      "text": "$NVDA $172.70(-3.28%)\n\nCBS가 Pentagon 이란 지상군 투입 보도를 터뜨리면서 S&P 500이 200일선 아래로 붕괴. NVDA도 GTC 이후 5일 연속 하락. 역대급 발표가 전쟁 공포에 완전히 묻혔다.\n\nFY26 순이익 $120.1B, Forward P/E 25.1배, PEG 0.39. Rosenblatt $325(+88%), 61명 중 58명 Buy. 숫자가 틀린 게 아니라 전쟁이 모든 걸 누르고 있다.\n\nRSI 33, 50일선과 200일선 모두 아래. 매크로 풀리면 가장 먼저 반등할 종목. 공포 속 분할 매수. Buy. 목표 $267(+55%)."
+      "hook": "NVDA $172, Forward P/E 20배로 추락. 역사적 진입점?",
+      "text": "$NVDA $172.70(-3.28%)\n\nGTC 2026이 끝났다. $1T 추론 시장, Vera Rubin, 중국 H200 재개, Musk 대규모 주문. 역대급 호재 주간이었지만 주가는 5일 연속 하락.\n\nFY26 매출 $215.9B(+65%), 순이익률 55.6%. Forward P/E 20.8x, PEG 0.32. Evercore $352, Rosenblatt $325 등 목표가 대비 59% 업사이드. 50일선과 200일선이 $183~184에서 수렴, 데스크로스 임박이 기술적 부담이지만 시간외 $174.90으로 반등 조짐.\n\nBuy. 펀더멘털 대비 가격 괴리가 역대급. 분할 매수. 목표 $275(+59%)."
     },
     "telegram": {
-      "hook": "NVDA $173, GTC 5일 연속 무시 + 이란 전쟁",
-      "text": "NVDA $172.70 (-3.28%)\n\n핵심 이슈\n- CBS: Pentagon 이란 지상군 투입 준비\n- S&P 500 200일선 붕괴 (-1.51%)\n- GTC 이후 5일 연속 하락\n- Rosenblatt $325(+88%) 상향\n- 인사이더 $942K 매각\n\n펀더멘털: FY26 순이익 $120.1B, PEG 0.39\n기술적: 50일선/200일선 아래, RSI 33\n목표가: $267.54(+54.9%)\n\n판단: Buy. 역사적 저평가 구간. 분할 매수."
+      "hook": "NVDA $172, GTC 끝나고 5일째 하락",
+      "text": "NVDA $172.70 (-3.28%)\n\n핵심 이슈\n- GTC 주간 5일 연속 하락(-6.6%), 시간외 $174.90 반등\n- Forward P/E 20.8x, PEG 0.32: 역사적 저점\n- Evercore $352, Rosenblatt $325, 컨센서스 $275(+59%)\n- 중국 H200 재개, $1T 추론 시장 확인\n- 50일선/200일선 수렴, 데스크로스 임박\n\n기술적: RSI 42, 두 이평선 아래\n목표가: $275.40(+59.5%)\n\n판단: Buy. Fwd P/E 20.8배에 65% 성장. 분할 매수."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $173, GTC 끝나고 5일째 하락. PEG 0.39인데",
-          "text": "$NVDA $172.70(-3.28%)\n\n이란 전쟁 보도에 S&P 500이 200일선 아래로 붕괴. GTC 역대급 발표 5일 연속 무시. RSI 33.\n\nRosenblatt $325(+88%)\n\n1/4",
+          "hook": "NVDA $172, GTC 주간 5일 연속 하락. Fwd P/E 20배대",
+          "text": "$NVDA $172.70(-3.28%)\n\n역대급 GTC가 끝났다. $1T 추론 시장, Vera Rubin, 중국 H200. 그런데 5일 연속 하락. 데스크로스 임박.\n\nForward P/E 20.8x, PEG 0.32.\n\n1/4",
           "thread": [
-            "FY26 순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. NVDA 역사상 가장 저렴한 구간이다.\n\n61명 중 58명 Buy, 38명 Strong Buy.\n\n2/4",
-            "중국 H200 승인, Musk 대규모 주문, $1T 추론 시장. 호재가 쏟아지는데 이란 전쟁 공포가 전부 삼켰다.\n\n3/4",
-            "Buy. 전쟁 공포 속 공포에 사는 기회. 매크로 풀리면 가장 먼저 간다.\n\n$172.70, 목표 $267(+55%)\n\n4/4"
+            "FY26 매출 $215.9B(+65%), 순이익률 55.6%. Forward P/E가 S&P 500(19x)에 근접한 20.8배. 65% 성장하는 기업치고 이 멀티플은 역사적이다.\n\n2/4",
+            "Evercore $352, Rosenblatt $325, Citi $330. 컨센서스 $275(+59%). 61명 중 58명 Buy. 시간외 $174.90으로 반등 시작.\n\n3/4",
+            "Buy. 데스크로스 주의하되, 이 가격에서 펀더멘털 괴리는 역대급. 분할 매수.\n\n$172.70, 목표 $275(+59%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Jensen이 $1T을 그렸는데 Pentagon이 전쟁을 그렸다",
-          "text": "$NVDA $172.70(-3.28%)\n\nGTC에서 5일간 미래를 펼쳤지만, Pentagon이 이란에 군대를 보내면서 투자자들은 유가만 본다. PEG 0.39. 이보다 싼 적이 거의 없다.\n\n1/4",
+          "hook": "Jensen이 $1T을 그렸는데 시장은 5일째 안 산다",
+          "text": "$NVDA $172.70(-3.28%)\n\nGTC에서 추론 $1T, 새 칩, 중국 문까지 열었는데 주가만 5일 연속 하락. Forward P/E 20.8x. S&P 500이랑 비슷하다.\n\n65% 성장하는 기업이.\n\n1/4",
           "thread": [
-            "순이익 $120.1B, 마진 55.6%. 하드웨어 회사 맞냐는 수치다.\n\nRosenblatt $325(+88%). 58명 Buy인데 시장만 안 산다.\n\n2/4",
-            "중국 문 열리고, Musk가 사겠다 하고. 호재 풀셋인데 전쟁이 발목.\n\nRSI 33, 200일선 아래.\n\n3/4",
-            "Buy. 두려울 때가 기회다. 전쟁 끝나면 NVDA가 먼저 간다.\n\n$172.70, 목표 $267(+55%)\n\n4/4"
+            "순이익 $120.1B에 마진 55.6%. '이게 하드웨어 회사 맞나'가 매번 나오는 수치다.\n\nEvercore $352(+104%). Rosenblatt $325(+88%).\n\n2/4",
+            "50일선이 200일선을 뚫으려 하고 있다. 데스크로스. 기술적으로는 무섭다.\n\n근데 PEG 0.32인 기업에 데스크로스라니.\n\n3/4",
+            "Buy. Jensen vs 매크로, 장기전에서 Jensen이 진다는 사람은 없다.\n\n$172.70, 목표 $275(+59%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더들, GTC 끝나고 5일째. 전쟁까지. 답답하다",
-          "text": "$NVDA $172.70(-3.28%)\n\n역대급 GTC인데 5일째 내린다. 이란 전쟁 보도까지. NVDA 탓이 아닌 거 알지만 지친다.\n\nForward P/E 25.1x, PEG 0.39.\n\n1/4",
+          "hook": "GTC 기대했는데 5일째 빠지니까 진짜 힘들지",
+          "text": "$NVDA $172.70(-3.28%)\n\nGTC 보면서 기대했을 홀더들, 5일 연속 하락이면 솔직히 지친다. 이번 주만 -6.6%.\n\nForward P/E 20.8x, PEG 0.32.\n\n1/4",
           "thread": [
-            "순이익 $120.1B, 61명 중 58명 Buy. Rosenblatt $325(+88%). 펀더멘털은 흠잡을 데가 없다.\n\n이건 NVDA 문제가 아니라 전쟁 문제다.\n\n2/4",
-            "RSI 33, 200일선 아래. 무섭지만 이런 괴리가 역사적 매수 기회였다.\n\n전쟁이 잠잠해지면 NVDA가 먼저 반응한다.\n\n3/4",
-            "Buy. 분할 매수. 시간이 편이다.\n\n$172.70, 목표 $267(+55%)\n\n4/4"
+            "순이익 $120.1B, 61명 중 58명 Buy. 컨센서스 $275(+59%). 숫자가 거짓말을 할 리가 없다.\n\n이건 NVDA의 문제가 아니다. 매크로가 전부 누르고 있다.\n\n2/4",
+            "데스크로스 임박까지 겹쳐서 불안하겠지만, 시간외 $174.90으로 반등이 시작됐다.\n\n이런 괴리는 결국 해소된다. 시간 문제다.\n\n3/4",
+            "Buy. 조급하지 말고 분할 매수. 6개월 뒤에 웃는 쪽은 지금 사는 사람이다.\n\n$172.70, 목표 $275(+59%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA $173, PEG 0.39에 200일선 하회. 역사적 저점",
-          "text": "$NVDA $172.70(-3.28%)\n\n이란 전쟁 보도에 S&P 200일선 붕괴. GTC 호재 5일 연속 무시.\n\nFY26 순이익 $120.1B, Forward P/E 25.1x, PEG 0.39. Rosenblatt $325(+88%), 61명 중 58명 Buy.\n\n매크로에 눌렸지만 펀더멘털 괴리는 역사적. Buy. 분할 매수. 목표 $267(+55%)."
+          "hook": "NVDA $172, Forward P/E 20배로 추락. 역사적 진입점",
+          "text": "$NVDA $172.70(-3.28%)\n\nGTC 2026 마감. $1T 추론 시장, Vera Rubin, 중국 H200 재개. 주가는 5일 연속 하락.\n\nFY26 매출 $215.9B(+65%), 순이익률 55.6%. Forward P/E 20.8x, PEG 0.32. 컨센서스 $275(+59%), Evercore $352. 61명 중 58명 Buy.\n\n데스크로스 임박이 기술적 부담이나 펀더멘털 괴리는 역대급. Buy. 분할 매수. 목표 $275(+59%)."
         },
         "witty": {
-          "hook": "Jensen vs Pentagon 시즌 2, 이번에도 Pentagon 승",
-          "text": "$NVDA $172.70(-3.28%)\n\nJensen이 $1T 추론 시장을 그렸다. Musk가 칩을 사겠다 했다. 중국 문도 열렸다. 그런데 Pentagon이 이란에 군대 보내겠다 하니까 다 소용없다.\n\nPEG 0.39. 순이익 $120.1B. 하드웨어 회사가 마진 55.6%라니. GTC 호재를 온몸에 두르고 과매도.\n\nBuy. 전쟁이 끝나면 이 가격을 아쉬워할 거다. 목표 $267(+55%)."
+          "hook": "Jensen이 $1T 그렸는데 시장은 데스크로스 걱정 중",
+          "text": "$NVDA $172.70(-3.28%)\n\n이번 주 Jensen Huang이 한 일: $1T 추론 시장 선언, Vera Rubin 공개, 중국 문 열기, Musk 주문 확보. 이번 주 주가가 한 일: 5일 연속 하락.\n\nForward P/E 20.8x. PEG 0.32. S&P 500이랑 비슷한 멀티플에 65% 성장. 이 조합이 오래 갈 리가 없다.\n\n데스크로스? 보고 웃겨야 할 수치에 눈물이 난다. Buy. 목표 $275(+59%)."
         },
         "empathy": {
-          "hook": "NVDA 홀더들, 5일 연속 하락에 전쟁까지. 속상하다",
-          "text": "$NVDA $172.70(-3.28%)\n\n역대급 GTC가 끝났는데 5일째 빠진다. 이란 전쟁 보도까지. 기대가 컸던 만큼 실망이 크다.\n\n이건 NVDA의 문제가 아니다. 순이익 $120.1B, PEG 0.39. 61명 중 58명 Buy, Rosenblatt $325(+88%). 숫자가 이렇게 좋은데 안 오르니까 답답하다.\n\nRSI 33, 200일선 아래. 무섭지만 시간이 편이다. 분할 매수. Buy. 목표 $267(+55%)."
+          "hook": "NVDA 홀더들, 이번 주 정말 고생했다",
+          "text": "$NVDA $172.70(-3.28%)\n\n역대급 GTC를 보면서 기대에 부풀었는데 주가는 5일 연속 내렸다. 이번 주만 -6.6%. 진짜 지친다.\n\n근데 숫자를 다시 보자. 순이익 $120.1B, 마진 55.6%, Forward P/E 20.8x, PEG 0.32. 컨센서스 $275(+59%). 이 펀더멘털이 틀린 게 아니다. 매크로에 눌렸을 뿐이다.\n\n시간외 $174.90으로 반등 시작. 조급하지 말고 분할 매수. 시간이 편이다. Buy. 목표 $275(+59%)."
         }
       }
     }

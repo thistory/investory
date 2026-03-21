@@ -2,13 +2,13 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-21",
-  "currentPrice": 19.85,
-  "marketCap": "$8.84B",
+  "currentPrice": 21.19,
+  "marketCap": "$9.51B",
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/15 기준 4,595,562 ETH(총 공급량의 3.81%) 보유, 총 크립토+현금 $11.5B. ETH가 $2,143 수준에서 횡보 중이지만, 이란 전쟁 공포와 S&P 500 200일선 붕괴로 BMNR도 -3.7% 추가 하락. Tom Lee는 $9.6B 기관 매도를 '역발상 매수 신호'로 해석.",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/18 기준 ~4,656,561 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 ~$11.5B. ETH가 $2,158 수준에서 소폭 반등 중이며, BMNR도 전일 $21.41에서 소폭 하락한 $21.19에 거래 중. P/B ~0.66x로 여전히 NAV 대비 할인 거래.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,595,562 ETH 보유 (~$9.85B at ~$2,143/ETH)",
+      "ETH 트레저리: ~4,656,561 ETH 보유 (~$10.05B at ~$2,158/ETH)",
       "ETH 스테이킹 수익: ~3M ETH 스테이킹, 연간 ~$174M 수익",
       "배당: 4.7% 배당수익률, 크립토 트레저리 기업 중 유일",
       "비트코인 보유: 196 BTC 보유 (부수적)"
@@ -16,24 +16,25 @@
     "keyProducts": ["Ethereum Treasury", "ETH Staking", "MAVAN Validator Network", "Crypto Holdings"]
   },
   "keyMetrics": [
-    {"name": "P/B (TTM)", "value": "0.61x", "interpretation": "NAV 대비 39% 할인으로 확대. MSTR P/B 2-3x 대비 극단적 저평가. 시장 패닉으로 할인폭 더 벌어짐"},
-    {"name": "ETH 보유량", "value": "4,595,562 ETH", "interpretation": "전체 ETH 공급의 3.81%. 세계 최대 상장 ETH 트레저리. 추가 60,999개 매수(3/18)"},
-    {"name": "총 크립토+현금", "value": "~$11.05B", "interpretation": "ETH $9.85B(at $2,143) + 현금 $1.2B. 시총 $8.84B 대비 NAV 프리미엄 유지"},
-    {"name": "배당수익률", "value": "4.9%", "interpretation": "주가 하락으로 배당수익률 상승. 크립토 트레저리 기업 중 유일한 배당"},
-    {"name": "스테이킹 수익", "value": "연 ~$174M", "interpretation": "~3M ETH 스테이킹. MAVAN 자체 밸리데이터 확대 중"},
-    {"name": "YTD 수익률", "value": "-35%", "interpretation": "전쟁 공포 + ETH 약세 + 금리 역풍으로 연초 대비 큰 폭 하락 지속"}
+    {"name": "P/B (TTM)", "value": "0.66x", "interpretation": "NAV 대비 ~34% 할인 거래. MSTR P/B 2-3x 대비 여전히 극단적 저평가. 주가 소폭 반등으로 할인 폭이 36%에서 34%로 줄었다"},
+    {"name": "ETH 보유량", "value": "~4,656,561 ETH", "interpretation": "전체 ETH 공급의 ~3.86%. 세계 최대 상장 ETH 트레저리. 3/18 추가 60,999개 매수 반영"},
+    {"name": "총 크립토+현금", "value": "~$11.45B", "interpretation": "ETH ~$10.05B(at $2,158) + 현금 ~$1.2B + Beast Industries ~$200M. 시총 $9.51B 대비 NAV 프리미엄 유지"},
+    {"name": "배당수익률", "value": "4.7%", "interpretation": "크립토 트레저리 기업 중 유일한 배당. 하락장에서 인컴 투자자에게 매력"},
+    {"name": "스테이킹 수익", "value": "연 ~$174M", "interpretation": "~3M ETH 스테이킹, ETH 스테이킹 수익률 ~2.7%. MAVAN 자체 밸리데이터로 수수료 절감 추진 중"},
+    {"name": "P/E (TTM)", "value": "-24.01x", "interpretation": "적자 상태로 P/E 마이너스. S&P 500 평균 P/E ~21x, 크립토 섹터 평균 ~35x 대비 의미 있는 비교 불가. 스테이킹 수익이 흑자 전환 열쇠"},
+    {"name": "YTD 수익률", "value": "-31%", "interpretation": "연초 대비 큰 폭 하락 지속. 다만 3/18 저점 $19.76 대비 +7.2% 반등 중"}
   ],
   "growthDrivers": [
-    {"title": "Tom Lee: $9.6B 기관 매도는 '역발상 매수 신호'", "description": "기록적인 기관 투자자 매도($9.6B)가 5시그마 이벤트로, 과거 이런 극단적 매도 이후 항상 반등했다고 Tom Lee가 분석. 매도 규모가 2025년 7월 기록을 넘어섰다."},
-    {"title": "P/B 0.61x, NAV 대비 39% 할인 확대", "description": "시총이 추가 하락하면서 NAV 할인이 36%에서 39%로 확대. MSTR P/B 2-3x 대비 극단적 갭."},
-    {"title": "MAVAN 자체 스테이킹 플랫폼 2026 론칭", "description": "Made in America Validator Network로 제3자 스테이킹 수수료 절감. 수익률 개선 기대."},
-    {"title": "Falling Wedge + Wyckoff 축적 패턴 유지", "description": "Invezz 분석에 따르면 falling wedge + Wyckoff 축적 단계가 유지. 상방 브레이크아웃 시 큰 폭 반등 가능."},
-    {"title": "배당수익률 4.9%: 하락장 방어 수단", "description": "주가 하락으로 배당수익률이 4.9%로 상승. 하락장에서 인컴 투자자에게 더 매력적."}
+    {"title": "ETH $2,158 반등 + 4,656,561 ETH 트레저리 확대", "description": "3/18 추가 60,999 ETH 매수로 총 보유량 ~4.66M ETH. ETH가 $2,143에서 $2,158로 소폭 반등하면서 트레저리 가치도 $10.05B으로 회복 중."},
+    {"title": "P/B 0.66x, NAV 대비 34% 할인", "description": "시총 $9.51B vs 총 자산 ~$11.45B. MSTR P/B 2-3x 대비 극단적 갭 유지. NAV 할인 해소만으로 +52% 업사이드."},
+    {"title": "MAVAN 자체 스테이킹 플랫폼 2026 론칭", "description": "Made in America Validator Network로 제3자 스테이킹 수수료 절감. Pectra 업그레이드로 밸리데이터 캡이 32 ETH에서 2,048 ETH로 확대, MAVAN에 유리."},
+    {"title": "Falling Wedge + Wyckoff 축적 패턴 유지", "description": "Invezz 분석에 따르면 falling wedge + Wyckoff 축적 단계가 유지. $22 레벨 돌파 시 상방 브레이크아웃 가능."},
+    {"title": "배당수익률 4.7%: 하락장 방어 수단", "description": "크립토 주식 중 유일한 배당. 하락장에서 인컴 투자자에게 더 매력적. 스테이킹 수익으로 배당 지속 가능."}
   ],
   "competitiveAdvantage": {
-    "summary": "상장 기업 중 최대 ETH 보유량(3.81% of supply). Tom Lee 합류로 제도권 신뢰도 확보. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
+    "summary": "상장 기업 중 최대 ETH 보유량(3.86% of supply). Tom Lee 합류로 제도권 신뢰도 확보. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
     "moats": [
-      {"type": "ETH 공급량 집중", "description": "전체 ETH 공급의 3.81% 보유. 시장에서 대체 불가능한 포지션."},
+      {"type": "ETH 공급량 집중", "description": "전체 ETH 공급의 3.86% 보유. 시장에서 대체 불가능한 포지션."},
       {"type": "제도권 접근성", "description": "상장 주식으로 ETH 노출 제공. ETF 없이도 기관 투자자 접근 가능."},
       {"type": "스테이킹 수익", "description": "~3M ETH 스테이킹 + MAVAN 자체 플랫폼으로 단순 보유 대비 수익률 우위."}
     ],
@@ -44,123 +45,131 @@
     ]
   },
   "recentNews": [
-    {"date": "2026-03-20", "headline": "Tom Lee: $9.6B 기관 매도는 역사적 역발상 매수 신호", "significance": "기록적 기관 매도가 '5시그마 이벤트'라며 과거 패턴상 강한 반등이 뒤따른다고 분석.", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bmnr-tom-lee-sees-bullish-signal-in-record-9-6-billion-institutional-selling/cZ3XtoyRILF"},
-    {"date": "2026-03-20", "headline": "BMNR -3.71%: 이란 전쟁 공포에 위험자산 전반 급락", "significance": "CBS의 이란 지상군 투입 보도로 S&P 500이 200일선 아래 붕괴. 위험자산인 크립토 관련주 직격탄.", "url": "https://www.timothysykes.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_20/"},
-    {"date": "2026-03-20", "headline": "Eightco(ORBS), OpenAI 투자 $90M으로 확대, 트레저리 30%", "significance": "BMNR 관계사 Eightco가 OpenAI에 추가 $40M 투자. Tom Lee가 두 회사를 연결하는 크립토+AI 전략.", "url": "https://investingnews.com/eightco-invests-additional-40-million-into-openai-bringing-total-openai-investment-to-90-million/"},
-    {"date": "2026-03-19", "headline": "Invezz: Falling wedge 패턴 형성, 폭발적 상승 가능성", "significance": "기술적 분석에서 falling wedge + Wyckoff 축적 단계 확인.", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/"},
-    {"date": "2026-03-18", "headline": "추가 60,999 ETH 매수 공시, 전략 집중 심화", "significance": "Yahoo Finance가 '너무 집중되어 있지 않은가' 분석. 공격적 매수 지속.", "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-bmnr-deepens-130831157.html"}
+    {"date": "2026-03-21", "headline": "BMNR $21.19, 전일 대비 소폭 하락하며 $22 레벨 테스트 진행 중", "significance": "주간 저점 $19.76(3/18) 대비 +7.2% 반등. $22 저항선 테스트가 단기 방향성의 열쇠.", "url": "https://finance.yahoo.com/quote/BMNR/"},
+    {"date": "2026-03-21", "headline": "ETH $2,158로 소폭 반등, 스테이킹 수익률 2.7%로 압축", "significance": "ETH 가격 안정화로 BMNR 트레저리 가치 회복. 다만 스테이킹 수익률이 2.7%로 낮아지면서 수익성 압박.", "url": "https://bitcoinethereumnews.com/bitcoin/ethereum-price-today-eth-yield-compression-drives-alphapepe-100x-liquidity-arbitrage-as-btc-tests-71k-support/"},
+    {"date": "2026-03-18", "headline": "추가 60,999 ETH 매수 공시, 총 ~4.66M ETH로 확대", "significance": "Yahoo Finance가 'ETH와 AI에 베팅이 너무 집중되어 있지 않은가' 분석. 공격적 매수는 장점이자 리스크.", "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-bmnr-deepens-130831157.html"},
+    {"date": "2026-03-18", "headline": "BMNR -7.62% 급락, 재무 건전성 우려 부각", "significance": "StocksToTrade: 높은 매출에도 비용 부담, ROA -42.42%, 부채 부담. 크립토 트레저리 전략 지속 가능성 의문 제기.", "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_18/"},
+    {"date": "2026-03-08", "headline": "ETH 보유 4,534,563개, 총 크립토+현금 $10.3B 공시", "significance": "PRNewswire 공식 발표. 이후 추가 매수로 현재 ~4.66M ETH.", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html"}
   ],
   "analystOpinions": {
     "consensusTarget": 30,
-    "highTarget": 30,
+    "highTarget": 47,
     "lowTarget": 30,
-    "upsidePercent": 51.1,
+    "upsidePercent": 41.6,
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley Securities 단독 커버리지. Strong Buy 유지, 목표가 $30. 주가 추가 하락으로 업사이드가 51.1%로 확대. 커버리지 극히 제한적."
+    "notableComment": "B. Riley Securities Strong Buy 유지, 목표가 $30. StockAnalysis 기준 이전 목표가 $47에서 하향. BTCC는 ETH 가격이 지지되고 희석이 통제되면 $47 도달 가능하다고 분석. 커버리지 극히 제한적(1명)."
   },
   "risks": [
-    {"severity": "critical", "title": "ETH 가격 의존성 + 이란 전쟁 리스크", "description": "자산의 90%+ ETH. 이란 전쟁 확전 시 위험자산 전반 급락 가능. S&P 500이 200일선 아래로 떨어진 상황에서 크립토 관련주는 더 큰 타격."},
-    {"severity": "high", "title": "B. Riley 목표가 대폭 하향 ($90 -> $47 -> $30)", "description": "유일한 커버리지 애널리스트가 5개월 만에 목표가를 67% 낮췄다. 크립토 트레저리 전략에 대한 낙관론이 크게 후퇴."},
-    {"severity": "high", "title": "ETH 전략 과집중 리스크", "description": "60,999 ETH 추가 매수로 집중도 더 심화. ETH 하락 시 NAV 폭락 불가피."},
-    {"severity": "medium", "title": "크립토 트레저리 전략 회의론", "description": "247wallst 'crypto treasury trade running out of steam?'. 전략 자체에 대한 시장 피로감."},
-    {"severity": "medium", "title": "극도로 제한된 애널리스트 커버리지", "description": "1명만 커버. 기관 관심 부족으로 가격 발견 비효율 지속."}
+    {"severity": "critical", "title": "ETH 가격 의존성: 자산 90%+ ETH 집중", "description": "ETH $2,158에서 $1,800으로 하락 시 트레저리 ~$8.4B으로 축소. ROA -42.42%, 비용 부담이 ETH 약세 시 더 부각된다."},
+    {"severity": "high", "title": "재무 건전성 우려: ROA -42.42%, 마이너스 P/E", "description": "StocksToTrade가 지적한 높은 운영비용, 부채 부담, 마이너스 수익성. 스테이킹 수익만으로는 적자를 메우기 어렵다."},
+    {"severity": "high", "title": "ETH 전략 과집중 + 스테이킹 수익률 압축", "description": "스테이킹 수익률 2.7%로 하락. $10만 투자 시 연 $2,700 수익이지만 ETH 40% 하락 시 원금 손실이 훨씬 크다."},
+    {"severity": "medium", "title": "크립토 트레저리 전략 피로감", "description": "247wallst 'crypto treasury trade running out of steam?'. MSTR과 동반 하락. 전략 자체에 대한 시장 회의론 지속."},
+    {"severity": "medium", "title": "극도로 제한된 애널리스트 커버리지", "description": "1명만 커버. 기관 관심 부족으로 가격 발견 비효율 지속. 목표가 $90에서 $30으로 지속 하향."},
+    {"severity": "medium", "title": "희석 리스크 + 규제 불확실성", "description": "ETH 매수를 위한 지속적 자본 조달로 기존 주주 희석 가능성. SEC 크립토 규제 강화 리스크."}
   ],
   "buyReasons": [
-    {"title": "P/B 0.61x, NAV 대비 39% 할인: 역사적 저평가", "rationale": "시총 $8.84B vs 총 자산 ~$11.05B. MSTR P/B 2-3x 대비 극단적 저평가. NAV 할인 해소만으로 +64% 업사이드."},
-    {"title": "Tom Lee의 역발상 매수 신호: $9.6B 5시그마 이벤트", "rationale": "기록적 기관 매도가 과거 패턴상 강한 반등의 전조. Tom Lee의 분석은 시장 저점에서 자주 맞았다."},
-    {"title": "배당수익률 4.9% + 스테이킹 수익", "rationale": "주가 하락으로 배당수익률 상승. 연 $174M 스테이킹 수익으로 배당 지급. 하락장에서 인컴 보장."},
-    {"title": "Falling Wedge 패턴: 기술적 반등 신호", "rationale": "기술적 분석에서 상방 브레이크아웃 패턴 유지. 축적 단계 완료 시 급등 가능."}
+    {"title": "P/B 0.66x, NAV 대비 34% 할인", "rationale": "시총 $9.51B vs 총 자산 ~$11.45B. MSTR P/B 2-3x 대비 극단적 저평가. NAV 할인 해소만으로 +52% 업사이드."},
+    {"title": "ETH 공급 3.86% + 추가 매수 지속", "rationale": "60,999 ETH 추가 매수(3/18). ~4.66M ETH로 대체 불가능한 포지션 강화. 일 거래량 $1B."},
+    {"title": "Falling Wedge 패턴: $22 돌파 시 브레이크아웃", "rationale": "기술적 분석에서 falling wedge + Wyckoff 축적 단계 확인. $22 레벨이 핵심 저항선."},
+    {"title": "4.7% 배당 + 연 $174M 스테이킹 수익", "rationale": "배당과 스테이킹 수익으로 하락장에서도 인컴 보장. 크립토 주식 중 유일."}
   ],
   "technicalPosition": {
     "week52High": 161.00,
-    "week52Low": 3.20,
-    "currentPositionPercent": 10.5,
-    "sma50": 23.00,
+    "week52Low": 3.92,
+    "currentPositionPercent": 11.0,
+    "sma50": 23.50,
     "sma50Signal": "below",
-    "sma200": 28.00,
+    "sma200": 28.50,
     "sma200Signal": "below",
-    "rsi": 37.0,
+    "rsi": 41.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "이란 전쟁 공포로 S&P 500이 200일선 아래로 붕괴하면서 BMNR도 $19.85(-3.7%)로 추가 하락했다. P/B가 0.61x로 떨어져 NAV 대비 39% 할인이다. 자산 $11B을 $8.8B에 파는 셈이다.",
-    "Tom Lee가 $9.6B 기관 매도를 '5시그마 이벤트'이자 역발상 매수 신호라고 분석했다. 과거 이런 극단적 매도 후에는 항상 반등이 뒤따랐다고 한다.",
-    "50일선($23)과 200일선($28) 아래에서 falling wedge 패턴이 유지되고 있다. ETH 반등과 이란 리스크 해소가 동시에 와야 의미 있는 반등이 가능. Hold. 배당 4.9% 받으면서 기다리자. 목표 $30(+51%)."
+    "BMNR이 주간 저점 $19.76에서 +7.2% 반등해 $21.19에 거래 중이다. ETH도 $2,158로 소폭 반등하면서 트레저리 가치가 ~$10.05B으로 회복 중이다.",
+    "P/B 0.66x로 NAV 대비 34% 할인 거래. 시총 $9.51B에 자산 $11.45B. MSTR P/B 2-3x와 비교하면 저평가지만, ROA -42.42%와 마이너스 P/E가 단기 펀더멘털 부담이다.",
+    "$22 저항선 테스트가 단기 방향의 열쇠다. 50일선($23.5)과 200일선($28.5) 아래에서 falling wedge 패턴 유지 중. RSI 41로 과매도 탈출 시도 중이다.",
+    "Hold. 배당 4.7% 받으면서 $22 돌파 확인 후 비중 확대. 목표가 $30(+42%)."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "P/B 0.61x로 NAV 대비 39% 할인은 매력적이다. Tom Lee의 역발상 신호도 주목할 만하다. 하지만 이란 전쟁 리스크와 ETH 방향 불확실성이 반등을 가로막고 있다. 배당 4.9%를 받으면서 ETH와 지정학 안정을 확인한 후 비중 확대가 안전하다.",
+    "summary": "P/B 0.66x로 NAV 대비 34% 할인이 매력적이지만, 마이너스 수익성과 ETH 방향 불확실성이 공존한다. 주간 저점에서 반등 중이며 $22 저항선 돌파가 기술적 전환점. 배당 4.7%와 스테이킹 수익을 받으면서 ETH 방향 확인 후 비중 조정. Falling wedge 패턴 상방 돌파 시 적극 매수 전환.",
     "horizon": "3-6개월"
   },
   "sources": [
-    {"name": "Stocktwits - Tom Lee", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/bmnr-tom-lee-sees-bullish-signal-in-record-9-6-billion-institutional-selling/cZ3XtoyRILF", "description": "Tom Lee: $9.6B 기관 매도를 5시그마 역발상 매수 신호로 해석"},
-    {"name": "Timothy Sykes - BMNR", "url": "https://www.timothysykes.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_20/", "description": "BMNR -3.71% 하락, 시장 변동성 분석"},
-    {"name": "Investing News - Eightco OpenAI", "url": "https://investingnews.com/eightco-invests-additional-40-million-into-openai-bringing-total-openai-investment-to-90-million/", "description": "Eightco OpenAI 투자 $90M 확대"},
-    {"name": "Invezz - Falling Wedge", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/", "description": "Falling wedge + Wyckoff 축적 패턴 분석"},
-    {"name": "Yahoo Finance - BMNR ETH", "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-bmnr-deepens-130831157.html", "description": "60,999 ETH 추가 매수, 전략 집중도 분석"},
-    {"name": "Fortune - ETH Price", "url": "https://fortune.com/article/price-of-ethereum-03-20-2026/", "description": "ETH $2,142.77, 소폭 반등"},
-    {"name": "CBS News - Pentagon Iran", "url": "https://www.cbsnews.com/news/trump-administration-iran-ground-troop-preparations/", "description": "Pentagon 이란 지상군 투입 준비 보도"},
-    {"name": "PRNewswire - ETH Holdings", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-596-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-5-billion-302714219.html", "description": "4,595,562 ETH, $11.5B 트레저리 공시"},
-    {"name": "StockAnalysis - BMNR", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "B. Riley $30 목표가, Strong Buy"}
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/BMNR/", "description": "BMNR 실시간 주가, 52주 범위 $3.92-$161.00"},
+    {"name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "시총 $9.51B, P/E -24.01, 배당 4.7%, 3/20 거래 데이터"},
+    {"name": "Investing.com", "url": "https://www.investing.com/equities/bitmine-immersion-tech", "description": "BMNR $20.71 기술적 분석, 이동평균선"},
+    {"name": "Yahoo Finance News", "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-bmnr-deepens-130831157.html", "description": "60,999 ETH 추가 매수, ETH/AI 전략 집중도 분석"},
+    {"name": "StocksToTrade", "url": "https://stockstotrade.com/news/bitmine-immersion-technologies-inc-bmnr-news-2026_03_18/", "description": "-7.62% 하락, 재무 건전성 우려, ROA -42.42%"},
+    {"name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-535-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-3-billion-302708118.html", "description": "3/8 기준 ETH 4,534,563개, 총 $10.3B 공시"},
+    {"name": "Fortune - ETH Price", "url": "https://fortune.com/article/price-of-ethereum-03-20-2026/", "description": "ETH $2,142.77, 전일 대비 +$21.01"},
+    {"name": "LiteFinance", "url": "https://www.litefinance.org/blog/analysts-opinions/ethereum-price-prediction-forecast/", "description": "ETH $2,158.56 (3/21 기준)"},
+    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/bmnr/forecast/", "description": "애널리스트 목표가, Strong Buy 컨센서스"},
+    {"name": "BTCC", "url": "https://www.btcc.com/en-US/academy/stocks/stock-forecast/bmnr-stock-price-prediction", "description": "BMNR 2026 가격 예측, 목표가 ~$47"},
+    {"name": "BitcoinEthereumNews", "url": "https://bitcoinethereumnews.com/bitcoin/ethereum-price-today-eth-yield-compression-drives-alphapepe-100x-liquidity-arbitrage-as-btc-tests-71k-support/", "description": "ETH 스테이킹 수익률 2.7% 압축 분석"}
   ],
   "snsContent": {
     "x": {
-      "hook": "자산 $11B, 시총 $8.8B. 할인폭이 39%로 벌어졌다",
-      "text": "$BMNR $19.85(-3.71%)\n\n이란 전쟁 공포에 S&P 200일선 붕괴. BMNR도 추가 하락. P/B 0.61x, NAV 대비 39% 할인. Tom Lee: $9.6B 기관 매도는 '역발상 매수 신호'.\n\n1/3",
+      "hook": "BMNR, 주간 저점에서 +7.2% 반등. $22가 열쇠다",
+      "text": "$BMNR $21.19(-1.03%)\n\n주간 저점 $19.76에서 +7.2% 반등. ETH $2,158으로 트레저리 ~$10.05B 회복 중. P/B 0.66x, NAV 대비 34% 할인.\n\n1/4",
       "thread": [
-        "과거 이런 5시그마 매도 후 항상 반등했다. Falling wedge 패턴도 유지 중. 배당 4.9%.\n\nETH $2,143 횡보. 반등이 먼저다.\n\n2/3",
-        "Hold. 배당 받으면서 이란과 ETH 방향 확인 후 비중 확대.\n\n$19.85, 목표 $30(+51%)\n\n3/3"
+        "$22 저항선 테스트 중. 50일선 $23.5, 200일선 $28.5 아래. Falling wedge 패턴에서 상방 돌파 나오면 빠르게 갈 수 있다.\n\n2/4",
+        "리스크도 봐야 한다. ROA -42.42%, P/E 마이너스. 스테이킹 수익률 2.7%로 압축. 이익으로 연결되려면 시간이 필요하다.\n\n3/4",
+        "Hold. 배당 4.7% 받으면서 $22 돌파 확인 후 추가 매수. 목표 $30(+42%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR, NAV 39% 할인. Tom Lee는 반등 신호라 한다",
-      "text": "$BMNR $19.85(-3.71%)\n\n이란 전쟁 공포로 시장이 패닉에 빠지면서 BMNR도 추가 하락. P/B 0.61x, 자산 $11B 대비 시총 $8.8B. 39% 할인.\n\nTom Lee가 $9.6B 기관 매도를 '5시그마 역발상 매수 신호'라고 분석했다. 과거 패턴상 반등의 전조라는 것. Falling wedge도 유지 중.\n\nHold. 배당 4.9% 받으면서 ETH 반등과 이란 안정 확인 후 판단. 목표 $30(+51%)."
+      "hook": "BMNR, $19.76 저점 찍고 반등 중. $22가 분기점",
+      "text": "$BMNR $21.19(-1.03%)\n\n주간 저점 $19.76에서 +7.2% 반등 중. ETH $2,158로 트레저리 ~$10.05B 회복. P/B 0.66x, NAV 대비 34% 할인.\n\n$22 저항선이 핵심이다. 50일선($23.5)과 200일선($28.5) 아래지만 falling wedge 패턴에서 상방 신호가 보인다. RSI 41로 과매도 탈출 시도 중.\n\nROA -42.42%, P/E 마이너스가 부담이지만 배당 4.7%와 스테이킹 연 $174M이 버팀목. Hold. 목표 $30(+42%)."
     },
     "telegram": {
-      "hook": "BMNR $19.85, NAV 39% 할인 + 역발상 신호",
-      "text": "BMNR $19.85 (-3.71%)\nETH: $2,143\n\n핵심 이슈\n- 이란 전쟁 공포로 위험자산 급락\n- P/B 0.61x, NAV 대비 39% 할인 확대\n- Tom Lee: $9.6B 기관 매도 = 역발상 매수 신호\n- Eightco OpenAI 투자 $90M 확대\n- Falling wedge 패턴 유지\n\n주가 위치\n- 50일선($23), 200일선($28) 아래\n- RSI 37, 배당 4.9%\n\n목표가: $30 (+51%)\n판단: Hold. ETH 반등 + 이란 안정 확인 후 비중 확대."
+      "hook": "BMNR $21.19, 주간 저점 대비 +7.2% 반등",
+      "text": "BMNR 일일 분석 (3/21)\n\n가격: $21.19 (-1.03%)\nETH: $2,158 (+0.7%)\n\n핵심 이슈\n- 주간 저점 $19.76에서 +7.2% 반등\n- 60,999 ETH 추가 매수, 총 ~4.66M ETH\n- P/B 0.66x, NAV 대비 34% 할인\n- $22 저항선 테스트 중\n- ROA -42.42%, 스테이킹 수익률 2.7% 압축\n\n주가 위치\n- 52주: $3.92 - $161.00 (하위 11%)\n- 50일선($23.5), 200일선($28.5) 아래\n- RSI 41, falling wedge 패턴\n- 배당 4.7%\n\n목표가: $30 (+42%)\n판단: Hold. $22 돌파 확인 후 비중 확대."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "자산 $11B, 시총 $8.8B. 할인폭이 39%로 벌어졌다",
-          "text": "$BMNR $19.85(-3.71%)\n\n이란 전쟁 공포에 S&P 200일선 붕괴. BMNR도 추가 하락. P/B 0.61x, NAV 대비 39% 할인. Tom Lee: $9.6B 기관 매도는 '역발상 매수 신호'.\n\n1/3",
+          "hook": "BMNR, 주간 저점에서 +7.2% 반등. $22가 열쇠다",
+          "text": "$BMNR $21.19(-1.03%)\n\n주간 저점 $19.76에서 +7.2% 반등. ETH $2,158으로 트레저리 ~$10.05B 회복 중. P/B 0.66x, NAV 대비 34% 할인.\n\n1/4",
           "thread": [
-            "과거 이런 5시그마 매도 후 항상 반등했다. Falling wedge 패턴도 유지 중. 배당 4.9%.\n\nETH $2,143 횡보. 반등이 먼저다.\n\n2/3",
-            "Hold. 배당 받으면서 이란과 ETH 방향 확인 후 비중 확대.\n\n$19.85, 목표 $30(+51%)\n\n3/3"
+            "$22 저항선 테스트 중. 50일선 $23.5, 200일선 $28.5 아래. Falling wedge 패턴에서 상방 돌파 나오면 빠르게 갈 수 있다.\n\n2/4",
+            "리스크도 봐야 한다. ROA -42.42%, P/E 마이너스. 스테이킹 수익률 2.7%로 압축. 이익으로 연결되려면 시간이 필요하다.\n\n3/4",
+            "Hold. 배당 4.7% 받으면서 $22 돌파 확인 후 추가 매수. 목표 $30(+42%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "만원짜리를 6,100원에 판다. 사는 사람이 없다",
-          "text": "$BMNR $19.85(-3.71%)\n\n자산 $11B인데 시총 $8.8B. P/B 0.61x. ETH를 더 살수록 할인이 커지는 아이러니.\n\nTom Lee: '이건 5시그마 매수 신호다.' B. Riley도 Strong Buy. 근데 시장은 이란만 본다.\n\n1/3",
+          "hook": "ETH 더 사도 주가는 안 가는데, 드디어 반등 시작?",
+          "text": "$BMNR $21.19(-1.03%)\n\n$19.76 찍고 반등 중. ETH 4.66M개를 쌓아놓고 시총은 $9.5B. 금고에 $11.5B인데 34% 할인 세일 중. 백화점도 이 정도 세일은 안 한다.\n\n1/4",
           "thread": [
-            "배당 4.9% 올라갔다. 빠질수록 배당이 높아지는 크립토 주식. 어디서 본 구조 같다.\n\n2/3",
-            "Hold. 전쟁 끝나면 이 가격은 추억이 될 수도. 배당 받자.\n\n$19.85, 목표 $30(+51%)\n\n3/3"
+            "$22 돌파하면 falling wedge 패턴 완성. 그때 진짜 간다. 50일선 $23.5 뚫으면 숏커버 랠리 기대.\n\n2/4",
+            "ROA -42%? 그건 ETH를 계속 사기 때문이다. 미실현 이익은 장부에 안 잡힌다. P/E 마이너스의 함정.\n\n3/4",
+            "배당 4.7% 받으면서 $22 구경하자. 뚫으면 추가 매수. 목표 $30(+42%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR 홀더들, YTD -35%. 힘든 거 안다",
-          "text": "$BMNR $19.85(-3.71%)\n\n연초 대비 35% 빠졌다. 이란 전쟁에 시장까지. ETH도 횡보. 크립토 트레저리에 올인한 마음이 흔들릴 만하다.\n\n1/3",
+          "hook": "BMNR 주주들, $19.76 바닥은 무서웠지? 반등 시작이다",
+          "text": "$BMNR $21.19(-1.03%)\n\n수요일 -7.6% 급락이 충격이었을 거다. 하지만 $19.76에서 반등해서 $21.19까지 올라왔다. ETH도 $2,158로 돌아오는 중.\n\n1/4",
           "thread": [
-            "하지만 P/B 0.61x. $11B 자산을 $8.8B에 파는 중. Tom Lee는 5시그마 반등 신호라 한다. 배당 4.9%.\n\n2/3",
-            "지금은 버티는 게 전략. ETH가 $2,500 넘으면 분위기가 달라진다.\n\nHold. $19.85, 목표 $30(+51%)\n\n3/3"
+            "P/B 0.66x, 자산 $11.5B인데 시총 $9.5B. 시장이 가치를 못 알아보는 건 사실이다. 하지만 그래서 기회이기도 하다.\n\n2/4",
+            "당장 흑자가 아닌 게 불안한 건 안다. 스테이킹 수익률도 2.7%로 줄었다. 그래도 연 $174M 수익과 4.7% 배당이 버팀목이다.\n\n3/4",
+            "$22 돌파를 같이 기다리자. 거기서 분위기가 바뀐다. Hold. 목표 $30(+42%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR, NAV 39% 할인. Tom Lee 역발상 신호",
-          "text": "$BMNR $19.85(-3.71%)\n\n이란 전쟁 공포에 추가 하락. P/B 0.61x, 자산 $11B 대비 시총 $8.8B.\n\nTom Lee: $9.6B 기관 매도 = 5시그마 역발상 신호. Falling wedge 유지. 배당 4.9%.\n\nHold. ETH 반등 확인 후 비중 확대. 목표 $30(+51%)."
+          "hook": "BMNR, 주간 저점 대비 +7.2% 반등. $22가 분기점",
+          "text": "$BMNR $21.19(-1.03%)\n\n주간 저점 $19.76에서 +7.2% 반등. ETH $2,158, 트레저리 ~$10.05B. P/B 0.66x, NAV 대비 34% 할인.\n\n$22 저항선 테스트 중. Falling wedge 패턴 유지. ROA -42.42%와 P/E 마이너스가 부담이지만 배당 4.7%가 방어. Hold. 목표 $30(+42%)."
         },
         "witty": {
-          "hook": "만원짜리를 6천원에 파는데 아무도 안 산다",
-          "text": "$BMNR $19.85(-3.71%)\n\nETH를 사면 살수록 주가가 빠진다. 자산 $11B, 시총 $8.8B. P/B 0.61x. MSTR은 같은 전략에 2-3배 웃돈인데.\n\nTom Lee가 '$9.6B 매도는 5시그마 반등 신호'라 했다. 맞으면 전설이고 틀리면 또 목표가 하향이다.\n\n배당 4.9%. 받으면서 기다리자. Hold. 목표 $30(+51%)."
+          "hook": "금고엔 $11.5B, 가격표엔 $9.5B. 아직도 세일 중",
+          "text": "$BMNR $21.19(-1.03%)\n\n$19.76 찍고 기어 올라오는 중. ETH 4.66M개 쌓아놓고 P/B 0.66x. 만원짜리를 6,600원에 파는데, 드디어 손님이 오기 시작했다.\n\n$22 넘으면 falling wedge 탈출. ROA -42%는 ETH 계속 사서 그런 거고, 스테이킹 연 $174M은 진짜 현금 흐름이다. 배당 4.7%도 따박따박.\n\nHold. $22 넘으면 추가 매수. 목표 $30(+42%)."
         },
         "empathy": {
-          "hook": "BMNR 홀더들, -35% YTD는 진짜 지치는 숫자다",
-          "text": "$BMNR $19.85(-3.71%)\n\n연초 대비 35% 빠졌다. 이란 전쟁, ETH 횡보, 기관 매도. 마음이 편할 리 없다.\n\n하지만 Tom Lee가 $9.6B 기관 매도를 역사적 반등 신호라 분석했다. P/B 0.61x, 자산 대비 39% 할인. 배당 4.9%도 받고 있다.\n\n지금은 버티는 게 전략이다. ETH가 돌면 BMNR도 돈다. Hold. 목표 $30(+51%)."
+          "hook": "BMNR 홀더들, 수요일 -7.6% 급락 후 반등 중이다",
+          "text": "$BMNR $21.19(-1.03%)\n\n수요일 급락은 무서웠을 거다. $19.76까지 빠졌으니까. 하지만 거기서 +7.2% 반등했다. ETH도 $2,158로 돌아오고 있다.\n\nP/B 0.66x, 자산 대비 34% 할인. 시장이 가치를 못 알아봐서 답답하겠지만, 배당 4.7%는 계속 나온다. $22 돌파하면 분위기가 달라진다.\n\nHold. 같이 기다리자. 목표 $30(+42%)."
         }
       }
     }
