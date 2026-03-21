@@ -2,336 +2,165 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-21",
-  "currentPrice": 172.93,
-  "marketCap": "$4.22T",
+  "currentPrice": 172.70,
+  "marketCap": "$4.20T",
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and AI accelerators",
-    "description": "NVIDIA is the leader in GPU-based AI accelerated computing, operating a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled a 5-layer full-stack AI platform strategy spanning chips, agent runtime, open models, factory blueprints, and software platforms, accelerating its transformation from a chip company to a platform company dominating the entire AI infrastructure. FY26 revenue hit $215.9B, growing 65% YoY. The next-gen Vera Rubin platform and Groq 3 LPU further cemented its technology leadership.",
-    "howTheyMakeMoney": [
-      "Data center AI accelerators (80%+ of revenue)",
-      "AI software platforms (CUDA, NIM, NemoClaw)",
-      "Gaming GPUs",
-      "Automotive (DRIVE)",
-      "Networking (Spectrum-X)"
-    ],
-    "keyProducts": [
-      "Vera Rubin NVL72",
-      "Groq 3 LPU",
-      "Blackwell",
-      "CUDA",
-      "NemoClaw",
-      "DRIVE"
-    ]
+    "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure with data center GPUs and AI accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled a 5-layer full-stack AI platform strategy spanning chips, agent runtimes, open models, factory blueprints, and software platforms. FY26 revenue hit $215.9B (+65% YoY), and the next-gen Vera Rubin platform and Groq 3 LPU further cemented its technology leadership.",
+    "howTheyMakeMoney": ["Data center AI accelerators (80%+ of revenue)", "AI software platforms (CUDA, NIM, NemoClaw)", "Gaming GPUs", "Automotive (DRIVE)", "Networking (Spectrum-X)"],
+    "keyProducts": ["Vera Rubin NVL72", "Groq 3 LPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
   },
   "keyMetrics": [
-    {
-      "name": "P/E TTM",
-      "value": "35.3x",
-      "interpretation": "Premium to semiconductor sector avg (25x), but PEG 0.54 with 65% revenue growth is reasonable. S&P 500 avg P/E is 23x."
-    },
-    {
-      "name": "Forward P/E",
-      "value": "25.1x",
-      "interpretation": "Based on FY27 EPS $6.88. Equal to semiconductor sector avg (25x), near S&P 500 avg (23x). PEG 0.39 vs 65% growth is a historic low."
-    },
-    {
-      "name": "Revenue Growth YoY",
-      "value": "65%",
-      "interpretation": "FY26 $215.9B. 11 consecutive quarters of 55%+ growth."
-    },
-    {
-      "name": "Net Income FY26",
-      "value": "$120.1B",
-      "interpretation": "Net margin 55.6%. Unprecedented for a hardware company."
-    },
-    {
-      "name": "Gross Margin",
-      "value": "75.0% (Q4)",
-      "interpretation": "Improved from 73.4% QoQ. Recovery from Blackwell initial margin pressure."
-    },
-    {
-      "name": "Forward P/S",
-      "value": "12.2x",
-      "interpretation": "3-year low. Yahoo Finance analysis rated NVDA valuation more reasonable than PLTR."
-    }
+    {"name": "P/E TTM", "value": "35.0x", "interpretation": "Premium vs semiconductor avg (25x) but PEG 0.54 at 65% growth rate is reasonable"},
+    {"name": "Forward P/E", "value": "25.1x", "interpretation": "Based on FY27 EPS $6.88. PEG 0.39 at 65% growth. Historic low territory"},
+    {"name": "Revenue Growth YoY", "value": "65%", "interpretation": "FY26 $215.9B. 11 consecutive quarters of 55%+ growth"},
+    {"name": "Net Income FY26", "value": "$120.1B", "interpretation": "55.6% net margin. Unprecedented for hardware"},
+    {"name": "Gross Margin", "value": "75.0% (Q4)", "interpretation": "Improved from 73.4% prior quarter. Blackwell margin pressure resolved"},
+    {"name": "Q1 FY27 Guidance", "value": "$78B", "interpretation": "Beat expectations. 55%+ YoY growth projected"}
   ],
   "growthDrivers": [
-    {
-      "title": "Rosenblatt $325 target: Wall Street's most bullish call",
-      "description": "Rosenblatt Securities raised target from $300 to $325 after GTC management meetings. 88% upside from current price."
-    },
-    {
-      "title": "China H200 sales approved: Beijing opened the door",
-      "description": "Jensen Huang confirmed at GTC. Chinese orders are coming in and supply chain is ramping. Lost 20% China revenue could return."
-    },
-    {
-      "title": "GTC 2026: $1T AI inference market opportunity",
-      "description": "Doubled from $500B last year. Inference market surpassing training as a new growth engine."
-    },
-    {
-      "title": "Vera Rubin platform: 10x performance per watt",
-      "description": "10x energy efficiency vs Grace Blackwell. Key to solving data center power bottlenecks."
-    },
-    {
-      "title": "Musk confirms continued large-scale Nvidia chip orders",
-      "description": "Tesla/SpaceX AI will continue buying Nvidia chips at scale. Reaffirms structural strength of AI chip demand."
-    }
+    {"title": "Rosenblatt raises target to $325: Wall Street's most bullish call", "description": "Rosenblatt Securities raised to $325 from $300 post-GTC management meetings. Now 88% upside from current price."},
+    {"title": "China H200 sales approved: Beijing opens the door", "description": "Jensen Huang confirmed at GTC. Groq China version also in preparation. Lost China revenue (20%) may return."},
+    {"title": "GTC 2026: $1T AI inference revenue opportunity", "description": "Doubled from $500B last year. Inference market surpassing training as the new growth engine."},
+    {"title": "Vera Rubin platform: 10x performance per watt", "description": "10x energy efficiency vs Grace Blackwell. Key to solving data center power bottlenecks."},
+    {"title": "Musk confirms continued large-scale Nvidia chip orders", "description": "Tesla/SpaceX AI confirmed ongoing massive Nvidia chip purchases. Structural AI chip demand reaffirmed."}
   ],
   "competitiveAdvantage": {
     "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      {
-        "type": "CUDA Ecosystem",
-        "description": "Most AI developers worldwide build on CUDA. 15+ years of accumulated software ecosystem and libraries are impossible for competitors to replicate in the short term."
-      },
-      {
-        "type": "Full-Stack AI Factory",
-        "description": "Vertically integrated supply of GPU, CPU (Grace), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw)."
-      },
-      {
-        "type": "Annual Architecture Roadmap",
-        "description": "From Hopper to Blackwell to Vera Rubin, releasing new architectures annually and maintaining a 2-3 year technology gap over competitors."
-      },
-      {
-        "type": "Economies of Scale",
-        "description": "At $215.9B annual revenue, overwhelming advantage in R&D investment, production negotiating power, and customer acquisition."
-      }
+      {"type": "CUDA Ecosystem", "description": "Nearly all AI developers build on CUDA. 15+ years of accumulated software libraries impossible to replicate."},
+      {"type": "Full-stack AI Factory", "description": "Self-supplies GPU, CPU (Grace), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw)."},
+      {"type": "Annual Architecture Roadmap", "description": "From Hopper to Blackwell to Vera Rubin, new architectures every year maintaining 2-3 year tech lead."},
+      {"type": "Economies of Scale", "description": "$215.9B annual revenue provides overwhelming R&D, production, and customer acquisition advantages."}
     ],
     "competitors": [
-      {
-        "name": "AMD MI450",
-        "detail": "Next-gen AI accelerator catching up, but software ecosystem (ROCm) remains far behind CUDA"
-      },
-      {
-        "name": "Google TPU v6",
-        "detail": "Custom chip optimized for internal AI workloads. Strong within Google Cloud but lacks versatility"
-      },
-      {
-        "name": "Custom chips (MS Maia, Amazon Trainium)",
-        "detail": "Hyperscalers accelerating custom chip development, but lagging in general-purpose AI acceleration"
-      }
+      {"name": "AMD MI450", "detail": "Next-gen AI accelerator pursuing NVDA but ROCm software ecosystem far behind CUDA"},
+      {"name": "Google TPU v6", "detail": "Custom chip optimized for Google workloads. Powerful within Google Cloud but lacks versatility"},
+      {"name": "Custom chips (MS Maia, Amazon Trainium)", "detail": "Hyperscalers accelerating custom chip development but still trailing in general-purpose AI"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-20",
-      "headline": "CFO Colette Kress sold $7.46M, Director Aarti Shah sold $3.36M: insider selling continues",
-      "significance": "CFO sold 42,661 shares at avg $174.89 ($7.46M), director sold 19,000 shares at $176.71 ($3.36M). Concentrated executive selling over two weeks. However, likely pre-planned 10b5-1 trades.",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/insider-trades/"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "Iran war ground escalation: S&P 500 falls below 200-day line, 4 weeks of decline",
-      "significance": "Pentagon preparing ground troop deployment, $200B war budget requested. Strait of Hormuz blockade continues. S&P 500 6,507 (-1.5%), Nasdaq -1.98%. NVDA down 5 consecutive days.",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/20/stock-market-today-march-20-s-and-p-500-drops-for-third-day-fourth-week-in-a-row/"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "Supermicro co-founder arrested for $2.5B Nvidia chip smuggling to China",
-      "significance": "Supermicro stock crashed 33%. Signal for tighter export controls. Nvidia is the victim, but supply chain uncertainty and China export regulation concerns rise.",
-      "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html"
-    },
-    {
-      "date": "2026-03-19",
-      "headline": "Rosenblatt raises to $325, Wolfe Research reaffirms $275",
-      "significance": "Reflecting post-GTC management meetings. Both maintain Buy. Upside significantly expanded from current price.",
-      "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026"
-    },
-    {
-      "date": "2026-03-18",
-      "headline": "Jensen Huang confirms China H200 orders received, supply chain ramping",
-      "significance": "Confirmed at GTC Q&A. Beijing approved H200 and Nvidia is taking orders. China revenue recovery begins.",
-      "url": "https://finance.yahoo.com/news/live/tech-stocks-today-supermicro-stock-dives-after-us-charges-employees-with-smuggling-nvidia-chips-to-china-144220474.html"
-    }
+    {"date": "2026-03-20", "headline": "CBS: Pentagon preparing Iran ground forces, S&P 500 200-day MA breaks", "significance": "S&P 500 fell 1.5% to 6,506.48. First time below 200-day MA in 200+ days. Extreme selling pressure on growth stocks.", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sink-as-oil-swings-amid-iran-war-jitters-225246829.html"},
+    {"date": "2026-03-20", "headline": "NVDA insider sells $942,944 in stock", "significance": "Principal Accounting Officer sold 4,596 shares for $942,944. Small but continuing insider selling pattern.", "url": "https://ng.investing.com/news/insider-trading-news/nvidia-principal-accounting-officer-sells-942944-in-nvda-stock-93CH-2404116"},
+    {"date": "2026-03-20", "headline": "$1T forecast wasn't enough: hyperscaler spending doubts persist", "significance": "CoinCentral analysis on why GTC's $1T prediction still didn't move investors. AI capex sustainability questioned.", "url": "https://coincentral.com/nvidia-nvda-stock-why-a-1-trillion-forecast-still-wasnt-enough-for-investors/"},
+    {"date": "2026-03-19", "headline": "Rosenblatt raises target from $300 to $325: Buy maintained", "significance": "Post-GTC management meetings. 88% upside. Wall Street's most bullish call.", "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html"},
+    {"date": "2026-03-18", "headline": "Beijing approves Nvidia H200 AI chip sales to China", "significance": "Lost China revenue (20% of total) may return. Jensen Huang confirmed.", "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/"}
   ],
   "analystOpinions": {
-    "consensusTarget": 274.3,
+    "consensusTarget": 267.54,
     "highTarget": 325.0,
     "lowTarget": 185.0,
-    "upsidePercent": 58.6,
+    "upsidePercent": 54.9,
     "buyCount": 58,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "Rosenblatt $325 (+88%), Wolfe Research $275, BofA $300 reaffirmed. 58 of 61 analysts Buy. Price decline expands upside to 58.6%, near all-time high gap. 38 Strong Buy."
+    "notableComment": "Rosenblatt $325 (+88%) highest target. BofA $300, three firms at $300+. 58 of 61 Buy, 38 Strong Buy. Consensus $267.54."
   },
   "risks": [
-    {
-      "severity": "critical",
-      "title": "Iran ground war + Hormuz blockade + recession signals",
-      "description": "Pentagon preparing ground troop deployment, $200B war budget. Hormuz blockade cutting 20% of world oil supply. HSBC says 'recession pricing has begun.' S&P below 200-day line. AI investment slowdown concerns."
-    },
-    {
-      "severity": "high",
-      "title": "Concentrated insider selling: CFO $7.46M + Director $3.36M",
-      "description": "CFO Colette Kress sold 42,661 shares ($7.46M), Director Aarti Shah sold 19,000 shares ($3.36M). Large executive selling can be seen as negative signal, but likely pre-planned 10b5-1 trades."
-    },
-    {
-      "severity": "high",
-      "title": "Supermicro chip smuggling: tighter export controls inevitable",
-      "description": "Supermicro co-founder smuggled $2.5B Nvidia chips to China via Taiwan. If export controls tighten further, even legal China sales (H200) could be affected."
-    },
-    {
-      "severity": "high",
-      "title": "5 consecutive days of decline despite GTC catalyst",
-      "description": "Despite 4 days of historic GTC announcements, stock fell 5 straight days. Questions about sustainability of hyperscaler AI spending. War could trigger IT budget cuts."
-    },
-    {
-      "severity": "medium",
-      "title": "China export regulation uncertainty deepening",
-      "description": "H200 approved but smuggling case could lead to tighter regulations. Latest chips (Blackwell, Vera Rubin) still restricted."
-    },
-    {
-      "severity": "medium",
-      "title": "Intensifying competition",
-      "description": "AMD MI450, Google TPU v6, Tesla Terafab custom chips. Hyperscaler custom chip development also a threat."
-    }
+    {"severity": "critical", "title": "Iran war escalation: S&P 500 200-day MA breakdown", "description": "CBS reported Pentagon Iran ground force preparations. S&P broke below 200-day MA, market-wide technical breakdown. Extreme growth stock selling."},
+    {"severity": "high", "title": "GTC $1T forecast ignored: priced-in concerns", "description": "5 days of GTC announcements, 5 days of declines. Hyperscaler AI spending sustainability questioned. Catalysts may be fully priced in."},
+    {"severity": "high", "title": "Fed rate hold + cut expectations evaporating", "description": "Markets starting to fully discount 2026 rate cuts. Sustained valuation pressure on growth stocks."},
+    {"severity": "medium", "title": "Insider selling continues", "description": "Accounting officer sold $942K. Small but persistent pattern."},
+    {"severity": "medium", "title": "Competition intensifying", "description": "AMD MI450, Google TPU v6, Tesla Terafab. Hyperscaler custom chips are also a threat."}
   ],
   "buyReasons": [
-    {
-      "title": "Forward P/E 25.1x, PEG 0.39: cheapest in NVDA history",
-      "rationale": "Based on FY27 EPS $6.88. Equal to semiconductor sector avg (25x), near S&P 500 avg (23x). Historic opportunity to buy a 65% growth company at this valuation."
-    },
-    {
-      "title": "Rosenblatt $325 (+88%) + 58 of 61 Buy",
-      "rationale": "Price decline expands upside to 58.6%. 38 Strong Buy. Record gap between price and targets."
-    },
-    {
-      "title": "Supermicro case is actually positive for Nvidia",
-      "rationale": "Nvidia is on the victim side. Tighter export controls strengthen legal channels and could give Nvidia competitive advantage in official China sales (H200)."
-    },
-    {
-      "title": "Oversold in wartime: fastest rebound when macro shifts",
-      "rationale": "RSI 33, below 200-day line. Net margin 55.6% with 65% growth. Will be the first stock to rebound on war resolution or ceasefire."
-    }
+    {"title": "Forward P/E 25.1x, PEG 0.39: Historic low", "rationale": "Based on FY27 EPS $6.88. PEG 0.39 at 65% growth is among NVDA's cheapest ever."},
+    {"title": "Rosenblatt $325 (+88%) + 58 of 61 Buy", "rationale": "Price decline expanded upside to 54.9%. 38 Strong Buy. Record bullish consensus."},
+    {"title": "China H200 approval: 20% lost revenue returning", "rationale": "Beijing's H200 approval reopens China market. Additional revenue opportunity."},
+    {"title": "Oversold amid macro pressure: Best entry point", "rationale": "RSI 33 approaching oversold. 55.6% net margin company growing 65% below 200-day MA is a historic buying opportunity."}
   ],
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
-    "currentPositionPercent": 68.7,
-    "sma50": 184.0,
+    "currentPositionPercent": 68.6,
+    "sma50": 184.00,
     "sma50Signal": "below",
-    "sma200": 183.0,
+    "sma200": 183.00,
     "sma200Signal": "below",
     "rsi": 33.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "NVDA closed at $172.93 amid Iran ground war escalation and the Supermicro smuggling case. Insider selling adds pressure with CFO selling $7.46M and a director selling $3.36M in shares.",
-    "But fundamentals remain overwhelming. Net income $120.1B, Forward P/E 25.1x with PEG 0.39. A 65% growth company at sector-average valuation is a historic low.",
-    "RSI 33, below both 50-day and 200-day moving averages. 58 of 61 analysts say Buy, target $274 (+58.6%). War fears are burying all catalysts, but this will be the first stock to rebound when macro shifts. Accumulate on dips."
+    "CBS's Iran ground forces report caused S&P 500 to break below its 200-day MA, and NVDA fell to $172.70 for its 5th straight decline since GTC. Record-breaking announcements were completely swallowed by war fears.",
+    "Fundamentals are flawless. FY26 net income $120.1B, Forward P/E 25.1x, PEG 0.39. Rosenblatt $325 (+88%), 58 of 61 Buy. China H200 approved. The fundamental-price disconnect is historic.",
+    "Below both 50-day ($184) and 200-day ($183) MAs with RSI 33. Iran risk is the variable, but if macro stabilizes, this is the first stock to bounce. Buying into fear. Buy."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Headwinds are stacking: Iran war, Supermicro smuggling, insider selling. But net income $120.1B with Forward P/E 25.1x (PEG 0.39) marks the cheapest level in NVDA history. China H200 orders confirmed, $1T inference market, Rosenblatt $325 (+88%). Insider selling is likely pre-planned 10b5-1 trades. War risk is temporary but fundamentals are structural. Accumulate on dips.",
+    "summary": "Five straight declines since GTC driven by Iran war fears, not fundamentals. FY26 net income $120.1B at Forward P/E 25.1x (PEG 0.39) is NVDA's cheapest valuation in years. China H200 approval, $1T inference market, and Musk order confirmation provide abundant catalysts. When geopolitics stabilize, this bounces first. Dollar-cost average in.",
     "horizon": "6-12 months"
   },
   "sources": [
-    {
-      "name": "Motley Fool - Market 3/20",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/20/stock-market-today-march-20-s-and-p-500-drops-for-third-day-fourth-week-in-a-row/",
-      "description": "S&P 500 6,507 (-1.5%), Nasdaq -1.98%, 4 consecutive weeks of decline"
-    },
-    {
-      "name": "CNBC - Supermicro Smuggling",
-      "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html",
-      "description": "Supermicro co-founder arrested for $2.5B Nvidia chip smuggling"
-    },
-    {
-      "name": "MarketBeat - NVDA Insider Trades",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/insider-trades/",
-      "description": "CFO Colette Kress $7.46M, Director Aarti Shah $3.36M sales"
-    },
-    {
-      "name": "Bloomberg - Supermicro Indictment",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-19/three-charged-by-us-with-plot-to-illegally-send-ai-tech-to-china",
-      "description": "Yih-Shyan Liaw indicted, Nvidia server smuggling to China"
-    },
-    {
-      "name": "CoinCentral - NVDA GTC Analysis",
-      "url": "https://coincentral.com/nvidia-nvda-stock-why-a-1-trillion-forecast-still-wasnt-enough-for-investors/",
-      "description": "Why $1T forecast still wasn't enough for investors"
-    },
-    {
-      "name": "TheStreet - Rosenblatt",
-      "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026",
-      "description": "Rosenblatt $325 raise, Wolfe Research $275 reaffirmed"
-    },
-    {
-      "name": "Yahoo Finance - Jensen Huang China",
-      "url": "https://finance.yahoo.com/news/live/tech-stocks-today-supermicro-stock-dives-after-us-charges-employees-with-smuggling-nvidia-chips-to-china-144220474.html",
-      "description": "Jensen Huang confirms China H200 orders, Supermicro case roundup"
-    },
-    {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/NVDA:NASDAQ",
-      "description": "NVDA close $172.93, after-hours $174.90"
-    },
-    {
-      "name": "Reuters - Musk Nvidia Orders",
-      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/",
-      "description": "Musk SpaceX AI, Tesla continue large-scale Nvidia chip orders"
-    }
+    {"name": "Yahoo Finance - Market Close", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sink-as-oil-swings-amid-iran-war-jitters-225246829.html", "description": "S&P 500 -1.51% to 6,506.48, Iran war fears, Nasdaq -2.01%"},
+    {"name": "CoinCentral - NVDA Analysis", "url": "https://coincentral.com/nvidia-nvda-stock-why-a-1-trillion-forecast-still-wasnt-enough-for-investors/", "description": "$1T forecast not enough for investors"},
+    {"name": "Investing.com - Insider Selling", "url": "https://ng.investing.com/news/insider-trading-news/nvidia-principal-accounting-officer-sells-942944-in-nvda-stock-93CH-2404116", "description": "Accounting officer sold 4,596 shares for $942,944"},
+    {"name": "Yahoo Finance - Rosenblatt", "url": "https://sg.finance.yahoo.com/news/rosenblatt-resets-nvidia-stock-price-183300031.html", "description": "Rosenblatt $325 target raise"},
+    {"name": "Reuters - China H200", "url": "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/", "description": "Beijing H200 sales approval"},
+    {"name": "Reuters - Musk Nvidia Order", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-ai-tesla-will-keep-ordering-nvidia-chips-scale-2026-03-19/", "description": "Musk confirms large-scale Nvidia chip orders"},
+    {"name": "WallStreetZen - NVDA", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda", "description": "NVDA $172.70, market cap $4.20T, P/E 35.03x"},
+    {"name": "247 Wall St", "url": "https://247wallst.com/investing/2026/03/17/three-wall-street-giants-see-nvda-reaching-300-heres-the-1-trillion-reason-why/", "description": "Three Wall Street firms see NVDA at $300+"},
+    {"name": "CBS News - Pentagon Iran", "url": "https://www.cbsnews.com/news/trump-administration-iran-ground-troop-preparations/", "description": "Pentagon Iran ground force preparations"}
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $172.93, insider selling adds to the pile. But PEG 0.39",
-      "text": "$NVDA $172.93\n\nCFO sold $7.46M, director sold $3.36M. Iran ground war, Supermicro smuggling arrest. Every GTC catalyst buried.\n\nRosenblatt $325 (+88%)\n\n1/4",
+      "hook": "NVDA $173, 5 straight days down post-GTC. PEG 0.39",
+      "text": "$NVDA $172.70(-3.28%)\n\nIran war report broke S&P below 200-day MA. GTC's record announcements ignored for 5 straight days. RSI 33.\n\nRosenblatt $325(+88%)\n\n1/4",
       "thread": [
-        "Net income $120.1B, margin 55.6%. Forward P/E 25.1x, PEG 0.39. Sector-avg valuation with 65% growth is a historic low.\n\n58 of 61 say Buy.\n\n2/4",
-        "Insider selling is likely pre-planned 10b5-1 trades. Supermicro arrest strengthens legal channels.\n\nNvidia is the victim here.\n\n3/4",
-        "Buy. War is temporary, fundamentals are structural. Accumulate.\n\n$172.93, target $274 (+58.6%)\n\n4/4"
+        "FY26 net income $120.1B, margin 55.6%. Forward P/E 25.1x, PEG 0.39. Among NVDA's cheapest levels ever.\n\n58 of 61 Buy, 38 Strong Buy.\n\n2/4",
+        "China H200 approved, Musk ordering big, $1T inference. Catalysts everywhere but Iran war fear swallowed them all.\n\n3/4",
+        "Buy. Buying into fear is the opportunity. When macro turns, NVDA leads the bounce.\n\n$172.70, target $267(+55%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA $172.93, historic undervaluation under insider selling and war pressure",
-      "text": "$NVDA $172.93\n\nCFO sold $7.46M, director sold $3.36M. Iran ground war escalation, Supermicro smuggling arrest. Every GTC catalyst buried.\n\nNet income $120.1B, margin 55.6%. Forward P/E 25.1x, PEG 0.39. Rosenblatt $325 (+88%), 58 of 61 Buy. Insider sales likely pre-planned 10b5-1.\n\nRSI 33, below 200-day. First to rebound on macro shift. Accumulate. Buy. Target $274 (+58.6%)."
+      "hook": "NVDA $173, historic undervaluation crushed by war fears",
+      "text": "$NVDA $172.70(-3.28%)\n\nCBS: Pentagon preparing Iran ground forces. S&P broke 200-day MA. NVDA down 5 straight days post-GTC. Record announcements completely buried by war panic.\n\nFY26 net income $120.1B, Forward P/E 25.1x, PEG 0.39. Rosenblatt $325 (+88%), 58 of 61 Buy. The numbers aren't wrong. War is suppressing everything.\n\nRSI 33, below both MAs. When macro turns, this bounces first. Buy into fear. Target $267(+55%)."
     },
     "telegram": {
-      "hook": "NVDA $172.93, historic undervaluation amid insider selling + war",
-      "text": "NVDA $172.93\n\nKey Issues\n- CFO sold $7.46M, director sold $3.36M\n- Iran ground war escalation, Hormuz blockade\n- Supermicro $2.5B Nvidia chip smuggling arrest\n- S&P below 200-day, 4 weeks of decline\n- Rosenblatt $325 (+88%) maintained\n- Forward P/E 25.1x, PEG 0.39\n\nTechnicals: Below 50-day/200-day, RSI 33\nTarget: $274.30 (+58.6%)\n\nVerdict: Buy. War is temporary, fundamentals are historic. Accumulate on dips."
+      "hook": "NVDA $173, GTC ignored for 5 days + Iran war",
+      "text": "NVDA $172.70 (-3.28%)\n\nKey Issues\n- CBS: Pentagon preparing Iran ground forces\n- S&P 500 broke 200-day MA (-1.51%)\n- 5 straight days down post-GTC\n- Rosenblatt $325 (+88%)\n- Insider sold $942K\n\nFundamentals: FY26 net $120.1B, PEG 0.39\nTechnicals: Below 50/200-day MAs, RSI 33\nTarget: $267.54(+54.9%)\n\nVerdict: Buy. Historic low valuation. DCA in."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $172.93, insider selling adds to the pile. But PEG 0.39",
-          "text": "$NVDA $172.93\n\nCFO sold $7.46M, director sold $3.36M. Iran ground war, Supermicro smuggling arrest. Every GTC catalyst buried.\n\nRosenblatt $325 (+88%)\n\n1/4",
+          "hook": "NVDA $173, 5 straight days down post-GTC. PEG 0.39",
+          "text": "$NVDA $172.70(-3.28%)\n\nIran war report broke S&P below 200-day MA. GTC's record announcements ignored for 5 straight days. RSI 33.\n\nRosenblatt $325(+88%)\n\n1/4",
           "thread": [
-            "Net income $120.1B, margin 55.6%. Forward P/E 25.1x, PEG 0.39. Sector-avg valuation with 65% growth is a historic low.\n\n58 of 61 say Buy.\n\n2/4",
-            "Insider selling is likely pre-planned 10b5-1 trades. Supermicro arrest strengthens legal channels.\n\nNvidia is the victim here.\n\n3/4",
-            "Buy. War is temporary, fundamentals are structural. Accumulate.\n\n$172.93, target $274 (+58.6%)\n\n4/4"
+            "FY26 net income $120.1B, margin 55.6%. Forward P/E 25.1x, PEG 0.39. Among NVDA's cheapest levels ever.\n\n58 of 61 Buy, 38 Strong Buy.\n\n2/4",
+            "China H200 approved, Musk ordering big, $1T inference. Catalysts everywhere but Iran war fear swallowed them all.\n\n3/4",
+            "Buy. Buying into fear is the opportunity. When macro turns, NVDA leads the bounce.\n\n$172.70, target $267(+55%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "CFO selling, smugglers arrested. NVDA $172.93 just vibing",
-          "text": "$NVDA $172.93\n\nCFO sold $7.46M, director dumped $3.36M. Smugglers got caught, war is escalating. GTC might as well not have happened.\n\nPEG 0.39. It's never been this cheap.\n\n1/4",
+          "hook": "Jensen painted $1T, Pentagon painted a war",
+          "text": "$NVDA $172.70(-3.28%)\n\nGTC spent 5 days unveiling the future. Pentagon spent 1 day preparing for Iran. Guess which one the market cared about.\n\nPEG 0.39. Almost never been this cheap.\n\n1/4",
           "thread": [
-            "Net income $120.1B, margin 55.6%. These aren't hardware numbers. This is a money printer.\n\n58 say Buy but the market says nah.\n\n2/4",
-            "Don't panic over CFO selling. 10b5-1 planned sales. Execs paid in stock sell regularly.\n\nSmuggler arrests = stronger legal channels.\n\n3/4",
-            "Buy. When war ends, this goes first.\n\n$172.93, target $274 (+58.6%)\n\n4/4"
+            "Net income $120.1B. 55.6% margin. Is this really a hardware company?\n\nRosenblatt $325(+88%). 58 Buy but the market isn't buying.\n\n2/4",
+            "China door open, Musk buying, new chips revealed. Full house of catalysts wearing oversold at 200-day.\n\nRSI 33.\n\n3/4",
+            "Buy. Fear is the discount. When war fades, NVDA rockets.\n\n$172.70, target $267(+55%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA holders, insider selling on top of everything. Rough week",
-          "text": "$NVDA $172.93\n\nYou hoped GTC would turn things around, then the CFO sold. War, smuggling, insider sales. When headwinds stack like this, it's exhausting.\n\nForward P/E 25.1x, PEG 0.39.\n\n1/4",
+          "hook": "NVDA holders, 5 days post-GTC and war too. Frustrating",
+          "text": "$NVDA $172.70(-3.28%)\n\nRecord GTC but 5 straight down days. Now Iran war on top. It's not NVDA's fault but it hurts.\n\nForward P/E 25.1x, PEG 0.39.\n\n1/4",
           "thread": [
-            "CFO selling is pre-planned. Execs sell a set percentage each quarter. They're not abandoning ship.\n\n58 of 61 Buy, Rosenblatt $325.\n\n2/4",
-            "This isn't about NVDA. The entire market is breaking down. Iran ground war, Hormuz blockade.\n\nFundamentals haven't changed.\n\n3/4",
-            "Buy. Accumulate on dips. First to rebound when war ends.\n\n$172.93, target $274 (+58.6%)\n\n4/4"
+            "Net income $120.1B, 58 of 61 Buy. Rosenblatt $325(+88%). Fundamentals are perfect.\n\nThis is a macro problem, not NVDA.\n\n2/4",
+            "RSI 33, below 200-day. Scary but these disconnects have been historic buy points.\n\nWhen rates turn, NVDA responds first.\n\n3/4",
+            "Buy. DCA in. Time is on your side.\n\n$172.70, target $267(+55%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA $172.93, PEG 0.39 historic low under insider selling + war",
-          "text": "$NVDA $172.93\n\nCFO $7.46M, director $3.36M sold. Iran ground war, Supermicro smuggling arrest. GTC catalysts buried.\n\nNet income $120.1B, margin 55.6%. Forward P/E 25.1x, PEG 0.39. Rosenblatt $325 (+88%), 58 Buy. Insider sales likely 10b5-1 planned.\n\nWar is temporary, fundamentals are structural. Buy. Accumulate. Target $274 (+58.6%)."
+          "hook": "NVDA $173, PEG 0.39 below 200-day MA. Historic low",
+          "text": "$NVDA $172.70(-3.28%)\n\nIran war report, S&P 200-day MA break. GTC catalysts ignored 5 straight days.\n\nFY26 net $120.1B, Forward P/E 25.1x, PEG 0.39. Rosenblatt $325(+88%), 58 of 61 Buy.\n\nMacro-suppressed but fundamentals are historic. Buy. DCA. Target $267(+55%)."
         },
         "witty": {
-          "hook": "CFO selling, smugglers arrested, and NVDA at PEG 0.39. Make it make sense",
-          "text": "$NVDA $172.93\n\nCFO sold $7.46M, smugglers got busted, Iran goes ground war. GTC painted a $1T inference market but the market only sees explosions. CFO selling is pre-planned, smuggler arrests actually strengthen legal channels.\n\nNet income $120.1B, PEG 0.39. These numbers at sector-avg valuation? Sounds like a punchline. 58 analysts say Buy.\n\nBuy. First to fly when war ends. Target $274 (+58.6%)."
+          "hook": "Jensen vs Pentagon Season 2, Pentagon wins again",
+          "text": "$NVDA $172.70(-3.28%)\n\nJensen unveiled $1T inference. Musk pledged massive orders. Beijing opened the China door. Then Pentagon said Iran, and none of it mattered.\n\nPEG 0.39. Net income $120.1B. Hardware company with 55.6% margin. Wearing GTC catalysts head to toe and still oversold.\n\nBuy. When war fades, you'll wish you bought here. Target $267(+55%)."
         },
         "empathy": {
-          "hook": "NVDA holders, CFO selling news probably hit differently today",
-          "text": "$NVDA $172.93\n\nHoped GTC would turn things around. Instead, CFO and director sold $10.8M combined. War, smuggling, more selling. The bad news won't stop.\n\nBut net income $120.1B, PEG 0.39, 58 Buy. CFO selling is pre-planned 10b5-1. They're not running.\n\nRSI 33, below 200-day. Scary, but time is on your side. Buy. Accumulate. Target $274 (+58.6%)."
+          "hook": "NVDA holders, 5 straight down days post-GTC plus war. This hurts",
+          "text": "$NVDA $172.70(-3.28%)\n\nRecord GTC ended and 5 days later, still falling. Iran war reports on top. The frustration is real.\n\nBut this isn't NVDA's problem. Net income $120.1B, PEG 0.39. 58 of 61 Buy, Rosenblatt $325(+88%). Numbers this good in a selloff mean time is on your side.\n\nRSI 33, below 200-day. Scary but historic. DCA in. Buy. Target $267(+55%)."
         }
       }
     }

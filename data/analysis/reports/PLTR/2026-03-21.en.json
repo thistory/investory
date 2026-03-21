@@ -6,50 +6,44 @@
   "marketCap": "$360B",
   "businessSummary": {
     "oneLiner": "Government and enterprise AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI Platform)",
-    "description": "Palantir builds AI-powered data analytics platforms for government and enterprise clients. FY2025 revenue hit $4.48B (+56%), with US commercial revenue surpassing $500M, proving successful expansion into the private sector. The recent addition of Keel to the Navy ShipOS project extended defense AI applications to submarine production. The stock rose 1,860% over 3 years but experienced 10+ drawdowns of 20%+ during that period, making it a high-volatility name.",
-    "howTheyMakeMoney": [
-      "Government contracts (Gotham)",
-      "Enterprise AI platform (Foundry)",
-      "AIP (AI Platform)",
-      "AIP Boot Camps"
-    ],
-    "keyProducts": ["Gotham", "Foundry", "AIP", "ShipOS", "Sovereign AI Datacenter OS", "Ontology"]
+    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue hit $4.48B (+56%), with US commercial revenue surpassing $500M. After market close on 3/20, Reuters exclusively reported: Pentagon adopted Maven AI as an official 'program of record', locking in long-term budget allocation and institutional permanence for Palantir's weapons-targeting AI across the US military.",
+    "howTheyMakeMoney": ["Government contracts (Gotham)", "Enterprise AI platform (Foundry)", "AIP (AI Platform)", "AIP Bootcamps"],
+    "keyProducts": ["Gotham", "Foundry", "AIP", "Maven", "ShipOS", "Sovereign AI Data Center OS", "Ontology"]
   },
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "221x", "interpretation": "10x the S&P 500 average of 22x. Extreme premium persists even after pullback. War could boost defense AI spending"},
-    {"name": "Forward P/E", "value": "112x", "interpretation": "Based on FY2026 EPS of $1.34. War-benefit expectations sustain the premium"},
-    {"name": "P/S (Price-to-Sales)", "value": "77x", "interpretation": "Extreme vs SaaS average of 10-15x, but 60%+ growth rate attempts to justify it"},
-    {"name": "Revenue Growth", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026 guidance $7.18-7.20B (+60%). US commercial revenue +115% outlook"},
-    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS companies. Simultaneous high profitability and growth"},
-    {"name": "FCF Margin", "value": "46.94%", "interpretation": "FCF $2.1B. Best-in-class cash generation in the software industry"}
+    {"name": "P/E (TTM)", "value": "221x", "interpretation": "10x S&P 500 avg (22x). Still extreme but Maven adoption strengthens growth visibility"},
+    {"name": "Forward P/E", "value": "112x", "interpretation": "Based on FY2026 EPS $1.34. High but Maven adoption materially improves revenue visibility"},
+    {"name": "P/S Ratio", "value": "77x", "interpretation": "Investors pay $77 per $1 of revenue. Extreme vs SaaS avg 10-15x but Rule of 40 at 127%"},
+    {"name": "Revenue Growth", "value": "56.18%", "interpretation": "FY2025 $4.48B, FY2026 guidance $7.18-7.20B (+60%). US commercial +115%"},
+    {"name": "Operating Margin", "value": "31.59%", "interpretation": "Top-tier among SaaS. High profitability with high growth simultaneously"},
+    {"name": "FCF Margin", "value": "46.94%", "interpretation": "FCF $2.1B. Best-in-class cash generation in software"}
   ],
   "growthDrivers": [
-    {"title": "Iran War $200B Pentagon Budget: Defense AI Demand Surge", "description": "Pentagon requested $200B for the Iran war. Escalation drives surging demand for military AI, intelligence analysis, and logistics automation. Palantir's Gotham, Maven, and ShipOS are all direct beneficiaries."},
-    {"title": "Moder AI Mortgage Partnership: Financial Services Expansion", "description": "Co-developing an AI mortgage operations platform with Freedom Mortgage as the first pilot. Proves commercial expansion beyond defense into financial services."},
-    {"title": "Mizuho: 'No Comparable in Software' - Outperform $195 Reiterated", "description": "Mizuho reiterated Outperform after executive meeting, calling Palantir 'a company with no comparable in the software industry.'"},
-    {"title": "UBS $200 Upgrade + Wedbush $230 Maintained", "description": "UBS Karl Keirstead raised target from $180 to $200 (+33%). Wedbush maintains $230 Buy."},
-    {"title": "Navy ShipOS $448M: AI Applied to Submarine Production", "description": "Keel joined Palantir on the Navy ShipOS project, applying AI to submarine production lines."},
-    {"title": "Gartner: Global AI Spending $2.5T Forecast", "description": "Gartner forecasts 2026 global AI spending at $2.5T (+44% YoY). Structural tailwind for AI platform leaders like Palantir."}
+    {"title": "Maven AI adopted as Pentagon 'program of record' (3/20 after hours)", "description": "Reuters exclusive: Deputy SecDef Steve Feinberg sent a letter confirming Maven as an official program of record. This locks in long-term budget allocation and institutionalizes Palantir's weapons-targeting AI across all US military branches. A game changer amid Iran war preparations."},
+    {"title": "Moder AI mortgage partnership: Financial services expansion", "description": "Co-developing AI mortgage operations platform with Freedom Mortgage as first pilot. Proves commercial expansion beyond defense."},
+    {"title": "UBS $200 raise + Wedbush $230 + Mizuho $195 reaffirmed", "description": "Three firms simultaneously bullish. UBS raised from $180 to $200 (+33%). Mizuho: 'No comparable company in software.'"},
+    {"title": "US Navy ShipOS $448M: AI applied to submarine production", "description": "Keel joined Palantir's ShipOS project for the US Navy. AI now applied to submarine production lines."},
+    {"title": "Iran war preparations directly stimulate defense AI demand", "description": "Pentagon preparing ground forces for Iran deployment. Maven is the core combat AI system. War escalation could drive Palantir revenue surge."}
   ],
   "competitiveAdvantage": {
-    "summary": "20+ years of government and defense AI track record. Security clearances create insurmountable entry barriers. ShipOS extends AI coverage to military production.",
+    "summary": "20+ years in government/defense AI. Security clearances create insurmountable barriers. Maven program of record status cements US military AI standard.",
     "moats": [
-      {"type": "Security Clearance Moat", "description": "Highest security clearances from DoD and intelligence agencies. Competitors cannot enter."},
-      {"type": "ShipOS + Military AI", "description": "AI deployed in submarine production and naval shipyards. Expanding beyond battlefield to all military production."},
-      {"type": "NVIDIA Sovereign AI Partnership", "description": "Sovereign AI OS + NVIDIA hardware ecosystem. Positioning as standard for government AI infrastructure worldwide."}
+      {"type": "Maven Program of Record", "description": "Pentagon adopted Maven as official program of record. Long-term budget allocation confirmed. Institutional lock-in."},
+      {"type": "Security Clearance Moat", "description": "Highest DoD and intelligence agency security clearances. Competitors cannot enter."},
+      {"type": "NVIDIA Sovereign AI Partnership", "description": "Sovereign AI OS + NVIDIA hardware ecosystem. Positioning as default government AI infrastructure."}
     ],
     "competitors": [
-      {"name": "CrowdStrike", "detail": "Cybersecurity AI. Motley Fool compared both as AI beneficiary stocks"},
-      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General-purpose approach vs Palantir's specialized analytics"},
-      {"name": "C3.ai", "detail": "Enterprise AI. Lags Palantir in scale and track record"}
+      {"name": "Microsoft (Azure AI)", "detail": "Cloud AI platform. General approach vs Palantir's specialized analytics"},
+      {"name": "Snowflake", "detail": "Data lakehouse. Expanding into analytics platform territory"},
+      {"name": "C3.ai", "detail": "Enterprise AI. Trails Palantir in scale and track record"}
     ]
   },
   "recentNews": [
-    {"date": "2026-03-20", "headline": "Iran War Ground Escalation: Pentagon Requests $200B War Budget", "significance": "War escalation means increased defense AI spending. Palantir's Gotham, Maven, and ShipOS are all direct beneficiaries. However, broader market selloff dragged PLTR down -3.25%.", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil"},
-    {"date": "2026-03-20", "headline": "Mizuho Reiterates Outperform $195 After Executive Meeting", "significance": "'No comparable in software' assessment. Focused on speed of commercial AI pilot conversions to paid.", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting"},
-    {"date": "2026-03-20", "headline": "Motley Fool: Palantir vs CrowdStrike as AI Beneficiaries", "significance": "Both classified as AI beneficiary stocks. Palantir leads in data analytics, CrowdStrike in cybersecurity.", "url": "https://www.fool.com/investing/2026/03/20/is-it-too-late-to-buy-palantir-or-is-the-market-st/"},
-    {"date": "2026-03-19", "headline": "Moder AI Mortgage Platform Partnership Announced", "significance": "Freedom Mortgage pilot. Proves AI expansion beyond defense into financial services.", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry"},
-    {"date": "2026-03-19", "headline": "Pentagon Pushing to Remove Anthropic Claude Within 6 Months", "significance": "DoD seeking to remove Anthropic Claude from Maven within 6 months, but military users resist replacement. Uncertainty around Maven AI engine transition.", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/"}
+    {"date": "2026-03-20", "headline": "Reuters exclusive: Pentagon adopts Maven AI as official 'program of record'", "significance": "Deputy SecDef Feinberg sent letter to Pentagon leaders. Palantir's weapons-targeting AI becomes permanent military system. Long-term budget confirmed. Defense AI game changer.", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/"},
+    {"date": "2026-03-20", "headline": "CBS: Pentagon preparing Iran ground forces, S&P 500 breaks 200-day MA", "significance": "Iran war escalation risk at peak. Paradoxically stimulates defense AI demand. Maven's battlefield necessity maximized.", "url": "https://www.cbsnews.com/news/trump-administration-iran-ground-troop-preparations/"},
+    {"date": "2026-03-20", "headline": "Mizuho reaffirms Outperform $195: 'No comparable company in software'", "significance": "Post-management meeting, strongest conviction maintained.", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting"},
+    {"date": "2026-03-20", "headline": "Guardian: Palantir Swiss magazine lawsuit, 'intimidation campaign'", "significance": "European privacy controversy continues. NHS adviser resignation. European public contract risk.", "url": "https://www.theguardian.com/global-development/2026/mar/20/us-tech-giant-palantir-swiss-magazine-wav"},
+    {"date": "2026-03-19", "headline": "Moder AI mortgage platform partnership announced", "significance": "Freedom Mortgage pilot. Proving AI expansion from defense to finance.", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry"}
   ],
   "analystOpinions": {
     "consensusTarget": 196.32,
@@ -59,119 +53,113 @@
     "buyCount": 16,
     "holdCount": 10,
     "sellCount": 2,
-    "notableComment": "UBS $200 (+33%), Wedbush $230 (+53%), Mizuho $195 reiterated. 16 of 28 analysts rate Buy. Iran war $200B budget could surge defense AI demand, maintaining defense premium."
+    "notableComment": "UBS $200 (+33%), Wedbush $230 (+53%), Mizuho $195 reaffirmed. 16 of 28 Buy. Maven program of record news broke after hours, not yet reflected in price. Monday reaction expected."
   },
   "risks": [
-    {"severity": "critical", "title": "Extreme Valuation: P/E 221x, P/S 77x", "description": "10x the S&P 500 average of 22x. FCF yield below 1%. Valuation burden persists despite war-benefit expectations."},
-    {"severity": "high", "title": "Below Both 50-Day and 200-Day Moving Averages: Technical Weakness", "description": "Current price $150.68 is below both SMA-50 ($152.19) and SMA-200 ($163.34). Watch for potential death cross. Short-term technical picture has deteriorated."},
-    {"severity": "high", "title": "Iran War Prolongation Recession Risk", "description": "Pentagon $200B budget favors defense, but Hormuz blockade and oil price surge could trigger recession, sharply cutting civilian IT spending. A double-edged sword as Palantir's commercial revenue share grows."},
-    {"severity": "high", "title": "Continued Insider Selling", "description": "CEO Alex Karp sold $6.6M, Stephen Cohen sold $43.74M. Management actively taking profits at current prices."},
-    {"severity": "high", "title": "Swiss Lawsuit + NHS Controversy: European Risk", "description": "Guardian reported Swiss lawsuit as 'threat campaign.' NHS largest hospital group chairman resigned. European public contract risk intensifying."},
-    {"severity": "medium", "title": "Share Dilution", "description": "Stock-based compensation (SBC) dilutes approximately 5% annually. Structural drag on long-term returns."},
-    {"severity": "medium", "title": "Pentagon Anthropic Claude Removal Disruption", "description": "Maven AI engine replacement involves costs and time. Short-term uncertainty."}
+    {"severity": "critical", "title": "Extreme valuation: P/E 221x, P/S 77x", "description": "10x S&P avg. Even with Maven adoption, current valuation already prices in substantial growth."},
+    {"severity": "high", "title": "Swiss lawsuit + NHS adviser exit: European risk", "description": "Guardian reported 'intimidation campaign.' European public contract risk persists."},
+    {"severity": "high", "title": "Insider selling continues", "description": "CEO Karp $6.6M, Cohen $43.7M. Management actively taking profits at current levels."},
+    {"severity": "medium", "title": "Iran war dual-edged sword", "description": "War stimulates defense AI demand but market-wide panic can drag high-valuation stocks down regardless."},
+    {"severity": "medium", "title": "Stock dilution", "description": "Annual ~5% dilution from SBC. Structural drag on long-term returns."}
   ],
   "buyReasons": [
-    {"title": "Iran War $200B: Structural Increase in Defense AI Demand", "rationale": "As war escalates, demand for military AI, intelligence analysis, and logistics automation surges. Palantir is the most direct beneficiary."},
-    {"title": "Holding Above 20-Day SMA ($146): Short-Term Support Confirmed", "rationale": "Below 50-day and 200-day SMAs but holding above 20-day SMA ($146.87). RSI at 57, neutral not oversold. Room for rebound."},
-    {"title": "Moder Mortgage + 3 Analyst Upgrades: Growth Story Intact", "rationale": "TAM expansion via financial services entry. UBS/Wedbush/Mizuho all maintain bullish stance. Consensus target $196 (+30%)."},
-    {"title": "Rule of 40 Score 127%: Growth + Profitability", "rationale": "Companies achieving 60% revenue growth and 31% operating margin simultaneously are extremely rare. Structural beneficiary of Gartner's $2.5T AI market."}
+    {"title": "Maven program of record: US military AI standard locked in", "rationale": "Pentagon program of record = confirmed long-term budget. Extremely difficult for competitors to displace. After-hours news should drive Monday gap-up."},
+    {"title": "Iran war preparations directly stimulate defense AI demand", "rationale": "Pentagon preparing Iran ground deployment. Maven is the essential combat AI system. War escalation = revenue acceleration."},
+    {"title": "Triple bullish: UBS $200, Wedbush $230, Mizuho $195", "rationale": "30%+ upside expanded by price decline. Additional upgrades likely post-Maven news."},
+    {"title": "$11.2B backlog + Rule of 40 at 127%", "rationale": "Maximum revenue visibility. Simultaneously achieving 60% growth and 31% operating margin is extremely rare."}
   ],
   "technicalPosition": {
     "week52High": 207.52,
     "week52Low": 66.12,
     "currentPositionPercent": 59.8,
-    "sma20": 146.87,
-    "sma20Signal": "above",
     "sma50": 152.19,
     "sma50Signal": "below",
     "sma200": 163.34,
     "sma200Signal": "below",
-    "rsi": 57.43,
-    "rsiSignal": "neutral",
-    "macd": "buy"
+    "rsi": 43.0,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "The Iran war $200B budget request is structurally expanding defense AI demand. Gotham, Maven, and ShipOS are all direct beneficiaries, and Mizuho called Palantir 'incomparable in software.'",
-    "Technically, the stock is below both the 50-day SMA ($152) and 200-day SMA ($163). It's holding above the 20-day SMA ($147) with RSI at 57 (neutral), but the dual resistance overhead is a concern.",
-    "Despite P/E of 221x, Rule of 40 at 127%, 60% revenue growth, and $11.2B backlog support fundamentals. Given the technically weak zone, dollar-cost averaging is more appropriate than aggressive buying. Maintaining Buy."
+    "Reuters dropped a decisive bombshell after the close: Pentagon adopted Palantir's Maven AI as an official 'program of record.' Long-term budget is confirmed, making Palantir the US military's AI standard.",
+    "The timing is striking. As Pentagon prepares for Iran ground deployment, Maven's battlefield necessity has never been greater. The stock closed at $150.68 (-3.21%) but this news will be priced in Monday.",
+    "Below the 50-day ($152) and 200-day ($163) MAs, but Maven adoption + Iran defense demand + three analyst upgrades point to a Monday gap-up. Strong Buy."
   ],
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "The Iran war $200B budget is a structural positive for Palantir. Gotham, Maven, and ShipOS are all direct beneficiaries. P/E of 221x is a burden, but Rule of 40 at 127%, 60% revenue growth acceleration, and $11.2B backlog provide support. However, trading below both 50-day and 200-day SMAs signals technical weakness, so dollar-cost averaging on pullbacks is more appropriate than aggressive buying.",
-    "horizon": "6-12 months"
+    "stance": "strong-buy",
+    "summary": "Maven becoming a Pentagon 'program of record' is a game changer. It means confirmed long-term budgets and institutional lock-in that competitors can barely challenge. With Iran war preparations driving defense AI demand to a peak, Palantir is the direct beneficiary. P/E 221x is a concern but Rule of 40 at 127%, 60% revenue growth, and Maven adoption together create a compelling case. Monday gap-up expected. Strong Buy.",
+    "horizon": "6 months to 1 year"
   },
   "sources": [
-    {"name": "NYT - Iran War $200B", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil", "description": "Pentagon $200B war budget request, Iran ground war escalation"},
-    {"name": "Motley Fool - PLTR vs CrowdStrike", "url": "https://www.fool.com/investing/2026/03/20/is-it-too-late-to-buy-palantir-or-is-the-market-st/", "description": "Palantir vs CrowdStrike AI beneficiary comparison analysis"},
-    {"name": "Seeking Alpha - Mizuho", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting", "description": "Mizuho reiterates Outperform $195"},
+    {"name": "Reuters - Maven Program of Record", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Pentagon adopts Maven AI as official program of record. Feinberg letter exclusive"},
+    {"name": "Bloomberg - Maven Status", "url": "https://www.bloomberg.com/news/articles/2026-03-21/palantir-ai-system-wins-key-pentagon-status-reuters-reports", "description": "Bloomberg confirms Reuters Maven program of record report"},
+    {"name": "CBS News - Pentagon Iran", "url": "https://www.cbsnews.com/news/trump-administration-iran-ground-troop-preparations/", "description": "Pentagon Iran ground force deployment preparations"},
+    {"name": "Seeking Alpha - Mizuho", "url": "https://seekingalpha.com/news/4566500-palantir-in-spotlight-as-mizuho-reiterates-outperform-after-exec-meeting", "description": "Mizuho Outperform $195 reaffirmed"},
+    {"name": "Guardian - Swiss Lawsuit", "url": "https://www.theguardian.com/global-development/2026/mar/20/us-tech-giant-palantir-swiss-magazine-wav", "description": "Palantir Swiss magazine lawsuit, 'intimidation campaign'"},
     {"name": "BusinessWire - Moder", "url": "https://www.businesswire.com/news/home/20260319441402/en/Palantir-and-Moder-Partner-to-Transform-Mortgage-Industry", "description": "Palantir-Moder AI mortgage partnership"},
-    {"name": "Reuters - Anthropic Maven", "url": "https://www.reuters.com/business/hegseth-wants-pentagon-dump-anthropics-claude-military-users-say-its-not-so-easy-2026-03-19/", "description": "Pentagon pushing Anthropic Claude removal"},
-    {"name": "TradingKey - PLTR Technicals", "url": "https://www.tradingkey.com/news/Market-Movers/261704501-market-movers-pltr-20260320", "description": "PLTR RSI 57.43, SMA-20 $146.87, technical analysis"},
-    {"name": "TradersUnion - PLTR SMA", "url": "https://tradersunion.com/currencies/forecast/pltr-usd/", "description": "SMA-50 $152.19, SMA-200 $163.34 technical data"},
-    {"name": "Gartner - AI Spending $2.5T", "url": "https://www.gartner.com/en/newsroom/press-releases/2026-ai-spending-forecast", "description": "2026 global AI spending $2.5T (+44% YoY) forecast"},
-    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/PLTR:NASDAQ", "description": "PLTR close $150.68, after-hours $151.94"},
-    {"name": "Guardian - Swiss Lawsuit", "url": "https://www.theguardian.com/global-development/2026/mar/20/us-tech-giant-palantir-swiss-magazine-wav", "description": "Palantir Swiss lawsuit, European risk"}
+    {"name": "GuruFocus - UBS", "url": "https://www.gurufocus.com/news/8723021/ubs-raises-price-target-for-palantir-technologies-pltr-to-200-pltr-stock-news", "description": "UBS raises target to $200"},
+    {"name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/assessing-palantir-technologies-pltr-valuation-as-major-ai-c", "description": "Valuation analysis with major AI contracts"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sink-as-oil-swings-amid-iran-war-jitters-225246829.html", "description": "S&P 500 -1.51%, Iran war fears"}
   ],
   "snsContent": {
     "x": {
-      "hook": "Palantir $150, below both moving averages but defense AI theme lives on",
-      "text": "$PLTR $150.68 (-3.25%)\n\nBelow 50-day ($152) and 200-day ($163) SMAs. Technically weak. But Iran war $200B budget is structurally growing defense AI demand.\n\n1/4",
+      "hook": "Palantir Maven is now official Pentagon standard. Game changer",
+      "text": "$PLTR $150.68(-3.21%)\n\nAfter-hours Reuters exclusive: Pentagon adopted Maven AI as 'program of record.' Permanent US military system. Long-term budget locked in. Iran war prep amplifies defense AI demand.\n\n1/4",
       "thread": [
-        "Mizuho 'no comparable' $195, UBS $200, Wedbush $230. 3 firms bullish. Moder mortgage expanding into finance.\n\nRule of 40: 127%, revenue growth 60%.\n\n2/4",
-        "Holding 20-day SMA ($147). RSI 57 neutral. Technically weak but not oversold. P/E 221x remains a burden.\n\n3/4",
-        "Buy. Technical weakness = DCA opportunity, not panic.\n\n$150.68, target $196 (+30%)\n\n4/4"
+        "Budget confirmed. Institutional lock-in. Competitors can barely challenge this. UBS $200, Wedbush $230, Mizuho $195.\n\nMonday gap-up expected.\n\n2/4",
+        "P/E 221x is high but Rule of 40 at 127%, 60% revenue growth. Maven adoption materially strengthens growth visibility.\n\nEurope risk limited to US revenue impact.\n\n3/4",
+        "Strong Buy. Maven program of record + Iran defense demand. Defense AI's decisive moment.\n\n$150.68, target $196(+30%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Palantir slips below key moving averages, but defense AI growth is structural",
-      "text": "$PLTR $150.68 (-3.25%)\n\nBelow both 50-day ($152) and 200-day ($163) SMAs. Technically in a weak zone. But Iran war $200B budget is structurally expanding defense AI demand.\n\nMizuho 'no comparable in software' $195, UBS $200, Wedbush $230. Moder mortgage partnership expands into finance. RSI 57 neutral, holding 20-day SMA.\n\nBuy. Technical weakness means DCA approach. Target $196 (+30%)."
+      "hook": "Maven is Pentagon's official AI system now. Palantir's game just changed",
+      "text": "$PLTR $150.68(-3.21%)\n\nFriday after the close, Reuters broke the news: Pentagon adopted Maven AI as a 'program of record.' Long-term budget confirmed. Palantir is now the official US military AI standard.\n\nTiming is everything. Pentagon is preparing Iran ground forces at the same time Maven becomes permanent. P/E 221x is a concern but Rule of 40 at 127%, 60% growth, and institutional defense lock-in.\n\nUBS $200, Wedbush $230, Mizuho $195. Monday gap-up expected. Strong Buy. Target $196(+30%)."
     },
     "telegram": {
-      "hook": "PLTR $150, below moving averages + defense AI momentum",
-      "text": "PLTR $150.68 (-3.25%)\n\nKey Issues\n- Pentagon Iran war $200B budget (defense AI beneficiary)\n- Below 50-day ($152) and 200-day ($163) SMAs\n- Holding 20-day ($147), RSI 57 neutral\n- Mizuho 'no comparable' Outperform $195\n- Moder AI mortgage partnership (Freedom Mortgage)\n- Gartner: Global AI spending $2.5T (+44% YoY)\n\nTechnical: Dual MA resistance, RSI 57, MACD buy\nTarget: $196.32 (+30.3%)\n\nVerdict: Buy. Technical weakness zone, DCA approach."
+      "hook": "PLTR: Maven AI becomes Pentagon program of record!",
+      "text": "PLTR $150.68 (-3.21%)\n\nKey Issue (After-Hours Breaking)\n- Reuters exclusive: Pentagon adopts Maven as 'program of record'\n- Long-term budget confirmed, US military AI standard\n- CBS: Pentagon preparing Iran ground forces\n- Mizuho $195 'No comparable company'\n- Moder AI mortgage partnership\n\nTechnicals: Below 50-day ($152), RSI 43\nTarget: $196.32(+30.3%)\n\nVerdict: Strong Buy. Maven adoption is a game changer. Monday gap-up expected."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR $150.68, below 50/200-day SMAs amid defense AI tailwinds",
-          "text": "$PLTR $150.68 (-3.25%)\n\nBelow 50-day ($152) and 200-day ($163). Technically weak. Pentagon $200B Iran war budget structurally grows defense AI demand.\n\nTarget $196 (+30%)\n\n1/4",
+          "hook": "Palantir Maven is now official Pentagon standard. Game changer",
+          "text": "$PLTR $150.68(-3.21%)\n\nAfter-hours Reuters exclusive: Pentagon adopted Maven AI as 'program of record.' Permanent US military system. Long-term budget locked in. Iran war prep amplifies defense AI demand.\n\n1/4",
           "thread": [
-            "Mizuho 'no comparable' $195, UBS $200, Wedbush $230. 16/28 Buy. Rule of 40: 127%, revenue +60%.\n\n2/4",
-            "20-day SMA ($147) support. RSI 57 neutral. P/E 221x but FCF margin 47%, $11.2B backlog supports fundamentals.\n\n3/4",
-            "Buy. Technical weakness zone, DCA approach.\n\n$150.68, target $196 (+30%)\n\n4/4"
+            "Budget confirmed. Institutional lock-in. Competitors can barely challenge this. UBS $200, Wedbush $230, Mizuho $195.\n\nMonday gap-up expected.\n\n2/4",
+            "P/E 221x is high but Rule of 40 at 127%, 60% revenue growth. Maven adoption materially strengthens growth visibility.\n\n3/4",
+            "Strong Buy. Maven program of record + Iran defense demand. Defense AI's decisive moment.\n\n$150.68, target $196(+30%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Palantir sits below 2 moving averages, but Pentagon's phone is ringing",
-          "text": "$PLTR $150.68 (-3.25%)\n\nBelow 50-day, below 200-day. Chart looks ugly. But Pentagon wants $200B for war. You need AI to fight wars now.\n\nTarget $196 (+30%)\n\n1/4",
+          "hook": "Pentagon prepped for war and adopted Palantir AI. Same day",
+          "text": "$PLTR $150.68(-3.21%)\n\nPentagon made two moves Friday: prepare ground forces for Iran, and make Palantir's AI the official military system. War prep and AI adoption on the same timeline.\n\n1/4",
           "thread": [
-            "P/E 221x and Mizuho says 'no comparable.' Stock you love to hate but can't stop buying.\n\nRule of 40: 127%. Numbers end arguments.\n\n2/4",
-            "Karp keeps selling, chart is bearish, but analysts are bullish. The more you analyze Palantir the more confused you get.\n\n3/4",
-            "Buy. Moving averages are resistance, but war budgets are reality. DCA.\n\n$150.68, target $196 (+30%)\n\n4/4"
+            "After-hours bombshell: Maven is now a program of record. Budget locked. Market hasn't priced it yet.\n\nUBS $200, Wedbush $230. Monday will be fun.\n\n2/4",
+            "P/E 221x, Karp is selling. But when the entire US military officially adopts your AI? That's not SaaS. That's national infrastructure.\n\n3/4",
+            "Strong Buy. War is tragedy but defense AI is reality. Timing is impeccable.\n\n$150.68, target $196(+30%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR holders, below 200-day SMA but this isn't the end",
-          "text": "$PLTR $150.68 (-3.25%)\n\nSlipped below 200-day ($163). Scary chart makes for anxious nights. But Iran war $200B is structurally growing defense AI demand.\n\nTarget $196 (+30%)\n\n1/4",
+          "hook": "PLTR holders, down 3% but an incredible after-hours surprise",
+          "text": "$PLTR $150.68(-3.21%)\n\nAnother red day. Iran war panic dragged everything. But after the close, Reuters dropped a bombshell: Maven is now Pentagon's official program.\n\n1/4",
           "thread": [
-            "Mizuho, UBS, Wedbush all bullish. Holding 20-day ($147). RSI 57, not oversold.\n\n2/4",
-            "10 drawdowns of 20%+ in 3 years, all recovered. Technical weakness could be a great entry.\n\n3/4",
-            "Buy. It's been shaky but resilient. DCA on weakness.\n\n$150.68, target $196 (+30%)\n\n4/4"
+            "This is massive. Long-term budget confirmed. US military AI standard. Competitors can barely touch this moat.\n\n2/4",
+            "Monday should tell a different story. UBS $200, Wedbush $230. The patience is paying off.\n\nRule of 40 at 127%, 60% growth.\n\n3/4",
+            "Strong Buy. The tough days led to this moment.\n\n$150.68, target $196(+30%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR $150.68, below moving averages but structural defense AI tailwind",
-          "text": "$PLTR $150.68 (-3.25%)\n\nBelow 50-day ($152) and 200-day ($163). Technically weak. Pentagon $200B Iran war budget structurally grows defense AI demand.\n\nMizuho 'no comparable' $195, UBS $200. Rule of 40: 127%, revenue +60%. RSI 57 neutral.\n\nBuy. Technical weakness, DCA approach. Target $196 (+30%)."
+          "hook": "Maven program of record: Palantir's defense AI moat just became permanent",
+          "text": "$PLTR $150.68(-3.21%)\n\nAfter-hours Reuters exclusive: Maven AI adopted as Pentagon program of record. Budget confirmed. Iran war preparations amplify defense AI demand.\n\nUBS $200, Wedbush $230, Mizuho $195. Rule of 40 at 127%. Monday gap-up expected. Strong Buy. Target $196(+30%)."
         },
         "witty": {
-          "hook": "Below 2 moving averages but Pentagon wants to spend $200B on war",
-          "text": "$PLTR $150.68 (-3.25%)\n\nChart looks ugly. Below 50-day, below 200-day. But Pentagon wants $200B for Iran. You need AI to fight wars, and defense AI means Palantir.\n\nP/E 221x and Mizuho says 'no comparable.' Chart screams red, fundamentals scream green. That's Palantir for you.\n\nBuy. Moving averages are resistance but DCA. Target $196 (+30%)."
+          "hook": "Pentagon prepped for war and made Palantir AI official. Same Friday",
+          "text": "$PLTR $150.68(-3.21%)\n\nPentagon's Friday: prepare ground forces for Iran, and make Palantir Maven the official AI system. War preparation and AI adoption happened simultaneously.\n\nP/E 221x? When the US military officially adopts your AI, that's not software valuation. That's national defense infrastructure.\n\nMonday hasn't priced this yet. UBS $200, Wedbush $230. Strong Buy. Target $196(+30%)."
         },
         "empathy": {
-          "hook": "PLTR holders, below 200-day SMA is scary but defense theme is alive",
-          "text": "$PLTR $150.68 (-3.25%)\n\nSlipped below 200-day ($163). The whole market is gripped by war fear. High-volatility stocks wear you down when they shake daily.\n\nBut Pentagon $200B is direct defense AI tailwind. Mizuho, UBS, Wedbush all bullish. 10 drawdowns of 20%+ in 3 years, all recovered.\n\nBuy. Technical weakness could be a good entry. DCA on pullbacks. Target $196 (+30%)."
+          "hook": "PLTR holders, Friday hurt but the after-hours news changes everything",
+          "text": "$PLTR $150.68(-3.21%)\n\nDown again. Iran war, market panic, another red day. The volatility is exhausting.\n\nBut Reuters reported after the bell: Maven is now a Pentagon program of record. Budget locked. US military AI standard. This is the kind of news that makes the tough days worth it.\n\nMonday should tell a different story. Strong Buy. Target $196(+30%)."
         }
       }
     }
