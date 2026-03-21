@@ -1,0 +1,373 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-22",
+  "currentPrice": 172.70,
+  "marketCap": "$4.20T",
+  "businessSummary": {
+    "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure through data center GPUs and AI accelerators",
+    "description": "NVIDIA is the leading force in GPU-based AI accelerated computing, operating a vertically integrated ecosystem spanning data center AI chips to software platforms. At GTC 2026, the company unveiled its Vera Rubin and Vera CPU platforms alongside a five-layer full-stack AI strategy. Fiscal year 2026 revenue reached $215.9 billion, up 65% year-over-year, with net income of $120 billion. CEO Jensen Huang projected at least $1 trillion in cumulative AI chip orders through 2027 for Blackwell and Vera Rubin, doubling the prior $500 billion forecast.",
+    "howTheyMakeMoney": [
+      "Data center AI accelerators (80%+ of revenue)",
+      "AI software platforms (CUDA, NIM, NemoClaw)",
+      "Gaming GPUs",
+      "Automotive (DRIVE)",
+      "Networking (Spectrum-X)"
+    ],
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "35.0x",
+      "interpretation": "Trades at a 40% premium to the semiconductor sector average of roughly 25x and above the S&P 500 average of 22x, but a PEG ratio of approximately 0.5 on 65%+ revenue growth suggests the premium is justified"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "20.9x",
+      "interpretation": "Based on FY27 consensus EPS of $8.30. Remarkably reasonable for a company growing earnings at 69% year-over-year"
+    },
+    {
+      "name": "Revenue (FY26)",
+      "value": "$215.9B",
+      "interpretation": "Up 65% year-over-year, driven by data center AI accelerator demand"
+    },
+    {
+      "name": "Net Income (TTM)",
+      "value": "$120.1B",
+      "interpretation": "Net margin of approximately 56%, delivering software-like profitability from a hardware business"
+    },
+    {
+      "name": "EPS (TTM)",
+      "value": "$4.90",
+      "interpretation": "Up 67% year-over-year. FY27 consensus of $8.30 implies a further 69% growth"
+    },
+    {
+      "name": "Revenue Growth (FY27E)",
+      "value": "+71.2%",
+      "interpretation": "Consensus of 69 analysts projects FY27 revenue of $369.8 billion"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "$1 Trillion Cumulative AI Chip Orders Through 2027",
+      "description": "At GTC 2026, CEO Jensen Huang announced that cumulative orders for Blackwell and Vera Rubin chips would reach at least $1 trillion by 2027, doubling the previous $500 billion projection"
+    },
+    {
+      "title": "Agentic AI Driving New CPU Demand",
+      "description": "Agentic AI emerged as the central theme at GTC 2026, creating explosive demand not just for GPUs but also CPUs. NVIDIA is targeting this market with its Vera CPU"
+    },
+    {
+      "title": "Vera Rubin Next-Generation Platform",
+      "description": "Vera Rubin NVL72 promises a 10x improvement in performance per watt, addressing power efficiency challenges for large-scale data centers and setting the standard for next-gen AI infrastructure"
+    },
+    {
+      "title": "China Market Re-Entry via H200 Variant",
+      "description": "CEO Huang announced the restart of manufacturing for a China-specific H200 variant chip, partially restoring access to the Chinese AI market"
+    },
+    {
+      "title": "Robotics and Physical AI Expansion",
+      "description": "GTC 2026 showcased a major push into physical AI, with NVIDIA and partners outlining a full stack spanning models, simulation, data, and deployment for robotics at scale"
+    },
+    {
+      "title": "Analyst Target Upgrades Post-GTC",
+      "description": "Rosenblatt raised its price target from $300 to $325 following GTC. Raymond James also raised to $323, both maintaining Strong Buy ratings"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture cadence, and overwhelming economies of scale",
+    "moats": [
+      {
+        "type": "Ecosystem Lock-in",
+        "description": "The CUDA developer ecosystem exceeds 5 million developers. Extremely high switching costs maintain GPU market dominance"
+      },
+      {
+        "type": "Vertical Integration",
+        "description": "Full-stack offering spanning GPUs, CPUs (Vera), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw) enables one-stop AI infrastructure deployment"
+      },
+      {
+        "type": "Annual Architecture Cadence",
+        "description": "The Hopper-to-Blackwell-to-Vera Rubin annual release cycle maintains a 2-3 year technology lead over competitors"
+      },
+      {
+        "type": "Scale Advantages",
+        "description": "FY26 revenue of $215.9 billion makes NVIDIA the largest semiconductor company, enabling R&D investment that dwarfs competitors"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X entered the AI GPU market but trails significantly in software ecosystem and scale. Data center AI market share remains below 10%"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "Strong for internal Google workloads but limited external market influence"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "Optimized for AWS internal use. Lacks the versatility of NVIDIA's offerings"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "Custom ASICs for hyperscale cloud providers. Cannot compete with NVIDIA in the general-purpose market"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-16",
+      "headline": "GTC 2026: Huang Projects $1 Trillion in Blackwell and Vera Rubin Orders Through 2027",
+      "significance": "Doubled the prior $500 billion projection, confirming explosive growth in AI chip demand",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
+    },
+    {
+      "date": "2026-03-16",
+      "headline": "NVIDIA Bets on AI Inference as Chip Revenue Opportunity Hits $1 Trillion",
+      "significance": "Outlined strategy positioning AI inference as a market opportunity rivaling training",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/"
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "NVIDIA Restarting Manufacturing of China AI Chip Variant",
+      "significance": "Partial restoration of China market access amid ongoing US-China trade tensions",
+      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/"
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "Rosenblatt Raises NVDA Target to $325 From $300 Post-GTC",
+      "significance": "Highest Wall Street price target, reflecting GTC announcements",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "GTC 2026: Vera Rubin and Vera CPU Platforms Officially Unveiled",
+      "significance": "Next-generation AI architecture with 10x performance-per-watt improvement",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
+    },
+    {
+      "date": "2026-03-19",
+      "headline": "Raymond James Raises NVDA Target to $323 From $291",
+      "significance": "Major investment bank significantly raises target, maintains Strong Buy",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "GTC 2026: Agentic AI Takes Center Stage",
+      "significance": "Two new chip announcements alongside agentic AI tools, defining the next phase of AI",
+      "url": "https://www.cnbc.com/2026/03/20/nvidia-gtc-2026-agentic-ai-chips-tech-download.html"
+    },
+    {
+      "date": "2026-03-21",
+      "headline": "Motley Fool Analyzes NVIDIA End-of-Year Price Trajectory",
+      "significance": "Projects 13% sequential quarterly growth needed to hit $1 trillion cumulative revenue by 2027",
+      "url": "https://www.fool.com/investing/2026/03/21/prediction-this-will-be-nvidias-stock-price-by-the/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 265.97,
+    "highTarget": 360,
+    "lowTarget": 100,
+    "upsidePercent": 54.01,
+    "buyCount": 36,
+    "holdCount": 1,
+    "sellCount": 1,
+    "notableComment": "Rosenblatt's Kevin Cassidy raised his target to $325 post-GTC, citing the Vera Rubin platform and $1 trillion order pipeline. Raymond James followed with $323. Both maintain Strong Buy"
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Post-GTC Sell-the-News Action: Four Consecutive Down Days",
+      "description": "Despite blockbuster GTC announcements, shares fell 3.28% on March 20 alone and declined four straight sessions. Market may have already priced in the positives"
+    },
+    {
+      "severity": "high",
+      "title": "US-China Trade Tensions and Export Controls",
+      "description": "Despite the H200 variant restart, ongoing uncertainty around US government AI chip export restrictions to China poses a material revenue risk"
+    },
+    {
+      "severity": "medium",
+      "title": "Valuation Premium",
+      "description": "A TTM P/E of 35x carries a significant premium over the semiconductor sector average of 25x. Multiple compression is possible if growth decelerates. However, forward P/E of 21x is more reasonable"
+    },
+    {
+      "severity": "medium",
+      "title": "Custom ASIC Competition Intensifying",
+      "description": "Google TPU, Amazon Trainium, and Broadcom custom chips could displace some NVIDIA GPU demand among hyperscale cloud providers"
+    },
+    {
+      "severity": "medium",
+      "title": "AI Capex Cycle Deceleration Risk",
+      "description": "A potential slowdown in hyperscaler AI infrastructure spending would directly impact revenue growth trajectory"
+    },
+    {
+      "severity": "low",
+      "title": "Morningstar 234% Premium Warning",
+      "description": "Morningstar's fair value estimate implies NVDA trades at a 234% premium. Deep value investors may view the stock as significantly overvalued"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Dominant Position in $1 Trillion AI Chip Market",
+      "rationale": "Cumulative order pipeline of $1 trillion through 2027. CUDA ecosystem and full-stack strategy sustain 80%+ market share"
+    },
+    {
+      "title": "Forward P/E of 21x Is Attractive for the Growth Rate",
+      "rationale": "With FY27 EPS growth projected at 69%, the PEG ratio of approximately 0.3 makes NVDA compelling even among growth stocks"
+    },
+    {
+      "title": "Post-GTC Pullback Creates Entry Opportunity",
+      "rationale": "Four consecutive down days pushed RSI to 35, near oversold territory. The 52-week average price of $166 provides nearby technical support. Analyst consensus implies 54% upside"
+    },
+    {
+      "title": "Vera Rubin Next-Generation Upgrade Cycle",
+      "rationale": "A 10x performance-per-watt improvement with Vera Rubin is expected to trigger a massive upgrade cycle across data centers globally"
+    },
+    {
+      "title": "Agentic AI Opens New Growth Vectors",
+      "rationale": "Agentic AI drives simultaneous CPU and GPU demand, expanding NVIDIA's total addressable market. Vera CPU positions the company to capture this opportunity directly"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 68.6,
+    "sma50": 183.0,
+    "sma50Signal": "below",
+    "sma200": 166.0,
+    "sma200Signal": "above",
+    "rsi": 35.2,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "GTC 2026 delivered a $1 trillion order pipeline, Vera Rubin next-gen chips, and an agentic AI strategy, reinforcing NVIDIA's dominant position in AI infrastructure",
+    "FY27 revenue consensus of $369.8B (+71%) and forward P/E of 21x represent an attractive valuation for this growth profile. Rosenblatt and Raymond James raised targets to $325 and $323 respectively",
+    "However, four straight down days (-7.4% for the week) reflect sell-the-news dynamics. US-China export control uncertainty adds near-term overhang",
+    "RSI at 35 nears oversold, with the 200-day SMA at $166 providing support. The 18.6% pullback from the 52-week high creates a medium-term entry opportunity"
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "The $1 trillion order pipeline and Vera Rubin upgrade cycle confirmed at GTC 2026 strengthen the long-term growth thesis. The post-event pullback has compressed forward P/E to 21x, offering an attractive entry point relative to projected 69% earnings growth. A dollar-cost averaging strategy into current weakness is recommended.",
+    "horizon": "6-12 months"
+  },
+  "sources": [
+    {
+      "name": "MacroTrends",
+      "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history",
+      "description": "NVDA price history, 52-week range, closing price data"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "description": "38-analyst consensus, price targets, earnings forecasts"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "GTC 2026 keynote coverage: $1 trillion order projection"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/",
+      "description": "AI inference chip $1 trillion revenue opportunity"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/",
+      "description": "China H200 variant chip manufacturing restart"
+    },
+    {
+      "name": "Fullratio",
+      "url": "https://fullratio.com/stocks/nasdaq-nvda/pe-ratio",
+      "description": "NVDA P/E ratio of 35.03, EPS of $4.93"
+    },
+    {
+      "name": "GuruFocus",
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA",
+      "description": "Forward P/E of 20.95, semiconductor sector ranking"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/21/prediction-this-will-be-nvidias-stock-price-by-the/",
+      "description": "Year-end 2026 price prediction, FY27 revenue analysis"
+    },
+    {
+      "name": "AltIndex",
+      "url": "https://altindex.com/ticker/nvda/technical-analysis",
+      "description": "RSI at 35.2, MACD bearish signal, technical indicators"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "description": "Official GTC 2026 news and announcements"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVDA: $1T order bomb at GTC, but stock drops?",
+      "text": "NVIDIA GTC 2026 breakdown\n\nJensen Huang just dropped a $1 TRILLION AI chip order forecast\n\nVera Rubin next-gen chip unveiled\nAgentic AI expanding into CPUs\nChina H200 manufacturing restart\n\nYet shares fell 4 straight days\n\n1/4",
+      "thread": [
+        "The numbers:\n\nFY26 revenue: $215.9B (+65%)\nFY27 forecast: $369.8B (+71%)\nForward P/E: 21x\n\n70% growth at 21x earnings?\nPEG ratio of 0.3\n\nWall St consensus: $266 (+54%)\nRosenblatt: $325 (+88%)\n\n2/4",
+        "Why the selloff?\n\n4 straight days down, -7.4% for the week\nRSI at 35, near oversold\n\nClassic sell-the-news after GTC\nProfit-taking after strong run\nChina export control uncertainty\n\nBut holding above the 200-day SMA\n\n3/4",
+        "Verdict: Buy\n\n$1T order pipeline confirmed\nVera Rubin upgrade cycle beginning\nAgentic AI = new growth vector\n\nPost-GTC pullback = entry opportunity\nDollar-cost average into weakness\n\n*Not financial advice\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVDA GTC 2026 is done. $1 trillion declaration vs stock selloff. What gives?",
+      "text": "NVIDIA GTC 2026 just wrapped up.\n\nJensen Huang declared $1 trillion in cumulative AI chip orders through 2027. Vera Rubin next-gen chips, agentic AI, China H200 restart. The works.\n\nThe stock? Down four straight days to $172.70.\n\nLet's look at the numbers:\nFY26 revenue: $215.9B (+65%)\nFY27 consensus: $369.8B (+71%)\nForward P/E: 21x\n\n70% growth at 21x earnings gives you a PEG of 0.3. That's cheap by any growth stock standard.\n\n36 of 38 analysts rate it a Buy. Consensus target: $266 (+54%). Rosenblatt went to $325, Raymond James to $323.\n\nRSI at 35, near oversold. Holding above the 200-day moving average at $166.\n\nPost-GTC pullbacks are nothing new for NVDA. What matters is fundamentals, and a $1 trillion pipeline is real.\n\nThis looks like a dollar-cost averaging opportunity.\n\n*Not financial advice"
+    },
+    "telegram": {
+      "hook": "NVDA GTC 2026 Analysis",
+      "text": "NVIDIA GTC 2026 Summary\n\nPrice: $172.70 (-7.4% this week)\n\nKey Announcements:\n- $1T cumulative AI chip orders through 2027\n- Vera Rubin next-gen chip unveiled\n- Agentic AI + Vera CPU\n- China H200 manufacturing restart\n\nFinancials:\n- FY26 revenue: $215.9B (+65%)\n- FY27E: $369.8B (+71%)\n- Forward P/E: 21x\n\nTechnicals:\n- RSI 35 (near oversold)\n- Holding above 200-day SMA\n- 18.6% off 52-week high\n\nConsensus: $266 (+54%)\nRosenblatt: $325 (+88%)\n\nVerdict: Buy (dollar-cost average)\nPost-GTC pullback = entry opportunity\n\n*Not financial advice"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA: $1T order bomb at GTC, but stock drops?",
+          "text": "NVIDIA GTC 2026 breakdown\n\nJensen Huang just dropped a $1 TRILLION AI chip order forecast\n\nVera Rubin next-gen chip unveiled\nAgentic AI expanding into CPUs\nChina H200 manufacturing restart\n\nYet shares fell 4 straight days\n\n1/4",
+          "thread": [
+            "The numbers:\n\nFY26 revenue: $215.9B (+65%)\nFY27 forecast: $369.8B (+71%)\nForward P/E: 21x\n\n70% growth at 21x earnings?\nPEG ratio of 0.3\n\nWall St consensus: $266 (+54%)\nRosenblatt: $325 (+88%)\n\n2/4",
+            "Why the selloff?\n\n4 straight days down, -7.4% for the week\nRSI at 35, near oversold\n\nClassic sell-the-news after GTC\nProfit-taking after strong run\nChina export control uncertainty\n\nBut holding above the 200-day SMA\n\n3/4",
+            "Verdict: Buy\n\n$1T order pipeline confirmed\nVera Rubin upgrade cycle beginning\nAgentic AI = new growth vector\n\nPost-GTC pullback = entry opportunity\nDollar-cost average into weakness\n\n*Not financial advice\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Jensen: $1 trillion. Market: cool, -3% it is",
+          "text": "Jensen Huang dropped a $1 trillion bomb at GTC\nMarket responded with 4 straight days of selling\n\nNVDA down to $172\nForward P/E at 21x\n\nA 70% grower at 21x earnings\nand people are selling?\n\n1/3",
+          "thread": [
+            "Vera Rubin: 10x perf per watt monster chip\nAgentic AI: now eating the CPU market too\n\nMarket: yeah yeah, we've heard it before\n\nYou know what else they've heard before?\nEvery GTC pullback that turned into a rally\n\n2/3",
+            "Rosenblatt: $325 (+88%)\n36 of 38 analysts: buy it\n\nRSI at 35 = near oversold\nIf it drops more, thank the sellers\n\nThe leather jacket man has spoken\n\n*Not financial advice\n\n3/3"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA holders, this week was rough. Let's talk about it",
+          "text": "GTC delivered blockbuster news\nBut the stock fell 4 straight days\n\n-7.4% in a week hurts, no way around it\n\nBut the numbers tell a different story:\nFY27 revenue +71%, Forward P/E 21x\nAt this price, the growth is more than priced in\n\n1/3",
+          "thread": [
+            "The $1T order pipeline is real\nVera Rubin could be a generational chip\n\nShort-term pain often creates\nlong-term buying opportunities\n\nRSI at 35 says we're near a floor\n\n2/3",
+            "36 of 38 analysts say buy\nConsensus target: $266 (+54%)\n\nDon't let this week shake your thesis\nDollar-cost average through the noise\n\nPatience is the real edge\n\n*Not financial advice\n\n3/3"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA GTC 2026 is done. $1 trillion declaration vs stock selloff. What gives?",
+          "text": "NVIDIA GTC 2026 just wrapped up.\n\nJensen Huang declared $1 trillion in cumulative AI chip orders through 2027. Vera Rubin next-gen chips, agentic AI, China H200 restart. The works.\n\nThe stock? Down four straight days to $172.70.\n\nLet's look at the numbers:\nFY26 revenue: $215.9B (+65%)\nFY27 consensus: $369.8B (+71%)\nForward P/E: 21x\n\n70% growth at 21x earnings gives you a PEG of 0.3. That's cheap by any growth stock standard.\n\n36 of 38 analysts rate it a Buy. Consensus target: $266 (+54%). Rosenblatt went to $325, Raymond James to $323.\n\nRSI at 35, near oversold. Holding above the 200-day moving average at $166.\n\nPost-GTC pullbacks are nothing new for NVDA. What matters is fundamentals, and a $1 trillion pipeline is real.\n\nThis looks like a dollar-cost averaging opportunity.\n\n*Not financial advice"
+        },
+        "witty": {
+          "hook": "Jensen dropped a $1 trillion bomb and the market answered with a -7% selloff. Classic.",
+          "text": "GTC 2026 recap: greatest hits, greatest selloff.\n\nJensen Huang put on the leather jacket and told the world about $1 trillion in AI chip orders. Vera Rubin, agentic AI, China re-entry. A full house.\n\nThe market's response? Four days of selling. -7.4%. Down to $172.\n\nBut this is the GTC playbook. Every year. Get hyped, buy the rumor, sell the news. Rinse and repeat.\n\nForward P/E of 21x on 70% growth. PEG of 0.3. You'd struggle to find a better risk-reward in mega-cap tech.\n\n36 of 38 analysts say buy. Rosenblatt says $325. Raymond James says $323.\n\nRSI at 35 is basically the market waving a white flag. If it drops further, you should be thanking the sellers.\n\nTrust the leather jacket.\n\n*Not financial advice"
+        },
+        "empathy": {
+          "hook": "To everyone holding NVDA this week: it's been tough. Let's work through it together.",
+          "text": "This week tested NVDA holders.\n\nGTC delivered some of the biggest announcements in NVIDIA's history, yet the stock dropped four straight days. -7.4% is real money, and it doesn't feel good.\n\nBut let's take a step back and look at what actually matters.\n\nFY26 revenue came in at $215.9 billion, up 65%. FY27 consensus is $369.8 billion, another 71% jump. At a forward P/E of 21x, this is one of the most reasonably valued hypergrowth names in the market.\n\nThe $1 trillion order pipeline isn't speculation. These are real commitments from the world's largest tech companies.\n\nVera Rubin with its 10x efficiency improvement will drive the next upgrade cycle. Agentic AI is opening entirely new markets.\n\n36 of 38 analysts recommend buying. Consensus target of $266 is 54% above current levels.\n\nRSI at 35 suggests the selling is nearly exhausted. The 200-day moving average at $166 provides solid support.\n\nDon't rush. Dollar-cost average through the weakness. The fundamentals haven't changed.\n\n*Not financial advice"
+        }
+      }
+    }
+  }
+}
