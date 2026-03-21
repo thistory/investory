@@ -5,168 +5,334 @@
   "currentPrice": 367.96,
   "marketCap": "$1.18T",
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, energy, and custom chips",
-    "description": "Tesla extends beyond EV sales with FSD autonomous driving, Cybercab robotaxi, Optimus humanoid robot, and Megapack energy storage. FY2025 revenue hit $94.8B with GAAP EPS of $1.08. Q4 2025 gross margin reached 20.1%, the highest in two years. Key catalysts are accelerating from April 2026: Cybercab production, Optimus Gen 3, and the Terafab semiconductor launch.",
+    "oneLiner": "World's largest EV maker and a 'Physical AI Platform' spanning autonomous driving, robotics, energy, and custom chips",
+    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08, while Q4 gross margin hit a two-year high of 20.1%. On March 21, 2026, Tesla officially launched its Terafab in-house semiconductor operation, with Cybercab mass production slated to begin in April.",
     "howTheyMakeMoney": [
-      "EV sales (Model 3/Y, Cybertruck)",
-      "Energy storage and generation (Megapack, Powerwall, Solar)",
-      "Services and charging (Supercharger, insurance, OTA upgrades)",
-      "FSD subscriptions and licensing",
+      "Electric vehicle sales (Model 3/Y, Cybertruck)",
+      "Energy generation and storage (Megapack, Powerwall, Solar)",
+      "Services and charging (Supercharger network, insurance, OTA upgrades)",
+      "FSD (Full Self-Driving) subscriptions and licensing",
       "Regulatory credit sales"
     ],
-    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Macrohard"]
+    "keyProducts": [
+      "Model Y/3",
+      "Cybertruck",
+      "Cybercab",
+      "Megapack 3",
+      "FSD",
+      "Optimus",
+      "Terafab",
+      "Macrohard"
+    ]
   },
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "220x", "interpretation": "Extreme premium over S&P 500 avg (23x) and auto sector avg (16x). Iran war and oil surge intensify multiple compression pressure"},
-    {"name": "Forward P/E", "value": "145x", "interpretation": "Based on FY2026 consensus EPS of $2.53. FSD regulatory setbacks across three markets raise the growth discount rate"},
-    {"name": "Gross Margin", "value": "18.03% (Q4: 20.1%)", "interpretation": "Q4 2025 hit a 2-year high of 20.1%, signaling margin recovery despite pricing pressure"},
-    {"name": "Revenue TTM", "value": "$94.8B", "interpretation": "FY2025 full-year. Slight YoY decline but energy segment driving growth"},
-    {"name": "FCF TTM", "value": "$6.22B", "interpretation": "Solid cash generation. $44B total cash reserves to fund capex"},
-    {"name": "Net Margin", "value": "4.0%", "interpretation": "Compressed by pricing competition and R&D investment expansion"}
+    {
+      "name": "P/E (TTM)",
+      "value": "220x",
+      "interpretation": "Extreme premium vs S&P 500 avg (~23x), auto sector avg (~16x), and BYD (~28x). Still elevated despite sustained selloff"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "145x",
+      "interpretation": "Based on FY2026 EPS consensus of $2.53. S&P 500 forward P/E (~20x), Rivian (unprofitable), Lucid (unprofitable). Growth premium priced in"
+    },
+    {
+      "name": "Gross Margin",
+      "value": "18.03% (Q4: 20.1%)",
+      "interpretation": "Q4 2025 hit a two-year high of 20.1%. Margin recovery signal despite pricing pressure"
+    },
+    {
+      "name": "Revenue TTM",
+      "value": "$94.8B",
+      "interpretation": "FY2025 annual revenue. Modest YoY decline, but energy segment driving growth"
+    },
+    {
+      "name": "FCF TTM",
+      "value": "$6.22B",
+      "interpretation": "Healthy cash generation. $44B total cash supports $20B+ annual capex cycle"
+    },
+    {
+      "name": "Net Margin",
+      "value": "4.0%",
+      "interpretation": "Compressed margins from price competition and expanded R&D/capex for Terafab, Cybercab"
+    }
   ],
   "growthDrivers": [
-    {"title": "$2.9B Chinese Solar Equipment Deal: 100GW US Production Target", "description": "Reuters exclusive (3/20): Tesla negotiating with Suzhou Maxwell and others for solar manufacturing equipment. Targeting 100GW US solar by 2028. Texas delivery by fall 2026."},
-    {"title": "Samsung AI6 Chip $16.5B Foundry Deal Confirmed", "description": "Samsung confirmed at AGM: Tesla AI6 (HW6) chips to be manufactured at Texas Taylor facility using 2nm SF2P process. $16.5B through 2033."},
-    {"title": "Terafab Semiconductor Unit Launches March 21", "description": "Tesla officially launches Terafab today. Custom chip production for AI training, FSD inference, and Optimus robots. Reducing external dependency."},
-    {"title": "Cybercab April Production + Macrohard AI Platform", "description": "Cybercab production line designed for hundreds of units per week. Macrohard (Tesla-xAI JV) as enterprise AI revenue diversification."},
-    {"title": "China Sales +35% YoY in Jan-Feb, Trump Visit Rescheduled", "description": "China-made Tesla EV sales hit 127,728 units in Jan-Feb, up 35%+. White House announced Trump China visit within 5-6 weeks."}
+    {
+      "title": "Terafab In-House Semiconductor Operation Officially Launched Today (3/21)",
+      "description": "Tesla officially launched its Terafab project today, targeting production of hundreds of billions of custom chips annually. Musk warned chip supply will be insufficient within 3-4 years and is hiring semiconductor fab construction managers. 2026 capex exceeds $20B."
+    },
+    {
+      "title": "$2.9B Chinese Solar Equipment Deal: 100GW US Solar Manufacturing Target",
+      "description": "Per Reuters exclusive, Tesla is negotiating $2.9B in solar manufacturing equipment purchases from Suzhou Maxwell Technologies and other Chinese firms. Target: 100GW US solar production by end of 2028, with Texas delivery before fall 2026."
+    },
+    {
+      "title": "FSD Europe Launch: Netherlands Approval Delayed to April 10",
+      "description": "Netherlands FSD approval, originally expected March 20, slipped to April 10. This first European approval is critical for continent-wide FSD rollout, but the delay weakens near-term momentum alongside the NHTSA probe."
+    },
+    {
+      "title": "Samsung AI6 Chip $16.5B Foundry Contract Confirmed",
+      "description": "Samsung confirmed at its AGM that Tesla AI6 (HW6) chips will be produced at the Taylor, Texas fab using 2nm (SF2P) process. $16.5B through 2033. MPW production delayed ~6 months due to yield issues."
+    },
+    {
+      "title": "Cybercab April Production Start, Macrohard AI Platform",
+      "description": "Cybercab production line designed for hundreds of units per week. Macrohard (Tesla-xAI joint venture) is an enterprise AI platform diversifying revenue beyond vehicles."
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share leader. 8.2B FSD miles, Supercharger NACS standard, and vertical integration as core moats. Samsung AI6 foundry deal accelerates custom chip ecosystem.",
+    "summary": "50%+ US EV market share leader. 8.2B miles of FSD data, Supercharger NACS standard, and vertical integration form the core moat. Samsung AI6 foundry deal and Terafab launch accelerate in-house chip ecosystem.",
     "moats": [
-      {"type": "Autonomous Driving Data Moat", "description": "8.2 billion FSD miles. Overwhelmingly more training data than competitors."},
-      {"type": "Vertical Integration + Custom Chips", "description": "In-house batteries (4680), custom chips (Terafab+Samsung AI6), software (FSD), charging (Supercharger)."},
-      {"type": "Charging Network Effect", "description": "NACS is the North American EV charging standard. GM, Ford, Rivian depend on Tesla Superchargers."}
+      {
+        "type": "Autonomous Driving Data Moat",
+        "description": "8.2 billion FSD miles driven. Overwhelmingly more training data than any competitor."
+      },
+      {
+        "type": "Vertical Integration + In-House AI Chips",
+        "description": "In-house batteries (4680), custom chips (Terafab + Samsung AI6), software (FSD), charging infrastructure (Supercharger)."
+      },
+      {
+        "type": "Charging Network Effect",
+        "description": "NACS is the North American EV charging standard. GM, Ford, and Rivian depend on Tesla Superchargers."
+      }
     ],
     "competitors": [
-      {"name": "BYD", "detail": "Global EV sales leader (2.26M vs Tesla 1.64M in 2025). 11 new models, 640-mile sedan, 5-min charging tech"},
-      {"name": "Rivian (RIVN)", "detail": "Electric pickup/SUV. Amazon logistics partner"},
-      {"name": "Lucid (LCID)", "detail": "Premium EV sedan. Saudi investment"}
+      {
+        "name": "BYD",
+        "detail": "Global EV sales leader (2025: 2.26M vs Tesla 1.64M). 11 new models, 640-mile sedan, 5-minute charging tech"
+      },
+      {
+        "name": "Rivian (RIVN)",
+        "detail": "Electric pickup/SUV. Amazon logistics partner"
+      },
+      {
+        "name": "Lucid (LCID)",
+        "detail": "Premium EV sedan. Saudi-backed"
+      }
     ]
   },
   "recentNews": [
-    {"date": "2026-03-20", "headline": "Iran War Escalates: Pentagon Prepares Ground Forces, Strait of Hormuz Blocked", "significance": "CBS reports Pentagon preparing ground force deployment to Iran. $200B war budget requested. Hormuz blockade cuts 20% of global oil. S&P 500 breaks below 200-day MA for first time in 200+ days.", "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-"},
-    {"date": "2026-03-20", "headline": "FSD Europe Approval Delayed to April 10 Despite Testing Completion", "significance": "Tesla completed 1.6M km of European testing, 13K customer ride-alongs, 4,500+ track scenarios. Approval pushed from March 20 to April 10.", "url": "https://electrek.co/2026/03/20/tesla-fsd-europe-netherlands-approval-delayed-april/"},
-    {"date": "2026-03-20", "headline": "Supermicro Co-Founder Arrested for $2.5B Nvidia Chip Smuggling to China", "significance": "Yih-Shyan Liaw charged with diverting Nvidia AI chips through Taiwan to China. Signals tighter export controls.", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html"},
-    {"date": "2026-03-20", "headline": "Reuters: Tesla Negotiating $2.9B Solar Equipment Purchase from China", "significance": "100GW US solar production target. Texas delivery by fall. Energy vertical integration accelerating.", "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/"},
-    {"date": "2026-03-19", "headline": "NHTSA Escalates FSD Probe to Engineering Analysis: 3.2M Vehicles, Possible Recall", "significance": "Vision-only system safety concerns in limited visibility. 9 crashes (1 fatal). China also rejected FSD citing hardware redundancy.", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html"}
+    {
+      "date": "2026-03-21",
+      "headline": "Terafab In-House Semiconductor Operation Goes Live; Musk Warns of Chip Shortage in 3-4 Years",
+      "significance": "Tesla officially launched Terafab today, hiring fab construction managers and committing $20B+ in 2026 capex. First automaker to build an in-house chip manufacturing operation at scale.",
+      "url": "https://247wallst.com/investing/2026/03/19/teslas-terafab-could-be-the-game-changer-that-recharges-the-stock/"
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "FSD Europe Approval (Netherlands) Delayed to April 10",
+      "significance": "Netherlands FSD approval, originally targeted for March 20, pushed back to April 10. First European market approval is pivotal for continent-wide rollout.",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-fsd-europe-2026/"
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "Pentagon Deploys Additional Warships to Middle East; Oil Prices Surge, Markets Sell Off",
+      "significance": "Pentagon dispatched 3 warships and thousands of Marines to the Middle East. Oil surged, pushing S&P 500 into its longest weekly losing streak in a year. Growth stocks hammered.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-"
+    },
+    {
+      "date": "2026-03-19",
+      "headline": "NHTSA Escalates FSD Probe to Engineering Analysis: 3.2M Vehicles, Potential Recall",
+      "significance": "NHTSA elevated its FSD investigation to Engineering Analysis, the final stage before a recall order. 9 crashes (1 fatality) linked to camera-only visibility issues. OTA fix possible.",
+      "url": "https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-tesla-vehicles-with-fsd-2026-03-19/"
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "Reuters Exclusive: Tesla in Talks to Buy $2.9B in Solar Equipment from Chinese Firms",
+      "significance": "Tesla negotiating with Suzhou Maxwell Technologies and others for solar panel and cell manufacturing equipment. Target: 100GW US solar production by 2028.",
+      "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/"
+    }
   ],
   "analystOpinions": {
-    "consensusTarget": 406.84,
+    "consensusTarget": 407.63,
     "highTarget": 600.00,
     "lowTarget": 19.05,
-    "upsidePercent": 10.6,
-    "buyCount": 19,
-    "holdCount": 13,
+    "upsidePercent": 10.8,
+    "buyCount": 15,
+    "holdCount": 17,
     "sellCount": 9,
-    "notableComment": "41-analyst consensus $406.84 (Hold). Upside expanded to 10.6% on price decline. BNP Paribas $280 (Underperform), BofA $460 (Buy), Wedbush $600 (Outperform)."
+    "notableComment": "43-analyst consensus at $407.63 (Hold). Wedbush at $600 (Outperform), BofA at $460 (Buy), BNP Paribas at $280 (Underperform), low of $19.05. 15 Strong Buy, 17 Hold, 9 Strong Sell. 10.8% upside from current price."
   },
   "risks": [
-    {"severity": "critical", "title": "Iran War Escalation: Ground Forces, Hormuz Blockade, Oil Surge", "description": "Pentagon preparing ground troops, requesting $200B war budget. Hormuz blocked (20% of world oil). Saudi intercepted missile. S&P 500 broke below 200-day MA. HSBC says markets pricing in recession."},
-    {"severity": "critical", "title": "FSD Blocked in Three Major Markets Simultaneously", "description": "US: NHTSA engineering analysis on 3.2M vehicles, possible recall. Europe: Delayed to April 10. China: Rejected for lack of hardware redundancy. Robotaxi strategy fundamentals shaking."},
-    {"severity": "high", "title": "S&P 500 Below 200-Day MA: Recession Pricing", "description": "HSBC: 'Markets are pricing a recessionary outcome.' Fourth consecutive weekly decline. Worst environment for a 220x P/E stock."},
-    {"severity": "high", "title": "BYD Competition Intensifying", "description": "BYD 2.26M vs Tesla 1.64M. 11 new models, 640-mile sedan, 5-min charging narrowing the tech gap."},
-    {"severity": "medium", "title": "Supermicro Chip Smuggling: Supply Chain Uncertainty", "description": "Supermicro co-founder arrested for $2.5B chip smuggling. Tighter export controls could indirectly affect Tesla's Terafab supply chain."},
-    {"severity": "medium", "title": "Valuation Burden at 220x P/E", "description": "10x premium over S&P 500 avg. War and recession fears maximize multiple compression risk."}
+    {
+      "severity": "critical",
+      "title": "NHTSA FSD Engineering Analysis: One Step From Recall",
+      "description": "Investigation covering 3.2M vehicles escalated to final pre-recall stage. Camera-only visibility issues linked to 9 crashes (1 fatality). OTA fix possible, but hardware recall would deal a major blow to robotaxi strategy."
+    },
+    {
+      "severity": "critical",
+      "title": "Middle East Geopolitical Escalation and Oil Price Surge",
+      "description": "Pentagon's additional Middle East deployment sustains oil price surge. High rates plus high oil is the worst combination for growth stock valuations. S&P 500 in longest weekly losing streak."
+    },
+    {
+      "severity": "high",
+      "title": "FSD Europe Approval Delayed (April 10)",
+      "description": "Netherlands FSD approval pushed from March 20 to April 10. Combined with NHTSA probe, regulatory risk is pressuring from both sides of the Atlantic."
+    },
+    {
+      "severity": "high",
+      "title": "Fed Rate Hold, 2026 Cut Expectations Vanishing",
+      "description": "Markets are pricing out any 2026 rate cuts entirely. The worst rate environment for a stock trading at 220x P/E."
+    },
+    {
+      "severity": "high",
+      "title": "BYD Competition Accelerating",
+      "description": "BYD sold 2.26M EVs vs Tesla's 1.64M in 2025. 11 new models, 640-mile sedan, and 5-minute charging tech narrowing the gap."
+    },
+    {
+      "severity": "medium",
+      "title": "Extreme Valuation at 220x P/E",
+      "description": "Versus S&P 500 avg of 23x, auto sector 16x, BYD 28x. Multiple compression risk intensifying with macro headwinds."
+    }
   ],
   "buyReasons": [
-    {"title": "Terafab Launches Today (3/21): Custom Semiconductor Era Begins", "rationale": "Official launch today. No other automaker can produce its own chips. In-house AI5 production reduces Nvidia dependency."},
-    {"title": "$2.9B Solar + Energy Independence in Wartime", "rationale": "Hormuz blockade makes energy independence strategically vital. 100GW US solar capacity is a powerful long-term asset."},
-    {"title": "China Sales +35%, Only Growing Market", "rationale": "China market rebound plus Trump visit rescheduling raises hopes for tariff relief."},
-    {"title": "RSI Oversold, Down 25% from Peak", "rationale": "Historical rebounds from this level. But macro improvement is the prerequisite."}
+    {
+      "title": "Terafab Launched Today: First Automaker With In-House Chip Manufacturing",
+      "rationale": "No other automaker can match Tesla's move into in-house chip production. Musk's preemptive investment against a 3-4 year chip shortage. If successful, completes the vertical integration of AI, FSD, and Optimus."
+    },
+    {
+      "title": "$2.9B Solar + $16.5B Samsung AI6: Massive Capex Cycle",
+      "rationale": "100GW solar, in-house chip production, and Cybercab lines. Over $20B in 2026 investment could convert to revenue in 2027-2028."
+    },
+    {
+      "title": "RSI at 30 (Oversold), Down 26% From 52-Week High",
+      "rationale": "RSI entering oversold territory. Historically a bounce zone. Trading below SMA-20 ($401), SMA-50 ($417), and SMA-200 ($394), suggesting technical rebound potential."
+    },
+    {
+      "title": "Analyst Target $407.63, 10.8% Upside",
+      "rationale": "43-analyst consensus implies 10.8% upside. High target of $600 represents 63% upside. Risk/reward improving at oversold levels."
+    }
   ],
   "technicalPosition": {
-    "week52High": 489.88,
-    "week52Low": 249.84,
-    "currentPositionPercent": 49.2,
-    "sma50": 416.00,
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 54.0,
+    "sma20": 400.67,
+    "sma20Signal": "below",
+    "sma50": 416.56,
     "sma50Signal": "below",
-    "sma200": 392.00,
+    "sma200": 394.26,
     "sma200Signal": "below",
-    "rsi": 28.0,
+    "rsi": 30.0,
     "rsiSignal": "oversold"
   },
   "overallOpinion": [
-    "The Iran war expanded to ground operations and the Strait of Hormuz remains blocked, pushing the S&P 500 below its 200-day MA. HSBC says markets are now pricing in recession. Tesla fell to $367.96, down 25% from its peak.",
-    "FSD faces headwinds in all three major markets simultaneously. NHTSA escalated its probe to engineering analysis on 3.2M vehicles, Europe delayed approval to April 10, and China outright rejected it. The robotaxi strategy's foundation is under pressure from all sides.",
-    "Terafab launches today (3/21) as the only near-term catalyst. RSI at 28 is deeply oversold, but technical rebounds are hard to expect amid war and recession fears. Wait for FSD resolution and war developments. Aggressive buying is risky here."
+    "Tesla officially launched Terafab today, its in-house semiconductor operation. Musk warns chip supply will fall short in 3-4 years, committing $20B+ in 2026 capex.",
+    "FSD Europe's first approval (Netherlands) slipped to April 10, while NHTSA's probe has escalated to Engineering Analysis, the last stage before a recall order covering 3.2M vehicles. An OTA fix remains possible.",
+    "The 43-analyst consensus target of $408 implies 10.8% upside from $368. RSI sits at 30 (oversold), with shares trading below the 20-day ($401), 50-day ($417), and 200-day ($394) moving averages.",
+    "Hold. Catalysts are abundant but Middle East escalation and rate headwinds persist. Staged buying after Q1 earnings and FSD probe resolution is the safer approach."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "The Iran ground war and Hormuz blockade are crushing the entire market. FSD is blocked in the US, Europe, and China simultaneously, creating unprecedented uncertainty for the robotaxi strategy. Terafab launch and April Cybercab production are catalysts, but prolonged war means inevitable multiple compression for growth stocks. Wait for war developments and Q1 earnings.",
+    "summary": "Terafab's launch marks the dawn of Tesla's in-house chip era, but FSD faces regulatory pressure on two fronts: Europe's approval delay (April 10) and NHTSA's escalated probe. At $367.96 with RSI at 30, the stock is technically oversold with 10.8% upside to the $408 consensus. However, Middle East geopolitical risk and vanishing rate-cut expectations create persistent headwinds. The prudent strategy is staged accumulation after Q1 earnings clarity and FSD regulatory resolution.",
     "horizon": "3-6 months"
   },
   "sources": [
-    {"name": "Bloomberg - Market Today 3/20", "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-", "description": "Pentagon Iran ground force preparation, S&P 500 -1.5%"},
-    {"name": "The Guardian - Iran War Impact", "url": "https://www.theguardian.com/business/2026/mar/20/stock-market-dip-iran-war", "description": "Strait of Hormuz blockade, 4th weekly decline"},
-    {"name": "Electrek - FSD Europe Delayed", "url": "https://electrek.co/2026/03/20/tesla-fsd-europe-netherlands-approval-delayed-april/", "description": "FSD Europe approval delayed from 3/20 to 4/10"},
-    {"name": "CNBC - NHTSA FSD Probe", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA engineering analysis escalation, 3.2M vehicles"},
-    {"name": "CNBC - Supermicro Smuggling", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html", "description": "Supermicro co-founder $2.5B chip smuggling arrest"},
-    {"name": "Reuters - Tesla Solar", "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/", "description": "Tesla $2.9B solar equipment negotiations"},
-    {"name": "NYT - Iran War", "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil", "description": "Pentagon $200B war budget request"},
-    {"name": "Motley Fool - Market 3/20", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/20/stock-market-today-march-20-s-and-p-500-drops-for-third-day-fourth-week-in-a-row/", "description": "S&P 500 6,507 (-1.5%), 4th consecutive weekly decline"},
-    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/TSLA:NASDAQ", "description": "TSLA close $367.96, after-hours $371.43"}
+    {
+      "name": "247 Wall St - Terafab Launch",
+      "url": "https://247wallst.com/investing/2026/03/19/teslas-terafab-could-be-the-game-changer-that-recharges-the-stock/",
+      "description": "Terafab semiconductor unit official 3/21 launch, Musk chip shortage warning"
+    },
+    {
+      "name": "Reuters - NHTSA FSD Probe",
+      "url": "https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-tesla-vehicles-with-fsd-2026-03-19/",
+      "description": "NHTSA FSD Engineering Analysis escalation, 3.2M vehicles under review"
+    },
+    {
+      "name": "Reuters - Tesla Solar Equipment",
+      "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/",
+      "description": "Tesla $2.9B Chinese solar equipment purchase negotiations"
+    },
+    {
+      "name": "Bloomberg - Market Today",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-",
+      "description": "Pentagon Middle East deployment, S&P 500 longest weekly losing streak"
+    },
+    {
+      "name": "Yahoo Finance - Fed Decision",
+      "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html",
+      "description": "Fed rate hold at 3.5-3.75%, reduced cut outlook"
+    },
+    {
+      "name": "Capital.com - Tesla Forecast",
+      "url": "https://capital.com/en-int/market-updates/tesla-stock-forecast-18-03-2026",
+      "description": "43-analyst consensus, Wedbush $600, BofA $460, target distribution"
+    },
+    {
+      "name": "Google Finance - TSLA",
+      "url": "https://www.google.com/finance/quote/TSLA:NASDAQ",
+      "description": "TSLA closing price $367.96, market cap $1.18T, 52-week range"
+    },
+    {
+      "name": "MEXC Blog - Tesla Analysis",
+      "url": "https://blog.mexc.com/news/tesla-stock-tsla-in-2026-shrinking-sales-210x-earnings-one-enormous-bet-on-robots/",
+      "description": "Terafab deep dive, valuation analysis, $20B+ capex"
+    },
+    {
+      "name": "TipRanks - TSLA Consensus",
+      "url": "https://www.tipranks.com/stocks/tsla/forecast",
+      "description": "43-analyst target distribution, 15 Strong Buy, 9 Strong Sell"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla $368: Iran ground war + FSD blocked in 3 markets",
-      "text": "$TSLA $367.96\n\nIran ground war escalation, Hormuz blocked. S&P below 200-day MA. Tesla down 25% from peak, RSI 28 oversold.\n\nTerafab launches today.\nTarget $406.84 (+10.6%)\n\n1/4",
+      "hook": "Tesla launches Terafab, its in-house chip factory",
+      "text": "$TSLA $367.96 (-0.83%)\n\nTerafab officially launched today. Tesla is now making its own chips. Musk warns supply won't keep up in 3-4 years. $20B+ capex in 2026.\n\nBut FSD Europe approval just slipped to April 10.\n\nTarget $408 (+10.8%)\n\n1/4",
       "thread": [
-        "FSD blocked in all 3 markets: NHTSA probe on 3.2M cars, Europe delayed to April 10, China rejected it. The robotaxi thesis is under siege.\n\n2/4",
-        "Terafab launch + $2.9B solar + Cybercab April. Catalysts exist but war overshadows everything.\n\nPentagon requested $200B war budget.\n\n3/4",
-        "Hold. War + FSD risks hit simultaneously. Wait for clarity before buying.\n\n$367.96, target $406.84 (+10.6%)\n\n4/4"
+        "NHTSA escalated FSD probe to Engineering Analysis, one step from recall. 3.2M vehicles, 9 crashes, 1 death. Camera-only visibility issues.\n\nOTA fix possible. But regulatory risk is real.\n\n2/4",
+        "Middle East escalation continues. Oil surging. Fed holding rates. Market pricing out 2026 cuts entirely.\n\nP/E 220x, RSI 30 oversold.\n\n3/4",
+        "Hold. Terafab is a milestone but FSD regulation and macro headwinds are fierce. Wait for Q1 earnings.\n\n$367.96, target $408 (+10.8%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla $368: War, FSD headwinds, and Terafab launch collide",
-      "text": "$TSLA $367.96\n\nIran war expanded to ground operations with Hormuz blocked. S&P 500 fell below its 200-day MA. HSBC says recession pricing has begun. Tesla down 25% from peak, RSI 28.\n\nFSD faces headwinds in all three markets. NHTSA escalated to engineering analysis on 3.2M vehicles, Europe pushed to April 10, China rejected it outright.\n\nTerafab launches today as the only catalyst. But aggressive buying is risky until war and FSD situations clarify. Hold. Target $406.84 (+10.6%)."
+      "hook": "Tesla launches Terafab, but FSD is under siege",
+      "text": "$TSLA $367.96 (-0.83%)\n\nTesla officially launched Terafab today, becoming the first automaker to build in-house chip manufacturing at scale. Musk warns chips will run short in 3-4 years. 2026 capex exceeds $20B.\n\nBut FSD is under siege. Europe's first approval (Netherlands) slipped to April 10. NHTSA escalated its probe to Engineering Analysis, covering 3.2M vehicles, one step from a recall.\n\nRSI at 30, below all major moving averages. Catalysts are there but regulatory and macro headwinds are fierce. Hold. Target $408 (+10.8%)."
     },
     "telegram": {
-      "hook": "TSLA $368: Iran war + FSD triple headwind",
-      "text": "Tesla Analysis (3/21)\n\nPrice: $367.96\n\nKey Issues\n- Iran ground war, Hormuz blockade\n- Pentagon $200B war budget\n- S&P 500 below 200-day MA (6,507, -1.5%)\n- FSD: NHTSA 3.2M probe + Europe April 10 + China rejected\n- Terafab launch today (3/21)\n- Supermicro $2.5B chip smuggling arrest\n\nTechnicals: Below 200-day ($392), RSI 28 oversold\nTarget: $406.84 (+10.6%)\nVerdict: Hold. Wait for war/FSD clarity."
+      "hook": "TSLA $367.96: Terafab Launch + FSD Regulatory Risk",
+      "text": "TSLA $367.96 (-0.83%)\n\nKey Developments\n- Terafab in-house chip operation officially launched, $20B+ capex\n- FSD Europe approval (Netherlands) delayed to April 10\n- NHTSA FSD probe escalated to Engineering Analysis (3.2M vehicles)\n- Middle East escalation, oil surge continues\n- Fed rate hold, 2026 cut expectations vanishing\n\nTechnicals\n- Below SMA-20 ($401), SMA-50 ($417), SMA-200 ($394)\n- RSI 30 oversold\n- Down 26% from 52-week high\n\nTarget: $408 (+10.8%)\nVerdict: Hold. Terafab is positive but regulatory + macro headwinds persist. Wait for Q1."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla $368: Iran ground war + FSD blocked in 3 markets",
-          "text": "$TSLA $367.96\n\nIran ground war escalation, Hormuz blocked. S&P below 200-day MA. Tesla down 25% from peak, RSI 28 oversold.\n\nTerafab launches today.\nTarget $406.84 (+10.6%)\n\n1/4",
+          "hook": "Tesla launches Terafab, its in-house chip factory",
+          "text": "$TSLA $367.96 (-0.83%)\n\nTerafab officially launched today. Tesla is now making its own chips. Musk warns supply won't keep up in 3-4 years. $20B+ capex in 2026.\n\nBut FSD Europe approval just slipped to April 10.\n\nTarget $408 (+10.8%)\n\n1/4",
           "thread": [
-            "FSD blocked in all 3 markets: NHTSA probe on 3.2M cars, Europe delayed to April 10, China rejected it. The robotaxi thesis is under siege.\n\n2/4",
-            "Terafab launch + $2.9B solar + Cybercab April. Catalysts exist but war overshadows everything.\n\nPentagon requested $200B war budget.\n\n3/4",
-            "Hold. War + FSD risks hit simultaneously. Wait for clarity before buying.\n\n$367.96, target $406.84 (+10.6%)\n\n4/4"
+            "NHTSA escalated FSD probe to Engineering Analysis, one step from recall. 3.2M vehicles, 9 crashes, 1 death. Camera-only visibility issues.\n\nOTA fix possible. But regulatory risk is real.\n\n2/4",
+            "Middle East escalation continues. Oil surging. Fed holding rates. Market pricing out 2026 cuts entirely.\n\nP/E 220x, RSI 30 oversold.\n\n3/4",
+            "Hold. Terafab is a milestone but FSD regulation and macro headwinds are fierce. Wait for Q1 earnings.\n\n$367.96, target $408 (+10.8%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Terafab launches today. So does the ground war",
-          "text": "$TSLA $367.96\n\nTesla opens its own chip factory on the same day Pentagon prepares ground troops for Iran. FSD is blocked on three continents. Musk's timing remains theatrically unfortunate.\n\nTarget $406.84 (+10.6%)\n\n1/4",
+          "hook": "Tesla can make its own chips now but FSD can't enter Europe",
+          "text": "$TSLA $367.96 (-0.83%)\n\nTerafab launched. Tesla is now a chipmaker. But FSD just got denied entry to the Netherlands until April 10. And NHTSA is one step from a recall.\n\nMaking chips is easy. Getting permission to use them is hard.\n\nTarget $408 (+10.8%)\n\n1/4",
           "thread": [
-            "NHTSA probing 3.2M cars. Europe says April 10. China said no. The robotaxi dream needs a GPS recalculation.\n\n2/4",
-            "Hormuz blocked, so the $2.9B solar deal suddenly looks brilliant. War is the best ad for energy independence.\n\nPentagon wants $200B.\n\n3/4",
-            "Hold. RSI 28 screams buy, but wars don't read charts.\n\n$367.96, target $406.84 (+10.6%)\n\n4/4"
+            "320 million vehicles under NHTSA review. 9 crashes, 1 death. Camera-only vision under scrutiny. OTA fix might work.\n\nMusk bet everything on cameras. The bet is being tested.\n\n2/4",
+            "$20B+ capex this year. Solar $2.9B, chips $16.5B. Money is flowing out but the stock is at RSI 30.\n\nP/E 220x and macro won't cooperate.\n\n3/4",
+            "Hold. Musk's vision runs 3 years ahead of the market. The stock lives in the present.\n\n$367.96, target $408 (+10.8%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla holders, down 25% with war and FSD walls. Rough week",
-          "text": "$TSLA $367.96\n\nDown 25% from the peak. Iran ground war, Hormuz blocked, FSD rejected in three markets. Everything hit at once. RSI 28.\n\nTarget $406.84 (+10.6%)\n\n1/4",
+          "hook": "TSLA holders, a 26% drawdown hits different",
+          "text": "$TSLA $367.96 (-0.83%)\n\n$499 feels like yesterday and now we're at $368. Middle East tensions, rate freeze, FSD recall risk. It's okay to feel uneasy.\n\nBut Terafab launched today. The company isn't stopping.\n\nTarget $408 (+10.8%)\n\n1/4",
           "thread": [
-            "Terafab launches today. That matters. Custom chips are something no other car company can do. It's just buried under war headlines.\n\n2/4",
-            "FSD blocked everywhere is scary. But 1.6M km of European testing and 8.2B miles of data don't disappear. It takes time.\n\n3/4",
-            "Hold. When the war ends, these catalysts will fire. Hang in there.\n\n$367.96, target $406.84 (+10.6%)\n\n4/4"
+            "FSD Europe pushed to April 10. NHTSA probe is ongoing. When regulation piles up, fear is natural.\n\nOTA fix is possible. Let's wait and see.\n\n2/4",
+            "RSI at 30. Historically, this zone has led to rebounds. Selling now might be worse than holding.\n\nBelow SMA-200 ($394) but catalysts remain.\n\n3/4",
+            "Hold. Don't rush to add. Wait for Q1 earnings and FSD resolution.\n\n$367.96, target $408 (+10.8%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla $368: War + FSD triple block + Terafab launch day",
-          "text": "$TSLA $367.96\n\nIran ground war, Hormuz blocked, S&P below 200-day MA. FSD: NHTSA 3.2M probe, Europe April delay, China rejection.\n\nTerafab launches today. $2.9B solar, Cybercab April. Catalysts exist but war dominates. RSI 28 oversold.\n\nHold. Wait for war and FSD clarity. Target $406.84 (+10.6%)."
+          "hook": "Tesla launches Terafab while FSD faces regulatory pressure",
+          "text": "$TSLA $367.96 (-0.83%)\n\nTerafab in-house chip operation launched today. $20B+ capex. But FSD Europe approval delayed to April 10 and NHTSA escalated its 3.2M-vehicle probe to Engineering Analysis.\n\nRSI 30 oversold, below all major MAs. Catalysts present but macro headwinds are fierce. Hold. Wait for Q1. Target $408 (+10.8%)."
         },
         "witty": {
-          "hook": "Terafab day meets Iran ground war. Peak Tesla timing",
-          "text": "$TSLA $367.96\n\nOpening a chip factory while a ground war starts. FSD blocked on three continents. Musk's future always collides with the present.\n\nHormuz blocked, making the $2.9B solar deal look prophetic. War is the best energy independence pitch.\n\nRSI 28, 25% off peak. Hold. Wars don't last forever but catalysts accumulate. Target $406.84 (+10.6%)."
+          "hook": "Tesla can make chips but FSD is waiting at Europe's door",
+          "text": "$TSLA $367.96 (-0.83%)\n\nTerafab went live. Tesla is now a chipmaker. But FSD can't get into the Netherlands until April 10, and NHTSA is reviewing 3.2M vehicles, one step from a recall.\n\nMusk builds the future while the market prices the present. P/E 220x, RSI 30. Historically this is opportunity territory, but this time the macro is different.\n\nHold. No rush. Target $408 (+10.8%)."
         },
         "empathy": {
-          "hook": "Tesla holders, 25% down with war and FSD blocking. We see you",
-          "text": "$TSLA $367.96\n\n$490 feels like a different era. Iran ground war, Hormuz blocked, FSD rejected everywhere. When it all hits at once, it's overwhelming.\n\nBut Terafab launches today. Cybercab in April. $2.9B solar underway. The company hasn't stopped.\n\nRSI 28 oversold. When the war ends, the rebound energy could be explosive. Hold for now. Target $406.84 (+10.6%)."
+          "hook": "Tesla at $368. A 26% drop is genuinely painful",
+          "text": "$TSLA $367.96 (-0.83%)\n\n52-week high was $499. Now it's $368. FSD delayed in Europe, recall risk in the US. Middle East escalation and frozen rates. Being worried is completely rational.\n\nBut Terafab launched today and Cybercab production starts in April. RSI at 30 has historically marked turning points.\n\nSelling is too late. Buying is too early. Hold. Wait for Q1 and FSD clarity. Target $408 (+10.8%)."
         }
       }
     }

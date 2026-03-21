@@ -2,7 +2,7 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-21",
-  "currentPrice": 172.70,
+  "currentPrice": 172.93,
   "marketCap": "$4.22T",
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
@@ -27,12 +27,12 @@
     {
       "name": "P/E TTM",
       "value": "35.3x",
-      "interpretation": "반도체 섹터 평균(25x) 대비 프리미엄이지만, 65% 매출 성장률 감안 시 PEG 0.54로 합리적"
+      "interpretation": "반도체 섹터 평균(25x) 대비 프리미엄이지만, 65% 매출 성장률 감안 시 PEG 0.54로 합리적. S&P 500 평균 P/E(23x) 대비 높으나 성장률이 10배"
     },
     {
       "name": "Forward P/E",
       "value": "25.1x",
-      "interpretation": "FY27 EPS $6.88 기준. 성장률 65% 대비 PEG 0.39로 역사적 저점. S&P 500 평균(23x)에 근접"
+      "interpretation": "FY27 EPS $6.88 기준. 반도체 섹터 평균(25x)과 동일, S&P 500 평균(23x)에 근접. 성장률 65% 대비 PEG 0.39로 역사적 저점"
     },
     {
       "name": "매출 성장률 YoY",
@@ -115,6 +115,12 @@
   "recentNews": [
     {
       "date": "2026-03-20",
+      "headline": "CFO Colette Kress $7.46M, 이사 Aarti Shah $3.36M 주식 매도: 내부자 매도 지속",
+      "significance": "CFO가 42,661주를 평균 $174.89에 매도($7.46M), 이사가 19,000주를 $176.71에 매도($3.36M). 2주간 경영진 매도 집중. 단, 사전 계획된 10b5-1 거래일 가능성 높음.",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/insider-trades/"
+    },
+    {
+      "date": "2026-03-20",
       "headline": "이란전 지상전 확대: S&P 500이 200일선 아래로 추락, 4주 연속 하락",
       "significance": "Pentagon이 이란 지상군 투입을 준비하고 $200B 전쟁 예산을 요청. 호르무즈 해협 봉쇄 지속. S&P 500 6,507(-1.5%), Nasdaq -1.98%. NVDA 5일 연속 하락.",
       "url": "https://www.fool.com/coverage/stock-market-today/2026/03/20/stock-market-today-march-20-s-and-p-500-drops-for-third-day-fourth-week-in-a-row/"
@@ -124,12 +130,6 @@
       "headline": "Supermicro 공동창업자, Nvidia 칩 $2.5B 중국 밀수로 체포",
       "significance": "Supermicro 주가 33% 폭락. Nvidia 칩 수출 통제 강화 신호. Nvidia 자체는 피해자이지만 공급망 불확실성과 중국 수출 규제 강화 우려.",
       "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "$1T 매출 전망에도 투자자 반응 냉담: 하이퍼스케일러 지출 의문",
-      "significance": "CoinCentral이 'GTC의 $1T 예측이 왜 충분하지 않았나' 분석. 전쟁+경기침체 우려가 모든 호재를 덮고 있다.",
-      "url": "https://coincentral.com/nvidia-nvda-stock-why-a-1-trillion-forecast-still-wasnt-enough-for-investors/"
     },
     {
       "date": "2026-03-19",
@@ -148,17 +148,22 @@
     "consensusTarget": 274.3,
     "highTarget": 325.0,
     "lowTarget": 185.0,
-    "upsidePercent": 58.8,
+    "upsidePercent": 58.6,
     "buyCount": 58,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "Rosenblatt $325(+88%), Wolfe Research $275, BofA $300 재확인. 61명 중 58명 Buy. 주가 추가 하락으로 업사이드가 58.8%로 역대 최대 수준. 38명 Strong Buy."
+    "notableComment": "Rosenblatt $325(+88%), Wolfe Research $275, BofA $300 재확인. 61명 중 58명 Buy. 주가 추가 하락으로 업사이드 58.6%로 역대 최대 수준. 38명 Strong Buy."
   },
   "risks": [
     {
       "severity": "critical",
       "title": "이란전 지상전 + 호르무즈 봉쇄 + 경기침체 신호",
       "description": "Pentagon 지상군 투입 준비, $200B 전쟁 예산. 호르무즈 봉쇄로 세계 석유 20% 차단. HSBC '경기침체 가격 반영 시작'. S&P 200일선 아래 추락. AI 투자 둔화 우려."
+    },
+    {
+      "severity": "high",
+      "title": "내부자 매도 집중: CFO $7.46M + 이사 $3.36M",
+      "description": "CFO Colette Kress가 42,661주($7.46M), 이사 Aarti Shah가 19,000주($3.36M) 매도. 단기간 경영진 대규모 매도는 부정적 시그널로 해석될 수 있으나, 10b5-1 사전 계획 거래일 가능성도 있다."
     },
     {
       "severity": "high",
@@ -184,11 +189,11 @@
   "buyReasons": [
     {
       "title": "Forward P/E 25.1배, PEG 0.39: NVDA 역사상 가장 저렴한 구간",
-      "rationale": "FY27 EPS $6.88 기준. S&P 500 평균(23x)에 근접한 수준에서 65% 성장 기업을 살 수 있는 역사적 기회."
+      "rationale": "FY27 EPS $6.88 기준. 반도체 섹터 평균(25x)과 동일하고 S&P 500 평균(23x)에 근접한 수준에서 65% 성장 기업을 살 수 있는 역사적 기회."
     },
     {
       "title": "Rosenblatt $325(+88%) + 61명 중 58명 Buy",
-      "rationale": "주가 하락으로 업사이드가 58.8%로 확대. 38명 Strong Buy. 역대급 괴리."
+      "rationale": "주가 하락으로 업사이드가 58.6%로 확대. 38명 Strong Buy. 역대급 괴리."
     },
     {
       "title": "Supermicro 사건은 Nvidia에 오히려 긍정적",
@@ -202,22 +207,22 @@
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
-    "currentPositionPercent": 68.6,
-    "sma50": 184.00,
+    "currentPositionPercent": 68.7,
+    "sma50": 184.0,
     "sma50Signal": "below",
-    "sma200": 183.00,
+    "sma200": 183.0,
     "sma200Signal": "below",
     "rsi": 33.0,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "이란전이 지상전으로 확대되고 호르무즈가 봉쇄되면서 S&P 500이 200일선 아래로 추락했다. NVDA도 5일 연속 하락해 $172.70. Supermicro $2.5B 칩 밀수 사건까지 터지면서 반도체 수출 통제 불확실성이 커졌다.",
-    "그래도 펀더멘털은 흠잡을 데가 없다. 순이익 $120.1B, 마진 55.6%, Forward P/E 25.1배에 PEG 0.39. 이 숫자로 S&P 평균과 비슷한 밸류에이션이면 역사적 저점이다. 61명 중 58명 Buy, Rosenblatt $325(+88%).",
-    "RSI 33, 200일선 아래. 전쟁 공포가 모든 호재를 덮고 있지만, 매크로가 전환되면 가장 먼저 반등할 종목이다. 분할 매수 유효. Buy."
+    "이란전 지상전 확대와 Supermicro 밀수 사건 속에서 NVDA는 $172.93으로 마감했다. CFO가 $7.46M, 이사가 $3.36M어치 주식을 매도하며 내부자 매도도 이어지고 있다.",
+    "하지만 펀더멘털은 여전히 압도적이다. 순이익 $120.1B, Forward P/E 25.1배에 PEG 0.39. 반도체 섹터 평균과 같은 밸류에이션에 65% 성장이면 역사적 저점이다.",
+    "RSI 33, 50일선과 200일선 모두 아래. 61명 중 58명 Buy, 목표가 $274(+58.6%). 전쟁 공포가 모든 호재를 덮고 있지만, 매크로 전환 시 가장 먼저 반등할 종목이다. 분할 매수 유효."
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "이란전과 Supermicro 밀수 사건으로 단기 역풍이 거세지만, 순이익 $120.1B에 Forward P/E 25.1배(PEG 0.39)는 NVDA 역사상 가장 저렴한 구간이다. 중국 H200 주문 확인, $1T 추론 시장, 밀수 사건이 합법 채널을 오히려 강화할 가능성까지. 전쟁 리스크는 일시적이지만 펀더멘털은 구조적이다. 분할 매수.",
+    "summary": "이란전, Supermicro 밀수 사건, 내부자 매도까지 악재가 겹치고 있지만, 순이익 $120.1B에 Forward P/E 25.1배(PEG 0.39)는 NVDA 역사상 가장 저렴한 구간이다. 중국 H200 주문 확인, $1T 추론 시장, Rosenblatt $325(+88%). 내부자 매도는 사전 계획 거래 가능성이 높고, 전쟁 리스크는 일시적이지만 펀더멘털은 구조적이다. 분할 매수.",
     "horizon": "6-12개월"
   },
   "sources": [
@@ -230,6 +235,11 @@
       "name": "CNBC - Supermicro Smuggling",
       "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html",
       "description": "Supermicro 공동창업자 $2.5B Nvidia 칩 밀수 체포"
+    },
+    {
+      "name": "MarketBeat - NVDA Insider Trades",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/insider-trades/",
+      "description": "CFO Colette Kress $7.46M, Director Aarti Shah $3.36M 매도"
     },
     {
       "name": "Bloomberg - Supermicro Indictment",
@@ -252,14 +262,9 @@
       "description": "Jensen Huang 중국 H200 주문 확인, Supermicro 사건 종합"
     },
     {
-      "name": "MEXC Blog - NVDA",
-      "url": "https://blog.mexc.com/news/nvidia-stock-nvda-2026-record-earnings-falling-price-what-is-actually-going-on/",
-      "description": "FY26 매출 $215.9B, RSI 37, 38명 Strong Buy"
-    },
-    {
       "name": "Google Finance",
       "url": "https://www.google.com/finance/quote/NVDA:NASDAQ",
-      "description": "NVDA 종가 $172.70, 시간외 $175.15"
+      "description": "NVDA 종가 $172.93, 시간외 $174.90"
     },
     {
       "name": "Reuters - Musk Nvidia Orders",
@@ -269,64 +274,64 @@
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $172, 전쟁에 밀수 사건까지. 그런데 PEG 0.39",
-      "text": "$NVDA $172.70\n\n이란 지상전 확대, Supermicro $2.5B 칩 밀수 체포. GTC 역대급 발표에도 5일 연속 하락. S&P 200일선 아래.\n\nRosenblatt $325(+88%)\n\n1/4",
+      "hook": "NVDA $172.93, 내부자 매도까지 겹쳤다. 근데 PEG 0.39",
+      "text": "$NVDA $172.93\n\nCFO $7.46M, 이사 $3.36M 매도. 이란 지상전, Supermicro 밀수까지. GTC 호재가 전부 묻혔다.\n\nRosenblatt $325(+88%)\n\n1/4",
       "thread": [
-        "순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. S&P 평균 수준의 밸류에이션에 65% 성장이면 역사적 저점이다.\n\n61명 중 58명 Buy.\n\n2/4",
-        "Supermicro 사건은 Nvidia에 오히려 유리할 수 있다. 합법 채널이 강화되면 공식 중국 H200 판매에 경쟁 우위.\n\n밀수가 줄면 Nvidia 독점력이 올라간다.\n\n3/4",
-        "Buy. 전쟁은 일시적, 펀더멘털은 구조적. 분할 매수.\n\n$172.70, 목표 $274(+58.8%)\n\n4/4"
+        "순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. 섹터 평균과 같은 밸류에이션에 65% 성장이면 역사적 저점.\n\n61명 중 58명 Buy.\n\n2/4",
+        "내부자 매도는 10b5-1 사전 계획 거래일 가능성이 높다. Supermicro 밀수가 잡히면 합법 채널이 오히려 강화.\n\nNvidia는 피해자 측이다.\n\n3/4",
+        "Buy. 전쟁은 일시적, 펀더멘털은 구조적. 분할 매수.\n\n$172.93, 목표 $274(+58.6%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA $172, 역사적 저평가에서 전쟁과 밀수에 눌리는 중",
-      "text": "$NVDA $172.70\n\n이란전 지상전 확대, 호르무즈 봉쇄. S&P 200일선 아래 추락. Supermicro 공동창업자가 $2.5B Nvidia 칩 밀수로 체포되면서 반도체 수출 불확실성까지.\n\n그래도 순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. Rosenblatt $325(+88%), 61명 중 58명 Buy. 이 수치가 틀린 게 아니라 전쟁이 모든 걸 누르고 있다.\n\nRSI 33, 200일선 아래. 전쟁 전환 시 가장 먼저 반등. 분할 매수. Buy. 목표 $274(+58.8%)."
+      "hook": "NVDA $172.93, 내부자 매도와 전쟁에 눌리는 역사적 저평가",
+      "text": "$NVDA $172.93\n\nCFO가 $7.46M, 이사가 $3.36M 매도. 이란전 지상전 확대, Supermicro 밀수 체포까지. GTC 역대급 발표가 전부 묻혔다.\n\n순이익 $120.1B, 마진 55.6%. Forward P/E 25.1x, PEG 0.39. Rosenblatt $325(+88%), 61명 중 58명 Buy. 내부자 매도는 사전 계획 거래 가능성.\n\nRSI 33, 200일선 아래. 매크로 전환 시 가장 먼저 반등. 분할 매수. Buy. 목표 $274(+58.6%)."
     },
     "telegram": {
-      "hook": "NVDA $172, 전쟁+밀수 속 역사적 저평가",
-      "text": "NVDA $172.70\n\n핵심 이슈\n- 이란전 지상전 확대, 호르무즈 봉쇄\n- Supermicro $2.5B Nvidia 칩 밀수 체포\n- S&P 200일선 아래 추락, 4주 연속 하락\n- GTC 호재에도 5일 연속 하락\n- Rosenblatt $325(+88%) 상향\n- Forward P/E 25.1x, PEG 0.39\n\n기술적: 50일선/200일선 아래, RSI 33\n목표가: $274.30(+58.8%)\n\n판단: Buy. 전쟁은 일시적, 펀더멘털은 역사적 수준. 분할 매수."
+      "hook": "NVDA $172.93, 내부자 매도+전쟁 속 역사적 저평가",
+      "text": "NVDA $172.93\n\n핵심 이슈\n- CFO $7.46M, 이사 $3.36M 주식 매도\n- 이란전 지상전 확대, 호르무즈 봉쇄\n- Supermicro $2.5B Nvidia 칩 밀수 체포\n- S&P 200일선 아래, 4주 연속 하락\n- Rosenblatt $325(+88%) 유지\n- Forward P/E 25.1x, PEG 0.39\n\n기술적: 50일선/200일선 아래, RSI 33\n목표가: $274.30(+58.6%)\n\n판단: Buy. 전쟁은 일시적, 펀더멘털은 역사적 수준. 분할 매수."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $172, 전쟁에 밀수 사건까지. 그런데 PEG 0.39",
-          "text": "$NVDA $172.70\n\n이란 지상전 확대, Supermicro $2.5B 칩 밀수 체포. GTC 역대급 발표에도 5일 연속 하락. S&P 200일선 아래.\n\nRosenblatt $325(+88%)\n\n1/4",
+          "hook": "NVDA $172.93, 내부자 매도까지 겹쳤다. 근데 PEG 0.39",
+          "text": "$NVDA $172.93\n\nCFO $7.46M, 이사 $3.36M 매도. 이란 지상전, Supermicro 밀수까지. GTC 호재가 전부 묻혔다.\n\nRosenblatt $325(+88%)\n\n1/4",
           "thread": [
-            "순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. S&P 평균 수준의 밸류에이션에 65% 성장이면 역사적 저점이다.\n\n61명 중 58명 Buy.\n\n2/4",
-            "Supermicro 사건은 Nvidia에 오히려 유리할 수 있다. 합법 채널이 강화되면 공식 중국 H200 판매에 경쟁 우위.\n\n밀수가 줄면 Nvidia 독점력이 올라간다.\n\n3/4",
-            "Buy. 전쟁은 일시적, 펀더멘털은 구조적. 분할 매수.\n\n$172.70, 목표 $274(+58.8%)\n\n4/4"
+            "순이익 $120.1B, 마진 55.6%. Forward P/E 25.1배, PEG 0.39. 섹터 평균과 같은 밸류에이션에 65% 성장이면 역사적 저점.\n\n61명 중 58명 Buy.\n\n2/4",
+            "내부자 매도는 10b5-1 사전 계획 거래일 가능성이 높다. Supermicro 밀수가 잡히면 합법 채널이 오히려 강화.\n\nNvidia는 피해자 측이다.\n\n3/4",
+            "Buy. 전쟁은 일시적, 펀더멘털은 구조적. 분할 매수.\n\n$172.93, 목표 $274(+58.6%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Supermicro가 칩을 밀수하다 걸렸다. Nvidia는 억울",
-          "text": "$NVDA $172.70\n\nSupermicro 공동창업자가 $2.5B 칩 밀수로 체포됐다. Nvidia는 칩만 팔았는데 피해자가 됐다. 전쟁에 밀수에, GTC 호재가 묻히고 있다.\n\nPEG 0.39. 이보다 싼 적이 없었다.\n\n1/4",
+          "hook": "CFO가 매도하고 밀수범이 잡히고. NVDA $172.93",
+          "text": "$NVDA $172.93\n\nCFO가 $7.46M 팔고, 이사도 $3.36M 팔았다. 밀수범은 잡히고, 전쟁은 확대되고. GTC에서 뭘 발표해도 소용없는 장.\n\nPEG 0.39, 이건 진짜 세일이다.\n\n1/4",
           "thread": [
-            "순이익 $120.1B에 마진 55.6%. 하드웨어 회사라고 하기엔 수치가 소프트웨어다.\n\n58명 Buy인데 시장만 안 산다.\n\n2/4",
-            "밀수범이 잡히면 합법 채널이 강화된다. 아이러니하게도 Nvidia한텐 호재.\n\nS&P가 200일선 아래인 건 문제지만.\n\n3/4",
-            "Buy. 전쟁이 끝나면 제일 먼저 간다.\n\n$172.70, 목표 $274(+58.8%)\n\n4/4"
+            "순이익 $120.1B에 마진 55.6%. 하드웨어 회사 수치가 아니라 돈 찍는 기계 수치다.\n\n58명 Buy인데 시장만 안 산다.\n\n2/4",
+            "CFO가 팔았다고 겁먹지 마라. 10b5-1 계획 매도다. 연봉이 주식인 사람들은 늘 판다.\n\n밀수범 잡히면 합법 채널 강화.\n\n3/4",
+            "Buy. 전쟁 끝나면 제일 먼저 간다.\n\n$172.93, 목표 $274(+58.6%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더들, GTC 끝나고 5일째 내리니 답답하지",
-          "text": "$NVDA $172.70\n\n역대급 GTC에 기대했는데 전쟁과 밀수가 터졌다. 5일 연속 하락. 숫자가 이렇게 좋은데 안 오르면 지친다.\n\nForward P/E 25.1x, PEG 0.39.\n\n1/4",
+          "hook": "NVDA 홀더들, 내부자 매도 뉴스까지 보면 마음이 무겁지",
+          "text": "$NVDA $172.93\n\nGTC 끝나고 반등 기대했는데 CFO까지 매도했다. 전쟁에 밀수에 내부자 매도. 이렇게 악재가 겹치니 지친다.\n\nForward P/E 25.1x, PEG 0.39.\n\n1/4",
           "thread": [
-            "이건 NVDA 문제가 아니다. 이란 지상전, 호르무즈 봉쇄, 경기침체 우려. 시장 전체가 무너지고 있다.\n\n61명 중 58명 Buy, Rosenblatt $325.\n\n2/4",
-            "Supermicro 사건도 Nvidia 탓이 아니다. 칩을 팔았을 뿐인데 밀수범 때문에 같이 눌린다.\n\n억울하지만 시간이 풀어줄 거다.\n\n3/4",
-            "Buy. 분할 매수. 전쟁이 끝나면 제일 먼저 반등.\n\n$172.70, 목표 $274(+58.8%)\n\n4/4"
+            "CFO 매도는 사전 계획된 거래다. 경영진은 매분기 일정 비율을 판다. 회사를 포기한 게 아니다.\n\n61명 중 58명 Buy, Rosenblatt $325.\n\n2/4",
+            "지금 힘든 건 NVDA 때문이 아니라 시장 전체가 무너지고 있어서다. 이란 지상전, 호르무즈 봉쇄.\n\n펀더멘털은 바뀐 게 없다.\n\n3/4",
+            "Buy. 분할 매수. 전쟁이 끝나면 제일 먼저 반등.\n\n$172.93, 목표 $274(+58.6%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA $172, PEG 0.39 역사적 저점에서 전쟁에 눌림",
-          "text": "$NVDA $172.70\n\n이란 지상전, 호르무즈 봉쇄, Supermicro 밀수 체포. GTC 호재에도 5일 연속 하락.\n\n순이익 $120.1B, 마진 55.6%. Forward P/E 25.1x, PEG 0.39. Rosenblatt $325(+88%), 58명 Buy.\n\n전쟁은 일시적, 펀더멘털은 구조적. Buy. 분할 매수. 목표 $274(+58.8%)."
+          "hook": "NVDA $172.93, 내부자 매도+전쟁에 PEG 0.39 역사적 저점",
+          "text": "$NVDA $172.93\n\nCFO $7.46M, 이사 $3.36M 매도. 이란 지상전, Supermicro 밀수 체포. GTC 호재 전부 묻힘.\n\n순이익 $120.1B, 마진 55.6%. Forward P/E 25.1x, PEG 0.39. Rosenblatt $325(+88%), 58명 Buy. 내부자 매도는 10b5-1 계획 거래.\n\n전쟁은 일시적, 펀더멘털은 구조적. Buy. 분할 매수. 목표 $274(+58.6%)."
         },
         "witty": {
-          "hook": "Supermicro가 밀수하다 잡혔는데 Nvidia가 맞는다",
-          "text": "$NVDA $172.70\n\nGTC에서 $1T 추론 시장을 그리고 중국 문도 열었는데, Supermicro가 칩을 밀수하다 걸려서 반도체 전체에 찬물을 끼얹었다. 거기에 이란 지상전까지.\n\n순이익 $120.1B, PEG 0.39. 이 수치로 S&P 평균과 비슷한 밸류에이션이면 농담 아닌가. 밀수가 잡히면 합법 채널이 오히려 강화된다.\n\nBuy. 전쟁이 끝나면 가장 먼저 간다. 목표 $274(+58.8%)."
+          "hook": "CFO가 팔고 밀수범이 잡히는데 NVDA가 PEG 0.39라니",
+          "text": "$NVDA $172.93\n\nCFO $7.46M 매도, 밀수범 체포, 이란 지상전. GTC에서 $1T 추론 시장을 그려도 시장은 전쟁만 본다. CFO 매도는 사전 계획, 밀수 잡히면 합법 채널이 강화된다.\n\n순이익 $120.1B, PEG 0.39. 이 수치로 섹터 평균이면 농담 아닌가. 58명이 Buy라는데 시장만 안 산다.\n\nBuy. 전쟁 끝나면 가장 먼저 간다. 목표 $274(+58.6%)."
         },
         "empathy": {
-          "hook": "NVDA 홀더들, 역대급 GTC 후 5일째 하락. 마음이 편할 리 없다",
-          "text": "$NVDA $172.70\n\n기대가 컸던 만큼 실망이 크다. 역사상 가장 성공적인 GTC 후에 5일 연속 하락이라니. 이란전, 밀수 사건, 경기침체 우려까지.\n\n하지만 순이익 $120.1B, PEG 0.39, 58명 Buy. 이 펀더멘털은 전쟁으로 바뀌지 않는다. 지금의 공포는 지나갈 거다.\n\nRSI 33, 200일선 아래. 무섭지만 시간이 편이다. Buy. 분할 매수. 목표 $274(+58.8%)."
+          "hook": "NVDA 홀더들, CFO 매도 뉴스에 또 한숨 나왔을 거다",
+          "text": "$NVDA $172.93\n\nGTC 끝나고 반등 기대했는데 CFO와 이사가 $10.8M 매도. 전쟁, 밀수까지 악재가 끝이 없다.\n\n하지만 순이익 $120.1B, PEG 0.39, 58명 Buy. CFO 매도는 사전 계획된 10b5-1 거래다. 경영진이 도망치는 게 아니다.\n\nRSI 33, 200일선 아래. 무섭지만 시간이 편이다. Buy. 분할 매수. 목표 $274(+58.6%)."
         }
       }
     }

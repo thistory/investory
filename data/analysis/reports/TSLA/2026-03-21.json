@@ -6,7 +6,7 @@
   "marketCap": "$1.18T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
-    "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. 2026년 4월부터 Cybercab 생산, Optimus Gen 3 공개 등 핵심 성장 촉매가 본격화된다.",
+    "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. 2026년 3월 21일 Terafab 자체 반도체 사업을 공식 런칭했고, 4월부터 Cybercab 양산이 예정되어 있다.",
     "howTheyMakeMoney": [
       "전기차 판매 (Model 3/Y, Cybertruck)",
       "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
@@ -29,12 +29,12 @@
     {
       "name": "P/E (TTM)",
       "value": "220x",
-      "interpretation": "S&P 500 평균(약 23x), 자동차 섹터 평균(약 16x) 대비 극단적 프리미엄. 이란전 확전과 유가 급등으로 멀티플 압축 압력 가중"
+      "interpretation": "S&P 500 평균(약 23x), 자동차 섹터 평균(약 16x), BYD(약 28x) 대비 극단적 프리미엄. 주가 하락에도 여전히 고평가"
     },
     {
       "name": "Forward P/E",
       "value": "145x",
-      "interpretation": "FY2026 EPS 컨센서스 $2.53 기준. FSD 유럽 승인 지연과 NHTSA 조사 격상이 성장 할인율을 높이는 중"
+      "interpretation": "FY2026 EPS 컨센서스 $2.53 기준. S&P 500 Forward P/E(약 20x), Rivian(적자), Lucid(적자) 대비 성장 프리미엄 반영"
     },
     {
       "name": "매출총이익률",
@@ -49,38 +49,38 @@
     {
       "name": "FCF TTM",
       "value": "62.2억 달러",
-      "interpretation": "현금 창출력 양호. 총 현금 $44B 보유로 대규모 설비투자를 감당할 여력"
+      "interpretation": "현금 창출력 양호. 총 현금 $44B 보유로 $20B+ 연간 설비투자를 감당할 여력"
     },
     {
       "name": "순이익률",
       "value": "4.0%",
-      "interpretation": "마진이 압축된 상태로, 가격 경쟁과 R&D 투자 확대가 원인"
+      "interpretation": "마진이 압축된 상태. Terafab, Cybercab 등 대규모 설비투자와 가격 경쟁이 원인"
     }
   ],
   "growthDrivers": [
     {
+      "title": "Terafab 자체 반도체 사업 오늘(3/21) 공식 런칭",
+      "description": "Tesla가 오늘 Terafab 프로젝트를 공식 런칭했다. 연간 수천억 개 커스텀 칩 생산을 목표로 하는 자체 반도체 팹 사업이다. Musk는 3~4년 안에 칩 공급이 부족해질 것이라고 경고하며 반도체 팹 건설 매니저를 채용 중이다. 2026년 설비투자 $20B 이상 투입 예정."
+    },
+    {
       "title": "$2.9B 중국산 태양광 장비 구매 협상: 100GW 미국 태양광 생산 목표",
-      "description": "Reuters 독점 보도(3/20)에 따르면 Tesla가 Suzhou Maxwell Technologies 등 중국 기업들로부터 $2.9B 규모의 태양광 제조 장비 구매를 협상 중이다. 2028년 말까지 미국 내 100GW 태양광 생산을 목표로 하며, 텍사스에 올 가을 전 배송 예정. 에너지 사업 수직 통합 가속."
+      "description": "Reuters 독점 보도에 따르면 Tesla가 Suzhou Maxwell Technologies 등 중국 기업들로부터 $2.9B 규모의 태양광 제조 장비 구매를 협상 중이다. 2028년 말까지 미국 내 100GW 태양광 생산을 목표로 하며, 텍사스에 올 가을 전 배송 예정."
+    },
+    {
+      "title": "FSD 유럽 진출: 네덜란드 승인 4월 10일로 연기",
+      "description": "원래 3월 20일 예정이던 네덜란드 FSD 승인이 4월 10일로 밀렸다. 승인 시 유럽 전체 FSD 확산의 시발점이 되지만, 지연은 단기 모멘텀에 부정적. NHTSA 조사와 맞물려 규제 리스크가 가중되고 있다."
     },
     {
       "title": "Samsung AI6 칩 $16.5B 파운드리 계약 확정",
-      "description": "Samsung이 주주총회에서 Tesla AI6(HW6) 칩을 텍사스 테일러 공장에서 2nm(SF2P) 공정으로 양산한다고 확인했다. 2033년까지 $16.5B 규모. 다만 AI6 MPW(시제품) 생산이 약 6개월 지연되어 Samsung의 수율 문제가 남아있다."
-    },
-    {
-      "title": "Terafab 반도체 유닛 3/21 공식 런칭",
-      "description": "Tesla가 3/21(오늘) Terafab 프로젝트를 공개적으로 런칭한다. 연간 수천억 개 커스텀 칩 생산을 목표로 하는 자체 반도체 팹 사업으로, AI 학습, FSD 추론, Optimus 로봇에 필요한 칩을 자체 생산해 외부 의존도를 낮추는 전략이다."
+      "description": "Samsung이 주주총회에서 Tesla AI6(HW6) 칩을 텍사스 테일러 공장에서 2nm(SF2P) 공정으로 양산한다고 확인했다. 2033년까지 $16.5B 규모. MPW 생산이 약 6개월 지연되어 수율 문제가 남아 있다."
     },
     {
       "title": "Cybercab 4월 양산 시작, Macrohard AI 사업 진출",
-      "description": "Cybercab 생산라인이 주당 수백 대 규모로 설계 중. Macrohard(Tesla-xAI 합작)는 엔터프라이즈급 AI 플랫폼으로 자동차 넘어선 수익원 다각화."
-    },
-    {
-      "title": "중국 1-2월 판매 +35% YoY, 트럼프 방중 5-6주 내 재추진",
-      "description": "중국에서 만든 Tesla EV 판매가 1-2월 127,728대로 전년 대비 35% 이상 증가. 백악관이 트럼프 방중을 5-6주 내 재추진한다고 발표해 관세, 규제 완화 기대감도 부상."
+      "description": "Cybercab 생산라인이 주당 수백 대 규모로 설계 중. Macrohard(Tesla-xAI 합작)는 엔터프라이즈급 AI 플랫폼으로 자동차를 넘어선 수익원 다각화."
     }
   ],
   "competitiveAdvantage": {
-    "summary": "미국 EV 시장 50%+ 점유율 리더. FSD 82억 마일 데이터, Supercharger NACS 표준, 수직 통합이 핵심 해자. Samsung AI6 파운드리 계약으로 자체 칩 생태계 구축 가속.",
+    "summary": "미국 EV 시장 50%+ 점유율 리더. FSD 82억 마일 데이터, Supercharger NACS 표준, 수직 통합이 핵심 해자. Samsung AI6 파운드리 계약과 Terafab 런칭으로 자체 칩 생태계 구축 가속.",
     "moats": [
       {
         "type": "자율주행 데이터 해자",
@@ -112,61 +112,66 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-21",
+      "headline": "Terafab 자체 반도체 사업 공식 런칭, Musk '3~4년 내 칩 부족' 경고",
+      "significance": "Tesla가 오늘 Terafab 프로젝트를 공식 런칭했다. 반도체 팹 건설 매니저 채용 중이며, 2026년 설비투자 $20B 이상 투입. 자동차 회사 최초로 자체 칩 양산 체계를 구축하는 시도.",
+      "url": "https://247wallst.com/investing/2026/03/19/teslas-terafab-could-be-the-game-changer-that-recharges-the-stock/"
+    },
+    {
       "date": "2026-03-20",
-      "headline": "이란전 확전: Pentagon 지상군 투입 준비, 호르무즈 해협 봉쇄 지속",
-      "significance": "CBS가 Pentagon이 이란에 지상군 투입을 준비 중이라고 보도. 호르무즈 해협이 봉쇄된 상태에서 유가가 급등하고 S&P 500이 200일선 아래로 밀렸다. 4주 연속 하락으로 시장 공포 확산.",
+      "headline": "FSD 유럽 승인(네덜란드) 4월 10일로 연기",
+      "significance": "원래 3월 20일 예정이던 네덜란드 FSD 승인이 4월 10일로 밀렸다. 유럽 FSD 확산 시발점이 될 첫 승인이 지연되면서 단기 모멘텀에 부정적.",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-fsd-europe-2026/"
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "Pentagon 중동 함선 추가 파견, 유가 상승으로 시장 전체 급락",
+      "significance": "Pentagon이 중동에 3척의 전함과 수천 명의 해병대를 추가 파견. 유가 급등, S&P 500 주간 최장 하락세. 성장주 전반에 직격탄.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-"
     },
     {
-      "date": "2026-03-20",
-      "headline": "FSD 유럽 승인 4월 10일로 연기: 네덜란드 테스트 완료에도 지연",
-      "significance": "Electrek 보도. Tesla가 네덜란드에서 FSD 테스트를 완료했지만 승인이 3/20에서 4/10으로 밀렸다. 유럽 160만 km 주행, 13,000회 고객 동승, 4,500+ 트랙 테스트를 완료했으나 당국이 추가 서류를 요구.",
-      "url": "https://electrek.co/2026/03/20/tesla-fsd-europe-netherlands-approval-delayed-april/"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "Supermicro 공동창업자, Nvidia 칩 $2.5B 중국 밀수혐의로 체포",
-      "significance": "Supermicro 공동창업자 Yih-Shyan Liaw가 Nvidia AI 칩을 대만 경유 중국으로 $2.5B 규모 밀수한 혐의로 체포. 칩 수출 통제 강화 신호로 반도체 공급망 불확실성 가중.",
-      "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "Reuters: Tesla $2.9B 중국산 태양광 장비 구매 협상 진행",
-      "significance": "100GW 미국산 태양광 생산 목표. 올 가을 텍사스 배송 예정. 에너지 사업 수직 통합 가속.",
-      "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/"
-    },
-    {
       "date": "2026-03-19",
-      "headline": "NHTSA, FSD 조사 엔지니어링 분석으로 격상: 320만 대 대상, 리콜 가능성",
-      "significance": "시야 제한 조건에서 카메라 전용 시스템의 안전성 문제. 9건 사고(1건 사망) 후 강제 리콜 가능성. 중국은 2월에 하드웨어 중복성 부족으로 FSD를 거부했다.",
-      "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html"
+      "headline": "NHTSA, FSD 조사 '엔지니어링 분석'으로 격상: 320만 대 대상, 리콜 가능성",
+      "significance": "NHTSA가 시야 제한 조건에서의 FSD 안전성에 대한 조사를 본격적 엔지니어링 분석으로 격상. 9건 사고(1건 사망) 후 강제 리콜 가능성 대두. OTA 업데이트로 해결 가능성도 있음.",
+      "url": "https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-tesla-vehicles-with-fsd-2026-03-19/"
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "Reuters 독점: Tesla, 중국 기업들과 $2.9B 태양광 장비 구매 협상",
+      "significance": "Suzhou Maxwell Technologies 등에서 태양광 제조 장비를 구매해 2028년까지 미국 내 100GW 태양광 생산을 목표로 한다.",
+      "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 406.84,
+    "consensusTarget": 407.63,
     "highTarget": 600.00,
     "lowTarget": 19.05,
-    "upsidePercent": 10.6,
-    "buyCount": 19,
-    "holdCount": 13,
+    "upsidePercent": 10.8,
+    "buyCount": 15,
+    "holdCount": 17,
     "sellCount": 9,
-    "notableComment": "41명 애널리스트 컨센서스 $406.84(Hold). 주가 하락으로 업사이드 10.6%로 확대. BNP Paribas $280(Underperform), BofA $460(Buy), Wedbush $600(Outperform). 이란전 장기화 리스크가 신규 하향 조정 트리거가 될 수 있다."
+    "notableComment": "43명 애널리스트 컨센서스 $407.63(Hold). Wedbush $600(Outperform), BofA $460(Buy), BNP Paribas $280(Underperform), 최저 $19.05. Strong Buy 15명, Hold 17명, Strong Sell 9명. 현재가 대비 업사이드 10.8%."
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "이란전 확전: 지상군 투입, 호르무즈 해협 봉쇄, 유가 폭등",
-      "description": "Pentagon이 이란 지상군 투입을 준비하고 $200B 전쟁 예산을 요청했다. 호르무즈 해협이 봉쇄되어 세계 석유 공급의 20%가 막혔다. 사우디도 미사일 요격. S&P 500이 200일선 아래로 추락하며 경기침체를 가격에 반영하기 시작했다."
+      "title": "NHTSA FSD 엔지니어링 분석: 강제 리콜 직전 단계",
+      "description": "320만 대 대상 조사가 리콜 직전인 엔지니어링 분석 단계로 격상. 카메라 전용 시스템의 시야 제한 문제로 9건 사고(1건 사망). OTA로 해결 가능하나 강제 하드웨어 리콜 시 로보택시 전략에 타격."
     },
     {
       "severity": "critical",
-      "title": "NHTSA FSD 엔지니어링 분석 + 유럽 승인 지연 + 중국 거부",
-      "description": "미국(NHTSA 320만 대 조사, 리콜 가능), 유럽(4/10으로 지연), 중국(하드웨어 중복성 이유로 거부) 3대 시장에서 동시에 FSD 역풍. 로보택시 전략의 근간이 흔들리고 있다."
+      "title": "중동 지정학 리스크 + 유가 급등 지속",
+      "description": "Pentagon의 중동 추가 파병으로 유가 급등 지속. 고금리+고유가 조합이 성장주 밸류에이션에 직격탄. S&P 500 주간 최장 하락세."
     },
     {
       "severity": "high",
-      "title": "S&P 500이 200일선 아래 추락: 경기침체 가격 반영",
-      "description": "HSBC가 '시장은 경기침체를 가격에 반영하고 있다'고 분석. 4주 연속 하락. P/E 220배인 TSLA에 가장 불리한 환경."
+      "title": "FSD 유럽 승인 지연(4월 10일)",
+      "description": "네덜란드 FSD 승인이 3월 20일에서 4월 10일로 밀렸다. 유럽 시장 진출 모멘텀 약화. NHTSA 조사와 동시에 규제 리스크가 양쪽에서 압박."
+    },
+    {
+      "severity": "high",
+      "title": "Fed 금리 동결 + 2026년 인하 기대 소멸",
+      "description": "시장이 2026년 금리 인하를 완전히 배제하기 시작. P/E 220배인 TSLA에 가장 불리한 금리 환경."
     },
     {
       "severity": "high",
@@ -175,166 +180,159 @@
     },
     {
       "severity": "medium",
-      "title": "Supermicro 칩 밀수 사건: 반도체 공급망 불확실성",
-      "description": "Supermicro 공동창업자가 $2.5B 규모 Nvidia 칩 밀수로 체포. 칩 수출 통제가 더 강화될 수 있으며 Tesla Terafab 공급망에도 간접적 영향 가능."
-    },
-    {
-      "severity": "medium",
       "title": "밸류에이션 부담, P/E 220배",
-      "description": "S&P 500 평균 23배 대비 10배 프리미엄. 전쟁과 경기침체 우려 속 멀티플 압축 위험 극대화."
+      "description": "S&P 500 평균 23배, 자동차 섹터 16배, BYD 28배 대비 극단적 프리미엄. 멀티플 압축 위험 가중."
     }
   ],
   "buyReasons": [
     {
-      "title": "Terafab 오늘(3/21) 공식 런칭: 자체 반도체 시대 개막",
-      "rationale": "오늘 공식 런칭. 다른 자동차 회사는 절대 할 수 없는 자체 칩 생산. AI5 칩부터 자체 생산하며 Nvidia 의존도를 줄인다."
+      "title": "Terafab 오늘 공식 런칭: 자동차 회사 최초 자체 반도체 시대 개막",
+      "rationale": "다른 자동차 회사는 절대 할 수 없는 자체 칩 생산을 시작했다. Musk가 3~4년 내 칩 부족을 경고하며 선제 투자. 성공 시 AI, FSD, Optimus의 수직 통합 완성."
     },
     {
-      "title": "$2.9B 태양광 + 에너지 수직 통합: 전쟁 시대의 에너지 독립",
-      "rationale": "호르무즈 해협 봉쇄로 에너지 독립 가치가 급등. 미국산 태양광 100GW 생산 능력은 화석연료 의존도를 낮추는 전략적 자산."
+      "title": "$2.9B 태양광 + $16.5B Samsung AI6: 대규모 설비투자 사이클",
+      "rationale": "태양광 100GW, 반도체 자체 생산, Cybercab 라인 등 2026년 $20B+ 투자가 2027~2028년 수익으로 전환될 수 있다."
     },
     {
-      "title": "중국 1-2월 +35%, 유일하게 성장하는 시장",
-      "rationale": "중국 시장 반등과 미중 정상회담 재추진으로 아시아 매출 회복 기대."
+      "title": "RSI 30 과매도, 52주 고점 대비 26% 하락",
+      "rationale": "RSI 30 이하 진입. 과거 이 수준에서 반등한 이력이 많다. 20일선($401), 50일선($417) 모두 아래로 이탈해 기술적 반등 여지가 크다."
     },
     {
-      "title": "RSI 과매도, 고점 대비 25% 하락 구간",
-      "rationale": "고점 $489.88 대비 25% 하락. 역사적으로 이 수준에서 반등한 이력이 많다. 다만 매크로가 반등의 전제조건."
+      "title": "애널리스트 목표가 $407.63, 업사이드 10.8%",
+      "rationale": "43명 컨센서스가 현재가 대비 10.8% 업사이드. 최고 목표가 $600은 63% 상승 여지. 과매도 구간에서 리스크 대비 보상이 개선되고 있다."
     }
   ],
   "technicalPosition": {
-    "week52High": 489.88,
-    "week52Low": 249.84,
-    "currentPositionPercent": 49.2,
-    "sma50": 416.00,
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 54.0,
+    "sma20": 400.67,
+    "sma20Signal": "below",
+    "sma50": 416.56,
     "sma50Signal": "below",
-    "sma200": 392.00,
+    "sma200": 394.26,
     "sma200Signal": "below",
-    "rsi": 28.0,
+    "rsi": 30.0,
     "rsiSignal": "oversold"
   },
   "overallOpinion": [
-    "이란전이 지상전으로 확대되고 호르무즈 해협이 봉쇄되면서 S&P 500이 200일선 아래로 추락했다. HSBC는 시장이 경기침체를 가격에 반영하기 시작했다고 분석했다. Tesla도 $367.96으로 고점 대비 25% 하락했다.",
-    "FSD는 3대 시장에서 동시에 역풍이다. 미국 NHTSA가 320만 대 조사를 격상했고, 유럽 승인은 4/10으로 밀렸고, 중국은 아예 거부했다. 로보택시 전략의 핵심이 세 곳에서 막혀있다.",
-    "오늘(3/21) Terafab 런칭이 유일한 단기 촉매다. RSI 28 과매도지만 전쟁과 경기침체 공포 속에서 기술적 반등을 기대하기 어렵다. FSD 조사 결과와 전쟁 상황 변화를 지켜보자. 급한 매수는 위험하다."
+    "오늘(3/21) Terafab 자체 반도체 사업이 공식 런칭했다. Musk는 3~4년 내 칩 부족을 경고하며 2026년 설비투자 200억 달러 이상을 투입한다.",
+    "FSD 유럽 첫 승인(네덜란드)이 4월 10일로 밀렸고, NHTSA 조사는 리콜 직전인 엔지니어링 분석 단계다. 320만 대 대상이지만 OTA로 해결 가능성도 있다.",
+    "43명 애널리스트 목표가 평균 408달러로 현재가 368달러 대비 10.8% 업사이드. RSI 30 과매도에 20일선(401달러), 200일선(394달러) 모두 아래다.",
+    "Hold 유지. 촉매는 풍부하지만 중동 확전과 금리 역풍이 강하다. FSD 조사 결과와 Q1 실적 확인 후 분할 매수가 안전하다."
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "이란전 지상전 확대와 호르무즈 봉쇄가 시장 전체를 짓누르고 있다. FSD가 미국, 유럽, 중국 3곳에서 동시에 막혀있어 로보택시 전략의 불확실성이 커졌다. Terafab 런칭과 4월 Cybercab 양산이 촉매가 될 수 있으나, 전쟁이 장기화되면 성장주 전체의 멀티플 압축이 불가피하다. 전쟁 상황 변화와 Q1 실적 확인 후 진입이 안전하다.",
+    "summary": "Terafab 런칭으로 자체 반도체 시대를 열었지만, FSD 유럽 승인 지연(4/10)과 NHTSA 조사 격상이 규제 리스크를 키우고 있다. $367.96에서 RSI 30 과매도이고 목표가 $407.63 대비 10.8% 업사이드지만, 중동 지정학과 금리 동결 역풍이 해소되지 않았다. Cybercab 4월 양산과 Q1 실적을 확인하며 분할 매수 전략이 안전하다.",
     "horizon": "3-6개월"
   },
   "sources": [
     {
-      "name": "Bloomberg - Market Today 3/20",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-",
-      "description": "Pentagon 이란 지상군 준비, S&P 500 -1.5% 하락, 경기침체 가격 반영"
+      "name": "247 Wall St - Terafab Launch",
+      "url": "https://247wallst.com/investing/2026/03/19/teslas-terafab-could-be-the-game-changer-that-recharges-the-stock/",
+      "description": "Terafab 반도체 사업부 3/21 공식 런칭, Musk 칩 부족 경고"
     },
     {
-      "name": "The Guardian - Iran War Market Impact",
-      "url": "https://www.theguardian.com/business/2026/mar/20/stock-market-dip-iran-war",
-      "description": "호르무즈 해협 봉쇄, 4주 연속 시장 하락"
-    },
-    {
-      "name": "Electrek - FSD Europe Delayed",
-      "url": "https://electrek.co/2026/03/20/tesla-fsd-europe-netherlands-approval-delayed-april/",
-      "description": "FSD 유럽 승인 3/20에서 4/10으로 연기"
-    },
-    {
-      "name": "CNBC - NHTSA FSD Probe",
-      "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html",
-      "description": "NHTSA FSD 엔지니어링 분석 격상, 320만 대 대상"
-    },
-    {
-      "name": "CNBC - Supermicro Chip Smuggling",
-      "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html",
-      "description": "Supermicro 공동창업자 $2.5B Nvidia 칩 밀수 체포"
+      "name": "Reuters - NHTSA FSD Probe",
+      "url": "https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-tesla-vehicles-with-fsd-2026-03-19/",
+      "description": "NHTSA의 FSD 엔지니어링 분석 격상 및 320만 대 조사 보도"
     },
     {
       "name": "Reuters - Tesla Solar Equipment",
       "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/",
-      "description": "Tesla $2.9B 중국산 태양광 장비 구매 협상"
+      "description": "Tesla $2.9B 중국산 태양광 장비 구매 협상 독점 보도"
     },
     {
-      "name": "NYT - Iran War Updates",
-      "url": "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil",
-      "description": "Pentagon $200B 전쟁 예산 요청, 유가 급등"
+      "name": "Bloomberg - Market Today",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-",
+      "description": "Pentagon 중동 함선 파견, S&P 500 주간 최장 하락세"
     },
     {
-      "name": "Motley Fool - Market 3/20",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/20/stock-market-today-march-20-s-and-p-500-drops-for-third-day-fourth-week-in-a-row/",
-      "description": "S&P 500 6,507(-1.5%), Nasdaq -1.98%, 4주 연속 하락"
+      "name": "Yahoo Finance - Fed Decision",
+      "url": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html",
+      "description": "Fed 금리 동결(3.5-3.75%) 및 인하 축소"
     },
     {
-      "name": "Google Finance",
+      "name": "Capital.com - Tesla Forecast",
+      "url": "https://capital.com/en-int/market-updates/tesla-stock-forecast-18-03-2026",
+      "description": "43명 애널리스트 컨센서스, Wedbush $600, BofA $460"
+    },
+    {
+      "name": "Google Finance - TSLA",
       "url": "https://www.google.com/finance/quote/TSLA:NASDAQ",
-      "description": "TSLA 종가 $367.96, 시간외 $371.43"
+      "description": "TSLA 종가 $367.96, 시가총액 $1.18T, 52주 범위"
     },
     {
-      "name": "ts2.tech - TSLA FSD Analysis",
-      "url": "https://ts2.tech/en/tesla-stock-price-today-why-tsla-is-slipping-as-fsd-probe-overshadows-europe-approval-hopes/",
-      "description": "FSD 프로브가 유럽 승인 희망을 덮었다는 분석"
+      "name": "MEXC Blog - Tesla Analysis",
+      "url": "https://blog.mexc.com/news/tesla-stock-tsla-in-2026-shrinking-sales-210x-earnings-one-enormous-bet-on-robots/",
+      "description": "Terafab 상세 분석, 밸류에이션 평가, $20B+ capex"
+    },
+    {
+      "name": "TipRanks - TSLA Consensus",
+      "url": "https://www.tipranks.com/stocks/tsla/forecast",
+      "description": "43명 애널리스트 목표가 분포, Strong Buy 15, Strong Sell 9"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla $368, 이란 지상전에 FSD 3대 시장 동시 막힘",
-      "text": "$TSLA $367.96\n\n이란전 지상전 확대, 호르무즈 봉쇄. S&P 200일선 아래 추락. Tesla 고점 대비 25% 하락, RSI 28 과매도.\n\n오늘 Terafab 런칭.\n목표가 $406.84(+10.6%)\n\n1/4",
+      "hook": "Tesla Terafab 오늘 런칭, 자체 반도체 시대 개막",
+      "text": "$TSLA $367.96(-0.83%)\n\nTerafab 자체 반도체 사업 오늘 공식 런칭. Musk가 3~4년 내 칩 부족 경고하며 올해 $20B+ 설비투자.\n\n하지만 FSD 유럽 승인이 4/10으로 밀렸다.\n\n목표 $408(+10.8%)\n\n1/4",
       "thread": [
-        "FSD가 3곳에서 동시에 막혔다. 미국 NHTSA 320만 대 조사, 유럽 승인 4/10 지연, 중국은 아예 거부. 로보택시 전략의 핵심이 흔들린다.\n\n2/4",
-        "Terafab 런칭과 $2.9B 태양광, Cybercab 4월 양산. 촉매는 있지만 전쟁이 모든 걸 덮고 있다.\n\nPentagon $200B 전쟁 예산 요청.\n\n3/4",
-        "Hold. 전쟁과 FSD 리스크가 동시에 터진 상황. 급한 매수보다 상황 변화 확인이 먼저다.\n\n$367.96, 목표 $406.84(+10.6%)\n\n4/4"
+        "NHTSA FSD 조사가 리콜 직전인 엔지니어링 분석 단계. 320만 대 대상, 9건 사고(1건 사망). OTA로 해결 가능성은 있다.\n\n규제 리스크가 양쪽에서 압박.\n\n2/4",
+        "중동 확전과 유가 급등 지속. Fed는 인하를 미루고 시장은 기대를 접었다.\n\nP/E 220배, RSI 30 과매도.\n\n3/4",
+        "Hold. Terafab 런칭은 긍정적이나 FSD 규제와 매크로 역풍이 강하다. Q1 실적 확인 후 분할 매수.\n\n$367.96, 목표 $408(+10.8%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla $368, 전쟁과 FSD 역풍 속 Terafab 런칭",
-      "text": "$TSLA $367.96\n\n이란전이 지상전으로 확대되고 호르무즈 해협이 봉쇄됐다. S&P 500이 200일선 아래로 추락. HSBC는 경기침체 가격 반영이 시작됐다고 분석했다. Tesla 고점 대비 25%, RSI 28.\n\nFSD가 세 시장에서 동시에 막혔다. NHTSA 320만 대 조사 격상, 유럽 4/10 연기, 중국 거부. 로보택시 전략의 근간이 흔들린다.\n\n오늘 Terafab 런칭이 유일한 단기 촉매. 전쟁 상황 변화 전까지 급한 매수는 위험하다. Hold. 목표 $406.84(+10.6%)."
+      "hook": "Tesla Terafab 런칭, 그런데 FSD는 사면초가",
+      "text": "$TSLA $367.96(-0.83%)\n\nTerafab 자체 반도체 사업이 오늘 공식 런칭했다. Musk는 3~4년 내 칩이 부족해진다고 경고하며 2026년 $20B+ 설비투자를 집행한다.\n\n하지만 FSD는 사면초가다. 유럽 첫 승인(네덜란드)이 4월 10일로 밀렸고, NHTSA 조사는 리콜 직전 단계. 320만 대 대상이다.\n\nRSI 30 과매도, 200일선($394) 아래. 촉매는 있지만 규제와 매크로 역풍이 강하다. Hold. 목표 $408(+10.8%)."
     },
     "telegram": {
-      "hook": "TSLA $368, 이란전 + FSD 3대 시장 역풍",
-      "text": "Tesla 일일 분석 (3/21)\n\n가격: $367.96\n\n핵심 이슈\n- 이란전 지상전 확대, 호르무즈 해협 봉쇄\n- Pentagon $200B 전쟁 예산 요청\n- S&P 500 200일선 아래 추락 (6,507, -1.5%)\n- FSD: NHTSA 320만 대 조사 + 유럽 4/10 연기 + 중국 거부\n- 오늘(3/21) Terafab 자체 반도체 공식 런칭\n- Supermicro $2.5B 칩 밀수 체포\n\n기술적 위치\n- 200일선($392) 아래\n- RSI 28 과매도\n- 고점 대비 -25%\n\n목표가: $406.84 (+10.6%)\n판단: Hold. 전쟁+FSD 리스크 동시 발생. 상황 확인 후."
+      "hook": "TSLA $367.96, Terafab 런칭 + FSD 규제 리스크",
+      "text": "TSLA $367.96 (-0.83%)\n\n핵심 이슈\n- Terafab 자체 반도체 오늘 공식 런칭, $20B+ 설비투자\n- FSD 유럽 승인(네덜란드) 4/10으로 연기\n- NHTSA FSD 조사 엔지니어링 분석 격상 (320만 대)\n- 중동 확전, 유가 급등 지속\n- Fed 금리 동결, 인하 기대 소멸\n\n기술적 위치\n- 20일선($401), 200일선($394) 모두 아래\n- RSI 30 과매도\n- 52주 고점 대비 -26%\n\n목표가: $408 (+10.8%)\n판단: Hold. Terafab 런칭은 긍정적이나 규제+매크로 역풍. Q1 확인 후."
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla $368, 이란 지상전에 FSD 3대 시장 동시 막힘",
-          "text": "$TSLA $367.96\n\n이란전 지상전 확대, 호르무즈 봉쇄. S&P 200일선 아래 추락. Tesla 고점 대비 25% 하락, RSI 28 과매도.\n\n오늘 Terafab 런칭.\n목표가 $406.84(+10.6%)\n\n1/4",
+          "hook": "Tesla Terafab 오늘 런칭, 자체 반도체 시대 개막",
+          "text": "$TSLA $367.96(-0.83%)\n\nTerafab 자체 반도체 사업 오늘 공식 런칭. Musk가 3~4년 내 칩 부족 경고하며 올해 $20B+ 설비투자.\n\n하지만 FSD 유럽 승인이 4/10으로 밀렸다.\n\n목표 $408(+10.8%)\n\n1/4",
           "thread": [
-            "FSD가 3곳에서 동시에 막혔다. 미국 NHTSA 320만 대 조사, 유럽 승인 4/10 지연, 중국은 아예 거부. 로보택시 전략의 핵심이 흔들린다.\n\n2/4",
-            "Terafab 런칭과 $2.9B 태양광, Cybercab 4월 양산. 촉매는 있지만 전쟁이 모든 걸 덮고 있다.\n\nPentagon $200B 전쟁 예산 요청.\n\n3/4",
-            "Hold. 전쟁과 FSD 리스크가 동시에 터진 상황. 급한 매수보다 상황 변화 확인이 먼저다.\n\n$367.96, 목표 $406.84(+10.6%)\n\n4/4"
+            "NHTSA FSD 조사가 리콜 직전인 엔지니어링 분석 단계. 320만 대 대상, 9건 사고(1건 사망). OTA로 해결 가능성은 있다.\n\n규제 리스크가 양쪽에서 압박.\n\n2/4",
+            "중동 확전과 유가 급등 지속. Fed는 인하를 미루고 시장은 기대를 접었다.\n\nP/E 220배, RSI 30 과매도.\n\n3/4",
+            "Hold. Terafab 런칭은 긍정적이나 FSD 규제와 매크로 역풍이 강하다. Q1 실적 확인 후 분할 매수.\n\n$367.96, 목표 $408(+10.8%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Terafab 런칭인데 전쟁이 시작됐다",
-          "text": "$TSLA $367.96\n\n자체 반도체 공장을 여는 날, 중동에서 지상전이 시작됐다. FSD는 미국, 유럽, 중국 3곳에서 문 닫힘. Musk의 미래는 항상 현실과 부딪힌다.\n\n목표 $406.84(+10.6%)\n\n1/4",
+          "hook": "칩은 직접 만들기로 했는데 FSD는 유럽 입국 거절",
+          "text": "$TSLA $367.96(-0.83%)\n\nTerafab 런칭으로 칩을 직접 찍기 시작했다. 그런데 FSD는 네덜란드 입국이 4/10으로 밀렸고 미국에선 리콜 위기.\n\n칩은 만드는데 팔 차가 걱정이다.\n\n목표 $408(+10.8%)\n\n1/4",
           "thread": [
-            "NHTSA가 320만 대를 조사하고, 유럽은 4/10까지 미루고, 중국은 거절했다. 로보택시 출발선에 서기도 전에 장애물이 3개다.\n\n2/4",
-            "호르무즈가 막히니 태양광 $2.9B 투자가 더 빛난다. 전쟁이 에너지 독립의 가치를 증명하는 아이러니.\n\nPentagon은 $200B를 달라고 한다.\n\n3/4",
-            "Hold. RSI 28인데 매수 버튼을 누르기엔 불확실성이 너무 많다.\n\n$367.96, 목표 $406.84(+10.6%)\n\n4/4"
+            "NHTSA가 320만 대 FSD를 들여다보고 있다. 9건 사고, 1건 사망. 카메라만으로 된다던 자신감이 시험대에 올랐다.\n\nOTA로 해결되면 다행이지만.\n\n2/4",
+            "올해 $20B+ 설비투자. 태양광 $2.9B, 반도체 $16.5B. 돈은 쏟는데 주가는 RSI 30.\n\nP/E 220배에 매크로까지 역풍.\n\n3/4",
+            "Hold. Musk의 비전은 항상 시장보다 3년 앞서는데, 주가는 오늘을 산다.\n\n$367.96, 목표 $408(+10.8%)\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla 주주들, 전쟁에 FSD까지. 힘든 주간이었다",
-          "text": "$TSLA $367.96\n\n고점에서 25% 빠졌다. 이란전 확전에 호르무즈 봉쇄, FSD는 3곳에서 막혔다. 한꺼번에 터지니 숨이 막힌다. RSI 28.\n\n목표 $406.84(+10.6%)\n\n1/4",
+          "hook": "Tesla 주주들, 고점에서 26% 빠지면 숨이 막히지",
+          "text": "$TSLA $367.96(-0.83%)\n\n$499 볼 때는 상상도 못 했을 $368이다. 중동 확전, 금리 동결, FSD 리콜 위기까지. 불안한 게 당연하다.\n\n그래도 오늘 Terafab이 런칭했다.\n\n목표 $408(+10.8%)\n\n1/4",
           "thread": [
-            "오늘 Terafab 런칭은 분명 의미 있는 이벤트다. 자체 칩 생산은 다른 자동차 회사가 절대 못 하는 일이다. 전쟁 뉴스에 묻히지만.\n\n2/4",
-            "FSD가 미국, 유럽, 중국 다 막혀서 불안하다. 하지만 160만 km 유럽 테스트, 82억 마일 데이터는 사라지지 않는다.\n\n시간이 필요하다.\n\n3/4",
-            "Hold. 전쟁이 끝나면 촉매가 한꺼번에 터질 수 있다. 지금은 버티자.\n\n$367.96, 목표 $406.84(+10.6%)\n\n4/4"
+            "FSD 유럽 승인이 4/10으로 밀리고, NHTSA 조사도 진행 중이다. 규제가 몰려오면 공포가 커지는 게 자연스럽다.\n\nOTA로 해결될 수도 있다. 기다려보자.\n\n2/4",
+            "RSI 30. 과거에도 이 구간에서 반등이 왔다. 지금은 파는 것보다 버티는 게 전략이다.\n\n200일선($394) 아래지만 촉매는 있다.\n\n3/4",
+            "Hold. 급하게 추가 매수하지 말고 Q1 실적과 FSD 결과를 기다리자.\n\n$367.96, 목표 $408(+10.8%)\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla $368, 전쟁+FSD 3대 시장 역풍 속 과매도",
-          "text": "$TSLA $367.96\n\n이란 지상전 확대, 호르무즈 봉쇄, S&P 200일선 추락. FSD는 NHTSA 320만 대 조사, 유럽 4/10 연기, 중국 거부.\n\n오늘 Terafab 런칭, $2.9B 태양광, Cybercab 4월. 촉매는 있지만 전쟁이 덮고 있다. RSI 28 과매도.\n\nHold. 전쟁 상황 변화 확인 후. 목표 $406.84(+10.6%)."
+          "hook": "Tesla Terafab 런칭, FSD는 규제 압박",
+          "text": "$TSLA $367.96(-0.83%)\n\nTerafab 자체 반도체 오늘 런칭. $20B+ 설비투자. 하지만 FSD 유럽 승인 4/10 연기, NHTSA 320만 대 조사 격상으로 규제 리스크 가중.\n\nRSI 30 과매도, 200일선 아래. 촉매는 있으나 매크로 역풍이 강하다. Hold. Q1 실적 확인 후. 목표 $408(+10.8%)."
         },
         "witty": {
-          "hook": "Terafab 여는 날에 전쟁이 확대됐다. 타이밍의 잔인함",
-          "text": "$TSLA $367.96\n\n자체 반도체 공장 오픈일에 중동 지상전 뉴스가 터졌다. FSD는 3개 대륙에서 문을 닫았고, S&P는 200일선 아래로 밀렸다.\n\n호르무즈가 막히니 태양광 $2.9B가 더 빛나는 아이러니. 전쟁이 에너지 독립의 광고를 해주고 있다.\n\nRSI 28. 숫자만 보면 매수인데 전쟁이 변수다. Hold. 목표 $406.84(+10.6%)."
+          "hook": "칩은 직접 찍는데 FSD는 유럽 문 앞에서 대기 중",
+          "text": "$TSLA $367.96(-0.83%)\n\nTerafab으로 칩 공장을 열었다. 그런데 FSD는 네덜란드가 4/10까지 기다리래. 미국에선 NHTSA가 320만 대를 조사 중.\n\nMusk는 미래를 만들고 시장은 오늘만 본다. P/E 220배에 RSI 30. 역사적으로 이 구간은 기회였지만 이번엔 매크로가 다르다.\n\nHold. 급하지 말자. 목표 $408(+10.8%)."
         },
         "empathy": {
-          "hook": "Tesla 주주들, 고점 대비 25% 하락. 괜찮냐고 안 물어볼 수 없다",
-          "text": "$TSLA $367.96\n\n$490이 불과 몇 달 전인데 지금 $368이다. 이란전이 지상전으로 번지고 FSD는 3대 시장에서 막혔다. 한 번에 다 터지면 정말 힘들다.\n\n하지만 오늘 Terafab이 런칭하고, 4월 Cybercab 양산, 태양광 $2.9B 투자가 진행 중이다. 회사는 멈추지 않았다.\n\nRSI 28 과매도. 전쟁이 끝나면 반등 에너지가 폭발할 수 있다. 지금은 참자. Hold. 목표 $406.84(+10.6%)."
+          "hook": "Tesla $368, 26% 하락은 진짜 힘든 구간이다",
+          "text": "$TSLA $367.96(-0.83%)\n\n52주 고점 $499에서 26% 빠졌다. FSD는 유럽에서 밀리고, 미국에선 리콜 위기. 중동 확전에 금리까지. 불안한 게 당연하다.\n\n하지만 오늘 Terafab이 런칭했고, 4월에 Cybercab 양산이 온다. RSI 30은 과거에도 반등 신호였다.\n\n파는 건 이미 늦고, 사는 건 아직 이르다. Hold. FSD 결과와 Q1 실적을 보자. 목표 $408(+10.8%)."
         }
       }
     }
