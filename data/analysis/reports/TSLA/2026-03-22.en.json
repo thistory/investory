@@ -5,11 +5,11 @@
   "currentPrice": 367.96,
   "marketCap": "$1.38T",
   "businessSummary": {
-    "oneLiner": "The world's largest EV maker evolving into a 'Physical AI Platform' spanning autonomous driving, robotics, energy and custom AI chips",
-    "description": "Tesla has expanded well beyond electric vehicle sales into FSD autonomous driving, Cybercab robotaxi, Optimus humanoid robot, and Megapack energy storage. The company posted $94.8 billion in annual revenue for 2025 with GAAP EPS of $1.08, achieving a two-year high gross margin of 20.1% in Q4 2025. FSD has transitioned to a $99/month subscription model to maximize recurring revenue from its 8.4-billion-mile fleet dataset. Key catalysts are front-loaded into April 2026 with Cybercab production, Roadster unveil, and Q1 earnings.",
+    "oneLiner": "World's largest EV maker evolving into a 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
+    "description": "Tesla has expanded beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08. Q4 2025 gross margin hit 20.1%, the highest in two years. FSD has transitioned to a $99/month subscription model to maximize recurring revenue, and key growth catalysts are lined up starting April 2026 with Cybercab production and Roadster unveiling.",
     "howTheyMakeMoney": [
-      "Electric vehicle sales (Model 3/Y, Cybertruck)",
-      "Energy generation and storage (Megapack, Powerwall, Solar)",
+      "EV sales (Model 3/Y, Cybertruck)",
+      "Energy storage and generation (Megapack, Powerwall, Solar)",
       "Services and charging (Supercharger network, insurance, OTA upgrades)",
       "FSD (Full Self-Driving) $99/month subscription and licensing",
       "Regulatory credit sales"
@@ -29,135 +29,129 @@
     {
       "name": "P/E (TTM)",
       "value": "363.93",
-      "interpretation": "Trades at 15x the S&P 500 average (~24x) and 30x the auto sector average (~12x). Reflects AI/robotics/autonomy premium but leaves little margin for execution misses"
+      "interpretation": "Extremely elevated vs S&P 500 average (~24x) and auto sector average (~12x). Reflects AI/robotics/autonomy premium, but vulnerable without earnings support"
     },
     {
       "name": "Forward P/E",
       "value": "178.67",
-      "interpretation": "Based on consensus 2026 EPS of $2.08. Still elevated but roughly half the trailing multiple, signaling expectations of an earnings inflection"
+      "interpretation": "Based on 2026E EPS of $2.08. Still high but half the TTM multiple, indicating market expects earnings recovery"
     },
     {
       "name": "Revenue (TTM)",
       "value": "$94.83B",
-      "interpretation": "Down 2.93% YoY. Consensus projects $105.8B for FY2026, representing an 11.5% return to growth"
+      "interpretation": "Down 2.93% YoY. 2026E revenue of $105.7B implies 11.5% growth rebound"
     },
     {
       "name": "Gross Margin",
       "value": "18.03%",
-      "interpretation": "Compressed by pricing competition. Energy segment expansion and FSD subscription revenue are key margin recovery levers"
+      "interpretation": "Compressed to traditional auto OEM levels due to price competition. Energy business expansion and FSD subscriptions are key to margin recovery"
     },
     {
-      "name": "Free Cash Flow",
+      "name": "Free Cash Flow (FCF)",
       "value": "$6.22B",
-      "interpretation": "Healthy cash generation despite $8.5B in capex. Provides ample investment capacity for Cybercab, Terafab, and Optimus"
+      "interpretation": "Healthy cash generation even after $8.53B in capex. Ample investment capacity for Cybercab and Terafab"
     },
     {
-      "name": "Debt/Equity",
+      "name": "Debt-to-Equity (D/E)",
       "value": "0.18",
-      "interpretation": "Net cash position of $29.3B. Balance sheet strength among the strongest in the industry"
+      "interpretation": "Net cash of $29.3B. Best-in-class balance sheet strength"
     }
   ],
   "growthDrivers": [
     {
-      "title": "Terafab Semiconductor Facility Launch (3/21)",
-      "description": "In-house AI chip production facility now operational, enabling supply chain independence and cost reduction for FSD and Optimus compute needs"
+      "title": "Terafab Semiconductor Factory Launched 3/21",
+      "description": "In-house AI chip factory now operational, enabling supply chain independence and cost reduction for FSD and Optimus"
     },
     {
-      "title": "Cybercab Production Ramp (April 2026)",
-      "description": "Steer-by-wire autonomous robotaxi entering production. Regulatory approval in progress with NHTSA; creates an entirely new revenue stream"
+      "title": "Cybercab Production Starting April",
+      "description": "Steeringless fully autonomous robotaxi. NHTSA approval in progress. Launch opens an entirely new revenue stream"
     },
     {
-      "title": "Roadster Unveil (April 2026)",
-      "description": "Musk announced on March 17 that the long-delayed next-gen Roadster will be unveiled in April, calling it 'next-level.' Brand halo effect expected"
+      "title": "Roadster Unveiling in April",
+      "description": "Musk announced on March 17 it will be unveiled next month, calling it 'the greatest thing ever.' Strong brand halo effect expected"
     },
     {
-      "title": "Samsung AI6 $16.5B Foundry Contract",
-      "description": "Partnership with Samsung for next-gen AI chip fabrication, reducing Nvidia dependency and building proprietary AI infrastructure"
+      "title": "Samsung AI6 Chip $16.5B Foundry Deal",
+      "description": "Next-gen AI chip production partnership with Samsung. Building in-house AI infrastructure to reduce NVIDIA dependency"
     },
     {
-      "title": "FSD Subscription Model Transition ($99/mo)",
-      "description": "Shift from one-time $12,000 purchases to recurring $99/month subscriptions. Leverages 8.4 billion miles of driving data for continuous improvement"
+      "title": "FSD Subscription Model ($99/month)",
+      "description": "Transition from $12K one-time purchase to $99/month subscription. Maximizing recurring revenue from 8.4 billion miles of driving data"
     },
     {
       "title": "China Sales Surge (+35% YoY)",
-      "description": "January-February 2026 China deliveries up 35% year-over-year, demonstrating sustained momentum in the world's largest EV market"
+      "description": "Jan-Feb 2026 China sales up 35% year-over-year. Sustained momentum in the world's largest EV market"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "50%+ U.S. EV market share, 8.4 billion miles of FSD data, Supercharger NACS standard dominance, and Samsung AI6 foundry partnership for chip self-sufficiency",
+    "summary": "50%+ US EV market share, 8.4B miles FSD data, Supercharger NACS standard dominance, Samsung AI6 foundry deal for AI chip internalization",
     "moats": [
       {
         "type": "Data Moat",
-        "description": "8.4 billion real-world FSD miles creates an insurmountable data advantage. Competitors cannot replicate this scale of autonomous driving training data in the near term"
+        "description": "8.4 billion real-world FSD driving miles. Competitors cannot replicate this scale of autonomous driving training data in the short term"
       },
       {
         "type": "Charging Infrastructure",
-        "description": "Supercharger network adopted as the NACS industry standard. Ford, GM, and other OEMs now use Tesla's charging infrastructure"
+        "description": "Supercharger network adopted as NACS standard. Ford, GM and others now use Tesla's charging infrastructure"
       },
       {
         "type": "Vertical Integration",
-        "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all in-house. Delivers cost advantages and faster innovation cycles"
+        "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all vertically integrated. Cost advantage and rapid innovation"
       },
       {
         "type": "Brand Power",
-        "description": "Synonymous with EVs globally. Passionate community and zero traditional advertising spend drive organic demand generation"
+        "description": "Synonymous with EVs. High brand awareness and passionate fanbase generate demand with zero marketing spend"
       }
     ],
     "competitors": [
       {
         "name": "BYD",
-        "detail": "China's #1 EV maker closing the gap on global deliveries. Superior cost structure and aggressive international expansion"
+        "detail": "China's #1, catching Tesla in global EV volume. Superior price competitiveness"
       },
       {
         "name": "Rivian",
-        "detail": "Competing in U.S. electric pickup/SUV segment. Exclusive Amazon delivery vehicle contract provides revenue visibility"
+        "detail": "Competing in US electric pickup/SUV segment. Exclusive Amazon delivery vehicle contract"
       },
       {
         "name": "Waymo (Alphabet)",
-        "detail": "Leading in commercialized autonomous ride-hailing. Expanding robotaxi service footprint ahead of Tesla"
+        "detail": "Ahead of Tesla in autonomous driving commercialization. Expanding robotaxi service"
       },
       {
         "name": "Hyundai/Kia",
-        "detail": "Growing global EV share with Ioniq and EV6 lineups. Competing on value proposition and build quality"
+        "detail": "Expanding global EV share with Ioniq, EV6. Competing on value and quality"
       }
     ]
   },
   "recentNews": [
     {
       "date": "2026-03-21",
-      "headline": "Terafab in-house semiconductor facility officially launches",
-      "significance": "Achieves AI chip self-sufficiency for FSD and Optimus. Marks a milestone in Tesla's vertical integration strategy",
+      "headline": "Terafab in-house semiconductor factory officially launched",
+      "significance": "AI chip internalization achieves supply chain independence. In-house production of critical FSD and Optimus components begins",
       "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-20-the-tesla-pivot-from-ev-pioneer-to-physical-ai-titan-2026-research-report"
     },
     {
+      "date": "2026-03-20",
+      "headline": "Jury finds Musk liable for defrauding Twitter investors during $44B acquisition",
+      "significance": "Federal jury ruled Musk tried to manipulate Twitter's stock price during 2022 takeover. Plans to appeal, but CEO risk intensifies",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/musk-found-liable-twitter-shareholders-fraud-lawsuit-over-44-billion-takeover-2026-03-20/"
+    },
+    {
       "date": "2026-03-19",
-      "headline": "NHTSA expands FSD probe into reduced-visibility performance",
-      "significance": "Federal investigation intensifies ahead of Cybercab production. Potential regulatory headwind for autonomous vehicle approval",
+      "headline": "NHTSA expands FSD investigation into reduced visibility conditions",
+      "significance": "Federal safety probe deepens over autonomous driving concerns. Potential risk to Cybercab approval timeline",
       "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html"
     },
     {
-      "date": "2026-03-19",
-      "headline": "Tesla faces wider self-driving probe as it prepares to sell cars without steering wheels",
-      "significance": "AP reports expanded NHTSA scrutiny creates uncertainty around Cybercab timeline and approval process",
-      "url": "https://apnews.com/article/tesla-selfdriving-musk-regulators-7edce5705e93775e1b8bb77b5dd54007"
-    },
-    {
       "date": "2026-03-17",
-      "headline": "Musk promises Roadster unveil in April: 'It will be next-level'",
-      "significance": "Long-delayed next-gen Roadster finally approaching reveal. Expected to generate significant brand momentum",
+      "headline": "Musk teases Roadster unveiling next month: 'It will be epic'",
+      "significance": "Long-delayed next-gen Roadster reveal imminent. Potential stock catalyst as brand event",
       "url": "https://electrek.co/2026/03/17/tesla-roadster-unveil-next-month-elon-musk-claims/"
     },
     {
       "date": "2026-03-16",
-      "headline": "Tesla software update 2026.8 rolls out with Comfort Braking and Cybertruck blind spot warning",
-      "significance": "Continued OTA feature deployment demonstrates Tesla's software-defined vehicle advantage",
+      "headline": "Tesla software update 2026.8 rolls out with Comfort Braking and blind spot alerts",
+      "significance": "Model Y Juniper comfort braking, Cybertruck parking blind spot alerts via OTA updates",
       "url": "https://www.teslaoracle.com/2026/03/16/tesla-update-2026-8-goes-wide-with-comfort-braking-cybertruck-parked-blind-spot-and-more-official-release-notes/"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "Research report details Tesla's pivot from EV pioneer to Physical AI titan",
-      "significance": "Comprehensive analysis of FSD subscription transition, 8.4B-mile dataset, and AI platform strategy",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-19-tesla-tsla-research-feature-the-pivot-to-physical-ai-march-2026"
     }
   ],
   "analystOpinions": {
@@ -168,60 +162,60 @@
     "buyCount": 15,
     "holdCount": 10,
     "sellCount": 7,
-    "notableComment": "Wedbush's Daniel Ives maintains $600 target, calling Tesla 'the premier Physical AI beneficiary.' GLJ Research's Gordon Johnson remains the most vocal bear at $25, citing fundamental overvaluation"
+    "notableComment": "Wedbush's Daniel Ives maintains $600 target, calling Tesla 'the biggest Physical AI beneficiary.' GLJ Research's Gordon Johnson maintains extreme bear case at $25"
   },
   "risks": [
     {
       "severity": "critical",
       "title": "Extreme Valuation",
-      "description": "TTM P/E of 364x is 15x the S&P 500 average and 30x the auto sector. Any earnings disappointment could trigger a sharp correction"
+      "description": "TTM P/E of 364x is 15x the S&P 500 average (24x) and 30x the auto sector (12x). Significant downside risk if earnings disappoint"
+    },
+    {
+      "severity": "high",
+      "title": "Escalating Musk Legal Risk",
+      "description": "Jury found Musk liable for Twitter investor fraud (3/20). Appeal pending, but adds to CEO risk alongside DOGE activities and ongoing boycott movements"
     },
     {
       "severity": "high",
       "title": "NHTSA FSD Investigation Expansion",
-      "description": "Federal probe into FSD performance in reduced visibility widening. Could delay Cybercab regulatory approval or force recalls"
-    },
-    {
-      "severity": "high",
-      "title": "Musk Key-Person Risk",
-      "description": "CEO's political activities and DOGE involvement damaging brand perception. Boycott movements persist in Europe and parts of the U.S."
+      "description": "Federal investigation into FSD safety in reduced visibility conditions. Risk of Cybercab approval delay and potential recalls"
     },
     {
       "severity": "medium",
       "title": "Intensifying Price Competition",
-      "description": "BYD and Chinese competitors applying sustained pricing pressure. Gross margins compressed to 18% from prior peaks above 25%"
+      "description": "Margin pressure from BYD and Chinese competitors continues. Gross margin compressed to 18%"
     },
     {
       "severity": "medium",
-      "title": "Timeline Execution Risk",
-      "description": "Musk has a documented history of missed deadlines. Roadster and Cybercab schedules carry credibility risk"
+      "title": "Roadster/Cybercab Delay History",
+      "description": "Musk has a track record of repeated timeline delays. April unveilings may slip again"
     },
     {
       "severity": "low",
-      "title": "Revenue Contraction",
-      "description": "TTM revenue declined 2.93% YoY. While consensus expects a return to growth in 2026, execution remains uncertain"
+      "title": "Revenue Decline",
+      "description": "TTM revenue down 2.93% YoY. 2026 growth rebound expected but not guaranteed"
     }
   ],
   "buyReasons": [
     {
-      "title": "Physical AI Platform Optionality",
-      "rationale": "Tesla is no longer just an automaker. Success in any combination of FSD, robotaxi, robotics, or AI chips could unlock a fundamental re-rating of the stock"
+      "title": "Physical AI Platform Transformation",
+      "rationale": "Evolving from pure EV maker to a platform company spanning autonomous driving, robotics, and AI chips. Success in each vertical could trigger valuation re-rating"
     },
     {
-      "title": "Catalyst-Dense April 2026",
-      "rationale": "Cybercab production start, Roadster unveil, and Q1 earnings (April 21) are concentrated in a single month, providing multiple near-term upside triggers"
+      "title": "Concentrated 2026 Growth Catalysts",
+      "rationale": "April brings Cybercab production, Roadster unveiling, Terafab operation, and Q1 earnings (4/21). Multiple catalysts in a short timeframe"
     },
     {
-      "title": "FSD Recurring Revenue Engine",
-      "rationale": "Transition to $99/month subscription model backed by 8.4 billion miles of real-world data creates a high-margin, scalable software revenue stream"
+      "title": "FSD Subscription Recurring Revenue",
+      "rationale": "$99/month FSD subscription powered by 8.4 billion miles of driving data. Continuous revenue generation after vehicle sale"
     },
     {
-      "title": "Fortress Balance Sheet",
-      "rationale": "Net cash of $29.3B and $6.2B in annual free cash flow provide substantial investment capacity without dilution or leverage concerns"
+      "title": "Balance Sheet Strength",
+      "rationale": "Net cash of $29.3B and FCF of $6.2B. Ample financial capacity for major investments"
     },
     {
-      "title": "Technical Oversold Setup",
-      "rationale": "RSI at 31.94 approaching oversold territory. Trading below both 50-day ($415) and 200-day ($394) moving averages suggests potential mean reversion"
+      "title": "Technical Oversold Zone",
+      "rationale": "RSI at 31.94, approaching oversold territory. Trading below both 50-day and 200-day moving averages, potential for technical bounce"
     }
   ],
   "technicalPosition": {
@@ -236,124 +230,127 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "April is loaded with catalysts: Cybercab production start, Roadster unveil, and Q1 earnings on 4/21 could reignite momentum",
-    "The Physical AI pivot is materializing with Terafab online, FSD subscriptions ramping, and Samsung AI6 partnership secured",
-    "However, a 364x trailing P/E leaves zero margin for error. NHTSA probe expansion and Musk-related brand risk add to downside exposure",
-    "Technically oversold with RSI at 31.9 and trading below both 50-day ($415) and 200-day ($394) SMAs. First resistance at $394 on any bounce"
+    "Musk was found liable by a jury for defrauding Twitter investors during the 2022 acquisition (3/20). He plans to appeal, but CEO risk has escalated further",
+    "April catalysts remain powerful: Cybercab production, Roadster unveiling, Q1 earnings (4/21), and Terafab semiconductor factory is now operational",
+    "However, NHTSA probe expansion, P/E of 364x, and 16% YTD decline create significant headwinds in the near term",
+    "RSI at 31.9 nearing oversold, trading below the 200-day SMA ($394). Best to wait for catalyst confirmation before entering"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Tesla's April catalyst lineup (Cybercab, Roadster, Q1 earnings) offers meaningful upside potential, but the 364x trailing P/E and intensifying NHTSA scrutiny demand caution. The risk-reward favors waiting for catalyst confirmation rather than front-running at current levels.",
+    "summary": "April catalysts (Cybercab, Roadster, Q1 earnings) offer strong upside potential, but the Musk Twitter fraud verdict, extreme P/E of 364x, and NHTSA regulatory risk create a challenging risk-reward at current levels. Wait for catalyst confirmation rather than entering at these prices.",
     "horizon": "3-6 months"
   },
   "sources": [
     {
       "name": "StockAnalysis",
       "url": "https://stockanalysis.com/stocks/tsla/statistics/",
-      "description": "Real-time TSLA price, valuation metrics, and financial statistics"
+      "description": "TSLA real-time price, valuation metrics, financial statistics"
     },
     {
       "name": "StockAnalysis Forecast",
       "url": "https://stockanalysis.com/stocks/tsla/forecast/",
-      "description": "Analyst consensus ratings, price targets, and revenue/EPS forecasts"
+      "description": "Analyst consensus, price targets, revenue/EPS estimates"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/musk-found-liable-twitter-shareholders-fraud-lawsuit-over-44-billion-takeover-2026-03-20/",
+      "description": "Musk found liable for Twitter investor fraud by federal jury"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/elon-musk-determined-to-be-liable-for-misleading-twitter-investors.html",
+      "description": "Detailed coverage of Musk Twitter acquisition investor liability verdict"
     },
     {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html",
-      "description": "NHTSA expands FSD investigation coverage"
-    },
-    {
-      "name": "AP News",
-      "url": "https://apnews.com/article/tesla-selfdriving-musk-regulators-7edce5705e93775e1b8bb77b5dd54007",
-      "description": "Self-driving regulatory probe reporting"
+      "description": "NHTSA FSD investigation expansion coverage"
     },
     {
       "name": "Electrek",
       "url": "https://electrek.co/2026/03/17/tesla-roadster-unveil-next-month-elon-musk-claims/",
-      "description": "Roadster April unveil announcement coverage"
+      "description": "Roadster April unveiling announcement"
     },
     {
       "name": "FinancialContent",
       "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-20-the-tesla-pivot-from-ev-pioneer-to-physical-ai-titan-2026-research-report",
-      "description": "Tesla Physical AI pivot research report"
+      "description": "Tesla Physical AI transformation research report"
     },
     {
-      "name": "Tesla Oracle",
-      "url": "https://www.teslaoracle.com/2026/03/16/tesla-update-2026-8-goes-wide-with-comfort-braking-cybertruck-parked-blind-spot-and-more-official-release-notes/",
-      "description": "Software update 2026.8 release notes"
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/assessing-tesla-tsla-valuation-after-recent-share-price-pull",
+      "description": "TSLA valuation analysis after recent pullback"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/21/should-tesla-be-worried-about-rivian/",
+      "description": "Tesla vs Rivian competition analysis, AI autonomy transition"
     },
     {
       "name": "AltIndex",
       "url": "https://altindex.com/ticker/tsla/technical-analysis",
       "description": "TSLA technical analysis indicators (moving averages, RSI)"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/",
-      "description": "TSLA 2026 outlook and valuation analysis"
-    },
-    {
-      "name": "MacroTrends",
-      "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/pe-ratio",
-      "description": "Historical TSLA P/E ratio data"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Tesla at $368: oversold or value trap?",
-      "text": "Tesla $367.96 (-3.24%)\nRSI 31.9, nearing oversold\n\nApril catalysts queued up:\n- Cybercab production start\n- Roadster unveil\n- Q1 earnings (4/21)\n\n364x P/E is steep but the Physical AI pivot is real\n\n1/3",
+      "hook": "Musk found liable for Twitter fraud. What's next for TSLA?",
+      "text": "$TSLA $367.96 (-3.24%)\n\nA jury found Musk liable for defrauding Twitter investors during the $44B acquisition.\n\nHe'll appeal, but CEO risk just got heavier.\n\nApril catalysts still intact though.\n\n1/4",
       "thread": [
-        "Key metrics:\n- Market cap $1.38T\n- Revenue $94.8B (YoY -2.9%)\n- FCF $6.2B, net cash $29.3B\n- Forward P/E 179x\n- FSD: 8.4B miles of data\n\nBelow both 50-day ($415) and 200-day ($394) SMAs\nFirst resistance at $394 on any bounce\n\n2/3",
-        "Risks:\n- NHTSA expanding FSD probe\n- 364x P/E (S&P 500 avg: 24x)\n- Musk key-person risk\n\nCatalysts:\n- Terafab semiconductor live\n- Samsung AI6 $16.5B deal\n- China sales +35% YoY\n\nVerdict: Hold. Wait for April confirmation\n\n3/3"
+        "April lineup:\n- Cybercab production starts\n- Roadster unveiling\n- Q1 earnings (4/21)\n- Terafab semiconductor now running\n\nPhysical AI transformation is real.\nChina sales +35% YoY.\n\n2/4",
+        "The concerns:\n- P/E 364x (S&P 500 avg 24x)\n- NHTSA expanding FSD probe\n- Down 16% YTD\n- RSI 31.9 nearing oversold\n\nBelow both 50-day ($415) and 200-day ($394)\n\n3/4",
+        "Consensus target $389 (+5.7%)\nWedbush $600 vs GLJ $25\nMost polarizing stock on Wall Street\n\nVerdict: Hold\nWait for April catalysts to confirm\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla at $368: April catalyst breakdown",
-      "text": "Tesla $367.96 (-3.24%), market cap $1.38T\nRSI 31.9 nearing oversold territory\n\nApril is packed: Cybercab production start, Roadster unveil, Q1 earnings on 4/21. Terafab is now live and FSD is shifting to a $99/mo subscription model.\n\nBut 364x trailing P/E is 15x the S&P 500 average. NHTSA is expanding its FSD probe. Hold rating: let the catalysts prove themselves before adding exposure."
+      "hook": "Musk hit with Twitter fraud verdict, but April catalysts loom large",
+      "text": "$TSLA $367.96 (-3.24%)\n\nOn Friday, a federal jury found Musk liable for defrauding Twitter investors during the $44B acquisition. He plans to appeal, but the CEO risk pile just got taller.\n\nThe bull case isn't dead though. April brings Cybercab production, Roadster unveiling, and Q1 earnings (4/21). Terafab semiconductor factory just went live.\n\nBut at P/E 364x with NHTSA expanding its FSD probe and the stock down 16% YTD, the risk-reward is murky. RSI at 31.9 suggests oversold conditions, but no reversal signal yet.\n\nConsensus target $389 (+5.7%). Hold, wait for April confirmation."
     },
     "telegram": {
-      "hook": "TSLA $367.96 (-3.24%) Analysis",
-      "text": "TSLA $367.96 (-3.24%)\nMkt Cap $1.38T | RSI 31.9\n\n[Catalysts] April: Cybercab prod, Roadster unveil, Q1 earnings (4/21)\n[Strengths] Terafab live, FSD 8.4B mi, China +35%\n[Risks] P/E 364x, NHTSA probe, Musk risk\n[Technicals] Below 50/200-day SMA, near oversold\n\nVerdict: Hold - Wait for catalyst confirmation"
+      "hook": "TSLA Analysis: Musk Verdict + April Catalysts",
+      "text": "Tesla Daily Analysis (3/22)\n\nPrice: $367.96 (-3.24%) | Mkt Cap $1.38T\n\nKey Issues\n- Musk found liable for Twitter investor fraud (3/20)\n- Appeal planned but CEO risk deepens\n- NHTSA expanding FSD probe\n\nApril Catalysts\n- Cybercab production launch\n- Roadster unveiling\n- Q1 earnings (4/21)\n- Terafab semiconductor live\n\nTechnicals\n- RSI 31.9 (near oversold)\n- Below 50-day and 200-day SMAs\n\nTarget: $389 (+5.7%)\nVerdict: Hold, wait for catalyst confirmation"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla at $368: oversold or value trap?",
-          "text": "Tesla $367.96 (-3.24%)\nRSI 31.9, nearing oversold\n\nApril catalysts queued up:\n- Cybercab production start\n- Roadster unveil\n- Q1 earnings (4/21)\n\n364x P/E is steep but the Physical AI pivot is real\n\n1/3",
+          "hook": "Musk found liable for Twitter fraud. What's next for TSLA?",
+          "text": "$TSLA $367.96 (-3.24%)\n\nA jury found Musk liable for defrauding Twitter investors during the $44B acquisition.\n\nHe'll appeal, but CEO risk just got heavier.\n\nApril catalysts still intact though.\n\n1/4",
           "thread": [
-            "Key metrics:\n- Market cap $1.38T\n- Revenue $94.8B (YoY -2.9%)\n- FCF $6.2B, net cash $29.3B\n- Forward P/E 179x\n- FSD: 8.4B miles of data\n\nBelow both 50-day ($415) and 200-day ($394) SMAs\nFirst resistance at $394 on any bounce\n\n2/3",
-            "Risks:\n- NHTSA expanding FSD probe\n- 364x P/E (S&P 500 avg: 24x)\n- Musk key-person risk\n\nCatalysts:\n- Terafab semiconductor live\n- Samsung AI6 $16.5B deal\n- China sales +35% YoY\n\nVerdict: Hold. Wait for April confirmation\n\n3/3"
+            "April lineup:\n- Cybercab production starts\n- Roadster unveiling\n- Q1 earnings (4/21)\n- Terafab semiconductor now running\n\nPhysical AI transformation is real.\nChina sales +35% YoY.\n\n2/4",
+            "The concerns:\n- P/E 364x (S&P 500 avg 24x)\n- NHTSA expanding FSD probe\n- Down 16% YTD\n- RSI 31.9 nearing oversold\n\nBelow both 50-day ($415) and 200-day ($394)\n\n3/4",
+            "Consensus target $389 (+5.7%)\nWedbush $600 vs GLJ $25\nMost polarizing stock on Wall Street\n\nVerdict: Hold\nWait for April catalysts to confirm\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla P/E at 364x: buying dreams?",
-          "text": "Tesla retreating to $368\n364x P/E means 364 years to break even?\n\nBut April is busy:\n- Cybercab production starts\n- Roadster unveil (for real this time?)\n- Q1 earnings drop\n\nRSI 31.9... technically oversold, folks\n\n1/3",
+          "hook": "Musk lost in court. TSLA losing on the chart.",
+          "text": "$TSLA $368\n\nMusk just got hit with a fraud verdict\nover his Twitter acquisition games.\n\n\"We'll appeal\" he says.\nMeanwhile the stock is down 16% YTD.\n\nAt P/E 364x, you'd think the CEO\ncould at least stay out of court.\n\n1/3",
           "thread": [
-            "By the numbers:\n- Market cap $1.38T (GDP territory)\n- Net cash $29.3B (rich stays rich)\n- Revenue dipped a bit (-2.9%)\n- FSD: 8.4B miles (560K trips around Earth)\n\nBlew through both 50-day and 200-day SMAs\nWhere's the floor? Your guess is as good as mine\n\n2/3",
-            "Bull case: Terafab is live, China +35%\nBear case: NHTSA side-eyeing FSD hard\n\nMusk: 'Roadster unveil next month!'\nUs: 'Which next month is this again...'\n\nVerdict: Hold\nWatch April play out. No rush\n\n3/3"
+            "April promises though:\n\nCybercab production (for real this time?)\nRoadster unveiling (we've heard this before)\nQ1 earnings (4/21)\n\nThe Physical AI story is compelling.\nThe execution track record less so.\n\n2/3",
+            "RSI 31.9 says oversold.\nMusk's legal record says \"I appeal everything.\"\n\nConsensus $389 (+5.7%)\nHold. Let April do the talking.\n\n3/3"
           ]
         },
         "empathy": {
-          "hook": "Tesla shareholders: tough stretch",
-          "text": "Tesla $367.96 (-3.24%)\nDown 25% from December's $489 high\n\nIf you're a shareholder, this has been rough\nBut April has real catalysts ahead:\n- Cybercab production\n- Roadster unveil\n- Q1 earnings\n\n1/3",
+          "hook": "TSLA holders, it's been a rough stretch",
+          "text": "$TSLA $367.96\n\nFriday brought another headache:\nMusk found liable for Twitter fraud.\n\nDown 16% YTD, and the hits keep coming.\n\nBut April catalysts are still on deck.\nLet's look at both sides.\n\n1/4",
           "thread": [
-            "The fundamentals are intact:\n- Net cash $29.3B\n- FCF $6.2B\n- Terafab semiconductor now live\n- China sales +35%\n\nRSI at 31.9 near oversold\nHistorically, bounces have often started from these levels\n\n2/3",
-            "Concerns are valid:\n- 364x P/E is a heavy burden\n- NHTSA probe is widening\n- Timeline risk is real with Musk\n\nRather than panic selling here\nConsider waiting for April catalysts to play out\nPatience may be rewarded. Hold\n\n3/3"
+            "The good:\nCybercab production, Roadster unveiling\nQ1 earnings (4/21), Terafab online\nNet cash $29.3B, FCF $6.2B\n\nThe growth story isn't broken.\n\n2/4",
+            "The tough:\nP/E 364x is heavy\nNHTSA probe expanding\nMusk risk keeps growing\n\nRSI 31.9 near oversold territory.\nHistorically a bounce zone.\n\n3/4",
+            "No need to rush.\nWait for April catalysts.\nLet the dust settle.\n\nHold for now. Consider adding on dips\nif catalysts confirm.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla at $368: April catalyst breakdown",
-          "text": "Tesla $367.96 (-3.24%), market cap $1.38T\nRSI 31.9 nearing oversold territory\n\nApril is packed: Cybercab production start, Roadster unveil, Q1 earnings on 4/21. Terafab is now live and FSD is shifting to a $99/mo subscription model.\n\nBut 364x trailing P/E is 15x the S&P 500 average. NHTSA is expanding its FSD probe. Hold rating: let the catalysts prove themselves before adding exposure."
+          "hook": "Musk hit with Twitter fraud verdict, but April catalysts loom large",
+          "text": "$TSLA $367.96 (-3.24%)\n\nOn Friday, a federal jury found Musk liable for defrauding Twitter investors during the $44B acquisition. He plans to appeal, but the CEO risk pile just got taller.\n\nThe bull case isn't dead though. April brings Cybercab production, Roadster unveiling, and Q1 earnings (4/21). Terafab semiconductor factory just went live.\n\nBut at P/E 364x with NHTSA expanding its FSD probe and the stock down 16% YTD, the risk-reward is murky. RSI at 31.9 suggests oversold conditions, but no reversal signal yet.\n\nConsensus target $389 (+5.7%). Hold, wait for April confirmation."
         },
         "witty": {
-          "hook": "364x P/E: Tesla's price tag explained",
-          "text": "Tesla at $368. At 364x earnings, you're paying $364 for every $1 in profit. But nobody buys Tesla for this year's earnings.\n\nApril brings Cybercab production, Roadster unveil (this time for real?), and Q1 earnings. RSI is 31.9, technically near oversold. Terafab just went live. China sales up 35%.\n\nBut NHTSA is expanding its FSD probe and Musk's track record with deadlines is... creative. Hold. Watch April unfold. Popcorn optional."
+          "hook": "Musk loses in court, TSLA loses on the chart. But April might change things.",
+          "text": "$TSLA $368. Down 16% this year.\n\nA jury just said Musk defrauded Twitter investors. He'll appeal (of course). Meanwhile his stock keeps sliding.\n\nAt P/E 364x, you're basically buying a very expensive lottery ticket on the future of Physical AI. The twist? April has Cybercab, Roadster, and Q1 earnings all stacked up.\n\nRSI 31.9 means oversold. But 'oversold' and 'bottom' aren't the same thing.\n\nHold. Let Musk prove he can deliver in April before betting more."
         },
         "empathy": {
-          "hook": "To Tesla holders: the toughest part may be almost over",
-          "text": "Down 25% from December highs. If you've been holding through this, it hasn't been easy.\n\nBut the company's balance sheet is rock solid: $29.3B net cash. April is stacked with catalysts: Cybercab production, Roadster unveil, Q1 earnings. Terafab just launched and China sales are surging +35%.\n\nThe 364x P/E is undeniably steep and NHTSA scrutiny is a real concern. But rather than selling at RSI 31.9, near historical bounce territory, waiting for April clarity feels like the right call. Hold."
+          "hook": "To TSLA holders: it's been tough, but here's the full picture",
+          "text": "If you're holding Tesla, this week was painful.\n\n-3.24% to $367.96. Down 16% year-to-date. And on Friday, a jury found Musk liable for defrauding Twitter investors. Another headline you didn't need.\n\nBut step back and look at the bigger picture. Cybercab production starts in April. Roadster unveiling is coming. Terafab semiconductor factory is live. Net cash is $29.3B.\n\nRSI at 31.9 puts us near oversold territory, where bounces have historically occurred.\n\nDon't panic sell. But don't average down blindly either. Wait for April's catalysts to play out, then reassess. Hold for now."
         }
       }
     }
