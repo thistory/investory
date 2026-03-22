@@ -197,6 +197,9 @@ export default async function CalendarPage({
             {/* Stat cards */}
             <StatCards data={data} t={t} />
 
+            {/* Calendar Grid */}
+            <MonthGrid month={currentMonth} events={data.events} locale={locale} />
+
             {/* Timeline */}
             <div className="relative mt-10 sm:mt-12">
               {/* Vertical line */}
@@ -513,6 +516,166 @@ function EventCard({
             )}
           </div>
         )}
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Month Grid ---------- */
+
+function MonthGrid({
+  month,
+  events,
+  locale,
+}: {
+  month: string;
+  events: EconEvent[];
+  locale: string;
+}) {
+  const [year, m] = month.split("-").map(Number);
+  const firstDay = new Date(year, m - 1, 1).getDay(); // 0=Sun
+  const daysInMonth = new Date(year, m, 0).getDate();
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const todayDate = today.getFullYear() === year && today.getMonth() === m - 1 ? today.getDate() : -1;
+
+  // Map date -> events
+  const eventsByDay: Record<number, EconEvent[]> = {};
+  for (const ev of events) {
+    const d = new Date(ev.date + "T00:00:00");
+    if (d.getFullYear() === year && d.getMonth() === m - 1) {
+      const day = d.getDate();
+      if (!eventsByDay[day]) eventsByDay[day] = [];
+      eventsByDay[day].push(ev);
+    }
+    // Multi-day events (e.g. FOMC)
+    if (ev.dateEnd) {
+      const dEnd = new Date(ev.dateEnd + "T00:00:00");
+      if (dEnd.getFullYear() === year && dEnd.getMonth() === m - 1 && dEnd.getDate() !== d.getDate()) {
+        const dayEnd = dEnd.getDate();
+        if (!eventsByDay[dayEnd]) eventsByDay[dayEnd] = [];
+        if (!eventsByDay[dayEnd].find((e) => e.id === ev.id)) {
+          eventsByDay[dayEnd].push(ev);
+        }
+      }
+    }
+  }
+
+  const weekdays = locale === "ko"
+    ? ["일", "월", "화", "수", "목", "금", "토"]
+    : ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  const cells: (number | null)[] = [];
+  for (let i = 0; i < firstDay; i++) cells.push(null);
+  for (let d = 1; d <= daysInMonth; d++) cells.push(d);
+  // Pad to complete last row
+  while (cells.length % 7 !== 0) cells.push(null);
+
+  return (
+    <div className="mt-8 sm:mt-10 rounded-2xl border border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-4 sm:p-6 overflow-x-auto">
+      {/* Weekday headers */}
+      <div className="grid grid-cols-7 gap-px mb-2">
+        {weekdays.map((wd) => (
+          <div
+            key={wd}
+            className="text-center text-xs font-semibold text-gray-400 dark:text-zinc-500 py-1"
+          >
+            {wd}
+          </div>
+        ))}
+      </div>
+
+      {/* Day cells */}
+      <div className="grid grid-cols-7 gap-px">
+        {cells.map((day, i) => {
+          const dayEvents = day ? eventsByDay[day] ?? [] : [];
+          const isToday = day === todayDate;
+
+          return (
+            <div
+              key={i}
+              className={`relative min-h-[52px] sm:min-h-[68px] p-1 sm:p-1.5 rounded-lg transition-colors ${
+                day
+                  ? "hover:bg-gray-50 dark:hover:bg-zinc-800/50"
+                  : ""
+              } ${
+                isToday
+                  ? "bg-blue-500/5 dark:bg-blue-500/10 ring-1 ring-blue-500/30"
+                  : ""
+              }`}
+            >
+              {day && (
+                <>
+                  <span
+                    className={`text-xs sm:text-sm font-medium ${
+                      isToday
+                        ? "text-blue-600 dark:text-blue-400 font-bold"
+                        : dayEvents.length > 0
+                          ? "text-gray-900 dark:text-white font-semibold"
+                          : "text-gray-400 dark:text-zinc-600"
+                    }`}
+                  >
+                    {day}
+                  </span>
+                  {/* Event dots */}
+                  {dayEvents.length > 0 && (
+                    <div className="flex flex-wrap gap-0.5 mt-0.5">
+                      {dayEvents.map((ev) => (
+                        <div
+                          key={ev.id}
+                          className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full ${CATEGORY_COLORS[ev.category].dot} ${
+                            ev.status === "upcoming" ? "opacity-50" : ""
+                          }`}
+                          title={ev.name}
+                        />
+                      ))}
+                    </div>
+                  )}
+                  {/* Event labels (desktop only) */}
+                  {dayEvents.length > 0 && (
+                    <div className="hidden sm:flex flex-col gap-0.5 mt-0.5">
+                      {dayEvents.slice(0, 2).map((ev) => (
+                        <span
+                          key={ev.id}
+                          className={`text-[9px] leading-tight truncate ${CATEGORY_COLORS[ev.category].text} ${
+                            ev.status === "upcoming" ? "opacity-60" : ""
+                          }`}
+                        >
+                          {ev.name.length > 12 ? ev.name.slice(0, 10) + "…" : ev.name}
+                        </span>
+                      ))}
+                      {dayEvents.length > 2 && (
+                        <span className="text-[9px] text-gray-400 dark:text-zinc-500">
+                          +{dayEvents.length - 2}
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Legend */}
+      <div className="flex flex-wrap gap-3 mt-4 pt-3 border-t border-gray-100 dark:border-zinc-800">
+        {(["employment", "inflation", "fed", "gdp", "other"] as const).map((cat) => {
+          const hasEvents = events.some((e) => e.category === cat);
+          if (!hasEvents) return null;
+          return (
+            <div key={cat} className="flex items-center gap-1.5">
+              <div className={`w-2 h-2 rounded-full ${CATEGORY_COLORS[cat].dot}`} />
+              <span className={`text-[10px] sm:text-xs ${CATEGORY_COLORS[cat].text}`}>
+                {cat === "employment" ? (locale === "ko" ? "고용" : "Employment")
+                  : cat === "inflation" ? (locale === "ko" ? "물가" : "Inflation")
+                  : cat === "fed" ? (locale === "ko" ? "연준" : "Fed")
+                  : cat === "gdp" ? "GDP"
+                  : locale === "ko" ? "기타" : "Other"}
+              </span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
