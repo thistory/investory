@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { href: "/analysis", labelKey: "analysis" as const },
   { href: "/stocks", labelKey: "stocks" as const },
   { href: "/compare?symbols=TSLA,NVDA", labelKey: "compare" as const, matchPath: "/compare" },
+  { href: "/calendar", labelKey: "calendar" as const },
 ];
 
 function isActive(href: string, pathname: string, matchPath?: string): boolean {
