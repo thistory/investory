@@ -1,0 +1,110 @@
+{
+  "month": "2026-03",
+  "updatedAt": "2026-03-22T12:00:00.000Z",
+  "rateOutlook": {
+    "holdProbability": 94,
+    "cutProbability": 6,
+    "source": "CME FedWatch (as of 2026-03-22)"
+  },
+  "events": [
+    {
+      "id": "2026-03-ism-mfg",
+      "name": "ISM Manufacturing PMI",
+      "category": "other",
+      "date": "2026-03-02",
+      "status": "published",
+      "previous": "52.6",
+      "expected": "51.8",
+      "actual": "52.4",
+      "surprise": "above",
+      "marketReaction": "Markets reacted slightly positive to stronger-than-expected manufacturing expansion. However, the prices subindex surging to 70.5 raised inflation concerns.",
+      "analysis": "Manufacturing maintained expansion for a second straight month, which is encouraging. But the sharp jump in the prices subindex (59→70.5) reflects tariff and commodity cost pressures. For investors, this signals potential inflation re-acceleration, which could dampen rate cut expectations."
+    },
+    {
+      "id": "2026-03-nfp",
+      "name": "Non-Farm Payrolls (NFP)",
+      "category": "employment",
+      "date": "2026-03-06",
+      "status": "published",
+      "previous": "+130K (revised: +126K)",
+      "expected": "+59K",
+      "actual": "-92K",
+      "surprise": "below",
+      "marketReaction": "S&P 500 -1.33%, Nasdaq -1.59%, Dow -453pts. Unexpected job losses sparked recession fears. Selling accelerated alongside surging oil prices (WTI above $90).",
+      "analysis": "February payrolls fell -92K, dramatically missing the +59K estimate. Healthcare strikes (-28K) and federal government cuts (-10K) were partly to blame, but December was also revised to -17K. The 'low hire, low fire' labor market is showing cracks. This shifts the risk narrative from soft landing to slowdown. Consider increasing defensive and bond allocations."
+    },
+    {
+      "id": "2026-03-cpi",
+      "name": "Consumer Price Index (CPI)",
+      "category": "inflation",
+      "date": "2026-03-11",
+      "status": "published",
+      "previous": "2.5% YoY",
+      "expected": "2.4% YoY",
+      "actual": "2.4% YoY (MoM +0.3%)",
+      "surprise": "inline",
+      "marketReaction": "Markets relieved by in-line reading. S&P 500 ticked higher. 10Y Treasury yield dipped slightly.",
+      "analysis": "Headline CPI at 2.4% and core CPI at 2.5% both matched estimates. Shelter (+0.2%) remained the largest contributor, and energy rose 0.6%. Overall, inflation continues its gradual cooling trend. This data supports the case for eventual rate cuts and is mildly positive for growth stocks."
+    },
+    {
+      "id": "2026-03-fomc",
+      "name": "FOMC Meeting",
+      "category": "fed",
+      "date": "2026-03-17",
+      "dateEnd": "2026-03-18",
+      "status": "published",
+      "previous": "Hold (3.50-3.75%)",
+      "expected": "Hold",
+      "actual": "Hold (3.50-3.75%, 11-1 vote)",
+      "surprise": "inline",
+      "watchPoints": [
+        "Dot plot changes from December projection",
+        "Powell press conference tone on inflation",
+        "Middle East conflict acknowledgment"
+      ],
+      "marketReaction": "S&P 500 -1.36%, Nasdaq -1.46%. Powell's hawkish remarks drove selloff. 10Y yield +5bp. Market repriced year-end rate cut expectations lower.",
+      "analysis": "The hold was expected, but Powell's comment that 'inflation isn't coming down as much as hoped' struck a hawkish tone. The dot plot median held at one cut in 2026, but individual projections shifted toward fewer cuts. Markets began pricing in zero further cuts this year. Rate-sensitive assets (growth stocks, REITs) face near-term headwinds. A watch-and-wait approach with adequate cash reserves is prudent."
+    },
+    {
+      "id": "2026-03-ppi",
+      "name": "Producer Price Index (PPI)",
+      "category": "inflation",
+      "date": "2026-03-18",
+      "status": "published",
+      "previous": "+0.4% MoM, 3.0% YoY",
+      "expected": "+0.3% MoM",
+      "actual": "+0.7% MoM, 3.4% YoY",
+      "surprise": "above",
+      "marketReaction": "Released same day as FOMC, market impact was mixed. PPI strength reinforced inflation concerns alongside hawkish Fed messaging.",
+      "analysis": "PPI surged +0.7% MoM vs +0.3% expected. Both services (+0.5%) and goods (+1.1%) rose. The 3.4% YoY reading is the highest since February 2025. Rising energy costs and tariffs are flowing through to producer prices, creating potential pass-through to consumer prices ahead. Watch for inflation re-acceleration risk."
+    },
+    {
+      "id": "2026-03-retail-sales",
+      "name": "Retail Sales",
+      "category": "other",
+      "date": "2026-04-01",
+      "status": "upcoming",
+      "previous": "-0.2% MoM (January)",
+      "expected": "+0.3% MoM",
+      "watchPoints": [
+        "February data release postponed to April 1",
+        "Consumer spending recovery signal",
+        "Impact of surging energy prices on discretionary spending"
+      ]
+    },
+    {
+      "id": "2026-03-pce",
+      "name": "Personal Consumption Expenditures (PCE)",
+      "category": "inflation",
+      "date": "2026-03-28",
+      "status": "upcoming",
+      "previous": "2.5% YoY (core)",
+      "expected": "2.6% YoY (core)",
+      "watchPoints": [
+        "The Fed's preferred inflation gauge",
+        "Core PCE direction is key for rate path",
+        "How much of the PPI surge flows through to PCE"
+      ]
+    }
+  ]
+}
