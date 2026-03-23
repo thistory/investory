@@ -2,7 +2,7 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-23",
-  "currentPrice": 172.7,
+  "currentPrice": 172.76,
   "marketCap": "$4.20T",
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
@@ -123,9 +123,21 @@
   "recentNews": [
     {
       "date": "2026-03-22",
+      "headline": "NVDA 내부자 매도로 -3.2% 하락, 이사 3,004주 처분",
+      "significance": "이사 John Dabiri가 3월 13일 3,004주를 주당 $184.90에 매도. 내부자 매도가 투자 심리에 부담. 기관 투자자도 차익실현 나서는 중",
+      "url": "https://www.dailypolitical.com/2026/03/22/nvidia-nasdaqnvda-shares-down-3-2-following-insider-selling.html"
+    },
+    {
+      "date": "2026-03-22",
       "headline": "Motley Fool, Forward P/E 21배에서 '가치주인가' 분석",
       "significance": "성장률 대비 Forward P/E 21배는 역사적으로 저렴한 수준이라는 분석. 1조 달러 주문 가이던스에도 투자자들이 매수하지 않는 이유 분석",
       "url": "https://www.fool.com/investing/2026/03/22/is-nvidia-a-value-stock-now/"
+    },
+    {
+      "date": "2026-03-23",
+      "headline": "'Anti-NVIDIA' 동맹 부상, 경쟁사들의 반격 시작",
+      "significance": "AMD, Google, Amazon 등이 NVIDIA 독점에 대항하는 움직임이 가시화. 그러나 동시에 애널리스트들의 매수 의견도 재확인돼 상반된 흐름",
+      "url": "https://meyka.com/blog/nvda-stock-today-march-23-rival-anti-nvidia-push-meets-fresh-buy-calls-2203/"
     },
     {
       "date": "2026-03-20",
@@ -135,38 +147,31 @@
     },
     {
       "date": "2026-03-18",
-      "headline": "Rosenblatt, NVDA 목표가 $300에서 $325로 상향",
-      "significance": "월가 최고 목표가 갱신. GTC 발표 내용 반영",
-      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
-    },
-    {
-      "date": "2026-03-18",
-      "headline": "GTC 2026: Vera Rubin과 Vera CPU 플랫폼 공식 발표",
-      "significance": "차세대 AI 아키텍처 공개. 와트당 10배 성능 향상 약속",
+      "headline": "GTC 2026: Vera Rubin과 Vera CPU 플랫폼 공식 발표, 1조 달러 주문 전망",
+      "significance": "차세대 AI 아키텍처 공개. 와트당 10배 성능 향상 약속. 기존 $5,000억 전망을 1조 달러로 상향",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/"
-    },
-    {
-      "date": "2026-03-17",
-      "headline": "젠슨 황, Blackwell과 Vera Rubin 2027년까지 1조 달러 주문 전망",
-      "significance": "기존 $5,000억 전망을 2배로 상향. AI 칩 시장의 폭발적 성장 확인",
-      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
     }
   ],
   "analystOpinions": {
     "consensusTarget": 275.4,
     "highTarget": 360,
     "lowTarget": 100,
-    "upsidePercent": 59.5,
+    "upsidePercent": 59.4,
     "buyCount": 36,
     "holdCount": 1,
     "sellCount": 1,
-    "notableComment": "Rosenblatt Kevin Cassidy: GTC 이후 목표가 $325로 상향. Vera Rubin과 1조 달러 파이프라인이 핵심 근거. Motley Fool은 Forward P/E 21배에서 NVDA가 '가치주'일 수 있다고 분석"
+    "notableComment": "Rosenblatt Kevin Cassidy: GTC 이후 목표가 $325로 상향. Motley Fool은 Forward P/E 21배에서 NVDA가 '가치주'일 수 있다고 분석. 2026년 YTD -6.65% 하락에도 38명 중 36명이 매수 의견 유지"
   },
   "risks": [
     {
       "severity": "high",
-      "title": "GTC 랠리 피로감, 4일 연속 하락",
-      "description": "GTC 2026에서 역대급 발표에도 불구하고 주가는 4일 연속 하락하며 3월 20일 -3.28% 급락. 기대가 이미 가격에 반영되었을 가능성"
+      "title": "GTC 랠리 피로감과 내부자 매도",
+      "description": "GTC 이후 5일 연속 하락. 이사 John Dabiri가 주당 $184.90에 3,004주 매도하며 투자 심리에 부담. 기관 차익실현도 진행 중"
+    },
+    {
+      "severity": "high",
+      "title": "'Anti-NVIDIA' 동맹 부상",
+      "description": "AMD, Google TPU, Amazon Trainium 등 경쟁사들이 NVIDIA 독점에 조직적으로 대항하는 움직임. 장기적으로 시장 점유율 잠식 가능성"
     },
     {
       "severity": "high",
@@ -177,11 +182,6 @@
       "severity": "medium",
       "title": "밸류에이션 부담",
       "description": "P/E 35x는 섹터 평균 25x 대비 높은 편. 성장 둔화 시 멀티플 압축 가능. 다만 Forward P/E 21x는 성장률 대비 합리적"
-    },
-    {
-      "severity": "medium",
-      "title": "커스텀 ASIC 경쟁 심화",
-      "description": "Google TPU, Amazon Trainium, Broadcom 커스텀 칩 등 대형 클라우드 업체들의 자체 칩 개발이 NVIDIA 범용 GPU 수요를 일부 대체할 수 있음"
     },
     {
       "severity": "medium",
@@ -205,7 +205,7 @@
     },
     {
       "title": "GTC 이후 단기 조정은 매수 기회",
-      "rationale": "4일 연속 하락으로 RSI 35 근처. 200일선($166) 위에서 기술적 지지. 애널리스트 60% 상승 여력"
+      "rationale": "5일 연속 하락으로 RSI 35 근처. 200일선($166) 위에서 기술적 지지. 애널리스트 60% 상승 여력"
     },
     {
       "title": "Vera Rubin 차세대 사이클",
@@ -228,46 +228,26 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "GTC 2026에서 1조 달러 주문 파이프라인과 Vera Rubin 차세대 칩을 공개했다. AI 칩 시장에서의 독점적 지위를 다시 확인했고, 에이전틱 AI라는 새로운 성장축도 제시했다",
-    "Forward P/E 21배는 71% 매출 성장률 대비 합리적이다. Motley Fool도 '가치주일 수 있다'고 분석할 정도로 성장 대비 밸류에이션이 매력적인 구간이다",
-    "다만 GTC 이후 4일 연속 하락(-7.4%)으로 '소문에 사고 뉴스에 팔아라' 패턴이 나타나고 있다. 미중 수출규제 불확실성도 여전하다",
-    "RSI 35로 과매도 근접, 200일선($166) 위에서 지지 중. 52주 고점 대비 -18.6% 조정으로 중기 매수 기회로 판단"
+    "GTC 2026에서 1조 달러 주문과 Vera Rubin 칩을 발표했지만, 내부자 매도와 차익실현으로 5일 연속 하락하며 2026년 YTD -6.65%를 기록 중이다",
+    "Forward P/E 21배는 71% 매출 성장률 대비 합리적이다. 38명 중 36명이 매수 의견을 유지하고 있고 Motley Fool도 '가치주 영역'이라 분석했다",
+    "'Anti-NVIDIA' 동맹이 부상하고 있지만, CUDA 생태계의 전환 비용이 워낙 높아 단기 영향은 제한적이다. 미중 수출규제 불확실성이 더 현실적인 리스크다",
+    "RSI 35로 과매도 근접, 200일선($166) 위에서 지지 중. GTC 직후 조정은 2024년에도 있었고 결국 올라갔다. 중기 분할 매수 기회로 판단"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "GTC 2026에서 확인된 1조 달러 주문 파이프라인과 Vera Rubin 차세대 사이클은 장기 성장을 뒷받침한다. Forward P/E 21배까지 내려와 성장률 대비 매력적인 구간. GTC 이후 단기 조정은 분할 매수 기회.",
+    "summary": "GTC 이후 내부자 매도와 차익실현으로 5일 연속 하락했지만, 1조 달러 파이프라인과 Forward P/E 21배는 성장 대비 매력적이다. Anti-NVIDIA 동맹은 단기 위협이 아니다. GTC 직후 조정 패턴은 반복돼 왔고, RSI 35 근처에서 분할 매수 기회.",
     "horizon": "6~12개월"
   },
   "sources": [
     {
-      "name": "MacroTrends",
-      "url": "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history",
-      "description": "NVDA 주가 히스토리, 52주 고저, 3/20 종가 $172.70"
+      "name": "Daily Political",
+      "url": "https://www.dailypolitical.com/2026/03/22/nvidia-nasdaqnvda-shares-down-3-2-following-insider-selling.html",
+      "description": "NVDA -3.2% 하락, 이사 내부자 매도 보도"
     },
     {
-      "name": "Stock Analysis",
-      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
-      "description": "애널리스트 38명 컨센서스, 목표가 $275.40"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "NVDA 컨센서스 목표가, 애널리스트 전망"
-    },
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
-      "description": "GTC 2026 키노트: 1조 달러 주문 전망"
-    },
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/nvidia-gtc-2026-agentic-ai-chips-tech-download.html",
-      "description": "GTC 2026 에이전틱 AI 발표"
-    },
-    {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/",
-      "description": "중국 H200 변형칩 제조 재개"
+      "name": "Meyka",
+      "url": "https://meyka.com/blog/nvda-stock-today-march-23-rival-anti-nvidia-push-meets-fresh-buy-calls-2203/",
+      "description": "Anti-NVIDIA 동맹 부상과 매수 의견 재확인"
     },
     {
       "name": "Motley Fool",
@@ -275,81 +255,101 @@
       "description": "Forward P/E 21배에서 NVDA가 가치주일 수 있다는 분석"
     },
     {
-      "name": "GuruFocus",
-      "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA",
-      "description": "Forward P/E 20.95, 반도체 섹터 내 순위"
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/20/nvidia-gtc-2026-agentic-ai-chips-tech-download.html",
+      "description": "GTC 2026 에이전틱 AI 발표"
     },
     {
-      "name": "AltIndex",
-      "url": "https://altindex.com/ticker/nvda/technical-analysis",
-      "description": "RSI 35.2, 기술적 지표 분석"
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+      "description": "GTC 2026 키노트: 1조 달러 주문 전망"
+    },
+    {
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-selling-nvidia-nasdaqnvda-director-sells-3004-shares-of-stock-2026-03-17/",
+      "description": "이사 John Dabiri 3,004주 매도 상세"
+    },
+    {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "description": "애널리스트 38명 컨센서스, 목표가 $275.40"
+    },
+    {
+      "name": "Barchart",
+      "url": "https://www.barchart.com/story/news/886832/is-an-openclaw-partnership-the-next-big-thing-for-nvidia-stock-how-to-position-now",
+      "description": "NVDA 2026년 YTD -6.65% 하락 분석"
     },
     {
       "name": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
       "description": "GTC 2026 공식 뉴스 업데이트"
+    },
+    {
+      "name": "GuruFocus",
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA",
+      "description": "Forward P/E 20.95, 반도체 섹터 내 순위"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "1조 달러 주문에도 하락, Forward P/E 21배",
-      "text": "$NVDA (3/23) GTC에서 1조 달러 주문 파이프라인을 발표했다. Forward P/E 21배. 그런데 4일 연속 하락, $172.70. '소문에 사고 뉴스에 팔아라'가 현실.\n\n1/4",
+      "hook": "1조 달러 주문인데 내부자는 매도, YTD -6.65%",
+      "text": "$NVDA (3/23) GTC에서 1조 달러 파이프라인 발표했는데, 이사는 3,004주 팔고 주가는 5일째 하락. $172.76, YTD -6.65%. Forward P/E 21배.\n\n1/4",
       "thread": [
-        "FY27 매출 $3,698억(+71%). 성장률 대비 Forward P/E 21배는 Motley Fool도 '가치주 영역'이라 분석할 정도. Rosenblatt은 $325로 목표가를 올렸다.\n\n2/4",
-        "GTC 직후 차익실현이 항상 있다. 2024년에도 같은 패턴이었고 결국 올라갔다. 미중 수출규제는 여전히 변수.\n\n3/4",
-        "RSI 35 과매도 근접, 200일선($166) 위 지지. 목표가 $275(+59.5%). 조정 구간에서 분할 매수 기회.\n\n4/4"
+        "FY27 매출 $3,698억(+71%). 38명 중 36명 매수 의견. Motley Fool도 '가치주 영역'. Rosenblatt $325 목표가.\n\n2/4",
+        "'Anti-NVIDIA' 동맹이 부상 중이지만 CUDA 전환 비용이 너무 높다. 미중 수출규제가 더 현실적인 변수다.\n\n3/4",
+        "RSI 35, 과매도 근접. 200일선($166) 위 지지. 목표가 $275(+59%). GTC 후 조정은 매번 있었고 결국 올라갔다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "1조 달러 주문에도 하락, Forward P/E 21배",
-      "text": "$NVDA (3/23) $172.70(-3.28%)\n\nGTC에서 1조 달러 주문 파이프라인과 Vera Rubin 칩을 공개했다. Forward P/E 21배로 성장률 대비 합리적. Motley Fool도 '가치주 영역'이라 분석.\n\n4일 연속 하락으로 '소문에 사고 뉴스에 팔아라' 패턴. 2024년 GTC 때도 같았다. RSI 35 과매도 근접.\n\n200일선($166) 위 지지. 목표가 $275(+59.5%). 중기 분할 매수 기회."
+      "hook": "1조 달러 주문인데 내부자는 매도, YTD -6.65%",
+      "text": "$NVDA (3/23) $172.76, YTD -6.65%\n\nGTC에서 1조 달러 파이프라인과 Vera Rubin을 공개했지만, 내부자 매도와 차익실현으로 5일째 하락 중이다. 'Anti-NVIDIA' 동맹도 부상.\n\nForward P/E 21배는 71% 성장률 대비 합리적. 38명 중 36명 매수 의견 유지. 2024년에도 GTC 후 빠지고 결국 올라갔다.\n\nRSI 35, 200일선($166) 위 지지. 목표가 $275(+59%). 중기 분할 매수 기회."
     },
     "telegram": {
-      "hook": "1조 달러 주문에도 하락, Forward P/E 21배",
-      "text": "NVIDIA 일일 분석 (3/23)\n\n가격: $172.70 (-3.28%)\n\n핵심 이슈\n- GTC 2026: 1조 달러 주문 파이프라인 발표\n- Vera Rubin 차세대 플랫폼 공개\n- 에이전틱 AI가 새 CPU 수요 창출\n- 중국 H200 변형칩 제조 재개\n\n밸류에이션\n- Forward P/E 21x (성장률 71% 대비 합리적)\n- FY27 매출 $3,698억 전망\n- 38명 중 36명 Strong Buy\n\n주가 위치\n- RSI 35, 과매도 근접\n- 200일선($166) 위 지지\n- 52주 고점 대비 -18.6%\n\n목표가: $275 (+59.5%) | 판정: Buy"
+      "hook": "1조 달러 주문인데 내부자 매도, YTD -6.65%",
+      "text": "NVIDIA 일일 분석 (3/23)\n\n가격: $172.76 (YTD -6.65%)\n\n핵심 이슈\n- GTC 이후 5일 연속 하락\n- 이사 John Dabiri 3,004주 내부자 매도\n- 'Anti-NVIDIA' 동맹 부상\n- 그럼에도 38명 중 36명 매수 의견 유지\n\n밸류에이션\n- Forward P/E 21x (성장률 71% 대비 합리적)\n- FY27 매출 $3,698억 전망\n- Rosenblatt $325, Raymond James $323\n\n주가 위치\n- RSI 35, 과매도 근접\n- 200일선($166) 위 지지\n\n목표가: $275 (+59%) | 판정: Buy"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "1조 달러 주문에도 하락, Forward P/E 21배",
-          "text": "$NVDA (3/23) GTC에서 1조 달러 주문 파이프라인을 발표했다. Forward P/E 21배. 그런데 4일 연속 하락, $172.70. '소문에 사고 뉴스에 팔아라'가 현실.\n\n1/4",
+          "hook": "1조 달러 주문인데 내부자는 매도, YTD -6.65%",
+          "text": "$NVDA (3/23) GTC에서 1조 달러 파이프라인 발표했는데, 이사는 3,004주 팔고 주가는 5일째 하락. $172.76, YTD -6.65%. Forward P/E 21배.\n\n1/4",
           "thread": [
-            "FY27 매출 $3,698억(+71%). 성장률 대비 Forward P/E 21배는 Motley Fool도 '가치주 영역'이라 분석할 정도. Rosenblatt은 $325로 목표가를 올렸다.\n\n2/4",
-            "GTC 직후 차익실현이 항상 있다. 2024년에도 같은 패턴이었고 결국 올라갔다. 미중 수출규제는 여전히 변수.\n\n3/4",
-            "RSI 35 과매도 근접, 200일선($166) 위 지지. 목표가 $275(+59.5%). 조정 구간에서 분할 매수 기회.\n\n4/4"
+            "FY27 매출 $3,698억(+71%). 38명 중 36명 매수 의견. Motley Fool도 '가치주 영역'. Rosenblatt $325 목표가.\n\n2/4",
+            "'Anti-NVIDIA' 동맹이 부상 중이지만 CUDA 전환 비용이 너무 높다. 미중 수출규제가 더 현실적인 변수다.\n\n3/4",
+            "RSI 35, 과매도 근접. 200일선($166) 위 지지. 목표가 $275(+59%). GTC 후 조정은 매번 있었고 결국 올라갔다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "1조 달러어치 팔렸는데 주가는 세일 중",
-          "text": "$NVDA (3/23) 젠슨 황이 '1조 달러 주문'을 외쳤다. 월가는 목표가를 올렸다. 주가는? $172.70, 4일째 역주행. 교과서적인 '뉴스에 팔아라'.\n\n1/4",
+          "hook": "이사는 팔고 애널리스트는 사라고 한다",
+          "text": "$NVDA (3/23) 이사는 $184.90에 팔았다. 지금 $172.76. 내부자가 맞을까 애널리스트 36명이 맞을까. YTD -6.65%.\n\n1/4",
           "thread": [
-            "FY27 매출 $3,698억(+71%). Forward P/E 21배. 이 숫자에 할인까지 하면 AI 시대의 블랙프라이데이 아닌가.\n\n2/4",
-            "GTC 끝나면 항상 빠진다. 2024년에도 그랬고 결국 올라갔다. 미중 규제? 그건 매번 있는 소음.\n\n3/4",
-            "RSI 35, 과매도 코앞. 목표가 $275(+59.5%). AI 시대에 이 가격은 선물이다. 선물을 거절하는 건 본인 자유.\n\n4/4"
+            "1조 달러 주문, +71% 성장, Forward P/E 21배. 이 숫자로 빠지는 주식은 AI 시대의 미스터리다.\n\n2/4",
+            "'Anti-NVIDIA' 동맹이라니. 독점이 싫으면 CUDA를 버려야 하는데, 500만 개발자가 그럴 리가.\n\n3/4",
+            "RSI 35, 과매도 코앞. 목표가 $275(+59%). GTC 후 조정은 AI 시대의 정기 세일이다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "GTC 기대했는데 주가만 실망스럽다",
-          "text": "$NVDA (3/23) GTC에서 역대급 발표가 나왔는데 $172.70, 4일째 하락. 기대하고 있었다면 속상할 수 있다.\n\n1/4",
+          "hook": "GTC 기대했는데 5일째 하락, 내부자까지 매도",
+          "text": "$NVDA (3/23) 역대급 GTC였는데 $172.76, 5일째 하락. 내부자까지 매도하니 불안할 수 있다.\n\n1/4",
           "thread": [
-            "1조 달러 주문, Vera Rubin, +71% 성장. 숫자는 완벽한데 시장이 안 움직인다. 답답한 게 당연하다.\n\n2/4",
-            "GTC 직후 하락은 매번 있는 패턴이다. 2024년에도 같았고 결국 올라갔다. 이번에도 시간이 필요할 뿐.\n\n3/4",
-            "RSI 35, 과매도 근접. 목표가 $275(+59.5%). AI 성장 스토리는 아직 초반이다. 시간이 좀 걸리겠지만 방향은 분명하다.\n\n4/4"
+            "1조 달러 파이프라인, +71% 성장. 숫자는 완벽한데 시장이 안 움직인다. 답답한 게 당연하다.\n\n2/4",
+            "GTC 직후 하락은 2024년에도 같았다. 내부자 매도 3,004주($56만)는 회사 규모 대비 미미하다.\n\n3/4",
+            "RSI 35, 과매도 근접. 목표가 $275(+59%). 시간이 좀 걸리겠지만 AI 성장은 아직 초반이다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "1조 달러 주문에도 하락, Forward P/E 21배",
-          "text": "$NVDA (3/23) $172.70(-3.28%)\n\nGTC에서 1조 달러 주문 파이프라인과 Vera Rubin 칩을 공개했다. Forward P/E 21배로 성장률 대비 합리적. Motley Fool도 '가치주 영역'이라 분석.\n\n4일 연속 하락으로 '소문에 사고 뉴스에 팔아라' 패턴. 2024년 GTC 때도 같았다. RSI 35 과매도 근접.\n\n200일선($166) 위 지지. 목표가 $275(+59.5%). 중기 분할 매수 기회."
+          "hook": "1조 달러 주문인데 내부자는 매도, YTD -6.65%",
+          "text": "$NVDA (3/23) $172.76, YTD -6.65%\n\nGTC에서 1조 달러 파이프라인과 Vera Rubin을 공개했지만, 내부자 매도와 차익실현으로 5일째 하락 중이다. 'Anti-NVIDIA' 동맹도 부상.\n\nForward P/E 21배는 71% 성장률 대비 합리적. 38명 중 36명 매수 의견 유지. 2024년에도 GTC 후 빠지고 결국 올라갔다.\n\nRSI 35, 200일선($166) 위 지지. 목표가 $275(+59%). 중기 분할 매수 기회."
         },
         "witty": {
-          "hook": "1조 달러어치 팔렸는데 주가는 세일 중",
-          "text": "$NVDA (3/23) $172.70(-3.28%)\n\n1조 달러 주문 가이던스에 월가는 환호했는데 주가는 4일째 역주행. AI 시대의 블랙프라이데이.\n\nForward P/E 21배에 성장률 71%. GTC 직후 매번 빠지고 결국 올라갔다. 이번에도 같은 영화의 반복.\n\n목표가 $275(+59.5%). 선물을 거절할지 받을지는 본인 선택."
+          "hook": "이사는 팔고 애널리스트는 사라고 한다",
+          "text": "$NVDA (3/23) $172.76, YTD -6.65%\n\n이사는 $184.90에 팔고, 36명의 애널리스트는 사라고 한다. 1조 달러 주문에 +71% 성장인데 빠지는 AI 시대의 미스터리.\n\n'Anti-NVIDIA' 동맹? CUDA 500만 개발자를 버릴 수 있을 리가. GTC 후 세일은 연례행사.\n\n목표가 $275(+59%). 세일 기간에 고민하는 건 사치다."
         },
         "empathy": {
-          "hook": "GTC 기대했는데 주가만 실망스럽다",
-          "text": "$NVDA (3/23) $172.70(-3.28%)\n\n역대급 발표 나왔는데 4일째 하락. 기대한 만큼 실망도 크다.\n\n1조 달러 주문, Vera Rubin, +71% 성장. 펀더멘털은 흠잡을 데 없다. GTC 직후 조정은 매번 있는 일이다. 2024년에도 결국 올라갔다.\n\n목표가 $275(+59.5%). AI 성장은 아직 초반. 시간이 걸리겠지만 방향은 분명하다."
+          "hook": "GTC 기대했는데 5일째 하락, 내부자까지 매도",
+          "text": "$NVDA (3/23) $172.76, 5일 연속 하락\n\n역대급 GTC 발표 후에 빠지니 허탈할 수 있다. 내부자 매도까지 겹치면 더 불안하다.\n\n1조 달러 파이프라인, +71% 성장. 펀더멘털은 흠잡을 데 없다. GTC 후 조정은 매번 있던 일이다.\n\n목표가 $275(+59%). AI 성장은 아직 초반. 시간이 걸리겠지만 방향은 분명하다."
         }
       }
     }

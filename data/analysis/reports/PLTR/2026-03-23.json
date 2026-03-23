@@ -127,6 +127,18 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-23",
+      "headline": "Motley Fool, '밸류에이션 터무니없지만 투자자들이 계속 사는 이유' 분석",
+      "significance": "P/E 239배가 비싸 보이지만, 65% 성장률과 방산 AI 독점적 지위를 감안하면 일부 투자자들은 '저렴하다'고 판단한다는 분석",
+      "url": "https://www.fool.com/investing/2026/03/23/palantirs-stock-valuation-still-looks-absurd-heres/"
+    },
+    {
+      "date": "2026-03-23",
+      "headline": "월가 일부 '55% 하락 가능' 경고, $70 목표가 유지하는 애널리스트도",
+      "significance": "Underperform 등급의 한 애널리스트가 목표가 $70을 유지하며 현재가 대비 55% 하락 가능성을 경고. 밸류에이션 양극화 극심",
+      "url": "https://www.fool.com/investing/2026/03/23/2-ai-stocks-wall-street-says-to-sell-before-they-d/"
+    },
+    {
       "date": "2026-03-22",
       "headline": "Morgan Stanley, PLTR 목표가 $205로 Hold 유지하며 낙관 강화",
       "significance": "Sanjit Singh 애널리스트가 업그레이드는 아니지만 이전보다 확실히 낙관적 스탠스. 매출 가속과 Maven 채택을 근거로 제시",
@@ -140,21 +152,9 @@
     },
     {
       "date": "2026-03-18",
-      "headline": "실리콘밸리 방산 투자 대박, Palantir AI 이란 전쟁에 실전 투입",
+      "headline": "실리콘밸리 방산 AI 대박, Palantir 이란 전쟁에 실전 투입",
       "significance": "NYT 보도. Anthropic AI + Palantir 시스템으로 Pentagon 정보 분석 중. 실전 AI 사용 검증",
       "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html"
-    },
-    {
-      "date": "2026-03-18",
-      "headline": "UBS, 목표가 $180에서 $200으로 상향 (Strong Buy)",
-      "significance": "Karl Keirstead 애널리스트가 매출 가속화와 Maven 채택을 근거로 목표가 11% 상향",
-      "url": "https://stockanalysis.com/stocks/pltr/forecast/"
-    },
-    {
-      "date": "2026-03-18",
-      "headline": "$11.2B 매출 백로그, $10B 육군 계약, 61% 성장 전망",
-      "significance": "FY2026 매출 가이던스 61% 성장. 대형 군사 계약과 백로그로 장기 매출 가시성 확보",
-      "url": "https://www.fool.com/investing/2026/03/18/palantir-has-an-112-billion-revenue-backlog-a-10-b/"
     }
   ],
   "analystOpinions": {
@@ -165,13 +165,13 @@
     "buyCount": 12,
     "holdCount": 8,
     "sellCount": 1,
-    "notableComment": "Morgan Stanley Sanjit Singh: $205 목표가로 Hold 유지하며 이전보다 낙관적. UBS Karl Keirstead: $200 Strong Buy. Wedbush Dan Ives: $230 유지. Rosenblatt도 $200으로 상향"
+    "notableComment": "Morgan Stanley $205 Hold (낙관 강화), UBS $200 Strong Buy, Wedbush $230 유지. 반면 한 애널리스트는 $70 Underperform으로 55% 하락 경고. 밸류에이션을 둘러싼 의견 양극화가 극심"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션",
-      "description": "TTM P/E 239배는 S&P 500 평균의 10배 수준. 성장 둔화 시 주가 급락 가능성이 매우 높다. Morgan Stanley도 업그레이드를 보류한 이유가 밸류에이션"
+      "title": "극단적 밸류에이션, 55% 하락 경고",
+      "description": "TTM P/E 239배는 S&P 500 평균의 10배. 한 애널리스트는 $70 목표가로 55% 하락 가능성을 경고했다. 실적이 기대에 미치지 못하면 급락은 불가피하다"
     },
     {
       "severity": "high",
@@ -233,31 +233,31 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Maven AI가 미군 공식 핵심 시스템으로 채택 확정됐다. 이란 전쟁 실전 투입까지 더해져 방산 AI 시장에서 독보적 입지를 굳혔다",
-    "Morgan Stanley가 $205 목표가로 낙관을 강화했고, UBS($200), Wedbush($230)도 상향 유지 중이다. 상업 매출 $500M 돌파와 $11.2B 백로그로 성장 가시성도 높다",
-    "다만 P/E 239배는 Morgan Stanley조차 업그레이드를 보류하게 만드는 수준이다. 성장을 믿고 살 수 있지만, 한번 실적이 기대에 못 미치면 급락한다",
-    "기술적으로 50일선과 200일선 아래에서 RSI 51 중립. 단기 조정 구간이지만 펀더멘털 모멘텀은 강하다"
+    "Maven AI가 미군 공식 핵심 시스템으로 채택됐고 이란 전쟁 실전 투입까지 더해져 방산 AI 독점 입지를 굳혔다. Motley Fool은 '비싸 보이지만 투자자들이 계속 사는 데는 이유가 있다'고 분석했다",
+    "Morgan Stanley $205, UBS $200, Wedbush $230으로 낙관론이 강화되고 있지만, 한 애널리스트는 $70 목표가로 55% 하락을 경고했다. 밸류에이션 의견이 극단적으로 갈린다",
+    "FY2026 +65% 성장 가이던스, 백로그 $11.2B, FCF 마진 47%. 펀더멘털은 최강급이지만 P/E 239배는 한번의 실적 미스로 급락할 수 있는 수준이다",
+    "50일선($152), 200일선($163) 모두 하회하지만 RSI 51로 중립. 펀더멘털 모멘텀은 강하니 조정 시 분할 매수가 합리적이다"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Maven 미군 정식 채택, 이란 전쟁 실전 검증, Morgan Stanley 낙관 강화까지 펀더멘털은 최강이다. FY2026 +65% 성장 가이던스와 상업 부문 가속화로 방향은 분명하다. 다만 P/E 239배가 부담이므로 조정 시 분할 매수가 바람직하다.",
+    "summary": "Maven 미군 정식 채택과 실전 검증, +65% 성장 가속, 상업 부문 확대로 펀더멘털은 역대 최강이다. P/E 239배와 $70 하락 경고는 부담이지만, 대안 없는 방산 AI 독점 기업이라는 점에서 조정 시 분할 매수를 권장한다.",
     "horizon": "12~18개월"
   },
   "sources": [
     {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/23/palantirs-stock-valuation-still-looks-absurd-heres/",
+      "description": "PLTR 밸류에이션이 터무니없지만 투자자들이 계속 사는 이유 분석"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/23/2-ai-stocks-wall-street-says-to-sell-before-they-d/",
+      "description": "애널리스트 $70 Underperform, 55% 하락 경고"
+    },
+    {
       "name": "TheStreet",
       "url": "https://www.thestreet.com/investing/stocks/morgan-stanley-has-a-stark-message-for-investors-in-palantir-stocks",
       "description": "Morgan Stanley $205 목표가, Hold 유지하며 낙관 강화"
-    },
-    {
-      "name": "StockAnalysis",
-      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
-      "description": "PLTR 주가, 밸류에이션, 재무 지표 종합 데이터"
-    },
-    {
-      "name": "StockAnalysis Forecast",
-      "url": "https://stockanalysis.com/stocks/pltr/forecast/",
-      "description": "21명 애널리스트 컨센서스 목표가 $196.43"
     },
     {
       "name": "Reuters via Investing.com",
@@ -277,7 +277,7 @@
     {
       "name": "Motley Fool",
       "url": "https://www.fool.com/investing/2026/03/22/palantir-technologies-stock-problem-buy-anyway/",
-      "description": "PLTR 밸류에이션 문제에도 매수하는 이유 분석"
+      "description": "PLTR 1가지 문제(밸류에이션)에도 매수하는 이유"
     },
     {
       "name": "Motley Fool",
@@ -285,76 +285,76 @@
       "description": "Palantir 3년 후 주가 전망"
     },
     {
-      "name": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PLTR/pressreleases/878765/morgan-stanley-sticks-to-their-hold-rating-for-palantir-technologies-pltr/",
-      "description": "Morgan Stanley Hold 유지, 목표가 $205"
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/pltr/forecast/",
+      "description": "21명 애널리스트 컨센서스 목표가 $196.43"
     },
     {
-      "name": "StockAnalysis History",
-      "url": "https://stockanalysis.com/stocks/pltr/history/",
-      "description": "PLTR 주가 히스토리, 3/20 종가 $150.68"
+      "name": "StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
+      "description": "PLTR 주가, 밸류에이션, 재무 지표 종합 데이터"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "미군 정식 채택에 Morgan Stanley도 낙관, 그런데 P/E 239배",
-      "text": "$PLTR (3/23) Maven AI가 미군 공식 시스템으로 채택됐다. Morgan Stanley도 $205 목표가로 낙관 강화. 그런데 P/E 239배. $150.68 마감.\n\n1/4",
+      "hook": "P/E 239배인데 '저렴하다'는 사람과 '55% 폭락'이라는 사람",
+      "text": "$PLTR (3/23) Maven 미군 채택, Morgan Stanley $205 낙관. 한편 한 애널리스트는 $70 목표가로 55% 하락 경고. $150.68. 의견이 극단으로 갈린다.\n\n1/4",
       "thread": [
-        "상업 매출 $500M 돌파, 백로그 $11.2B, FY2026 +65% 가이던스. UBS $200, Wedbush $230. 월가가 잇따라 목표가를 올리고 있다.\n\n2/4",
-        "문제는 P/E 239배. Morgan Stanley조차 이것 때문에 업그레이드를 보류했다. 한번 실적이 빗나가면 크게 흔들린다.\n\n3/4",
-        "50일/200일선 아래, RSI 51 중립. 목표가 $196(+30.4%). 펀더멘털은 최강이지만 밸류에이션이 발목. 조정 시 분할 매수.\n\n4/4"
+        "+65% 성장 가이던스, 백로그 $11.2B, FCF 마진 47%. 펀더멘털만 보면 AI 섹터 최강이다.\n\n2/4",
+        "Motley Fool '비싸 보이지만 대안이 없다'. P/E 239배가 문제지만, 실적이 따라주면 빠르게 정상화된다.\n\n3/4",
+        "50일/200일선 하회, RSI 51 중립. 목표가 $196(+30%). 조정에서 분할 매수, 실적 미스에는 빠르게 탈출.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "미군 정식 채택에 Morgan Stanley도 낙관, 그런데 P/E 239배",
-      "text": "$PLTR (3/23) $150.68(-3.21%)\n\nMaven AI가 미군 공식 시스템으로 채택됐다. Morgan Stanley도 $205 목표가로 낙관을 강화했고, UBS $200, Wedbush $230이 유지되고 있다.\n\n상업 $500M 돌파, 백로그 $11.2B, FY2026 +65% 가이던스. 그러나 P/E 239배는 Morgan Stanley조차 업그레이드를 보류하게 만드는 수준.\n\n목표가 $196(+30.4%). 펀더멘털 최강, 밸류에이션 부담. 조정 시 분할 매수 전략."
+      "hook": "P/E 239배인데 '저렴하다'는 사람과 '55% 폭락'이라는 사람",
+      "text": "$PLTR (3/23) $150.68\n\nMaven 미군 채택, Morgan Stanley $205 낙관 강화. 반면 한 애널리스트는 $70으로 55% 하락을 경고. 밸류에이션 의견이 극단으로 갈린다.\n\n+65% 성장 가이던스, 백로그 $11.2B, FCF 마진 47%. 펀더멘털은 최강급. P/E 239배가 유일한 문제.\n\n50일/200일선 하회. 목표가 $196(+30%). 방산 AI 독점이라는 희소성을 믿는다면 조정 시 분할 매수."
     },
     "telegram": {
-      "hook": "미군 정식 채택에 Morgan Stanley도 낙관, P/E 239배",
-      "text": "Palantir 일일 분석 (3/23)\n\n가격: $150.68 (-3.21%)\n\n핵심 이슈\n- Maven AI 미군 공식 핵심 시스템 채택\n- 이란 전쟁 실전 AI 투입\n- Morgan Stanley $205 목표가, Hold 유지 (낙관 강화)\n- UBS $200 Strong Buy, Wedbush $230\n\n실적 전망\n- FY2026 매출 가이던스 +65%\n- 백로그 $11.2B\n- FCF 마진 47%\n\n주가 위치\n- 50일($152)/200일($163) 아래\n- RSI 51, 중립\n\n목표가: $196 (+30.4%) | 판정: Buy"
+      "hook": "P/E 239배 양극화, $70 vs $230",
+      "text": "Palantir 일일 분석 (3/23)\n\n가격: $150.68\n\n핵심 이슈\n- Maven AI 미군 공식 핵심 시스템 채택\n- Motley Fool '비싸지만 대안 없다' 분석\n- 한 애널리스트 $70 목표가(55% 하락 경고)\n- Morgan Stanley $205, Wedbush $230\n\n실적 전망\n- FY2026 매출 +65% 가이던스\n- 백로그 $11.2B\n- FCF 마진 47%\n\n주가 위치\n- 50일($152)/200일($163) 아래\n- RSI 51, 중립\n\n목표가: $196 (+30%) | 판정: Buy"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "미군 정식 채택에 Morgan Stanley도 낙관, 그런데 P/E 239배",
-          "text": "$PLTR (3/23) Maven AI가 미군 공식 시스템으로 채택됐다. Morgan Stanley도 $205 목표가로 낙관 강화. 그런데 P/E 239배. $150.68 마감.\n\n1/4",
+          "hook": "P/E 239배인데 '저렴하다'는 사람과 '55% 폭락'이라는 사람",
+          "text": "$PLTR (3/23) Maven 미군 채택, Morgan Stanley $205 낙관. 한편 한 애널리스트는 $70 목표가로 55% 하락 경고. $150.68. 의견이 극단으로 갈린다.\n\n1/4",
           "thread": [
-            "상업 매출 $500M 돌파, 백로그 $11.2B, FY2026 +65% 가이던스. UBS $200, Wedbush $230. 월가가 잇따라 목표가를 올리고 있다.\n\n2/4",
-            "문제는 P/E 239배. Morgan Stanley조차 이것 때문에 업그레이드를 보류했다. 한번 실적이 빗나가면 크게 흔들린다.\n\n3/4",
-            "50일/200일선 아래, RSI 51 중립. 목표가 $196(+30.4%). 펀더멘털은 최강이지만 밸류에이션이 발목. 조정 시 분할 매수.\n\n4/4"
+            "+65% 성장 가이던스, 백로그 $11.2B, FCF 마진 47%. 펀더멘털만 보면 AI 섹터 최강이다.\n\n2/4",
+            "Motley Fool '비싸 보이지만 대안이 없다'. P/E 239배가 문제지만, 실적이 따라주면 빠르게 정상화된다.\n\n3/4",
+            "50일/200일선 하회, RSI 51 중립. 목표가 $196(+30%). 조정에서 분할 매수, 실적 미스에는 빠르게 탈출.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "전쟁터에서 검증, 주식 전쟁터에서 고민",
-          "text": "$PLTR (3/23) 이란 전쟁에서 실전 검증됐고 미군이 공식 채택했다. Morgan Stanley도 낙관 중. 주가? $150.68. 전쟁에서는 이기는데 P/E 239배가 발목.\n\n1/4",
+          "hook": "목표가가 $70에서 $230까지, 월가도 모른다",
+          "text": "$PLTR (3/23) 한 사람은 $70(-55%), 다른 사람은 $230(+53%). 같은 주식 보는 거 맞나. $150.68 마감.\n\n1/4",
           "thread": [
-            "상업 $500M 돌파, 백로그 $11.2B. 애널리스트들은 사라고 하고 Morgan Stanley는 '좋지만 비싸다'는 묘한 입장.\n\n2/4",
-            "P/E 239배. S&P 500 평균의 10배. '비싸다'는 모두 아는데, 대안이 없다는 것도 모두 안다.\n\n3/4",
-            "RSI 51, 중립. 목표가 $196(+30.4%). 방산 AI의 독점 기업을 이 가격에 살 수 있는 게 비싼 건지 싼 건지는 관점 차이.\n\n4/4"
+            "전쟁터에서 검증, 미군이 채택, +65% 성장. 이 회사 실적은 나무랄 데가 없다. 문제는 가격표뿐.\n\n2/4",
+            "P/E 239배. '비싸다'는 모두 안다. '대안이 없다'는 것도 모두 안다. 이 교착 상태가 주가다.\n\n3/4",
+            "RSI 51 중립. 목표가 $196(+30%). 비싼 건지 싼 건지는 1년 후에 답이 나온다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "팔란티어 주주, 좋은 소식에도 불안한 이유",
-          "text": "$PLTR (3/23) Maven 미군 채택, Morgan Stanley 낙관 강화. 소식은 좋은데 $150.68(-3.21%). 복잡한 심경일 거다.\n\n1/4",
+          "hook": "팔란티어 주주, 55% 하락 경고에 흔들리지 마라",
+          "text": "$PLTR (3/23) '55% 하락 가능'이라는 기사가 나왔다. 들고 있으면 심장이 철렁했을 거다. $150.68.\n\n1/4",
           "thread": [
-            "상업 $500M, 백로그 $11.2B, +65% 성장. 회사 펀더멘털은 역대 최강이다. 문제는 주가가 이미 그걸 반영했다는 것.\n\n2/4",
-            "P/E 239배가 주는 부담감. Morgan Stanley도 '좋지만 업그레이드는 아직'이라고 한다. 그 감정은 당연하다.\n\n3/4",
-            "목표가 $196(+30.4%). 장기 성장을 믿는다면 조정은 기회다. 분할 매수로 리스크를 나누되 무리하지 말자.\n\n4/4"
+            "하지만 그건 21명 중 1명의 의견이다. 나머지는 $196~$230 목표가. Maven 채택, +65% 성장. 회사는 잘하고 있다.\n\n2/4",
+            "P/E 239배가 부담인 건 사실이다. 실적이 한번 빗나가면 크게 흔들린다. 그 리스크는 인정해야 한다.\n\n3/4",
+            "목표가 $196(+30%). 장기를 본다면 조정 시 분할 매수. 단 전체 포트폴리오에서 비중 관리가 핵심이다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "미군 정식 채택에 Morgan Stanley도 낙관, 그런데 P/E 239배",
-          "text": "$PLTR (3/23) $150.68(-3.21%)\n\nMaven AI가 미군 공식 시스템으로 채택됐다. Morgan Stanley도 $205 목표가로 낙관을 강화했고, UBS $200, Wedbush $230이 유지되고 있다.\n\n상업 $500M 돌파, 백로그 $11.2B, FY2026 +65% 가이던스. 그러나 P/E 239배는 Morgan Stanley조차 업그레이드를 보류하게 만드는 수준.\n\n목표가 $196(+30.4%). 펀더멘털 최강, 밸류에이션 부담. 조정 시 분할 매수 전략."
+          "hook": "P/E 239배인데 '저렴하다'는 사람과 '55% 폭락'이라는 사람",
+          "text": "$PLTR (3/23) $150.68\n\nMaven 미군 채택, Morgan Stanley $205 낙관 강화. 반면 한 애널리스트는 $70으로 55% 하락을 경고. 밸류에이션 의견이 극단으로 갈린다.\n\n+65% 성장 가이던스, 백로그 $11.2B, FCF 마진 47%. 펀더멘털은 최강급. P/E 239배가 유일한 문제.\n\n50일/200일선 하회. 목표가 $196(+30%). 방산 AI 독점이라는 희소성을 믿는다면 조정 시 분할 매수."
         },
         "witty": {
-          "hook": "전쟁터에서 검증, 주식 전쟁터에서 고민",
-          "text": "$PLTR (3/23) $150.68(-3.21%)\n\n이란 전쟁에서 실전 검증, 미군 공식 채택. Morgan Stanley도 '좋다'고 하면서 업그레이드는 안 한다. P/E 239배 때문이다.\n\n상업 $500M, 백로그 $11.2B. '비싸다'는 모두 아는데 대안이 없다는 것도 모두 안다.\n\n목표가 $196(+30.4%). 방산 AI 독점 기업, 비싼 건지 싼 건지는 관점 차이."
+          "hook": "목표가가 $70에서 $230까지, 월가도 모른다",
+          "text": "$PLTR (3/23) $150.68\n\n$70(-55%)과 $230(+53%)이 같은 주식 목표가다. 월가도 이 주식 앞에서는 의견이 갈린다.\n\n전쟁터 검증, 미군 채택, +65% 성장. 실적은 완벽. P/E 239배라는 가격표만 뺀다면.\n\n목표가 $196(+30%). 비싼 건지 싼 건지 1년 후에 답이 나온다."
         },
         "empathy": {
-          "hook": "좋은 소식에도 불안한 팔란티어 주주",
-          "text": "$PLTR (3/23) $150.68(-3.21%)\n\nMaven 미군 채택, Morgan Stanley 낙관 강화. 소식은 역대 최고인데 주가는 빠졌다. 복잡한 심경일 거다.\n\n상업 $500M, 백로그 $11.2B, +65% 성장. 펀더멘털은 최강. P/E 239배가 주는 불안감은 당연하다.\n\n목표가 $196(+30.4%). 장기를 믿는다면 조정은 기회. 분할 매수로 리스크를 나누자."
+          "hook": "55% 하락 경고에 흔들리지 마라",
+          "text": "$PLTR (3/23) $150.68\n\n'55% 하락' 기사를 봤다면 심장이 철렁했을 거다. 하지만 그건 21명 중 1명의 의견이다.\n\nMaven 채택, +65% 성장, FCF 마진 47%. 회사는 잘하고 있다. P/E 239배 부담은 인정하되 펀더멘털을 보자.\n\n목표가 $196(+30%). 장기를 본다면 분할 매수. 비중 관리가 핵심."
         }
       }
     }
