@@ -59,8 +59,8 @@
   ],
   "growthDrivers": [
     {
-      "title": "Terafab 200억 달러 합작 공장 런칭 (3/21)",
-      "description": "Tesla, SpaceX, xAI가 200억 달러를 합작 투자해 오스틴에 Terafab 반도체 공장을 3/21 공식 런칭했다. 연간 1테라와트 컴퓨팅 파워 생산이 목표이며 2027년부터 양산을 시작한다. FSD, Optimus 등에 필요한 AI 칩을 내재화해 공급망 독립과 원가 절감을 동시에 달성한다"
+      "title": "Terafab $20~25B 합작 반도체 공장 런칭 (3/21)",
+      "description": "Tesla, SpaceX, xAI가 $20~25B를 합작 투자해 오스틴에 Terafab 반도체 공장을 3/21 공식 런칭했다. 연간 1테라와트 컴퓨팅 파워 생산이 목표이며 2027년부터 양산을 시작한다. 다만 Electrek 등은 TSMC, Samsung, Intel만이 이 규모의 칩 생산이 가능하다며 실현 가능성에 의문을 제기했다"
     },
     {
       "title": "Cybercab 4월 양산 시작",
@@ -124,10 +124,16 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-22",
+      "headline": "Terafab 실현 가능성 논란, 애널리스트 '3개 기업만 이 규모 칩 생산 가능'",
+      "significance": "Electrek은 Terafab을 'Battery Day 재탕'으로 비판했고, 전문가들은 TSMC, Samsung, Intel만이 이 규모 칩 생산이 가능하다고 지적. 명확한 건설 일정도 제시되지 않아 실행력에 대한 의문 제기",
+      "url": "https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/"
+    },
+    {
       "date": "2026-03-21",
-      "headline": "Terafab 200억 달러 합작 공장 공식 런칭",
-      "significance": "Tesla, SpaceX, xAI가 오스틴에서 200억 달러 규모 반도체 합작 공장을 공식 런칭. 머스크는 '역사상 가장 대단한 칩 프로젝트'라 칭했고, 2027년부터 연간 1테라와트 컴퓨팅 파워 양산 목표",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-20-the-tesla-pivot-from-ev-pioneer-to-physical-ai-titan-2026-research-report"
+      "headline": "Terafab $20~25B 합작 공장 공식 런칭",
+      "significance": "Tesla, SpaceX, xAI가 오스틴에서 합작 반도체 공장을 공식 런칭. 머스크는 '역사상 가장 대단한 칩 프로젝트'라 칭했고, 2027년부터 연간 1테라와트 컴퓨팅 파워 양산 목표",
+      "url": "https://www.thestreet.com/investing/elon-musks-terafab-bet-what-it-means-for-tesla-investors"
     },
     {
       "date": "2026-03-21",
@@ -145,12 +151,6 @@
       "headline": "NHTSA, FSD 시계 제한 상황 조사 확대",
       "significance": "자율주행 안전성 우려로 연방 조사 강화. Cybercab 인가에 잠재적 리스크",
       "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html"
-    },
-    {
-      "date": "2026-03-17",
-      "headline": "머스크, 로드스터 4월 공개 예고 '역대급이 될 것'",
-      "significance": "오랫동안 지연된 차세대 로드스터 공개 임박. 브랜드 이벤트로 주가 촉매 가능",
-      "url": "https://electrek.co/2026/03/17/tesla-roadster-unveil-next-month-elon-musk-claims/"
     }
   ],
   "analystOpinions": {
@@ -161,18 +161,23 @@
     "buyCount": 15,
     "holdCount": 10,
     "sellCount": 7,
-    "notableComment": "Wedbush Daniel Ives, 목표가 600달러 유지하며 'Physical AI 시대 최대 수혜주'로 평가. 반면 GLJ Research Gordon Johnson은 25달러 극단적 하향 유지"
+    "notableComment": "Wedbush Daniel Ives, 목표가 600달러 유지하며 'Physical AI 시대 최대 수혜주'로 평가. Motley Fool은 34명 애널리스트 중 10명이 매도 의견으로 이례적으로 많다고 지적"
   },
   "risks": [
     {
       "severity": "critical",
       "title": "밸류에이션 부담",
-      "description": "TTM P/E 363배로 S&P 500 평균(24배)의 15배. 자동차 섹터(12배) 대비 30배. 기대에 못 미치는 실적 시 급락 위험"
+      "description": "TTM P/E 364배로 S&P 500 평균(24배)의 15배. 자동차 섹터(12배) 대비 30배. 기대에 못 미치는 실적 시 급락 위험"
     },
     {
       "severity": "high",
       "title": "머스크 법적 리스크 심화",
       "description": "Twitter 인수 과정 투자자 사기 혐의로 배심원 유죄 평결(3/20). 항소 예정이나 CEO 리스크 부각. DOGE 활동, 불매 운동과 겹쳐 부담 가중"
+    },
+    {
+      "severity": "high",
+      "title": "Terafab 실현 가능성 불확실",
+      "description": "$20~25B 규모 반도체 공장 프로젝트에 대해 전문가들이 실현 가능성에 의문 제기. 건설 일정 미제시, TSMC급 기술력 필요. Battery Day처럼 약속만 남을 가능성"
     },
     {
       "severity": "high",
@@ -183,11 +188,6 @@
       "severity": "medium",
       "title": "가격 경쟁 심화",
       "description": "BYD 등 중국 업체와의 가격 경쟁으로 마진 압박 지속. 매출총이익률 18%로 하락"
-    },
-    {
-      "severity": "medium",
-      "title": "Roadster/Cybercab 일정 지연 이력",
-      "description": "머스크의 반복적인 일정 지연 전력. 이번에도 4월 공개가 또 밀릴 가능성 존재"
     },
     {
       "severity": "low",
@@ -214,29 +214,29 @@
     },
     {
       "title": "기술적 과매도 구간",
-      "rationale": "RSI 31.94로 과매도 근접. 50일/200일 이평선 하회하며 기술적 반등 가능성"
+      "rationale": "3월 고점($440+) 대비 17% 하락. 50일/200일 이평선 모두 하회하며 기술적 반등 가능성"
     }
   ],
   "technicalPosition": {
     "week52High": 488.54,
     "week52Low": 235.86,
     "currentPositionPercent": 52,
-    "sma50": 415.29,
+    "sma50": 397.75,
     "sma50Signal": "below",
-    "sma200": 394.39,
+    "sma200": 405.74,
     "sma200Signal": "below",
-    "rsi": 31.94,
+    "rsi": 41.4,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Tesla, SpaceX, xAI가 200억 달러를 합작 투자한 Terafab 반도체 공장이 3/21 오스틴에서 공식 런칭됐다. 연간 1테라와트 컴퓨팅 파워 생산이 목표이며 2027년부터 양산을 시작한다",
-    "네덜란드 FSD 테스트는 완료됐지만 정식 승인이 4/10으로 밀렸고, 4월에는 Cybercab 양산 시작, Roadster 공개, Q1 실적 발표(4/21) 등 핵심 촉매가 줄줄이 예정돼 있다",
-    "머스크 Twitter 투자자 사기 배심원 유죄 평결(3/20)과 NHTSA FSD 조사 확대, P/E 364배의 극단적 밸류에이션이 하방 리스크로 작용하고 있다",
-    "주가 $367.96(-3.24%), RSI 31.9로 과매도 근접, 50일선과 200일선 모두 하회하는 약세 구간이라 4월 촉매 확인 후 대응이 안전하다"
+    "Terafab $20~25B 반도체 공장이 공식 런칭됐지만, 전문가들은 건설 일정이 없고 TSMC급 기술이 필요하다며 실현 가능성에 의문을 제기하고 있다",
+    "4월에 Cybercab 양산 시작, Roadster 공개, Q1 실적(4/21)이 줄줄이 예정돼 있다. 네덜란드 FSD 승인도 4/10으로 밀렸지만 유럽 진출의 첫 단추는 끼워졌다",
+    "머스크 Twitter 투자자 사기 유죄 평결(3/20)과 NHTSA FSD 조사 확대, P/E 364배의 극단적 밸류에이션이 하방 압력을 키우고 있다",
+    "주가 $367.96, 3월 고점 대비 17% 하락. 50일선($398), 200일선($406) 모두 하회하는 약세 구간이라 4월 촉매 확인 후 대응이 안전하다"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Terafab 200억 달러 합작 공장 런칭과 4월 성장 촉매(Cybercab, Roadster, Q1 실적)가 상승 잠재력을 키우지만, 머스크 Twitter 유죄 평결과 P/E 364배의 극단적 밸류에이션, NHTSA 규제 리스크가 공존한다. 현재 가격에서 신규 진입보다는 촉매 확인 후 대응이 바람직하다.",
+    "summary": "Terafab 런칭과 4월 성장 촉매(Cybercab, Roadster, Q1 실적)가 상승 잠재력을 키우지만, 실현 가능성 논란과 머스크 법적 리스크, P/E 364배 밸류에이션이 부담이다. 3월 고점 대비 17% 조정 중이나 4월 이벤트 확인 후 진입이 안전하다.",
     "horizon": "3-6개월"
   },
   "sources": [
@@ -248,7 +248,7 @@
     {
       "name": "StockAnalysis Forecast",
       "url": "https://stockanalysis.com/stocks/tsla/forecast/",
-      "description": "애널리스트 컨센서스, 목표가, 매출/EPS 전망"
+      "description": "애널리스트 29명 컨센서스, 목표가 $389.12"
     },
     {
       "name": "Reuters",
@@ -256,9 +256,14 @@
       "description": "머스크 Twitter 투자자 사기 배심원 유죄 평결 보도"
     },
     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/elon-musk-determined-to-be-liable-for-misleading-twitter-investors.html",
-      "description": "머스크 Twitter 인수 과정 투자자 오도 책임 판결 상세 보도"
+      "name": "Electrek",
+      "url": "https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/",
+      "description": "Terafab 실현 가능성 비판 기사, Battery Day 비교"
+    },
+    {
+      "name": "TheStreet",
+      "url": "https://www.thestreet.com/investing/elon-musks-terafab-bet-what-it-means-for-tesla-investors",
+      "description": "Terafab $20~25B 투자 의미와 투자자 영향 분석"
     },
     {
       "name": "CNBC",
@@ -266,91 +271,86 @@
       "description": "NHTSA FSD 조사 확대 뉴스"
     },
     {
-      "name": "Electrek",
-      "url": "https://electrek.co/2026/03/17/tesla-roadster-unveil-next-month-elon-musk-claims/",
-      "description": "Roadster 4월 공개 예고 보도"
+      "name": "Phemex",
+      "url": "https://phemex.com/blogs/tesla-tsla-drops-despite-terafab-launch-march-23",
+      "description": "TSLA 3월 고점 대비 17% 하락 분석"
     },
     {
-      "name": "FinancialContent",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-20-the-tesla-pivot-from-ev-pioneer-to-physical-ai-titan-2026-research-report",
-      "description": "Tesla Physical AI 전환 연구보고서"
-    },
-    {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-tsla/tesla/news/assessing-tesla-tsla-valuation-after-recent-share-price-pull",
-      "description": "TSLA 밸류에이션 분석, 주가 하락 후 평가"
+      "name": "Investing.com",
+      "url": "https://www.investing.com/equities/tesla-motors-technical",
+      "description": "TSLA 기술적 분석: SMA50 $397.75, SMA200 $405.74"
     },
     {
       "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/2026/03/21/should-tesla-be-worried-about-rivian/",
-      "description": "Tesla vs Rivian 경쟁 분석, AI 자율주행 전환 평가"
+      "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/",
+      "description": "34명 중 10명 매도 의견, 평균 목표가 $383.54"
     },
     {
-      "name": "AltIndex",
-      "url": "https://altindex.com/ticker/tsla/technical-analysis",
-      "description": "TSLA 기술적 분석 지표 (이동평균, RSI)"
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/22/here-are-teslas-top-competitors-in-2026/",
+      "description": "2026년 테슬라 경쟁사 분석"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "Terafab 런칭에도 $368, 4월이 분수령",
-      "text": "$TSLA (3/23) Terafab 200억 달러 반도체 공장 런칭. 2027년부터 AI 칩 양산. 그런데 주가는 $367.96(-3.24%). 머스크 Twitter 유죄 평결까지.\n\n1/4",
+      "hook": "Terafab 런칭했지만 전문가들은 의심 중",
+      "text": "$TSLA (3/23) Terafab $25B 반도체 공장을 런칭했다. 그런데 전문가들은 '3개 기업만 이 규모 칩 생산 가능'이라며 실현 가능성에 의문. $367.96, 3월 고점 대비 -17%.\n\n1/4",
       "thread": [
-        "네덜란드 FSD 승인 4/10으로 밀렸다. 하지만 4월에 Cybercab 양산, Roadster 공개, Q1 실적(4/21)까지 핵심 촉매가 몰려있다.\n\n2/4",
-        "NHTSA가 FSD 조사를 확대했고, P/E 364배에 머스크 리스크까지. 악재가 겹치는 구간.\n\n3/4",
-        "RSI 31.9 과매도 근접, 50일/200일선 모두 하회. 목표가 $389(+5.7%). 4월 촉매 확인 후 판단해도 늦지 않다.\n\n4/4"
+        "4월에 Cybercab 양산, Roadster 공개, Q1 실적(4/21)이 대기 중. 네덜란드 FSD 승인도 4/10. 촉매는 있지만 머스크 Twitter 유죄 평결이 발목을 잡는다.\n\n2/4",
+        "P/E 364배, 매출 역성장(-2.93%), NHTSA FSD 조사 확대. 호재만큼 악재도 많은 구간.\n\n3/4",
+        "50일선($398), 200일선($406) 모두 하회. 목표가 $389(+5.7%). 4월 촉매 확인 후 움직여도 늦지 않다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Terafab 런칭에도 $368, 4월이 분수령",
-      "text": "$TSLA (3/23) $367.96(-3.24%)\n\nTerafab 200억 달러 반도체 공장이 오스틴에서 공식 런칭됐다. Tesla, SpaceX, xAI 합작. 2027년부터 AI 칩 양산을 시작한다.\n\n4월에 Cybercab 양산, Roadster 공개, Q1 실적(4/21)이 줄줄이 예정돼 있지만, 머스크 Twitter 사기 유죄 평결과 NHTSA FSD 조사 확대가 발목을 잡고 있다.\n\nRSI 31.9 과매도 근접, 50일/200일선 하회. 목표가 $389(+5.7%). 4월 촉매가 확인되기 전까지는 관망이 안전하다."
+      "hook": "Terafab 런칭했지만 전문가들은 의심 중",
+      "text": "$TSLA (3/23) $367.96, 3월 고점 대비 -17%\n\nTerafab $25B 반도체 공장을 런칭했지만, 전문가들은 TSMC급 기술이 필요하고 건설 일정도 없다며 실현 가능성에 의문을 제기하고 있다.\n\n4월에 Cybercab 양산, Roadster 공개, Q1 실적, 네덜란드 FSD 승인이 대기 중이다. 하지만 머스크 Twitter 유죄 평결과 NHTSA FSD 조사 확대가 부담.\n\n50일선($398), 200일선($406) 하회. 목표가 $389(+5.7%). 호재와 악재가 팽팽한 구간이라 4월 촉매 확인이 우선이다."
     },
     "telegram": {
-      "hook": "Terafab 런칭에도 $368, 4월이 분수령",
-      "text": "Tesla 일일 분석 (3/23)\n\n가격: $367.96 (-3.24%)\n\n핵심 이슈\n- Terafab 200억 달러 반도체 공장 공식 런칭 (Tesla+SpaceX+xAI)\n- 네덜란드 FSD 승인 4/10으로 연기\n- 머스크 Twitter 사기 배심원 유죄 평결\n- NHTSA FSD 조사 확대\n\n4월 촉매\n- Cybercab 양산 시작\n- Roadster 공개\n- Q1 실적 발표 (4/21)\n\n주가 위치\n- RSI 31.9, 과매도 근접\n- 50일선($415), 200일선($394) 모두 하회\n\n목표가: $389 (+5.7%) | 판정: Hold"
+      "hook": "Terafab 런칭했지만 전문가들은 의심 중",
+      "text": "Tesla 일일 분석 (3/23)\n\n가격: $367.96 (3월 고점 대비 -17%)\n\n핵심 이슈\n- Terafab $20~25B 반도체 공장 런칭\n- 전문가 '3개 기업만 이 규모 생산 가능' 의문 제기\n- 머스크 Twitter 사기 배심원 유죄 평결\n- NHTSA FSD 조사 확대\n\n4월 촉매\n- Cybercab 양산 시작\n- Roadster 공개\n- 네덜란드 FSD 승인 (4/10)\n- Q1 실적 발표 (4/21)\n\n주가 위치\n- 50일선($398), 200일선($406) 하회\n- RSI 41.4, 중립\n\n목표가: $389 (+5.7%) | 판정: Hold"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Terafab 런칭에도 $368, 4월이 분수령",
-          "text": "$TSLA (3/23) Terafab 200억 달러 반도체 공장 런칭. 2027년부터 AI 칩 양산. 그런데 주가는 $367.96(-3.24%). 머스크 Twitter 유죄 평결까지.\n\n1/4",
+          "hook": "Terafab 런칭했지만 전문가들은 의심 중",
+          "text": "$TSLA (3/23) Terafab $25B 반도체 공장을 런칭했다. 그런데 전문가들은 '3개 기업만 이 규모 칩 생산 가능'이라며 실현 가능성에 의문. $367.96, 3월 고점 대비 -17%.\n\n1/4",
           "thread": [
-            "네덜란드 FSD 승인 4/10으로 밀렸다. 하지만 4월에 Cybercab 양산, Roadster 공개, Q1 실적(4/21)까지 핵심 촉매가 몰려있다.\n\n2/4",
-            "NHTSA가 FSD 조사를 확대했고, P/E 364배에 머스크 리스크까지. 악재가 겹치는 구간.\n\n3/4",
-            "RSI 31.9 과매도 근접, 50일/200일선 모두 하회. 목표가 $389(+5.7%). 4월 촉매 확인 후 판단해도 늦지 않다.\n\n4/4"
+            "4월에 Cybercab 양산, Roadster 공개, Q1 실적(4/21)이 대기 중. 네덜란드 FSD 승인도 4/10. 촉매는 있지만 머스크 Twitter 유죄 평결이 발목을 잡는다.\n\n2/4",
+            "P/E 364배, 매출 역성장(-2.93%), NHTSA FSD 조사 확대. 호재만큼 악재도 많은 구간.\n\n3/4",
+            "50일선($398), 200일선($406) 모두 하회. 목표가 $389(+5.7%). 4월 촉매 확인 후 움직여도 늦지 않다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "200억 공장 런칭인데 주가는 역주행",
-          "text": "$TSLA (3/23) 200억 달러짜리 반도체 공장을 열었는데 주가는 $367.96(-3.24%). 머스크의 기프트가 주주에겐 안 통하는 중.\n\n1/4",
+          "hook": "$25B 공장 열었는데 주가는 -17%",
+          "text": "$TSLA (3/23) $25B짜리 칩 공장을 열었다. 주가는 $367.96, 3월 고점에서 17% 빠졌다. 전문가들은 '세계에서 3개 회사만 이걸 만들 수 있다'며 고개를 갸웃.\n\n1/4",
           "thread": [
-            "네덜란드 FSD 승인이 4/10으로 밀렸다. 4월에 Cybercab, Roadster, 실적까지 '복권 3장'이 기다리는데, 긁기 전까지는 모르는 법.\n\n2/4",
-            "Twitter 사기 유죄에 FSD 조사 확대에 P/E 364배. 악재 3종 세트가 동시에 터졌다. 테슬라 주주의 멘탈이 이 정도면 단련된 거다.\n\n3/4",
-            "RSI 31.9, 과매도 직전. 목표가 $389(+5.7%). 바닥인지 지하실인지는 4월에 답이 나온다.\n\n4/4"
+            "4월에 Cybercab, Roadster, 실적, FSD 승인까지 복권 4장이 기다린다. 머스크는 약속을 잘 하는 사람이다. 문제는 지키는 것.\n\n2/4",
+            "P/E 364배에 매출은 역성장. Twitter 유죄에 FSD 조사까지. 테슬라 주주의 내구성은 이미 증명됐다.\n\n3/4",
+            "50일선, 200일선 모두 아래. 목표가 $389(+5.7%). Battery Day의 데자뷔인지 진짜 전환점인지는 4월에 답이 나온다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "테슬라 주주에게 고단한 한 주",
-          "text": "$TSLA (3/23) Terafab 공장까지 열었는데 $367.96, -3.24%. 호재에도 떨어지니 허탈할 수 있다.\n\n1/4",
+          "hook": "테슬라 주주, 호재에도 떨어지는 주가",
+          "text": "$TSLA (3/23) $25B 공장까지 열었는데 $367.96, 3월 고점에서 -17%. 호재가 나와도 빠지니 허탈할 수 있다.\n\n1/4",
           "thread": [
             "머스크 유죄 평결에 FSD 조사 확대까지. 나쁜 소식이 한꺼번에 쏟아졌다. 들고 있으면 불안한 게 당연하다.\n\n2/4",
-            "그래도 4월에 Cybercab 양산, Roadster 공개, Q1 실적이 있다. 테슬라는 늘 이벤트 전후로 크게 움직였다.\n\n3/4",
-            "RSI 31.9, 과매도 근접. 목표가 $389(+5.7%). 조금만 더 지켜보자. 4월 촉매가 방향을 정해줄 거다.\n\n4/4"
+            "그래도 4월에 Cybercab, Roadster, Q1 실적이 있다. 이번에도 약속만으로 끝나지 않기를 바라는 마음일 거다.\n\n3/4",
+            "50일선($398), 200일선($406) 하회. 목표가 $389(+5.7%). 4월 촉매가 방향을 정해줄 거다. 조금만 더 기다려보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Terafab 런칭에도 $368, 4월이 분수령",
-          "text": "$TSLA (3/23) $367.96(-3.24%)\n\nTerafab 200억 달러 반도체 공장이 오스틴에서 공식 런칭됐다. Tesla, SpaceX, xAI 합작. 2027년부터 AI 칩 양산을 시작한다.\n\n4월에 Cybercab 양산, Roadster 공개, Q1 실적(4/21)이 줄줄이 예정돼 있지만, 머스크 Twitter 사기 유죄 평결과 NHTSA FSD 조사 확대가 발목을 잡고 있다.\n\nRSI 31.9 과매도 근접, 50일/200일선 하회. 목표가 $389(+5.7%). 4월 촉매가 확인되기 전까지는 관망이 안전하다."
+          "hook": "Terafab 런칭했지만 전문가들은 의심 중",
+          "text": "$TSLA (3/23) $367.96, 3월 고점 대비 -17%\n\nTerafab $25B 반도체 공장을 런칭했지만, 전문가들은 TSMC급 기술이 필요하고 건설 일정도 없다며 실현 가능성에 의문을 제기하고 있다.\n\n4월에 Cybercab 양산, Roadster 공개, Q1 실적, 네덜란드 FSD 승인이 대기 중이다. 하지만 머스크 Twitter 유죄 평결과 NHTSA FSD 조사 확대가 부담.\n\n50일선($398), 200일선($406) 하회. 목표가 $389(+5.7%). 호재와 악재가 팽팽한 구간이라 4월 촉매 확인이 우선이다."
         },
         "witty": {
-          "hook": "200억 공장 런칭인데 주가는 역주행",
-          "text": "$TSLA (3/23) $367.96(-3.24%)\n\n200억 달러짜리 반도체 공장을 오스틴에 열었다. Tesla, SpaceX, xAI 3사 합작. 근데 주가는 거꾸로 간다.\n\n4월에 Cybercab, Roadster, Q1 실적까지 복권 3장이 기다리는데, 머스크 Twitter 유죄에 FSD 조사 확대까지 악재 세트가 방해 중. 테슬라 주주의 멘탈은 이 정도면 반도체보다 단단하다.\n\nRSI 31.9, 과매도 직전. 목표가 $389(+5.7%). 바닥인지 지하실인지는 4월에 답 나온다."
+          "hook": "$25B 공장 열었는데 주가는 -17%",
+          "text": "$TSLA (3/23) $367.96, 3월 고점 대비 -17%\n\n$25B짜리 칩 공장을 열었는데 주가는 역주행 중이다. 전문가들은 '세계에서 3개 회사만 이걸 만들 수 있다'며 Battery Day의 데자뷔를 떠올린다.\n\n4월에 복권 4장(Cybercab, Roadster, 실적, FSD 승인)이 기다린다. 머스크의 약속이 이번에는 현실이 될까. 50일선, 200일선 모두 아래.\n\n목표가 $389(+5.7%). 답은 4월에 나온다."
         },
         "empathy": {
-          "hook": "테슬라 주주에게 고단한 한 주",
-          "text": "$TSLA (3/23) $367.96(-3.24%)\n\nTerafab 공장까지 열었는데 주가는 또 떨어졌다. 호재에도 반응 없으니 허탈할 수 있다.\n\n머스크 유죄 평결, FSD 조사 확대, P/E 364배. 악재가 한꺼번에 쏟아졌다. 불안한 게 당연하다.\n\n그래도 4월에 Cybercab, Roadster, Q1 실적이 기다린다. RSI 31.9로 과매도 근접. 목표가 $389(+5.7%). 조금만 더 참고 4월 촉매를 확인하자."
+          "hook": "테슬라 주주, 호재에도 떨어지는 주가",
+          "text": "$TSLA (3/23) $367.96, 3월 고점 대비 -17%\n\n$25B 공장까지 열었는데 주가는 또 떨어졌다. 호재가 나와도 반응이 없으니 허탈할 수 있다.\n\n머스크 유죄 평결, FSD 조사, P/E 364배. 악재가 겹치는 구간이다. 4월에 Cybercab, Roadster, 실적이 있으니 그때 방향이 잡힐 거다.\n\n목표가 $389(+5.7%). 조금만 더 참고 4월 촉매를 확인하자."
         }
       }
     }
