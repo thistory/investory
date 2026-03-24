@@ -3,7 +3,8 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-24",
   "currentPrice": 160.90,
-  "marketCap": "$384.6B",
+  "marketCap": "$381B",
+
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
     "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+56%). 미국 상업 매출 $500M 돌파. Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망.",
@@ -13,153 +14,223 @@
       "AIP (AI Platform) - 생성형 AI 통합 플랫폼",
       "AIP 부트캠프 - 단기 도입 프로그램으로 고객 전환"
     ],
-    "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "소버린 AI 데이터센터 OS", "Ontology"]
+    "keyProducts": [
+      "Gotham",
+      "Foundry",
+      "AIP",
+      "Maven Smart System",
+      "ShipOS",
+      "소버린 AI 데이터센터 OS",
+      "Ontology"
+    ]
   },
+
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "255.6x", "interpretation": "S&P 500 평균(약 24배) 대비 약 10배. 극단적 프리미엄이지만 FY2026 EPS $1.34 기준 Forward P/E 120배로 빠르게 줄어드는 중"},
-    {"name": "Forward P/E", "value": "120.1x", "interpretation": "FY2026 예상 EPS $1.34 기준. 65% 매출 성장률을 감안하면 PEG 비율 2.48로 고성장주 범위 내"},
-    {"name": "매출 성장률 (YoY)", "value": "56.18%", "interpretation": "FY2025 매출 $4.48B. AI 수요 폭발로 전년 대비 56% 성장. FY2026은 65% 성장 가이던스"},
-    {"name": "영업이익률", "value": "31.59%", "interpretation": "소프트웨어 기업 중 최상위권 수익성. 매출 총이익률 82%와 함께 강력한 이익 체력"},
-    {"name": "FCF 마진", "value": "46.94%", "interpretation": "잉여현금흐름 $2.10B. 현금 창출력이 매우 강하고 부채 거의 없음 ($229M)"},
-    {"name": "현금 보유", "value": "$7.18B", "interpretation": "순현금 $6.95B (주당 $2.90). 무차입 경영에 가까운 재무 건전성"},
-    {"name": "매출 백로그", "value": "$11.2B", "interpretation": "향후 수년간 매출 가시성 확보. 현재 연매출의 약 2.5배 규모"}
+    { "name": "P/E (TTM)", "value": "200x+", "interpretation": "S&P 500 평균(22x) 대비 9배 이상. 소프트웨어 업종 평균(40x) 대비도 5배. AI 국방 독점 프리미엄" },
+    { "name": "Forward P/E", "value": "125x", "interpretation": "FY2026 예상 수익 기준. 60~65% 성장을 감안해도 PEG 약 2배로 비싸지만, 방산 AI 독점 지위를 반영" },
+    { "name": "매출 (FY2025)", "value": "$44.8억", "interpretation": "전년 대비 56% 성장. 미국 상업 매출이 $500M을 돌파하며 성장 가속" },
+    { "name": "P/S (매출 대비 주가)", "value": "44x", "interpretation": "소프트웨어 업종 평균(10x) 대비 4배 이상. 시장이 PLTR의 독점적 위치를 극단적으로 프리미엄하게 평가" },
+    { "name": "FCF 수익률", "value": "~1%", "interpretation": "잉여현금흐름 대비 시총이 매우 높다. 밸류에이션이 미래 성장을 과도하게 선반영" },
+    { "name": "매출 성장 가이던스 (FY26)", "value": "+60~65%", "interpretation": "$7.19B~$7.41B 가이던스. AIP 상업 부문과 Maven 정부 계약이 성장 엔진" }
   ],
+
   "growthDrivers": [
-    {"title": "Maven AI 미군 전체 정식 채택 + 주가 +6.78% 급등", "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정. 이 소식에 PLTR이 3/23 하루 만에 6.78% 급등했다. 미군 전 군에 장기 적용 확정되며 안정적 방산 매출 기반 확보"},
-    {"title": "영국 FCA 3개월 트라이얼 계약 확보", "description": "The Guardian 보도에 따르면 영국 금융감독원(FCA)이 Palantir Foundry 플랫폼을 3개월 트라이얼로 도입. 주당 £30K+ 지불. 사기 및 집행 관련 민감 데이터 분석에 사용. 방산 이외 정부 분야 확장의 신호"},
-    {"title": "이란 전쟁 실전 AI 투입", "description": "NYT 보도에 따르면 Pentagon 정보를 Anthropic AI 기술로 분석하는 시스템을 Palantir가 운영 중. 실전 검증이 추가 계약의 강력한 근거가 됨"},
-    {"title": "FY2026 매출 가이던스 $7.19B~$7.41B (+60~65%)", "description": "경영진이 성장 가속화를 자신. 미국 상업 부문이 핵심 성장 엔진으로 부상하며 정부 의존도 줄어드는 중"},
-    {"title": "미 해군 ShipOS $448M + 육군 $10B 계약", "description": "대형 군사 계약이 연이어 체결. $11.2B 매출 백로그로 장기 매출 가시성 확보"},
-    {"title": "Wedbush Dan Ives $230 목표가, 'AI 국방의 핵심'", "description": "Wedbush Dan Ives가 $230 목표가를 유지하며 '미군 AI의 백본'이라고 평가. Pentagon의 공식 채택이 그 근거를 뒷받침"}
+    {
+      "title": "Maven AI 미군 전체 정식 채택 + 주가 +6.78% 급등",
+      "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정. 이 소식에 PLTR이 3/23 하루 만에 6.78% 급등했다. 미군 전 군에 장기 적용 확정되며 안정적 방산 매출 기반 확보"
+    },
+    {
+      "title": "영국 FCA 3개월 트라이얼 계약 확보",
+      "description": "The Guardian 보도에 따르면 영국 금융감독원(FCA)이 Palantir Foundry 플랫폼을 3개월 트라이얼로 도입. 주당 £30K+ 지불. 사기 및 집행 관련 민감 데이터 분석에 사용. 방산 이외 정부 분야 확장의 신호"
+    },
+    {
+      "title": "이란 전쟁 실전 AI 투입",
+      "description": "NYT 보도에 따르면 Pentagon 정보를 Anthropic AI 기술로 분석하는 시스템을 Palantir가 운영 중. 실전 검증이 추가 계약의 강력한 근거가 됨"
+    },
+    {
+      "title": "FY2026 매출 가이던스 $7.19B~$7.41B (+60~65%)",
+      "description": "경영진이 성장 가속화를 자신. 미국 상업 부문이 핵심 성장 엔진으로 부상하며 정부 의존도 줄어드는 중"
+    },
+    {
+      "title": "미 해군 ShipOS $448M + 육군 $10B 계약",
+      "description": "대형 군사 계약이 연이어 체결. $11.2B 매출 백로그로 장기 매출 가시성 확보"
+    },
+    {
+      "title": "Wedbush Dan Ives $230 목표가, 'AI 국방의 핵심'",
+      "description": "Wedbush Dan Ives가 $230 목표가를 유지하며 '미군 AI의 백본'이라고 평가. Pentagon의 공식 채택이 그 근거를 뒷받침"
+    }
   ],
+
   "competitiveAdvantage": {
     "summary": "정부 국방 AI 20년 이상의 실적과 최고 수준 보안 클리어런스, Maven 미군 정식 채택, 영국 FCA 트라이얼로 금융규제 분야 확장. 실전 검증은 돈으로 살 수 없는 해자",
     "moats": [
-      {"type": "전환 비용 (Switching Cost)", "description": "정부/군사 시스템에 깊이 통합된 Ontology 플랫폼. 한번 도입하면 교체 비용이 극도로 높음"},
-      {"type": "보안 인증 장벽", "description": "최고 수준 보안 클리어런스와 20년+ 정부 신뢰 관계. 신규 진입자가 동일 수준 획득하기 사실상 불가능"},
-      {"type": "네트워크 효과", "description": "AIP 부트캠프를 통한 빠른 고객 확보와 Ontology 데이터 모델의 생태계 확장"},
-      {"type": "실전 검증", "description": "이란 전쟁에서 실시간 타격 목표 식별에 사용. 실전 데이터가 곧 경쟁 우위"}
+      {
+        "type": "전환 비용 (Switching Cost)",
+        "description": "정부/군사 시스템에 깊이 통합된 Ontology 플랫폼. 한번 도입하면 교체 비용이 극도로 높음"
+      },
+      {
+        "type": "보안 인증 장벽",
+        "description": "최고 수준 보안 클리어런스와 20년+ 정부 신뢰 관계. 신규 진입자가 동일 수준 획득하기 사실상 불가능"
+      },
+      {
+        "type": "네트워크 효과",
+        "description": "AIP 부트캠프를 통한 빠른 고객 확보와 Ontology 데이터 모델의 생태계 확장"
+      },
+      {
+        "type": "실전 검증",
+        "description": "이란 전쟁에서 실시간 타격 목표 식별에 사용. 실전 데이터가 곧 경쟁 우위"
+      }
     ],
     "competitors": [
-      {"name": "Anduril Industries", "detail": "방산 AI/드론 신생 기업. 하드웨어 중심이라 소프트웨어 플랫폼 Palantir와 보완 관계에 가까움"},
-      {"name": "Snowflake / Databricks", "detail": "기업 데이터 플랫폼 경쟁. 하지만 정부/국방 분야 접근성에서 Palantir에 크게 뒤처짐"},
-      {"name": "Microsoft / AWS", "detail": "클라우드 대기업의 정부 AI 진출. 규모는 크지만 Palantir의 특화된 Ontology 플랫폼만큼 깊은 통합은 어려움"},
-      {"name": "C3.ai", "detail": "기업용 AI 플랫폼. 매출 규모와 성장률 모두 Palantir에 크게 뒤처지는 상황"}
+      {
+        "name": "Anduril Industries",
+        "detail": "방산 AI/드론 신생 기업. 하드웨어 중심이라 소프트웨어 플랫폼 Palantir와 보완 관계에 가까움"
+      },
+      {
+        "name": "Snowflake / Databricks",
+        "detail": "기업 데이터 플랫폼 경쟁. 하지만 정부/국방 분야 접근성에서 Palantir에 크게 뒤처짐"
+      },
+      {
+        "name": "Microsoft / AWS",
+        "detail": "클라우드 대기업의 정부 AI 진출. 규모는 크지만 Palantir의 특화된 Ontology 플랫폼만큼 깊은 통합은 어려움"
+      },
+      {
+        "name": "C3.ai",
+        "detail": "기업용 AI 플랫폼. 매출 규모와 성장률 모두 Palantir에 크게 뒤처지는 상황"
+      }
     ]
   },
+
   "recentNews": [
-    {"date": "2026-03-23", "headline": "Pentagon Maven 정식 채택에 PLTR +6.78% 급등, $160.90 마감", "significance": "국방부 차관 서한으로 Maven Smart System이 program of record로 지정된 소식이 공식화되면서 주가가 하루 만에 6.78% 급등했다", "url": "https://www.schaeffersresearch.com/content/news/2026/03/23/pentagon-picks-palantir-stock-surges"},
-    {"date": "2026-03-23", "headline": "이란 휴전 릴리프 랠리가 상승폭 확대", "significance": "트럼프 이란 공격 중단 발표로 시장 전체가 급등하면서 PLTR의 Maven 모멘텀이 더 강화됐다", "url": "https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html"},
-    {"date": "2026-03-22", "headline": "영국 FCA, Palantir Foundry 3개월 트라이얼 계약", "significance": "영국 금융감독원이 Palantir를 사기/집행 데이터 분석에 3개월간 도입. 주당 £30K+. 국방 외 정부 분야 확장 신호", "url": "https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data"},
-    {"date": "2026-03-23", "headline": "Motley Fool '밸류에이션 터무니없지만 대안이 없다'", "significance": "P/E 239배가 비싸 보이지만, 65% 성장률과 방산 AI 독점적 지위를 감안하면 '저렴하다'고 판단하는 투자자가 늘고 있다는 분석", "url": "https://www.fool.com/investing/2026/03/23/palantirs-stock-valuation-still-looks-absurd-heres/"},
-    {"date": "2026-03-18", "headline": "실리콘밸리 방산 AI 대박, Palantir 이란 전쟁에 실전 투입", "significance": "NYT 보도. Anthropic AI + Palantir 시스템으로 Pentagon 정보 분석 중. 실전 AI 사용 검증", "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html"}
+    { "date": "2026-03-23", "headline": "Pentagon, Maven AI를 공식 'program of record'로 지정. PLTR +6.78%", "significance": "미군 전체에 Maven Smart System 장기 적용 확정. 안정적 방산 매출 기반 확보와 함께 하루 6.78% 급등", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/" },
+    { "date": "2026-03-23", "headline": "영국 금융감독원(FCA), Palantir Foundry 3개월 트라이얼 계약", "significance": "방산 이외 정부 분야(금융규제)로 확장. 주당 £30K+ 계약 규모", "url": "https://www.fool.com/investing/2026/03/23/why-palantir-stock-just-popped/" },
+    { "date": "2026-03-20", "headline": "Wedbush Dan Ives, $230 목표가 유지 및 '미군 AI의 백본' 평가", "significance": "Maven 정식 채택 소식 이전에도 이미 긍정적 전망 유지. 목표가 +43% 상승 여력", "url": "https://www.techi.com/palantir-stock/" },
+    { "date": "2026-03-19", "headline": "이란 전쟁에서 Palantir AI 시스템 실전 투입 (NYT 보도)", "significance": "Anthropic AI 기술을 결합한 Pentagon 정보 분석 시스템 운영. 실전 검증이 추가 계약의 핵심 근거", "url": "https://ts2.tech/en/stock-market-today-23-03-2026/" },
+    { "date": "2026-03-12", "headline": "PLTR 52주 고점 대비 27% 하락, '붕괴인가 매수 기회인가' 논쟁", "significance": "Forward P/E 125x의 밸류에이션 부담과 실행 실적 사이의 괴리에 대한 시장 논쟁", "url": "https://247wallst.com/investing/2026/03/12/palantir-is-down-27-is-this-a-breakdown-or-a-buying-opportunity/" }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 196.43,
-    "highTarget": 260,
-    "lowTarget": 50,
-    "upsidePercent": 22.08,
-    "buyCount": 12,
-    "holdCount": 8,
-    "sellCount": 1,
-    "notableComment": "Maven 정식 채택에 Wedbush $230 유지, Morgan Stanley $205 Hold(낙관 강화), UBS $200 Strong Buy. 한 애널리스트만 $70 Underperform 유지. 컨센서스 $196, 오늘 급등으로 업사이드가 30%에서 22%로 축소"
+    "consensusTarget": 150.0,
+    "highTarget": 260.0,
+    "lowTarget": 50.0,
+    "upsidePercent": -6.8,
+    "buyCount": 8,
+    "holdCount": 10,
+    "sellCount": 6,
+    "notableComment": "Wedbush Dan Ives가 $230 목표가를 유지하며 '미군 AI의 핵심 인프라'로 평가. 반면 밸류에이션 우려로 매도 의견도 6명. 애널리스트 사이에서 가장 의견이 갈리는 종목 중 하나"
   },
+
   "risks": [
-    {"severity": "critical", "title": "극단적 밸류에이션", "description": "TTM P/E 256배. 주가가 $160.90으로 급등하면서 밸류에이션 부담이 더 커졌다. 한 애널리스트는 $70 목표가로 56% 하락을 경고했다"},
-    {"severity": "high", "title": "전쟁 의존 매출 리스크 + 이란 휴전", "description": "이란 전쟁 실전 투입으로 방산 매출이 급증했지만, 트럼프가 이란과 '생산적 대화'를 언급했다. 분쟁 완화 시 방산 AI 수요 둔화 가능성"},
-    {"severity": "high", "title": "주식 희석", "description": "주식 수가 YoY 4.67% 증가. 스톡옵션 기반 보상으로 기존 주주 가치가 꾸준히 희석되는 구조"},
-    {"severity": "medium", "title": "정부 예산 변동", "description": "미국 정부 셧다운이나 국방 예산 삭감 시 매출에 직접적 타격. 정부 매출 비중이 여전히 높음"},
-    {"severity": "medium", "title": "윤리/평판 리스크", "description": "AI 무기 타격 시스템 사용에 대한 윤리적 비판 증가. 영국 FCA 계약도 프라이버시 논란 촉발"},
-    {"severity": "low", "title": "경쟁 심화", "description": "Microsoft, AWS 등 대형 클라우드 기업의 정부 AI 시장 진출. 단기 위협은 제한적이나 장기적 주시 필요"}
+    { "severity": "high", "title": "극단적 밸류에이션 (Forward P/E 125x, P/S 44x)", "description": "소프트웨어 업종에서도 유례없는 프리미엄. 성장률이 기대에 못 미치면 30%+ 급락이 반복될 수 있다" },
+    { "severity": "high", "title": "정부 계약 의존도", "description": "매출의 상당 부분이 미 정부 계약. 국방 예산 삭감이나 정치적 변화에 취약" },
+    { "severity": "medium", "title": "CEO 내부자 매도 지속", "description": "Alex Karp CEO의 지속적 주식 매도가 시장에 부정적 신호로 인식될 수 있다" },
+    { "severity": "medium", "title": "상업 부문 확장 불확실성", "description": "AIP 부트캠프를 통한 고객 전환율이 장기적으로 유지될지 미지수" }
   ],
+
   "buyReasons": [
-    {"title": "AI 방산 시장의 절대 강자, Maven 정식 채택", "rationale": "Maven이 미군 정식 시스템으로 채택됐다. 20년 넘게 쌓은 정부 신뢰와 보안 클리어런스는 돈으로 살 수 없는 자산이다"},
-    {"title": "성장 가속화 중 + 상업 확장", "rationale": "FY2025 +56%에서 FY2026 +65% 가이던스. 영국 FCA 트라이얼로 금융규제 분야까지 확장. 정부 의존도가 줄어드는 건강한 구조 변화"},
-    {"title": "압도적 재무 건전성", "rationale": "현금 $7.18B, 부채 $229M, FCF 마진 47%. 돈을 잘 벌고, 빚은 거의 없고, 현금은 넘친다"},
-    {"title": "백로그 $11.2B로 매출 가시성 확보", "rationale": "현재 연매출의 2.5배 규모 백로그. 향후 수년간 안정적 매출 성장 보장"},
-    {"title": "월가 목표가 상향 추세", "rationale": "컨센서스 $196(+22%). Wedbush $230, Morgan Stanley $205, UBS $200. 주요 증권사가 잇따라 목표가를 올리고 있다"}
+    { "title": "Maven 미군 정식 채택", "rationale": "Pentagon이 Maven AI를 공식 program of record로 지정. 미군 전체에 장기 적용이 확정되며 방산 매출의 안정성과 확장성이 크게 향상됐다" },
+    { "title": "FY26 매출 60~65% 성장 가이던스", "rationale": "$7.19B~$7.41B 매출 가이던스는 성장 가속을 의미. AIP 상업 부문이 새로운 성장 축으로 부상" },
+    { "title": "독점적 국방 AI 포지션", "rationale": "20년 보안 클리어런스, 실전 검증, $11.2B 백로그. 이 조합은 신규 경쟁자가 단기간에 복제할 수 없다" },
+    { "title": "정부 AI → 금융규제 확장", "rationale": "영국 FCA 트라이얼 계약은 방산 이외 정부 분야로의 확장 신호. TAM(전체 시장 규모) 확대" }
   ],
+
   "technicalPosition": {
-    "week52High": 207.18,
-    "week52Low": 86.1,
-    "currentPositionPercent": 61.8,
-    "sma50": 151.57,
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 67.0,
+    "sma50": 151.59,
     "sma50Signal": "above",
-    "sma200": 163.43,
-    "sma200Signal": "below",
-    "rsi": 55.0,
+    "sma200": 125.0,
+    "sma200Signal": "above",
+    "rsi": 58.0,
     "rsiSignal": "neutral"
   },
+
   "overallOpinion": [
-    "Maven AI가 미군 공식 핵심 시스템으로 채택된 소식에 PLTR이 하루 만에 +6.78% 급등했다. 이란 휴전 릴리프 랠리까지 겹치면서 $160.90에 마감, 50일선($152)을 돌파했다",
-    "영국 FCA 트라이얼은 방산 외 정부 분야 확장의 중요한 신호다. 금융규제, 사기 탐지 같은 민감 데이터 분석으로 영역을 넓히고 있다",
-    "50일선을 돌파했지만 200일선($163)이 바로 위에 있다. RSI 55로 아직 과열은 아니다. 펀더멘털 모멘텀이 강하지만 밸류에이션(P/E 256배)은 여전히 부담. 조정 시 분할 매수가 합리적이다"
+    "Pentagon이 Maven AI를 미군 전체에 정식 채택하면서 PLTR이 하루 만에 6.78% 급등, $160.90에 마감했다. 영국 FCA 금융규제 트라이얼까지 확보해 성장 다각화를 입증했다.",
+    "FY26 매출 가이던스 $7.19B~$7.41B(+60~65%)로 성장 가속 중이다. 다만 Forward P/E 125x, P/S 44x는 실적이 기대에 못 미치면 급락할 수 있는 밸류에이션이다.",
+    "50일 평균($152) 위로 올라섰고, 200일 평균($125)에서도 여유가 있다. Wedbush 목표가 $230(+43%) 대비 상승 여력이 있지만, 컨센서스 $150은 현재가보다 낮다."
   ],
+
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "Maven 정식 채택, 영국 FCA 확장, +65% 성장 가속으로 펀더멘털은 최강이다. P/E 256배와 이란 휴전에 따른 방산 수요 둔화 가능성은 리스크지만, 대안 없는 방산 AI 독점 기업이라는 점에서 조정 시 분할 매수.",
-    "horizon": "12~18개월"
+    "stance": "hold",
+    "summary": "Maven 정식 채택은 Palantir 역사상 가장 중요한 이정표다. 하지만 Forward P/E 125x는 완벽한 실행을 전제로 한 가격이다. 성장 스토리는 강력하지만 밸류에이션 리스크를 감안해 기존 보유자는 유지, 신규 진입은 조정 시 분할 매수가 안전하다.",
+    "horizon": "3-6개월 (Q1 2026 실적 발표 후 재평가)"
   },
+
   "sources": [
-    {"name": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/news/2026/03/23/pentagon-picks-palantir-stock-surges", "description": "Maven 정식 채택에 PLTR +5.8% 급등 보도"},
-    {"name": "CNBC", "url": "https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html", "description": "이란 휴전 릴리프 랠리 보도"},
-    {"name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data", "description": "영국 FCA, Palantir 3개월 트라이얼 계약"},
-    {"name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/23/palantirs-stock-valuation-still-looks-absurd-heres/", "description": "'밸류에이션 터무니없지만 대안 없다' 분석"},
-    {"name": "New York Times", "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html", "description": "Palantir 이란 전쟁 실전 투입 보도"},
-    {"name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/", "description": "Maven 정식 채택 후 주가 상승 분석"},
-    {"name": "Quiver Quantitative", "url": "https://www.quiverquant.com/news/Palantir+rises+5.7%25+as+new+UK+regulator+AI+trial+reinforces+government-demand+narrative", "description": "PLTR +5.7% 상승, FCA 트라이얼이 정부 수요 내러티브 강화"},
-    {"name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21명 애널리스트 컨센서스 목표가 $196.43"},
-    {"name": "Google Finance", "url": "https://www.google.com/finance/quote/PLTR:NASDAQ", "description": "PLTR $160.90 종가, 애프터마켓 $161.04"},
-    {"name": "Economic Times", "url": "https://economictimes.indiatimes.com/news/international/us/palantir-stock-surges-over-5-today-why-wedbush-analyst-dan-ives-predicts-pltr-stock-could-hit-230-this-year/articleshow/129758759.cms", "description": "Wedbush Dan Ives $230 목표가 유지, '방산 AI 핵심' 평가"}
+    { "name": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/", "description": "Maven program of record 지정 및 주가 급등" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/03/23/why-palantir-stock-just-popped/", "description": "PLTR 급등 원인 분석 및 영국 FCA 트라이얼" },
+    { "name": "ts2.tech", "url": "https://ts2.tech/en/stock-market-today-23-03-2026/", "description": "3/23 시장 요약 및 Maven 뉴스" },
+    { "name": "TECHi", "url": "https://www.techi.com/palantir-stock/", "description": "PLTR 밸류에이션 분석 및 애널리스트 타겟" },
+    { "name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/12/palantir-is-down-27-is-this-a-breakdown-or-a-buying-opportunity/", "description": "27% 하락 분석 및 Forward P/E 125x" },
+    { "name": "TradersUnion", "url": "https://tradersunion.com/news/financial-news/show/1769323-palantir-rises-5-57percent-to-usd159-05/", "description": "주가 상승 분석 및 기술적 전망" },
+    { "name": "Historical Option Data", "url": "https://historicaloptiondata.com/pltr-trading-analysis-03-20-2026-0214-pm/", "description": "SMA, 기술적 분석 데이터" },
+    { "name": "StockInvest.us", "url": "https://stockinvest.us/stock/PLTR", "description": "52주 고저, 시가총액" },
+    { "name": "Simply Wall St.", "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies", "description": "실적 성장률 및 재무 분석" },
+    { "name": "Tickeron", "url": "https://tickeron.com/ticker/PLTR/", "description": "기술적 지표 및 모멘텀 분석" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "미군이 공식 채택했다. PLTR +6.78% 급등",
-      "text": "$PLTR (3/24) Pentagon이 Maven AI를 미군 공식 시스템으로 채택. 하루 만에 +6.78% 급등, $160.90. 영국 FCA 트라이얼까지 확보.\n\n1/4",
+      "hook": "Pentagon이 Maven AI를 정식 채택, PLTR 하루 +6.78%",
+      "text": "$PLTR (3/24) Pentagon이 Maven AI를 미군 전체에 정식 채택했다. 하루 만에 6.78% 급등, $160.90 마감.\n\n1/4",
       "thread": [
-        "+65% 성장, 백로그 $11.2B, FCF 마진 47%. 펀더멘털은 AI 섹터 최강. 50일선 돌파.\n\n2/4",
-        "리스크는 밸류에이션(P/E 256배)과 이란 휴전. 전쟁이 끝나면 방산 AI 수요 둔화 가능.\n\n3/4",
-        "200일선($163) 바로 아래. RSI 55 중립. 컨센서스 $196(+22%). 조정 시 분할 매수.\n\n4/4"
+        "영국 금융감독원(FCA)도 Foundry 트라이얼 계약을 체결했다. 방산을 넘어 금융규제까지 확장 중.\n\n2/4",
+        "FY26 매출 가이던스 $7.19B~$7.41B(+60~65%). 문제는 Forward P/E 125x. 완벽한 실행이 필요한 가격이다.\n\n3/4",
+        "50일 평균 위로 복귀. Wedbush 목표가 $230(+43%). 성장은 강하지만 밸류에이션 리스크도 크다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "미군 공식 채택 + 영국 FCA 확장, +6.78% 급등",
-      "text": "$PLTR (3/24) $160.90 (+6.78%)\n\nPentagon이 Maven AI를 정식 채택했고, 영국 FCA가 Foundry 3개월 트라이얼을 시작했다. 이란 휴전 랠리까지 겹쳐 하루 만에 6.78% 급등.\n\n+65% 성장, $11.2B 백로그, FCF 47%. 50일선 돌파. 방산 외 금융규제 분야까지 확장 중.\n\nP/E 256배 부담은 여전하지만, 대안 없는 방산 AI 독점. 컨센서스 $196(+22%). 조정 시 매수."
+      "hook": "Pentagon이 Maven AI를 정식 채택, PLTR 하루 +6.78%",
+      "text": "$PLTR (3/24) $160.90(+6.78%)\n\nPentagon이 Maven AI를 공식 program of record로 지정했다. 미군 전체에 장기 적용이 확정됐다. 영국 FCA도 Foundry 트라이얼을 시작해 금융규제 분야 확장까지 확인됐다.\n\nFY26 매출 가이던스 $7.19B~$7.41B(+60~65%)로 성장 가속 중. 하지만 Forward P/E 125x, P/S 44x는 실행 리스크가 크다.\n\n50일 평균 위 복귀, Wedbush $230(+43%) 대비 상승 여력은 있지만 컨센서스 $150은 현재가보다 낮다. 성장 vs 밸류에이션의 줄다리기다."
     },
     "telegram": {
-      "hook": "Maven 정식 채택에 +6.78% 급등",
-      "text": "Palantir 일일 분석 (3/24)\n\n가격: $160.90 (+6.78%)\n\n핵심 이슈\n- Pentagon Maven AI 미군 공식 시스템 채택\n- 영국 FCA Foundry 3개월 트라이얼 (£30K+/주)\n- 이란 휴전 릴리프 랠리 겹침\n- Wedbush $230, '방산 AI 핵심' 평가\n\n실적 전망\n- FY2026 매출 +65% 가이던스\n- 백로그 $11.2B\n- FCF 마진 47%\n\n주가 위치\n- 50일선($152) 돌파, 200일선($163) 근접\n- RSI 55 중립\n\n목표가: $196 (+22%) | 판정: Buy"
+      "hook": "Pentagon Maven AI 정식 채택, PLTR +6.78%",
+      "text": "Palantir 일일 분석 (3/24)\n\n가격: $160.90 (+6.78%)\n\n핵심 이슈\n- Pentagon, Maven AI를 미군 정식 채택 (program of record)\n- 영국 FCA, Foundry 3개월 트라이얼 계약\n- FY26 매출 가이던스 $7.19B~$7.41B (+60~65%)\n- 이란 전쟁에서 실전 AI 투입 검증\n\n주가 위치\n- 52주 고점 대비 22% 하락\n- 50일 평균($152) 위로 복귀\n- 200일 평균($125) 대비 안정적\n\nWedbush 목표가: $230 (+43%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "미군이 공식 채택했다. PLTR +6.78% 급등",
-          "text": "$PLTR (3/24) Pentagon이 Maven AI를 미군 공식 시스템으로 채택. 하루 만에 +6.78% 급등, $160.90. 영국 FCA 트라이얼까지 확보.\n\n1/4",
-          "thread": ["+65% 성장, 백로그 $11.2B, FCF 마진 47%. 펀더멘털은 AI 섹터 최강. 50일선 돌파.\n\n2/4", "리스크는 밸류에이션(P/E 256배)과 이란 휴전. 전쟁이 끝나면 방산 AI 수요 둔화 가능.\n\n3/4", "200일선($163) 바로 아래. RSI 55 중립. 컨센서스 $196(+22%). 조정 시 분할 매수.\n\n4/4"]
+          "hook": "Pentagon이 Maven AI를 정식 채택, PLTR 하루 +6.78%",
+          "text": "$PLTR (3/24) Pentagon이 Maven AI를 미군 전체에 정식 채택했다. 하루 만에 6.78% 급등, $160.90 마감.\n\n1/4",
+          "thread": [
+            "영국 금융감독원(FCA)도 Foundry 트라이얼 계약을 체결했다. 방산을 넘어 금융규제까지 확장 중.\n\n2/4",
+            "FY26 매출 가이던스 $7.19B~$7.41B(+60~65%). 문제는 Forward P/E 125x. 완벽한 실행이 필요한 가격이다.\n\n3/4",
+            "50일 평균 위로 복귀. Wedbush 목표가 $230(+43%). 성장은 강하지만 밸류에이션 리스크도 크다.\n\n4/4"
+          ]
         },
         "witty": {
-          "hook": "미군이 '이거 쓴다' 하니까 하루에 +6.78%",
-          "text": "$PLTR (3/24) $160.90 (+6.78%). Pentagon이 Maven을 정식 채택했다. 세계 최강 군대의 AI 공급자가 공식적으로 됐다.\n\n1/4",
-          "thread": ["영국 FCA도 합류. 미군 다음은 금융감독? 고객 명단이 점점 무서워진다.\n\n2/4", "P/E 256배. '비싸다'는 누구나 안다. '대안이 없다'는 것도 안다. 이 교착이 주가다.\n\n3/4", "50일선 돌파, 200일선 코앞. 컨센서스 $196(+22%). 비싼 건지 싼 건지 1년 후에 답.\n\n4/4"]
+          "hook": "미군 전체가 Palantir AI를 쓴다. 경쟁사는 보안 심사부터 다시",
+          "text": "$PLTR (3/24) Pentagon: \"Maven AI, 정식 채택.\" 경쟁사: \"저희도... 보안 심사부터 20년 기다릴게요.\" +6.78%, $160.90.\n\n1/4",
+          "thread": [
+            "영국 금융감독원까지 Palantir를 쓰기 시작했다. 국방에서 금융까지, Palantir가 못 하는 건 싸게 파는 것뿐이다.\n\n2/4",
+            "매출 성장 60~65%는 대단하다. Forward P/E 125x도 대단하다. 문제는 둘 다 대단하다는 거다.\n\n3/4",
+            "Wedbush 목표가 $230(+43%), 컨센서스 $150(-7%). 이 종목은 의견이 갈릴수록 재밌어진다.\n\n4/4"
+          ]
         },
         "empathy": {
-          "hook": "PLTR 홀더들, 오늘은 축하할 날이다",
-          "text": "$PLTR (3/24) $160.90 (+6.78%). 미군 공식 채택. 하루 6.78% 급등. 참고 기다린 보람이 있다.\n\n1/4",
-          "thread": ["55% 하락 경고도 있었고 P/E 256배 부담도 컸다. 하지만 오늘처럼 펀더멘털이 인정받는 날이 온다.\n\n2/4", "영국 FCA까지 합류했다. 방산 넘어 금융규제로 확장. 이건 진짜 성장 스토리다.\n\n3/4", "50일선 돌파, 200일선 코앞. 컨센서스 $196(+22%). 앞으로가 더 기대된다.\n\n4/4"]
+          "hook": "PLTR 주주들, 오늘은 좋은 날이었다",
+          "text": "$PLTR (3/24) 최근 몇 주 힘들었을 거다. 52주 고점에서 27%나 빠졌으니까. 그런데 오늘은 달랐다. +6.78%, $160.90.\n\n1/4",
+          "thread": [
+            "Pentagon이 Maven AI를 정식 채택했다. 이건 Palantir 역사상 가장 중요한 이정표 중 하나다.\n\n2/4",
+            "FY26 매출 60~65% 성장 가이던스도 강하다. 다만 Forward P/E 125x가 부담인 건 사실이다.\n\n3/4",
+            "50일 평균 위로 올라섰다. Wedbush $230(+43%). 장기 투자자라면 버틸 이유가 생긴 날이다.\n\n4/4"
+          ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "미군 공식 채택 + 영국 FCA 확장, +6.78% 급등",
-          "text": "$PLTR (3/24) $160.90 (+6.78%)\n\nPentagon이 Maven AI를 정식 채택했고, 영국 FCA가 Foundry 3개월 트라이얼을 시작했다. 이란 휴전 랠리까지 겹쳐 하루 만에 6.78% 급등.\n\n+65% 성장, $11.2B 백로그, FCF 47%. 50일선 돌파. 방산 외 금융규제 분야까지 확장 중.\n\nP/E 256배 부담은 여전하지만, 대안 없는 방산 AI 독점. 컨센서스 $196(+22%). 조정 시 매수."
+          "hook": "Pentagon이 Maven AI를 정식 채택, PLTR 하루 +6.78%",
+          "text": "$PLTR (3/24) $160.90(+6.78%)\n\nPentagon이 Maven AI를 공식 program of record로 지정했다. 미군 전체에 장기 적용이 확정됐다. 영국 FCA도 Foundry 트라이얼을 시작해 금융규제 분야 확장까지 확인됐다.\n\nFY26 매출 가이던스 $7.19B~$7.41B(+60~65%)로 성장 가속 중. 하지만 Forward P/E 125x, P/S 44x는 실행 리스크가 크다.\n\n50일 평균 위 복귀, Wedbush $230(+43%) 대비 상승 여력은 있지만 컨센서스 $150은 현재가보다 낮다. 성장 vs 밸류에이션의 줄다리기다."
         },
         "witty": {
-          "hook": "미군이 '이거 쓴다' 하니까 주가가 날았다",
-          "text": "$PLTR (3/24) $160.90 (+6.78%)\n\nPentagon Maven 정식 채택. 세계 최강 군대의 AI 공급자가 공식적으로 됐다. 영국 FCA까지 합류.\n\nP/E 256배. 누구나 비싸다고 안다. 하지만 '대안이 없다'는 것도 안다. 이 교착 상태가 곧 주가.\n\n50일선 돌파. 컨센서스 $196(+22%). 비싼 건지 싼 건지 1년 후에 답이 나온다."
+          "hook": "미군 전체가 Palantir AI를 쓴다. 보안 심사 20년의 위력",
+          "text": "$PLTR (3/24) $160.90(+6.78%)\n\nPentagon이 Maven AI를 정식 채택했다. 경쟁사가 따라잡으려면? 보안 심사 20년부터 다시 시작해야 한다. 이게 진짜 해자(moat)다.\n\n영국 금융감독원도 Palantir를 쓰기 시작했다. 국방에서 금융규제까지. 이 회사가 못 하는 건 싸게 파는 것뿐이다. Forward P/E 125x, P/S 44x.\n\n매출 60~65% 성장은 인상적이다. 그 가격표도 인상적이다. Wedbush는 $230(+43%), 컨센서스는 $150(-7%). 모든 의견이 맞을 수는 없다."
         },
         "empathy": {
-          "hook": "기다린 보람이 있다. 미군 공식 채택",
-          "text": "$PLTR (3/24) $160.90 (+6.78%)\n\n55% 하락 경고에도 버텼다면 오늘이 보상이다. Pentagon Maven 정식 채택, 영국 FCA 트라이얼. 펀더멘털이 인정받는 날.\n\n+65% 성장, FCF 47%, 백로그 $11.2B. P/E 256배가 부담이지만 성장이 따라오면 빠르게 정상화된다.\n\n50일선 돌파. 컨센서스 $196(+22%). 앞으로가 더 기대된다."
+          "hook": "PLTR 주주들, 오늘은 좋은 날이었다",
+          "text": "$PLTR (3/24) $160.90(+6.78%)\n\n52주 고점에서 27% 빠지면서 힘들었을 거다. 그런데 오늘은 좋은 날이다. Pentagon이 Maven AI를 미군 전체에 정식 채택했다.\n\n이건 Palantir 역사상 가장 중요한 이정표다. 장기 방산 매출이 확정됐고, 영국 금융감독원 트라이얼까지 확보해 성장 다각화도 증명했다.\n\nForward P/E 125x는 부담이지만, FY26 60~65% 성장 가이던스와 독점적 국방 AI 위치를 감안하면 장기 보유 근거는 충분하다. Wedbush $230(+43%)."
         }
       }
     }

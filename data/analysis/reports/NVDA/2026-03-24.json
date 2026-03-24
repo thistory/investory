@@ -2,8 +2,9 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-24",
-  "currentPrice": 175.68,
-  "marketCap": "$4.27T",
+  "currentPrice": 176.15,
+  "marketCap": "$4.28T",
+
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
     "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 2027년까지 Blackwell과 Rubin 칩 누적 주문 1조 달러 전망을 제시하며 AI 추론 시장 공략을 본격화했다.",
@@ -23,38 +24,16 @@
       "DRIVE"
     ]
   },
+
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "35.9x",
-      "interpretation": "반도체 섹터 평균(약 25x) 대비 44% 프리미엄. S&P 500 평균(약 22x) 대비로도 높지만, 65%+ 매출 성장률을 감안하면 PEG 비율은 약 0.5로 저평가 영역"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "21.2x",
-      "interpretation": "FY27 예상 EPS $8.30 기준. 성장주치고는 상당히 합리적인 수준으로, 향후 이익 성장이 밸류에이션을 빠르게 낮출 전망"
-    },
-    {
-      "name": "매출 (FY26)",
-      "value": "$2,159억",
-      "interpretation": "전년 대비 65% 성장. 데이터센터 AI 가속기가 핵심 동력"
-    },
-    {
-      "name": "순이익 (TTM)",
-      "value": "$1,200억",
-      "interpretation": "순이익률 약 56%. 소프트웨어 수준의 수익성을 하드웨어 사업에서 달성"
-    },
-    {
-      "name": "EPS (TTM)",
-      "value": "$4.90",
-      "interpretation": "전년 대비 67% 성장. FY27 컨센서스 $8.30으로 69% 추가 성장 전망"
-    },
-    {
-      "name": "매출 성장률 (FY27E)",
-      "value": "+71.2%",
-      "interpretation": "애널리스트 69명 컨센서스 기준 FY27 매출 $3,698억 전망"
-    }
+    { "name": "P/E (TTM)", "value": "37x", "interpretation": "반도체 업종 평균(30x)보다 약간 높지만, FY26 매출 65% 성장을 감안하면 PEG 0.57로 합리적. S&P 500 평균(22x) 대비 1.7배" },
+    { "name": "Forward P/E", "value": "30x", "interpretation": "FY27 예상 EPS 기준. 성장률 대비 매력적인 수준" },
+    { "name": "매출 (FY26)", "value": "$2,159억", "interpretation": "전년 대비 65% 성장. Q4 FY26 매출 $681.3억(+73% YoY)으로 분기 최고 기록" },
+    { "name": "순이익률", "value": "55.6%", "interpretation": "소프트웨어급 마진율. 반도체 업계에서 전례 없는 수익성" },
+    { "name": "잉여현금흐름", "value": "$600억+", "interpretation": "GTC 2026에서 사상 최대 주주환원 계획을 발표. 자사주매입과 배당 확대 예고" },
+    { "name": "매출 성장률 (YoY)", "value": "+65%", "interpretation": "FY25 대비. AI 데이터센터 수요 폭발이 원동력. FY27에도 30%+ 성장 전망" }
   ],
+
   "growthDrivers": [
     {
       "title": "2027년까지 AI 칩 누적 주문 1조 달러",
@@ -65,22 +44,23 @@
       "description": "GTC 2026의 핵심 테마인 에이전틱 AI가 GPU뿐 아니라 CPU 수요도 폭발적으로 늘리는 중. Vera CPU로 이 시장 공략"
     },
     {
-      "title": "Vera Rubin 차세대 플랫폼",
-      "description": "Vera Rubin NVL72는 와트당 성능 10배 향상을 약속. 대규모 데이터센터의 전력 효율 문제를 해결하며 차세대 AI 인프라 표준이 될 전망"
+      "title": "에너지 기업 파트너십 (AI 팩토리)",
+      "description": "AES, Constellation Energy, NextEra Energy와 파트너십 체결(3/23). AI 데이터센터를 유연한 전력망 자산으로 운영하는 AI 팩토리 모델 구축"
+    },
+    {
+      "title": "BioNeMo 헬스케어 AI 확장",
+      "description": "GTC 2026에서 Eli Lilly, Recursion 등 제약사와 BioNeMo 플랫폼 협업 발표. 신약 개발 AI로 헬스케어 시장 진출"
     },
     {
       "title": "중국 시장 재진출 (H200 변형칩)",
       "description": "젠슨 황 CEO가 중국향 H200 변형칩 제조를 재개한다고 발표. 중국 AI 시장 접근성 회복으로 추가 매출 기회"
     },
     {
-      "title": "Elliott, Synopsys에 수십억 달러 투자",
-      "description": "엔비디아 파트너사 Synopsys에 행동주의 투자자 Elliott이 대규모 지분을 확보(3/23). 칩 설계 생태계 강화 기대"
-    },
-    {
-      "title": "로봇/피지컬 AI 시장 확대",
-      "description": "GTC 2026에서 로봇 AI에 대한 대규모 투자를 공개. 시뮬레이션, 데이터, 배포까지 아우르는 로봇 AI 풀스택 제공"
+      "title": "사상 최대 주주환원 계획",
+      "description": "GTC 2026에서 자사주매입과 배당 대폭 확대를 예고. FCF $600억+의 여유 자금으로 주주가치 극대화"
     }
   ],
+
   "competitiveAdvantage": {
     "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
     "moats": [
@@ -120,235 +100,137 @@
       }
     ]
   },
+
   "recentNews": [
-    {
-      "date": "2026-03-23",
-      "headline": "Supermicro 공동 창업자, NVIDIA 칩 $2.5B 중국 밀수 혐의로 기소",
-      "significance": "미국 검찰이 Supermicro 공동 창업자를 NVIDIA 칩 탑재 서버 $2.5B 규모 중국 밀수 혐의로 기소. NVIDIA에 직접 혐의는 없지만 수출규제 관련 감시 강화 우려",
-      "url": "https://fortune.com/2026/03/23/supermicro-cofounder-china-nvidia-iran/"
-    },
-    {
-      "date": "2026-03-23",
-      "headline": "이란 휴전 릴리프 랠리에 NVDA +1.69%, 나스닥 사상 최고치",
-      "significance": "트럼프 이란 공격 중단 발표로 시장 전체 급등. 나스닥이 사상 최고치를 경신하며 기술주 전반이 상승. NVDA도 6일 만에 반등",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03232026-11931982"
-    },
-    {
-      "date": "2026-03-23",
-      "headline": "Elliott, NVIDIA 파트너 Synopsys에 수십억 달러 지분 확보",
-      "significance": "행동주의 투자자 Elliott이 칩 설계 대장주 Synopsys에 대규모 투자. NVIDIA가 작년 Synopsys에 $2B 투자한 바 있어 생태계 시너지 기대",
-      "url": "https://www.fool.com/investing/2026/03/23/stock-market-today-live-coverage/"
-    },
-    {
-      "date": "2026-03-22",
-      "headline": "EVP Kress $10.9M, EVP Puri $54.7M 내부자 매도",
-      "significance": "경영진 2명이 총 $65.6M 규모 주식을 매도. 이사 Dabiri($3.4M)에 이어 내부자 매도가 연속되며 투자 심리에 부담",
-      "url": "https://www.investing.com/news/insider-trading-news/nvidia-evp-kress-sells-109-million-in-nvda-stock-93CH-4573996"
-    },
-    {
-      "date": "2026-03-20",
-      "headline": "GTC 2026: 에이전틱 AI가 중심 무대에, 새 칩 2종 발표",
-      "significance": "에이전틱 AI 도구와 칩 발표로 AI의 다음 단계 제시. GPU+CPU 동시 수요 창출",
-      "url": "https://www.cnbc.com/2026/03/20/nvidia-gtc-2026-agentic-ai-chips-tech-download.html"
-    }
+    { "date": "2026-03-23", "headline": "에너지 기업 3사와 AI 팩토리 파트너십 체결, 주가 2% 반등", "significance": "AES, Constellation Energy, NextEra Energy와 협력해 AI 데이터센터를 전력망 자산으로 운영. 에너지 병목 해결 기대", "url": "https://247wallst.com/investing/2026/03/23/nvidias-monday-rebound-what-energy-partnerships-and-bionemo-mean-for-nvda-stock/" },
+    { "date": "2026-03-23", "headline": "Rosenblatt, 매수 의견 재확인 및 목표가 $325 유지", "significance": "GTC 발표 이후에도 긍정적 시각 유지. AI 수요 장기 성장에 대한 확신", "url": "https://www.themarketsdaily.com/2026/03/23/nvidia-nasdaqnvda-given-buy-rating-at-rosenblatt-securities.html" },
+    { "date": "2026-03-23", "headline": "Elliott, 엔비디아 파트너사 Synopsys에 수십억 달러 투자", "significance": "행동주의 투자자 Elliott이 칩 설계 회사 Synopsys에 대규모 지분 확보. 엔비디아 칩 설계 생태계 강화 기대", "url": "https://www.fool.com/investing/breakfast-news/2026/03/23/breakfast-news-elliott-takes-big-synopsys-stake/" },
+    { "date": "2026-03-23", "headline": "GTC 2026에서 사상 최대 주주환원 계획 발표", "significance": "자사주매입과 배당 대폭 확대 예고. FCF $600억+ 활용한 주주가치 극대화 전략", "url": "https://www.fool.com/investing/2026/03/23/predict-nvidia-stock-dividend-raise-2026-buy/" },
+    { "date": "2026-03-16", "headline": "GTC 2026: 2027년까지 AI 칩 주문 1조 달러, Vera Rubin 공개", "significance": "젠슨 황 CEO가 Blackwell+Vera Rubin 누적 주문 1조 달러 전망 발표. 기존 $5,000억에서 2배 상향", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 275.4,
-    "highTarget": 360,
-    "lowTarget": 100,
-    "upsidePercent": 56.8,
-    "buyCount": 36,
-    "holdCount": 1,
+    "consensusTarget": 275.40,
+    "highTarget": 325.0,
+    "lowTarget": 150.0,
+    "upsidePercent": 56.3,
+    "buyCount": 38,
+    "holdCount": 5,
     "sellCount": 1,
-    "notableComment": "Rosenblatt $325, Raymond James $323으로 GTC 이후 목표가 상향. 내부자 매도 $65.6M에도 38명 중 36명이 매수 의견 유지. Motley Fool은 Forward P/E 21배에서 '가치주'일 수 있다고 분석"
+    "notableComment": "Rosenblatt이 매수 의견을 재확인하며 $325 목표가를 유지했다. AI 데이터센터 수요의 장기 성장세와 Vera Rubin의 성능 혁신을 근거로 제시"
   },
+
   "risks": [
-    {
-      "severity": "high",
-      "title": "내부자 매도 연쇄",
-      "description": "EVP Kress($10.9M), EVP Puri($54.7M), 이사 Dabiri($3.4M) 등 경영진이 연이어 주식을 매도. 총 $65.6M+ 규모로 투자 심리에 부담"
-    },
-    {
-      "severity": "high",
-      "title": "Supermicro 밀수 기소로 수출규제 감시 강화",
-      "description": "Supermicro 공동 창업자가 NVIDIA 칩 $2.5B 중국 밀수 혐의로 기소됐다. NVIDIA 직접 혐의는 없지만 수출규제 리스크가 부각"
-    },
-    {
-      "severity": "high",
-      "title": "'Anti-NVIDIA' 동맹 부상",
-      "description": "AMD, Google TPU, Amazon Trainium 등 경쟁사들이 NVIDIA 독점에 조직적으로 대항하는 움직임. 장기적으로 시장 점유율 잠식 가능성"
-    },
-    {
-      "severity": "medium",
-      "title": "GTC 이후 6일 연속 하락 피로감",
-      "description": "GTC에서 1조 달러 파이프라인을 발표했지만 주가는 6일 연속 하락 후 소폭 반등. 차익실현 매물 소화 중"
-    },
-    {
-      "severity": "medium",
-      "title": "AI 투자 사이클 둔화 우려",
-      "description": "하이퍼스케일러들의 AI 인프라 투자가 예상보다 빨리 둔화될 경우, 매출 성장률에 직접적 타격"
-    },
-    {
-      "severity": "low",
-      "title": "Morningstar 234% 프리미엄 경고",
-      "description": "Morningstar 기준 NVDA는 적정가치 대비 234% 프리미엄에 거래중. 가치투자 관점에서는 고평가"
-    }
+    { "severity": "high", "title": "중국 수출 규제 불확실성", "description": "H200 변형칩으로 중국 재진출을 시도하지만, 미중 관계 악화 시 추가 규제 가능성이 있다" },
+    { "severity": "medium", "title": "AI 투자 사이클 둔화 가능성", "description": "클라우드 기업들의 AI 투자가 예상보다 빠르게 정점에 도달하면 수요 감소 위험" },
+    { "severity": "medium", "title": "커스텀 ASIC 경쟁 확대", "description": "Google TPU, Amazon Trainium, Broadcom 커스텀 칩이 대형 고객의 GPU 대체재로 부상 가능" },
+    { "severity": "low", "title": "전력 공급 병목", "description": "AI 데이터센터의 전력 수요 급증. 에너지 파트너십으로 대응 중이나 성장 속도 제약 요인" }
   ],
+
   "buyReasons": [
-    {
-      "title": "AI 칩 1조 달러 시장의 독점적 지위",
-      "rationale": "2027년까지 누적 주문 1조 달러 전망. CUDA 생태계와 풀스택 전략으로 시장의 80%+ 점유율 유지 중"
-    },
-    {
-      "title": "Forward P/E 21x로 성장 대비 저평가",
-      "rationale": "FY27 EPS 69% 성장 전망에 Forward P/E 21x. PEG 비율 0.3 수준으로 성장주 중에서도 매력적"
-    },
-    {
-      "title": "GTC 이후 조정은 역사적으로 매수 기회",
-      "rationale": "6일 연속 하락 후 반등 시작. 2024년에도 GTC 직후 조정 후 결국 상승했다. RSI 35 근처에서 분할 매수 기회"
-    },
-    {
-      "title": "Vera Rubin 차세대 사이클",
-      "rationale": "와트당 10배 성능 향상의 Vera Rubin이 새로운 업그레이드 사이클을 촉발할 전망. 대규모 교체 수요 기대"
-    },
-    {
-      "title": "에이전틱 AI라는 새로운 성장 축",
-      "rationale": "에이전틱 AI가 CPU+GPU 동시 수요를 창출하며 NVIDIA의 TAM을 확장. Vera CPU로 직접 공략"
-    }
+    { "title": "1조 달러 주문 백로그", "rationale": "Blackwell과 Vera Rubin 칩의 2027년까지 누적 주문이 1조 달러. 향후 2년간 매출 가시성이 역대 최고 수준" },
+    { "title": "P/E 37x는 성장 대비 합리적", "rationale": "FY26 매출 65% 성장에 P/E 37x면 PEG 0.57. 고성장 기술주 중에서도 매력적인 밸류에이션" },
+    { "title": "에너지 파트너십으로 성장 병목 해소", "rationale": "AES, Constellation, NextEra와 협력으로 AI 데이터센터 전력 문제를 선제적으로 해결" },
+    { "title": "주주환원 확대", "rationale": "FCF $600억+ 기반 사상 최대 자사주매입과 배당 확대 계획. 가치 투자자에게도 매력 부여" }
   ],
+
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
-    "currentPositionPercent": 70.9,
-    "sma50": 183.0,
+    "currentPositionPercent": 71.3,
+    "sma50": 186.0,
     "sma50Signal": "below",
-    "sma200": 166.0,
+    "sma200": 162.0,
     "sma200Signal": "above",
-    "rsi": 36.5,
+    "rsi": 43.59,
     "rsiSignal": "neutral"
   },
+
   "overallOpinion": [
-    "이란 휴전 소식에 나스닥이 사상 최고치를 경신하면서 NVDA도 6일 만에 반등해 $175.68(+1.69%)에 마감했다. GTC 이후 조정 국면이 일단 멈춘 모습이다",
-    "EVP 2명이 총 $65.6M 주식을 매도하고, Supermicro 밀수 기소로 수출규제 리스크가 부각됐다. 내부자 매도가 이어지는 점은 단기 부담이다",
-    "Forward P/E 21배는 +71% 매출 성장 전망 대비 합리적이다. 38명 중 36명이 매수 의견을 유지하며 컨센서스 $275(+57%). GTC 후 조정은 2024년에도 반복된 패턴이다. 분할 매수 기회로 판단"
+    "GTC 2026에서 Vera Rubin 칩 공개와 1조 달러 주문 전망을 발표했지만, 시장 전체 약세에 52주 고점 대비 17% 하락한 상태다.",
+    "에너지 기업 3사와 AI 팩토리 파트너십, BioNeMo 헬스케어 확장, 주주환원 계획까지 성장 촉매가 풍부하다. 3/23에 2% 반등.",
+    "P/E 37x에 매출 성장률 65%면 PEG 0.57로 고성장주 중에서도 저평가 영역이다. 200일 평균($162) 위에서 안정적이고, 목표가 $275(+56%)의 상승 여력이 크다."
   ],
+
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "내부자 매도와 Supermicro 이슈에도 펀더멘털은 흔들림이 없다. 1조 달러 파이프라인, Forward P/E 21배, 38명 중 36명 매수 의견. GTC 직후 조정은 역사적으로 매수 기회였다.",
-    "horizon": "6~12개월"
+    "summary": "FY26 매출 65% 성장에 P/E 37x는 성장률 대비 합리적이다. 1조 달러 주문 백로그로 2년간 매출 가시성이 확보됐고, 에너지 파트너십, 주주환원 확대까지 촉매가 다양하다. 52주 고점에서 17% 할인된 지금이 분할 매수 기회다.",
+    "horizon": "6개월-1년"
   },
+
   "sources": [
-    {
-      "name": "Fortune",
-      "url": "https://fortune.com/2026/03/23/supermicro-cofounder-china-nvidia-iran/",
-      "description": "Supermicro 공동 창업자 NVIDIA 칩 $2.5B 중국 밀수 기소"
-    },
-    {
-      "name": "Investopedia",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03232026-11931982",
-      "description": "나스닥 사상 최고치, 이란 릴리프 랠리"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/2026/03/23/stock-market-today-live-coverage/",
-      "description": "Elliott, Synopsys 대규모 지분 확보, NVDA +2.21%"
-    },
-    {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/insider-trading-news/nvidia-evp-kress-sells-109-million-in-nvda-stock-93CH-4573996",
-      "description": "EVP Kress $10.9M 내부자 매도"
-    },
-    {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/insider-trading-news/nvidia-evp-puri-sells-547-million-in-nvda-stock-93CH-4573994",
-      "description": "EVP Puri $54.7M 내부자 매도"
-    },
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/20/nvidia-gtc-2026-agentic-ai-chips-tech-download.html",
-      "description": "GTC 2026 에이전틱 AI 발표"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/2026/03/22/is-nvidia-a-value-stock-now/",
-      "description": "Forward P/E 21배에서 NVDA가 가치주일 수 있다는 분석"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "애널리스트 38명 컨센서스, 목표가 $275.40"
-    },
-    {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/NVDA:NASDAQ",
-      "description": "NVDA $175.68 종가, 애프터마켓 $176.13"
-    },
-    {
-      "name": "Meyka",
-      "url": "https://meyka.com/blog/nvda-stock-today-march-23-rival-anti-nvidia-push-meets-fresh-buy-calls-2203/",
-      "description": "Anti-NVIDIA 동맹 부상과 매수 의견 재확인"
-    }
+    { "name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/23/nvidias-monday-rebound-what-energy-partnerships-and-bionemo-mean-for-nvda-stock/", "description": "에너지 파트너십, BioNeMo 뉴스와 주가 반등" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 2026 키노트, 1조 달러 주문 전망" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/03/23/predict-nvidia-stock-dividend-raise-2026-buy/", "description": "사상 최대 주주환원 계획 분석" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/03/21/prediction-this-will-be-nvidias-stock-price-by-the/", "description": "FY27 매출 전망과 주가 예측" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-could-hit-340-2031-170507933.html", "description": "FY26 실적 및 장기 전망" },
+    { "name": "Markets Daily", "url": "https://www.themarketsdaily.com/2026/03/23/nvidia-nasdaqnvda-given-buy-rating-at-rosenblatt-securities.html", "description": "Rosenblatt 매수 의견 및 $325 목표가" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/breakfast-news/2026/03/23/breakfast-news-elliott-takes-big-synopsys-stake/", "description": "Elliott의 Synopsys 대규모 투자" },
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 공식 뉴스 및 BioNeMo 발표" },
+    { "name": "StockInvest.us", "url": "https://stockinvest.us/stock/NVDA", "description": "52주 고저, 시가총액, 주가 데이터" },
+    { "name": "Financhill", "url": "https://financhill.com/stock-price-chart/nvda-technical-analysis", "description": "RSI 및 기술적 분석 지표" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "내부자 $65.6M 매도, Supermicro 밀수 기소에도 반등",
-      "text": "$NVDA (3/24) 이란 휴전에 나스닥 사상 최고치. NVDA도 6일 만에 반등, $175.68(+1.69%). EVP 2명이 $65.6M 매도하고 Supermicro 밀수 기소까지.\n\n1/4",
+      "hook": "GTC에서 1조 달러 주문 전망, 그런데 아직 17% 할인 중",
+      "text": "$NVDA (3/24) GTC 2026에서 AI 칩 주문 1조 달러 전망을 발표했지만, 시장 약세에 52주 고점 대비 17% 할인 중. $176.15.\n\n1/4",
       "thread": [
-        "Forward P/E 21배, +71% 성장. 38명 중 36명 매수 의견. 내부자 매도 규모($65.6M)는 $4.3T 시총 대비 0.0015%에 불과.\n\n2/4",
-        "Supermicro 밀수로 수출규제 감시가 강화될 수 있다. NVIDIA 직접 혐의는 없지만 지정학 리스크는 실재한다.\n\n3/4",
-        "RSI 36.5, 200일선($166) 위 지지. 50일선($183) 회복이 다음 관건. 목표가 $275(+57%). 분할 매수.\n\n4/4"
+        "에너지 기업 3사(AES, Constellation, NextEra)와 AI 팩토리 파트너십 체결. 전력 병목 해결 + 새 사업 모델.\n\n2/4",
+        "P/E 37x에 매출 성장 65%. PEG 0.57이면 고성장주 중에서도 저평가다. FCF $600억+로 주주환원도 확대.\n\n3/4",
+        "200일 평균($162) 위에서 안정적. 애널리스트 목표가 $275(+56%). 지금이 분할 매수 구간이다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "내부자 $65.6M 매도에도 반등 시작",
-      "text": "$NVDA (3/24) $175.68 (+1.69%)\n\n이란 휴전에 나스닥이 사상 최고치를 경신하면서 NVDA도 6일 만에 반등. EVP Kress($10.9M)와 Puri($54.7M) 총 $65.6M 매도, Supermicro 밀수 기소까지 겹쳤다.\n\nForward P/E 21배, +71% 성장. 내부자 매도 규모는 시총 대비 미미. 38명 중 36명 매수 유지.\n\nRSI 36.5, 200일선($166) 위 지지. 목표가 $275(+57%). GTC 후 조정은 반복된 패턴이다."
+      "hook": "GTC에서 1조 달러 주문 전망, 그런데 아직 17% 할인 중",
+      "text": "$NVDA (3/24) $176.15(+2%)\n\nGTC 2026에서 Vera Rubin 공개, AI 칩 주문 1조 달러 전망, 사상 최대 주주환원 계획까지 나왔다. 그런데 시장 전체가 약해서 52주 고점 대비 17% 할인 중이다.\n\n에너지 기업 3사와 AI 팩토리 파트너십을 맺어 전력 병목도 해결하기 시작했다. BioNeMo로 신약 개발 AI 시장에도 진출했다.\n\nP/E 37x에 매출 성장 65%면 PEG 0.57. 200일 평균 위에서 안정적이고, 목표가 $275(+56%). 지금이 분할 매수 기회다."
     },
     "telegram": {
-      "hook": "6일 하락 후 반등, 내부자 매도 $65.6M",
-      "text": "NVIDIA 일일 분석 (3/24)\n\n가격: $175.68 (+1.69%)\n\n핵심 이슈\n- 이란 휴전 릴리프 랠리, 나스닥 사상 최고치\n- EVP Kress/Puri 내부자 매도 총 $65.6M\n- Supermicro 공동 창업자 NVIDIA칩 밀수 기소\n- Elliott, Synopsys에 수십억 달러 투자\n\n밸류에이션\n- Forward P/E 21x (성장률 71% 대비 합리적)\n- FY27 매출 $3,698억 전망\n- 38명 중 36명 매수 의견\n\n주가 위치\n- RSI 36.5\n- 200일선($166) 위, 50일선($183) 아래\n\n목표가: $275 (+57%) | 판정: Buy"
+      "hook": "GTC에서 1조 달러 주문 전망, 17% 할인 중",
+      "text": "NVIDIA 일일 분석 (3/24)\n\n가격: $176.15 (+2%)\n\n핵심 이슈\n- GTC 2026: Vera Rubin 공개, 1조 달러 주문 전망\n- 에너지 기업 3사와 AI 팩토리 파트너십\n- 사상 최대 주주환원 계획 발표\n- Elliott, Synopsys에 대규모 투자\n\n주가 위치\n- 52주 고점 대비 17% 하락\n- RSI 44, 중립\n- 200일 평균($162) 위에서 안정적\n\n목표가: $275 (+56%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "내부자 $65.6M 매도, Supermicro 밀수 기소에도 반등",
-          "text": "$NVDA (3/24) 이란 휴전에 나스닥 사상 최고치. NVDA도 6일 만에 반등, $175.68(+1.69%). EVP 2명이 $65.6M 매도하고 Supermicro 밀수 기소까지.\n\n1/4",
+          "hook": "GTC에서 1조 달러 주문 전망, 그런데 아직 17% 할인 중",
+          "text": "$NVDA (3/24) GTC 2026에서 AI 칩 주문 1조 달러 전망을 발표했지만, 시장 약세에 52주 고점 대비 17% 할인 중. $176.15.\n\n1/4",
           "thread": [
-            "Forward P/E 21배, +71% 성장. 38명 중 36명 매수 의견. 내부자 매도 규모($65.6M)는 $4.3T 시총 대비 0.0015%에 불과.\n\n2/4",
-            "Supermicro 밀수로 수출규제 감시가 강화될 수 있다. NVIDIA 직접 혐의는 없지만 지정학 리스크는 실재한다.\n\n3/4",
-            "RSI 36.5, 200일선($166) 위 지지. 50일선($183) 회복이 다음 관건. 목표가 $275(+57%). 분할 매수.\n\n4/4"
+            "에너지 기업 3사(AES, Constellation, NextEra)와 AI 팩토리 파트너십 체결. 전력 병목 해결 + 새 사업 모델.\n\n2/4",
+            "P/E 37x에 매출 성장 65%. PEG 0.57이면 고성장주 중에서도 저평가다. FCF $600억+로 주주환원도 확대.\n\n3/4",
+            "200일 평균($162) 위에서 안정적. 애널리스트 목표가 $275(+56%). 지금이 분할 매수 구간이다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "경영진은 팔고 애널리스트는 사라 한다, 시즌 2",
-          "text": "$NVDA (3/24) $175.68(+1.69%). EVP 2명이 $65.6M 팔았다. 이번 주만 경영진 3명이 $69M 처분. 근데 36명의 애널리스트는 매수라고.\n\n1/4",
+          "hook": "AI 칩 주문이 1조 달러인데 주가는 왜 빠졌을까",
+          "text": "$NVDA (3/24) 젠슨 황: \"주문 1조 달러요.\" 시장: \"네, 알겠습니다\" (주가 17% 할인). AI 버블 논쟁 중에도 실적은 역대급. $176.15.\n\n1/4",
           "thread": [
-            "Supermicro가 NVIDIA 칩 $2.5B 밀수로 기소. NVIDIA 잘못은 아닌데 제품이 너무 잘 팔려서 생긴 문제라니.\n\n2/4",
-            "Forward P/E 21배에 +71% 성장. 이 숫자면 '가치주'라는 Motley Fool 분석이 나올 만하다.\n\n3/4",
-            "RSI 36.5, 200일선 위. 목표가 $275(+57%). GTC 후 세일은 연례행사. 이번에도 결국 올라간다.\n\n4/4"
+            "전기 걱정? 에너지 기업 3곳과 손잡았다. AI 팩토리가 전력을 먹으면, 전력 회사랑 같이 벌면 된다.\n\n2/4",
+            "P/E 37x에 매출 65% 성장. 테슬라(351x)가 부러워할 숫자다. FCF $600억+는 현금 인쇄기 수준.\n\n3/4",
+            "목표가 $275(+56%). 시장이 AI에 질려서 할인해준 거라면, 그건 선물이다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "6일 하락 후 드디어 반등, 내부자 매도는 신경 쓰이지만",
-          "text": "$NVDA (3/24) $175.68(+1.69%). GTC 이후 6일 연속 빠져서 답답했을 거다. 내부자까지 $65.6M 매도하니 불안했겠지만 드디어 반등.\n\n1/4",
+          "hook": "NVDA 주주라면 GTC 이후에도 답답했을 거다",
+          "text": "$NVDA (3/24) GTC에서 1조 달러 주문, Vera Rubin 공개, 주주환원까지 다 나왔는데 주가가 안 올라서 답답했을 거다. $176.15.\n\n1/4",
           "thread": [
-            "경영진 매도 $65.6M은 $4.3T 시총 대비 0.0015%. 나무보다 숲을 보자. 36명 매수 의견 건재.\n\n2/4",
-            "Supermicro 이슈는 NVIDIA 잘못이 아니다. 수출규제 리스크는 있지만 1조 달러 파이프라인은 그대로.\n\n3/4",
-            "RSI 36.5, 200일선 위 지지. 목표가 $275(+57%). 시간이 좀 걸리겠지만 방향은 분명하다.\n\n4/4"
+            "시장 전체가 약세라 엔비디아만의 문제가 아니다. 52주 고점에서 17% 빠졌지만 실적은 역대급이다.\n\n2/4",
+            "P/E 37x에 매출 성장 65%. 이 정도면 할인된 가격이라 봐야 한다. 에너지 파트너십으로 성장 병목도 해결 중.\n\n3/4",
+            "200일 평균 위에서 안정적이고, 목표가 $275(+56%). 장기 투자자라면 지금 구간이 기회일 수 있다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "내부자 $65.6M 매도에도 반등 시작",
-          "text": "$NVDA (3/24) $175.68 (+1.69%)\n\n이란 휴전에 나스닥이 사상 최고치를 경신하면서 NVDA도 6일 만에 반등. EVP Kress($10.9M)와 Puri($54.7M) 총 $65.6M 매도, Supermicro 밀수 기소까지 겹쳤다.\n\nForward P/E 21배, +71% 성장. 내부자 매도 규모는 시총 대비 미미. 38명 중 36명 매수 유지.\n\nRSI 36.5, 200일선($166) 위 지지. 목표가 $275(+57%). GTC 후 조정은 반복된 패턴이다."
+          "hook": "GTC에서 1조 달러 주문 전망, 그런데 아직 17% 할인 중",
+          "text": "$NVDA (3/24) $176.15(+2%)\n\nGTC 2026에서 Vera Rubin 공개, AI 칩 주문 1조 달러 전망, 사상 최대 주주환원 계획까지 나왔다. 그런데 시장 전체가 약해서 52주 고점 대비 17% 할인 중이다.\n\n에너지 기업 3사와 AI 팩토리 파트너십을 맺어 전력 병목도 해결하기 시작했다. BioNeMo로 신약 개발 AI 시장에도 진출했다.\n\nP/E 37x에 매출 성장 65%면 PEG 0.57. 200일 평균 위에서 안정적이고, 목표가 $275(+56%). 지금이 분할 매수 기회다."
         },
         "witty": {
-          "hook": "경영진 $65.6M 매도, 근데 36명은 사라고 한다",
-          "text": "$NVDA (3/24) $175.68 (+1.69%)\n\n이번 주 경영진 3명이 $69M을 처분. Supermicro는 NVIDIA 칩 밀수로 기소. 근데 Forward P/E 21배에 +71% 성장이면 '가치주'라는 분석이 나온다.\n\n$4.3T 기업에서 $65.6M 매도는 지갑에서 동전 하나 빠지는 수준. GTC 후 세일은 연례행사.\n\n목표가 $275(+57%). 이번에도 결국 올라간다."
+          "hook": "AI 칩 주문이 1조 달러인데 주가는 왜 빠졌을까",
+          "text": "$NVDA (3/24) $176.15(+2%)\n\n젠슨 황이 GTC에서 1조 달러 주문을 자랑했는데, 시장은 \"네, 다음\" 반응이다. 52주 고점에서 17% 빠졌다.\n\n그런데 숫자를 보면 할인이 맞다. P/E 37x에 매출 65% 성장, PEG 0.57. 테슬라(P/E 351x)가 보면 부러워할 수준이다. FCF $600억+는 반도체판 현금 인쇄기.\n\n에너지 회사들과 AI 팩토리를 같이 짓고, 제약사와 신약 AI를 같이 만든다. 이 회사는 매출 다각화까지 챙기는 중이다. 목표가 $275(+56%)."
         },
         "empathy": {
-          "hook": "6일 하락 후 드디어 반등, 숨통이 트였다",
-          "text": "$NVDA (3/24) $175.68 (+1.69%)\n\nGTC 이후 6일 연속 빠지고, 경영진 $65.6M 매도까지. 들고 있으면 답답했을 거다. 오늘 드디어 반등.\n\nSupermicro 이슈는 NVIDIA 잘못이 아니다. 1조 달러 파이프라인, +71% 성장. 펀더멘털은 건재.\n\n목표가 $275(+57%). 시간이 좀 걸리겠지만 방향은 분명하다."
+          "hook": "NVDA 주주라면 GTC 이후에도 답답했을 거다",
+          "text": "$NVDA (3/24) $176.15(+2%)\n\nGTC에서 좋은 소식이 쏟아졌는데 주가가 시원하게 안 오르면 답답하다. 52주 고점에서 17% 빠진 상태니까.\n\n그런데 실적을 보면 불안할 이유가 없다. 매출 65% 성장, 순이익률 55%, 1조 달러 주문 백로그. 시장 전체가 약세일 뿐이다.\n\n에너지 파트너십으로 전력 문제도 선제 대응 중이다. P/E 37x에 목표가 $275(+56%). 장기 투자자라면 오히려 이 구간이 기회다."
         }
       }
     }

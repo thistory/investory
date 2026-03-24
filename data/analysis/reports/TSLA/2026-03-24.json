@@ -3,7 +3,8 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-24",
   "currentPrice": 380.83,
-  "marketCap": "$1.22T",
+  "marketCap": "$1.43T",
+
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
     "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
@@ -25,38 +26,16 @@
       "Roadster"
     ]
   },
+
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "352.6x",
-      "interpretation": "S&P 500 평균 P/E 약 24배, 자동차 섹터 평균 약 12배 대비 극단적으로 높음. AI/로봇/자율주행 프리미엄이 반영된 것이나, 실적 뒷받침 없이는 부담스러운 수준"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "169.2x",
-      "interpretation": "2026년 예상 EPS $2.25 기준. 여전히 높지만 TTM 대비 절반 수준으로, 시장이 실적 반등을 기대하는 중"
-    },
-    {
-      "name": "매출 (TTM)",
-      "value": "$94.83B",
-      "interpretation": "전년 대비 2.93% 감소. UBS는 Q1 인도량을 345K로 하향해 매출 회복에 의문을 제기했다"
-    },
-    {
-      "name": "매출총이익률",
-      "value": "18.03%",
-      "interpretation": "가격 경쟁 영향으로 전통 자동차 OEM 수준. 에너지 사업 확대와 FSD 구독이 마진 개선 열쇠"
-    },
-    {
-      "name": "잉여현금흐름 (FCF)",
-      "value": "$6.22B",
-      "interpretation": "설비투자 85.3억 달러 집행 후에도 건전한 현금 창출. Cybercab, Terafab 투자 여력 충분"
-    },
-    {
-      "name": "부채비율 (D/E)",
-      "value": "0.18",
-      "interpretation": "순현금 293억 달러 보유. 재무건전성 최상위 수준"
-    }
+    { "name": "P/E (TTM)", "value": "351x", "interpretation": "S&P 500 평균(22x) 대비 16배, 자동차 업종 평균(15x) 대비 23배 높다. AI, 로보택시 등 미래 성장을 극단적으로 선반영한 밸류에이션" },
+    { "name": "Forward P/E", "value": "132x", "interpretation": "2026년 예상 EPS $2.81 기준. 같은 기술 성장주인 NVDA(37x)보다 3.5배 비싸다" },
+    { "name": "매출 (TTM)", "value": "$948억", "interpretation": "전년 대비 -3.1% 역성장. 자동차 부문 매출 감소가 원인이지만 에너지 저장 부문이 급성장 중" },
+    { "name": "영업이익률", "value": "4.0%", "interpretation": "가격 인하 경쟁과 신규 사업 투자로 마진 압박. 2024년 대비 하락" },
+    { "name": "잉여현금흐름(FCF)", "value": "$37.3억", "interpretation": "Capex $200억+ 계획 대비 현금 창출력이 부족. 대규모 투자 시기" },
+    { "name": "ROE", "value": "4.93%", "interpretation": "S&P 500 평균(18%) 대비 낮다. 대규모 설비 투자 때문" }
   ],
+
   "growthDrivers": [
     {
       "title": "Terafab $20~25B 합작 반도체 공장 런칭 (3/21)",
@@ -83,6 +62,7 @@
       "description": "2026년 1-2월 중국 판매 전년 대비 35% 증가. 세계 최대 EV 시장에서의 성장세 지속"
     }
   ],
+
   "competitiveAdvantage": {
     "summary": "미국 EV 시장 50%+ 점유율, FSD 84억 마일 데이터, Supercharger NACS 표준 장악, Samsung AI6 파운드리 계약으로 AI 칩 내재화",
     "moats": [
@@ -122,235 +102,138 @@
       }
     ]
   },
+
   "recentNews": [
-    {
-      "date": "2026-03-23",
-      "headline": "트럼프 이란 공격 중단 발표에 시장 릴리프 랠리, TSLA +3.50%",
-      "significance": "트럼프 대통령이 이란과 '생산적 대화'를 했고 발전소 공격을 보류한다고 발표하면서 시장 전체가 급등했다. 다우 +600pt, S&P 500 +1.16%. 테슬라도 2026년 최저가($367.96)에서 반등",
-      "url": "https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html"
-    },
-    {
-      "date": "2026-03-23",
-      "headline": "Trip Chowdry, 테슬라 $150 목표가로 다운그레이드, AI 전략에 우려",
-      "significance": "Global Equities Research의 Trip Chowdry가 AI 전략에 대한 우려를 이유로 테슬라 목표가를 $150으로 제시하며 다운그레이드. 극단적 약세 의견",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-tesla-rises-on-joint-venture-plans-to-build-a-semiconductor-plant-for-ai-chip-production/"
-    },
-    {
-      "date": "2026-03-23",
-      "headline": "SpaceX 합병 시 $750B 가치 훼손 경고, 프리마켓에서 하락 후 반등",
-      "significance": "SpaceX-xAI 합병 이후 테슬라와의 3사 합병 가능성에 한 애널리스트가 $750B 가치 훼손을 경고. 프리마켓 하락 후 이란 뉴스에 반등",
-      "url": "https://stocktwits.com/news-articles/markets/equity/tesla-stock-slips-premarket-analyst-warns-spacex-merger-could-erase-750b-value/cZ3md5xRI0G"
-    },
-    {
-      "date": "2026-03-22",
-      "headline": "Terafab 실현 가능성 논란, 애널리스트 '3개 기업만 이 규모 칩 생산 가능'",
-      "significance": "Electrek은 Terafab을 'Battery Day 재탕'으로 비판. 전문가들은 TSMC, Samsung, Intel만이 이 규모 칩 생산이 가능하다고 지적",
-      "url": "https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/"
-    },
-    {
-      "date": "2026-03-19",
-      "headline": "Uber, Rivian에 $1B+ 투자해 로보택시 5만대 배치 계획 발표",
-      "significance": "Rivian R2 자율주행 차량 1만대를 2028년 샌프란시스코, 마이애미에 배치 예정. 테슬라 Cybercab의 직접 경쟁자로 부상",
-      "url": "https://electrek.co/2026/03/19/uber-rivian-partner-deploy-r2-robotaxis/"
-    }
+    { "date": "2026-03-23", "headline": "Terafab 반도체 공장 소식에 주가 3.5% 반등, $380.83 마감", "significance": "Tesla, SpaceX, xAI 합작 반도체 공장 뉴스가 다운그레이드 악재를 상쇄하며 반등 촉발", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-tesla-rises-on-joint-venture-plans-to-build-a-semiconductor-plant-for-ai-chip-production/" },
+    { "date": "2026-03-21", "headline": "UBS, Q1 2026 출고량 전망을 345,000대로 18% 하향", "significance": "중국, 독일 등 주요 시장에서 '수요 겨울'이 지속된다며 컨센서스(371,000대) 대비 7% 낮은 전망 제시", "url": "https://www.thestreet.com/investing/stocks/ubs-has-a-message-for-tesla-stock-investors" },
+    { "date": "2026-03-20", "headline": "NHTSA, FSD 조사를 엔지니어링 분석 단계로 격상", "significance": "FSD 안전성에 대한 규제 당국의 심사가 강화되면서 Cybercab 출시 일정에 불확실성 추가", "url": "https://cleantechnica.com/2026/03/20/nhtsa-elevates-tesla-fsd-probe-to-engineering-analysis/" },
+    { "date": "2026-03-20", "headline": "Tesla, 중국산 태양광 장비 $29억 대량 구매 추진", "significance": "태양광 발전 용량 확대를 위한 공격적 투자. 에너지 사업 강화 의지를 보여줌", "url": "https://www.fool.com/investing/breakfast-news/2026/03/20/breakfast-news-tesla-powers-up-solar-ambitions/" },
+    { "date": "2026-03-19", "headline": "NHTSA 규제 강화, Rivian 로보택시 경쟁 등 3대 악재 동시 발생", "significance": "NHTSA 조사 격상, Rivian-Uber 파트너십, 유럽 판매 부진이 동시에 겹쳐 주가 3% 하락", "url": "https://247wallst.com/investing/2026/03/19/tesla-fades-three-big-stories-are-moving-the-stock-today-and-theyre-pulling-in-different-directions/" }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 406.84,
-    "highTarget": 600,
-    "lowTarget": 25.28,
-    "upsidePercent": 6.83,
-    "buyCount": 15,
-    "holdCount": 10,
-    "sellCount": 8,
-    "notableComment": "Trip Chowdry(Global Equities Research)가 $150으로 다운그레이드하며 매도 의견이 8명으로 늘었다. UBS는 $352 Sell, Wedbush는 $600 Outperform 유지. MarketBeat 컨센서스 $406.84"
+    "consensusTarget": 421.61,
+    "highTarget": 550.0,
+    "lowTarget": 135.0,
+    "upsidePercent": 10.7,
+    "buyCount": 18,
+    "holdCount": 14,
+    "sellCount": 9,
+    "notableComment": "UBS는 매도 의견을 유지하며 목표가 $352를 제시했다. Q1 출고 345,000대로 전 분기 대비 18% 감소를 전망하며 '수요 겨울'을 경고"
   },
+
   "risks": [
-    {
-      "severity": "critical",
-      "title": "밸류에이션 부담",
-      "description": "TTM P/E 353배로 S&P 500 평균(24배)의 15배. 자동차 섹터(12배) 대비 30배. 기대에 못 미치는 실적 시 급락 위험"
-    },
-    {
-      "severity": "critical",
-      "title": "SpaceX 합병 리스크",
-      "description": "SpaceX-xAI 합병 이후 테슬라와의 3사 합병 가능성이 부상. 한 애널리스트는 합병 시 테슬라 주주 가치에서 $750B가 사라질 수 있다고 경고했다"
-    },
-    {
-      "severity": "high",
-      "title": "Q1 인도량 급감 우려",
-      "description": "UBS가 Q1 인도 전망을 345K로 하향(컨센서스 371K 대비 -7%, Q4 421K 대비 -18%). 유럽 불매운동과 글로벌 경기 둔화가 원인"
-    },
-    {
-      "severity": "high",
-      "title": "극단적 다운그레이드 등장",
-      "description": "Trip Chowdry가 목표가 $150으로 다운그레이드하며 AI 전략에 근본적 의문을 제기. 매도 의견 애널리스트가 계속 늘고 있다"
-    },
-    {
-      "severity": "high",
-      "title": "로보택시 경쟁 격화",
-      "description": "Uber가 Rivian에 $1B+ 투자해 2028년 로보택시 5만대 배치 계획 발표. Waymo도 확대 중. Cybercab이 시장에 나오기도 전에 경쟁이 치열해지고 있다"
-    },
-    {
-      "severity": "medium",
-      "title": "가격 경쟁 심화",
-      "description": "BYD 등 중국 업체와의 가격 경쟁으로 마진 압박 지속. 매출총이익률 18%로 하락"
-    }
+    { "severity": "critical", "title": "NHTSA FSD 조사 엔지니어링 단계 격상", "description": "FSD에 대한 규제 당국의 정밀 분석이 시작됐다. 리콜 명령이나 기능 제한이 나오면 Cybercab 양산 일정이 크게 지연될 수 있다" },
+    { "severity": "high", "title": "Q1 2026 출고량 급감 우려", "description": "UBS 전망 345,000대는 Q4 2025(421,000대) 대비 18% 감소. 컨센서스(371,000대)에도 못 미칠 가능성이 있다" },
+    { "severity": "high", "title": "극단적 밸류에이션 (P/E 351x)", "description": "TTM P/E 351배는 자동차, 기술주 어느 기준으로 봐도 극단적이다. 실적이 기대에 못 미치면 급락 위험" },
+    { "severity": "medium", "title": "BYD, Xiaomi 등 경쟁 심화", "description": "중국 시장에서 BYD, Xiaomi 등 저가 EV의 공세가 거세다. 유럽에서도 점유율 잠식 진행 중" },
+    { "severity": "medium", "title": "Capex $200억+ 투자 부담", "description": "Terafab, Cybercab 공장 등 대규모 설비 투자가 FCF를 압박. 투자 회수까지 시간이 필요하다" }
   ],
+
   "buyReasons": [
-    {
-      "title": "Physical AI 플랫폼 전환",
-      "rationale": "단순 EV 회사가 아닌 자율주행, 로봇, AI 칩까지 아우르는 플랫폼 기업으로 진화 중. 각 사업이 성공하면 밸류에이션 재평가 가능"
-    },
-    {
-      "title": "2026년 성장 촉매 집중",
-      "rationale": "4월 Cybercab 양산, Roadster 공개, Terafab 가동, Q1 실적(4/21). 단기간 다수 촉매가 주가 상승 모멘텀 제공"
-    },
-    {
-      "title": "FSD 구독 반복매출",
-      "rationale": "84억 마일 데이터 기반 FSD를 월 99달러 구독으로 전환. 차량 판매 이후에도 지속적 수익 창출"
-    },
-    {
-      "title": "재무 건전성",
-      "rationale": "순현금 293억 달러, FCF 62억 달러. 대규모 투자를 감당할 재무 여력 충분"
-    },
-    {
-      "title": "기술적 과매도 구간에서 반등 시작",
-      "rationale": "RSI 31.94에서 3.5% 반등. 2026년 최저가에서 기술적 바닥 형성 가능성. Williams %R -93 극단적 과매도"
-    }
+    { "title": "Terafab 반도체 생태계 진입", "rationale": "Tesla, SpaceX, xAI 합작 $20~25B 반도체 공장은 AI 칩 자체 생산이라는 새로운 성장축. 성공 시 엔비디아 의존에서 탈피하며 원가 혁신 가능" },
+    { "title": "4월 Cybercab/Roadster 쌍두마차", "rationale": "Cybercab 양산 시작과 Roadster 공개가 4월에 동시 진행. 자율주행 상용화와 브랜드 프리미엄 강화 촉매" },
+    { "title": "RSI 34 과매도 영역 진입", "rationale": "52주 고점 대비 24% 하락, RSI 34로 기술적 과매도. 반등 가능성이 높아진 구간" },
+    { "title": "에너지 사업 고성장", "rationale": "Megapack 배치 사상 최대치 기록, $29억 태양광 장비 구매로 에너지 매출 비중 확대 중" }
   ],
+
   "technicalPosition": {
-    "week52High": 488.54,
-    "week52Low": 235.86,
-    "currentPositionPercent": 57.4,
-    "sma50": 417.61,
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 58.5,
+    "sma50": 415.0,
     "sma50Signal": "below",
-    "sma200": 394.08,
+    "sma200": 392.0,
     "sma200Signal": "below",
-    "rsi": 31.94,
-    "rsiSignal": "neutral"
+    "rsi": 33.94,
+    "rsiSignal": "oversold"
   },
+
   "overallOpinion": [
-    "트럼프가 이란 공격을 중단하고 '생산적 대화'를 언급하자 시장 전체가 릴리프 랠리를 펼쳤다. 테슬라도 2026년 최저가($367.96)에서 +3.50% 반등해 $380.83에 마감했다",
-    "Trip Chowdry가 목표가 $150으로 다운그레이드했지만 시장은 무시했다. UBS $352 Sell, Wedbush $600 Outperform 등 애널리스트 의견이 극단적으로 갈리는 상황이다",
-    "4월에 Cybercab 양산, Roadster 공개, Q1 실적 발표가 몰려 있다. RSI 31.94로 과매도 근접 상태에서 반등이 시작됐지만, 50일선($418)과 200일선($394) 모두 아래에 있어 추세 전환은 아직 확인이 필요하다"
+    "UBS가 Q1 출고 전망을 345,000대로 18% 낮추고, 미국 도로교통안전청이 자율주행(FSD) 조사를 정밀 분석 단계로 격상하면서 악재가 겹쳤다.",
+    "Terafab 반도체 공장(Tesla, SpaceX, xAI 합작, $20~25B)과 4월 Cybercab 양산 개시가 반등의 열쇠다. 3/23에는 이 소식에 3.5% 반등했다.",
+    "52주 고점 대비 24% 하락, RSI 34로 과매도 구간이다. 200일 평균($392) 아래에서 거래 중이고, 애널리스트 평균 목표가 $422(+10.7%)까지는 4월 실적과 Cybercab 뉴스가 필요하다."
   ],
+
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "이란 리스크 완화로 기술적 반등이 시작됐지만, UBS 인도 하향, SpaceX 합병 불확실성, $150 다운그레이드 등 악재가 여전하다. 4월 촉매(Cybercab, Roadster, Q1 실적)를 확인한 후 판단하는 것이 현명하다.",
-    "horizon": "3-6개월"
+    "summary": "Q1 출고 급감 우려와 NHTSA FSD 조사 격상이 단기 부담이다. 하지만 Terafab 런칭, 4월 Cybercab 양산, RSI 과매도 등 반등 촉매도 있어 '관망 후 분할매수'가 적절하다. P/E 351x는 4월 실적 발표(4/21)에서 서프라이즈 없이는 정당화하기 어렵다.",
+    "horizon": "1-3개월 (4/21 실적 발표 전후 재평가)"
   },
+
   "sources": [
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html",
-      "description": "트럼프 이란 공격 중단, 시장 릴리프 랠리 보도"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-tesla-rises-on-joint-venture-plans-to-build-a-semiconductor-plant-for-ai-chip-production/",
-      "description": "TSLA $380.83 마감, Trip Chowdry 다운그레이드 보도"
-    },
-    {
-      "name": "Stocktwits",
-      "url": "https://stocktwits.com/news-articles/markets/equity/tesla-stock-slips-premarket-analyst-warns-spacex-merger-could-erase-750b-value/cZ3md5xRI0G",
-      "description": "SpaceX 합병 시 $750B 가치 훼손 경고"
-    },
-    {
-      "name": "Electrek",
-      "url": "https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/",
-      "description": "Terafab 실현 가능성 비판 기사"
-    },
-    {
-      "name": "Electrek",
-      "url": "https://electrek.co/2026/03/19/uber-rivian-partner-deploy-r2-robotaxis/",
-      "description": "Uber-Rivian $1B+ 로보택시 파트너십 발표"
-    },
-    {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
-      "description": "애널리스트 컨센서스 목표가 $406.84"
-    },
-    {
-      "name": "Meyka",
-      "url": "https://meyka.com/blog/tsla-stock-today-march-23-rivianuber-50k-robotaxis-challenge-tesla-2303/",
-      "description": "RSI 31.42, 50일선 $417.61, 200일선 $394.08 기술 분석"
-    },
-    {
-      "name": "TradingKey",
-      "url": "https://www.tradingkey.com/news/Market-Movers/261710079-market-movers-tsla-20260323",
-      "description": "RSI 31.94, Williams %R -93.26 기술적 지표"
-    },
-    {
-      "name": "Investopedia",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03232026-11931982",
-      "description": "3/23 시장 릴리프 랠리 종합 분석"
-    },
-    {
-      "name": "TheStreet",
-      "url": "https://www.thestreet.com/investing/elon-musks-terafab-bet-what-it-means-for-tesla-investors",
-      "description": "Terafab 투자 의미와 컨센서스 ~$408 분석"
-    }
+    { "name": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-tesla-rises-on-joint-venture-plans-to-build-a-semiconductor-plant-for-ai-chip-production/", "description": "3/23 주가 및 Terafab 반도체 공장 뉴스" },
+    { "name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/ubs-has-a-message-for-tesla-stock-investors", "description": "UBS Q1 출고 전망 345,000대로 하향" },
+    { "name": "CleanTechnica", "url": "https://cleantechnica.com/2026/03/20/nhtsa-elevates-tesla-fsd-probe-to-engineering-analysis/", "description": "NHTSA FSD 조사 엔지니어링 분석 격상" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount", "description": "2026년 신저가 및 복합 악재 분석" },
+    { "name": "Historical Option Data", "url": "https://historicaloptiondata.com/tsla-trading-analysis-03-20-2026-1038-am/", "description": "기술적 지표, 밸류에이션, 애널리스트 컨센서스" },
+    { "name": "MEXC Blog", "url": "https://blog.mexc.com/finance/tesla-stock-analysis-2026-is-tsla-s-14-6x-p-s-still-justified-after-the-23-pullback/", "description": "P/S 14.6x 밸류에이션 분석" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/breakfast-news/2026/03/20/breakfast-news-tesla-powers-up-solar-ambitions/", "description": "중국산 태양광 장비 $29억 구매" },
+    { "name": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/19/tesla-fades-three-big-stories-are-moving-the-stock-today-and-theyre-pulling-in-different-directions/", "description": "NHTSA, Rivian, 유럽 판매 3대 악재" },
+    { "name": "StockInvest.us", "url": "https://stockinvest.us/stock/TSLA", "description": "52주 고저, 시가총액, 기술적 분석" },
+    { "name": "Benzinga", "url": "https://www.benzinga.com/money/tesla-stock-price-prediction", "description": "TSLA 주가 예측 및 밸류에이션" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "이란 휴전에 최저가서 반등, $150 다운그레이드는 무시",
-      "text": "$TSLA (3/24) 트럼프가 이란 공격 중단을 발표하자 2026년 최저가에서 +3.50% 반등. $380.83 마감. Trip Chowdry $150 다운그레이드에도 시장은 무시했다.\n\n1/4",
+      "hook": "UBS 출고 전망 18% 하향, 그런데 반도체 공장 소식에 반등",
+      "text": "$TSLA (3/24) UBS가 Q1 출고를 345,000대로 18% 낮췄는데, Terafab 반도체 공장 소식에 3.5% 반등했다. $380.83 마감.\n\n1/4",
       "thread": [
-        "UBS $352 Sell vs Wedbush $600 Outperform. 컨센서스 $407(+7%). 같은 주식인데 의견이 $150에서 $600까지 갈린다.\n\n2/4",
-        "4월에 Cybercab 양산, Roadster 공개, Q1 실적이 몰려 있다. 이 결과가 방향을 결정한다.\n\n3/4",
-        "RSI 31.94 과매도에서 반등 시작. 하지만 50일선($418), 200일선($394) 아래. 추세 전환은 아직 미확인. Hold.\n\n4/4"
+        "NHTSA가 자율주행(FSD) 조사를 정밀 분석으로 올렸다. 4월 Cybercab 양산 일정에 불확실성이 생겼다.\n\n2/4",
+        "Terafab(Tesla, SpaceX, xAI 합작, $20~25B)이 3/21 공식 런칭. AI 칩 자체 생산이란 새 성장축이다.\n\n3/4",
+        "52주 고점 대비 24% 하락, RSI 34 과매도. 애널리스트 목표가 $422(+10.7%). 4/21 실적이 분기점.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "이란 휴전에 최저가서 반등, $150 다운그레이드는 무시",
-      "text": "$TSLA (3/24) $380.83 (+3.50%)\n\n트럼프가 이란 공격을 중단하자 시장 전체가 반등했다. 테슬라도 2026년 최저가($367.96)에서 +3.50% 올라 $380.83에 마감. Trip Chowdry $150 다운그레이드에도 시장은 무시.\n\nUBS $352 Sell vs Wedbush $600. 의견이 극단적으로 갈린다. 4월 Cybercab, Roadster, Q1 실적이 방향을 결정한다.\n\nRSI 31.94 과매도에서 반등 시작. 50일선($418), 200일선($394) 아래. Hold. 컨센서스 $407(+7%)."
+      "hook": "UBS 출고 전망 18% 하향, 그런데 반도체 공장 소식에 반등",
+      "text": "$TSLA (3/24) $380.83(+3.50%)\n\nUBS가 Q1 출고를 345,000대로 18% 낮추고, NHTSA가 FSD 조사를 정밀 분석으로 격상했다. 악재가 겹쳤다.\n\n그런데 Terafab 반도체 공장(Tesla, SpaceX, xAI 합작, $20~25B)이 3/21 런칭하면서 분위기가 반전됐다. 3/23 하루 3.5% 반등.\n\n52주 고점 대비 24% 하락, RSI 34로 과매도 구간. 애널리스트 목표가 $422(+10.7%). 4/21 실적 발표와 4월 Cybercab 양산이 방향을 결정한다."
     },
     "telegram": {
-      "hook": "이란 휴전 릴리프 랠리로 최저가에서 반등",
-      "text": "Tesla 일일 분석 (3/24)\n\n가격: $380.83 (+3.50%)\n\n핵심 이슈\n- 트럼프 이란 공격 중단, 시장 릴리프 랠리\n- Trip Chowdry $150 다운그레이드 (무시됨)\n- SpaceX 합병 $750B 가치 훼손 경고\n- 4월: Cybercab 양산, Roadster 공개, Q1 실적\n\n주가 위치\n- RSI 31.94, 과매도 근접에서 반등\n- 50일선($418), 200일선($394) 아래\n- Williams %R -93 극단적 과매도\n\n목표가: $407 (+7%) | 판정: Hold"
+      "hook": "UBS 출고 전망 18% 하향, 반도체 공장 소식에 반등",
+      "text": "Tesla 일일 분석 (3/24)\n\n가격: $380.83 (+3.50%)\n\n핵심 이슈\n- UBS, Q1 출고 전망 345,000대로 18% 하향\n- NHTSA, FSD 조사 엔지니어링 분석으로 격상\n- Terafab 반도체 공장(합작 $20~25B) 3/21 런칭\n- 4월 Cybercab 양산, Roadster 공개 예정\n\n주가 위치\n- 52주 고점 대비 24% 하락\n- RSI 34, 과매도 구간\n- 200일 평균($392) 아래\n\n목표가: $422 (+10.7%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "이란 휴전에 최저가서 반등, $150 다운그레이드는 무시",
-          "text": "$TSLA (3/24) 트럼프가 이란 공격 중단을 발표하자 2026년 최저가에서 +3.50% 반등. $380.83 마감. Trip Chowdry $150 다운그레이드에도 시장은 무시했다.\n\n1/4",
+          "hook": "UBS 출고 전망 18% 하향, 그런데 반도체 공장 소식에 반등",
+          "text": "$TSLA (3/24) UBS가 Q1 출고를 345,000대로 18% 낮췄는데, Terafab 반도체 공장 소식에 3.5% 반등했다. $380.83 마감.\n\n1/4",
           "thread": [
-            "UBS $352 Sell vs Wedbush $600 Outperform. 컨센서스 $407(+7%). 같은 주식인데 의견이 $150에서 $600까지 갈린다.\n\n2/4",
-            "4월에 Cybercab 양산, Roadster 공개, Q1 실적이 몰려 있다. 이 결과가 방향을 결정한다.\n\n3/4",
-            "RSI 31.94 과매도에서 반등 시작. 하지만 50일선($418), 200일선($394) 아래. 추세 전환은 아직 미확인. Hold.\n\n4/4"
+            "NHTSA가 자율주행(FSD) 조사를 정밀 분석으로 올렸다. 4월 Cybercab 양산 일정에 불확실성이 생겼다.\n\n2/4",
+            "Terafab(Tesla, SpaceX, xAI 합작, $20~25B)이 3/21 공식 런칭. AI 칩 자체 생산이란 새 성장축이다.\n\n3/4",
+            "52주 고점 대비 24% 하락, RSI 34 과매도. 애널리스트 목표가 $422(+10.7%). 4/21 실적이 분기점.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "목표가 $150과 $600이 공존하는 주식",
-          "text": "$TSLA (3/24) $380.83 (+3.50%). 누구는 $150, 누구는 $600. 이 주식의 목표가 차이($450)가 다른 회사 시총보다 크다.\n\n1/4",
+          "hook": "테슬라가 반도체도 만든다고? 그런데 차는 잘 팔리나",
+          "text": "$TSLA (3/24) UBS: \"차 345,000대밖에 못 팔 것.\" 테슬라: \"우리 이제 반도체도 만들어요.\" 시장: +3.5%. $380.83.\n\n1/4",
           "thread": [
-            "이란 휴전에 시장이 반등하니까 테슬라도 같이 올랐다. 자체 호재보다 외부 요인으로 움직이는 주식.\n\n2/4",
-            "4월에 Cybercab, Roadster, 실적까지. 약속은 가득한데 실적은 아직. P/E 353배는 약속값이 비싼 편.\n\n3/4",
-            "RSI 31.94에서 반등. 과매도 코앞에서 살아났다. 50일선($418)까지는 10% 남았다. 기다리자.\n\n4/4"
+            "NHTSA가 자율주행 조사 강도를 높였다. 운전대 없는 차(Cybercab) 팔려면 먼저 시험에 통과해야 하는데.\n\n2/4",
+            "Terafab에 $20~25B 투입. 반도체까지 직접 만들겠다는 건 대단한데, 그 돈은 어디서? FCF가 $37억이다.\n\n3/4",
+            "52주 고점에서 24% 빠졌다. 싸졌다고 볼 수도 있고, P/E 351배를 보면 아직도 비싸다. 4/21 실적이 판결일.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "테슬라 주주들, 드디어 반등 숨통이 트였다",
-          "text": "$TSLA (3/24) $380.83 (+3.50%). 2026년 최저가에서 드디어 반등. 이란 휴전이라는 외부 요인이지만 숨통은 트였다.\n\n1/4",
+          "hook": "테슬라 주주라면 요즘 롤러코스터일 거다",
+          "text": "$TSLA (3/24) 테슬라 주주라면 이번 달 진짜 힘들었을 거다. 52주 고점에서 24% 빠졌으니까. 그래도 오늘은 3.5% 반등, $380.83.\n\n1/4",
           "thread": [
-            "$150 다운그레이드까지 나왔으니 불안했을 거다. 하지만 시장은 무시했다. 21명 중 1명의 극단적 의견일 뿐이다.\n\n2/4",
-            "4월에 진짜 답이 나온다. Cybercab 양산, Q1 실적, Roadster. 기다렸던 촉매들이다.\n\n3/4",
-            "RSI 31.94 과매도에서 반등 시작. 50일선($418)이 다음 목표. 컨센서스 $407(+7%). 조금만 더 버텨보자.\n\n4/4"
+            "UBS가 출고 전망을 18% 낮추고 NHTSA가 FSD 조사를 강화했다. 나쁜 소식이 한꺼번에 왔다.\n\n2/4",
+            "좋은 소식도 있다. Terafab 반도체 공장이 런칭됐고, 4월에 Cybercab 양산과 Roadster 공개가 기다리고 있다.\n\n3/4",
+            "RSI 34로 기술적으로 과매도다. 목표가 $422(+10.7%). 지금 팔기엔 늦었고, 4월 소식을 보고 판단해도 괜찮다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "이란 휴전에 최저가서 반등, $150 다운그레이드는 무시",
-          "text": "$TSLA (3/24) $380.83 (+3.50%)\n\n트럼프가 이란 공격을 중단하자 시장 전체가 반등했다. 테슬라도 2026년 최저가($367.96)에서 +3.50% 올라 $380.83에 마감. Trip Chowdry $150 다운그레이드에도 시장은 무시.\n\nUBS $352 Sell vs Wedbush $600. 의견이 극단적으로 갈린다. 4월 Cybercab, Roadster, Q1 실적이 방향을 결정한다.\n\nRSI 31.94 과매도에서 반등 시작. 50일선($418), 200일선($394) 아래. Hold. 컨센서스 $407(+7%)."
+          "hook": "UBS 출고 전망 18% 하향, 그런데 반도체 공장 소식에 반등",
+          "text": "$TSLA (3/24) $380.83(+3.50%)\n\nUBS가 Q1 출고를 345,000대로 18% 낮추고, NHTSA가 FSD 조사를 정밀 분석으로 격상했다. 악재가 겹쳤다.\n\n그런데 Terafab 반도체 공장(Tesla, SpaceX, xAI 합작, $20~25B)이 3/21 런칭하면서 분위기가 반전됐다. 3/23 하루 3.5% 반등.\n\n52주 고점 대비 24% 하락, RSI 34로 과매도 구간. 애널리스트 목표가 $422(+10.7%). 4/21 실적 발표와 4월 Cybercab 양산이 방향을 결정한다."
         },
         "witty": {
-          "hook": "목표가 $150과 $600이 공존하는 주식",
-          "text": "$TSLA (3/24) $380.83 (+3.50%)\n\n누구는 $150이라 하고 누구는 $600이라 한다. 이 차이만 $450. 테슬라는 주식이 아니라 철학이다.\n\n이란 휴전에 시장이 올려줬다. 자체 호재보다 외부 요인이 더 센 날. P/E 353배는 약속값이 비싼 편.\n\n4월에 답이 나온다. RSI 31.94에서 반등 시작. Hold. 컨센서스 $407(+7%)."
+          "hook": "테슬라가 반도체도 만든다고? 그런데 차는 잘 팔리나",
+          "text": "$TSLA (3/24) $380.83(+3.50%)\n\nUBS: \"차 345,000대밖에 못 팔 것.\" 테슬라: \"우리 이제 반도체도 만들어요.\" 시장은 반도체 쪽 손을 들어줬다.\n\nTerafab에 $20~25B 투입해서 AI 칩을 직접 만들겠다는 건 대단하다. 문제는 FCF가 $37억인데 $200억을 어디서 마련하느냐. NHTSA도 FSD 조사를 강화하는 중이다.\n\n52주 고점에서 24% 빠졌지만 P/E가 351배. 싸진 건 맞는데, 기준이 처음부터 하늘이었다. 4/21 실적에서 답이 나온다."
         },
         "empathy": {
-          "hook": "테슬라 주주들, 드디어 반등 숨통이 트였다",
-          "text": "$TSLA (3/24) $380.83 (+3.50%)\n\n2026년 최저가에서 드디어 반등. $150 다운그레이드까지 나왔으니 힘들었을 텐데 시장은 무시해줬다.\n\n4월에 진짜 승부가 시작된다. Cybercab, Roadster, Q1 실적. 결과가 좋으면 분위기가 확 바뀔 수 있다.\n\nRSI 31.94 과매도에서 반등 시작. Hold. 컨센서스 $407(+7%). 조금만 더 버텨보자."
+          "hook": "테슬라 주주라면 요즘 마음이 편하지 않을 거다",
+          "text": "$TSLA (3/24) $380.83(+3.50%)\n\n52주 고점에서 24% 빠졌으니 테슬라 주주라면 불안할 수밖에 없다. UBS가 출고를 18% 낮추고, NHTSA가 자율주행 조사를 강화했다.\n\n그래도 오늘은 좋은 소식이 있었다. Terafab 반도체 공장이 런칭됐고, 4월에 Cybercab 양산과 Roadster 공개가 예정돼 있다. 완전히 암울한 건 아니다.\n\nRSI 34로 과매도 구간이고, 목표가 $422(+10.7%). 지금 당장 행동할 필요는 없다. 4/21 실적 발표를 보고 판단해도 늦지 않다."
         }
       }
     }
