@@ -3,7 +3,7 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-25",
   "currentPrice": 384.46,
-  "marketCap": "$1.44T",
+  "marketCap": "$1.45T",
 
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
@@ -30,7 +30,7 @@
   "keyMetrics": [
     { "name": "P/E (TTM)", "value": "356x", "interpretation": "S&P 500 평균(22x) 대비 16배 이상. 자동차 업종 평균(10x)과 비교하면 극단적 프리미엄이지만, 테슬라를 AI/로봇/에너지 플랫폼으로 본다면 성장 기대가 반영된 수치" },
     { "name": "Forward P/E (2026E)", "value": "171x", "interpretation": "컨센서스 EPS $2.25 기준. S&P 500 평균 Forward P/E(20x) 대비 여전히 8.5배 높지만, TTM P/E(356x) 대비 절반으로 이익 개선 기대 반영" },
-    { "name": "매출 성장률 (FY2025)", "value": "-2.93%", "interpretation": "전년 대비 매출이 소폭 감소. 2026년 컨센서스는 +15%($108.9B)로 반등 전망" },
+    { "name": "매출 성장률 (FY2025)", "value": "-2.93%", "interpretation": "전년 대비 매출이 소폭 감소. 2026년 컨센서스는 +15%($108.9B)로 반등 전망이나, 애널리스트들이 배송 성장률을 8.2%에서 3.8%로 하향 조정해 불확실성 증가" },
     { "name": "매출총이익률", "value": "18.03%", "interpretation": "Q4 2025에 20.1%까지 회복. 2년 만에 최고치지만 2022년(25.6%) 대비 여전히 낮은 수준" },
     { "name": "영업이익률", "value": "4.59%", "interpretation": "FY2024 7.24%에서 크게 하락. 가격 인하 경쟁과 R&D 투자 확대가 원인" },
     { "name": "FCF (잉여현금흐름)", "value": "$6.22B (+74% YoY)", "interpretation": "현금 창출력이 크게 개선. Terafab, Cybercab 양산 등 대규모 투자에도 여유 있는 현금 흐름" }
@@ -38,24 +38,24 @@
 
   "growthDrivers": [
     {
-      "title": "Terafab $20~25B 합작 반도체 공장 런칭 (3/21)",
-      "description": "Tesla, SpaceX, xAI가 $20~25B를 합작 투자해 오스틴에 Terafab 반도체 공장을 3/21 공식 런칭했다. 연간 1테라와트 컴퓨팅 파워 생산이 목표이며 2027년부터 양산을 시작한다. 다만 Electrek 등은 TSMC, Samsung, Intel만이 이 규모의 칩 생산이 가능하다며 실현 가능성에 의문을 제기했다"
+      "title": "유럽 판매 13개월 만에 반등 (2월 +11.8%)",
+      "description": "ACEA 데이터에 따르면 2월 유럽 등록이 전년 대비 11.8% 증가. 2024년 12월 이후 첫 증가세. 다만 BYD가 같은 기간 100% 이상 성장해 점유율 경쟁은 더 치열해졌다"
     },
     {
-      "title": "Cybercab 4월 양산 시작",
-      "description": "스티어링 휠 없는 완전자율주행 로보택시. NHTSA 인가 진행 중이며, 양산 시작 시 새로운 매출원 개척"
+      "title": "Terafab $20~25B 합작 반도체 공장 (3/22)",
+      "description": "Tesla, SpaceX, xAI가 합작 투자해 오스틴에 Terafab 반도체 공장을 건설한다. 차량용 칩과 AI 위성용 칩 두 종류를 자체 생산할 계획. 2027년 양산 목표이나 실현 가능성에 회의적 시각도 존재"
     },
     {
-      "title": "Roadster 4월 말 공개 예정",
-      "description": "머스크가 3월 17일 '다음 달 공개, 역대급이 될 것'이라고 발표. 브랜드 할로 효과 기대"
+      "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
+      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산 시작과 차세대 Roadster 공개가 4월에 동시 예정. 단기간에 두 가지 대형 카탈리스트 집중"
     },
     {
-      "title": "Samsung AI6 칩 $16.5B 파운드리 계약",
-      "description": "삼성과 차세대 AI 칩 생산 계약 체결. AI 인프라 자체 구축을 통해 엔비디아 의존도 축소"
+      "title": "네덜란드 FSD 승인 4/10 예정, 유럽 확대 기대",
+      "description": "테슬라가 네덜란드 당국에 FSD Supervised 승인을 4월 10일까지 받을 것으로 기대한다고 밝혔다. 승인되면 올 여름 EU 전체로 확대 가능"
     },
     {
-      "title": "유럽 판매 반등 시작 (3/25 보도)",
-      "description": "2024년 12월 이후 처음으로 유럽 등록 데이터가 반등했다. 1년간 이어진 유럽 판매 하락세가 드디어 전환된 신호. 다만 BYD가 유럽에서 162% 성장해 경쟁은 심화 중"
+      "title": "$2.9B 중국 태양광 장비 구매 협상",
+      "description": "미국 내 100GW 태양광 생산 능력 확보를 위해 중국 업체와 $2.9B 장비 구매 협상 중. 에너지 사업 대규모 확장 신호"
     },
     {
       "title": "중국 판매 급증 (+35% YoY)",
@@ -86,11 +86,11 @@
     "competitors": [
       {
         "name": "BYD",
-        "detail": "중국 시장 1위, 유럽에서 162% 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
+        "detail": "중국 시장 1위, 유럽에서 100%+ 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
       },
       {
-        "name": "Rivian",
-        "detail": "Uber와 $1B+ 로보택시 파트너십 체결(3/19). 2028년 R2 자율주행 차량으로 시장 진출 예정"
+        "name": "Zoox (Amazon)",
+        "detail": "SF, 라스베가스에서 로보택시 확대 중. 오스틴, 마이애미 시범 운행도 시작(3/24). 직접적 로보택시 경쟁자"
       },
       {
         "name": "Waymo (Alphabet)",
@@ -104,35 +104,35 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-25", "headline": "유럽 판매 반등: 2024년 12월 이후 첫 증가세", "significance": "1년간 이어진 유럽 판매 하락세가 드디어 전환. 다만 BYD가 유럽에서 162% 급성장하며 점유율 위협", "url": "https://www.tipranks.com/news/tsla-stock-vs-byd-stock-tesla-ends-longest-sales-slide-as-byd-sales-triple-in-europe" },
-    { "date": "2026-03-22", "headline": "Terafab 반도체 공장 런칭: Tesla, SpaceX, xAI 합작 $20~25B 투자", "significance": "오스틴에 자체 반도체 공장 건설 시작. 2027년 양산 목표이나 실현 가능성에 대한 회의론도 존재", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/" },
-    { "date": "2026-03-20", "headline": "중국 태양광 장비 $2.9B 구매 협상: 100GW 미국 생산 목표", "significance": "에너지 사업 대규모 확장 신호. 미국 내 태양광 100GW 생산 능력 확보 추진", "url": "https://electrek.co/2026/03/20/tesla-tsla-2-9-billion-chinese-solar-equipment-100-gw-us-manufacturing/" },
-    { "date": "2026-03-19", "headline": "NHTSA, FSD 시야 제한 상황 조사 강화", "significance": "연방 정부의 자율주행 안전 조사가 심화. Cybercab 인허가 일정에 영향 가능성", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html" },
-    { "date": "2026-03-17", "headline": "Roadster 4월 말 공개 확정, 머스크 '역대급' 예고", "significance": "오랫동안 지연된 차세대 Roadster가 드디어 공개 예정. 브랜드 재활성화 기대", "url": "https://topelectricsuv.com/featured/future-tesla-cars/" }
+    { "date": "2026-03-24", "headline": "유럽 2월 등록 11.8% 증가, 13개월 만에 첫 반등", "significance": "1년 이상 이어진 유럽 판매 하락세가 드디어 전환. 다만 BYD도 100%+ 성장해 점유율 1.8%로 동률", "url": "https://www.reuters.com/business/autos-transportation/european-car-sales-rise-modestly-february-tesla-reverses-year-long-skid-2026-03-24/" },
+    { "date": "2026-03-24", "headline": "Zoox, SF와 라스베가스 로보택시 확대 + 오스틴, 마이애미 시범 운행", "significance": "Amazon 자회사가 로보택시 서비스를 4개 도시로 확대. 테슬라의 Cybercab과 직접 경쟁 구도 형성", "url": "https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/" },
+    { "date": "2026-03-22", "headline": "Terafab 반도체 공장: Tesla, SpaceX, xAI 합작 $20~25B 투자", "significance": "오스틴에 자체 반도체 공장 건설 시작. 차량용 + AI 위성용 칩 자체 생산 목표", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/" },
+    { "date": "2026-03-20", "headline": "$2.9B 중국 태양광 장비 구매 협상, 미국 100GW 생산 목표", "significance": "에너지 사업 대규모 확장 신호. 미국 내 태양광 생산 능력을 획기적으로 늘릴 계획", "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/" },
+    { "date": "2026-03-19", "headline": "NHTSA, FSD 320만대 대상 '엔지니어링 분석' 단계로 조사 격상", "significance": "기존 조사에서 한 단계 격상. 리콜 가능성이 높아졌으며 Cybercab 인허가에도 영향 가능", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 406.84,
+    "consensusTarget": 407.0,
     "highTarget": 500.0,
     "lowTarget": 135.0,
-    "upsidePercent": 5.8,
+    "upsidePercent": 5.9,
     "buyCount": 22,
     "holdCount": 12,
     "sellCount": 7,
-    "notableComment": "MEXC 분석: 평균 목표가 $421, 14.5% 상승여력. P/S 14.6x는 자동차 업종(0.5x)과 비교하면 극단적이지만, AI/로봇/에너지 사업 확장을 감안해야 한다"
+    "notableComment": "Morningstar의 Seth Goldstein은 2026년 배송량이 3년 연속 감소할 수 있다고 경고. 반면 MEXC 분석은 평균 목표가 $421로 14.5% 상승여력을 제시"
   },
 
   "risks": [
     { "severity": "high", "title": "밸류에이션 극단적 프리미엄", "description": "P/E 356x, P/S 14.6x는 모든 비교 기준 대비 극도로 높다. 기대에 못 미치는 실적 시 급락 위험이 크다" },
-    { "severity": "high", "title": "NHTSA FSD 조사 강화", "description": "연방 정부가 시야 제한 상황에서의 FSD 안전성 조사를 강화 중. Cybercab 인허가 지연이나 규제 강화 가능성" },
-    { "severity": "high", "title": "BYD 유럽 162% 급성장", "description": "유럽 판매가 반등했으나 BYD가 3배 가까이 성장하며 점유율을 빼앗고 있다. 가격 경쟁 심화" },
-    { "severity": "medium", "title": "Terafab 실현 가능성 의문", "description": "$20~25B 규모 반도체 공장은 TSMC, Samsung급 기술력이 필요. 업계에서는 타임라인과 기술력에 회의적 시각" },
-    { "severity": "medium", "title": "매출 성장 둔화", "description": "FY2025 매출이 전년 대비 2.93% 감소. 2026년 반등 전망은 있지만 실현 여부 불확실" }
+    { "severity": "high", "title": "NHTSA FSD 조사 '엔지니어링 분석' 격상", "description": "연방 정부가 320만대 대상 조사를 한 단계 올렸다. 리콜 가능성이 커졌고, 자율주행 전략 전체에 영향을 줄 수 있다" },
+    { "severity": "high", "title": "배송 성장 전망 하향", "description": "애널리스트들이 2026년 배송 성장률을 8.2%에서 3.8%로 하향. 일부는 3년 연속 배송 감소를 우려" },
+    { "severity": "medium", "title": "로보택시 경쟁 심화", "description": "Zoox가 4개 도시로 확대하고 Waymo도 계속 성장 중. 테슬라의 Cybercab이 기술적으로 검증되지 않은 상태에서 경쟁이 치열해지고 있다" },
+    { "severity": "medium", "title": "Terafab 실현 가능성 의문", "description": "$20~25B 규모 반도체 공장은 TSMC, Samsung급 기술력이 필요. 업계에서는 타임라인과 기술력에 회의적 시각" }
   ],
 
   "buyReasons": [
-    { "title": "4월 카탈리스트 집중", "rationale": "Cybercab 양산 시작과 Roadster 공개가 모두 4월에 예정. 단기간에 두 가지 대형 이벤트가 집중되어 주가 모멘텀 기대" },
-    { "title": "유럽, 중국 판매 동시 반등", "rationale": "유럽 1년 만에 첫 반등, 중국 +35% YoY. 핵심 시장 두 곳에서 동시에 성장세로 전환" },
+    { "title": "4월 카탈리스트 집중", "rationale": "Cybercab 양산 시작, Roadster 공개, 네덜란드 FSD 승인(4/10)이 모두 4월에 예정. 단기간에 대형 이벤트 집중" },
+    { "title": "유럽, 중국 판매 동시 반등", "rationale": "유럽 13개월 만에 첫 반등(+11.8%), 중국 +35% YoY. 핵심 시장 두 곳에서 동시에 성장세로 전환" },
     { "title": "Terafab + 에너지 사업 확장", "rationale": "$20~25B 반도체 공장과 $2.9B 태양광 장비로 사업 다각화 가속. EV 의존도 축소" },
     { "title": "FCF 급증 (+74%)", "rationale": "잉여현금흐름 $6.22B로 전년 대비 74% 증가. 대규모 투자에도 현금 창출력 검증" }
   ],
@@ -141,99 +141,99 @@
     "week52High": 498.83,
     "week52Low": 214.25,
     "currentPositionPercent": 59.8,
-    "sma50": 400.0,
+    "sma50": 389.0,
     "sma50Signal": "below",
-    "sma200": 370.0,
-    "sma200Signal": "above",
+    "sma200": 402.0,
+    "sma200Signal": "below",
     "rsi": 35.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "유럽 판매가 1년 만에 반등했고, 4월에 Cybercab 양산과 Roadster 공개가 동시에 예정돼 있어 단기 모멘텀이 강하다.",
-    "Terafab 반도체 공장과 $2.9B 태양광 투자로 EV 외 사업을 빠르게 키우고 있지만, NHTSA의 자율주행 조사 강화와 BYD의 유럽 162% 급성장이 부담이다.",
-    "52주 고점($498.83)에서 23% 빠진 $384.46. 200일 평균선($370) 위에서 버티고 있고, RSI 35로 과매도에 가까워 기술적 반등 가능성이 있다."
+    "유럽 판매가 13개월 만에 반등(+11.8%)하고 중국은 35% 성장 중이지만, 애널리스트들은 2026년 배송 성장 전망을 3.8%로 낮췄고 3년 연속 배송 감소 가능성까지 나온다.",
+    "4월에 Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인(4/10)이 몰려 있어 한 달 안에 방향이 결정된다. 다만 NHTSA가 FSD 조사를 '엔지니어링 분석'으로 격상해 리콜 위험이 커졌다.",
+    "50일($389)과 200일 평균($402) 모두 아래에서 거래 중이고, RSI 35로 매도 압력이 크다. 52주 고점에서 23% 빠진 $384.46, 4월 이벤트 전까지 방어적 관점이 필요하다."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "유럽, 중국 판매 반등과 4월 카탈리스트(Cybercab, Roadster)는 긍정적이지만, P/E 356x의 극단적 밸류에이션과 NHTSA 조사 리스크를 감안하면 신규 매수보다는 보유 관점이 적절하다. 4월 이벤트 결과를 확인한 후 포지션을 늘리는 것이 안전하다.",
+    "summary": "유럽, 중국 판매 반등은 긍정적이나 P/E 356x에 배송 전망 하향, NHTSA 조사 격상이 부담이다. 4월 Cybercab 양산, FSD 네덜란드 승인 결과를 확인한 후 포지션을 결정하는 것이 안전하다.",
     "horizon": "1-2개월 (4월 이벤트 결과 확인 후 재평가)"
   },
 
   "sources": [
-    { "name": "TipRanks", "url": "https://www.tipranks.com/news/tsla-stock-vs-byd-stock-tesla-ends-longest-sales-slide-as-byd-sales-triple-in-europe", "description": "유럽 판매 반등 및 BYD 경쟁 분석" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab 반도체 공장 런칭 보도" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA FSD 조사 강화 보도" },
-    { "name": "Electrek", "url": "https://electrek.co/2026/03/20/tesla-tsla-2-9-billion-chinese-solar-equipment-100-gw-us-manufacturing/", "description": "$2.9B 중국 태양광 장비 구매 협상" },
-    { "name": "Fortune", "url": "https://fortune.com/2026/03/22/musk-terafab-chip-project-tesla-spacex-xai-space-data-center-satellite/", "description": "Terafab 프로젝트 상세 분석" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "애널리스트 컨센서스 목표가 $406.84" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/", "description": "2026년 실적 전망 및 밸류에이션 분석" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/financials/", "description": "FY2025 재무제표 및 핵심 지표" },
-    { "name": "MEXC Blog", "url": "https://blog.mexc.com/finance/tesla-stock-analysis-2026-is-tsla-s-14-6x-p-s-still-justified-after-the-23-pullback/", "description": "P/S 14.6x 밸류에이션 심층 분석" },
-    { "name": "The Market Periodical", "url": "https://themarketperiodical.com/2026/03/24/tesla-stock-price-eyes-comeback-as-key-catalysts-align/", "description": "기술적 분석 및 카탈리스트 정리" }
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/european-car-sales-rise-modestly-february-tesla-reverses-year-long-skid-2026-03-24/", "description": "유럽 2월 판매 반등 및 BYD 경쟁 분석" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab 반도체 공장 공식 발표" },
+    { "name": "Reuters", "url": "https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/", "description": "Zoox 로보택시 4개 도시 확대" },
+    { "name": "Reuters", "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/", "description": "$2.9B 중국 태양광 장비 구매 협상" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/tesla-expects-dutch-decision-self-driving-technology-by-april-10-2026-03-20/", "description": "네덜란드 FSD 승인 4/10 예정" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA FSD 엔지니어링 분석 격상" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "애널리스트 컨센서스 목표가 $407" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/", "description": "2026년 실적 전망: EPS $2.25, 매출 $108.9B" },
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "기술적 지표: 50일 SMA $389, 200일 SMA $402" },
+    { "name": "ts2.tech", "url": "https://ts2.tech/en/tesla-stock-price-today-tsla-rises-on-europe-sales-rebound-but-byd-and-zoox-keep-pressure-on/", "description": "3/24 종합 시장 분석" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "테슬라 유럽 판매 1년 만에 반등, 4월 대형 이벤트 대기 중",
-      "text": "$TSLA (3/25) 유럽 판매가 1년 만에 처음 반등했다. 4월에 Cybercab 양산과 Roadster 공개까지. $384.46, 200일선 위에서 버팀.\n\n1/4",
+      "hook": "테슬라 유럽 13개월 만에 반등, 그런데 배송 전망은 하향",
+      "text": "$TSLA (3/25) 유럽 판매 13개월 만에 +11.8% 반등. 그런데 애널리스트들은 배송 성장 전망을 3.8%로 낮췄다. $384.46.\n\n1/4",
       "thread": [
-        "Terafab $25B 반도체 공장에 $2.9B 태양광 투자. EV 너머 AI, 에너지로 확장 중. FCF도 74% 급증해 $6.2B.\n\n2/4",
-        "리스크도 있다. NHTSA가 FSD 조사를 강화했고, BYD는 유럽에서 162% 성장하며 치고 올라온다. P/E 356x는 여전히 부담.\n\n3/4",
-        "목표가 $407(+5.8%). 52주 고점에서 23% 빠졌고 RSI 35로 과매도 접근. 4월 이벤트가 방향을 결정한다.\n\n4/4"
+        "4월에 Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인까지 한꺼번에 몰려 있다. 한 달이 1년치를 결정할 수 있다.\n\n2/4",
+        "NHTSA가 FSD 조사를 엔지니어링 분석으로 격상했다. 320만대 리콜 가능성. Zoox도 4개 도시로 로보택시 확장 중.\n\n3/4",
+        "50일, 200일 평균 모두 아래. 목표가 $407(+5.9%). P/E 356x. 4월 이벤트 결과를 보고 판단해야 한다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "테슬라 유럽 판매 1년 만에 반등, 4월 대형 이벤트 대기 중",
-      "text": "$TSLA (3/25) $384.46 (+0.95%)\n\n유럽 판매가 2024년 12월 이후 처음으로 반등했다. 1년간의 하락세가 드디어 꺾인 것. 4월에는 Cybercab 양산 시작과 Roadster 공개가 동시에 예정돼 있다.\n\nTerafab $25B 반도체 공장 런칭, $2.9B 태양광 투자까지. EV 회사에서 AI, 에너지 플랫폼으로 전환하는 중. 다만 BYD가 유럽에서 162% 급성장하고, NHTSA가 자율주행 조사를 강화해서 리스크도 있다.\n\n52주 고점에서 23% 빠졌고, 200일 평균선 위에서 버티는 중. 목표가 $407(+5.8%). 4월 이벤트 결과를 보고 판단해도 늦지 않다."
+      "hook": "테슬라 유럽 13개월 만에 반등, 그런데 배송 전망은 하향",
+      "text": "$TSLA (3/25) $384.46 (+0.44%)\n\n유럽 판매가 13개월 만에 반등했다(2월 +11.8%). 중국도 35% 성장 중. 그런데 월가는 2026년 배송 성장 전망을 8.2%에서 3.8%로 낮췄다. 일부는 3년 연속 배송 감소까지 우려한다.\n\n4월이 관건이다. Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인(4/10)이 한꺼번에 몰려 있다. 그런데 NHTSA가 FSD 조사를 격상했고, Zoox는 4개 도시로 로보택시를 확대 중이다.\n\n50일($389)과 200일 평균($402) 모두 아래에 있고 RSI 35. 목표가 $407(+5.9%). 4월 결과를 보고 판단해도 늦지 않다."
     },
     "telegram": {
-      "hook": "테슬라 유럽 판매 1년 만에 반등, 4월 대형 이벤트 대기 중",
-      "text": "Tesla 일일 분석 (3/25)\n\n가격: $384.46 (+0.95%)\n\n핵심 이슈\n- 유럽 판매 1년 만에 반등 (2024.12 이후 최초)\n- BYD 유럽 162% 급성장, 점유율 경쟁 심화\n- Terafab $25B 반도체 공장 런칭 (3/22)\n- $2.9B 중국 태양광 장비 구매 협상\n- NHTSA FSD 조사 강화\n- 4월: Cybercab 양산 + Roadster 공개\n\n주가 위치\n- 52주 고점($498.83)에서 23% 하락\n- 200일 평균($370) 위에서 버팀\n- RSI 35, 과매도 접근\n\n목표가: $407 (+5.8%)\n판단: Hold (4월 이벤트 결과 확인 후 재평가)"
+      "hook": "테슬라 유럽 13개월 만에 반등, 그런데 배송 전망은 하향",
+      "text": "Tesla 일일 분석 (3/25)\n\n가격: $384.46 (+0.44%)\n\n핵심 이슈\n- 유럽 2월 등록 +11.8%, 13개월 만에 반등\n- 애널리스트 배송 성장 전망 8.2% → 3.8% 하향\n- NHTSA FSD 조사 '엔지니어링 분석' 격상 (리콜 가능성)\n- 4월: Cybercab 양산 + Roadster 공개 + FSD 네덜란드 승인(4/10)\n- Zoox 로보택시 4개 도시 확대 (경쟁 심화)\n- Terafab $25B 반도체 공장 발표\n\n주가 위치\n- 50일 평균($389), 200일 평균($402) 모두 아래\n- RSI 35, 매도 압력 큰 상태\n- 52주 고점($499)에서 23% 하락\n\n목표가: $407 (+5.9%)\n판단: Hold (4월 이벤트 결과 확인 후 재평가)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "테슬라 유럽 판매 1년 만에 반등, 4월 대형 이벤트 대기 중",
-          "text": "$TSLA (3/25) 유럽 판매가 1년 만에 처음 반등했다. 4월에 Cybercab 양산과 Roadster 공개까지. $384.46, 200일선 위에서 버팀.\n\n1/4",
+          "hook": "테슬라 유럽 13개월 만에 반등, 그런데 배송 전망은 하향",
+          "text": "$TSLA (3/25) 유럽 판매 13개월 만에 +11.8% 반등. 그런데 애널리스트들은 배송 성장 전망을 3.8%로 낮췄다. $384.46.\n\n1/4",
           "thread": [
-            "Terafab $25B 반도체 공장에 $2.9B 태양광 투자. EV 너머 AI, 에너지로 확장 중. FCF도 74% 급증해 $6.2B.\n\n2/4",
-            "리스크도 있다. NHTSA가 FSD 조사를 강화했고, BYD는 유럽에서 162% 성장하며 치고 올라온다. P/E 356x는 여전히 부담.\n\n3/4",
-            "목표가 $407(+5.8%). 52주 고점에서 23% 빠졌고 RSI 35로 과매도 접근. 4월 이벤트가 방향을 결정한다.\n\n4/4"
+            "4월에 Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인까지 한꺼번에 몰려 있다. 한 달이 1년치를 결정할 수 있다.\n\n2/4",
+            "NHTSA가 FSD 조사를 엔지니어링 분석으로 격상했다. 320만대 리콜 가능성. Zoox도 4개 도시로 로보택시 확장 중.\n\n3/4",
+            "50일, 200일 평균 모두 아래. 목표가 $407(+5.9%). P/E 356x. 4월 이벤트 결과를 보고 판단해야 한다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "유럽이 드디어 테슬라를 다시 사기 시작했다",
-          "text": "$TSLA (3/25) 유럽 판매 1년 만에 반등. BYD가 162% 성장하는 와중에도 살아남았다. $384.46.\n\n1/4",
+          "hook": "유럽이 테슬라를 다시 사기 시작했는데 월가는 고개를 젓는다",
+          "text": "$TSLA (3/25) 유럽 판매 13개월 만에 반등. 좋은 소식인데, 월가는 배송 전망을 3.8%로 낮췄다. 기대가 낮아야 서프라이즈가 크긴 하다.\n\n1/4",
           "thread": [
-            "머스크는 반도체 공장($25B)에 태양광($2.9B)에 로봇까지. 돈 쓰는 속도만큼은 누구도 못 따라온다. 다행히 FCF $6.2B로 아직 여유 있다.\n\n2/4",
-            "NHTSA는 자율주행 조사하고, BYD는 유럽에서 3배 성장하고. P/E 356x인데 이래도 사는 사람이 있다는 게 신기하다.\n\n3/4",
-            "목표가 $407(+5.8%). 4월에 Cybercab, Roadster 동시 공개. 둘 다 성공하면 영웅, 하나라도 실패하면 356배 PER의 무게가 확 느껴질 거다.\n\n4/4"
+            "4월에 Cybercab, Roadster, 네덜란드 FSD 승인이 한꺼번에. 머스크가 좋아하는 '한 방에 다 터트리기' 전략.\n\n2/4",
+            "문제는 NHTSA가 FSD 조사를 격상했다는 것. Zoox는 4개 도시에서 로보택시를 돌리고 있는데, 테슬라는 아직 조사 중.\n\n3/4",
+            "목표가 $407(+5.9%). 50일, 200일선 둘 다 아래. 4월이 멋진 달이 되면 영웅, 아니면 P/E 356x가 무거워진다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "테슬라 들고 있으면 이번 달도 쉽지 않았을 거다",
-          "text": "$TSLA (3/25) 고점에서 23% 빠진 상태. 그래도 오늘은 좋은 소식이 있다. 유럽 판매가 1년 만에 반등했다. $384.46.\n\n1/4",
+          "hook": "테슬라 주주라면 최근 몇 달 정말 힘들었을 거다",
+          "text": "$TSLA (3/25) 고점에서 23% 빠져서 $384.46. 힘든 시간이었을 거다. 그래도 유럽 판매가 13개월 만에 반등했다.\n\n1/4",
           "thread": [
-            "4월에 Cybercab 양산과 Roadster 공개가 기다리고 있다. 여기서 결과가 좋으면 분위기가 확 바뀔 수 있다.\n\n2/4",
-            "물론 걱정도 된다. NHTSA 조사, BYD 162% 성장, P/E 356x. 불안한 게 당연하다.\n\n3/4",
-            "200일 평균선 위에서 버티고 있고, 목표가 $407(+5.8%). 조금만 더 지켜보자. 4월이 판가름한다.\n\n4/4"
+            "4월에 Cybercab 양산, Roadster 공개, FSD 네덜란드 승인이 한꺼번에 온다. 여기서 좋은 결과가 나오면 분위기가 바뀔 수 있다.\n\n2/4",
+            "솔직히 걱정되는 것도 있다. NHTSA 조사 격상, 배송 전망 하향, Zoox 경쟁. 불안한 게 당연하다.\n\n3/4",
+            "50일, 200일선 아래지만 RSI 35로 반등 가능성도 있다. 목표가 $407(+5.9%). 4월을 기다려보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "테슬라 유럽 판매 1년 만에 반등, 4월 대형 이벤트 대기 중",
-          "text": "$TSLA (3/25) $384.46 (+0.95%)\n\n유럽 판매가 2024년 12월 이후 처음으로 반등했다. 1년간의 하락세가 드디어 꺾인 것. 4월에는 Cybercab 양산 시작과 Roadster 공개가 동시에 예정돼 있다.\n\nTerafab $25B 반도체 공장 런칭, $2.9B 태양광 투자까지. EV 회사에서 AI, 에너지 플랫폼으로 전환하는 중. 다만 BYD가 유럽에서 162% 급성장하고, NHTSA가 자율주행 조사를 강화해서 리스크도 있다.\n\n52주 고점에서 23% 빠졌고, 200일 평균선 위에서 버티는 중. 목표가 $407(+5.8%). 4월 이벤트 결과를 보고 판단해도 늦지 않다."
+          "hook": "테슬라 유럽 13개월 만에 반등, 그런데 배송 전망은 하향",
+          "text": "$TSLA (3/25) $384.46 (+0.44%)\n\n유럽 판매가 13개월 만에 반등했다(2월 +11.8%). 중국도 35% 성장 중. 그런데 월가는 2026년 배송 성장 전망을 8.2%에서 3.8%로 낮췄다. 일부는 3년 연속 배송 감소까지 우려한다.\n\n4월이 관건이다. Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인(4/10)이 한꺼번에 몰려 있다. 그런데 NHTSA가 FSD 조사를 격상했고, Zoox는 4개 도시로 로보택시를 확대 중이다.\n\n50일($389)과 200일 평균($402) 모두 아래에 있고 RSI 35. 목표가 $407(+5.9%). 4월 결과를 보고 판단해도 늦지 않다."
         },
         "witty": {
-          "hook": "유럽이 드디어 테슬라를 다시 사기 시작했다",
-          "text": "$TSLA (3/25) $384.46 (+0.95%)\n\n유럽 판매가 1년 만에 반등. 한국 학생들의 '등교 거부' 같았던 유럽의 '테슬라 거부'가 끝났다. 물론 BYD는 162% 성장해서 박수 칠 분위기는 아니다.\n\n머스크는 반도체 공장에 $25B, 태양광에 $2.9B. 돈 쓰는 속도는 세계 최고인데, FCF가 $6.2B(+74%)나 되니까 일단 괜찮다. NHTSA는 자율주행 조사를 강화하고 있어서, 4월 Cybercab 양산이 순탄할지는 미지수.\n\n52주 고점에서 23% 빠졌고 P/E 356x. 4월에 Cybercab, Roadster 동시 공개인데, 두 이벤트가 모두 성공해야 이 밸류에이션이 정당화된다."
+          "hook": "유럽이 테슬라를 다시 사기 시작했는데 월가는 고개를 젓는다",
+          "text": "$TSLA (3/25) $384.46 (+0.44%)\n\n유럽 판매 13개월 만에 반등(+11.8%). 중국도 35% 성장. 그런데 월가 애널리스트들은 배송 전망을 8.2%에서 3.8%로 낮췄다. 좋은 소식에 찬물을 끼얹는 재주가 있다.\n\n머스크는 4월에 Cybercab, Roadster, FSD 승인을 한꺼번에 터트릴 계획이다. 문제는 NHTSA가 조사를 격상했고, Zoox는 벌써 4개 도시에서 로보택시를 굴리고 있다는 것. 경쟁자는 이미 달리는데 테슬라는 아직 시동 거는 중.\n\n50일, 200일선 둘 다 아래. P/E 356x. 4월에 다 잘 되면 '역시 머스크', 아니면 '역시 P/E 356x'."
         },
         "empathy": {
-          "hook": "테슬라 들고 있으면 이번 달도 쉽지 않았을 거다",
-          "text": "$TSLA (3/25) $384.46 (+0.95%)\n\n고점에서 23% 빠진 상태로 힘든 시간이었을 거다. 그래도 오늘은 작은 희소식이 있다. 유럽 판매가 1년 만에 반등했다.\n\n4월에 Cybercab 양산과 Roadster 공개가 동시에 기다리고 있다. Terafab 공장 런칭, 태양광 투자 등 장기 스토리도 계속 쌓이는 중. 물론 NHTSA 조사와 BYD 162% 성장은 걱정되는 부분이다.\n\n200일 평균선 위에서 버티고 있고, 목표가 $407(+5.8%). 4월을 기다려보자. 거기서 방향이 정해진다."
+          "hook": "테슬라 주주라면 최근 몇 달 정말 힘들었을 거다",
+          "text": "$TSLA (3/25) $384.46 (+0.44%)\n\n고점에서 23% 빠진 상태. 최근 몇 달 정말 힘들었을 거다. 오늘은 그래도 좋은 소식이 있다. 유럽 판매가 13개월 만에 반등했고, 중국도 35% 성장 중이다.\n\n4월에 Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인까지 중요한 이벤트가 몰려 있다. 여기서 좋은 결과가 나오면 분위기가 바뀔 수 있다. 물론 NHTSA 조사 격상과 경쟁 심화는 걱정되는 부분이다.\n\nRSI 35로 과매도 구간 접근. 목표가 $407(+5.9%). 4월을 기다려보자. 결과가 나올 때까지 조금만 참아보자."
         }
       }
     }

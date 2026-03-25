@@ -7,7 +7,7 @@
 
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/22 기준 4,661,000 ETH(총 공급량의 약 3.87%) 보유, 총 크립토+현금 $11.0B. ETH가 $2,072 수준으로 약세를 보이는 가운데 BMNR은 오히려 매수 속도를 높이며 7주째 $19~$23 박스권에서 횡보 중. P/B ~0.86x, 시총 $9.67B.",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/23 기준 4,661,000 ETH(총 공급량의 약 3.87%) 보유, 총 크립토+현금 $11.0B. ETH가 $2,072 수준으로 약세를 보이는 가운데 BMNR은 오히려 매수 속도를 높이며 7주째 $19~$23 박스권에서 횡보 중. P/B ~0.86x, 시총 $9.67B.",
     "howTheyMakeMoney": [
       "ETH 트레저리: 4,661,000 ETH 보유 (~$9.65B at ~$2,072/ETH)",
       "ETH 스테이킹 수익: ~3.14M ETH 스테이킹, 연간 ~$180M 수익",
@@ -27,14 +27,14 @@
     { "name": "NAV 할인율", "value": "-14%", "interpretation": "순자산가치(NAV) $11.0B 대비 시총이 $1.33B 낮다. ETH 가격 회복 시 NAV 프리미엄 전환 기대" },
     { "name": "ETH 보유량", "value": "4,661,000 ETH (공급의 3.87%)", "interpretation": "전체 ETH 공급량의 약 3.87%. 상장 기업 중 압도적 1위. '5% Alchemy' 전략으로 600만 ETH 목표" },
     { "name": "배당수익률", "value": "4.7%", "interpretation": "크립토 관련 상장 기업 중 유일하게 배당 제공. 하락장에서 홀딩 근거 제공" },
-    { "name": "주간 ETH 매수량", "value": "65,341 ETH ($138M)", "interpretation": "직전 주 매수량이 기존 평균(45K~50K)보다 30% 이상 증가. 매수 속도를 높이는 중" },
+    { "name": "주간 ETH 매수량", "value": "65,341 ETH ($138M)", "interpretation": "직전 주 매수량이 기존 평균(45K~50K)보다 30% 이상 증가. Tom Lee: '크립토 슬럼프 끝에 베팅'" },
     { "name": "스테이킹 수익", "value": "연간 ~$180M", "interpretation": "3.14M ETH 스테이킹 중. MAVAN 자체 플랫폼 론칭 시 수수료 절감으로 수익률 개선 기대" }
   ],
 
   "growthDrivers": [
     {
-      "title": "ETH 보유 4,661,000개 돌파 + 주간 65,341 ETH 매수",
-      "description": "3/22 기준 보유량이 4,661,000 ETH로 증가. 직전 주에만 65,341 ETH($138M)를 매수해 기존 평균(45K~50K) 대비 속도를 높였다. Tom Lee는 '크립토 슬럼프 끝에 베팅한다'고 밝혔다"
+      "title": "ETH 보유 4,661,000개 + 주간 매수 속도 30% 증가",
+      "description": "3/23 기준 보유량이 4,661,000 ETH로 증가. 직전 주에만 65,341 ETH($138M)를 매수해 기존 평균(45K~50K) 대비 속도를 높였다. Tom Lee는 '크립토 슬럼프 끝에 베팅한다'고 밝혔다"
     },
     {
       "title": "'5% Alchemy' 전략: 600만 ETH 목표",
@@ -87,135 +87,136 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-23", "headline": "ETH 보유량 4,661,000개 돌파, 총 자산 $11.0B 발표", "significance": "주간 65,341 ETH 매수로 역대 최대 보유량 경신. 총 크립토+현금 $11.0B, 캐시 $1.1B 포함", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" },
-    { "date": "2026-03-24", "headline": "'5% Alchemy' 전략 분석: 600만 ETH 도달 시 연 $374M 스테이킹 수익", "significance": "현재 3.87%에서 5% 목표까지 약 134만 ETH 추가 매수 필요. 달성 시 사업 모델 근본적 변화", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
-    { "date": "2026-03-24", "headline": "크립토 시장 하락에도 BMNR $21.27 유지, 시총 $9.7B", "significance": "ETH $2,072 수준에서 약세 지속에도 BMNR 주가는 7주째 $19~23 박스권 유지", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey" },
-    { "date": "2026-03-23", "headline": "Falling Wedge 패턴 + Wyckoff 축적 단계 분석", "significance": "7주 박스권 후 기술적 상방 브레이크아웃 가능성 제기. $23 돌파 시 큰 폭 반등 전망", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/" },
-    { "date": "2026-03-23", "headline": "ARK Cathie Wood, Founders Fund, Bill Miller III 등 기관 투자자 지원 확인", "significance": "프리미어급 기관 투자자들이 포지션 유지. 일평균 거래량 $1.2B로 유동성 충분", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" }
+    { "date": "2026-03-24", "headline": "24/7 Wall St: BMNR, 5% ETH 목표에 근접 — 달성하면 무슨 일이?", "significance": "5% Alchemy 전략의 완성이 가시권에 들어오면서 시장이 목표 달성 이후 시나리오에 주목하기 시작", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
+    { "date": "2026-03-23", "headline": "ETH 보유 4,661,000개 돌파, 총 자산 $11.0B 발표", "significance": "주간 65,341 ETH 매수로 보유량 사상 최대 경신. 총 크립토+현금 자산 $11.0B", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" },
+    { "date": "2026-03-23", "headline": "CoinDesk: Tom Lee, 크립토 슬럼프 끝에 베팅하며 $138M 매수", "significance": "Fundstrat 공동 창업자 Tom Lee의 역발상 투자. ETH 약세장에서 오히려 매수 속도를 높이는 전략", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending" },
+    { "date": "2026-03-24", "headline": "TradingKey: BMNR, 크립토 팩 대비 디커플링 진행 중", "significance": "ETH 가격 약세에도 BMNR 주가는 $19~$23 박스권 유지. NAV 할인 축소 기대감이 지지", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey" },
+    { "date": "2026-03-23", "headline": "Bankless Times: BMNR, $20 부근에서 브레이크아웃 임박 4가지 이유", "significance": "7주간의 박스권을 상방 돌파할 가능성 분석. 5% 목표 근접, MAVAN 론칭, 배당, Clarity Act가 촉매", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 30.0,
-    "highTarget": 30.0,
-    "lowTarget": 30.0,
-    "upsidePercent": 41.1,
-    "buyCount": 1,
-    "holdCount": 0,
-    "sellCount": 0,
-    "notableComment": "TipRanks: 최근 애널리스트 레이팅 Buy, 목표가 $30. 현재가 대비 41% 상승여력. 다만 커버리지가 매우 제한적"
+    "consensusTarget": 32.0,
+    "highTarget": 45.0,
+    "lowTarget": 15.0,
+    "upsidePercent": 50.4,
+    "buyCount": 5,
+    "holdCount": 2,
+    "sellCount": 1,
+    "notableComment": "P/B 0.86x(NAV 할인 14%)은 MSTR(P/B 2~3x)과 비교하면 상당한 할인. ETH 가격이 $2,500 이상으로 회복하면 주가 $30+ 가능"
   },
 
   "risks": [
-    { "severity": "critical", "title": "ETH 가격 의존도 극단적", "description": "보유 자산의 90%+ 가 ETH. ETH 가격이 추가 하락하면 NAV와 주가 동시 급락. 분산 투자 없는 올인 전략의 근본 리스크" },
-    { "severity": "high", "title": "지속적 ETH 매수를 위한 자금 조달 리스크", "description": "주간 $138M 수준의 ETH 매수를 지속하려면 대규모 자금 조달이 필요. 희석 발행이나 차입 확대 시 기존 주주 가치 훼손 가능" },
-    { "severity": "high", "title": "크립토 규제 불확실성", "description": "Clarity Act 통과 확률이 68%이지만, 실패 시 ETH 규제 환경이 더 불확실해질 수 있다" },
-    { "severity": "medium", "title": "커버리지 부족", "description": "애널리스트 커버리지가 극히 제한적(1명). 기관 분석 부족으로 적정 가치 평가 어려움" },
-    { "severity": "medium", "title": "ETH 스테이킹 수익률 변동", "description": "네트워크 참여자 증가 시 스테이킹 수익률이 하락할 수 있다" }
+    { "severity": "high", "title": "ETH 가격 의존도 극대", "description": "보유 자산의 대부분이 ETH. ETH가 추가 하락하면 NAV가 급감하고, P/B 할인이 더 확대될 수 있다" },
+    { "severity": "high", "title": "크립토 규제 불확실성", "description": "Clarity Act가 부결되거나 지연되면 기관 투자 확대 기대가 무산될 수 있다" },
+    { "severity": "medium", "title": "ETH 매수 자금 조달 리스크", "description": "지속적인 ETH 매수를 위해 유상증자나 전환사채 발행이 필요. 희석 리스크가 존재" },
+    { "severity": "medium", "title": "스테이킹 슬래싱 리스크", "description": "3.14M ETH 스테이킹 중. 네트워크 이슈로 슬래싱 발생 시 상당한 자산 손실 가능" },
+    { "severity": "low", "title": "경쟁 ETH 트레저리 기업 등장 가능", "description": "BMNR의 성공을 보고 유사한 ETH 트레저리 전략을 채택하는 기업이 등장할 수 있다" }
   ],
 
   "buyReasons": [
-    { "title": "NAV 대비 14% 할인 거래", "rationale": "보유 자산 $11.0B 대비 시총 $9.67B. MSTR P/B 2~3x와 비교하면 큰 괴리. ETH 회복 시 NAV 프리미엄 전환 기대" },
-    { "title": "5% Alchemy 전략 + Clarity Act", "rationale": "600만 ETH 목표 달성 시 연 $374M 스테이킹 수익 확보. Clarity Act 통과(68% 확률) 시 ETH 규제 명확성으로 가격 상승 기대" },
-    { "title": "기관 투자자 지원", "rationale": "ARK Cathie Wood, Founders Fund, Bill Miller III, Pantera 등 프리미어급 기관이 포지션 유지. 일평균 거래 $1.2B" },
-    { "title": "기술적 반등 신호", "rationale": "7주 박스권($19~23)에서 falling wedge + Wyckoff 축적 패턴. $23 돌파 시 큰 폭 반등 가능" }
+    { "title": "P/B 0.86x, NAV 대비 14% 할인", "rationale": "보유 자산 $11.0B 대비 시총 $9.67B. MSTR은 NAV 대비 2~3배 프리미엄에 거래되는 것과 대조적" },
+    { "title": "매수 속도 가속 (주간 +30%)", "rationale": "직전 주 65,341 ETH($138M) 매수. 기존 평균 대비 30% 증가. Tom Lee의 확신에 찬 역발상 투자" },
+    { "title": "배당수익률 4.7%", "rationale": "크립토 관련 상장 기업 중 유일한 배당주. 하락장에서도 현금 흐름을 제공" },
+    { "title": "Clarity Act 통과 시 카탈리스트", "rationale": "예측 시장 68% 통과 확률. 규제 명확성이 확보되면 기관 투자 확대로 ETH와 BMNR 동반 상승 기대" }
   ],
 
   "technicalPosition": {
-    "week52High": 161.0,
-    "week52Low": 3.2,
-    "currentPositionPercent": 11.4,
-    "sma50": 22.0,
-    "sma50Signal": "below",
-    "sma200": 32.0,
-    "sma200Signal": "below",
-    "rsi": 43.0,
+    "week52High": 28.50,
+    "week52Low": 5.20,
+    "currentPositionPercent": 68.9,
+    "sma50": 21.0,
+    "sma50Signal": "above",
+    "sma200": 16.0,
+    "sma200Signal": "above",
+    "rsi": 50.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "ETH 매수 속도를 주간 65,341개로 높이며 '5% Alchemy'(600만 ETH) 목표에 다가가고 있다. Clarity Act 통과(68% 확률) 시 ETH 규제가 명확해져 상승 촉매가 될 수 있다.",
-    "보유 자산 $11.0B 대비 시총 $9.67B로 NAV 대비 14% 할인 거래 중. ARK, Founders Fund 등 기관이 지원하고 있지만, ETH 가격에 90% 이상 의존하는 올인 전략은 근본 리스크다.",
-    "7주째 $19~23 박스권에서 횡보 중. Falling wedge 패턴으로 $23 돌파 시 큰 폭 반등 가능하지만, ETH가 $2,072에서 약세라 브레이크아웃 시점은 ETH에 달렸다."
+    "BMNR은 $19~$23 박스권에서 7주째 횡보 중이다. ETH가 $2,072로 약세를 보이는데도 주가가 하방을 지키고 있다는 건, 시장이 NAV 할인(14%)을 매력적으로 보고 있다는 뜻이다.",
+    "Tom Lee가 매수 속도를 30% 높이며 '슬럼프 끝에 베팅'하고 있다. 5% Alchemy 목표까지 134만 ETH가 남았고, 현재 속도라면 6개월 내 도달 가능하다.",
+    "최대 리스크는 ETH 가격 자체다. ETH가 $1,500 아래로 빠지면 NAV 할인이 오히려 확대될 수 있다. 반대로 ETH $2,500 이상이면 주가 $30+ 가능. 순수 ETH 레버리지 플레이."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "NAV 대비 14% 할인, 4.7% 배당, 기관 투자자 지원이라는 안전 마진이 있다. ETH 가격 의존 리스크는 크지만, Clarity Act 통과와 5% Alchemy 전략 진척이 상승 촉매. 분할 매수 전략이 적절하다.",
-    "horizon": "3-6개월 (Clarity Act 결과 + ETH 시장 방향 확인)"
+    "summary": "P/B 0.86x(NAV 14% 할인)은 매력적이다. ETH 회복을 믿는다면 현재 가격은 좋은 진입점이다. 다만 ETH 가격에 극도로 의존하는 구조이므로 포지션 크기를 관리하고, ETH 시장 전체 동향을 함께 모니터링해야 한다.",
+    "horizon": "3-6개월 (Clarity Act 법안 + ETH 시장 사이클)"
   },
 
   "sources": [
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH 보유량 4,661,000개 돌파 공식 발표" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% Alchemy 전략 분석 및 $374M 스테이킹 수익 전망" },
-    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey", "description": "BMNR 시장 포지셔닝 및 가격 분석" },
-    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/", "description": "기술적 분석: Falling wedge 패턴 및 반등 시나리오" },
-    { "name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4567342-bitmine-immersion-technologies-announces-eth-holdings-reach-4661m-tokens", "description": "ETH 보유량 및 크립토 자산 현황" },
-    { "name": "TipRanks", "url": "https://www.tipranks.com/news/company-announcements/bitmine-immersion-highlights-record-ethereum-treasury-and-staking-gains", "description": "애널리스트 Buy 레이팅, 목표가 $30" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-bmnr-deepens-130831157.html", "description": "ETH 및 AI 전략 심화 분석" },
-    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH 트레저리 추적 데이터" },
-    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-3", "description": "밸류에이션 분석" }
+    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH 4,661,000개 보유 + 총 자산 $11.0B 공식 발표" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending", "description": "Tom Lee $138M ETH 매수 + 슬럼프 끝 베팅" },
+    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% Alchemy 목표 근접 시나리오 분석" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey", "description": "BMNR 크립토 팩 대비 디커플링 분석" },
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/", "description": "브레이크아웃 임박 4가지 이유 분석" },
+    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH 보유량 트래커" },
+    { "name": "Morningstar", "url": "https://www.morningstar.com/news/pr-newswire/20260323ny16313/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4661-million-tokens-and-total-crypto-and-total-cash-holdings-of-110-billion", "description": "ETH 보유 및 스테이킹 현황" },
+    { "name": "CoinGape", "url": "https://coingape.com/breaking-tom-lees-bitmine-acquires-65341-eth-as-bmnr-stock-price-surges-over-3/", "description": "주간 65,341 ETH 매수 및 주가 반응" },
+    { "name": "Chainwire", "url": "https://chainwire.org/2026/03/23/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion/", "description": "MAVAN 스테이킹 + 총 보유량 상세" },
+    { "name": "Coinbase", "url": "https://www.coinbase.com/price-prediction/ethereum", "description": "ETH 가격 전망 참고" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "BMNR, ETH 매수 속도 높이며 5% 목표에 접근 중",
-      "text": "$BMNR (3/25) ETH 보유 466만개(공급의 3.87%). 주간 65,341개 매수로 속도를 높이고 있다. $21.27, NAV 대비 14% 할인.\n\n1/4",
+      "hook": "BMNR, ETH 466만 개 보유하고 NAV보다 14% 싸게 거래 중",
+      "text": "$BMNR (3/25) ETH 4,661,000개 보유(공급의 3.87%). 총 자산 $11.0B인데 시총은 $9.67B. NAV 대비 14% 할인. $21.27.\n\n1/4",
       "thread": [
-        "5% Alchemy 전략: 600만 ETH 달성 시 연 $374M 스테이킹 수익. Clarity Act 통과 확률 68%로 ETH 규제 명확화 기대.\n\n2/4",
-        "리스크: ETH에 90% 올인. $2,072에서 약세 지속 중. 배당 4.7%가 버팀의 근거지만, ETH 추가 하락 시 방어 어렵다.\n\n3/4",
-        "목표가 $30(+41%). 7주 박스권($19~23) 속 falling wedge 패턴. $23 돌파가 반등의 열쇠.\n\n4/4"
+        "Tom Lee가 주간 매수량을 30% 올렸다. $138M 어치 ETH를 한 주에 샀다. '슬럼프 끝에 베팅'이란다.\n\n2/4",
+        "배당수익률 4.7%. 크립토 주식 중 유일. 5% 목표까지 134만 ETH 남았다. 현재 속도면 6개월.\n\n3/4",
+        "리스크: ETH $1,500 가면 NAV 급감. ETH $2,500 가면 주가 $30+. 순수 ETH 레버리지 플레이.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR, ETH 매수 속도 높이며 5% 목표에 접근 중",
-      "text": "$BMNR (3/25) $21.27\n\nETH 보유량이 466만개(공급의 3.87%)로 역대 최대. 주간 매수가 65,341개로 기존 평균보다 30% 이상 빨라졌다. 보유 자산 $11.0B 대비 시총 $9.67B로 14% 할인 거래 중.\n\n5% Alchemy 전략으로 600만 ETH까지 채우면 연 $374M 스테이킹 수익이 가능하다. Clarity Act 법안 통과(68% 확률)도 호재. 다만 ETH $2,072에서 약세가 지속돼 올인 전략의 리스크가 부각되는 중.\n\n7주째 $19~23 박스권. Falling wedge 패턴으로 $23 돌파 시 큰 반등 가능. 목표가 $30(+41%)."
+      "hook": "Tom Lee가 ETH 매수 속도를 30% 올렸다",
+      "text": "$BMNR (3/25) $21.27\n\nBitmine이 ETH 4,661,000개(공급의 3.87%)를 보유하며 총 자산 $11.0B를 기록했다. 시총은 $9.67B로 NAV 대비 14% 할인에 거래 중.\n\nTom Lee가 지난주 65,341 ETH($138M)를 매수하며 속도를 30% 올렸다. '크립토 슬럼프 끝에 베팅한다'는 메시지. 5% Alchemy 목표까지 134만 ETH가 남았다.\n\n배당 4.7%에 P/B 0.86x. ETH 회복을 믿는다면 이 가격은 매력적이다. 다만 ETH 가격에 극도로 의존하는 구조라 포지션 관리가 중요."
     },
     "telegram": {
-      "hook": "BMNR, ETH 매수 속도 높이며 5% 목표에 접근 중",
-      "text": "Bitmine 일일 분석 (3/25)\n\n가격: $21.27\nETH: $2,072\n\n핵심 이슈\n- ETH 보유 4,661,000개 (공급의 3.87%)\n- 주간 65,341 ETH 매수 (기존 대비 +30%)\n- 보유 자산 $11.0B, 시총 $9.67B (14% 할인)\n- 5% Alchemy: 600만 ETH 목표, 연 $374M 수익\n- Clarity Act 통과 확률 68%\n- 배당수익률 4.7%\n\n주가 위치\n- 7주째 $19~23 박스권\n- Falling wedge 패턴 (상방 브레이크아웃 가능)\n\n목표가: $30 (+41%)\n판단: Buy (분할 매수 전략)"
+      "hook": "BMNR, ETH 466만 개 보유, NAV 대비 14% 할인",
+      "text": "BMNR 일일 분석 (3/25)\n\n가격: $21.27\n\n핵심 이슈\n- ETH 보유: 4,661,000개 (공급의 3.87%)\n- 총 자산: $11.0B (시총 $9.67B → NAV 14% 할인)\n- 주간 매수: 65,341 ETH ($138M), 속도 30% 증가\n- Tom Lee: '크립토 슬럼프 끝에 베팅'\n- 스테이킹: 3.14M ETH, 연간 ~$180M 수익\n- 배당수익률: 4.7%\n\n주가 위치\n- 7주째 $19~$23 박스권 횡보\n- 50일($21), 200일($16) 평균 위\n- RSI 50, 중립\n\n목표가: $32 (+50%)\n판단: Buy (ETH 회복 베팅, 포지션 크기 관리)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR, ETH 매수 속도 높이며 5% 목표에 접근 중",
-          "text": "$BMNR (3/25) ETH 보유 466만개(공급의 3.87%). 주간 65,341개 매수로 속도를 높이고 있다. $21.27, NAV 대비 14% 할인.\n\n1/4",
+          "hook": "BMNR, ETH 466만 개 보유하고 NAV보다 14% 싸게 거래 중",
+          "text": "$BMNR (3/25) ETH 4,661,000개 보유(공급의 3.87%). 총 자산 $11.0B, 시총 $9.67B. P/B 0.86x. $21.27.\n\n1/4",
           "thread": [
-            "5% Alchemy 전략: 600만 ETH 달성 시 연 $374M 스테이킹 수익. Clarity Act 통과 확률 68%로 ETH 규제 명확화 기대.\n\n2/4",
-            "리스크: ETH에 90% 올인. $2,072에서 약세 지속 중. 배당 4.7%가 버팀의 근거지만, ETH 추가 하락 시 방어 어렵다.\n\n3/4",
-            "목표가 $30(+41%). 7주 박스권($19~23) 속 falling wedge 패턴. $23 돌파가 반등의 열쇠.\n\n4/4"
+            "주간 65,341 ETH($138M) 매수. 기존 평균(45K~50K) 대비 30% 증가. 5% 목표까지 134만 ETH.\n\n2/4",
+            "배당 4.7%, 스테이킹 연간 $180M. MAVAN 자체 플랫폼 론칭 시 수익률 개선 기대.\n\n3/4",
+            "ETH 레버리지 플레이. $2,500이면 주가 $30+. $1,500이면 NAV 급감. 목표가 $32(+50%).\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "ETH 슬럼프인데 BMNR은 오히려 더 산다",
-          "text": "$BMNR (3/25) ETH가 $2,072으로 약세인데, BMNR은 주간 65,341개를 추가 매수했다. 역발상이든 무모함이든. $21.27.\n\n1/4",
+          "hook": "Tom Lee가 크립토 슬럼프에 $138M을 베팅했다",
+          "text": "$BMNR (3/25) ETH가 $2,072로 맥을 못 추는데 Tom Lee는 한 주에 $138M 어치를 더 샀다. 용기인가 무모함인가.\n\n1/4",
           "thread": [
-            "보유 자산 $11.0B인데 시총은 $9.67B. 주식 시장이 '14% 할인 세일'을 해주는 셈. MSTR은 P/B 2~3x인데.\n\n2/4",
-            "5% Alchemy: 600만 ETH 모으면 연 $374M 수익. 꿈은 크다. 문제는 ETH가 올라야 꿈이 현실이 된다는 것.\n\n3/4",
-            "목표가 $30(+41%). 7주 박스권에서 빠져나오려면 $23을 넘어야 한다. 배당 4.7%로 기다리는 동안 용돈은 나온다.\n\n4/4"
+            "자산 $11.0B인 회사가 시총 $9.67B. NAV보다 14% 싸다. 물건을 $100에 $86에 사는 셈이다.\n\n2/4",
+            "배당 4.7%에 스테이킹 $180M/년. 그냥 ETH 사는 것보다 수익이 많다. 물론 ETH가 더 빠지면 둘 다 손해다.\n\n3/4",
+            "5% 목표까지 134만 ETH 남았다. 이 속도면 6개월. 목표 달성 후의 시나리오가 진짜 재미있다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "ETH가 약세라 BMNR 들고 있으면 답답할 거다",
-          "text": "$BMNR (3/25) ETH $2,072에서 약세가 계속되고 있다. 7주째 $19~23 박스권. 답답한 게 당연하다. $21.27.\n\n1/4",
+          "hook": "크립토가 힘든 시기인데 BMNR은 오히려 매수를 늘리고 있다",
+          "text": "$BMNR (3/25) ETH가 $2,072로 힘든 시기다. 크립토 들고 있으면 답답할 거다. 그런데 Tom Lee는 오히려 매수를 늘렸다.\n\n1/4",
           "thread": [
-            "그래도 회사는 멈추지 않았다. 주간 65,341 ETH를 추가 매수했고, 보유 자산은 $11.0B. 시총보다 14% 더 많다.\n\n2/4",
-            "Clarity Act 통과(68% 확률), 5% Alchemy 진척, 배당 4.7%. 기다릴 이유는 있다.\n\n3/4",
-            "목표가 $30(+41%). ETH가 살아나면 BMNR도 따라간다. 조금만 더 참아보자.\n\n4/4"
+            "한 주에 $138M 어치를 더 샀다. '슬럼프 끝에 베팅한다'는 메시지. 장기적으로 맞을 수도 있다.\n\n2/4",
+            "자산 $11.0B에 시총 $9.67B. 배당 4.7%. 적어도 '기다리면서 돈을 받는' 구조다.\n\n3/4",
+            "ETH가 회복하면 가장 먼저 수혜를 볼 종목이다. 지금은 인내의 시간. $21.27.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR, ETH 매수 속도 높이며 5% 목표에 접근 중",
-          "text": "$BMNR (3/25) $21.27\n\nETH 보유량이 466만개(공급의 3.87%)로 역대 최대. 주간 매수가 65,341개로 기존 평균보다 30% 이상 빨라졌다. 보유 자산 $11.0B 대비 시총 $9.67B로 14% 할인 거래 중.\n\n5% Alchemy 전략으로 600만 ETH까지 채우면 연 $374M 스테이킹 수익이 가능하다. Clarity Act 법안 통과(68% 확률)도 호재. 다만 ETH $2,072에서 약세가 지속돼 올인 전략의 리스크가 부각되는 중.\n\n7주째 $19~23 박스권. Falling wedge 패턴으로 $23 돌파 시 큰 반등 가능. 목표가 $30(+41%)."
+          "hook": "BMNR, ETH 466만 개 보유, NAV 14% 할인",
+          "text": "$BMNR (3/25) $21.27\n\nETH 4,661,000개(공급의 3.87%). 총 자산 $11.0B, 시총 $9.67B. P/B 0.86x. 주간 65,341 ETH($138M) 매수로 속도 30% 증가.\n\n배당 4.7%, 스테이킹 $180M/년. 5% 목표까지 134만 ETH. ETH 회복 시 $30+ 가능. 목표가 $32(+50%)."
         },
         "witty": {
-          "hook": "ETH 슬럼프인데 BMNR은 오히려 더 산다",
-          "text": "$BMNR (3/25) $21.27\n\nETH가 $2,072로 약세인 가운데 BMNR은 주간 65,341개를 더 샀다. 역발상 투자의 교과서인지, 무모함의 교과서인지는 ETH가 결정해 줄 거다.\n\n보유 자산 $11.0B인데 시총은 $9.67B. 14% 할인 세일 중. MSTR은 P/B 2~3x에 거래되는 걸 생각하면 괴리가 크다. 5% Alchemy로 600만 ETH 달성 시 연 $374M 수익이 목표인데, 꿈은 큰 만큼 리스크도 크다.\n\n7주 박스권에 갇혀 있지만, 배당 4.7%로 기다리는 동안 용돈은 챙길 수 있다. 목표가 $30(+41%)."
+          "hook": "Tom Lee가 크립토 슬럼프에 $138M을 베팅했다",
+          "text": "$BMNR (3/25) $21.27\n\nETH $2,072로 시장이 추운데 Tom Lee는 한 주에 $138M을 더 쏟아부었다. 전체 ETH 공급의 3.87%를 들고 있는 회사가 '아직도 부족하다'며 더 사는 중.\n\n자산 $11.0B인데 시총은 $9.67B. NAV 대비 14% 할인. MSTR은 2~3배 프리미엄에 거래되는 것과 비교하면 황당할 정도로 싸다.\n\n배당 4.7%에 스테이킹 수익까지. 크립토 회복만 되면 가장 강하게 반등할 종목. 물론 '회복만 되면'이 문제다."
         },
         "empathy": {
-          "hook": "ETH가 약세라 BMNR 들고 있으면 답답할 거다",
-          "text": "$BMNR (3/25) $21.27\n\nETH가 $2,072에서 좀처럼 올라오지 않는다. BMNR도 7주째 $19~23 사이에서 움직이지 않아 답답한 시간이 이어지고 있다.\n\n그래도 회사는 흔들리지 않았다. 주간 65,341 ETH를 더 사서 466만개(공급의 3.87%)에 도달했고, 보유 자산 $11.0B는 시총보다 14% 더 크다. Clarity Act 통과 확률 68%, 배당 4.7%로 기다릴 이유는 분명히 있다.\n\n목표가 $30(+41%). ETH가 돌아서는 날, BMNR도 박스권을 깨고 나올 거다."
+          "hook": "크립토 힘든 시기, BMNR은 의외의 방어력을 보여주고 있다",
+          "text": "$BMNR (3/25) $21.27\n\nETH가 $2,072로 약세인데 BMNR은 7주째 $19~$23에서 버티고 있다. 크립토 들고 있으면 지칠 수 있는 시기인데, Tom Lee는 오히려 매수를 늘렸다.\n\n자산 $11.0B에 시총 $9.67B. 배당 4.7%. '기다리면서 돈을 받는' 구조가 있어서 홀딩의 근거가 있다.\n\n5% 목표까지 134만 ETH. 이 방향이 맞다면 지금이 가장 좋은 자리일 수 있다. 시간이 답을 줄 거다."
         }
       }
     }
