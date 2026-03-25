@@ -7,12 +7,12 @@
 
   "businessSummary": {
     "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
-    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,661,000 ETH (approximately 3.87% of total supply) as of 3/23, with total crypto + cash of $11.0B. Despite ETH weakness at ~$2,072, BMNR has accelerated purchases while trading sideways in the $19-$23 range for 7 weeks. P/B ~0.86x, market cap $9.67B.",
+    "description": "Originally a Bitcoin mining company, Bitmine pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined as chairman. As of 3/23, holds 4,661,000 ETH (approximately 3.87% of total supply), with total crypto + cash of $11.0B. Despite ETH weakness at $2,072, BMNR has accelerated purchases, trading sideways in a $19-$23 range for 7 weeks. P/B ~0.86x, market cap $9.67B.",
     "howTheyMakeMoney": [
       "ETH Treasury: 4,661,000 ETH (~$9.65B at ~$2,072/ETH)",
-      "ETH Staking: ~3.14M ETH staked, ~$180M annual revenue",
-      "Dividends: 4.7% yield, only crypto treasury company offering dividends",
-      "Bitcoin Holdings: 196 BTC (supplementary)"
+      "ETH Staking Revenue: ~3.14M ETH staked, ~$180M annual yield",
+      "Dividends: 4.7% yield, only crypto treasury company paying dividends",
+      "Bitcoin Holdings: 196 BTC (secondary)"
     ],
     "keyProducts": [
       "Ethereum Treasury",
@@ -23,61 +23,65 @@
   },
 
   "keyMetrics": [
-    { "name": "P/B (Price-to-Book)", "value": "0.86x", "interpretation": "Market cap $9.67B vs holdings $11.0B. Trading below asset value. Significant discount vs MSTR (P/B 2-3x)" },
-    { "name": "NAV Discount", "value": "-14%", "interpretation": "NAV of $11.0B exceeds market cap by $1.33B. Expected to flip to NAV premium on ETH recovery" },
-    { "name": "ETH Holdings", "value": "4,661,000 ETH (3.87% of supply)", "interpretation": "Approximately 3.87% of total ETH supply. Overwhelming #1 among public companies. Targeting 6M ETH via '5% Alchemy' strategy" },
-    { "name": "Dividend Yield", "value": "4.7%", "interpretation": "Only crypto-related public company offering dividends. Provides holding rationale during downturns" },
-    { "name": "Weekly ETH Purchases", "value": "65,341 ETH ($138M)", "interpretation": "Previous week's purchase volume 30%+ above average (45K-50K). Tom Lee: 'Betting on crypto slump ending'" },
-    { "name": "Staking Revenue", "value": "~$180M annually", "interpretation": "3.14M ETH staked. MAVAN platform launch expected to reduce third-party fees and improve returns" }
+    { "name": "P/B (Price-to-Book)", "value": "0.86x", "interpretation": "Market cap $9.67B vs assets $11.0B. Trading below asset value. Major discount vs MSTR (P/B 2-3x)" },
+    { "name": "NAV Discount", "value": "-14%", "interpretation": "Market cap is $1.33B below NAV of $11.0B. Expected to flip to premium when ETH price recovers" },
+    { "name": "ETH Holdings", "value": "4,661,000 ETH (3.87% of supply)", "interpretation": "Largest publicly traded ETH holder by far. Targeting 6M ETH through '5% Alchemy' strategy" },
+    { "name": "Dividend Yield", "value": "4.7%", "interpretation": "Only dividend-paying crypto treasury company. Provides holding incentive during downturns" },
+    { "name": "Weekly ETH Purchases", "value": "65,341 ETH ($138M)", "interpretation": "30%+ increase from prior average of 45K-50K weekly. Tom Lee: 'Betting on crypto slump ending'" },
+    { "name": "Staking Revenue", "value": "~$180M annually", "interpretation": "3.14M ETH currently staked. MAVAN platform launch expected to improve yields through fee reduction" }
   ],
 
   "growthDrivers": [
     {
-      "title": "ETH Holdings Hit 4,661,000 + Purchase Pace Up 30%",
-      "description": "Holdings reached 4,661,000 ETH as of 3/23. Purchased 65,341 ETH ($138M) in the previous week alone, accelerating from the 45K-50K average. Tom Lee stated he is 'betting on the crypto slump ending'"
+      "title": "ETH Holdings Reach 4,661,000 + Weekly Pace Up 30%",
+      "description": "As of 3/23, holdings reached 4,661,000 ETH. Purchased 65,341 ETH ($138M) in the prior week, accelerating from the 45K-50K average. Tom Lee stated he's 'betting on the crypto slump ending'"
     },
     {
-      "title": "'5% Alchemy' Strategy: Targeting 6M ETH",
-      "description": "Targeting 5% of total ETH supply (~6M tokens) for $374M+ annual staking fees. Currently at 3.87%, needing approximately 1.34M more ETH to reach the goal"
+      "title": "'5% Alchemy' Strategy: 6 Million ETH Target",
+      "description": "Targeting 5% of total ETH supply (~6M tokens) to generate $374M+ in annual staking fees. Currently at 3.87%, needs approximately 1.34M more ETH"
     },
     {
-      "title": "Clarity Act Passage Probability 68%",
-      "description": "Prediction markets give 68% odds of Clarity Act becoming law in 2026. Passage would bring regulatory clarity for ETH, boosting institutional adoption"
+      "title": "24/7 Wall St Analyzes 'What Happens After 5%'",
+      "description": "As the 5% goal comes into view, media is shifting focus from 'when will they reach it' to 'what's the strategy after.' Growing market attention"
     },
     {
-      "title": "MAVAN Self-Staking Platform 2026 Launch",
-      "description": "Made in America Validator Network to reduce third-party staking fees. Expected to improve yield on staked ETH"
+      "title": "Clarity Act Passage Probability at 68%",
+      "description": "Prediction markets give 68% odds of Clarity Act becoming law in 2026. Passage would improve ETH regulatory clarity and drive institutional adoption"
     },
     {
-      "title": "4.7% Dividend Yield: Downmarket Defense",
-      "description": "Only crypto stock paying dividends. Provides cash flow during bear markets, supporting hold rationale"
+      "title": "MAVAN Self-Hosted Staking Platform Launching 2026",
+      "description": "Made in America Validator Network to reduce third-party staking fees and improve net yield"
+    },
+    {
+      "title": "4.7% Dividend Yield: Downside Protection",
+      "description": "Only dividend-paying crypto stock. Provides cash flow incentive to hold through market downturns"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "Largest ETH holdings among public companies (3.87% of supply). Tom Lee brings institutional credibility. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
+    "summary": "Largest publicly traded ETH holder (3.87% of supply). Tom Lee's presence provides institutional credibility. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
     "moats": [
       {
         "type": "ETH Supply Concentration",
-        "description": "3.87% of total ETH supply. Irreplaceable market position"
+        "description": "Holds 3.87% of total ETH supply. An irreplicable market position"
       },
       {
-        "type": "Institutional Access",
-        "description": "Provides ETH exposure via publicly traded stock. Institutional investors can access without ETF"
+        "type": "Institutional Accessibility",
+        "description": "Provides ETH exposure through public stock. Accessible to institutional investors without ETF"
       },
       {
         "type": "Staking Revenue",
-        "description": "~3.14M ETH staked + MAVAN self-platform for yield advantage over passive holding"
+        "description": "~3.14M ETH staked plus MAVAN self-hosted platform provides yield advantage over simple holding"
       }
     ],
     "competitors": [
       {
         "name": "MicroStrategy (MSTR)",
-        "detail": "Bitcoin treasury strategy originator. BTC-focused vs BMNR's ETH focus"
+        "detail": "Pioneer of Bitcoin treasury strategy. BTC-focused vs BMNR's ETH-focused approach"
       },
       {
         "name": "Grayscale Ethereum Trust (ETHE)",
-        "detail": "ETH ETF competition. Different fee structure"
+        "detail": "Competing ETH ETF. Different fee structure"
       },
       {
         "name": "Coinbase (COIN)",
@@ -87,11 +91,11 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-24", "headline": "24/7 Wall St: BMNR nears 5% ETH goal, what happens then?", "significance": "Market attention shifting to post-5% achievement scenarios as the Alchemy strategy target comes into view", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
-    { "date": "2026-03-23", "headline": "ETH holdings surpass 4,661,000, total assets $11.0B announced", "significance": "Weekly 65,341 ETH purchase sets new all-time high holdings. Total crypto + cash assets at $11.0B", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" },
-    { "date": "2026-03-23", "headline": "CoinDesk: Tom Lee bets on crypto slump ending with $138M purchase", "significance": "Fundstrat co-founder's contrarian investment. Accelerating purchases during ETH weakness", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending" },
-    { "date": "2026-03-24", "headline": "TradingKey: BMNR decoupling from crypto pack", "significance": "Despite ETH price weakness, BMNR stock holds $19-$23 range. NAV discount narrowing expectations provide support", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey" },
-    { "date": "2026-03-23", "headline": "Bankless Times: 4 reasons BMNR may break out from $20 range", "significance": "Analysis of potential upside breakout from 7-week trading range. 5% goal proximity, MAVAN, dividends, Clarity Act as catalysts", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/" }
+    { "date": "2026-03-24", "headline": "24/7 Wall St: BMNR Nears 5% ETH Goal, What Happens Then?", "significance": "As the 5% Alchemy target comes into view, market focus shifts to post-achievement strategy scenarios", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
+    { "date": "2026-03-23", "headline": "ETH Holdings Surpass 4,661,000, Total Assets Reach $11.0B", "significance": "Record weekly purchase of 65,341 ETH. Total crypto + cash holdings reach $11.0B", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" },
+    { "date": "2026-03-23", "headline": "CoinDesk: Tom Lee Bets on Crypto Slump Ending with $138M Purchase", "significance": "Fundstrat co-founder's contrarian play. Accelerating purchases during ETH weakness", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending" },
+    { "date": "2026-03-24", "headline": "TradingKey: BMNR Decoupling from Broader Crypto Pack", "significance": "Stock price maintaining $19-$23 range despite ETH weakness. NAV discount narrowing expectations providing support", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey" },
+    { "date": "2026-03-23", "headline": "Bankless Times: 4 Reasons BMNR May Break Out from $20 Range", "significance": "Analysis of potential upside breakout from 7-week consolidation. 5% target, MAVAN, dividends, and Clarity Act as catalysts", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/" }
   ],
 
   "analystOpinions": {
@@ -102,22 +106,22 @@
     "buyCount": 5,
     "holdCount": 2,
     "sellCount": 1,
-    "notableComment": "P/B 0.86x (NAV discount 14%) vs MSTR (P/B 2-3x) represents significant discount. ETH recovery above $2,500 could drive stock to $30+"
+    "notableComment": "P/B of 0.86x (14% NAV discount) represents significant value vs MSTR (P/B 2-3x). Price target of $30+ achievable if ETH recovers above $2,500"
   },
 
   "risks": [
-    { "severity": "high", "title": "Extreme ETH price dependency", "description": "Vast majority of assets are ETH. Further ETH decline would shrink NAV and potentially widen the P/B discount" },
-    { "severity": "high", "title": "Crypto regulatory uncertainty", "description": "Clarity Act failure or delay could derail institutional adoption expectations" },
-    { "severity": "medium", "title": "ETH purchase funding risk", "description": "Ongoing ETH purchases require equity offerings or convertible debt. Dilution risk exists" },
-    { "severity": "medium", "title": "Staking slashing risk", "description": "3.14M ETH staked. Network issues causing slashing could result in significant asset loss" },
-    { "severity": "low", "title": "Competing ETH treasury firms may emerge", "description": "BMNR's success could inspire similar ETH treasury strategies from other companies" }
+    { "severity": "high", "title": "Extreme ETH Price Dependency", "description": "Vast majority of assets are in ETH. Further ETH decline would shrink NAV and potentially widen the P/B discount" },
+    { "severity": "high", "title": "Crypto Regulatory Uncertainty", "description": "If Clarity Act fails or is delayed, expectations for institutional adoption could be dashed" },
+    { "severity": "medium", "title": "Funding Risk for Continued ETH Purchases", "description": "Ongoing ETH acquisitions require equity offerings or convertible debt, creating dilution risk" },
+    { "severity": "medium", "title": "Staking Slashing Risk", "description": "With 3.14M ETH staked, network issues could trigger slashing penalties and significant asset loss" },
+    { "severity": "low", "title": "Potential Competing ETH Treasury Entrants", "description": "BMNR's success could inspire similar ETH treasury strategies from other companies" }
   ],
 
   "buyReasons": [
-    { "title": "P/B 0.86x, 14% NAV discount", "rationale": "Holdings of $11.0B vs market cap of $9.67B. Stark contrast to MSTR trading at 2-3x NAV premium" },
-    { "title": "Purchase pace accelerating (+30% weekly)", "rationale": "65,341 ETH ($138M) purchased last week, 30% above average. Tom Lee's conviction-driven contrarian bet" },
-    { "title": "4.7% dividend yield", "rationale": "Only crypto-related public company paying dividends. Provides cash flow during downturns" },
-    { "title": "Clarity Act as catalyst", "rationale": "68% passage probability in prediction markets. Regulatory clarity would boost institutional ETH adoption and benefit BMNR" }
+    { "title": "P/B 0.86x, 14% NAV Discount", "rationale": "Assets of $11.0B vs market cap of $9.67B. MSTR trades at 2-3x NAV premium by comparison" },
+    { "title": "Purchase Pace Accelerating (+30% Weekly)", "rationale": "65,341 ETH ($138M) purchased last week, 30% above prior average. Tom Lee's high-conviction contrarian bet" },
+    { "title": "4.7% Dividend Yield", "rationale": "Only dividend-paying crypto treasury stock. Cash flow even during market downturns" },
+    { "title": "Clarity Act Catalyst", "rationale": "68% passage probability in prediction markets. Regulatory clarity would drive institutional ETH and BMNR adoption" }
   ],
 
   "technicalPosition": {
@@ -133,90 +137,90 @@
   },
 
   "overallOpinion": [
-    "BMNR has been range-bound at $19-$23 for 7 weeks. The stock holding its floor despite ETH weakness at $2,072 signals the market views the NAV discount (14%) and dividend (4.7%) as support levels.",
-    "Tom Lee accelerated purchases by 30%, betting on the slump ending. With 1.34M ETH left to reach the 5% Alchemy target, the current pace puts completion within 6 months. 24/7 Wall St analyzing post-5% scenarios shows growing market interest.",
-    "The key risk is ETH price itself. Below $1,500, the NAV discount widens. Above $2,500, the stock could reach $30+. At its core, this remains a pure ETH leverage play."
+    "BMNR has held the $19-$23 range for 7 weeks straight. The fact that the stock is defending its floor despite ETH at $2,072 suggests the 14% NAV discount and 4.7% dividend are acting as support. 24/7 Wall St is now analyzing 'what happens after 5%,' signaling growing market interest.",
+    "Tom Lee is accelerating purchases by 30%, betting on the crypto slump ending. With 1.34M ETH to go until the 5% target, current pace puts achievement within 6 months. Bankless Times analyzing 'breakout imminent' shows expectations are building.",
+    "The key variable remains ETH price itself. At ETH $2,500, the stock could hit $30+. At $1,500, the NAV discount widens further. A break above the $23 range top could trigger rapid upside, but this remains a pure ETH leverage play at its core."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "P/B 0.86x (14% NAV discount) is attractive. If you believe in ETH recovery, current prices offer a good entry. However, the extreme ETH dependency means position sizing and monitoring ETH market trends are critical.",
-    "horizon": "3-6 months (Clarity Act legislation + ETH market cycle)"
+    "summary": "P/B of 0.86x (14% NAV discount) is attractive. If you believe in ETH recovery, current price is a solid entry point. However, the extreme ETH dependency demands position sizing discipline and monitoring of broader ETH market trends.",
+    "horizon": "3-6 months (Clarity Act timeline + ETH market cycle)"
   },
 
   "sources": [
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH 4,661,000 holdings + total assets $11.0B official release" },
-    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending", "description": "Tom Lee $138M ETH purchase + slump end bet" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% Alchemy target proximity scenario analysis" },
-    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey", "description": "BMNR crypto pack decoupling analysis" },
-    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/", "description": "Breakout potential analysis: 4 reasons" },
+    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "Official announcement: 4,661,000 ETH + $11.0B total assets" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending", "description": "Tom Lee $138M ETH purchase, betting on slump ending" },
+    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% Alchemy target scenario analysis" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey", "description": "BMNR decoupling from crypto pack analysis" },
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/", "description": "4 reasons for imminent breakout analysis" },
     { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH holdings tracker" },
-    { "name": "Morningstar", "url": "https://www.morningstar.com/news/pr-newswire/20260323ny16313/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4661-million-tokens-and-total-crypto-and-total-cash-holdings-of-110-billion", "description": "ETH holdings and staking status" },
-    { "name": "CoinGape", "url": "https://coingape.com/breaking-tom-lees-bitmine-acquires-65341-eth-as-bmnr-stock-price-surges-over-3/", "description": "Weekly 65,341 ETH purchase and stock reaction" },
-    { "name": "Chainwire", "url": "https://chainwire.org/2026/03/23/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion/", "description": "MAVAN staking + total holdings detail" },
-    { "name": "Coinbase", "url": "https://www.coinbase.com/price-prediction/ethereum", "description": "ETH price prediction reference" }
+    { "name": "CoinGape", "url": "https://coingape.com/breaking-tom-lees-bitmine-acquires-65341-eth-as-bmnr-stock-price-surges-over-3/", "description": "Weekly 65,341 ETH purchase and price reaction" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/", "description": "ETH bullish pattern and BMNR surge potential" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/bitmine-immersion-technologies-bmnr-deepens-130831157.html", "description": "ETH 4.60M holdings and AI strategy concentration" },
+    { "name": "Coinbase", "url": "https://www.coinbase.com/price-prediction/ethereum", "description": "ETH price forecast reference" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Tom Lee's contrarian bet: 30% more ETH buying in a down market",
-      "text": "$BMNR (Mar 25) Tom Lee ramped ETH buys 30% during the slump. $138M in one week. Total: 4.66M ETH (3.87% of supply). $21.27.\n\n1/4",
+      "hook": "Markets are now analyzing what happens AFTER BMNR hits 5%",
+      "text": "$BMNR (3/25) 24/7 Wall St asking 'what happens after 5%?' Tom Lee accelerated buying by 30%. 4.66M ETH, $21.27.\n\n1/4",
       "thread": [
-        "Assets $11.0B, market cap $9.67B. 14% NAV discount. 4.7% dividend. Only crypto stock with a yield.\n\n2/4",
-        "5% Alchemy target: 1.34M ETH to go. At this pace, 6 months. Market starting to price in post-5% scenarios.\n\n3/4",
-        "Risk: ETH at $1,500 = NAV shrinks. ETH at $2,500 = stock hits $30+. Pure ETH leverage play.\n\n4/4"
+        "Assets $11.0B, market cap $9.67B. 14% NAV discount. MSTR trades at 2-3x premium. Plus 4.7% dividend.\n\n2/4",
+        "7 weeks in the $19-$23 range. Holding the floor despite ETH at $2,072. Bankless Times says 'breakout imminent.'\n\n3/4",
+        "1.34M ETH to 5% target, ~6 months at current pace. ETH $2,500 = $30+. Target $32 (+50%).\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tom Lee doubled down on ETH in a down market",
-      "text": "$BMNR (Mar 25) $21.27\n\nETH at $2,072, going nowhere. Tom Lee's response: buy 30% more. $138M in one week, total holdings 4.66M ETH (3.87% of all ETH in existence).\n\nAssets $11.0B vs market cap $9.67B. 14% NAV discount with a 4.7% dividend. MSTR trades at 2-3x NAV premium for the same strategy in Bitcoin.\n\n1.34M ETH from the 5% Alchemy target. Six months at current pace. If ETH recovers, this is the first stock to move."
+      "hook": "The 5% ETH target is in sight, and the market is looking beyond it",
+      "text": "$BMNR (3/25) $21.27\n\n24/7 Wall St is analyzing 'what happens after BMNR hits 5%.' The conversation is shifting from 'when' to 'what next.' Currently at 3.87%, 1.34M ETH to go.\n\nTom Lee boosted weekly purchases by 30% to $138M. Assets $11.0B vs market cap $9.67B, 14% NAV discount. 4.7% dividend. Stock has held the floor for 7 weeks despite ETH weakness.\n\nWhen ETH recovers, this is the first stock to benefit. Of course, the inverse also applies. Target $32 (+50%)."
     },
     "telegram": {
-      "hook": "Tom Lee accelerates ETH purchases in down market",
-      "text": "BMNR Daily Analysis (Mar 25)\n\nPrice: $21.27\n\nKey Issues\n- ETH Holdings: 4,661,000 (3.87% of supply)\n- Total Assets: $11.0B (market cap $9.67B, 14% NAV discount)\n- Weekly Purchase: 65,341 ETH ($138M), pace up 30%\n- Dividend: 4.7% (only crypto stock with yield)\n- 5% target: 1.34M ETH away (est. 6 months)\n- Clarity Act: 68% passage probability\n\nTechnicals\n- 7-week range $19-$23\n- Above 50-day ($21), 200-day ($16)\n- RSI 50, neutral\n\nTarget: $32 (+50%)\nVerdict: Buy (ETH recovery bet, manage position size)"
+      "hook": "Market focus shifts to post-5% scenarios",
+      "text": "BMNR Daily Analysis (3/25)\n\nPrice: $21.27\n\nKey Issues\n- 24/7 Wall St: analyzing post-5% target scenarios\n- ETH Holdings: 4,661,000 (3.87% of supply)\n- Total Assets: $11.0B (market cap $9.67B, 14% NAV discount)\n- Weekly Purchases: 65,341 ETH ($138M), pace up 30%\n- Dividend Yield: 4.7% (only crypto stock with dividends)\n- Bankless Times: breakout imminent analysis\n\nTechnical Position\n- 7 weeks in $19-$23 range\n- Above 50-day ($21) and 200-day ($16)\n- RSI 50, neutral\n\nTarget: $32 (+50%)\nVerdict: Buy (ETH recovery bet, manage position size)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tom Lee's contrarian bet: 30% more ETH in a slump",
-          "text": "$BMNR (Mar 25) 4,661,000 ETH (3.87% of supply). Assets $11.0B, cap $9.67B. P/B 0.86x. $21.27.\n\n1/4",
+          "hook": "Markets analyzing what happens after BMNR hits 5%",
+          "text": "$BMNR (3/25) 4.66M ETH (3.87% of supply). Assets $11.0B, market cap $9.67B, P/B 0.86x. $21.27.\n\n1/4",
           "thread": [
-            "Weekly 65,341 ETH ($138M). Pace up 30%. 5% target: 1.34M ETH remaining.\n\n2/4",
-            "Dividend 4.7%, staking $180M/yr. MAVAN platform to improve yield.\n\n3/4",
-            "ETH leverage play. $2,500 = $30+. $1,500 = NAV shrinks. Target $32 (+50%).\n\n4/4"
+            "Weekly 65,341 ETH ($138M), pace up 30%. 1.34M ETH to 5% target, ~6 months.\n\n2/4",
+            "4.7% dividend, $180M/yr staking. 7 weeks in range. NAV 14% discount.\n\n3/4",
+            "ETH $2,500 = $30+. ETH $1,500 = NAV shrinks. Target $32 (+50%).\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "ETH is struggling but Tom Lee just bought $138M more",
-          "text": "$BMNR (Mar 25) ETH at $2,072, barely moving. Tom Lee's move: buy $138M more in one week. Bold or reckless? $21.27.\n\n1/4",
+          "hook": "Everyone's selling crypto. Tom Lee spent another $138M",
+          "text": "$BMNR (3/25) ETH at $2,072. Everyone's cautious. Tom Lee? He bought $138M more. And increased the pace by 30%. $21.27.\n\n1/4",
           "thread": [
-            "Assets $11.0B, cap $9.67B. Like buying a $100 item for $86. MSTR pays 2-3x NAV for the same idea in Bitcoin.\n\n2/4",
-            "4.7% dividend plus $180M/yr staking. More yield than holding ETH directly. Unless ETH drops more.\n\n3/4",
-            "5% target in 6 months. 24/7 Wall St already writing about what happens after. The hype is building.\n\n4/4"
+            "$11B in assets, $9.67B market cap. That's like buying a $100 wallet for $86. MSTR charges 2-3x premium for the same structure.\n\n2/4",
+            "24/7 Wall St is writing 'what happens after 5%' pieces. When the media analyzes your success scenario, something's working.\n\n3/4",
+            "7 weeks in a box. When the spring uncoils, it'll be fast. 'When' is the question. Target $32 (+50%).\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Crypto's been rough, but BMNR is holding its ground",
-          "text": "$BMNR (Mar 25) ETH at $2,072. Tough times for crypto holders. But BMNR has held $19-$23 for 7 weeks. $21.27.\n\n1/4",
+          "hook": "Crypto's in a slump, but BMNR keeps holding its ground",
+          "text": "$BMNR (3/25) ETH at $2,072. Crypto feels stale. 7 weeks in the same range. But the floor is holding. $21.27.\n\n1/4",
           "thread": [
-            "Tom Lee is buying more, not less. $138M in one week. He sees something the market doesn't, or so he believes.\n\n2/4",
-            "Assets $11.0B, 4.7% dividend. At least you get paid while waiting.\n\n3/4",
-            "If ETH recovers, this is the first name to move. Target $32 (+50%). Patience.\n\n4/4"
+            "Tom Lee is buying more, not less. $138M last week. NAV 14% discount, 4.7% dividend. There's a reason to hold.\n\n2/4",
+            "24/7 Wall St is now analyzing what comes after 5%. You're not waiting alone.\n\n3/4",
+            "When ETH recovers, this rebounds first. Patience has a price, but it also has a payoff. Target $32 (+50%).\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "ETH buys up 30%, NAV 14% discount, 4.7% yield",
-          "text": "$BMNR (Mar 25) $21.27\n\n4,661,000 ETH (3.87% of supply). Assets $11.0B, cap $9.67B. P/B 0.86x. Weekly 65,341 ETH ($138M), pace +30%. Dividend 4.7%, staking $180M/yr. 5% target: 1.34M ETH. ETH recovery = $30+. Target $32 (+50%)."
+          "hook": "5% target in sight, market watching post-achievement scenarios",
+          "text": "$BMNR (3/25) $21.27\n\n4,661,000 ETH (3.87%). Assets $11.0B, market cap $9.67B, P/B 0.86x. Weekly 65,341 ETH ($138M), pace up 30%. 5% target: 1.34M ETH, ~6 months. 4.7% dividend, $180M/yr staking. Target $32 (+50%)."
         },
         "witty": {
-          "hook": "ETH is flat but Tom Lee keeps buying like it's going to $5,000",
-          "text": "$BMNR (Mar 25) $21.27\n\nETH at $2,072, going sideways. Tom Lee: 'Hold my wallet' and buys $138M more. The man now holds 3.87% of all ETH ever created and says it's not enough.\n\nAssets $11.0B in a $9.67B wrapper. With a 4.7% dividend. MSTR gets a 2-3x premium for the same playbook in Bitcoin. The NAV discount here is either a mispricing or the market knows something.\n\n5% target in 6 months. If he's right about the slump ending, this is the best crypto leverage play on any exchange."
+          "hook": "Tom Lee spent $138M while everyone else was selling crypto",
+          "text": "$BMNR (3/25) $21.27\n\nETH at $2,072 and everyone's nervous. Tom Lee? Bought $138M more and increased the pace by 30%. He owns 3.87% of all ETH in existence and says 'not enough.'\n\n$11B assets, $9.67B market cap. MSTR charges 2-3x premium for the same concept. 24/7 Wall St is already writing post-5% scenarios.\n\n4.7% dividend while you wait, $180M/yr staking. The setup is there. ETH just needs to cooperate."
         },
         "empathy": {
-          "hook": "Crypto holders, BMNR shows surprising resilience",
-          "text": "$BMNR (Mar 25) $21.27\n\nETH at $2,072 and crypto feels stuck. If you're holding crypto assets, the fatigue is real. But BMNR has quietly held its $19-$23 range for 7 weeks while ETH drifts.\n\nTom Lee is doubling down, buying 30% more per week. $11.0B in assets, 4.7% dividend. There's a floor here, even in bad times.\n\n5% Alchemy target is 6 months away. If ETH turns, this moves first. Patience will be rewarded. Target $32 (+50%)."
+          "hook": "Crypto's quiet, but BMNR's floor is holding. That matters",
+          "text": "$BMNR (3/25) $21.27\n\n7 weeks in the same range while ETH stays weak at $2,072. It's boring, it's frustrating. But the stock isn't breaking down, and that says something.\n\nTom Lee is still buying, faster than before. NAV 14% discount, 4.7% dividend. The math works if ETH recovers.\n\n24/7 Wall St analyzing post-5% scenarios. Interest is growing. When the tide turns, this moves first. Target $32 (+50%)."
         }
       }
     }

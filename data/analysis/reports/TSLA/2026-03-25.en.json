@@ -2,17 +2,17 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-25",
-  "currentPrice": 383.03,
-  "marketCap": "$1.44T",
+  "currentPrice": 384.68,
+  "marketCap": "$1.45T",
 
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
-    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxi, Optimus humanoid robot, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08. Q4 2025 gross margin hit 20.1%, a two-year high. FSD transitioned to a $99/month subscription model to maximize recurring revenue. Key catalysts ahead include Cybercab production start and Roadster reveal in April 2026.",
+    "oneLiner": "World's largest EV maker and a 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
+    "description": "Tesla goes beyond EV sales with FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08, and Q4 2025 gross margin hit 20.1%, a two-year high. FSD transitioned to a $99/month subscription model to maximize recurring revenue. Key catalysts in April 2026 include Cybercab production start, Roadster reveal, and FSD Netherlands approval.",
     "howTheyMakeMoney": [
       "EV sales (Model 3/Y, Cybertruck)",
       "Energy storage and generation (Megapack, Powerwall, Solar)",
       "Services and charging (Supercharger network, insurance, OTA upgrades)",
-      "FSD subscription ($99/month) and licensing",
+      "FSD subscription at $99/month and licensing",
       "Regulatory credit sales"
     ],
     "keyProducts": [
@@ -28,73 +28,73 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "355x", "interpretation": "Over 16x the S&P 500 average of 22x. Extreme premium vs auto sector average (10x), but reflects growth expectations as an AI/robotics/energy platform" },
-    { "name": "Forward P/E (2026E)", "value": "170x", "interpretation": "Based on consensus EPS of $2.25. Still 8.5x S&P 500 average Forward P/E (20x), but half of TTM P/E (355x), reflecting expected earnings improvement" },
-    { "name": "Revenue Growth (FY2025)", "value": "-2.93%", "interpretation": "Slight revenue decline YoY. 2026 consensus projects +15% ($108.9B) recovery, but UBS cut Q1 deliveries to 345K (18% QoQ decline), raising uncertainty" },
+    { "name": "P/E (TTM)", "value": "356x", "interpretation": "Over 16x the S&P 500 average (22x). Extreme premium vs auto sector average (10x), but reflects Tesla's AI/robotics/energy platform potential" },
+    { "name": "Forward P/E (2026E)", "value": "171x", "interpretation": "Based on consensus EPS of $2.25. Still 8.5x the S&P 500 forward P/E (20x), but half of the TTM P/E, reflecting expected earnings improvement" },
+    { "name": "Revenue Growth (FY2025)", "value": "-2.93%", "interpretation": "Slight revenue decline YoY. 2026 consensus projects +15% ($108.9B) rebound, though UBS cut Q1 delivery estimate to 345K (-18% QoQ)" },
     { "name": "Gross Margin", "value": "18.03%", "interpretation": "Recovered to 20.1% in Q4 2025, a two-year high, but still below 2022 levels (25.6%)" },
-    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Down sharply from FY2024's 7.24% due to price competition and expanded R&D investment" },
-    { "name": "FCF (Free Cash Flow)", "value": "$6.22B (+74% YoY)", "interpretation": "Significantly improved cash generation despite massive investments in Terafab and Cybercab ramp-up" }
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Down from 7.24% in FY2024 due to pricing competition and R&D investment expansion" },
+    { "name": "FCF (Free Cash Flow)", "value": "$6.22B (+74% YoY)", "interpretation": "Significant improvement in cash generation. Comfortable cash position despite massive investments in Terafab and Cybercab production" }
   ],
 
   "growthDrivers": [
     {
-      "title": "European Sales Rebound After 13 Months (Feb +11.8%)",
-      "description": "ACEA data shows February European registrations up 11.8% YoY, the first increase since December 2024. However, BYD grew 100%+ in the same period, intensifying market share competition"
+      "title": "Wedbush Calls Terafab a 'Game Changer' (3/25)",
+      "description": "Wedbush reiterated Outperform and $600 target, calling the Terafab semiconductor factory a 'game changer' for Tesla's AI strategy. AI5 chip small-batch production expected late 2026, volume production in 2027"
+    },
+    {
+      "title": "European Sales Rebound After 13-Month Slump (Feb +11.8%)",
+      "description": "ACEA data shows February European registrations up 11.8% YoY, first increase since December 2024. However, BYD grew over 100% in the same period, intensifying market share competition"
     },
     {
       "title": "Terafab $20-25B Joint Chip Factory (3/22)",
-      "description": "Tesla, SpaceX, and xAI announced a joint venture to build Terafab semiconductor factory in Austin. Plans to produce both automotive and AI satellite chips. 2027 production target, though skepticism exists about feasibility"
+      "description": "Tesla, SpaceX, and xAI are jointly investing in a Terafab semiconductor facility in Austin, Texas. Plans to produce vehicle chips and AI satellite chips in-house, targeting 2027 production"
     },
     {
-      "title": "Cybercab April Production + Roadster Late April Reveal",
-      "description": "Steer-less fully autonomous robotaxi Cybercab production start and next-gen Roadster reveal both scheduled for April. Two major catalysts concentrated in a single month"
+      "title": "Cybercab Production + Roadster Reveal in April",
+      "description": "Steerless, fully autonomous Cybercab robotaxi production begins in April alongside the next-gen Roadster reveal. Two major catalysts concentrated in a single month"
     },
     {
       "title": "Netherlands FSD Approval Expected by 4/10",
-      "description": "Tesla expects Dutch authorities to approve FSD Supervised by April 10. If approved, EU-wide expansion possible by summer"
+      "description": "Tesla expects FSD Supervised approval from Dutch authorities by April 10. If approved, summer rollout across the EU is possible"
     },
     {
-      "title": "$2.9B Chinese Solar Equipment Purchase Negotiations",
-      "description": "Negotiating $2.9B equipment purchase from Chinese manufacturers to achieve 100GW US solar production capacity. Major energy business expansion signal"
-    },
-    {
-      "title": "China Sales Surge (+35% YoY)",
-      "description": "Jan-Feb 2026 China sales up 35% year-over-year. Sustained growth momentum in the world's largest EV market"
+      "title": "China Sales Surge (+35% YoY) + $2.9B Solar Equipment",
+      "description": "January-February 2026 China sales up 35% YoY. Also negotiating $2.9B in solar equipment purchases from Chinese firms for 100GW domestic solar capacity"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share, 8.4B miles of FSD data, NACS charging standard dominance, AI chip internalization via Samsung AI6 foundry partnership",
+    "summary": "50%+ US EV market share, 8.4 billion FSD miles, NACS Supercharger standard dominance, Terafab for AI chip verticalization",
     "moats": [
       {
         "type": "Data Moat",
-        "description": "8.4 billion miles of real-world FSD driving data. Scale impossible for competitors to replicate in the short term"
+        "description": "8.4 billion real-world FSD miles. An insurmountable autonomous driving dataset that competitors cannot replicate in the short term"
       },
       {
         "type": "Charging Infrastructure",
-        "description": "Supercharger network adopted as NACS standard. Ford, GM, and other competitors use Tesla's charging infrastructure"
+        "description": "Supercharger network adopted as NACS standard. Ford, GM, and other competitors now use Tesla's charging infrastructure"
       },
       {
         "type": "Vertical Integration",
-        "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all in-house. Cost advantage and rapid innovation cycle"
+        "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all in-house. Cost advantages and faster innovation cycles"
       },
       {
         "type": "Brand Power",
-        "description": "Synonymous with EVs. High brand recognition and passionate fan base generate demand without marketing spend"
+        "description": "Synonymous with EVs. High brand recognition and passionate fanbase create demand without marketing spend"
       }
     ],
     "competitors": [
       {
         "name": "BYD",
-        "detail": "China market leader, 100%+ growth in Europe. Rapidly closing the gap with superior price competitiveness"
+        "detail": "China market leader with 100%+ European growth. Price competitiveness advantage rapidly closing the gap with Tesla"
       },
       {
         "name": "Zoox (Amazon)",
-        "detail": "Expanding robotaxi service in SF and Las Vegas. Austin and Miami pilot programs launched (3/24). Direct robotaxi competitor"
+        "detail": "Expanding robotaxi service to SF, Las Vegas, Austin, and Miami. Direct robotaxi competitor"
       },
       {
         "name": "Waymo (Alphabet)",
-        "detail": "Ahead of Tesla in autonomous driving commercialization. Continuing to expand robotaxi service"
+        "detail": "Ahead of Tesla in autonomous driving commercialization. Expanding robotaxi services"
       },
       {
         "name": "Hyundai/Kia",
@@ -104,136 +104,136 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-24", "headline": "Long-time bull Trip Chowdhry flips to sell with $150 target", "significance": "Historically bullish analyst turned bearish citing AI narrative collapse. $150 target implies 60% downside from current levels, weighing heavily on sentiment", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406" },
-    { "date": "2026-03-24", "headline": "European Feb registrations +11.8%, first rebound in 13 months", "significance": "Year-long European sales decline finally reversed. However, BYD also grew 100%+, tying market share at 1.8%", "url": "https://www.reuters.com/business/autos-transportation/european-car-sales-rise-modestly-february-tesla-reverses-year-long-skid-2026-03-24/" },
-    { "date": "2026-03-23", "headline": "UBS cuts Q1 delivery estimate to 345,000 (QoQ -18%)", "significance": "7% below consensus of 371,000. Cites softening demand and fading robotaxi enthusiasm", "url": "https://www.investing.com/news/stock-market-news/ubs-sees-tesla-q1-deliveries-missing-estimates-as-demand-softens-4571030" },
-    { "date": "2026-03-22", "headline": "Terafab chip factory: Tesla, SpaceX, xAI joint $20-25B investment", "significance": "Breaking ground on in-house chip factory in Austin. Targeting both automotive and AI satellite chip production", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/" },
-    { "date": "2026-03-19", "headline": "NHTSA upgrades FSD probe to 'Engineering Analysis' for 3.2M vehicles", "significance": "Investigation escalated one level. Increased recall probability could impact the entire autonomous driving strategy", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html" }
+    { "date": "2026-03-25", "headline": "Wedbush Calls Terafab a 'Game Changer,' Reiterates $600 Target", "significance": "Wedbush sees Terafab as central to Tesla's AI strategy. AI5 chip small-batch production in late 2026, volume production in 2027. Bull conviction intact", "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-tesla-stock-rating-on-chip-factory-plans-93CH-4578070" },
+    { "date": "2026-03-24", "headline": "Longtime Bull Trip Chowdhry Flips to Sell, Sets $150 Target", "significance": "Historically bullish analyst cites AI narrative collapse as reason for downgrade. $150 target implies 60% downside from current levels", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406" },
+    { "date": "2026-03-24", "headline": "European February Registrations Up 11.8%, First Rebound in 13 Months", "significance": "Year-long European sales decline finally reversed. However, BYD also grew 100%+, matching Tesla's market share at 1.8%", "url": "https://www.reuters.com/business/autos-transportation/european-car-sales-rise-modestly-february-tesla-reverses-year-long-skid-2026-03-24/" },
+    { "date": "2026-03-22", "headline": "Terafab: Tesla, SpaceX, xAI Joint $20-25B Chip Factory", "significance": "Austin-based in-house semiconductor factory announced. Vehicle and AI satellite chip production targeted for 2027", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/" },
+    { "date": "2026-03-19", "headline": "NHTSA Escalates FSD Probe to 'Engineering Analysis' for 3.2M Vehicles", "significance": "Investigation upgraded one level. Increased recall probability could impact Cybercab licensing and overall autonomous strategy", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 399.0,
+    "consensusTarget": 406.84,
     "highTarget": 600.0,
     "lowTarget": 25.28,
-    "upsidePercent": 4.2,
+    "upsidePercent": 5.8,
     "buyCount": 17,
     "holdCount": 7,
     "sellCount": 10,
-    "notableComment": "Long-time bull Trip Chowdhry flipped to sell with $150 target. 10 out of 34 analysts now have sell ratings, unusually high. Wedbush maintains $600 target on the bull side"
+    "notableComment": "Wedbush sees Terafab as a 'game changer' and maintains $600. Trip Chowdhry flips to Sell at $150. Extreme polarization with 10 of 34 analysts rating Sell"
   },
 
   "risks": [
-    { "severity": "critical", "title": "Sentiment deterioration as bulls defect", "description": "Even long-time bulls like Trip Chowdhry are turning bearish. 10 out of 34 sell ratings is exceptionally high for Tesla, signaling a clear shift in Wall Street sentiment" },
-    { "severity": "high", "title": "Extreme valuation premium", "description": "P/E of 355x and P/S of 14.6x are extreme by any comparison. Significant downside risk if results disappoint expectations" },
-    { "severity": "high", "title": "Q1 delivery outlook sharply cut (UBS 345K)", "description": "UBS cut Q1 estimate to 345,000 (7% below consensus of 371K). 18% QoQ decline signals demand weakness materializing" },
-    { "severity": "high", "title": "NHTSA FSD probe upgraded to Engineering Analysis", "description": "Federal regulators escalated the investigation covering 3.2M vehicles. Increased recall probability could impact the entire FSD strategy" },
-    { "severity": "medium", "title": "Robotaxi competition intensifying", "description": "Zoox expanding to 4 cities, Waymo growing steadily. Tesla's Cybercab remains technically unproven while competitors advance" }
+    { "severity": "critical", "title": "Bull Defection Signals Deteriorating Sentiment", "description": "Even longtime bulls like Trip Chowdhry are flipping to Sell. 10 of 34 analysts now rate Sell, an unusually high proportion signaling a clear shift in Wall Street sentiment" },
+    { "severity": "high", "title": "Extreme Valuation Premium", "description": "P/E of 356x and P/S of 14.6x are extreme by any benchmark. Significant downside risk if earnings disappoint" },
+    { "severity": "high", "title": "Q1 Delivery Forecast Slashed (UBS: 345K)", "description": "UBS cut Q1 delivery estimate to 345K (-7% vs consensus of 371K), an 18% QoQ decline suggesting demand softening is materializing" },
+    { "severity": "high", "title": "NHTSA FSD Probe Escalated to Engineering Analysis", "description": "Federal investigation covering 3.2M vehicles upgraded. Higher recall probability could derail the entire autonomous strategy" },
+    { "severity": "medium", "title": "Robotaxi Competition + Macro Headwinds", "description": "Zoox expanding to 4 cities, Waymo growing. Oil at $91 and S&P 500 decline adding macro pressure" }
   ],
 
   "buyReasons": [
-    { "title": "April catalyst concentration", "rationale": "Cybercab production start, Roadster reveal, and Netherlands FSD approval (4/10) all scheduled for April. Major events concentrated in one month" },
-    { "title": "Europe and China sales rebounding simultaneously", "rationale": "Europe's first rebound in 13 months (+11.8%), China +35% YoY. Both key markets shifting to growth at the same time" },
-    { "title": "Terafab + energy business expansion", "rationale": "$20-25B chip factory and $2.9B solar equipment accelerate diversification beyond EVs" },
-    { "title": "FCF surge (+74%)", "rationale": "Free cash flow of $6.22B, up 74% YoY. Cash generation proven despite massive investment programs" }
+    { "title": "April Catalyst Concentration", "rationale": "Cybercab production start, Roadster reveal, and Netherlands FSD approval (4/10) all converging in April. Multiple major events in a compressed timeframe" },
+    { "title": "European and Chinese Sales Rebounding Simultaneously", "rationale": "Europe's first rebound in 13 months (+11.8%) and China +35% YoY. Two key markets returning to growth at the same time" },
+    { "title": "Terafab + Energy Expansion", "rationale": "Wedbush calls it a 'game changer.' $20-25B chip factory plus $2.9B solar equipment accelerating business diversification" },
+    { "title": "FCF Surge (+74%)", "rationale": "Free cash flow of $6.22B, up 74% YoY. Strong cash generation despite massive investment commitments" }
   ],
 
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
-    "currentPositionPercent": 59.3,
+    "currentPositionPercent": 59.9,
     "sma50": 389.0,
     "sma50Signal": "below",
     "sma200": 402.0,
     "sma200Signal": "below",
-    "rsi": 34.0,
+    "rsi": 35.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Long-time bull Trip Chowdhry flipped to sell with a $150 target. With 10 out of 34 analysts now bearish, Wall Street sentiment is clearly shifting. UBS also cut Q1 deliveries to 345K, 7% below consensus.",
-    "Still, April brings Cybercab production, Roadster reveal, and Netherlands FSD approval (4/10) all at once. Europe just posted its first monthly rebound in 13 months (+11.8%), and China is growing 35%.",
-    "Trading below both the 50-day ($389) and 200-day ($402) averages with RSI at 34, nearing oversold territory. At $383.03, this is the lowest since September. April events could trigger a rebound, but failure could open the door to $350."
+    "Wedbush calls Terafab a 'game changer' and holds $600, while longtime bull Trip Chowdhry flips to Sell at $150. With 10 of 34 analysts on Sell, Wall Street is as divided on Tesla as it has ever been.",
+    "April brings Cybercab production, Roadster reveal, and Netherlands FSD approval (4/10) all at once. European (+11.8%) and Chinese (+35%) sales are rebounding simultaneously, offering early signs of an earnings recovery.",
+    "Trading below both the 50-day ($389) and 200-day ($402) SMAs with RSI at 35, approaching oversold territory. At $384.68 and YTD -15%, April events could trigger a sharp rebound, but failure risks a drop below $350."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Analyst defections and Q1 delivery downgrades are pressuring near-term sentiment. With Cybercab, Roadster, and FSD Europe approval all concentrated in April, it's prudent to wait for results before taking positions. New entries at P/E 355x carry significant risk.",
+    "summary": "Wall Street is extremely polarized: Wedbush at $600 vs Chowdhry at $150. With Cybercab, Roadster, and FSD European approval all concentrated in April, waiting for results before positioning is prudent. At 356x P/E, new entries carry significant risk.",
     "horizon": "1-2 months (reassess after April events)"
   },
 
   "sources": [
-    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406", "description": "Trip Chowdhry sell downgrade with $150 target" },
-    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/ubs-sees-tesla-q1-deliveries-missing-estimates-as-demand-softens-4571030", "description": "UBS Q1 delivery estimate cut to 345,000" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-tesla-stock-rating-on-chip-factory-plans-93CH-4578070", "description": "Wedbush Terafab 'game changer' call, $600 target reiterated" },
+    { "name": "CoinCentral", "url": "https://coincentral.com/tesla-tsla-stock-jumps-as-wedbush-calls-terafab-a-game-changer/", "description": "AI5 chip timeline: small batch late 2026, volume 2027" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406", "description": "Trip Chowdhry Sell downgrade, $150 target" },
     { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/european-car-sales-rise-modestly-february-tesla-reverses-year-long-skid-2026-03-24/", "description": "European February sales rebound and BYD competition" },
-    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab semiconductor factory announcement" },
-    { "name": "Reuters", "url": "https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/", "description": "Zoox robotaxi expansion to 4 cities" },
-    { "name": "Reuters", "url": "https://www.reuters.com/sustainability/climate-energy/tesla-talks-with-chinese-firms-buy-29-bln-worth-solar-equipment-sources-say-2026-03-20/", "description": "$2.9B Chinese solar equipment purchase negotiations" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA FSD engineering analysis upgrade" },
-    { "name": "Benzinga", "url": "https://www.benzinga.com/money/tesla-stock-price-prediction", "description": "33 analyst consensus at $387.79" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab semiconductor factory official announcement" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA FSD engineering analysis escalation" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/ubs-sees-tesla-q1-deliveries-missing-estimates-as-demand-softens-4571030", "description": "UBS Q1 delivery cut to 345K" },
     { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "Analyst consensus target $406.84" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/", "description": "10 out of 34 analysts rate sell" }
+    { "name": "MEXC", "url": "https://blog.mexc.com/finance/tesla-stock-price-analysis-is-tsla-a-buy-sell-or-hold/", "description": "March 25 price analysis and valuation assessment" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/", "description": "10 of 34 analysts Sell, average target $383.54" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Long-time Tesla bull flips to sell with $150 target",
-      "text": "$TSLA (Mar 25) Long-time bull Trip Chowdhry just flipped to sell. Target: $150, implying 60% downside. Stock at $383.03.\n\n1/4",
+      "hook": "Tesla: Wedbush $600 vs Chowdhry $150. Wall Street is split wide open",
+      "text": "$TSLA (3/25) Wedbush calls Terafab a 'game changer,' holds $600. Chowdhry flips to Sell at $150. 10 of 34 on Sell. $384.68.\n\n1/4",
       "thread": [
-        "UBS cut Q1 deliveries to 345K (7% below consensus). 10 out of 34 analysts now rate sell. Wall Street sentiment is clearly shifting.\n\n2/4",
-        "But April brings Cybercab production, Roadster reveal, and Netherlands FSD approval all at once. Europe and China sales both rebounding.\n\n3/4",
-        "Below both 50-day and 200-day averages. RSI 34. Avg target $399 (+4.2%). April events will decide everything.\n\n4/4"
+        "April is loaded: Cybercab production, Roadster reveal, FSD Netherlands approval. Europe +11.8%, China +35%. Sales are recovering.\n\n2/4",
+        "UBS cut Q1 deliveries to 345K. NHTSA escalated FSD probe. Good news and bad news are arriving in equal measure.\n\n3/4",
+        "Below 50-day and 200-day SMAs. RSI 35. Target $407 (+5.8%). April decides everything.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "A long-time Tesla bull just turned bearish",
-      "text": "$TSLA (Mar 25) $383.03\n\nTrip Chowdhry, a historically bullish analyst, flipped to sell with a $150 target. AI narrative collapse is the reason. 10 out of 34 analysts now have sell ratings, an unusually high number.\n\nUBS cut Q1 deliveries to 345K, 7% below consensus and 18% below last quarter. But April packs Cybercab production, Roadster reveal, and Netherlands FSD approval into one month.\n\nBelow both 50-day ($389) and 200-day ($402) averages. RSI 34. Lowest since September. April either triggers a rebound or opens the door to $350."
+      "hook": "Wedbush $600 vs Chowdhry $150: extreme Wall Street polarization",
+      "text": "$TSLA (3/25) $384.68\n\nWedbush calls Terafab a 'game changer' and holds $600. Same day, Trip Chowdhry flips to Sell at $150. Four-to-one spread between the highest and lowest targets. 10 of 34 analysts on Sell.\n\nApril is stacked: Cybercab production, Roadster reveal, Netherlands FSD approval. Europe +11.8% and China +35% are early signs of sales recovery.\n\nBelow 50-day ($389) and 200-day ($402). RSI 35. Target $407 (+5.8%). April events will define the direction."
     },
     "telegram": {
-      "hook": "Long-time bull turns bearish, Wall Street sentiment shifting",
-      "text": "Tesla Daily Analysis (Mar 25)\n\nPrice: $383.03\n\nKey Issues\n- Trip Chowdhry (long-time bull) flips to sell, $150 target\n- UBS cuts Q1 deliveries to 345K (consensus 371K)\n- 10/34 analysts now rate sell (unusually high)\n- Europe Feb +11.8% rebound, China +35% growth\n- April: Cybercab + Roadster + FSD Netherlands (4/10)\n- NHTSA FSD probe upgraded, Zoox expanding\n\nTechnicals\n- Below 50-day ($389) and 200-day ($402)\n- RSI 34, approaching oversold\n- Lowest since September\n\nTarget: $399 (+4.2%)\nVerdict: Hold (reassess after April events)"
+      "hook": "Wedbush $600 vs Chowdhry $150, extreme polarization",
+      "text": "Tesla Daily Analysis (3/25)\n\nPrice: $384.68\n\nKey Issues\n- Wedbush: Terafab 'game changer,' $600 target\n- Trip Chowdhry: flipped to Sell, $150 target\n- 10 of 34 analysts on Sell (extreme divide)\n- Europe Feb +11.8% rebound, China +35%\n- April: Cybercab + Roadster + FSD Netherlands (4/10)\n- UBS Q1 deliveries 345K cut, NHTSA probe escalated\n\nTechnical Position\n- Below 50-day ($389) and 200-day ($402)\n- RSI 35, approaching oversold\n- YTD -15%\n\nTarget: $407 (+5.8%)\nVerdict: Hold (reassess after April events)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Long-time Tesla bull flips to sell with $150 target",
-          "text": "$TSLA (Mar 25) Long-time bull Trip Chowdhry just flipped to sell. Target: $150, implying 60% downside. Stock at $383.03.\n\n1/4",
+          "hook": "Tesla: Wedbush $600 vs Chowdhry $150",
+          "text": "$TSLA (3/25) Wedbush calls Terafab a 'game changer,' holds $600. Chowdhry flips to Sell at $150. 10 of 34 on Sell. $384.68.\n\n1/4",
           "thread": [
-            "UBS cut Q1 deliveries to 345K (7% below consensus). 10 out of 34 analysts now rate sell. Wall Street sentiment is clearly shifting.\n\n2/4",
-            "But April brings Cybercab production, Roadster reveal, and Netherlands FSD approval all at once. Europe and China sales both rebounding.\n\n3/4",
-            "Below both 50-day and 200-day averages. RSI 34. Avg target $399 (+4.2%). April events will decide everything.\n\n4/4"
+            "April: Cybercab production, Roadster, FSD Netherlands. Europe +11.8%, China +35% recovery.\n\n2/4",
+            "UBS Q1 345K cut. NHTSA probe escalated. Bull and bear cases running in parallel.\n\n3/4",
+            "Below 50-day, 200-day. RSI 35. Target $407 (+5.8%). April is the inflection point.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla's biggest fan just became its harshest critic",
-          "text": "$TSLA (Mar 25) Trip Chowdhry was one of Tesla's loudest cheerleaders. Now he says sell with a $150 target. From friend to foe in one note. $383.03.\n\n1/4",
+          "hook": "$600 and $150 targets for the same stock. Someone is very wrong",
+          "text": "$TSLA (3/25) Wedbush: $600. Chowdhry: $150. That's a 4x gap on the same stock. April will tell us who's the genius and who's the fool. $384.68.\n\n1/4",
           "thread": [
-            "10 out of 34 analysts say sell. Usually it's 2-3. UBS cut Q1 to 345K. The bear case is getting crowded.\n\n2/4",
-            "Musk's answer? Drop Cybercab, Roadster, and FSD approval all in April. Classic 'overwhelm them with announcements' strategy.\n\n3/4",
-            "RSI 34, lowest since September. Catching a falling knife or buying the dip? April will tell. Target $399 (+4.2%).\n\n4/4"
+            "Terafab is a 'game changer' apparently. But AI5 chips don't ship until 2027. The game changes slowly.\n\n2/4",
+            "Europe +11.8%, China +35%. Sales are back. But UBS slashed Q1 deliveries. One hand giveth, the other taketh away.\n\n3/4",
+            "RSI 35, YTD -15%. Target $407 (+5.8%). Place your bets, results in April.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "If you hold Tesla, the news lately has been rough",
-          "text": "$TSLA (Mar 25) A long-time bull just turned bearish with a $150 target. If you hold TSLA, that headline stings. $383.03.\n\n1/4",
+          "hook": "If you hold Tesla, the wildly split analyst views must be confusing",
+          "text": "$TSLA (3/25) $600 and $150 from two analysts on the same stock. If you're holding, the confusion is understandable. $384.68.\n\n1/4",
           "thread": [
-            "10 out of 34 now say sell. UBS cut deliveries. Bad news keeps coming. It's okay to feel uneasy.\n\n2/4",
-            "But Europe just rebounded after 13 months. April brings Cybercab, Roadster, and FSD approval. The story isn't over.\n\n3/4",
-            "RSI 34, near oversold. Target $399 (+4.2%). Hang in there until April shows its hand.\n\n4/4"
+            "There is hope: Europe rebounds after 13 months, April is packed with Cybercab, Roadster, and FSD approval.\n\n2/4",
+            "There are concerns: UBS cut, NHTSA probe. RSI 35 near oversold. It's been a rough stretch.\n\n3/4",
+            "Target $407 (+5.8%). April will bring clarity. Hang in there.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Long-time bull flips to sell, Wall Street shifting",
-          "text": "$TSLA (Mar 25) $383.03\n\nTrip Chowdhry flips to sell, $150 target. UBS Q1 deliveries cut to 345K. 10/34 analysts bearish.\n\nEurope +11.8% rebound, China +35%. April: Cybercab, Roadster, FSD Netherlands. Below 50-day ($389) and 200-day ($402). RSI 34. Target $399 (+4.2%)."
+          "hook": "Wedbush $600 vs Chowdhry $150, Wall Street divided",
+          "text": "$TSLA (3/25) $384.68\n\nWedbush Terafab 'game changer' $600 maintained. Chowdhry Sell at $150. 10 of 34 on Sell.\n\nEurope +11.8%, China +35%. April Cybercab, Roadster, FSD Netherlands. UBS Q1 345K cut. Below 50-day ($389), 200-day ($402). RSI 35. Target $407 (+5.8%)."
         },
         "witty": {
-          "hook": "Tesla's biggest fan just became its harshest critic",
-          "text": "$TSLA (Mar 25) $383.03\n\nTrip Chowdhry was Tesla's loudest cheerleader. Now he says sell with a $150 target. That's a 60% haircut. 10 out of 34 analysts are bearish, up from the usual 2-3.\n\nMusk's plan? Unleash Cybercab, Roadster, and FSD approval all in April. The classic 'when in doubt, announce everything at once' playbook. Problem is, UBS just cut Q1 to 345K.\n\nRSI 34, September lows. Either this is the buying opportunity of 2026, or P/E 355x is about to matter. April will decide."
+          "hook": "$600 and $150: a 4x spread on the same ticker",
+          "text": "$TSLA (3/25) $384.68\n\nWedbush says $600, Chowdhry says $150. One sees a game-changing AI chip factory, the other sees a collapsing narrative. Both can't be right. April will be the judge.\n\nTerafab ships AI5 chips in 2027. Cybercab starts in April. Europe and China sales are recovering. But UBS cut Q1 deliveries. Classic Tesla: the bull and bear case are equally compelling.\n\nRSI 35, YTD -15%. Target $407 (+5.8%). This is the kind of stock that makes you question everything."
         },
         "empathy": {
-          "hook": "Tesla holders, the recent headlines have been tough",
-          "text": "$TSLA (Mar 25) $383.03\n\nWhen a long-time bull flips to sell with a $150 target, it hits different. If you're holding Tesla right now, the constant stream of bad headlines is exhausting.\n\nBut the company isn't standing still. Europe just posted its first sales rebound in over a year. China is growing 35%. April brings three major catalysts at once.\n\nRSI 34, near oversold. Target $399 (+4.2%). The tough part is almost over. April will show whether patience pays off."
+          "hook": "When analysts disagree by 4x, holding gets stressful",
+          "text": "$TSLA (3/25) $384.68\n\nWhen one analyst says $600 and another says $150 on the same stock, it's natural to feel lost. The uncertainty is real and valid.\n\nThe positives: Europe rebounds, China +35%, April is packed with catalysts. Terafab could reshape the company long-term.\n\nThe concerns: RSI 35, UBS delivery cuts, NHTSA probe. Target $407 (+5.8%). April will bring answers. Sometimes patience is the best strategy."
         }
       }
     }
