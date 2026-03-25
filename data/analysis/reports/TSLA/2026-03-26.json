@@ -1,0 +1,241 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-26",
+  "currentPrice": 386.0,
+  "marketCap": "$1.43T",
+
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
+    "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 977억 달러, 1.79M대 배송(전년 대비 -1.1%)을 기록했으며, Q4 2025에서 EPS $0.50으로 컨센서스($0.45)를 10% 상회했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
+    "howTheyMakeMoney": [
+      "전기차 판매 (Model 3/Y, Cybertruck)",
+      "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
+      "서비스, 충전 (Supercharger 네트워크, 보험, OTA 업그레이드)",
+      "FSD(Full Self-Driving) 월 99달러 구독 및 라이선싱",
+      "규제 크레딧 판매"
+    ],
+    "keyProducts": [
+      "Model Y/3",
+      "Cybertruck",
+      "Cybercab",
+      "Megapack 3",
+      "FSD",
+      "Optimus",
+      "Terafab",
+      "Roadster"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "356x", "interpretation": "S&P 500 평균(22x) 대비 16배 이상. 자동차 업종 평균(10x)과 비교하면 극단적 프리미엄이지만, 테슬라를 AI/로봇/에너지 플랫폼으로 본다면 성장 기대가 반영된 수치" },
+    { "name": "Forward P/E (2026E)", "value": "171x", "interpretation": "컨센서스 EPS $2.25 기준. S&P 500 평균 Forward P/E(20x) 대비 8.5배 높지만, TTM P/E(356x) 대비 절반으로 이익 개선 기대 반영" },
+    { "name": "매출 (FY2025)", "value": "$97.7B (+1% YoY)", "interpretation": "전년 대비 거의 성장 없음. 2025년 배송 1.79M대(-1.1%)로 상장 후 첫 연간 배송 감소. 2026년 반등이 필수" },
+    { "name": "매출총이익률", "value": "16.3%", "interpretation": "2022년 25%+ 대비 크게 하락. 가격 인하 경쟁과 마진 압박이 지속. Q4에 20.1%까지 회복했으나 연간으로는 낮은 수준" },
+    { "name": "영업이익률", "value": "4.59%", "interpretation": "FY2024 7.24%에서 하락. 가격 인하 경쟁과 R&D 투자 확대가 원인" },
+    { "name": "FCF (잉여현금흐름)", "value": "$6.22B (+74% YoY)", "interpretation": "현금 창출력이 크게 개선. Terafab, Cybercab 양산 등 대규모 투자에도 여유 있는 현금 흐름" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "차트에 낙관 패턴 등장: 하라미 캔들 + 폴링 웨지",
+      "description": "3일봉 차트에서 하라미 캔들스틱(큰 음봉 뒤 작은 양봉)과 폴링 웨지(하락 수렴 쐐기) 패턴이 동시에 형성됐다. 두 패턴 모두 하락 추세 반전의 전형적 신호이며, RSI도 반등하고 있다. Bankless Times는 첫 번째 목표를 $415(피보나치 23.6%)로, 최종 목표를 $500으로 제시했다"
+    },
+    {
+      "title": "Terafab 반도체 공장: '헤라클레스적 과업'이라 불리는 도전 (3/25)",
+      "description": "Musk가 Terafab을 '헤라클레스적 과업'이라 표현. Tesla, SpaceX 합작 $20~25B 투자로 오스틴에 반도체 공장 건설. Wedbush는 '게임 체인저'로 평가하며 $600 목표가 유지"
+    },
+    {
+      "title": "유럽 판매 13개월 만에 반등 (2월 +11.8%)",
+      "description": "ACEA 데이터에 따르면 2월 유럽 등록이 전년 대비 11.8% 증가. 2024년 12월 이후 첫 증가세. 다만 BYD가 같은 기간 100% 이상 성장해 점유율 경쟁은 더 치열해졌다"
+    },
+    {
+      "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
+      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산 시작과 차세대 Roadster 공개가 4월에 동시 예정. 단기간에 두 가지 대형 카탈리스트 집중"
+    },
+    {
+      "title": "네덜란드 FSD 승인 4/10 예정, 유럽 확대 기대",
+      "description": "테슬라가 네덜란드 당국에 FSD Supervised 승인을 4월 10일까지 받을 것으로 기대한다고 밝혔다. 승인되면 올 여름 EU 전체로 확대 가능"
+    },
+    {
+      "title": "비트코인 11,500개 보유 ($815M), BTC $72,000 안정",
+      "description": "테슬라가 보유한 11,500 BTC가 약 $815M 규모. Bernstein은 BTC가 $150,000까지 갈 수 있다고 전망해 추가 상승 시 테슬라 자산가치에 긍정적"
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율, FSD 84억 마일 데이터, Supercharger NACS 표준 장악, Terafab으로 AI 칩 내재화 추진",
+    "moats": [
+      {
+        "type": "데이터 해자",
+        "description": "FSD 84억 마일 실주행 데이터. 경쟁사가 단기간에 따라잡기 불가능한 규모의 자율주행 학습 데이터"
+      },
+      {
+        "type": "충전 인프라",
+        "description": "Supercharger 네트워크가 NACS 표준으로 채택. 포드, GM 등 경쟁사도 테슬라 충전 인프라 사용"
+      },
+      {
+        "type": "수직 통합",
+        "description": "배터리 셀, AI 칩(Terafab), 소프트웨어, 충전 인프라까지 수직 계열화. 원가 우위와 빠른 혁신 속도"
+      },
+      {
+        "type": "브랜드 파워",
+        "description": "EV 시장의 대명사. 높은 브랜드 인지도와 열성 팬층이 마케팅 비용 없이도 수요 창출"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "BYD",
+        "detail": "중국 시장 1위, 유럽에서 100%+ 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
+      },
+      {
+        "name": "Zoox (Amazon)",
+        "detail": "SF, 라스베가스에서 로보택시 확대 중. 오스틴, 마이애미 시범 운행도 시작. 직접적 로보택시 경쟁자"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "자율주행 상용화에서 테슬라 앞선 실적. 로보택시 서비스 확대 중"
+      },
+      {
+        "name": "현대/기아",
+        "detail": "아이오닉, EV6 등으로 글로벌 EV 시장 점유율 확대. 가성비와 품질로 경쟁"
+      }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-25", "headline": "Bankless Times, TSLA에 $500 목표 제시: 하라미 캔들 + 폴링 웨지 패턴 형성", "significance": "3일봉 차트에서 두 가지 상승 반전 패턴이 동시 등장. 첫 번째 목표 $415(피보나치 23.6%), 최종 $500. RSI도 반등 시작", "url": "https://www.banklesstimes.com/articles/2026/03/25/tesla-stock-price-forecast-heres-why-it-may-jump-to-500-soon/" },
+    { "date": "2026-03-25", "headline": "Musk, Terafab을 '헤라클레스적 과업'으로 표현, SpaceX 합작 확정", "significance": "Yahoo Finance가 Tesla, SpaceX 합작 반도체 공장을 '헤라클레스적 도전'으로 조명. 2027년 양산 목표", "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-just-announced-herculean-161044939.html" },
+    { "date": "2026-03-25", "headline": "Wedbush, Terafab '게임 체인저' 재확인, $600 목표가 유지", "significance": "Terafab 반도체 공장이 테슬라 AI 전략의 핵심. AI5 칩 소량 생산 2026년 말, 양산 2027년. 강세 진영의 확신 유지", "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-tesla-stock-rating-on-chip-factory-plans-93CH-4578070" },
+    { "date": "2026-03-25", "headline": "유럽 판매 반등이 경쟁 압박을 이겨낼 수 있는지 시장 관심 집중", "significance": "Simply Wall St 분석: 유럽 첫 반등은 긍정적이지만 BYD 등 경쟁사 성장과 마진 압박이 계속. 지속 가능성이 관건", "url": "https://sg.finance.yahoo.com/news/tesla-european-sales-rebound-tests-100638518.html" },
+    { "date": "2026-03-24", "headline": "장기 강세론자 Trip Chowdhry, 매도 전환 + 목표가 $150", "significance": "역사적으로 테슬라에 강세였던 애널리스트가 AI 내러티브 붕괴를 이유로 매도로 전환. 시장 심리에 악영향", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 406.84,
+    "highTarget": 600.0,
+    "lowTarget": 25.28,
+    "upsidePercent": 5.4,
+    "buyCount": 17,
+    "holdCount": 7,
+    "sellCount": 10,
+    "notableComment": "Wedbush $600(Terafab 게임 체인저) vs Trip Chowdhry $150(매도 전환). 34명 중 10명 매도. 한편 Bankless Times는 기술적으로 $500까지 가능하다고 분석"
+  },
+
+  "risks": [
+    { "severity": "critical", "title": "강세론자마저 이탈하는 심리 악화", "description": "Trip Chowdhry처럼 오랫동안 강세였던 애널리스트가 매도로 전환. 34명 중 10명이 매도 의견이라는 건 월가 심리가 뚜렷이 나빠지고 있다는 신호다" },
+    { "severity": "high", "title": "밸류에이션 극단적 프리미엄", "description": "P/E 356x, P/S 14.6x는 모든 비교 기준 대비 극도로 높다. 기대에 못 미치는 실적 시 급락 위험이 크다" },
+    { "severity": "high", "title": "매크로 역풍: 유가 $99+, 금리 3.5~3.75%", "description": "유가가 이란 위기로 $99를 넘었고, Fed 금리는 3.5~3.75%로 인하 기대가 사라졌다. 기술주 전반에 부담" },
+    { "severity": "high", "title": "NHTSA FSD 조사 '엔지니어링 분석' 격상", "description": "연방 정부가 320만대 대상 조사를 한 단계 올렸다. 리콜 가능성이 커졌고, 자율주행 전략 전체에 영향을 줄 수 있다" },
+    { "severity": "medium", "title": "연간 배송 첫 감소 + 마진 압박", "description": "2025년 배송 1.79M대로 상장 후 첫 감소. 자동차 매출총이익률 16.3%로 2022년(25%+) 대비 큰 폭 하락" }
+  ],
+
+  "buyReasons": [
+    { "title": "기술적 반등 신호: 하라미 + 폴링 웨지", "rationale": "3일봉에서 하라미 캔들스틱과 폴링 웨지가 동시에 형성됐다. 두 패턴 모두 하락 추세 반전 신호. RSI도 돌아서고 있다. 첫 목표 $415" },
+    { "title": "4월 카탈리스트 집중 + 실적 발표(4/28)", "rationale": "Cybercab 양산, Roadster 공개, FSD 네덜란드 승인(4/10), Q1 실적(4/28)이 모두 4월에 집중. 단기간 대형 이벤트 연속" },
+    { "title": "유럽, 중국 판매 동시 반등", "rationale": "유럽 13개월 만에 첫 반등(+11.8%), 중국 +35% YoY. 핵심 시장 두 곳에서 동시에 성장세로 전환" },
+    { "title": "FCF 급증(+74%) + BTC $815M 보유", "rationale": "잉여현금흐름 $6.22B에 비트코인 11,500개($815M). Terafab 투자에도 현금 여력 충분" }
+  ],
+
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 60.4,
+    "sma50": 389.0,
+    "sma50Signal": "below",
+    "sma200": 402.0,
+    "sma200Signal": "below",
+    "rsi": 36.0,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "차트에 반등 신호가 뜨고 있다. 3일봉에서 하라미 캔들과 폴링 웨지가 동시에 형성됐고, RSI도 돌아서기 시작했다. Bankless Times는 첫 목표 $415, 최종 $500을 제시했다.",
+    "4월에 Cybercab 양산, Roadster 공개, FSD 네덜란드 승인(4/10), Q1 실적(4/28)이 한꺼번에 몰려 있다. 유럽(+11.8%)과 중국(+35%) 판매도 살아나고 있어, 기술적 반등과 실적 반등이 동시에 올 가능성이 커지고 있다.",
+    "50일($389)과 200일($402) 아래, RSI 36이지만 패턴상 반등 임박. ATH 대비 -23%인 $386은 4월 카탈리스트가 터지면 빠르게 회복할 자리지만, 유가 $99와 금리 3.5~3.75%가 발목을 잡고 있다."
+  ],
+
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "기술적 반등 패턴(하라미+폴링 웨지)이 형성됐고 4월에 대형 카탈리스트가 집중돼 있다. 하지만 P/E 356x에서 유가 $99, 금리 3.5~3.75%의 매크로 역풍이 강하다. 4월 이벤트 결과를 확인하면서 $370 이하 분할 매수를 고려할 만하다.",
+    "horizon": "1-2개월 (4월 이벤트 + Q1 실적 확인 후 재평가)"
+  },
+
+  "sources": [
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/25/tesla-stock-price-forecast-heres-why-it-may-jump-to-500-soon/", "description": "하라미 캔들 + 폴링 웨지 패턴 분석, $500 목표 제시" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-just-announced-herculean-161044939.html", "description": "Terafab '헤라클레스적 과업' 분석" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-tesla-stock-rating-on-chip-factory-plans-93CH-4578070", "description": "Wedbush Terafab '게임 체인저' 평가, $600 목표가" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406", "description": "Trip Chowdhry 매도 전환, $150 목표가" },
+    { "name": "Yahoo Finance", "url": "https://sg.finance.yahoo.com/news/tesla-european-sales-rebound-tests-100638518.html", "description": "유럽 판매 반등의 지속 가능성 분석" },
+    { "name": "Techi", "url": "https://www.techi.com/tesla-stock-today/", "description": "3/25 시세 $383.03, 시총 $1.43T, 실적 요약" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "애널리스트 컨센서스 목표가 $406.84" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA FSD 엔지니어링 분석 격상" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab 반도체 공장 공식 발표" },
+    { "name": "LiteFinance", "url": "https://www.litefinance.org/blog/analysts-opinions/tesla-stock-price-prediction/", "description": "3/25 TSLA $385.88 시세 확인" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "차트에 반등 패턴이 떴다, $500까지 가능할까",
+      "text": "$TSLA (3/26) 하라미 캔들 + 폴링 웨지 동시 형성. Bankless Times는 $415 거쳐 $500 가능하다고 봤다. RSI도 돌아서는 중. $386.\n\n1/4",
+      "thread": [
+        "4월에 Cybercab, Roadster, FSD 네덜란드(4/10), Q1 실적(4/28)이 한꺼번에. 유럽 +11.8%, 중국 +35% 판매 반등도 진행 중.\n\n2/4",
+        "유가 $99, 금리 3.5~3.75%. ATH에서 -23%. 매크로가 가장 큰 변수다.\n\n3/4",
+        "50일, 200일 아래지만 반등 패턴 임박. 목표가 $407(+5.4%). 4월이 분수령.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "하라미 + 폴링 웨지, 차트가 반등을 예고하고 있다",
+      "text": "$TSLA (3/26) $386\n\n3일봉에 하라미 캔들과 폴링 웨지가 동시에 떴다. Bankless Times는 $415 거쳐 $500까지 갈 수 있다고 봤다. RSI도 반등 중.\n\n4월에 Cybercab 양산, Roadster, FSD 유럽 승인, Q1 실적이 한꺼번에 몰려 있다. 유럽과 중국 판매도 살아났다. 기술적 반등과 실적 반등이 겹칠 수 있는 타이밍.\n\n유가 $99에 금리 3.5~3.75%. ATH에서 -23%. 매크로만 안정되면 빠르게 올라갈 자리다. 목표가 $407(+5.4%)."
+    },
+    "telegram": {
+      "hook": "차트 반등 패턴 형성, 4월 카탈리스트 대기",
+      "text": "Tesla 일일 분석 (3/26)\n\n가격: $386\n\n핵심 이슈\n- 하라미 캔들 + 폴링 웨지 동시 형성 (반등 신호)\n- Bankless Times 목표: $415 → $500\n- 4월: Cybercab + Roadster + FSD 네덜란드(4/10)\n- Q1 실적 4/28\n- 유럽 +11.8%, 중국 +35% 판매 반등\n- Terafab '헤라클레스적 과업' 재조명\n- 유가 $99, 금리 3.5~3.75% 매크로 부담\n\n주가 위치\n- 50일($389), 200일($402) 아래\n- RSI 36, 반등 시작\n- ATH($499) 대비 -23%\n\n목표가: $407 (+5.4%)\n판단: Hold (4월 이벤트 확인, $370 이하 분할 매수 고려)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "차트에 반등 패턴이 떴다, $500까지 가능할까",
+          "text": "$TSLA (3/26) 하라미 캔들 + 폴링 웨지 동시 형성. Bankless Times 목표 $415 → $500. RSI 반등 중. $386.\n\n1/4",
+          "thread": [
+            "4월: Cybercab, Roadster, FSD 네덜란드(4/10), Q1 실적(4/28). 유럽 +11.8%, 중국 +35%.\n\n2/4",
+            "유가 $99, 금리 3.5~3.75%. ATH -23%. 매크로가 변수.\n\n3/4",
+            "50일, 200일 아래. 목표가 $407(+5.4%). 4월이 분수령.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "차트가 반등을 그리고 있는데, 유가 $99가 지우개를 들고 있다",
+          "text": "$TSLA (3/26) 하라미 캔들에 폴링 웨지까지. 교과서적 반등 패턴인데 유가 $99가 방해하고 있다. $386.\n\n1/4",
+          "thread": [
+            "4월에 Cybercab, Roadster, FSD, 실적이 한꺼번에. 카탈리스트는 넘치는데 매크로가 안 받쳐준다.\n\n2/4",
+            "Wedbush는 $600, Trip Chowdhry는 $150. 둘 다 같은 차트를 보고 있다. 신기한 주식.\n\n3/4",
+            "Bankless Times는 $500 간다고 했다. 유가만 빠지면 가능할지도. 목표가 $407(+5.4%).\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "ATH에서 -23%, 하지만 차트가 희망을 보여주고 있다",
+          "text": "$TSLA (3/26) $499에서 $386까지 내려왔다. 힘들었을 거다. 하지만 차트에 반등 신호가 뜨고 있다.\n\n1/4",
+          "thread": [
+            "하라미 캔들 + 폴링 웨지. 교과서적 반전 패턴이다. 4월에 Cybercab, Roadster, FSD 승인도 온다.\n\n2/4",
+            "유가 $99, 금리 3.5~3.75%. 매크로가 쉽지 않다. 하지만 유럽과 중국 판매는 살아났다.\n\n3/4",
+            "목표가 $407(+5.4%). 4월까지 조금만 더. 기다림의 끝이 보이기 시작했다.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "하라미 + 폴링 웨지 형성, 기술적 반등 임박",
+          "text": "$TSLA (3/26) $386\n\n하라미 캔들 + 폴링 웨지. RSI 반등. Bankless Times $415 → $500. 4월 Cybercab, Roadster, FSD 네덜란드, Q1 실적. 유럽 +11.8%, 중국 +35%. 유가 $99, 금리 3.5~3.75% 부담. 목표가 $407(+5.4%)."
+        },
+        "witty": {
+          "hook": "교과서적 반등 패턴인데 매크로가 교과서를 안 읽었다",
+          "text": "$TSLA (3/26) $386\n\n하라미 캔들에 폴링 웨지까지. 기술적 분석 교과서에 나올 법한 반등 패턴이다. 문제는 유가 $99와 금리 3.5~3.75%가 교과서를 안 읽는다는 거다.\n\n4월에 Cybercab, Roadster, FSD, 실적까지 한꺼번에. 카탈리스트 과잉 상태. Bankless Times는 $500 간다고 했다. Wedbush $600, Chowdhry $150. 정답은 4월에 나온다."
+        },
+        "empathy": {
+          "hook": "ATH에서 23% 빠졌다. 하지만 차트에 반등 신호가 떴다",
+          "text": "$TSLA (3/26) $386\n\n$499에서 $386. 23% 하락이면 마음이 무거울 수밖에 없다. 하지만 차트에 하라미 캔들과 폴링 웨지가 동시에 떴다. 반등 신호다.\n\n4월에 Cybercab, Roadster, FSD 승인까지 한꺼번에 온다. 유럽과 중국 판매도 살아났다. 기다린 보람이 나올 수 있는 시기가 다가오고 있다.\n\n유가 $99가 부담이지만 목표가 $407(+5.4%). 한 달만 더 지켜보자."
+        }
+      }
+    }
+  }
+}

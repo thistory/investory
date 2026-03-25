@@ -1,0 +1,190 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-26",
+  "currentPrice": 386.0,
+  "marketCap": "$1.43T",
+
+  "businessSummary": {
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomy, robotics, energy, and AI chips",
+    "description": "Tesla extends far beyond EV sales into FSD self-driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue reached $97.7B with 1.79M deliveries (down 1.1% YoY, the first annual decline as a public company). Q4 2025 EPS of $0.50 beat consensus ($0.45) by 10%. Key catalysts include Cybercab production, Roadster reveal, and FSD Europe approval all set for April 2026.",
+    "howTheyMakeMoney": [
+      "EV sales (Model 3/Y, Cybertruck)",
+      "Energy generation and storage (Megapack, Powerwall, Solar)",
+      "Services and charging (Supercharger network, insurance, OTA)",
+      "FSD subscription ($99/month) and licensing",
+      "Regulatory credit sales"
+    ],
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Roadster"]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "356x", "interpretation": "Over 16x the S&P 500 average (22x). Extreme premium vs auto sector (10x), but reflects AI/robotics/energy platform expectations" },
+    { "name": "Forward P/E (2026E)", "value": "171x", "interpretation": "Based on consensus EPS $2.25. 8.5x above S&P 500 forward P/E (20x), but half of TTM P/E, reflecting earnings improvement expectations" },
+    { "name": "Revenue (FY2025)", "value": "$97.7B (+1% YoY)", "interpretation": "Nearly flat growth. Deliveries of 1.79M were down 1.1%, the first annual decline. 2026 rebound is essential" },
+    { "name": "Gross Margin", "value": "16.3%", "interpretation": "Down sharply from 25%+ in 2022. Price competition and margin pressure persist. Q4 recovered to 20.1% but full-year remains low" },
+    { "name": "Operating Margin", "value": "4.59%", "interpretation": "Down from FY2024's 7.24%. Price cuts and R&D expansion are the main drivers" },
+    { "name": "FCF (Free Cash Flow)", "value": "$6.22B (+74% YoY)", "interpretation": "Significant improvement in cash generation despite massive investments in Terafab and Cybercab" }
+  ],
+
+  "growthDrivers": [
+    { "title": "Bullish Chart Patterns: Harami Candle + Falling Wedge", "description": "The 3-day chart shows a harami candlestick and falling wedge forming simultaneously, both classic reversal signals. RSI is also turning up. Bankless Times targets $415 (Fibonacci 23.6%) initially, then $500" },
+    { "title": "Terafab Chip Factory: Musk's 'Herculean Task' (3/25)", "description": "Musk called Terafab a 'Herculean task.' Joint $20-25B investment with SpaceX for a chip factory in Austin. Wedbush calls it a 'game changer' and maintains $600 target" },
+    { "title": "Europe Sales Rebound After 13 Months (Feb +11.8%)", "description": "ACEA data shows February European registrations grew 11.8% YoY, the first increase since December 2024. However, BYD grew 100%+ in the same period" },
+    { "title": "Cybercab Production + Roadster Reveal in April", "description": "Steerless fully autonomous robotaxi production and next-gen Roadster reveal both set for April, creating concentrated catalysts" },
+    { "title": "Netherlands FSD Approval Expected by 4/10", "description": "Tesla expects FSD Supervised approval in the Netherlands by April 10. If approved, EU-wide expansion could follow by summer" },
+    { "title": "Bitcoin Holdings: 11,500 BTC ($815M), BTC Stable at $72K", "description": "Tesla holds 11,500 BTC worth ~$815M. Bernstein forecasts BTC could reach $150K, adding upside to Tesla's asset value" }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "50%+ US EV market share, 8.4B miles of FSD data, NACS Supercharger standard dominance, Terafab chip internalization",
+    "moats": [
+      { "type": "Data Moat", "description": "8.4 billion real-world FSD miles. Competitors cannot replicate this data advantage in the near term" },
+      { "type": "Charging Infrastructure", "description": "Supercharger network adopted as NACS standard. Ford, GM and others use Tesla's charging infrastructure" },
+      { "type": "Vertical Integration", "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all in-house" },
+      { "type": "Brand Power", "description": "Synonymous with EVs. High brand recognition and loyal fanbase drive demand without marketing spend" }
+    ],
+    "competitors": [
+      { "name": "BYD", "detail": "China market leader, 100%+ growth in Europe. Price advantage and rapidly closing the gap" },
+      { "name": "Zoox (Amazon)", "detail": "Expanding robotaxi service across SF, Las Vegas, Austin, and Miami" },
+      { "name": "Waymo (Alphabet)", "detail": "Ahead of Tesla in commercial autonomous ride-hailing" },
+      { "name": "Hyundai/Kia", "detail": "Growing global EV market share with Ioniq and EV6 on value and quality" }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-25", "headline": "Bankless Times targets $500: Harami candle + falling wedge pattern forming", "significance": "Two bullish reversal patterns appearing simultaneously on 3-day chart. First target $415 (Fibonacci 23.6%), ultimate target $500", "url": "https://www.banklesstimes.com/articles/2026/03/25/tesla-stock-price-forecast-heres-why-it-may-jump-to-500-soon/" },
+    { "date": "2026-03-25", "headline": "Musk calls Terafab a 'Herculean task,' SpaceX partnership confirmed", "significance": "Yahoo Finance highlights Tesla-SpaceX joint chip factory as a monumental challenge. 2027 production target", "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-just-announced-herculean-161044939.html" },
+    { "date": "2026-03-25", "headline": "Wedbush reiterates Terafab as 'game changer,' $600 target maintained", "significance": "AI5 chip small-scale production by end of 2026, mass production in 2027", "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-tesla-stock-rating-on-chip-factory-plans-93CH-4578070" },
+    { "date": "2026-03-25", "headline": "Market watches if European sales rebound can overcome competitive pressure", "significance": "Simply Wall St analysis: First rebound is positive but BYD competition and margin pressure continue", "url": "https://sg.finance.yahoo.com/news/tesla-european-sales-rebound-tests-100638518.html" },
+    { "date": "2026-03-24", "headline": "Long-time bull Trip Chowdhry flips to sell, $150 target", "significance": "One of Tesla's most persistent bulls switches to sell citing AI narrative collapse", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 406.84,
+    "highTarget": 600.0,
+    "lowTarget": 25.28,
+    "upsidePercent": 5.4,
+    "buyCount": 17,
+    "holdCount": 7,
+    "sellCount": 10,
+    "notableComment": "Wedbush $600 (Terafab game changer) vs Trip Chowdhry $150 (sell). 10 of 34 analysts rate sell. Meanwhile Bankless Times sees $500 on technicals"
+  },
+
+  "risks": [
+    { "severity": "critical", "title": "Bulls defecting signals deteriorating sentiment", "description": "Long-time bull Trip Chowdhry flipped to sell. 10 of 34 analysts now rate sell, a clear sign of worsening Wall Street sentiment" },
+    { "severity": "high", "title": "Extreme valuation premium", "description": "P/E 356x, P/S 14.6x are extreme by any benchmark. Missing expectations could trigger sharp declines" },
+    { "severity": "high", "title": "Macro headwinds: Oil $99+, rates 3.5-3.75%", "description": "Oil above $99 on Iran crisis, Fed rates at 3.5-3.75% with no cuts expected. Broad pressure on growth stocks" },
+    { "severity": "high", "title": "NHTSA FSD probe escalated to 'engineering analysis'", "description": "Federal investigation covering 3.2M vehicles upgraded one level. Recall risk increased, potentially affecting entire autonomy strategy" },
+    { "severity": "medium", "title": "First annual delivery decline + margin compression", "description": "2025 deliveries of 1.79M were the first decline. Automotive gross margin at 16.3% vs 25%+ in 2022" }
+  ],
+
+  "buyReasons": [
+    { "title": "Technical reversal signals: Harami + falling wedge", "rationale": "Both patterns forming simultaneously on 3-day chart with RSI turning up. Classic reversal setup. First target $415" },
+    { "title": "April catalyst concentration + earnings (4/28)", "rationale": "Cybercab production, Roadster reveal, FSD Netherlands (4/10), and Q1 earnings (4/28) all in April" },
+    { "title": "Europe and China sales rebounding simultaneously", "rationale": "Europe up 11.8% (first in 13 months), China +35% YoY. Both key markets turning positive" },
+    { "title": "FCF surge (+74%) + BTC holdings ($815M)", "rationale": "Free cash flow of $6.22B plus 11,500 BTC ($815M). Ample investment capacity" }
+  ],
+
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 60.4,
+    "sma50": 389.0,
+    "sma50Signal": "below",
+    "sma200": 402.0,
+    "sma200Signal": "below",
+    "rsi": 36.0,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Reversal signals are lighting up on the chart. The 3-day timeframe shows a harami candle and falling wedge forming simultaneously while RSI turns higher. Bankless Times targets $415 first, then $500.",
+    "April is packed with catalysts: Cybercab production, Roadster reveal, FSD Netherlands approval (4/10), and Q1 earnings (4/28). Europe (+11.8%) and China (+35%) sales are rebounding together, setting up a potential convergence of technical and fundamental recovery.",
+    "Trading below both the 50-day ($389) and 200-day ($402) with RSI at 36, but patterns suggest an imminent bounce. At $386, down 23% from ATH, the setup favors a strong recovery if April catalysts deliver. Oil at $99 and rates at 3.5-3.75% remain the key headwinds."
+  ],
+
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "Technical reversal patterns are forming and April catalysts are concentrated. However, P/E 356x with oil at $99 and rates at 3.5-3.75% creates strong macro headwinds. Watch April events and consider accumulating below $370.",
+    "horizon": "1-2 months (April events + Q1 earnings, then reassess)"
+  },
+
+  "sources": [
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/25/tesla-stock-price-forecast-heres-why-it-may-jump-to-500-soon/", "description": "Harami candle + falling wedge analysis, $500 target" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-just-announced-herculean-161044939.html", "description": "Terafab 'Herculean task' analysis" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-tesla-stock-rating-on-chip-factory-plans-93CH-4578070", "description": "Wedbush Terafab 'game changer,' $600 target" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/longtime-tesla-bull-flips-to-sell-sees-stock-plunging-to-150-amid-ai-concerns-4575406", "description": "Trip Chowdhry sell downgrade, $150 target" },
+    { "name": "Yahoo Finance", "url": "https://sg.finance.yahoo.com/news/tesla-european-sales-rebound-tests-100638518.html", "description": "European sales rebound sustainability analysis" },
+    { "name": "Techi", "url": "https://www.techi.com/tesla-stock-today/", "description": "3/25 price data, $1.43T market cap" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "Analyst consensus target $406.84" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/tesla-nhtsa-full-self-driving-fsd-reduced-visibility.html", "description": "NHTSA FSD engineering analysis escalation" },
+    { "name": "Reuters", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab chip factory official announcement" },
+    { "name": "LiteFinance", "url": "https://www.litefinance.org/blog/analysts-opinions/tesla-stock-price-prediction/", "description": "3/25 TSLA $385.88 price confirmation" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "Reversal patterns are forming on Tesla's chart",
+      "text": "$TSLA (Mar 26) Harami candle + falling wedge on 3-day chart. Bankless Times targets $415 then $500. RSI turning up. $386.\n\n1/4",
+      "thread": [
+        "April: Cybercab, Roadster, FSD Netherlands (4/10), Q1 earnings (4/28). Europe +11.8%, China +35% sales rebound.\n\n2/4",
+        "Oil $99, rates 3.5-3.75%. Down 23% from ATH. Macro is the biggest variable.\n\n3/4",
+        "Below 50-day and 200-day but patterns signal bounce. Target $407 (+5.4%). April is the turning point.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "Harami + falling wedge: the chart is signaling a reversal",
+      "text": "$TSLA (Mar 26) $386\n\nHarami candle and falling wedge forming simultaneously on the 3-day chart. Bankless Times targets $415 then $500. RSI turning higher.\n\nApril is loaded: Cybercab production, Roadster, FSD Europe approval, Q1 earnings. Europe and China sales both rebounding. Technical and fundamental recovery may converge.\n\nOil at $99 and rates at 3.5-3.75% are the headwinds. Down 23% from ATH. Target $407 (+5.4%)."
+    },
+    "telegram": {
+      "hook": "Chart reversal patterns forming, April catalysts ahead",
+      "text": "Tesla Daily Analysis (Mar 26)\n\nPrice: $386\n\nKey Developments\n- Harami candle + falling wedge (reversal signals)\n- Bankless Times target: $415 then $500\n- April: Cybercab + Roadster + FSD Netherlands (4/10)\n- Q1 earnings 4/28\n- Europe +11.8%, China +35% sales rebound\n- Terafab 'Herculean task' spotlight\n- Oil $99, rates 3.5-3.75% macro pressure\n\nTechnical Position\n- Below 50-day ($389), 200-day ($402)\n- RSI 36, turning up\n- Down 23% from ATH ($499)\n\nTarget: $407 (+5.4%)\nVerdict: Hold (watch April events, accumulate below $370)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Chart reversal patterns forming on Tesla",
+          "text": "$TSLA (Mar 26) Harami + falling wedge. Bankless Times $415 then $500. RSI turning up. $386.\n\n1/4",
+          "thread": [
+            "April: Cybercab, Roadster, FSD Netherlands (4/10), Q1 earnings (4/28). Europe +11.8%, China +35%.\n\n2/4",
+            "Oil $99, rates 3.5-3.75%. ATH -23%. Macro is the headwind.\n\n3/4",
+            "Below 50-day, 200-day. Target $407 (+5.4%). April decides everything.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "The chart is drawing a reversal while oil at $99 holds the eraser",
+          "text": "$TSLA (Mar 26) Harami candle meets falling wedge. Textbook reversal setup. Only problem: oil at $99 didn't read the textbook. $386.\n\n1/4",
+          "thread": [
+            "April has Cybercab, Roadster, FSD, earnings all at once. Catalyst overload meets macro headwind.\n\n2/4",
+            "Wedbush says $600, Chowdhry says $150. Both looking at the same chart. Fascinating stock.\n\n3/4",
+            "Bankless Times targets $500. If oil drops, maybe. Target $407 (+5.4%).\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "Down 23% from ATH, but the chart is showing hope",
+          "text": "$TSLA (Mar 26) From $499 to $386. Tough ride. But reversal patterns are forming on the chart.\n\n1/4",
+          "thread": [
+            "Harami + falling wedge. Classic reversal setup. April brings Cybercab, Roadster, FSD approval.\n\n2/4",
+            "Oil at $99 and rates at 3.5-3.75%. Macro isn't easy. But Europe and China sales rebounded.\n\n3/4",
+            "Target $407 (+5.4%). April is almost here. The wait may finally pay off.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Harami + falling wedge forming, technical bounce imminent",
+          "text": "$TSLA (Mar 26) $386\n\nHarami + falling wedge. RSI turning. Bankless Times $415 then $500. April: Cybercab, Roadster, FSD, Q1 earnings. Europe +11.8%, China +35%. Oil $99, rates 3.5-3.75%. Target $407 (+5.4%)."
+        },
+        "witty": {
+          "hook": "Textbook reversal pattern, but macro didn't read the textbook",
+          "text": "$TSLA (Mar 26) $386\n\nHarami candle plus falling wedge. Every technical analyst's dream setup. The chart says bounce, oil at $99 says wait.\n\nApril packs Cybercab, Roadster, FSD, and earnings into one month. Wedbush sees $600, Chowdhry sees $150. Bankless Times says $500. The answer arrives in April."
+        },
+        "empathy": {
+          "hook": "23% off highs. But the chart just gave a reason for hope",
+          "text": "$TSLA (Mar 26) $386\n\n$499 to $386. That's a 23% drawdown and it hurts. But reversal patterns just appeared on the 3-day chart. Harami candle and falling wedge, both bullish.\n\nApril brings Cybercab, Roadster, FSD Europe, and Q1 earnings. Sales are rebounding in Europe and China. The fundamentals haven't broken.\n\nOil at $99 is the obstacle. Target $407 (+5.4%). One more month of patience."
+        }
+      }
+    }
+  }
+}

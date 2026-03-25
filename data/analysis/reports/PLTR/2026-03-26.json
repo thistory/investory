@@ -1,0 +1,239 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-26",
+  "currentPrice": 158.0,
+  "marketCap": "$375B",
+
+  "businessSummary": {
+    "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택하고, $185B Golden Dome 미사일 방어 프로젝트의 소프트웨어 개발에도 선정됐다. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망.",
+    "howTheyMakeMoney": [
+      "정부 계약 (Gotham) - 국방/정보기관 AI 분석",
+      "기업 AI 플랫폼 (Foundry) - 대기업 데이터 통합",
+      "AIP (AI Platform) - 생성형 AI 통합 플랫폼",
+      "AIP 부트캠프 - 단기 도입 프로그램으로 고객 전환"
+    ],
+    "keyProducts": [
+      "Gotham",
+      "Foundry",
+      "AIP",
+      "Maven Smart System",
+      "ShipOS",
+      "소버린 AI 데이터센터 OS",
+      "Ontology"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "Forward P/E", "value": "~112x", "interpretation": "소프트웨어 업종에서도 극단적 프리미엄. Rule of 40 점수 127%가 부분적으로 정당화하지만, 성장률 둔화 시 급락 위험" },
+    { "name": "P/S (매출 대비 주가)", "value": "~49x", "interpretation": "SaaS 평균(10~15x)의 3~4배. Palantir의 성장률(+60%)이 유일한 정당화 근거" },
+    { "name": "매출 성장률 (FY2025)", "value": "+60% YoY ($4.48B)", "interpretation": "이 규모의 기업에서 60% 성장은 극히 드문 수준. Q4는 +70% YoY" },
+    { "name": "미국 상업 매출 성장 (Q4)", "value": "+137% YoY ($650M)", "interpretation": "기업 고객 확보가 폭발적. 정부 의존도 축소의 핵심 동력" },
+    { "name": "Rule of 40", "value": "127%", "interpretation": "매출 성장률 + 이익률이 127%. SaaS 업계 최상위 수준" },
+    { "name": "순달러유지율 (NDR)", "value": "139%", "interpretation": "기존 고객이 전년 대비 39% 더 지출. 제품의 높은 스티키니스 입증" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Golden Dome $185B 미사일 방어 소프트웨어 선정 (3/24)",
+      "description": "Reuters에 따르면 Palantir와 Anduril이 미 국방부 $185B Golden Dome 미사일 방어 시스템의 소프트웨어 개발에 선정됐다. 탄도, 순항, 극초음속 미사일을 요격하는 우주 기반 방어막 프로젝트로, 수백 개 기업이 경쟁했다"
+    },
+    {
+      "title": "Rosenblatt, Buy 재확인 + $200 목표가 (3/25)",
+      "description": "Rosenblatt Securities가 Golden Dome 참여를 근거로 Buy를 재확인하고 $200 목표가를 유지. '미군 AI의 백본'이라는 평가"
+    },
+    {
+      "title": "Maven AI 미군 전체 정식 채택 (Program of Record)",
+      "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정(3/20). 미군 전 군에 장기 적용 확정되며 안정적 방산 매출 기반 확보"
+    },
+    {
+      "title": "이란 전쟁 실전 AI 투입, 수천 건 타격에 활용",
+      "description": "NYT/Reuters 보도에 따르면 Pentagon이 Palantir + Anthropic AI 기술로 이란 타격 목표를 식별. 타격 식별부터 실행까지 수 시간에서 분 단위로 단축"
+    },
+    {
+      "title": "FY2026 매출 가이던스 $7.19B~$7.41B (+60~65%)",
+      "description": "경영진이 성장 가속화를 자신. 미국 상업 부문이 핵심 성장 엔진으로 부상"
+    },
+    {
+      "title": "영국 FCA 3개월 트라이얼 계약",
+      "description": "영국 금융감독원(FCA)이 Palantir Foundry 플랫폼을 3개월 트라이얼로 도입. 방산 이외 정부 규제 분야 확장의 신호"
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "정부 국방 AI 20년 이상의 실적과 최고 수준 보안 클리어런스, Maven 미군 정식 채택, 이란 전쟁 실전 검증, Golden Dome 선정. 돈으로 살 수 없는 해자",
+    "moats": [
+      {
+        "type": "전환 비용 (Switching Cost)",
+        "description": "정부/군사 시스템에 깊이 통합된 Ontology 플랫폼. 한번 도입하면 교체 비용이 극도로 높음"
+      },
+      {
+        "type": "보안 인증 장벽",
+        "description": "최고 수준 보안 클리어런스와 20년+ 정부 신뢰 관계. 신규 진입자가 동일 수준 획득하기 사실상 불가능"
+      },
+      {
+        "type": "네트워크 효과",
+        "description": "AIP 부트캠프를 통한 빠른 고객 확보와 Ontology 데이터 모델의 생태계 확장"
+      },
+      {
+        "type": "실전 검증",
+        "description": "이란 전쟁에서 수천 건의 타격에 실시간 활용. 실전 데이터가 곧 경쟁 우위"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Anduril Industries",
+        "detail": "Golden Dome에서 Palantir와 함께 소프트웨어 파트너로 선정. $60B 밸류에이션. 하드웨어 중심이라 보완 관계"
+      },
+      {
+        "name": "Snowflake / Databricks",
+        "detail": "기업 데이터 플랫폼 경쟁. 하지만 정부/국방 분야 접근성에서 Palantir에 크게 뒤처짐"
+      },
+      {
+        "name": "Microsoft / AWS",
+        "detail": "클라우드 대기업의 정부 AI 진출. 규모는 크지만 Palantir의 특화된 Ontology 플랫폼만큼 깊은 통합은 어려움"
+      },
+      {
+        "name": "C3.ai",
+        "detail": "기업용 AI 플랫폼. 매출 규모와 성장률 모두 Palantir에 크게 뒤처지는 상황"
+      }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-03-25", "headline": "Rosenblatt, Buy 재확인 + $200 목표가, Golden Dome 참여 높이 평가", "significance": "Golden Dome $185B 프로젝트 참여를 근거로 Buy 재확인. '미군 AI 백본' 평가. 장기 방산 매출 기반 강화", "url": "https://www.gurufocus.com/news/8743554/palantir-pltr-stock-rises-on-positive-analyst-outlook-and-defense-project-involvement" },
+    { "date": "2026-03-25", "headline": "Golden Dome 소식에 시간외 +1.25% 상승", "significance": "$185B 미사일 방어 프로젝트 소프트웨어 선정 소식에 4일 연속 하락을 끊고 반등", "url": "https://coincentral.com/palantir-pltr-stock-rises-after-joining-185b-golden-dome-defense-project/" },
+    { "date": "2026-03-24", "headline": "Reuters: Anduril, Palantir가 Golden Dome 미사일 방어 소프트웨어 개발", "significance": "미 국방부 $185B 우주 기반 미사일 방어 시스템의 소프트웨어 파트너로 선정. 수백 개 기업 중 선별", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/" },
+    { "date": "2026-03-23", "headline": "Maven 정식 채택 소식에 +6.78% 급등", "significance": "Pentagon이 Maven을 공식 program of record로 지정한 소식에 하루 만에 6.78% 급등", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/" },
+    { "date": "2026-03-22", "headline": "Palantir + Anthropic AI, 이란 타격 목표 식별에 실전 활용", "significance": "Maven 시스템이 Anthropic Claude와 연동해 수천 건의 이란 타격에 활용. 실전 검증이 추가 계약의 강력한 근거", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 196.43,
+    "highTarget": 260.0,
+    "lowTarget": 70.0,
+    "upsidePercent": 24.3,
+    "buyCount": 14,
+    "holdCount": 5,
+    "sellCount": 2,
+    "notableComment": "Rosenblatt $200 Buy 재확인(Golden Dome), Wedbush Dan Ives $230 유지. Golden Dome + Maven 정식 채택으로 방산 매출 기반이 크게 강화됐다"
+  },
+
+  "risks": [
+    { "severity": "high", "title": "극단적 밸류에이션 (Forward P/E ~112x)", "description": "성장률 +60%에도 P/E 112x, P/S 49x는 극도로 높다. 좋은 뉴스에 올라도 매크로에 바로 되돌려지는 패턴이 반복 중" },
+    { "severity": "high", "title": "윤리적 논란 (이란 전쟁 AI 활용)", "description": "Palantir + Anthropic AI가 이란 타격에 활용되고 있다는 보도. ESG 기준 투자자의 이탈과 규제 리스크" },
+    { "severity": "medium", "title": "소프트웨어 섹터 전체 약세 (IGV YTD -23%)", "description": "소프트웨어 ETF(IGV)가 YTD -23%. 유가 $99, 나스닥 -15%. 밸류에이션이 높은 종목일수록 타격이 큼" },
+    { "severity": "medium", "title": "내부자 매도 압력", "description": "기술주 약세 속 내부자 매도가 주가에 추가 부담. P/E 112x에서 매도 압력이 증폭" },
+    { "severity": "low", "title": "Anduril과의 경쟁/보완 관계 불확실", "description": "Golden Dome에서 공동 선정됐지만 Anduril $60B 밸류에이션으로 방산 AI 시장 경쟁 가능성도" }
+  ],
+
+  "buyReasons": [
+    { "title": "Golden Dome $185B + Maven 정식 채택 = 방산 해자 극대화", "rationale": "미사일 방어 + 전군 AI의 소프트웨어 파트너. 이란 실전 검증까지. 돈으로 살 수 없는 해자가 한 주 만에 두 층 더 쌓였다" },
+    { "title": "4일 하락 후 Golden Dome에 반등 시작", "rationale": "+6.78%(Maven) → 4일 하락 → 시간외 +1.25%(Golden Dome). Rosenblatt $200 재확인. 바닥 다지기 진행 중" },
+    { "title": "미국 상업 매출 +137% 폭발적 성장", "rationale": "Q4 미국 상업 매출 $650M(+137% YoY). 정부 의존도를 줄이면서 성장 가속화" },
+    { "title": "52주 고점 대비 -24% 할인", "rationale": "52주 최고 $207.52에서 $158. 기술적 강세 구조(50일, 200일 위)는 유지 중" }
+  ],
+
+  "technicalPosition": {
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 65.0,
+    "sma50": 148.0,
+    "sma50Signal": "above",
+    "sma200": 120.0,
+    "sma200Signal": "above",
+    "rsi": 47.0,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "Golden Dome $185B 미사일 방어 프로젝트까지 따냈다. Maven 정식 채택, 이란 실전 검증에 이어 미 국방 AI의 핵심 파트너로 자리를 굳히고 있다. Rosenblatt는 이를 근거로 Buy $200을 재확인했다.",
+    "4일 연속 하락을 Golden Dome 소식으로 끊고 시간외 +1.25%. 상업 매출 +137%, Rule of 40 127%로 실행력은 완벽하지만, P/E 112x에서 매크로(유가 $99, IGV -23%)가 매번 상승분을 되돌린다.",
+    "50일($148), 200일($120) 위에서 강세 구조 유지. 52주 고점 대비 -24%인 $158. 컨센서스 $196(+24%). 방산 해자가 계속 두꺼워지고 있으니, 매크로 안정 시 가장 빠르게 재평가받을 AI 종목이다."
+  ],
+
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "Golden Dome + Maven으로 방산 해자가 극대화됐다. 하지만 Forward P/E 112x에서 매크로 역풍이 강해 좋은 뉴스도 유지가 안 되는 패턴이 반복 중이다. 기존 보유자는 유지, $145 이하 분할 매수 고려.",
+    "horizon": "3-6개월 (FY2026 Q1 실적 + 매크로 안정 대기)"
+  },
+
+  "sources": [
+    { "name": "Reuters", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/", "description": "Golden Dome $185B 미사일 방어 소프트웨어 선정 독점 보도" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/25/palantir-named-as-part-of-trump-administrations-18/", "description": "Golden Dome 프로젝트가 PLTR에 미치는 영향 분석" },
+    { "name": "CoinCentral", "url": "https://coincentral.com/palantir-pltr-stock-rises-after-joining-185b-golden-dome-defense-project/", "description": "Golden Dome 소식에 시간외 +1.25% 반등" },
+    { "name": "GuruFocus", "url": "https://www.gurufocus.com/news/8743554/palantir-pltr-stock-rises-on-positive-analyst-outlook-and-defense-project-involvement", "description": "Rosenblatt Buy $200 재확인" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/palantir-technologies-pltr-buy-rating-reiterated-at-rosenblatt-securities-2026-03-25/", "description": "Rosenblatt Buy 재확인 상세" },
+    { "name": "Reuters", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Maven 미군 정식 프로그램 채택" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/", "description": "이란 실전 활용 + Maven 정식 채택 분석" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rises-joining-185b-125942009.html", "description": "Golden Dome 미사일 방어 참여 종합 분석" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "애널리스트 컨센서스 $196.43" },
+    { "name": "WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/PLTR", "description": "52주 고저 $207.52/$66.12 확인" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "Golden Dome $185B까지 따냈다, 미 국방 AI의 핵심",
+      "text": "$PLTR (3/26) Maven 정식 채택에 이어 $185B Golden Dome 미사일 방어까지. 4일 하락 끊고 시간외 +1.25%. Rosenblatt $200 재확인. $158.\n\n1/4",
+      "thread": [
+        "탄도, 순항, 극초음속 미사일 요격 시스템의 소프트웨어. Anduril과 공동 선정. 수백 개 기업 중에서 뽑혔다.\n\n2/4",
+        "P/E 112x에서 좋은 뉴스도 매크로에 밀린다. IGV YTD -23%, 유가 $99. 패턴이 바뀌려면 매크로가 먼저.\n\n3/4",
+        "50일, 200일 위 강세 구조. 고점 대비 -24%. 목표가 $196(+24%). 방산 해자가 두꺼워지고 있다.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "Golden Dome + Maven, 미 국방 AI 소프트웨어의 핵심 파트너",
+      "text": "$PLTR (3/26) $158\n\nMaven 정식 채택 일주일 만에 $185B Golden Dome 미사일 방어까지 따냈다. 탄도, 순항, 극초음속 미사일을 요격하는 우주 기반 방어막의 소프트웨어를 만든다. Rosenblatt가 Buy $200을 재확인했다.\n\n4일 연속 하락을 Golden Dome으로 끊고 시간외 +1.25%. 하지만 P/E 112x에서 매크로(유가 $99, IGV -23%)가 매번 되돌린다. 방산 해자는 완벽한데 밸류에이션이 무겁다.\n\n50일, 200일 위 강세. 고점 -24%. 목표가 $196(+24%). 매크로만 돌아오면 가장 빠르게 재평가받을 AI 종목."
+    },
+    "telegram": {
+      "hook": "Golden Dome $185B 소프트웨어 선정, Rosenblatt $200",
+      "text": "Palantir 일일 분석 (3/26)\n\n가격: $158\n\n핵심 이슈\n- Golden Dome $185B 미사일 방어 소프트웨어 선정 (Anduril과 공동)\n- Rosenblatt Buy 재확인, $200 목표가\n- 시간외 +1.25% (4일 하락 끊음)\n- Maven 미군 정식 채택 (3/20)\n- 이란 실전 AI 활용\n- 상업 매출 Q4 +137%\n- IGV YTD -23%, 유가 $99\n\n주가 위치\n- 52주 고점 $207 대비 -24%\n- 50일($148), 200일($120) 위: 강세\n- RSI 47, 중립\n\n목표가: $196 (+24%)\n판단: Hold (방산 해자 강화, 매크로 안정 대기)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "Golden Dome $185B 선정, Rosenblatt $200 재확인",
+          "text": "$PLTR (3/26) Golden Dome $185B + Maven 정식 채택. Rosenblatt $200 Buy. 시간외 +1.25%. $158.\n\n1/4",
+          "thread": [
+            "탄도, 순항, 극초음속 미사일 요격 소프트웨어. Anduril과 공동. 수백 곳 중 선정.\n\n2/4",
+            "P/E 112x. IGV -23%, 유가 $99. 좋은 뉴스도 매크로에 밀리는 패턴.\n\n3/4",
+            "50일, 200일 위 강세. 고점 -24%. 목표가 $196(+24%).\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "미사일 방어까지 맡겼는데 주가는 4일 빠졌다가 1.25% 올랐다",
+          "text": "$PLTR (3/26) 미사일 막는 AI를 만드는데 주가는 매크로를 못 막는다. $185B Golden Dome 선정 후 시간외 겨우 +1.25%. $158.\n\n1/4",
+          "thread": [
+            "Maven 정식 채택, 이란 실전, Golden Dome. 한 주에 국방 빅3를 쓸어담았다.\n\n2/4",
+            "P/E 112x에서 좋은 뉴스가 나와도 유가 $99가 지우개. IGV -23%. 섹터 전체가 할인 매장.\n\n3/4",
+            "목표가 $196(+24%). 방산 해자는 철벽인데 밸류에이션이 문제다.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "좋은 뉴스가 쏟아지는데 주가가 안 간다, 답답할 거다",
+          "text": "$PLTR (3/26) Maven, 이란 실전, Golden Dome. 뉴스는 완벽한데 4일 빠졌다. 시간외 +1.25%로 겨우 반등. $158.\n\n1/4",
+          "thread": [
+            "$185B 미사일 방어 소프트웨어까지 따냈다. 방산 해자는 이제 더 이상 두꺼워지기 힘들 정도다.\n\n2/4",
+            "P/E 112x에서 매크로가 매번 발목을 잡는다. 하지만 PLTR만의 문제가 아니다. IGV -23%.\n\n3/4",
+            "50일, 200일 위 강세. 목표가 $196(+24%). 실력은 증명됐다. 시간이 필요할 뿐.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "Golden Dome $185B 선정, 방산 AI 해자 극대화",
+          "text": "$PLTR (3/26) $158\n\nGolden Dome $185B + Maven 정식 채택 + 이란 실전. Rosenblatt $200. 시간외 +1.25%. P/E 112x, IGV -23%. 50일, 200일 위 강세. 목표가 $196(+24%)."
+        },
+        "witty": {
+          "hook": "미사일 방어까지 맡겼는데 주가는 매크로를 못 막는다",
+          "text": "$PLTR (3/26) $158\n\n미사일을 막는 AI를 만드는 회사인데 유가 $99는 못 막는다. $185B Golden Dome, Maven, 이란 실전까지. 한 주 만에 국방 빅3 쓸어담기.\n\nP/E 112x에서 좋은 뉴스가 나와도 IGV -23%가 지우개. Rosenblatt는 $200으로 사라고 하는데 시장은 아직 안 믿는다.\n\n방산 해자는 철벽. 목표가 $196(+24%). 매크로만 풀리면 가장 빠르게 재평가."
+        },
+        "empathy": {
+          "hook": "완벽한 뉴스에도 주가가 안 간다, 하지만 실력은 증명됐다",
+          "text": "$PLTR (3/26) $158\n\nMaven, 이란 실전, Golden Dome $185B. 이보다 좋을 수 없는 뉴스인데 4일 빠졌다가 시간외 +1.25%. 답답할 수밖에 없다.\n\nP/E 112x와 IGV -23%가 매번 발목을 잡는다. 하지만 방산 해자는 철벽이고 상업 +137%. 실력은 완벽히 증명됐다.\n\n50일, 200일 위. 목표가 $196(+24%). 매크로가 돌아오면 보상받을 거다."
+        }
+      }
+    }
+  }
+}
