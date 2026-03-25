@@ -2,62 +2,111 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-25",
-  "currentPrice": 175.09,
+  "currentPrice": 175.07,
   "marketCap": "$4.27T",
 
   "businessSummary": {
-    "oneLiner": "Dominant force in AI computing, controlling global AI infrastructure through datacenter GPUs and accelerators",
-    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from datacenter AI chips to software platforms. At GTC 2026, it unveiled the Vera Rubin full-stack AI platform (7 chips, 5 rack-scale systems, 1 supercomputer). FY26 revenue hit $215.9B (+65% YoY) with $120B net income. The company projects $1T in cumulative orders for Blackwell and Rubin chips through 2027.",
+    "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem spanning data center AI chips to software platforms. At GTC 2026, the company unveiled Vera Rubin and Vera CPU platforms with a 5-tier full-stack AI strategy. FY26 revenue reached $215.9B (+65% YoY) with net income of $120B. The company projected $1 trillion in cumulative Blackwell and Rubin chip orders through 2027.",
     "howTheyMakeMoney": [
-      "Datacenter AI accelerators (80%+ of revenue)",
+      "Data center AI accelerators (80%+ of revenue)",
       "AI software platforms (CUDA, NIM, NemoClaw)",
       "Gaming GPUs",
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
 
   "keyMetrics": [
-    { "name": "Forward P/E (FY27E)", "value": "22x", "interpretation": "Lower than Alphabet or AMD. Most reasonable valuation among AI growth stocks given +65% revenue growth" },
-    { "name": "P/S", "value": "~20x", "interpretation": "Above semiconductor average (5-7x) but reasonable on PEG basis given 65% growth rate" },
-    { "name": "Revenue Growth (FY26)", "value": "+65% YoY ($215.9B)", "interpretation": "Unprecedented at this scale. Datacenter AI demand is the primary driver" },
-    { "name": "Net Income", "value": "$120B (FY26)", "interpretation": "Among the highest ever for a US company. Extraordinary profitability" },
-    { "name": "FCF", "value": "$60B+", "interpretation": "Record shareholder returns (buybacks + dividends) announced at GTC 2026" },
-    { "name": "Cumulative Order Pipeline", "value": "$1T (through 2027)", "interpretation": "Doubled from $500B at GTC 2026. Provides exceptional revenue visibility" }
+    { "name": "Forward P/E (FY27E)", "value": "22x", "interpretation": "Lower than Alphabet and AMD. Most rational valuation among AI growth stocks given FY26 revenue of $215.9B (+65%)" },
+    { "name": "P/S (Price-to-Sales)", "value": "~20x", "interpretation": "Above semiconductor sector average (5-7x), but reasonable on PEG basis given +65% revenue growth" },
+    { "name": "Revenue Growth (FY26)", "value": "+65% YoY ($215.9B)", "interpretation": "65% growth at this scale is unprecedented in semiconductor history. Data center AI demand is the core driver" },
+    { "name": "Net Income", "value": "$120B (FY26)", "interpretation": "Annual net income of $120B ranks among the highest of any US company. Dominant profitability" },
+    { "name": "FCF (Free Cash Flow)", "value": "$60B+", "interpretation": "Record shareholder returns (buybacks + dividends) announced at GTC 2026. Ample cash reserves" },
+    { "name": "Cumulative Order Outlook", "value": "$1T (through 2027)", "interpretation": "Blackwell + Rubin chip cumulative order outlook announced at GTC. Doubled from previous $500B projection" }
   ],
 
   "growthDrivers": [
-    { "title": "$1T cumulative AI chip orders through 2027", "description": "CEO Jensen Huang announced at GTC 2026 that Blackwell and Vera Rubin cumulative orders will reach at least $1T through 2027, doubling the prior $500B forecast" },
-    { "title": "Vera Rubin: next-gen full-stack AI platform", "description": "7 chips, 5 rack-scale systems, 1 supercomputer. 10x performance per watt vs Grace Blackwell. Shipping starts late 2026" },
-    { "title": "Jensen Huang declares 'AGI achieved' (3/24)", "description": "On a podcast, Huang said 'we've achieved AGI' but tempered near-term expectations on AI agent commercialization" },
-    { "title": "Energy partnerships (AI Factory model)", "description": "Partnerships with AES, Constellation Energy, and NextEra Energy (3/23) to operate AI datacenters as flexible grid assets" },
-    { "title": "Supermicro smuggling case may tighten export controls", "description": "Supermicro co-founder charged with smuggling $2.5B of NVIDIA chip servers to China (3/19). NVIDIA not directly involved but stricter export controls could affect China business" },
-    { "title": "Record shareholder returns planned", "description": "Announced massive buyback and dividend expansion at GTC 2026 with $60B+ FCF" }
+    {
+      "title": "$1 Trillion Cumulative AI Chip Orders Through 2027",
+      "description": "CEO Jensen Huang announced at GTC 2026 that cumulative orders for Blackwell and Vera Rubin chips would reach at least $1T by 2027, doubling the previous $500B forecast"
+    },
+    {
+      "title": "Vera Rubin: Next-Gen Full-Stack AI Platform",
+      "description": "Unveiled at GTC 2026, Vera Rubin comprises 7 chips, 5 rack-scale systems, and 1 supercomputer. 10x performance per watt improvement over Grace Blackwell. Shipping begins late 2026"
+    },
+    {
+      "title": "Jensen Huang 'AGI Achieved' Statement (3/24)",
+      "description": "Huang stated on a podcast that 'we have achieved AGI.' However, he tempered near-term expectations by noting AI agent commercialization needs more time"
+    },
+    {
+      "title": "Energy Company Partnership (AI Factory)",
+      "description": "Partnerships with AES, Constellation Energy, and NextEra Energy (3/23). Building AI Factory model to operate data centers as flexible grid assets"
+    },
+    {
+      "title": "Supermicro Smuggling Case and Export Controls",
+      "description": "Supermicro co-founder indicted for smuggling $2.5B worth of NVIDIA chip servers to China (3/19). No direct NVIDIA involvement, but could trigger stricter export regulations"
+    },
+    {
+      "title": "Record Shareholder Return Plan",
+      "description": "Announced significant expansion of buybacks and dividends at GTC 2026. FCF of $60B+ provides ample capacity"
+    }
   ],
 
   "competitiveAdvantage": {
     "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      { "type": "Ecosystem Lock-in", "description": "5M+ CUDA developers. Extremely high switching costs maintain GPU market dominance" },
-      { "type": "Vertical Integration", "description": "Full-stack: GPU, CPU (Vera), networking (Spectrum-X), software (CUDA, NIM, NemoClaw)" },
-      { "type": "Annual Architecture Cadence", "description": "Hopper → Blackwell → Vera Rubin yearly cadence maintains 2-3 year tech lead" },
-      { "type": "Economies of Scale", "description": "FY26 revenue $215.9B, largest in semiconductors. R&D spending dwarfs competitors" }
+      {
+        "type": "Ecosystem Lock-in",
+        "description": "CUDA developer ecosystem exceeds 5 million. Extremely high switching costs maintain GPU market dominance"
+      },
+      {
+        "type": "Vertical Integration",
+        "description": "Full-stack offering from GPU, CPU (Vera), networking (Spectrum-X), to software (CUDA, NIM, NemoClaw). One-stop AI infrastructure for customers"
+      },
+      {
+        "type": "Annual Architecture Roadmap",
+        "description": "Hopper to Blackwell to Vera Rubin annual release cycle. Maintains 2-3 year technology gap over competitors"
+      },
+      {
+        "type": "Economies of Scale",
+        "description": "FY26 revenue of $215.9B is the largest in semiconductors. R&D investment dwarfs all competitors"
+      }
     ],
     "competitors": [
-      { "name": "AMD", "detail": "MI300X entered AI GPU market but lags in software ecosystem and scale. <10% datacenter AI share" },
-      { "name": "Google TPU", "detail": "Strong for internal use. Limited external market impact" },
-      { "name": "Amazon Trainium", "detail": "AWS-optimized but lacks NVIDIA's general-purpose versatility" },
-      { "name": "Broadcom", "detail": "Custom ASICs for hyperscalers but cannot compete in general-purpose market" }
+      {
+        "name": "AMD",
+        "detail": "MI300X entered AI GPU market but significant gap in software ecosystem and scale. Data center AI share under 10%"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "Strong for internal use. Limited external market influence"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "Optimized for AWS internal use. Lags NVIDIA in general-purpose applications"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "Custom ASICs for large cloud providers. Cannot compete with NVIDIA in the general market"
+      }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-24", "headline": "Jensen Huang declares 'AGI achieved' on podcast", "significance": "CEO claims AGI milestone but tempers near-term AI agent expectations", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/" },
-    { "date": "2026-03-19", "headline": "Supermicro co-founder charged with $2.5B NVIDIA chip smuggling to China", "significance": "NVIDIA not implicated but case may trigger stricter export controls. SMCI dropped 33%", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html" },
-    { "date": "2026-03-16", "headline": "GTC 2026: Vera Rubin unveiled, $1T order pipeline", "significance": "Full-stack AI platform with 10x perf/watt improvement. Order forecast doubled from $500B to $1T", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" },
-    { "date": "2026-03-23", "headline": "Energy partnerships with AES, Constellation, NextEra", "significance": "Addressing AI datacenter power bottleneck through strategic utility partnerships", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/" },
-    { "date": "2026-03-16", "headline": "T-Mobile, Adobe, Disney partnerships expand", "significance": "Disney Olaf robot, Adobe AI integration. Platform adoption spreading across industries", "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/" }
+    { "date": "2026-03-24", "headline": "Director Mark Stevens sells 221,682 shares (3/24)", "significance": "NVIDIA board member sold over 220K shares in a single day. While insider selling can signal overvaluation, routine director sales are common", "url": "https://www.tipranks.com/news/insider-trading/top-nvidia-insider-quietly-executes-massive-multi-million-dollar-stock-sale-insider-trading-news" },
+    { "date": "2026-03-24", "headline": "Jensen Huang says 'AGI is here' on podcast", "significance": "NVIDIA CEO claimed AGI achievement but tempered near-term expectations, noting AI agent commercialization needs more time", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/" },
+    { "date": "2026-03-19", "headline": "Supermicro co-founder indicted for $2.5B NVIDIA chip smuggling to China", "significance": "No direct NVIDIA involvement but could catalyze stricter export controls. SMCI stock crashed 33%", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html" },
+    { "date": "2026-03-16", "headline": "GTC 2026: Vera Rubin unveiled, AI chip orders projected at $1T", "significance": "Full-stack AI platform with 7 chips and 5 rack-scale systems. Cumulative order outlook doubled from $500B to $1T", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" },
+    { "date": "2026-03-23", "headline": "Energy partnerships with AES, Constellation, NextEra for AI Factory", "significance": "Strategic partnerships to solve AI data center power challenges. Expected to relieve infrastructure bottlenecks", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/" }
   ],
 
   "analystOpinions": {
@@ -68,22 +117,22 @@
     "buyCount": 35,
     "holdCount": 5,
     "sellCount": 2,
-    "notableComment": "Vast majority of 37 analysts rate Buy. Consensus $276 implies 57.6% upside. Post-GTC target revisions expected"
+    "notableComment": "Vast majority of 37 analysts rate Buy. Consensus of $276 implies 57.6% upside. Post-GTC target price upgrades expected"
   },
 
   "risks": [
-    { "severity": "high", "title": "China export control tightening", "description": "Supermicro smuggling case could trigger stricter controls, disrupting H200 variant plans for China" },
-    { "severity": "medium", "title": "Macro headwinds: oil above $100", "description": "Middle East tensions pushed Brent above $100. Rising oil pressures all tech stocks" },
-    { "severity": "medium", "title": "Death cross formation", "description": "50-day SMA ($183) fell below 200-day ($184). Technical bearish signal suggests further downside possible" },
-    { "severity": "medium", "title": "AI agent commercialization delay", "description": "Huang himself tempered near-term AI agent expectations. AGI claimed but practical products need more time" },
-    { "severity": "low", "title": "Custom chip competition", "description": "Google TPU, Amazon Trainium, Broadcom ASICs growing. Long-term NVIDIA dependency may decrease" }
+    { "severity": "high", "title": "Insider selling + export regulation risk", "description": "Director Stevens sold 221,682 shares on 3/24. Supermicro smuggling indictment could lead to stricter export controls affecting China business" },
+    { "severity": "medium", "title": "Macro uncertainty and rising oil prices", "description": "Middle East tensions pushing oil prices higher. Oil spikes create inflation concerns weighing on tech broadly" },
+    { "severity": "medium", "title": "Death cross persists (50-day < 200-day)", "description": "50-day SMA ($183) below 200-day SMA ($184), a bearish technical signal. Near-term downside possible" },
+    { "severity": "medium", "title": "AI agent commercialization delay", "description": "Huang himself lowered near-term expectations for AI agents. AGI achieved but commercial products need time" },
+    { "severity": "low", "title": "Custom chip competition expanding", "description": "Google TPU, Amazon Trainium, Broadcom ASICs, large cloud companies accelerating in-house chip development" }
   ],
 
   "buyReasons": [
-    { "title": "Forward P/E 22x, lowest among AI growth stocks", "rationale": "$215.9B revenue (+65%) company trading at Forward P/E 22x — lower than Alphabet or AMD" },
-    { "title": "$1T order pipeline", "rationale": "GTC 2026 doubled forecast from $500B. 2-year revenue visibility secured" },
-    { "title": "Vera Rubin widens competitive gap", "rationale": "7-chip full-stack platform with 10x perf/watt improvement. 2-3 year tech lead maintained" },
-    { "title": "RSI 42, approaching oversold near death cross", "rationale": "Technical weakness despite strong fundamentals. Potential buying opportunity at technical bottom" }
+    { "title": "Forward P/E 22x, lowest among AI growth stocks", "rationale": "A company with $215.9B revenue (+65%) trading at Forward P/E of 22x. Lower than Alphabet and AMD" },
+    { "title": "$1T cumulative order pipeline", "rationale": "GTC 2026 announced $1T order outlook through 2027, doubled from $500B. Revenue visibility secured for 2 years" },
+    { "title": "Vera Rubin widens competitive gap", "rationale": "Full-stack platform with 7 chips maintains 2-3 year technology lead. 10x performance per watt improvement" },
+    { "title": "RSI 42, approaching oversold on death cross", "rationale": "Technical weakness despite solid fundamentals. Potential buying opportunity as technical bottom approaches" }
   ],
 
   "technicalPosition": {
@@ -99,90 +148,90 @@
   },
 
   "overallOpinion": [
-    "GTC 2026 reinforced NVIDIA's long-term vision with Vera Rubin and a $1T order pipeline. Huang's 'AGI achieved' claim shows confidence, though he acknowledges agent commercialization needs time.",
-    "Death cross formed with both 50-day ($183) and 200-day ($184) SMAs above current price. Macro headwinds from Middle East tensions and oil above $100. But Forward P/E 22x is the most reasonable valuation in AI.",
-    "Supermicro smuggling case adds export control uncertainty near-term, but consensus target $276 (+57.6%) signals the market views this level as a buying opportunity."
+    "GTC 2026 delivered a $1T order outlook and Vera Rubin, but director Mark Stevens selling 220K shares the day after Huang's AGI claim raises questions about insider confidence. The AGI statement confirmed long-term vision while acknowledging the commercialization gap.",
+    "The death cross persists with price below both 50-day ($183) and 200-day ($184) SMAs. Macro headwinds (oil, inflation) are weighing on tech broadly, but Forward P/E of 22x is the most rational valuation in the AI sector.",
+    "Consensus target of $276 (+57.6%) signals the market sees this as a buying opportunity. The Supermicro smuggling case is a wildcard for export regulation, but on fundamentals, this is the strongest company in history."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Despite death cross and macro headwinds, Forward P/E 22x with $1T order pipeline and Vera Rubin's technological lead make current levels attractive. Dollar-cost averaging recommended given export control risks and short-term technical weakness.",
-    "horizon": "6-12 months (through Vera Rubin shipping)"
+    "summary": "Despite death cross and macro headwinds, Forward P/E 22x, $1T order pipeline, and Vera Rubin's technology lead make current prices a buying opportunity. Dollar-cost averaging is appropriate given insider selling and export regulation risks.",
+    "horizon": "6-12 months (through Vera Rubin shipment start)"
   },
 
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 2026 Vera Rubin and $1T forecast" },
-    { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/", "description": "AI inference market and $1T opportunity" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/insider-trading/top-nvidia-insider-quietly-executes-massive-multi-million-dollar-stock-sale-insider-trading-news", "description": "Director Mark Stevens 221,682 share sale" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 2026 Vera Rubin unveiling and $1T order outlook" },
+    { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/", "description": "AI inference market strategy and $1T revenue opportunity" },
     { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html", "description": "Supermicro $2.5B smuggling indictment" },
-    { "name": "Meyka", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/", "description": "Jensen Huang AGI declaration analysis" },
+    { "name": "Meyka", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/", "description": "Jensen Huang AGI statement analysis" },
     { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 energy partnerships and agentic AI" },
-    { "name": "CNET", "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/", "description": "GTC 2026 partnership summary" },
+    { "name": "CNET", "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/", "description": "GTC 2026 industry partnership roundup" },
     { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Analyst consensus target $275.95" },
-    { "name": "AltIndex", "url": "https://altindex.com/ticker/nvda/technical-analysis", "description": "Technicals: 50-day SMA $183, RSI 42, death cross" },
-    { "name": "Futurum", "url": "https://futurumgroup.com/insights/nvidia-gtc-2026-day-1-can-nvidias-ecosystem-accelerate-the-inference-inflection/", "description": "GTC 2026 Vera Rubin deep dive" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/24/stock-market-today-live-coverage/", "description": "3/24 market analysis" }
+    { "name": "WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/revenue", "description": "FY26 revenue $215.9B (+65.47%) confirmed" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/24/can-nvidia-stock-reach-300-by-2030/", "description": "YTD -7% analysis and long-term outlook" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Jensen Huang declares 'AGI achieved' — but the stock sits below its SMAs",
-      "text": "$NVDA (3/25) Jensen Huang says 'we've achieved AGI.' But AI agent commercialization needs time, he adds. $175.09.\n\n1/4",
+      "hook": "NVIDIA director sells 220K shares day after CEO's AGI claim",
+      "text": "$NVDA (Mar 25) Director Mark Stevens sold 221,682 shares. The day after Jensen Huang declared AGI achieved. $175.07.\n\n1/4",
       "thread": [
-        "GTC 2026: $1T order pipeline, Vera Rubin full-stack AI platform. Forward P/E 22x — cheapest in AI.\n\n2/4",
-        "Risks: Supermicro smuggling case could tighten export controls. Death cross formed. Oil above $100.\n\n3/4",
-        "Consensus target $276 (+57.6%). RSI 42. If macro stabilizes, this could be the bottom.\n\n4/4"
+        "GTC delivered a $1T order pipeline and Vera Rubin. Forward P/E 22x. Cheapest AI stock by far at this growth rate.\n\n2/4",
+        "Death cross persists. Below both 50 and 200-day averages. Supermicro smuggling case adds export risk. YTD -7%.\n\n3/4",
+        "Consensus $276 (+57.6%). Fundamentals are historic-best. Dollar-cost average in.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Jensen Huang declares 'AGI achieved' — stock sits at death cross",
-      "text": "$NVDA (3/25) $175.09 (+1.4%)\n\nJensen Huang declared 'AGI achieved' on a podcast. GTC 2026 unveiled Vera Rubin and a $1T order pipeline. FY26: $215.9B revenue (+65%), $120B net income. Forward P/E just 22x.\n\nBut stock sits below 50-day ($183) and 200-day ($184) SMAs — death cross. Supermicro smuggling case adds export control risk.\n\nConsensus target $276 (+57.6%). Strongest fundamentals in history meeting technical weakness. Macro stability = rebound ready."
+      "hook": "NVIDIA insider sells 220K shares as CEO declares AGI",
+      "text": "$NVDA (Mar 25) $175.07\n\nJensen Huang declared AGI achieved on a podcast. The next day, director Mark Stevens sold 220K shares. Mixed signals from the top.\n\nGTC delivered a $1T order outlook and Vera Rubin platform. FY26 revenue $215.9B (+65%). Forward P/E 22x, the lowest in AI. The business has never been stronger.\n\nBut the death cross persists below 50-day ($183) and 200-day ($184). Consensus $276 (+57.6%). Best fundamentals in history, worst technicals in months."
     },
     "telegram": {
-      "hook": "Jensen Huang: 'AGI achieved.' Stock: death cross.",
-      "text": "NVIDIA Daily Analysis (3/25)\n\nPrice: $175.09 (+1.4%)\n\nKey Issues\n- Jensen Huang: 'AGI achieved' (agents need more time)\n- GTC 2026: Vera Rubin platform, $1T order pipeline\n- Supermicro $2.5B smuggling → export control risk\n- Energy partnerships: AES, Constellation, NextEra\n- FY26: $215.9B revenue (+65%), Forward P/E 22x\n\nTechnicals\n- Death cross: below 50-day ($183) and 200-day ($184)\n- RSI 42, approaching oversold\n- Cheapest AI stock on Forward P/E basis\n\nTarget: $276 (+57.6%)\nVerdict: Buy (DCA, through Vera Rubin shipping)"
+      "hook": "Director sells 220K shares, death cross continues",
+      "text": "NVIDIA Daily Analysis (Mar 25)\n\nPrice: $175.07\n\nKey Issues\n- Director Stevens sells 221,682 shares (3/24)\n- CEO Huang claims 'AGI achieved', tempers near-term expectations\n- GTC 2026: Vera Rubin, $1T order outlook\n- Supermicro smuggling case, export regulation risk\n- Energy partnerships for AI Factory\n\nTechnicals\n- Below 50-day ($183), 200-day ($184): death cross\n- RSI 42, approaching oversold\n- Forward P/E 22x (AI sector lowest)\n\nTarget: $276 (+57.6%)\nVerdict: Buy (dollar-cost average, through Vera Rubin shipments)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Jensen Huang declares AGI, stock below both SMAs",
-          "text": "$NVDA (3/25) Huang says 'AGI achieved.' AI agent commercialization needs time. $175.09 (+1.4%).\n\n1/4",
+          "hook": "NVIDIA director sells 220K shares day after AGI claim",
+          "text": "$NVDA (Mar 25) Director Stevens sold 221,682 shares after CEO's AGI declaration. Forward P/E 22x, AI sector's lowest. $175.07.\n\n1/4",
           "thread": [
-            "$1T order pipeline. Vera Rubin: 10x perf/watt. Forward P/E 22x. Cheapest AI growth stock.\n\n2/4",
-            "Supermicro smuggling case. Death cross. Oil $100. Macro headwinds, not company headwinds.\n\n3/4",
-            "Target $276 (+57.6%). 35 of 37 analysts say Buy. Technical bottom approaching.\n\n4/4"
+            "GTC: $1T order pipeline, Vera Rubin platform. FY26 revenue $215.9B (+65%). Net income $120B.\n\n2/4",
+            "Death cross below 50 and 200-day. Supermicro smuggling adds export risk. YTD -7%.\n\n3/4",
+            "Consensus $276 (+57.6%). Macro stabilization = bottom. Dollar-cost average.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "NVIDIA CEO says AGI is here. The stock market says 'prove it.'",
-          "text": "$NVDA (3/25) Jensen Huang: 'AGI achieved.' Stock: +1.4%. Market yawns at human history's biggest claim. $175.09.\n\n1/4",
+          "hook": "CEO says AGI is here. Director says 'I'll take my shares, thanks'",
+          "text": "$NVDA (Mar 25) Huang: 'AGI achieved.' Stevens: *sells 220K shares*. Actions speak louder. $175.07.\n\n1/4",
           "thread": [
-            "$1T pipeline, Forward P/E 22x. The company that built AGI trades cheaper than most SaaS stocks. Let that sink in.\n\n2/4",
-            "Supermicro got caught smuggling NVIDIA chips. NVIDIA did nothing wrong but gets the regulatory blowback. The chip curse.\n\n3/4",
-            "Target $276 (+57.6%). Death cross with oil at $100. If macro cooperates, $276. If not... well, at least AGI exists.\n\n4/4"
+            "$1T order pipeline, P/E 22x. Somehow the cheapest AI stock. Death cross says the market doesn't care yet.\n\n2/4",
+            "Supermicro smuggled $2.5B in chips. Not NVIDIA's fault, but NVIDIA pays the regulatory price.\n\n3/4",
+            "Consensus $276 (+57.6%). Either the market is wrong or 37 analysts are. Place your bets.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA holders, this year hasn't been easy despite the strongest fundamentals ever",
-          "text": "$NVDA (3/25) YTD -7%. World's largest company by market cap, and this year has been tough. $175.09.\n\n1/4",
+          "hook": "NVIDIA YTD -7% with a death cross. Frustrating times",
+          "text": "$NVDA (Mar 25) World's biggest company, down 7% this year. Death cross on top. It's been frustrating. $175.07.\n\n1/4",
           "thread": [
-            "Fundamentals are the strongest ever: $1T pipeline, Vera Rubin, Forward P/E 22x. Nothing wrong with the company.\n\n2/4",
-            "Supermicro case, oil $100, Middle East tensions — it's all macro, not NVIDIA. Hang in there.\n\n3/4",
-            "Target $276 (+57.6%). How many companies grow 65% at $216B revenue and trade at 22x? Patience will be rewarded.\n\n4/4"
+            "But GTC confirmed $1T in orders and Vera Rubin. Forward P/E 22x is the cheapest in AI. The company itself is perfect.\n\n2/4",
+            "Insider selling and Supermicro are concerning, but these are macro issues, not NVIDIA issues.\n\n3/4",
+            "Consensus $276 (+57.6%). At these fundamentals and this price, patience will pay.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Jensen Huang: AGI achieved. Stock: death cross.",
-          "text": "$NVDA (3/25) $175.09 (+1.4%)\n\nHuang declared AGI. GTC: Vera Rubin, $1T orders. Revenue $215.9B (+65%), Forward P/E 22x. Death cross below both SMAs. Target $276 (+57.6%)."
+          "hook": "Director sells 220K shares, death cross, P/E 22x",
+          "text": "$NVDA (Mar 25) $175.07\n\nDirector Stevens sold 221,682 shares. GTC: $1T orders, Vera Rubin. FY26 revenue $215.9B (+65%), Forward P/E 22x. Death cross below 50-day ($183), 200-day ($184). Consensus $276 (+57.6%). Dollar-cost average."
         },
         "witty": {
-          "hook": "AGI achieved but the stock's in a death cross — ironic, isn't it?",
-          "text": "$NVDA (3/25) $175.09 (+1.4%)\n\nJensen Huang declared AGI. The biggest claim in human history and the stock went up... 1.4%. Markets are cold.\n\n$1T order pipeline, 22x Forward P/E, 65% revenue growth. The company that built AGI is cheaper than most SaaS stocks. Supermicro smuggled chips and NVIDIA takes the regulatory heat.\n\nTarget $276 (+57.6%). Either this is the bargain of the decade or AGI was announced on a podcast and nobody noticed."
+          "hook": "CEO declares AGI, director cashes out. Classic",
+          "text": "$NVDA (Mar 25) $175.07\n\nJensen Huang says AGI is here. Director Stevens responds by selling 220K shares. One of them is more honest about the near-term outlook.\n\nForward P/E 22x with a $1T pipeline. It's the cheapest AI stock and it has a death cross. If that's not cognitive dissonance, nothing is.\n\nConsensus $276 (+57.6%). The fundamentals say buy, the chart says wait. Six months from now we'll know who was right."
         },
         "empathy": {
-          "hook": "NVDA holders, fundamentals are historic but the market isn't cooperating",
-          "text": "$NVDA (3/25) $175.09 (+1.4%)\n\nYTD -7%. Hard to hold the world's biggest company and watch it go down. The frustration is real.\n\nBut nothing is wrong with the company: $215.9B revenue, $120B profit, $1T pipeline, Vera Rubin. Forward P/E 22x. It's ALL macro — oil, geopolitics, sentiment.\n\nDeath cross at RSI 42. Technical weakness but fundamental strength. Target $276 (+57.6%). This too shall pass. These are the prices you buy at, not sell."
+          "hook": "NVDA holders, the chart doesn't match the business",
+          "text": "$NVDA (Mar 25) $175.07\n\nYTD -7% for the world's biggest company. Death cross and insider selling on top. If you're holding, it doesn't feel great watching this chart.\n\nBut the business has literally never been better. $1T orders, +65% growth, Forward P/E 22x. The disconnect between fundamentals and price is temporary.\n\nConsensus $276 (+57.6%). This won't last forever. Stay patient."
         }
       }
     }

@@ -7,7 +7,7 @@
 
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
-    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망. 다만 Forward P/E 100x의 극단적 밸류에이션이 변수.",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망. 다만 Forward P/E 114x의 극단적 밸류에이션이 변수.",
     "howTheyMakeMoney": [
       "정부 계약 (Gotham) - 국방/정보기관 AI 분석",
       "기업 AI 플랫폼 (Foundry) - 대기업 데이터 통합",
@@ -26,8 +26,8 @@
   },
 
   "keyMetrics": [
-    { "name": "Forward P/E", "value": "~100x", "interpretation": "소프트웨어 업종에서도 극단적 프리미엄. Rule of 40 점수 127%가 부분적으로 정당화하지만, 성장률 둔화 시 급락 위험" },
-    { "name": "P/S (매출 대비 주가)", "value": "~44x", "interpretation": "SaaS 평균(10~15x)의 3~4배. Palantir의 성장률(+60%)이 유일한 정당화 근거" },
+    { "name": "Forward P/E", "value": "~114x", "interpretation": "소프트웨어 업종에서도 극단적 프리미엄. Rule of 40 점수 127%가 부분적으로 정당화하지만, 성장률 둔화 시 급락 위험" },
+    { "name": "P/S (매출 대비 주가)", "value": "~50x", "interpretation": "SaaS 평균(10~15x)의 3~4배. Palantir의 성장률(+60%)이 유일한 정당화 근거" },
     { "name": "매출 성장률 (FY2025)", "value": "+60% YoY ($4.48B)", "interpretation": "이 규모의 기업에서 60% 성장은 극히 드문 수준. Q4는 +70% YoY" },
     { "name": "미국 상업 매출 성장 (Q4)", "value": "+137% YoY ($650M)", "interpretation": "기업 고객 확보가 폭발적. 정부 의존도 축소의 핵심 동력" },
     { "name": "Rule of 40", "value": "127%", "interpretation": "매출 성장률 + 이익률이 127%. SaaS 업계 최상위 수준" },
@@ -102,7 +102,7 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-24", "headline": "PLTR -3.77%, 기술주 전반 약세 속 하락", "significance": "Maven 호재에도 불구하고 매크로 약세와 밸류에이션 부담으로 하락. Anthropic 에이전트 발표로 SaaS 전반 약세", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/" },
+    { "date": "2026-03-24", "headline": "PLTR -3.77%, 기술주 전반 약세에 동반 하락", "significance": "Maven 호재에도 불구하고 매크로 약세와 Forward P/E 114x 밸류에이션 부담으로 하락. 내부자 매도 압력도 존재", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/" },
     { "date": "2026-03-23", "headline": "Maven 정식 채택 소식에 +6.78% 급등", "significance": "Pentagon이 Maven을 공식 program of record로 지정한 소식에 하루 만에 6.78% 급등. 장기 방산 매출 기반 확보", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/" },
     { "date": "2026-03-20", "headline": "Pentagon, Maven AI를 미군 정식 프로그램으로 채택", "significance": "파일럿에서 정식 프로그램으로 격상. 안정적 장기 예산 배정과 전 군 확대 적용 확정", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/" },
     { "date": "2026-03-23", "headline": "영국 FCA Foundry 플랫폼 3개월 트라이얼 도입", "significance": "금융 규제 분야로 확장. 방산 외 정부 기관 고객 다각화의 신호", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-3-23-palantir-technologies-pltr-stock-trades-up-here-is-why" },
@@ -117,14 +117,14 @@
     "buyCount": 14,
     "holdCount": 5,
     "sellCount": 2,
-    "notableComment": "Wedbush Dan Ives $230 목표가 유지, '미군 AI의 백본'. Maven 정식 채택이 투자 논거를 강화. 다만 Forward P/E 100x로 밸류에이션 부담 지적하는 의견도 다수"
+    "notableComment": "Wedbush Dan Ives $230 목표가 유지, '미군 AI의 백본'. Forward P/E 114x, P/S 50x로 밸류에이션 부담 지적도 다수"
   },
 
   "risks": [
-    { "severity": "high", "title": "극단적 밸류에이션 (Forward P/E ~100x)", "description": "성장률 +60%에도 P/E 100x, P/S 44x는 극도로 높다. 성장 둔화 시 급락 위험이 매우 크다" },
+    { "severity": "high", "title": "극단적 밸류에이션 (Forward P/E ~114x)", "description": "성장률 +60%에도 P/E 114x, P/S 50x는 극도로 높다. 성장 둔화 시 급락 위험이 매우 크다" },
     { "severity": "high", "title": "윤리적 논란 (이란 전쟁 AI 활용)", "description": "Palantir + Anthropic AI가 이란 타격에 활용되고 있다는 보도. ESG 기준 투자자의 이탈과 규제 리스크" },
-    { "severity": "medium", "title": "Anthropic AI '적성 기업' 지정 논란", "description": "Palantir가 사용하는 Anthropic이 '적성 기업' 지정 논란에 휩싸여 있어 AI 파트너 리스크가 부상" },
-    { "severity": "medium", "title": "기술주 전반 약세 (매크로)", "description": "유가 $100 돌파, 중동 긴장, Nasdaq 조정 국면(-10% from highs). 밸류에이션이 높은 종목일수록 타격이 큼" },
+    { "severity": "medium", "title": "기술주 전반 약세 (매크로)", "description": "유가 상승, 중동 긴장, Nasdaq 조정 국면. 밸류에이션이 높은 종목일수록 타격이 큼" },
+    { "severity": "medium", "title": "내부자 매도 압력", "description": "기술주 약세 속 내부자 매도가 주가에 추가 부담. P/E 114x에서 매도 압력이 증폭" },
     { "severity": "low", "title": "경쟁 심화 (Anduril $60B 펀딩)", "description": "Anduril이 $60B 밸류에이션으로 대규모 펀딩 라운드를 진행 중. 방산 AI 시장 경쟁 가속화" }
   ],
 
@@ -148,90 +148,90 @@
   },
 
   "overallOpinion": [
-    "Maven 미군 정식 채택은 Palantir의 방산 해자를 한 단계 높였다. 이란 전쟁에서 수천 건의 타격에 실전 활용된 것은 경쟁사가 돈으로도 살 수 없는 자산이다. 영국 FCA 트라이얼은 국방 너머 규제 분야로의 확장 가능성을 보여준다.",
-    "그러나 3/24 -3.77% 하락은 기술주 전반의 매크로 약세와 Forward P/E 100x의 밸류에이션 부담을 상기시킨다. Anthropic 에이전트 발표로 SaaS 전반이 흔들린 것도 영향을 줬다.",
-    "50일($148)과 200일($120) 평균 위에서 거래 중이라 기술적 구조는 여전히 강세. 컨센서스 $196(+27%). 매크로 안정 시 반등 여력은 충분하지만, P/E 100x에서 신규 매수는 리스크가 크다."
+    "Maven 미군 정식 채택과 이란 실전 검증은 Palantir의 방산 해자를 한 단계 높였다. 영국 FCA 트라이얼은 국방 너머 규제 분야로의 확장 신호다. 이건 돈으로 살 수 없는 자산이다.",
+    "그러나 3/24 -3.77% 하락은 Forward P/E 114x가 얼마나 무거운지를 보여준다. 좋은 뉴스(Maven)에 하루 올랐다가 매크로 약세에 바로 되돌려졌다. 이 패턴이 당분간 반복될 수 있다.",
+    "50일($148)과 200일($120) 평균 위에서 기술적 구조는 여전히 강세. 컨센서스 $196(+27%). 매크로 안정 시 반등 여력은 충분하지만, P/E 114x에서 신규 매수는 위험이 크다."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Maven 정식 채택과 +60% 성장은 훌륭하지만, Forward P/E 100x에서 신규 매수는 부담이다. 기존 보유자는 유지하되 3/24 같은 매크로 약세에 추가 하락 시 분할 매수 고려. 이란 전쟁 관련 윤리적 논란도 모니터링 필요.",
+    "summary": "Maven 정식 채택과 +60% 성장은 훌륭하지만, Forward P/E 114x에서 신규 매수는 부담이다. 기존 보유자는 유지하되 매크로 약세에 추가 하락 시 분할 매수 고려. 이란 전쟁 관련 윤리적 논란도 모니터링 필요.",
     "horizon": "3-6개월 (FY2026 Q1 실적 확인 후 재평가)"
   },
 
   "sources": [
     { "name": "Reuters", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Maven 미군 정식 프로그램 채택 독점 보도" },
     { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/", "description": "Maven 정식 채택 + 이란 실전 활용 분석" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/23/palantir-surges-5-monday-what-the-pentagons-maven-ai-decision-means-for-pltr/", "description": "Maven 채택 이후 주가 급등 분석" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/24/why-palantir-technologies-stock-tumbled-on-wednesd/", "description": "3/24 기술주 약세 속 PLTR 하락 분석" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/", "description": "3/24 종합 시장 분석 및 PLTR -3.77%" },
-    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714783-market-movers-pltr-20260324", "description": "애널리스트 목표가 분석: 평균 $189.88" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21명 애널리스트 컨센서스 $196.43, Buy" },
-    { "name": "TheStreet Pro", "url": "https://pro.thestreet.com/portfolio/back-to-back-wins-reaffirm-our-bullish-palantir-stance", "description": "Maven 채택과 FCA 트라이얼 연속 수주 분석" },
     { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/palantir-drops-5-as-tech-sells-off-is-pltr-being-punished-unfairly/", "description": "기술주 셀오프 속 PLTR 과도한 하락 여부 분석" },
-    { "name": "Intellectia AI", "url": "https://intellectia.ai/blog/palantir-stock-price-forecast-2026", "description": "2026년 주가 전망 및 밸류에이션 심층 분석" }
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/", "description": "3/24 종합 시장 분석 및 PLTR -3.77%" },
+    { "name": "Barchart", "url": "https://www.barchart.com/story/news/922353/palantir-just-scored-a-major-department-of-defense-win-should-you-buy-pltr-stock-now", "description": "Forward P/E 113.97x, P/S 49.60x 밸류에이션 분석" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/news/Market-Movers/261714783-market-movers-pltr-20260324", "description": "3/24 -3.75% 하락 상세 분석" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21명 애널리스트 컨센서스 $196.43" },
+    { "name": "TheStreet Pro", "url": "https://pro.thestreet.com/portfolio/back-to-back-wins-reaffirm-our-bullish-palantir-stance", "description": "Maven + FCA 연속 수주 분석" },
+    { "name": "Intellectia AI", "url": "https://intellectia.ai/blog/palantir-stock-price-forecast-2026", "description": "2026년 주가 전망 및 밸류에이션 심층 분석" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/", "description": "Maven 채택 당일 +6.78% 급등 분석" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Maven이 미군 정식 프로그램 됐는데, 3/24에 -3.77% 하락",
-      "text": "$PLTR (3/25) Pentagon이 Maven AI를 미군 정식 프로그램으로 채택했다. 이란 전쟁에서 수천 건 타격에 실전 활용 중. $154.78.\n\n1/4",
+      "hook": "Palantir, 미군 정식 채택에 올랐다가 기술주 약세에 되돌려졌다",
+      "text": "$PLTR (3/25) Maven 정식 채택에 +6.78% 올랐다가 다음 날 기술주 약세에 -3.77%. P/E 114x의 무게. $154.78.\n\n1/4",
       "thread": [
-        "3/23에 +6.78% 올랐다가 3/24에 -3.77%. 기술주 전반 약세에 밸류에이션 부담(P/E 100x). 좋은 뉴스에도 내려간다.\n\n2/4",
-        "영국 FCA 트라이얼 계약, 미국 상업 매출 +137%. 매출 가이던스 $7.2B(+61%). 성장은 압도적인데 가격이 문제.\n\n3/4",
-        "목표가 $196(+27%). 50일, 200일 평균 위에서 건강한 구조. P/E 100x만 감당할 수 있다면 좋은 회사다.\n\n4/4"
+        "이란 전쟁에서 수천 건 타격에 실전 투입. 영국 FCA도 트라이얼 시작. 회사는 완벽하게 실행 중이다.\n\n2/4",
+        "미국 상업 +137%, 매출 가이던스 $7.2B(+61%). Rule of 40이 127%. 성장 지표만 보면 최상위.\n\n3/4",
+        "50일, 200일 위에서 건강한 구조. 목표가 $196(+27%). P/E 114x만 감당하면 좋은 회사다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Maven 미군 정식 채택, 하루 급등하고 하루 급락",
-      "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nPentagon이 Maven AI를 미군 정식 프로그램으로 채택했다. 이란 전쟁에서 수천 건의 타격에 실전 활용 중. 3/23에 +6.78% 급등했다가 3/24에 기술주 약세로 -3.77% 하락.\n\n영국 FCA도 Foundry 트라이얼을 시작했고, 미국 상업 매출은 Q4 +137% 폭발. 매출 가이던스 $7.2B(+61%). 성장은 압도적이다.\n\n문제는 P/E 100x. 좋은 뉴스가 나와도 밸류에이션 부담으로 하루 만에 되돌려지는 패턴. 목표가 $196(+27%). 50일, 200일선 위에서 구조는 건강하다."
+      "hook": "Maven 정식 채택에 올랐다가 기술주 약세에 되돌림",
+      "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nMaven 미군 정식 채택에 +6.78% 올랐다가 다음 날 기술주 약세에 -3.77%. 좋은 뉴스에 올라도 매크로에 바로 되돌려지는 패턴. P/E 114x가 무겁다.\n\n이란 전쟁에서 수천 건의 타격에 실전 투입. 영국 FCA 트라이얼도 시작. 미국 상업 매출 +137%, 가이던스 $7.2B(+61%). 회사 자체는 완벽하다.\n\n50일($148), 200일($120) 위에서 구조는 건강. 목표가 $196(+27%). 매크로 안정 시 가장 먼저 반등할 AI 종목."
     },
     "telegram": {
-      "hook": "Maven 미군 정식 채택, 하루 급등 후 급락",
-      "text": "Palantir 일일 분석 (3/25)\n\n가격: $154.78 (-3.77%)\n\n핵심 이슈\n- Maven AI 미군 정식 프로그램 채택 (3/20)\n- 이란 전쟁 실전 활용: 수천 건 타격에 AI 투입\n- 3/23 +6.78% 급등 → 3/24 -3.77% 하락 (기술주 약세)\n- 영국 FCA Foundry 3개월 트라이얼 시작\n- 미국 상업 매출 Q4 +137% YoY\n- FY26 매출 가이던스 $7.2B (+61%)\n\n주가 위치\n- 50일($148), 200일($120) 평균 위: 강세 구조 유지\n- RSI 48, 중립\n- Forward P/E ~100x\n\n목표가: $196 (+27%)\n판단: Hold (P/E 100x 부담, 하락 시 분할 매수 고려)"
+      "hook": "Maven 정식 채택 후 급등, 기술주 약세에 되돌림",
+      "text": "Palantir 일일 분석 (3/25)\n\n가격: $154.78 (-3.77%)\n\n핵심 이슈\n- Maven AI 미군 정식 채택 (3/20)\n- 3/23 +6.78% 급등 → 3/24 -3.77% (기술주 약세)\n- 이란 전쟁 수천 건 타격에 실전 활용\n- 영국 FCA Foundry 트라이얼 시작\n- 미국 상업 매출 Q4 +137%\n- 매출 가이던스 $7.2B (+61%)\n\n주가 위치\n- 50일($148), 200일($120) 위: 강세 구조\n- RSI 48, 중립\n- Forward P/E ~114x\n\n목표가: $196 (+27%)\n판단: Hold (P/E 114x 부담, 하락 시 분할 매수)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Maven 미군 정식 채택, 이란 전쟁 실전 활용",
-          "text": "$PLTR (3/25) Pentagon이 Maven AI를 미군 정식 프로그램으로 채택. 이란 전쟁에서 수천 건 타격에 활용 중. $154.78(-3.77%).\n\n1/4",
+          "hook": "Maven 정식 채택, 이란 실전 검증, P/E 114x",
+          "text": "$PLTR (3/25) Maven 미군 정식 채택. 이란 전쟁 수천 건 타격 지원. Forward P/E 114x. $154.78(-3.77%).\n\n1/4",
           "thread": [
-            "3/23 +6.78% 급등 후 3/24 -3.77% 하락. 기술주 전반 약세와 P/E 100x 밸류에이션 부담.\n\n2/4",
-            "영국 FCA 트라이얼, 미국 상업 +137%, 매출 가이던스 $7.2B(+61%). 성장 지표는 업계 최상위.\n\n3/4",
-            "목표가 $196(+27%). 50일, 200일선 위에서 건강한 구조. 매크로 안정 시 반등 여력 충분.\n\n4/4"
+            "3/23 +6.78% → 3/24 -3.77%. 좋은 뉴스에도 밸류에이션 부담으로 되돌림.\n\n2/4",
+            "영국 FCA 트라이얼, 미국 상업 +137%, 가이던스 $7.2B. 성장 지표 업계 최상위.\n\n3/4",
+            "50일, 200일 위 건강한 구조. 목표가 $196(+27%). 매크로 안정 대기.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Palantir가 실전 전쟁을 이기고 있는데 주식 시장에서는 지고 있다",
-          "text": "$PLTR (3/25) 이란 전쟁에서 수천 건의 타격을 지원하고, 미군이 정식 채택했다. 그런데 3/24에 -3.77%. P/E 100x의 무게.\n\n1/4",
+          "hook": "실전 전쟁에서 이기고 주식 시장에서 진 Palantir",
+          "text": "$PLTR (3/25) 이란 전쟁 수천 건 타격 지원, 미군 정식 채택. 그런데 -3.77%. P/E 114x에서는 전쟁을 이겨도 주가는 진다.\n\n1/4",
           "thread": [
-            "전쟁은 이기고 있는데 주식 전쟁에서는 Nasdaq에 지고 있다. 기술주가 빠지면 P/E 100x가 가장 먼저 맞는다.\n\n2/4",
-            "영국 FCA까지 고객으로 들어왔다. 상업 매출 +137%. 이 성장률이면 P/E 100x도... 음, 아직은 좀 비싸다.\n\n3/4",
-            "목표가 $196(+27%). Wedbush $230까지. 잘하는 건 분명한데, 가격이 이미 '아주 잘함'을 반영하고 있다.\n\n4/4"
+            "+6.78% 올랐다가 하루 만에 되돌림. '좋은 뉴스가 나와도 내리는 주식'의 정석. 문제는 가격이지 회사가 아니다.\n\n2/4",
+            "영국 금융감독원까지 고객이 됐다. 상업 +137%. 실적은 미쳤는데 P/E 114x가 중력처럼 끌어내린다.\n\n3/4",
+            "목표가 $196(+27%). Wedbush $230. 실력은 있다. 가격이 이미 실력을 반영해서 문제.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR, 좋은 뉴스에 올랐다 바로 다음 날 빠지면 답답하다",
-          "text": "$PLTR (3/25) 3/23 Maven 소식에 +6.78% 올랐다가 3/24에 -3.77%. 하루 기쁘고 하루 걱정되는 패턴. $154.78.\n\n1/4",
+          "hook": "PLTR, 올랐다 빠지는 패턴에 지칠 수 있다",
+          "text": "$PLTR (3/25) 3/23 +6.78% 올랐다가 3/24 -3.77%. 또 이 패턴이다. 들고 있으면 지칠 수밖에 없다. $154.78.\n\n1/4",
           "thread": [
-            "회사는 잘하고 있다. Maven 정식 채택, 이란 전쟁 실전 검증, 영국 FCA 계약. 문제는 가격이 너무 높다는 것뿐.\n\n2/4",
-            "50일, 200일선 위에서 구조는 건강하다. 매크로가 안정되면 다시 올라갈 거다. P/E 100x에서 마음의 평화를 찾기가 어려울 뿐.\n\n3/4",
-            "목표가 $196(+27%). 들고 있다면 잘 들고 있는 거다. 기다림의 보상은 올 것이다.\n\n4/4"
+            "회사는 완벽하게 하고 있다. Maven 채택, 이란 실전, FCA 계약. 문제는 P/E 114x에서 좋은 뉴스가 이미 반영돼 있다는 것.\n\n2/4",
+            "50일, 200일 위에서 구조는 건강하다. 매크로가 안정되면 다시 올라간다.\n\n3/4",
+            "목표가 $196(+27%). 들고 있다면 잘 들고 있는 거다. 인내심의 게임.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Maven 미군 정식 채택, 하루 급등하고 하루 급락",
-          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nPentagon이 Maven을 정식 프로그램으로 채택. 이란 전쟁 수천 건 타격 지원. 3/23 +6.78% → 3/24 -3.77%. 영국 FCA 트라이얼, 상업 매출 +137%. P/E 100x 밸류에이션 부담이 좋은 뉴스를 상쇄.\n\n50일, 200일선 위 건강한 구조. 목표가 $196(+27%)."
+          "hook": "Maven 정식 채택 후 급등, 기술주 약세에 되돌림",
+          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nMaven 정식 채택, 이란 실전 검증. +6.78% → -3.77%. FCA 트라이얼, 상업 +137%, 가이던스 $7.2B. P/E 114x 부담. 50일, 200일 위 건강. 목표가 $196(+27%)."
         },
         "witty": {
-          "hook": "실전 전쟁을 이기고 주식 전쟁에서 진 Palantir",
-          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\n이란 전쟁에서 수천 건의 타격을 AI로 지원하고, 미군이 정식 채택까지 했다. 그런데 다음 날 -3.77%. P/E 100x 종목의 숙명이다.\n\n회사는 모든 걸 잘하고 있다. Maven 채택, FCA 트라이얼, 상업 +137%. 주가가 이미 '잘함'을 넘어 '엄청 잘함'까지 반영해서 문제다.\n\n목표가 $196(+27%). 실적이 좋으면 결국 따라가긴 한다. 다만 P/E 100x에서는 인내심이 필요하다."
+          "hook": "이란 전쟁에서 이기고 주식 전쟁에서 진 Palantir",
+          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\n수천 건의 이란 타격을 AI로 지원하고, 미군이 정식 채택했는데 다음 날 -3.77%. P/E 114x 종목의 숙명이다.\n\n영국 FCA까지 고객이 됐고 상업 +137%. 이 실적이면 P/E 30x인 회사였으면 20% 올랐을 거다. 하지만 이미 114x다.\n\n목표가 $196(+27%). 실적이 가격을 이기려면 시간이 필요하다."
         },
         "empathy": {
-          "hook": "PLTR, 좋은 뉴스에 올랐다 바로 빠지면 지친다",
-          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nMaven 정식 채택 소식에 +6.78% 올랐다가 다음 날 -3.77%. 이런 패턴이 반복되면 지칠 수밖에 없다.\n\n그래도 회사가 잘하고 있다는 건 분명하다. 미군 정식 채택, 이란 실전 검증, 영국 FCA 계약, 상업 매출 +137%. 문제는 P/E 100x에서 좋은 뉴스가 이미 가격에 반영돼 있다는 것뿐이다.\n\n50일, 200일선 위에서 구조는 건강하다. 목표가 $196(+27%). 기다리는 것도 투자의 일부다."
+          "hook": "좋은 뉴스에 올랐다 바로 빠지면 지친다",
+          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nMaven 채택에 +6.78% 올랐다가 하루 만에 되돌림. 이 패턴이 반복되면 지칠 수밖에 없다.\n\n회사가 잘하고 있다는 건 확실하다. 미군 정식 채택, 이란 실전, FCA 계약, 상업 +137%. 문제는 P/E 114x에서 좋은 뉴스가 이미 반영돼 있다는 것.\n\n50일, 200일 위 건강한 구조. 목표가 $196(+27%). 기다림도 투자의 일부다."
         }
       }
     }

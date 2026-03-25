@@ -2,7 +2,7 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-25",
-  "currentPrice": 175.09,
+  "currentPrice": 175.07,
   "marketCap": "$4.27T",
 
   "businessSummary": {
@@ -102,11 +102,11 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-24", "headline": "젠슨 황 'AGI 달성' 팟캐스트 발언", "significance": "NVIDIA CEO가 AGI 달성을 주장했으나 AI 에이전트 상용화에는 시간이 필요하다고 단기 기대치 조절. 장기 비전과 단기 현실 사이 균형", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/" },
+    { "date": "2026-03-24", "headline": "이사 Mark Stevens, 221,682주 대규모 매도 (3/24)", "significance": "NVIDIA 이사가 하루에 22만 주 이상을 매도. 내부자 매도는 주가 과대평가 시그널일 수 있으나, 이사급 정기 매도는 흔한 편", "url": "https://www.tipranks.com/news/insider-trading/top-nvidia-insider-quietly-executes-massive-multi-million-dollar-stock-sale-insider-trading-news" },
+    { "date": "2026-03-24", "headline": "젠슨 황 'AGI 달성' 팟캐스트 발언", "significance": "NVIDIA CEO가 AGI 달성을 주장했으나 AI 에이전트 상용화에는 시간이 필요하다고 단기 기대치 조절", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/" },
     { "date": "2026-03-19", "headline": "Supermicro 공동 창업자, $2.5B NVIDIA 칩 중국 밀수 혐의 기소", "significance": "NVIDIA 직접 관여는 없으나 수출 규제 강화 촉매로 작용 가능. SMCI 주가 33% 폭락", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html" },
     { "date": "2026-03-16", "headline": "GTC 2026: Vera Rubin 공개, AI 칩 주문 $1T 전망", "significance": "7개 칩, 5개 랙스케일 시스템의 풀스택 AI 플랫폼 공개. 누적 주문 전망을 $500B에서 $1T로 2배 상향", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" },
-    { "date": "2026-03-23", "headline": "에너지 3사(AES, Constellation, NextEra)와 AI 팩토리 파트너십", "significance": "AI 데이터센터의 전력 문제를 해결하기 위한 전략적 파트너십. 인프라 병목 해소 기대", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/" },
-    { "date": "2026-03-16", "headline": "T-Mobile, Adobe, Disney 등 산업 파트너십 확대", "significance": "Disney Olaf 로봇, Adobe AI 통합 등 다양한 산업에서 NVIDIA 기술 채택 확대. 에이전틱 AI 시대의 플랫폼 파워 입증", "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/" }
+    { "date": "2026-03-23", "headline": "에너지 3사(AES, Constellation, NextEra)와 AI 팩토리 파트너십", "significance": "AI 데이터센터의 전력 문제를 해결하기 위한 전략적 파트너십. 인프라 병목 해소 기대", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/" }
   ],
 
   "analystOpinions": {
@@ -121,11 +121,11 @@
   },
 
   "risks": [
-    { "severity": "high", "title": "중국 수출 규제 강화 위험", "description": "Supermicro 밀수 기소로 수출 통제가 더 엄격해질 수 있다. 중국향 H200 변형칩 계획에 차질 가능성" },
-    { "severity": "medium", "title": "매크로 불확실성과 유가 $100 돌파", "description": "중동 긴장으로 브렌트유가 $100을 돌파. 유가 급등은 인플레이션 우려와 함께 기술주 전반에 부담" },
+    { "severity": "high", "title": "내부자 대규모 매도 + 수출 규제 강화 위험", "description": "이사 Mark Stevens가 3/24 221,682주를 매도. Supermicro 밀수 기소로 수출 통제가 더 엄격해질 수 있다" },
+    { "severity": "medium", "title": "매크로 불확실성과 유가 상승", "description": "중동 긴장으로 유가가 반등 중. 유가 급등은 인플레이션 우려와 함께 기술주 전반에 부담" },
     { "severity": "medium", "title": "데스 크로스 발생 (50일 < 200일)", "description": "50일 SMA($183)가 200일 SMA($184) 아래로 내려가며 기술적 약세 신호. 단기 추가 하락 가능성" },
     { "severity": "medium", "title": "AI 에이전트 상용화 지연", "description": "젠슨 황 스스로 AI 에이전트 단기 기대치를 낮춤. AGI는 달성했으나 상용 제품으로의 전환에 시간 필요" },
-    { "severity": "low", "title": "경쟁사 커스텀 칩 확대", "description": "Google TPU, Amazon Trainium, Broadcom ASIC 등 대형 클라우드 업체들이 자체 칩 개발을 가속화. 장기적으로 NVIDIA 의존도 축소 가능" }
+    { "severity": "low", "title": "경쟁사 커스텀 칩 확대", "description": "Google TPU, Amazon Trainium, Broadcom ASIC 등 대형 클라우드 업체들이 자체 칩 개발을 가속화" }
   ],
 
   "buyReasons": [
@@ -148,18 +148,19 @@
   },
 
   "overallOpinion": [
-    "GTC 2026에서 Vera Rubin 플랫폼과 $1T 주문 전망을 내놓으며 장기 비전을 확고히 했다. 젠슨 황의 'AGI 달성' 발언은 자신감을 보여주지만, AI 에이전트 상용화에는 시간이 필요하다는 점도 인정했다.",
-    "50일($183)과 200일 SMA($184) 모두 아래에서 거래되며 데스 크로스가 발생했다. 중동 긴장과 유가 $100 돌파로 매크로 환경이 불리하지만, Forward P/E 22x는 AI 섹터에서 가장 합리적인 밸류에이션이다.",
-    "Supermicro 밀수 사건이 수출 규제 강화의 촉매가 될 수 있어 단기 불확실성이 있지만, 컨센서스 목표가 $276(+57.6%)은 시장이 이 자리를 매수 기회로 본다는 뜻이다."
+    "GTC 2026에서 $1T 주문 전망과 Vera Rubin을 공개했지만, 이사 Mark Stevens가 3/24 22만 주를 매도하면서 내부자 신뢰에 의문이 제기된다. 젠슨 황의 'AGI 달성' 발언은 장기 비전을 확인했지만, 상용화까지의 갭을 인정한 것이기도 하다.",
+    "50일($183)과 200일 SMA($184) 아래에서 데스 크로스가 유지 중이다. 매크로 역풍(유가, 인플레이션)이 기술주 전반을 누르고 있지만, Forward P/E 22x는 AI 섹터에서 가장 합리적인 밸류에이션이다.",
+    "컨센서스 목표가 $276(+57.6%)은 시장이 이 자리를 매수 기회로 본다는 뜻이다. Supermicro 밀수 사건의 수출 규제 파장이 변수지만, 펀더멘털 기준으로는 역사상 최강이다."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "데스 크로스와 매크로 역풍에도 Forward P/E 22x, $1T 주문 파이프라인, Vera Rubin 기술 우위를 감안하면 현재 가격은 매수 기회다. 다만 수출 규제 리스크와 단기 기술적 약세를 감안해 분할 매수가 적절하다.",
+    "summary": "데스 크로스와 매크로 역풍에도 Forward P/E 22x, $1T 주문 파이프라인, Vera Rubin 기술 우위를 감안하면 현재 가격은 매수 기회다. 내부자 매도와 수출 규제 리스크를 감안해 분할 매수가 적절하다.",
     "horizon": "6-12개월 (Vera Rubin 출하 시작 시점까지)"
   },
 
   "sources": [
+    { "name": "TipRanks", "url": "https://www.tipranks.com/news/insider-trading/top-nvidia-insider-quietly-executes-massive-multi-million-dollar-stock-sale-insider-trading-news", "description": "이사 Mark Stevens 221,682주 매도" },
     { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 2026 Vera Rubin 공개 및 $1T 주문 전망" },
     { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/", "description": "AI 추론 시장 공략 및 $1T 매출 기회" },
     { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html", "description": "Supermicro $2.5B 밀수 기소" },
@@ -167,71 +168,70 @@
     { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/gtc-2026-news/", "description": "GTC 2026 에너지 파트너십 및 에이전틱 AI" },
     { "name": "CNET", "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/", "description": "GTC 2026 산업 파트너십 종합 정리" },
     { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "애널리스트 컨센서스 목표가 $275.95" },
-    { "name": "AltIndex", "url": "https://altindex.com/ticker/nvda/technical-analysis", "description": "기술적 지표: 50일 SMA $183, RSI 42, 데스 크로스" },
-    { "name": "Futurum", "url": "https://futurumgroup.com/insights/nvidia-gtc-2026-day-1-can-nvidias-ecosystem-accelerate-the-inference-inflection/", "description": "GTC 2026 Vera Rubin 심층 분석" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/24/stock-market-today-live-coverage/", "description": "3/24 시장 종합 분석" }
+    { "name": "WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/revenue", "description": "FY26 매출 $215.9B (+65.47%) 확인" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/24/can-nvidia-stock-reach-300-by-2030/", "description": "YTD -7% 분석 및 장기 전망" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "젠슨 황이 'AGI 달성'을 선언했다, 그런데 주가는 SMA 아래",
-      "text": "$NVDA (3/25) 젠슨 황 CEO가 'AGI를 달성했다'고 밝혔다. 다만 AI 에이전트 상용화에는 시간이 필요하다고. $175.09.\n\n1/4",
+      "hook": "NVDA 이사가 22만 주를 팔았다, 데스 크로스 지속",
+      "text": "$NVDA (3/25) 이사 Mark Stevens가 221,682주를 매도했다. AGI를 달성했다는 CEO 발언 다음 날. $175.07.\n\n1/4",
       "thread": [
-        "GTC 2026에서 $1T 주문 전망, Vera Rubin 풀스택 AI 플랫폼 공개. Forward P/E 22x는 AI 섹터에서 가장 싸다.\n\n2/4",
-        "리스크: Supermicro 밀수 기소로 수출 규제 강화 가능. 50일, 200일선 아래 데스 크로스 발생. 유가 $100 돌파.\n\n3/4",
-        "컨센서스 목표가 $276(+57.6%). RSI 42. 매크로만 안정되면 바닥이 될 수 있는 자리다.\n\n4/4"
+        "GTC에서 $1T 주문 전망과 Vera Rubin을 내놨다. Forward P/E 22x. 이 성장률에 이 가격이면 AI 섹터에서 제일 싸다.\n\n2/4",
+        "문제는 50일, 200일선 아래 데스 크로스. Supermicro 밀수로 수출 규제 리스크도 커졌다. YTD -7%.\n\n3/4",
+        "컨센서스 $276(+57.6%). 매크로만 안정되면 바닥이다. 분할 매수로 접근할 자리.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "젠슨 황이 'AGI 달성'을 선언했다, 그런데 주가는 SMA 아래",
-      "text": "$NVDA (3/25) $175.09 (+1.4%)\n\n젠슨 황이 팟캐스트에서 'AGI 달성'을 선언했다. GTC 2026에서 Vera Rubin 플랫폼과 $1T 주문 전망도 발표했다. FY26 매출 $2,159B(+65%)에 순이익 $120B. Forward P/E 22x로 AI 섹터 최저.\n\n하지만 주가는 50일($183)과 200일($184) 평균 모두 아래. 데스 크로스가 발생했고, Supermicro 밀수 사건으로 수출 규제 리스크가 커졌다.\n\n컨센서스 목표가 $276(+57.6%). 기술적 약세에도 펀더멘털은 역사상 최강. 매크로 안정되면 반등 준비 완료."
+      "hook": "NVDA 이사 22만 주 매도, CEO는 AGI 선언",
+      "text": "$NVDA (3/25) $175.07\n\n젠슨 황이 AGI 달성을 선언한 다음 날, 이사 Mark Stevens가 22만 주를 매도했다. 내부자가 파는 건 여러 이유가 있지만, 타이밍이 묘하다.\n\nGTC에서 $1T 주문 전망, Vera Rubin 풀스택 플랫폼을 공개했다. FY26 매출 $215.9B(+65%), Forward P/E 22x. AI 섹터에서 가장 합리적인 밸류에이션.\n\n50일($183), 200일($184) 아래 데스 크로스 유지. 컨센서스 $276(+57.6%). 펀더멘털은 최강인데 매크로가 발목을 잡고 있다."
     },
     "telegram": {
-      "hook": "젠슨 황 'AGI 달성' 선언, 주가는 데스 크로스",
-      "text": "NVIDIA 일일 분석 (3/25)\n\n가격: $175.09 (+1.4%)\n\n핵심 이슈\n- 젠슨 황 'AGI 달성' 발언 (AI 에이전트 상용화는 시간 필요)\n- GTC 2026: Vera Rubin 풀스택 AI 플랫폼 공개\n- AI 칩 누적 주문 $1T 전망 (기존 $500B에서 2배 상향)\n- Supermicro $2.5B 밀수 기소 → 수출 규제 강화 우려\n- 에너지 3사 AI 팩토리 파트너십\n\n주가 위치\n- 50일($183), 200일($184) 모두 아래: 데스 크로스\n- RSI 42, 과매도 접근\n- Forward P/E 22x (AI 섹터 최저)\n\n목표가: $276 (+57.6%)\n판단: Buy (분할 매수, Vera Rubin 출하 시점까지)"
+      "hook": "이사 22만 주 매도, 데스 크로스 지속",
+      "text": "NVIDIA 일일 분석 (3/25)\n\n가격: $175.07\n\n핵심 이슈\n- 이사 Mark Stevens 221,682주 매도 (3/24)\n- 젠슨 황 'AGI 달성' 발언, 에이전트 상용화는 시간 필요\n- GTC 2026: Vera Rubin, $1T 주문 전망\n- Supermicro 밀수 기소로 수출 규제 강화 우려\n- 에너지 3사 AI 팩토리 파트너십\n\n주가 위치\n- 50일($183), 200일($184) 아래: 데스 크로스 유지\n- RSI 42, 과매도 접근\n- Forward P/E 22x (AI 섹터 최저)\n\n목표가: $276 (+57.6%)\n판단: Buy (분할 매수, Vera Rubin 출하 시점까지)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "젠슨 황이 'AGI 달성'을 선언했다, 그런데 주가는 SMA 아래",
-          "text": "$NVDA (3/25) 젠슨 황 CEO가 'AGI를 달성했다'고 밝혔다. 다만 AI 에이전트 상용화에는 시간이 필요하다고. $175.09.\n\n1/4",
+          "hook": "NVDA 이사가 22만 주를 팔았다, 데스 크로스 지속",
+          "text": "$NVDA (3/25) 이사 Mark Stevens가 221,682주를 매도했다. AGI 선언 다음 날. Forward P/E 22x로 AI 섹터 최저. $175.07.\n\n1/4",
           "thread": [
-            "GTC 2026에서 $1T 주문 전망, Vera Rubin 풀스택 AI 플랫폼 공개. Forward P/E 22x는 AI 섹터에서 가장 싸다.\n\n2/4",
-            "리스크: Supermicro 밀수 기소로 수출 규제 강화 가능. 50일, 200일선 아래 데스 크로스 발생. 유가 $100 돌파.\n\n3/4",
-            "컨센서스 목표가 $276(+57.6%). RSI 42. 매크로만 안정되면 바닥이 될 수 있는 자리다.\n\n4/4"
+            "GTC에서 $1T 주문 전망, Vera Rubin 플랫폼 공개. FY26 매출 $215.9B(+65%). 순이익 $120B.\n\n2/4",
+            "50일, 200일선 아래 데스 크로스. Supermicro 밀수로 수출 규제 리스크. YTD -7%.\n\n3/4",
+            "컨센서스 $276(+57.6%). 매크로 안정 시 반등 준비 완료. 분할 매수 추천.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "엔비디아 CEO가 AGI를 선언했는데, 주가는 데스 크로스",
-          "text": "$NVDA (3/25) 젠슨 황: 'AGI 달성'. 주식 시장: '그래서 얼마 벌어?' Forward P/E 22x인데 AI 섹터에서 제일 싸다는 게 웃기다.\n\n1/4",
+          "hook": "CEO는 AGI를 선언하고 이사는 22만 주를 팔았다",
+          "text": "$NVDA (3/25) 젠슨 황: 'AGI 달성'. 이사 Stevens: *22만 주 매도*. 둘 중 누가 맞는 걸까. $175.07.\n\n1/4",
           "thread": [
-            "$1T 주문 파이프라인에 Vera Rubin까지. 기술은 최강인데 주가가 SMA 아래에 있다. 누가 틀린 걸까.\n\n2/4",
-            "Supermicro가 칩 밀수하다 걸렸다. NVIDIA 잘못은 아닌데, 규제 강화는 NVIDIA가 받는다. 칩의 저주.\n\n3/4",
-            "목표가 $276(+57.6%). 데스 크로스에 유가 $100. 매크로가 도와주면 $276 간다. 안 도와주면... RSI 42가 더 내려간다.\n\n4/4"
+            "$1T 주문 파이프라인에 Forward P/E 22x. 이 숫자를 보면 세상에서 제일 싼 AI 주식인데, 데스 크로스 상태.\n\n2/4",
+            "Supermicro는 칩을 밀수하다 걸리고, NVIDIA는 주가가 빠지고. 칩은 잘 팔리는데 주가만 아프다.\n\n3/4",
+            "컨센서스 $276(+57.6%). 이 정도 갭이면 시장이 틀리거나 애널리스트가 틀리거나. 분할 매수로 베팅.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA가 데스 크로스라니, 올해 정말 쉽지 않다",
-          "text": "$NVDA (3/25) YTD -7%. $4.27T 시총의 세계 최대 기업인데 올해는 쉽지 않다. $175.09.\n\n1/4",
+          "hook": "NVDA가 데스 크로스 속에서 YTD -7%, 답답한 시기",
+          "text": "$NVDA (3/25) 세계 최대 기업인데 올해 -7%. 데스 크로스까지. 들고 있으면 답답할 수밖에 없다. $175.07.\n\n1/4",
           "thread": [
-            "그래도 GTC에서 $1T 주문 전망을 내놨고, Vera Rubin은 경쟁사가 못 따라올 수준이다. 펀더멘털은 최강이다.\n\n2/4",
-            "Supermicro 밀수 사건, 유가 $100, 중동 긴장... 매크로가 안 도와주는 것뿐이다. NVIDIA 자체 문제는 아니다.\n\n3/4",
-            "목표가 $276(+57.6%). Forward P/E 22x. 조금만 더 버텨보자. 이런 밸류에이션에서 이런 성장을 하는 회사가 또 있을까.\n\n4/4"
+            "그래도 GTC에서 $1T 주문을 확인했고, Forward P/E 22x는 AI 섹터 최저다. 회사 자체는 역사상 최강이다.\n\n2/4",
+            "이사 매도와 Supermicro 사건은 걱정되지만, 매크로 문제이지 NVIDIA 자체 문제가 아니다.\n\n3/4",
+            "컨센서스 $276(+57.6%). 이런 펀더멘털에 이 가격이면 기다릴 가치가 있다.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "젠슨 황 'AGI 달성' 선언, 주가는 데스 크로스",
-          "text": "$NVDA (3/25) $175.09 (+1.4%)\n\n젠슨 황이 'AGI 달성'을 발언. GTC 2026에서 Vera Rubin, $1T 주문 전망 발표. FY26 매출 $2,159B(+65%), Forward P/E 22x로 AI 섹터 최저 밸류에이션.\n\n50일($183), 200일($184) 아래 데스 크로스. Supermicro 밀수 기소로 수출 규제 리스크. 컨센서스 목표가 $276(+57.6%). 펀더멘털 최강이지만 매크로 역풍이 발목."
+          "hook": "이사 22만 주 매도, 데스 크로스 속 Forward P/E 22x",
+          "text": "$NVDA (3/25) $175.07\n\n이사 Stevens 221,682주 매도. GTC에서 $1T 주문 전망, Vera Rubin 공개. FY26 매출 $215.9B(+65%), Forward P/E 22x. 50일($183), 200일($184) 아래 데스 크로스. 컨센서스 $276(+57.6%). 분할 매수 추천."
         },
         "witty": {
-          "hook": "AGI는 달성했는데 주가는 데스 크로스, 아이러니하다",
-          "text": "$NVDA (3/25) $175.09 (+1.4%)\n\n젠슨 황이 'AGI 달성'을 선언했다. 세계 최대 시총 기업의 CEO가 인류 역사적 발언을 했는데, 주가 반응은 +1.4%. 시장은 냉정하다.\n\n$1T 주문 파이프라인, Forward P/E 22x, 매출 +65%. 이 정도면 너무 싼 거 아닌가? 문제는 Supermicro가 칩을 밀수하다 걸리면서 규제 리스크가 커졌다는 것. 그리고 50일, 200일선 아래 데스 크로스.\n\n목표가 $276(+57.6%). AGI를 만든 회사가 22x PER에 거래된다는 건, 시장이 아직 AGI를 믿지 않거나, 아니면 사상 최고의 바겐세일이거나."
+          "hook": "CEO는 AGI, 이사는 22만 주 매도. 누가 맞나",
+          "text": "$NVDA (3/25) $175.07\n\n젠슨 황이 AGI를 선언한 다음 날, 이사가 22만 주를 팔았다. 이런 걸 아이러니라고 한다. Forward P/E 22x로 AI 섹터에서 제일 싼데, 주가는 데스 크로스.\n\n$1T 주문 파이프라인, 매출 +65%, 순이익 $120B. 펀더멘털만 보면 꿈의 종목인데 차트만 보면 악몽이다.\n\n컨센서스 $276(+57.6%). 시장이 틀리거나 애널리스트가 틀리거나. 6개월 뒤에 답이 나올 거다."
         },
         "empathy": {
-          "hook": "NVDA 들고 있으면 올해 답답했을 거다",
-          "text": "$NVDA (3/25) $175.09 (+1.4%)\n\nYTD -7%. 세계 최대 기업이 올해 빠지고 있다. 들고 있으면 답답했을 거다. 그런데 펀더멘털을 보면 아무 문제가 없다.\n\n매출 +65%, 순이익 $120B, $1T 주문 전망, Vera Rubin 플랫폼 공개. Forward P/E 22x는 AI 섹터에서 최저다. 빠지는 건 매크로 때문이지 NVIDIA 자체 문제가 아니다.\n\n데스 크로스에 RSI 42. 기술적으로 약하지만, 이런 자리에서 사는 사람이 결국 웃는다. 목표가 $276(+57.6%). 조금만 기다려보자."
+          "hook": "NVDA YTD -7%, 펀더멘털은 최강인데 주가는 고전",
+          "text": "$NVDA (3/25) $175.07\n\n세계 최대 기업이 올해 -7%. 데스 크로스에 내부자 매도까지. 들고 있으면 왜 빠지나 답답할 수밖에 없다.\n\nGTC에서 $1T 주문과 Vera Rubin을 확인했다. 매출 +65%, Forward P/E 22x. 회사가 잘못하는 건 없다. 매크로가 안 도와주는 것뿐이다.\n\n컨센서스 $276(+57.6%). 이런 자리에서 인내심을 가진 사람이 결국 보상받는다."
         }
       }
     }

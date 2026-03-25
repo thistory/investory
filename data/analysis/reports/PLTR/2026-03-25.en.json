@@ -6,57 +6,107 @@
   "marketCap": "$367B",
 
   "businessSummary": {
-    "oneLiner": "Leading AI data analytics platform for government and enterprise, built on three pillars: Gotham (defense), Foundry (commercial), AIP (AI platform)",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue reached $4.48B (+60%). US commercial revenue topped $650M in Q4 (+137% YoY). Pentagon designated Maven AI as an official program of record, deploying it across the entire US military. FY2026 guidance of $7.19B-$7.41B (+60-65%) signals accelerating growth.",
+    "oneLiner": "Government and enterprise AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue reached $4.48B (+60%). US commercial revenue surpassed $650M (Q4 +137% YoY). The Pentagon designated Maven AI as an official program of record for military-wide deployment. FY2026 guidance of $7.19B-$7.41B (+60-65%) signals accelerating growth. However, Forward P/E of ~114x remains a significant overhang.",
     "howTheyMakeMoney": [
-      "Government contracts (Gotham) — defense/intelligence AI analytics",
-      "Enterprise AI platform (Foundry) — large-scale data integration",
-      "AIP (AI Platform) — generative AI integration platform",
-      "AIP Bootcamps — rapid customer conversion programs"
+      "Government contracts (Gotham) - Defense/intelligence AI analytics",
+      "Enterprise AI platform (Foundry) - Large enterprise data integration",
+      "AIP (AI Platform) - Generative AI integration platform",
+      "AIP bootcamps - Rapid customer conversion programs"
     ],
-    "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "Sovereign AI Datacenter OS", "Ontology"]
+    "keyProducts": [
+      "Gotham",
+      "Foundry",
+      "AIP",
+      "Maven Smart System",
+      "ShipOS",
+      "Sovereign AI Data Center OS",
+      "Ontology"
+    ]
   },
 
   "keyMetrics": [
-    { "name": "Forward P/E", "value": "~100x", "interpretation": "Extreme even for software. Rule of 40 score of 127% partially justifies but growth deceleration risk is significant" },
-    { "name": "P/S", "value": "~44x", "interpretation": "3-4x the SaaS average (10-15x). Only justified by Palantir's 60%+ growth rate" },
-    { "name": "Revenue Growth (FY2025)", "value": "+60% YoY ($4.48B)", "interpretation": "Rare at this scale. Q4 grew 70% YoY" },
-    { "name": "US Commercial Revenue (Q4)", "value": "+137% YoY ($650M)", "interpretation": "Explosive enterprise customer acquisition reducing government dependency" },
-    { "name": "Rule of 40", "value": "127%", "interpretation": "Revenue growth + profit margin = 127%. Elite among SaaS companies" },
-    { "name": "Net Dollar Retention", "value": "139%", "interpretation": "Existing customers spending 39% more YoY. Proves high product stickiness" }
+    { "name": "Forward P/E", "value": "~114x", "interpretation": "Extreme premium even within software. Rule of 40 score of 127% partially justifies it, but growth deceleration risk is severe" },
+    { "name": "P/S (Price-to-Sales)", "value": "~50x", "interpretation": "3-4x the SaaS average (10-15x). Palantir's +60% growth rate is the only justification" },
+    { "name": "Revenue Growth (FY2025)", "value": "+60% YoY ($4.48B)", "interpretation": "60% growth at this scale is exceptionally rare. Q4 hit +70% YoY" },
+    { "name": "US Commercial Revenue (Q4)", "value": "+137% YoY ($650M)", "interpretation": "Explosive enterprise customer acquisition. Key driver in reducing government dependency" },
+    { "name": "Rule of 40", "value": "127%", "interpretation": "Revenue growth + profit margin at 127%. Among the highest in SaaS industry" },
+    { "name": "Net Dollar Retention (NDR)", "value": "139%", "interpretation": "Existing customers spending 39% more YoY. Proves high product stickiness" }
   ],
 
   "growthDrivers": [
-    { "title": "Maven AI designated US military program of record", "description": "Pentagon officially designated Maven Smart System as program of record (3/20). Long-term military-wide deployment confirmed. Combat-tested in Iran with thousands of strikes" },
-    { "title": "UK FCA 3-month trial contract", "description": "UK Financial Conduct Authority adopting Foundry on 3-month trial at £30K+/week. Signals expansion beyond defense into regulatory domains" },
-    { "title": "Combat-tested in Iran: thousands of strikes", "description": "Pentagon using Palantir + Anthropic AI for target identification in Iran operations. Compresses strike cycle from hours to minutes" },
-    { "title": "FY2026 revenue guidance $7.19B-$7.41B (+60-65%)", "description": "Management confident in growth acceleration. US commercial becoming core growth engine" },
-    { "title": "US commercial revenue Q4 +137% explosion", "description": "Q4 US commercial $650M (+137% YoY). 180 deals over $1M, 61 deals over $10M. AIP bootcamps driving rapid customer conversion" },
-    { "title": "Wedbush Dan Ives maintains $230 target", "description": "Calls Palantir 'the backbone of US military AI' following Maven designation" }
+    {
+      "title": "Maven AI Designated as Official Military Program of Record",
+      "description": "Pentagon designated Maven Smart System as official program of record (3/20). Long-term military-wide deployment confirmed, securing stable defense revenue. Combat-tested in Iran with thousands of strikes"
+    },
+    {
+      "title": "UK FCA 3-Month Trial Contract",
+      "description": "UK Financial Conduct Authority adopting Palantir Foundry on a 3-month trial, paying £30K+ per week. Signals expansion into regulatory sectors beyond defense"
+    },
+    {
+      "title": "Combat AI Deployment in Iran, Thousands of Strikes",
+      "description": "NYT/Reuters reports Pentagon operating Palantir + Anthropic AI system to identify Iran strike targets. Reduced target identification to execution timeline from hours to minutes"
+    },
+    {
+      "title": "FY2026 Revenue Guidance $7.19B-$7.41B (+60-65%)",
+      "description": "Management confident in accelerating growth. US commercial segment emerging as core growth engine, reducing government dependency"
+    },
+    {
+      "title": "US Commercial Revenue Q4 +137% Explosion",
+      "description": "Q4 US commercial revenue $650M (+137% YoY). 180 deals over $1M, 61 deals over $10M. AIP bootcamps driving rapid customer conversion"
+    },
+    {
+      "title": "Wedbush Dan Ives Maintains $230 Target",
+      "description": "Wedbush's Dan Ives maintained $230 target after Maven designation, calling Palantir 'the backbone of US military AI'"
+    }
   ],
 
   "competitiveAdvantage": {
-    "summary": "20+ years of government defense AI, top-level security clearances, Maven program of record, Iran combat validation. Moats money can't buy",
+    "summary": "20+ years of government defense AI track record, highest security clearances, Maven military-wide adoption, combat-tested in Iran. Moats money cannot buy",
     "moats": [
-      { "type": "Switching Cost", "description": "Deeply integrated Ontology platform in government/military systems. Replacement costs are prohibitively high" },
-      { "type": "Security Clearance Barrier", "description": "Top-level clearances and 20+ years of government trust. Virtually impossible for new entrants to replicate" },
-      { "type": "Network Effect", "description": "AIP bootcamps for rapid customer acquisition and expanding Ontology data model ecosystem" },
-      { "type": "Combat Validation", "description": "Real-time use in thousands of Iran strikes. Battle-tested credibility is an irreplaceable asset" }
+      {
+        "type": "Switching Cost",
+        "description": "Ontology platform deeply integrated into government/military systems. Once deployed, replacement cost is extremely high"
+      },
+      {
+        "type": "Security Clearance Barrier",
+        "description": "Highest-level security clearances and 20+ years of government trust. Virtually impossible for new entrants to achieve"
+      },
+      {
+        "type": "Network Effect",
+        "description": "Rapid customer acquisition through AIP bootcamps and expanding Ontology data model ecosystem"
+      },
+      {
+        "type": "Combat Validation",
+        "description": "Real-time use in thousands of Iran strikes. Combat data is the ultimate competitive advantage"
+      }
     ],
     "competitors": [
-      { "name": "Anduril Industries", "detail": "Defense AI/drone startup. $60B valuation round in progress. Hardware-focused, complementary to Palantir's software" },
-      { "name": "Snowflake / Databricks", "detail": "Enterprise data platforms but far behind in government/defense access" },
-      { "name": "Microsoft / AWS", "detail": "Cloud giants entering gov AI but lack Palantir's specialized Ontology integration depth" },
-      { "name": "C3.ai", "detail": "Enterprise AI platform significantly behind in revenue and growth" }
+      {
+        "name": "Anduril Industries",
+        "detail": "Defense AI/drone startup. Pursuing $60B valuation funding round. Hardware-focused, complementary to Palantir"
+      },
+      {
+        "name": "Snowflake / Databricks",
+        "detail": "Enterprise data platform competition. Significantly behind in government/defense accessibility"
+      },
+      {
+        "name": "Microsoft / AWS",
+        "detail": "Cloud giants entering government AI. Scale advantage but cannot match Palantir's specialized Ontology integration"
+      },
+      {
+        "name": "C3.ai",
+        "detail": "Enterprise AI platform. Significantly behind in both revenue scale and growth rate"
+      }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-24", "headline": "PLTR -3.77% amid broad tech weakness", "significance": "Despite Maven news, macro weakness and valuation concerns drove decline. Anthropic agent announcement pressured SaaS sector", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/" },
-    { "date": "2026-03-23", "headline": "PLTR surges +6.78% on Maven designation", "significance": "Pentagon's official program of record designation triggered sharp rally", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/" },
-    { "date": "2026-03-20", "headline": "Pentagon designates Maven AI as official program of record", "significance": "Upgraded from pilot to permanent program. Stable long-term budget allocation confirmed", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/" },
-    { "date": "2026-03-23", "headline": "UK FCA begins Foundry trial", "significance": "Financial regulation expansion signals customer diversification beyond defense", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-3-23-palantir-technologies-pltr-stock-trades-up-here-is-why" },
-    { "date": "2026-03-22", "headline": "Palantir + Anthropic AI used for Iran strike targeting", "significance": "Maven system with Anthropic Claude supporting thousands of strikes. Combat validation strengthens future contract bids", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/" }
+    { "date": "2026-03-24", "headline": "PLTR -3.77% on broad tech weakness", "significance": "Despite Maven news, macro weakness and Forward P/E 114x valuation burden drove decline. Insider selling pressure noted", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/" },
+    { "date": "2026-03-23", "headline": "Maven designation drives +6.78% surge", "significance": "Pentagon's official program of record designation triggered single-day 6.78% rally. Long-term defense revenue base secured", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/" },
+    { "date": "2026-03-20", "headline": "Pentagon designates Maven AI as core military system", "significance": "Upgraded from pilot to official program. Stable long-term budget allocation and military-wide deployment confirmed", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/" },
+    { "date": "2026-03-23", "headline": "UK FCA begins Foundry platform 3-month trial", "significance": "Expansion into financial regulatory sector. Signal of government client diversification beyond defense", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-3-23-palantir-technologies-pltr-stock-trades-up-here-is-why" },
+    { "date": "2026-03-22", "headline": "Palantir + Anthropic AI used in Iran strike targeting", "significance": "Maven system integrated with Anthropic Claude for thousands of Iran strikes. Combat validation strengthens case for additional contracts", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/" }
   ],
 
   "analystOpinions": {
@@ -67,22 +117,22 @@
     "buyCount": 14,
     "holdCount": 5,
     "sellCount": 2,
-    "notableComment": "Wedbush Dan Ives maintains $230 target, 'backbone of US military AI.' Maven designation strengthens thesis. Multiple analysts flag P/E 100x as key risk"
+    "notableComment": "Wedbush Dan Ives maintains $230 target, calls Palantir 'backbone of US military AI.' Forward P/E 114x and P/S 50x valuation concerns from multiple analysts"
   },
 
   "risks": [
-    { "severity": "high", "title": "Extreme valuation (Forward P/E ~100x)", "description": "P/E 100x, P/S 44x are extreme. Any growth deceleration could trigger sharp correction" },
-    { "severity": "high", "title": "Ethical controversy (Iran war AI use)", "description": "Reports of Palantir + Anthropic AI used in Iran strikes. ESG investor departure and regulatory risk" },
-    { "severity": "medium", "title": "Anthropic 'adversary designation' controversy", "description": "Palantir's AI partner Anthropic facing controversy, creating partner risk" },
-    { "severity": "medium", "title": "Broad tech weakness (macro)", "description": "Oil above $100, Middle East tensions, Nasdaq near correction (-10% from highs). High-valuation stocks hit hardest" },
-    { "severity": "low", "title": "Competition intensifying (Anduril $60B raise)", "description": "Anduril pursuing $60B valuation funding round. Defense AI market competition accelerating" }
+    { "severity": "high", "title": "Extreme valuation (Forward P/E ~114x)", "description": "Even at +60% growth, P/E 114x and P/S 50x are extreme. Severe downside risk if growth decelerates" },
+    { "severity": "high", "title": "Ethical concerns (Iran war AI deployment)", "description": "Reports of Palantir + Anthropic AI used in Iran strikes. ESG investor exodus and regulatory risk" },
+    { "severity": "medium", "title": "Broad tech weakness (macro)", "description": "Rising oil prices, Middle East tensions, Nasdaq correction. High-valuation names most vulnerable" },
+    { "severity": "medium", "title": "Insider selling pressure", "description": "Insider selling amid tech weakness adds pressure. Amplified at P/E 114x" },
+    { "severity": "low", "title": "Competition intensifying (Anduril $60B)", "description": "Anduril pursuing $60B valuation funding round. Defense AI market competition accelerating" }
   ],
 
   "buyReasons": [
-    { "title": "Maven program of record secures defense revenue base", "rationale": "Upgraded to permanent program. Long-term budget allocation and military-wide deployment confirmed" },
-    { "title": "US commercial revenue +137% explosive growth", "rationale": "Q4 US commercial $650M. Diversifying beyond government while accelerating growth" },
-    { "title": "Rule of 40 score 127%", "rationale": "Revenue growth + margin = 127%. Among the top SaaS companies globally" },
-    { "title": "Combat-validated AI platform", "rationale": "Thousands of strikes supported in real combat. Data and trust that competitors can't replicate" }
+    { "title": "Maven designation secures defense revenue stability", "rationale": "Upgraded from pilot to official program. Long-term budget allocation and military-wide deployment confirmed" },
+    { "title": "US commercial revenue +137% explosive growth", "rationale": "Q4 US commercial $650M (+137% YoY). Ideal structure of accelerating growth while reducing government dependency" },
+    { "title": "Rule of 40 score 127%", "rationale": "Revenue growth + profit margin at 127%. Achieved by very few SaaS companies globally" },
+    { "title": "Combat-validated AI platform", "rationale": "Real-time use in thousands of Iran strikes. Combat data and trust that competitors cannot replicate" }
   ],
 
   "technicalPosition": {
@@ -98,90 +148,90 @@
   },
 
   "overallOpinion": [
-    "Maven's program of record designation elevated Palantir's defense moat to a new level. Combat use in thousands of Iran strikes is an asset no competitor can buy. UK FCA trial shows expansion potential beyond defense.",
-    "However, March 24's -3.77% drop reminds us of the Forward P/E 100x burden and broad tech weakness. Anthropic's agent capability announcement pressured the entire SaaS sector.",
-    "Trading above both 50-day ($148) and 200-day ($120) SMAs maintains bullish structure. Consensus $196 (+27%). Sufficient rebound potential when macro stabilizes, but new entry at P/E 100x carries significant risk."
+    "Maven's military-wide adoption and Iran combat validation elevated Palantir's defense moat. The UK FCA trial signals expansion beyond defense into regulatory sectors. These are assets money cannot buy.",
+    "However, the 3/24 decline of -3.77% shows how heavy Forward P/E 114x really is. Good news (Maven) drove a one-day rally that was immediately reversed by macro weakness. This pattern may repeat.",
+    "Technically healthy above 50-day ($148) and 200-day ($120) averages. Consensus $196 (+27%). Plenty of rebound potential when macro stabilizes, but new entries at P/E 114x carry significant risk."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Maven designation and 60% growth are impressive but Forward P/E 100x makes fresh entry risky. Existing holders should maintain positions; consider adding on dips like 3/24. Monitor Iran-related ethical controversies.",
-    "horizon": "3-6 months (reassess after FY2026 Q1 results)"
+    "summary": "Maven designation and +60% growth are impressive, but Forward P/E 114x makes new entries risky. Existing holders should maintain positions and consider adding on macro-driven dips. Monitor Iran war ethical concerns.",
+    "horizon": "3-6 months (reassess after FY2026 Q1 earnings)"
   },
 
   "sources": [
-    { "name": "Reuters", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Maven program of record designation" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/", "description": "Maven designation + Iran combat use analysis" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/23/palantir-surges-5-monday-what-the-pentagons-maven-ai-decision-means-for-pltr/", "description": "Post-Maven stock surge analysis" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/24/why-palantir-technologies-stock-tumbled-on-wednesd/", "description": "3/24 tech weakness selloff analysis" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/", "description": "3/24 market analysis, PLTR -3.77%" },
-    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714783-market-movers-pltr-20260324", "description": "Analyst targets: avg $189.88" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21 analysts consensus $196.43, Buy" },
-    { "name": "TheStreet Pro", "url": "https://pro.thestreet.com/portfolio/back-to-back-wins-reaffirm-our-bullish-palantir-stance", "description": "Maven + FCA consecutive win analysis" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/palantir-drops-5-as-tech-sells-off-is-pltr-being-punished-unfairly/", "description": "Is PLTR being unfairly punished?" },
-    { "name": "Intellectia AI", "url": "https://intellectia.ai/blog/palantir-stock-price-forecast-2026", "description": "2026 forecast and valuation analysis" }
+    { "name": "Reuters", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Maven military-wide adoption exclusive report" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/", "description": "Maven designation + Iran combat deployment analysis" },
+    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/palantir-drops-5-as-tech-sells-off-is-pltr-being-punished-unfairly/", "description": "Tech selloff impact on PLTR analysis" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/24/stock-market-today-march-24-palantir-falls-on-tech-weakness-despite-new-government-contract-wins/", "description": "March 24 market analysis and PLTR -3.77%" },
+    { "name": "Barchart", "url": "https://www.barchart.com/story/news/922353/palantir-just-scored-a-major-department-of-defense-win-should-you-buy-pltr-stock-now", "description": "Forward P/E 113.97x, P/S 49.60x valuation analysis" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/news/Market-Movers/261714783-market-movers-pltr-20260324", "description": "March 24 -3.75% decline analysis" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "21 analyst consensus $196.43" },
+    { "name": "TheStreet Pro", "url": "https://pro.thestreet.com/portfolio/back-to-back-wins-reaffirm-our-bullish-palantir-stance", "description": "Maven + FCA back-to-back wins analysis" },
+    { "name": "Intellectia AI", "url": "https://intellectia.ai/blog/palantir-stock-price-forecast-2026", "description": "2026 price forecast and valuation deep dive" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/", "description": "Maven day +6.78% rally analysis" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Maven becomes official US military program, yet PLTR drops -3.77%",
-      "text": "$PLTR (3/25) Pentagon made Maven AI an official program of record. Deployed in thousands of Iran strikes. Yet -3.77% on 3/24. $154.78.\n\n1/4",
+      "hook": "Palantir rallied on Maven, then gave it all back",
+      "text": "$PLTR (Mar 25) Maven military adoption drove +6.78%. Next day: -3.77% on tech weakness. P/E 114x giveth and taketh. $154.78.\n\n1/4",
       "thread": [
-        "3/23: +6.78% on Maven news. 3/24: -3.77% on tech weakness. P/E 100x giveth and taketh away.\n\n2/4",
-        "UK FCA trial, US commercial +137%, revenue guidance $7.2B (+61%). Growth is undeniable at any price.\n\n3/4",
-        "Target $196 (+27%). Above both SMAs — bullish structure intact. If you can handle P/E 100x, it's a great company.\n\n4/4"
+        "Combat-tested in Iran with thousands of strikes. UK FCA trial started. The company is executing flawlessly.\n\n2/4",
+        "US commercial +137%, revenue guide $7.2B (+61%). Rule of 40 at 127%. Growth metrics are elite.\n\n3/4",
+        "Above 50 and 200-day averages. Target $196 (+27%). Great company if you can stomach P/E 114x.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Maven becomes US military standard, stock surges then drops",
-      "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nPentagon designated Maven AI as an official program of record. Used in thousands of Iran strikes. Stock surged +6.78% on 3/23 then fell -3.77% on 3/24 amid tech weakness.\n\nUK FCA started a Foundry trial. US commercial revenue +137% in Q4. Revenue guidance: $7.2B (+61%). Growth metrics are elite.\n\nThe issue is P/E 100x. Good news gets priced in, then macro pulls it back. Target $196 (+27%). Both SMAs still supportive. Structure is healthy — it's the price that's demanding."
+      "hook": "Maven adoption surge reversed by macro weakness",
+      "text": "$PLTR (Mar 25) $154.78 (-3.77%)\n\nMaven military-wide adoption drove +6.78%, then tech weakness erased it all. Good news rallies instantly reversed by macro, the pattern of a P/E 114x stock.\n\nBut the business is perfect. Combat-tested in Iran, UK FCA trial, US commercial +137%, revenue guide $7.2B (+61%). Rule of 40 at 127%.\n\nAbove 50-day ($148) and 200-day ($120). Target $196 (+27%). The best AI defense play if macro cooperates."
     },
     "telegram": {
-      "hook": "Maven program of record, surge then pullback",
-      "text": "Palantir Daily Analysis (3/25)\n\nPrice: $154.78 (-3.77%)\n\nKey Issues\n- Maven AI: official US military program of record (3/20)\n- Iran combat use: thousands of AI-assisted strikes\n- 3/23: +6.78% rally → 3/24: -3.77% (tech weakness)\n- UK FCA Foundry 3-month trial\n- US commercial revenue Q4 +137% YoY\n- FY26 guidance: $7.2B (+61%)\n\nTechnicals\n- Above 50-day ($148) and 200-day ($120): bullish\n- RSI 48, neutral\n- Forward P/E ~100x\n\nTarget: $196 (+27%)\nVerdict: Hold (P/E 100x risk, add on dips)"
+      "hook": "Maven rally reversed by tech weakness",
+      "text": "Palantir Daily Analysis (Mar 25)\n\nPrice: $154.78 (-3.77%)\n\nKey Issues\n- Maven AI military-wide adoption (3/20)\n- 3/23 +6.78% rally reversed 3/24 -3.77%\n- Iran combat deployment: thousands of strikes\n- UK FCA Foundry trial started\n- US commercial Q4 +137%\n- Revenue guide $7.2B (+61%)\n\nTechnicals\n- Above 50-day ($148), 200-day ($120): bullish\n- RSI 48, neutral\n- Forward P/E ~114x\n\nTarget: $196 (+27%)\nVerdict: Hold (P/E 114x, add on dips)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Maven official, PLTR surges then falls",
-          "text": "$PLTR (3/25) Maven designated program of record. Iran combat: thousands of strikes. $154.78 (-3.77%).\n\n1/4",
+          "hook": "Maven adopted, Iran combat-tested, P/E 114x",
+          "text": "$PLTR (Mar 25) Maven military adoption confirmed. Iran combat: thousands of strikes. Forward P/E 114x. $154.78 (-3.77%).\n\n1/4",
           "thread": [
-            "3/23: +6.78% rally. 3/24: -3.77% decline. P/E 100x in a volatile market.\n\n2/4",
-            "FCA trial, commercial +137%, guidance $7.2B (+61%). Growth fundamentals are best-in-class.\n\n3/4",
-            "Target $196 (+27%). Above both SMAs. Structurally bullish despite daily volatility.\n\n4/4"
+            "3/23 +6.78% rally reversed 3/24 -3.77%. Macro weakness overwhelms company fundamentals.\n\n2/4",
+            "FCA trial, US commercial +137%, guide $7.2B. Growth elite. Rule of 40 at 127%.\n\n3/4",
+            "Above 50 and 200-day. Target $196 (+27%). Macro stabilization = rebound.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Palantir wins the real war but loses the stock market battle",
-          "text": "$PLTR (3/25) Supporting thousands of strikes in Iran, Pentagon makes it official. Stock? Down 3.77%. P/E 100x problems.\n\n1/4",
+          "hook": "Palantir wins wars but loses to the Nasdaq",
+          "text": "$PLTR (Mar 25) Thousands of Iran strikes supported. Military adopts it officially. Next day: -3.77%. At P/E 114x, you need to win every day.\n\n1/4",
           "thread": [
-            "Winning the war, losing the Nasdaq. When tech sells off, P/E 100x stocks take the first hit.\n\n2/4",
-            "Even the UK's financial regulator is a customer now. Commercial +137%. This growth rate at P/E 100x is... still expensive.\n\n3/4",
-            "Target $196 (+27%). Wedbush says $230. The company's doing everything right — the price just already reflects 'very right.'\n\n4/4"
+            "Winning the real war, losing the stock market war. Nasdaq weakness hits P/E 114x stocks first.\n\n2/4",
+            "UK FCA is now a customer. Commercial +137%. At P/E 30x this would be up 20%. But it's 114x.\n\n3/4",
+            "Target $196 (+27%). Wedbush says $230. Execution is there. Price already knows it.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Surging one day, dropping the next — PLTR holders know the feeling",
-          "text": "$PLTR (3/25) Up 6.78% on Maven news, down 3.77% the next day. The rollercoaster never stops. $154.78.\n\n1/4",
+          "hook": "PLTR up one day, down the next. Exhausting pattern",
+          "text": "$PLTR (Mar 25) +6.78% on Maven, -3.77% the next day. If you hold PLTR, this pattern is exhausting. $154.78.\n\n1/4",
           "thread": [
-            "The company is doing everything right: Maven, FCA trial, +137% commercial growth. It's the valuation that makes every day stressful.\n\n2/4",
-            "Both SMAs still supportive. Structure is healthy. Macro headwinds, not company problems.\n\n3/4",
-            "Target $196 (+27%). If you're holding, you're holding a great company. Patience is part of the process.\n\n4/4"
+            "Company is doing everything right. Maven, Iran combat, FCA. The only problem is the price already reflects it.\n\n2/4",
+            "Above both moving averages. Structure is healthy. Macro settles, this rebounds.\n\n3/4",
+            "Target $196 (+27%). You're holding a great company. Patience is part of the game.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Maven program of record, surge then pullback",
-          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nMaven designated program of record. Iran combat-tested. 3/23: +6.78%, 3/24: -3.77%. FCA trial, commercial +137%, guidance $7.2B (+61%). Above both SMAs. Target $196 (+27%)."
+          "hook": "Maven adopted, rally reversed, P/E 114x burden",
+          "text": "$PLTR (Mar 25) $154.78 (-3.77%)\n\nMaven adopted. Iran combat-tested. +6.78% → -3.77%. FCA trial, commercial +137%, guide $7.2B. P/E 114x burden. Above 50 and 200-day. Target $196 (+27%)."
         },
         "witty": {
-          "hook": "Winning real wars, losing the stock market war",
-          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nPalantir supported thousands of Iran strikes and got the Pentagon's official seal of approval. The stock's response? Up 6.78%, then down 3.77%. Net gain: some whiplash.\n\nUK's financial regulator is a customer. Commercial revenue +137%. But P/E 100x means every good news day gets followed by a 'wait, is it still too expensive?' day.\n\nTarget $196 (+27%). Great company at an ambitious price. The question isn't whether Palantir delivers — it's whether it delivers enough to justify 100x."
+          "hook": "Winning wars, losing to Nasdaq",
+          "text": "$PLTR (Mar 25) $154.78 (-3.77%)\n\nPalantir helped the US military execute thousands of strikes in Iran, got officially adopted, and the stock fell. At P/E 114x, you need world peace AND strong earnings.\n\nUK FCA is a customer now, commercial +137%. At a normal P/E this stock would be flying. But 114x means every good headline is already priced in.\n\nTarget $196 (+27%). Great execution eventually wins, but at 114x, patience is the entry fee."
         },
         "empathy": {
-          "hook": "The PLTR rollercoaster — up big, down fast, repeat",
-          "text": "$PLTR (3/25) $154.78 (-3.77%)\n\nMaven gets official designation, stock jumps 6.78%. Next day, tech sells off, stock drops 3.77%. If you're a PLTR holder, you know this dance well.\n\nThe company is executing brilliantly: combat-validated AI, FCA trial, commercial +137%, $7.2B guidance. The frustration isn't about the company — it's about the P/E 100x amplifying every market mood swing.\n\nAbove both SMAs. Target $196 (+27%). You're holding a great business. These dips test conviction, and so far, Palantir keeps giving reasons to stay."
+          "hook": "The rally-then-reversal pattern is exhausting",
+          "text": "$PLTR (Mar 25) $154.78 (-3.77%)\n\nMaven adoption, +6.78% rally, then -3.77% reversal. This pattern is tiring. If you're holding Palantir, every headline feels like a rollercoaster.\n\nThe company itself is doing everything right. Military adoption, combat validation, FCA contract, +137% commercial. P/E 114x just means all this good news needs to keep coming.\n\nAbove both averages, healthy structure. Target $196 (+27%). Patience will pay. Eventually."
         }
       }
     }
