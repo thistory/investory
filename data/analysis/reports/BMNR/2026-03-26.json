@@ -3,75 +3,75 @@
   "companyName": "Bitmine Immersion Technologies",
   "analysisDate": "2026-03-26",
   "currentPrice": 21.45,
-  "marketCap": "$9.75B",
+  "marketCap": "$9.52B",
 
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/23 기준 4,661,000 ETH(총 공급량의 약 3.87%) 보유, 총 크립토+현금 $11.0B. 3/25에 자체 스테이킹 플랫폼 MAVAN(Made In America Validator Network)을 공식 론칭했으며, 3,142,643 ETH($6.8B)를 스테이킹해 연간 ~$300M 수익을 목표로 한다.",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/23 기준 4,661,000 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 $11.0B. MAVAN(Made in America Validator Network) 자체 스테이킹 플랫폼을 3/25에 공식 론칭하며 연 $300M 스테이킹 수익 전망. ETH $2,170 수준에서 거래 중이나, 주가는 52주 고점 $161 대비 87% 하락한 $21.45.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,661,000 ETH 보유 (~$10B at ~$2,173/ETH)",
-      "MAVAN 스테이킹: 3,142,643 ETH 스테이킹, 연간 ~$300M 수익 (2.83% 수익률)",
+      "ETH 트레저리: 4,661,000 ETH 보유 (~$10.1B at ~$2,170/ETH)",
+      "ETH 스테이킹 수익: ~3.14M ETH 스테이킹, 연간 ~$300M 수익 전망",
       "배당: 4.7% 배당수익률, 크립토 트레저리 기업 중 유일",
       "비트코인 보유: 196 BTC 보유 (부수적)"
     ],
     "keyProducts": [
       "Ethereum Treasury",
-      "MAVAN (Made In America Validator Network)",
       "ETH Staking",
+      "MAVAN Validator Network",
       "Crypto Holdings"
     ]
   },
 
   "keyMetrics": [
-    { "name": "P/B (주가순자산비율)", "value": "0.89x", "interpretation": "시총 $9.75B 대비 보유 자산 $11.0B+. 자산 가치보다 낮게 거래. MSTR(P/B 2~3x) 대비 큰 할인" },
-    { "name": "NAV 할인율", "value": "-11%", "interpretation": "ETH가 $2,173으로 회복하면서 NAV 할인이 14%에서 11%로 축소. ETH 상승 시 프리미엄 전환 기대" },
-    { "name": "ETH 보유량", "value": "4,661,000 ETH (공급의 3.87%)", "interpretation": "전체 ETH 공급량의 약 3.87%. 상장 기업 중 압도적 1위. '5% Alchemy' 전략으로 600만 ETH 목표" },
-    { "name": "MAVAN 스테이킹 수익", "value": "연간 ~$300M (2.83% 7일 수익률)", "interpretation": "3,142,643 ETH($6.8B)를 자체 MAVAN 플랫폼에서 스테이킹. 제3자 수수료 절감으로 기존 대비 수익률 개선" },
-    { "name": "배당수익률", "value": "4.7%", "interpretation": "크립토 관련 상장 기업 중 유일하게 배당 제공. 하락장에서 홀딩 근거 제공" },
-    { "name": "주간 ETH 매수량", "value": "65,341 ETH ($138M)", "interpretation": "직전 주 매수량이 기존 평균(45K~50K)보다 30% 이상 증가. Tom Lee: '크립토 슬럼프 끝에 베팅'" }
+    { "name": "ETH 보유량", "value": "4,661,000 ETH", "interpretation": "전체 ETH 공급량의 3.86%. 매주 45,000~65,000 ETH 추가 매수 지속. 5% 목표를 향해 전진 중" },
+    { "name": "총 자산 (크립토+현금)", "value": "$11.0B", "interpretation": "시총 $9.52B 대비 총 자산이 더 크다. NAV 대비 할인 거래 중" },
+    { "name": "P/B (추정)", "value": "~0.60x", "interpretation": "NAV 대비 약 40% 할인. MSTR의 P/B 2-3x와 극단적 괴리" },
+    { "name": "배당수익률", "value": "4.7%", "interpretation": "크립토 트레저리 주식 중 유일한 배당 지급. 하락장 방어 수단" },
+    { "name": "스테이킹 수익 (연간)", "value": "~$300M", "interpretation": "MAVAN 플랫폼을 통해 3.14M ETH 스테이킹. 2.83% yield 기준 연 $300M" },
+    { "name": "시가총액", "value": "$9.52B", "interpretation": "보유 ETH 가치($10.1B)보다 낮다. 순수 자산 가치만으로도 주가가 정당화됨" }
   ],
 
   "growthDrivers": [
     {
-      "title": "MAVAN 자체 스테이킹 플랫폼 공식 론칭 (3/25)",
-      "description": "Made In America Validator Network를 3/25 공식 출시. Galaxy Digital과 Tom Lee가 지원. 3,142,643 ETH($6.8B)를 스테이킹하며 세계 최대 스테이킹 엔터티가 됐다. 연간 ~$300M 수익 목표"
+      "title": "MAVAN 스테이킹 플랫폼 공식 론칭 (3/25)",
+      "description": "Made in America Validator Network를 3/25에 공식 론칭. 3,142,643 ETH($6.8B)가 스테이킹 중. '세계 최대 이더리움 스테이킹 플랫폼'이 된다고 발표. 연 $300M 스테이킹 수익 전망"
     },
     {
-      "title": "Bankless Times, $50 목표가 제시 (3/25)",
-      "description": "MAVAN 론칭을 계기로 Bankless Times가 BMNR에 $50 목표가를 제시. 자체 스테이킹으로 수수료 절감 + 수익률 개선이 핵심 근거"
+      "title": "4,661,000 ETH 보유, 5% 목표 향해 전진",
+      "description": "3/23 기준 4,661,000 ETH 보유(공급량 3.86%). 이번 주에만 65,341 ETH(~$138M)을 추가 매수. 기존 주당 45~50k에서 매수 페이스 가속"
     },
     {
-      "title": "ETH 보유 4,661,000개 + 주간 매수 속도 30% 증가",
-      "description": "3/23 기준 보유량이 4,661,000 ETH로 증가. 직전 주에만 65,341 ETH($138M)를 매수해 기존 평균 대비 속도를 높였다"
-    },
-    {
-      "title": "'5% Alchemy' 전략: 600만 ETH 목표",
-      "description": "ETH 총 공급량의 5%(약 600만 개)를 보유해 연간 $374M+ 스테이킹 수수료를 목표로 한다. 현재 3.87%에서 5%까지 약 134만 ETH 추가 매수 필요"
-    },
-    {
-      "title": "ETH $2,173으로 회복, $2,025 저점에서 반등",
-      "description": "ETH가 $2,025~$2,040 저점에서 $2,173으로 반등. 주간 -6.6%지만 14일, 30일 기준 회복 추세. NAV 할인 축소에 기여"
+      "title": "P/B 0.60x, NAV 대비 40% 할인 확대",
+      "description": "시총($9.52B)이 보유 크립토+현금($11.0B)보다 낮다. MSTR의 P/B 2-3x와 비교하면 극단적 갭"
     },
     {
       "title": "배당수익률 4.7%: 하락장 방어 수단",
       "description": "시장 전체가 하락하는 환경에서 배당은 홀딩의 근거. 크립토 주식 중 유일"
+    },
+    {
+      "title": "ETH 가격 반등 조짐 ($2,170)",
+      "description": "ETH가 $2,025~$2,040 지지선에서 반등하여 $2,170으로 회복. 이란 갈등 데탈 에스컬레이션으로 리스크 자산 반등"
+    },
+    {
+      "title": "Falling Wedge 패턴: 기술적 반등 신호",
+      "description": "Invezz 분석에 따르면 BMNR 차트에 falling wedge + Wyckoff 축적 패턴이 형성. 상방 브레이크아웃 시 큰 폭 반등 가능"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "상장 기업 중 최대 ETH 보유량(3.87% of supply). MAVAN으로 세계 최대 스테이킹 엔터티. Tom Lee + Galaxy Digital 지원. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
+    "summary": "상장 기업 중 최대 ETH 보유량(3.86% of supply). Tom Lee 합류로 제도권 신뢰도 확보. MicroStrategy의 BTC 전략을 ETH에 적용한 유일한 대규모 플레이어.",
     "moats": [
       {
         "type": "ETH 공급량 집중",
-        "description": "전체 ETH 공급의 3.87% 보유. 시장에서 대체 불가능한 포지션"
-      },
-      {
-        "type": "MAVAN 자체 스테이킹",
-        "description": "3,142,643 ETH를 자체 플랫폼에서 스테이킹. 제3자 수수료 절감으로 수익률 우위"
+        "description": "전체 ETH 공급의 3.86% 보유. 시장에서 대체 불가능한 포지션."
       },
       {
         "type": "제도권 접근성",
-        "description": "상장 주식으로 ETH 노출 제공. ETF 없이도 기관 투자자 접근 가능"
+        "description": "상장 주식으로 ETH 노출 제공. ETF 없이도 기관 투자자 접근 가능."
+      },
+      {
+        "type": "스테이킹 수익 + MAVAN",
+        "description": "~3.14M ETH 스테이킹 + MAVAN 자체 플랫폼으로 수수료 절감. 단순 보유 대비 수익률 우위."
       }
     ],
     "competitors": [
@@ -91,136 +91,135 @@
   },
 
   "recentNews": [
-    { "date": "2026-03-25", "headline": "MAVAN(Made In America Validator Network) 공식 론칭, 3.14M ETH 스테이킹", "significance": "자체 스테이킹 플랫폼 론칭으로 연간 ~$300M 수익 목표. Galaxy Digital 지원. 세계 최대 스테이킹 엔터티 등극", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html" },
-    { "date": "2026-03-25", "headline": "Bankless Times, MAVAN 론칭에 $50 목표가 제시", "significance": "자체 스테이킹 수수료 절감 + 수익률 개선을 근거로 $50(현재 대비 +133%) 목표가. 상승 전망 강화", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/" },
-    { "date": "2026-03-25", "headline": "BMNR 3% 상승, MAVAN + ETH 반등 동시 효과", "significance": "MAVAN 론칭 + ETH $2,173 반등에 주가 $21.45. 다만 주간 -10.5%로 아직 완전 회복 전", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4" },
-    { "date": "2026-03-24", "headline": "24/7 Wall St: BMNR, 5% ETH 목표에 근접, 달성하면 무슨 일이?", "significance": "5% Alchemy 전략의 완성이 가시권에 들어오면서 시장이 목표 달성 이후 시나리오에 주목하기 시작", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
-    { "date": "2026-03-23", "headline": "ETH 보유 4,661,000개 돌파, 총 자산 $11.0B 발표", "significance": "주간 65,341 ETH 매수로 보유량 사상 최대 경신. 총 크립토+현금 자산 $11.0B", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" }
+    { "date": "2026-03-25", "headline": "MAVAN 스테이킹 플랫폼 공식 론칭, 3.14M ETH 스테이킹", "significance": "세계 최대 이더리움 스테이킹 플랫폼 탄생. 연 $300M 스테이킹 수익 전망. 제3자 수수료 절감", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html" },
+    { "date": "2026-03-25", "headline": "Bankless Times: BMNR 주가 $50까지 반등 가능", "significance": "MAVAN 론칭으로 스테이킹 수수료 절감, NAV 할인 해소 기대. Falling wedge 패턴 형성", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/" },
+    { "date": "2026-03-23", "headline": "ETH 보유량 4,661,000 토큰 돌파, 총 자산 $11.0B", "significance": "이번 주 65,341 ETH 추가 매수($138M). 매수 페이스 가속. ETH 공급량 3.86% 보유", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" },
+    { "date": "2026-03-24", "headline": "24/7 Wall St: Bitmine 5% ETH 목표 달성 시 무슨 일이 일어나나", "significance": "5% 목표에 근접하면서 ETH 시장 유동성에 미치는 영향 분석. 주가 77,055 ETH 추가 매수 발표", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
+    { "date": "2026-03-19", "headline": "Invezz: Bitmine 주가 폭발적 반등 가능, falling wedge 패턴", "significance": "기술적 분석에서 falling wedge + Wyckoff 축적 패턴 형성. 상방 브레이크아웃 시 대폭 반등 가능성", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 32.0,
+    "consensusTarget": 50.0,
     "highTarget": 50.0,
-    "lowTarget": 15.0,
-    "upsidePercent": 49.2,
-    "buyCount": 5,
-    "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "Bankless Times가 MAVAN 론칭을 근거로 $50 목표가를 제시. 자체 스테이킹으로 연간 $300M 수익 확보가 핵심. P/B 0.89x는 MSTR 대비 큰 할인"
+    "lowTarget": 20.0,
+    "upsidePercent": 133.1,
+    "buyCount": 2,
+    "holdCount": 1,
+    "sellCount": 0,
+    "notableComment": "Bankless Times가 MAVAN 론칭과 NAV 할인을 근거로 $50 목표가 제시. 커버하는 애널리스트가 아직 적어 데이터 제한적"
   },
 
   "risks": [
-    { "severity": "high", "title": "ETH 가격 의존도 극대", "description": "보유 자산의 대부분이 ETH. ETH가 추가 하락하면 NAV가 급감하고, P/B 할인이 더 확대될 수 있다" },
-    { "severity": "high", "title": "주간 -10.5% 하락 + 크립토 규제 불확실성", "description": "주간 기준 10.5% 하락. Clarity Act가 부결되거나 지연되면 기관 투자 확대 기대가 무산될 수 있다" },
-    { "severity": "medium", "title": "MAVAN 운영 리스크 (슬래싱)", "description": "3.14M ETH 스테이킹 중. 자체 플랫폼 운영 초기 단계라 기술적 리스크가 존재. 슬래싱 발생 시 상당한 손실" },
-    { "severity": "medium", "title": "ETH 매수 자금 조달 리스크", "description": "5% 목표를 위해 134만 ETH 추가 매수 필요. 유상증자나 전환사채 발행으로 희석 리스크" },
-    { "severity": "low", "title": "경쟁 ETH 트레저리 기업 등장 가능", "description": "BMNR의 성공을 보고 유사한 ETH 트레저리 전략을 채택하는 기업이 등장할 수 있다" }
+    { "severity": "critical", "title": "ETH 가격 의존도 100%", "description": "주가가 ETH 가격에 완전히 연동된다. ETH가 추가 하락하면 NAV와 시총 모두 급감. 레버리지 ETH 베팅과 동일" },
+    { "severity": "high", "title": "52주 고점 대비 87% 하락", "description": "$161에서 $21.45로 추락. 기술적으로 극단적 하락세. 반등하더라도 원금 회복까지 갈 길이 멀다" },
+    { "severity": "high", "title": "집중 리스크", "description": "단일 자산(ETH)에 전체 트레저리가 집중. 분산 없는 올인 전략의 위험" },
+    { "severity": "medium", "title": "200일 이평선 아래 거래", "description": "200일 MA($36.45)보다 크게 아래에서 거래. 장기 추세 하락 확인" },
+    { "severity": "medium", "title": "규제 리스크", "description": "크립토 트레저리 전략에 대한 규제 변화 가능성. SEC 등 규제 당국 움직임에 민감" }
   ],
 
   "buyReasons": [
-    { "title": "MAVAN 론칭으로 연간 $300M 수익 확보", "rationale": "자체 스테이킹 플랫폼으로 제3자 수수료 절감. 3.14M ETH($6.8B) 스테이킹으로 실질적 현금 흐름 창출 시작" },
-    { "title": "P/B 0.89x, NAV 대비 11% 할인", "rationale": "보유 자산 $11.0B+ 대비 시총 $9.75B. MSTR은 NAV 대비 2~3배 프리미엄. Bankless Times $50 목표가" },
-    { "title": "ETH $2,173 반등, NAV 할인 축소", "rationale": "ETH가 $2,025 저점에서 반등. NAV 할인이 14%에서 11%로 축소. 추가 상승 시 프리미엄 전환 가능" },
-    { "title": "배당수익률 4.7% + 매수 가속", "rationale": "배당으로 기다리면서 수익. Tom Lee가 매수 속도를 30% 높이며 확신에 찬 베팅 지속" }
+    { "title": "P/B 0.60x: NAV 대비 40% 할인", "rationale": "보유 크립토+현금 $11.0B vs 시총 $9.52B. 순수 자산 가치만으로도 주가가 정당화됨. MSTR P/B 2-3x와 극단적 괴리" },
+    { "title": "MAVAN 론칭: 연 $300M 스테이킹 수익", "rationale": "세계 최대 ETH 스테이킹 플랫폼으로 제3자 수수료 절감. 보유만 하는 것에서 수익을 창출하는 단계로 전환" },
+    { "title": "배당 4.7%: 하락장 방어", "rationale": "크립토 주식 중 유일한 배당. 하락장에서도 홀딩할 수 있는 근거" },
+    { "title": "Falling Wedge 패턴: 기술적 반등 신호", "rationale": "Invezz 분석의 falling wedge + Wyckoff 축적 패턴. 상방 브레이크아웃 시 대폭 반등 가능" }
   ],
 
   "technicalPosition": {
-    "week52High": 28.50,
-    "week52Low": 5.20,
-    "currentPositionPercent": 69.7,
-    "sma50": 21.0,
-    "sma50Signal": "above",
-    "sma200": 16.0,
-    "sma200Signal": "above",
-    "rsi": 48.0,
+    "week52High": 161.0,
+    "week52Low": 3.20,
+    "currentPositionPercent": 11.6,
+    "sma50": 22.0,
+    "sma50Signal": "below",
+    "sma200": 36.45,
+    "sma200Signal": "below",
+    "rsi": 42.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "MAVAN이 드디어 론칭했다. 3,142,643 ETH($6.8B)를 자체 플랫폼에서 스테이킹하며 연간 ~$300M 수익을 목표로 한다. Bankless Times는 이를 근거로 $50(+133%)을 제시했다. 약속이 실행으로 바뀌는 중요한 전환점이다.",
-    "ETH가 $2,025 저점에서 $2,173으로 반등하면서 NAV 할인이 14%에서 11%로 축소됐다. 주간 -10.5% 하락에도 $21.45로 3% 반등하며 MAVAN 론칭 효과가 바로 나타났다. 5% 목표까지 134만 ETH 남았고, 현재 속도면 6개월.",
-    "50일($21), 200일($16) 위에서 강세 유지. P/B 0.89x에 배당 4.7%, MAVAN 수익까지. 핵심은 여전히 ETH 가격이다. ETH $2,500이면 $30+, $1,500이면 NAV 급감. 목표가 $32(+49%)."
+    "MAVAN 스테이킹 플랫폼을 공식 론칭하며 '세계 최대 ETH 스테이킹 플랫폼'이라는 타이틀을 달았다. 연 $300M 스테이킹 수익이 보유에서 수익 창출로의 전환점이다.",
+    "P/B 0.60x로 NAV 대비 40% 할인에 거래 중이다. 보유 크립토+현금 $11.0B > 시총 $9.52B. MSTR의 P/B 2-3x와 비교하면 극단적 저평가다.",
+    "다만 52주 고점 대비 87% 하락, 200일 이평선($36.45) 크게 아래. ETH 가격이 회복되지 않으면 NAV 할인 해소도 의미가 없다. 고위험-고수익 포지션이다."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "MAVAN 론칭으로 '약속에서 실행'으로 전환됐다. 연간 $300M 스테이킹 수익이 확보되면서 단순 ETH 보유를 넘어 현금 흐름 기업으로 진화 중. P/B 0.89x에 배당 4.7%. ETH 회복을 베팅한다면 현재 가격은 매력적이다.",
-    "horizon": "3-6개월 (Clarity Act + ETH 시장 사이클 + 5% 목표 진행)"
+    "summary": "NAV 대비 40% 할인에 MAVAN 론칭까지 더해졌다. ETH 반등 시 레버리지 효과로 주가 상승폭이 클 수 있다. 다만 ETH 100% 의존이라 크립토 하락 리스크를 감수할 수 있는 투자자에게만 적합하다. 소규모 포지션으로 분할 매수 권장.",
+    "horizon": "3~6개월 (ETH 사이클 연동)"
   },
 
   "sources": [
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html", "description": "MAVAN 론칭 공식 발표, 3.14M ETH 스테이킹, $6.8B, 연간 $300M 수익" },
-    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/", "description": "MAVAN 론칭 분석, $50 목표가 제시" },
-    { "name": "Stock Titan", "url": "https://www.stocktitan.net/news/BMNR/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-f2jf4rl8rxac.html", "description": "MAVAN 론칭 상세 + Galaxy Digital 지원" },
-    { "name": "Panabee", "url": "https://www.panabee.com/news/bitmine-launches-mavan-staking-platform-with-6-8-billion-in-eth", "description": "$6.8B 스테이킹 + 연간 $300M 수익 분석" },
-    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4", "description": "주간 -10.5% 하락 + 밸류에이션 분석" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% Alchemy 목표 달성 시나리오 분석" },
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH 4,661,000개 보유 + 총 자산 $11.0B" },
-    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey", "description": "크립토 팩 대비 디커플링 분석" },
-    { "name": "Morningstar", "url": "https://www.morningstar.com/news/pr-newswire/20260325ny18856/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution", "description": "MAVAN 론칭 + Galaxy Digital 참여 확인" },
-    { "name": "TwelveData", "url": "https://twelvedata.com/markets/679245/crypto/binance/eth-usd/historical-data", "description": "ETH $2,173 시세 확인 (3/25)" }
+    { "name": "PR Newswire (MAVAN)", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html", "description": "MAVAN 스테이킹 플랫폼 론칭" },
+    { "name": "PR Newswire (ETH)", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH 보유량 4,661,000 토큰 발표" },
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/", "description": "BMNR $50 목표가 분석" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending", "description": "65,341 ETH 추가 매수 보도" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/", "description": "Falling wedge 기술적 분석" },
+    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% ETH 목표 달성 시 분석" },
+    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4", "description": "밸류에이션 분석" },
+    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "ETH 보유량 트래커" },
+    { "name": "Fortune", "url": "https://fortune.com/article/price-of-ethereum-03-25-2026/", "description": "ETH 가격 $2,170" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "MAVAN 론칭, 연간 $300M 스테이킹 수익 확보",
-      "text": "$BMNR (3/26) MAVAN 드디어 론칭. 3.14M ETH($6.8B)를 자체 스테이킹. 연간 $300M 수익. Bankless Times $50 목표가. $21.45.\n\n1/4",
+      "hook": "BMNR, 세계 최대 ETH 스테이킹 플랫폼 론칭",
+      "text": "$BMNR (3/26) $21.45(+3%). MAVAN 론칭: 3.14M ETH($6.8B) 스테이킹 시작. 연 $300M 수익 전망. 세계 최대 ETH 스테이킹 플랫폼.\n\n1/4",
       "thread": [
-        "약속이 실행으로 바뀌었다. Galaxy Digital 지원. 세계 최대 스테이킹 엔터티 등극. 수수료 절감으로 수익률 개선.\n\n2/4",
-        "ETH $2,173으로 반등. NAV 할인 14% → 11%. P/B 0.89x에 배당 4.7%. 기다리면서 돈 받는 구조.\n\n3/4",
-        "5% 목표까지 134만 ETH, 6개월. ETH만 살아나면 $30+ 가능. 목표가 $32(+49%).\n\n4/4"
+        "4,661,000 ETH(공급량 3.86%) 보유, 총 자산 $11.0B. 시총은 $9.52B. P/B 0.60x로 NAV 대비 40% 할인에 거래 중.\n\n2/4",
+        "52주 고점 $161에서 87% 하락. 200일 MA($36.45)도 크게 아래. 하지만 falling wedge 패턴으로 반등 신호.\n\n3/4",
+        "배당 4.7%. 크립토 주식 유일. ETH 반등 시 레버리지 효과로 폭발적 상승 가능. 고위험-고수익.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "MAVAN 론칭, 약속에서 실행으로 전환",
-      "text": "$BMNR (3/26) $21.45\n\nMAVAN이 드디어 론칭했다. 3,142,643 ETH($6.8B)를 자체 플랫폼에서 스테이킹하며 연간 ~$300M 수익을 만든다. Bankless Times는 $50(+133%)을 제시했다.\n\nETH가 $2,025에서 $2,173으로 반등하면서 NAV 할인도 축소됐다. P/B 0.89x에 배당 4.7%. MSTR은 같은 구조에 2~3배 프리미엄인데 BMNR은 아직 할인.\n\n5% 목표까지 134만 ETH. 현재 속도면 6개월. ETH 회복이 오면 가장 먼저 수혜. 목표가 $32(+49%)."
+      "hook": "BMNR, 세계 최대 ETH 스테이킹 플랫폼 론칭",
+      "text": "$BMNR (3/26) $21.45(+3%)\n\nMAVAN 론칭: 3.14M ETH($6.8B) 스테이킹으로 연 $300M 수익 전망. 세계 최대 ETH 스테이킹 플랫폼이 탄생했다.\n\n4,661,000 ETH(공급량 3.86%) 보유, 총 자산 $11.0B > 시총 $9.52B. P/B 0.60x로 NAV 대비 40% 할인. MSTR의 P/B 2-3x와 비교하면 극단적 저평가.\n\n다만 52주 고점 대비 87% 하락, 200일선 크게 아래. ETH 회복이 전제. 고위험-고수익 포지션이다."
     },
     "telegram": {
-      "hook": "MAVAN 론칭, 연간 $300M 수익 확보",
-      "text": "BMNR 일일 분석 (3/26)\n\n가격: $21.45 (+3%)\n\n핵심 이슈\n- MAVAN 자체 스테이킹 플랫폼 공식 론칭\n- 3,142,643 ETH($6.8B) 스테이킹, 연간 $300M 수익\n- Bankless Times $50 목표가 (+133%)\n- Galaxy Digital 지원\n- ETH $2,173 반등 ($2,025 저점 대비)\n- NAV 할인 14% → 11% 축소\n- 배당수익률 4.7%\n\n주가 위치\n- 50일($21), 200일($16) 위\n- RSI 48, 중립\n- P/B 0.89x (MSTR 대비 큰 할인)\n\n목표가: $32 (+49%)\n판단: Buy (MAVAN 론칭으로 실행 단계 진입)"
+      "hook": "BMNR, 세계 최대 ETH 스테이킹 플랫폼 론칭",
+      "text": "Bitmine 일일 분석 (3/26)\n\n가격: $21.45 (+3%)\n\n핵심 이슈\n- MAVAN 론칭: 3.14M ETH 스테이킹\n- 연 $300M 스테이킹 수익 전망\n- 4,661,000 ETH 보유 (공급량 3.86%)\n- 총 자산 $11.0B > 시총 $9.52B\n\n주가 위치\n- P/B 0.60x, NAV 대비 40% 할인\n- 52주 고점 $161 대비 87% 하락\n- 배당 4.7%\n\n목표가: $50 (+133%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "MAVAN 론칭, 연간 $300M 스테이킹 수익",
-          "text": "$BMNR (3/26) MAVAN 론칭. 3.14M ETH($6.8B) 자체 스테이킹. 연간 $300M. Bankless Times $50. $21.45.\n\n1/4",
+          "hook": "BMNR, 세계 최대 ETH 스테이킹 플랫폼 론칭",
+          "text": "$BMNR (3/26) $21.45(+3%). MAVAN 론칭: 3.14M ETH($6.8B) 스테이킹 시작. 연 $300M 수익 전망. 세계 최대 ETH 스테이킹 플랫폼.\n\n1/4",
           "thread": [
-            "Galaxy Digital 지원. 세계 최대 스테이킹 엔터티. 수수료 절감 + 수익률 개선.\n\n2/4",
-            "ETH $2,173 반등. NAV 할인 11%. P/B 0.89x. 배당 4.7%.\n\n3/4",
-            "5% 목표 134만 ETH, 6개월. 목표가 $32(+49%).\n\n4/4"
+            "4,661,000 ETH(공급량 3.86%) 보유, 총 자산 $11.0B. 시총은 $9.52B. P/B 0.60x로 NAV 대비 40% 할인에 거래 중.\n\n2/4",
+            "52주 고점 $161에서 87% 하락. 200일 MA($36.45)도 크게 아래. 하지만 falling wedge 패턴으로 반등 신호.\n\n3/4",
+            "배당 4.7%. 크립토 주식 유일. ETH 반등 시 레버리지 효과로 폭발적 상승 가능. 고위험-고수익.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "드디어 약속이 실행됐다, MAVAN 론칭",
-          "text": "$BMNR (3/26) MAVAN을 '론칭 예정'이라고 몇 달째 말했는데 드디어 나왔다. 3.14M ETH 스테이킹. 연간 $300M. $21.45.\n\n1/4",
+          "hook": "순자산보다 싸게 살 수 있는 ETH 창고",
+          "text": "$BMNR (3/26) $21.45. 가진 게 $11B인데 시총이 $9.5B. 순자산보다 싸게 파는 가게가 있다면? 그게 BMNR이다.\n\n1/4",
           "thread": [
-            "Bankless Times가 $50을 내놨다. 현재 $21.45. +133% 간다고? ETH가 살아나야 가능한 얘기다.\n\n2/4",
-            "$11B 자산에 $9.75B 시총. 세일 중인데 MSTR은 같은 구조에 프리미엄. 크립토계의 언더독.\n\n3/4",
-            "배당 4.7%로 기다리면서 돈 받고, MAVAN으로 연간 $300M. 목표가 $32(+49%).\n\n4/4"
+            "MAVAN 론칭으로 연 $300M 스테이킹 수익까지 추가. 이제 가만히 앉아서 돈을 벌기 시작했다.\n\n2/4",
+            "문제는 52주 고점 $161에서 87% 하락. ETH가 안 오르면 아무리 싸도 의미 없다. 순수 ETH 레버리지 베팅.\n\n3/4",
+            "배당 4.7%로 기다리면서 먹을 수 있고, falling wedge로 반등 신호. 목표가 $50(+133%). 심장 약하면 비추.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "주간 -10.5% 빠졌지만, MAVAN이 답을 줬다",
-          "text": "$BMNR (3/26) 주간 -10.5%. 힘들었을 거다. 하지만 MAVAN 론칭으로 3% 반등. 약속이 실행이 됐다. $21.45.\n\n1/4",
+          "hook": "BMNR, 고점 대비 87% 하락이면 마음이 아프다",
+          "text": "$BMNR (3/26) $21.45. 고점 $161에서 87% 빠졌다. 들고 있었다면 정말 힘든 시간이었을 거다.\n\n1/4",
           "thread": [
-            "3.14M ETH 자체 스테이킹. 연간 $300M. 이제 단순 보유가 아니라 돈을 버는 구조다.\n\n2/4",
-            "ETH가 $2,025에서 $2,173으로 돌아왔다. NAV 할인도 줄었다. 조금씩 나아지고 있다.\n\n3/4",
-            "배당 4.7% 받으면서 기다리자. 목표가 $32(+49%). ETH 회복이 오면 보상받을 거다.\n\n4/4"
+            "하지만 회사는 멈추지 않았다. MAVAN으로 연 $300M 스테이킹 수익 시작. 4,661,000 ETH(3.86%). 펀더멘털은 오히려 강해졌다.\n\n2/4",
+            "P/B 0.60x, 총 자산 $11B > 시총 $9.5B. 순자산보다 싸다. 배당 4.7%도 지급 중.\n\n3/4",
+            "ETH 회복이 전제지만, falling wedge 패턴과 NAV 할인은 반등 근거다. 목표가 $50(+133%). 분할 매수로 부담을 줄여보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "MAVAN 론칭, 자체 스테이킹으로 연간 $300M",
-          "text": "$BMNR (3/26) $21.45\n\nMAVAN 론칭. 3.14M ETH($6.8B) 자체 스테이킹. 연간 $300M. Galaxy Digital 지원. ETH $2,173. NAV 할인 11%. P/B 0.89x. 배당 4.7%. Bankless Times $50. 목표가 $32(+49%)."
+          "hook": "BMNR, 세계 최대 ETH 스테이킹 플랫폼 론칭",
+          "text": "$BMNR (3/26) $21.45(+3%)\n\nMAVAN 론칭: 3.14M ETH($6.8B) 스테이킹으로 연 $300M 수익 전망. 세계 최대 ETH 스테이킹 플랫폼이 탄생했다.\n\n4,661,000 ETH(공급량 3.86%) 보유, 총 자산 $11.0B > 시총 $9.52B. P/B 0.60x로 NAV 대비 40% 할인. MSTR의 P/B 2-3x와 비교하면 극단적 저평가.\n\n다만 52주 고점 대비 87% 하락, 200일선 크게 아래. ETH 회복이 전제. 고위험-고수익 포지션이다."
         },
         "witty": {
-          "hook": "몇 달간 '곧 나온다'던 MAVAN이 드디어 나왔다",
-          "text": "$BMNR (3/26) $21.45\n\nMAVAN이 드디어 나왔다. 3.14M ETH를 자체 스테이킹하며 연간 $300M을 만든다. '론칭 예정'이 '실행 중'으로 바뀌는 순간.\n\nBankless Times $50(+133%). ETH만 돌아오면 가능할 수도. $11B 자산에 $9.75B 시총. MSTR처럼 프리미엄 받으면 $50도 보인다.\n\n배당 4.7% 받으면서 기다리는 전략. 문제는 항상 ETH다. 목표가 $32(+49%)."
+          "hook": "순자산보다 싸게 살 수 있는 ETH 창고",
+          "text": "$BMNR (3/26) $21.45\n\n가진 게 $11B인데 시총이 $9.5B. 순자산보다 싸게 파는 가게다. MAVAN으로 연 $300M 스테이킹 수익까지 시작.\n\n문제는 고점 $161에서 87% 하락. ETH 안 오르면 아무리 싸도 의미 없다. 순수 ETH 레버리지 베팅.\n\n배당 4.7%로 기다리면서 먹을 수 있고, 목표가 $50(+133%). 심장 약하면 비추."
         },
         "empathy": {
-          "hook": "주간 -10.5%, 하지만 MAVAN 론칭이 답을 줬다",
-          "text": "$BMNR (3/26) $21.45\n\n주간 -10.5%. ETH와 함께 빠져서 힘들었을 거다. 하지만 MAVAN 론칭으로 3% 반등하며 방향을 잡았다.\n\n3.14M ETH 자체 스테이킹으로 연간 $300M. 이제 단순히 ETH 들고 있는 게 아니라 돈을 벌기 시작했다. 배당 4.7%에 스테이킹 수익까지.\n\nETH가 돌아오면 가장 먼저 반등할 종목. 기다린 시간만큼 보상이 올 거다. 목표가 $32(+49%)."
+          "hook": "고점 대비 87% 하락, 쉽지 않은 여정이다",
+          "text": "$BMNR (3/26) $21.45\n\n$161에서 $21까지. 87% 하락이면 정말 아픈 수준이다. 그래도 회사는 멈추지 않았다.\n\nMAVAN으로 연 $300M 스테이킹 수익 시작. 4.66M ETH(3.86%). P/B 0.60x로 순자산보다 싸다. 배당 4.7% 지급 중.\n\nETH 회복이 전제지만, NAV 할인과 falling wedge는 반등 근거다. 목표가 $50(+133%). 분할 매수로 부담을 줄여보자."
         }
       }
     }

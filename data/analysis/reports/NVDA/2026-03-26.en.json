@@ -6,8 +6,8 @@
   "marketCap": "$4.34T",
 
   "businessSummary": {
-    "oneLiner": "The undisputed leader in AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled the Vera Rubin and Vera CPU platforms as part of a 5-layer full-stack AI strategy. FY26 revenue reached $215.9B (+65% YoY) with $120B in net income. The company projects $1 trillion in cumulative Blackwell and Rubin chip orders through 2027.",
+    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem spanning data center AI chips to software platforms. At GTC 2026, the company unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue hit $215.9B (+65% YoY) with $120B in net income. The company projects $1 trillion in cumulative Blackwell and Rubin chip orders through 2027, signaling an aggressive push into the AI inference market.",
     "howTheyMakeMoney": [
       "Data center AI accelerators (80%+ of revenue)",
       "AI software platforms (CUDA, NIM, NemoClaw)",
@@ -15,174 +15,222 @@
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "36.63x", "interpretation": "Compressed from 45x to 36.63x due to DeepSeek shock and macro headwinds. Contrarians see this as increased valuation attractiveness" },
-    { "name": "Forward P/E (FY27E)", "value": "22x", "interpretation": "Lower than Alphabet and AMD. The most reasonable valuation among AI growth stocks given FY26 revenue of $215.9B (+65%)" },
-    { "name": "Revenue Growth (FY26)", "value": "+65% YoY ($215.9B)", "interpretation": "Unprecedented growth at this scale in semiconductor history. Data center AI demand is the core driver" },
-    { "name": "Net Income", "value": "$120B (FY26)", "interpretation": "Among the highest annual net incomes for any US company. Dominant profitability" },
-    { "name": "FCF (Free Cash Flow)", "value": "$60B+", "interpretation": "Record shareholder returns announced at GTC 2026, including buybacks and dividend increases" },
-    { "name": "Cumulative Order Forecast", "value": "$1T (through 2027)", "interpretation": "Blackwell + Rubin chip orders doubled from prior $500B forecast" }
+    { "name": "P/E (TTM)", "value": "36.5x", "interpretation": "Slightly above semiconductor average (25-30x), but PEG of 0.59 with 65% revenue growth suggests undervaluation. 66% premium to S&P 500 average (22x)" },
+    { "name": "Forward P/E", "value": "~28x", "interpretation": "Based on FY27 EPS estimates. Lower than AMD (35x) and Broadcom (30x) within the AI semiconductor sector" },
+    { "name": "Revenue Growth (FY26)", "value": "+65% YoY", "interpretation": "FY26 revenue of $215.9B. The $1T cumulative order outlook dispels growth deceleration fears" },
+    { "name": "PEG Ratio", "value": "0.59", "interpretation": "Below 1.0 signals undervaluation relative to growth. Attractive for the AI semiconductor leader" },
+    { "name": "Market Cap", "value": "$4.34T", "interpretation": "World's largest company by market cap, surpassing Apple ($3.7T)" },
+    { "name": "Net Income", "value": "$120B", "interpretation": "FY26. Top-tier profitability not just in semiconductors but across the entire S&P 500" }
   ],
 
   "growthDrivers": [
-    { "title": "Risk-on rally lifts NVDA to $179.45 (+2.43%)", "description": "Broad tech rally on March 25 as geopolitical tensions eased. NVDA bounced from $175.20, defending the low end of its 6-week $170-$198 range" },
-    { "title": "$1 trillion cumulative AI chip orders through 2027", "description": "CEO Jensen Huang announced at GTC 2026 that Blackwell and Vera Rubin orders are projected to reach at least $1T, doubling the prior $500B forecast" },
-    { "title": "Rosenblatt raises target to $325 (3/18)", "description": "Analyst Kevin Cassidy updated his model after management meetings, raising NVDA target from $300 to $325" },
-    { "title": "New Street Research adds NVDA to '2026 Best Ideas' (3/19)", "description": "Pierre Ferragu named NVDA his top pick, citing long-term revenue potential exceeding market expectations" },
-    { "title": "Record shareholder returns planned", "description": "GTC 2026 announced massive buyback and dividend expansion. FCF of $60B+ provides ample capacity" },
-    { "title": "Energy partnerships for AI factory model", "description": "Partnerships with AES, Constellation Energy, and NextEra Energy to operate AI data centers as flexible grid assets" }
+    {
+      "title": "$1 Trillion Cumulative AI Chip Orders Through 2027",
+      "description": "At GTC 2026, CEO Jensen Huang announced cumulative Blackwell and Vera Rubin orders will reach at least $1T by 2027, doubling the previous $500B outlook"
+    },
+    {
+      "title": "Jensen Huang Claims 'AGI Achieved' (3/24)",
+      "description": "On the Lex Fridman podcast, Huang declared AGI has arrived and projected $3T in revenue, while tempering near-term expectations by noting AI agent commercialization needs more time"
+    },
+    {
+      "title": "Rosenblatt Raises Target to $325 (3/18)",
+      "description": "Rosenblatt Securities raised its NVDA target from $300 to $325 after analyst Kevin Cassidy updated financial models following management meetings"
+    },
+    {
+      "title": "Motley Fool: 'Secret Revenue Streams Worth Tens of Billions'",
+      "description": "New revenue sources unveiled at GTC (energy AI factories, robotics platforms) could add tens of billions in growth potential"
+    },
+    {
+      "title": "Energy Company Partnerships (AI Factories)",
+      "description": "Partnerships with AES, Constellation Energy, and NextEra Energy to operate AI data centers as flexible grid assets through the AI Factory model"
+    },
+    {
+      "title": "Largest-Ever Shareholder Return Plan",
+      "description": "GTC 2026 previewed massive buyback and dividend expansion, leveraging $60B+ in FCF to maximize shareholder value"
+    }
   ],
 
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
+    "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      { "type": "Ecosystem Lock-in", "description": "5M+ CUDA developers. Switching costs are prohibitively high, maintaining GPU market dominance" },
-      { "type": "Vertical Integration", "description": "Full-stack: GPU, CPU (Vera), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw)" },
-      { "type": "Annual Architecture Roadmap", "description": "Hopper to Blackwell to Vera Rubin annual cadence maintains 2-3 year tech lead over competitors" },
-      { "type": "Economies of Scale", "description": "FY26 revenue of $215.9B is the largest in semiconductors. R&D spending dwarfs competitors" }
+      {
+        "type": "Ecosystem Lock-in",
+        "description": "CUDA developer ecosystem exceeds 5 million. Extremely high switching costs maintain GPU market dominance"
+      },
+      {
+        "type": "Vertical Integration",
+        "description": "Full-stack offering from GPUs, CPUs (Vera), networking (Spectrum-X), to software (CUDA, NIM, NemoClaw). One-stop AI infrastructure for customers"
+      },
+      {
+        "type": "Annual Architecture Roadmap",
+        "description": "Hopper to Blackwell to Vera Rubin annual product cycle maintains 2-3 year technology gap over competitors"
+      },
+      {
+        "type": "Economies of Scale",
+        "description": "FY26 revenue of $215.9B makes it the largest semiconductor company. R&D spending dwarfs competitors"
+      }
     ],
     "competitors": [
-      { "name": "AMD", "detail": "MI300X entered AI GPU market but trails significantly in software ecosystem and scale. Under 10% DC AI share" },
-      { "name": "Google TPU", "detail": "Internal AI chips strong for Google's own use. Limited external market influence" },
-      { "name": "Amazon Trainium", "detail": "AWS-optimized chip. Falls behind NVIDIA in general-purpose capabilities" },
-      { "name": "Broadcom", "detail": "Custom ASICs for hyperscalers. Cannot compete with NVIDIA in the general market" }
+      {
+        "name": "AMD",
+        "detail": "MI300X entered the AI GPU market but faces significant gaps in software ecosystem and scale. Under 10% data center AI share"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "Strong for internal use but limited external market impact"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "AWS-optimized chip. Trails NVIDIA in general-purpose versatility"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "Custom ASICs for hyperscalers. Cannot compete with NVIDIA in the general-purpose market"
+      }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-25", "headline": "Risk-on rally sends NVDA to $179.45 (+2.43%), defends $170 support", "significance": "Broad tech recovery on easing geopolitical tensions. Held the bottom of 6-week trading range", "url": "https://www.techi.com/nvidia-stock-today/" },
-    { "date": "2026-03-25", "headline": "Wilsey Asset Management sells NVDA shares", "significance": "Institutional position reduction continues alongside insider selling, maintaining short-term sell pressure", "url": "https://www.themarketsdaily.com/2026/03/25/nvidia-corporation-nvda-shares-sold-by-wilsey-asset-management-inc.html" },
-    { "date": "2026-03-24", "headline": "Director Mark Stevens sells 221,682 shares", "significance": "Board member sold over 220K shares in one day. Insider selling pattern continues to weigh on sentiment", "url": "https://www.tipranks.com/news/insider-trading/top-nvidia-insider-quietly-executes-massive-multi-million-dollar-stock-sale-insider-trading-news" },
-    { "date": "2026-03-24", "headline": "Jensen Huang declares 'AGI achieved' on podcast", "significance": "CEO claimed AGI milestone but tempered near-term expectations for AI agent commercialization", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/" },
-    { "date": "2026-03-19", "headline": "New Street Research adds NVDA to '2026 Best Ideas'", "significance": "Pierre Ferragu cites long-term revenue potential exceeding market consensus", "url": "https://www.insidermonkey.com/blog/new-street-research-adds-nvidia-nvda-to-best-ideas-list-for-2026-1721625/" }
+    { "date": "2026-03-25", "headline": "Motley Fool: Nvidia Revealed 'Secret' Revenue Streams Worth Tens of Billions", "significance": "GTC 2026 highlighted energy AI factories and robotics as new revenue sources. Analysts call it a 'screaming buy'", "url": "https://www.fool.com/investing/2026/03/25/surprise-nvidia-secret-new-revenue-stream-buy/" },
+    { "date": "2026-03-24", "headline": "Jensen Huang Claims 'AGI Achieved' on Lex Fridman Podcast", "significance": "Projected $3T revenue target, but tempered near-term expectations about AI agent commercialization. Stock dipped 0.3%", "url": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-claims-agi-has-been-achieved-can-create-billion-dollar-businesses-172225126.html" },
+    { "date": "2026-03-18", "headline": "Rosenblatt Raises Price Target from $300 to $325", "significance": "Analyst Kevin Cassidy updated models after management meetings. Maintains bullish outlook", "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026" },
+    { "date": "2026-03-16", "headline": "GTC 2026: Vera Rubin Unveiled, $1T Orders Through 2027", "significance": "Vera Rubin NVL72 delivers 10x performance and efficiency vs. Blackwell. 1.3M-component next-gen AI infrastructure", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" },
+    { "date": "2026-03-23", "headline": "Motley Fool: Jensen Huang Delivered 'Fantastic News' to Shareholders", "significance": "The $1T cumulative order outlook was the centerpiece, doubling the previous $500B forecast", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 275.95,
-    "highTarget": 400.0,
+    "consensusTarget": 276.0,
+    "highTarget": 325.0,
     "lowTarget": 150.0,
     "upsidePercent": 53.8,
-    "buyCount": 35,
-    "holdCount": 5,
-    "sellCount": 2,
-    "notableComment": "Rosenblatt $325, New Street 'Best Ideas.' Overwhelming Buy consensus. P/E compression from 45x to 36.6x has increased valuation appeal. Next earnings May 20"
+    "buyCount": 42,
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "42 out of 45 analysts rate Buy. Rosenblatt's $325 is the street high. New Street Research selected NVDA as a '2026 Best Idea.' Average upside of 54%"
   },
 
   "risks": [
-    { "severity": "high", "title": "Persistent insider + institutional selling", "description": "Director Stevens sold 220K+ shares followed by Wilsey AM selling. Simultaneous insider and institutional reduction is a caution signal" },
-    { "severity": "high", "title": "Macro headwinds: Oil $99+, Nasdaq -15%", "description": "Iran crisis pushing oil above $99, Fed rates at 3.5-3.75%, Nasdaq down 15% from February peak" },
-    { "severity": "medium", "title": "DeepSeek shock: AI possible with fewer GPUs?", "description": "January's DeepSeek demonstrated competitive AI models built with far fewer GPUs. Key driver of P/E compression from 45x to 36.6x" },
-    { "severity": "medium", "title": "Export control tightening (Supermicro smuggling case)", "description": "Supermicro co-founder indicted for smuggling $2.5B worth of NVIDIA chips to China. May trigger stricter controls" },
-    { "severity": "low", "title": "AI agent commercialization delay", "description": "Huang himself tempered near-term expectations. AGI achieved but commercial products need more time" }
+    { "severity": "high", "title": "US-China Tensions and Export Controls", "description": "Tighter AI chip export restrictions to China could impact 10-15% of revenue from the Chinese market" },
+    { "severity": "high", "title": "Iran Conflict Market Volatility", "description": "The Iran military conflict is elevating global market volatility, putting selling pressure on tech stocks broadly" },
+    { "severity": "medium", "title": "Custom ASIC Competition", "description": "Google TPU, Amazon Trainium, and Broadcom custom chips could accelerate hyperscaler transitions to in-house silicon" },
+    { "severity": "medium", "title": "Supply Chain Bottlenecks", "description": "Heavy dependence on TSMC advanced nodes creates geopolitical risk exposure. Vera Rubin demand may exceed supply" },
+    { "severity": "low", "title": "AGI Claim Controversy", "description": "Huang's 'AGI achieved' statement drew skepticism from industry leaders. Overhype risk, though limited direct impact on fundamentals" }
   ],
 
   "buyReasons": [
-    { "title": "P/E compression to 36.6x, lowest among AI growth stocks", "rationale": "Down from 45x. Forward P/E of 22x is below Alphabet and AMD. Same earnings at a cheaper price" },
-    { "title": "$1T order pipeline + analyst upgrade rush", "rationale": "Rosenblatt $325, New Street 'Best Ideas.' Post-GTC target upgrades continuing" },
-    { "title": "$170 range support held in 6-week trading range", "rationale": "Successfully defended the bottom of $170-$198 range on risk-on rally" },
-    { "title": "Record shareholder returns + dividend increase expected", "rationale": "FCF of $60B+ funding massive buybacks and dividend expansion" }
+    { "title": "PEG 0.59: Undervalued for Growth", "rationale": "65% revenue growth with P/E 36.5x. PEG 0.59 is attractive valuation for the AI leader" },
+    { "title": "$1T Order Visibility", "rationale": "Cumulative Blackwell + Vera Rubin orders projected at $1T through 2027. Industry-best medium-term revenue visibility" },
+    { "title": "42/45 Analysts Rate Buy", "rationale": "93% buy ratings with $276 average target (+54%). Near-unanimous Wall Street conviction" },
+    { "title": "15% Below 52-Week High", "rationale": "Trading at $179 vs. $212 ATH. Iran-driven market correction provides buying opportunity" }
   ],
 
   "technicalPosition": {
     "week52High": 212.19,
-    "week52Low": 86.62,
-    "currentPositionPercent": 73.9,
+    "week52Low": 98.0,
+    "currentPositionPercent": 71.3,
     "sma50": 184.20,
     "sma50Signal": "below",
     "sma200": 184.38,
     "sma200Signal": "below",
-    "rsi": 44.0,
+    "rsi": 48.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "The risk-on rally pushed NVDA to $179.45 (+2.43%), successfully defending the $170 floor of its 6-week trading range. However, insider selling (director 220K shares) and institutional exits (Wilsey AM) continue to create short-term pressure.",
-    "P/E has compressed from 45x to 36.6x due to the DeepSeek shock and oil above $99. But flip the narrative: a Forward P/E of 22x with a $1T order pipeline means the world's most profitable tech company is trading at a discount. Rosenblatt's $325 target and New Street's 'Best Ideas' selection support this view.",
-    "Below both the 50-day ($184) and 200-day ($184) with a death cross intact. But the $170 support hold and RSI at 44 suggest a bottoming process. Consensus target $276 (+54%). Next earnings May 20."
+    "Jensen Huang declared AGI achieved and projected $3T in revenue. Industry reactions are mixed, but $1T in cumulative orders is real and verifiable.",
+    "GTC 2026 revealed Vera Rubin (10x Blackwell performance), energy AI factories, and new revenue streams. 42 of 45 analysts rate it a Buy.",
+    "Trading just below the 50-day ($184) and 200-day ($184) averages with RSI at 48. Consensus target of $276 (+54%) suggests substantial upside."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "At P/E 36.6x (Forward 22x) with a $1T order pipeline, the death cross and insider selling represent a buying opportunity created by macro compression, not fundamental deterioration. Dollar-cost averaging is appropriate given oil and rate uncertainty.",
-    "horizon": "6-12 months (next earnings May 20 + Vera Rubin shipments)"
+    "summary": "PEG of 0.59 is undervalued for 65% revenue growth. With $1T order visibility, Vera Rubin launch, and energy partnerships providing clear growth trajectory, the Iran-driven market correction offers an attractive entry point for dollar-cost averaging.",
+    "horizon": "3-6 months"
   },
 
   "sources": [
-    { "name": "Techi", "url": "https://www.techi.com/nvidia-stock-today/", "description": "3/25 price $179.45, P/E 36.63, market cap $4.34T, 6-week range analysis" },
-    { "name": "Markets Daily", "url": "https://www.themarketsdaily.com/2026/03/25/nvidia-corporation-nvda-shares-sold-by-wilsey-asset-management-inc.html", "description": "Wilsey AM selling + 50/200 SMA data" },
-    { "name": "TipRanks", "url": "https://www.tipranks.com/news/insider-trading/top-nvidia-insider-quietly-executes-massive-multi-million-dollar-stock-sale-insider-trading-news", "description": "Director Stevens 221,682 share sale" },
-    { "name": "TheStreet", "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026", "description": "Rosenblatt target raised to $325" },
-    { "name": "Insider Monkey", "url": "https://www.insidermonkey.com/blog/new-street-research-adds-nvidia-nvda-to-best-ideas-list-for-2026-1721625/", "description": "New Street 'Best Ideas' selection details" },
-    { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/", "description": "GTC 2026 $1T order forecast and AI inference strategy" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/23/predict-nvidia-stock-dividend-raise-2026-buy/", "description": "Record shareholder returns and dividend increase forecast" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Analyst consensus target $275.95" },
-    { "name": "Meyka", "url": "https://meyka.com/blog/nvda-stock-today-march-24-huang-says-agi-is-here-ai-bets-stir-2403/", "description": "Jensen Huang AGI declaration analysis" },
-    { "name": "LiteFinance", "url": "https://www.litefinance.org/blog/analysts-opinions/nvda-stock-price-prediction/", "description": "3/25 NVDA $178.60 price confirmation" }
+    { "name": "Techi.com", "url": "https://www.techi.com/nvidia-stock-today/", "description": "NVDA real-time price and analysis" },
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 2026 keynote and $1T order outlook" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-claims-agi-has-been-achieved-can-create-billion-dollar-businesses-172225126.html", "description": "Jensen Huang AGI declaration" },
+    { "name": "The Street", "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026", "description": "Rosenblatt $325 price target upgrade" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/25/surprise-nvidia-secret-new-revenue-stream-buy/", "description": "New revenue stream analysis" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/", "description": "$1T order outlook analysis" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Analyst consensus target $276" },
+    { "name": "The Cerbat Gem", "url": "https://www.thecerbatgem.com/2026/03/25/nvidia-nasdaqnvda-shares-up-2-heres-what-happened.html", "description": "P/E, PEG, 50-day/200-day moving average data" },
+    { "name": "Financhill", "url": "https://financhill.com/stock-price-chart/nvda-technical-analysis", "description": "Technical analysis and 200-day SMA" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "P/E compressed from 45 to 36, is this the buying opportunity?",
-      "text": "$NVDA (Mar 26) Risk-on rally to $179.45 (+2.43%). P/E 36.6x, Forward 22x. Cheapest AI stock by multiples. Insiders sell, analysts buy.\n\n1/4",
+      "hook": "Nvidia enters the $1 trillion AI chip order era",
+      "text": "$NVDA (3/26) $179.45 (+2.43%). Jensen Huang declared 'AGI achieved' and projected $3T revenue. The $1T in orders is real.\n\n1/4",
       "thread": [
-        "Rosenblatt $325, New Street 'Best Ideas.' GTC confirmed $1T orders. Revenue +65%, net income $120B. Company is historically strong.\n\n2/4",
-        "Oil $99, Nasdaq -15%. Director sold 220K shares. Macro compressed the multiple from 45x to 36x.\n\n3/4",
-        "$170-$198 range support held. Consensus $276 (+54%). Next earnings May 20.\n\n4/4"
+        "GTC unveiled Vera Rubin (10x Blackwell performance). Energy AI factories and robotics add new revenue streams. Rosenblatt target: $325.\n\n2/4",
+        "PEG 0.59 with 65% revenue growth. 42/45 analysts say Buy. This isn't hype, it's fundamentals.\n\n3/4",
+        "Just below 50-day ($184) and 200-day ($184). RSI 48. Consensus target $276 (+54%). Iran pullback created the buying window.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Multiple compression is creating a buying opportunity",
-      "text": "$NVDA (Mar 26) $179.45\n\nRisk-on rally delivered a 2.43% bounce, defending the $170 floor of the 6-week range. P/E compressed from 45x to 36.6x. Forward P/E of 22x is the cheapest in AI.\n\nInsiders and institutions are selling, but Rosenblatt raised to $325 and New Street named it 'Best Idea of 2026.' $1T order pipeline, $120B net income. Fundamentally the strongest it's ever been.\n\nOil $99, Nasdaq -15%. When macro turns, this is the first tech stock to recover. Consensus $276 (+54%)."
+      "hook": "Nvidia enters the $1 trillion AI chip order era",
+      "text": "$NVDA (3/26) $179.45 (+2.43%)\n\nJensen Huang declared AGI achieved and projected $3T in revenue. Industry reactions are mixed, but $1T in cumulative orders through 2027 is concrete.\n\nGTC 2026 unveiled Vera Rubin (10x Blackwell), energy AI factories, and new revenue streams. PEG 0.59 with 65% growth. 42/45 analysts rate Buy.\n\nJust below 50-day and 200-day averages, RSI 48. Consensus $276 (+54%). The market correction is a buying opportunity."
     },
     "telegram": {
-      "hook": "P/E compressed to 36x, risk-on bounce",
-      "text": "NVIDIA Daily Analysis (Mar 26)\n\nPrice: $179.45 (+2.43%)\n\nKey Developments\n- Risk-on rally defends $170 range floor\n- P/E compressed 45x to 36.6x (Forward 22x)\n- Director 220K shares + Wilsey AM selling\n- Rosenblatt $325, New Street 'Best Ideas'\n- GTC $1T orders, revenue +65%, net income $120B\n- Oil $99, Nasdaq -15% macro headwinds\n\nTechnical Position\n- 6-week $170-$198 range\n- Below 50-day ($184), 200-day ($184): death cross\n- RSI 44, recovering\n\nTarget: $276 (+54%)\nVerdict: Buy (DCA, next earnings May 20)"
+      "hook": "Nvidia enters the $1 trillion order era",
+      "text": "NVIDIA Daily Analysis (3/26)\n\nPrice: $179.45 (+2.43%)\n\nKey Issues\n- Jensen Huang declares 'AGI achieved,' projects $3T revenue\n- $1T cumulative AI chip orders through 2027\n- GTC: Vera Rubin (10x Blackwell performance)\n- Rosenblatt raises target to $325\n\nTechnical Position\n- Just below 50-day ($184), 200-day ($184)\n- RSI 48, neutral\n- PEG 0.59, undervalued for growth\n\nTarget: $276 (+54%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "P/E compressed to 36x, cheapest AI valuation",
-          "text": "$NVDA (Mar 26) $179.45 (+2.43%). P/E 36.6x, Forward 22x. $1T orders. Director 220K sold. Oil $99. Nasdaq -15%.\n\n1/4",
+          "hook": "Nvidia enters the $1 trillion AI chip order era",
+          "text": "$NVDA (3/26) $179.45 (+2.43%). Jensen Huang declared 'AGI achieved' and projected $3T revenue. The $1T in orders is real.\n\n1/4",
           "thread": [
-            "Rosenblatt $325, New Street 'Best Ideas.' Revenue +65%, net income $120B. Record returns.\n\n2/4",
-            "$170-$198 range support held. Below 50-day, 200-day. RSI 44.\n\n3/4",
-            "Consensus $276 (+54%). Next earnings May 20.\n\n4/4"
+            "GTC unveiled Vera Rubin (10x Blackwell performance). Energy AI factories and robotics add new revenue streams. Rosenblatt target: $325.\n\n2/4",
+            "PEG 0.59 with 65% revenue growth. 42/45 analysts say Buy. This isn't hype, it's fundamentals.\n\n3/4",
+            "Just below 50-day ($184) and 200-day ($184). RSI 48. Consensus target $276 (+54%). Iran pullback created the buying window.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "CEO declares AGI, director sells 220K shares, oil wins",
-          "text": "$NVDA (Mar 26) AGI achieved but P/E dropped from 45 to 36. Oil at $99 beat artificial intelligence. $179.45 (+2.43%).\n\n1/4",
+          "hook": "Huang says AGI is here, stock drops 0.3%",
+          "text": "$NVDA (3/26) $179.45. Jensen Huang told the world AGI is here. The market shrugged. Turns out $1T in chip orders matters more than philosophy.\n\n1/4",
           "thread": [
-            "Forward P/E 22x. $1T pipeline. $120B net income. The world's best AI company is on sale. Directors cashing out and saying thanks.\n\n2/4",
-            "Macro compressed the multiple. Nasdaq -15%. The fundamentals are the strongest ever but the tape doesn't care.\n\n3/4",
-            "Consensus $276 (+54%). When macro turns, this rebounds first. 'When' is the question.\n\n4/4"
+            "Vera Rubin is 10x faster than Blackwell. Last year's chip is already obsolete. That's the Nvidia treadmill.\n\n2/4",
+            "P/E 36.5x with 65% growth gives you PEG 0.59. For the AI king, that's basically on clearance. 42/45 analysts agree.\n\n3/4",
+            "Consensus $276 (+54%). Rosenblatt says $325. The Iran dip created a discount. Geopolitics: the gift that keeps on giving.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "The world's most valuable company stuck in a death cross",
-          "text": "$NVDA (Mar 26) $179.45 (+2.43%). Today's bounce helps but death cross plus insider selling. Anxiety is understandable.\n\n1/4",
+          "hook": "You know Nvidia's great but buying the dip isn't easy",
+          "text": "$NVDA (3/26) $179.45. Down 15% from the $212 high. You know it's a great company, but hitting buy when it's falling takes guts.\n\n1/4",
           "thread": [
-            "Forward P/E 22x, $1T orders, $120B net income. The company itself has never been stronger.\n\n2/4",
-            "Oil $99, Nasdaq -15%. This is a macro problem, not an NVIDIA problem.\n\n3/4",
-            "Consensus $276 (+54%). Next earnings May 20. Fundamentals win in the end.\n\n4/4"
+            "The numbers help. 65% revenue growth, $1T in orders, PEG 0.59. This is fundamentals, not hype.\n\n2/4",
+            "GTC revealed Vera Rubin (10x performance) and new revenue streams. 42/45 analysts say Buy. You're not alone in this.\n\n3/4",
+            "Target $276 (+54%). Dollar-cost averaging eases the pressure. The long-term picture hasn't changed.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "P/E compressed to 36x, risk-on rally bounce",
-          "text": "$NVDA (Mar 26) $179.45 (+2.43%)\n\nP/E 45x to 36.6x, Forward 22x. Rosenblatt $325, New Street 'Best Ideas.' $1T orders, $120B net income. Director 220K sold. $170-$198 range held. Consensus $276 (+54%)."
+          "hook": "Nvidia enters the $1 trillion AI chip order era",
+          "text": "$NVDA (3/26) $179.45 (+2.43%)\n\nJensen Huang declared AGI achieved and projected $3T in revenue. Industry reactions are mixed, but $1T in cumulative orders through 2027 is concrete.\n\nGTC 2026 unveiled Vera Rubin (10x Blackwell), energy AI factories, and new revenue streams. PEG 0.59 with 65% growth. 42/45 analysts rate Buy.\n\nJust below 50-day and 200-day averages, RSI 48. Consensus $276 (+54%). The market correction is a buying opportunity."
         },
         "witty": {
-          "hook": "AGI declared, then oil at $99 beat AI at its own game",
-          "text": "$NVDA (Mar 26) $179.45\n\nAGI achieved, or so Jensen says. Meanwhile P/E went from 45 to 36 because oil at $99 and a -15% Nasdaq don't care about artificial general intelligence.\n\nForward P/E 22x with $1T in orders. World's most profitable company on clearance. Directors sold 220K shares and waved goodbye.\n\nConsensus $276 (+54%). When macro resolves, this stock leads the recovery. Timing is everything."
+          "hook": "AGI declared, stock yawns",
+          "text": "$NVDA (3/26) $179.45\n\nHuang declared AGI achieved. Stock dropped 0.3%. The market cares more about $1T in chip orders than existential milestones.\n\nVera Rubin is 10x Blackwell. Last year's bleeding edge is already yesterday's news. PEG 0.59 with 65% growth, on clearance for the AI king. 42/45 analysts say Buy.\n\nConsensus $276 (+54%). Iran handed investors a discount. Sometimes geopolitics is the best coupon."
         },
         "empathy": {
-          "hook": "Death cross and insider selling, but the company is historically strong",
-          "text": "$NVDA (Mar 26) $179.45\n\nDeath cross with insiders and institutions selling. Seeing those headlines makes anyone nervous. Today's 2.43% bounce is welcome but the road ahead looks bumpy.\n\nForward P/E 22x, $1T orders, $120B net income. The company has never been in better shape. The pullback is about oil and macro, not NVIDIA itself.\n\nConsensus $276 (+54%). Next earnings May 20. Patience will be rewarded."
+          "hook": "Buying great companies during dips isn't easy",
+          "text": "$NVDA (3/26) $179.45\n\nDown 15% from $212. Knowing it's great and actually buying during a pullback are two different things.\n\nThe fundamentals are reassuring: 65% growth, $1T orders, PEG 0.59. GTC unveiled Vera Rubin and new revenue streams. 42/45 analysts rate Buy.\n\nTarget $276 (+54%). Dollar-cost averaging takes the pressure off. The long-term story hasn't changed."
         }
       }
     }

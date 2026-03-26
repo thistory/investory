@@ -3,183 +3,223 @@
   "companyName": "Bitmine Immersion Technologies",
   "analysisDate": "2026-03-26",
   "currentPrice": 21.45,
-  "marketCap": "$9.75B",
+  "marketCap": "$9.52B",
 
   "businessSummary": {
     "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin strategy to Ethereum as a digital asset treasury company",
-    "description": "Originally a Bitcoin mining company, Bitmine pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/23, holds 4,661,000 ETH (~3.87% of total supply) with $11.0B in total crypto and cash. On 3/25, officially launched MAVAN (Made In America Validator Network), staking 3,142,643 ETH ($6.8B) to target ~$300M in annual revenue.",
+    "description": "Originally a Bitcoin mining company, Bitmine pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/23, the company holds 4,661,000 ETH (3.86% of total supply) with total crypto+cash of $11.0B. MAVAN (Made in America Validator Network) staking platform officially launched on 3/25 with projected annual staking revenue of $300M. ETH trades near $2,170, but the stock price sits at $21.45, down 87% from the 52-week high of $161.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,661,000 ETH held (~$10B at ~$2,173/ETH)",
-      "MAVAN Staking: 3,142,643 ETH staked, targeting ~$300M annual revenue (2.83% yield)",
-      "Dividends: 4.7% yield, unique among crypto treasury companies",
-      "Bitcoin holdings: 196 BTC (supplementary)"
+      "ETH Treasury: 4,661,000 ETH held (~$10.1B at ~$2,170/ETH)",
+      "ETH Staking Revenue: ~3.14M ETH staked, ~$300M annual revenue projected",
+      "Dividend: 4.7% yield, only crypto treasury company paying dividends",
+      "Bitcoin Holdings: 196 BTC (secondary)"
     ],
-    "keyProducts": ["Ethereum Treasury", "MAVAN (Made In America Validator Network)", "ETH Staking", "Crypto Holdings"]
+    "keyProducts": [
+      "Ethereum Treasury",
+      "ETH Staking",
+      "MAVAN Validator Network",
+      "Crypto Holdings"
+    ]
   },
 
   "keyMetrics": [
-    { "name": "P/B (Price-to-Book)", "value": "0.89x", "interpretation": "Market cap $9.75B vs held assets $11.0B+. Trading below asset value. Large discount vs MSTR (P/B 2-3x)" },
-    { "name": "NAV Discount", "value": "-11%", "interpretation": "NAV discount narrowed from 14% to 11% as ETH recovered to $2,173. Further ETH appreciation could flip to premium" },
-    { "name": "ETH Holdings", "value": "4,661,000 ETH (3.87% of supply)", "interpretation": "Largest among all publicly traded companies by a wide margin. '5% Alchemy' strategy targets 6M ETH" },
-    { "name": "MAVAN Staking Revenue", "value": "~$300M annually (2.83% 7-day yield)", "interpretation": "3,142,643 ETH ($6.8B) staked on proprietary platform. Third-party fee elimination improves margins" },
-    { "name": "Dividend Yield", "value": "4.7%", "interpretation": "Only crypto-related public company paying dividends. Provides holding rationale during downturns" },
-    { "name": "Weekly ETH Purchases", "value": "65,341 ETH ($138M)", "interpretation": "Prior week purchases 30%+ above average (45-50K). Tom Lee: 'betting on the end of the crypto slump'" }
+    { "name": "ETH Holdings", "value": "4,661,000 ETH", "interpretation": "3.86% of total ETH supply. Continuing weekly purchases of 45,000-65,000 ETH toward the 5% target" },
+    { "name": "Total Assets (Crypto+Cash)", "value": "$11.0B", "interpretation": "Total assets exceed market cap of $9.52B. Trading at a discount to NAV" },
+    { "name": "P/B (est.)", "value": "~0.60x", "interpretation": "Approximately 40% discount to NAV. Extreme gap vs. MSTR's P/B of 2-3x" },
+    { "name": "Dividend Yield", "value": "4.7%", "interpretation": "Only dividend-paying crypto treasury stock. Downside protection in bear markets" },
+    { "name": "Staking Revenue (Annual)", "value": "~$300M", "interpretation": "3.14M ETH staked via MAVAN platform at 2.83% yield projects to $300M annually" },
+    { "name": "Market Cap", "value": "$9.52B", "interpretation": "Below the value of held ETH ($10.1B). Stock justified by pure asset value alone" }
   ],
 
   "growthDrivers": [
-    { "title": "MAVAN proprietary staking platform launched (3/25)", "description": "Made In America Validator Network officially launched March 25 with Galaxy Digital support. 3,142,643 ETH ($6.8B) staked, making Bitmine the world's largest staking entity. Targeting ~$300M annual revenue" },
-    { "title": "Bankless Times sets $50 price target (3/25)", "description": "MAVAN launch prompted Bankless Times to issue a $50 target (+133% upside). Fee reduction and improved yields from proprietary staking are the key thesis" },
-    { "title": "ETH holdings reach 4,661,000 + purchase pace up 30%", "description": "Holdings reached 4,661,000 ETH as of 3/23. Prior week saw 65,341 ETH ($138M) purchased, 30% above average pace" },
-    { "title": "'5% Alchemy' strategy: targeting 6M ETH", "description": "Goal to hold 5% of total ETH supply (~6M tokens) generating $374M+ in annual staking fees. Currently at 3.87%, need ~1.34M more" },
-    { "title": "ETH recovers to $2,173, bouncing from $2,025 lows", "description": "ETH rebounded from $2,025-$2,040 lows to $2,173. Weekly -6.6% but 14-day and 30-day trends show recovery momentum. NAV discount narrowing" },
-    { "title": "4.7% dividend yield: downside protection", "description": "Only crypto public company paying dividends. Provides cash income while waiting for ETH recovery" }
+    {
+      "title": "MAVAN Staking Platform Official Launch (3/25)",
+      "description": "Made in America Validator Network officially launched on 3/25 with 3,142,643 ETH ($6.8B) staked. Announced as 'the world's largest Ethereum staking platform' with projected $300M annual staking revenue"
+    },
+    {
+      "title": "4,661,000 ETH Held, Progressing Toward 5% Target",
+      "description": "As of 3/23, holds 4,661,000 ETH (3.86% of supply). Purchased 65,341 ETH (~$138M) this week alone, accelerating from the previous 45-50k weekly pace"
+    },
+    {
+      "title": "P/B 0.60x: NAV Discount Expanded to 40%",
+      "description": "Market cap ($9.52B) below total crypto+cash ($11.0B). Extreme gap vs. MSTR's P/B of 2-3x"
+    },
+    {
+      "title": "4.7% Dividend Yield: Bear Market Defense",
+      "description": "Only dividend-paying crypto treasury stock. Provides holding rationale during broader market declines"
+    },
+    {
+      "title": "ETH Price Recovery Signs ($2,170)",
+      "description": "ETH bounced from $2,025-$2,040 support to $2,170. Iran de-escalation signals helping risk asset recovery"
+    },
+    {
+      "title": "Falling Wedge Pattern: Technical Bounce Signal",
+      "description": "Per Invezz analysis, BMNR chart shows falling wedge + Wyckoff accumulation pattern. Significant upside on breakout"
+    }
   ],
 
   "competitiveAdvantage": {
-    "summary": "Largest ETH holdings among public companies (3.87% of supply). MAVAN makes it the world's largest staking entity. Tom Lee + Galaxy Digital backing. The only large-scale player applying the MicroStrategy BTC playbook to ETH.",
+    "summary": "Largest ETH holdings among public companies (3.86% of supply). Tom Lee's involvement provides institutional credibility. The only large-scale player applying MicroStrategy's BTC playbook to ETH.",
     "moats": [
-      { "type": "ETH Supply Concentration", "description": "3.87% of total ETH supply. Irreplaceable market position" },
-      { "type": "MAVAN Proprietary Staking", "description": "3,142,643 ETH on in-house platform. Third-party fee savings create yield advantage" },
-      { "type": "Institutional Accessibility", "description": "Provides ETH exposure via public equity. Accessible to institutions without ETFs" }
+      {
+        "type": "ETH Supply Concentration",
+        "description": "Holds 3.86% of total ETH supply. An irreplicable market position."
+      },
+      {
+        "type": "Institutional Access",
+        "description": "Provides ETH exposure through listed equity. Accessible to institutional investors without ETF structure."
+      },
+      {
+        "type": "Staking Revenue + MAVAN",
+        "description": "~3.14M ETH staked + proprietary MAVAN platform reduces third-party fees. Superior returns vs. passive holding."
+      }
     ],
     "competitors": [
-      { "name": "MicroStrategy (MSTR)", "detail": "The original Bitcoin treasury play. BTC-focused vs BMNR's ETH-focused approach" },
-      { "name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competition. Different fee structures" },
-      { "name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model" }
+      {
+        "name": "MicroStrategy (MSTR)",
+        "detail": "Pioneer of BTC treasury strategy. BTC focus vs. BMNR's ETH concentration"
+      },
+      {
+        "name": "Grayscale Ethereum Trust (ETHE)",
+        "detail": "ETH ETF competitor. Different fee structure"
+      },
+      {
+        "name": "Coinbase (COIN)",
+        "detail": "Exchange-based crypto exposure. Fundamentally different business model"
+      }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-25", "headline": "MAVAN (Made In America Validator Network) officially launches with 3.14M ETH", "significance": "Proprietary staking platform live with $6.8B in ETH staked. Galaxy Digital support. World's largest staking entity. Targeting $300M annual revenue", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html" },
-    { "date": "2026-03-25", "headline": "Bankless Times targets $50 on MAVAN launch", "significance": "Fee reduction and improved yields from proprietary staking drive $50 target (+133% upside)", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/" },
-    { "date": "2026-03-25", "headline": "BMNR rises 3% on MAVAN launch + ETH rebound", "significance": "MAVAN launch combined with ETH recovery to $2,173 pushed stock to $21.45. Weekly still down 10.5%", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4" },
-    { "date": "2026-03-24", "headline": "24/7 Wall St: BMNR nears 5% ETH goal — what happens next?", "significance": "Market shifting focus from 'when will they reach 5%' to 'what comes after 5%'. Growing mainstream attention", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
-    { "date": "2026-03-23", "headline": "ETH holdings reach 4,661,000, total assets $11.0B", "significance": "Record ETH holdings. Weekly purchase of 65,341 ETH at accelerated pace", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" }
+    { "date": "2026-03-25", "headline": "MAVAN Staking Platform Launches with 3.14M ETH Staked", "significance": "World's largest Ethereum staking platform born. $300M annual staking revenue projected. Third-party fee elimination", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html" },
+    { "date": "2026-03-25", "headline": "Bankless Times: BMNR Stock Could Surge to $50", "significance": "MAVAN launch enables staking fee savings, NAV discount closure expected. Falling wedge pattern forming", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/" },
+    { "date": "2026-03-23", "headline": "ETH Holdings Reach 4.661 Million Tokens, Total Assets $11.0B", "significance": "65,341 ETH purchased this week ($138M). Purchase pace accelerating. Now holds 3.86% of ETH supply", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html" },
+    { "date": "2026-03-24", "headline": "24/7 Wall St: What Happens When Bitmine Reaches 5% ETH Target", "significance": "Analysis of market liquidity impact as the company approaches 5% ETH ownership. Additional 77,055 ETH purchase announced", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/" },
+    { "date": "2026-03-19", "headline": "Invezz: Bitmine Stock Eyes Explosive Surge on Falling Wedge", "significance": "Technical analysis shows falling wedge + Wyckoff accumulation pattern. Significant upside potential on breakout", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 32.0,
+    "consensusTarget": 50.0,
     "highTarget": 50.0,
-    "lowTarget": 15.0,
-    "upsidePercent": 49.2,
-    "buyCount": 5,
-    "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "Bankless Times issued $50 target on MAVAN launch. Proprietary staking generating $300M annually is the key differentiator. P/B 0.89x remains a significant discount to MSTR"
+    "lowTarget": 20.0,
+    "upsidePercent": 133.1,
+    "buyCount": 2,
+    "holdCount": 1,
+    "sellCount": 0,
+    "notableComment": "Bankless Times cites MAVAN launch and NAV discount as basis for $50 target. Limited analyst coverage means data is restricted"
   },
 
   "risks": [
-    { "severity": "high", "title": "Extreme ETH price dependency", "description": "Vast majority of assets are ETH. Further ETH decline would shrink NAV and could widen the P/B discount" },
-    { "severity": "high", "title": "Weekly -10.5% decline + crypto regulatory uncertainty", "description": "Down 10.5% on the week. Clarity Act failure or delay could derail institutional adoption expectations" },
-    { "severity": "medium", "title": "MAVAN operational risk (slashing)", "description": "3.14M ETH staked on a newly launched proprietary platform. Early-stage technical risks exist. Slashing could cause significant losses" },
-    { "severity": "medium", "title": "ETH purchase funding risk", "description": "5% target requires 1.34M additional ETH. Equity offerings or convertible notes create dilution risk" },
-    { "severity": "low", "title": "Potential ETH treasury competitors", "description": "BMNR's success could inspire similar ETH treasury strategies from other companies" }
+    { "severity": "critical", "title": "100% ETH Price Dependency", "description": "Stock price is fully correlated to ETH price. Further ETH decline would compress both NAV and market cap. Essentially a leveraged ETH bet" },
+    { "severity": "high", "title": "87% Decline from 52-Week High", "description": "Crashed from $161 to $21.45. Technically in extreme downtrend. Even with a bounce, full recovery is a long road" },
+    { "severity": "high", "title": "Concentration Risk", "description": "Entire treasury concentrated in a single asset (ETH). All-in strategy without diversification" },
+    { "severity": "medium", "title": "Trading Below 200-Day MA", "description": "Significantly below the 200-day MA of $36.45. Long-term downtrend confirmed" },
+    { "severity": "medium", "title": "Regulatory Risk", "description": "Potential regulatory changes affecting crypto treasury strategies. Sensitive to SEC and regulatory moves" }
   ],
 
   "buyReasons": [
-    { "title": "MAVAN launch secures $300M annual revenue", "rationale": "Proprietary staking eliminates third-party fees. 3.14M ETH ($6.8B) generating real cash flow transforms BMNR from pure holder to revenue generator" },
-    { "title": "P/B 0.89x with 11% NAV discount", "rationale": "Assets of $11.0B+ vs market cap $9.75B. MSTR trades at 2-3x NAV premium. Bankless Times $50 target" },
-    { "title": "ETH recovering to $2,173, NAV discount narrowing", "rationale": "Bounced from $2,025 lows. NAV discount narrowed from 14% to 11%. Further recovery could flip to premium" },
-    { "title": "4.7% dividend + accelerating purchases", "rationale": "Earn income while waiting. Tom Lee increasing purchase pace by 30%, showing conviction" }
+    { "title": "P/B 0.60x: 40% Discount to NAV", "rationale": "Crypto+cash holdings of $11.0B vs. market cap of $9.52B. Stock justified by pure asset value. Extreme gap vs. MSTR's P/B of 2-3x" },
+    { "title": "MAVAN Launch: $300M Annual Staking Revenue", "rationale": "World's largest ETH staking platform eliminates third-party fees. Transition from passive holding to active revenue generation" },
+    { "title": "4.7% Dividend: Bear Market Defense", "rationale": "Only dividend-paying crypto stock. Rationale for holding through downturns" },
+    { "title": "Falling Wedge Pattern: Technical Bounce Signal", "rationale": "Invezz identifies falling wedge + Wyckoff accumulation. Significant upside on breakout" }
   ],
 
   "technicalPosition": {
-    "week52High": 28.50,
-    "week52Low": 5.20,
-    "currentPositionPercent": 69.7,
-    "sma50": 21.0,
-    "sma50Signal": "above",
-    "sma200": 16.0,
-    "sma200Signal": "above",
-    "rsi": 48.0,
+    "week52High": 161.0,
+    "week52Low": 3.20,
+    "currentPositionPercent": 11.6,
+    "sma50": 22.0,
+    "sma50Signal": "below",
+    "sma200": 36.45,
+    "sma200Signal": "below",
+    "rsi": 42.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "MAVAN has finally launched. 3,142,643 ETH ($6.8B) now staked on Bitmine's own platform, targeting ~$300M in annual revenue. Bankless Times responded with a $50 target (+133%). This is the critical transition from promise to execution.",
-    "ETH's rebound from $2,025 to $2,173 narrowed the NAV discount from 14% to 11%. Despite a 10.5% weekly decline, the stock bounced 3% on MAVAN news. The 5% target is 1.34M ETH away, achievable in roughly 6 months at current pace.",
-    "Above both the 50-day ($21) and 200-day ($16), maintaining bullish structure. P/B 0.89x with 4.7% dividend and now $300M in staking revenue. The key variable remains ETH price: $2,500 ETH means $30+ stock, $1,500 means NAV drops sharply. Target $32 (+49%)."
+    "MAVAN staking platform launched, claiming the 'world's largest ETH staking platform' title. Projected $300M in annual staking revenue marks the transition from passive holding to active yield generation.",
+    "Trading at P/B 0.60x with total assets ($11.0B) exceeding market cap ($9.52B). Compared to MSTR's P/B of 2-3x, this represents extreme undervaluation on a pure asset basis.",
+    "However, the stock is down 87% from its 52-week high and well below the 200-day MA ($36.45). Without ETH price recovery, the NAV discount is meaningless. This is a high-risk, high-reward position."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "MAVAN launch marks the transition from 'promise' to 'execution.' Annual $300M staking revenue plus the existing dividend transforms BMNR from a pure ETH holder to a cash-generating business. At P/B 0.89x with 4.7% yield, attractive for those betting on ETH recovery.",
-    "horizon": "3-6 months (Clarity Act progress + ETH market cycle + 5% target timeline)"
+    "summary": "40% NAV discount plus MAVAN launch creates an asymmetric opportunity. ETH recovery would deliver leveraged upside. However, 100% ETH dependency means this is only suitable for investors who can stomach crypto downside risk. Small position with dollar-cost averaging recommended.",
+    "horizon": "3-6 months (ETH cycle dependent)"
   },
 
   "sources": [
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html", "description": "MAVAN launch official announcement, 3.14M ETH staked, $6.8B, $300M annual target" },
-    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/", "description": "MAVAN analysis and $50 price target" },
-    { "name": "Stock Titan", "url": "https://www.stocktitan.net/news/BMNR/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-f2jf4rl8rxac.html", "description": "MAVAN launch details + Galaxy Digital support" },
-    { "name": "Panabee", "url": "https://www.panabee.com/news/bitmine-launches-mavan-staking-platform-with-6-8-billion-in-eth", "description": "$6.8B staking + $300M annual revenue analysis" },
-    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4", "description": "Weekly -10.5% decline + valuation analysis" },
-    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% Alchemy goal completion scenario analysis" },
-    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH 4,661,000 holdings + total assets $11.0B" },
-    { "name": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261714262-ethereum-eth-treasury-bitmine-stock-dat-defi-tradingkey", "description": "Crypto pack decoupling analysis" },
-    { "name": "Morningstar", "url": "https://www.morningstar.com/news/pr-newswire/20260325ny18856/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution", "description": "MAVAN launch + Galaxy Digital involvement confirmation" },
-    { "name": "TwelveData", "url": "https://twelvedata.com/markets/679245/crypto/binance/eth-usd/historical-data", "description": "ETH $2,173 price confirmation (3/25)" }
+    { "name": "PR Newswire (MAVAN)", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html", "description": "MAVAN staking platform launch" },
+    { "name": "PR Newswire (ETH)", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH holdings reach 4,661,000 tokens" },
+    { "name": "Bankless Times", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/", "description": "BMNR $50 target analysis" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending", "description": "65,341 ETH purchase report" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/03/19/bitmine-stock-eyes-an-explosive-surge-as-ethereum-price-forms-a-bullish-pattern/", "description": "Falling wedge technical analysis" },
+    { "name": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/03/24/bitmine-immersion-nears-5-eth-goal-what-happens-then/", "description": "5% ETH target analysis" },
+    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4", "description": "Valuation analysis" },
+    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "ETH holdings tracker" },
+    { "name": "Fortune", "url": "https://fortune.com/article/price-of-ethereum-03-25-2026/", "description": "ETH price at $2,170" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "MAVAN launches, $300M annual staking revenue secured",
-      "text": "$BMNR (Mar 26) MAVAN finally live. 3.14M ETH ($6.8B) self-staked. $300M annual revenue. Bankless Times targets $50. $21.45.\n\n1/4",
+      "hook": "BMNR launches world's largest ETH staking platform",
+      "text": "$BMNR (3/26) $21.45 (+3%). MAVAN launches: 3.14M ETH ($6.8B) now staking. $300M annual revenue projected. World's largest ETH staking platform.\n\n1/4",
       "thread": [
-        "Promise becomes execution. Galaxy Digital backing. World's largest staking entity. Fee savings boost yields.\n\n2/4",
-        "ETH recovers to $2,173. NAV discount 14% to 11%. P/B 0.89x with 4.7% dividend.\n\n3/4",
-        "5% target: 1.34M ETH away, ~6 months. ETH recovery = $30+. Target $32 (+49%).\n\n4/4"
+        "4,661,000 ETH (3.86% of supply), total assets $11.0B. Market cap just $9.52B. P/B 0.60x — trading at a 40% NAV discount.\n\n2/4",
+        "Down 87% from 52-week high of $161. Below 200-day MA ($36.45). But falling wedge pattern signals potential bounce.\n\n3/4",
+        "4.7% dividend. Only crypto stock that pays one. ETH recovery = leveraged upside. High risk, high reward.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "MAVAN launches: from promise to execution",
-      "text": "$BMNR (Mar 26) $21.45\n\nMAVAN is finally live. 3,142,643 ETH ($6.8B) staked on Bitmine's own platform, targeting ~$300M annual revenue. Bankless Times set a $50 target (+133%).\n\nETH bounced from $2,025 to $2,173, narrowing the NAV discount from 14% to 11%. P/B 0.89x with 4.7% dividend. MSTR gets 2-3x NAV premium for the same structure.\n\n5% target is 1.34M ETH away. At current pace, ~6 months. When ETH recovers, this is the first to benefit. Target $32 (+49%)."
+      "hook": "BMNR launches world's largest ETH staking platform",
+      "text": "$BMNR (3/26) $21.45 (+3%)\n\nMAVAN launched: 3.14M ETH ($6.8B) staking with $300M annual revenue projected. World's largest ETH staking platform is born.\n\n4,661,000 ETH (3.86% of supply), total assets $11.0B > market cap $9.52B. P/B 0.60x — 40% NAV discount. MSTR trades at P/B 2-3x by comparison.\n\nDown 87% from 52-week high though, and well below the 200-day MA. ETH recovery is the prerequisite. High risk, high reward."
     },
     "telegram": {
-      "hook": "MAVAN launches, $300M annual revenue secured",
-      "text": "BMNR Daily Analysis (Mar 26)\n\nPrice: $21.45 (+3%)\n\nKey Developments\n- MAVAN staking platform officially launched\n- 3,142,643 ETH ($6.8B) staked, $300M annual target\n- Bankless Times $50 target (+133%)\n- Galaxy Digital support\n- ETH rebounds to $2,173 (from $2,025 lows)\n- NAV discount narrows 14% to 11%\n- Dividend yield 4.7%\n\nTechnical Position\n- Above 50-day ($21), 200-day ($16)\n- RSI 48, neutral\n- P/B 0.89x (significant discount to MSTR)\n\nTarget: $32 (+49%)\nVerdict: Buy (execution phase, ETH recovery play)"
+      "hook": "BMNR launches world's largest ETH staking platform",
+      "text": "Bitmine Daily Analysis (3/26)\n\nPrice: $21.45 (+3%)\n\nKey Issues\n- MAVAN launch: 3.14M ETH staking\n- $300M annual staking revenue projected\n- 4,661,000 ETH held (3.86% of supply)\n- Total assets $11.0B > Market cap $9.52B\n\nTechnical Position\n- P/B 0.60x, 40% NAV discount\n- 87% below 52-week high of $161\n- Dividend yield 4.7%\n\nTarget: $50 (+133%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "MAVAN launches, $300M staking revenue",
-          "text": "$BMNR (Mar 26) MAVAN live. 3.14M ETH ($6.8B) staked. $300M annual. Bankless Times $50. $21.45.\n\n1/4",
+          "hook": "BMNR launches world's largest ETH staking platform",
+          "text": "$BMNR (3/26) $21.45 (+3%). MAVAN launches: 3.14M ETH ($6.8B) now staking. $300M annual revenue projected. World's largest ETH staking platform.\n\n1/4",
           "thread": [
-            "Galaxy Digital. World's largest staking entity. Fee savings.\n\n2/4",
-            "ETH $2,173. NAV -11%. P/B 0.89x. Dividend 4.7%.\n\n3/4",
-            "5% target 1.34M ETH, 6 months. Target $32 (+49%).\n\n4/4"
+            "4,661,000 ETH (3.86% of supply), total assets $11.0B. Market cap just $9.52B. P/B 0.60x — trading at a 40% NAV discount.\n\n2/4",
+            "Down 87% from 52-week high of $161. Below 200-day MA ($36.45). But falling wedge pattern signals potential bounce.\n\n3/4",
+            "4.7% dividend. Only crypto stock that pays one. ETH recovery = leveraged upside. High risk, high reward.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Months of 'coming soon' and MAVAN finally shipped",
-          "text": "$BMNR (Mar 26) MAVAN was 'launching soon' for months. Today it actually launched. 3.14M ETH staked. $300M annual. $21.45.\n\n1/4",
+          "hook": "A company cheaper than its own bank account",
+          "text": "$BMNR (3/26) $21.45. Has $11B in assets. Worth $9.5B. If you found a store selling $11 for $9.50, you'd back up the truck.\n\n1/4",
           "thread": [
-            "Bankless Times says $50. That's +133% from here. Need ETH to cooperate for that math to work.\n\n2/4",
-            "$11B assets, $9.75B market cap. On sale. MSTR gets premium for the same playbook.\n\n3/4",
-            "4.7% dividend while you wait. MAVAN revenue on top. Target $32 (+49%).\n\n4/4"
+            "MAVAN just launched: $300M/year in staking revenue. They've gone from sitting on ETH to making it work.\n\n2/4",
+            "Catch: down 87% from $161 high. If ETH doesn't recover, the discount doesn't matter. Pure leveraged ETH bet.\n\n3/4",
+            "4.7% dividend while you wait. Falling wedge pattern. Target $50 (+133%). Not for the faint of heart.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Down 10.5% on the week, but MAVAN delivered the answer",
-          "text": "$BMNR (Mar 26) -10.5% on the week. Rough ride. But MAVAN launched and the stock bounced 3%. $21.45.\n\n1/4",
+          "hook": "87% from the high. That hurts.",
+          "text": "$BMNR (3/26) $21.45. From $161 to $21. If you've been holding, that's been a brutal ride.\n\n1/4",
           "thread": [
-            "3.14M ETH self-staked. $300M annual. No longer just holding — now earning.\n\n2/4",
-            "ETH recovering from $2,025 to $2,173. NAV discount shrinking. Things are slowly improving.\n\n3/4",
-            "4.7% dividend while waiting. Target $32 (+49%). ETH recovery will reward patience.\n\n4/4"
+            "But the company hasn't stopped. MAVAN launches $300M in staking revenue. 4.66M ETH (3.86%). Fundamentals are actually stronger now.\n\n2/4",
+            "P/B 0.60x, assets $11B > market cap $9.5B. It's cheaper than its own holdings. 4.7% dividend still flowing.\n\n3/4",
+            "ETH recovery is the key. Falling wedge + NAV discount support the bounce case. Target $50 (+133%). Dollar-cost averaging to ease the pain.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "MAVAN launches with $6.8B in staked ETH",
-          "text": "$BMNR (Mar 26) $21.45\n\nMAVAN live. 3.14M ETH ($6.8B) staked. $300M annual. Galaxy Digital. ETH $2,173. NAV -11%. P/B 0.89x. Dividend 4.7%. Bankless Times $50. Target $32 (+49%)."
+          "hook": "BMNR launches world's largest ETH staking platform",
+          "text": "$BMNR (3/26) $21.45 (+3%)\n\nMAVAN launched: 3.14M ETH ($6.8B) staking with $300M annual revenue projected. World's largest ETH staking platform is born.\n\n4,661,000 ETH (3.86% of supply), total assets $11.0B > market cap $9.52B. P/B 0.60x — 40% NAV discount. MSTR trades at P/B 2-3x by comparison.\n\nDown 87% from 52-week high though, and well below the 200-day MA. ETH recovery is the prerequisite. High risk, high reward."
         },
         "witty": {
-          "hook": "'Coming soon' became 'live today' — MAVAN ships",
-          "text": "$BMNR (Mar 26) $21.45\n\nMAVAN shipped. After months of 'coming soon,' 3.14M ETH are actually staking on Bitmine's own platform. $300M annual revenue target. Bankless Times immediately slapped a $50 price on it.\n\n$11B in assets, $9.75B market cap. Same structure as MSTR but at a discount instead of premium. 4.7% dividend while the market figures this out.\n\nThe always-present caveat: it all depends on ETH. Target $32 (+49%)."
+          "hook": "A company selling for less than its wallet balance",
+          "text": "$BMNR (3/26) $21.45\n\n$11B in assets, $9.5B market cap. That's literally buying dollars for 86 cents. MAVAN adds $300M in annual staking revenue on top.\n\nBut 87% from the $161 high. If ETH doesn't recover, you're buying 86-cent dollars that keep depreciating. Pure leveraged ETH.\n\n4.7% dividend while you wait. Target $50 (+133%). Not for the risk-averse."
         },
         "empathy": {
-          "hook": "Rough week but MAVAN delivered hope",
-          "text": "$BMNR (Mar 26) $21.45\n\nDown 10.5% in a week. ETH weakness plus market volatility made it rough. But MAVAN launching today brought a 3% bounce and a reason to hold on.\n\n3.14M ETH staked on their own platform. $300M annual revenue. This isn't just a holder anymore, it's a business generating real cash. Dividend 4.7% plus staking income.\n\nETH at $2,173 is recovering. NAV discount narrowing. Target $32 (+49%). The transition from promise to execution is complete."
+          "hook": "Down 87% from the high. It's been rough.",
+          "text": "$BMNR (3/26) $21.45\n\n$161 to $21. That's 87%. If you've held through this, it's been a painful journey.\n\nBut the company hasn't stopped building. MAVAN now generates $300M in staking revenue. 4.66M ETH. P/B 0.60x — cheaper than its own holdings. 4.7% dividend still paying.\n\nETH recovery is everything. NAV discount and falling wedge support the bounce. Target $50 (+133%). Dollar-cost averaging eases the pressure."
         }
       }
     }

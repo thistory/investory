@@ -2,186 +2,235 @@
   "symbol": "PLTR",
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-26",
-  "currentPrice": 158.0,
-  "marketCap": "$375B",
+  "currentPrice": 160.88,
+  "marketCap": "$379.3B",
 
   "businessSummary": {
-    "oneLiner": "The leading government and enterprise AI data analytics platform, built on Gotham (defense), Foundry (enterprise), and AIP (AI Platform)",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise customers. FY2025 revenue reached $4.48B (+60%). US commercial revenue hit $650M in Q4 (+137% YoY). The Pentagon designated Maven AI as an official program of record, and Palantir was selected to develop software for the $185B Golden Dome missile defense project. FY2026 guidance of $7.19B-$7.41B (+60-65%) signals accelerating growth.",
+    "oneLiner": "Government and commercial AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue hit $4.48B (+60%), with US commercial revenue surpassing $650M in Q4 (+137% YoY). The Pentagon designated Maven AI as an official program of record, expanding it across all military branches. FY2026 guidance of $7.19B-$7.41B (+60-65%) signals accelerating growth, though Forward P/E of 114x remains a key concern.",
     "howTheyMakeMoney": [
-      "Government contracts (Gotham) - Defense/intelligence AI analytics",
-      "Enterprise AI platform (Foundry) - Corporate data integration",
-      "AIP (AI Platform) - Generative AI integration platform",
-      "AIP Bootcamps - Rapid adoption programs for customer conversion"
+      "Government contracts (Gotham) - defense/intelligence AI analytics",
+      "Enterprise AI platform (Foundry) - large enterprise data integration",
+      "AIP (AI Platform) - generative AI integration platform",
+      "AIP Boot Camps - rapid customer conversion programs"
     ],
-    "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "Sovereign AI Data Center OS", "Ontology"]
+    "keyProducts": [
+      "Gotham",
+      "Foundry",
+      "AIP",
+      "Maven Smart System",
+      "ShipOS",
+      "Sovereign AI Data Center OS",
+      "Ontology"
+    ]
   },
 
   "keyMetrics": [
-    { "name": "Forward P/E", "value": "~112x", "interpretation": "Extreme premium even for software. Rule of 40 score of 127% partially justifies it, but any growth slowdown risks sharp correction" },
-    { "name": "P/S (Price-to-Sales)", "value": "~49x", "interpretation": "3-4x the SaaS average (10-15x). Palantir's +60% growth rate is the only justification" },
-    { "name": "Revenue Growth (FY2025)", "value": "+60% YoY ($4.48B)", "interpretation": "Extraordinarily rare growth rate at this scale. Q4 reached +70% YoY" },
-    { "name": "US Commercial Revenue (Q4)", "value": "+137% YoY ($650M)", "interpretation": "Explosive enterprise customer acquisition. Key driver of reducing government dependency" },
-    { "name": "Rule of 40", "value": "127%", "interpretation": "Revenue growth + profit margin = 127%. Top tier among all SaaS companies globally" },
-    { "name": "Net Dollar Retention (NDR)", "value": "139%", "interpretation": "Existing customers spending 39% more year-over-year. Proves high product stickiness" }
+    { "name": "P/E (TTM)", "value": "252x", "interpretation": "11x the S&P 500 average (22x). Extreme premium even vs. SaaS growth peers (40-60x), though 60% revenue growth partially justifies it" },
+    { "name": "Forward P/E", "value": "~114x", "interpretation": "Based on FY2026 EPS estimates. Over 2x CrowdStrike (50x) and ServiceNow (55x)" },
+    { "name": "Revenue Growth (FY2026E)", "value": "+60-65%", "interpretation": "Guidance of $7.19B-$7.41B. US commercial at +137% is the primary engine. Growth is accelerating" },
+    { "name": "PEG Ratio", "value": "3.19", "interpretation": "Well above 1.0, indicating overvaluation relative to growth. Premium requires 60%+ growth for years to justify" },
+    { "name": "Market Cap", "value": "$379.3B", "interpretation": "85x revenue of $4.48B. Pricing reflects defense AI monopoly status" },
+    { "name": "US Commercial Revenue (Q4)", "value": "$650M (+137% YoY)", "interpretation": "180 deals over $1M, 61 deals over $10M. AIP boot camps driving rapid conversion" }
   ],
 
   "growthDrivers": [
-    { "title": "Selected for $185B Golden Dome missile defense software (3/24)", "description": "Reuters reports Palantir and Anduril were chosen to develop software for the DOD's $185B Golden Dome space-based missile defense shield, designed to intercept ballistic, cruise, and hypersonic missiles" },
-    { "title": "Rosenblatt reiterates Buy, $200 target (3/25)", "description": "Rosenblatt Securities reaffirmed Buy with $200 target citing Golden Dome participation. Called Palantir 'the backbone of US military AI'" },
-    { "title": "Maven AI designated official program of record", "description": "Pentagon designated Maven Smart System as an official program of record (3/20), confirming long-term, military-wide deployment and stable defense revenue" },
-    { "title": "Combat-tested in Iran conflict, thousands of strikes", "description": "NYT/Reuters reported Pentagon used Palantir + Anthropic AI to identify Iran strike targets, reducing identification-to-execution time from hours to minutes" },
-    { "title": "FY2026 revenue guidance $7.19B-$7.41B (+60-65%)", "description": "Management confident in accelerating growth with US commercial segment as the primary engine" },
-    { "title": "UK FCA 3-month Foundry trial", "description": "UK Financial Conduct Authority adopted Palantir Foundry for a 3-month trial, signaling expansion beyond defense into government regulatory agencies" }
+    {
+      "title": "Selected for Golden Dome $185B Missile Defense Software (3/25)",
+      "description": "Per Reuters, Palantir and Anduril are co-developing software for Trump's $185B Golden Dome antimissile shield. Rosenblatt maintains Buy"
+    },
+    {
+      "title": "Maven AI Designated as Official Program of Record (3/20)",
+      "description": "Pentagon officially designated Maven Smart System as a program of record, confirming long-term adoption across all military branches with stable budget allocation"
+    },
+    {
+      "title": "Palantir CTO: 'Iran War is the First AI-Driven Major Conflict' (3/24)",
+      "description": "Per Bloomberg, CTO Shyam Sankar called the Iran conflict the first large-scale war where AI played a central role, enabling 2,000+ strikes in 48 hours"
+    },
+    {
+      "title": "UK FCA 3-Month Trial Contract",
+      "description": "UK Financial Conduct Authority adopted Palantir Foundry on a 3-month trial, signaling expansion into non-defense government regulatory sectors"
+    },
+    {
+      "title": "FY2026 Revenue Guidance $7.19B-$7.41B (+60-65%)",
+      "description": "Management expresses confidence in accelerating growth with US commercial as the core engine"
+    },
+    {
+      "title": "US Commercial Revenue Q4 +137% Explosive Growth",
+      "description": "Q4 US commercial revenue of $650M (+137% YoY). 180 deals over $1M, 61 over $10M. AIP boot camps are the key conversion driver"
+    }
   ],
 
   "competitiveAdvantage": {
-    "summary": "20+ years of government defense AI track record, top-tier security clearances, Maven military-wide adoption, Iran combat verification, Golden Dome selection. Moats that money cannot buy",
+    "summary": "20+ years of government defense AI track record, top-tier security clearances, Maven military adoption, Iran war combat validation. Moats money cannot buy",
     "moats": [
-      { "type": "Switching Costs", "description": "Ontology platform deeply integrated into government/military systems. Replacement costs are prohibitively high" },
-      { "type": "Security Clearance Barrier", "description": "Highest-level security clearances and 20+ year government trust relationships. Virtually impossible for newcomers to replicate" },
-      { "type": "Network Effects", "description": "AIP Bootcamps drive rapid customer acquisition while Ontology data models expand the ecosystem" },
-      { "type": "Combat Verification", "description": "Real-time deployment in thousands of Iran strikes. Battle data is the ultimate competitive advantage" }
+      {
+        "type": "Switching Costs",
+        "description": "Ontology platform deeply integrated into government/military systems. Replacement costs are prohibitively high once deployed"
+      },
+      {
+        "type": "Security Clearance Barrier",
+        "description": "Top-tier security clearances and 20+ years of government trust. Virtually impossible for new entrants to replicate"
+      },
+      {
+        "type": "Network Effects",
+        "description": "Rapid customer acquisition through AIP boot camps and expanding Ontology data model ecosystem"
+      },
+      {
+        "type": "Combat Validation",
+        "description": "Real-time use in thousands of strikes during the Iran conflict. Combat data is an irreplicable competitive advantage"
+      }
     ],
     "competitors": [
-      { "name": "Anduril Industries", "detail": "Co-selected for Golden Dome software. $60B valuation. Hardware-focused, complementary to Palantir" },
-      { "name": "Snowflake / Databricks", "detail": "Enterprise data platform competitors but far behind in government/defense access" },
-      { "name": "Microsoft / AWS", "detail": "Cloud giants entering government AI but lack Palantir's specialized Ontology depth" },
-      { "name": "C3.ai", "detail": "Enterprise AI platform trailing significantly in both revenue and growth" }
+      {
+        "name": "Anduril Industries",
+        "detail": "Defense AI/drone startup at $60B valuation. Hardware-focused, now collaborating with Palantir on Golden Dome"
+      },
+      {
+        "name": "Snowflake / Databricks",
+        "detail": "Enterprise data platform competitors, but significantly behind Palantir in government/defense access"
+      },
+      {
+        "name": "Microsoft / AWS",
+        "detail": "Cloud giants entering government AI. Scale advantage but lack Palantir's depth of Ontology platform integration"
+      },
+      {
+        "name": "C3.ai",
+        "detail": "Enterprise AI platform. Substantially behind Palantir in both revenue and growth rate"
+      }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-03-25", "headline": "Rosenblatt reiterates Buy, $200 target on Golden Dome involvement", "significance": "Cites $185B project participation as strengthening long-term defense revenue base. Calls PLTR 'backbone of US military AI'", "url": "https://www.gurufocus.com/news/8743554/palantir-pltr-stock-rises-on-positive-analyst-outlook-and-defense-project-involvement" },
-    { "date": "2026-03-25", "headline": "After-hours +1.25% on Golden Dome news, ending 4-day slide", "significance": "Stock snapped 4-day losing streak on $185B missile defense project news", "url": "https://coincentral.com/palantir-pltr-stock-rises-after-joining-185b-golden-dome-defense-project/" },
-    { "date": "2026-03-24", "headline": "Reuters: Anduril, Palantir developing Golden Dome missile shield software", "significance": "Selected for DOD's $185B space-based missile defense system software from hundreds of competing companies", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/" },
-    { "date": "2026-03-23", "headline": "Maven designation drives +6.78% surge", "significance": "Pentagon designating Maven as program of record triggered the largest single-day gain in weeks", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/23/stock-market-today-march-23-palantir-rises-after-the-pentagon-designates-maven-program-of-record/" },
-    { "date": "2026-03-22", "headline": "Palantir + Anthropic AI deployed for Iran strike targeting", "significance": "Maven system integrated with Anthropic Claude for thousands of real combat strikes. Battle-proven credentials", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/" }
+    { "date": "2026-03-25", "headline": "Palantir Selected for Golden Dome $185B Missile Defense Software", "significance": "Co-developing with Anduril. Software layer for the largest missile defense system in US history. Potential for multi-billion dollar long-term contracts", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/" },
+    { "date": "2026-03-24", "headline": "Bloomberg: Palantir CTO Calls Iran War 'First Major AI-Driven Conflict'", "significance": "CTO Shyam Sankar said AI supported 2,000 strikes in 48 hours, marking a paradigm shift in modern warfare", "url": "https://www.bloomberg.com/news/articles/2026-03-24/palantir-cto-sees-iran-war-as-first-major-conflict-driven-by-ai" },
+    { "date": "2026-03-20", "headline": "Pentagon Designates Maven AI as Official Program of Record", "significance": "Budget allocation and long-term contracting now confirmed. Transition from pilot to permanent military system", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/" },
+    { "date": "2026-03-25", "headline": "Rosenblatt Maintains Buy on Golden Dome Contract Potential", "significance": "Golden Dome Phase 1 costs $185B (50% above initial estimates), representing long-term tailwind for Palantir", "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-reiterates-palantir-stock-buy-rating-on-missile-defense-contract-potential-93CH-4579647" },
+    { "date": "2026-03-18", "headline": "NYT: Silicon Valley Bet on War, and the Bets Are Paying Off", "significance": "Palantir + Anthropic AI technology identified Iran strike targets, reducing targeting time from hours to minutes", "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 196.43,
-    "highTarget": 260.0,
-    "lowTarget": 70.0,
-    "upsidePercent": 24.3,
-    "buyCount": 14,
-    "holdCount": 5,
-    "sellCount": 2,
-    "notableComment": "Rosenblatt $200 Buy reaffirmed (Golden Dome), Wedbush Dan Ives $230. Golden Dome + Maven significantly strengthened the defense revenue foundation"
+    "consensusTarget": 198.59,
+    "highTarget": 250.0,
+    "lowTarget": 50.0,
+    "upsidePercent": 23.4,
+    "buyCount": 8,
+    "holdCount": 6,
+    "sellCount": 4,
+    "notableComment": "Rosenblatt maintains Buy, highlighting Golden Dome potential. However, analyst opinions are extremely polarized between bulls and bears. P/E 252x is the central debate"
   },
 
   "risks": [
-    { "severity": "high", "title": "Extreme valuation (Forward P/E ~112x)", "description": "+60% growth still cannot easily justify P/E 112x and P/S 49x. Good news rallies get reversed by macro repeatedly" },
-    { "severity": "high", "title": "Ethical controversy (Iran war AI deployment)", "description": "Reports of Palantir + Anthropic AI used in Iran strikes raise ESG concerns and regulatory risk" },
-    { "severity": "medium", "title": "Software sector-wide weakness (IGV YTD -23%)", "description": "Software ETF (IGV) down 23% YTD. Oil $99, Nasdaq -15%. High-multiple stocks take disproportionate hits" },
-    { "severity": "medium", "title": "Insider selling pressure", "description": "Tech sector weakness amplifies insider selling impact at P/E 112x" },
-    { "severity": "low", "title": "Anduril competition/collaboration uncertainty", "description": "Co-selected for Golden Dome but Anduril at $60B valuation could become a competitor in defense AI" }
+    { "severity": "critical", "title": "Extreme Valuation", "description": "P/E 252x, Forward P/E 114x, PEG 3.19. Difficult to justify even with 60% revenue growth. Over 2x more expensive than CrowdStrike or ServiceNow" },
+    { "severity": "high", "title": "Defense Dependency Risk", "description": "Iran war and Golden Dome are increasing defense revenue concentration. War ending could trigger a 'peace discount'" },
+    { "severity": "high", "title": "Ethical Controversy", "description": "Growing criticism of AI use in military strikes. ESG fund exclusion risk" },
+    { "severity": "medium", "title": "Insider Selling", "description": "US Rep. Thomas Suozzi sold PLTR shares. Political risk signal" },
+    { "severity": "medium", "title": "Valuation Collapse if Growth Slows", "description": "If 60%+ growth decelerates below 50%, PEG deteriorates further, triggering potential sharp valuation correction" }
   ],
 
   "buyReasons": [
-    { "title": "Golden Dome $185B + Maven = maximum defense moat", "rationale": "Missile defense + military-wide AI software partner, plus Iran combat verification. Two layers of irreplaceable moat added in one week" },
-    { "title": "4-day decline snapped by Golden Dome bounce", "rationale": "+6.78% (Maven) then 4-day fall, now after-hours +1.25% (Golden Dome). Rosenblatt $200 reaffirmed. Basing process underway" },
-    { "title": "US commercial revenue +137% explosive growth", "rationale": "Q4 US commercial at $650M (+137% YoY). Reducing government dependency while accelerating growth" },
-    { "title": "24% discount from 52-week high", "rationale": "$207.52 high to $158. Bullish structure intact with price above both 50-day and 200-day" }
+    { "title": "Golden Dome: $185B Long-Term Contract", "rationale": "Software layer for the largest missile defense system in US history. Revenue stream that could last decades" },
+    { "title": "Maven Official Adoption: Stable Defense Revenue", "rationale": "Transition from pilot to program of record. Budget allocation confirmed, dramatically reducing contract cancellation risk" },
+    { "title": "Iran War Combat Validation", "rationale": "The only company whose AI supported 2,000 strikes in real combat. Irreplicable competitive moat" },
+    { "title": "US Commercial Q4 +137% Explosive Growth", "rationale": "AIP boot camps accelerating enterprise conversion. Diversifying away from defense dependency" }
   ],
 
   "technicalPosition": {
     "week52High": 207.52,
     "week52Low": 66.12,
-    "currentPositionPercent": 65.0,
-    "sma50": 148.0,
+    "currentPositionPercent": 67.0,
+    "sma50": 150.16,
     "sma50Signal": "above",
-    "sma200": 120.0,
-    "sma200Signal": "above",
-    "rsi": 47.0,
+    "sma200": 168.81,
+    "sma200Signal": "below",
+    "rsi": 55.0,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Palantir just landed the $185B Golden Dome missile defense software contract. Combined with Maven's program-of-record designation and Iran combat verification, the company is cementing itself as the indispensable AI partner for US defense. Rosenblatt reaffirmed Buy at $200.",
-    "The 4-day slide was broken by Golden Dome news, lifting after-hours by 1.25%. Commercial revenue at +137% and Rule of 40 at 127% show flawless execution, but P/E 112x in a market where oil is $99 and IGV is down 23% means every rally gets faded.",
-    "Above both the 50-day ($148) and 200-day ($120), maintaining bullish structure. Down 24% from 52-week high at $158. Consensus $196 (+24%). The defense moat keeps thickening, and when macro stabilizes, this is the AI stock most likely to be re-rated first."
+    "Selected for the $185B Golden Dome missile defense software, surging 6.8% in a single day. Combined with Maven's official adoption, Palantir's defense AI monopoly is solidifying.",
+    "The only company whose AI supported 2,000 strikes in 48 hours during the Iran conflict. The CTO declared it 'the first AI-driven major war,' and the combat validation is undeniable.",
+    "Reclaimed the 50-day average ($150) but remains below the 200-day ($169). P/E of 252x means valuation pressure is real. Target $199 (+23%)."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Golden Dome + Maven have maximized the defense moat, but Forward P/E 112x and strong macro headwinds mean good news keeps getting reversed. Current holders should maintain positions. Consider accumulating below $145.",
-    "horizon": "3-6 months (FY2026 Q1 earnings + macro stabilization)"
+    "summary": "Golden Dome, Maven, and the Iran war have cemented Palantir's defense AI monopoly. However, at P/E 252x and PEG 3.19, the good news is substantially priced in. Rather than initiating new positions, holding and evaluating after Q1 earnings (May) is the prudent approach.",
+    "horizon": "2-3 months (reassess after Q1 earnings)"
   },
 
   "sources": [
-    { "name": "Reuters", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/", "description": "Golden Dome $185B missile defense software selection exclusive" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/25/palantir-named-as-part-of-trump-administrations-18/", "description": "Golden Dome project impact analysis" },
-    { "name": "CoinCentral", "url": "https://coincentral.com/palantir-pltr-stock-rises-after-joining-185b-golden-dome-defense-project/", "description": "After-hours +1.25% on Golden Dome news" },
-    { "name": "GuruFocus", "url": "https://www.gurufocus.com/news/8743554/palantir-pltr-stock-rises-on-positive-analyst-outlook-and-defense-project-involvement", "description": "Rosenblatt Buy $200 reaffirmation" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/palantir-technologies-pltr-buy-rating-reiterated-at-rosenblatt-securities-2026-03-25/", "description": "Rosenblatt Buy reaffirmation details" },
-    { "name": "Reuters", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Maven designated program of record" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/", "description": "Iran combat deployment + Maven analysis" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rises-joining-185b-125942009.html", "description": "Golden Dome participation comprehensive analysis" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/pltr/forecast/", "description": "Analyst consensus $196.43" },
-    { "name": "WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/PLTR", "description": "52-week range $207.52/$66.12" }
+    { "name": "Reuters", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/", "description": "Golden Dome software development selection" },
+    { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-24/palantir-cto-sees-iran-war-as-first-major-conflict-driven-by-ai", "description": "CTO calls Iran war first AI-driven conflict" },
+    { "name": "Reuters", "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/", "description": "Maven AI official military adoption" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/25/palantir-named-as-part-of-trump-administrations-18/", "description": "Golden Dome $185B project analysis" },
+    { "name": "Investing.com", "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-reiterates-palantir-stock-buy-rating-on-missile-defense-contract-potential-93CH-4579647", "description": "Rosenblatt Buy maintained" },
+    { "name": "NYT", "url": "https://www.nytimes.com/2026/03/18/technology/silicon-valley-war-defense-tech.html", "description": "Iran war AI utilization analysis" },
+    { "name": "Fox News", "url": "https://www.foxnews.com/media/palantir-executive-says-ai-enabling-rapid-battlefield-planning-high-speed-us-strike-operations", "description": "CTO: AI enabled 2,000 strikes in 48 hours" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/", "description": "Analyst consensus target $199" },
+    { "name": "The Cerbat Gem", "url": "https://www.thecerbatgem.com/2026/03/24/e-ohman-j-or-asset-management-ab-purchases-new-position-in-palantir-technologies-inc-pltr.html", "description": "50-day/200-day moving averages, 52-week range" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Palantir lands $185B Golden Dome missile defense contract",
-      "text": "$PLTR (Mar 26) Maven program of record, now $185B Golden Dome missile defense software. 4-day slide snapped, AH +1.25%. Rosenblatt $200. $158.\n\n1/4",
+      "hook": "Palantir selected for $185B missile defense software",
+      "text": "$PLTR (3/26) $160.88 (+6.8%). Selected to co-develop Golden Dome $185B missile defense software with Anduril. Defense AI monopoly just got stronger.\n\n1/4",
       "thread": [
-        "Space-based shield intercepting ballistic, cruise, hypersonic missiles. Selected alongside Anduril from hundreds of firms.\n\n2/4",
-        "P/E 112x means good news gets faded by macro. IGV YTD -23%, oil $99. Pattern keeps repeating.\n\n3/4",
-        "Above 50-day, 200-day. Down 24% from high. Target $196 (+24%). Defense moat is thickening.\n\n4/4"
+        "AI supported 2,000 strikes in 48 hours during the Iran war. CTO calls it 'the first AI-driven major conflict.' Maven is now an official military program.\n\n2/4",
+        "The catch: P/E 252x. Good news may already be priced in. PEG 3.19 says it's expensive relative to growth.\n\n3/4",
+        "Reclaimed 50-day ($150), still below 200-day ($169). Target $199 (+23%). Q1 earnings in May is the next inflection point.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Golden Dome + Maven: the core of US defense AI",
-      "text": "$PLTR (Mar 26) $158\n\nOne week after Maven became an official military program, Palantir lands the $185B Golden Dome missile defense software contract. Space-based shield against ballistic, cruise, and hypersonic missiles. Rosenblatt reaffirmed Buy at $200.\n\n4-day decline snapped with AH +1.25%. But P/E 112x in a market where IGV is -23% and oil is $99 means every rally gets faded. Execution is flawless, macro is the problem.\n\nAbove 50-day and 200-day, bullish structure intact. Down 24% from high. Target $196 (+24%). When macro turns, this re-rates first."
+      "hook": "Palantir selected for $185B missile defense software",
+      "text": "$PLTR (3/26) $160.88 (+6.8%)\n\nSelected to co-develop Golden Dome $185B missile defense software with Anduril. Combined with Maven's official adoption, Palantir's defense AI monopoly is solidifying.\n\nThe only company whose AI supported 2,000 strikes in 48 hours during the Iran conflict. CTO declared it 'the first AI-driven war.' But at P/E 252x and PEG 3.19, the good news is substantially priced in.\n\nReclaimed 50-day ($150), below 200-day ($169). Target $199 (+23%). May Q1 earnings is the next decision point."
     },
     "telegram": {
-      "hook": "Golden Dome $185B software selection, Rosenblatt $200",
-      "text": "Palantir Daily Analysis (Mar 26)\n\nPrice: $158\n\nKey Developments\n- Golden Dome $185B missile defense software selected (with Anduril)\n- Rosenblatt Buy reaffirmed, $200 target\n- After-hours +1.25% (snaps 4-day slide)\n- Maven military-wide program of record (3/20)\n- Iran combat AI deployment\n- US commercial Q4 +137%\n- IGV YTD -23%, oil $99\n\nTechnical Position\n- 52-week high $207 vs current -24%\n- Above 50-day ($148), 200-day ($120): bullish\n- RSI 47, neutral\n\nTarget: $196 (+24%)\nVerdict: Hold (defense moat strengthened, await macro)"
+      "hook": "Palantir selected for $185B missile defense software",
+      "text": "Palantir Daily Analysis (3/26)\n\nPrice: $160.88 (+6.8%)\n\nKey Issues\n- Selected for Golden Dome $185B missile defense software\n- Maven AI officially adopted across US military\n- Iran war: AI supported 2,000 strikes in 48 hours\n- CTO declares 'first AI-driven major conflict'\n\nTechnical Position\n- Above 50-day ($150), below 200-day ($169)\n- P/E 252x, PEG 3.19\n\nTarget: $199 (+23%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Golden Dome $185B, Rosenblatt $200 reaffirmed",
-          "text": "$PLTR (Mar 26) Golden Dome $185B + Maven. Rosenblatt $200 Buy. AH +1.25%. $158.\n\n1/4",
+          "hook": "Palantir selected for $185B missile defense software",
+          "text": "$PLTR (3/26) $160.88 (+6.8%). Selected to co-develop Golden Dome $185B missile defense software with Anduril. Defense AI monopoly just got stronger.\n\n1/4",
           "thread": [
-            "Missile defense software. Anduril co-selected. Hundreds competed.\n\n2/4",
-            "P/E 112x. IGV -23%, oil $99. Good news faded by macro.\n\n3/4",
-            "50-day, 200-day above. High -24%. Target $196 (+24%).\n\n4/4"
+            "AI supported 2,000 strikes in 48 hours during the Iran war. CTO calls it 'the first AI-driven major conflict.' Maven is now an official military program.\n\n2/4",
+            "The catch: P/E 252x. Good news may already be priced in. PEG 3.19 says it's expensive relative to growth.\n\n3/4",
+            "Reclaimed 50-day ($150), still below 200-day ($169). Target $199 (+23%). Q1 earnings in May is the next inflection point.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Builds missile defense, can't defend against macro selloffs",
-          "text": "$PLTR (Mar 26) Building AI that intercepts missiles, but can't intercept a 4-day selloff. Golden Dome $185B landed, AH +1.25%. $158.\n\n1/4",
+          "hook": "War breaks out, Palantir stock goes up",
+          "text": "$PLTR (3/26) $160.88 (+6.8%). Golden Dome $185B missile defense. When conflict escalates, Palantir rallies. Unique business model.\n\n1/4",
           "thread": [
-            "Maven, Iran combat, Golden Dome. Three defense wins in one week. P/E 112x means the market shrugs.\n\n2/4",
-            "IGV -23%. Every software stock is in the bargain bin. PLTR just happens to have the highest price tag.\n\n3/4",
-            "Target $196 (+24%). Defense moat is ironclad. Valuation is the only debate.\n\n4/4"
+            "2,000 AI-assisted strikes in 48 hours. CTO calls it 'the first AI war.' This isn't sci-fi anymore.\n\n2/4",
+            "But P/E 252x means you're paying 252 years of earnings upfront. A great company and a great stock aren't always the same thing.\n\n3/4",
+            "Target $199 (+23%). Above 50-day, below 200-day. May earnings will decide if growth sustains the valuation.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Perfect news flow, stock won't cooperate. Frustrating",
-          "text": "$PLTR (Mar 26) Maven, Iran, Golden Dome. News couldn't be better. But 4 days down, AH +1.25%. $158.\n\n1/4",
+          "hook": "PLTR holders, today was a good day",
+          "text": "$PLTR (3/26) $160.88 (+6.8%). Golden Dome news sent it surging. If you've been holding PLTR, today felt great.\n\n1/4",
           "thread": [
-            "$185B missile defense software. The moat has never been deeper.\n\n2/4",
-            "P/E 112x and IGV -23% keep pulling it back. This isn't a PLTR problem, it's a market problem.\n\n3/4",
-            "Above 50-day, 200-day. Target $196 (+24%). Execution is proven. Time is needed.\n\n4/4"
+            "Maven adoption, Iran war validation, Golden Dome. No one can replace Palantir in defense AI. That's confirmed now.\n\n2/4",
+            "The concern is P/E 252x. It could rally on news then pull back at earnings. The rollercoaster isn't over.\n\n3/4",
+            "Target $199 (+23%). May Q1 earnings is the next crossroads. Holders: watch and wait. New buyers: dollar-cost average.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Golden Dome $185B, defense AI moat at maximum",
-          "text": "$PLTR (Mar 26) $158\n\nGolden Dome $185B + Maven + Iran combat. Rosenblatt $200. AH +1.25%. P/E 112x, IGV -23%. Above 50-day, 200-day. Target $196 (+24%)."
+          "hook": "Palantir selected for $185B missile defense software",
+          "text": "$PLTR (3/26) $160.88 (+6.8%)\n\nSelected to co-develop Golden Dome $185B missile defense software with Anduril. Combined with Maven's official adoption, Palantir's defense AI monopoly is solidifying.\n\nThe only company whose AI supported 2,000 strikes in 48 hours during the Iran conflict. CTO declared it 'the first AI-driven war.' But at P/E 252x and PEG 3.19, the good news is substantially priced in.\n\nReclaimed 50-day ($150), below 200-day ($169). Target $199 (+23%). May Q1 earnings is the next decision point."
         },
         "witty": {
-          "hook": "Intercepts missiles but not selloffs",
-          "text": "$PLTR (Mar 26) $158\n\nThe AI that intercepts hypersonic missiles couldn't intercept a 4-day tech selloff. Golden Dome $185B, Maven, Iran combat: three defense wins in a week. After-hours: +1.25%. The market's reaction? Polite golf clap.\n\nP/E 112x in a market where IGV is -23%. Every rally gets the macro eraser treatment. Rosenblatt says $200, the market says later.\n\nDefense moat is ironclad. Target $196 (+24%). When the market decides to care, it'll move fast."
+          "hook": "Conflict escalates, PLTR rallies",
+          "text": "$PLTR (3/26) $160.88 (+6.8%)\n\nGolden Dome $185B missile defense. Every time conflict escalates, Palantir goes up. 2,000 AI-assisted strikes in 48 hours, and the CTO calls it 'the first AI war.' Sci-fi is now reality.\n\nBut P/E 252x. That's 252 years of earnings baked in. A great company and a great stock aren't always the same.\n\nTarget $199 (+23%). May earnings will tell the story."
         },
         "empathy": {
-          "hook": "Best news flow in years, stock won't cooperate",
-          "text": "$PLTR (Mar 26) $158\n\nMaven, Iran combat verification, Golden Dome $185B. This is the best news flow Palantir has ever had. And the stock fell for 4 days. AH +1.25% on Golden Dome is a start, but it's frustrating.\n\nP/E 112x and IGV -23% mean the market isn't ready to reward growth at any price. This isn't about Palantir, it's about macro.\n\nAbove both moving averages, bullish structure intact. Target $196 (+24%). The moat is proven. Patience will be rewarded."
+          "hook": "PLTR holders, today was a good day",
+          "text": "$PLTR (3/26) $160.88 (+6.8%)\n\nGolden Dome sent it surging. Maven officially adopted. Iran war AI validated. If you've held through the volatility, today was rewarding.\n\nThe defense AI moat is undeniable now. But P/E 252x means the rollercoaster continues. Good news rallies followed by earnings pullbacks is a familiar pattern.\n\nTarget $199 (+23%). Holders: keep watching. New buyers: dollar-cost averaging is the safe play."
         }
       }
     }
