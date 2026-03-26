@@ -2,11 +2,11 @@
   "symbol": "PLTR",
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-26",
-  "currentPrice": 154.96,
-  "marketCap": "$313.2B",
+  "currentPrice": 160.88,
+  "marketCap": "$325B",
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
-    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망. 다만 Forward P/E 114x의 극단적 밸류에이션이 변수.",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. Golden Dome $185B 미사일 방어 프로젝트 소프트웨어 개발자로 선정되면서 3/25 주가 +6.8% 급등. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망.",
     "howTheyMakeMoney": [
       "정부 계약 (Gotham) - 국방/정보기관 AI 분석",
       "기업 AI 플랫폼 (Foundry) - 대기업 데이터 통합",
@@ -26,42 +26,46 @@
   "keyMetrics": [
     {
       "name": "Trailing P/E",
-      "value": "222.7x",
-      "benchmark": "S&P 500 IT 섹터 평균 34.2x 대비 6.5배. S&P 500 전체 평균 약 23x 대비 9.7배 수준"
+      "value": "246x",
+      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 7.2배. S&P 500 전체 평균 약 23x 대비 10.7배 수준. 극단적 프리미엄"
     },
     {
       "name": "Forward P/E (FY2026E)",
-      "value": "103.2x ~ 115.9x",
-      "benchmark": "S&P 500 IT 섹터 평균 34.2x 대비 약 3배. 초고성장 AI 프리미엄이 반영된 수치"
+      "value": "120x",
+      "interpretation": "FY2026 EPS $1.34 기준. S&P 500 IT 섹터 평균 34x 대비 약 3.5배. 초고성장 AI 프리미엄 반영"
     },
     {
       "name": "매출 성장률 (FY2026E)",
       "value": "+65.4% YoY",
-      "benchmark": "FY2025 $4.48B에서 FY2026 $7.40B 전망. 성장 가속화"
+      "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. 성장 가속화"
     },
     {
       "name": "EPS (FY2026E)",
       "value": "$1.34",
-      "benchmark": "FY2025 $0.63에서 +112.7% 성장 전망"
+      "interpretation": "FY2025 $0.63에서 +113% 성장 전망"
     },
     {
       "name": "시가총액",
-      "value": "$313.2B",
-      "benchmark": "발행주식 23.9억주. 52주 고점 $207.52 대비 -25.3%"
+      "value": "$325B",
+      "interpretation": "Golden Dome 수혜로 3/25 +6.8% 급등. 52주 고점 $207 대비 -22% 위치"
     },
     {
       "name": "52주 범위",
       "value": "$66.12 ~ $207.52",
-      "benchmark": "52주 평균 $152.97. 현재가는 평균 부근에 위치"
+      "interpretation": "현재가 $160.88은 52주 평균($153) 근처에서 반등 중"
     }
   ],
   "growthDrivers": [
     {
       "title": "Golden Dome $185B 미사일 방어 소프트웨어 선정 (3/25)",
-      "description": "Reuters 보도에 따르면 Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발한다. Rosenblatt은 Buy 유지, 목표가 $200"
+      "description": "Reuters 보도: Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발한다. Rosenblatt는 Buy 유지, $200 목표가 재확인. 주가 +6.8% 급등의 직접적 촉매"
     },
     {
-      "title": "Polymarket 사기 탐지 파트너십 (3/10)",
+      "title": "체코 중앙은행 PLTR 매수 (3/26)",
+      "description": "체코 중앙은행이 24,730주를 신규 매수. 중앙은행의 AI 방산주 매수는 제도권 신뢰의 강력한 신호"
+    },
+    {
+      "title": "Polymarket 사기 탐지 파트너십 (3/26)",
       "description": "Polymarket과 TWG AI와 함께 Vergence AI 기반 스포츠 베팅 사기 탐지 플랫폼 공동 개발. $244B 규모 사기 방지 시장 진출의 신호탄"
     },
     {
@@ -79,10 +83,6 @@
     {
       "title": "FY2026 매출 가이던스 $7.19B~$7.41B (+60~65%)",
       "description": "경영진이 성장 가속화를 자신. 미국 상업 부문이 핵심 성장 엔진으로 부상"
-    },
-    {
-      "title": "미국 상업 매출 Q4 +137% 폭발",
-      "description": "Q4 미국 상업 매출 $650M(+137% YoY). $1M+ 딜 180건, $10M+ 딜 61건. AIP 부트캠프가 빠른 고객 전환의 핵심 동력"
     }
   ],
   "competitiveAdvantage": {
@@ -108,7 +108,7 @@
     "competitors": [
       {
         "name": "Anduril Industries",
-        "detail": "방산 AI/드론 신생 기업. $60B 밸류에이션으로 펀딩 라운드 진행 중. Golden Dome에서 Palantir와 협력 관계"
+        "detail": "방산 AI/드론 신생 기업. Golden Dome에서 Palantir와 협력 관계. $60B 밸류에이션"
       },
       {
         "name": "Snowflake / Databricks",
@@ -127,181 +127,225 @@
   "recentNews": [
     {
       "date": "2026-03-26",
+      "headline": "체코 중앙은행, PLTR 24,730주 신규 매수",
+      "significance": "중앙은행이 AI 방산주를 매수한 것은 제도권 신뢰의 강력한 시그널. 기관 투자자 수요 확대의 단면",
+      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html"
+    },
+    {
+      "date": "2026-03-26",
       "headline": "Polymarket과 AI 사기 탐지 파트너십 공개",
       "significance": "Palantir가 Polymarket, TWG AI와 함께 Vergence AI 기반 스포츠 베팅 사기 탐지 플랫폼을 개발. $244B 사기 방지 시장 진출",
       "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/"
     },
     {
       "date": "2026-03-25",
-      "headline": "Golden Dome $185B 미사일 방어 시스템 소프트웨어 선정",
-      "significance": "트럼프 행정부의 $185B Golden Dome 미사일 방어 프로젝트에서 Anduril과 함께 소프트웨어 개발 파트너로 선정",
-      "url": "https://www.fool.com/investing/2026/03/25/palantir-named-as-part-of-trump-administrations-18/"
+      "headline": "Golden Dome $185B 미사일 방어 소프트웨어 선정, 주가 +6.8% 급등",
+      "significance": "트럼프 행정부의 $185B 우주 기반 미사일 방어 시스템에서 Anduril과 함께 소프트웨어 개발자로 선정. 당일 +6.8% 급등",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"
     },
     {
       "date": "2026-03-24",
-      "headline": "영국 FCA, Palantir 계약에 대해 의회 앞에서 방어",
+      "headline": "영국 FCA, Palantir 계약 의회 방어",
       "significance": "영국 금융감독원이 Palantir Foundry 트라이얼 계약의 정당성을 의회에서 설명. 규제 데이터 접근 우려에 대응",
       "url": "https://www.reuters.com/technology/britains-fca-defends-palantir-contract-award-before-lawmakers-2026-03-24/"
     },
     {
       "date": "2026-03-20",
       "headline": "Pentagon, Maven Smart System을 공식 Program of Record로 지정",
-      "significance": "국방부 부장관 Steve Feinberg가 Maven AI를 정식 프로그램으로 지정하는 메모 발표. 미군 전체 장기 적용 확정",
+      "significance": "국방부 부장관이 Maven AI를 정식 프로그램으로 지정. 미군 전체 장기 적용 확정",
       "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/"
-    },
-    {
-      "date": "2026-03-11",
-      "headline": "LG CNS와 전략적 파트너십 체결, 한국 시장 본격 진출",
-      "significance": "LG CNS와 전략적 파트너십으로 LG 그룹 전체에 Foundry, AIP 도입. 한국 기업 AI 전환(AX) 가속화 목표",
-      "url": "https://koreajoongangdaily.joins.com/news/2026-03-12/business/industry/LG-CNS-partners-with-Palantir-to-introduce-AI-solutions-to-Korean-companies/2543383"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 195.23,
+    "consensusTarget": 198.59,
     "highTarget": 260,
     "lowTarget": 50,
-    "upsidePercent": 26,
+    "upsidePercent": 23.4,
     "buyCount": 13,
     "holdCount": 8,
     "sellCount": 1,
-    "notableComment": ""
+    "notableComment": "Rosenblatt는 Golden Dome 선정 후 Buy, $200 목표가 재확인. Motley Fool은 '월스트리트에서 가장 미움 받는 기술주이지만 매수할 만하다'고 평가"
   },
   "risks": [
     {
+      "severity": "critical",
       "title": "극단적 밸류에이션",
-      "description": "Trailing P/E 222x, Forward P/E 103~116x로 IT 섹터 평균(34x)의 3~6배. 성장 기대가 조금만 꺾여도 급락 가능"
+      "description": "Trailing P/E 246x, Forward P/E 120x로 IT 섹터 평균(34x)의 3~7배. 성장 기대가 조금만 꺾여도 급락 가능"
     },
     {
+      "severity": "high",
       "title": "정부 예산 의존도",
       "description": "매출의 상당 부분이 미국 정부/국방 계약. 정권 교체나 국방비 삭감 시 타격 가능"
     },
     {
+      "severity": "medium",
       "title": "주식 보상(SBC) 희석",
       "description": "주식 수가 1년간 4.67% 증가. 지속적인 SBC로 기존 주주 가치 희석 우려"
     },
     {
+      "severity": "medium",
       "title": "지정학적 리스크와 윤리 논란",
       "description": "이란/가자 전쟁 관련 AI 무기 기술 제공에 대한 윤리적 비판. 영국 FCA 계약도 의회에서 논란"
     },
     {
+      "severity": "medium",
       "title": "고점 대비 큰 하락 가능성",
-      "description": "52주 고점 $207.52에서 이미 -25% 하락. 기술주 조정 시 추가 하락 리스크 상존"
+      "description": "52주 고점 $207에서 -22% 하락. 기술주 추가 조정 시 밸류에이션 부담으로 더 큰 낙폭 가능"
     }
   ],
   "buyReasons": [
     {
-      "title": "AI 국방 독점적 위치",
-      "description": "Golden Dome $185B + Maven 정식 채택 + 이란 전쟁 실전 검증. 미국 국방 AI의 사실상 표준"
+      "title": "AI 국방 독점적 위치 강화",
+      "rationale": "Golden Dome $185B + Maven 정식 채택 + 이란 전쟁 실전 검증. 미국 국방 AI의 사실상 표준. 체코 중앙은행까지 매수하는 기관 수요 확대"
     },
     {
       "title": "상업 부문 폭발적 성장",
-      "description": "미국 상업 매출 Q4 +137%. AIP 부트캠프 전환율이 높아 지속 가능한 성장 동력"
+      "rationale": "미국 상업 매출 Q4 +137%. AIP 부트캠프 전환율이 높아 지속 가능한 성장 동력"
     },
     {
       "title": "글로벌 확장 가속",
-      "description": "LG CNS(한국), FCA(영국), Polymarket(블록체인) 등 다양한 산업과 지역으로 확장 중"
+      "rationale": "LG CNS(한국), FCA(영국), Polymarket(블록체인) 등 다양한 산업과 지역으로 확장 중"
     },
     {
       "title": "애널리스트 목표가 대비 상승 여력",
-      "description": "평균 목표가 $195(+26%), Wedbush $230(+48%). 현재 조정 구간이 진입 기회일 수 있음"
+      "rationale": "평균 목표가 $199(+23%), Wedbush $230(+43%). Golden Dome 후 상향 가능성 높음"
     }
   ],
   "technicalPosition": {
-    "summary": "50일/200일 이동평균 위에서 거래 중이나 RSI 37로 과매도 근접. MACD 약세 신호",
-    "rsi14": 37.2,
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 67.0,
     "sma50": 146.33,
+    "sma50Signal": "above",
     "sma200": 142.27,
-    "support": "$128.84 (2026년 저점)",
-    "resistance": "$207.18 (사상 최고가)",
-    "trend": "단기 약세, 중장기 상승 추세 유지. 가격이 50일선($146) 위에 있어 기본 추세는 양호하나 RSI 37로 모멘텀은 약함",
-    "signal": "중립 (관망)"
+    "sma200Signal": "above",
+    "rsi": 45,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Golden Dome $185B 미사일 방어, Maven 미군 정식 채택, 이란 전쟁 실전 투입까지. 미국 국방 AI 1등 자리는 더욱 확고해졌고, 미국 상업 매출도 Q4 +137%로 폭발적 성장 중이다",
-    "가장 큰 리스크는 극단적 밸류에이션. Forward P/E 103~116x는 IT 섹터 평균(34x)의 3배 수준이라 성장 기대가 조금이라도 꺾이면 큰 폭의 가격 조정이 올 수 있다",
-    "52주 고점 $207에서 25% 하락한 $155, RSI 37로 과매도 근접 구간. 애널리스트 22명 평균 목표가 $195로 상승 여력 26%. 장기 투자자에게 분할 매수 접근이 유효하다",
-    "LG CNS 한국 진출, Polymarket 사기 탐지 등 신사업 확장도 긍정적이나 SBC 희석과 윤리 논란은 계속 주시해야 한다"
+    "Golden Dome $185B 미사일 방어 소프트웨어 선정으로 3/25 주가 +6.8% 급등했다. Maven 미군 정식 채택, 체코 중앙은행 매수까지 겹치며 국방 AI 최강자 위치가 더욱 공고해졌다",
+    "상업 매출도 Q4 +137% 폭발. LG CNS로 한국 진출, Polymarket 사기 탐지 등 사업 영역이 빠르게 넓어지고 있다. FY2026 매출 +65% 성장 가이던스는 가속 중",
+    "가장 큰 리스크는 극단적 밸류에이션이다. Forward P/E 120x는 IT 섹터 평균(34x)의 3.5배 수준이라 성장 기대가 조금이라도 꺾이면 큰 폭의 가격 조정이 올 수 있다",
+    "50일선($146)과 200일선($142) 위에서 거래 중으로 기본 추세는 양호. 애널리스트 평균 목표가 $199(+23%). 장기 투자자에게 분할 매수 접근이 유효하다"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "",
+    "summary": "Golden Dome, Maven 정식 채택으로 국방 AI 해자가 한층 깊어졌다. 상업 매출 폭발과 글로벌 확장도 긍정적. 다만 Forward P/E 120x의 극단적 밸류에이션을 감안해 분할 매수가 안전하다",
     "horizon": "12개월 이상 장기 투자"
   },
   "sources": [
     {
-      "name": "MacroTrends - PLTR Stock Price History",
-      "url": "https://www.macrotrends.net/stocks/charts/PLTR/palantir-technologies/stock-price-history"
+      "name": "Reuters - Golden Dome 소프트웨어 개발",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/",
+      "description": "$185B Golden Dome 미사일 방어 소프트웨어 개발자 선정"
     },
     {
-      "name": "StockAnalysis - PLTR Forecast & Price Targets",
-      "url": "https://stockanalysis.com/stocks/pltr/forecast/"
+      "name": "Motley Fool - Golden Dome",
+      "url": "https://www.fool.com/investing/2026/03/25/palantir-named-as-part-of-trump-administrations-18/",
+      "description": "트럼프 행정부 $185B 미사일 방어 프로젝트 Palantir 선정"
     },
     {
-      "name": "Motley Fool - Golden Dome Project",
-      "url": "https://www.fool.com/investing/2026/03/25/palantir-named-as-part-of-trump-administrations-18/"
+      "name": "Motley Fool - Polymarket 파트너십",
+      "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/",
+      "description": "Polymarket AI 사기 탐지 파트너십 분석"
     },
     {
-      "name": "Motley Fool - Polymarket Partnership",
-      "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/"
+      "name": "Reuters - UK FCA 계약 방어",
+      "url": "https://www.reuters.com/technology/britains-fca-defends-palantir-contract-award-before-lawmakers-2026-03-24/",
+      "description": "영국 금융감독원 Palantir 계약 의회 방어"
     },
     {
-      "name": "Reuters - UK FCA Palantir Contract",
-      "url": "https://www.reuters.com/technology/britains-fca-defends-palantir-contract-award-before-lawmakers-2026-03-24/"
+      "name": "American Banking News - 체코 중앙은행 매수",
+      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html",
+      "description": "체코 중앙은행 24,730주 신규 매수"
     },
     {
-      "name": "Motley Fool - Maven Program of Record",
-      "url": "https://www.fool.com/investing/2026/03/22/the-pentagon-just-dropped-a-bombshell-for-palantir/"
+      "name": "MarketBeat - PLTR 목표가",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/",
+      "description": "애널리스트 22명 평균 목표가 $198.59"
     },
     {
-      "name": "Korea JoongAng Daily - LG CNS Partnership",
-      "url": "https://koreajoongangdaily.joins.com/news/2026-03-12/business/industry/LG-CNS-partners-with-Palantir-to-introduce-AI-solutions-to-Korean-companies/2543383"
+      "name": "TheMarketsDailey - PLTR +6.8% 급등",
+      "url": "https://www.themarketsdaily.com/2026/03/25/palantir-technologies-nasdaqpltr-trading-6-8-higher-heres-what-happened.html",
+      "description": "Golden Dome 수혜로 +6.8% 급등, 거래량 12% 증가"
     },
     {
-      "name": "WorldPERatio - S&P 500 Sectors P/E",
-      "url": "https://worldperatio.com/sp-500-sectors/"
+      "name": "Investing.com - Rosenblatt Buy $200",
+      "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-reiterates-palantir-stock-buy-rating-on-missile-defense-contract-potential-93CH-4579647",
+      "description": "Rosenblatt Buy 유지, $200 목표가 재확인"
     },
     {
-      "name": "AltIndex - PLTR Technical Analysis",
-      "url": "https://altindex.com/ticker/pltr/technical-analysis"
+      "name": "Simply Wall St - Golden Dome 밸류에이션 분석",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/palantirs-golden-dome-role-reshapes-defense-exposure-and-val",
+      "description": "Golden Dome이 Palantir 방산 매출 비중과 밸류에이션에 미치는 영향 분석"
     },
     {
-      "name": "Investing.com - PLTR Moving Averages",
-      "url": "https://www.investing.com/equities/palantir-technologies-inc-technical"
-    },
-    {
-      "name": "Capital.com - Palantir Stock Forecast",
-      "url": "https://capital.com/en-int/market-updates/palantir-stock-forecast-18-03-2026"
+      "name": "Korea JoongAng Daily - LG CNS 파트너십",
+      "url": "https://koreajoongangdaily.joins.com/news/2026-03-12/business/industry/LG-CNS-partners-with-Palantir-to-introduce-AI-solutions-to-Korean-companies/2543383",
+      "description": "LG CNS와 전략적 파트너십, 한국 시장 AI 전환 가속"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $154.96 | Golden Dome $185B + Maven 정식 채택",
-      "text": "PLTR 분석 요약\n\n현재가 $154.96 | 시총 $313B\nForward P/E 103~116x (IT 섹터 평균 34x의 3배)\n\nGolden Dome $185B 미사일 방어 소프트웨어 선정\nMaven AI 미군 공식 프로그램 채택\n상업 매출 Q4 +137% 폭발\n\n목표가 $195 (애널리스트 컨센서스)\n조건부 매수 (분할 매수)",
+      "hook": "PLTR +6.8% 급등, Golden Dome $185B 수혜",
+      "text": "$PLTR $160.88(+6.8%)\n\nGolden Dome $185B 미사일 방어 소프트웨어 선정. Maven 미군 정식 채택에 이어 국방 AI 최강자 위치 굳히기.\n\n애널리스트 평균 $199(+23%)\n\n1/4",
       "thread": [
-        "1/ PLTR $154.96 - Golden Dome $185B 미사일 방어 + Maven 미군 정식 채택. 미국 국방 AI 1등의 위치가 더 강해졌다",
-        "2/ 상업 매출도 폭발 중. Q4 미국 상업 +137% YoY. LG CNS와 한국 시장 진출, Polymarket 사기 탐지까지. 사업 영역이 빠르게 넓어지고 있다",
-        "3/ 문제는 밸류에이션. Forward P/E 103~116x는 IT 섹터 평균 34x의 3배. 성장 둔화 시 급락 리스크가 크다",
-        "4/ 52주 고점 $207에서 25% 조정, RSI 37로 과매도 근접. 애널리스트 평균 목표가 $195(+26%). 장기 투자자에게 분할 매수 구간일 수 있다"
+        "국방 AI 독점 라인업:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 프로그램\n- 이란 전쟁 실전 검증\n- 체코 중앙은행까지 매수\n\n이 조합을 대체할 경쟁사는 없다\n\n2/4",
+        "상업도 터지는 중. Q4 미국 상업 +137%.\n- LG CNS로 한국 진출\n- Polymarket 사기 탐지\n- 영국 FCA 트라이얼\n\nFY2026 매출 $7.4B(+65%) 가이던스\n\n3/4",
+        "리스크: Forward P/E 120x(IT 평균 34x의 3.5배). SBC 희석 연 4.67%. 밸류에이션이 최대 약점.\n\n50일/200일선 위. 분할 매수 유효.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR 심층 분석 - 국방 AI 왕좌의 빛과 그림자",
-      "text": "Palantir $154.96 | 시총 $313B\n\nGolden Dome $185B 미사일 방어 소프트웨어 선정, Maven AI 미군 정식 프로그램 채택, 이란 전쟁 실전 투입. 국방 AI의 독보적 위치.\n\n상업도 터지고 있다. Q4 미국 상업 매출 +137%, LG CNS 한국 진출, Polymarket 사기 탐지 등 빠르게 확장 중.\n\n하지만 Forward P/E 103~116x. IT 섹터 평균(34x)의 3배라는 극단적 밸류에이션이 최대 리스크.\n\n52주 고점에서 25% 빠진 지금이 기회인지, 아직 비싼지는 성장 지속 여부에 달렸다.\n\n애널리스트 22명 컨센서스 Buy, 평균 목표가 $195(+26%).\n조건부 매수, 분할 진입 추천."
+      "hook": "PLTR: Golden Dome으로 국방 AI 왕좌 더 굳건해졌다",
+      "text": "$PLTR $160.88(+6.8%)\n\nGolden Dome $185B 미사일 방어 소프트웨어 개발자로 선정됐다. Maven 미군 정식 채택, 이란 전쟁 실전 투입, 체코 중앙은행 매수까지. 국방 AI 1등 자리가 더 확고해졌다.\n\n상업 매출도 Q4 +137%로 폭발 중. LG CNS로 한국, Polymarket으로 블록체인, FCA로 영국 금융 규제까지 영역을 넓히고 있다.\n\nForward P/E 120x는 IT 섹터 평균(34x)의 3.5배. 이 밸류에이션이 최대 리스크. 성장이 조금이라도 꺾이면 큰 조정이 올 수 있다.\n\n50일선, 200일선 위에서 거래 중. 애널리스트 평균 $199(+23%). 장기 분할 매수 접근 유효."
     },
     "telegram": {
-      "hook": "PLTR $154.96 | 국방 AI 왕좌 + 극단적 밸류에이션",
-      "text": "Palantir Technologies (PLTR) $154.96\n시총 $313.2B | Forward P/E 103~116x\n\n핵심 뉴스:\n- Golden Dome $185B 미사일 방어 소프트웨어 선정\n- Maven AI 미군 공식 프로그램 채택\n- Polymarket 사기 탐지 파트너십\n- LG CNS 한국 시장 진출\n\n재무:\n- FY2026E 매출 $7.4B (+65%)\n- EPS $1.34 (+113%)\n\n기술적:\n- RSI 37 (과매도 근접)\n- 50일선 $146 위에서 거래\n- 52주 고점 $207 대비 -25%\n\n애널리스트 22명 Buy, 목표가 $195(+26%)\n\n결론: 조건부 매수 (분할 매수 추천)\n성장은 확실하지만 밸류에이션이 극단적. 분할 진입이 안전."
+      "hook": "PLTR 일일 분석 (3/26)",
+      "text": "Palantir $160.88 (+6.8%) | 시총 $325B\nForward P/E 120x | RSI 45\n\n핵심 뉴스\n- Golden Dome $185B 미사일 방어 소프트웨어 선정\n- 체코 중앙은행 24,730주 매수\n- Polymarket 사기 탐지 파트너십\n- Maven 미군 공식 프로그램 채택\n\n재무 전망\n- FY2026E 매출 $7.4B (+65%)\n- EPS $1.34 (+113%)\n\n기술적: 50일($146), 200일($142) 위에서 거래\n애널리스트 22명 Buy, 목표가 $199(+23%)\n\n판단: Buy (분할 매수). 국방 AI 해자 강화 + 상업 폭발"
     },
     "tones": {
       "x": {
-        "fact": "PLTR $154.96. Golden Dome $185B 선정, Maven 미군 정식 채택. FY2026E 매출 $7.4B(+65%). Forward P/E 103x. 애널리스트 22명 Buy, 목표가 $195.",
-        "witty": "Palantir가 미사일 방어도 하고 베팅 사기 잡기도 한다. 만능 AI 회사인데 P/E가 103x? 성장이 이 가격표를 감당할 수 있을지가 관건이다.",
-        "empathy": "PLTR 고점 $207에서 25% 빠져서 마음 아픈 분들. RSI 37이면 과매도 근접. 장기 스토리는 여전히 강력하니 조급해하지 마세요."
+        "fact": {
+          "hook": "PLTR +6.8% 급등, Golden Dome $185B 수혜",
+          "text": "$PLTR $160.88(+6.8%)\n\nGolden Dome $185B 미사일 방어 소프트웨어 선정. Maven 미군 정식 채택에 이어 국방 AI 최강자 위치 굳히기.\n\n애널리스트 평균 $199(+23%)\n\n1/4",
+          "thread": [
+            "국방 AI 독점 라인업:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 프로그램\n- 이란 전쟁 실전 검증\n- 체코 중앙은행까지 매수\n\n이 조합을 대체할 경쟁사는 없다\n\n2/4",
+            "상업도 터지는 중. Q4 미국 상업 +137%.\n- LG CNS로 한국 진출\n- Polymarket 사기 탐지\n- 영국 FCA 트라이얼\n\nFY2026 매출 $7.4B(+65%) 가이던스\n\n3/4",
+            "리스크: Forward P/E 120x(IT 평균 34x의 3.5배). SBC 희석 연 4.67%. 밸류에이션이 최대 약점.\n\n50일/200일선 위. 분할 매수 유효.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "미사일도 막고 도박 사기도 잡는 회사 근황",
+          "text": "$PLTR $160.88(+6.8%)\n\nGolden Dome $185B 미사일 방어에 뽑혔다. 미사일도 막고, 도박 사기도 잡고(Polymarket), 한국 대기업 AI도 해주는 중.\n\nP/E 246x. 만능인 대신 비싸다\n\n1/4",
+          "thread": [
+            "Palantir 이력서:\n- 미군 AI 공식 시스템(Maven)\n- $185B 미사일 방어(Golden Dome)\n- 이란 전쟁 실전 투입\n- 체코 중앙은행도 샀음\n\n이 이력서로 P/E 246배 받는 중\n\n2/4",
+            "Q4 미국 상업 매출 +137%. LG CNS, Polymarket, 영국 FCA.\n\n근데 주식 보상으로 매년 주식이 4.67% 늘어남. 파이는 커지는데 조각도 늘어나는 중\n\n3/4",
+            "52주 고점 $207에서 -22%. 6.8% 급등해도 아직 갈 길이 멀다.\n\n목표가 $199(+23%). 분할 매수하고 미사일 방어 수혜를 기다리자\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "PLTR 홀더들, 드디어 좋은 뉴스가 쏟아졌다",
+          "text": "$PLTR $160.88(+6.8%)\n\n고점 $207에서 빠질 때 힘들었죠. 오늘은 좋은 소식이 많아요. Golden Dome $185B 선정에 체코 중앙은행까지 매수.\n\n인내의 보상이 시작되고 있어요\n\n1/4",
+          "thread": [
+            "국방 라인업이 정말 강력해졌어요:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 채택\n- 이란 전쟁 실전 검증\n\n이건 다른 회사가 따라할 수 없는 해자예요\n\n2/4",
+            "상업도 좋아요. Q4 +137%, LG CNS 한국 진출, Polymarket 사기 탐지. 매출 $7.4B(+65%) 가이던스.\n\n성장은 확실합니다\n\n3/4",
+            "솔직히 Forward P/E 120x는 걱정이에요. 하지만 50일/200일선 위이고 방향은 맞아요.\n\n분할 매수로 접근하면 리스크를 줄일 수 있어요. 목표가 $199(+23%). 힘내세요\n\n4/4"
+          ]
+        }
       },
       "threads": {
-        "fact": "Palantir 핵심 정리\n\n현재가 $154.96, 시총 $313B\nGolden Dome $185B + Maven 정식 채택으로 국방 AI 독점 강화\nFY2026E 매출 $7.4B(+65%), EPS $1.34(+113%)\nForward P/E 103~116x (IT 섹터 평균 34x의 3배)\n애널리스트 22명 Buy, 평균 목표가 $195",
-        "witty": "Palantir 근황: 미사일도 막고, 도박 사기도 잡고, 한국 대기업 AI도 해주는 중.\n이 정도면 AI계의 맥가이버인데, 가격표가 P/E 103x라서 사는 것도 도박 같은 느낌.\n그래도 고점에서 25% 빠졌으니 관심은 가진다.",
-        "empathy": "PLTR 주주분들, 고점 $207에서 $155까지 내려오는 동안 힘드셨죠.\n\n하지만 Golden Dome 선정, Maven 정식 채택, 상업 매출 +137%. 펀더멘털은 오히려 더 강해졌어요.\n\nRSI 37이면 단기 바닥 근처. 장기 투자 관점에서 분할 매수 구간일 수 있습니다."
+        "fact": {
+          "hook": "PLTR: Golden Dome으로 국방 AI 왕좌 더 굳건해졌다",
+          "text": "$PLTR $160.88(+6.8%)\n\nGolden Dome $185B 미사일 방어 소프트웨어 개발자로 선정됐다. Maven 미군 정식 채택, 이란 전쟁 실전 투입, 체코 중앙은행 매수까지. 국방 AI 1등 자리가 더 확고해졌다.\n\n상업 매출도 Q4 +137%로 폭발 중. LG CNS로 한국, Polymarket으로 블록체인, FCA로 영국 금융 규제까지 영역을 넓히고 있다.\n\nForward P/E 120x는 IT 섹터 평균(34x)의 3.5배. 이 밸류에이션이 최대 리스크. 성장이 조금이라도 꺾이면 큰 조정이 올 수 있다.\n\n50일선, 200일선 위에서 거래 중. 애널리스트 평균 $199(+23%). 장기 분할 매수 접근 유효."
+        },
+        "witty": {
+          "hook": "PLTR: AI계의 맥가이버, 미사일부터 도박까지",
+          "text": "$PLTR $160.88(+6.8%)\n\nGolden Dome $185B에 뽑혔다. 미사일 방어 소프트웨어를 만들면서, 동시에 Polymarket 도박 사기도 잡고, 한국 LG CNS AI 전환도 해주는 중. AI계의 만능 해결사.\n\nMaven이 미군 공식 시스템이 됐고, 체코 중앙은행까지 주식을 샀다. 중앙은행이 사는 주식이 있다고?\n\n근데 P/E 246배다. 이 가격표를 감당하려면 매출이 매년 65%씩 계속 커야 한다. 성장이 멈추는 순간 롤러코스터 출발.\n\n그래도 고점에서 22% 빠진 지금, 방산 AI 최강자를 살 기회일 수 있다. 목표가 $199(+23%)."
+        },
+        "empathy": {
+          "hook": "PLTR 주주들에게, 드디어 좋은 바람이 불고 있어요",
+          "text": "$PLTR $160.88(+6.8%)\n\n고점 $207에서 여기까지 내려오는 동안 마음이 무거우셨을 거예요. 하지만 오늘은 좋은 소식이 많습니다.\n\nGolden Dome $185B 미사일 방어 소프트웨어에 선정됐고, Maven도 미군 공식 시스템이 됐어요. 체코 중앙은행까지 매수했다는 건 기관 투자자들의 신뢰가 두터워지고 있다는 뜻이에요.\n\n상업 매출도 Q4 +137%로 폭발 중. LG CNS, Polymarket, 영국 FCA까지. 사업이 빠르게 넓어지고 있어요.\n\nForward P/E 120x가 걱정이시죠. 맞아요, 밸류에이션은 여전히 높아요. 하지만 50일/200일선 위이고 성장 방향은 확실합니다.\n\n애널리스트 평균 $199(+23%). 분할 매수로 차분히 접근해보세요."
+        }
       }
     }
   }

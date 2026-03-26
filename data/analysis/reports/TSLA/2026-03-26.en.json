@@ -3,10 +3,10 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-26",
   "currentPrice": 385.95,
-  "marketCap": "1.43T",
+  "marketCap": "$1.43T",
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robots, energy, and AI chips",
-    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. In 2025, annual revenue was $94.8B with GAAP EPS of $1.08, achieving 20.1% gross margin in Q4 2025 (highest in 2 years). FSD shifted to a $99/month subscription model to maximize recurring revenue. Key catalysts are set for April 2026: Cybercab production start and Roadster unveil.",
+    "oneLiner": "World's largest EV maker and 'Physical AI Platform' spanning autonomous driving, robotics, energy, and AI chips",
+    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxi, Optimus humanoid robot, and Megapack energy storage. FY2025 revenue hit $94.8B with GAAP EPS of $1.08, and Q4 2025 gross margins recovered to 20.1%, a two-year high. FSD transitioned to a $99/month subscription model, and April 2026 brings Cybercab production start and Roadster reveal as key catalysts.",
     "howTheyMakeMoney": [
       "EV sales (Model 3/Y, Cybertruck)",
       "Energy storage and generation (Megapack, Powerwall, Solar)",
@@ -19,331 +19,226 @@
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "356x",
-      "interpretation": "Extreme premium vs S&P 500 avg ~23x and auto sector avg ~12x. Reflects AI/robotaxi future value but deeply overvalued on current earnings"
+      "value": "357x",
+      "interpretation": "Extreme premium vs S&P 500 avg ~23x and auto sector avg ~12x. Prices in AI/robotaxi future, but overvalued on current earnings basis"
     },
     {
       "name": "Forward P/E",
       "value": "172x",
-      "interpretation": "Based on 2026 EPS estimate of $2.25. Still 4x+ above growth stock avg of 30-40x. Prices in explosive robotaxi and energy growth"
+      "interpretation": "Based on 2026E EPS $2.25. Still 4x+ above growth stock avg of 30-40x. Bakes in explosive robotaxi and energy growth"
     },
     {
       "name": "Revenue Growth (YoY)",
       "value": "+1%",
-      "interpretation": "2025 revenue $97.8B, barely grew YoY. 2026 consensus expects 15% growth to $108.9B"
+      "interpretation": "2025 revenue $97.8B grew just 1% YoY. 2026 expected to grow 15% to $108.9B"
     },
     {
       "name": "Auto Gross Margin",
       "value": "16.3%",
-      "interpretation": "Down from 25%+ in 2022 due to price cuts and competition. Q4 showed recovery to 20.1%"
+      "interpretation": "Down significantly from 25%+ in 2022. Price competition and cost pressures. Q4 bounce to 20.1% signals recovery"
     },
     {
       "name": "Market Cap",
       "value": "$1.43T",
-      "interpretation": "Larger than Toyota, VW, GM, Ford, BMW, Mercedes, and Hyundai combined. Valued as AI platform, not automaker"
+      "interpretation": "Larger than Toyota, VW, GM, Ford, BMW, and Hyundai combined. Valued as AI platform, not car company"
     },
     {
       "name": "Annual Deliveries",
       "value": "1.79M units",
-      "interpretation": "First-ever annual delivery decline (-1.1%). UBS projects Q1 2026 deliveries at 345K, down 18% YoY"
+      "interpretation": "First annual delivery decline (-1.1%) since going public. UBS expects Q1 2026 deliveries at 345K, down 18% YoY"
     }
   ],
   "growthDrivers": [
     {
-      "title": "Wedbush reaffirms Terafab as 'game changer' (3/25)",
-      "description": "Wedbush called the Terafab semiconductor plant plan a 'game changer,' reaffirming Outperform and $600 target. AI5 chip small-batch production starts late 2026, full production in 2027"
+      "title": "Oil price surge ($100/barrel) driving EV demand (3/26)",
+      "description": "Iran war pushed Brent crude to $99.75, US gasoline up 37% to $3.98, diesel above $5.30. Reuters reports used EV sales surging in Europe. High fuel costs directly accelerate EV adoption, benefiting Tesla"
     },
     {
-      "title": "European sales rebound after 13 months (Feb +11.8%)",
-      "description": "ACEA data shows Feb registrations up 11.8% YoY, first increase since Dec 2024. However, BYD grew 100%+ in the same period, intensifying market share competition"
+      "title": "Optimus3 robot video released, summer production start (3/25)",
+      "description": "Tesla released Optimus3 humanoid robot video showcasing reduction gearbox and dexterous hand design. Stock rose 2% pre-market. Summer 2026 production start confirms robot business is materializing"
     },
     {
-      "title": "Terafab $20-25B joint chip factory (3/22)",
-      "description": "Tesla, SpaceX, and xAI will jointly build the Terafab semiconductor factory in Austin. Plans to produce vehicle chips and AI satellite chips in-house. 2027 production target"
+      "title": "Wedbush calls Terafab a 'game changer' (3/25)",
+      "description": "Wedbush reaffirmed Outperform with $600 target, calling the Terafab semiconductor plant a 'game changer.' AI5 chip small-scale production in late 2026, volume production in 2027"
     },
     {
-      "title": "Cybercab April production + Roadster late April unveil",
-      "description": "Steerless fully autonomous robotaxi Cybercab production starts and next-gen Roadster unveil both scheduled for April. Two major catalysts concentrated in a short window"
+      "title": "Europe sales rebound after 13 months (Feb +11.8%)",
+      "description": "ACEA data shows Feb European registrations up 11.8% YoY, first increase since Dec 2024. China Feb sales up 42%. BYD grew 100%+ in the same period"
     },
     {
-      "title": "Netherlands FSD approval expected 4/10, EU expansion",
-      "description": "Tesla expects FSD Supervised approval from Dutch authorities by April 10. If approved, EU-wide expansion possible by summer"
+      "title": "April catalyst cluster: Cybercab, Roadster, FSD Europe",
+      "description": "Cybercab production start, Roadster reveal, Netherlands FSD approval (4/10), and Q1 earnings all concentrated in April"
     },
     {
-      "title": "China sales surge (+35% YoY) + $2.9B solar equipment",
-      "description": "Jan-Feb 2026 China sales up 35% YoY. Negotiating $2.9B equipment purchase from Chinese firms for 100GW US solar production capacity"
-    },
-    {
-      "title": "NHTSA escalates FSD probe, regulatory risk rises (3/19)",
-      "description": "NHTSA escalated investigation into FSD performance in fog, dust, and low-visibility conditions. Potential recall could impact robotaxi timeline"
+      "title": "NHTSA escalates FSD investigation (3/19)",
+      "description": "NHTSA upgraded its probe into FSD performance in low-visibility conditions. Potential recall could delay robotaxi timeline"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share, 8.4B miles FSD data, Supercharger NACS standard dominance, Terafab AI chip vertical integration",
+    "summary": "50%+ US EV market share, 8.4B FSD miles of data, Supercharger NACS standard dominance, Terafab AI chip vertical integration",
     "moats": [
-      {
-        "type": "Data Moat",
-        "description": "8.4 billion miles of real-world FSD driving data. Competitors cannot replicate this scale of autonomous driving training data in the short term"
-      },
-      {
-        "type": "Charging Infrastructure",
-        "description": "Supercharger network adopted as NACS standard. Ford, GM, and other competitors use Tesla charging infrastructure"
-      },
-      {
-        "type": "Vertical Integration",
-        "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all vertically integrated. Cost advantage and rapid innovation"
-      },
-      {
-        "type": "Brand Power",
-        "description": "Synonymous with EVs. High brand recognition and passionate fan base generate demand without marketing spend"
-      }
+      {"type": "Data Moat", "description": "8.4 billion real-world FSD miles. Impossible for competitors to replicate at this scale"},
+      {"type": "Charging Infrastructure", "description": "Supercharger NACS standard adopted by Ford, GM, and others"},
+      {"type": "Vertical Integration", "description": "Battery cells, AI chips (Terafab), software, and charging all in-house"},
+      {"type": "Brand Power", "description": "Synonymous with EVs. High brand recognition drives demand without marketing spend"}
     ],
     "competitors": [
-      {
-        "name": "BYD",
-        "detail": "China market leader, 100%+ growth in Europe. Rapidly catching Tesla with price competitiveness"
-      },
-      {
-        "name": "Zoox (Amazon)",
-        "detail": "Expanding robotaxi in SF, Las Vegas. Pilot operations in Austin, Miami. Direct robotaxi competitor"
-      },
-      {
-        "name": "Waymo (Alphabet)",
-        "detail": "Ahead of Tesla in autonomous ride-hailing commercialization. Over 200K paid rides weekly"
-      },
-      {
-        "name": "Hyundai/Kia",
-        "detail": "Expanding global EV market share with Ioniq, EV6. Competing on value and quality"
-      }
+      {"name": "BYD", "detail": "China #1, 100%+ growth in Europe. Leading on price competitiveness"},
+      {"name": "Zoox (Amazon)", "detail": "Expanding robotaxi in SF, Las Vegas, Austin, Miami"},
+      {"name": "Waymo (Alphabet)", "detail": "200K+ paid rides per week. Ahead on commercial autonomous driving"},
+      {"name": "Hyundai/Kia", "detail": "Expanding EV market share with value and quality"}
     ]
   },
   "recentNews": [
     {
-      "date": "2026-03-25",
-      "headline": "Tesla stock 'true believers' could be losing faith",
-      "significance": "Put/call ratio at 1.75, highest in 3 years. Options market signals downside risk exceeds upside over next 30 days",
-      "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html"
+      "date": "2026-03-26",
+      "headline": "Iran war pushes oil near $100, gas up 37% to $3.98, boosting EV demand",
+      "significance": "Brent crude $99.75, US gasoline surged 37%. Reuters: used EV sales jumping in Europe. High fuel prices accelerate EV adoption, directly benefiting Tesla",
+      "url": "https://www.reuters.com/business/energy/used-ev-sales-jump-europe-iran-war-drives-up-petrol-prices-2026-03-26/"
     },
     {
       "date": "2026-03-25",
-      "headline": "Korea Model S/X orders close 3/31, sunset officially begins",
-      "significance": "Model S/X discontinuation streamlines lineup. Resources can focus on Cybercab and affordable models",
-      "url": "https://www.teslarati.com/tesla-officially-begins-sunset-model-s-model-x/"
+      "headline": "Optimus3 robot video released, stock up 2% pre-market",
+      "significance": "Reduction gearbox and dexterous hand design revealed. Summer 2026 production start planned",
+      "url": "https://news.futunn.com/en/post/70585422/us-stock-movements-tesla-rose-nearly-2-in-pre-market"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Tesla's 'true believers' showing signs of losing faith",
+      "significance": "Put/call ratio hit 3-year high of 1.75. Options market signals more downside than upside risk in next 30 days",
+      "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html"
     },
     {
       "date": "2026-03-22",
       "headline": "Musk announces Terafab chip factory in Austin",
-      "significance": "Tesla, SpaceX, xAI joint venture at $20-25B scale. AI chip self-sufficiency. 2027 mass production target",
+      "significance": "Tesla, SpaceX, xAI joint venture for $20-25B semiconductor plant. AI chip self-sufficiency by 2027",
       "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/"
     },
     {
       "date": "2026-03-19",
-      "headline": "UBS slashes Q1 delivery forecast by 18% to 345K units",
-      "significance": "Reflects global EV demand softening, BYD/Xiaomi competition, and brand damage from Musk's DOGE controversy in Europe/China",
-      "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount"
-    },
-    {
-      "date": "2026-03-19",
-      "headline": "NHTSA escalates FSD probe over low-visibility performance",
-      "significance": "Safety concerns in fog and dust conditions. Potential recall or regulatory restrictions could delay robotaxi rollout",
+      "headline": "NHTSA escalates FSD low-visibility investigation",
+      "significance": "Safety concerns about FSD in fog and dust conditions. Potential recall or regulatory limits could delay robotaxi plans",
       "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 399,
+    "consensusTarget": 421,
     "highTarget": 600,
-    "lowTarget": 25.28,
-    "upsidePercent": 3.4,
+    "lowTarget": 119,
+    "upsidePercent": 9.1,
     "buyCount": 12,
     "holdCount": 13,
     "sellCount": 8,
-    "notableComment": "Wedbush Dan Ives at $600 calls 2026 Tesla's 'transformation year.' JPMorgan at $150 says valuation is 'disconnected from automotive fundamentals.' Morgan Stanley downgraded from Overweight to Equal Weight in Dec 2025"
+    "notableComment": "Wedbush's Dan Ives maintains $600 target, calling 2026 Tesla's 'transformation year.' JPMorgan at $150 warns of 'valuation disconnected from auto fundamentals.' Barclays raised to $325 on FSD progress"
   },
   "risks": [
-    {
-      "severity": "critical",
-      "title": "Extreme Valuation Risk",
-      "description": "TTM P/E of 356x is 15x the S&P 500 average of 23x. Any shortfall in growth expectations could trigger sharp declines. Forward P/E of 172x is 4x+ above growth stock averages"
-    },
-    {
-      "severity": "high",
-      "title": "FSD Regulatory and Safety Risk",
-      "description": "NHTSA escalated probe, California denied robotaxi application. Regulatory barriers could significantly delay robotaxi commercialization"
-    },
-    {
-      "severity": "high",
-      "title": "Core Auto Business Stagnation",
-      "description": "First annual delivery decline in 2025, 1% revenue growth. ASP down 8%, auto margin at 16.3%. BYD, Xiaomi intensifying low-cost competition"
-    },
-    {
-      "severity": "high",
-      "title": "Musk Risk (Brand Damage)",
-      "description": "DOGE political activity, Twitter fraud verdict causing European Jan sales to plunge 45%. Brand damage directly impacting demand"
-    },
-    {
-      "severity": "medium",
-      "title": "Competition Intensification (Uber-Rivian, Waymo)",
-      "description": "Uber's $1.25B robotaxi deal with Rivian. Waymo at 200K+ paid rides weekly. Tesla's robotaxi monopoly premium eroding"
-    },
-    {
-      "severity": "medium",
-      "title": "Geopolitical Risk",
-      "description": "Iran crisis driving oil price surge, Nasdaq in correction territory (-10%). Macro environment unfavorable for high-valuation growth stocks"
-    }
+    {"severity": "critical", "title": "Extreme valuation risk", "description": "TTM P/E 357x is 15x the S&P 500 average. Any growth slowdown could trigger sharp decline"},
+    {"severity": "high", "title": "FSD regulatory risk", "description": "NHTSA investigation escalation, California robotaxi denial. Regulatory barriers could significantly delay robotaxi timeline"},
+    {"severity": "high", "title": "Core auto business stagnation", "description": "First delivery decline, 1% revenue growth. ASP down 8%, auto margin at 16.3%. Intense competition from BYD, Xiaomi"},
+    {"severity": "high", "title": "Musk brand risk", "description": "DOGE politics drove European Jan sales down 45%. Insider selling ($25.6M by Kimbal Musk). Brand damage directly impacts demand"},
+    {"severity": "medium", "title": "Competition intensifying", "description": "Uber-Rivian $1.25B robotaxi deal. Waymo at 200K+ weekly rides. Eroding Tesla's robotaxi premium"},
+    {"severity": "medium", "title": "Geopolitical risk and oil surge", "description": "Iran war pushes oil near $100. Short-term EV demand positive but macro uncertainty pressures high-valuation stocks"}
   ],
   "buyReasons": [
-    {
-      "title": "April Catalyst Concentration",
-      "rationale": "Cybercab production, Roadster unveil, Netherlands FSD approval, and Q1 earnings all concentrated in April, creating short-term momentum potential"
-    },
-    {
-      "title": "Explosive Energy Business Growth",
-      "rationale": "Megapack revenue doubled in 2025, now 12% of total revenue. High-margin recurring infrastructure revenue reducing auto dependency"
-    },
-    {
-      "title": "Terafab AI Chip Vertical Integration",
-      "rationale": "In-house AI chip production reduces Nvidia dependency. Full vertical integration for vehicle, robot, and satellite chips maximizes cost competitiveness"
-    },
-    {
-      "title": "Oversold Territory Entry",
-      "rationale": "RSI near 30, down 23% from 52-week high. Institutional investors (BlackRock, Vanguard) increased positions in Q3-Q4 2025"
-    }
+    {"title": "Oil surge accelerates EV adoption", "rationale": "Gas at $3.98 (+37%), diesel $5.30. Europe used EV sales surging. High fuel costs make EV economics compelling"},
+    {"title": "April catalyst cluster", "rationale": "Cybercab production, Roadster reveal, FSD Europe approval, Q1 earnings all in April"},
+    {"title": "Energy business explosive growth", "rationale": "Megapack revenue doubled in 2025, now 12% of total. High-margin recurring revenue diversifying from auto"},
+    {"title": "Technical bounce signal", "rationale": "Falling wedge and harami pattern forming. RSI 39 near oversold. 38.2% Fibonacci retracement convergence"}
   ],
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
     "currentPositionPercent": 60.3,
     "sma50": 405,
-    "sma50Signal": "Below - Bearish",
+    "sma50Signal": "below",
     "sma200": 345,
-    "sma200Signal": "Above - Medium-term Support",
-    "rsi": 41,
-    "rsiSignal": "Neutral to bearish, approaching oversold"
+    "sma200Signal": "above",
+    "rsi": 39,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "April concentrates key catalysts: Cybercab production, Roadster unveil, FSD Europe approval, Q1 earnings. Any upside surprise could trigger a short-term reversal",
-    "Terafab strengthens the AI chip vision, but NHTSA probe escalation and California robotaxi denial increase FSD commercialization uncertainty",
-    "P/E of 356x is 15x the S&P 500 average. With the auto business stagnating, both robotaxi and robots must succeed to justify valuation",
-    "Technically below 50-day SMA ($405) with RSI at 41, bearish trend, but holding above 200-day SMA ($345). $364-368 support zone is critical"
+    "Oil prices surging 37% (gas at $3.98) from the Iran war are accelerating EV adoption. Used EV sales are jumping in Europe, providing a direct tailwind for Tesla demand",
+    "April brings a cluster of catalysts: Cybercab production, Roadster reveal, FSD Europe approval, and Q1 earnings. Optimus3 robot production starts this summer. The growth story is alive",
+    "However, the 357x P/E (15x S&P 500 average) remains extreme, and NHTSA's FSD probe escalation plus California's robotaxi denial create uncertainty in the autonomous timeline",
+    "Technically, falling wedge and harami patterns suggest a bounce, but the stock trades below its 50-day SMA ($405). Analyst consensus target $421 (+9%)"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Rational to wait for April catalyst outcomes. Extreme valuation and regulatory uncertainty coexist with technical bounce potential from oversold conditions",
+    "summary": "Oil surge creates a favorable EV demand environment, but extreme valuation and regulatory uncertainty persist. Waiting for April catalyst results is the prudent approach. Long-term investors can consider $340-365 for dollar-cost averaging",
     "horizon": "3-6 months"
   },
   "sources": [
-    {
-      "name": "Techi.com",
-      "url": "https://www.techi.com/tesla-stock-today/",
-      "description": "TSLA live price, comprehensive analysis and forecast"
-    },
-    {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/",
-      "description": "Terafab semiconductor factory announcement coverage"
-    },
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html",
-      "description": "Put/call ratio surge, investor sentiment shift analysis"
-    },
-    {
-      "name": "TipRanks",
-      "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount",
-      "description": "UBS delivery cut, NHTSA FSD probe escalation"
-    },
-    {
-      "name": "TipRanks Forecast",
-      "url": "https://www.tipranks.com/stocks/tsla/forecast",
-      "description": "31 analysts avg target $399, range $25-$600"
-    },
-    {
-      "name": "Teslarati",
-      "url": "https://www.teslarati.com/tesla-officially-begins-sunset-model-s-model-x/",
-      "description": "Korea Model S/X order cutoff, official sunset"
-    },
-    {
-      "name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/22/elon-musk-unveils-chip-manufacturing-plans-for-spacex-and-tesla/",
-      "description": "Terafab chip manufacturing plans detailed analysis"
-    },
-    {
-      "name": "Capital Street FX",
-      "url": "https://www.capitalstreetfx.com/tesla-tsla-trade-idea-march-23-2026-technical-analysis-trade-setup-price-forecast/",
-      "description": "TSLA technical analysis, RSI, EMA, support/resistance levels"
-    },
-    {
-      "name": "GuruFocus",
-      "url": "https://www.gurufocus.com/term/forward-pe-ratio/TSLA",
-      "description": "Forward P/E 189x, valuation analysis"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/",
-      "description": "2026 revenue/EPS forecasts and valuation analysis"
-    }
+    {"name": "Reuters - Europe Used EV Sales Surge", "url": "https://www.reuters.com/business/energy/used-ev-sales-jump-europe-iran-war-drives-up-petrol-prices-2026-03-26/", "description": "Iran war driving up petrol prices, used EV sales jumping in Europe"},
+    {"name": "Fortune - Oil at $99.75", "url": "https://fortune.com/article/price-of-oil-03-25-2026/", "description": "Brent crude $99.75, up $26.64 YoY"},
+    {"name": "BanklessTimes - TSLA Technical", "url": "https://www.banklesstimes.com/articles/2026/03/25/tesla-stock-price-forecast-heres-why-it-may-jump-to-500-soon/", "description": "Falling wedge + harami pattern analysis, $415-$500 targets"},
+    {"name": "Techi - TSLA Analysis", "url": "https://www.techi.com/tesla-stock-today/", "description": "TSLA $383, analyst targets $119-$600, comprehensive analysis"},
+    {"name": "CNBC - Investor Sentiment", "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html", "description": "Put/call ratio at 3-year high"},
+    {"name": "Reuters - Terafab", "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/", "description": "Terafab $20-25B semiconductor factory announcement"},
+    {"name": "TipRanks - NHTSA FSD", "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount", "description": "UBS delivery cut, NHTSA FSD investigation escalation"},
+    {"name": "EBC Financial - Technical Levels", "url": "https://www.ebc.com/forex/tesla-stock-forecast-key-levels-to-watch-in-2026", "description": "Key technical levels: 50-day EMA $386.88, 200-day EMA $400.45"},
+    {"name": "MIT Tech Review - Oil and EVs", "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/", "description": "Analysis of oil price surge and EV demand relationship"},
+    {"name": "Futunn - Optimus3", "url": "https://news.futunn.com/en/post/70585422/us-stock-movements-tesla-rose-nearly-2-in-pre-market", "description": "Optimus3 robot video, pre-market +2%"}
   ],
   "snsContent": {
     "x": {
-      "hook": "TSLA $386 - April catalysts incoming",
-      "text": "Tesla $386, down 23% from ATH. Terafab chip factory announced, Wedbush holds $600. But NHTSA escalates FSD probe + UBS cuts deliveries -18%. April: Cybercab, Roadster, FSD Europe. P/E 356x. Hold consensus",
+      "hook": "TSLA $386 | Oil surge fuels EV demand wave",
+      "text": "$TSLA $385.95\n\nIran war sends gas up 37% to $3.98. Used EV sales surging in Europe. High fuel costs are accelerating the shift to electric.\n\nAnalyst avg target $421 (+9%)\n\n1/4",
       "thread": [
-        "1/4 Tesla $386, down 23% from $499 ATH. RSI 41, approaching oversold. Below 50-day SMA ($405) but holding above 200-day ($345). Bearish short-term trend",
-        "2/4 Bulls: Terafab $20-25B chip factory, Cybercab April production, Roadster unveil, FSD Netherlands approval (4/10), China +35%. Wedbush $600 target reaffirmed",
-        "3/4 Bears: NHTSA FSD probe escalated, CA robotaxi denied, UBS Q1 deliveries -18%, Europe Jan -45% (DOGE backlash), Uber-Rivian $1.25B robotaxi deal",
-        "4/4 Verdict: P/E 356x = 15x S&P avg. Wait for April catalysts. Hold. Long-term investors can DCA at $340-365 support zone"
+        "April catalyst lineup:\n- Cybercab production start\n- Roadster reveal\n- FSD Netherlands approval (4/10)\n- Q1 earnings (4/28)\n- Optimus3 summer production\n\nAny beat could flip sentiment\n\n2/4",
+        "P/E 357x (15x S&P avg). NHTSA FSD probe escalated. California denied robotaxi app. Autonomous timeline has real uncertainty\n\n3/4",
+        "Technical: Falling wedge + harami signal bounce. RSI 39 near oversold. Below 50-day ($405) but 200-day ($345) holding.\n\nHold. Let April play out.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "TSLA $386 Analysis: April is the battleground",
-      "text": "Tesla at $386, market cap $1.43T. Down 23% from ATH but still at P/E 356x (15x the S&P 500 average of 23x).\n\nApril Key Catalysts:\n- Cybercab robotaxi production starts\n- Roadster unveil\n- Netherlands FSD approval (4/10)\n- Q1 earnings (4/28)\n\nBullish: Terafab $20-25B chip factory strengthens AI vision. China sales +35%, Megapack revenue doubled.\n\nBearish: NHTSA FSD probe escalated, CA robotaxi denied, UBS deliveries -18%, Europe Jan -45% from DOGE backlash. Uber-Rivian $1.25B robotaxi competition.\n\nTechnical: RSI 41 bearish, below 50-day SMA. 200-day SMA ($345) support holding. $364-368 near-term support critical.\n\nVerdict: Hold. Wait for April catalyst outcomes. Long-term investors can DCA into $340-365 support zone."
+      "hook": "TSLA: Oil surge is accelerating EV adoption",
+      "text": "$TSLA $385.95 | $1.43T market cap\n\nIran war pushed gas up 37% to $3.98. Reuters reports used EV sales surging across Europe. High fuel costs are making the EV switch more compelling than ever, directly benefiting Tesla.\n\nApril brings Cybercab production, Roadster reveal, FSD Europe approval, and Q1 earnings. Optimus3 starts production this summer.\n\nBut the 357x P/E, NHTSA FSD probe, and California robotaxi denial are real concerns. Falling wedge pattern suggests a bounce but 50-day SMA ($405) resistance remains.\n\nHold. Analyst avg $421 (+9%). Prudent to wait for April catalysts."
     },
     "telegram": {
       "hook": "TSLA Daily Analysis (3/26)",
-      "text": "Tesla $385.95 (+0.76%)\nMkt Cap $1.43T | P/E 356x | RSI 41\n\nKey News:\n- Terafab chip factory $20-25B announced\n- NHTSA escalates FSD probe\n- Model S/X Korea orders close 3/31\n- UBS Q1 deliveries -18%\n\nApril Catalysts:\nCybercab production | Roadster unveil | FSD Europe | Q1 earnings\n\nAnalysts: Hold consensus, avg $399 (+3.4%)\nWedbush $600 vs JPMorgan $150\n\nTechnical: Below 50-day ($405), above 200-day ($345)\n\nVerdict: Hold - await April catalyst outcomes"
+      "text": "Tesla $385.95 | Market Cap $1.43T\nP/E 357x | Forward 172x | RSI 39\n\nKey Developments\n- Iran war pushes gas up 37% to $3.98\n- Europe used EV sales surging (Reuters)\n- Optimus3 robot video, summer production\n- NHTSA FSD probe escalated\n\nApril Catalysts\nCybercab | Roadster | FSD Europe | Q1 Earnings\n\nTechnical: Falling wedge bounce attempt, below 50-day ($405)\nAnalysts: Hold, avg $421 (+9%)\n\nVerdict: Hold. Wait for April catalysts"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA $386 - Fact Check",
-          "text": "Tesla $385.95, mkt cap $1.43T. P/E 356x (S&P avg 23x). 2025 deliveries 1.79M (-1.1%), revenue +1%. NHTSA FSD probe escalated, UBS Q1 deliveries -18%. Analyst avg target $399. Hold",
+          "hook": "TSLA $386 | Oil surge fuels EV demand wave",
+          "text": "$TSLA $385.95\n\nIran war sends gas up 37% to $3.98. Used EV sales surging in Europe. High fuel costs are accelerating the shift to electric.\n\nAnalyst avg target $421 (+9%)\n\n1/4",
           "thread": [
-            "1/3 TSLA by the numbers: $385.95, P/E 356x, Fwd 172x. 52-wk range $214-$499. RSI 41, below 50-day SMA $405. 2025 revenue $97.8B (+1%), EPS $1.08",
-            "2/3 April calendar: Cybercab production, Roadster unveil, FSD Netherlands (4/10), Q1 earnings (4/28). Terafab $20-25B chip factory targeting 2027 production",
-            "3/3 Risks: NHTSA FSD probe, CA robotaxi denied, UBS deliveries -18%, Europe Jan -45%. Verdict: Hold. Await April catalysts"
+            "April catalyst lineup:\n- Cybercab production start\n- Roadster reveal\n- FSD Netherlands approval (4/10)\n- Q1 earnings (4/28)\n- Optimus3 summer production\n\nAny beat could flip sentiment\n\n2/4",
+            "P/E 357x (15x S&P avg). NHTSA FSD probe escalated. California denied robotaxi app. Autonomous timeline has real uncertainty\n\n3/4",
+            "Technical: Falling wedge + harami signal bounce. RSI 39 near oversold. Below 50-day ($405) but 200-day ($345) holding.\n\nHold. Let April play out.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla: AI dreams vs reality check",
-          "text": "Tesla P/E at 356x. 15x the S&P 500 average. At this price you're not buying a car company, you're buying 'robots driving the future.' Problem is NHTSA just hit the brakes on that future",
+          "hook": "TSLA: When gas goes up, electric goes mainstream",
+          "text": "$TSLA $385.95\n\nGas up 37% to $3.98. Suddenly EVs look genius. Europe is panic-buying used Teslas. Oil doing more for EV adoption than any government incentive ever did.\n\nIrony: stock is down 23% from highs\n\n1/4",
           "thread": [
-            "1/3 Tesla market cap $1.43T = Toyota+VW+GM+Ford+BMW+Hyundai combined. But deliveries fell for the first time ever. This isn't a stock, it's a belief system",
-            "2/3 Musk: We're building Terafab for AI chips! Market: +3.5%. Same week NHTSA: FSD unsafe in fog. Market: -12%. Welcome to TSLA ownership",
-            "3/3 April has Cybercab, Roadster, FSD Europe, earnings all at once. It's the all-in round. Hold and grab popcorn"
+            "April is the all-in round. Cybercab, Roadster, FSD Europe, earnings, Optimus3.\n\nAt 357x P/E, Tesla better deliver on at least one of these or the house of cards gets wobbly\n\n2/4",
+            "NHTSA doesn't trust FSD in fog. California said no to robotaxis. Meanwhile Wedbush sees $600.\n\nAnalyzing Tesla is an exercise in cognitive dissonance\n\n3/4",
+            "Gas at $3.98 makes EVs a no-brainer. But does that justify 357x P/E? That's the $1.43 trillion question.\n\nHold. Let April answer it.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "TSLA holders, hang in there",
-          "text": "Down 23% from $499 ATH. Put/call ratio at 3-year high. NHTSA probe plus delivery cuts. Tough stretch, but April catalysts are concentrated. Don't rush decisions. Let the data come in",
+          "hook": "TSLA holders: oil surge is shifting winds in our favor",
+          "text": "$TSLA $385.95, -23% from ATH.\n\nIt's been rough. But gas prices jumping 37% are driving people toward EVs. Used Tesla sales surging in Europe.\n\nThe wind is changing direction\n\n1/4",
           "thread": [
-            "1/3 If you bought at $400-450, this hurts. Three straight weeks of decline, put/call at 3-year highs. Market sentiment is at its worst, but that's also historically where bounces start",
-            "2/3 April brings Cybercab, Roadster, FSD Europe approval, Q1 earnings. Any upside surprise could flip the narrative. This is a patience game right now",
-            "3/3 Long-term: consider DCA at $340-365. Short-term: watching from the sidelines until Q1 earnings is wise. Whatever you choose, stay rational. You've got this"
+            "April is loaded with catalysts. Cybercab, Roadster, FSD Europe, earnings. Optimus3 starts production this summer.\n\nOne beat above expectations could change everything\n\n2/4",
+            "Yes, 357x P/E and NHTSA probe are concerning. The risks are real and worth acknowledging\n\n3/4",
+            "Falling wedge bounce attempt, RSI 39 near oversold. Analyst avg $421 (+9%).\n\nPatience is the best play right now. April will bring clarity\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA Fact Analysis (3/26)",
-          "text": "Tesla $385.95, mkt cap $1.43T, P/E 356x (15x S&P 500 avg of 23x).\n\n2025 results: Revenue $97.8B (+1%), EPS $1.08, deliveries 1.79M (-1.1%). Auto margin 16.3%.\n\nQ1 2026 outlook: UBS deliveries 345K (-18% YoY), EPS $0.41.\n\nKey events: Terafab $20-25B chip factory (3/22), NHTSA FSD probe escalation (3/19), Model S/X Korea sunset (3/31).\n\nApril: Cybercab production, Roadster unveil, FSD Netherlands (4/10), Q1 earnings (4/28).\n\n33 analysts: Buy 12, Hold 13, Sell 8. Avg $399, range $25-$600.\n\nTechnical: RSI 41, below 50-day SMA ($405), above 200-day ($345). Support at $364-368.\n\nVerdict: Hold. Await April catalyst outcomes."
+          "hook": "TSLA: Oil surge is accelerating EV adoption",
+          "text": "$TSLA $385.95 | $1.43T market cap\n\nIran war pushed gas up 37% to $3.98. Reuters reports used EV sales surging across Europe. High fuel costs are making the EV switch more compelling than ever, directly benefiting Tesla.\n\nApril brings Cybercab production, Roadster reveal, FSD Europe approval, and Q1 earnings. Optimus3 starts production this summer.\n\nBut the 357x P/E, NHTSA FSD probe, and California robotaxi denial are real concerns. Falling wedge pattern suggests a bounce but 50-day SMA ($405) resistance remains.\n\nHold. Analyst avg $421 (+9%). Prudent to wait for April catalysts."
         },
         "witty": {
-          "hook": "Tesla: Life at 356x P/E",
-          "text": "Tesla's P/E is 356x. That's 15x the S&P 500 average. To justify this valuation, robotaxis, robots, energy, AND AI chips all need to hit. In poker terms, you're waiting for a royal flush.\n\nMarket cap $1.43T is bigger than 7 major automakers combined. But deliveries fell for the first time. This isn't a car stock, it's an 'Elon Musk Universe' ETF.\n\nThis week: Terafab announcement +3.5%, next day NHTSA FSD probe -5%. Owning TSLA is an unlimited rollercoaster pass.\n\nNHTSA questions FSD in fog, California denies robotaxi, UBS cuts deliveries -18%, yet Wedbush shouts $600. Analyzing this company gives your brain a split personality.\n\nApril is the all-in round. Cybercab, Roadster, FSD Europe, Q1 earnings all at once. Hold and watch with popcorn."
+          "hook": "Gas prices doing more for EV adoption than any government subsidy",
+          "text": "$TSLA $385.95\n\nGas jumped 37% to $3.98. Diesel past $5.30. Suddenly everyone in Europe is buying used Teslas. Oil doing the heavy lifting for the EV transition.\n\nIrony: Tesla stock is down 23% from its high while its demand tailwind gets stronger by the day. P/E at 357x means you're not buying a car company, you're buying a belief system.\n\nApril is packed: Cybercab, Roadster, FSD Europe, earnings, Optimus3. Five catalysts in 30 days. It's either vindication or reckoning.\n\nHold. Grab your popcorn and let April sort this out."
         },
         "empathy": {
-          "hook": "To Tesla investors",
-          "text": "From $499 ATH to $386. A 23% decline is never easy to watch. Put/call ratio at 3-year highs tells you the whole market is anxious.\n\nNHTSA FSD probe, European sales plunge, delivery cuts... when bad news piles up, that's when it's hardest. But historically, emotional decisions during these periods cause the most damage.\n\nApril has major catalysts lined up: Cybercab production, Roadster unveil, FSD Europe approval, Q1 earnings. Once these results come in, the path forward becomes clearer.\n\nTerafab chip factory, China +35% growth, Megapack doubling - there are positive signals too. Not everything is doom and gloom.\n\nLong-term investors: consider DCA at $340-365. Short-term: watching until April earnings is prudent. Right now, staying rational is your greatest asset. Hang in there."
+          "hook": "TSLA investors: the tide may be turning",
+          "text": "$TSLA $385.95, down 23% from $499.\n\nIf you bought near the top, it's been a painful stretch. But here's what's changing: gas prices surged 37% to $3.98, and EV demand is responding. Used Tesla sales are jumping across Europe.\n\nApril is loaded with catalysts: Cybercab, Roadster, FSD Europe, Q1 earnings. Optimus3 production starts this summer. Any positive surprise could shift momentum.\n\nThe 357x P/E and NHTSA probe are valid concerns. But the falling wedge pattern and RSI 39 suggest we may be near a bottom.\n\nBe patient. April will bring clarity. Analyst avg target $421 (+9%)."
         }
       }
     }

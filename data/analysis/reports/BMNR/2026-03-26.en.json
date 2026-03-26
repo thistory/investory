@@ -2,333 +2,158 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-26",
-  "currentPrice": 21.24,
-  "previousClose": 21.27,
-  "preMarket": 20.75,
-  "marketCap": "9.53B",
-  "sharesOutstanding": "448.4M",
+  "currentPrice": 21.23,
+  "marketCap": "$9.53B",
   "businessSummary": {
-    "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
-    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. As of 3/22, holds 4,660,903 ETH (3.86% of total supply), with total crypto + cash of $11.0B. MAVAN staking platform officially launched on 3/25, establishing proprietary staking infrastructure. ETH rebounding to $2,182 while BMNR gained +2.1%. Market broadly recovering on easing Iran-US geopolitical tensions. P/NAV ~0.82x, market cap $9.53B.",
+    "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum",
+    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,660,903 ETH (3.86% of total supply) as of 3/22, total crypto+cash $11.0B. MAVAN staking platform launched 3/25 for self-managed staking infrastructure. ETH rebounding to $2,183. P/NAV ~0.82x, market cap $9.53B.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,660,903 ETH held (~$10.2B at ~$2,182/ETH)",
-      "ETH Staking Revenue: 3,142,643 ETH staked, targeting ~$300M/year post-MAVAN migration",
-      "Dividends: 4.7% dividend yield, only dividend-paying crypto treasury company",
-      "Bitcoin Holdings: 196 BTC held (supplementary)"
+      "ETH Treasury: 4,660,903 ETH (~$10.2B at ~$2,183/ETH)",
+      "ETH Staking Revenue: 3.14M ETH staked, targeting $300M+ annual via MAVAN",
+      "Dividend: 4.7% yield, only dividend payer among crypto treasury companies",
+      "Bitcoin Holdings: 196 BTC (ancillary)"
     ],
-    "keyProducts": [
-      "Ethereum Treasury",
-      "MAVAN (Made in America Validator Network)",
-      "ETH Staking",
-      "Crypto Holdings"
-    ]
+    "keyProducts": ["Ethereum Treasury", "MAVAN (Made in America Validator Network)", "ETH Staking", "Crypto Holdings"]
   },
   "keyMetrics": [
-    {
-      "name": "P/NAV",
-      "value": "0.82x",
-      "comparison": "MSTR P/B 2-3x, ETHE trades at 5-10% NAV premium. BMNR trades at 18% discount to NAV, extreme undervaluation vs peers"
-    },
-    {
-      "name": "ETH Holdings",
-      "value": "4,660,903 ETH",
-      "comparison": "3.86% of total ETH supply (120.7M). World's largest among public companies. Added 238,244 ETH in last 30 days"
-    },
-    {
-      "name": "Total Assets (NAV)",
-      "value": "$11.6B",
-      "comparison": "ETH $10.2B + BTC $14M + Beast $200M + ORBS $95M + Cash $1.1B. Exceeds market cap of $9.53B by $2.1B"
-    },
-    {
-      "name": "Dividend Yield",
-      "value": "4.7%",
-      "comparison": "S&P 500 avg 1.3%, MSTR/COIN pay no dividends. Only dividend stock among crypto-related equities"
-    },
-    {
-      "name": "Staking Revenue (Est.)",
-      "value": "$300M+/year",
-      "comparison": "After full MAVAN migration. FY2026 consensus revenue $193M. Margin improvement via Coinbase fee savings"
-    },
-    {
-      "name": "Beta",
-      "value": "1.47",
-      "comparison": "Lower than MSTR 2.1, COIN 2.8. Leveraged ETH play but dividend dampens volatility"
-    }
+    {"name": "P/NAV", "value": "0.82x", "interpretation": "18% discount to NAV. MSTR trades at P/B 2-3x. Extreme undervaluation vs peers"},
+    {"name": "ETH Holdings", "value": "4,660,903 ETH", "interpretation": "3.86% of total ETH supply. Largest public holder. Tom Lee added $138M more recently"},
+    {"name": "NAV", "value": "$11.6B", "interpretation": "ETH $10.2B + BTC $14M + Beast $200M + ORBS $95M + cash $1.1B. $2.1B above market cap"},
+    {"name": "Dividend Yield", "value": "4.7%", "interpretation": "vs S&P 500 avg 1.3%, MSTR/COIN zero. Only dividend-paying crypto stock"},
+    {"name": "Staking Revenue (Est.)", "value": "$300M+/year", "interpretation": "Full MAVAN migration target. FY2026 consensus revenue $193M. Coinbase fee savings improve margins"},
+    {"name": "Beta", "value": "1.47", "interpretation": "Lower than MSTR 2.1, COIN 2.8. ETH leverage play with dividend dampening volatility"}
   ],
   "growthDrivers": [
-    {
-      "title": "MAVAN Staking Platform Launched 3/25",
-      "description": "Migrating 3.14M ETH from Coinbase to proprietary MAVAN platform. Targeting $300M+ annual revenue via fee savings. Tom Lee: 'MAVAN will soon be the world's largest ETH staking platform'"
-    },
-    {
-      "title": "Aggressive ETH Accumulation: 238,244 ETH in 30 Days",
-      "description": "Reached 4,660,903 ETH as of 3/22, representing 3.86% of total supply. Continued aggressive buying even during downturn signals long-term conviction"
-    },
-    {
-      "title": "P/NAV 0.82x, 18% Discount to NAV",
-      "description": "NAV $11.6B vs market cap $9.53B. Extreme gap vs MSTR P/B 2-3x. ETH rebound plus discount narrowing creates dual leverage"
-    },
-    {
-      "title": "Falling Wedge Pattern + PPO Golden Cross",
-      "description": "3-day chart shows clear falling wedge formation. PPO golden cross, RSI turning up. Bounce confirmed from $20 support. Technical targets $30-$50"
-    },
-    {
-      "title": "4.7% Dividend Yield: Downside Protection",
-      "description": "Only dividend-paying crypto stock provides holding rationale during market downturns. Differentiator for institutional investors"
-    }
+    {"title": "MAVAN staking platform launched 3/25", "description": "3.14M ETH migrating from Coinbase to proprietary MAVAN platform. Eliminates third-party fees. Targeting $300M+ annual revenue. Tom Lee: 'MAVAN will soon be the world's largest ETH staking platform'"},
+    {"title": "Tom Lee bets another $138M on ETH (3/23)", "description": "Purchased 65,341 ETH ($138M). Declared 'crypto winter is nearly over.' Aggressive buying in a downturn signals strong long-term conviction"},
+    {"title": "P/NAV 0.82x, extreme discount to peers", "description": "NAV $11.6B vs market cap $9.53B. MSTR trades at P/B 2-3x. Double leverage from ETH price recovery plus NAV discount narrowing"},
+    {"title": "Falling wedge breakout + PPO golden cross", "description": "3-day chart shows falling wedge pattern. PPO golden cross confirmed, RSI turning up. $20 support holding. Technical targets $30-$50"},
+    {"title": "4.7% dividend as downside protection", "description": "Only crypto stock paying dividends. Provides holding rationale even in bear markets"}
   ],
   "competitiveAdvantage": {
-    "summary": "Largest ETH holdings among public companies (3.86% of supply). Tom Lee's involvement adds institutional credibility. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
+    "summary": "Largest public ETH holder at 3.86% of supply. Tom Lee brings institutional credibility. Only large-scale player applying MicroStrategy's BTC model to ETH.",
     "moats": [
-      {
-        "type": "ETH Supply Concentration",
-        "description": "Holds 3.86% of total ETH supply. Irreplaceable market position."
-      },
-      {
-        "type": "Institutional Access",
-        "description": "Provides ETH exposure via public equity. Institutional investor access without ETF."
-      },
-      {
-        "type": "MAVAN Proprietary Staking",
-        "description": "3.14M ETH self-staked + MAVAN platform for fee savings and yield advantage vs simple holding."
-      }
+      {"type": "ETH Supply Concentration", "description": "3.86% of total ETH supply. Irreplaceable market position"},
+      {"type": "Institutional Access", "description": "Public stock provides ETH exposure. Accessible to institutions without ETF"},
+      {"type": "MAVAN Self-Staking", "description": "3.14M ETH self-staked + MAVAN platform for fee savings and yield advantage"}
     ],
     "competitors": [
-      {
-        "name": "MicroStrategy (MSTR)",
-        "detail": "Original Bitcoin treasury strategy. BTC-focused vs BMNR's ETH-focused approach"
-      },
-      {
-        "name": "Grayscale Ethereum Trust (ETHE)",
-        "detail": "ETH ETF competitor. Different fee structure"
-      },
-      {
-        "name": "Coinbase (COIN)",
-        "detail": "Exchange-based crypto exposure. Fundamentally different business model"
-      }
+      {"name": "MicroStrategy (MSTR)", "detail": "Pioneer of BTC treasury. BTC focus vs BMNR's ETH focus"},
+      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor. Different fee structure"},
+      {"name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-25",
-      "headline": "MAVAN (Made in America Validator Network) Officially Launched",
-      "significance": "Proprietary ETH staking platform launched. Plans to migrate 3.14M ETH from Coinbase. Now offering institutional staking services",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"
-    },
-    {
-      "date": "2026-03-23",
-      "headline": "ETH Holdings Reach 4,660,903 Tokens, Total Assets $11.0B",
-      "significance": "As of 3/22, confirmed 4,660,903 ETH (3.86% of supply). Total crypto + cash $11.0B. Added 238,244 ETH in past 30 days",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html"
-    },
-    {
-      "date": "2026-03-25",
-      "headline": "Stock Rebounds +2.1% on ETH Rally and Iran-US Tension Easing",
-      "significance": "ETH rebounded to $2,182, BTC recovered to $72,000. Trump's Iran negotiation comments drove oil prices down 5%, risk assets rebounded",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
-    },
-    {
-      "date": "2026-03-18",
-      "headline": "Stock Drops -7.8% in Broad Market Selloff",
-      "significance": "Middle East geopolitical risks and oil price surge triggered selloff across crypto and tech stocks. BMNR fell in tandem",
-      "url": "https://robinhood.com/us/en/stocks/BMNR/"
-    },
-    {
-      "date": "2026-03-25",
-      "headline": "Technical Analysis: Falling Wedge Points to $50 Rebound",
-      "significance": "BanklessTimes analysis: falling wedge + PPO golden cross + rising RSI. $20 support confirmed, $30 first target, $50 second target",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
-    }
+    {"date": "2026-03-25", "headline": "MAVAN staking platform officially launches", "significance": "Proprietary ETH staking platform live. 3.14M ETH migrating from Coinbase. Institutional staking services begin", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"},
+    {"date": "2026-03-23", "headline": "Tom Lee buys 65,341 ETH ($138M), declares 'crypto winter nearly over'", "significance": "Aggressive $138M purchase in downturn. Total 4,660,903 ETH. Bullish conviction signal", "url": "https://coincentral.com/bitmine-bmnr-stock-jumps-3-as-tom-lee-bets-138m-more-on-eth-recovery/"},
+    {"date": "2026-03-23", "headline": "ETH holdings reach 4,660,903 tokens, total assets $11.0B", "significance": "3.86% of total ETH supply. 238,244 ETH added in 30 days", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html"},
+    {"date": "2026-03-25", "headline": "Simply Wall St: analyst target $34.50, 65% upside", "significance": "NAV discount analysis suggests significant undervaluation relative to growth potential", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4"},
+    {"date": "2026-03-25", "headline": "Technical: Falling wedge breakout could target $50", "significance": "BanklessTimes: falling wedge + PPO golden cross + rising RSI. $20 support holding. Targets $30 then $50", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"}
   ],
   "analystOpinions": {
-    "consensusTarget": 30,
-    "highTarget": 30,
+    "consensusTarget": 34.5,
+    "highTarget": 34.5,
     "lowTarget": 30,
-    "upsidePercent": 41.2,
+    "upsidePercent": 62.5,
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "Lowered target from $47 to $30 while maintaining Strong Buy. Reflects ETH price decline"
+    "notableComment": "Simply Wall St target $34.50. B. Riley cut to $30 from $47 but maintained Strong Buy. ETH price decline factored in"
   },
   "risks": [
-    {
-      "title": "Single-Asset Concentration in ETH",
-      "description": "88% of portfolio in ETH. Further ETH price decline would cause NAV and stock price to drop in tandem",
-      "severity": "high"
-    },
-    {
-      "title": "Ongoing Middle East Geopolitical Risk",
-      "description": "Escalation of Iran-US conflict could drive oil prices up and trigger risk-asset selloff. Iran denies negotiations are underway",
-      "severity": "high"
-    },
-    {
-      "title": "Continued Operating Losses (EPS -$0.93)",
-      "description": "TTM EPS of -$0.93. Loss structure continues until MAVAN revenue materializes. FY2026 EPS consensus $0.35 suggests profitability turnaround",
-      "severity": "medium"
-    },
-    {
-      "title": "NAV Discount May Persist or Widen",
-      "description": "P/NAV of 0.82x reflects market skepticism. Transition to MSTR-like premium may take time",
-      "severity": "medium"
-    },
-    {
-      "title": "Crypto Regulatory Uncertainty",
-      "description": "ETH securities classification debate, staking regulations, and policy risks remain",
-      "severity": "medium"
-    }
+    {"severity": "high", "title": "Single-asset concentration risk", "description": "88% of portfolio in ETH. Further ETH decline means NAV and stock drop in lockstep"},
+    {"severity": "high", "title": "Geopolitical risk persists", "description": "Iran war escalation could spike oil, trigger risk-off across crypto and tech"},
+    {"severity": "medium", "title": "Ongoing losses (EPS -$0.93)", "description": "TTM EPS -$0.93. Loss structure until MAVAN revenue ramps. FY2026 consensus EPS $0.35 for breakeven"},
+    {"severity": "medium", "title": "NAV discount may persist or widen", "description": "P/NAV 0.82x reflects market skepticism. Premium conversion like MSTR takes time"},
+    {"severity": "medium", "title": "Crypto regulatory uncertainty", "description": "ETH securities classification debate and staking regulation risks remain"}
   ],
   "buyReasons": [
-    {
-      "title": "P/NAV 0.82x, Extreme Undervaluation vs MSTR",
-      "description": "NAV $11.6B vs market cap $9.53B. MSTR trades at P/B 2-3x while BMNR at 0.82x. Discount narrowing alone could drive 100%+ upside"
-    },
-    {
-      "title": "MAVAN Launch Transforms Revenue Structure",
-      "description": "Proprietary staking platform targeting $300M+/year revenue. At P/S under 30x. FY2026 profitability turnaround expected"
-    },
-    {
-      "title": "Aggressive ETH Accumulation Continues",
-      "description": "238,244 ETH added in 30 days. Management's long-term conviction signal. 3.86% supply dominance provides market power"
-    },
-    {
-      "title": "Falling Wedge Technical Bounce Signal",
-      "description": "PPO golden cross, RSI rising, $20 support confirmed. Technical targets $30 (first) and $50 (second)"
-    },
-    {
-      "title": "4.7% Dividend Provides Downside Protection",
-      "description": "Only dividend-paying crypto stock. Provides holding rationale during downturns and attracts institutional investors"
-    }
+    {"title": "P/NAV 0.82x, extreme undervaluation vs MSTR", "rationale": "NAV $11.6B vs market cap $9.53B. MSTR at P/B 2-3x. Discount narrowing alone could drive 100%+ upside"},
+    {"title": "MAVAN launch + Tom Lee bullish pivot", "rationale": "Self-staking platform targeting $300M+ revenue. Tom Lee's $138M buy and 'crypto winter nearly over' signal"},
+    {"title": "Aggressive ETH accumulation continues", "rationale": "238,244 ETH in 30 days + 65,341 ETH ($138M) more. 3.86% of supply = market dominance"},
+    {"title": "Falling wedge technical bounce signal", "rationale": "PPO golden cross, RSI rising, $20 support holding. Targets $30 (first) and $50 (second)"},
+    {"title": "4.7% dividend protects downside", "rationale": "Only dividend-paying crypto stock. Provides holding rationale for income investors"}
   ],
   "technicalPosition": {
-    "trend": "Short-term bounce reversal (within medium-term downtrend)",
-    "support": "$20 (recent low $17, YTD low)",
-    "resistance": "$30 (first), $50 (Major S&R Pivot)",
-    "indicators": [
-      "Falling wedge pattern formation (converging trendlines)",
-      "PPO (Percentage Price Oscillator) golden cross",
-      "RSI turning upward",
-      "5-day SMA crossing above 20-day SMA",
-      "Bounce confirmed from $20 support level"
-    ],
-    "summary": "Clear falling wedge pattern on 3-day chart. PPO golden cross and rising RSI signal bounce. If $20 support holds, breaking $30 resistance could drive to $50. However, elevated market-wide volatility warrants caution for sudden drops"
+    "week52High": 161.0,
+    "week52Low": 3.2,
+    "currentPositionPercent": 11.4,
+    "sma50": 24,
+    "sma50Signal": "below",
+    "sma200": 32,
+    "sma200Signal": "below",
+    "rsi": 45,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "MAVAN staking platform officially launched 3/25, kicking off staking revenue. Migrating 3.14M ETH to proprietary platform targets $300M+/year. Coinbase fee savings are key to profitability improvement",
-    "P/NAV 0.82x means trading at 18% discount to $11.6B NAV. Extreme undervaluation vs MSTR P/B 2-3x. Dual leverage from ETH rebound and discount narrowing",
-    "Biggest risks are ETH single-asset concentration (88%) and Middle East geopolitics. Still unprofitable (EPS -$0.93) but FY2026 profitability turnaround consensus",
-    "Technically bouncing from falling wedge, PPO golden cross confirmed. B. Riley target $30 (+41% upside)"
+    "MAVAN's 3/25 launch and Tom Lee's $138M ETH purchase ('crypto winter nearly over') reinforce management's long-term conviction. Self-managed staking targeting $300M+ annual revenue is a game-changer",
+    "P/NAV 0.82x means you're buying $11.6B in assets for $9.53B. MSTR trades at 2-3x P/B. Double leverage from ETH recovery plus NAV discount narrowing is the core thesis",
+    "Key risks: 88% ETH concentration and Iran war geopolitical uncertainty. Still losing money (EPS -$0.93) but FY2026 breakeven consensus at $0.35",
+    "Technically bouncing from falling wedge with PPO golden cross. Analyst targets $30-$34.50 (+41-63%)"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "",
+    "summary": "18% NAV discount plus MAVAN launch and Tom Lee's bullish bet make a compelling case. Double leverage from ETH recovery and discount narrowing. ETH concentration risk requires position sizing discipline",
     "horizon": "6-12 months"
   },
   "sources": [
-    {
-      "name": "PRNewswire - MAVAN Launch Announcement",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"
-    },
-    {
-      "name": "PRNewswire - ETH Holdings 4.661M Announcement",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html"
-    },
-    {
-      "name": "BanklessTimes - BMNR Technical Analysis",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
-    },
-    {
-      "name": "StockAnalysis - Analyst Consensus",
-      "url": "https://stockanalysis.com/stocks/bmnr/forecast/"
-    },
-    {
-      "name": "Yahoo Finance - BMNR Quote",
-      "url": "https://finance.yahoo.com/quote/BMNR/"
-    },
-    {
-      "name": "Investing.com - BMNR Quote",
-      "url": "https://www.investing.com/equities/bitmine-immersion-tech"
-    },
-    {
-      "name": "MarketBeat - BMNR Price Target",
-      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/"
-    },
-    {
-      "name": "Chainwire - ETH Holdings Report",
-      "url": "https://chainwire.org/2026/03/23/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion/"
-    },
-    {
-      "name": "Investing.com - ETH Price",
-      "url": "https://www.investing.com/crypto/ethereum/historical-data"
-    },
-    {
-      "name": "TradingView - BMNR Chart",
-      "url": "https://www.tradingview.com/symbols/AMEX-BMNR/"
-    }
+    {"name": "PRNewswire - MAVAN Launch", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html", "description": "MAVAN staking platform official launch"},
+    {"name": "CoinCentral - Tom Lee $138M ETH", "url": "https://coincentral.com/bitmine-bmnr-stock-jumps-3-as-tom-lee-bets-138m-more-on-eth-recovery/", "description": "Tom Lee 65,341 ETH ($138M) purchase, crypto winter ending"},
+    {"name": "PRNewswire - ETH Holdings 4.661M", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html", "description": "ETH holdings 4,660,903, total assets $11.0B"},
+    {"name": "BanklessTimes - BMNR Technical", "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/", "description": "Falling wedge, $50 target, MAVAN analysis"},
+    {"name": "Simply Wall St - BMNR Valuation", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/a-look-at-bitmine-immersion-technologies-bmnr-valuation-afte-4", "description": "Analyst target $34.50, NAV discount analysis"},
+    {"name": "Parameter.io - BMNR MAVAN", "url": "https://parameter.io/bitmine-bmnr-stock-jumps-as-mavan-ethereum-staking-platform-launches/", "description": "MAVAN launch, +2.07% to $21.23"},
+    {"name": "BanklessTimes - BMNR Breakout", "url": "https://www.banklesstimes.com/articles/2026/03/23/bitmine-stock-price-analysis-top-4-reasons-bmnr-may-rocket-soon/", "description": "7-week consolidation near $20, breakout analysis"},
+    {"name": "Investing.com - ETH Price", "url": "https://www.investing.com/crypto/ethereum/historical-data", "description": "ETH at $2,183, up from $2,138 previous close"}
   ],
   "snsContent": {
     "x": {
-      "hook": "MAVAN launch + 18% NAV discount = bounce starting?",
-      "text": "$BMNR $21.24 (+2.1%)\n\nMAVAN staking platform launched\n- 3.14M ETH self-staked\n- $300M/yr revenue target\n- P/NAV 0.82x (MSTR 2-3x)\n\nB. Riley target $30 (+41%)\nFalling wedge bounce starting\n\n#BMNR #Ethereum",
+      "hook": "BMNR: MAVAN launches + Tom Lee says 'crypto winter is over'",
+      "text": "$BMNR $21.23\n\nMAVAN launched. Tom Lee bought $138M more ETH. 'Crypto winter is nearly over.'\nP/NAV 0.82x = buying $11.6B in assets for $9.53B.\n\nTarget $30-$34.50 (+41-63%)\n\n1/4",
       "thread": [
-        "$BMNR key update\n\nMAVAN (Made in America Validator Network) launched 3/25\n- 3.14M ETH migrating from Coinbase\n- Fee savings + margin improvement\n- Tom Lee: 'Soon the world's largest ETH staking platform'\n\n1/4",
-        "Holdings (as of 3/22)\n- 4,660,903 ETH (3.86% of supply)\n- Added 238,244 ETH in 30 days\n- Total crypto + cash $11.0B\n- Market cap $9.53B, P/NAV 0.82x\n- Trading at 18% discount to NAV\n\n2/4",
-        "Risks\n- 88% concentration in ETH\n- Middle East geopolitical uncertainty\n- TTM EPS -$0.93 (still unprofitable)\n- Iran denies talks, oil could spike again\n- 4.7% dividend as only downside buffer\n\n3/4",
-        "Technicals\n- Falling wedge pattern formed\n- PPO golden cross, RSI rising\n- $20 support confirmed, $30 resistance\n- 5-day SMA > 20-day SMA crossover\n- B. Riley target $30 (+41%)\n\nNFA DYOR\n\n4/4"
+        "Holdings:\n- 4,660,903 ETH (3.86% of supply)\n- 238K ETH bought in 30 days\n- Tom Lee: 65K ETH ($138M) more\n- Total assets $11.0B vs $9.53B cap\n\nNAV discount = double leverage\n\n2/4",
+        "MAVAN staking platform:\n- 3.14M ETH self-managed\n- Coinbase fees eliminated\n- $300M+ revenue target\n- 4.7% dividend (crypto's only)\n\n3/4",
+        "Risk: 88% ETH concentration. Iran geopolitics. EPS negative.\nTechnical: Falling wedge bounce, PPO golden cross.\nETH $2,183 recovering.\n\nBuy. DCA approach.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR: MAVAN launch kicks off staking revenue",
-      "text": "$BMNR $21.24 (+2.1%)\n\nMAVAN staking platform officially launched 3/25. Migrating 3.14M ETH to proprietary platform, targeting $300M+/year revenue.\n\n4,660,903 ETH held (3.86% of supply), P/NAV 0.82x vs MSTR (2-3x) - extreme undervaluation.\n\nTechnically bouncing from falling wedge. B. Riley target $30 (+41% upside).\n\nRisks: 88% ETH concentration, Middle East geopolitics, EPS still negative. But 4.7% dividend and aggressive buying (238K ETH in 30 days) signal long-term conviction.\n\n#BMNR #Ethereum #Crypto"
+      "hook": "BMNR: Tom Lee declares crypto winter is ending",
+      "text": "$BMNR $21.23\n\nMAVAN staking platform launched 3/25. Tom Lee purchased $138M in ETH and declared 'crypto winter is nearly over.' Total holdings: 4,660,903 ETH (3.86% of supply).\n\nP/NAV 0.82x means you're buying $11.6B in assets for $9.53B. MSTR trades at P/B 2-3x. The discount narrowing plus ETH recovery creates double leverage.\n\nMAVAN targets $300M+ annual revenue. 4.7% dividend is unique among crypto stocks.\n\nRisks: 88% ETH concentration, Iran geopolitics, negative EPS. But falling wedge bouncing.\n\nTargets $30-$34.50 (+41-63%). Buy."
     },
     "telegram": {
-      "hook": "BMNR: MAVAN Launch + Falling Wedge Bounce",
-      "text": "$BMNR $21.24 (+2.1%)\n\nMAVAN staking platform launched 3/25\n- 3.14M ETH migrating to self-staking\n- $300M+/yr revenue target\n- 4,660,903 ETH held (3.86%)\n- P/NAV 0.82x (MSTR 2-3x)\n\nTechnicals: Falling wedge bounce, PPO golden cross\nB. Riley target $30 (+41%)\n\nRisks: ETH concentration (88%), geopolitics, EPS negative\nDividend 4.7% for downside protection"
+      "hook": "BMNR Daily Analysis (3/26)",
+      "text": "BMNR $21.23 | Market Cap $9.53B | P/NAV 0.82x\n\nKey News\n- MAVAN staking platform launched (3/25)\n- Tom Lee: $138M ETH added\n- 'Crypto winter nearly over'\n- Total 4,660,903 ETH (3.86% of supply)\n\nNAV: $11.6B (market cap +$2.1B)\nMAVAN $300M+ revenue target\nETH $2,183 recovering\n\nTechnical: Falling wedge bounce, PPO golden cross\nTargets: $30-$34.50 (+41-63%)\nDividend 4.7%\n\nVerdict: Buy (DCA)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "MAVAN launch + 18% NAV discount = bounce starting?",
-          "text": "$BMNR $21.24 (+2.1%)\n\nMAVAN staking platform launched\n- 3.14M ETH self-staked\n- $300M/yr revenue target\n- P/NAV 0.82x (MSTR 2-3x)\n\nB. Riley target $30 (+41%)\nFalling wedge bounce starting\n\n#BMNR #Ethereum",
-          "thread": [
-            "$BMNR key update\n\nMAVAN (Made in America Validator Network) launched 3/25\n- 3.14M ETH migrating from Coinbase\n- Fee savings + margin improvement\n- Tom Lee: 'Soon the world's largest ETH staking platform'\n\n1/4",
-            "Holdings (as of 3/22)\n- 4,660,903 ETH (3.86% of supply)\n- Added 238,244 ETH in 30 days\n- Total crypto + cash $11.0B\n- Market cap $9.53B, P/NAV 0.82x\n- Trading at 18% discount to NAV\n\n2/4",
-            "Risks\n- 88% concentration in ETH\n- Middle East geopolitical uncertainty\n- TTM EPS -$0.93 (still unprofitable)\n- Iran denies talks, oil could spike again\n- 4.7% dividend as only downside buffer\n\n3/4",
-            "Technicals\n- Falling wedge pattern formed\n- PPO golden cross, RSI rising\n- $20 support confirmed, $30 resistance\n- 5-day SMA > 20-day SMA crossover\n- B. Riley target $30 (+41%)\n\nNFA DYOR\n\n4/4"
-          ]
+          "hook": "BMNR: MAVAN launches + Tom Lee says 'crypto winter is over'",
+          "text": "$BMNR $21.23. MAVAN launched. Tom Lee $138M ETH added. 'Crypto winter nearly over.' P/NAV 0.82x. Target $30-$34.50.\n\n1/4",
+          "thread": ["4,660,903 ETH (3.86%). 238K in 30 days + 65K more. $11.0B assets vs $9.53B cap. NAV discount = leverage.\n\n2/4", "MAVAN: 3.14M ETH self-staked. $300M+ target. 4.7% dividend.\n\n3/4", "88% ETH risk. Iran. EPS negative. Falling wedge bounce. Buy DCA.\n\n4/4"]
         },
         "witty": {
-          "hook": "The company that owns 3.86% of all ETH just built its own staking platform",
-          "text": "$BMNR $21.24 (+2.1%)\n\nMAVAN launched yesterday\nMade in America Validator Network\nYes that's the actual name\n\nP/NAV 0.82x = buying $1 for 82 cents\nMSTR gets 2-3x premium for the same trick with BTC\n\nB. Riley target $30 (+41%)\n\n#BMNR",
-          "thread": [
-            "$BMNR update\n\nTom Lee's ETH shopping addiction continues\n238,244 more ETH in 30 days\nTotal: 4,660,903 ETH\nThat's 3.86% of ALL Ethereum\n\nAt this point he's not a whale, he IS the ocean\n\n1/4",
-            "Built their own staking platform called MAVAN\n3.14M ETH moving from Coinbase\nTargeting $300M/yr revenue\n\nBasically said 'why pay Coinbase fees when we can do it ourselves'\nRelatable honestly\n\n2/4",
-            "The risks though\n- 88% of everything is ETH\n- Iran and US playing chicken\n- EPS still -$0.93\n\n4.7% dividend is nice but if ETH dumps they dump with it\nThat's just math\n\n3/4",
-            "Chart looks interesting\nFalling wedge bouncing off $20\nPPO golden cross fired\n\nB. Riley says $30 (+41%)\nSome people see $50 but let's not get crazy\n\nNFA\n\n4/4"
-          ]
+          "hook": "3.86% of all Ethereum owned by one company. They just built their own staking platform.",
+          "text": "$BMNR $21.23\n\nTom Lee bought another $138M in ETH. Shopping addiction or conviction? He says 'crypto winter is nearly over.'\n\nP/NAV 0.82x = buying a dollar for 82 cents. MSTR charges 2-3x for their dollar.\n\n1/4",
+          "thread": ["MAVAN: Coinbase fees too high? Build your own staking platform. 3.14M ETH. $300M annual revenue target.\n\nThe ultimate 'I'll do it myself' energy.\n\n2/4", "4,660,903 ETH. That's not holding, that's controlling. 3.86% of all Ethereum in existence.\n\nPlus 4.7% dividend. A crypto stock that pays you to wait?\n\n3/4", "88% ETH. One asset. If ETH drops, so does everything.\n\nBut Tom Lee just bet $138M his own money. That's not a theory, that's skin in the game.\n\n4/4"]
         },
         "empathy": {
-          "hook": "BMNR holders, the bounce may be starting",
-          "text": "$BMNR $21.24 (+2.1%)\n\nTough few weeks for holders. Dropped to $17 YTD low with everything selling off.\n\nMAVAN staking launch is real progress though\nP/NAV 0.82x means you're buying at 18% discount\n\nB. Riley target $30 (+41%)\n4.7% dividend while you wait\n\nHang in there\n\n#BMNR",
-          "thread": [
-            "$BMNR holders\n\nWhen it hit $17 in early March, a lot of you were worried. ETH falling, Middle East tensions, entire market under pressure.\n\nBut $20 support held and now we're bouncing\n\n1/4",
-            "Good news yesterday\nMAVAN staking platform officially launched\n3.14M ETH going to their own platform\nCould mean $300M/yr revenue\n\n238K ETH bought in 30 days shows management believes in the long game\n\n2/4",
-            "Being honest about the risks\n- 88% in one asset (ETH)\n- Still losing money (EPS -$0.93)\n- Middle East situation unclear\n\nBut 4.7% dividend helps and 18% NAV discount provides some margin of safety\n\n3/4",
-            "Technicals are encouraging\nFalling wedge bounce with PPO golden cross\n\nB. Riley target $30 (+41%)\nDon't rush, be patient\n\nNot financial advice, always DYOR\n\n4/4"
-          ]
+          "hook": "BMNR holders: Tom Lee just put his money where his mouth is",
+          "text": "$BMNR $21.23\n\nThe drop to $17 was scary. But Tom Lee just added $138M more. 'Crypto winter is nearly over,' he says.\n\nMAVAN launched. Direction is right.\n\n1/4",
+          "thread": ["P/NAV 0.82x = 18% below fair value.\nMAVAN targets $300M+ revenue.\n4.7% dividend helps you hold.\n\nFoundation is solid.\n\n2/4", "88% ETH concentration is the real worry. Iran risks too.\nBut Tom Lee betting $138M in a downturn isn't something you do without conviction.\n\n3/4", "Falling wedge bouncing. $20 support held.\nTargets $30-$34.50 (+41-63%).\n\nDCA approach. We'll get through this together.\n\n4/4"]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR: MAVAN launch kicks off staking revenue",
-          "text": "$BMNR $21.24 (+2.1%)\n\nMAVAN staking platform officially launched 3/25. Migrating 3.14M ETH to proprietary platform, targeting $300M+/year revenue.\n\n4,660,903 ETH held (3.86% of supply), P/NAV 0.82x vs MSTR (2-3x) - extreme undervaluation.\n\nTechnically bouncing from falling wedge. B. Riley target $30 (+41% upside).\n\nRisks: 88% ETH concentration, Middle East geopolitics, EPS still negative. But 4.7% dividend and aggressive buying (238K ETH in 30 days) signal long-term conviction.\n\n#BMNR #Ethereum #Crypto"
+          "hook": "BMNR: Tom Lee declares crypto winter is ending",
+          "text": "$BMNR $21.23. MAVAN launched 3/25. Tom Lee: $138M ETH added, 'crypto winter nearly over.' 4,660,903 ETH (3.86% supply). P/NAV 0.82x, $11.6B NAV vs $9.53B cap. MAVAN targets $300M+. 4.7% dividend. Falling wedge bounce. Targets $30-$34.50. Buy."
         },
         "witty": {
-          "hook": "The company hoarding 3.86% of all ETH just went DIY on staking",
-          "text": "$BMNR $21.24 (+2.1%)\n\nTom Lee really said 'I'll buy ALL the Ethereum.' 238,244 more ETH in 30 days. Total now 4,660,903. That's nearly 4% of everything that exists.\n\nLaunched MAVAN - their own staking platform - because paying Coinbase fees on $6.5B is apparently painful. Targeting $300M/yr.\n\nP/NAV 0.82x while MSTR trades at 2-3x for basically the same strategy but with BTC. Math isn't mathing for the bears.\n\nFalling wedge bounce starting. B. Riley says $30 (+41%). Dividend 4.7% while you wait.\n\nRisks? 88% in one coin, EPS -$0.93, and the Middle East is the Middle East.\n\n#BMNR"
+          "hook": "Tom Lee's ETH shopping spree: another $138M and 'winter is over'",
+          "text": "$BMNR $21.23\n\nTom Lee keeps buying ETH like it's on clearance. Another $138M. Total: 4,660,903 ETH. That's 3.86% of all Ethereum in existence. This isn't holding, it's hoarding.\n\nThey also launched MAVAN because Coinbase fees were cutting into profits. Build your own staking platform. $300M revenue target. This is the 'fine, I'll do it myself' Thanos meme in real life.\n\nP/NAV 0.82x. You're paying 82 cents per dollar of assets. MSTR charges $2-3 per dollar. Either this is a steal or the market knows something.\n\n4.7% dividend while you figure it out. Target $30-$34.50."
         },
         "empathy": {
-          "hook": "BMNR holders - this may be the turning point",
-          "text": "$BMNR $21.24 (+2.1%)\n\nIf you've been holding through the March selloff, it's been rough. Watching your position drop to $17 while ETH bled and geopolitics dominated the headlines.\n\nBut there's real progress. MAVAN staking platform launched yesterday, 3.14M ETH moving to their own infrastructure. That's $300M/year revenue potential.\n\nCurrently at P/NAV 0.82x - you're buying $11.6B in assets for $9.53B. MSTR gets 2-3x premium for the same playbook.\n\nStill risks: 88% ETH concentration, ongoing losses, geopolitical uncertainty. But 4.7% dividend and 238K ETH bought in 30 days show conviction.\n\nB. Riley target $30 (+41%). Patience may reward here.\n\n#BMNR #Ethereum"
+          "hook": "BMNR investors: signs of a turning point",
+          "text": "$BMNR $21.23\n\nThe slide to $17 was really tough. Watching your investment drop while ETH fell and geopolitical fears mounted isn't easy.\n\nBut here's what's happening: Tom Lee just put another $138M of real money into ETH and said 'crypto winter is nearly over.' That's conviction you can measure in dollars.\n\nMAVAN is live. Self-staking 3.14M ETH targets $300M+ revenue. P/NAV 0.82x means you're buying at an 18% discount to assets. 4.7% dividend helps while you wait.\n\n88% ETH concentration is real risk. But the falling wedge is breaking up, and the foundation is stronger than the price suggests.\n\nTargets $30-$34.50 (+41-63%). DCA approach."
         }
       }
     }

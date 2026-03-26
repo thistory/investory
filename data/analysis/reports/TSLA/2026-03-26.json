@@ -3,7 +3,7 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-26",
   "currentPrice": 385.95,
-  "marketCap": "1.43T",
+  "marketCap": "$1.43T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
     "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
@@ -19,7 +19,7 @@
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "356x",
+      "value": "357x",
       "interpretation": "S&P 500 평균 약 23x, 자동차 섹터 평균 약 12x 대비 극단적 프리미엄. AI/로보택시 미래 가치를 반영하지만 현재 실적 기준으로는 과대평가"
     },
     {
@@ -50,16 +50,20 @@
   ],
   "growthDrivers": [
     {
+      "title": "유가 급등($100 근접)으로 EV 수요 급증 (3/26)",
+      "description": "이란 전쟁으로 브렌트유 $99.75, 미국 휘발유 $3.98(전월 $2.9 대비 37% 급등), 디젤 $5.3 돌파. Reuters에 따르면 유럽 중고 EV 판매가 급증하고, 호주에서도 EV 관심 급등. 높은 유류비가 테슬라 전기차 전환을 가속시키는 직접적 수혜 요인"
+    },
+    {
+      "title": "Optimus3 로봇 영상 공개, 올여름 생산 시작 (3/25)",
+      "description": "테슬라가 Optimus3 휴머노이드 로봇의 감속기어와 정밀 손 설계 영상을 공개. 프리마켓에서 2% 상승 견인. 2026년 여름 생산 시작 예정으로 로봇 사업 구체화"
+    },
+    {
       "title": "Wedbush, Terafab을 '게임 체인저'로 재평가 (3/25)",
       "description": "Wedbush가 Terafab 반도체 공장 계획을 '게임 체인저'라고 평가하며 Outperform, $600 목표가를 재확인했다. AI5 칩 소량 생산이 2026년 말 시작, 본격 양산은 2027년 예정"
     },
     {
       "title": "유럽 판매 13개월 만에 반등 (2월 +11.8%)",
-      "description": "ACEA 데이터에 따르면 2월 유럽 등록이 전년 대비 11.8% 증가. 2024년 12월 이후 첫 증가세. 다만 BYD가 같은 기간 100% 이상 성장해 점유율 경쟁은 더 치열해졌다"
-    },
-    {
-      "title": "Terafab $20~25B 합작 반도체 공장 (3/22)",
-      "description": "Tesla, SpaceX, xAI가 합작 투자해 오스틴에 Terafab 반도체 공장을 건설한다. 차량용 칩과 AI 위성용 칩 두 종류를 자체 생산할 계획. 2027년 양산 목표"
+      "description": "ACEA 데이터에 따르면 2월 유럽 등록이 전년 대비 11.8% 증가. 2024년 12월 이후 첫 증가세. 중국 2월 판매도 +42% 급증. 다만 BYD가 같은 기간 100% 이상 성장해 점유율 경쟁은 더 치열"
     },
     {
       "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
@@ -68,10 +72,6 @@
     {
       "title": "네덜란드 FSD 승인 4/10 예정, 유럽 확대 기대",
       "description": "테슬라가 네덜란드 당국에 FSD Supervised 승인을 4월 10일까지 받을 것으로 기대한다고 밝혔다. 승인되면 올 여름 EU 전체로 확대 가능"
-    },
-    {
-      "title": "중국 판매 급증 (+35% YoY) + $2.9B 태양광 장비",
-      "description": "2026년 1-2월 중국 판매 전년 대비 35% 증가. 미국 내 100GW 태양광 생산 확보를 위해 중국 업체와 $2.9B 장비 구매 협상 중"
     },
     {
       "title": "NHTSA FSD 조사 심화, 규제 리스크 부상 (3/19)",
@@ -109,7 +109,7 @@
       },
       {
         "name": "Waymo (Alphabet)",
-        "detail": "자율주행 상용화에서 테슬라 앞선 실적. 로보택시 서비스 확대 중"
+        "detail": "자율주행 상용화에서 테슬라 앞선 실적. 주당 20만+ 유료 탑승 달성. 로보택시 서비스 확대 중"
       },
       {
         "name": "현대/기아",
@@ -119,16 +119,22 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-26",
+      "headline": "이란 전쟁으로 유가 $100 근접, 휘발유 $3.98로 EV 수요 급증",
+      "significance": "브렌트유 $99.75, 미국 휘발유 37% 급등. Reuters 보도: 유럽 중고 EV 판매 급증. 높은 유류비가 전기차 전환을 가속하며 테슬라에 직접적 수혜",
+      "url": "https://www.reuters.com/business/energy/used-ev-sales-jump-europe-iran-war-drives-up-petrol-prices-2026-03-26/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Optimus3 로봇 영상 공개, 프리마켓 2% 상승",
+      "significance": "감속기어와 정밀 손 설계가 담긴 Optimus3 영상 공개. 2026년 여름 생산 시작 예정. 로봇 사업 실체화에 시장 긍정적 반응",
+      "url": "https://news.futunn.com/en/post/70585422/us-stock-movements-tesla-rose-nearly-2-in-pre-market"
+    },
+    {
       "date": "2026-03-25",
       "headline": "테슬라 주가 '진정한 신봉자'마저 흔들리기 시작",
       "significance": "풋/콜 비율 1.75로 3년 최고치. 옵션 시장이 향후 30일 하방 리스크가 상방보다 크다고 판단",
       "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html"
-    },
-    {
-      "date": "2026-03-25",
-      "headline": "한국 Model S/X 주문 마감일 3/31 확정, 단종 공식화",
-      "significance": "Model S/X 단종으로 라인업 슬림화. Cybercab, 저가 모델에 리소스 집중 가능",
-      "url": "https://www.teslarati.com/tesla-officially-begins-sunset-model-s-model-x/"
     },
     {
       "date": "2026-03-22",
@@ -138,32 +144,26 @@
     },
     {
       "date": "2026-03-19",
-      "headline": "UBS, Q1 인도량 전망 18% 하향 - 34.5만 대",
-      "significance": "글로벌 EV 수요 둔화, BYD/샤오미 경쟁 심화, DOGE 논란으로 유럽/중국 브랜드 타격 반영",
-      "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount"
-    },
-    {
-      "date": "2026-03-19",
       "headline": "NHTSA, FSD 저시야 환경 성능 조사 격상",
       "significance": "안개, 먼지 등 조건에서 FSD 안전성 의문. 리콜 또는 규제 제한 가능성이 로보택시 일정에 악영향",
       "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 399,
+    "consensusTarget": 421,
     "highTarget": 600,
-    "lowTarget": 25.28,
-    "upsidePercent": 3.4,
+    "lowTarget": 119,
+    "upsidePercent": 9.1,
     "buyCount": 12,
     "holdCount": 13,
     "sellCount": 8,
-    "notableComment": "Wedbush Dan Ives는 $600 목표가로 2026년이 테슬라의 '전환점'이라 주장. 반면 JPMorgan은 $150에서 '자동차 펀더멘털과 괴리된 밸류에이션'이라 경고. Morgan Stanley는 12월 비중확대에서 중립으로 하향"
+    "notableComment": "Wedbush Dan Ives는 $600 목표가로 2026년이 테슬라의 '전환점'이라 주장. JPMorgan은 $150에서 '자동차 펀더멘털과 괴리된 밸류에이션'이라 경고. Barclays는 자율주행 진전을 근거로 $325로 상향"
   },
   "risks": [
     {
       "severity": "critical",
       "title": "극단적 밸류에이션 리스크",
-      "description": "TTM P/E 356x로 S&P 500 평균 23x의 15배. 성장 기대가 조금이라도 꺾이면 주가 급락 가능. Forward P/E 172x도 성장주 평균의 4배 이상"
+      "description": "TTM P/E 357x로 S&P 500 평균 23x의 15배. 성장 기대가 조금이라도 꺾이면 주가 급락 가능. Forward P/E 172x도 성장주 평균의 4배 이상"
     },
     {
       "severity": "high",
@@ -178,7 +178,7 @@
     {
       "severity": "high",
       "title": "머스크 리스크 (브랜드 훼손)",
-      "description": "DOGE 정치 활동, 트위터 사기 판결 등으로 유럽 1월 판매 45% 급감. 브랜드 가치 훼손이 수요에 직접 영향"
+      "description": "DOGE 정치 활동으로 유럽 1월 판매 45% 급감. 내부자 매도(Kimbal Musk $25.6M). 브랜드 가치 훼손이 수요에 직접 영향"
     },
     {
       "severity": "medium",
@@ -187,11 +187,15 @@
     },
     {
       "severity": "medium",
-      "title": "지정학적 리스크",
-      "description": "이란 위기로 유가 급등, 나스닥 조정권(-10%). 매크로 환경이 고밸류에이션 성장주에 불리하게 작용"
+      "title": "지정학적 리스크와 유가 급등",
+      "description": "이란 전쟁으로 유가 $100 근접. 단기적으로 EV 수요에 긍정적이나 매크로 불확실성과 나스닥 조정(-10%)은 고밸류에이션 주식에 부담"
     }
   ],
   "buyReasons": [
+    {
+      "title": "유가 급등이 EV 전환 가속",
+      "rationale": "휘발유 $3.98(37% 급등), 디젤 $5.3. 유럽 중고 EV 판매 급증. 높은 유류비가 EV 경제성을 부각시켜 테슬라 수요 확대"
+    },
     {
       "title": "4월 카탈리스트 집중",
       "rationale": "Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인, Q1 실적 발표가 4월에 몰려 있어 단기 모멘텀 기대"
@@ -201,12 +205,8 @@
       "rationale": "Megapack 매출 2025년 2배 성장, 전체 매출의 12% 차지. 고마진 반복 매출로 자동차 의존도 낮추는 중"
     },
     {
-      "title": "Terafab AI 칩 내재화",
-      "rationale": "자체 AI 칩 생산으로 엔비디아 의존 탈피. 차량, 로봇, 위성용 칩 수직 통합 완성시 원가 경쟁력 극대화"
-    },
-    {
-      "title": "과매도 구간 진입",
-      "rationale": "RSI 30 근접, 52주 고점 대비 23% 하락. 기관 투자자(BlackRock, Vanguard)가 Q3-Q4 2025에 매수 확대"
+      "title": "기술적 반등 신호 (Falling Wedge + Harami)",
+      "rationale": "3일 차트에서 falling wedge와 harami 캔들 패턴 형성. RSI 39로 과매도 근접. 38.2% 피보나치 되돌림에서 수렴 중으로 기술적 반등 가능성"
     }
   ],
   "technicalPosition": {
@@ -214,136 +214,135 @@
     "week52Low": 214.25,
     "currentPositionPercent": 60.3,
     "sma50": 405,
-    "sma50Signal": "하회 - 약세",
+    "sma50Signal": "below",
     "sma200": 345,
-    "sma200Signal": "상회 - 중기 지지",
-    "rsi": 41,
-    "rsiSignal": "중립~약세, 과매도 접근 구간"
+    "sma200Signal": "above",
+    "rsi": 39,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "4월에 Cybercab 양산, Roadster 공개, FSD 유럽 승인, Q1 실적 등 핵심 카탈리스트가 집중돼 있다. 이 중 하나라도 기대를 넘으면 단기 반등의 강력한 동력이 될 수 있다",
-    "Terafab 발표로 AI 칩 내재화 비전이 한층 강화됐으나, NHTSA FSD 조사 격상과 캘리포니아 로보택시 신청 거부가 자율주행 상용화 일정에 불확실성을 더한다",
-    "P/E 356배는 S&P 500 평균(23배)의 15배 수준. 자동차 본업이 정체된 상황에서 로보택시, 로봇, 에너지가 전부 성공해야 정당화되는 밸류에이션이다",
-    "기술적으로 50일선($405) 아래에서 약세 흐름 지속 중이지만, 200일선($345) 위에서 지지되는 상황. 단기 $364-368 지지선 사수 여부가 핵심 관건"
+    "이란 전쟁으로 휘발유가 37% 급등($3.98)하면서 EV 전환이 빨라지고 있다. 유럽에서 중고 EV 판매가 급증하고 있어 테슬라에 직접적 수혜가 기대된다",
+    "4월에 Cybercab 양산, Roadster 공개, FSD 유럽 승인, Q1 실적 등 핵심 카탈리스트가 집중돼 있고, Optimus3 로봇도 올여름 생산을 시작한다. 성장 스토리는 아직 살아있다",
+    "다만 P/E 357배는 S&P 500 평균(23배)의 15배 수준이고, NHTSA FSD 조사 격상과 캘리포니아 로보택시 거부가 자율주행 타임라인에 걸림돌이 된다",
+    "기술적으로 falling wedge와 harami 패턴이 반등을 시사하지만, 50일선($405) 아래 약세 흐름은 지속 중이다. 애널리스트 평균 목표가 $421(+9%)"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "4월 카탈리스트 결과 확인 후 판단이 합리적. 극단적 밸류에이션과 규제 불확실성이 공존하지만 과매도 구간에서의 기술적 반등 가능성도 존재",
+    "summary": "유가 급등이 EV 수요를 끌어올리는 긍정적 환경이지만, 극단적 밸류에이션과 규제 불확실성이 공존한다. 4월 카탈리스트 결과 확인 후 판단이 합리적이다. 과매도 구간이므로 장기 투자자는 $340-365 분할매수 고려 가능",
     "horizon": "3-6개월"
   },
   "sources": [
     {
-      "name": "Techi.com",
+      "name": "Reuters - 유럽 중고 EV 판매 급증",
+      "url": "https://www.reuters.com/business/energy/used-ev-sales-jump-europe-iran-war-drives-up-petrol-prices-2026-03-26/",
+      "description": "이란 전쟁으로 유류비 급등, 유럽 중고 EV 판매 급증 보도"
+    },
+    {
+      "name": "Fortune - 유가 $99.75",
+      "url": "https://fortune.com/article/price-of-oil-03-25-2026/",
+      "description": "브렌트유 $99.75, 전년 대비 $26.64 상승"
+    },
+    {
+      "name": "BanklessTimes - TSLA 기술적 분석",
+      "url": "https://www.banklesstimes.com/articles/2026/03/25/tesla-stock-price-forecast-heres-why-it-may-jump-to-500-soon/",
+      "description": "Falling wedge + harami 패턴 분석, $415-$500 목표"
+    },
+    {
+      "name": "Techi - TSLA 종합 분석",
       "url": "https://www.techi.com/tesla-stock-today/",
-      "description": "TSLA 실시간 주가, 분석, 전망 종합"
+      "description": "TSLA $383, 애널리스트 목표가 $119-$600, 종합 분석"
     },
     {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/",
-      "description": "Terafab 반도체 공장 건설 발표 보도"
-    },
-    {
-      "name": "CNBC",
+      "name": "CNBC - 투자자 심리 변화",
       "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html",
-      "description": "풋/콜 비율 급등, 투자자 심리 변화 분석"
+      "description": "풋/콜 비율 3년 최고치, 투자자 심리 악화 분석"
     },
     {
-      "name": "TipRanks",
+      "name": "Reuters - Terafab 칩공장",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/",
+      "description": "Terafab $20-25B 반도체 공장 건설 발표"
+    },
+    {
+      "name": "TipRanks - NHTSA FSD 조사",
       "url": "https://www.tipranks.com/news/tesla-stock-hits-new-2026-lows-ubs-slashes-delivery-forecast-and-regulatory-probes-mount",
       "description": "UBS 인도량 하향, NHTSA FSD 조사 격상"
     },
     {
-      "name": "TipRanks Forecast",
-      "url": "https://www.tipranks.com/stocks/tsla/forecast",
-      "description": "31명 애널리스트 목표가 평균 $399, 범위 $25-$600"
+      "name": "EBC Financial - TSLA 기술적 레벨",
+      "url": "https://www.ebc.com/forex/tesla-stock-forecast-key-levels-to-watch-in-2026",
+      "description": "50일 EMA $386.88, 200일 EMA $400.45 주요 기술적 레벨"
     },
     {
-      "name": "Teslarati",
-      "url": "https://www.teslarati.com/tesla-officially-begins-sunset-model-s-model-x/",
-      "description": "한국 Model S/X 주문 마감, 단종 공식화"
+      "name": "MIT Tech Review - 유가와 EV",
+      "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
+      "description": "유가 급등과 EV 수요 관계 분석"
     },
     {
-      "name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/22/elon-musk-unveils-chip-manufacturing-plans-for-spacex-and-tesla/",
-      "description": "Terafab 칩 제조 계획 상세 분석"
-    },
-    {
-      "name": "Capital Street FX",
-      "url": "https://www.capitalstreetfx.com/tesla-tsla-trade-idea-march-23-2026-technical-analysis-trade-setup-price-forecast/",
-      "description": "TSLA 기술적 분석, RSI, EMA, 지지/저항선"
-    },
-    {
-      "name": "GuruFocus",
-      "url": "https://www.gurufocus.com/term/forward-pe-ratio/TSLA",
-      "description": "Forward P/E 189x, 밸류에이션 분석"
-    },
-    {
-      "name": "Motley Fool",
-      "url": "https://www.fool.com/investing/how-to-invest/stocks/tesla-stock-forecast/",
-      "description": "2026년 매출/EPS 전망, 밸류에이션 분석"
+      "name": "Futunn - Optimus3 로봇",
+      "url": "https://news.futunn.com/en/post/70585422/us-stock-movements-tesla-rose-nearly-2-in-pre-market",
+      "description": "Optimus3 로봇 영상 공개, 프리마켓 2% 상승"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "TSLA $386 - 4월 카탈리스트 집중",
-      "text": "테슬라 $386, 고점 대비 -23%. Terafab 칩공장 발표에 Wedbush $600 유지. 하지만 NHTSA FSD 조사 격상+UBS 인도량 18% 하향. 4월 Cybercab 양산, Roadster 공개, FSD 유럽 승인이 분수령. P/E 356x에 Hold 의견 우세",
+      "hook": "TSLA $386 | 유가 급등이 EV 수요 불씨를 당긴다",
+      "text": "$TSLA $385.95\n\n이란 전쟁으로 휘발유 37% 급등($3.98). 유럽 중고 EV 판매 급증 중. 유류비 부담이 전기차 전환을 가속시키고 있다.\n\n애널리스트 평균 목표가 $421(+9%)\n\n1/4",
       "thread": [
-        "1/4 테슬라 $386, 52주 고점($499) 대비 -23% 하락. RSI 41로 과매도 접근. 50일선($405) 아래 약세 흐름이나 200일선($345) 위에서 지지 중",
-        "2/4 호재: Terafab 칩공장($20-25B), Cybercab 4월 양산, Roadster 공개 예정, 네덜란드 FSD 승인(4/10), 중국 판매 +35%. Wedbush $600 목표가 재확인",
-        "3/4 악재: NHTSA FSD 조사 격상, CA 로보택시 거부, UBS Q1 인도 -18% 전망, 유럽 1월 -45%(DOGE 논란), Uber-Rivian $1.25B 로보택시 계약",
-        "4/4 결론: P/E 356x(S&P 평균 23x의 15배). 4월 카탈리스트 결과 보고 판단해도 늦지 않다. Hold. 장기 투자자는 $340-365 구간 분할매수 고려"
+        "4월 카탈리스트 총정리:\n- Cybercab 양산 시작\n- Roadster 공개\n- FSD 네덜란드 승인(4/10)\n- Q1 실적(4/28)\n- Optimus3 올여름 생산\n\n하나만 터져도 분위기 반전 가능\n\n2/4",
+        "P/E 357배(S&P 500 평균의 15배)는 여전히 부담. NHTSA FSD 조사 격상, 캘리포니아 로보택시 거부. 자율주행 타임라인에 불확실성이 남아있다\n\n3/4",
+        "기술적: Falling wedge + harami 패턴으로 반등 신호. RSI 39 과매도 근접. 50일선($405) 아래 약세이나 200일선($345) 지지 중.\n\nHold. 4월 결과 보고 판단해도 늦지 않다\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "TSLA $386 분석: 4월이 승부처",
-      "text": "테슬라 현재 $386, 시총 $1.43T. 고점 대비 -23% 하락했지만 여전히 P/E 356배로 S&P 500 평균(23x)의 15배.\n\n4월 핵심 카탈리스트:\n- Cybercab 로보택시 양산 시작\n- Roadster 공개\n- 네덜란드 FSD 승인(4/10)\n- Q1 실적 발표(4/28)\n\n호재: Terafab $20-25B 칩공장 발표로 AI 칩 내재화 비전 강화. 중국 판매 +35%, Megapack 매출 2배 성장.\n\n악재: NHTSA FSD 조사 격상, CA 로보택시 거부, UBS 인도량 -18% 전망, 유럽 DOGE 논란으로 1월 -45% 급감. Uber-Rivian $1.25B 로보택시 경쟁.\n\n기술적: RSI 41 약세, 50일선 하회. 200일선($345) 지지 중. $364-368 단기 지지선 관건.\n\n결론: Hold. 4월 카탈리스트 결과 확인 후 판단이 합리적. 장기 투자자는 $340-365 분할매수 구간으로 접근 가능."
+      "hook": "TSLA: 유가 급등이 EV 전환을 앞당기고 있다",
+      "text": "$TSLA $385.95, 시총 $1.43T\n\n이란 전쟁으로 휘발유가 37% 급등해 $3.98에 도달했다. Reuters에 따르면 유럽 중고 EV 판매가 급증하고 있고, 호주에서도 EV 관심이 폭발 중. 높은 유류비가 전기차 전환을 가속시키며 테슬라에 직접적 수혜.\n\n4월에 Cybercab 양산, Roadster 공개, FSD 유럽 승인, Q1 실적이 한꺼번에 쏟아진다. Optimus3 로봇도 올여름 생산 시작.\n\n다만 P/E 357배, NHTSA FSD 조사 격상, 캘리포니아 로보택시 거부가 걸림돌. Falling wedge 패턴에서 반등 시도 중이지만 50일선($405) 아래 약세.\n\nHold. 애널리스트 평균 $421(+9%). 4월 카탈리스트 확인 후 대응이 합리적."
     },
     "telegram": {
       "hook": "TSLA 일일 분석 (3/26)",
-      "text": "테슬라 $385.95 (+0.76%)\n시총 $1.43T | P/E 356x | RSI 41\n\n핵심 뉴스:\n- Terafab 칩공장 $20-25B 발표\n- NHTSA FSD 조사 격상\n- Model S/X 한국 주문 3/31 마감\n- UBS Q1 인도량 -18% 전망\n\n4월 카탈리스트:\nCybercab 양산 | Roadster 공개 | FSD 유럽 승인 | Q1 실적\n\n애널리스트: Hold 우세, 평균 $399 (현재가 대비 +3.4%)\nWedbush $600 vs JPMorgan $150\n\n기술적: 50일선($405) 하회 약세, 200일선($345) 지지\n\n판단: Hold - 4월 카탈리스트 확인 후 대응"
+      "text": "Tesla $385.95 | 시총 $1.43T\nP/E 357x | Forward 172x | RSI 39\n\n핵심 이슈\n- 이란 전쟁으로 휘발유 37% 급등($3.98)\n- 유럽 중고 EV 판매 급증 (Reuters)\n- Optimus3 로봇 영상 공개, 여름 생산\n- NHTSA FSD 조사 격상\n\n4월 카탈리스트\nCybercab 양산 | Roadster 공개 | FSD 유럽 | Q1 실적\n\n기술적: Falling wedge 반등 시도, 50일선($405) 하회\n애널리스트: Hold, 평균 $421(+9%)\n\n판단: Hold, 4월 카탈리스트 확인 후 대응"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA $386 - 팩트 체크",
-          "text": "테슬라 $385.95, 시총 $1.43T. P/E 356x(S&P 500 평균 23x). 2025년 인도 179만 대(-1.1%), 매출 +1%. NHTSA FSD 조사 격상, UBS Q1 인도 -18% 전망. 애널리스트 평균 목표가 $399. Hold",
+          "hook": "TSLA $386 | 유가 급등이 EV 수요 불씨를 당긴다",
+          "text": "$TSLA $385.95\n\n이란 전쟁으로 휘발유 37% 급등($3.98). 유럽 중고 EV 판매 급증 중. 유류비 부담이 전기차 전환을 가속시키고 있다.\n\n애널리스트 평균 목표가 $421(+9%)\n\n1/4",
           "thread": [
-            "1/3 숫자로 보는 TSLA: $385.95, P/E 356x, Forward 172x. 52주 $214-$499. RSI 41, 50일선 $405 하회. 2025 매출 $978B(+1%), EPS $1.08",
-            "2/3 4월 일정: Cybercab 양산, Roadster 공개, FSD 네덜란드 승인(4/10), Q1 실적(4/28). Terafab $20-25B 칩공장 2027년 양산 목표",
-            "3/3 리스크: NHTSA FSD 조사, CA 로보택시 거부, UBS 인도 -18%, 유럽 1월 -45%. 결론: Hold. 4월 카탈리스트 대기"
+            "4월 카탈리스트 총정리:\n- Cybercab 양산 시작\n- Roadster 공개\n- FSD 네덜란드 승인(4/10)\n- Q1 실적(4/28)\n- Optimus3 올여름 생산\n\n하나만 터져도 분위기 반전 가능\n\n2/4",
+            "P/E 357배(S&P 500 평균의 15배)는 여전히 부담. NHTSA FSD 조사 격상, 캘리포니아 로보택시 거부. 자율주행 타임라인에 불확실성이 남아있다\n\n3/4",
+            "기술적: Falling wedge + harami 패턴으로 반등 신호. RSI 39 과매도 근접. 50일선($405) 아래 약세이나 200일선($345) 지지 중.\n\nHold. 4월 결과 보고 판단해도 늦지 않다\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "테슬라: AI 꿈 vs 현실의 간극",
-          "text": "테슬라 P/E 356배. S&P 500 평균의 15배. 이 가격에 차 회사를 사는 게 아니라 '로봇이 운전하는 미래'를 사는 거다. 문제는 NHTSA가 그 미래에 제동을 걸고 있다는 것",
+          "hook": "테슬라: 기름값이 올리는 전기차 주식",
+          "text": "$TSLA $385.95\n\n기름값이 37% 뛰니까 갑자기 전기차가 천재적 선택이 된 세상. 유럽에서 중고 EV가 불티나게 팔리고 있다.\n\n정작 테슬라 주가는 고점 대비 -23%. 아이러니\n\n1/4",
           "thread": [
-            "1/3 테슬라 시총 $1.43T = 도요타+폭스바겐+GM+포드+BMW+현대 합산. 근데 작년 판매는 첫 감소. 이건 자동차 회사가 아니라 종교에 가깝다",
-            "2/3 머스크: Terafab으로 AI 칩도 만들겠다! 시장: 좋아! +3.5%. 같은 주 NHTSA: FSD 안개에서 위험. 시장: 싫어! -12%. 이게 테슬라 주식 일상",
-            "3/3 4월에 Cybercab, Roadster, FSD 유럽, 실적 다 나온다. 포커로 치면 올인 라운드. Hold하고 구경하자. 팝콘 준비"
+            "4월 일정이 올인 라운드다. Cybercab, Roadster, FSD 유럽, 실적. 거기에 Optimus3 로봇까지 여름 생산.\n\nP/E 357배짜리 회사의 자신감은 인정한다\n\n2/4",
+            "근데 NHTSA는 안개 속 FSD에 의문이고, 캘리포니아는 로보택시 거부했다. 꿈은 크지만 현실은 규제 장벽 투성이\n\n3/4",
+            "기름값이 $3.98이면 전기차 경제성은 확실한데 P/E 357배는 어떻게 정당화하지? 4월 결과 보고 생각해도 늦지 않다. Hold\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "TSLA 홀더들, 힘든 시기죠",
-          "text": "고점 $499에서 -23%. 풋/콜 비율 3년 최고. NHTSA 조사에 인도량 하향까지. 힘든 구간이지만 4월 카탈리스트가 집중돼 있습니다. 조급해하지 말고 결과를 기다려봐요",
+          "hook": "TSLA 홀더들, 유가 급등이 우리 편이 됐다",
+          "text": "$TSLA $385.95\n\n고점 $499에서 -23%. 힘들었죠. 하지만 기름값 37% 급등으로 EV 수요가 살아나고 있어요. 유럽 중고 EV 판매 급증 중.\n\n바람이 바뀌고 있습니다\n\n1/4",
           "thread": [
-            "1/3 $400, $450에 산 분들 마음이 무겁죠. 3주 연속 하락에 풋/콜 비율 3년 최고. 시장 심리가 최악이란 뜻이기도 하지만, 역으로 반등의 씨앗이기도 합니다",
-            "2/3 4월에 Cybercab, Roadster, FSD 유럽 승인, Q1 실적이 다 나옵니다. 이 중 하나라도 예상을 넘으면 분위기 반전 가능. 지금은 인내의 시간",
-            "3/3 장기 투자자라면 $340-365 구간에서 분할매수도 방법. 단기 트레이더라면 4월 실적 전까지 관망이 현명합니다. 어떤 선택이든 응원합니다"
+            "4월에 중요한 일이 잔뜩 있어요. Cybercab, Roadster, FSD 유럽 승인, 실적. Optimus3도 여름에 생산 시작.\n\n하나만 기대 이상이면 분위기가 확 달라질 수 있어요\n\n2/4",
+            "물론 걱정되는 것도 있어요. NHTSA FSD 조사, 캘리포니아 거부, P/E 357배. 위험은 솔직히 인정해야 합니다\n\n3/4",
+            "Falling wedge에서 반등 시도 중이고, RSI 39로 과매도 근접. 4월까지 기다려보는 게 현명합니다. 조급하지 않아도 돼요\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA 팩트 분석 (3/26)",
-          "text": "테슬라 $385.95, 시총 $1.43T, P/E 356x(S&P 500 평균 23x의 15배).\n\n2025 실적: 매출 $978B(+1%), EPS $1.08, 인도 179만 대(-1.1%). 자동차 마진 16.3%.\n\nQ1 2026 전망: UBS 인도 34.5만 대(-18% YoY), EPS $0.41.\n\n핵심 이벤트: Terafab $20-25B 칩공장(3/22), NHTSA FSD 조사 격상(3/19), Model S/X 한국 단종(3/31).\n\n4월: Cybercab 양산, Roadster 공개, FSD 네덜란드(4/10), Q1 실적(4/28).\n\n애널리스트 33명: Buy 12, Hold 13, Sell 8. 평균 $399, 범위 $25-$600.\n\n기술적: RSI 41, 50일선($405) 하회, 200일선($345) 지지. 지지선 $364-368.\n\n판단: Hold. 4월 카탈리스트 결과 확인 후 대응."
+          "hook": "TSLA: 유가 급등이 EV 전환을 앞당기고 있다",
+          "text": "$TSLA $385.95, 시총 $1.43T\n\n이란 전쟁으로 휘발유가 37% 급등해 $3.98에 도달했다. Reuters에 따르면 유럽 중고 EV 판매가 급증하고 있고, 호주에서도 EV 관심이 폭발 중. 높은 유류비가 전기차 전환을 가속시키며 테슬라에 직접적 수혜.\n\n4월에 Cybercab 양산, Roadster 공개, FSD 유럽 승인, Q1 실적이 한꺼번에 쏟아진다. Optimus3 로봇도 올여름 생산 시작.\n\n다만 P/E 357배, NHTSA FSD 조사 격상, 캘리포니아 로보택시 거부가 걸림돌. Falling wedge 패턴에서 반등 시도 중이지만 50일선($405) 아래 약세.\n\nHold. 애널리스트 평균 $421(+9%). 4월 카탈리스트 확인 후 대응이 합리적."
         },
         "witty": {
-          "hook": "테슬라: P/E 356배의 세계",
-          "text": "테슬라 P/E가 356배다. S&P 500 평균의 15배. 이 밸류에이션을 정당화하려면 로보택시, 로봇, 에너지, AI 칩이 전부 대박나야 한다. 포커로 치면 로열 스트레이트 플러시를 기다리는 중.\n\n시총 $1.43T은 도요타부터 현대까지 7개 완성차 기업 합산보다 크다. 근데 작년 판매는 첫 감소. 이건 차 회사 주식이 아니라 '엘론 머스크 유니버스' ETF다.\n\n이번 주: Terafab 칩공장 발표에 +3.5%, 그다음 날 NHTSA FSD 조사에 -5%. 테슬라 주식 보유는 롤러코스터 무제한 이용권.\n\nNHTSA가 안개 속 FSD에 의문을 제기하고, 캘리포니아가 로보택시를 거부하고, UBS가 인도량 -18%를 전망하는데도 Wedbush는 $600을 외친다. 이 회사를 분석하면 뇌가 분열된다.\n\n4월이 올인 라운드다. Cybercab, Roadster, FSD 유럽, Q1 실적이 몰려있다. Hold하고 팝콘 들고 지켜보자."
+          "hook": "기름값이 올리는 전기차 주식, TSLA의 아이러니",
+          "text": "$TSLA $385.95\n\n이란 전쟁으로 기름값이 37% 뛰었다. 휘발유 $3.98, 디젤 $5.3. 유럽에서 중고 전기차가 불티나게 팔리기 시작.\n\n기름값이 오르면 전기차가 좋다는 건 누구나 아는데, 정작 테슬라 주가는 고점 대비 -23%다. 시장은 EV 수요보다 P/E 357배가 더 무서운 모양.\n\n4월에 Cybercab, Roadster, FSD 유럽, 실적, Optimus3까지. 카탈리스트가 쏟아지는데 NHTSA는 안개 속 FSD에 제동을 건다. 꿈과 현실의 줄다리기.\n\nHold. 기름값이 올려주는 수요를 밸류에이션이 깎아먹는 중. 4월에 방향이 정해진다."
         },
         "empathy": {
-          "hook": "테슬라 투자자 여러분께",
-          "text": "고점 $499에서 $386. 23% 하락이면 마음이 편할 리 없습니다. 풋/콜 비율이 3년 최고라는 건 시장 전체가 불안하다는 뜻이에요.\n\nNHTSA FSD 조사, 유럽 판매 급감, 인도량 하향... 악재가 겹칠 때가 가장 힘들죠. 하지만 이런 시기가 늘 그렇듯, 감정적 판단이 가장 위험합니다.\n\n4월에 중요한 카탈리스트가 몰려 있어요. Cybercab 양산, Roadster 공개, FSD 유럽 승인, Q1 실적. 이 결과들이 나오면 방향이 더 명확해질 겁니다.\n\nTerafab 칩공장, 중국 +35% 성장, Megapack 매출 2배 같은 긍정적 신호도 있습니다. 모든 게 나쁜 건 아니에요.\n\n장기 투자자라면 $340-365에서 분할매수를, 단기라면 4월까지 관망을 추천합니다. 지금은 냉정함이 가장 큰 무기입니다. 힘내세요."
+          "hook": "TSLA 투자자 여러분, 기름값이 우리 편이 됐어요",
+          "text": "$TSLA $385.95, 고점 대비 -23%.\n\n힘든 시간이었죠. 하지만 상황이 바뀌고 있어요. 기름값이 37% 폭등하면서 전기차를 찾는 사람이 늘고 있습니다. 유럽에서 중고 EV 판매가 급증하고 있고, 호주에서도 EV 관심이 폭발 중이에요.\n\n4월에 중요한 카탈리스트가 줄줄이 나옵니다. Cybercab, Roadster, FSD 유럽, 실적. Optimus3도 여름 생산 예정. 하나만 기대 이상이면 분위기가 달라질 수 있어요.\n\n물론 P/E 357배와 NHTSA 조사는 걱정이지만, falling wedge에서 반등 시도 중이고 RSI 39로 과매도 근접입니다.\n\n조급하지 않아도 됩니다. 4월까지 차분히 기다려봐요."
         }
       }
     }

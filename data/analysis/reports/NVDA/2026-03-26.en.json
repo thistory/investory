@@ -5,313 +5,162 @@
   "currentPrice": 179.45,
   "marketCap": "$4.34T",
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and AI accelerators",
-    "description": "NVIDIA is the leading company in GPU-based AI accelerated computing, operating a vertically integrated ecosystem spanning data center AI chips to software platforms. At GTC 2026, it unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue reached $215.9B (+65% YoY) with $120B net income. The company projected cumulative Blackwell and Rubin chip orders of $1 trillion by 2027, doubling its previous $500B forecast, as it aggressively targets the AI inference market.",
+    "oneLiner": "Undisputed leader in AI computing, dominating global AI infrastructure with datacenter GPUs and accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from datacenter AI chips to software platforms. GTC 2026 unveiled Vera Rubin and Vera CPU platforms with a 5-tier full-stack AI strategy. FY26 revenue hit $215.9B (+65% YoY) with $120B net income. Jensen Huang projected $1 trillion in cumulative Blackwell and Rubin chip orders through 2027.",
     "howTheyMakeMoney": [
-      "Data Center AI Accelerators (80%+ of revenue)",
-      "AI Software Platforms (CUDA, NIM, NemoClaw)",
+      "Datacenter AI accelerators (80%+ of revenue)",
+      "AI software platforms (CUDA, NIM, NemoClaw)",
       "Gaming GPUs",
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
     ],
-    "keyProducts": [
-      "Vera Rubin NVL72",
-      "Vera CPU",
-      "Blackwell",
-      "CUDA",
-      "NemoClaw",
-      "DRIVE"
-    ]
+    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
   },
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "36.6x",
-      "description": "Premium vs semiconductor sector avg 25x and S&P 500 avg 22x. Down significantly from 45x twelve months ago"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "21.3x",
-      "description": "Based on FY27 estimated EPS. Converging toward sector avg of 20x. Reasonable for a high-growth name"
-    },
-    {
-      "name": "Revenue (TTM)",
-      "value": "$215.9B",
-      "description": "+65% YoY growth. Data center revenue accounts for 80%+ of total"
-    },
-    {
-      "name": "Net Margin",
-      "value": "55.6%",
-      "description": "Best in the semiconductor industry. Software-like margin structure"
-    },
-    {
-      "name": "52-Week Range",
-      "value": "$86.62 - $212.19",
-      "description": "Current price $179.45 is -15% from high, +107% from low"
-    },
-    {
-      "name": "Next Earnings",
-      "value": "May 20, 2026",
-      "description": "FY27 Q1 results. Key focus on full-quarter Blackwell revenue and early Vera Rubin order updates"
-    }
+    {"name": "P/E (TTM)", "value": "36.6x", "interpretation": "Premium vs semiconductor sector avg 25x and S&P 500 avg 22x. Down from 45x a year ago"},
+    {"name": "Forward P/E", "value": "21.3x", "interpretation": "Based on FY27E EPS $7.46. Converging with sector avg of 20x. Very reasonable for 65% growth"},
+    {"name": "Revenue (TTM)", "value": "$215.9B", "interpretation": "+65% YoY. Datacenter is 80%+ of total"},
+    {"name": "Net Margin", "value": "55.6%", "interpretation": "Best in semiconductor industry. Software-like margin structure"},
+    {"name": "52-Week Range", "value": "$86.62 - $212.19", "interpretation": "Current $179.45 is -15% from high, +107% from low"},
+    {"name": "Next Earnings", "value": "May 20, 2026", "interpretation": "FY27 Q1. Blackwell full-quarter revenue and Vera Rubin early orders"}
   ],
   "growthDrivers": [
-    {
-      "title": "$1 Trillion Cumulative AI Chip Orders by 2027",
-      "description": "At GTC 2026, CEO Jensen Huang announced cumulative orders for Blackwell and Vera Rubin chips will reach at least $1 trillion by 2027, doubling the previous $500B forecast"
-    },
-    {
-      "title": "Jensen Huang's 'AGI Achieved' Statement (3/24)",
-      "description": "Jensen Huang declared 'AGI has been achieved' on Lex Fridman's podcast. Presented a $3T revenue target but tempered near-term expectations noting AI agent commercialization needs more time"
-    },
-    {
-      "title": "$20B Groq Acquisition Paying Off",
-      "description": "Per Motley Fool, NVIDIA's $20B Groq acquisition is starting to deliver results. The new AI inference chip could be a game-changer in 2026"
-    },
-    {
-      "title": "NemoClaw Open-Source AI Agent Platform",
-      "description": "Unveiled at GTC, NemoClaw is an open-source platform for building autonomous enterprise AI agents. CNBC called it NVIDIA's most important strategic pivot"
-    },
-    {
-      "title": "Energy Partnership with 6 Companies (AI Factories)",
-      "description": "At CERAWeek 2026, partnered with AES, Constellation, Invenergy, NextEra, Nscale, and Vistra via Emerald AI to operate AI data centers as flexible grid assets"
-    },
-    {
-      "title": "Space Computing - Space-1 Launch",
-      "description": "Announced NVIDIA Space-1 Vera Rubin Module at GTC for orbital data centers, geospatial intelligence, and autonomous space operations, opening entirely new markets"
-    }
+    {"title": "$1 trillion cumulative AI chip orders through 2027", "description": "Jensen Huang announced at GTC 2026 that Blackwell and Vera Rubin orders will reach at least $1T by 2027, doubling the prior $500B forecast"},
+    {"title": "Jensen Huang declares 'AGI achieved,' targets $3T revenue (3/24)", "description": "On Lex Fridman podcast, Huang declared AGI achieved and growth 'inevitable.' Set $3T revenue goal, sparking $10T valuation debate"},
+    {"title": "Motley Fool: 150% upside to $450 by 2028 (3/26)", "description": "Motley Fool projects NVDA could reach $450 by 2028 if the AI infrastructure investment cycle continues"},
+    {"title": "NemoClaw open-source AI agent platform", "description": "GTC launch of NemoClaw for enterprise autonomous AI agents. CNBC called it NVIDIA's most important strategic pivot"},
+    {"title": "Energy 6-company AI Factory partnership", "description": "CERAWeek partnerships with AES, Constellation, NextEra, and others for AI factory grid assets"},
+    {"title": "Space computing - Space-1 launch", "description": "GTC revealed Space-1 Vera Rubin Module for orbital datacenters and autonomous space operations"}
   ],
   "competitiveAdvantage": {
     "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      {
-        "type": "Ecosystem Lock-in",
-        "description": "CUDA developer ecosystem exceeds 5 million. Extremely high switching costs maintain GPU market dominance"
-      },
-      {
-        "type": "Vertical Integration",
-        "description": "Full-stack offering from GPU, CPU (Vera), networking (Spectrum-X), to software (CUDA, NIM, NemoClaw). Customers can build AI infrastructure as one-stop shop"
-      },
-      {
-        "type": "Annual Architecture Roadmap",
-        "description": "Hopper to Blackwell to Vera Rubin annual product cycle maintains 2-3 year technology lead over competitors"
-      },
-      {
-        "type": "Economies of Scale",
-        "description": "FY26 revenue of $215.9B is the largest in semiconductor industry. R&D investment overwhelms competitors"
-      }
+      {"type": "Ecosystem Lock-in", "description": "5M+ CUDA developers. Switching costs are prohibitively high"},
+      {"type": "Vertical Integration", "description": "GPU, CPU (Vera), networking (Spectrum-X), software (CUDA, NIM, NemoClaw). Full-stack offering"},
+      {"type": "Annual Architecture Roadmap", "description": "Hopper to Blackwell to Vera Rubin. 2-3 year technology gap over competitors"},
+      {"type": "Economies of Scale", "description": "FY26 revenue $215.9B, largest in semiconductor industry. R&D spending dwarfs competitors"}
     ],
     "competitors": [
-      {
-        "name": "AMD",
-        "detail": "Entered AI GPU market with MI300X but significant gap in software ecosystem and scale. Data center AI market share below 10%"
-      },
-      {
-        "name": "Google TPU",
-        "detail": "Strong for internal use with custom AI chips. Limited external market influence"
-      },
-      {
-        "name": "Amazon Trainium",
-        "detail": "Optimized for AWS internal use. Lags NVIDIA in versatility"
-      },
-      {
-        "name": "Broadcom",
-        "detail": "Supplies custom ASICs to large cloud providers. Cannot compete with NVIDIA in the general market"
-      }
+      {"name": "AMD", "detail": "MI300X entering AI GPU market but significant gap in software ecosystem and scale"},
+      {"name": "Google TPU", "detail": "Strong for internal use but limited external market impact"},
+      {"name": "Amazon Trainium", "detail": "Optimized for AWS. Lacks NVIDIA's general-purpose flexibility"},
+      {"name": "Broadcom", "detail": "Custom ASICs for large cloud providers. Cannot compete in general market"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-24",
-      "headline": "Jensen Huang declares 'AGI achieved,' sets $3T revenue target",
-      "significance": "On Lex Fridman's podcast, declared AGI achievement and outlined a long-term $3T revenue goal. However, tempered near-term expectations saying AI agent commercialization needs more time",
-      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
-    },
-    {
-      "date": "2026-03-23",
-      "headline": "Partners with 6 energy companies for AI Factory grid assets",
-      "significance": "At CERAWeek, announced partnership with AES, Constellation, NextEra and 3 others via Emerald AI to operate AI data centers as flexible grid assets",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"
-    },
-    {
-      "date": "2026-03-21",
-      "headline": "Wall Street not won over by GTC conference",
-      "significance": "TechCrunch reports that despite industry optimism, investors want near-term earnings confirmation, limiting stock price reaction to GTC announcements",
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "NemoClaw open-source AI agent platform launched",
-      "significance": "Unveiled at GTC as an open-source platform for autonomous enterprise AI agent development. Partners joining to lead the next industrial revolution in knowledge work",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx"
-    },
-    {
-      "date": "2026-03-16",
-      "headline": "NVIDIA launches Space-1 space computing platform",
-      "significance": "Announced Space-1 Vera Rubin Module, IGX Thor, and Jetson Orin platforms for orbital data centers, geospatial intelligence, and autonomous space operations",
-      "url": "https://nvidianews.nvidia.com/news/space-computing"
-    }
+    {"date": "2026-03-26", "headline": "Motley Fool: NVDA could surge 150% to $450 by 2028", "significance": "Conditional on continued AI infra investment cycle. Current valuation historically attractive", "url": "https://www.fool.com/investing/2026/03/26/prediction-nvidia-stock-could-surge-150-by-2028-bu/"},
+    {"date": "2026-03-24", "headline": "Jensen Huang declares AGI achieved, growth 'inevitable'", "significance": "Lex Fridman podcast: AGI achieved, $3T revenue goal. Sparked $10T valuation debate", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"},
+    {"date": "2026-03-23", "headline": "Energy 6-company AI factory grid partnership", "significance": "CERAWeek: AES, Constellation, NextEra partnership for flexible AI datacenter grid assets", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"},
+    {"date": "2026-03-21", "headline": "Wall Street unimpressed by GTC conference", "significance": "Despite industry optimism, investors want near-term earnings proof. Stock reaction muted", "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"},
+    {"date": "2026-03-16", "headline": "NemoClaw open-source AI agent platform launched", "significance": "Enterprise autonomous AI agent development platform. Described as NVIDIA's most important strategic pivot", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx"}
   ],
   "analystOpinions": {
-    "consensusTarget": 234,
-    "highTarget": 325,
+    "consensusTarget": 275,
+    "highTarget": 360,
     "lowTarget": 150,
-    "upsidePercent": 30.4,
+    "upsidePercent": 53.2,
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "Kevin Cassidy raised target from $300 to $325 after management meetings"
+    "notableComment": "Rosenblatt raised to $325. Tigress Financial at $360, highest target. 90% Buy/Strong Buy. Consensus $275 implies 50%+ upside"
   },
   "risks": [
-    {
-      "title": "China Export Restrictions",
-      "description": "US AI chip export controls to China persist. Regulatory uncertainty around H20 chip could mean $15-20B annual market opportunity lost",
-      "severity": "high"
-    },
-    {
-      "title": "AI Bubble Concerns and Multiple Compression",
-      "description": "P/E compressed from 45x to 36x. Post-DeepSeek shock (competitive AI models built with fewer GPUs) raised questions about AI infrastructure spending efficiency",
-      "severity": "high"
-    },
-    {
-      "title": "Geopolitical Risk and Oil Prices",
-      "description": "Iran conflict and oil above $100 weigh on tech broadly. Nasdaq down -15% from February peak",
-      "severity": "medium"
-    },
-    {
-      "title": "Prolonged Fed Rate Hold",
-      "description": "Fed funds rate at 3.5-3.75% with no cuts expected. High-rate environment pressures growth stock valuations",
-      "severity": "medium"
-    },
-    {
-      "title": "Custom ASIC Competition Intensifying",
-      "description": "Broadcom, Google TPU, Amazon Trainium accelerating custom chip development. Major cloud players attempting to reduce NVIDIA dependency",
-      "severity": "medium"
-    }
+    {"severity": "high", "title": "China export restrictions", "description": "Ongoing AI chip export controls. H20 uncertainty could mean $15-20B annual opportunity cost"},
+    {"severity": "high", "title": "AI bubble concerns and multiple compression", "description": "P/E compressed from 45x to 36x. Post-DeepSeek efficiency debate continues"},
+    {"severity": "medium", "title": "Geopolitical risk and oil prices", "description": "Iran conflict, oil near $100. Tech stocks under macro pressure. Nasdaq -15% from Feb high"},
+    {"severity": "medium", "title": "Fed rate hold extended", "description": "Rates at 3.5-3.75% with no cut in sight. High rates pressure growth stock valuations"},
+    {"severity": "medium", "title": "Custom ASIC competition", "description": "Broadcom, Google TPU, Amazon Trainium accelerating. Hyperscalers reducing NVIDIA dependency"}
   ],
   "buyReasons": [
-    {
-      "title": "Primary Beneficiary of AI Infrastructure Spending",
-      "description": "Hyperscaler AI infrastructure investment projected to reach $3-4T annually by 2030. NVIDIA positioned as the largest beneficiary"
-    },
-    {
-      "title": "Forward P/E at 21x Makes Valuation Attractive",
-      "description": "Reasonable given growth rate. Near historical low on PEG basis"
-    },
-    {
-      "title": "Full-Stack Vertical Integration Moat",
-      "description": "Integrated GPU, CPU, networking, and software offering. CUDA ecosystem lock-in creates extremely high switching costs"
-    },
-    {
-      "title": "Revenue Diversification into New Markets",
-      "description": "Space computing, energy AI factories, robotics, NemoClaw agent platform opening multi-billion dollar new market opportunities"
-    },
-    {
-      "title": "15% Discount from 52-Week High",
-      "description": "Market correction brought price from $212 to $179. Fundamentals unchanged, creating buying opportunity"
-    }
+    {"title": "Primary beneficiary of AI infra spending", "rationale": "Hyperscaler AI investments projected at $3-4T annually through 2030. NVIDIA captures the lion's share"},
+    {"title": "Forward P/E 21x is historically cheap", "rationale": "At 65% growth, PEG ratio near historical lows. Very reasonable for a dominant growth company"},
+    {"title": "Analyst consensus $275 with 53% upside", "rationale": "42/45 analysts Buy. Tigress at $360. 90% Buy/Strong Buy. Overwhelming bullish consensus"},
+    {"title": "New revenue diversification", "rationale": "Space computing, energy AI factories, robotics, NemoClaw agent platform. Multi-billion dollar new TAMs"},
+    {"title": "15% discount from 52-week high", "rationale": "Market correction from $212 to $179 without fundamental deterioration. Buying opportunity"}
   ],
   "technicalPosition": {
-    "summary": "Neutral to bearish. RSI 41.8 approaching oversold, MACD bearish signal. Trading in $170-$198 range",
-    "rsi": 41.8,
-    "rsiInterpretation": "Neutral (near oversold). Technical bounce probability increases if RSI drops below 40",
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 73.9,
     "sma50": 183,
+    "sma50Signal": "below",
     "sma200": 165,
-    "smaInterpretation": "Trading below 50-day SMA ($183). 200-day SMA ($165) is strong support. Short-term bearish, medium-to-long-term uptrend intact",
-    "support": [
-      170,
-      165,
-      150
-    ],
-    "resistance": [
-      183,
-      198,
-      212
-    ],
-    "trend": "Short-term bearish, mid-term range-bound, long-term bullish"
+    "sma200Signal": "above",
+    "rsi": 41.8,
+    "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "NVDA is the undisputed AI infrastructure leader with $215.9B revenue and 55% net margin. Forward P/E of 21x is historically cheap given 65% growth.",
-    "GTC 2026 unveiled next-gen catalysts: Vera Rubin, NemoClaw, space computing. The $1T order backlog provides exceptional earnings visibility.",
-    "Near-term headwinds from China export curbs, $100+ oil, and Nasdaq correction weigh on sentiment. RSI 41.8 confirms weak momentum.",
-    "At 15% below the 52-week high, current levels offer a compelling entry for mid-to-long-term investors. May earnings report is the next catalyst."
+    "42 out of 45 analysts say buy, with consensus target of $275 implying 53% upside. Forward P/E of 21x is historically very cheap for a company growing revenue 65% annually",
+    "GTC 2026 unveiled Vera Rubin, NemoClaw, and space computing as next-gen growth drivers. The $1 trillion order backlog provides exceptional earnings visibility",
+    "China export controls, oil near $100, and Nasdaq -15% correction are dragging on the stock short-term. RSI 41.8 shows weak momentum",
+    "The 15% discount from 52-week highs presents a compelling entry point for long-term investors. May 20 FY27 Q1 earnings will be the next catalyst"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Short-term volatility expected but AI infrastructure dominance and growth trajectory remain intact. Current valuation presents an attractive entry point",
-    "horizon": "Mid-to-Long Term (6-12 months)"
+    "summary": "Forward P/E 21x with 90% analyst buy consensus. AI infrastructure dominance and growth trajectory remain rock-solid. Current valuation offers an attractive entry point",
+    "horizon": "6-12 months"
   },
   "sources": [
-    {
-      "name": "Techi - NVDA Stock Today",
-      "url": "https://www.techi.com/nvidia-stock-today/"
-    },
-    {
-      "name": "NVIDIA IR - AI Agent Platform",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx"
-    },
-    {
-      "name": "NVIDIA IR - Energy AI Factories",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"
-    },
-    {
-      "name": "TechCrunch - GTC Wall Street Reaction",
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
-    },
-    {
-      "name": "Motley Fool - Jensen Huang News",
-      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
-    },
-    {
-      "name": "NVIDIA Newsroom - Space Computing",
-      "url": "https://nvidianews.nvidia.com/news/space-computing"
-    },
-    {
-      "name": "CNBC - NemoClaw Open Source",
-      "url": "https://www.cnbc.com/video/2026/03/19/nemoclaw-nvidias-strategic-pivot-to-open-source.html"
-    },
-    {
-      "name": "StockAnalysis - NVDA Forecast",
-      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
-    },
-    {
-      "name": "GuruFocus - NVDA Forward PE",
-      "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA"
-    },
-    {
-      "name": "AltIndex - NVDA Technical Analysis",
-      "url": "https://altindex.com/ticker/nvda/technical-analysis"
-    }
+    {"name": "Motley Fool - NVDA $450 Forecast", "url": "https://www.fool.com/investing/2026/03/26/prediction-nvidia-stock-could-surge-150-by-2028-bu/", "description": "150% upside to $450 by 2028 projection"},
+    {"name": "MarketBeat - NVDA Target $275.95", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "Analyst consensus target $275.95"},
+    {"name": "TheStreet - Rosenblatt $325", "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026", "description": "Rosenblatt $325, consensus ~$267"},
+    {"name": "FinancialContent - NVDA Deep Dive", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-25-the-engine-of-the-intelligence-age-a-deep-dive-research-feature-on-nvidia-nvda", "description": "90% Buy/Strong Buy, consensus $275, 50%+ upside"},
+    {"name": "Motley Fool - Jensen Huang AGI", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/", "description": "AGI declaration, $3T revenue target"},
+    {"name": "NVIDIA IR - AI Agent Platform", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx", "description": "NemoClaw open-source AI agent platform"},
+    {"name": "NVIDIA IR - Energy AI Factories", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx", "description": "Energy 6-company AI factory partnership"},
+    {"name": "TechCrunch - GTC Reaction", "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/", "description": "Wall Street's cool GTC reception analysis"},
+    {"name": "NVIDIA Newsroom - Space Computing", "url": "https://nvidianews.nvidia.com/news/space-computing", "description": "Space-1 computing platform announcement"},
+    {"name": "Motley Fool - NVDA 2026 Outlook", "url": "https://www.fool.com/investing/how-to-invest/stocks/nvidia-stock-forecast/", "description": "FY27 EPS $7.46 projection, 20%+ upside expected"}
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $179.45 | The AI throne holds firm",
-      "text": "NVDA $179.45 (+2.4%)\n\nP/E compressed from 45x to 36x TTM\nForward P/E just 21x\nRevenue $215.9B, 55% net margin\n42/45 analysts say Buy, avg target $234\n\n15% off 52-week high\nMid-term buy opportunity\n\n#NVDA #AI #NVIDIA",
+      "hook": "NVDA $179 | 90% of analysts say buy",
+      "text": "$NVDA $179.45\n\n42/45 analysts Buy. Consensus $275 (+53%).\nForward P/E 21x at 65% growth = historically cheap.\n\n15% off 52-week high. Sale price.\n\n1/4",
       "thread": [
-        "1/ NVDA Key Metrics\n- Market cap: $4.34T (world's #1)\n- P/E TTM 36.6x (sector avg 25x)\n- Forward P/E 21.3x\n- Revenue growth +65% YoY\n- RSI 41.8 (neutral to bearish)",
-        "2/ Recent Catalysts\n- GTC 2026: Vera Rubin + NemoClaw unveiled\n- $1T order backlog\n- 6 energy company AI Factory partnerships\n- Space Computing Space-1 launch\n- $20B Groq acquisition bearing fruit",
-        "3/ Risks to Watch\n- China export curbs ($15-20B opportunity cost)\n- DeepSeek sparked AI efficiency debate\n- Oil above $100, Nasdaq -15% correction\n- Fed holding rates at 3.5-3.75%",
-        "4/ Verdict: Buy\nForward P/E 21x for 65% growth is historically cheap. Watch $170 support for entries. May 20 earnings is next catalyst. Avg analyst target $234 = +30% upside."
+        "Growth catalysts:\n- $1T order backlog\n- GTC: Vera Rubin, NemoClaw\n- Energy 6-company AI partnership\n- Jensen Huang: AGI achieved, $3T goal\n- Motley Fool: $450 by 2028\n\n2/4",
+        "Risks:\n- China export controls ($15-20B cost)\n- Oil near $100, Nasdaq -15% correction\n- Post-DeepSeek efficiency debate\n- Custom ASIC competition\n\n3/4",
+        "Technical: RSI 41.8 neutral-bearish. Below 50-day $183. 200-day $165 holding.\n\nMay 20 Q1 earnings is the next catalyst. Buy.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA $179 - The AI king is on sale",
-      "text": "NVDA $179.45 (+2.4%)\n\nWorld's most valuable company at $4.34T. P/E dropped from 45x to 36x TTM, with Forward P/E at just 21x. Revenue $215.9B with a stunning 55% net margin. GTC 2026 delivered Vera Rubin, NemoClaw, and space computing as next-gen growth drivers.\n\n42 of 45 analysts rate it Buy, average target $234 (+30% upside). China export curbs and Nasdaq correction are near-term drags, but the $1T order backlog speaks for itself.\n\nAt 15% below the 52-week high, this is a mid-to-long-term buying opportunity. Dollar-cost averaging around $170 support makes sense. May 20 earnings is the next catalyst."
+      "hook": "NVDA: The AI king is on sale",
+      "text": "$NVDA $179.45 | $4.34T market cap, world's largest company.\n\n42/45 analysts say Buy. Consensus $275 (+53%). Forward P/E 21x is historically very cheap for 65% revenue growth.\n\nGTC 2026 unveiled Vera Rubin, NemoClaw, space computing. $1T order backlog provides earnings visibility. Jensen Huang declared AGI achieved and growth 'inevitable.'\n\nRisks: China export controls, oil near $100, Nasdaq -15% correction. RSI 41.8 shows weak short-term momentum.\n\n15% off 52-week highs. May 20 earnings next catalyst. Buy."
     },
     "telegram": {
       "hook": "NVDA Daily Analysis (3/26)",
-      "text": "NVDA $179.45 (+2.4%) | MCap $4.34T\n\nP/E 36.6x / Forward 21.3x\nRevenue $215.9B (+65% YoY)\nAnalysts: 42/45 Buy, target $234\nRSI 41.8 (neutral)\n\nKey News:\n- GTC: Vera Rubin, NemoClaw launched\n- 6 energy co AI Factory partnerships\n- Jensen Huang declares AGI achieved\n\nVerdict: Buy (mid-to-long term)\n15% off 52-wk high. Forward P/E 21x attractive for growth rate. DCA around $170 support."
+      "text": "NVDA $179.45 | Market Cap $4.34T\nP/E 36.6x | Forward 21.3x | RSI 41.8\n\nKey Developments\n- 42/45 analysts Buy, consensus $275 (+53%)\n- Motley Fool: $450 by 2028\n- Jensen Huang: AGI achieved, $3T goal\n- GTC: Vera Rubin, NemoClaw\n\nRisks\n- China export controls\n- Oil near $100, Nasdaq correction\n- Custom ASIC competition\n\nTechnical: Below 50-day ($183), 200-day ($165) support\n\nVerdict: Buy. Forward P/E 21x is compelling. May 20 earnings next catalyst"
     },
     "tones": {
       "x": {
-        "fact": "NVDA $179.45. Market cap $4.34T, world #1. P/E 36.6x TTM, Forward 21.3x. Revenue $215.9B (+65%). 42/45 analysts Buy. Avg target $234. 15% below 52-week high.",
-        "witty": "NVDA's P/E went from 45 to 36 and Forward is 21x. Jensen says AGI is here but the stock is 15% off highs. The AI king is basically running a clearance sale. $1T backlog says buy the dip.",
-        "empathy": "Bought NVDA near $212? That $800B market cap evaporation stings. But fundamentals are actually stronger now. Forward P/E 21x for 65% growth is rare. Consider DCA to lower your cost basis. The thesis hasn't changed, just the price."
+        "fact": {
+          "hook": "NVDA $179 | 90% of analysts say buy",
+          "text": "$NVDA $179.45. 42/45 analysts Buy. Consensus $275 (+53%). Forward P/E 21x at 65% growth. 15% off high.\n\n1/4",
+          "thread": ["$1T order backlog. GTC: Vera Rubin, NemoClaw. Energy partnerships. AGI declared. $450 by 2028 forecast.\n\n2/4", "China export risk ($15-20B). Oil $100. Nasdaq -15%. ASIC competition.\n\n3/4", "RSI 41.8. Below 50-day. 200-day holding. May 20 earnings = catalyst. Buy.\n\n4/4"]
+        },
+        "witty": {
+          "hook": "World's #1 company is 15% off. Nobody's buying.",
+          "text": "$NVDA $179. $4.34T market cap. Biggest company on Earth.\n\nForward P/E 21x with 65% growth. That's the same P/E as the semiconductor average but 3x the growth. Math says sale.\n\nMarket says 'show me the money.'\n\n1/4",
+          "thread": ["Jensen says AGI is here and revenue is going to $3T. Market response: -15%.\n\nA trillion dollars in orders and investors want more proof. Peak 'trust issues.'\n\n2/4", "China chip ban, oil at $100, Nasdaq cratering. Macro is ugly.\n\nBut 42/45 analysts Buy. Target $275 (+53%). Tigress says $360.\n\n3/4", "Motley Fool predicts $450 by 2028. That's 2.5x from here.\n\nMay 20: Blackwell full quarter numbers drop. Numbers talk. Buy.\n\n4/4"]
+        },
+        "empathy": {
+          "hook": "NVDA holders who bought the top: hang in there",
+          "text": "$NVDA $179.45, down 15% from $212.\n\nIf you're underwater, it stings. But 42/45 analysts still say Buy. Consensus $275 (+53%). Fundamentals are stronger than when you bought.\n\nPatience pays.\n\n1/4",
+          "thread": ["Company is in better shape than ever:\n- $1T order backlog\n- GTC: Vera Rubin, NemoClaw\n- Energy partnerships expanding\n\nThis is a market-wide correction, not an NVDA problem.\n\n2/4", "Oil at $100, Nasdaq -15%. It's tough macro. But temporary.\n\nMay 20 earnings will show Blackwell numbers. That could change everything.\n\n3/4", "DCA to lower your average. $170 support looks solid.\n\nNo rush. Time is on your side.\n\n4/4"]
+        }
       },
       "threads": {
-        "fact": "NVDA trades at $179.45, market cap $4.34T making it the world's most valuable company. FY26 revenue hit $215.9B (+65% YoY) with 55.6% net margin. TTM P/E of 36.6x is premium vs semiconductor sector average 25x, but Forward P/E of 21.3x is reasonable given growth. 42 of 45 analysts rate Buy with average target $234.",
-        "witty": "Jensen Huang says AGI is achieved but the stock is 15% off highs. Forward P/E is 21x while the company grows 65% a year. That math doesn't add up. The $1T order backlog isn't imaginary, the Nasdaq correction is just giving everyone cold feet. This is the AI monopoly on sale.",
-        "empathy": "If you bought NVDA at $212, watching $800B in market cap vanish isn't fun. But zoom out: revenue grew 65%, net margins are 55%, and there's a $1T order backlog. The whole market corrected, not just NVIDIA. Forward P/E at 21x is actually the cheapest it's been in years relative to growth. Dollar-cost averaging from here could look very smart in 12 months."
+        "fact": {
+          "hook": "NVDA: The AI king is on sale",
+          "text": "$NVDA $179.45 | $4.34T. 42/45 Buy, $275 (+53%). Forward P/E 21x at 65% growth. GTC: Vera Rubin, NemoClaw, Space-1. $1T orders. Risks: China, oil $100, Nasdaq -15%. RSI 41.8. May 20 next catalyst. Buy."
+        },
+        "witty": {
+          "hook": "Forward P/E 21x at 65% growth. This is on sale.",
+          "text": "$NVDA $179.45\n\nSame P/E as average semiconductor but 3x the growth rate. Jensen declared AGI achieved, has $1T in orders, and is launching space computers. Stock: -15%.\n\nThe market's message: 'cool story, show me the numbers.' Fair enough. May 20 is when Blackwell's full-quarter revenue drops.\n\n42/45 analysts Buy. Target $275. Tigress says $360. Motley Fool says $450 by 2028.\n\nBuy. Not because of faith, but because the math works."
+        },
+        "empathy": {
+          "hook": "NVDA investors: the opportunity in this correction",
+          "text": "$NVDA $179.45, -15% from highs.\n\nWatching ~$800B evaporate from the market cap is not fun. If you bought at $200+, you're feeling the weight right now.\n\nBut look at the fundamentals: 65% revenue growth, 55% margins, $1T in orders. The company is stronger than when the stock was at $212.\n\n42/45 analysts Buy, avg $275 (+53%). Forward P/E 21x is the cheapest this stock has been relative to growth in years.\n\nMay 20 earnings will show Blackwell's full-quarter impact. That's likely the inflection point.\n\nDCA approach. $170 support. No rush."
+        }
       }
     }
   }
