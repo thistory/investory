@@ -14,7 +14,14 @@
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
   "keyMetrics": [
     {
@@ -116,81 +123,44 @@
   "recentNews": [
     {
       "date": "2026-03-24",
-      "title": "Jensen Huang declares 'AGI achieved,' sets $3T revenue target",
-      "summary": "On Lex Fridman's podcast, declared AGI achievement and outlined a long-term $3T revenue goal. However, tempered near-term expectations saying AI agent commercialization needs more time",
-      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
-      "sentiment": "positive"
+      "headline": "Jensen Huang declares 'AGI achieved,' sets $3T revenue target",
+      "significance": "On Lex Fridman's podcast, declared AGI achievement and outlined a long-term $3T revenue goal. However, tempered near-term expectations saying AI agent commercialization needs more time",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
     },
     {
       "date": "2026-03-23",
-      "title": "Partners with 6 energy companies for AI Factory grid assets",
-      "summary": "At CERAWeek, announced partnership with AES, Constellation, NextEra and 3 others via Emerald AI to operate AI data centers as flexible grid assets",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx",
-      "sentiment": "positive"
+      "headline": "Partners with 6 energy companies for AI Factory grid assets",
+      "significance": "At CERAWeek, announced partnership with AES, Constellation, NextEra and 3 others via Emerald AI to operate AI data centers as flexible grid assets",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"
     },
     {
       "date": "2026-03-21",
-      "title": "Wall Street not won over by GTC conference",
-      "summary": "TechCrunch reports that despite industry optimism, investors want near-term earnings confirmation, limiting stock price reaction to GTC announcements",
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
-      "sentiment": "neutral"
+      "headline": "Wall Street not won over by GTC conference",
+      "significance": "TechCrunch reports that despite industry optimism, investors want near-term earnings confirmation, limiting stock price reaction to GTC announcements",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
     },
     {
       "date": "2026-03-16",
-      "title": "NemoClaw open-source AI agent platform launched",
-      "summary": "Unveiled at GTC as an open-source platform for autonomous enterprise AI agent development. Partners joining to lead the next industrial revolution in knowledge work",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx",
-      "sentiment": "positive"
+      "headline": "NemoClaw open-source AI agent platform launched",
+      "significance": "Unveiled at GTC as an open-source platform for autonomous enterprise AI agent development. Partners joining to lead the next industrial revolution in knowledge work",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx"
     },
     {
       "date": "2026-03-16",
-      "title": "NVIDIA launches Space-1 space computing platform",
-      "summary": "Announced Space-1 Vera Rubin Module, IGX Thor, and Jetson Orin platforms for orbital data centers, geospatial intelligence, and autonomous space operations",
-      "url": "https://nvidianews.nvidia.com/news/space-computing",
-      "sentiment": "positive"
+      "headline": "NVIDIA launches Space-1 space computing platform",
+      "significance": "Announced Space-1 Vera Rubin Module, IGX Thor, and Jetson Orin platforms for orbital data centers, geospatial intelligence, and autonomous space operations",
+      "url": "https://nvidianews.nvidia.com/news/space-computing"
     }
   ],
   "analystOpinions": {
-    "consensus": "Strong Buy",
-    "totalAnalysts": 45,
+    "consensusTarget": 234,
+    "highTarget": 325,
+    "lowTarget": 150,
+    "upsidePercent": 30.4,
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "averageTarget": 234,
-    "highTarget": 325,
-    "lowTarget": 150,
-    "keyOpinions": [
-      {
-        "analyst": "Rosenblatt Securities",
-        "rating": "Buy",
-        "target": 325,
-        "comment": "Kevin Cassidy raised target from $300 to $325 after management meetings"
-      },
-      {
-        "analyst": "Wedbush (Dan Ives)",
-        "rating": "Outperform",
-        "target": 275,
-        "comment": "Named NVDA his #1 AI pick for the next decade"
-      },
-      {
-        "analyst": "Bank of America",
-        "rating": "Buy",
-        "target": 250,
-        "comment": "Called AI demand 'insatiable'"
-      },
-      {
-        "analyst": "Morgan Stanley",
-        "rating": "Overweight",
-        "target": 240,
-        "comment": "Described competitive moat as 'wider than ever'"
-      },
-      {
-        "analyst": "Citi",
-        "rating": "Buy",
-        "target": 185,
-        "comment": "Cut target from $200 due to China export headwinds. Near-term caution"
-      }
-    ]
+    "notableComment": "Kevin Cassidy raised target from $300 to $325 after management meetings"
   },
   "risks": [
     {
@@ -248,8 +218,16 @@
     "sma50": 183,
     "sma200": 165,
     "smaInterpretation": "Trading below 50-day SMA ($183). 200-day SMA ($165) is strong support. Short-term bearish, medium-to-long-term uptrend intact",
-    "support": [170, 165, 150],
-    "resistance": [183, 198, 212],
+    "support": [
+      170,
+      165,
+      150
+    ],
+    "resistance": [
+      183,
+      198,
+      212
+    ],
     "trend": "Short-term bearish, mid-term range-bound, long-term bullish"
   },
   "overallOpinion": [
@@ -259,11 +237,9 @@
     "At 15% below the 52-week high, current levels offer a compelling entry for mid-to-long-term investors. May earnings report is the next catalyst."
   ],
   "investmentVerdict": {
-    "rating": "Buy",
-    "confidence": "high",
-    "timeHorizon": "Mid-to-Long Term (6-12 months)",
-    "targetPrice": 234,
-    "summary": "Short-term volatility expected but AI infrastructure dominance and growth trajectory remain intact. Current valuation presents an attractive entry point"
+    "stance": "buy",
+    "summary": "Short-term volatility expected but AI infrastructure dominance and growth trajectory remain intact. Current valuation presents an attractive entry point",
+    "horizon": "Mid-to-Long Term (6-12 months)"
   },
   "sources": [
     {

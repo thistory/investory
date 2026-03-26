@@ -14,7 +14,14 @@
       "자동차 (DRIVE)",
       "네트워킹 (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
   "keyMetrics": [
     {
@@ -116,81 +123,44 @@
   "recentNews": [
     {
       "date": "2026-03-24",
-      "title": "젠슨 황 'AGI를 달성했다' 발언, $3T 매출 목표 제시",
-      "summary": "Lex Fridman 팟캐스트에서 AGI 달성을 선언하며 장기 매출 $3조 목표를 밝힘. 다만 AI 에이전트 상용화는 시간이 더 필요하다고 단기 기대치는 낮춤",
-      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
-      "sentiment": "positive"
+      "headline": "젠슨 황 'AGI를 달성했다' 발언, $3T 매출 목표 제시",
+      "significance": "Lex Fridman 팟캐스트에서 AGI 달성을 선언하며 장기 매출 $3조 목표를 밝힘. 다만 AI 에이전트 상용화는 시간이 더 필요하다고 단기 기대치는 낮춤",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
     },
     {
       "date": "2026-03-23",
-      "title": "에너지 6사와 AI 팩토리 그리드 파트너십 체결",
-      "summary": "CERAWeek에서 AES, Constellation, NextEra 등 6개 에너지 기업과 Emerald AI를 통해 AI 데이터센터를 유연한 전력망 자산으로 운영하는 파트너십 발표",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx",
-      "sentiment": "positive"
+      "headline": "에너지 6사와 AI 팩토리 그리드 파트너십 체결",
+      "significance": "CERAWeek에서 AES, Constellation, NextEra 등 6개 에너지 기업과 Emerald AI를 통해 AI 데이터센터를 유연한 전력망 자산으로 운영하는 파트너십 발표",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"
     },
     {
       "date": "2026-03-21",
-      "title": "월스트리트, GTC 컨퍼런스에 냉담한 반응",
-      "summary": "TechCrunch에 따르면 AI 버블 우려에도 불구하고 업계는 낙관적이나, 투자자들은 단기 실적 확인을 원하며 주가 반응이 제한적",
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
-      "sentiment": "neutral"
+      "headline": "월스트리트, GTC 컨퍼런스에 냉담한 반응",
+      "significance": "TechCrunch에 따르면 AI 버블 우려에도 불구하고 업계는 낙관적이나, 투자자들은 단기 실적 확인을 원하며 주가 반응이 제한적",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
     },
     {
       "date": "2026-03-16",
-      "title": "NemoClaw 오픈소스 AI 에이전트 플랫폼 발표",
-      "summary": "GTC에서 기업용 자율 AI 에이전트 개발을 위한 오픈소스 플랫폼 NemoClaw 공개. 파트너사들과 차세대 지식 노동 혁명을 주도",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx",
-      "sentiment": "positive"
+      "headline": "NemoClaw 오픈소스 AI 에이전트 플랫폼 발표",
+      "significance": "GTC에서 기업용 자율 AI 에이전트 개발을 위한 오픈소스 플랫폼 NemoClaw 공개. 파트너사들과 차세대 지식 노동 혁명을 주도",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx"
     },
     {
       "date": "2026-03-16",
-      "title": "NVIDIA Space-1 우주 컴퓨팅 플랫폼 발표",
-      "summary": "GTC에서 궤도 데이터센터, 지리공간 정보, 자율 우주 운영을 위한 Space-1 Vera Rubin Module과 IGX Thor, Jetson Orin 플랫폼 발표",
-      "url": "https://nvidianews.nvidia.com/news/space-computing",
-      "sentiment": "positive"
+      "headline": "NVIDIA Space-1 우주 컴퓨팅 플랫폼 발표",
+      "significance": "GTC에서 궤도 데이터센터, 지리공간 정보, 자율 우주 운영을 위한 Space-1 Vera Rubin Module과 IGX Thor, Jetson Orin 플랫폼 발표",
+      "url": "https://nvidianews.nvidia.com/news/space-computing"
     }
   ],
   "analystOpinions": {
-    "consensus": "Strong Buy",
-    "totalAnalysts": 45,
+    "consensusTarget": 234,
+    "highTarget": 325,
+    "lowTarget": 150,
+    "upsidePercent": 30.4,
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "averageTarget": 234,
-    "highTarget": 325,
-    "lowTarget": 150,
-    "keyOpinions": [
-      {
-        "analyst": "Rosenblatt Securities",
-        "rating": "Buy",
-        "target": 325,
-        "comment": "Kevin Cassidy가 경영진 미팅 후 목표가 $300에서 $325로 상향"
-      },
-      {
-        "analyst": "Wedbush (Dan Ives)",
-        "rating": "Outperform",
-        "target": 275,
-        "comment": "향후 10년간 #1 AI 픽으로 선정"
-      },
-      {
-        "analyst": "Bank of America",
-        "rating": "Buy",
-        "target": 250,
-        "comment": "AI 수요가 '채울 수 없는(insatiable)' 수준이라 평가"
-      },
-      {
-        "analyst": "Morgan Stanley",
-        "rating": "Overweight",
-        "target": 240,
-        "comment": "경쟁 해자가 '그 어느 때보다 넓다'고 분석"
-      },
-      {
-        "analyst": "Citi",
-        "rating": "Buy",
-        "target": 185,
-        "comment": "중국 수출 규제 리스크로 목표가 $200에서 하향. 단기 역풍 반영"
-      }
-    ]
+    "notableComment": "Kevin Cassidy가 경영진 미팅 후 목표가 $300에서 $325로 상향"
   },
   "risks": [
     {
@@ -248,8 +218,16 @@
     "sma50": 183,
     "sma200": 165,
     "smaInterpretation": "50일선($183) 아래에서 거래 중. 200일선($165)은 강력한 지지선. 단기 약세, 중장기 상승 추세 유지",
-    "support": [170, 165, 150],
-    "resistance": [183, 198, 212],
+    "support": [
+      170,
+      165,
+      150
+    ],
+    "resistance": [
+      183,
+      198,
+      212
+    ],
     "trend": "단기 약세, 중기 박스권, 장기 상승"
   },
   "overallOpinion": [
@@ -259,11 +237,9 @@
     "52주 고점 대비 -15% 할인된 현재가는 중장기 투자자에게 좋은 분할 매수 기회다. 5월 20일 FY27 Q1 실적 발표가 다음 촉매제가 될 전망이다."
   ],
   "investmentVerdict": {
-    "rating": "매수",
-    "confidence": "high",
-    "timeHorizon": "중장기 (6~12개월)",
-    "targetPrice": 234,
-    "summary": "단기 변동성은 있으나 AI 인프라 지배력과 성장 궤도는 확고. 현재 밸류에이션은 매력적인 진입점"
+    "stance": "buy",
+    "summary": "단기 변동성은 있으나 AI 인프라 지배력과 성장 궤도는 확고. 현재 밸류에이션은 매력적인 진입점",
+    "horizon": "중장기 (6~12개월)"
   },
   "sources": [
     {

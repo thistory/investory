@@ -111,51 +111,45 @@
   "recentNews": [
     {
       "date": "2026-03-25",
-      "title": "MAVAN (Made in America Validator Network) Officially Launched",
-      "summary": "Proprietary ETH staking platform launched. Plans to migrate 3.14M ETH from Coinbase. Now offering institutional staking services",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html",
-      "sentiment": "positive"
+      "headline": "MAVAN (Made in America Validator Network) Officially Launched",
+      "significance": "Proprietary ETH staking platform launched. Plans to migrate 3.14M ETH from Coinbase. Now offering institutional staking services",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"
     },
     {
       "date": "2026-03-23",
-      "title": "ETH Holdings Reach 4,660,903 Tokens, Total Assets $11.0B",
-      "summary": "As of 3/22, confirmed 4,660,903 ETH (3.86% of supply). Total crypto + cash $11.0B. Added 238,244 ETH in past 30 days",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html",
-      "sentiment": "positive"
+      "headline": "ETH Holdings Reach 4,660,903 Tokens, Total Assets $11.0B",
+      "significance": "As of 3/22, confirmed 4,660,903 ETH (3.86% of supply). Total crypto + cash $11.0B. Added 238,244 ETH in past 30 days",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html"
     },
     {
       "date": "2026-03-25",
-      "title": "Stock Rebounds +2.1% on ETH Rally and Iran-US Tension Easing",
-      "summary": "ETH rebounded to $2,182, BTC recovered to $72,000. Trump's Iran negotiation comments drove oil prices down 5%, risk assets rebounded",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/",
-      "sentiment": "positive"
+      "headline": "Stock Rebounds +2.1% on ETH Rally and Iran-US Tension Easing",
+      "significance": "ETH rebounded to $2,182, BTC recovered to $72,000. Trump's Iran negotiation comments drove oil prices down 5%, risk assets rebounded",
+      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
     },
     {
       "date": "2026-03-18",
-      "title": "Stock Drops -7.8% in Broad Market Selloff",
-      "summary": "Middle East geopolitical risks and oil price surge triggered selloff across crypto and tech stocks. BMNR fell in tandem",
-      "url": "https://robinhood.com/us/en/stocks/BMNR/",
-      "sentiment": "negative"
+      "headline": "Stock Drops -7.8% in Broad Market Selloff",
+      "significance": "Middle East geopolitical risks and oil price surge triggered selloff across crypto and tech stocks. BMNR fell in tandem",
+      "url": "https://robinhood.com/us/en/stocks/BMNR/"
     },
     {
       "date": "2026-03-25",
-      "title": "Technical Analysis: Falling Wedge Points to $50 Rebound",
-      "summary": "BanklessTimes analysis: falling wedge + PPO golden cross + rising RSI. $20 support confirmed, $30 first target, $50 second target",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/",
-      "sentiment": "positive"
+      "headline": "Technical Analysis: Falling Wedge Points to $50 Rebound",
+      "significance": "BanklessTimes analysis: falling wedge + PPO golden cross + rising RSI. $20 support confirmed, $30 first target, $50 second target",
+      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
     }
   ],
-  "analystOpinions": [
-    {
-      "firm": "B. Riley Securities",
-      "analyst": "Fedor Shabalin",
-      "rating": "Strong Buy",
-      "targetPrice": 30,
-      "previousTarget": 47,
-      "date": "2026-02-23",
-      "note": "Lowered target from $47 to $30 while maintaining Strong Buy. Reflects ETH price decline"
-    }
-  ],
+  "analystOpinions": {
+    "consensusTarget": 30,
+    "highTarget": 30,
+    "lowTarget": 30,
+    "upsidePercent": 41.2,
+    "buyCount": 1,
+    "holdCount": 0,
+    "sellCount": 0,
+    "notableComment": "Lowered target from $47 to $30 while maintaining Strong Buy. Reflects ETH price decline"
+  },
   "risks": [
     {
       "title": "Single-Asset Concentration in ETH",
@@ -225,17 +219,9 @@
     "Technically bouncing from falling wedge, PPO golden cross confirmed. B. Riley target $30 (+41% upside)"
   ],
   "investmentVerdict": {
-    "verdict": "Buy",
-    "confidence": "Medium",
-    "timeHorizon": "6-12 months",
-    "targetPrice": 30,
-    "upside": "+41%",
-    "catalysts": [
-      "MAVAN platform ETH migration completion and revenue visibility",
-      "ETH price rebound ($2,500+)",
-      "FY2026 profitability confirmation",
-      "P/NAV discount narrowing"
-    ]
+    "stance": "buy",
+    "summary": "",
+    "horizon": "6-12 months"
   },
   "sources": [
     {

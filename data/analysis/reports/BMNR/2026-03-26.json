@@ -111,51 +111,45 @@
   "recentNews": [
     {
       "date": "2026-03-25",
-      "title": "MAVAN(Made in America Validator Network) 정식 론칭",
-      "summary": "자체 ETH 스테이킹 플랫폼 MAVAN 론칭. 3.14M ETH를 Coinbase에서 이관 예정. 기관 투자자 대상 스테이킹 서비스 제공 시작",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html",
-      "sentiment": "positive"
+      "headline": "MAVAN(Made in America Validator Network) 정식 론칭",
+      "significance": "자체 ETH 스테이킹 플랫폼 MAVAN 론칭. 3.14M ETH를 Coinbase에서 이관 예정. 기관 투자자 대상 스테이킹 서비스 제공 시작",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"
     },
     {
       "date": "2026-03-23",
-      "title": "ETH 보유량 4,660,903개 도달, 총 자산 $11.0B",
-      "summary": "3/22 기준 ETH 4,660,903개(공급량 3.86%) 보유 확인. 총 크립토+현금 $11.0B. 30일간 238,244 ETH 추가 매수",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html",
-      "sentiment": "positive"
+      "headline": "ETH 보유량 4,660,903개 도달, 총 자산 $11.0B",
+      "significance": "3/22 기준 ETH 4,660,903개(공급량 3.86%) 보유 확인. 총 크립토+현금 $11.0B. 30일간 238,244 ETH 추가 매수",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html"
     },
     {
       "date": "2026-03-25",
-      "title": "주가 +2.1% 반등, ETH 상승과 이란-미국 긴장 완화 기대",
-      "summary": "ETH $2,182로 반등, BTC $72,000 회복. 트럼프 이란 협상 언급으로 유가 5% 하락, 위험자산 반등",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/",
-      "sentiment": "positive"
+      "headline": "주가 +2.1% 반등, ETH 상승과 이란-미국 긴장 완화 기대",
+      "significance": "ETH $2,182로 반등, BTC $72,000 회복. 트럼프 이란 협상 언급으로 유가 5% 하락, 위험자산 반등",
+      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
     },
     {
       "date": "2026-03-18",
-      "title": "주가 -7.8% 급락, 시장 전반 매도세",
-      "summary": "중동 지정학 리스크와 유가 급등으로 크립토 및 기술주 전반 하락. BMNR도 동반 급락",
-      "url": "https://robinhood.com/us/en/stocks/BMNR/",
-      "sentiment": "negative"
+      "headline": "주가 -7.8% 급락, 시장 전반 매도세",
+      "significance": "중동 지정학 리스크와 유가 급등으로 크립토 및 기술주 전반 하락. BMNR도 동반 급락",
+      "url": "https://robinhood.com/us/en/stocks/BMNR/"
     },
     {
       "date": "2026-03-25",
-      "title": "기술적 분석: Falling Wedge 패턴에서 $50 반등 가능",
-      "summary": "BanklessTimes 분석: falling wedge + PPO 골든크로스 + RSI 상승. $20 지지 확인 후 $30 1차, $50 2차 목표",
-      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/",
-      "sentiment": "positive"
+      "headline": "기술적 분석: Falling Wedge 패턴에서 $50 반등 가능",
+      "significance": "BanklessTimes 분석: falling wedge + PPO 골든크로스 + RSI 상승. $20 지지 확인 후 $30 1차, $50 2차 목표",
+      "url": "https://www.banklesstimes.com/articles/2026/03/25/bmnr-stock-price-eyes-a-surge-to-50-as-bitmine-launches-mavan/"
     }
   ],
-  "analystOpinions": [
-    {
-      "firm": "B. Riley Securities",
-      "analyst": "Fedor Shabalin",
-      "rating": "Strong Buy",
-      "targetPrice": 30,
-      "previousTarget": 47,
-      "date": "2026-02-23",
-      "note": "목표가 $47에서 $30으로 하향 조정하며 Strong Buy 유지. ETH 가격 하락 반영"
-    }
-  ],
+  "analystOpinions": {
+    "consensusTarget": 30,
+    "highTarget": 30,
+    "lowTarget": 30,
+    "upsidePercent": 41.2,
+    "buyCount": 1,
+    "holdCount": 0,
+    "sellCount": 0,
+    "notableComment": "목표가 $47에서 $30으로 하향 조정하며 Strong Buy 유지. ETH 가격 하락 반영"
+  },
   "risks": [
     {
       "title": "ETH 단일 자산 집중 리스크",
@@ -225,17 +219,9 @@
     "기술적으로 falling wedge에서 반등 시작, PPO 골든크로스 확인. B. Riley 목표가 $30(+41%)"
   ],
   "investmentVerdict": {
-    "verdict": "매수 (Buy)",
-    "confidence": "Medium",
-    "timeHorizon": "6-12개월",
-    "targetPrice": 30,
-    "upside": "+41%",
-    "catalysts": [
-      "MAVAN 플랫폼 ETH 이관 완료 및 매출 가시화",
-      "ETH 가격 반등 ($2,500+)",
-      "FY2026 흑자전환 확인",
-      "P/NAV 할인 축소"
-    ]
+    "stance": "buy",
+    "summary": "",
+    "horizon": "6-12개월"
   },
   "sources": [
     {
