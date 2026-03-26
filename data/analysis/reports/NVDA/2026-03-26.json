@@ -4,7 +4,6 @@
   "analysisDate": "2026-03-26",
   "currentPrice": 179.45,
   "marketCap": "$4.34T",
-
   "businessSummary": {
     "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
     "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 2027년까지 Blackwell과 Rubin 칩 누적 주문 1조 달러 전망을 제시하며 AI 추론 시장 공략을 본격화했다.",
@@ -15,25 +14,40 @@
       "자동차 (DRIVE)",
       "네트워킹 (Spectrum-X)"
     ],
-    "keyProducts": [
-      "Vera Rubin NVL72",
-      "Vera CPU",
-      "Blackwell",
-      "CUDA",
-      "NemoClaw",
-      "DRIVE"
-    ]
+    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
   },
-
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "36.5x", "interpretation": "반도체 업종 평균(25~30x)보다 약간 높지만, 매출 65% 성장을 감안한 PEG 0.59는 오히려 저평가 영역이다. S&P 500 평균(22x) 대비 66% 프리미엄" },
-    { "name": "Forward P/E", "value": "~28x", "interpretation": "FY27 EPS 추정 기준. AI 반도체 섹터 내 AMD(35x), Broadcom(30x)보다 낮다" },
-    { "name": "매출 성장률 (FY26)", "value": "+65% YoY", "interpretation": "FY26 매출 $2,159억. 1조 달러 누적 주문 전망으로 성장 둔화 우려를 불식" },
-    { "name": "PEG", "value": "0.59", "interpretation": "1.0 미만은 성장 대비 저평가를 의미. AI 반도체 리더치고는 매력적인 밸류에이션" },
-    { "name": "시가총액", "value": "$4.34T", "interpretation": "세계 1위 시총. Apple($3.7T)을 넘어선 상태" },
-    { "name": "순이익", "value": "$1,200억", "interpretation": "FY26 기준. 반도체 업계는 물론 S&P 500 전체에서도 최상위 수익성" }
+    {
+      "name": "P/E (TTM)",
+      "value": "36.6x",
+      "description": "반도체 섹터 평균 25x, S&P 500 평균 22x 대비 프리미엄. 고성장 반영이나 12개월 전 45x에서 크게 하락"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.3x",
+      "description": "FY27 예상 EPS 기반. 섹터 평균 20x와 유사한 수준으로 수렴 중. 고성장주 치고는 합리적"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$2,159억",
+      "description": "전년 대비 +65% 성장. 데이터센터 매출이 80% 이상 차지"
+    },
+    {
+      "name": "순이익률",
+      "value": "55.6%",
+      "description": "반도체 업계 최고 수준. 소프트웨어에 가까운 마진 구조"
+    },
+    {
+      "name": "52주 범위",
+      "value": "$86.62 - $212.19",
+      "description": "현재가 $179.45는 고점 대비 -15%, 저점 대비 +107%"
+    },
+    {
+      "name": "다음 실적발표",
+      "value": "2026년 5월 20일",
+      "description": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 현황 확인 예정"
+    }
   ],
-
   "growthDrivers": [
     {
       "title": "2027년까지 AI 칩 누적 주문 1조 달러",
@@ -44,23 +58,22 @@
       "description": "젠슨 황이 Lex Fridman 팟캐스트에서 'AGI를 달성했다'고 발언. $3T 매출 목표를 제시했으나 AI 에이전트 상용화에는 시간이 더 필요하다고 단기 기대치를 낮춤"
     },
     {
-      "title": "Rosenblatt, 목표가 $325로 상향 (3/18)",
-      "description": "Rosenblatt Securities가 NVDA 목표가를 $300에서 $325로 상향. 애널리스트 Kevin Cassidy가 경영진 미팅 후 재무 모델을 업데이트"
+      "title": "Groq 인수 $200억 - AI 추론 시장 공략",
+      "description": "Motley Fool에 따르면 NVIDIA의 $200억 Groq 인수가 성과를 내기 시작. 새로운 AI 추론 칩이 2026년 게임체인저가 될 수 있다고 분석"
     },
     {
-      "title": "Motley Fool: '비밀 매출원 수십억 달러 규모' 공개",
-      "description": "GTC에서 공개한 새로운 매출원(에너지 AI 팩토리, 로보틱스 플랫폼 등)이 수십억 달러 규모의 추가 성장 동력이 될 수 있다고 분석"
+      "title": "NemoClaw 오픈소스 AI 에이전트 플랫폼",
+      "description": "GTC에서 공개한 NemoClaw는 기업용 자율 AI 에이전트 개발을 위한 오픈소스 플랫폼. CNBC는 이를 NVIDIA의 가장 중요한 전략적 전환이라 평가"
     },
     {
-      "title": "에너지 기업 3사 파트너십 (AI 팩토리)",
-      "description": "AES, Constellation Energy, NextEra Energy와 파트너십 체결. AI 데이터센터를 유연한 전력망 자산으로 운영하는 AI 팩토리 모델 구축"
+      "title": "에너지 기업 6사 파트너십 (AI 팩토리)",
+      "description": "CERAWeek 2026에서 AES, Constellation, Invenergy, NextEra, Nscale, Vistra와 Emerald AI를 통한 AI 팩토리 그리드 자산화 파트너십 발표"
     },
     {
-      "title": "사상 최대 주주환원 계획",
-      "description": "GTC 2026에서 자사주매입과 배당 대폭 확대를 예고. FCF $600억+의 여유 자금으로 주주가치 극대화"
+      "title": "우주 컴퓨팅 진출 - Space-1 발표",
+      "description": "GTC에서 NVIDIA Space-1 Vera Rubin Module 발표. 궤도 데이터센터와 자율 우주 운영을 위한 AI 컴퓨팅 플랫폼으로 신규 시장 개척"
     }
   ],
-
   "competitiveAdvantage": {
     "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
     "moats": [
@@ -100,138 +113,229 @@
       }
     ]
   },
-
   "recentNews": [
-    { "date": "2026-03-25", "headline": "Motley Fool: 엔비디아가 '비밀 매출원' 수십억 달러 규모를 공개했다", "significance": "GTC 2026에서 에너지 AI 팩토리, 로보틱스 등 새로운 수익원이 부각. '지금이 매수 적기'라는 분석", "url": "https://www.fool.com/investing/2026/03/25/surprise-nvidia-secret-new-revenue-stream-buy/" },
-    { "date": "2026-03-24", "headline": "젠슨 황, Lex Fridman 팟캐스트에서 'AGI 달성' 발언", "significance": "$3T 매출 목표 제시. 다만 AI 에이전트 상용화는 시간이 필요하다며 단기 기대치 낮춤. 주가 -0.3% 소폭 반응", "url": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-claims-agi-has-been-achieved-can-create-billion-dollar-businesses-172225126.html" },
-    { "date": "2026-03-18", "headline": "Rosenblatt, 목표가 $300에서 $325로 상향", "significance": "Kevin Cassidy 애널리스트가 경영진 미팅 후 재무 모델 업데이트. 강세 전망 유지", "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026" },
-    { "date": "2026-03-16", "headline": "GTC 2026: Vera Rubin 공개, 2027년까지 $1T 주문 전망", "significance": "Vera Rubin NVL72 시스템이 Blackwell 대비 성능 10배, 전력효율 10배 향상. 1.3M 부품으로 구성된 차세대 AI 인프라", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html" },
-    { "date": "2026-03-23", "headline": "Motley Fool: 젠슨 황이 주주들에게 '환상적인 소식' 전달", "significance": "$1T 누적 주문 전망이 핵심. 기존 $500B 전망을 2배로 상향한 것", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/" }
+    {
+      "date": "2026-03-24",
+      "title": "젠슨 황 'AGI를 달성했다' 발언, $3T 매출 목표 제시",
+      "summary": "Lex Fridman 팟캐스트에서 AGI 달성을 선언하며 장기 매출 $3조 목표를 밝힘. 다만 AI 에이전트 상용화는 시간이 더 필요하다고 단기 기대치는 낮춤",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "에너지 6사와 AI 팩토리 그리드 파트너십 체결",
+      "summary": "CERAWeek에서 AES, Constellation, NextEra 등 6개 에너지 기업과 Emerald AI를 통해 AI 데이터센터를 유연한 전력망 자산으로 운영하는 파트너십 발표",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "월스트리트, GTC 컨퍼런스에 냉담한 반응",
+      "summary": "TechCrunch에 따르면 AI 버블 우려에도 불구하고 업계는 낙관적이나, 투자자들은 단기 실적 확인을 원하며 주가 반응이 제한적",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "sentiment": "neutral"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "NemoClaw 오픈소스 AI 에이전트 플랫폼 발표",
+      "summary": "GTC에서 기업용 자율 AI 에이전트 개발을 위한 오픈소스 플랫폼 NemoClaw 공개. 파트너사들과 차세대 지식 노동 혁명을 주도",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "NVIDIA Space-1 우주 컴퓨팅 플랫폼 발표",
+      "summary": "GTC에서 궤도 데이터센터, 지리공간 정보, 자율 우주 운영을 위한 Space-1 Vera Rubin Module과 IGX Thor, Jetson Orin 플랫폼 발표",
+      "url": "https://nvidianews.nvidia.com/news/space-computing",
+      "sentiment": "positive"
+    }
   ],
-
   "analystOpinions": {
-    "consensusTarget": 276.0,
-    "highTarget": 325.0,
-    "lowTarget": 150.0,
-    "upsidePercent": 53.8,
+    "consensus": "Strong Buy",
+    "totalAnalysts": 45,
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 애널리스트가 Buy. Rosenblatt $325 최고 목표가. New Street Research는 '2026 Best Ideas'에 선정. 평균 상승여력 54%"
+    "averageTarget": 234,
+    "highTarget": 325,
+    "lowTarget": 150,
+    "keyOpinions": [
+      {
+        "analyst": "Rosenblatt Securities",
+        "rating": "Buy",
+        "target": 325,
+        "comment": "Kevin Cassidy가 경영진 미팅 후 목표가 $300에서 $325로 상향"
+      },
+      {
+        "analyst": "Wedbush (Dan Ives)",
+        "rating": "Outperform",
+        "target": 275,
+        "comment": "향후 10년간 #1 AI 픽으로 선정"
+      },
+      {
+        "analyst": "Bank of America",
+        "rating": "Buy",
+        "target": 250,
+        "comment": "AI 수요가 '채울 수 없는(insatiable)' 수준이라 평가"
+      },
+      {
+        "analyst": "Morgan Stanley",
+        "rating": "Overweight",
+        "target": 240,
+        "comment": "경쟁 해자가 '그 어느 때보다 넓다'고 분석"
+      },
+      {
+        "analyst": "Citi",
+        "rating": "Buy",
+        "target": 185,
+        "comment": "중국 수출 규제 리스크로 목표가 $200에서 하향. 단기 역풍 반영"
+      }
+    ]
   },
-
   "risks": [
-    { "severity": "high", "title": "미중 갈등 및 수출 규제", "description": "중국향 AI 칩 수출 제한이 강화되면 매출의 10~15%에 해당하는 중국 시장이 타격받을 수 있다" },
-    { "severity": "high", "title": "이란 갈등에 따른 시장 변동성", "description": "이란 군사 갈등이 글로벌 시장 변동성을 높이고 있으며, 기술주 전반에 매도 압력" },
-    { "severity": "medium", "title": "커스텀 ASIC 경쟁 심화", "description": "Google TPU, Amazon Trainium, Broadcom 커스텀 칩이 대형 클라우드 업체의 자체 칩 전환을 가속화할 수 있다" },
-    { "severity": "medium", "title": "공급망 병목", "description": "TSMC 첨단 공정 의존도가 높아 지정학적 리스크 노출. Vera Rubin 수요가 공급을 초과할 가능성" },
-    { "severity": "low", "title": "AGI 발언 논란", "description": "젠슨 황의 'AGI 달성' 발언에 업계 리더들이 회의적 반응. 과대 홍보 리스크이나 실적에 직접적 영향은 제한적" }
+    {
+      "title": "중국 수출 규제 심화",
+      "description": "미국의 AI 칩 대중 수출 규제가 지속. H20 칩의 규제 불확실성으로 연간 $150~200억 시장 기회 상실 가능",
+      "severity": "high"
+    },
+    {
+      "title": "AI 버블 우려와 멀티플 압축",
+      "description": "P/E가 45x에서 36x로 하락. DeepSeek 쇼크(더 적은 GPU로 경쟁력 있는 AI 모델 구축 가능) 이후 AI 인프라 투자 효율성 논란 지속",
+      "severity": "high"
+    },
+    {
+      "title": "지정학 리스크와 유가 상승",
+      "description": "이란 분쟁, 유가 $100+ 환경이 기술주 전반에 부담. 나스닥 2월 고점 대비 -15% 조정",
+      "severity": "medium"
+    },
+    {
+      "title": "Fed 금리 동결 장기화",
+      "description": "기준금리 3.5~3.75%에서 금리 인하 전망 없음. 고금리 환경이 성장주 밸류에이션에 하방 압력",
+      "severity": "medium"
+    },
+    {
+      "title": "커스텀 ASIC 경쟁 심화",
+      "description": "Broadcom, Google TPU, Amazon Trainium 등 자체 칩 개발 가속화. 대형 클라우드 업체의 NVIDIA 의존도 낮추기 시도",
+      "severity": "medium"
+    }
   ],
-
   "buyReasons": [
-    { "title": "PEG 0.59: 성장 대비 저평가", "rationale": "매출 65% 성장에 P/E 36.5x. PEG 0.59는 AI 리더치고 매력적인 밸류에이션" },
-    { "title": "$1T 누적 주문 가시성", "rationale": "2027년까지 Blackwell + Vera Rubin 누적 주문 $1T. 중기 매출 성장 가시성이 업계 최고" },
-    { "title": "42/45 애널리스트 Buy", "rationale": "93% 매수 의견, 평균 목표가 $276(+54%). 월스트리트 전체가 강세" },
-    { "title": "52주 고점 대비 15% 할인", "rationale": "$212.19 대비 15% 할인에 거래. 이란 갈등으로 인한 시장 조정이 매수 기회를 제공" }
+    {
+      "title": "AI 인프라 지출의 절대적 수혜주",
+      "description": "하이퍼스케일러들의 AI 인프라 투자가 2030년까지 연간 $3~4조에 달할 전망. NVIDIA가 최대 수혜"
+    },
+    {
+      "title": "Forward P/E 21x로 밸류에이션 매력 증가",
+      "description": "성장률 대비 합리적인 수준. PEG 기준으로 역사적 저점 근처"
+    },
+    {
+      "title": "풀스택 수직통합 경쟁 우위",
+      "description": "GPU, CPU, 네트워킹, 소프트웨어까지 일체형 제공. CUDA 생태계의 락인 효과로 전환 비용이 극히 높음"
+    },
+    {
+      "title": "새로운 매출원 다각화",
+      "description": "우주 컴퓨팅, 에너지 AI 팩토리, 로보틱스, NemoClaw 에이전트 플랫폼 등 수십억 달러 규모의 신규 시장 진출"
+    },
+    {
+      "title": "52주 고점 대비 -15% 할인",
+      "description": "시장 조정으로 $212에서 $179로 하락. 펀더멘털 변화 없이 매수 기회 제공"
+    }
   ],
-
   "technicalPosition": {
-    "week52High": 212.19,
-    "week52Low": 98.0,
-    "currentPositionPercent": 71.3,
-    "sma50": 184.20,
-    "sma50Signal": "below",
-    "sma200": 184.38,
-    "sma200Signal": "below",
-    "rsi": 48.0,
-    "rsiSignal": "neutral"
+    "summary": "중립에서 약세. RSI 41.8로 과매도 근처, MACD 약세 시그널. $170~$198 박스권 형성 중",
+    "rsi": 41.8,
+    "rsiInterpretation": "중립 (과매도 근접). 40 이하 진입 시 기술적 반등 가능성 증가",
+    "sma50": 183,
+    "sma200": 165,
+    "smaInterpretation": "50일선($183) 아래에서 거래 중. 200일선($165)은 강력한 지지선. 단기 약세, 중장기 상승 추세 유지",
+    "support": [170, 165, 150],
+    "resistance": [183, 198, 212],
+    "trend": "단기 약세, 중기 박스권, 장기 상승"
   },
-
   "overallOpinion": [
-    "젠슨 황이 'AGI를 달성했다'고 선언하고 $3T 매출 목표를 제시했다. 업계 반응은 엇갈리지만, $1T 누적 주문이라는 숫자는 실체가 있다.",
-    "GTC 2026에서 Vera Rubin(Blackwell 대비 10배 성능), 에너지 AI 팩토리 등 새로운 매출원을 공개했고, 42/45 애널리스트가 매수 의견이다.",
-    "50일($184), 200일($184) 평균 바로 아래에서 거래 중이고 RSI 48로 중립. 컨센서스 목표가 $276(+54%)으로 상승여력이 크다."
+    "NVDA는 AI 인프라의 독보적 강자다. $2,159억 매출에 55% 순이익률, Forward P/E 21x는 65% 성장률 감안하면 역사적으로 매우 저렴한 수준이다.",
+    "GTC 2026에서 Vera Rubin, NemoClaw, 우주 컴퓨팅 등 차세대 성장 동력을 대거 공개했다. 1조 달러 주문 잔고는 향후 실적 가시성을 크게 높여준다.",
+    "다만 중국 수출 규제, $100+ 유가, 나스닥 -15% 조정 등 외부 변수가 단기 주가에 부담을 주고 있다. RSI 41.8로 기술적 모멘텀도 약하다.",
+    "52주 고점 대비 -15% 할인된 현재가는 중장기 투자자에게 좋은 분할 매수 기회다. 5월 20일 FY27 Q1 실적 발표가 다음 촉매제가 될 전망이다."
   ],
-
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "PEG 0.59는 매출 65% 성장에 비해 저평가다. $1T 누적 주문 전망, Vera Rubin 출시, 에너지 파트너십 등 성장 가시성이 높다. 이란 갈등으로 시장이 조정받은 지금이 분할 매수 적기다.",
-    "horizon": "3~6개월"
+    "rating": "매수",
+    "confidence": "high",
+    "timeHorizon": "중장기 (6~12개월)",
+    "targetPrice": 234,
+    "summary": "단기 변동성은 있으나 AI 인프라 지배력과 성장 궤도는 확고. 현재 밸류에이션은 매력적인 진입점"
   },
-
   "sources": [
-    { "name": "Techi.com", "url": "https://www.techi.com/nvidia-stock-today/", "description": "NVDA 실시간 가격 및 분석" },
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html", "description": "GTC 2026 키노트, $1T 주문 전망" },
-    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-claims-agi-has-been-achieved-can-create-billion-dollar-businesses-172225126.html", "description": "젠슨 황 AGI 발언" },
-    { "name": "The Street", "url": "https://www.thestreet.com/investing/rosenblatt-resets-nvidia-stock-price-target-for-2026", "description": "Rosenblatt 목표가 $325 상향" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/25/surprise-nvidia-secret-new-revenue-stream-buy/", "description": "새로운 매출원 분석" },
-    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/", "description": "$1T 주문 전망 분석" },
-    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "애널리스트 컨센서스 목표가 $276" },
-    { "name": "The Cerbat Gem", "url": "https://www.thecerbatgem.com/2026/03/25/nvidia-nasdaqnvda-shares-up-2-heres-what-happened.html", "description": "P/E, PEG, 50일/200일 이동평균 데이터" },
-    { "name": "Financhill", "url": "https://financhill.com/stock-price-chart/nvda-technical-analysis", "description": "기술적 분석, 200일 SMA" }
+    {
+      "name": "Techi - NVDA Stock Today",
+      "url": "https://www.techi.com/nvidia-stock-today/"
+    },
+    {
+      "name": "NVIDIA IR - AI Agent Platform",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Ignites-the-Next-Industrial-Revolution-in-Knowledge-Work-With-Open-Agent-Development-Platform/default.aspx"
+    },
+    {
+      "name": "NVIDIA IR - Energy AI Factories",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"
+    },
+    {
+      "name": "TechCrunch - GTC Wall Street Reaction",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
+    },
+    {
+      "name": "Motley Fool - Jensen Huang News",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
+    },
+    {
+      "name": "NVIDIA Newsroom - Space Computing",
+      "url": "https://nvidianews.nvidia.com/news/space-computing"
+    },
+    {
+      "name": "CNBC - NemoClaw Open Source",
+      "url": "https://www.cnbc.com/video/2026/03/19/nemoclaw-nvidias-strategic-pivot-to-open-source.html"
+    },
+    {
+      "name": "StockAnalysis - NVDA Forecast",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "name": "GuruFocus - NVDA Forward PE",
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA"
+    },
+    {
+      "name": "AltIndex - NVDA Technical Analysis",
+      "url": "https://altindex.com/ticker/nvda/technical-analysis"
+    }
   ],
-
   "snsContent": {
     "x": {
-      "hook": "엔비디아, AI 칩 주문 1조 달러 시대",
-      "text": "$NVDA (3/26) $179.45(+2.43%). 젠슨 황이 'AGI 달성'을 선언하고 $3T 매출 목표를 제시했다. 주문은 실제로 $1T에 달한다.\n\n1/4",
+      "hook": "NVDA $179.45 | AI 왕좌는 건재하다",
+      "text": "NVDA $179.45 (+2.4%)\n\nP/E 36x에서 Forward 21x로 압축\n매출 $2,159억, 순이익률 55%\n애널리스트 42/45 매수, 목표가 $234\n\n52주 고점 대비 -15% 할인\n중장기 매수 기회\n\n#NVDA #AI #엔비디아",
       "thread": [
-        "GTC에서 Vera Rubin 공개(Blackwell 대비 10배 성능). 에너지 AI 팩토리, 로보틱스 등 새 매출원도 등장. Rosenblatt 목표가 $325.\n\n2/4",
-        "PEG 0.59로 매출 65% 성장 대비 저평가. 42/45 애널리스트 매수. 이건 과열이 아니라 펀더멘털이다.\n\n3/4",
-        "50일($184), 200일($184) 바로 아래에서 RSI 48. 컨센서스 목표가 $276(+54%). 이란 조정이 만든 매수 기회.\n\n4/4"
+        "1/ NVDA 핵심 지표\n- 시총: $4.34T (세계 1위)\n- P/E TTM 36.6x (섹터 평균 25x)\n- Forward P/E 21.3x\n- 매출 성장률 +65% YoY\n- RSI 41.8 (중립~약세)",
+        "2/ 최근 호재\n- GTC 2026: Vera Rubin + NemoClaw 발표\n- 1조 달러 주문 잔고\n- 에너지 6사 AI 팩토리 파트너십\n- 우주 컴퓨팅 Space-1 진출\n- Groq 인수 성과 시작",
+        "3/ 리스크\n- 중국 수출 규제 ($150~200억 기회비용)\n- DeepSeek 이후 AI 효율성 논란\n- 유가 $100+, 나스닥 -15% 조정\n- Fed 금리 동결 장기화",
+        "4/ 결론: 매수\nForward P/E 21x는 65% 성장률 감안하면 역사적 저점. $170 지지선 확인 후 분할 매수 전략. 5/20 실적이 다음 촉매제. 목표가 $234."
       ]
     },
     "threads": {
-      "hook": "엔비디아, AI 칩 주문 1조 달러 시대",
-      "text": "$NVDA (3/26) $179.45(+2.43%)\n\n젠슨 황이 'AGI를 달성했다'고 선언하고 $3T 매출 목표를 제시했다. 업계 반응은 엇갈리지만, 2027년까지 $1T 누적 주문이라는 숫자는 실체가 있다.\n\nGTC 2026에서 Vera Rubin(10배 성능), 에너지 AI 팩토리 등 새 매출원을 공개. PEG 0.59로 성장 대비 저평가. 42/45 애널리스트 매수.\n\n50일, 200일 평균 바로 아래에서 RSI 48. 컨센서스 $276(+54%). 시장 조정이 만든 기회다."
+      "hook": "NVDA $179 - AI 왕좌는 흔들리지 않는다",
+      "text": "NVDA $179.45 (+2.4%)\n\n세계 시총 1위 $4.34T. P/E 36x에서 Forward 21x로 내려왔다. 매출 $2,159억에 순이익률 55%. GTC 2026에서 Vera Rubin, NemoClaw, 우주 컴퓨팅까지 공개하며 차세대 로드맵 제시.\n\n애널리스트 42/45 매수, 평균 목표가 $234 (현재가 대비 +30%). 중국 수출 규제와 나스닥 조정이 단기 부담이지만, 1조 달러 주문 잔고와 풀스택 경쟁력은 건재.\n\n52주 고점 대비 -15% 할인된 지금이 중장기 진입 기회. $170 지지 확인 후 분할 매수 전략 추천."
     },
     "telegram": {
-      "hook": "엔비디아, AI 칩 주문 1조 달러 시대",
-      "text": "NVIDIA 일일 분석 (3/26)\n\n가격: $179.45 (+2.43%)\n\n핵심 이슈\n- 젠슨 황, 'AGI 달성' 선언 + $3T 매출 목표\n- 2027년까지 AI 칩 누적 주문 $1T\n- GTC에서 Vera Rubin(10배 성능) 공개\n- Rosenblatt 목표가 $325로 상향\n\n주가 위치\n- 50일($184), 200일($184) 바로 아래\n- RSI 48, 중립\n- PEG 0.59, 성장 대비 저평가\n\n목표가: $276 (+54%)"
+      "hook": "NVDA 일일 분석 (3/26)",
+      "text": "NVDA $179.45 (+2.4%) | 시총 $4.34T\n\nP/E 36.6x / Forward 21.3x\n매출 $2,159억 (+65% YoY)\n애널리스트: 42/45 매수, 목표 $234\nRSI 41.8 (중립)\n\n핵심 뉴스:\n- GTC: Vera Rubin, NemoClaw 발표\n- 에너지 6사 AI 팩토리 파트너십\n- 젠슨 황 AGI 달성 발언\n\n판단: 매수 (중장기)\n52주 고점 -15% 할인. Forward P/E 21x는 성장률 감안 시 매력적. $170 지지 확인 후 분할 매수."
     },
     "tones": {
       "x": {
-        "fact": {
-          "hook": "엔비디아, AI 칩 주문 1조 달러 시대",
-          "text": "$NVDA (3/26) $179.45(+2.43%). 젠슨 황이 'AGI 달성'을 선언하고 $3T 매출 목표를 제시했다. 주문은 실제로 $1T에 달한다.\n\n1/4",
-          "thread": [
-            "GTC에서 Vera Rubin 공개(Blackwell 대비 10배 성능). 에너지 AI 팩토리, 로보틱스 등 새 매출원도 등장. Rosenblatt 목표가 $325.\n\n2/4",
-            "PEG 0.59로 매출 65% 성장 대비 저평가. 42/45 애널리스트 매수. 이건 과열이 아니라 펀더멘털이다.\n\n3/4",
-            "50일($184), 200일($184) 바로 아래에서 RSI 48. 컨센서스 목표가 $276(+54%). 이란 조정이 만든 매수 기회.\n\n4/4"
-          ]
-        },
-        "witty": {
-          "hook": "젠슨 황이 AGI 달성이라 했는데 주가는 -0.3%",
-          "text": "$NVDA (3/26) $179.45. 젠슨 황이 'AGI 달성'이라고 했는데 시장은 0.3% 빠졌다. AGI보다 AI 칩 주문 $1T이 더 중요한 시대.\n\n1/4",
-          "thread": [
-            "Vera Rubin은 Blackwell보다 10배 빠르다. 10배. 작년에 나온 칩이 이미 구식이 되는 속도가 무섭다.\n\n2/4",
-            "P/E 36.5x에 PEG 0.59. 매출 65% 성장하는 회사가 이 가격이라니. 42/45 애널리스트가 사라고 외치는 이유가 있다.\n\n3/4",
-            "컨센서스 $276(+54%). Rosenblatt은 $325. 이란 조정 덕에 할인 중. 매수 기회를 만들어준 지정학.\n\n4/4"
-          ]
-        },
-        "empathy": {
-          "hook": "엔비디아가 좋은 건 아는데, 떨어질 때 사기가 쉽지 않다",
-          "text": "$NVDA (3/26) $179.45. 52주 고점 $212에서 15% 빠졌다. 좋은 회사인 건 아는데 떨어질 때 사기가 어렵다.\n\n1/4",
-          "thread": [
-            "하지만 숫자를 보면 안심이 된다. 매출 65% 성장, $1T 주문, PEG 0.59. 이건 과열이 아니라 실적이다.\n\n2/4",
-            "GTC에서 Vera Rubin(10배 성능)과 새 매출원까지 공개. 42/45 애널리스트가 매수. 혼자 버티는 게 아니다.\n\n3/4",
-            "목표가 $276(+54%). 이란 갈등으로 시장이 흔들릴 수 있지만, 장기 그림은 변하지 않았다. 분할 매수로 접근하면 부담이 줄어든다.\n\n4/4"
-          ]
-        }
+        "fact": "NVDA $179.45. 시총 $4.34T 세계 1위. P/E 36.6x, Forward 21.3x. 매출 $2,159억(+65%). 애널리스트 42/45 매수. 목표가 $234. 52주 고점 대비 -15%.",
+        "witty": "NVDA P/E가 45에서 36으로 내려왔는데 Forward 21이면 이거 세일 아닌가? 젠슨 황은 AGI 달성이라 하고, 주가는 고점에서 -15%. AI 왕이 할인 중이다.",
+        "empathy": "NVDA 고점에서 산 분들 마음 무겁죠. $212에서 $179, 시총 $800억 증발. 하지만 펀더멘털은 오히려 강해졌어요. Forward P/E 21x, 분할 매수로 평단 낮추는 전략 추천합니다."
       },
       "threads": {
-        "fact": {
-          "hook": "엔비디아, AI 칩 주문 1조 달러 시대",
-          "text": "$NVDA (3/26) $179.45(+2.43%)\n\n젠슨 황이 'AGI를 달성했다'고 선언하고 $3T 매출 목표를 제시했다. 업계 반응은 엇갈리지만, 2027년까지 $1T 누적 주문이라는 숫자는 실체가 있다.\n\nGTC 2026에서 Vera Rubin(10배 성능), 에너지 AI 팩토리 등 새 매출원을 공개. PEG 0.59로 성장 대비 저평가. 42/45 애널리스트 매수.\n\n50일, 200일 평균 바로 아래에서 RSI 48. 컨센서스 $276(+54%). 시장 조정이 만든 기회다."
-        },
-        "witty": {
-          "hook": "AGI 선언에 주가는 -0.3%, 시장은 냉정하다",
-          "text": "$NVDA (3/26) $179.45\n\n젠슨 황이 'AGI 달성'이라 선언했는데 주가는 0.3% 빠졌다. 시장에선 AGI보다 $1T 주문이 더 중요하다.\n\nVera Rubin은 Blackwell보다 10배 빠르다. 작년 칩이 이미 구식이 되는 엔비디아의 미친 속도. PEG 0.59에 42/45 애널리스트 매수.\n\n컨센서스 $276(+54%). 이란 조정이 할인을 만들어줬다."
-        },
-        "empathy": {
-          "hook": "좋은 회사인 건 아는데, 떨어질 때 사기가 어렵다",
-          "text": "$NVDA (3/26) $179.45\n\n52주 고점 $212에서 15% 빠졌다. 좋은 건 아는데 떨어질 때 매수 버튼 누르기가 쉽지 않다.\n\n하지만 숫자가 안심시켜준다. 매출 65% 성장, $1T 주문, PEG 0.59. GTC에서 Vera Rubin과 새 매출원 공개. 42/45 애널리스트가 매수.\n\n목표가 $276(+54%). 분할 매수로 접근하면 부담이 줄어든다. 장기 그림은 변하지 않았다."
-        }
+        "fact": "NVDA 현재가 $179.45, 시총 $4.34T로 세계 최대 기업. FY26 매출 $2,159억(+65% YoY), 순이익률 55.6%. P/E TTM 36.6x는 반도체 섹터 평균 25x 대비 프리미엄이지만, Forward P/E 21.3x는 고성장 감안 시 합리적. 애널리스트 45명 중 42명 매수, 평균 목표가 $234.",
+        "witty": "젠슨 황이 AGI 달성이라고 했는데 주가는 왜 고점에서 -15%인 거죠? Forward P/E 21배면 반도체 평균이랑 비슷한데, 이 회사 성장률이 65%라고요. 1조 달러 주문 잔고 들고 우주까지 가겠다는 회사가 할인 중입니다.",
+        "empathy": "NVDA $212에서 사신 분들, $800억 시총 증발이 체감되실 거예요. 하지만 회사 상황을 보면 매출 65% 성장에 순이익률 55%, 주문만 1조 달러입니다. 시장 전체가 조정받은 거지 NVDA만의 문제가 아니에요. 지금 Forward P/E 21x는 오히려 기회일 수 있습니다. 분할 매수로 천천히 접근해보세요."
       }
     }
   }
