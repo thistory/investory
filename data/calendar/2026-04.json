@@ -1,0 +1,145 @@
+{
+  "month": "2026-04",
+  "updatedAt": "2026-03-28T08:00:00.000Z",
+  "rateOutlook": {
+    "holdProbability": 92,
+    "cutProbability": 8,
+    "source": "CME FedWatch (2026-03-27 기준). 이란 전쟁 확대와 유가 $112에 시장은 오히려 인상 가능성까지 거론. 코어 PCE 2.7%는 인하 근거지만 에너지 인플레이션이 변수"
+  },
+  "events": [
+    {
+      "id": "2026-04-ism-mfg",
+      "name": "ISM 제조업 PMI",
+      "category": "other",
+      "date": "2026-04-01",
+      "status": "upcoming",
+      "previous": "52.4",
+      "expected": "51.5",
+      "watchPoints": [
+        "3월 유가 급등($112)이 제조업 비용에 미치는 영향",
+        "가격 하위지수(전월 70.5)가 추가 상승하면 인플레이션 재가속 우려 심화",
+        "이란 전쟁으로 공급망 차질 가능성 주시"
+      ]
+    },
+    {
+      "id": "2026-04-retail-sales-feb",
+      "name": "소매판매 (2월분, Retail Sales)",
+      "category": "other",
+      "date": "2026-04-01",
+      "status": "upcoming",
+      "previous": "-0.2% MoM (1월)",
+      "expected": "+0.3% MoM",
+      "watchPoints": [
+        "2월 데이터가 4월 1일로 연기되어 발표",
+        "에너지 비용 상승이 소비자 지출에 미치는 영향",
+        "고용 둔화(-92K) 이후 소비 위축 여부 확인"
+      ]
+    },
+    {
+      "id": "2026-04-nfp",
+      "name": "비농업 고용지표 (NFP)",
+      "category": "employment",
+      "date": "2026-04-03",
+      "status": "upcoming",
+      "previous": "-92K",
+      "expected": "+100K~+150K",
+      "watchPoints": [
+        "2월 -92K 쇼크 이후 반등 여부가 핵심",
+        "의료 파업 복귀, 연방정부 감원 추가 여부",
+        "실업률 4.1% 유지 or 상승 확인",
+        "4/3은 성금요일(Good Friday)로 시장 조기 마감"
+      ]
+    },
+    {
+      "id": "2026-04-fomc-minutes",
+      "name": "FOMC 의사록 (3월 17-18일 회의)",
+      "category": "fed",
+      "date": "2026-04-08",
+      "status": "upcoming",
+      "previous": "3월 회의 — 동결(3.50-3.75%), 11:1 투표",
+      "expected": "파월 매파 발언 배경 상세 공개",
+      "watchPoints": [
+        "파월의 '인플레이션이 기대만큼 내려오지 않고 있다' 발언의 상세 논의",
+        "점도표 이동의 배경 — 어떤 위원이 인하 축소를 주장했는지",
+        "이란 전쟁/유가 상승에 대한 위원들의 인플레이션 전망",
+        "고용 둔화(-92K)에 대한 평가"
+      ]
+    },
+    {
+      "id": "2026-04-cpi",
+      "name": "소비자물가지수 (CPI)",
+      "category": "inflation",
+      "date": "2026-04-10",
+      "status": "upcoming",
+      "previous": "2.4% YoY (헤드라인), 2.5% YoY (코어)",
+      "expected": "2.5~2.6% YoY (헤드라인)",
+      "watchPoints": [
+        "3월 유가 급등($112)이 에너지 CPI에 반영되는 첫 달",
+        "코어 CPI가 2.5%에서 추가 하락하는지 주시",
+        "주거비(Shelter) 둔화 속도가 관건",
+        "PPI +0.7%의 소비자물가 전이 여부"
+      ]
+    },
+    {
+      "id": "2026-04-ppi",
+      "name": "생산자물가지수 (PPI)",
+      "category": "inflation",
+      "date": "2026-04-14",
+      "status": "upcoming",
+      "previous": "+0.7% MoM, 3.4% YoY",
+      "expected": "+0.4~0.5% MoM",
+      "watchPoints": [
+        "3월 에너지 가격 급등이 PPI에 본격 반영",
+        "전월 +0.7% 이후 추가 상승 시 인플레이션 재가속 확정",
+        "관세 영향이 재화 가격에 지속 반영되는지"
+      ]
+    },
+    {
+      "id": "2026-04-fomc",
+      "name": "FOMC 회의",
+      "category": "fed",
+      "date": "2026-04-28",
+      "dateEnd": "2026-04-29",
+      "status": "upcoming",
+      "previous": "동결 (3.50-3.75%)",
+      "expected": "동결",
+      "watchPoints": [
+        "이란 전쟁 장기화, 유가 $112 상황에서 인플레이션 전망 변화",
+        "코어 PCE 2.7% 하회 vs 에너지 인플레이션 상승의 상충",
+        "점도표 업데이트 여부 (있을 경우만)",
+        "파월 기자회견 톤 — 매파 유지 or 완화 시그널",
+        "고용 둔화 심화 시 금리 인하 가능성 언급 여부"
+      ]
+    },
+    {
+      "id": "2026-04-gdp",
+      "name": "GDP (Q1 2026 속보치)",
+      "category": "gdp",
+      "date": "2026-04-29",
+      "status": "upcoming",
+      "previous": "+2.4% (Q4 2025, 최종)",
+      "expected": "+1.5~2.0%",
+      "watchPoints": [
+        "Q1은 고용 둔화(-92K), 유가 급등, 이란 전쟁이 겹친 분기",
+        "소비자 지출 둔화가 GDP에 반영되는지",
+        "순수출이 유가 상승으로 악화될 가능성",
+        "Atlanta Fed GDPNow 트래커 참조"
+      ]
+    },
+    {
+      "id": "2026-04-pce",
+      "name": "개인소비지출 물가지수 (PCE)",
+      "category": "inflation",
+      "date": "2026-04-30",
+      "status": "upcoming",
+      "previous": "코어 2.7% YoY, MoM +0.4%",
+      "expected": "코어 2.7~2.8% YoY",
+      "watchPoints": [
+        "연준이 가장 중시하는 인플레이션 지표",
+        "유가 $112의 에너지 비용이 3월 PCE에 반영되기 시작",
+        "코어 PCE가 2.7%에서 반등하면 금리 인하 기대 완전 소멸",
+        "RSMus '폭풍 전 고요' 분석 — 에너지 패스스루가 핵심"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-28",
+  "currentPrice": 167.52,
+  "marketCap": "$4.07T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 2027년까지 Blackwell과 Rubin 칩 누적 주문 1조 달러 전망을 제시하며 AI 추론 시장 공략을 본격화했다.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
+    ],
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "34.95x",
+      "interpretation": "반도체 섹터 평균 25x 대비 소폭 프리미엄. 이제 S&P 500 평균 Forward P/E와 비슷한 수준까지 하락. Motley Fool이 'S&P 500 이하 밸류에이션'이라고 보도"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "20.64x",
+      "interpretation": "FY27 예상 EPS $8.30 기반. S&P 500 Forward P/E(약 21x)를 밑돌았다. 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 이례적 상황"
+    },
+    {
+      "name": "PEG Ratio",
+      "value": "0.54",
+      "interpretation": "PEG 1.0 이하는 성장 대비 저평가. 0.54는 65% 성장률 대비 극단적 저평가 신호. 고성장+저PEG 조합은 매우 드물다"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$2,159억",
+      "interpretation": "전년 대비 +65% 성장. 순이익률 55.6%, ROE 101.5%. 역사상 유래없는 수익성"
+    },
+    {
+      "name": "RSI",
+      "value": "35.79",
+      "interpretation": "전일 38.94에서 추가 하락. 과매도 영역(30) 접근 중. 단기 기술적 반등 신호 강화"
+    },
+    {
+      "name": "다음 실적발표",
+      "value": "5월 20일",
+      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 확인 예정"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Forward P/E가 S&P 500 이하로 하락 (3/27)",
+      "description": "Motley Fool 보도: 엔비디아의 Forward P/E(20.64x)가 S&P 500 평균을 밑돌았다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 것은 이례적"
+    },
+    {
+      "title": "2027년까지 AI 칩 누적 주문 1조 달러",
+      "description": "GTC 2026에서 젠슨 황 CEO가 Blackwell과 Vera Rubin 칩의 누적 주문이 2027년까지 최소 1조 달러에 달할 것이라 발표"
+    },
+    {
+      "title": "젠슨 황 'AGI 달성' 발언, $3T 매출 목표 (3/24)",
+      "description": "Lex Fridman 팟캐스트에서 'AGI를 달성했다'고 발언하며 성장은 '불가피하다'고 선언. $3T 매출 목표를 제시"
+    },
+    {
+      "title": "Motley Fool: 2028년까지 $450 도달 가능 (3/26)",
+      "description": "AI 인프라 투자 사이클 지속을 조건으로 2028년 $450(+169%) 전망"
+    },
+    {
+      "title": "NemoClaw 오픈소스 AI 에이전트 플랫폼",
+      "description": "GTC에서 공개한 NemoClaw는 기업용 자율 AI 에이전트 개발을 위한 오픈소스 플랫폼. CNBC는 이를 NVIDIA의 가장 중요한 전략적 전환이라 평가"
+    },
+    {
+      "title": "에너지 기업 6사 파트너십 (AI 팩토리)",
+      "description": "CERAWeek 2026에서 AES, Constellation, NextEra 등 6개 에너지 기업과 AI 팩토리 그리드 자산화 파트너십 발표"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
+    "moats": [
+      {
+        "type": "생태계 락인",
+        "description": "CUDA 개발자 생태계는 500만명 이상. 경쟁사 전환 비용이 극히 높아 GPU 시장 지배력 유지"
+      },
+      {
+        "type": "수직통합",
+        "description": "GPU, CPU(Vera), 네트워킹(Spectrum-X), 소프트웨어(CUDA, NIM, NemoClaw)까지 풀스택 제공"
+      },
+      {
+        "type": "연간 아키텍처 로드맵",
+        "description": "Hopper, Blackwell, Vera Rubin으로 이어지는 연간 신제품 출시 사이클. 경쟁사 대비 2~3년 기술 격차"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY26 매출 $2,159억으로 반도체 업계 최대. R&D 투자 규모에서 경쟁사 압도"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X로 AI GPU 시장 진출했으나 소프트웨어 생태계와 규모에서 큰 격차. 데이터센터 AI 점유율 10% 미만"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩으로 내부 사용에 강점. 외부 시장 영향력은 제한적"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "AWS 내부 최적화 칩. 범용성에서 NVIDIA에 뒤처짐"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "커스텀 ASIC으로 대형 클라우드 업체에 공급. 범용 시장에서는 경쟁 불가"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-27",
+      "headline": "Motley Fool: 'NVDA Forward PE가 S&P 500 이하로 떨어졌다'",
+      "significance": "Forward P/E 20.64x가 S&P 500 평균을 밑돌았다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 역사적 순간",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/27/stock-market-today-march-27-nvidia-slides-as-valuation-drops-below-sp-500-on-forward-earnings/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "NVDA -2.17% 하락 $167.52, RSI 35.79 과매도 접근",
+      "significance": "5주 연속 하락, 다우 조정 진입일에 동반 하락. RSI 35.79로 과매도 근접. 시총 $4.07T으로 축소",
+      "url": "https://stockanalysis.com/stocks/nvda/statistics/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "Watcher.guru: 'GTC 2026 하이라이트가 60% 랠리를 촉발할 수 있다'",
+      "significance": "GTC에서 발표한 Vera Rubin, NemoClaw 등이 장기 성장의 촉매가 될 수 있다는 낙관론",
+      "url": "https://watcher.guru/news/nvidia-nvda-stock-this-gtc-2026-highlight-to-fuel-60-rally"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "BetterInvesting Magazine, NVDA를 '주목할 종목'으로 선정",
+      "significance": "6/7월호 Stock to Study로 선정. 현재 밸류에이션에서 교육적, 투자적 가치가 있다고 평가",
+      "url": "https://www.marketscreener.com/news/betterinvestinga-magazine-update-on-nvidia-corp-nasdaq-nvda-and-tennant-company-nyse-tnc-ce7e51d8d881f221"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "AI 칩 밀수 $2.5B 사건 보도, 규제 리스크 부각",
+      "significance": "2024~2025년 세 남성이 Nvidia 칩 탑재 AI 서버를 중국으로 밀수하려 한 사건이 보도됨. 수출 규제 강화 가능성",
+      "url": "https://en.wikipedia.org/wiki/Nvidia"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 279,
+    "highTarget": 360,
+    "lowTarget": 150,
+    "upsidePercent": 66.5,
+    "buyCount": 42,
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "42/45 애널리스트가 매수. 주가 하락으로 상승 여력이 63%에서 66.5%로 확대. Rosenblatt $325, Tigress $360 최고가. Motley Fool은 2028년 $450 전망. Forward PE가 S&P 500 이하라는 사실은 투자 매력을 극적으로 보여준다"
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "RSI 35.79, 50일/200일선 모두 아래",
+      "description": "RSI가 35.79로 과매도 접근. 50일선($183.49)과 200일선($179.23) 모두 아래. 2024년 이후 처음 있는 기술적 약세 국면 지속"
+    },
+    {
+      "severity": "high",
+      "title": "시장 전반 패닉, 다우 조정 진입",
+      "description": "다우 -793pt 조정 영역. VIX 31.05(+13%), 유가 $112, 5주 연속 하락. 매크로 환경이 지속적으로 악화"
+    },
+    {
+      "severity": "high",
+      "title": "중국 수출 규제 심화 + 밀수 사건",
+      "description": "AI 칩 $2.5B 밀수 사건 보도. 규제 강화 시 연간 $150~200억 시장 기회 상실 가능"
+    },
+    {
+      "severity": "medium",
+      "title": "AI 버블 우려와 멀티플 압축",
+      "description": "월스트리트 GTC에 냉담. DeepSeek 쇼크 이후 AI 인프라 투자 효율성 논란 지속"
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 경쟁 심화",
+      "description": "Broadcom, Google TPU, Amazon Trainium 등 자체 칩 개발 가속화. 대형 클라우드 업체의 NVIDIA 의존도 낮추기 시도"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Forward PE가 S&P 500 이하, 역사적 저평가",
+      "rationale": "Forward P/E 20.64x로 S&P 500 평균을 밑돌았다. 65% 성장하는 세계 1위 기업이 시장 평균보다 싼 것은 전례가 드물다"
+    },
+    {
+      "title": "PEG 0.54, 극단적 저평가 신호",
+      "rationale": "PEG 1.0 이하는 성장 대비 저평가. 0.54는 고성장+저밸류에이션 조합으로 투자 교과서적인 기회"
+    },
+    {
+      "title": "42/45 애널리스트 매수, 66.5% 상승 여력",
+      "rationale": "컨센서스 $279. 주가 하락으로 상승 여력이 66.5%로 확대. 매도 의견 0명은 펀더멘털 신뢰의 증거"
+    },
+    {
+      "title": "FCF $967B, 현금 $626B의 현금 창출력",
+      "rationale": "연간 잉여현금흐름 $967B. 매크로 충격에도 버틸 체력이 충분"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 64.4,
+    "sma50": 183.49,
+    "sma50Signal": "below",
+    "sma200": 179.23,
+    "sma200Signal": "below",
+    "rsi": 35.79,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Forward P/E가 S&P 500 평균 아래로 떨어졌다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 것은 역사적으로 이례적인 순간이다",
+    "RSI 35.79로 과매도에 접근하고 있고 50일/200일선 모두 아래. 시장 패닉(다우 조정, VIX 31)이 펀더멘털과 무관하게 주가를 끌어내리고 있다",
+    "1조 달러 주문 잔고, 순이익률 55.6%, 42/45 Buy 의견. AI 칩 밀수 사건이 규제 우려를 키우지만 회사 자체의 성장 궤도는 1%도 변하지 않았다",
+    "$167.52 마감, PEG 0.54, 상승 여력 66.5%. 매크로가 진정되면 가장 빠르게 반등할 종목. 분할매수 적기. Buy"
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Forward PE가 S&P 500 이하로 떨어진 것은 매크로 패닉이 만든 기회다. PEG 0.54, 42/45 Buy, 66.5% 상승 여력. 펀더멘털 훼손 없이 가격만 떨어졌다. 분할매수 적기",
+    "horizon": "6~12개월"
+  },
+  "sources": [
+    {
+      "name": "StockAnalysis - NVDA $167.52 통계",
+      "url": "https://stockanalysis.com/stocks/nvda/statistics/",
+      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54, RSI 35.79, 50일선 $183.49, 200일선 $179.23"
+    },
+    {
+      "name": "Motley Fool - NVDA Forward PE S&P 500 이하",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/27/stock-market-today-march-27-nvidia-slides-as-valuation-drops-below-sp-500-on-forward-earnings/",
+      "description": "Forward P/E가 S&P 500 평균 이하로 하락"
+    },
+    {
+      "name": "Watcher.guru - GTC 60% 랠리 전망",
+      "url": "https://watcher.guru/news/nvidia-nvda-stock-this-gtc-2026-highlight-to-fuel-60-rally",
+      "description": "GTC 2026 하이라이트가 60% 랠리 촉발 가능"
+    },
+    {
+      "name": "MarketScreener - BetterInvesting 선정",
+      "url": "https://www.marketscreener.com/news/betterinvestinga-magazine-update-on-nvidia-corp-nasdaq-nvda-and-tennant-company-nyse-tnc-ce7e51d8d881f221",
+      "description": "BetterInvesting Magazine 'Stock to Study' 선정"
+    },
+    {
+      "name": "Yahoo Finance - 시장 급락",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html",
+      "description": "다우 -793pt, 나스닥 -2.15%, VIX 31.05"
+    },
+    {
+      "name": "Motley Fool - NVDA $450 전망",
+      "url": "https://www.fool.com/investing/2026/03/26/prediction-nvidia-stock-could-surge-150-by-2028-bu/",
+      "description": "2028년까지 150% 상승 가능 전망"
+    },
+    {
+      "name": "Motley Fool - Jensen Huang AGI",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
+      "description": "AGI 달성 발언, $3T 매출 목표"
+    },
+    {
+      "name": "NVIDIA IR - Energy AI Factories",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx",
+      "description": "에너지 6사 AI 팩토리 파트너십"
+    },
+    {
+      "name": "WallStreetZen - NVDA EPS 전망",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/stock-forecast",
+      "description": "FY26 EPS $4.90, FY27 $8.30 컨센서스"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVDA $168 | Forward PE가 S&P 500 아래, 세계 1위가 시장 평균보다 싸다",
+      "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x. S&P 500 평균(21x)을 밑돌았다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되고 있다.\n\n목표가 $279(+66.5%)\n\n1/4",
+      "thread": [
+        "PEG 0.54. 순이익률 55.6%. FCF $967B.\n42/45 애널리스트 Buy. 매도 의견 0명.\n\n이건 펀더멘털 문제가 아니다. 매크로 패닉이 만든 할인이다\n\n2/4",
+        "다우 조정 진입, VIX 31, 유가 $112.\n5주 연속 하락. RSI 35.79 과매도 접근.\n\n시장이 진정되면 가장 빠르게 반등할 종목\n\n3/4",
+        "Motley Fool은 2028년 $450(+169%)을 전망.\n1조 달러 주문 잔고는 사라지지 않는다.\n\nBuy. 분할매수 적기. 5/20 실적이 촉매제\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVDA: Forward PE가 S&P 500 이하, 역사적 매수 기회",
+      "text": "$NVDA $167.52(-2.17%), 시총 $4.07T\n\nForward P/E 20.64x가 S&P 500 평균을 밑돌았다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되고 있다.\n\nPEG 0.54, 42/45 Buy, 목표가 $279(+66.5%). 순이익률 55.6%, FCF $967B. 펀더멘털은 흠잡을 데 없다.\n\nRSI 35.79 과매도 접근. 다우 조정, VIX 31의 매크로 패닉이 주가를 끌어내리고 있을 뿐.\n\nBuy. 분할매수 적기. 매크로 진정 후 가장 빠른 반등 예상."
+    },
+    "telegram": {
+      "hook": "NVDA 일일 분석 (3/28)",
+      "text": "NVDA $167.52 (-2.17%) | 시총 $4.07T\nP/E 34.95x | Forward 20.64x | PEG 0.54 | RSI 35.79\n\n핵심 변화\n- Forward PE가 S&P 500 평균 이하로 하락 (Motley Fool)\n- RSI 35.79 과매도 접근\n- 5주 연속 하락, 다우 조정 진입\n\n핵심 이슈\n- BetterInvesting 'Stock to Study' 선정\n- Watcher.guru: GTC 하이라이트가 60% 랠리 촉발 가능\n- AI 칩 밀수 사건으로 수출 규제 우려\n\n강점\n- 42/45 Buy, 목표가 $279(+66.5%)\n- PEG 0.54, FCF $967B\n\n판단: Buy. Forward PE S&P 이하는 역사적 매수 기회"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $168 | Forward PE가 S&P 500 아래, 세계 1위가 시장 평균보다 싸다",
+          "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x. S&P 500 평균(21x)을 밑돌았다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되고 있다.\n\n목표가 $279(+66.5%)\n\n1/4",
+          "thread": [
+            "PEG 0.54. 순이익률 55.6%. FCF $967B.\n42/45 애널리스트 Buy. 매도 의견 0명.\n\n이건 펀더멘털 문제가 아니다. 매크로 패닉이 만든 할인이다\n\n2/4",
+            "다우 조정 진입, VIX 31, 유가 $112.\n5주 연속 하락. RSI 35.79 과매도 접근.\n\n시장이 진정되면 가장 빠르게 반등할 종목\n\n3/4",
+            "Motley Fool은 2028년 $450(+169%)을 전망.\n1조 달러 주문 잔고는 사라지지 않는다.\n\nBuy. 분할매수 적기. 5/20 실적이 촉매제\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "S&P 500보다 싼 세계 1위 AI 기업, 시장이 제정신이 아니다",
+          "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x. S&P 500 평균보다 싸다. 65% 성장에 순이익률 55.6%인 회사가 시장 평균 이하라니.\n\n이란 전쟁 때문이다. 엔비디아 때문이 아니다.\n\n1/4",
+          "thread": [
+            "PEG 0.54. 이런 숫자를 보면 교과서에서나 나오는 '저평가 성장주' 사례다.\n\n42/45 Buy, 매도 0명. 다들 사라고 하는데 시장만 팔고 있다\n\n2/4",
+            "다우 조정 진입, VIX 31. 시장이 패닉이다.\n하지만 패닉은 영원하지 않고 1조 달러 주문 잔고는 사라지지 않는다.\n\n3/4",
+            "RSI 35.79. 과매도 직전.\n이 가격에 세계 1위를 사는 건 선물이다.\n\nBuy. 5/20 실적이 증명할 거다\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들, 5주 연속이라 걱정 많으시죠",
+          "text": "$NVDA $167.52(-2.17%)\n\n5주째 빠지고 있어요. 고점에서 -21%. 시장도 다우 조정이라 마음이 불안하시죠. 이해해요.\n\n하지만 이건 엔비디아 문제가 아니에요\n\n1/4",
+          "thread": [
+            "Forward PE가 S&P 500 아래로 떨어졌어요. 65% 성장하는 1위 기업이 시장 평균보다 싸요.\nPEG 0.54, 42/45 Buy.\n\n이런 기회는 흔치 않아요\n\n2/4",
+            "유가 $112와 이란 전쟁이 원인이에요. 회사 펀더멘털은 1%도 변하지 않았어요.\n\n패닉은 지나가고 숫자는 남아요\n\n3/4",
+            "분할매수로 천천히. 5/20 실적까지.\n1조 달러 주문 잔고가 있는 회사예요.\n\n장기로 보면 이 가격이 싸게 느껴질 거예요\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA: Forward PE가 S&P 500 이하, 역사적 매수 기회",
+          "text": "$NVDA $167.52(-2.17%), 시총 $4.07T\n\nForward P/E 20.64x가 S&P 500 평균을 밑돌았다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되고 있다.\n\nPEG 0.54, 42/45 Buy, 목표가 $279(+66.5%). 순이익률 55.6%, FCF $967B. 펀더멘털은 흠잡을 데 없다.\n\nRSI 35.79 과매도 접근. 다우 조정, VIX 31의 매크로 패닉이 주가를 끌어내리고 있을 뿐.\n\nBuy. 분할매수 적기. 매크로 진정 후 가장 빠른 반등 예상."
+        },
+        "witty": {
+          "hook": "S&P 500보다 싼 세계 1위 AI 기업, 시장의 선물인가 함정인가",
+          "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x, S&P 500 평균보다 낮다. 65% 성장에 순이익률 55.6%인 회사가 시장 평균 이하. 이건 시장이 선물을 주는 거다.\n\n이란 전쟁, 유가 $112, 다우 조정. 매크로가 모든 걸 무차별 폭격 중이다. 하지만 PEG 0.54는 거짓말을 안 한다. 42/45 Buy인데 시장만 안 산다.\n\nMotley Fool은 2028년 $450(+169%)을 외친다. 1조 달러 주문은 전쟁이 끝나도 사라지지 않는다.\n\nRSI 35.79. Buy. 5년 뒤 이 가격을 그리워할 수도 있다."
+        },
+        "empathy": {
+          "hook": "NVDA 투자자 여러분, 5주 연속 하락이 걱정이시죠",
+          "text": "$NVDA $167.52(-2.17%), 고점 대비 -21%.\n\n5주째 빠지고 있으니 불안한 게 당연해요. 시장도 다우 조정이라 어디 하나 좋은 게 없어요.\n\n하지만 Forward PE가 S&P 500 아래로 떨어졌어요. 이건 이란 전쟁과 유가 때문이지 엔비디아 문제가 아니에요. PEG 0.54, 42/45 Buy, 매도 0명.\n\n1조 달러 주문 잔고, 순이익률 55.6%. 이 회사의 기본기는 1%도 변하지 않았어요.\n\n분할매수로 천천히. 5/20 실적까지 기다리면서. 장기로 보세요."
+        }
+      }
+    }
+  }
+}

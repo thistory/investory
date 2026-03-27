@@ -1,0 +1,145 @@
+{
+  "month": "2026-04",
+  "updatedAt": "2026-03-28T08:00:00.000Z",
+  "rateOutlook": {
+    "holdProbability": 92,
+    "cutProbability": 8,
+    "source": "CME FedWatch (as of 2026-03-27). Iran war escalation and oil at $112 have some traders pricing in hike possibility. Core PCE 2.7% supports cuts, but energy inflation is a wildcard"
+  },
+  "events": [
+    {
+      "id": "2026-04-ism-mfg",
+      "name": "ISM Manufacturing PMI",
+      "category": "other",
+      "date": "2026-04-01",
+      "status": "upcoming",
+      "previous": "52.4",
+      "expected": "51.5",
+      "watchPoints": [
+        "Impact of March oil price surge ($112) on manufacturing costs",
+        "Prices subindex (70.5 last month) — further rise would intensify inflation fears",
+        "Supply chain disruption risk from Iran war"
+      ]
+    },
+    {
+      "id": "2026-04-retail-sales-feb",
+      "name": "Retail Sales (February data)",
+      "category": "other",
+      "date": "2026-04-01",
+      "status": "upcoming",
+      "previous": "-0.2% MoM (January)",
+      "expected": "+0.3% MoM",
+      "watchPoints": [
+        "February data delayed to April 1 release",
+        "Impact of rising energy costs on consumer spending",
+        "Consumer pullback following employment shock (-92K)"
+      ]
+    },
+    {
+      "id": "2026-04-nfp",
+      "name": "Non-Farm Payrolls (NFP)",
+      "category": "employment",
+      "date": "2026-04-03",
+      "status": "upcoming",
+      "previous": "-92K",
+      "expected": "+100K to +150K",
+      "watchPoints": [
+        "Rebound from February's -92K shock is critical",
+        "Healthcare strike resolution, federal government further cuts",
+        "Unemployment rate: holding at 4.1% or rising",
+        "April 3 is Good Friday — early market close"
+      ]
+    },
+    {
+      "id": "2026-04-fomc-minutes",
+      "name": "FOMC Minutes (March 17-18 Meeting)",
+      "category": "fed",
+      "date": "2026-04-08",
+      "status": "upcoming",
+      "previous": "March meeting — Hold (3.50-3.75%), 11-1 vote",
+      "expected": "Details behind Powell's hawkish stance",
+      "watchPoints": [
+        "Context for Powell's 'inflation not coming down as expected' remark",
+        "Which members shifted dot plot projections toward fewer cuts",
+        "Committee views on Iran war/oil inflation impact",
+        "Assessment of employment slowdown (-92K)"
+      ]
+    },
+    {
+      "id": "2026-04-cpi",
+      "name": "Consumer Price Index (CPI)",
+      "category": "inflation",
+      "date": "2026-04-10",
+      "status": "upcoming",
+      "previous": "2.4% YoY (headline), 2.5% YoY (core)",
+      "expected": "2.5-2.6% YoY (headline)",
+      "watchPoints": [
+        "First month to capture March oil price surge ($112) in energy CPI",
+        "Whether core CPI continues declining from 2.5%",
+        "Shelter cost deceleration pace is key",
+        "PPI +0.7% consumer pass-through"
+      ]
+    },
+    {
+      "id": "2026-04-ppi",
+      "name": "Producer Price Index (PPI)",
+      "category": "inflation",
+      "date": "2026-04-14",
+      "status": "upcoming",
+      "previous": "+0.7% MoM, 3.4% YoY",
+      "expected": "+0.4-0.5% MoM",
+      "watchPoints": [
+        "March energy price surge fully reflected in PPI",
+        "Another above-expected reading would confirm inflation re-acceleration",
+        "Tariff impacts on goods pricing persistence"
+      ]
+    },
+    {
+      "id": "2026-04-fomc",
+      "name": "FOMC Meeting",
+      "category": "fed",
+      "date": "2026-04-28",
+      "dateEnd": "2026-04-29",
+      "status": "upcoming",
+      "previous": "Hold (3.50-3.75%)",
+      "expected": "Hold",
+      "watchPoints": [
+        "Inflation outlook amid prolonged Iran war and $112 oil",
+        "Core PCE 2.7% below target vs rising energy inflation — conflicting signals",
+        "Dot plot update (if available)",
+        "Powell press conference tone — hawkish hold or dovish pivot",
+        "If employment weakness deepens, possible rate cut signaling"
+      ]
+    },
+    {
+      "id": "2026-04-gdp",
+      "name": "GDP (Q1 2026 Advance Estimate)",
+      "category": "gdp",
+      "date": "2026-04-29",
+      "status": "upcoming",
+      "previous": "+2.4% (Q4 2025, final)",
+      "expected": "+1.5-2.0%",
+      "watchPoints": [
+        "Q1 included employment shock (-92K), oil surge, and Iran war",
+        "Consumer spending slowdown reflection in GDP",
+        "Net exports possibly worsening from oil price surge",
+        "Reference Atlanta Fed GDPNow tracker"
+      ]
+    },
+    {
+      "id": "2026-04-pce",
+      "name": "Personal Consumption Expenditures (PCE)",
+      "category": "inflation",
+      "date": "2026-04-30",
+      "status": "upcoming",
+      "previous": "Core 2.7% YoY, MoM +0.4%",
+      "expected": "Core 2.7-2.8% YoY",
+      "watchPoints": [
+        "The Fed's preferred inflation measure",
+        "$112 oil energy costs beginning to flow into March PCE",
+        "Core PCE bounce from 2.7% would eliminate rate cut expectations",
+        "RSMus 'calm before the storm' analysis — energy pass-through is key"
+      ]
+    }
+  ]
+}
