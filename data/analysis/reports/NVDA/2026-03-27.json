@@ -1,0 +1,343 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-27",
+  "currentPrice": 171.24,
+  "marketCap": "$4.16T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 2027년까지 Blackwell과 Rubin 칩 누적 주문 1조 달러 전망을 제시하며 AI 추론 시장 공략을 본격화했다.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
+    ],
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "34.95x",
+      "interpretation": "반도체 섹터 평균 25x, S&P 500 평균 22x 대비 소폭 프리미엄. 3일 전 36.5x에서 빠르게 하락 중. 65% 성장률 감안 시 PEG 0.54로 역사적 저점"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "20.64x",
+      "interpretation": "FY27 예상 EPS $8.30 기반. 섹터 평균 20x와 거의 동일. 세계 1위 AI 기업이 평균 밸류에이션으로 하락한 것은 이례적"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$2,159억",
+      "interpretation": "전년 대비 +65% 성장. 데이터센터 매출이 80% 이상 차지. 순이익률 55.6%"
+    },
+    {
+      "name": "PEG Ratio",
+      "value": "0.54",
+      "interpretation": "PEG 1.0 이하는 성장 대비 저평가. 0.54는 극단적 저평가 신호. 고성장+저PEG 조합은 매우 드물다"
+    },
+    {
+      "name": "FCF (잉여현금흐름)",
+      "value": "$966.8억",
+      "interpretation": "연간 FCF $967B. P/FCF 43x. 현금 창출력이 압도적이며 $625.6B 현금 보유"
+    },
+    {
+      "name": "다음 실적발표",
+      "value": "2026년 5월 20일",
+      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 현황 확인 예정"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "2027년까지 AI 칩 누적 주문 1조 달러",
+      "description": "GTC 2026에서 젠슨 황 CEO가 Blackwell과 Vera Rubin 칩의 누적 주문이 2027년까지 최소 1조 달러에 달할 것이라 발표. 기존 $5,000억 전망을 2배로 상향"
+    },
+    {
+      "title": "젠슨 황 'AGI 달성' 발언, $3T 매출 목표 (3/24)",
+      "description": "젠슨 황이 Lex Fridman 팟캐스트에서 'AGI를 달성했다'고 발언하며 성장은 '불가피하다'고 선언. $3T 매출 목표를 제시. $10T 밸류에이션 논쟁 촉발"
+    },
+    {
+      "title": "Motley Fool: 2028년까지 150% 상승 가능 (3/26)",
+      "description": "Motley Fool이 NVDA가 2028년까지 $450에 도달할 수 있다고 전망. 조건: AI 인프라 투자 사이클이 지속될 경우"
+    },
+    {
+      "title": "NemoClaw 오픈소스 AI 에이전트 플랫폼",
+      "description": "GTC에서 공개한 NemoClaw는 기업용 자율 AI 에이전트 개발을 위한 오픈소스 플랫폼. CNBC는 이를 NVIDIA의 가장 중요한 전략적 전환이라 평가"
+    },
+    {
+      "title": "에너지 기업 6사 파트너십 (AI 팩토리)",
+      "description": "CERAWeek 2026에서 AES, Constellation, Invenergy, NextEra, Nscale, Vistra와 AI 팩토리 그리드 자산화 파트너십 발표"
+    },
+    {
+      "title": "우주 컴퓨팅 진출 - Space-1 발표",
+      "description": "GTC에서 궤도 데이터센터와 자율 우주 운영을 위한 Space-1 Vera Rubin Module 발표. 신규 시장 개척"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
+    "moats": [
+      {
+        "type": "생태계 락인",
+        "description": "CUDA 개발자 생태계는 500만명 이상. 경쟁사 전환 비용이 극히 높아 GPU 시장 지배력 유지"
+      },
+      {
+        "type": "수직통합",
+        "description": "GPU, CPU(Vera), 네트워킹(Spectrum-X), 소프트웨어(CUDA, NIM, NemoClaw)까지 풀스택 제공"
+      },
+      {
+        "type": "연간 아키텍처 로드맵",
+        "description": "Hopper, Blackwell, Vera Rubin으로 이어지는 연간 신제품 출시 사이클. 경쟁사 대비 2-3년 기술 격차"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY26 매출 $2,159억으로 반도체 업계 최대. R&D 투자 규모에서 경쟁사 압도"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X로 AI GPU 시장 진출했으나 소프트웨어 생태계와 규모에서 큰 격차. 데이터센터 AI 점유율 10% 미만"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩으로 내부 사용에 강점. 외부 시장 영향력은 제한적"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "AWS 내부 최적화 칩. 범용성에서 NVIDIA에 뒤처짐"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "커스텀 ASIC으로 대형 클라우드 업체에 공급. 범용 시장에서는 경쟁 불가"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-26",
+      "headline": "NVDA -4.16% 급락 $171.24, 200일선($179) 하향 이탈",
+      "significance": "이란 평화 거부에 나스닥 -1.14%. NVDA는 200일 이동평균선($179.11)을 하향 이탈하며 기술적 약세 신호 발생. 시총 $4.16T으로 축소",
+      "url": "https://stockanalysis.com/stocks/nvda/statistics/"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "Motley Fool: NVDA 2028년까지 150% 상승해 $450 도달 가능",
+      "significance": "AI 인프라 투자 사이클 지속을 조건으로 2028년 $450 전망. 현재 밸류에이션이 역사적으로 매력적이라고 분석",
+      "url": "https://www.fool.com/investing/2026/03/26/prediction-nvidia-stock-could-surge-150-by-2028-bu/"
+    },
+    {
+      "date": "2026-03-24",
+      "headline": "젠슨 황 'AGI를 달성했다' 발언, 성장은 '불가피'",
+      "significance": "Lex Fridman 팟캐스트에서 AGI 달성과 $3T 매출 목표를 밝힘. $10T 밸류에이션 논쟁 촉발",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "AI 칩 밀수 $2.5B 사건 보도, 규제 리스크 부각",
+      "significance": "2024-2025년 세 남성이 Nvidia 칩 탑재 AI 서버를 중국으로 밀수하려 한 $2.5B 규모 사건이 보도됨. 수출 규제 강화 가능성",
+      "url": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "date": "2026-03-23",
+      "headline": "에너지 6사와 AI 팩토리 그리드 파트너십 체결",
+      "significance": "CERAWeek에서 AES, Constellation, NextEra 등 6개 에너지 기업과 AI 데이터센터 유연 전력망 파트너십 발표",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 279,
+    "highTarget": 360,
+    "lowTarget": 150,
+    "upsidePercent": 62.9,
+    "buyCount": 42,
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "WallStreetZen: FY26 EPS 컨센서스 $4.78, FY27 $8.30. 42/45 애널리스트가 매수. 하락으로 상승 여력이 60%에서 63%로 확대. Rosenblatt $325, Tigress $360 최고가"
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "200일선 이탈, 기술적 약세 전환",
+      "description": "200일 이동평균선($179.11)을 하향 이탈. 50일선($183.80)도 이미 아래. 두 주요 이평선을 모두 하회하는 것은 2024년 이후 처음"
+    },
+    {
+      "severity": "high",
+      "title": "지정학 리스크와 유가 급등",
+      "description": "이란 평화 거부, 트럼프 '최후의 일격' 경고, 유가 $107. 기술주 전반 급락. 나스닥 고점 대비 -16% 조정"
+    },
+    {
+      "severity": "high",
+      "title": "중국 수출 규제 심화 + 밀수 사건",
+      "description": "미국의 AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성. 연간 $150-200억 시장 기회 상실 가능"
+    },
+    {
+      "severity": "medium",
+      "title": "AI 버블 우려와 멀티플 압축",
+      "description": "주가 고점 대비 -19% 하락. DeepSeek 쇼크 이후 AI 인프라 투자 효율성 논란 지속. 월스트리트 GTC에 냉담"
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 경쟁 심화",
+      "description": "Broadcom, Google TPU, Amazon Trainium 등 자체 칩 개발 가속화. 대형 클라우드 업체의 NVIDIA 의존도 낮추기 시도"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "PEG 0.54, 역사적 저평가 신호",
+      "rationale": "Forward P/E 20.64x에 65% 성장률. PEG 0.54는 1.0 이하의 극단적 저평가. 세계 1위 AI 기업이 섹터 평균 밸류에이션으로 떨어진 것은 이례적"
+    },
+    {
+      "title": "애널리스트 42/45 매수, 63% 상승 여력",
+      "rationale": "컨센서스 $279. 하락 후 상승 여력이 60%에서 63%로 확대. 매도 의견이 0명인 것은 펀더멘털 신뢰가 확고함을 보여준다"
+    },
+    {
+      "title": "1조 달러 주문 잔고와 실적 가시성",
+      "rationale": "Blackwell+Vera Rubin 누적 주문 1조 달러. 향후 2-3년 실적 가시성이 반도체 업계에서 가장 높은 수준"
+    },
+    {
+      "title": "FCF $967B, 현금 $626B의 현금 창출력",
+      "rationale": "연간 잉여현금흐름 $967B. $626B 현금 보유. 금융 건전성이 극도로 높아 매크로 충격에도 버틸 체력이 충분"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 67.4,
+    "sma50": 183.80,
+    "sma50Signal": "below",
+    "sma200": 179.11,
+    "sma200Signal": "below",
+    "rsi": 38.94,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "200일 이동평균선($179)을 하향 이탈하면서 50일선($184)과 함께 두 주요 이평선 아래로 빠졌다. 2024년 이후 처음 있는 기술적 약세 신호다",
+    "하지만 PEG 0.54는 65% 성장률 대비 극단적 저평가다. Forward P/E 20.64x는 섹터 평균과 같은 수준이고, 42/45 애널리스트가 매수 의견이다. 펀더멘털 훼손은 전혀 없다",
+    "AI 칩 밀수 사건($2.5B)이 보도되면서 수출 규제 강화 우려가 커졌고, 유가 $107에 나스닥 -16% 조정까지 매크로 환경이 악화됐다",
+    "$171.24 마감, RSI 39 과매도 근접. 200일선 이탈은 부정적이지만 PEG 0.54와 63% 상승 여력은 중장기 분할매수 적기임을 시사. 5/20 실적이 촉매제"
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "PEG 0.54와 Forward P/E 20.64x는 세계 1위 AI 기업 치고는 역사적으로 저렴하다. 200일선 이탈은 단기 부담이지만 매크로 충격에 의한 것이지 펀더멘털 훼손이 아니다. 분할매수 적기",
+    "horizon": "6-12개월"
+  },
+  "sources": [
+    {
+      "name": "StockAnalysis - NVDA $171.24 통계",
+      "url": "https://stockanalysis.com/stocks/nvda/statistics/",
+      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54, RSI 38.94, 200일선 $179.11"
+    },
+    {
+      "name": "Robinhood - NVDA $172.15 (시간외)",
+      "url": "https://robinhood.com/us/en/stocks/NVDA/",
+      "description": "시총 $4.16T, 일중 $171.84-$178.47"
+    },
+    {
+      "name": "Motley Fool - NVDA $450 전망",
+      "url": "https://www.fool.com/investing/2026/03/26/prediction-nvidia-stock-could-surge-150-by-2028-bu/",
+      "description": "2028년까지 150% 상승 가능 전망"
+    },
+    {
+      "name": "WallStreetZen - NVDA EPS 전망",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/stock-forecast",
+      "description": "FY26 EPS $4.78, FY27 $8.30 컨센서스"
+    },
+    {
+      "name": "Motley Fool - Jensen Huang AGI",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
+      "description": "AGI 달성 발언, $3T 매출 목표"
+    },
+    {
+      "name": "NVIDIA IR - Energy AI Factories",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx",
+      "description": "에너지 6사 AI 팩토리 파트너십"
+    },
+    {
+      "name": "TechCrunch - GTC Wall Street Reaction",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "description": "월스트리트 GTC 냉담 반응 분석"
+    },
+    {
+      "name": "FinancialContent - 이란 평화안 거부",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-26-geopolitical-brinkmanship-sends-markets-reeling-iran-rejects-peace-deal-as-trump-warns-of-final-blow",
+      "description": "이란 평화안 거부, 나스닥 -1.14%"
+    },
+    {
+      "name": "MarketBeat - NVDA 목표가 $275.95",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "애널리스트 컨센서스 목표가 $275.95"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVDA $171 | 200일선 이탈인데 PEG 0.54, 이건 세일이다",
+      "text": "$NVDA $171.24(-4.16%)\n\n200일선($179)을 이탈했다. 2024년 이후 처음. 하지만 PEG 0.54에 Forward P/E 20.64x. 65% 성장하는 세계 1위가 섹터 평균 밸류에이션이다.\n\n1/4",
+      "thread": [
+        "펀더멘털은 변한 게 없다:\n- 1조 달러 주문 잔고\n- 매출 +65%, 순이익률 55.6%\n- 42/45 애널리스트 Buy\n- FCF $967B, 현금 $626B\n\n이건 매크로 충격이지 회사 문제가 아니다\n\n2/4",
+        "리스크:\n- 유가 $107, 나스닥 -16% 조정\n- AI 칩 밀수 $2.5B 사건으로 수출 규제 강화 우려\n- 월스트리트 GTC 냉담\n\n시장은 아직 '숫자로 증명하라'고 요구 중\n\n3/4",
+        "RSI 39 과매도 근접. 52주 고점 대비 -19%.\n목표가 $279(+63%). PEG 0.54.\n\n5/20 실적이 촉매제. 분할매수 적기. Buy.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVDA: 200일선 이탈, 하지만 PEG 0.54는 역사적 저평가 신호",
+      "text": "$NVDA $171.24(-4.16%), 시총 $4.16T\n\n200일 이동평균선($179)을 하향 이탈했다. 2024년 이후 처음. 이란 전쟁에 시장 전체가 급락한 결과다.\n\n하지만 PEG 0.54에 Forward P/E 20.64x. 65% 성장하는 세계 1위 AI 기업이 반도체 섹터 평균과 같은 밸류에이션이다. 42/45 애널리스트가 Buy, 목표가 $279(+63%).\n\nAI 칩 밀수 사건과 수출 규제 강화 우려, 유가 $107 등 매크로 부담이 크지만 펀더멘털 훼손은 없다.\n\nRSI 39. 분할매수 적기. Buy."
+    },
+    "telegram": {
+      "hook": "NVDA 일일 분석 (3/27)",
+      "text": "NVDA $171.24 (-4.16%) | 시총 $4.16T\nP/E 34.95x | Forward 20.64x | PEG 0.54 | RSI 39\n\n핵심 변화\n- 200일선($179) 하향 이탈 (2024년 이후 처음)\n- 50일($184)도 이미 아래\n- PEG 0.54 역사적 저평가\n\n핵심 이슈\n- AI 칩 밀수 $2.5B 사건 보도\n- 유가 $107, 나스닥 -16% 조정\n- Motley Fool: 2028년 $450 전망\n\n강점\n- 42/45 Buy, 목표가 $279(+63%)\n- FCF $967B, 현금 $626B\n\n판단: Buy. PEG 0.54는 분할매수 적기"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $171 | 200일선 이탈인데 PEG 0.54, 이건 세일이다",
+          "text": "$NVDA $171.24(-4.16%)\n\n200일선($179)을 이탈했다. 2024년 이후 처음. 하지만 PEG 0.54에 Forward P/E 20.64x. 65% 성장하는 세계 1위가 섹터 평균 밸류에이션이다.\n\n1/4",
+          "thread": [
+            "펀더멘털은 변한 게 없다:\n- 1조 달러 주문 잔고\n- 매출 +65%, 순이익률 55.6%\n- 42/45 애널리스트 Buy\n- FCF $967B, 현금 $626B\n\n이건 매크로 충격이지 회사 문제가 아니다\n\n2/4",
+            "리스크:\n- 유가 $107, 나스닥 -16% 조정\n- AI 칩 밀수 $2.5B 사건으로 수출 규제 강화 우려\n- 월스트리트 GTC 냉담\n\n시장은 아직 '숫자로 증명하라'고 요구 중\n\n3/4",
+            "RSI 39 과매도 근접. 52주 고점 대비 -19%.\n목표가 $279(+63%). PEG 0.54.\n\n5/20 실적이 촉매제. 분할매수 적기. Buy.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "PEG 0.54인 세계 1위 기업, 시장이 정신을 놓은 건가",
+          "text": "$NVDA $171.24(-4.16%). 시총 $4.16T.\n\n200일선이 깨졌다. 이란 때문이다. 엔비디아 때문이 아니다. Forward P/E 20.64x에 PEG 0.54. 이건 성장주가 아니라 가치주 수준이다.\n\n1/4",
+          "thread": [
+            "1조 달러 주문 잔고에 순이익률 55.6%.\n이런 회사가 섹터 평균 밸류에이션이라니.\n\n전쟁과 유가가 만든 기회. 펀더멘털은 1%도 바뀌지 않았다\n\n2/4",
+            "Motley Fool은 2028년 $450을 외친다.\n지금 사면 +163%.\n\n밀수 사건으로 규제 우려가 있긴 하지만 그게 성장을 막진 못한다\n\n3/4",
+            "RSI 39. 세계 1위가 과매도다.\n이런 기회가 매년 오진 않는다.\n\nBuy. 5/20 실적이 증명할 거다.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들, 200일선 이탈이 걱정되시죠",
+          "text": "$NVDA $171.24(-4.16%)\n\n200일선까지 깨져서 불안하시죠. 고점에서 -19%, 하루 -4%. 숫자만 보면 무서운 게 맞아요.\n\n하지만 이건 회사 문제가 아닙니다\n\n1/4",
+          "thread": [
+            "PEG 0.54예요. 65% 성장하는 세계 1위가 이렇게 싸진 건 드문 일이에요.\n42/45 애널리스트가 여전히 Buy. 목표가 $279(+63%).\n\n2/4",
+            "이란 전쟁과 유가 $107은 일시적이에요. 1조 달러 주문 잔고는 사라지지 않아요.\n\n5/20 실적에서 숫자가 나오면 시장도 인정할 거예요\n\n3/4",
+            "RSI 39, 과매도 직전이에요.\n분할매수로 천천히. 조급하지 않아도 됩니다.\n\nBuy. 장기로 보면 선물 같은 가격이에요\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA: 200일선 이탈, 하지만 PEG 0.54는 역사적 저평가 신호",
+          "text": "$NVDA $171.24(-4.16%), 시총 $4.16T\n\n200일 이동평균선($179)을 하향 이탈했다. 2024년 이후 처음. 이란 전쟁에 시장 전체가 급락한 결과다.\n\n하지만 PEG 0.54에 Forward P/E 20.64x. 65% 성장하는 세계 1위 AI 기업이 반도체 섹터 평균과 같은 밸류에이션이다. 42/45 애널리스트가 Buy, 목표가 $279(+63%).\n\nAI 칩 밀수 사건과 수출 규제 강화 우려, 유가 $107 등 매크로 부담이 크지만 펀더멘털 훼손은 없다.\n\nRSI 39. 분할매수 적기. Buy."
+        },
+        "witty": {
+          "hook": "NVDA PEG 0.54: 세계 1위 AI 기업이 가치주 밸류에이션이라니",
+          "text": "$NVDA $171.24(-4.16%)\n\n200일선이 깨졌다. 이란이 평화안을 찢었기 때문이지 엔비디아가 뭘 잘못해서가 아니다.\n\nForward P/E 20.64x에 PEG 0.54. 65% 성장하는 세계 1위 기업이 반도체 평균과 같은 가격이다. 1조 달러 주문 잔고, 순이익률 55.6%, FCF $967B.\n\nMotley Fool은 2028년 $450을 외치는데 시장은 귀를 닫고 있다. 전쟁과 유가에 정신이 팔려서.\n\nRSI 39. Buy. 이런 가격에 세계 1위를 사는 건 선물이다."
+        },
+        "empathy": {
+          "hook": "NVDA 투자자 여러분, 200일선 이탈이 무서워도 펀더멘털은 건재해요",
+          "text": "$NVDA $171.24(-4.16%), 고점 대비 -19%.\n\n200일선까지 깨지면 무서운 게 당연해요. 하루 -4%는 체감이 크시죠.\n\n하지만 이건 이란 전쟁과 유가 때문이에요. 엔비디아 회사 자체는 1%도 변하지 않았습니다. PEG 0.54, 42/45 Buy, 목표가 $279(+63%).\n\n1조 달러 주문 잔고, 순이익률 55.6%, 현금 $626B. 이 회사가 망할 가능성은 0에 가까워요.\n\n분할매수로 천천히. 5/20 실적까지 기다리면서. 장기로 보면 이 가격이 싸게 느껴질 거예요."
+        }
+      }
+    }
+  }
+}
