@@ -3,7 +3,7 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-28",
   "currentPrice": 143.06,
-  "marketCap": "$342.2B",
+  "marketCap": "$342B",
   "businessSummary": {
     "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
     "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. Golden Dome $185B 미사일 방어 프로젝트 소프트웨어 개발자로 선정. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%)으로 성장 가속화 전망.",
@@ -13,56 +13,48 @@
       "AIP (AI Platform) - 생성형 AI 통합 플랫폼",
       "AIP 부트캠프 - 단기 도입 프로그램으로 고객 전환"
     ],
-    "keyProducts": [
-      "Gotham",
-      "Foundry",
-      "AIP",
-      "Maven Smart System",
-      "ShipOS",
-      "소버린 AI 데이터센터 OS",
-      "Ontology"
-    ]
+    "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "소버린 AI 데이터센터 OS", "Ontology"]
   },
   "keyMetrics": [
     {
       "name": "Trailing P/E",
       "value": "227x",
-      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 6.7배. 전일 234x에서 주가 하락으로 소폭 완화되었으나 여전히 극단적 프리미엄"
+      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 6.7배. 극단적 프리미엄이지만 주가 하락으로 수치는 점진적으로 축소 중"
     },
     {
       "name": "Forward P/E (FY2026E)",
       "value": "108x",
-      "interpretation": "FY2026 EPS $1.32 기준. 전일 112x에서 추가 하락"
+      "interpretation": "FY2026 EPS $1.32 기준. 전일 112x에서 108x로 축소. 성장주 평균 30-40x 대비 여전히 높음"
     },
     {
       "name": "매출 성장률 (FY2026E)",
       "value": "+65.4% YoY",
-      "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. 성장 가속화"
+      "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. AI 방산 수요 확대로 성장 가속화"
     },
     {
       "name": "P/S (매출 대비 주가)",
-      "value": "76.45x",
-      "interpretation": "소프트웨어 업종 평균 10~15x 대비 5~8배 프리미엄. PEG 2.36은 성장 대비 여전히 고평가"
+      "value": "76x",
+      "interpretation": "소프트웨어 업종 평균 10-15x 대비 5-7배 프리미엄. 성장률 대비 여전히 고평가 영역"
     },
     {
-      "name": "50일 이동평균선",
-      "value": "$148.97",
-      "interpretation": "50일선($149)마저 이탈했다. 200일선($164)과 함께 두 주요 이평선 아래"
+      "name": "시가총액",
+      "value": "$342B",
+      "interpretation": "52주 고점 $207 대비 -31% 하락. 3일 연속 하락으로 Golden Dome 급등분 완전 반납 이상"
     },
     {
-      "name": "Trefis '급등 트리거' 분석",
-      "value": "3/27 발행",
-      "interpretation": "Trefis가 '50% 이상 급등을 촉발할 수 있는 조건'을 분석. 과거 2020, 2024년처럼 단기 폭발 랠리 가능성 제시"
+      "name": "RSI",
+      "value": "45",
+      "interpretation": "중립 구간. 과매도(30 이하)까지는 여유 있으나 하락 추세에서 반등 모멘텀은 약한 상태"
     }
   ],
   "growthDrivers": [
     {
-      "title": "Trefis: '급등을 촉발할 조건들' 분석 (3/27)",
-      "description": "Trefis가 Palantir의 과거 50%+ 급등 패턴을 분석하고, 현 시점에서 유사한 급등이 나올 수 있는 트리거들을 정리. 2020, 2024년 사례와 비교"
+      "title": "Trefis: '50%+ 급등 촉발 요인' 분석 (3/27)",
+      "description": "Trefis가 과거 PLTR 50%+ 급등 사례를 분석. Golden Dome, Maven 등 현재 촉매가 과거 급등 패턴과 유사하다고 평가"
     },
     {
       "title": "Golden Dome $185B 미사일 방어 소프트웨어 선정 (3/25)",
-      "description": "Reuters 보도: Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발"
+      "description": "Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발. 장기 방산 매출 파이프라인 확보"
     },
     {
       "title": "체코 중앙은행 PLTR 매수 (3/26)",
@@ -73,182 +65,170 @@
       "description": "Bain과 파트너십을 확대해 AIP, Foundry의 글로벌 도입을 촉진. 컨설팅 채널을 통한 기업 시장 침투 가속"
     },
     {
-      "title": "Maven AI 미군 전체 정식 채택 (Program of Record, 3/20)",
+      "title": "Maven AI 미군 전체 정식 채택 (Program of Record, 3/23)",
       "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정. 미군 전 군에 장기 적용 확정"
     },
     {
       "title": "FY2026 매출 가이던스 $7.19B~$7.41B (+60~65%)",
-      "description": "경영진이 성장 가속화를 자신. 미국 상업 부문이 핵심 성장 엔진"
+      "description": "경영진이 성장 가속화를 자신. 미국 상업 부문 +137% YoY가 핵심 성장 엔진"
     }
   ],
   "competitiveAdvantage": {
     "summary": "정부 국방 AI 20년 이상의 실적과 최고 수준 보안 클리어런스, Maven 미군 정식 채택, 이란 전쟁 실전 검증. 돈으로 살 수 없는 해자",
     "moats": [
-      {
-        "type": "전환 비용 (Switching Cost)",
-        "description": "정부/군사 시스템에 깊이 통합된 Ontology 플랫폼. 한번 도입하면 교체 비용이 극도로 높음"
-      },
-      {
-        "type": "보안 인증 장벽",
-        "description": "최고 수준 보안 클리어런스와 20년+ 정부 신뢰 관계. 신규 진입자가 동일 수준 획득하기 사실상 불가능"
-      },
-      {
-        "type": "네트워크 효과",
-        "description": "AIP 부트캠프를 통한 빠른 고객 확보와 Ontology 데이터 모델의 생태계 확장"
-      },
-      {
-        "type": "실전 검증",
-        "description": "이란 전쟁에서 수천 건의 타격에 실시간 활용. 실전 데이터가 곧 경쟁 우위"
-      }
+      {"type": "전환 비용 (Switching Cost)", "description": "정부/군사 시스템에 깊이 통합된 Ontology 플랫폼. 한번 도입하면 교체 비용이 극도로 높음"},
+      {"type": "보안 인증 장벽", "description": "최고 수준 보안 클리어런스와 20년+ 정부 신뢰 관계. 신규 진입자가 동일 수준 획득하기 사실상 불가능"},
+      {"type": "네트워크 효과", "description": "AIP 부트캠프를 통한 빠른 고객 확보와 Ontology 데이터 모델의 생태계 확장"},
+      {"type": "실전 검증", "description": "이란 전쟁에서 수천 건의 타격에 실시간 활용. 실전 데이터가 곧 경쟁 우위"}
     ],
     "competitors": [
-      {
-        "name": "Anduril Industries",
-        "detail": "방산 AI/드론 신생 기업. Golden Dome에서 Palantir와 협력 관계. $60B 밸류에이션"
-      },
-      {
-        "name": "Snowflake / Databricks",
-        "detail": "기업 데이터 플랫폼 경쟁. 하지만 정부/국방 분야 접근성에서 Palantir에 크게 뒤처짐"
-      },
-      {
-        "name": "Microsoft / AWS",
-        "detail": "클라우드 대기업의 정부 AI 진출. 규모는 크지만 Palantir의 특화된 Ontology 플랫폼만큼 깊은 통합은 어려움"
-      },
-      {
-        "name": "C3.ai",
-        "detail": "기업용 AI 플랫폼. 매출 규모와 성장률 모두 Palantir에 크게 뒤처지는 상황"
-      }
+      {"name": "Anduril Industries", "detail": "방산 AI/드론 신생 기업. Golden Dome에서 Palantir와 협력 관계. $60B 밸류에이션"},
+      {"name": "Snowflake / Databricks", "detail": "기업 데이터 플랫폼 경쟁. 하지만 정부/국방 분야 접근성에서 Palantir에 크게 뒤처짐"},
+      {"name": "Microsoft / AWS", "detail": "클라우드 대기업의 정부 AI 진출. 규모는 크지만 Palantir의 특화된 Ontology 플랫폼만큼 깊은 통합은 어려움"},
+      {"name": "C3.ai", "detail": "기업용 AI 플랫폼. 매출 규모와 성장률 모두 Palantir에 크게 뒤처지는 상황"}
     ]
   },
   "recentNews": [
     {
       "date": "2026-03-27",
-      "headline": "PLTR -3.05% 하락 $143.06, 50일선($149)마저 이탈",
-      "significance": "다우 -793pt 조정 진입일에 동반 하락. 50일선($148.97)까지 이탈하면서 200일선($164)과 함께 주요 이평선 전부 아래. Golden Dome 급등분(+6.8%) 3일 만에 전부 반납 후 추가 하락",
-      "url": "https://stockanalysis.com/stocks/pltr/statistics/"
+      "headline": "PLTR -3% 하락 $143.06, 광범위한 기술주 매도세 지속",
+      "significance": "3일 연속 하락. 50일선($148.62)과 200일선($168.58) 모두 아래에서 거래. 기술주 전반 약세에 동반 하락",
+      "url": "https://stockanalysis.com/stocks/pltr/"
     },
     {
       "date": "2026-03-27",
-      "headline": "Trefis: '무엇이 Palantir 주가를 급등시킬 수 있나'",
-      "significance": "과거 50%+ 급등 패턴과 비교하여 현 시점의 급등 트리거를 분석. 국방 AI 확대, 상업 성장 가속이 핵심",
-      "url": "https://www.trefis.com/stock/pltr/articles2/595016/what-could-send-palantir-technologies-stock-soaring/2026-03-27"
+      "headline": "Trefis: 'Palantir 주가 50%+ 급등 촉발 요인 분석'",
+      "significance": "과거 대규모 랠리 패턴을 분석하며 현재 Golden Dome, Maven 등이 유사한 촉매가 될 수 있다고 평가",
+      "url": "https://www.trefis.com/stock/pltr/articles/567341/what-could-send-palantir-stock-soaring/"
     },
     {
       "date": "2026-03-27",
-      "headline": "24/7 Wall St: 'Palantir 2030년 주가 전망'",
-      "significance": "현재가 대비 향후 12개월 10.65% 총 수익률 전망(90% 신뢰도). '격동의 2026년'이라고 평가",
-      "url": "https://247wallst.com/investing/2026/03/27/palantir-price-prediction-where-will-the-ai-stock-be-in-2030/"
+      "headline": "24/7 Wall St 목표가 $171.26 (+10.65% 상승여력)",
+      "significance": "현재가 대비 약 20% 상승 여력. 보수적 목표가이지만 긍정적 시각 유지",
+      "url": "https://247wallst.com/investing/2026/03/27/palantir-pltr-price-target/"
     },
     {
       "date": "2026-03-26",
-      "headline": "Seeking Alpha: 'Palantir의 오래된 내러티브가 무너지고 있다'",
-      "significance": "밸류에이션 과대평가, 경쟁 심화 등을 지적하는 Sell 의견. 내러티브 전환 논쟁 가열",
-      "url": "https://seekingalpha.com/article/4886149-palantir-old-narrative-is-falling-apart"
+      "headline": "체코 중앙은행 24,730주 신규 매수",
+      "significance": "중앙은행이 AI 방산주를 매수한 것은 제도권 신뢰의 강력한 시그널",
+      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "Bain & Company 글로벌 파트너십 확대",
+      "significance": "AIP/Foundry 글로벌 도입을 가속화할 컨설팅 채널 확보",
+      "url": "https://www.prnewswire.com/news-releases/palantir-and-bain-company-expand-global-partnership.html"
     },
     {
       "date": "2026-03-25",
-      "headline": "Golden Dome $185B 미사일 방어 소프트웨어 선정, +6.8% 급등",
-      "significance": "트럼프 행정부의 $185B 우주 기반 미사일 방어 시스템에서 소프트웨어 개발자로 선정. 3일 만에 전부 반납",
+      "headline": "Rosenblatt, Buy 유지 목표가 $200",
+      "significance": "월가에서 가장 낙관적인 커버리지 중 하나. 현재가 대비 +40% 상승여력 제시",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Golden Dome $185B 미사일 방어 소프트웨어 선정",
+      "significance": "트럼프 행정부의 $185B 우주 기반 미사일 방어 시스템에서 Anduril과 공동 소프트웨어 개발자로 선정",
       "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 187,
+    "consensusTarget": 198.59,
     "highTarget": 260,
     "lowTarget": 50,
-    "upsidePercent": 30.7,
+    "upsidePercent": 38.8,
     "buyCount": 17,
     "holdCount": 14,
     "sellCount": 5,
-    "notableComment": "Simply Wall St 컨센서스 $186.60. 주가 하락으로 상승 여력 27%에서 30.7%로 확대. 하지만 애널리스트 의견은 17 Buy, 14 Hold, 5 Sell로 여전히 갈림. Trefis는 급등 트리거를 분석했고, Seeking Alpha는 Sell을 주장"
+    "notableComment": "MarketBeat 컨센서스 $198.59(+39%). Rosenblatt $200 Buy 유지. 24/7 Wall St $171.26(+20%). 밸류에이션 논쟁 속에서도 대다수 애널리스트가 상승 여력 제시"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션 + '내러티브 붕괴' 논쟁",
-      "description": "P/E 227x, P/S 76x, PEG 2.36. Seeking Alpha '내러티브 붕괴' Sell 의견. 성장 프리미엄 정당성 논쟁이 격화"
+      "title": "극단적 밸류에이션 프리미엄",
+      "description": "P/E 227x(S&P IT 평균 34x의 6.7배), P/S 76x(소프트웨어 평균의 5-7배). Forward PE 108x도 성장주 평균 30-40x의 3배. 기대치가 이미 주가에 과도하게 반영"
     },
     {
       "severity": "high",
-      "title": "50일선마저 이탈, 기술적 약세 심화",
-      "description": "50일선($149)과 200일선($164) 모두 아래. Golden Dome +6.8%를 3일 만에 반납하고 추가 하락. RSI 42.85"
+      "title": "50일선, 200일선 모두 아래 기술적 약세",
+      "description": "50일선($148.62), 200일선($168.58) 모두 아래에서 거래 중. 3일 연속 하락으로 하락 모멘텀 지속. $126 지지선까지 열려 있는 상황"
     },
     {
       "severity": "high",
-      "title": "시장 패닉, 다우 조정 진입",
-      "description": "다우 -793pt 조정 영역. VIX 31.05. 고밸류에이션 성장주가 가장 큰 타격을 받는 환경"
+      "title": "매크로 기술주 셀오프 리스크",
+      "description": "3/24 -5%, 3/27 -3%로 광범위한 기술주 매도세에 동반 하락. 금리 환경과 지정학 불확실성이 고밸류에이션 기술주에 불리"
     },
     {
       "severity": "medium",
-      "title": "애널리스트 의견 분열 심화",
-      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션 논쟁이 끝나지 않고 있다"
+      "title": "애널리스트 의견 분열",
+      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션에 대한 시장의 회의론이 지속되는 중"
     },
     {
       "severity": "medium",
       "title": "주식 보상(SBC) 희석",
-      "description": "주식 수 1년간 +4.67% 증가. 지속적 SBC로 기존 주주 가치 희석"
+      "description": "주식 수 연간 4.67% 증가. 지속적인 SBC로 기존 주주 가치 희석 우려"
     }
   ],
   "buyReasons": [
     {
-      "title": "Trefis '급등 트리거' 분석: 50%+ 랠리 가능",
-      "rationale": "과거 2020, 2024년처럼 단기 50%+ 급등 패턴이 반복될 수 있다는 분석. 국방+상업 성장 가속이 조건"
+      "title": "AI 국방 독점적 위치 + 장기 파이프라인",
+      "rationale": "Golden Dome $185B + Maven 정식 채택 + 이란 전쟁 실전 검증. 체코 중앙은행까지 매수. 방산 AI에서 대체 불가능한 위치"
     },
     {
-      "title": "AI 국방 독점적 위치 강화",
-      "rationale": "Golden Dome $185B + Maven 정식 채택 + 이란 전쟁 실전 검증 + 체코 중앙은행 매수. 대체 불가능한 해자"
+      "title": "상업 부문 폭발적 성장 + 파트너 확대",
+      "rationale": "미국 상업 매출 Q4 +137%. Bain & Company 파트너십으로 글로벌 AIP 도입 가속. FY2026 +65% 가이던스"
     },
     {
       "title": "고점 대비 -31% 할인",
-      "rationale": "52주 고점 $207에서 -31% 하락. 펀더멘털은 Golden Dome, Maven, Bain으로 오히려 강화"
+      "rationale": "52주 고점 $207에서 -31% 하락. 펀더멘털은 Golden Dome, Maven으로 오히려 강화됐는데 가격은 내려감"
     },
     {
-      "title": "ROE 25.98%, 재무 건전성",
-      "rationale": "부채비율 0.03, 현금 $7.18B, FCF $2.1B. 견고한 재무 구조"
+      "title": "Trefis 50%+ 급등 촉매 분석",
+      "rationale": "과거 대규모 랠리 패턴과 현재 촉매(Golden Dome, Maven, 상업 성장)가 유사하다는 분석. 반등 시 상승 폭이 클 수 있음"
     }
   ],
   "technicalPosition": {
     "week52High": 207.52,
     "week52Low": 66.12,
     "currentPositionPercent": 54.4,
-    "sma50": 148.97,
+    "sma50": 148.62,
     "sma50Signal": "below",
-    "sma200": 164.02,
+    "sma200": 168.58,
     "sma200Signal": "below",
-    "rsi": 42.85,
+    "rsi": 45,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "50일선($149)마저 이탈했다. Golden Dome +6.8% 급등을 3일 만에 전부 반납하고 추가 하락. 다우 조정 진입에 시장 전체가 무차별 매도세",
-    "Trefis가 '무엇이 Palantir를 급등시킬 수 있나'를 분석했다. 2020, 2024년처럼 50%+ 급등이 나올 수 있는 조건이 갖춰지고 있다고 봤다. Golden Dome, Maven, 상업 +137% 성장이 근거",
-    "문제는 여전히 가격이다. P/E 227x, P/S 76x에 애널리스트도 17 Buy, 14 Hold, 5 Sell로 갈렸다. Seeking Alpha의 '내러티브 붕괴' 논쟁도 진행 중",
-    "$143.06 마감. 고점 대비 -31%. 목표가 $187(+31%). 펀더멘털 방향은 확실하나 밸류에이션이 비싸고 시장 패닉이 지속 중. 소액 분할매수만 유효"
+    "PLTR $143.06(-3%), 3일 연속 하락. 50일선($149)과 200일선($169) 모두 아래에서 거래 중이다. 기술주 전반 셀오프에 동반 하락하며 Golden Dome 급등분을 완전히 반납했다",
+    "펀더멘털은 역대 최강이다. Golden Dome $185B, Maven 정식 채택, 체코 중앙은행 매수, Bain 파트너십. Trefis는 과거 50%+ 급등 패턴과 유사한 촉매가 쌓이고 있다고 분석했다",
+    "밸류에이션이 핵심 부담이다. P/E 227x(IT 평균 34x의 6.7배), P/S 76x. 17 Buy, 14 Hold, 5 Sell로 애널리스트도 갈렸다. 매크로 약세가 고밸류 기술주를 계속 압박 중",
+    "컨센서스 $199(+39%). 단기 $126 지지선까지 열려 있으나 장기 성장 방향은 확실. Hold, 소액 분할매수만 유효. 적극 매수는 밸류에이션 정상화를 기다려야"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Trefis가 급등 가능성을 분석할 만큼 펀더멘털은 강하다. 하지만 P/E 227x에 시장 패닉, 50일선 이탈까지. 급등과 급락 모두 가능한 고변동성 구간. 소액 분할매수는 가능하나 적극 매수는 위험",
-    "horizon": "6~12개월"
+    "summary": "펀더멘털은 Golden Dome, Maven, 상업 +137% 성장으로 역대 최강이나 P/E 227x, 50일/200일선 모두 아래. 3일 연속 하락에 매크로 역풍까지. 성장 방향은 확실하지만 단기 하락 압력이 크다. 소액 분할매수는 가능하나 적극 매수보다는 관망",
+    "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "StockAnalysis - PLTR $143.06 통계",
+      "name": "StockAnalysis - PLTR 통계",
       "url": "https://stockanalysis.com/stocks/pltr/statistics/",
-      "description": "P/E 227.08, Forward PE 108.21, PEG 2.36, RSI 42.85, 50일선 $148.97, 200일선 $164.02"
+      "description": "P/E 227x, Forward PE 108x, RSI 45, 50일선 $148.62, 200일선 $168.58"
     },
     {
-      "name": "Trefis - 급등 트리거 분석",
-      "url": "https://www.trefis.com/stock/pltr/articles2/595016/what-could-send-palantir-technologies-stock-soaring/2026-03-27",
-      "description": "과거 50%+ 급등 패턴과 비교, 현재 급등 가능 조건 분석"
+      "name": "Trefis - PLTR 50%+ 급등 촉발 요인 분석",
+      "url": "https://www.trefis.com/stock/pltr/articles/567341/what-could-send-palantir-stock-soaring/",
+      "description": "과거 대규모 랠리 패턴과 현재 촉매 비교 분석"
     },
     {
-      "name": "24/7 Wall St - 2030년 전망",
-      "url": "https://247wallst.com/investing/2026/03/27/palantir-price-prediction-where-will-the-ai-stock-be-in-2030/",
-      "description": "12개월 10.65% 수익률 전망, 90% 신뢰도"
+      "name": "MarketBeat - PLTR 목표가 컨센서스",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/",
+      "description": "컨센서스 $198.59, Rosenblatt $200 Buy"
     },
     {
-      "name": "Seeking Alpha - 내러티브 붕괴",
-      "url": "https://seekingalpha.com/article/4886149-palantir-old-narrative-is-falling-apart",
-      "description": "Palantir 오래된 내러티브 붕괴 Sell 의견"
+      "name": "24/7 Wall St - PLTR 목표가 $171.26",
+      "url": "https://247wallst.com/investing/2026/03/27/palantir-pltr-price-target/",
+      "description": "보수적 목표가 $171.26, +20% 상승여력"
     },
     {
       "name": "Reuters - Golden Dome 소프트웨어",
@@ -256,81 +236,86 @@
       "description": "$185B Golden Dome 미사일 방어 소프트웨어 선정"
     },
     {
-      "name": "Yahoo Finance - 시장 급락",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html",
-      "description": "다우 -793pt, 나스닥 -2.15%, VIX 31.05"
-    },
-    {
-      "name": "Simply Wall St - PLTR 목표가",
-      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/palantirs-golden-dome-role-reshapes-defense-exposure-and-val",
-      "description": "컨센서스 $186.60, 공정가치 대비 27.3% 고평가"
-    },
-    {
       "name": "American Banking News - 체코 중앙은행 매수",
       "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html",
       "description": "체코 중앙은행 24,730주 신규 매수"
+    },
+    {
+      "name": "PRNewswire - Bain 파트너십",
+      "url": "https://www.prnewswire.com/news-releases/palantir-and-bain-company-expand-global-partnership.html",
+      "description": "Bain & Company 글로벌 AIP/Foundry 파트너십 확대"
+    },
+    {
+      "name": "Robinhood - PLTR 시세",
+      "url": "https://robinhood.com/us/en/stocks/PLTR/",
+      "description": "시총 $342B, 실시간 시세 및 기본 지표"
+    },
+    {
+      "name": "Simply Wall St - PLTR 분석",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/",
+      "description": "밸류에이션 분석 및 애널리스트 컨센서스"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $143 | 50일선 이탈, 그래도 Trefis는 '급등 가능' 분석",
-      "text": "$PLTR $143.06(-3.05%)\n\n50일선($149)마저 이탈. Golden Dome +6.8%를 3일 만에 전부 반납. 하지만 Trefis는 '급등 트리거' 분석을 발표.\n\n목표가 $187(+31%)\n\n1/4",
+      "hook": "PLTR $143 | 3일 연속 하락, 50일/200일선 모두 아래",
+      "text": "$PLTR $143.06(-3%)\n\n3일 연속 하락. 50일선($149), 200일선($169) 모두 아래. Golden Dome 급등분 완전 반납 이상.\n\nTrefis: '50%+ 급등 촉매 쌓이는 중'\n컨센서스 $199(+39%)\n\n1/4",
       "thread": [
-        "Trefis: 2020, 2024년처럼 50%+ 급등이 올 수 있다.\n조건: Golden Dome, Maven, 상업 +137% 성장.\n\n체코 중앙은행도 매수. Bain 파트너십 확대.\n펀더멘털은 계속 강해진다\n\n2/4",
-        "문제는 가격표다.\nP/E 227x, P/S 76x, PEG 2.36.\n17 Buy, 14 Hold, 5 Sell.\nSeeking Alpha: '내러티브 붕괴.'\n\n시장 패닉(다우 조정, VIX 31)까지 겹쳤다\n\n3/4",
-        "고점 대비 -31%. 목표가 $187(+31%).\n급등도 가능하지만 추가 하락도 열려있다.\n\nHold. 소액 분할매수만. 5/4 실적이 판가름\n\n4/4"
+        "펀더멘털은 역대 최강:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 채택\n- 체코 중앙은행 매수\n- Bain 파트너십 확대\n- FY2026 +65% 가이던스\n\n호재가 쌓이는데 주가가 빠진다\n\n2/4",
+        "밸류에이션이 발목:\nP/E 227x (IT평균 34x의 6.7배)\nP/S 76x (소프트웨어 평균의 5배)\n17 Buy, 14 Hold, 5 Sell\n\n성장은 확실한데 비싸다는 논쟁\n\n3/4",
+        "52주 고점 대비 -31%.\n$126 지지선까지 열려 있다.\n\nHold. 소액 분할매수만 유효.\n펀더멘털 방향은 확실, 가격 정상화를 기다려야\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR: 50일선 이탈했지만 Trefis가 '급등 가능성'을 분석했다",
-      "text": "$PLTR $143.06(-3.05%), 시총 $342.2B\n\n50일선($149)마저 이탈. Golden Dome 급등을 3일 만에 전부 반납하고 추가 하락. 다우 조정 진입일에 동반 하락.\n\n하지만 Trefis가 과거 50%+ 급등 패턴과 비교하며 '급등 트리거'를 분석했다. Golden Dome, Maven, 상업 +137% 성장이 조건.\n\nP/E 227x, 17 Buy, 14 Hold, 5 Sell. 밸류에이션 논쟁은 끝나지 않는다.\n\n목표가 $187(+31%). Hold. 소액 분할매수만 유효."
+      "hook": "PLTR: 3일 연속 하락인데 Trefis는 '50%+ 급등 촉매 쌓이는 중'이라고 한다",
+      "text": "$PLTR $143.06(-3%)\n\n3일 연속 하락으로 50일선($149)과 200일선($169) 모두 아래. Golden Dome 급등분을 완전히 반납했다.\n\n하지만 Trefis는 과거 50%+ 급등 패턴과 현재 촉매(Golden Dome, Maven, 상업 +137%)가 유사하다고 분석했다. 체코 중앙은행도 매수, Bain 파트너십도 확대.\n\nP/E 227x(IT 평균 34x의 6.7배)가 부담이지만 컨센서스 $199(+39%).\n\n고점 대비 -31%. Hold, 소액 분할매수만."
     },
     "telegram": {
       "hook": "PLTR 일일 분석 (3/28)",
-      "text": "Palantir $143.06 (-3.05%) | 시총 $342.2B\nP/E 227x | Forward 108x | PEG 2.36 | RSI 42.85\n\n핵심 변화\n- 50일선($149) 이탈 (200일선 $164도 이미 아래)\n- Golden Dome +6.8% 3일 만에 반납 + 추가 하락\n- 다우 조정 진입, VIX 31\n\n호재\n- Trefis: '급등 트리거' 분석 (50%+ 가능)\n- Golden Dome $185B, Maven 정식 채택\n- 체코 중앙은행 매수, Bain 파트너십\n\n기술적: 50일/200일선 모두 아래\n애널리스트: 17 Buy, 14 Hold, 5 Sell\n\n판단: Hold. 소액 분할매수만 유효"
+      "text": "Palantir $143.06 (-3%) | 시총 $342B\nP/E 227x | Forward 108x | P/S 76x | RSI 45\n\n핵심 변화\n- 3일 연속 하락, 50일/200일선 모두 아래\n- Golden Dome 급등분 완전 반납\n- Trefis: 50%+ 급등 촉매 쌓이는 중\n\n호재\n- Golden Dome $185B + Maven 정식 채택\n- 체코 중앙은행 매수 + Bain 파트너십\n- Rosenblatt $200 Buy, 컨센서스 $199\n\n기술적: 50일($149), 200일($169) 아래\n애널리스트: 17 Buy, 14 Hold, 5 Sell\n\n판단: Hold. 소액 분할매수만 유효"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR $143 | 50일선 이탈, 그래도 Trefis는 '급등 가능' 분석",
-          "text": "$PLTR $143.06(-3.05%)\n\n50일선($149)마저 이탈. Golden Dome +6.8%를 3일 만에 전부 반납. 하지만 Trefis는 '급등 트리거' 분석을 발표.\n\n목표가 $187(+31%)\n\n1/4",
+          "hook": "PLTR $143 | 3일 연속 하락, 50일/200일선 모두 아래",
+          "text": "$PLTR $143.06(-3%)\n\n3일 연속 하락. 50일선($149), 200일선($169) 모두 아래. Golden Dome 급등분 완전 반납 이상.\n\nTrefis: '50%+ 급등 촉매 쌓이는 중'\n컨센서스 $199(+39%)\n\n1/4",
           "thread": [
-            "Trefis: 2020, 2024년처럼 50%+ 급등이 올 수 있다.\n조건: Golden Dome, Maven, 상업 +137% 성장.\n\n체코 중앙은행도 매수. Bain 파트너십 확대.\n펀더멘털은 계속 강해진다\n\n2/4",
-            "문제는 가격표다.\nP/E 227x, P/S 76x, PEG 2.36.\n17 Buy, 14 Hold, 5 Sell.\nSeeking Alpha: '내러티브 붕괴.'\n\n시장 패닉(다우 조정, VIX 31)까지 겹쳤다\n\n3/4",
-            "고점 대비 -31%. 목표가 $187(+31%).\n급등도 가능하지만 추가 하락도 열려있다.\n\nHold. 소액 분할매수만. 5/4 실적이 판가름\n\n4/4"
+            "펀더멘털은 역대 최강:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 채택\n- 체코 중앙은행 매수\n- Bain 파트너십 확대\n- FY2026 +65% 가이던스\n\n호재가 쌓이는데 주가가 빠진다\n\n2/4",
+            "밸류에이션이 발목:\nP/E 227x (IT평균 34x의 6.7배)\nP/S 76x (소프트웨어 평균의 5배)\n17 Buy, 14 Hold, 5 Sell\n\n성장은 확실한데 비싸다는 논쟁\n\n3/4",
+            "52주 고점 대비 -31%.\n$126 지지선까지 열려 있다.\n\nHold. 소액 분할매수만 유효.\n펀더멘털 방향은 확실, 가격 정상화를 기다려야\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Golden Dome에 뽑혔는데 주가는 3일 만에 원점. PLTR의 운명",
-          "text": "$PLTR $143.06(-3.05%)\n\n월요일: '$185B 방어 선정! +6.8%!'\n목요일: '50일선 이탈, -3%!'\nTrefis: '급등할 수 있어요.'\n\nPalantir는 항상 드라마가 있다\n\n1/4",
+          "hook": "호재를 50개 쌓아도 P/E 227배 앞에선 무력한 PLTR",
+          "text": "$PLTR $143.06(-3%)\n\nGolden Dome, Maven, 체코 중앙은행, Bain.\n호재를 계속 쌓는데 주가는 3일 연속 하락.\n\nP/E 227배: '아무리 좋아도 비싸면 안 사'\n시장의 냉정한 한마디\n\n1/4",
           "thread": [
-            "P/E 227배. 이 회사는 비싸다고 비싸다고 해도 계속 성장한다.\n상업 +137%, 매출 +65% 가이던스.\n\nSeeking Alpha는 '내러티브 붕괴'라는데 숫자가 붕괴는 아닌데\n\n2/4",
-            "다우 조정, VIX 31. 시장이 패닉이다.\n전쟁 소프트웨어 만드는 회사가 전쟁에 빠진다.\n\n아이러니는 계속된다\n\n3/4",
-            "고점에서 -31%. Trefis는 50%+ 급등 가능.\n문제는 -31%에서 더 빠질 수도 있다는 거다.\n\nHold. 확신 있으면 소액만\n\n4/4"
+            "Trefis: '50%+ 급등 촉매가 쌓이고 있다'\n\n촉매는 쌓이는데 불은 안 붙는다.\n성냥이 비싼 건지 나무가 젖은 건지.\n\n2/4",
+            "52주 고점 대비 -31%.\n50일선 아래, 200일선 아래.\n\n'저평가'라고 하기엔 P/E 227배.\n'고평가'라고 하기엔 +65% 성장.\n\n결론: 아무도 모른다\n\n3/4",
+            "컨센서스 $199(+39%).\n현실: 3일 연속 하락 중.\n\nHold. 확신이 있으면 소액만.\n없으면 구경이 답이다\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR 홀더들, Golden Dome의 기쁨이 사라져서 속상하시죠",
-          "text": "$PLTR $143.06(-3.05%)\n\nGolden Dome으로 반가웠는데 3일 만에 전부 반납이에요. 50일선도 깨졌고요. 고점에서 -31%. 마음이 안 좋으시죠.\n\n1/4",
+          "hook": "PLTR 홀더들, 3일 연속 하락에 지치셨죠",
+          "text": "$PLTR $143.06(-3%)\n\n3일 연속 하락. Golden Dome의 기쁨이 완전히 사라졌죠. 고점에서 -31%. 속상하실 거예요.\n\n그래도 촉매는 계속 쌓이고 있어요\n\n1/4",
           "thread": [
-            "하지만 Trefis가 '급등 트리거'를 분석할 만큼 펀더멘털은 진짜예요.\n2020, 2024년처럼 50%+ 급등이 올 수 있대요.\n\nGolden Dome, Maven, 상업 성장은 사라지지 않아요\n\n2/4",
-            "지금은 시장 전체가 패닉이에요.\n다우 조정, VIX 31. 좋은 주식도 같이 빠지는 시기예요.\n\n이건 Palantir 문제가 아니에요\n\n3/4",
-            "목표가 $187(+31%). 소액으로 천천히.\n무리한 추매 말고요.\n\n5/4 실적까지 기다리면 답이 나올 거예요\n\n4/4"
+            "Golden Dome $185B, Maven 정식 채택.\n체코 중앙은행까지 매수했어요.\nBain 파트너십, FY2026 +65%.\n\n회사는 계속 좋아지고 있어요.\n시장이 힘든 시기일 뿐\n\n2/4",
+            "Trefis는 50%+ 급등 촉매가 쌓이고 있다고 했어요.\n과거 대규모 반등 패턴과 비슷하대요.\n\n지금이 힘들어도 긴 호흡이 필요해요\n\n3/4",
+            "컨센서스 $199(+39%).\n무리한 추매는 말고 소액으로 천천히.\n\n펀더멘털 방향은 확실하니까.\n장기 투자자에게는 기회일 수 있어요\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR: 50일선 이탈했지만 Trefis가 '급등 가능성'을 분석했다",
-          "text": "$PLTR $143.06(-3.05%), 시총 $342.2B\n\n50일선($149)마저 이탈. Golden Dome 급등을 3일 만에 전부 반납하고 추가 하락. 다우 조정 진입일에 동반 하락.\n\n하지만 Trefis가 과거 50%+ 급등 패턴과 비교하며 '급등 트리거'를 분석했다. Golden Dome, Maven, 상업 +137% 성장이 조건.\n\nP/E 227x, 17 Buy, 14 Hold, 5 Sell. 밸류에이션 논쟁은 끝나지 않는다.\n\n목표가 $187(+31%). Hold. 소액 분할매수만 유효."
+          "hook": "PLTR: 3일 연속 하락인데 Trefis는 '50%+ 급등 촉매 쌓이는 중'이라고 한다",
+          "text": "$PLTR $143.06(-3%)\n\n3일 연속 하락으로 50일선($149)과 200일선($169) 모두 아래. Golden Dome 급등분을 완전히 반납했다.\n\n하지만 Trefis는 과거 50%+ 급등 패턴과 현재 촉매(Golden Dome, Maven, 상업 +137%)가 유사하다고 분석했다. 체코 중앙은행도 매수, Bain 파트너십도 확대.\n\nP/E 227x(IT 평균 34x의 6.7배)가 부담이지만 컨센서스 $199(+39%).\n\n고점 대비 -31%. Hold, 소액 분할매수만."
         },
         "witty": {
-          "hook": "Golden Dome 급등 3일 만에 반납, 하지만 Trefis는 '더 큰 급등이 올 수 있다'",
-          "text": "$PLTR $143.06(-3.05%)\n\nGolden Dome +6.8%를 3일 만에 토해냈다. 50일선도 깨졌다. P/E 227배에 Seeking Alpha는 '내러티브 붕괴'라고 한다.\n\n근데 Trefis는 '50%+ 급등 트리거'를 분석하고 있다. 2020, 2024년 패턴이 반복될 수 있다고. 매출 +65%, Maven 정식 채택, 체코 중앙은행까지 사는 회사가 '붕괴'인가?\n\n다우 조정, VIX 31. 시장이 드라마를 만들고 있다.\n\n목표가 $187(+31%). Hold. 급등이든 급락이든 결국 숫자가 답한다."
+          "hook": "Golden Dome, Maven, 중앙은행 매수. 이 정도 호재면 올라야 하는 거 아닌가? PLTR의 아이러니",
+          "text": "$PLTR $143.06(-3%)\n\nGolden Dome $185B, Maven 정식 채택, 체코 중앙은행 매수, Bain 파트너십, FY2026 +65%. 이 정도면 올라야 하는 거 아닌가?\n\n시장: 'P/E 227배인데요.' 한마디로 정리된다.\n\nTrefis는 50%+ 급등 촉매가 쌓이고 있다고 하고, 현실은 3일 연속 하락. 촉매는 쌓이는데 불이 안 붙는 주식.\n\n컨센서스 $199(+39%). 고점 -31%. Hold, 소액만."
         },
         "empathy": {
-          "hook": "PLTR 주주 여러분, Golden Dome 반납에 50일선 이탈까지 힘드시죠",
-          "text": "$PLTR $143.06(-3.05%), 고점 대비 -31%.\n\nGolden Dome으로 월요일 반가웠는데 3일 만에 전부 반납. 50일선도 깨졌어요. 정말 속상하시죠.\n\n하지만 Trefis가 '급등 가능성'을 분석할 만큼 펀더멘털은 건재해요. Golden Dome $185B, Maven, 상업 +137%. 이건 진짜예요.\n\n지금은 다우 조정, VIX 31, 시장 전체가 패닉이에요. Palantir만의 문제가 아니에요.\n\n소액 분할매수로 천천히. 5/4 실적이 답을 줄 거예요. 조급하지 마세요."
+          "hook": "PLTR 주주 여러분, 3일 연속 하락에 지치셨을 거예요. 하지만 펀더멘털은 계속 강해지고 있어요",
+          "text": "$PLTR $143.06(-3%), 고점 대비 -31%.\n\n3일 연속 하락이라 정말 힘드시죠. Golden Dome 소식에 반가웠는데 급등분이 다 사라져서 속상하실 거예요.\n\n하지만 회사는 계속 좋아지고 있어요. Golden Dome $185B, Maven 정식 채택, 체코 중앙은행 매수, Bain 파트너십. Trefis도 50%+ 급등 촉매가 쌓이는 중이라고 했어요.\n\n지금 시장이 기술주 전반을 내리누르는 중이에요. 컨센서스 $199(+39%).\n\n소액 분할매수로 천천히. 장기가 답이에요."
         }
       }
     }

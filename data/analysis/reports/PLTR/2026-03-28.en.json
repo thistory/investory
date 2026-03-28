@@ -3,150 +3,319 @@
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-28",
   "currentPrice": 143.06,
-  "marketCap": "$342.2B",
+  "marketCap": "$342B",
   "businessSummary": {
-    "oneLiner": "Leading AI data analytics platform for government and enterprise, built on Gotham (defense), Foundry (enterprise), and AIP (AI Platform)",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue $4.48B (+60%). US commercial revenue surpassed $650M (Q4 +137% YoY). Pentagon adopted Maven AI as official program of record for military-wide deployment. Selected as software developer for $185B Golden Dome missile defense. FY2026 guidance: $7.19B-$7.41B (+60-65%).",
-    "howTheyMakeMoney": ["Government contracts (Gotham) - defense/intelligence AI", "Enterprise AI platform (Foundry)", "AIP (AI Platform) - generative AI integration", "AIP Bootcamps - rapid customer conversion"],
+    "oneLiner": "Government and enterprise AI data analytics platform leader, built on three pillars: Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI-powered data analytics platforms for government and enterprise clients. FY2025 revenue $4.48B (+60%). US commercial revenue topped $650M (Q4 +137% YoY). The Pentagon officially adopted Maven AI as a program of record, expanding it across all military branches. Selected as software developer for the $185B Golden Dome missile defense project. FY2026 guidance of $7.19B-$7.41B (+60-65%) signals accelerating growth.",
+    "howTheyMakeMoney": [
+      "Government contracts (Gotham) - defense/intelligence AI analytics",
+      "Enterprise AI platform (Foundry) - large enterprise data integration",
+      "AIP (AI Platform) - generative AI integration platform",
+      "AIP Bootcamps - short-term adoption programs driving customer conversion"
+    ],
     "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "Sovereign AI Data Center OS", "Ontology"]
   },
   "keyMetrics": [
-    {"name": "Trailing P/E", "value": "227x", "interpretation": "6.7x the S&P 500 IT sector avg of 34x. Down from 234x on price decline but still extreme premium"},
-    {"name": "Forward P/E (FY2026E)", "value": "108x", "interpretation": "Based on FY2026 EPS $1.32. Down from 112x"},
-    {"name": "Revenue Growth (FY2026E)", "value": "+65.4% YoY", "interpretation": "From $4.48B to $7.40B. Growth accelerating"},
-    {"name": "P/S Ratio", "value": "76.45x", "interpretation": "5-8x premium vs software avg 10-15x. PEG 2.36 still indicates overvaluation relative to growth"},
-    {"name": "50-Day SMA", "value": "$148.97", "interpretation": "Broke below 50-day SMA. Now below both 50-day ($149) and 200-day ($164)"},
-    {"name": "Trefis 'Soaring' Analysis", "value": "Published 3/27", "interpretation": "Trefis analyzed conditions that could trigger 50%+ rallies similar to 2020 and 2024"}
+    {
+      "name": "Trailing P/E",
+      "value": "227x",
+      "interpretation": "6.7x the S&P 500 IT sector average of 34x. Extreme premium, though gradually compressing as the stock pulls back"
+    },
+    {
+      "name": "Forward P/E (FY2026E)",
+      "value": "108x",
+      "interpretation": "Based on FY2026 EPS est. of $1.32. Down from 112x yesterday. Still 3x the growth stock average of 30-40x"
+    },
+    {
+      "name": "Revenue Growth (FY2026E)",
+      "value": "+65.4% YoY",
+      "interpretation": "From FY2025 $4.48B to FY2026E $7.40B. Growth accelerating on AI defense demand"
+    },
+    {
+      "name": "P/S (Price-to-Sales)",
+      "value": "76x",
+      "interpretation": "5-7x the software sector average of 10-15x. Still in overvaluation territory relative to growth"
+    },
+    {
+      "name": "Market Cap",
+      "value": "$342B",
+      "interpretation": "Down -31% from 52-week high of $207. Three consecutive days of decline, fully erasing the Golden Dome rally"
+    },
+    {
+      "name": "RSI",
+      "value": "45",
+      "interpretation": "Neutral zone. Room before oversold (below 30) but bounce momentum is weak in the current downtrend"
+    }
   ],
   "growthDrivers": [
-    {"title": "Trefis: 'What Could Send PLTR Soaring' (3/27)", "description": "Analyzed past 50%+ rally patterns and identified current triggers. Compared to 2020 and 2024 explosive rallies"},
-    {"title": "Golden Dome $185B Missile Defense Software (3/25)", "description": "Selected with Anduril to develop software for Trump administration's $185B Golden Dome missile defense system"},
-    {"title": "Czech National Bank Buys PLTR (3/26)", "description": "Central bank purchased 24,730 shares. A central bank buying an AI defense stock is a powerful institutional confidence signal"},
-    {"title": "Bain & Company Global Partnership (3/26)", "description": "Expanded partnership with Bain to accelerate global AIP and Foundry adoption through consulting channels"},
-    {"title": "Maven AI Military-Wide Adoption (3/20)", "description": "Pentagon designated Maven Smart System as official program of record for all branches"},
-    {"title": "FY2026 Revenue Guidance $7.19B-$7.41B (+60-65%)", "description": "Management confident in growth acceleration. US commercial segment as core growth engine"}
+    {
+      "title": "Trefis: Analysis of 50%+ Rally Triggers (3/27)",
+      "description": "Trefis analyzed past PLTR 50%+ rally patterns, finding current catalysts (Golden Dome, Maven, commercial growth) align with historical surge triggers"
+    },
+    {
+      "title": "Golden Dome $185B Missile Defense Software Selection (3/25)",
+      "description": "Palantir and Anduril selected to co-develop software for Trump admin's $185B Golden Dome missile defense system. Major long-term defense revenue pipeline"
+    },
+    {
+      "title": "Czech National Bank Buys PLTR Shares (3/26)",
+      "description": "Czech National Bank purchased 24,730 shares. A central bank buying an AI defense stock is a strong institutional confidence signal"
+    },
+    {
+      "title": "Bain & Company Global Partnership Expansion (3/26)",
+      "description": "Expanded partnership with Bain to accelerate global AIP and Foundry adoption through consulting channels"
+    },
+    {
+      "title": "Maven AI Official Program of Record (3/23)",
+      "description": "Pentagon designated Maven Smart System as an official program of record, deploying it across all military branches long-term"
+    },
+    {
+      "title": "FY2026 Revenue Guidance $7.19B-$7.41B (+60-65%)",
+      "description": "Management confident in accelerating growth. US commercial segment (+137% YoY) is the primary growth engine"
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "20+ years of government defense AI track record, highest security clearances, Maven military adoption, Iran war combat verification. Moats money can't buy",
+    "summary": "20+ years of government defense AI track record with top-tier security clearances, Maven officially adopted by the US military, and battlefield-tested in the Iran conflict. A moat that money cannot buy",
     "moats": [
-      {"type": "Switching Cost", "description": "Ontology platform deeply integrated into government/military systems. Replacement costs prohibitively high"},
-      {"type": "Security Clearance Barrier", "description": "Highest-level clearances and 20+ year government trust. Virtually impossible for new entrants to replicate"},
-      {"type": "Network Effect", "description": "AIP Bootcamps drive rapid customer acquisition. Ontology ecosystem expanding"},
-      {"type": "Combat Verification", "description": "Thousands of real-time strikes in Iran conflict. Combat data is competitive advantage"}
+      {"type": "Switching Cost", "description": "Ontology platform deeply integrated into government/military systems. Once deployed, replacement cost is extremely high"},
+      {"type": "Security Clearance Barrier", "description": "Top-tier security clearances and 20+ years of government trust. Virtually impossible for new entrants to achieve the same level"},
+      {"type": "Network Effect", "description": "Rapid customer acquisition through AIP Bootcamps and expanding Ontology data model ecosystem"},
+      {"type": "Battlefield Validation", "description": "Used in real-time for thousands of strikes in the Iran conflict. Real combat data is the ultimate competitive advantage"}
     ],
     "competitors": [
-      {"name": "Anduril Industries", "detail": "Defense AI/drone startup. Collaborating with Palantir on Golden Dome. $60B valuation"},
-      {"name": "Snowflake / Databricks", "detail": "Enterprise data platform competitors. Far behind in government/defense access"},
-      {"name": "Microsoft / AWS", "detail": "Cloud giants entering government AI. Scale but lack Palantir's deep Ontology integration"},
-      {"name": "C3.ai", "detail": "Enterprise AI platform. Significantly behind in revenue scale and growth rate"}
+      {"name": "Anduril Industries", "detail": "Defense AI/drone startup. Partnership with Palantir on Golden Dome. $60B valuation"},
+      {"name": "Snowflake / Databricks", "detail": "Enterprise data platform competitors. Significantly behind Palantir in government/defense access"},
+      {"name": "Microsoft / AWS", "detail": "Cloud giants entering government AI. Scale is large but lack Palantir's deep Ontology platform integration"},
+      {"name": "C3.ai", "detail": "Enterprise AI platform. Trails Palantir significantly in both revenue scale and growth rate"}
     ]
   },
   "recentNews": [
-    {"date": "2026-03-27", "headline": "PLTR -3.05% to $143.06, Breaks Below 50-Day SMA", "significance": "Dow -793pts correction day selloff. Broke below 50-day ($149) SMA. Now below both key moving averages. Golden Dome +6.8% fully reversed in 3 days plus further decline", "url": "https://stockanalysis.com/stocks/pltr/statistics/"},
-    {"date": "2026-03-27", "headline": "Trefis: 'What Could Send Palantir Stock Soaring'", "significance": "Analyzed past 50%+ rally patterns. Defense AI expansion and commercial acceleration as key triggers", "url": "https://www.trefis.com/stock/pltr/articles2/595016/what-could-send-palantir-technologies-stock-soaring/2026-03-27"},
-    {"date": "2026-03-27", "headline": "24/7 Wall St: 'Palantir 2030 Price Prediction'", "significance": "Projects 10.65% total return over next 12 months with 90% confidence. Called 2026 'turbulent'", "url": "https://247wallst.com/investing/2026/03/27/palantir-price-prediction-where-will-the-ai-stock-be-in-2030/"},
-    {"date": "2026-03-26", "headline": "Seeking Alpha: 'Palantir's Old Narrative Is Falling Apart'", "significance": "Sell opinion citing overvaluation and competition. Narrative shift debate intensifying", "url": "https://seekingalpha.com/article/4886149-palantir-old-narrative-is-falling-apart"},
-    {"date": "2026-03-25", "headline": "Golden Dome $185B Missile Defense Selection, +6.8% Surge", "significance": "Selected for $185B space-based missile defense system. Gains fully reversed within 3 days", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"}
+    {
+      "date": "2026-03-27",
+      "headline": "PLTR down 3% to $143.06, broader tech selloff continues",
+      "significance": "Third consecutive day of decline. Trading below both 50-day SMA ($148.62) and 200-day SMA ($168.58). Golden Dome rally fully erased",
+      "url": "https://stockanalysis.com/stocks/pltr/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "Trefis: 'What could send Palantir stock soaring' - 50%+ rally analysis",
+      "significance": "Analysis finds current catalysts mirror patterns that triggered past 50%+ rallies in PLTR stock",
+      "url": "https://www.trefis.com/stock/pltr/articles/567341/what-could-send-palantir-stock-soaring/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "24/7 Wall St price target $171.26 (+20% upside)",
+      "significance": "Conservative price target suggesting meaningful upside from current levels",
+      "url": "https://247wallst.com/investing/2026/03/27/palantir-pltr-price-target/"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "Czech National Bank buys 24,730 PLTR shares",
+      "significance": "Central bank buying an AI defense stock signals strong institutional confidence",
+      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "Bain & Company global partnership expansion",
+      "significance": "Accelerating global AIP/Foundry adoption through top consulting firm's client network",
+      "url": "https://www.prnewswire.com/news-releases/palantir-and-bain-company-expand-global-partnership.html"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Rosenblatt maintains Buy rating, $200 target",
+      "significance": "One of the most bullish Wall Street calls. Implies +40% upside from current levels",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Golden Dome $185B missile defense software selection",
+      "significance": "Selected with Anduril for Trump admin's $185B space-based missile defense system software",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"
+    }
   ],
   "analystOpinions": {
-    "consensusTarget": 187,
+    "consensusTarget": 198.59,
     "highTarget": 260,
     "lowTarget": 50,
-    "upsidePercent": 30.7,
+    "upsidePercent": 38.8,
     "buyCount": 17,
     "holdCount": 14,
     "sellCount": 5,
-    "notableComment": "Consensus $186.60. Upside expanded from 27% to 30.7%. Analyst opinion deeply divided: 17 Buy, 14 Hold, 5 Sell. Valuation debate is the core issue"
+    "notableComment": "MarketBeat consensus $198.59 (+39%). Rosenblatt $200 Buy maintained. 24/7 Wall St $171.26 (+20%). Despite valuation debate, majority of analysts see upside"
   },
   "risks": [
-    {"severity": "critical", "title": "Extreme Valuation + 'Narrative Collapse' Debate", "description": "P/E 227x, P/S 76x, PEG 2.36. Seeking Alpha argues narrative is breaking down. Growth premium justification under fire"},
-    {"severity": "high", "title": "Below Both Key SMAs, Technical Weakness", "description": "Broke 50-day ($149) and 200-day ($164). Golden Dome gains reversed in 3 days. Selling momentum dominant"},
-    {"severity": "high", "title": "Market Panic, Dow in Correction", "description": "Dow -793pts. VIX 31.05. High-valuation growth stocks hit hardest in this environment"},
-    {"severity": "medium", "title": "Analyst Opinion Deeply Divided", "description": "17 Buy, 14 Hold, 5 Sell. Valuation debate unresolved"},
-    {"severity": "medium", "title": "Stock-Based Compensation Dilution", "description": "Share count increased 4.67% in one year. Ongoing SBC dilutes existing shareholders"}
+    {
+      "severity": "critical",
+      "title": "Extreme valuation premium",
+      "description": "P/E 227x (6.7x the S&P 500 IT avg of 34x), P/S 76x (5-7x software avg). Forward PE 108x is 3x growth stock averages. Expectations already heavily priced in"
+    },
+    {
+      "severity": "high",
+      "title": "Below both 50-day and 200-day SMAs",
+      "description": "Trading below 50-day ($148.62) and 200-day ($168.58) moving averages. Three consecutive declines with downward momentum. $126 support level exposed"
+    },
+    {
+      "severity": "high",
+      "title": "Macro-driven tech selloff risk",
+      "description": "Down 5% on 3/24 and 3% on 3/27 from broad tech selling. Rate environment and geopolitical uncertainty weigh on high-valuation tech stocks"
+    },
+    {
+      "severity": "medium",
+      "title": "Analyst opinion split",
+      "description": "17 Buy, 14 Hold, 5 Sell. Sustained market skepticism about valuation sustainability"
+    },
+    {
+      "severity": "medium",
+      "title": "Stock-based compensation dilution",
+      "description": "Share count increased 4.67% YoY. Ongoing SBC creates shareholder value dilution concerns"
+    }
   ],
   "buyReasons": [
-    {"title": "Trefis 'Soaring' Analysis: 50%+ Rally Possible", "rationale": "Historical patterns from 2020 and 2024 could repeat. Defense + commercial acceleration as conditions"},
-    {"title": "Irreplaceable Defense AI Position", "rationale": "Golden Dome $185B + Maven adoption + Iran combat verification + Czech central bank buying. Unmatched moat"},
-    {"title": "31% Below All-Time High", "rationale": "52-week high $207 to current $143. Fundamentals strengthened by Golden Dome, Maven, Bain"},
-    {"title": "ROE 25.98%, Financial Strength", "rationale": "Debt/equity 0.03, cash $7.18B, FCF $2.1B. Rock-solid balance sheet"}
+    {
+      "title": "Irreplaceable defense AI position + long-term pipeline",
+      "rationale": "Golden Dome $185B + Maven program of record + Iran battlefield validation. Czech central bank buying. Unmatched position in defense AI"
+    },
+    {
+      "title": "Explosive commercial growth + partner expansion",
+      "rationale": "US commercial revenue Q4 +137%. Bain & Company partnership accelerating global AIP adoption. FY2026 +65% guidance"
+    },
+    {
+      "title": "-31% discount from 52-week high",
+      "rationale": "Down -31% from $207 high while fundamentals strengthened with Golden Dome and Maven. Price vs fundamentals divergence"
+    },
+    {
+      "title": "Trefis 50%+ rally catalyst analysis",
+      "rationale": "Historical major rally patterns align with current catalysts (Golden Dome, Maven, commercial growth). Significant upside potential when sentiment shifts"
+    }
   ],
   "technicalPosition": {
     "week52High": 207.52,
     "week52Low": 66.12,
     "currentPositionPercent": 54.4,
-    "sma50": 148.97,
+    "sma50": 148.62,
     "sma50Signal": "below",
-    "sma200": 164.02,
+    "sma200": 168.58,
     "sma200Signal": "below",
-    "rsi": 42.85,
+    "rsi": 45,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Broke below the 50-day SMA ($149). Golden Dome's +6.8% surge was fully reversed in 3 days plus further decline. Market-wide indiscriminate selling on Dow correction",
-    "Trefis published a 'what could send PLTR soaring' analysis, comparing current conditions to 2020 and 2024 when 50%+ rallies occurred. Golden Dome, Maven, and commercial +137% growth are the triggers",
-    "The core problem remains valuation. P/E 227x, P/S 76x, analysts split 17 Buy vs 14 Hold vs 5 Sell. Seeking Alpha's 'narrative collapse' debate continues",
-    "Closed at $143.06. 31% below ATH. Target $187 (+31%). Fundamentals are clear but valuation is expensive and market panic persists. Small position dollar-cost averaging only"
+    "PLTR at $143.06 (-3%), third consecutive day of decline. Trading below both the 50-day ($149) and 200-day ($169) SMAs. The Golden Dome rally has been fully erased by the broad tech selloff",
+    "Fundamentals are the strongest they have ever been. Golden Dome $185B, Maven program of record, Czech central bank buying, Bain partnership. Trefis notes current catalysts mirror past 50%+ rally triggers",
+    "Valuation remains the key headwind. P/E 227x (6.7x IT sector avg of 34x), P/S 76x. Analysts split 17 Buy, 14 Hold, 5 Sell. Macro weakness continues to pressure high-multiple tech",
+    "Consensus target $199 (+39%). Near-term downside to $126 support is open, but long-term growth trajectory is clear. Hold with small position building only. Wait for valuation normalization before aggressive buying"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Fundamentals are strong enough for Trefis to analyze rally potential, but P/E 227x with market panic and 50-day SMA breach make aggressive buying risky. Small position DCA possible, but wait for valuation compression or earnings confirmation",
+    "summary": "Fundamentals are at all-time strength with Golden Dome, Maven, and +137% commercial growth, but P/E 227x with both 50/200-day SMAs broken and three straight days of decline. Growth direction is certain but near-term selling pressure is real. Small position building is fine, but wait for valuation to compress before aggressive buying",
     "horizon": "6-12 months"
   },
   "sources": [
-    {"name": "StockAnalysis - PLTR $143.06", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "P/E 227.08, Forward PE 108.21, PEG 2.36, RSI 42.85"},
-    {"name": "Trefis - Soaring Analysis", "url": "https://www.trefis.com/stock/pltr/articles2/595016/what-could-send-palantir-technologies-stock-soaring/2026-03-27", "description": "50%+ rally pattern analysis and current triggers"},
-    {"name": "24/7 Wall St - 2030 Prediction", "url": "https://247wallst.com/investing/2026/03/27/palantir-price-prediction-where-will-the-ai-stock-be-in-2030/", "description": "12-month 10.65% return, 90% confidence"},
-    {"name": "Seeking Alpha - Narrative Collapse", "url": "https://seekingalpha.com/article/4886149-palantir-old-narrative-is-falling-apart", "description": "Sell opinion on narrative breakdown"},
-    {"name": "Reuters - Golden Dome", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/", "description": "$185B Golden Dome missile defense selection"},
-    {"name": "Yahoo Finance - Market Selloff", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html", "description": "Dow -793pts, Nasdaq -2.15%, VIX 31.05"},
-    {"name": "Simply Wall St - PLTR Target", "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/palantirs-golden-dome-role-reshapes-defense-exposure-and-val", "description": "Consensus $186.60"},
-    {"name": "American Banking News - Czech Bank", "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html", "description": "Czech National Bank 24,730 shares purchased"}
+    {
+      "name": "StockAnalysis - PLTR Statistics",
+      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
+      "description": "P/E 227x, Forward PE 108x, RSI 45, 50-day SMA $148.62, 200-day SMA $168.58"
+    },
+    {
+      "name": "Trefis - PLTR 50%+ Rally Trigger Analysis",
+      "url": "https://www.trefis.com/stock/pltr/articles/567341/what-could-send-palantir-stock-soaring/",
+      "description": "Historical rally pattern analysis comparing current catalysts"
+    },
+    {
+      "name": "MarketBeat - PLTR Consensus Target",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/",
+      "description": "Consensus $198.59, Rosenblatt $200 Buy"
+    },
+    {
+      "name": "24/7 Wall St - PLTR Price Target $171.26",
+      "url": "https://247wallst.com/investing/2026/03/27/palantir-pltr-price-target/",
+      "description": "Conservative target $171.26, +20% upside"
+    },
+    {
+      "name": "Reuters - Golden Dome Software",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/",
+      "description": "$185B Golden Dome missile defense software selection"
+    },
+    {
+      "name": "American Banking News - Czech National Bank",
+      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html",
+      "description": "Czech National Bank purchases 24,730 PLTR shares"
+    },
+    {
+      "name": "PRNewswire - Bain Partnership",
+      "url": "https://www.prnewswire.com/news-releases/palantir-and-bain-company-expand-global-partnership.html",
+      "description": "Bain & Company global AIP/Foundry partnership expansion"
+    },
+    {
+      "name": "Robinhood - PLTR Quote",
+      "url": "https://robinhood.com/us/en/stocks/PLTR/",
+      "description": "Market cap $342B, real-time quotes and key metrics"
+    },
+    {
+      "name": "Simply Wall St - PLTR Analysis",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/",
+      "description": "Valuation analysis and analyst consensus"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $143 | 50-day broken, but Trefis sees 'soaring' potential",
-      "text": "$PLTR $143.06(-3.05%)\n\n50-day SMA ($149) broken. Golden Dome +6.8% reversed in 3 days. But Trefis analyzed conditions for a 50%+ rally similar to 2020 and 2024.\n\nTarget $187 (+31%)\n\n1/4",
-      "thread": ["Trefis: 50%+ surge possible.\nGolden Dome $185B, Maven, commercial +137%.\nCzech central bank buying. Bain partnership.\n\nFundamentals keep strengthening\n\n2/4", "The problem is the price tag.\nP/E 227x. 17 Buy, 14 Hold, 5 Sell.\nSeeking Alpha: 'narrative collapse.'\n\nDow correction and VIX 31 on top\n\n3/4", "31% off ATH. Target $187 (+31%).\nCould surge or could drop further.\n\nHold. Small DCA only. May 4 earnings decides\n\n4/4"]
+      "hook": "PLTR $143 | 3rd straight decline, below both 50/200-day SMAs",
+      "text": "$PLTR $143.06 (-3%)\n\n3rd straight day down. Below 50-day ($149) and 200-day ($169). Golden Dome rally fully erased.\n\nTrefis: '50%+ rally catalysts building'\nConsensus $199 (+39%)\n\n1/4",
+      "thread": [
+        "Fundamentals are the strongest ever:\n- Golden Dome $185B software\n- Maven military program of record\n- Czech central bank buying\n- Bain partnership expansion\n- FY2026 +65% guidance\n\nCatalysts stacking while the stock drops\n\n2/4",
+        "Valuation is the anchor:\nP/E 227x (6.7x IT sector avg of 34x)\nP/S 76x (5x software avg)\n17 Buy, 14 Hold, 5 Sell\n\nGrowth is real. But so is the price tag\n\n3/4",
+        "Down -31% from 52-week high.\n$126 support exposed below.\n\nHold. Small positions only.\nGrowth trajectory is clear, wait for valuation to normalize\n\n4/4"
+      ]
     },
     "threads": {
-      "hook": "PLTR: 50-day SMA broken, but Trefis sees conditions for a 50%+ rally",
-      "text": "$PLTR $143.06(-3.05%), market cap $342.2B\n\n50-day SMA broken. Golden Dome gains reversed in 3 days plus further decline. Dow correction dragging everything down.\n\nBut Trefis analyzed past 50%+ rally patterns and sees current conditions as similar. Golden Dome, Maven, commercial +137% growth as triggers.\n\nP/E 227x, 17 Buy, 14 Hold, 5 Sell. Valuation debate unresolved.\n\nTarget $187 (+31%). Hold. Small position DCA only."
+      "hook": "PLTR: 3 straight days down, but Trefis says '50%+ rally catalysts are building'",
+      "text": "$PLTR $143.06 (-3%)\n\nThird consecutive decline pushes it below both the 50-day ($149) and 200-day ($169) SMAs. The Golden Dome rally is fully erased.\n\nBut Trefis analyzed past 50%+ rally patterns and finds current catalysts (Golden Dome, Maven, +137% commercial growth) align with historical surge triggers. Czech central bank buying, Bain partnership expanding.\n\nP/E 227x (6.7x IT sector avg of 34x) is the burden. Consensus $199 (+39%).\n\nDown -31% from highs. Hold, small positions only."
     },
     "telegram": {
       "hook": "PLTR Daily Analysis (3/28)",
-      "text": "Palantir $143.06 (-3.05%) | Mkt Cap $342.2B\nP/E 227x | Fwd 108x | PEG 2.36 | RSI 42.85\n\nKey Changes\n- 50-day SMA ($149) broken\n- Golden Dome +6.8% reversed in 3 days + more\n- Dow correction, VIX 31\n\nBullish\n- Trefis: 'soaring' trigger analysis (50%+ possible)\n- Golden Dome $185B, Maven adoption\n- Czech central bank buying, Bain partnership\n\nTechnical: Below both 50-day and 200-day\nAnalysts: 17 Buy, 14 Hold, 5 Sell\n\nVerdict: Hold. Small DCA only"
+      "text": "Palantir $143.06 (-3%) | Mkt Cap $342B\nP/E 227x | Fwd 108x | P/S 76x | RSI 45\n\nKey Changes\n- 3rd straight decline, below 50/200-day SMAs\n- Golden Dome rally fully erased\n- Trefis: 50%+ rally catalysts building\n\nBullish Catalysts\n- Golden Dome $185B + Maven program of record\n- Czech central bank buying + Bain partnership\n- Rosenblatt $200 Buy, consensus $199\n\nTechnical: Below 50-day ($149) and 200-day ($169)\nAnalysts: 17 Buy, 14 Hold, 5 Sell\n\nVerdict: Hold. Small position building only"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR $143 | 50-day broken, but Trefis sees 'soaring' potential",
-          "text": "$PLTR $143.06(-3.05%)\n\n50-day SMA ($149) broken. Golden Dome +6.8% reversed in 3 days. But Trefis analyzed conditions for a 50%+ rally similar to 2020 and 2024.\n\nTarget $187 (+31%)\n\n1/4",
-          "thread": ["Trefis: 50%+ surge possible.\nGolden Dome $185B, Maven, commercial +137%.\nCzech central bank buying. Bain partnership.\n\nFundamentals keep strengthening\n\n2/4", "The problem is the price tag.\nP/E 227x. 17 Buy, 14 Hold, 5 Sell.\nSeeking Alpha: 'narrative collapse.'\n\nDow correction and VIX 31 on top\n\n3/4", "31% off ATH. Target $187 (+31%).\nCould surge or could drop further.\n\nHold. Small DCA only. May 4 earnings decides\n\n4/4"]
+          "hook": "PLTR $143 | 3rd straight decline, below both 50/200-day SMAs",
+          "text": "$PLTR $143.06 (-3%)\n\n3rd straight day down. Below 50-day ($149) and 200-day ($169). Golden Dome rally fully erased.\n\nTrefis: '50%+ rally catalysts building'\nConsensus $199 (+39%)\n\n1/4",
+          "thread": [
+            "Fundamentals are the strongest ever:\n- Golden Dome $185B software\n- Maven military program of record\n- Czech central bank buying\n- Bain partnership expansion\n- FY2026 +65% guidance\n\nCatalysts stacking while the stock drops\n\n2/4",
+            "Valuation is the anchor:\nP/E 227x (6.7x IT sector avg of 34x)\nP/S 76x (5x software avg)\n17 Buy, 14 Hold, 5 Sell\n\nGrowth is real. But so is the price tag\n\n3/4",
+            "Down -31% from 52-week high.\n$126 support exposed below.\n\nHold. Small positions only.\nGrowth trajectory is clear, wait for valuation to normalize\n\n4/4"
+          ]
         },
         "witty": {
-          "hook": "Selected for $185B missile defense, stock gives it all back in 3 days. Classic PLTR",
-          "text": "$PLTR $143.06(-3.05%)\n\nMonday: '$185B Golden Dome! +6.8%!'\nThursday: 'Dow correction! 50-day broken!'\nTrefis: 'Could soar 50%+ though.'\n\nPalantir is never boring\n\n1/4",
-          "thread": ["P/E 227x. Expensive? Yes. Growing? Also yes.\nCommercial +137%, Maven adopted, Czech central bank buying.\n\nSeeking Alpha says 'narrative collapse' but the numbers aren't collapsing\n\n2/4", "Dow in correction. VIX 31.\nA missile defense software company falling on war fears.\n\nThe irony writes itself\n\n3/4", "31% off ATH. Trefis sees 50%+ upside.\nBut it could also drop further.\n\nHold. Conviction? Small position. No conviction? Watch\n\n4/4"]
+          "hook": "PLTR: Stack 50 catalysts, P/E 227x says 'still no'",
+          "text": "$PLTR $143.06 (-3%)\n\nGolden Dome. Maven. Czech central bank. Bain.\nCatalysts keep stacking, stock keeps falling.\n\nP/E 227x: 'Cool story, still expensive.'\nThe market's one-liner\n\n1/4",
+          "thread": [
+            "Trefis: '50%+ rally catalysts are building'\n\nCatalysts are building but the fire won't light.\nIs the match too expensive or the wood too wet?\n\n2/4",
+            "Down -31% from highs.\nBelow 50-day. Below 200-day.\n\n'Cheap' at P/E 227x?\n'Expensive' at +65% growth?\n\nConclusion: nobody knows\n\n3/4",
+            "Consensus $199 (+39%).\nReality: 3 straight days of red.\n\nHold. If you're convicted, small bites only.\nOtherwise, watching is free\n\n4/4"
+          ]
         },
         "empathy": {
-          "hook": "PLTR holders, watching Golden Dome gains evaporate must hurt",
-          "text": "$PLTR $143.06(-3.05%)\n\nGolden Dome made Monday feel great. Then it all vanished in 3 days. 50-day broken too. 31% off the high. That stings.\n\n1/4",
-          "thread": ["But Trefis sees conditions for a 50%+ rally. Golden Dome, Maven, commercial growth are real.\n\nThe fundamentals haven't weakened\n\n2/4", "This is market-wide panic. Dow in correction, VIX 31.\nGood stocks fall with bad ones in times like this.\n\nIt's not a Palantir problem\n\n3/4", "Target $187 (+31%). Small DCA positions.\nDon't overextend.\n\nMay 4 earnings will show the way. Be patient\n\n4/4"]
+          "hook": "PLTR holders, three straight red days is exhausting",
+          "text": "$PLTR $143.06 (-3%)\n\n3 days of decline. Golden Dome joy completely gone. Down -31% from highs. That stings.\n\nBut the catalysts keep building\n\n1/4",
+          "thread": [
+            "Golden Dome $185B. Maven program of record.\nCzech central bank buying.\nBain partnership. FY2026 +65%.\n\nThe company keeps getting stronger.\nIt's just a tough market right now\n\n2/4",
+            "Trefis says 50%+ rally catalysts are building.\nPatterns look like past major rebounds.\n\nEven when it hurts now, the long view matters\n\n3/4",
+            "Consensus $199 (+39%).\nDon't chase. Small positions, steady pace.\n\nThe growth story is real.\nFor long-term investors, this could be opportunity\n\n4/4"
+          ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR: 50-day SMA broken, but Trefis sees conditions for a 50%+ rally",
-          "text": "$PLTR $143.06(-3.05%), market cap $342.2B\n\n50-day SMA broken. Golden Dome gains reversed in 3 days plus further decline. Dow correction dragging everything down.\n\nBut Trefis analyzed past 50%+ rally patterns and sees current conditions as similar. Golden Dome, Maven, commercial +137% growth as triggers.\n\nP/E 227x, 17 Buy, 14 Hold, 5 Sell. Valuation debate unresolved.\n\nTarget $187 (+31%). Hold. Small position DCA only."
+          "hook": "PLTR: 3 straight days down, but Trefis says '50%+ rally catalysts are building'",
+          "text": "$PLTR $143.06 (-3%)\n\nThird consecutive decline pushes it below both the 50-day ($149) and 200-day ($169) SMAs. The Golden Dome rally is fully erased.\n\nBut Trefis analyzed past 50%+ rally patterns and finds current catalysts (Golden Dome, Maven, +137% commercial growth) align with historical surge triggers. Czech central bank buying, Bain partnership expanding.\n\nP/E 227x (6.7x IT sector avg of 34x) is the burden. Consensus $199 (+39%).\n\nDown -31% from highs. Hold, small positions only."
         },
         "witty": {
-          "hook": "PLTR: missile defense stock falls on war escalation. You can't make this up",
-          "text": "$PLTR $143.06(-3.05%)\n\nGolden Dome +6.8% Monday, all reversed by Thursday. 50-day SMA broken. A missile defense software company dropping on war fears is peak market irony.\n\nSeeking Alpha says 'narrative collapse.' Trefis says '50%+ rally possible.' P/E 227x. Analysts split 17/14/5. Nobody agrees on anything.\n\nFundamentals: Maven, Golden Dome, commercial +137%. These are real. The price tag just scares people.\n\n31% off ATH. Hold. Small DCA if convicted. May 4 decides."
+          "hook": "Golden Dome, Maven, central bank buying. Shouldn't PLTR be going up? The irony",
+          "text": "$PLTR $143.06 (-3%)\n\nGolden Dome $185B, Maven program of record, Czech central bank buying, Bain partnership, FY2026 +65%. Shouldn't this be going up?\n\nMarket: 'P/E is 227x though.' That's the whole argument.\n\nTrefis says 50%+ rally catalysts are building. Reality: 3 straight red days. Catalysts stack but the ignition won't turn.\n\nConsensus $199 (+39%). Down -31% from highs. Hold, small bites only."
         },
         "empathy": {
-          "hook": "PLTR shareholders, the Golden Dome reversal must be deeply frustrating",
-          "text": "$PLTR $143.06(-3.05%), 31% off highs.\n\nMonday's Golden Dome celebration turned into Thursday's selloff. 50-day broken. It's deeply frustrating.\n\nBut Trefis sees conditions for a major rally. Golden Dome $185B, Maven, Czech central bank buying. The fundamentals are real and strengthening.\n\nThis is Dow correction, VIX 31, market-wide panic. Not a Palantir problem.\n\nSmall DCA positions. Don't overextend. May 4 earnings will clarify. Patience is your best tool right now."
+          "hook": "PLTR shareholders, three straight days of red is tough. But fundamentals keep strengthening",
+          "text": "$PLTR $143.06 (-3%), down -31% from highs.\n\nThree straight declines is really tough. The Golden Dome excitement from Monday feels like a lifetime ago.\n\nBut the company keeps getting stronger. Golden Dome $185B, Maven program of record, Czech central bank buying, Bain partnership. Trefis says 50%+ rally catalysts are building, matching past rebound patterns.\n\nThe market is pressing down all tech right now. Consensus $199 (+39%).\n\nSmall positions, steady pace. Long-term is the play."
         }
       }
     }

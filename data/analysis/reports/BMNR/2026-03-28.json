@@ -2,8 +2,8 @@
   "symbol": "BMNR",
   "companyName": "Bitmine Immersion Technologies, Inc.",
   "analysisDate": "2026-03-28",
-  "currentPrice": 18.84,
-  "marketCap": "$8.86B",
+  "currentPrice": 18.39,
+  "marketCap": "$8.6B",
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
     "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/22 기준 4,660,903 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 $10.9B. MAVAN 스테이킹 플랫폼 론칭으로 연 $300M+ 매출 목표. ETH가 $2,027까지 하락하면서 $20 지지선이 붕괴됐다.",
@@ -23,55 +23,55 @@
   "keyMetrics": [
     {
       "name": "P/NAV",
-      "value": "~0.82x",
-      "interpretation": "MSTR P/B 2~3x, ETHE NAV 프리미엄 5~10%. BMNR은 NAV 대비 18% 할인. ETH 하락으로 NAV도 줄었지만 주가가 더 빠르게 하락"
+      "value": "0.82x",
+      "interpretation": "MSTR P/B 2-3x 대비 NAV 18% 할인 거래. 전일 0.78x에서 NAV 감소와 함께 소폭 조정. 여전히 자산가치 이하"
     },
     {
       "name": "ETH 보유량",
       "value": "4,660,903 ETH",
-      "interpretation": "전체 ETH 공급량(120.7M)의 3.86%. 상장 기업 중 세계 최대"
+      "interpretation": "전체 ETH 공급량(120.7M)의 3.86%. 상장 기업 중 세계 최대. 6M ETH(5%) 목표까지 134만 ETH 추가 필요"
     },
     {
-      "name": "ETH 현재가",
-      "value": "$2,027",
-      "interpretation": "$2,000 심리적 지지선에 극도로 근접. 옵션 만기와 고래 매도($23.4M)가 동시에 압박. 이탈 시 BMNR 추가 폭락 불가피"
+      "name": "총 자산(NAV)",
+      "value": "$10.5B",
+      "interpretation": "ETH $9.33B(@$2,002) + BTC $12.9M + Beast $200M + ORBS $95M + 현금 $1.1B. 시총 $8.6B 대비 $1.9B 초과"
     },
     {
       "name": "배당수익률",
       "value": "5.1%",
-      "interpretation": "S&P 500 평균 1.3%, MSTR/COIN 무배당. 주가 하락으로 배당수익률이 4.7%에서 5.1%로 상승"
-    },
-    {
-      "name": "Bitcoin",
-      "value": "$66,012 (-4.08%)",
-      "interpretation": "크립토 전반 급락. BTC -4%, ETH -4.3%. 이란 전쟁 리스크오프에 크립토도 피해"
+      "interpretation": "주가 하락으로 배당수익률 상승. S&P 500 평균 1.3%, 크립토 관련 주식 중 유일한 배당주"
     },
     {
       "name": "스테이킹 매출(예상)",
       "value": "연 $300M+",
-      "interpretation": "MAVAN 전면 이관 시 기준. BeInCrypto: '$300M 스테이킹 매출에도 주가 고전' 보도"
+      "interpretation": "MAVAN 전면 이관 시 기준. 3/25 론칭 후 3.14M ETH($6.29B) 스테이킹. Coinbase 수수료 절감 효과"
+    },
+    {
+      "name": "ETH 현재가",
+      "value": "$2,002",
+      "interpretation": "$2,000 심리적 지지선 바로 위. BeInCrypto: mNAV 1.0x. 추가 하락 시 NAV 급감 불가피"
     }
   ],
   "growthDrivers": [
     {
-      "title": "BeInCrypto: '$300M 스테이킹 매출에도 주가 고전' (3/27)",
-      "description": "MAVAN 론칭과 $300M 스테이킹 매출 전망에도 불구하고 주가가 빠지는 이유를 분석. mNAV가 1.0x 근처로 공정가치에 근접하다고 평가"
+      "title": "BeInCrypto: '$300M 스테이킹 수익에도 주가는 고전' (3/27)",
+      "description": "MAVAN 론칭으로 연 $300M 스테이킹 매출 전망. mNAV 1.0x까지 하락. 스테이킹 수익이 본격화되면 주가 재평가 가능성"
     },
     {
-      "title": "MAVAN 스테이킹 플랫폼 3/25 론칭",
-      "description": "3.14M ETH를 Coinbase에서 자체 MAVAN 플랫폼으로 이관 시작. 제3자 수수료 절감으로 연 $300M+ 매출 목표"
+      "title": "B. Riley 목표가 상향, Strong Buy (3/26)",
+      "description": "MAVAN 론칭 이후 B. Riley가 목표가를 $34.50으로 상향. 현재가 대비 +87.6% 상승 여력"
     },
     {
-      "title": "B. Riley 목표가 상향 (3/26)",
-      "description": "B. Riley가 MAVAN 론칭을 반영해 목표가를 상향하고 Strong Buy 유지. MAVAN이 매출 구조를 전환할 것으로 기대"
+      "title": "MAVAN 스테이킹 플랫폼 정식 론칭 (3/25)",
+      "description": "3.14M ETH($6.29B)를 Coinbase에서 자체 MAVAN으로 이관. 제3자 수수료 절감으로 연 $300M+ 매출 목표"
     },
     {
-      "title": "Tom Lee, 추가 $138M ETH 매수 (3/23)",
-      "description": "65,341 ETH(약 $138M) 추가 매수. 'crypto winter는 거의 끝났다'고 발언"
+      "title": "Tom Lee 'Alchemy of 5%': ETH 공급량 5% 목표 (3/24)",
+      "description": "6M ETH 확보 목표. 현재 3.86%로 72% 달성. 5% 달성 시 이더리움 생태계 내 실질적 영향력 확보"
     },
     {
-      "title": "배당 5.1%, 하락장 방어",
-      "description": "주가 하락으로 배당수익률이 5.1%로 상승. 크립토 관련 주식 중 유일한 배당주로 하락 방어 역할"
+      "title": "하락장 속 $138M ETH 추가 매수 (3/23)",
+      "description": "Tom Lee: 'crypto winter는 거의 끝났다'. 65,341 ETH 추가 매수. 하락장에서도 공격적 매수 지속"
     }
   ],
   "competitiveAdvantage": {
@@ -108,214 +108,229 @@
   "recentNews": [
     {
       "date": "2026-03-27",
-      "headline": "BMNR -6.5% 급락 $18.84, $20 지지선 완전 붕괴",
-      "significance": "7주간 유지했던 $20 지지선이 붕괴. 장중 $18.84까지 하락. ETH $2,027, BTC $66,012 동반 급락에 크립토 관련주 전반 매도세",
-      "url": "https://robinhood.com/us/en/stocks/BMNR/"
+      "headline": "BeInCrypto: '$300M 스테이킹 수익에도 BMNR 주가는 고전'",
+      "significance": "MAVAN 론칭으로 연 $300M 매출 전망이지만 mNAV 1.0x까지 하락. ETH 약세가 스테이킹 호재를 상쇄하는 구도",
+      "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/"
     },
     {
       "date": "2026-03-27",
-      "headline": "BeInCrypto: '$300M 스테이킹 매출에도 주가 고전'",
-      "significance": "MAVAN 론칭과 스테이킹 매출 전망에도 주가가 빠지는 이유 분석. mNAV 1.0x로 공정가치 근접이라는 평가. 주가 하락은 ETH 가격 하락 반영",
-      "url": "https://beincrypto.com/tom-lees-bitmine-bmnr-expands-mavan-launch/"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "ETH 옵션 만기 + 고래 $23.4M 매도, $2,000 위기",
-      "significance": "대규모 ETH 옵션 만기와 초기 ICO 참여자가 11,552 ETH($23.4M)를 평균 $2,027에 매도. $2,000 심리적 지지선 직접 위협",
-      "url": "https://invezz.com/news/2026/03/27/ethereum-nears-2k-as-options-expiry-and-whale-selling-hit-price/"
+      "headline": "BMNR -5.34% 급락, 크립토 전반 셀오프",
+      "significance": "$18.39로 $20 지지선 완전 붕괴. ETH $2,002까지 하락하며 NAV 추가 감소",
+      "url": "https://finance.yahoo.com/quote/BMNR/"
     },
     {
       "date": "2026-03-26",
-      "headline": "B. Riley, BMNR 목표가 상향, Strong Buy 유지",
-      "significance": "MAVAN 론칭을 반영해 목표가 상향. 그러나 같은 날 주가는 -8% 급락해 시장 반응은 부정적",
-      "url": "https://ts2.tech/en/bmnr-stock-slides-after-bitmine-immersion-technologies-launches-mavan-despite-b-riley-target-hike/"
+      "headline": "B. Riley 목표가 상향, Strong Buy $34.50",
+      "significance": "MAVAN 론칭 이후 B. Riley가 목표가를 $34.50으로 상향. 현재가 대비 +87.6% 상승 여력",
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/"
     },
     {
-      "date": "2026-03-26",
-      "headline": "24/7 Wall St: '비트코인 하락이 채굴/크립토주를 징벌'",
-      "significance": "Cipher Mining -9%, BMNR -6%. BTC -3.5% 하락에 크립토 관련주가 레버리지 하락. BMNR은 ETH 노출이 더 큰 만큼 타격도 더 크다",
-      "url": "https://247wallst.com/investing/2026/03/26/cipher-mining-falls-9-bitmine-immersion-drops-6-is-bitcoins-price-move-punishing-crypto-mining-stocks/"
+      "date": "2026-03-25",
+      "headline": "MAVAN(Made in America Validator Network) 정식 론칭",
+      "significance": "자체 ETH 스테이킹 플랫폼 MAVAN 론칭. 3.14M ETH($6.29B)를 Coinbase에서 이관. 연 $300M+ 매출 목표",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"
+    },
+    {
+      "date": "2026-03-24",
+      "headline": "Tom Lee 'Alchemy of 5%': ETH 공급량 5% 확보 목표 공개",
+      "significance": "6M ETH 확보가 목표. 현재 3.86%. 달성 시 이더리움 생태계 내 거버넌스급 영향력",
+      "url": "https://finance.yahoo.com/news/bitmine-tom-lee-alchemy-of-five-percent-eth-supply-target/"
+    },
+    {
+      "date": "2026-03-23",
+      "headline": "Tom Lee, 65,341 ETH($138M) 추가 매수, 'crypto winter 거의 끝났다'",
+      "significance": "하락장에서 $138M 추가 매수. 총 보유량 4,660,903 ETH로 확대. 강세 전환 발언",
+      "url": "https://coincentral.com/bitmine-bmnr-stock-jumps-3-as-tom-lee-bets-138m-more-on-eth-recovery/"
     }
   ],
   "analystOpinions": {
     "consensusTarget": 34.5,
     "highTarget": 34.5,
     "lowTarget": 30,
-    "upsidePercent": 83.2,
+    "upsidePercent": 87.6,
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley Strong Buy 유지, 목표가 상향. 주가 $18.84로 하락하면서 상승 여력이 71%에서 83%로 확대. BeInCrypto는 mNAV 1.0x로 공정가치 근처라고 분석"
+    "notableComment": "B. Riley Strong Buy, 목표가 $34.50으로 상향(MAVAN 론칭 후). 주가 $18.39 하락으로 상승 여력이 87.6%로 급확대. BeInCrypto는 mNAV 1.0x로 '가격 괴리 해소' 분석"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "$20 지지선 붕괴, ETH $2,000 이탈 위기",
-      "description": "7주간 유지한 $20 지지선이 완전히 붕괴. ETH는 $2,027로 $2,000 직전. 옵션 만기와 고래 매도가 동시 압박. ETH $2,000 이탈 시 BMNR $15 이하 가능"
+      "title": "ETH $2,000 지지선 직전, 이탈 위기",
+      "description": "ETH가 $2,002로 $2,000 바로 위에서 아슬아슬하게 버티고 있다. 이탈 시 NAV 급감, BMNR 추가 폭락 불가피. 포트폴리오의 88%가 ETH"
     },
     {
       "severity": "critical",
-      "title": "크립토 전반 급락, BTC $66K",
-      "description": "BTC -4.08%로 $66,012. ETH -4.3%. 이란 전쟁 리스크오프에 크립토 위험자산 전면 매도. VIX 31.05"
+      "title": "$20 지지선 붕괴",
+      "description": "$18.39로 $20 지지선 완전 붕괴. 7주간 $20에서 횡보하던 기술적 지지가 무너졌다. 다음 지지선 $15 부근"
     },
     {
       "severity": "high",
-      "title": "ETH 88% 집중 포트폴리오 리스크",
-      "description": "NAV의 88%가 ETH. ETH 가격 하락이 NAV와 주가에 레버리지 효과. 분산 없는 집중 투자의 위험"
+      "title": "mNAV 1.0x 하락, 프리미엄 완전 소멸",
+      "description": "BeInCrypto 기준 mNAV 1.0x. 시장이 BMNR에 어떤 프리미엄도 부여하지 않는 상황. MSTR은 P/B 2-3x"
     },
     {
       "severity": "medium",
-      "title": "적자 지속 (EPS -$0.93)",
-      "description": "TTM EPS -$0.93. MAVAN 매출 본격화 전까지 적자 구조 지속"
+      "title": "크립토 전반 셀오프 지속",
+      "description": "BTC $66,012, ETH $2,002 동반 하락. 매크로 리스크와 지정학 불안이 위험자산 매도를 가속화"
     },
     {
       "severity": "medium",
-      "title": "크립토 규제 불확실성",
-      "description": "ETH 증권 분류 논쟁, 스테이킹 규제 등 정책 리스크 상존"
+      "title": "스테이킹 수익 현실화까지 시간 소요",
+      "description": "MAVAN 론칭했지만 Coinbase에서 전면 이관까지 수개월 소요 전망. 단기 매출 효과 제한적"
     }
   ],
   "buyReasons": [
     {
-      "title": "상승 여력 83%, NAV 대비 18% 할인",
-      "rationale": "목표가 $34.50 대비 83% 상승 여력. NAV 대비 할인 거래 중. ETH 반등 시 레버리지 상승"
+      "title": "P/NAV 0.82x, 자산가치 18% 할인",
+      "rationale": "NAV $10.5B 대비 시총 $8.6B. MSTR P/B 2-3x와 비교하면 극단적 할인. NAV 대비 할인이 축소되면 큰 상승 여력"
+    },
+    {
+      "title": "B. Riley Strong Buy, 목표가 $34.50(+87.6%)",
+      "rationale": "MAVAN 론칭 후 목표가 상향. 주가 하락으로 상승 여력이 87.6%까지 확대. 월가 커버리지 강화"
+    },
+    {
+      "title": "MAVAN 론칭으로 수익 모델 전환",
+      "rationale": "3.14M ETH 자체 스테이킹으로 연 $300M+ 매출 목표. 보유에서 수익 창출 기업으로 전환 중"
     },
     {
       "title": "배당 5.1%로 하락 방어",
-      "rationale": "주가 하락으로 배당수익률 5.1%로 상승. 크립토 주식 중 유일한 배당주"
+      "rationale": "크립토 주식 중 유일한 배당주. 주가 하락으로 배당수익률이 5.1%까지 상승. 홀딩 근거 강화"
     },
     {
-      "title": "MAVAN 론칭 + B. Riley Strong Buy",
-      "rationale": "자체 스테이킹 플랫폼 가동. B. Riley가 목표가를 상향하며 Strong Buy 유지"
-    },
-    {
-      "title": "BeInCrypto: mNAV 1.0x 공정가치",
-      "rationale": "mNAV가 1.0x로 공정가치 수준이라는 분석. 추가 하락보다 반등이 나올 가능성이 높다는 시각"
+      "title": "Tom Lee의 공격적 매수 지속",
+      "rationale": "하락장에서도 $138M ETH 추가 매수. 'crypto winter 거의 끝났다' 발언. 경영진의 강한 확신"
     }
   ],
   "technicalPosition": {
     "week52High": 161.0,
     "week52Low": 3.2,
-    "currentPositionPercent": 9.9,
-    "sma50": 23.5,
+    "currentPositionPercent": 9.6,
+    "sma50": 23.0,
     "sma50Signal": "below",
     "sma200": 32,
     "sma200Signal": "below",
     "rsi": 38,
-    "rsiSignal": "neutral"
+    "rsiSignal": "oversold_approaching"
   },
   "overallOpinion": [
-    "7주간 지켜온 $20 지지선이 붕괴됐다. ETH $2,027, BTC $66,012 동반 급락에 크립토 시장 전체가 패닉이다. 이란 전쟁과 유가 $112에 위험자산 매도세가 가속",
-    "BeInCrypto가 '$300M 스테이킹 매출에도 주가가 빠진다'고 보도할 만큼 MAVAN의 긍정적 효과가 ETH 가격 하락에 묻히고 있다. B. Riley는 목표가를 상향했지만 시장은 반응하지 않았다",
-    "핵심 변수는 ETH $2,000이다. 고래 매도($23.4M)와 옵션 만기가 동시에 압박하고 있고, $2,000이 깨지면 BMNR $15 이하도 가능하다",
-    "$18.84 마감. 배당 5.1%, 목표가 $34.50(+83%). 극단적으로 싸지만 ETH $2,000 붕괴 리스크가 크다. 리스크 감내 가능한 소액으로만 접근"
+    "BMNR이 $18.39로 -5.34% 급락하며 $20 지지선이 완전히 붕괴됐다. ETH $2,002로 $2,000 바로 위. 크립토 전반 셀오프가 지속되고 있다",
+    "BeInCrypto가 '$300M 스테이킹 수익에도 주가 고전'이라고 분석했다. mNAV 1.0x로 시장이 프리미엄을 전혀 부여하지 않고 있다. MAVAN 론칭의 호재가 ETH 약세에 묻히는 구도",
+    "B. Riley는 오히려 목표가를 $34.50으로 올렸다. 현재가 대비 +87.6%. P/NAV 0.82x에 배당 5.1%는 장기 투자자에게 매력적인 진입점일 수 있다",
+    "단기 기술적으로는 $20 이탈로 $15까지 열려있다. ETH $2,000 사수 여부가 최대 변수. 리스크 감내 가능한 자금으로만 분할매수 접근"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "NAV 대비 할인 + 배당 5.1% + MAVAN 론칭은 매력적이다. 하지만 $20 지지 붕괴와 ETH $2,000 위기는 당장의 최대 리스크. 리스크 감내 가능한 소액으로 분할매수, ETH $2,000 이탈 시 손절 라인 설정 필수",
-    "horizon": "6~12개월"
+    "summary": "P/NAV 0.82x에 B. Riley $34.50(+87.6%) 상향. 배당 5.1%, MAVAN 론칭으로 수익 모델 전환 중. $20 붕괴로 단기 약세지만 mNAV 1.0x는 역설적으로 하방 지지 역할. ETH에 대한 중장기 확신이 있다면 분할매수 유효하나 $2,000 이탈 시 손절 기준 필요",
+    "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Robinhood - BMNR $18.84 통계",
-      "url": "https://robinhood.com/us/en/stocks/BMNR/",
-      "description": "시총 $8.86B, 일중 고가 $19.86, 저가 $18.84, 배당 5.1%"
+      "name": "BeInCrypto - BMNR $300M 스테이킹 분석",
+      "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/",
+      "description": "mNAV 1.0x, $300M 스테이킹 매출 전망과 주가 괴리 분석"
     },
     {
-      "name": "BeInCrypto - BMNR $300M 스테이킹",
-      "url": "https://beincrypto.com/tom-lees-bitmine-bmnr-expands-mavan-launch/",
-      "description": "$300M 스테이킹 매출에도 주가 고전, mNAV 1.0x 분석"
+      "name": "Yahoo Finance - BMNR",
+      "url": "https://finance.yahoo.com/quote/BMNR/",
+      "description": "실시간 시세 $18.39(-5.34%), 시총 $8.6B"
     },
     {
-      "name": "Invezz - ETH $2,000 위기",
-      "url": "https://invezz.com/news/2026/03/27/ethereum-nears-2k-as-options-expiry-and-whale-selling-hit-price/",
-      "description": "ETH 옵션 만기, 고래 11,552 ETH($23.4M) 매도"
-    },
-    {
-      "name": "ts2.tech - B. Riley 목표가 상향",
-      "url": "https://ts2.tech/en/bmnr-stock-slides-after-bitmine-immersion-technologies-launches-mavan-despite-b-riley-target-hike/",
-      "description": "B. Riley Strong Buy 유지, 목표가 상향, 당일 -8% 급락"
-    },
-    {
-      "name": "24/7 Wall St - 크립토주 징벌",
-      "url": "https://247wallst.com/investing/2026/03/26/cipher-mining-falls-9-bitmine-immersion-drops-6-is-bitcoins-price-move-punishing-crypto-mining-stocks/",
-      "description": "BTC 하락에 크립토 관련주 레버리지 하락"
-    },
-    {
-      "name": "MarketBeat - BMNR 목표가 $34.50",
+      "name": "MarketBeat - BMNR Forecast",
       "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/",
-      "description": "애널리스트 컨센서스 목표가 $34.50"
+      "description": "B. Riley Strong Buy $34.50. 애널리스트 컨센서스 목표가"
     },
     {
-      "name": "Yahoo Finance - BTC $66,012",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html",
-      "description": "BTC -4.08% $66,012, ETH 동반 급락"
+      "name": "PRNewswire - MAVAN 론칭 공시",
+      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html",
+      "description": "MAVAN 스테이킹 플랫폼 정식 론칭, 3.14M ETH"
     },
     {
-      "name": "Invezz - BMNR '용수철' 분석",
+      "name": "CoinCentral - Tom Lee $138M ETH 매수",
+      "url": "https://coincentral.com/bitmine-bmnr-stock-jumps-3-as-tom-lee-bets-138m-more-on-eth-recovery/",
+      "description": "65,341 ETH($138M) 추가 매수, crypto winter 발언"
+    },
+    {
+      "name": "Invezz - BMNR 기술적 분석",
       "url": "https://invezz.com/news/2026/03/26/bitmine-stock-price-bmnr-is-a-coiled-spring-waiting-to-pounce/",
-      "description": "$20 지지에서 횡보 후 breakout 대기(3/26 발행, 이후 $20 이탈)"
+      "description": "$20 횡보 후 falling wedge 분석, $30-$50 목표"
+    },
+    {
+      "name": "Yahoo Finance - Tom Lee 스테이킹 분석",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/first-blackrock-now-bitmine-tom-100422887.html",
+      "description": "MAVAN 전략 심층 분석, BlackRock 비교"
+    },
+    {
+      "name": "StockAnalysis - BMNR",
+      "url": "https://stockanalysis.com/stocks/bmnr/",
+      "description": "종합 재무 분석, 밸류에이션, ETH 보유 현황"
+    },
+    {
+      "name": "CoinDCX - ETH 가격 분석",
+      "url": "https://coindcx.com/blog/price-predictions/ethereum-price-prediction/",
+      "description": "ETH $2,002, 기술적 지표, $2,000 지지선 분석"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR $18.84 | $20 지지 붕괴, ETH $2,000 직전",
-      "text": "$BMNR $18.84(-6.5%)\n\n7주간 버텨온 $20 지지선이 무너졌다. ETH $2,027, BTC $66,012 동반 급락. BeInCrypto: '$300M 매출에도 주가 고전.'\n\n목표가 $34.50(+83%)\n\n1/4",
+      "hook": "BMNR $18.39 | $20 붕괴, 근데 B. Riley는 $34.50으로 올렸다",
+      "text": "$BMNR $18.39(-5.34%)\n\n$20 지지선 붕괴. ETH $2,002로 $2,000 직전. 크립토 전반 셀오프.\n\nB. Riley: Strong Buy $34.50(+87.6%)\nmNAV 1.0x, 배당 5.1%\n\n1/4",
       "thread": [
-        "ETH 고래가 11,552개($23.4M)를 팔았다.\n옵션 만기까지 겹쳐 $2,000 직접 위협.\n\nBMNR NAV의 88%가 ETH. $2,000 이탈 시 추가 폭락\n\n2/4",
-        "MAVAN은 론칭했고 B. Riley는 Strong Buy.\n배당 5.1%는 크립토주 중 유일.\n\n하지만 시장은 ETH 가격만 본다\n\n3/4",
-        "52주 고점 대비 -88%.\n극단적으로 싸지만 ETH가 관건이다.\n\nBuy. 단, 리스크 감내 가능한 소액만. ETH $2K가 생사선\n\n4/4"
+        "MAVAN 론칭 3일차. 3.14M ETH 자체 스테이킹.\n연 $300M+ 매출 목표. Coinbase 수수료 절감.\n\nBeInCrypto: '$300M 수익인데 왜 안 오르나'\nmNAV 1.0x = ETH 약세가 전부 삼켰다\n\n2/4",
+        "Tom Lee, 하락장에서 $138M ETH 추가 매수.\n'Alchemy of 5%': 6M ETH 목표(현재 4.66M).\n'crypto winter 거의 끝났다'\n\nP/NAV 0.82x, 배당 5.1%\n\n3/4",
+        "리스크: $20 붕괴, ETH $2,000 직전, 88% ETH 집중.\n기술적 다음 지지 $15.\n\nBuy. 목표 $34.50(+87.6%). ETH 확신 있고 리스크 감내 가능하면 분할매수\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR: $20 지지 붕괴, $300M 매출도 ETH 앞에서 무력",
-      "text": "$BMNR $18.84(-6.5%), 시총 $8.86B\n\n7주간 지켜온 $20 지지선이 무너졌다. ETH $2,027, 옵션 만기와 고래 매도가 동시에 $2,000을 압박하고 있다.\n\nBeInCrypto: '$300M 스테이킹 매출에도 주가 고전.' MAVAN 론칭의 긍정적 효과가 ETH 가격 하락에 완전히 묻혔다.\n\nB. Riley Strong Buy 유지, 배당 5.1%, 목표가 $34.50(+83%). 극단적으로 싸지만 ETH $2,000 이탈 시 추가 폭락 위험.\n\nBuy. 리스크 감내 가능한 소액으로만."
+      "hook": "BMNR: $20 붕괴했지만 B. Riley는 $34.50으로 올렸다",
+      "text": "$BMNR $18.39(-5.34%)\n\n$20 지지선이 무너졌다. ETH $2,002로 $2,000 바로 위. 크립토 전반 셀오프.\n\n그런데 B. Riley는 오히려 목표가를 $34.50으로 올렸다(+87.6%). MAVAN 론칭 3일차, 연 $300M+ 스테이킹 매출 전망.\n\nBeInCrypto는 mNAV 1.0x라고 분석. 시장이 프리미엄을 전혀 안 주고 있다. P/NAV 0.82x, 배당 5.1%.\n\nTom Lee는 하락장에서 $138M 더 넣었다. 6M ETH(5% of supply)가 목표.\n\nETH $2,000 사수 여부가 핵심. Buy, 리스크 관리 필수."
     },
     "telegram": {
       "hook": "BMNR 일일 분석 (3/28)",
-      "text": "BMNR $18.84 (-6.5%) | 시총 $8.86B | 배당 5.1%\nETH $2,027 | BTC $66,012 (-4.08%)\n\n핵심 변화\n- $20 지지선 7주 만에 붕괴!\n- ETH 고래 $23.4M 매도 + 옵션 만기\n- ETH $2,000 심리적 지지선 직접 위협\n\n호재 (시장이 무시 중)\n- MAVAN 론칭, 연 $300M+ 매출 전망\n- B. Riley Strong Buy, 목표가 상향\n- 배당 5.1%\n\n핵심 리스크: ETH $2,000 이탈 시 BMNR $15 이하\n목표가: $34.50(+83%)\n\n판단: Buy (리스크 감내 가능한 소액만)"
+      "text": "BMNR $18.39 (-5.34%) | 시총 $8.6B | P/NAV 0.82x\nETH $2,002 | $2,000 직전 | 배당 5.1%\n\n핵심 이슈\n- $20 지지선 완전 붕괴\n- ETH $2,000 이탈 위기 지속\n- mNAV 1.0x(BeInCrypto)\n\n호재\n- B. Riley 목표가 $34.50 상향(+87.6%)\n- MAVAN 론칭 3일차, 연 $300M+ 매출\n- Tom Lee $138M ETH 추가 매수\n- 배당 5.1%, P/NAV 0.82x\n\n리스크\n- ETH 88% 집중, $2,000 이탈 시 추가 폭락\n- $20 붕괴 후 기술적 다음 지지 $15\n\n판단: Buy (분할매수, ETH $2,000 사수 전제)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR $18.84 | $20 지지 붕괴, ETH $2,000 직전",
-          "text": "$BMNR $18.84(-6.5%)\n\n7주간 버텨온 $20 지지선이 무너졌다. ETH $2,027, BTC $66,012 동반 급락. BeInCrypto: '$300M 매출에도 주가 고전.'\n\n목표가 $34.50(+83%)\n\n1/4",
+          "hook": "BMNR $18.39 | $20 붕괴, B. Riley Strong Buy $34.50",
+          "text": "$BMNR $18.39(-5.34%)\n\n$20 지지선 붕괴. ETH $2,002로 $2,000 직전.\nB. Riley: Strong Buy $34.50(+87.6%)\nP/NAV 0.82x, 배당 5.1%\n\n1/4",
           "thread": [
-            "ETH 고래가 11,552개($23.4M)를 팔았다.\n옵션 만기까지 겹쳐 $2,000 직접 위협.\n\nBMNR NAV의 88%가 ETH. $2,000 이탈 시 추가 폭락\n\n2/4",
-            "MAVAN은 론칭했고 B. Riley는 Strong Buy.\n배당 5.1%는 크립토주 중 유일.\n\n하지만 시장은 ETH 가격만 본다\n\n3/4",
-            "52주 고점 대비 -88%.\n극단적으로 싸지만 ETH가 관건이다.\n\nBuy. 단, 리스크 감내 가능한 소액만. ETH $2K가 생사선\n\n4/4"
+            "MAVAN 론칭 3일차. 3.14M ETH($6.29B) 자체 스테이킹.\n연 $300M+ 매출 목표.\nBeInCrypto: mNAV 1.0x, 프리미엄 소멸\n\n2/4",
+            "Tom Lee: $138M ETH 추가 매수. 6M ETH(5%) 목표.\n현재 4.66M(3.86%). 'crypto winter 거의 끝났다'\n\n목표가 $34.50(+87.6%)\n\n3/4",
+            "$20 붕괴, ETH $2,000 직전, 88% ETH 집중.\n다음 지지 $15. 리스크 감내 가능하면 분할매수.\n\nBuy. 단, ETH $2,000 이탈 시 재평가 필요\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "$300M 매출 전망인데 주가는 $20도 못 지킨다, ETH의 저주",
-          "text": "$BMNR $18.84(-6.5%)\n\nMAVAN 론칭, B. Riley Strong Buy, 배당 5.1%. 좋은 뉴스는 많다. 근데 ETH가 $2,027이다.\n\nETH가 기침하면 BMNR은 감기에 걸린다\n\n1/4",
+          "hook": "$20 뚫렸는데 B. Riley는 $34.50으로 올렸다. 누가 맞을까",
+          "text": "$BMNR $18.39(-5.34%)\n\n7주간 버티던 $20이 뚫렸다. ETH $2,002. $2,000이 무너지면 다 같이 간다.\n\n근데 B. Riley: 'Strong Buy $34.50'\n시장과 애널리스트, 누가 맞을까?\n\n1/4",
           "thread": [
-            "고래가 $23.4M 팔았고 옵션 만기까지.\n$2,000 앞에서 '용수철'이 아니라 '트램펄린 위의 모루'가 됐다.\n\n$20 지지? 7주 만에 안녕\n\n2/4",
-            "NAV의 88%가 ETH.\n이건 회사가 아니라 ETH에 레버리지 건 펀드다.\n\n배당 5.1%가 위안이 될까?\n\n3/4",
-            "목표가 $34.50(+83%).\nETH가 $2,500만 가도 엄청나게 싸다.\n근데 $2,000이 깨지면 이야기가 완전히 달라진다.\n\nBuy. 소액만. ETH에 확신 있는 사람만\n\n4/4"
+            "Tom Lee는 $138M 더 넣었다. 하락장에서 더 사는 사람.\n목표가 ETH 공급의 5%. 지금 3.86%.\n\nBeInCrypto: '연 $300M 벌 수 있는데 왜 이래'\nmNAV 1.0x. 프리미엄이 0이다\n\n2/4",
+            "P/NAV 0.82x. 만원짜리를 8,200원에 파는 중.\n배당 5.1%. 크립토에서 배당이라니.\n\n문제는 그 만원이 ETH 가격이라는 것\n\n3/4",
+            "$20 밑은 미지의 영역이다. 다음 지지 $15.\nTom Lee의 자신감이 맞으면 $34.50.\n틀리면 $15.\n\nBuy. 본인 리스크 허용 범위 내에서만\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR 홀더들, $20까지 깨져서 정말 힘드시죠",
-          "text": "$BMNR $18.84(-6.5%)\n\n$20 지지선이 무너졌어요. 7주간 버텨왔는데 결국. ETH도 $2,027까지 내려왔고요. 마음이 무거우시죠.\n\n1/4",
+          "hook": "BMNR 홀더들, $20마저 무너져서 힘드시죠",
+          "text": "$BMNR $18.39(-5.34%)\n\n7주간 버티던 $20이 무너졌어요. 장기 홀더분들 정말 힘든 시간이에요.\n\n하지만 B. Riley는 $34.50으로 올렸어요. 배당 5.1%도 버팀목이 됩니다\n\n1/4",
           "thread": [
-            "하지만 MAVAN은 론칭했고 B. Riley는 목표가를 올렸어요.\n배당 5.1%는 여전히 버팀목이에요.\n\nBeInCrypto도 mNAV 공정가치라고 봤어요\n\n2/4",
-            "핵심은 ETH $2,000이에요.\n여기서 버텨주면 BMNR도 반등할 수 있어요.\n\n목표가 $34.50(+83%)은 ETH 반등이 전제\n\n3/4",
-            "리스크 감내 범위 내에서만 들고 가세요.\n무리한 추매는 위험해요.\nETH $2,000이 깨지면 손절도 고려하세요\n\n4/4"
+            "MAVAN이 론칭했고 연 $300M+ 매출 전망이에요.\nTom Lee는 하락장에서 $138M을 더 넣었어요.\n\n경영진은 여전히 강한 확신을 갖고 있어요\n\n2/4",
+            "P/NAV 0.82x는 자산가치보다 18% 싸다는 뜻이에요.\n목표가 $34.50(+87.6%).\n\nETH가 버텨주면 반등 폭이 클 수 있어요\n\n3/4",
+            "핵심은 ETH $2,000이에요.\n무리한 추가매수보다는 리스크 관리가 먼저예요.\n분할매수, 감당 가능한 금액으로. 건강이 먼저입니다\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR: $20 지지 붕괴, $300M 매출도 ETH 앞에서 무력",
-          "text": "$BMNR $18.84(-6.5%), 시총 $8.86B\n\n7주간 지켜온 $20 지지선이 무너졌다. ETH $2,027, 옵션 만기와 고래 매도가 동시에 $2,000을 압박하고 있다.\n\nBeInCrypto: '$300M 스테이킹 매출에도 주가 고전.' MAVAN 론칭의 긍정적 효과가 ETH 가격 하락에 완전히 묻혔다.\n\nB. Riley Strong Buy 유지, 배당 5.1%, 목표가 $34.50(+83%). 극단적으로 싸지만 ETH $2,000 이탈 시 추가 폭락 위험.\n\nBuy. 리스크 감내 가능한 소액으로만."
+          "hook": "BMNR: $20 붕괴, B. Riley $34.50 상향, mNAV 1.0x",
+          "text": "$BMNR $18.39(-5.34%)\n\n$20 지지선이 무너졌다. ETH $2,002로 $2,000 직전. 크립토 전반 셀오프.\n\nB. Riley Strong Buy $34.50(+87.6%). MAVAN 론칭 3일차, 3.14M ETH 자체 스테이킹, 연 $300M+ 매출 전망.\n\nBeInCrypto: mNAV 1.0x. 시장이 프리미엄을 전혀 부여하지 않고 있다. P/NAV 0.82x, 배당 5.1%.\n\nTom Lee $138M ETH 추가 매수. 6M ETH(5%) 목표.\n\nBuy. ETH $2,000 사수 전제, 분할매수."
         },
         "witty": {
-          "hook": "MAVAN 론칭, B. Riley Buy, 배당 5.1%, 그런데 ETH가 $2,000 직전이라 다 무용지물",
-          "text": "$BMNR $18.84(-6.5%)\n\n$20 지지선, 7주간 버텨왔는데 오늘 무너졌다. 좋은 뉴스(MAVAN, B. Riley, 배당)가 쏟아지는데 ETH가 $2,027이면 다 소용없다.\n\n고래가 $23.4M 팔고 옵션 만기까지. NAV의 88%가 ETH인 회사에서 ETH 하락은 사형선고에 가깝다.\n\n목표가 $34.50(+83%). ETH가 $2,500이면 대박, $1,800이면 참사.\n\nBuy. 단, ETH에 확신 있고 리스크 감내 가능한 소액만."
+          "hook": "$20이 뚫렸다. 근데 B. Riley는 '거의 2배 간다'고 한다",
+          "text": "$BMNR $18.39(-5.34%)\n\n7주간 철옹성이던 $20이 무너졌다. ETH $2,002. $2,000까지 $2.\n\n근데 B. Riley는 이 타이밍에 목표가를 $34.50으로 올렸다. 현재가의 거의 2배. 시장 vs 애널리스트, 극한의 괴리.\n\nTom Lee는 $138M을 더 넣고 'crypto winter 거의 끝났다'고 한다. mNAV 1.0x인데 배당은 5.1%.\n\n이 회사의 운명은 결국 ETH $2,000 한 줄에 달려있다. 사는 사람은 레버리지 반등, 아니면 $15까지 열려있다.\n\nBuy. 심장이 튼튼한 사람만."
         },
         "empathy": {
-          "hook": "BMNR 주주 여러분, $20 지지까지 무너져서 무서우시죠",
-          "text": "$BMNR $18.84(-6.5%), $20 지지 붕괴.\n\n7주간 버텨온 마지노선이 깨졌어요. ETH $2,027까지 내려왔고요. 정말 무서우시죠.\n\n하지만 MAVAN이 론칭했고 B. Riley는 Strong Buy를 유지했어요. 배당 5.1%도 있고요. 회사 자체는 좋아지고 있어요.\n\n문제는 ETH예요. $2,000이 핵심이에요. 여기서 버텨주면 반등할 수 있어요. 목표가 $34.50(+83%).\n\n리스크 감내 범위 내에서만 들고 가세요. 무리하지 마세요."
+          "hook": "BMNR 홀더 여러분, $20이 무너져서 정말 힘드시죠",
+          "text": "$BMNR $18.39(-5.34%). $20이 무너졌어요.\n\n7주간 버텨왔던 지지선이 깨지면 마음이 무겁죠. 52주 고점 $161 대비 -89%. 정말 오랫동안 참아오셨어요.\n\n하지만 B. Riley는 오히려 $34.50으로 올렸어요(+87.6%). MAVAN 론칭으로 연 $300M+ 매출 전망. Tom Lee는 하락장에서 $138M을 더 넣으며 확신을 보여줬어요.\n\nP/NAV 0.82x, 배당 5.1%. 펀더멘털은 나빠지지 않았어요.\n\n핵심은 ETH $2,000이에요. 리스크 관리가 먼저. 무리하지 마세요."
         }
       }
     }

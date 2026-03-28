@@ -2,156 +2,340 @@
   "symbol": "NVDA",
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-03-28",
-  "currentPrice": 167.52,
+  "currentPrice": 167.46,
   "marketCap": "$4.07T",
   "businessSummary": {
-    "oneLiner": "Dominant force in AI computing, powering global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue $215.9B (+65% YoY), net income $120B. Projects $1T cumulative orders for Blackwell and Rubin chips through 2027.",
-    "howTheyMakeMoney": ["Data center AI accelerators (80%+ of revenue)", "AI software platforms (CUDA, NIM, NemoClaw)", "Gaming GPUs", "Automotive (DRIVE)", "Networking (Spectrum-X)"],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing, operating a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue reached $215.9B (+65% YoY) with $120B net income. NVIDIA projects cumulative Blackwell and Rubin chip orders to reach $1T by 2027, aggressively targeting the AI inference market.",
+    "howTheyMakeMoney": [
+      "Data center AI accelerators (80%+ of revenue)",
+      "AI software platforms (CUDA, NIM, NemoClaw)",
+      "Gaming GPUs",
+      "Automotive (DRIVE)",
+      "Networking (Spectrum-X)"
+    ],
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
   "keyMetrics": [
-    {"name": "P/E (TTM)", "value": "34.95x", "interpretation": "Slight premium vs semiconductor avg 25x. Now near S&P 500 average. Motley Fool reported 'valuation drops below S&P 500 on forward earnings'"},
-    {"name": "Forward P/E", "value": "20.64x", "interpretation": "Based on FY27E EPS $8.30. Now BELOW S&P 500 forward P/E (~21x). Historic anomaly for world's #1 AI company"},
-    {"name": "PEG Ratio", "value": "0.54", "interpretation": "PEG below 1.0 signals undervaluation relative to growth. 0.54 with 65% growth is an extreme value signal"},
-    {"name": "Revenue (TTM)", "value": "$215.9B", "interpretation": "+65% YoY growth. Net margin 55.6%, ROE 101.5%. Unprecedented profitability"},
-    {"name": "RSI", "value": "35.79", "interpretation": "Approaching oversold (30). Down from 38.94. Technical bounce signal strengthening"},
-    {"name": "Next Earnings", "value": "May 20", "interpretation": "FY27 Q1 results. Full quarter of Blackwell revenue and Vera Rubin initial orders"}
+    {
+      "name": "P/E (TTM)",
+      "value": "34.95x",
+      "interpretation": "Premium to semiconductor sector avg 25x and S&P 500 avg 22x, but compressing rapidly. PEG 0.54 at 65% growth signals extreme undervaluation"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "20.64x",
+      "interpretation": "Now below S&P 500 avg of ~21x. First time ever the world's top AI company trades below market average forward P/E. Motley Fool calls it 'unprecedented'"
+    },
+    {
+      "name": "Revenue (TTM)",
+      "value": "$215.9B",
+      "interpretation": "+65% YoY growth. Data center accounts for 80%+ of revenue. Net margin 55.6%"
+    },
+    {
+      "name": "PEG Ratio",
+      "value": "0.54",
+      "interpretation": "PEG below 1.0 signals undervaluation relative to growth. 0.54 is extreme. High-growth + low-PEG combination is exceptionally rare"
+    },
+    {
+      "name": "FCF (Free Cash Flow)",
+      "value": "$96.68B",
+      "interpretation": "Annual FCF of $96.7B. P/FCF 42x. Cash generation is overwhelming with $62.56B cash on hand"
+    },
+    {
+      "name": "Next Earnings",
+      "value": "May 20, 2026",
+      "interpretation": "FY27 Q1 results. Full quarter of Blackwell revenue and early Vera Rubin order pipeline to be confirmed"
+    }
   ],
   "growthDrivers": [
-    {"title": "Forward P/E Falls Below S&P 500 (3/27)", "description": "Motley Fool reported NVDA's forward P/E (20.64x) dropped below the S&P 500 average. A 65%-growth company trading below market average is historically rare"},
-    {"title": "$1T Cumulative AI Chip Orders Through 2027", "description": "Jensen Huang announced at GTC 2026 that Blackwell and Vera Rubin cumulative orders will reach at least $1T by 2027"},
-    {"title": "Jensen Huang: 'AGI Achieved,' $3T Revenue Target (3/24)", "description": "Declared AGI achievement on Lex Fridman podcast, called growth 'inevitable,' set $3T revenue target"},
-    {"title": "Motley Fool: $450 by 2028 (+169%) (3/26)", "description": "Projects NVDA could reach $450 by 2028 if AI infrastructure investment cycle continues"},
-    {"title": "NemoClaw Open-Source AI Agent Platform", "description": "Unveiled at GTC for enterprise autonomous AI agent development. CNBC called it NVIDIA's most important strategic pivot"},
-    {"title": "Energy Company Partnerships (AI Factories)", "description": "Partnered with 6 energy companies at CERAWeek 2026 for AI factory grid asset integration"}
+    {
+      "title": "Forward P/E drops below S&P 500, historic anomaly (3/27)",
+      "description": "Motley Fool reports NVDA's Forward P/E of 20.64x has fallen below the S&P 500 average (~21x) for the first time ever. An AI leader trading below market average valuation signals potential re-rating"
+    },
+    {
+      "title": "Wolfe Research: GTC could trigger 60% rally (3/27)",
+      "description": "Wolfe Research maintains Buy rating with $275 target. Expects the market to digest GTC 2026 announcements and trigger a 60%+ rally from current levels"
+    },
+    {
+      "title": "GTC 2026: Vera Rubin, NemoClaw open-source AI agent platform (3/25)",
+      "description": "GTC unveiled Vera Rubin GPU, Vera CPU, and NemoClaw open-source AI agent platform. Completes the 5-layer full-stack AI strategy and strengthens software ecosystem dominance"
+    },
+    {
+      "title": "Jensen Huang declares 'We achieved AGI', targets $3T revenue (3/24)",
+      "description": "On Lex Fridman podcast, Jensen Huang declared AGI achieved and set a $3T revenue target. Sparked debate about potential $10T valuation"
+    },
+    {
+      "title": "Cumulative AI chip orders to reach $1T by 2027",
+      "description": "Blackwell and Vera Rubin cumulative orders projected to reach at least $1T by 2027, doubling the previous $500B forecast"
+    },
+    {
+      "title": "Energy partnerships with 6 companies (AI Factory grid)",
+      "description": "Announced AI Factory grid asset partnerships with AES, Constellation, Invenergy, NextEra, Nscale, and Vistra at CERAWeek 2026"
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
+    "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      {"type": "Ecosystem Lock-in", "description": "5M+ CUDA developers. Switching costs extremely high, maintaining GPU market dominance"},
-      {"type": "Vertical Integration", "description": "GPU, CPU (Vera), networking (Spectrum-X), software (CUDA, NIM, NemoClaw) full-stack"},
-      {"type": "Annual Architecture Roadmap", "description": "Hopper, Blackwell, Vera Rubin annual cycle. 2-3 year tech lead over competitors"},
-      {"type": "Economies of Scale", "description": "FY26 revenue $215.9B, largest in semiconductors. R&D spending dwarfs competitors"}
+      {
+        "type": "Ecosystem lock-in",
+        "description": "CUDA developer ecosystem exceeds 5 million. Switching costs are extremely high, maintaining GPU market dominance"
+      },
+      {
+        "type": "Vertical integration",
+        "description": "Full-stack offering spanning GPU, CPU (Vera), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw)"
+      },
+      {
+        "type": "Annual architecture roadmap",
+        "description": "Hopper, Blackwell, Vera Rubin annual product cadence maintains 2-3 year technology lead over competitors"
+      },
+      {
+        "type": "Economies of scale",
+        "description": "FY26 revenue of $215.9B is the largest in the semiconductor industry. R&D investment dwarfs all competitors"
+      }
     ],
     "competitors": [
-      {"name": "AMD", "detail": "MI300X entered AI GPU market but large gap in software ecosystem and scale"},
-      {"name": "Google TPU", "detail": "Strong for internal use. Limited external market influence"},
-      {"name": "Amazon Trainium", "detail": "AWS-optimized chip. Lags NVIDIA in versatility"},
-      {"name": "Broadcom", "detail": "Custom ASICs for large cloud providers. Cannot compete in general market"}
+      {
+        "name": "AMD",
+        "detail": "MI300X entered the AI GPU market but lags significantly in software ecosystem and scale. Data center AI share below 10%"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "Strong for internal use with custom AI chips. Limited external market impact"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "AWS-optimized chip. Falls short of NVIDIA in general-purpose versatility"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "Custom ASICs for large cloud providers. Cannot compete in the general-purpose market"
+      }
     ]
   },
   "recentNews": [
-    {"date": "2026-03-27", "headline": "Motley Fool: 'NVDA Forward PE Drops Below S&P 500'", "significance": "Forward P/E 20.64x now below S&P 500 average. Historic moment: world's #1 AI company cheaper than market average", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/27/stock-market-today-march-27-nvidia-slides-as-valuation-drops-below-sp-500-on-forward-earnings/"},
-    {"date": "2026-03-27", "headline": "NVDA -2.17% to $167.52, RSI 35.79 Nearing Oversold", "significance": "Fifth weekly decline. Dow enters correction. Market cap shrinks to $4.07T", "url": "https://stockanalysis.com/stocks/nvda/statistics/"},
-    {"date": "2026-03-27", "headline": "Watcher.guru: 'GTC 2026 Highlight Could Fuel 60% Rally'", "significance": "Vera Rubin and NemoClaw could catalyze significant long-term upside", "url": "https://watcher.guru/news/nvidia-nvda-stock-this-gtc-2026-highlight-to-fuel-60-rally"},
-    {"date": "2026-03-27", "headline": "BetterInvesting Magazine Names NVDA 'Stock to Study'", "significance": "Selected for June/July issue. Current valuation deemed educationally and investment-worthy", "url": "https://www.marketscreener.com/news/betterinvestinga-magazine-update-on-nvidia-corp-nasdaq-nvda-and-tennant-company-nyse-tnc-ce7e51d8d881f221"},
-    {"date": "2026-03-26", "headline": "$2.5B AI Chip Smuggling Case Reported", "significance": "Three men attempted to smuggle Nvidia-equipped AI servers to China. Export regulation tightening risk", "url": "https://en.wikipedia.org/wiki/Nvidia"}
+    {
+      "date": "2026-03-27",
+      "headline": "Motley Fool: NVDA Forward P/E drops below S&P 500, unprecedented for AI leader",
+      "significance": "First time ever the world's top AI company trades below market average forward P/E of 21x. Signals potential valuation re-rating",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "Wolfe Research maintains Buy, $275 target, sees GTC as catalyst for 60% rally",
+      "significance": "Wolfe expects market to digest GTC announcements and rally 60%+. Reaffirms Buy rating",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "GTC 2026: Vera Rubin, Vera CPU, NemoClaw AI agent platform unveiled",
+      "significance": "Next-gen GPU, custom CPU, and open-source AI agent platform announced. Full-stack AI strategy complete",
+      "url": "https://nvidianews.nvidia.com/news/gtc-2026-keynote"
+    },
+    {
+      "date": "2026-03-24",
+      "headline": "Jensen Huang on Lex Fridman: 'We achieved AGI', $3T revenue goal",
+      "significance": "AGI declaration and long-term $3T revenue target sparked $10T valuation debate",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/"
+    },
+    {
+      "date": "2026-03-24",
+      "headline": "Post-GTC sell-the-news pressure persists amid Middle East macro headwinds",
+      "significance": "Despite strong GTC announcements, stock continues to decline. Geopolitical risks and oil prices weigh on tech broadly",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
+    }
   ],
   "analystOpinions": {
-    "consensusTarget": 279,
+    "consensusTarget": 276,
     "highTarget": 360,
     "lowTarget": 150,
-    "upsidePercent": 66.5,
+    "upsidePercent": 64.8,
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 analysts rate Buy. Upside expanded from 63% to 66.5% on price decline. Zero Sell ratings. Forward PE below S&P 500 makes the investment case dramatic"
+    "notableComment": "Wolfe Research: GTC could trigger 60% rally. MarketBeat consensus $275.95, WallStreetZen avg $279. 42/45 Buy, 0 Sell. Rosenblatt $325, Tigress $360 high targets"
   },
   "risks": [
-    {"severity": "high", "title": "RSI 35.79, Below Both Key SMAs", "description": "Below 50-day ($183.49) and 200-day ($179.23). First time since 2024. Technical weakness persists"},
-    {"severity": "high", "title": "Market-Wide Panic, Dow in Correction", "description": "Dow -793pts. VIX 31.05, oil $112, 5th weekly loss. Macro deteriorating"},
-    {"severity": "high", "title": "China Export Controls + Smuggling Case", "description": "$2.5B smuggling case could trigger tighter restrictions. $15-20B annual opportunity at risk"},
-    {"severity": "medium", "title": "AI Bubble Concerns", "description": "Wall Street lukewarm on GTC. DeepSeek shock raised AI infra efficiency questions"},
-    {"severity": "medium", "title": "Custom ASIC Competition", "description": "Broadcom, Google TPU, Amazon Trainium accelerating self-reliance efforts"}
+    {
+      "severity": "high",
+      "title": "Trading below both 50-day and 200-day moving averages",
+      "description": "Below 50-day SMA ($170.80) and 200-day SMA ($173.77). Both key moving averages breached for first time since 2024. Further downside risk remains"
+    },
+    {
+      "severity": "high",
+      "title": "Geopolitical risks and macro deterioration",
+      "description": "Middle East conflict ongoing, oil prices surging, Nasdaq down 16% from highs. Post-GTC sell-the-news pressure has not abated"
+    },
+    {
+      "severity": "high",
+      "title": "China export controls and smuggling case fallout",
+      "description": "US AI chip export restrictions to China continue. $2.5B smuggling case adds pressure for stricter enforcement. $15-20B annual revenue at risk"
+    },
+    {
+      "severity": "medium",
+      "title": "AI bubble concerns and multiple compression",
+      "description": "Stock down 21% from 52-week high. Post-DeepSeek debate on AI infrastructure spending efficiency persists. Wall Street was lukewarm on GTC"
+    },
+    {
+      "severity": "medium",
+      "title": "Custom ASIC competition intensifying",
+      "description": "Broadcom, Google TPU, Amazon Trainium accelerating in-house chip development. Large cloud providers actively reducing NVIDIA dependence"
+    }
   ],
   "buyReasons": [
-    {"title": "Forward PE Below S&P 500, Historic Undervaluation", "rationale": "20.64x forward P/E is below market average. A 65%-growth #1 AI company at this valuation is extraordinary"},
-    {"title": "PEG 0.54, Textbook Value Signal", "rationale": "Below 1.0 = undervalued vs growth. 0.54 is an extreme signal. Rare high-growth + low-PEG combination"},
-    {"title": "42/45 Analysts Buy, 66.5% Upside", "rationale": "Consensus $279. Zero Sell ratings. Fundamental confidence is unshakeable"},
-    {"title": "FCF $96.7B, Cash $62.6B", "rationale": "Annual free cash flow of $96.7B. Ample firepower to weather any macro storm"}
+    {
+      "title": "Forward P/E below S&P 500 for the first time ever",
+      "rationale": "Forward P/E of 20.64x has dropped below S&P 500 avg (~21x). A 65% growth AI leader trading below market average is unprecedented. PEG 0.54 signals extreme undervaluation"
+    },
+    {
+      "title": "42/45 analysts at Buy, 65% upside potential",
+      "rationale": "Consensus target $276, high $360. Decline has expanded upside to 65%. Zero sell ratings demonstrates Wall Street's unwavering conviction in fundamentals"
+    },
+    {
+      "title": "$1T order backlog with unmatched earnings visibility",
+      "rationale": "Blackwell + Vera Rubin cumulative orders at $1T. Revenue visibility over the next 2-3 years is the highest in the semiconductor industry. May 20 earnings as catalyst"
+    },
+    {
+      "title": "Wolfe Research: GTC could spark 60% rally",
+      "rationale": "Wolfe Research argues the market has yet to fully digest GTC's strategic significance. Expects 60%+ rally as announcements are absorbed"
+    }
   ],
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
     "currentPositionPercent": 64.4,
-    "sma50": 183.49,
+    "sma50": 170.80,
     "sma50Signal": "below",
-    "sma200": 179.23,
+    "sma200": 173.77,
     "sma200Signal": "below",
-    "rsi": 35.79,
+    "rsi": 41,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Forward P/E dropped below S&P 500 average. The world's #1 AI company with 65% growth is now cheaper than the market. This is a historically rare anomaly",
-    "RSI at 35.79 approaching oversold with both 50-day and 200-day SMAs breached. Market panic (Dow correction, VIX 31) is dragging the stock down regardless of fundamentals",
-    "$1T order backlog, 55.6% net margin, 42/45 Buy ratings. The smuggling case raises regulatory concerns but hasn't changed the company's growth trajectory one bit",
-    "Closed at $167.52. PEG 0.54, 66.5% upside to consensus. When macro stabilizes, this will be among the fastest to recover. Dollar-cost averaging now. Buy"
+    "NVDA's Forward P/E of 20.64x has dropped below the S&P 500 average (21x). Motley Fool calls this 'unprecedented' for the world's top AI company. PEG 0.54 signals extreme undervaluation against 65% growth",
+    "Trading below both 50-day SMA ($170.80) and 200-day SMA ($173.77). Middle East geopolitics and post-GTC sell-the-news pressure continue to weigh on the stock technically",
+    "However, 42/45 analysts rate Buy with a $276 target (+65%). Wolfe Research sees GTC as a catalyst for a 60% rally. Zero fundamental deterioration",
+    "RSI 41. Closing at $167.46. This is macro-driven weakness, not a company problem. Dollar-cost averaging ahead of May 20 earnings is the play. Buy"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Forward PE below S&P 500 is a macro-panic-created opportunity. PEG 0.54, 42/45 Buy, 66.5% upside. Fundamentals intact, only the price has fallen. Prime dollar-cost averaging opportunity",
+    "summary": "Forward P/E falling below S&P 500 average is a first-ever event for the world's top AI company. PEG 0.54, 42/45 Buy, target $276 (+65%). Technical weakness is macro-driven, not fundamental. Prime opportunity for dollar-cost averaging",
     "horizon": "6-12 months"
   },
   "sources": [
-    {"name": "StockAnalysis - NVDA $167.52", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54, RSI 35.79"},
-    {"name": "Motley Fool - Forward PE Below S&P", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/27/stock-market-today-march-27-nvidia-slides-as-valuation-drops-below-sp-500-on-forward-earnings/", "description": "NVDA forward P/E drops below S&P 500 average"},
-    {"name": "Watcher.guru - GTC Rally", "url": "https://watcher.guru/news/nvidia-nvda-stock-this-gtc-2026-highlight-to-fuel-60-rally", "description": "GTC 2026 highlights could fuel 60% rally"},
-    {"name": "MarketScreener - BetterInvesting", "url": "https://www.marketscreener.com/news/betterinvestinga-magazine-update-on-nvidia-corp-nasdaq-nvda-and-tennant-company-nyse-tnc-ce7e51d8d881f221", "description": "Named 'Stock to Study'"},
-    {"name": "Yahoo Finance - Market Selloff", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html", "description": "Dow -793pts, Nasdaq -2.15%, VIX 31.05"},
-    {"name": "Motley Fool - $450 Target", "url": "https://www.fool.com/investing/2026/03/26/prediction-nvidia-stock-could-surge-150-by-2028-bu/", "description": "150% upside to $450 by 2028"},
-    {"name": "Motley Fool - Jensen Huang AGI", "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/", "description": "AGI achievement, $3T revenue target"},
-    {"name": "NVIDIA IR - Energy Partnerships", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx", "description": "6 energy companies AI factory partnership"},
-    {"name": "WallStreetZen - EPS Estimates", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/stock-forecast", "description": "FY26 EPS $4.90, FY27 $8.30 consensus"}
+    {
+      "name": "Motley Fool - NVDA Forward P/E below S&P 500",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
+      "description": "Analysis of unprecedented Forward P/E 20.64x dropping below S&P 500 average"
+    },
+    {
+      "name": "MarketBeat - NVDA Price Target $275.95",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "Analyst consensus $275.95, 42 Buy / 3 Hold / 0 Sell"
+    },
+    {
+      "name": "WallStreetZen - NVDA Target $279",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/stock-forecast",
+      "description": "Average target $279, FY27 EPS $8.30 consensus"
+    },
+    {
+      "name": "StockAnalysis - NVDA Statistics",
+      "url": "https://stockanalysis.com/stocks/nvda/statistics/",
+      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54, 52-week range"
+    },
+    {
+      "name": "Motley Fool - Jensen Huang AGI Declaration",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
+      "description": "Lex Fridman podcast AGI claim, $3T revenue target"
+    },
+    {
+      "name": "TechCrunch - Wall Street GTC Reaction",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "description": "Post-GTC sell-the-news pressure and Wall Street analysis"
+    },
+    {
+      "name": "NVIDIA IR - Energy Partnerships",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Emerald-AI-Join-Leading-Energy-Companies-to-Pioneer-Flexible-AI-Factories-as-Grid-Assets/default.aspx",
+      "description": "AI Factory grid partnerships with 6 energy companies"
+    },
+    {
+      "name": "Robinhood - NVDA Quote",
+      "url": "https://robinhood.com/us/en/stocks/NVDA/",
+      "description": "Market cap $4.07T, close $167.46 (-2.21%)"
+    },
+    {
+      "name": "NVIDIA GTC 2026 Keynote",
+      "url": "https://nvidianews.nvidia.com/news/gtc-2026-keynote",
+      "description": "Vera Rubin, Vera CPU, NemoClaw announcements"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $168 | Forward PE below S&P 500. The world's #1 AI stock is cheaper than the market",
-      "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x, now below S&P 500 average (21x). The world's #1 AI company growing 65% is trading cheaper than the market.\n\nTarget $279 (+66.5%)\n\n1/4",
+      "hook": "NVDA $167 | Forward P/E just dropped below S&P 500. First time ever.",
+      "text": "$NVDA $167.46 (-2.21%)\n\nForward P/E 20.64x just fell below the S&P 500 average (21x). The world's #1 AI company is now cheaper than the market average. First time ever.\n\nPEG 0.54. Growing 65%. This is a sale.\n\n1/4",
       "thread": [
-        "PEG 0.54. Net margin 55.6%. FCF $96.7B.\n42/45 analysts rate Buy. Zero Sells.\n\nThis isn't a fundamental problem. It's a macro panic discount\n\n2/4",
-        "Dow enters correction. VIX 31. Oil $112.\n5th weekly decline. RSI 35.79 nearing oversold.\n\nWhen panic ends, this rebounds first\n\n3/4",
-        "Motley Fool sees $450 by 2028 (+169%).\n$1T order backlog isn't going anywhere.\n\nBuy. Dollar-cost average now. May 20 earnings as catalyst\n\n4/4"
+        "Wolfe Research sees a 60% rally ahead:\n- Target $275\n- 42/45 analysts Buy, 0 Sell\n- $1T order backlog\n- Net margin 55.6%\n\nThe market is underpricing GTC\n\n2/4",
+        "Risks are real:\n- Below 50-day and 200-day SMAs\n- Middle East conflict + sell-the-news\n- Export control concerns\n- Down 21% from 52-week high\n\nMacro is the problem, not NVIDIA\n\n3/4",
+        "RSI 41. Approaching oversold.\nTarget $276 (+65%). PEG 0.54.\n\nMay 20 earnings is the catalyst. Dollar-cost average now. Buy.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: Forward PE below S&P 500, a historic buying opportunity",
-      "text": "$NVDA $167.52(-2.17%), market cap $4.07T\n\nForward P/E 20.64x dropped below the S&P 500 average. The world's #1 AI company growing 65% is now cheaper than the market. This is historically unprecedented.\n\nPEG 0.54, 42/45 Buy, target $279 (+66.5%). Net margin 55.6%, FCF $96.7B. Fundamentals are impeccable.\n\nRSI 35.79 nearing oversold. Dow correction and VIX 31 macro panic dragging prices down.\n\nBuy. Dollar-cost average now. When macro stabilizes, fastest rebound expected."
+      "hook": "NVDA: Forward P/E below S&P 500, a historic undervaluation signal",
+      "text": "$NVDA $167.46 (-2.21%), market cap $4.07T\n\nMotley Fool reports: NVDA Forward P/E of 20.64x has dropped below the S&P 500 average (21x). The world's #1 AI company trading below market average is unprecedented.\n\nPEG 0.54 at 65% growth. Wolfe Research sees GTC as catalyst for 60%+ rally. 42/45 Buy, target $276 (+65%).\n\nBelow 50-day and 200-day SMAs, but this is macro pressure, not fundamental weakness.\n\nRSI 41. Dollar-cost average opportunity. Buy."
     },
     "telegram": {
       "hook": "NVDA Daily Analysis (3/28)",
-      "text": "NVDA $167.52 (-2.17%) | Mkt Cap $4.07T\nP/E 34.95x | Fwd 20.64x | PEG 0.54 | RSI 35.79\n\nKey Changes\n- Forward PE drops below S&P 500 avg (Motley Fool)\n- RSI 35.79 nearing oversold\n- 5th weekly decline, Dow enters correction\n\nKey News\n- BetterInvesting 'Stock to Study'\n- Watcher.guru: GTC could fuel 60% rally\n- $2.5B AI chip smuggling raises export concerns\n\nStrengths\n- 42/45 Buy, target $279 (+66.5%)\n- PEG 0.54, FCF $96.7B\n\nVerdict: Buy. Forward PE below S&P is a historic opportunity"
+      "text": "NVDA $167.46 (-2.21%) | MCap $4.07T\nP/E 34.95x (sector 25x) | Fwd 20.64x (below S&P 21x!) | PEG 0.54 | RSI 41\n\nKey Changes\n- Forward P/E dropped below S&P 500 avg (first time ever)\n- Below 50-day ($170.80) and 200-day ($173.77) SMAs\n- Wolfe Research: GTC could trigger 60% rally\n\nKey Issues\n- Motley Fool: unprecedented valuation anomaly\n- Post-GTC sell-the-news persists\n- Middle East geopolitics + macro headwinds\n\nStrengths\n- 42/45 Buy, target $276 (+65%)\n- $1T order backlog\n- PEG 0.54 extreme undervaluation\n\nVerdict: Buy. Macro-suppressed price, fundamentals intact"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $168 | Forward PE below S&P 500. The world's #1 AI stock is cheaper than the market",
-          "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x, now below S&P 500 average (21x). The world's #1 AI company growing 65% is trading cheaper than the market.\n\nTarget $279 (+66.5%)\n\n1/4",
-          "thread": ["PEG 0.54. Net margin 55.6%. FCF $96.7B.\n42/45 analysts rate Buy. Zero Sells.\n\nThis isn't a fundamental problem. It's a macro panic discount\n\n2/4", "Dow enters correction. VIX 31. Oil $112.\n5th weekly decline. RSI 35.79 nearing oversold.\n\nWhen panic ends, this rebounds first\n\n3/4", "Motley Fool sees $450 by 2028 (+169%).\n$1T order backlog isn't going anywhere.\n\nBuy. Dollar-cost average now. May 20 earnings as catalyst\n\n4/4"]
+          "hook": "NVDA $167 | Forward P/E just dropped below S&P 500. First time ever.",
+          "text": "$NVDA $167.46 (-2.21%)\n\nForward P/E 20.64x just fell below the S&P 500 average (21x). The world's #1 AI company is now cheaper than the market average. First time ever.\n\nPEG 0.54. Growing 65%. This is a sale.\n\n1/4",
+          "thread": [
+            "Wolfe Research sees a 60% rally ahead:\n- Target $275\n- 42/45 analysts Buy, 0 Sell\n- $1T order backlog\n- Net margin 55.6%\n\nThe market is underpricing GTC\n\n2/4",
+            "Risks are real:\n- Below 50-day and 200-day SMAs\n- Middle East conflict + sell-the-news\n- Export control concerns\n- Down 21% from 52-week high\n\nMacro is the problem, not NVIDIA\n\n3/4",
+            "RSI 41. Approaching oversold.\nTarget $276 (+65%). PEG 0.54.\n\nMay 20 earnings is the catalyst. Dollar-cost average now. Buy.\n\n4/4"
+          ]
         },
         "witty": {
-          "hook": "The world's #1 AI company is cheaper than the S&P 500. The market has lost its mind",
-          "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x. Below the S&P 500 average. A company growing 65% with 55.6% margins is valued like a utility stock. This is what panic looks like.\n\n1/4",
-          "thread": ["PEG 0.54. In textbooks, this is the definition of 'undervalued growth stock.'\n42/45 Buy. Zero Sell.\n\nEveryone says buy. The market keeps selling\n\n2/4", "Dow in correction. VIX 31. Iran. Oil $112.\nBut $1T in orders doesn't disappear because of geopolitics.\n\n3/4", "RSI 35.79. Almost oversold.\nBuying the world's #1 at these prices is a gift.\n\nBuy. May 20 earnings will prove it\n\n4/4"]
+          "hook": "The world's #1 AI company is cheaper than the S&P 500. Make it make sense.",
+          "text": "$NVDA $167.46 (-2.21%)\n\nForward P/E 20.64x. S&P 500 average is 21x. The king of AI is cheaper than the index average. Does this make any sense?\n\nPEG 0.54. Not a value stock. Growing 65%.\n\n1/4",
+          "thread": [
+            "Wolfe Research: 'GTC could trigger 60% rally'\n42/45 analysts say Buy.\nZero say Sell.\n\nEveryone is bullish except the stock price.\n\n2/4",
+            "Why is it falling?\n- Middle East conflict\n- Oil surging\n- GTC sell-the-news\n\nNVIDIA did nothing wrong. The planet is the problem.\n\n3/4",
+            "RSI 41. Down 21% from highs.\n$1T order backlog still there.\n\nIf you don't buy here, future you will have words. Buy.\n\n4/4"
+          ]
         },
         "empathy": {
-          "hook": "NVDA holders, five straight weeks of selling is exhausting",
-          "text": "$NVDA $167.52(-2.17%)\n\nFive weeks of decline. 21% off the high. With the Dow in correction, there's nowhere to feel safe. It's stressful.\n\nBut this isn't about NVIDIA\n\n1/4",
-          "thread": ["Forward PE is below the S&P 500 now. 65% growth company cheaper than the market. PEG 0.54. 42/45 Buy.\n\nThis kind of opportunity doesn't come often\n\n2/4", "Oil $112 and Iran are the cause. The company hasn't changed one bit.\n\nPanic passes. The numbers stay\n\n3/4", "Dollar-cost average slowly. Wait for May 20.\n$1T order backlog is real.\n\nLong-term, these prices will look cheap\n\n4/4"]
+          "hook": "NVDA holders, the daily declines are exhausting. We get it.",
+          "text": "$NVDA $167.46 (-2.21%)\n\nDown 21% from the highs. Watching red every day is draining. The anxiety is completely valid.\n\nBut this is not a company problem.\n\n1/4",
+          "thread": [
+            "Forward P/E just dropped below the S&P 500 average. First time ever.\nPEG 0.54. 42/45 analysts say Buy.\n\nFear created this price, not fundamentals.\n\n2/4",
+            "Middle East tensions and macro headwinds are temporary.\n$1T order backlog and 65% growth aren't going anywhere.\n\nWolfe Research expects a 60% bounce ahead.\n\n3/4",
+            "RSI 41. No need to rush.\nDollar-cost average gradually. May 20 earnings will speak.\n\nLong-term, this price will look like a gift. Buy.\n\n4/4"
+          ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: Forward PE below S&P 500, a historic buying opportunity",
-          "text": "$NVDA $167.52(-2.17%), market cap $4.07T\n\nForward P/E 20.64x dropped below the S&P 500 average. The world's #1 AI company growing 65% is now cheaper than the market. This is historically unprecedented.\n\nPEG 0.54, 42/45 Buy, target $279 (+66.5%). Net margin 55.6%, FCF $96.7B. Fundamentals are impeccable.\n\nRSI 35.79 nearing oversold. Dow correction and VIX 31 macro panic dragging prices down.\n\nBuy. Dollar-cost average now. When macro stabilizes, fastest rebound expected."
+          "hook": "NVDA: Forward P/E below S&P 500, a historic undervaluation signal",
+          "text": "$NVDA $167.46 (-2.21%), market cap $4.07T\n\nMotley Fool reports: NVDA Forward P/E of 20.64x has dropped below the S&P 500 average (21x). The world's #1 AI company trading below market average is unprecedented.\n\nPEG 0.54 at 65% growth. Wolfe Research sees GTC as catalyst for 60%+ rally. 42/45 Buy, target $276 (+65%).\n\nBelow 50-day and 200-day SMAs, but this is macro pressure, not fundamental weakness.\n\nRSI 41. Dollar-cost average opportunity. Buy."
         },
         "witty": {
-          "hook": "NVDA Forward PE below S&P 500: the market is giving away the world's best company",
-          "text": "$NVDA $167.52(-2.17%)\n\nForward P/E 20.64x. Below the S&P 500 average. A 65%-growth company with 55.6% margins priced like a slow-moving blue chip. This is what war-driven panic looks like.\n\n42/45 Buy, zero Sell. PEG 0.54. $1T order backlog. Motley Fool sees $450 by 2028. The math screams buy while the market screams sell.\n\nRSI 35.79. Almost oversold. The setup is textbook.\n\nBuy. In five years, people will wish they bought here."
+          "hook": "NVDA cheaper than S&P 500. The market has lost the plot.",
+          "text": "$NVDA $167.46 (-2.21%)\n\nForward P/E 20.64x. S&P 500 average: 21x. The world's #1 AI company costs less than the index. This is a valuation bug.\n\n65% growth. PEG 0.54. $1T backlog. 55.6% net margin. Wolfe Research sees a 60% rally.\n\nMiddle East war and oil prices are crushing tech stocks, but NVIDIA's numbers haven't changed by 1%.\n\nRSI 41. Buying the world's #1 at this price is a gift. Buy."
         },
         "empathy": {
-          "hook": "NVDA investors, five straight weeks of decline is tough on anyone",
-          "text": "$NVDA $167.52(-2.17%), 21% off highs.\n\nFive straight weeks. The Dow's in correction too. Nowhere feels safe right now.\n\nBut forward PE is below the S&P 500 now. This is Iran and oil, not NVIDIA. PEG 0.54, 42/45 Buy. The fundamentals haven't moved an inch.\n\n$1T order backlog, 55.6% margins, $62.6B cash. This company isn't going anywhere.\n\nDollar-cost average. Don't rush. May 20 earnings will reaffirm. Long-term, these prices will feel like a steal."
+          "hook": "NVDA investors, the continued decline is tough. Fundamentals are still strong.",
+          "text": "$NVDA $167.46 (-2.21%), down 21% from highs.\n\nSeeing red every day is exhausting. The anxiety when both SMAs are broken is real.\n\nBut Forward P/E dropping below S&P 500 average is a first. PEG 0.54, 42/45 Buy, target $276 (+65%). This is fear-driven pricing, not fundamental weakness.\n\nWolfe Research expects GTC to trigger a 60% bounce. Dollar-cost average gradually. Wait for May 20 earnings.\n\nLong-term, this price will look like a gift. Buy."
         }
       }
     }

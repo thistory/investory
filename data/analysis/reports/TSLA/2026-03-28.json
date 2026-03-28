@@ -3,7 +3,7 @@
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-03-28",
   "currentPrice": 361.83,
-  "marketCap": "$1.36T",
+  "marketCap": "$1.16T",
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
     "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
@@ -19,13 +19,13 @@
   "keyMetrics": [
     {
       "name": "P/E (TTM)",
-      "value": "357.6x",
-      "interpretation": "S&P 500 평균 약 23x, 자동차 섹터 평균 약 12x 대비 극단적 프리미엄. 전일 368x에서 하락했으나 여전히 비정상적으로 높다"
+      "value": "335x",
+      "interpretation": "S&P 500 평균 약 23x, 자동차 섹터 평균 약 12x 대비 극단적 프리미엄. 주가 하락에 따라 전일 368x에서 소폭 하락했으나 여전히 극고배율"
     },
     {
       "name": "Forward P/E",
-      "value": "178.9x",
-      "interpretation": "2026년 EPS 전망 $2.02 기준. 성장주 평균 30~40x 대비 4배 이상. 로보택시, 에너지, 로봇의 폭발적 성장을 선반영"
+      "value": "174x",
+      "interpretation": "2026년 EPS 전망 $2.08 기준. 성장주 평균 30-40x 대비 4배 이상 높음. 로보택시, 에너지 사업의 폭발적 성장이 선반영된 수치"
     },
     {
       "name": "매출 성장률 (YoY)",
@@ -33,45 +33,45 @@
       "interpretation": "2025년 매출 948억 달러로 전년 대비 1% 성장에 그침. 2026년은 15% 성장한 1,089억 달러 전망"
     },
     {
-      "name": "Q1 EV 시장 점유율",
-      "value": "50%+ (미국 EV)",
-      "interpretation": "Q1 미국 신규 EV 판매 28% 급감했으나 테슬라는 50% 이상 점유율로 'big winner' 평가. 전체 자동차 시장 3.3% 점유 유지"
+      "name": "Q1 2026 인도량 컨센서스",
+      "value": "365,645대",
+      "interpretation": "23명 애널리스트 컨센서스. 전년 Q1(336,681대) 대비 +8%지만, Q4 2025(418,227대)보다 13% 감소. Morgan Stanley는 인도량이 불 케이스의 핵심이라고 강조"
     },
     {
-      "name": "RSI",
-      "value": "33.86",
-      "interpretation": "과매도 영역(30 이하) 근접. 전일 37.49에서 하루 만에 급락. 단기 기술적 반등 가능성 높아지는 구간"
+      "name": "시가총액",
+      "value": "$1.16T",
+      "interpretation": "전일 대비 약 $240억 추가 감소. YTD -20%. 도요타, 폭스바겐, GM, 포드 합산보다 큰 규모이나 빠르게 축소 중"
     },
     {
-      "name": "다음 실적발표",
-      "value": "4월 21일",
-      "interpretation": "Q1 인도량 컨센서스 365,645대. 실적과 Cybercab 양산 업데이트가 단기 방향성 결정"
+      "name": "RSI (14일)",
+      "value": "33",
+      "interpretation": "과매도 기준선 30에 근접. 매도 압력이 극심하나 기술적 반등 가능성도 시사. 다만 추세 전환 확인 전까지는 낙폭 확대 가능"
     }
   ],
   "growthDrivers": [
     {
-      "title": "EV 시장 28% 급감 속 테슬라 '빅 위너' (3/27)",
-      "description": "Benzinga 보도: 미국 Q1 신규 EV 판매가 28% 급감했으나 테슬라의 시장 점유율은 오히려 50% 이상으로 회복. 고유가($112)에 EV 검색량 급증으로 분기 후반 수요가 살아나고 있다"
+      "title": "EV 시장 28% 급감 속 테슬라 시장점유율 50%+ 확대 (3/27)",
+      "description": "전체 EV 시장이 28% 급감하는 가운데에도 테슬라는 시장점유율을 50% 이상으로 끌어올렸다. 경쟁사 대비 압도적 브랜드 파워와 충전 인프라가 불황기에 오히려 경쟁 우위로 작용"
     },
     {
-      "title": "유가 $112 돌파, EV 전환 가속",
-      "description": "이란 전쟁 확대로 브렌트유가 $112까지 치솟았다. 휘발유 가격 상승이 전기차 경제성을 극대화하며 소비자 전환 동기를 강화"
+      "title": "SpaceX IPO 준비 루머, 테슬라 밸류에이션 촉매 (3/25)",
+      "description": "SpaceX가 IPO를 준비 중이라는 루머가 확산. SpaceX 주식을 보유한 테슬라 투자자들에게 간접적 촉매로 작용할 수 있으며, 머스크 생태계 전체의 가치 재평가 가능성"
     },
     {
       "title": "Optimus3 로봇 영상 공개, 올여름 생산 시작 (3/25)",
-      "description": "테슬라가 Optimus3 휴머노이드 로봇의 감속기어와 정밀 손 설계 영상을 공개. 2026년 연말까지 100만 대 생산률 목표. Trefis는 로봇 사업의 가치를 $2~3조로 평가"
+      "description": "테슬라가 Optimus3 휴머노이드 로봇의 감속기어와 정밀 손 설계 영상을 공개. 2026년 연말까지 100만 대 생산률 목표. Trefis는 로봇 사업의 가치를 $2-3조로 평가"
     },
     {
       "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
       "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산 시작과 차세대 Roadster 공개가 4월에 동시 예정. 단기간에 두 가지 대형 카탈리스트 집중"
     },
     {
-      "title": "네덜란드 FSD 승인 4/10 예정, 유럽 확대 기대",
-      "description": "테슬라가 네덜란드 당국에 FSD Supervised 승인을 4월 10일까지 받을 것으로 기대. 승인되면 올 여름 EU 전체로 확대 가능"
+      "title": "Terafab $25B AI 칩 공장, Wedbush '게임 체인저'",
+      "description": "Wedbush가 Terafab 반도체 공장 계획을 '게임 체인저'라고 평가하며 $600 목표가를 재확인. AI5 칩 소량 생산 2026년 말 시작, 본격 양산은 2027년"
     },
     {
-      "title": "Terafab $25B AI 칩 공장, Wedbush '게임 체인저' (3/22~25)",
-      "description": "Wedbush가 Terafab 반도체 공장 계획을 '게임 체인저'라고 평가하며 $600 목표가를 재확인"
+      "title": "NHTSA FSD 조사 심화, 규제 리스크 부상 (3/19)",
+      "description": "NHTSA가 안개, 먼지 등 저시야 환경에서 FSD 성능 문제로 조사를 격상했다. Trefis는 이것이 '1조 달러 AI 테제'를 깨뜨릴 수 있다고 경고"
     }
   ],
   "competitiveAdvantage": {
@@ -97,7 +97,7 @@
     "competitors": [
       {
         "name": "BYD",
-        "detail": "2025년 454만 대 판매로 세계 최대 EV 판매량. 다만 2026년 2월 중국 내수 판매 65% 급감. Blade Battery 2.0 공개"
+        "detail": "중국 시장 1위, 유럽에서 100%+ 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
       },
       {
         "name": "Zoox (Amazon)",
@@ -116,65 +116,71 @@
   "recentNews": [
     {
       "date": "2026-03-27",
-      "headline": "TSLA -2.76% 하락, $361.83 마감, RSI 33.86 과매도 진입",
-      "significance": "5주 연속 하락. 다우가 공식 조정 영역(고점 대비 -10%)에 진입했고 나스닥도 -2.15% 급락. TSLA는 RSI 33.86으로 과매도 영역에 근접, 200일선($396) 아래에서 하락 가속",
-      "url": "https://stockanalysis.com/stocks/tsla/statistics/"
+      "headline": "TSLA -3.3% 하락, $361.83 마감. 인도량 우려가 SpaceX IPO 기대를 압도",
+      "significance": "Q1 인도 부진 우려와 HSBC의 $131 극단적 목표가가 센티먼트를 악화시켰다. 5거래일 연속 하락세로 기술적 약세 심화",
+      "url": "https://stockanalysis.com/stocks/tsla/history/"
     },
     {
       "date": "2026-03-27",
-      "headline": "Benzinga: 'EV 판매 28% 급감 속 테슬라가 빅 위너'",
-      "significance": "미국 Q1 EV 판매 28% 급감했으나 테슬라의 EV 시장 점유율이 50% 이상으로 회복. 전체 자동차 시장 3.3% 점유도 유지. 고유가에 EV 검색 급증으로 수요 회복 조짐",
-      "url": "https://247wallst.com/investing/2026/03/27/tesla-vs-byd-the-better-ev-stock-for-2026/"
+      "headline": "HSBC, 테슬라 $131 목표가 유지하며 '65% 추가 하락 가능' 경고",
+      "significance": "HSBC는 테슬라가 현재 가격에서 65% 더 떨어질 수 있다고 경고. Reduce 등급 유지. 극단적 약세론의 대표 사례로 시장 불안감 자극",
+      "url": "https://www.hsbc.com/insight/topics/tesla-stock-analysis"
     },
     {
       "date": "2026-03-27",
-      "headline": "Gene Munster: '테슬라 인도 데이터가 시장 촉매가 될 수 있다'",
-      "significance": "Deepwater Asset Management의 Gene Munster가 CNBC에서 테슬라의 Q1 인도량 데이터가 시장 전체 반등의 촉매제가 될 수 있다고 언급",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03272026-11935620"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "다우 -793pt, 조정 영역 진입, 5주 연속 하락",
-      "significance": "이란 전쟁에 유가 $112, VIX 31.05(+13%). 다우, 나스닥, S&P 모두 5주째 하락. 시장 전반의 패닉 매도세가 TSLA에도 영향",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html"
+      "headline": "EV 시장 28% 급감 속 테슬라 시장점유율 50%+ 달성",
+      "significance": "전체 EV 시장이 급감하는 와중에도 테슬라는 점유율을 오히려 확대. 경쟁사 대비 브랜드 파워와 인프라 우위가 불황기에 빛을 발하고 있다",
+      "url": "https://insideevs.com/news/tesla-ev-market-share-rises-slump/"
     },
     {
       "date": "2026-03-26",
       "headline": "Q1 2026 인도량 월스트리트 컨센서스 365,645대 공개",
-      "significance": "23명 애널리스트 평균. 전년 Q1(336,681대) 대비 +8%지만 Q4(418,227대)보다 13% 감소. 2026년 전체 168.9만 대(+3.3%) 전망",
+      "significance": "23명 애널리스트 평균. 전년 Q1(336,681대) 대비 +8%지만 Q4(418,227대)보다 13% 감소. Morgan Stanley: 인도량이 불 케이스의 핵심",
       "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "SpaceX IPO 준비 루머 확산, 머스크 생태계 재평가 기대",
+      "significance": "SpaceX가 IPO를 준비 중이라는 루머가 퍼지면서 테슬라 주가에도 간접적 촉매 가능성. 다만 인도량 우려에 묻히는 모습",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-25/spacex-ipo-preparation"
+    },
+    {
+      "date": "2026-03-23",
+      "headline": "Trip Chowdhry, 전 테슬라 불에서 매도 전환. 목표가 $150",
+      "significance": "대표적 테슬라 강세론자였던 Trip Chowdhry가 매도로 전환하며 $150 목표가 제시. '신봉자 이탈' 내러티브를 강화하는 신호",
+      "url": "https://www.cnbc.com/2026/03/23/trip-chowdhry-tesla-sell-rating.html"
     }
   ],
   "analystOpinions": {
-    "consensusTarget": 399,
+    "consensusTarget": 408,
     "highTarget": 600,
-    "lowTarget": 25,
-    "upsidePercent": 10.3,
-    "buyCount": 12,
-    "holdCount": 13,
-    "sellCount": 8,
-    "notableComment": "TipRanks 31명 애널리스트 평균 $399. Wedbush $600 최고가, Needham $25 최저가. 주가 $361.83으로 하락하면서 상승 여력이 10.3%로 확대. Gene Munster는 인도 데이터가 촉매제가 될 수 있다고 평가"
+    "lowTarget": 131,
+    "upsidePercent": 12.8,
+    "buyCount": 17,
+    "holdCount": 17,
+    "sellCount": 9,
+    "notableComment": "43명 애널리스트 중 15 Strong Buy, 2 Buy, 17 Hold, 9 Strong Sell. 메디안 $473으로 현재가 대비 30% 상승 여력이나, HSBC $131과 Trip Chowdhry $150 같은 극단적 약세론도 존재. Wedbush $600 최고가 유지"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "RSI 33.86, 과매도 진입 + 5주 연속 하락",
-      "description": "RSI가 33.86까지 떨어져 과매도 영역에 근접했다. 50일선($409)과 200일선($396) 모두 아래. 5주 연속 하락은 매도 모멘텀이 자체적으로 가속되는 국면임을 시사"
+      "title": "50일, 200일선 동시 이탈, 하락 추세 가속",
+      "description": "50일선($387)과 200일선($400) 모두 아래에서 거래 중. RSI 33으로 과매도 근접이나 추세 전환 신호 없음. 5거래일 연속 하락으로 모멘텀이 매우 부정적"
     },
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션, 성장 부진과 괴리",
-      "description": "TTM P/E 357.6x로 S&P 500 평균 23x의 15.5배. 매출 성장 +1%에 이 밸류에이션은 AI, 로보택시, 로봇이 모두 성공해야만 정당화"
+      "title": "극단적 밸류에이션 리스크",
+      "description": "TTM P/E 335x로 S&P 500 평균 23x의 14.5배. 성장 기대가 조금이라도 꺾이면 주가 급락 가능. Forward P/E 174x도 성장주 평균의 4배 이상"
     },
     {
       "severity": "high",
-      "title": "시장 전반 패닉, 다우 조정 영역 진입",
-      "description": "다우 -793pt로 공식 조정 영역. VIX 31.05(+13%), 유가 $112. 이란 전쟁 확대에 리스크오프 심리가 극에 달함"
+      "title": "Q1 인도량 우려 심화",
+      "description": "컨센서스 365,645대로 Q4 대비 13% 감소. HSBC는 이 수치마저 과대평가라고 보며 $131 목표가 유지. 인도량 미달 시 추가 급락 가능"
     },
     {
       "severity": "high",
-      "title": "Q1 EV 시장 28% 급감",
-      "description": "미국 Q1 신규 EV 판매 28% 급감, 전체 자동차 판매도 -6.5%. 테슬라 점유율은 유지했으나 절대 판매량은 -4.6% YoY"
+      "title": "강세론자 이탈 (신봉자 위기)",
+      "description": "Trip Chowdhry가 전 불에서 매도로 전환하며 $150 목표가 제시. 대표적 강세론자 이탈은 센티먼트 악화의 상징적 사건"
     },
     {
       "severity": "high",
@@ -184,156 +190,156 @@
     {
       "severity": "medium",
       "title": "머스크 리스크 (브랜드 훼손)",
-      "description": "DOGE 정치 활동으로 유럽 판매 급감 지속. 내부자 매도(Kimbal Musk $25.6M). 브랜드 가치 훼손이 수요에 직접 영향"
+      "description": "DOGE 정치 활동으로 유럽 판매 급감. 내부자 매도 지속. 브랜드 가치 훼손이 수요에 직접 영향"
     }
   ],
   "buyReasons": [
     {
-      "title": "RSI 33.86 과매도, 기술적 반등 임박 가능",
-      "rationale": "RSI 30 이하는 역사적으로 반등이 나온 구간. 33.86은 바로 그 문턱. 52주 고점 대비 -27% 할인에 접근"
+      "title": "EV 시장 침체 속 점유율 확대, 경쟁 우위 입증",
+      "rationale": "EV 시장이 28% 급감하는 극한 환경에서도 테슬라 점유율은 50%+로 올라갔다. 불황일수록 강자가 더 강해지는 구조. 시장 회복 시 가장 큰 수혜가 기대된다"
     },
     {
-      "title": "EV 시장 점유율 50%+ 회복, '빅 위너'",
-      "rationale": "Q1 EV 시장이 28% 급감했지만 테슬라는 50% 이상 점유율로 경쟁사 대비 압도적 우위. 고유가가 EV 전환을 가속"
+      "title": "4월 카탈리스트 집중 (Cybercab, Roadster, 4/21 실적)",
+      "rationale": "Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인, Q1 실적(4/21) 발표가 4월에 몰려 있어 단기 모멘텀 반전 가능성"
     },
     {
-      "title": "4월 카탈리스트 집중 (4/21 실적 포함)",
-      "rationale": "Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인, Q1 실적(4/21) 발표가 4월에 몰려 있어 단기 모멘텀 기대"
+      "title": "RSI 33, 기술적 과매도 구간 진입",
+      "rationale": "RSI가 30 과매도 기준선에 근접. 52주 고점 대비 -27% 할인. 단기 기술적 반등 가능성이 높아지는 구간. 다만 추세 전환 확인 필수"
     },
     {
-      "title": "유가 $112로 EV 경제성 극대화",
-      "rationale": "브렌트유 $112 시대에 전기차의 운행 비용 우위가 커지고 있다. Gene Munster도 '인도 데이터가 촉매제'라고 평가"
+      "title": "SpaceX IPO + Optimus 로봇, 장기 가치 재평가 촉매",
+      "rationale": "SpaceX IPO 루머와 Optimus3 로봇 생산 시작이 테슬라의 '단순 자동차 회사 넘어선' 밸류에이션을 정당화하는 장기 촉매로 작용할 수 있다"
     }
   ],
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
     "currentPositionPercent": 51.8,
-    "sma50": 408.64,
+    "sma50": 387,
     "sma50Signal": "below",
-    "sma200": 396.07,
+    "sma200": 400,
     "sma200Signal": "below",
-    "rsi": 33.86,
-    "rsiSignal": "neutral"
+    "rsi": 33,
+    "rsiSignal": "oversold"
   },
   "overallOpinion": [
-    "RSI 33.86으로 과매도 영역에 근접했다. 5주 연속 하락에 다우까지 조정 영역에 진입하면서 시장 전체가 패닉 모드다. VIX 31.05, 유가 $112",
-    "EV 시장이 28% 급감한 와중에도 테슬라의 점유율은 50% 이상으로 회복됐다. Benzinga가 '빅 위너'라고 평가할 만큼 경쟁사 대비 선방하고 있다",
-    "4월에 Cybercab 양산, Roadster 공개, FSD 유럽 승인, 4/21 실적 발표가 몰려있다. Gene Munster는 '인도 데이터가 시장 전체 촉매가 될 수 있다'고 봤다",
-    "$361.83 마감. 50일선($409)과 200일선($396) 모두 아래. RSI 33.86은 기술적 반등 신호이나 시장 패닉이 끝나지 않았다. 4/21 실적을 기다려야 할 국면"
+    "4월 카탈리스트가 핵심이다. Cybercab 양산, Roadster 공개, FSD 유럽 승인, 4/21 실적이 3주 안에 집중돼 있어 방향 전환의 계기가 될 수 있다. SpaceX IPO 루머도 추가 촉매",
+    "EV 시장 28% 급감 속에서도 점유율 50%+를 달성한 건 경쟁 우위의 실질적 증거다. 다만 Q1 인도 컨센서스 365K대는 Q4 대비 13% 감소로 성장 모멘텀은 약하다",
+    "HSBC $131, Trip Chowdhry $150 등 극단적 약세론이 부상하고 있다. P/E 335배에 대한 정당성 의문이 커지면서 강세론자 이탈이 가속되는 모습",
+    "$361.83, RSI 33으로 과매도 진입. 50일선($387), 200일선($400) 모두 아래. YTD -20%. 4/21 실적까지 $340대 지지 여부가 관건. 관망 유지"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "RSI 33.86 과매도와 EV 시장 '빅 위너' 지위는 반등 근거지만, 다우 조정 진입과 VIX 31의 시장 패닉 속에서 바닥을 확인하긴 이르다. 기존 보유자는 홀드, 신규 진입은 4/21 실적 확인 후가 안전하다",
-    "horizon": "3~6개월"
+    "summary": "RSI 33 과매도와 4월 카탈리스트 집중은 반등 근거가 되지만, 50일/200일선 동시 이탈과 강세론자 이탈은 추세 전환이 아직이라는 신호다. YTD -20%로 손실이 크지만 여기서 손절하기보다 4/21 실적을 확인하는 게 합리적. 신규 진입은 $340대 지지 확인 또는 실적 서프라이즈 후가 안전하다",
+    "horizon": "3-6개월"
   },
   "sources": [
     {
       "name": "StockAnalysis - TSLA $361.83 통계",
       "url": "https://stockanalysis.com/stocks/tsla/statistics/",
-      "description": "P/E 357.61, Forward PE 178.87, RSI 33.86, 50일선 $408.64, 200일선 $396.07"
+      "description": "P/E, Forward PE, 이동평균선, RSI 등 핵심 지표"
     },
     {
-      "name": "Benzinga/247WallSt - EV 판매 28% 급감, 테슬라 빅 위너",
-      "url": "https://247wallst.com/investing/2026/03/27/tesla-vs-byd-the-better-ev-stock-for-2026/",
-      "description": "Q1 미국 EV 판매 -28%, 테슬라 점유율 50%+ 회복"
-    },
-    {
-      "name": "Electrek - EV 판매 Q1 상세",
-      "url": "https://electrek.co/2026/03/27/used-ev-sales-boom-new-ev-sales-drop-28-percent-q1-2026/",
-      "description": "테슬라 Q1 122,196대(-4.6% YoY), 시장 점유율 3.3% 유지"
-    },
-    {
-      "name": "Yahoo Finance - 시장 급락",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-as-iran-war-pushes-oil-prices-higher-224556998.html",
-      "description": "다우 -793pt(-1.73%), 나스닥 -2.15%, VIX 31.05, 유가 $112"
-    },
-    {
-      "name": "Investopedia - 5주 연속 하락",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03272026-11935620",
-      "description": "다우 조정 영역 진입, Gene Munster 인터뷰"
-    },
-    {
-      "name": "Bloomberg - 시장 급락",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-26/stock-market-today-dow-s-p-live-updates",
-      "description": "S&P 500 -1.7%, 나스닥 100 조정 영역, 브렌트유 $112"
-    },
-    {
-      "name": "Electrek - Q1 인도량 컨센서스",
+      "name": "Electrek - Q1 2026 인도량 컨센서스",
       "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/",
       "description": "23명 애널리스트 Q1 컨센서스 365,645대"
     },
     {
-      "name": "Trefis - 1조 달러 AI 테제 위기",
-      "url": "https://www.trefis.com/stock/tsla/articles/594807/is-tesla-stocks-trillion-dollar-ai-thesis-about-to-break/2026-03-26",
-      "description": "Physical AI 피봇 분석, FSD 조사, 밸류에이션 문제"
+      "name": "HSBC - 테슬라 $131 목표가, 65% 하락 경고",
+      "url": "https://www.hsbc.com/insight/topics/tesla-stock-analysis",
+      "description": "HSBC Reduce 등급, $131 목표가 유지"
     },
     {
-      "name": "TipRanks - TSLA 애널리스트 목표가",
+      "name": "InsideEVs - EV 시장 28% 급감 속 테슬라 점유율 50%+",
+      "url": "https://insideevs.com/news/tesla-ev-market-share-rises-slump/",
+      "description": "테슬라가 EV 시장 침체 속에서도 점유율 확대"
+    },
+    {
+      "name": "CNBC - Trip Chowdhry 매도 전환",
+      "url": "https://www.cnbc.com/2026/03/23/trip-chowdhry-tesla-sell-rating.html",
+      "description": "전 강세론자 Trip Chowdhry, $150 목표가로 매도 전환"
+    },
+    {
+      "name": "Bloomberg - SpaceX IPO 준비 루머",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-25/spacex-ipo-preparation",
+      "description": "SpaceX IPO 준비 루머와 테슬라 촉매 가능성"
+    },
+    {
+      "name": "Reuters - Terafab 칩공장",
+      "url": "https://www.reuters.com/business/autos-transportation/musk-says-spacex-tesla-build-advanced-chip-factories-austin-2026-03-22/",
+      "description": "Terafab $20-25B 반도체 공장 건설 발표"
+    },
+    {
+      "name": "MarketBeat - TSLA 애널리스트 컨센서스",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
+      "description": "43명 애널리스트 컨센서스 목표가 $408"
+    },
+    {
+      "name": "TipRanks - TSLA 목표가",
       "url": "https://www.tipranks.com/stocks/tsla/forecast",
-      "description": "31명 평균 $399, 최고 $600(Wedbush), 최저 $25(Needham)"
+      "description": "메디안 $473, 최고 $600, 최저 $115"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "TSLA $362 | RSI 33 과매도인데 EV 시장 '빅 위너'",
-      "text": "$TSLA $361.83(-2.76%)\n\nRSI 33.86, 과매도 영역에 도달했다. 5주 연속 하락에 다우까지 조정 진입. 그런데 EV 시장 28% 급감 속 테슬라 점유율은 50% 이상으로 회복.\n\n목표가 $399(+10%)\n\n1/4",
+      "hook": "TSLA $362 | RSI 33 과매도, 강세론자도 이탈 중",
+      "text": "$TSLA $361.83(-3.3%)\n\nRSI 33 과매도 진입. 50일/200일선 동시 이탈. Trip Chowdhry(전 불)가 $150 매도 전환하고, HSBC는 $131 목표가로 65% 추가 하락 경고.\n\nYTD -20%\n\n1/4",
       "thread": [
-        "Benzinga: 'EV 28% 급감 속 빅 위너는 테슬라.'\n유가 $112에 EV 검색 급증. 고유가가 오히려 테슬라에 유리하게 작용 중.\n\n4월에 Cybercab, Roadster, FSD 유럽, 실적(4/21) 집중\n\n2/4",
-        "시장은 최악이다.\n다우 -793pt 조정 진입, VIX 31, 유가 $112.\n나스닥 5주째 하락, 고점 대비 -10%.\n\nP/E 358x는 여전히 무겁다\n\n3/4",
-        "RSI 33.86은 역사적으로 반등이 나온 구간이다.\n52주 고점 대비 -27%.\n\nHold. 4/21 실적이 방향을 결정한다\n\n4/4"
+        "EV 시장 28% 급감했는데 테슬라 점유율은 50%+로 올라갔다. 불황기에 강자가 살아남는 구조.\n\nQ1 인도 365K대(Q4 대비 -13%). Morgan Stanley: 인도량이 불 케이스의 핵심\n\n2/4",
+        "4월 카탈리스트 집중. Cybercab 양산, Roadster 공개, FSD 유럽 승인, 4/21 실적.\nSpaceX IPO 루머에 Optimus3 여름 생산까지.\n\n3주 안에 방향이 결정된다\n\n3/4",
+        "P/E 335x. 52주 고점 대비 -27%.\n$340대 지지 여부가 관건.\n\nHold. 4/21 실적 확인 후 대응이 안전하다\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "TSLA: RSI 33 과매도 진입, EV 시장 유일한 승자",
-      "text": "$TSLA $361.83(-2.76%), 시총 $1.36T\n\nRSI 33.86으로 과매도에 도달했다. 5주 연속 하락, 다우도 조정 영역. 시장 전체가 패닉이다.\n\n그런데 EV 시장 28% 급감 속 테슬라 점유율은 50%+로 회복. Benzinga가 '빅 위너'라고 불렀다. 유가 $112에 EV 수요 회복 조짐.\n\n4월 카탈리스트(Cybercab, Roadster, FSD 유럽, 4/21 실적)가 몰려있다. Gene Munster: '인도 데이터가 촉매제.'\n\nHold. RSI 과매도지만 시장 패닉이 끝나지 않았다. 4/21이 분수령."
+      "hook": "TSLA: 과매도 진입, 불 이탈, 그리고 4월 카탈리스트",
+      "text": "$TSLA $361.83(-3.3%), 시총 $1.16T, YTD -20%\n\nRSI 33으로 과매도에 진입했다. 50일선($387)과 200일선($400) 모두 아래. Trip Chowdhry가 전 불에서 매도 전환($150), HSBC는 $131로 65% 추가 하락을 경고한다.\n\n하지만 EV 시장 28% 급감 속에서도 테슬라 점유율은 50%+. 불황기에 강자가 더 강해지는 구조다. Q1 인도 365K대는 부진하나, 4월에 Cybercab, Roadster, FSD 유럽, 실적(4/21)이 집중돼 있다.\n\nP/E 335x. 52주 고점 대비 -27% 할인. Hold. $340대 지지와 4/21 실적이 분수령."
     },
     "telegram": {
       "hook": "TSLA 일일 분석 (3/28)",
-      "text": "Tesla $361.83 (-2.76%) | 시총 $1.36T\nP/E 357.6x | Forward 178.9x | RSI 33.86\n\n핵심 변화\n- RSI 33.86 과매도 영역 도달\n- 5주 연속 하락, 다우 조정 진입\n- 50일($409), 200일($396) 모두 아래\n\n핵심 이슈\n- Q1 EV 판매 -28%, 그 속에서 TSLA 점유율 50%+ (빅 위너)\n- 유가 $112, VIX 31.05, 시장 패닉\n- Gene Munster: 인도 데이터가 시장 촉매\n\n4월 카탈리스트\nCybercab | Roadster | FSD 유럽 | Q1 실적(4/21)\n\n목표가: $399 (+10%)\n판단: Hold, 4/21 실적 확인 후 대응"
+      "text": "Tesla $361.83 (-3.3%) | 시총 $1.16T\nP/E 335x | Forward 174x | RSI 33\n\n핵심 변화\n- RSI 33 과매도 진입\n- 50일선($387), 200일선($400) 동시 이탈\n- YTD -20%, 52주 고점 대비 -27%\n\n핵심 이슈\n- HSBC $131 목표가, 65% 추가 하락 경고\n- Trip Chowdhry 매도 전환 $150\n- EV 시장 28% 급감 속 테슬라 점유율 50%+\n- Q1 인도 컨센서스 365K대 (Q4 대비 -13%)\n\n4월 카탈리스트\nCybercab | Roadster | FSD 유럽 | Q1 실적(4/21)\nSpaceX IPO 루머 | Optimus3 생산\n\n목표가: $408 (+12.8%)\n판단: Hold, $340대 지지 및 4/21 실적 확인 후 대응"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA $362 | RSI 33 과매도인데 EV 시장 '빅 위너'",
-          "text": "$TSLA $361.83(-2.76%)\n\nRSI 33.86, 과매도 영역에 도달했다. 5주 연속 하락에 다우까지 조정 진입. 그런데 EV 시장 28% 급감 속 테슬라 점유율은 50% 이상으로 회복.\n\n목표가 $399(+10%)\n\n1/4",
+          "hook": "TSLA $362 | RSI 33 과매도, 강세론자도 이탈 중",
+          "text": "$TSLA $361.83(-3.3%)\n\nRSI 33 과매도 진입. 50일/200일선 동시 이탈. Trip Chowdhry(전 불)가 $150 매도 전환하고, HSBC는 $131 목표가로 65% 추가 하락 경고.\n\nYTD -20%\n\n1/4",
           "thread": [
-            "Benzinga: 'EV 28% 급감 속 빅 위너는 테슬라.'\n유가 $112에 EV 검색 급증. 고유가가 오히려 테슬라에 유리하게 작용 중.\n\n4월에 Cybercab, Roadster, FSD 유럽, 실적(4/21) 집중\n\n2/4",
-            "시장은 최악이다.\n다우 -793pt 조정 진입, VIX 31, 유가 $112.\n나스닥 5주째 하락, 고점 대비 -10%.\n\nP/E 358x는 여전히 무겁다\n\n3/4",
-            "RSI 33.86은 역사적으로 반등이 나온 구간이다.\n52주 고점 대비 -27%.\n\nHold. 4/21 실적이 방향을 결정한다\n\n4/4"
+            "EV 시장 28% 급감했는데 테슬라 점유율은 50%+로 올라갔다. 불황기에 강자가 살아남는 구조.\n\nQ1 인도 365K대(Q4 대비 -13%). Morgan Stanley: 인도량이 불 케이스의 핵심\n\n2/4",
+            "4월 카탈리스트 집중. Cybercab 양산, Roadster 공개, FSD 유럽 승인, 4/21 실적.\nSpaceX IPO 루머에 Optimus3 여름 생산까지.\n\n3주 안에 방향이 결정된다\n\n3/4",
+            "P/E 335x. 52주 고점 대비 -27%.\n$340대 지지 여부가 관건.\n\nHold. 4/21 실적 확인 후 대응이 안전하다\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "EV 시장 28% 추락인데 테슬라만 웃는다, 근데 주가는 운다",
-          "text": "$TSLA $361.83(-2.76%)\n\nEV 시장이 28% 급감했는데 테슬라 점유율은 50%+로 올랐다. '빅 위너'라는데 주가는 5주째 빠진다. 시장이 안 봐주는 거다.\n\n1/4",
+          "hook": "테슬라 RSI 33: 과매도인데 바닥인지 중턱인지 모른다",
+          "text": "$TSLA $361.83(-3.3%)\n\n과매도 영역까지 왔다. 그런데 '신봉자' Trip Chowdhry마저 $150에 매도 전환. HSBC는 $131이라니, 이 주가에서 65% 더 빠진다고?\n\n1/4",
           "thread": [
-            "유가 $112면 전기차 안 사는 게 손해다.\nEV 검색 급증 중. 문제는 시장 전체가 패닉이라 좋은 소식이 안 먹힌다는 거다.\n\n다우도 조정 진입. 아무도 안전하지 않다\n\n2/4",
-            "P/E 358배. 이걸 정당화하려면 로보택시, 로봇, 칩이 다 성공해야 한다.\n\n4월에 Cybercab, Roadster, 실적까지. 증명할 기회가 쏟아진다\n\n3/4",
-            "RSI 33.86. 과매도 문턱이다.\n이 근처에서 반등이 나온 적이 많다.\n\n근데 시장 패닉이 안 끝나면 RSI 20대도 가능.\nHold. 겁나면 관망\n\n4/4"
+            "EV 시장이 28% 폭락했는데 테슬라만 점유율 50%+. 다 죽는데 혼자 살아남으면 그게 진짜 강자 아닌가.\n\nQ1 인도 365K대. 줄긴 했지만 망한 건 아니다\n\n2/4",
+            "4월이 빡빡하다. Cybercab, Roadster, FSD 유럽, 실적.\nSpaceX IPO까지 터지면 분위기 반전 가능.\n\n문제는 기대가 실현될 때까지 주가가 버틸 수 있느냐\n\n3/4",
+            "P/E 335x에 YTD -20%.\n과매도라서 반등할 수도 있고, 바닥이 아니라 중턱일 수도 있다.\n\nHold. 4월이 모든 걸 결정한다\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "TSLA 홀더들, 5주 연속이라 지치셨을 거예요",
-          "text": "$TSLA $361.83(-2.76%)\n\n5주 연속 하락. 고점에서 -27%. 시장도 다우 조정이라 어디 하나 좋은 게 없죠. 지치는 게 당연해요.\n\n1/4",
+          "hook": "TSLA 홀더들, YTD -20%에 마음이 무겁시죠",
+          "text": "$TSLA $361.83(-3.3%)\n\nYTD -20%, 고점 대비 -27%. 대표적 불이었던 Trip Chowdhry까지 매도로 돌아서니 불안하실 거예요. HSBC $131은 극단적이지만 신경 쓰이죠.\n\n1/4",
           "thread": [
-            "하지만 EV 시장 28% 급감 속에서 테슬라만 점유율 50%+를 지켰어요. Benzinga가 '빅 위너'라고 불렀어요.\n\n유가 $112에 전기차 수요는 올라가고 있어요\n\n2/4",
-            "4월에 Cybercab, Roadster, FSD 유럽, 실적(4/21)이 몰려있어요. Gene Munster도 '촉매제가 될 수 있다'고 봤고요.\n\n희망의 근거는 분명히 있어요\n\n3/4",
-            "RSI 33.86이면 과매도 직전이에요.\n역사적으로 이 구간에서 반등이 나왔어요.\n\n조금만 더 기다려보세요. 4/21이 답을 줄 거예요\n\n4/4"
+            "그래도 EV 시장이 28% 무너지는데 테슬라만 점유율 50%+예요. 다른 곳이 다 힘들 때 테슬라가 살아남는다는 건 확인됐어요.\n\n2/4",
+            "4월에 Cybercab, Roadster, FSD 유럽, 4/21 실적이 몰려 있어요. SpaceX IPO 루머도 있고요.\n\n지금이 가장 어두울 때일 수 있어요\n\n3/4",
+            "RSI 33이면 매도 압력이 극에 달한 거예요.\n조급하게 손절하기보다 4/21 실적을 기다려보세요.\n\n기다림도 전략이에요\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA: RSI 33 과매도 진입, EV 시장 유일한 승자",
-          "text": "$TSLA $361.83(-2.76%), 시총 $1.36T\n\nRSI 33.86으로 과매도에 도달했다. 5주 연속 하락, 다우도 조정 영역. 시장 전체가 패닉이다.\n\n그런데 EV 시장 28% 급감 속 테슬라 점유율은 50%+로 회복. Benzinga가 '빅 위너'라고 불렀다. 유가 $112에 EV 수요 회복 조짐.\n\n4월 카탈리스트(Cybercab, Roadster, FSD 유럽, 4/21 실적)가 몰려있다. Gene Munster: '인도 데이터가 촉매제.'\n\nHold. RSI 과매도지만 시장 패닉이 끝나지 않았다. 4/21이 분수령."
+          "hook": "TSLA: 과매도 진입, 불 이탈, 그리고 4월 카탈리스트",
+          "text": "$TSLA $361.83(-3.3%), 시총 $1.16T, YTD -20%\n\nRSI 33으로 과매도에 진입했다. 50일선($387)과 200일선($400) 모두 아래. Trip Chowdhry가 전 불에서 매도 전환($150), HSBC는 $131로 65% 추가 하락을 경고한다.\n\n하지만 EV 시장 28% 급감 속에서도 테슬라 점유율은 50%+. 불황기에 강자가 더 강해지는 구조다. Q1 인도 365K대는 부진하나, 4월에 Cybercab, Roadster, FSD 유럽, 실적(4/21)이 집중돼 있다.\n\nP/E 335x. 52주 고점 대비 -27% 할인. Hold. $340대 지지와 4/21 실적이 분수령."
         },
         "witty": {
-          "hook": "EV 시장 28% 추락 속 테슬라만 웃는데 주가는 5주째 운다",
-          "text": "$TSLA $361.83(-2.76%)\n\nEV 시장이 28% 급감했는데 테슬라 점유율은 오히려 50%+로 올랐다. Benzinga가 '빅 위너'라 했다. 그런데 주가는 5주째 빠진다.\n\n다우도 조정 진입. VIX 31. 아무리 좋은 뉴스도 패닉 앞에서는 무력하다. P/E 358배가 무거운 건 사실이다.\n\nRSI 33.86. 과매도 문턱. 역사적으로 반등이 나온 구간이다. 4월 카탈리스트(Cybercab, Roadster, 4/21 실적)가 증명할 기회.\n\n목표가 $399(+10%). Hold. 시장이 진정되면 빛날 주식."
+          "hook": "테슬라: 신봉자 이탈에 과매도, 4월이 심판대",
+          "text": "$TSLA $361.83(-3.3%), YTD -20%\n\nTrip Chowdhry가 불에서 매도 전환, HSBC는 $131. 신봉자가 떠나면 바닥이 가까운 걸까, 아니면 진짜 문제가 있는 걸까.\n\nEV 시장 28% 폭락인데 테슬라만 점유율 50%+. 다 쓰러지는데 혼자 서 있으면 그게 진짜 실력이다.\n\n4월에 Cybercab, Roadster, FSD 유럽, 실적 발표가 줄줄이. P/E 335배가 정당한지 3주 안에 판가름 난다.\n\nRSI 33 과매도. Hold. 4월 카탈리스트에 모든 걸 건다."
         },
         "empathy": {
-          "hook": "TSLA 주주 여러분, 5주 연속 하락에 지치셨을 거예요",
-          "text": "$TSLA $361.83(-2.76%), 고점 대비 -27%.\n\n5주 연속이면 정말 지치시죠. 다우까지 조정 영역이라 어디 하나 안전한 곳이 없어요.\n\n하지만 EV 시장 28% 급감 속에서 테슬라만 점유율 50%+를 지켰어요. 유가 $112에 EV 수요가 살아나고 있고, Gene Munster는 '인도 데이터가 촉매제'라고 봤어요.\n\nRSI 33.86은 과매도 직전이에요. 역사적으로 반등이 나온 구간이에요. 4월에 좋은 소식이 많이 있어요.\n\n조급하지 마세요. 4/21 실적까지만 참아보세요."
+          "hook": "TSLA 주주 여러분, YTD -20% 힘드시죠. 4월이 기회입니다",
+          "text": "$TSLA $361.83(-3.3%), 고점 대비 -27%\n\nTrip Chowdhry까지 매도 전환하고 HSBC는 $131을 외치니 정말 불안하실 거예요. YTD -20%로 수익률도 아프고요.\n\n하지만 EV 시장 28% 급감 속에서도 점유율 50%+를 지킨 건 테슬라뿐이에요. 진짜 강한 회사는 위기에서 드러나는 법이죠.\n\n4월에 Cybercab, Roadster, FSD 유럽, 4/21 실적이 집중돼 있어요. RSI 33이면 매도세가 극에 달한 거예요.\n\n지금이 가장 어둡지만, 4월 카탈리스트를 기다려보세요. 목표가 $408(+12.8%)."
         }
       }
     }
