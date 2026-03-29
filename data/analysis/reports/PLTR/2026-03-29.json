@@ -19,7 +19,7 @@
     {
       "name": "Trailing P/E",
       "value": "227x",
-      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 6.7배. 극단적 프리미엄이지만 주가 하락으로 점진적 축소 중"
+      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 6.7배. 극단적 프리미엄이지만 주가 하락으로 수치는 점진적으로 축소 중"
     },
     {
       "name": "Forward P/E (FY2026E)",
@@ -32,14 +32,14 @@
       "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. AI 방산 수요 확대로 성장 가속화"
     },
     {
-      "name": "내부자 매도",
-      "value": "Peter Thiel 200만주 + 이사 1.6만주",
-      "interpretation": "Peter Thiel이 3월 초 200만주를 매도. 이사도 3/24에 1.6만주 매도. 상당한 내부자 매도 압력이 단기 주가에 부담"
+      "name": "P/S (매출 대비 주가)",
+      "value": "76x",
+      "interpretation": "소프트웨어 업종 평균 10-15x 대비 5-7배 프리미엄. 성장률 대비 여전히 고평가 영역"
     },
     {
       "name": "시가총액",
       "value": "$342B",
-      "interpretation": "52주 고점 $207 대비 -31% 하락. Golden Dome 급등분 완전 반납 이상. 다우 조정 진입과 함께 추가 하락 압력"
+      "interpretation": "52주 고점 $207 대비 -31% 하락. 광범위한 기술주 셀오프에 동반 하락"
     },
     {
       "name": "RSI",
@@ -91,21 +91,15 @@
   "recentNews": [
     {
       "date": "2026-03-28",
-      "headline": "Simply Wall St: '강한 장기 수익률에도 단기 약세, 밸류에이션 재평가' 분석",
-      "significance": "3일 연속 하락(-3.0% 당일, -5.1% 주간)에도 장기 성장 방향은 확고하다는 밸류에이션 분석. P/E 227x가 핵심 논쟁",
+      "headline": "Simply Wall St: PLTR 밸류에이션 재평가, 단기 -5.1% 약세 속 장기 성장 확인",
+      "significance": "주가 하락에도 불구하고 펀더멘털 강화를 재확인하는 분석. Golden Dome 수주가 장기 방산 매출을 근본적으로 바꿀 수 있다고 평가",
       "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/assessing-palantir-technologies-pltr-valuation-after-strong-2"
     },
     {
-      "date": "2026-03-28",
-      "headline": "Peter Thiel 200만주 매도, 3월 전반 내부자 대량 매도 지속",
-      "significance": "공동창업자 Peter Thiel이 3월 초 200만주를 매도. 이사도 3/24에 1.6만주 매도. 내부자 매도가 단기 주가에 부담이 되고 있다",
-      "url": "https://www.tradingkey.com/news/Market-Movers/261729240-market-movers-pltr-20260327"
-    },
-    {
-      "date": "2026-03-29",
-      "headline": "원유 $100 돌파, 이란 전쟁 확대(사우디 미군기지 피격, 후티 참전). 방산 AI 수요 가속 촉매",
-      "significance": "WTI $100, Brent $112.57. 이란 미사일이 사우디 미군기지를 타격해 미군 부상, 후티도 참전. 전쟁 확대는 단기 매크로 역풍이지만 장기적으로 방산 AI 투자 가속의 촉매. Golden Dome, Maven의 전략적 가치가 실전으로 입증되는 국면",
-      "url": "https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html"
+      "date": "2026-03-27",
+      "headline": "PLTR -3% 하락 $143.06, 광범위한 기술주 매도세 지속",
+      "significance": "3일 연속 하락. 50일선($148.62)과 200일선($168.58) 모두 아래에서 거래. 기술주 전반 약세에 동반 하락",
+      "url": "https://stockanalysis.com/stocks/pltr/"
     },
     {
       "date": "2026-03-27",
@@ -115,9 +109,15 @@
     },
     {
       "date": "2026-03-26",
-      "headline": "체코 중앙은행 24,730주 신규 매수 + Bain 파트너십 확대",
-      "significance": "중앙은행의 AI 방산주 매수는 제도권 신뢰 시그널. Bain 파트너십은 글로벌 AIP 도입 가속 채널",
+      "headline": "체코 중앙은행 24,730주 신규 매수",
+      "significance": "중앙은행이 AI 방산주를 매수한 것은 제도권 신뢰의 강력한 시그널",
       "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Golden Dome $185B 미사일 방어 소프트웨어 선정",
+      "significance": "트럼프 행정부의 $185B 우주 기반 미사일 방어 시스템에서 Anduril과 공동 소프트웨어 개발자로 선정",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"
     }
   ],
   "analystOpinions": {
@@ -128,42 +128,42 @@
     "buyCount": 17,
     "holdCount": 14,
     "sellCount": 5,
-    "notableComment": "17 Buy, 14 Hold, 5 Sell. 컨센서스 $199(+39%). 다우 조정 진입에도 Rosenblatt $200 Buy 유지. 내부자 매도와 애널리스트 낙관이 충돌하는 상황"
+    "notableComment": "MarketBeat 컨센서스 $198.59(+39%). Rosenblatt $200 Buy 유지. Simply Wall St: 단기 약세 속 장기 방산 성장 재확인. 밸류에이션 논쟁 지속"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션 프리미엄 + 다우 조정 진입",
-      "description": "P/E 227x(S&P IT 평균 34x의 6.7배). 다우가 공식 조정 영역에 진입하면서 고밸류에이션 기술주에 특히 불리한 환경. P/S 76x, Forward PE 108x"
-    },
-    {
-      "severity": "high",
-      "title": "Peter Thiel 200만주 매도, 내부자 매도 가속",
-      "description": "공동창업자 Peter Thiel이 3월 초 200만주를 처분. 이사 1.6만주도 매도. 기관 투자자들도 일부 포지션 축소 중. 내부자가 주식을 파는 것은 단기 신뢰에 부정적"
+      "title": "극단적 밸류에이션 프리미엄",
+      "description": "P/E 227x(S&P IT 평균 34x의 6.7배), P/S 76x(소프트웨어 평균의 5-7배). Forward PE 108x도 성장주 평균 30-40x의 3배. 기대치가 이미 주가에 과도하게 반영"
     },
     {
       "severity": "high",
       "title": "50일선, 200일선 모두 아래 기술적 약세",
-      "description": "50일선($148.62), 200일선($168.58) 모두 아래. 3일 연속 하락. $126 지지선까지 열려 있다"
+      "description": "50일선($148.62), 200일선($168.58) 모두 아래에서 거래 중. 3일 연속 하락으로 하락 모멘텀 지속. $126 지지선까지 열려 있는 상황"
     },
     {
       "severity": "high",
-      "title": "원유 $100 + 이란 전쟁 확대로 매크로 역풍 극대화",
-      "description": "WTI $100, Brent $112.57. 이란 사우디 미군기지 피격, 후티 참전. CNBC 1-3주 분수령 경고. 비농업 고용(4/3), 4/6 관세 데드라인. P/E 227x에 유가 $100 인플레 우려는 멀티플 압축을 가속"
+      "title": "매크로 기술주 셀오프 리스크",
+      "description": "이란-이스라엘 전쟁, 유가 급등, 'No Kings' 시위 800만명 참여. 광범위한 기술주 매도세에 동반 하락. 금리 환경과 지정학 불확실성이 고밸류에이션 기술주에 불리"
     },
     {
       "severity": "medium",
       "title": "애널리스트 의견 분열",
-      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션에 대한 시장의 회의론 지속"
+      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션에 대한 시장의 회의론이 지속되는 중"
+    },
+    {
+      "severity": "medium",
+      "title": "주식 보상(SBC) 희석",
+      "description": "주식 수 연간 4.67% 증가. 지속적인 SBC로 기존 주주 가치 희석 우려"
     }
   ],
   "buyReasons": [
     {
       "title": "AI 국방 독점적 위치 + 장기 파이프라인",
-      "rationale": "Golden Dome $185B + Maven 정식 채택 + 이란 전쟁 실전 검증. 체코 중앙은행 매수. 방산 AI에서 대체 불가능한 위치"
+      "rationale": "Golden Dome $185B + Maven 정식 채택 + 이란 전쟁 실전 검증. 체코 중앙은행까지 매수. 방산 AI에서 대체 불가능한 위치"
     },
     {
-      "title": "상업 부문 폭발적 성장 + 글로벌 확대",
+      "title": "상업 부문 폭발적 성장 + 파트너 확대",
       "rationale": "미국 상업 매출 Q4 +137%. Bain & Company 파트너십으로 글로벌 AIP 도입 가속. FY2026 +65% 가이던스"
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "title": "Trefis 50%+ 급등 촉매 분석",
-      "rationale": "과거 대규모 랠리 패턴과 현재 촉매가 유사하다는 분석. 반등 시 상승 폭이 클 수 있음"
+      "rationale": "과거 대규모 랠리 패턴과 현재 촉매(Golden Dome, Maven, 상업 성장)가 유사하다는 분석. 반등 시 상승 폭이 클 수 있음"
     }
   ],
   "technicalPosition": {
@@ -187,36 +187,36 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "원유가 $100를 돌파하고 이란 전쟁이 확대되고 있다(사우디 미군기지 피격, 후티 참전). 단기적으로 매크로 역풍이지만, 이 전쟁이야말로 Palantir의 존재 이유다. Golden Dome과 Maven이 실전에서 가치를 증명하는 국면이다",
-    "Peter Thiel 200만주 매도와 P/E 227x가 단기 부담이다. 하지만 펀더멘털은 역대 최강: Golden Dome $185B, Maven 정식 채택, 체코 중앙은행 매수, Bain 파트너십. Trefis는 50%+ 급등 촉매가 쌓이고 있다고 분석",
-    "CNBC는 1-3주 내 호르무즈 미해결 시 경제 충격 급확대를 경고. 비농업 고용(4/3), 4/6 관세 데드라인이 다음 주 변수. 고밸류에이션 기술주에 최악의 매크로 조합",
-    "$143.06, RSI 45. 50일($149), 200일($169) 아래. 고점 -31%. 전쟁 확대가 역설적으로 방산 AI 가치를 높이지만 단기 매크로 압력이 크다. Hold, 소액 분할매수"
+    "Simply Wall St가 PLTR 밸류에이션을 재평가하면서 단기 주간 -5.1% 약세에도 불구하고 Golden Dome 수주가 장기 방산 매출 구조를 근본적으로 바꿀 수 있다고 분석했다. Trefis도 50%+ 급등 촉매가 쌓이고 있다고 평가",
+    "50일선($149)과 200일선($169) 모두 아래에서 거래 중. 이란-이스라엘 전쟁과 'No Kings' 시위 800만명 참여 등 매크로 악재가 기술주 전반을 압박하고 있다. 고밸류에이션 기술주에 특히 불리한 환경",
+    "밸류에이션이 핵심 부담이다. P/E 227x(IT 평균 34x의 6.7배), P/S 76x. 펀더멘털은 Golden Dome, Maven, 체코 중앙은행 매수로 역대 최강이지만 시장은 '비싸다'는 한 마디로 외면 중",
+    "컨센서스 $199(+39%). 고점 대비 -31%. Hold, 소액 분할매수만 유효. 적극 매수는 매크로 안정화와 밸류에이션 정상화를 기다려야"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "원유 $100 돌파와 이란 전쟁 확대가 매크로 역풍을 극대화하고 있지만, 전쟁이야말로 Palantir의 방산 AI 가치를 실전으로 증명하는 국면. Golden Dome, Maven, 상업 +137%로 펀더멘털 역대 최강. P/E 227x와 Thiel 매도가 단기 부담이나 방산 AI 장기 가치는 강화 중. 소액 분할매수 유효",
+    "summary": "펀더멘털은 Golden Dome, Maven, 상업 +137% 성장으로 역대 최강이나 P/E 227x, 50일/200일선 모두 아래. 매크로 역풍과 밸류에이션 부담이 동시에 작용. Simply Wall St도 장기 긍정, 단기 부정. 소액 분할매수는 가능하나 적극 매수보다는 관망",
     "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Simply Wall St - PLTR 밸류에이션 분석",
+      "name": "Simply Wall St - PLTR 밸류에이션 재평가",
       "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/assessing-palantir-technologies-pltr-valuation-after-strong-2",
-      "description": "$143.06, -3.0% 당일, -5.1% 주간. 장기 성장 vs 단기 약세 분석"
+      "description": "단기 -5.1% 약세 속 장기 방산 성장 재확인 분석"
     },
     {
-      "name": "TradingKey - PLTR 내부자 매도 분석",
-      "url": "https://www.tradingkey.com/news/Market-Movers/261729240-market-movers-pltr-20260327",
-      "description": "Peter Thiel 200만주 매도, 이사 1.6만주 매도, 내부자 대량 처분"
+      "name": "StockAnalysis - PLTR 통계",
+      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
+      "description": "P/E 227x, Forward PE 108x, RSI 45, 50일선 $148.62, 200일선 $168.58"
     },
     {
-      "name": "Trefis - PLTR 50%+ 급등 촉발 요인",
+      "name": "Trefis - PLTR 50%+ 급등 촉발 요인 분석",
       "url": "https://www.trefis.com/stock/pltr/articles/567341/what-could-send-palantir-stock-soaring/",
-      "description": "과거 급등 패턴과 현재 촉매 비교 분석"
+      "description": "과거 대규모 랠리 패턴과 현재 촉매 비교 분석"
     },
     {
       "name": "MarketBeat - PLTR 목표가 컨센서스",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/",
-      "description": "17 Buy, 14 Hold, 5 Sell. 컨센서스 $198.59"
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/",
+      "description": "컨센서스 $198.59, Rosenblatt $200 Buy"
     },
     {
       "name": "Reuters - Golden Dome 소프트웨어",
@@ -229,76 +229,81 @@
       "description": "체코 중앙은행 24,730주 신규 매수"
     },
     {
-      "name": "CNBC - 오일 쇼크, 1-3주 분수령",
-      "url": "https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html",
-      "description": "WTI $100 돌파, 호르무즈 1-3주 내 미해결 시 경제 충격 급확대"
+      "name": "PRNewswire - Bain 파트너십",
+      "url": "https://www.prnewswire.com/news-releases/palantir-and-bain-company-expand-global-partnership.html",
+      "description": "Bain & Company 글로벌 AIP/Foundry 파트너십 확대"
     },
     {
-      "name": "Economic Times - 고용 데이터가 시장 방향 결정",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-us-jobs-data-to-give-economic-view-for-war-gripped-markets/articleshow/129858390.cms",
-      "description": "S&P 500 YTD -5%+, 비농업 고용이 핵심 변수"
+      "name": "Quiver Quantitative - PLTR Golden Dome 분석",
+      "url": "https://www.quiverquant.com/news/Palantir+Technologies+Stock+(PLTR)+Opinions+on+Golden+Dome+Missile+Defense+Involvement",
+      "description": "Golden Dome, Maven 촉매와 투자 커뮤니티 반응 분석"
+    },
+    {
+      "name": "Robinhood - PLTR 시세",
+      "url": "https://robinhood.com/us/en/stocks/PLTR/",
+      "description": "시총 $342B, 실시간 시세 및 기본 지표"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $143 | 원유 $100, 이란 전쟁 확대. 방산 AI의 존재 이유가 실전으로 증명되는 중",
-      "text": "$PLTR $143.06 (주말)\n\n원유 $100 돌파. 이란이 사우디 미군기지를 타격하고 후티도 참전했다.\n\n이 전쟁이야말로 Palantir의 존재 이유다.\n\n1/4",
+      "hook": "PLTR $143 | 펀더멘털 역대 최강인데 매크로가 발목",
+      "text": "$PLTR $143.06(-3%)\n\nSimply Wall St: 단기 -5.1%, 장기 Golden Dome이 방산 매출 구조를 바꾼다.\nTrefis: 50%+ 급등 촉매 쌓이는 중.\n\n컨센서스 $199(+39%)\n\n1/4",
       "thread": [
-        "Golden Dome $185B, Maven 미군 정식 채택.\n전쟁이 확대될수록 방산 AI 가치는 올라간다.\n체코 중앙은행도 매수, Bain 파트너십 확대.\n\nTrefis: 50%+ 급등 촉매 축적 중\n\n2/4",
-        "단기 매크로는 최악이다.\n유가 $100 인플레 우려에 P/E 227x.\nThiel 200만주 매도. CNBC: 1-3주 분수령.\n\n4/3 고용, 4/6 관세도 대기\n\n3/4",
-        "고점 -31%. RSI 45. 컨센서스 $199(+39%).\n전쟁이 방산 AI 가치를 높이지만\n매크로 압력도 크다.\n\nHold, 소액 분할매수\n\n4/4"
+        "펀더멘털은 역대 최강:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 채택\n- 체코 중앙은행 매수\n- Bain 파트너십 확대\n- FY2026 +65% 가이던스\n\n호재가 쌓이는데 주가가 빠진다\n\n2/4",
+        "밸류에이션이 발목:\nP/E 227x (IT평균 34x의 6.7배)\nP/S 76x (소프트웨어 평균의 5배)\n\n매크로도 최악. 이란 전쟁, 800만명 시위.\n고밸류 기술주에 가장 불리한 환경\n\n3/4",
+        "52주 고점 대비 -31%.\n$126 지지선까지 열려 있다.\n\nHold. 소액 분할매수만 유효.\n매크로 안정화를 기다려야\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR: 원유 $100, 이란 전쟁 확대. 방산 AI의 실전 가치가 증명되는 국면",
-      "text": "$PLTR $143.06 (주말)\n\n원유가 $100를 돌파했다. 이란이 사우디 미군기지를 타격하고 후티도 참전하면서 전쟁이 확대되고 있다. 단기 매크로 역풍이지만, 이 전쟁이야말로 Palantir의 존재 이유다.\n\nGolden Dome $185B, Maven 정식 채택이 실전에서 가치를 증명하는 국면. Thiel 200만주 매도와 P/E 227x가 단기 부담이나 방산 AI 장기 가치는 강화 중.\n\n고점 -31%. 컨센서스 $199(+39%). Hold, 소액 분할매수."
+      "hook": "PLTR: Simply Wall St '장기 방산 구조 변화', 단기는 매크로 역풍",
+      "text": "$PLTR $143.06(-3%)\n\nSimply Wall St가 단기 -5.1% 약세에도 Golden Dome이 장기 방산 매출 구조를 바꿀 수 있다고 분석했다. Trefis도 50%+ 급등 촉매가 쌓이는 중이라고 평가.\n\nP/E 227x(IT 평균 34x의 6.7배)가 부담이지만 Golden Dome, Maven, 체코 중앙은행 매수, Bain 파트너십까지 펀더멘털은 역대 최강.\n\n이란 전쟁과 800만명 시위. 고밸류 기술주에 최악의 환경. 컨센서스 $199(+39%).\n\n고점 -31%. Hold, 소액 분할매수만."
     },
     "telegram": {
       "hook": "PLTR 일일 분석 (3/29)",
-      "text": "Palantir $143.06 (주말) | 시총 $342B\nP/E 227x | Forward 108x | RSI 45\n\n긴급: 이란 전쟁 확대\n- 원유 WTI $100 돌파 (Brent $112.57)\n- 이란 사우디 미군기지 미사일 타격\n- 후티 반군 이스라엘 공격 참전\n- CNBC: 1-3주 분수령\n\n방산 AI 가치 강화\n- Golden Dome $185B + Maven 실전 활용\n- 전쟁 확대가 방산 AI 투자 가속 촉매\n- 체코 중앙은행 매수 + Bain 파트너십\n\n단기 부담\n- Thiel 200만주 매도\n- P/E 227x + 유가 $100 인플레 우려\n- 4/3 고용, 4/6 관세\n\n판단: Hold. 방산 AI 장기 가치는 강화, 소액 분할매수"
+      "text": "Palantir $143.06 (-3%) | 시총 $342B\nP/E 227x | Forward 108x | P/S 76x | RSI 45\n\n핵심 변화\n- Simply Wall St: 장기 방산 구조 변화 재확인\n- Trefis: 50%+ 급등 촉매 쌓이는 중\n- 매크로 악재 지속 (이란 전쟁, 시위)\n\n호재\n- Golden Dome $185B + Maven 정식 채택\n- 체코 중앙은행 매수 + Bain 파트너십\n- Rosenblatt $200 Buy, 컨센서스 $199\n\n기술적: 50일($149), 200일($169) 아래\n애널리스트: 17 Buy, 14 Hold, 5 Sell\n\n판단: Hold. 소액 분할매수만 유효"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR $143 | 원유 $100, 이란 전쟁 확대. 방산 AI의 존재 이유가 실전으로 증명되는 중",
-          "text": "$PLTR $143.06 (주말)\n\n원유 $100 돌파. 이란이 사우디 미군기지를 타격하고 후티도 참전했다.\n\n이 전쟁이야말로 Palantir의 존재 이유다.\n\n1/4",
+          "hook": "PLTR $143 | 펀더멘털 역대 최강인데 매크로가 발목",
+          "text": "$PLTR $143.06(-3%)\n\nSimply Wall St: 단기 -5.1%, 장기 Golden Dome이 방산 매출 구조를 바꾼다.\nTrefis: 50%+ 급등 촉매 쌓이는 중.\n\n컨센서스 $199(+39%)\n\n1/4",
           "thread": [
-            "Golden Dome $185B, Maven 미군 정식 채택.\n전쟁이 확대될수록 방산 AI 가치는 올라간다.\n체코 중앙은행도 매수, Bain 파트너십 확대.\n\nTrefis: 50%+ 급등 촉매 축적 중\n\n2/4",
-            "단기 매크로는 최악이다.\n유가 $100 인플레 우려에 P/E 227x.\nThiel 200만주 매도. CNBC: 1-3주 분수령.\n\n4/3 고용, 4/6 관세도 대기\n\n3/4",
-            "고점 -31%. RSI 45. 컨센서스 $199(+39%).\n전쟁이 방산 AI 가치를 높이지만\n매크로 압력도 크다.\n\nHold, 소액 분할매수\n\n4/4"
+            "펀더멘털은 역대 최강:\n- Golden Dome $185B 소프트웨어\n- Maven 미군 정식 채택\n- 체코 중앙은행 매수\n- Bain 파트너십 확대\n- FY2026 +65% 가이던스\n\n호재가 쌓이는데 주가가 빠진다\n\n2/4",
+            "밸류에이션이 발목:\nP/E 227x (IT평균 34x의 6.7배)\nP/S 76x (소프트웨어 평균의 5배)\n\n매크로도 최악. 이란 전쟁, 800만명 시위.\n고밸류 기술주에 가장 불리한 환경\n\n3/4",
+            "52주 고점 대비 -31%.\n$126 지지선까지 열려 있다.\n\nHold. 소액 분할매수만 유효.\n매크로 안정화를 기다려야\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "이란이 사우디를 때렸다. Palantir한테는 아이러니하게도 실전 시험이다",
-          "text": "$PLTR $143.06 (주말)\n\n원유 $100. 이란이 사우디를 때리고 후티도 참전.\nP/E 227x인 주식에 최악의 매크로.\n\n근데 이 전쟁에서 Maven이 쓰이고 있다\n\n1/4",
+          "hook": "PLTR: 호재를 아무리 쌓아도 P/E 227배가 막아선다",
+          "text": "$PLTR $143.06(-3%)\n\nGolden Dome, Maven, 중앙은행, Bain.\nTrefis: '50%+ 급등 촉매 쌓이는 중'\n\n시장: 'P/E 227배인데요.'\n이 한마디 앞에 모든 호재가 무력화\n\n1/4",
           "thread": [
-            "Golden Dome $185B를 따놓고 전쟁이 터졌다.\n'가장 좋은 타이밍'이라 할 수도,\n'P/E 227x에 전쟁이라니'라 할 수도.\n\n양면의 동전. 이게 PLTR이다\n\n2/4",
-            "Thiel이 200만주를 팔았다. 회사를 가장 잘 아는 사람이.\nCNBC: 1-3주 분수령.\n\n전쟁은 수요를 만들지만 매크로를 부순다\n\n3/4",
-            "컨센서스 $199(+39%). 고점 -31%.\n방산 AI가 이기냐, 매크로가 이기냐.\n\nHold. 이 싸움의 승자가 주가를 정한다\n\n4/4"
+            "Simply Wall St: '장기로 보면 방산 구조가 바뀐다'\n시장: '장기가 얼마나 긴데요?'\n\n+65% 성장률에도 P/S 76배.\n가격표가 무거우면 아무도 안 산다\n\n2/4",
+            "이란 전쟁, 유가, 800만명 시위.\n고밸류 기술주에 가장 나쁜 환경.\n\n촉매는 쌓이는데 환경이 안 맞으면\n불은 붙지 않는다\n\n3/4",
+            "컨센서스 $199(+39%). 고점 -31%.\n\n확신 있으면 소액으로.\n없으면 구경이 정답.\nHold.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR 홀더들, 원유 $100에 전쟁 확대. 불안하시죠. 하지만 이 회사의 존재 이유이기도 해요",
-          "text": "$PLTR $143.06 (주말)\n\n원유 $100, 이란 전쟁 확대. Thiel 200만주 매도.\n-31%면 힘드시죠.\n\n하지만 이 전쟁이 Palantir의 가치를 증명해요\n\n1/4",
+          "hook": "PLTR 홀더들, 고점 -31%에 힘드시죠. 하지만 펀더멘털은 역대 최강이에요",
+          "text": "$PLTR $143.06(-3%)\n\n고점에서 -31%. 매일 하락에 지치시죠.\nSimply Wall St도 단기 약세를 인정하면서도\n장기 방산 구조 변화를 강조했어요.\n\n1/4",
           "thread": [
-            "Golden Dome $185B, Maven이 실전에서 쓰이고 있어요.\n전쟁이 확대될수록 방산 AI는 더 필요해요.\n체코 중앙은행도 사고 있어요\n\n2/4",
-            "CNBC 1-3주 분수령. 고용, 관세도 있어요.\nP/E 227x라 변동성이 클 거예요.\n\n하지만 회사의 방향은 변하지 않았어요\n\n3/4",
-            "컨센서스 $199(+39%). 소액만.\n급하게 움직이지 마세요.\n전쟁 종료 후 방산 투자가 가속돼요.\n\nHold. 기다림의 가치가 있는 회사예요\n\n4/4"
+            "Golden Dome $185B, Maven, 체코 중앙은행까지.\nTrefis: 50%+ 급등 촉매 쌓이는 중.\n\n회사는 계속 좋아지고 있어요.\n시장이 힘든 시기일 뿐\n\n2/4",
+            "P/E 227배가 부담인 건 사실이에요.\n하지만 +65% 성장은 시간이 지나면\n밸류를 따라갈 거예요.\n\n이란 전쟁도 영원하지 않아요\n\n3/4",
+            "컨센서스 $199(+39%).\n소액으로 천천히 분할매수.\n\n장기가 답이에요. 건강이 먼저입니다\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR: 원유 $100, 이란 전쟁 확대. 방산 AI의 실전 가치가 증명되는 국면",
-          "text": "$PLTR $143.06 (주말)\n\n원유가 $100를 돌파했다. 이란이 사우디 미군기지를 타격하고 후티도 참전하면서 전쟁이 확대되고 있다. 단기 매크로 역풍이지만, 이 전쟁이야말로 Palantir의 존재 이유다.\n\nGolden Dome $185B, Maven 정식 채택이 실전에서 가치를 증명하는 국면. Thiel 200만주 매도와 P/E 227x가 단기 부담이나 방산 AI 장기 가치는 강화 중.\n\n고점 -31%. 컨센서스 $199(+39%). Hold, 소액 분할매수."
+          "hook": "PLTR: Simply Wall St '장기 방산 구조 변화', 단기는 매크로 역풍",
+          "text": "$PLTR $143.06(-3%)\n\nSimply Wall St가 단기 -5.1% 약세에도 Golden Dome이 장기 방산 매출 구조를 바꿀 수 있다고 분석했다. Trefis도 50%+ 급등 촉매가 쌓이는 중이라고 평가.\n\nP/E 227x(IT 평균 34x의 6.7배)가 부담이지만 Golden Dome, Maven, 체코 중앙은행 매수, Bain 파트너십까지 펀더멘털은 역대 최강.\n\n이란 전쟁과 800만명 시위. 고밸류 기술주에 최악의 환경. 컨센서스 $199(+39%).\n\n고점 -31%. Hold, 소액 분할매수만."
         },
         "witty": {
-          "hook": "이란이 사우디를 때리고 후티도 참전. Palantir의 아이러니한 순간",
-          "text": "$PLTR $143.06 (주말)\n\n원유 $100, 이란 전쟁 확대. P/E 227x에 최악의 매크로. 근데 이 전쟁에서 Maven이 쓰이고 있다. Golden Dome $185B를 따놓은 타이밍.\n\nThiel이 200만주를 팔았다. 전쟁은 방산 AI 수요를 만들지만 매크로를 부순다.\n\n컨센서스 $199(+39%). 고점 -31%. 방산 AI가 이기냐 매크로가 이기냐의 싸움. Hold."
+          "hook": "호재가 쌓여도 P/E 227배 앞에서는 무력한 PLTR",
+          "text": "$PLTR $143.06(-3%)\n\nGolden Dome, Maven, 중앙은행 매수, Bain 파트너십, +65% 성장. Trefis: '50%+ 급등 촉매.' 호재 리스트가 끝이 없다.\n\n시장: 'P/E 227배인데요.' 끝.\n\nSimply Wall St는 장기 구조 변화를 강조하고, 현실은 고점 -31%. 촉매는 쌓이는데 이란 전쟁과 유가, 800만명 시위에 환경이 최악이다.\n\n컨센서스 $199(+39%). Hold. 확신 있으면 소액만."
         },
         "empathy": {
-          "hook": "PLTR 주주 여러분, 원유 $100에 전쟁 확대. 하지만 이 회사의 존재 이유이기도 해요",
-          "text": "$PLTR $143.06, 고점 -31%. 원유 $100, 이란 전쟁 확대, Thiel 200만주 매도.\n\n힘드시죠. P/E 227x라 매크로 뉴스에 특히 민감하고요. 하지만 이 전쟁이야말로 Golden Dome과 Maven의 가치를 증명하는 순간이에요.\n\n전쟁 확대가 방산 AI 투자를 가속해요. 컨센서스 $199(+39%). 소액만, 기다림의 가치가 있는 회사예요. Hold."
+          "hook": "PLTR 주주 여러분, 고점 -31%에 지치셨을 거예요",
+          "text": "$PLTR $143.06(-3%), 고점 대비 -31%.\n\n매일 하락에 정말 지치시죠. Simply Wall St도 단기 약세를 인정해요.\n\n하지만 Golden Dome $185B, Maven, 체코 중앙은행 매수, Trefis 50%+ 급등 촉매 분석까지. 회사는 역대 최강이에요.\n\nP/E 227배가 부담이지만 +65% 성장이 시간이 지나면 밸류를 따라갈 거예요. 이란 전쟁도 영원하지 않아요.\n\n컨센서스 $199(+39%). 소액 분할매수로 천천히. 장기가 답입니다."
         }
       }
     }

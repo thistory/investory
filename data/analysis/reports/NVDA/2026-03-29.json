@@ -14,7 +14,14 @@
       "자동차 (DRIVE)",
       "네트워킹 (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
   },
   "keyMetrics": [
     {
@@ -25,7 +32,7 @@
     {
       "name": "Forward P/E",
       "value": "20.64x",
-      "interpretation": "S&P 500 평균 약 21x보다 낮아졌다. 세계 1위 AI 기업의 Forward P/E가 시장 평균 이하로 하락한 것은 사상 처음"
+      "interpretation": "S&P 500 평균 약 21x보다 낮아졌다. 세계 1위 AI 기업의 Forward P/E가 시장 평균 이하로 하락한 것은 사상 처음. Motley Fool이 '전례 없는 이상 현상'이라 보도"
     },
     {
       "name": "매출 (TTM)",
@@ -38,20 +45,20 @@
       "interpretation": "PEG 1.0 이하는 성장 대비 저평가. 0.54는 극단적 저평가 신호. 고성장+저PEG 조합은 매우 드물다"
     },
     {
-      "name": "중국 H200 수출 재개",
-      "value": "$25B 매출 기회",
-      "interpretation": "미 정부가 중국에 H200 판매 라이선스를 승인. 젠슨 황이 GTC에서 중국 고객 주문을 확인. 연간 $150-250억 추가 매출 가능성"
+      "name": "FCF (잉여현금흐름)",
+      "value": "$966.8억",
+      "interpretation": "연간 FCF $967B. P/FCF 42x. 현금 창출력이 압도적이며 $625.6B 현금 보유"
     },
     {
       "name": "다음 실적발표",
       "value": "2026년 5월 20일",
-      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 중국 H200 초기 매출 확인 예정"
+      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 현황 확인 예정"
     }
   ],
   "growthDrivers": [
     {
-      "title": "중국 H200 수출 라이선스 획득, $25B 매출 기회 (3/28 보도)",
-      "description": "Motley Fool이 '엔비디아가 중국에서 다시 사업할 수 있게 됐다'고 보도. 미 정부가 H200 칩 수출 라이선스를 승인했고 젠슨 황이 중국 고객 주문과 생산 재개를 확인. 연간 $25B 추가 매출 기회"
+      "title": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다' (3/28)",
+      "description": "GTC 이후에도 수학적으로 NVDA가 여전히 의미있게 저평가되어 있다고 분석. 시장이 펀더멘털을 무시하고 있다는 강력한 주장"
     },
     {
       "title": "Forward P/E가 S&P 500 아래로 하락, 역사적 이상 현상 (3/27)",
@@ -115,34 +122,34 @@
   },
   "recentNews": [
     {
-      "date": "2026-03-29",
-      "headline": "Motley Fool: '투자자들이 엔비디아에 대해 완전히 틀렸다', GTC 후 저평가 지속",
-      "significance": "GTC 이후에도 주가가 하락하는 것은 시장이 전략적 의미를 과소평가하고 있기 때문. Forward P/E 20.64x(S&P 이하)에서 매수 기회라는 분석",
+      "date": "2026-03-28",
+      "headline": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다'",
+      "significance": "GTC 이후에도 수학적으로 NVDA가 여전히 저평가되어 있다고 분석. Forward P/E가 S&P 500 이하인 사상 처음의 이상 현상을 근거로 제시",
       "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"
     },
     {
-      "date": "2026-03-28",
-      "headline": "NVIDIA 이사 Mark Stevens, $3,850만 규모 주식 매도 (3/20 거래)",
-      "significance": "이사 Mark Stevens가 221,682주를 주당 $173.68에 매도. 내부자 매도가 센티먼트에 부담이 되나 계획된 매도일 가능성. 펀더멘털과는 무관",
-      "url": "https://www.dailypolitical.com/2026/03/28/nvidia-nasdaqnvda-director-sells-38501729-76-in-stock.html"
-    },
-    {
-      "date": "2026-03-28",
-      "headline": "Motley Fool: '엔비디아가 중국에서 다시 사업할 수 있게 됐다', $25B 매출 기회",
-      "significance": "미 정부가 H200 수출 라이선스 승인, 젠슨 황이 중국 주문 확인. 중국 수출 규제 리스크가 완화되며 연간 $25B 추가 매출 기회가 열렸다",
-      "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/"
-    },
-    {
-      "date": "2026-03-29",
-      "headline": "원유 WTI $100 돌파(Brent $112.57). 이란 사우디 미군기지 타격, 후티 참전으로 전쟁 확대",
-      "significance": "원유가 2022년 7월 이후 최고가를 기록했다. 이란이 사우디 미군기지를 미사일로 타격하고 후티 반군도 이스라엘 공격에 참전. G7이 호르무즈 안전 통행을 촉구했지만 CNBC는 1-3주 내 해결 안 되면 경제 충격 급확대 경고. 기술주에 추가 매크로 압력",
-      "url": "https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html"
+      "date": "2026-03-27",
+      "headline": "Motley Fool: NVDA Forward P/E가 S&P 500 아래로 하락, 전례 없는 이상 현상",
+      "significance": "세계 1위 AI 기업의 Forward P/E 20.64x가 S&P 500 평균(약 21x) 아래로 떨어진 것은 사상 처음. 밸류에이션 재평가 신호",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/"
     },
     {
       "date": "2026-03-27",
-      "headline": "Wolfe Research: 매수 유지, 목표가 $275. GTC가 60% 랠리 촉매",
-      "significance": "GTC 발표가 시장에 소화되면 60% 이상 상승 가능. 42/45 애널리스트 매수로 월가의 펀더멘털 확신은 흔들림 없음",
+      "headline": "Wolfe Research: NVDA 매수 유지, 목표가 $275, GTC가 60% 랠리 촉매 가능",
+      "significance": "GTC 발표 내용이 시장에 소화되면 현재가 대비 60% 이상 상승할 수 있다고 전망. 매수 의견 재확인",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "GTC 2026: Vera Rubin, Vera CPU, NemoClaw AI 에이전트 플랫폼 공개",
+      "significance": "차세대 GPU Vera Rubin과 자체 CPU, 오픈소스 AI 에이전트 플랫폼 NemoClaw 발표. 풀스택 AI 전략 완성",
+      "url": "https://nvidianews.nvidia.com/news/gtc-2026-keynote"
+    },
+    {
+      "date": "2026-03-24",
+      "headline": "GTC 이후 'Sell the News' 압력 + 중동 분쟁 매크로 악재",
+      "significance": "GTC 발표에도 주가 하락 지속. 중동 지정학 리스크와 유가 급등이 기술주 전반 압박",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/"
     }
   ],
   "analystOpinions": {
@@ -153,28 +160,28 @@
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 매수, 매도 0. 컨센서스 $276(+65%). 이사 $3,850만 매도에도 월가는 전원 매수 유지. Wolfe $275, Rosenblatt $325, Tigress $360"
+    "notableComment": "Motley Fool: '투자자들이 완전히 틀렸다'. Wolfe Research: GTC 60% 랠리 촉매. 42/45 매수, 매도 0. Rosenblatt $325, Tigress $360 최고가"
   },
   "risks": [
     {
       "severity": "high",
-      "title": "50일선, 200일선 모두 하회 + 내부자 매도",
-      "description": "50일선($170.80)과 200일선($173.77) 아래에서 거래 중. 이사 Mark Stevens $3,850만 매도. 금요일 -4.2%로 하락 가속"
+      "title": "50일선, 200일선 모두 하회하는 기술적 약세",
+      "description": "50일선($170.80)과 200일선($173.77) 아래에서 거래 중. 두 주요 이평선을 모두 하회하는 것은 2024년 이후 처음. 추가 하락 가능성 열려 있다"
     },
     {
       "severity": "high",
-      "title": "원유 $100 돌파 + 이란 전쟁 확대, 기술주 압박 심화",
-      "description": "WTI $100, Brent $112.57. 이란 사우디 미군기지 피격, 후티 참전으로 전쟁 확대. CNBC 1-3주 분수령 경고. 4/6 관세 데드라인, 분기말 리밸런싱도 변수. 유가 급등이 인플레 우려를 자극하며 기술주 멀티플 압축"
+      "title": "지정학 리스크와 매크로 환경 악화",
+      "description": "이란-이스라엘 전쟁 지속, 유가 급등, 나스닥 고점 대비 -16% 조정. GTC 이후에도 'Sell the News' 압력이 해소되지 않고 있다"
     },
     {
-      "severity": "medium",
-      "title": "중국 수출 규제 완화의 불확실성",
-      "description": "H200 라이선스 승인됐지만 정책 변동 리스크 존재. $2.5B 밀수 사건 여파로 규제 재강화 가능성도 배제할 수 없다"
+      "severity": "high",
+      "title": "중국 수출 규제 지속과 밀수 사건 여파",
+      "description": "AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성. 연간 $150-200억 시장 기회 상실 우려"
     },
     {
       "severity": "medium",
       "title": "AI 버블 우려와 멀티플 압축",
-      "description": "52주 고점 대비 -21% 하락. DeepSeek 쇼크 이후 AI 인프라 투자 효율성 논란 지속. GTC에도 'Sell the News' 지속"
+      "description": "52주 고점 대비 -21% 하락. DeepSeek 쇼크 이후 AI 인프라 투자 효율성 논란 지속"
     },
     {
       "severity": "medium",
@@ -184,20 +191,20 @@
   ],
   "buyReasons": [
     {
-      "title": "중국 H200 수출 재개, $25B 추가 매출 기회",
-      "rationale": "미 정부 라이선스 승인으로 중국 시장 재진입 가능. 기존 리스크가 오히려 추가 성장 동력으로 전환. 연간 $150-250억 매출 기회"
+      "title": "Forward P/E가 S&P 500 이하, 사상 최초의 이상 현상",
+      "rationale": "Forward P/E 20.64x가 S&P 500 평균(약 21x) 이하로 떨어졌다. 65% 성장하는 AI 리더가 시장 평균보다 싸게 거래되는 것은 전례가 없다. PEG 0.54는 극단적 저평가"
     },
     {
-      "title": "Forward P/E가 S&P 500 이하, 사상 최초의 이상 현상",
-      "rationale": "Forward P/E 20.64x가 S&P 500 평균(약 21x) 이하. 65% 성장하는 AI 리더가 시장 평균보다 싸게 거래되는 것은 전례가 없다. PEG 0.54 극단적 저평가"
+      "title": "Motley Fool: '투자자들이 완전히 틀렸다'",
+      "rationale": "GTC 이후에도 수학적으로 저평가라는 분석. 시장이 매크로 공포에 빠져 펀더멘털을 무시하고 있다는 강력한 반론"
     },
     {
       "title": "42/45 애널리스트 매수, 65% 상승 여력",
-      "rationale": "컨센서스 $276, 최고 $360. 매도 의견 0명. 주가 하락으로 상승 여력이 65%까지 확대. 월가의 펀더멘털 확신은 흔들림 없다"
+      "rationale": "컨센서스 $276, 최고 $360. 매도 의견 0명은 펀더멘털에 대한 월스트리트의 확고한 신뢰"
     },
     {
-      "title": "1조 달러 주문 잔고와 5/20 실적 촉매",
-      "rationale": "Blackwell+Vera Rubin 누적 주문 1조 달러. 향후 2-3년 실적 가시성이 반도체 업계 최고. 5/20 실적이 반등 촉매제"
+      "title": "1조 달러 주문 잔고와 실적 가시성",
+      "rationale": "Blackwell+Vera Rubin 누적 주문 1조 달러. 향후 2-3년 실적 가시성이 반도체 업계에서 가장 높다. 5/20 실적이 촉매제"
     }
   ],
   "technicalPosition": {
@@ -212,123 +219,123 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "원유가 $100를 돌파했다(WTI $99.64, Brent $112.57). 이란이 사우디 미군기지를 타격하고 후티도 참전하면서 전쟁이 확대되고 있다. CNBC는 1-3주 내 호르무즈 미해결 시 경제 충격이 급격히 커진다고 경고. 유가 $100은 인플레 우려를 자극해 기술주 멀티플을 압축한다",
-    "하지만 엔비디아 펀더멘털은 역대 최강이다. 중국 H200 수출 재개($25B), Forward P/E 20.64x(S&P 아래), PEG 0.54, 42/45 매수에 매도 0. Motley Fool은 '투자자들이 완전히 틀렸다'고 분석했다",
-    "이사 Mark Stevens의 $3,850만 매도는 센티먼트에 부담이나 계획된 매도일 가능성이 높다. 비농업 고용(4/3), 4/6 관세 데드라인이 다음 주 핵심 변수",
-    "$167.46, RSI 41. 50일($171), 200일($174) 아래지만 근접. 원유 $100 시대의 매크로 역풍이 유일한 적이다. Buy, 분할매수 적기"
+    "Motley Fool이 '투자자들이 NVDA에 대해 완전히 틀렸다'는 제목으로 GTC 이후에도 수학적 저평가를 입증했다. Forward P/E 20.64x는 S&P 500 평균(21x)보다 낮다. PEG 0.54. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 건 사상 처음이다",
+    "50일선($170.80)과 200일선($173.77) 모두 하회 중. 이란-이스라엘 전쟁과 유가 급등, 'No Kings' 시위 등 매크로 악재가 기술주 전반을 압박하고 있다. 엔비디아의 문제가 아니라 시장 전체가 흔들리는 것",
+    "42/45 애널리스트가 매수, 목표가 $276(+65%). Wolfe Research는 GTC가 60% 랠리 촉매가 될 것이라 전망. 펀더멘털 훼손은 전혀 없다. 1조 달러 주문 잔고도 건재",
+    "RSI 41. $167.46 마감. 매크로 악재로 눌린 가격이지 회사 문제가 아니다. 5/20 실적을 바라보며 분할매수 적기. Buy"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "원유 $100 돌파와 이란 전쟁 확대가 매크로 역풍을 강화하고 있지만, 중국 H200 $25B 기회, Forward P/E가 S&P 이하로 떨어진 사상 첫 이상 현상, 42/45 매수에 매도 0. 전쟁 리스크가 만든 할인 가격에 펀더멘털은 역대 최강. 분할매수 적기",
+    "summary": "Forward P/E가 S&P 500 평균 이하로 떨어진 것은 사상 처음이다. Motley Fool은 '투자자들이 완전히 틀렸다'고 단언한다. PEG 0.54, 42/45 매수, 목표가 $276(+65%). 기술적 약세는 매크로 충격에 의한 것이지 펀더멘털 문제가 아니다. 분할매수 적기",
     "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Motley Fool - 투자자들이 엔비디아에 대해 완전히 틀렸다",
+      "name": "Motley Fool - '투자자들이 NVDA에 대해 완전히 틀렸다'",
       "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/",
-      "description": "GTC 후 저평가 지속, 시장이 전략적 의미를 과소평가"
+      "description": "GTC 이후에도 수학적으로 NVDA가 저평가임을 입증하는 분석"
     },
     {
-      "name": "Daily Political - NVDA 이사 $3,850만 주식 매도",
-      "url": "https://www.dailypolitical.com/2026/03/28/nvidia-nasdaqnvda-director-sells-38501729-76-in-stock.html",
-      "description": "Mark Stevens 221,682주 매도 (3/20, 주당 $173.68)"
+      "name": "Motley Fool - NVDA Forward P/E가 S&P 500 이하",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
+      "description": "Forward P/E 20.64x가 S&P 500 평균(21x) 아래로 하락한 이례적 현상 분석"
     },
     {
-      "name": "Motley Fool - 엔비디아 중국 사업 재개",
-      "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/",
-      "description": "H200 수출 라이선스 승인, 중국 $25B 매출 기회 분석"
-    },
-    {
-      "name": "FinancialContent - NVDA 4.2% 급락, 다우 조정 진입",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide",
-      "description": "3/27 다우 793포인트 하락, 호르무즈 해협 우려"
-    },
-    {
-      "name": "MarketBeat - NVDA 목표가",
+      "name": "MarketBeat - NVDA 목표가 $275.95",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "42 Buy / 3 Hold / 0 Sell, 컨센서스 $275.95"
+      "description": "애널리스트 컨센서스 $275.95, 42 Buy / 3 Hold / 0 Sell"
+    },
+    {
+      "name": "WallStreetZen - NVDA 매출 $215.94B",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/revenue",
+      "description": "FY26 매출 $215.94B(+65.47% YoY), Q4 $68.13B(+73.21% YoY)"
     },
     {
       "name": "StockAnalysis - NVDA 통계",
       "url": "https://stockanalysis.com/stocks/nvda/statistics/",
-      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54"
+      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54, 52주 고점/저점"
     },
     {
-      "name": "CNBC - 새로운 오일 쇼크, 1-3주 분수령",
-      "url": "https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html",
-      "description": "WTI $100 돌파, 호르무즈 1-3주 내 미해결 시 경제 충격 급확대"
+      "name": "TechCrunch - 월스트리트 GTC 냉담 반응",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "description": "GTC 이후 Sell the News 압력과 월스트리트 반응 분석"
     },
     {
-      "name": "Economic Times - 고용 데이터가 시장 방향 결정",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-us-jobs-data-to-give-economic-view-for-war-gripped-markets/articleshow/129858390.cms",
-      "description": "S&P 500 YTD -5%+, 비농업 고용이 핵심 변수"
+      "name": "NVIDIA GTC 2026 키노트",
+      "url": "https://nvidianews.nvidia.com/news/gtc-2026-keynote",
+      "description": "Vera Rubin, Vera CPU, NemoClaw 발표"
     },
     {
-      "name": "Motley Fool - Forward P/E가 S&P 500 이하",
-      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
-      "description": "Forward P/E 20.64x, 사상 처음 S&P 500 평균 아래"
+      "name": "Motley Fool - Jensen Huang AGI 발언",
+      "url": "https://www.fool.com/investing/2026/03/23/nvidia-ceo-jensen-huang-great-news-stock/",
+      "description": "Lex Fridman 팟캐스트 AGI 달성 발언, $3T 매출 목표"
+    },
+    {
+      "name": "Robinhood - NVDA 시세",
+      "url": "https://robinhood.com/us/en/stocks/NVDA/",
+      "description": "시총 $4.07T, 종가 $167.46(-2.21%)"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $167 | 원유 $100 돌파에도 Forward P/E는 S&P 아래. 전쟁이 만든 할인",
-      "text": "$NVDA $167.46 (주말)\n\n원유 $100 돌파. 이란이 사우디 미군기지를 타격하고 후티도 참전했다. CNBC: 1-3주 분수령.\n\n근데 Forward P/E 20.64x는 S&P(21x) 아래\n\n1/4",
+      "hook": "NVDA $167 | Motley Fool: '투자자들이 완전히 틀렸다'",
+      "text": "$NVDA $167.46(-2.21%)\n\nMotley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다'. Forward P/E 20.64x가 S&P 500 평균(21x)보다 낮다.\n\nPEG 0.54. 65% 성장. 시장 평균보다 싼 AI 1위.\n\n1/4",
       "thread": [
-        "중국 H200 수출 재개 $25B.\nPEG 0.54, 42/45 매수, 매도 0.\nMotley Fool: '투자자들이 완전히 틀렸다'\n\n이사 매도는 계획된 것일 가능성\n\n2/4",
-        "유가 $100이 인플레 우려를 자극해\n기술주 멀티플을 압축하고 있다.\n\n하지만 AI 수요는 전쟁과 무관하다\n\n3/4",
-        "RSI 41. 50일($171) 바로 아래.\n매크로만 안정되면 빠르게 회복할 위치.\n목표가 $276(+65%). Buy, 분할매수 적기\n\n4/4"
+        "Wolfe Research: GTC 이후 60% 랠리 가능.\n42/45 매수, 매도 0. 1조 달러 주문 잔고.\n순이익률 55.6%.\n\n시장만 빼고 다 사라는 거다\n\n2/4",
+        "왜 떨어지나?\n- 이란-이스라엘 전쟁 지속\n- 유가 급등, 나스닥 -16%\n- GTC Sell the News\n\n엔비디아가 뭘 잘못한 건 아니다\n\n3/4",
+        "RSI 41. 목표가 $276(+65%). PEG 0.54.\n5/20 실적이 촉매제.\n\n분할매수 적기. Buy.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: 원유 $100 시대에도 Forward P/E는 S&P 아래, 전쟁이 만든 할인",
-      "text": "$NVDA $167.46 (주말)\n\n원유가 $100를 돌파했다(WTI $99.64, Brent $112.57). 이란 전쟁이 확대되면서 기술주 멀티플이 압축되고 있다. CNBC는 1-3주가 분수령이라 경고.\n\n하지만 Forward P/E 20.64x는 S&P(21x) 아래로 역사상 처음. 중국 H200 $25B 기회, PEG 0.54, 42/45 매수, 매도 0. AI 수요는 전쟁과 무관하다.\n\nRSI 41. 원유 $100이 만든 할인 가격. Buy, 분할매수."
+      "hook": "NVDA: Motley Fool '투자자들이 완전히 틀렸다', S&P 500보다 싼 AI 1위",
+      "text": "$NVDA $167.46(-2.21%), 시총 $4.07T\n\nMotley Fool이 '투자자들이 NVDA에 대해 완전히 틀렸다'고 분석했다. Forward P/E 20.64x는 S&P 500 평균(21x)보다 낮다. 사상 처음.\n\nPEG 0.54에 65% 성장률. Wolfe Research는 GTC가 60% 랠리 촉매가 될 수 있다고 분석. 42/45 매수, 목표가 $276(+65%).\n\n50일선, 200일선 하회 중이나 이건 이란 전쟁과 유가에 의한 매크로 충격이다.\n\nRSI 41. 분할매수 적기. Buy."
     },
     "telegram": {
       "hook": "NVDA 일일 분석 (3/29)",
-      "text": "NVDA $167.46 (주말) | 시총 $4.07T\nP/E 34.95x | Forward 20.64x (S&P 이하!) | PEG 0.54 | RSI 41\n\n긴급: 매크로 악화\n- 원유 WTI $100 돌파 (Brent $112.57)\n- 이란 사우디 미군기지 타격, 후티 참전\n- CNBC: 1-3주 분수령\n- 유가 $100이 인플레 우려 자극\n\n핵심 포인트\n- Forward P/E S&P 아래 (사상 처음)\n- 중국 H200 수출 재개 ($25B)\n- 42/45 Buy, 매도 0\n- 이사 $3,850만 매도 (계획된 것일 가능성)\n\n리스크\n- 유가 $100 인플레 우려, 멀티플 압축\n- 4/3 비농업 고용, 4/6 관세\n\n판단: Buy. 전쟁이 만든 할인 가격, 분할매수 적기"
+      "text": "NVDA $167.46 (-2.21%) | 시총 $4.07T\nP/E 34.95x | Forward 20.64x (S&P 21x 이하!) | PEG 0.54 | RSI 41\n\n핵심 변화\n- Motley Fool: '투자자들이 완전히 틀렸다'\n- Forward P/E S&P 500 평균 이하 지속 (사상 처음)\n\n핵심 이슈\n- 이란-이스라엘 전쟁, 유가 급등 매크로 압박\n- GTC 이후 Sell the News 지속\n- Wolfe Research: GTC 60% 랠리 촉매\n\n강점\n- 42/45 Buy, 목표가 $276(+65%)\n- 1조 달러 주문 잔고\n- PEG 0.54 극단적 저평가\n\n판단: Buy. 매크로가 눌러놓은 가격, 펀더멘털은 건재"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $167 | 원유 $100 돌파에도 Forward P/E는 S&P 아래. 전쟁이 만든 할인",
-          "text": "$NVDA $167.46 (주말)\n\n원유 $100 돌파. 이란이 사우디 미군기지를 타격하고 후티도 참전했다. CNBC: 1-3주 분수령.\n\n근데 Forward P/E 20.64x는 S&P(21x) 아래\n\n1/4",
+          "hook": "NVDA $167 | Motley Fool: '투자자들이 완전히 틀렸다'",
+          "text": "$NVDA $167.46(-2.21%)\n\nMotley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다'. Forward P/E 20.64x가 S&P 500 평균(21x)보다 낮다.\n\nPEG 0.54. 65% 성장. 시장 평균보다 싼 AI 1위.\n\n1/4",
           "thread": [
-            "중국 H200 수출 재개 $25B.\nPEG 0.54, 42/45 매수, 매도 0.\nMotley Fool: '투자자들이 완전히 틀렸다'\n\n이사 매도는 계획된 것일 가능성\n\n2/4",
-            "유가 $100이 인플레 우려를 자극해\n기술주 멀티플을 압축하고 있다.\n\n하지만 AI 수요는 전쟁과 무관하다\n\n3/4",
-            "RSI 41. 50일($171) 바로 아래.\n매크로만 안정되면 빠르게 회복할 위치.\n목표가 $276(+65%). Buy, 분할매수 적기\n\n4/4"
+            "Wolfe Research: GTC 이후 60% 랠리 가능.\n42/45 매수, 매도 0. 1조 달러 주문 잔고.\n순이익률 55.6%.\n\n시장만 빼고 다 사라는 거다\n\n2/4",
+            "왜 떨어지나?\n- 이란-이스라엘 전쟁 지속\n- 유가 급등, 나스닥 -16%\n- GTC Sell the News\n\n엔비디아가 뭘 잘못한 건 아니다\n\n3/4",
+            "RSI 41. 목표가 $276(+65%). PEG 0.54.\n5/20 실적이 촉매제.\n\n분할매수 적기. Buy.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "원유 $100인데 세계 1위 AI 기업이 S&P보다 싸다. 버그 아닌가",
-          "text": "$NVDA $167.46 (주말)\n\n원유 $100. 이란 전쟁 확대. 후티까지 참전.\n근데 NVDA Forward P/E가 S&P보다 낮다.\n\n42/45가 사라는데 시장은 판다. 이상하다\n\n1/4",
+          "hook": "Motley Fool: '다 틀렸다'. S&P 500보다 싼 AI 1위",
+          "text": "$NVDA $167.46(-2.21%)\n\nMotley Fool이 제목부터 쎄다: '투자자들이 완전히 틀렸다.'\nForward P/E 20.64x. S&P 500이 21x.\n\n65% 성장하는 회사를 시장 평균보다 싸게 파는 중.\n\n1/4",
           "thread": [
-            "중국 H200 $25B 기회.\nMotley Fool: '투자자들이 틀렸다'.\nPEG 0.54. 이건 진짜 버그 같다.\n\nAI는 전쟁을 안 탄다. 칩은 계속 팔린다\n\n2/4",
-            "이사가 $3,850만 팔았다고?\n임원들은 항상 판다. 그게 스케줄이니까.\nCNBC: 1-3주 분수령.\n\n전쟁이 CUDA를 대체하진 못한다\n\n3/4",
-            "RSI 41. 이평선 코앞.\n전쟁 프리미엄 빠지면 $200+ 가는 자리.\n\nBuy. 공포가 선물을 줄 때가 있다\n\n4/4"
+            "Wolfe Research: 'GTC가 60% 랠리 촉매'\n42/45 애널리스트가 Buy. 매도 0.\n\n시장만 무시하고 있다.\n물론 시장이 항상 틀리는 건 아니지만\n\n2/4",
+            "이란 전쟁, 유가, No Kings 시위.\n지구가 시끄러워서 기술주가 맞고 있다.\n\n엔비디아 실적은 1%도 안 변했는데.\n\n3/4",
+            "PEG 0.54. 이건 가치주도 부러워할 숫자다.\n1조 달러 주문 잔고.\n\n5/20 실적 보고 후회하기 전에. Buy.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더들, 원유 $100에 전쟁 확대. 불안하시죠. 펀더멘털을 보세요",
-          "text": "$NVDA $167.46 (주말)\n\n원유 $100 돌파, 이란 전쟁 확대. 이사 매도 소식까지. 고점 -21%면 불안하실 거예요.\n\n이건 엔비디아 문제가 아니에요\n\n1/4",
+          "hook": "NVDA 홀더들, 연일 하락에 지치셨죠. 하지만 이건 회사 문제가 아닙니다",
+          "text": "$NVDA $167.46(-2.21%)\n\n52주 고점에서 -21%. 매일 빨간 숫자만 보면 불안하죠.\nMotley Fool도 '투자자들이 틀렸다'고 할 만큼 이례적인 상황이에요.\n\n1/4",
           "thread": [
-            "Forward P/E가 S&P 아래예요. 역사상 처음.\n중국 H200 $25B, PEG 0.54.\n42/45 매수, 매도 0.\n\n숫자가 모든 걸 말해요\n\n2/4",
-            "전쟁이 끝나면 AI 수요는 그대로예요.\nCNBC 1-3주 분수령이라 했어요.\n\n유가 $100이 인플레를 자극하지만\nAI는 멈추지 않아요\n\n3/4",
-            "RSI 41. 이평선 바로 아래.\n5/20 실적이 촉매예요.\n분할매수로 천천히. Buy\n\n4/4"
+            "Forward P/E가 S&P 500 평균 아래로 떨어졌어요.\n사상 처음이에요. PEG 0.54.\n\n이건 시장이 공포에 빠져서 만든 가격이에요\n\n2/4",
+            "이란 전쟁과 유가 급등은 일시적이에요.\n42/45 매수, 1조 달러 주문 잔고.\n\nWolfe Research는 60% 반등을 전망하고 있어요\n\n3/4",
+            "RSI 41. 조급하지 않아도 돼요.\n5/20 실적까지 분할매수로 천천히.\n\n장기로 보면 이 가격이 선물이었다는 걸 알게 될 거예요. Buy\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: 원유 $100 시대에도 Forward P/E는 S&P 아래, 전쟁이 만든 할인",
-          "text": "$NVDA $167.46 (주말)\n\n원유가 $100를 돌파했다(WTI $99.64, Brent $112.57). 이란 전쟁이 확대되면서 기술주 멀티플이 압축되고 있다. CNBC는 1-3주가 분수령이라 경고.\n\n하지만 Forward P/E 20.64x는 S&P(21x) 아래로 역사상 처음. 중국 H200 $25B 기회, PEG 0.54, 42/45 매수, 매도 0. AI 수요는 전쟁과 무관하다.\n\nRSI 41. 원유 $100이 만든 할인 가격. Buy, 분할매수."
+          "hook": "NVDA: Motley Fool '투자자들이 완전히 틀렸다', S&P 500보다 싼 AI 1위",
+          "text": "$NVDA $167.46(-2.21%), 시총 $4.07T\n\nMotley Fool이 '투자자들이 NVDA에 대해 완전히 틀렸다'고 분석했다. Forward P/E 20.64x는 S&P 500 평균(21x)보다 낮다. 사상 처음.\n\nPEG 0.54에 65% 성장률. Wolfe Research는 GTC가 60% 랠리 촉매가 될 수 있다고 분석. 42/45 매수, 목표가 $276(+65%).\n\n50일선, 200일선 하회 중이나 이건 매크로 충격이지 펀더멘털 문제가 아니다.\n\nRSI 41. 분할매수 적기. Buy."
         },
         "witty": {
-          "hook": "원유 $100인데 AI 리더가 S&P보다 싸다. 이건 시장의 버그다",
-          "text": "$NVDA $167.46 (주말)\n\n원유 $100. 이란 전쟁 확대. Forward P/E가 S&P보다 낮다. 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 건 상식적으로 말이 안 된다.\n\n42/45 매수, 매도 0. 중국 H200 $25B. PEG 0.54. 전쟁이 CUDA를 대체하진 못한다.\n\nCNBC 1-3주 분수령. 공포가 선물을 줄 때가 있다. Buy."
+          "hook": "Motley Fool: '다 틀렸다'. S&P 500보다 싼 세계 1위 AI 기업",
+          "text": "$NVDA $167.46(-2.21%)\n\nMotley Fool 제목: '투자자들이 완전히 틀렸다.' Forward P/E 20.64x. S&P 500 평균 21x. AI 1위가 시장 평균보다 싸다.\n\n65% 성장에 PEG 0.54. 1조 달러 주문 잔고. 42/45 매수. 이 숫자가 틀렸다고? 아니면 시장이 틀렸다고?\n\n이란 전쟁과 유가가 기술주를 깔아뭉개는 중이지만, 엔비디아 실적은 변한 게 없다.\n\nRSI 41. 5/20 실적 보고 후회하기 전에. Buy."
         },
         "empathy": {
-          "hook": "NVDA 투자자분들, 원유 $100에 전쟁 확대. 힘드시죠. 큰 그림을 봐요",
-          "text": "$NVDA $167.46. 원유 $100, 이란 전쟁 확대, 이사 매도. 고점에서 -21%.\n\n불안하실 거예요. 하지만 이건 매크로 문제지 엔비디아 문제가 아니에요. Forward P/E가 S&P 아래인 건 역사상 처음이에요. 42/45 매수, 매도 0.\n\n전쟁이 끝나면 AI 수요는 그대로. CNBC 1-3주 분수령. 분할매수로 천천히. Buy."
+          "hook": "NVDA 투자자분들, 하락이 계속되어 힘드시죠. 하지만 이건 회사 문제가 아닙니다",
+          "text": "$NVDA $167.46(-2.21%), 고점 대비 -21%.\n\n매일 빨간 숫자만 보면 지치는 게 당연해요. Motley Fool도 '투자자들이 틀렸다'고 할 만큼 이상한 상황이에요.\n\nForward P/E가 S&P 500 평균 아래로 떨어진 건 사상 처음. PEG 0.54, 42/45 매수, 목표가 $276(+65%).\n\n이란 전쟁과 유가는 일시적이에요. 1조 달러 주문 잔고와 65% 성장은 사라지지 않아요.\n\n5/20 실적까지 분할매수로 천천히. Buy."
         }
       }
     }

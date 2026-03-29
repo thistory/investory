@@ -5,50 +5,114 @@
   "currentPrice": 18.39,
   "marketCap": "$8.6B",
   "businessSummary": {
-    "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
-    "description": "Originally a Bitcoin mining company, BMNR pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,660,903 ETH (3.86% of total supply) as of 3/22, with total crypto+cash of $10.9B. Launched MAVAN staking platform targeting $300M+ annual revenue. ETH has now crashed below the critical $2,000 level, breaching the NAV defense line.",
+    "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum",
+    "description": "Originally a Bitcoin mining company, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds 4,660,903 ETH (3.86% of total supply) with total crypto+cash of $10.9B. Launched MAVAN staking platform targeting $300M+ annual revenue. ETH has now crashed below the critical $2,000 support level.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,660,903 ETH (~$9.3B at ~$1,995/ETH)",
-      "ETH Staking Revenue: 3,142,643 ETH staked, targeting ~$300M/year after MAVAN migration",
-      "Dividend: 5.1% yield, only dividend-paying crypto treasury company",
-      "Bitcoin Holdings: 196 BTC (ancillary)"
+      "ETH Treasury: 4,660,903 ETH (~$9.2B at ~$1,986/ETH)",
+      "ETH Staking: 3,142,643 ETH staked, targeting ~$300M annual via MAVAN",
+      "Dividends: 5.1% yield, only dividend-paying crypto treasury company",
+      "Bitcoin holdings: 196 BTC (secondary)"
     ],
     "keyProducts": ["Ethereum Treasury", "MAVAN (Made in America Validator Network)", "ETH Staking", "Crypto Holdings"]
   },
   "keyMetrics": [
-    {"name": "P/NAV", "value": "0.85x", "interpretation": "ETH $2,000 breach shrinks NAV further. Still discounted vs MSTR P/B 2-3x, but NAV itself is melting"},
-    {"name": "ETH Holdings", "value": "4,660,903 ETH", "interpretation": "3.86% of total ETH supply (120.7M). Largest publicly traded holder. 6M ETH (5%) target is 72% complete"},
-    {"name": "Crypto Fear & Greed Index", "value": "12 (Extreme Fear)", "interpretation": "Lowest since October 2023. BTC $66K, ETH $1,995. ETH ETFs saw 7 consecutive days of $392M outflows"},
-    {"name": "Dividend Yield", "value": "5.1%", "interpretation": "Rising yield due to price decline. S&P 500 avg 1.3%. Only dividend payer among crypto stocks"},
-    {"name": "Staking Revenue (Est.)", "value": "$300M+/year", "interpretation": "Post full MAVAN migration. 3.14M ETH ($6.29B) staked since 3/25 launch. Dollar revenue shrinks with ETH price"},
-    {"name": "ETH Current Price", "value": "$1,995", "interpretation": "$2,000 psychological support officially breached. ETF 7-day $392M outflows. Analysts target $1,750-$1,911 next support. Further decline means direct NAV destruction for BMNR"}
+    {
+      "name": "P/NAV",
+      "value": "0.85x (est.)",
+      "interpretation": "ETH $2,000 breach requires NAV recalculation. At $1,986, NAV ~$10.1B est. vs $8.6B market cap. Still at discount but NAV declining rapidly"
+    },
+    {
+      "name": "ETH Holdings",
+      "value": "4,660,903 ETH",
+      "interpretation": "3.86% of total ETH supply (120.7M). Largest public company holder. 1.34M ETH needed to reach 6M (5%) target"
+    },
+    {
+      "name": "ETH Price",
+      "value": "~$1,986",
+      "interpretation": "$2,000 psychological support breached. First time below since mid-2024. ETH ETF outflows $392M. Technical analysis suggests $1,750 next support"
+    },
+    {
+      "name": "Dividend Yield",
+      "value": "5.1%",
+      "interpretation": "Yield rising with price decline. S&P 500 avg 1.3%. Only dividend-paying crypto-related stock"
+    },
+    {
+      "name": "Staking Revenue (Est.)",
+      "value": "$300M+/year",
+      "interpretation": "At full MAVAN migration. 3.14M ETH staked post-launch. ETH price decline also reduces staking asset value"
+    },
+    {
+      "name": "Weekly Return",
+      "value": "-7.5% (est.)",
+      "interpretation": "$20 support broken, further decline on broad crypto selloff and ETH $2,000 breach"
+    }
   ],
   "growthDrivers": [
-    {"title": "BeInCrypto: '$300M staking revenue yet stock struggles' (3/27)", "description": "MAVAN launch projects $300M annual staking revenue. mNAV compressed to 1.0x. Full staking realization could trigger rerating"},
-    {"title": "B. Riley raises target, Strong Buy (3/26)", "description": "B. Riley raised target to $34.50 post-MAVAN launch. +87.6% upside from current levels"},
-    {"title": "MAVAN staking platform officially launched (3/25)", "description": "3.14M ETH ($6.29B) migrated from Coinbase to proprietary MAVAN. Eliminating third-party fees, targeting $300M+ revenue"},
-    {"title": "Tom Lee 'Alchemy of 5%': 5% of ETH supply target (3/24)", "description": "6M ETH target. Currently at 3.86% (72% complete). Reaching 5% would give meaningful influence over Ethereum's ecosystem"},
-    {"title": "$138M additional ETH purchase in downturn (3/23)", "description": "Tom Lee: 'Crypto winter is nearly over.' Added 65,341 ETH. Aggressive buying continues despite market decline"}
+    {
+      "title": "BeInCrypto: '$300M staking revenue, yet stock struggles' (3/27)",
+      "description": "MAVAN launch projects $300M annual staking revenue. mNAV at 1.0x. If staking revenue materializes, stock revaluation is possible"
+    },
+    {
+      "title": "B. Riley upgrades target to $34.50, Strong Buy (3/26)",
+      "description": "Post-MAVAN launch, B. Riley raised target to $34.50. Current upside of +87.6% from $18.39"
+    },
+    {
+      "title": "MAVAN staking platform officially launched (3/25)",
+      "description": "3.14M ETH ($6.29B) migrating from Coinbase to proprietary MAVAN. Third-party fee savings drive $300M+ revenue target"
+    },
+    {
+      "title": "Tom Lee 'Alchemy of 5%': targeting 5% of ETH supply (3/24)",
+      "description": "6M ETH target. Currently at 3.86% (72% achieved). Reaching 5% would give substantial influence in the Ethereum ecosystem"
+    },
+    {
+      "title": "$138M ETH purchase during downturn (3/23)",
+      "description": "Tom Lee: 'crypto winter is almost over'. Added 65,341 ETH. Aggressive buying continues despite price weakness"
+    }
   ],
   "competitiveAdvantage": {
-    "summary": "Largest ETH holdings among public companies (3.86% of supply). Tom Lee adds institutional credibility. Only large-scale player applying the MSTR Bitcoin playbook to Ethereum.",
+    "summary": "Largest public ETH holder (3.86% of supply). Tom Lee brings institutional credibility. Only large-scale player applying MicroStrategy's BTC strategy to ETH.",
     "moats": [
-      {"type": "ETH Supply Concentration", "description": "3.86% of total ETH supply. Irreplaceable market position."},
-      {"type": "Institutional Access", "description": "Public stock provides ETH exposure. Institutional access without ETF."},
-      {"type": "MAVAN Self-Staking", "description": "3.14M ETH self-staked + MAVAN platform for fee reduction and yield advantage."}
+      {"type": "ETH Supply Concentration", "description": "3.86% of total ETH supply. Irreplicable market position."},
+      {"type": "Institutional Access", "description": "Public stock provides ETH exposure without ETF. Accessible to institutional investors."},
+      {"type": "MAVAN Self-Staking", "description": "3.14M ETH staked via proprietary platform, eliminating third-party fees."}
     ],
     "competitors": [
-      {"name": "MicroStrategy (MSTR)", "detail": "Pioneer of Bitcoin treasury strategy. BTC focus vs BMNR ETH focus. MSTR holds 721,000 BTC ($51B)"},
+      {"name": "MicroStrategy (MSTR)", "detail": "Bitcoin treasury pioneer. BTC-focused vs BMNR's ETH focus. MSTR holds 721,000 BTC ($51B)"},
       {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor. Different fee structure"},
       {"name": "Coinbase (COIN)", "detail": "Exchange-based crypto exposure. Fundamentally different business model"}
     ]
   },
   "recentNews": [
-    {"date": "2026-03-29", "headline": "ETH officially breaks below $2,000; ETF outflows hit $392M over 7 consecutive days", "significance": "Ethereum breached $2,000 psychological support Friday. ETH ETFs saw $392M in 7-day outflows, demand at 16-month low. Analysts point to $1,911 and $1,750 as next support", "url": "https://coincentral.com/ethereum-eth-price-drops-below-2000-as-etf-outflows-hit-392-million/"},
-    {"date": "2026-03-29", "headline": "Oil hits $100 (WTI $99.64, Brent $112.57). Iran strikes Saudi US base, Houthis join war", "significance": "WTI breached $100 as Iran war escalates. Missile struck Saudi US base, Houthis attacked Israel. CNBC warns 1-3 weeks decisive for Hormuz. Risk asset selloff deepens, crypto most sensitive", "url": "https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html"},
-    {"date": "2026-03-27", "headline": "BeInCrypto: '$300M staking revenue but BMNR stock struggles'", "significance": "MAVAN projects $300M revenue but mNAV compressed to 1.0x. ETH weakness offsetting staking positive", "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/"},
-    {"date": "2026-03-26", "headline": "B. Riley raises target to $34.50, Strong Buy", "significance": "Post-MAVAN target raise. +87.6% upside from current price", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/"},
-    {"date": "2026-03-25", "headline": "MAVAN (Made in America Validator Network) officially launches", "significance": "Proprietary staking platform launched. 3.14M ETH ($6.29B) migrated from Coinbase. Targeting $300M+ annual revenue", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"}
+    {
+      "date": "2026-03-29",
+      "headline": "ETH officially breaks below $2,000 to $1,986. First time since mid-2024",
+      "significance": "BMNR's #1 risk has materialized. ETH ETF outflows $392M. Technical analysis points to $1,750 as next support. NAV decline accelerating",
+      "url": "https://cryptoticker.io/en/ethereum-price-crash-below-2000-analysis/"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "Broad crypto crash: BTC $66K, ETH $1,986. Weekly -7.5%",
+      "significance": "Geopolitical risks (Iran-Israel) and global risk-off sentiment shrink crypto market cap to $1.32T. ETH down 60% from highs",
+      "url": "https://www.latestly.com/business/bitcoin-price-today-march-28-2026-btc-price-at-usd-66000-amid-geopolitical-tensions-7370331.html"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "CCN: 'These 4 charts suggest ETH has hit peak pain this cycle'",
+      "significance": "On-chain metrics deep in capitulation territory. Paradoxically signals bottom, but recovery needs buyers, which are absent",
+      "url": "https://www.ccn.com/analysis/crypto/these-charts-suggest-ethereum-price-hit-peak-pain/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "BeInCrypto: '$300M staking revenue, yet BMNR stock struggles'",
+      "significance": "MAVAN projects $300M revenue but mNAV hit 1.0x. ETH weakness completely offsets staking upside",
+      "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "B. Riley raises target to $34.50, Strong Buy",
+      "significance": "Post-MAVAN target upgrade. +87.6% upside from current price",
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/"
+    }
   ],
   "analystOpinions": {
     "consensusTarget": 34.5,
@@ -58,20 +122,56 @@
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley Strong Buy $34.50. Price decline widens upside to 87.6%. Fundamental coverage maintained despite Fear & Greed at 12 (Extreme Fear)"
+    "notableComment": "B. Riley Strong Buy, $34.50 target maintained. With shares at $18.39, upside expanded to 87.6%. However, ETH $2,000 breach may trigger target reassessment. Limited analyst coverage reduces reliability"
   },
   "risks": [
-    {"severity": "critical", "title": "ETH $2,000 officially breached, NAV destruction underway", "description": "ETH broke $2,000 on Friday. ETF 7-day outflows of $392M, 16-month low demand. Next support $1,911, $1,750. For a company holding 4.66M ETH, price decline is direct NAV destruction"},
-    {"severity": "critical", "title": "$20 stock support broken, next support at $15", "description": "$18.39 after breaking 7-week $20 support. With ETH declining further, $15 level is now exposed"},
-    {"severity": "high", "title": "mNAV compressed to 1.0x, zero premium", "description": "Market assigns no premium to BMNR despite MAVAN launch. MSTR trades at P/B 2-3x by comparison"},
-    {"severity": "high", "title": "Oil at $100 + Iran war escalation (Saudi base struck, Houthis join)", "description": "WTI $100, Brent $112.57. Iranian missile hit Saudi US base, Houthis joined war. CNBC: 1-3 weeks decisive. War prolongation risks deeper risk-asset selloff"},
-    {"severity": "medium", "title": "Staking revenue realization takes time", "description": "MAVAN launched but full Coinbase migration takes months. Dollar-denominated staking revenue shrinks with ETH price"}
+    {
+      "severity": "critical",
+      "title": "ETH $2,000 support breach confirmed, further downside risk",
+      "description": "ETH fell to $1,986, below $2,000 for first time since mid-2024. ETH ETF outflows $392M. Technical targets $1,750; Bitcoinist analysis suggests SuperTrend reversal could push to $1,200. With 88% of portfolio in ETH, this is an existential threat"
+    },
+    {
+      "severity": "critical",
+      "title": "$20 support completely broken, next support at $15",
+      "description": "At $18.39, the 7-week $20 horizontal support has collapsed. If ETH continues falling, $15 is the next technical level"
+    },
+    {
+      "severity": "high",
+      "title": "NAV declining rapidly",
+      "description": "At ETH $1,986, ETH holdings worth ~$9.25B. Down ~$800M from last week. NAV converging with market cap as premium vanishes completely"
+    },
+    {
+      "severity": "high",
+      "title": "Broad crypto selloff intensifying",
+      "description": "BTC $66,012, ETH $1,986 in tandem decline. Iran-Israel geopolitical risk and global risk-off accelerating. Crypto market cap at $1.32T"
+    },
+    {
+      "severity": "medium",
+      "title": "Staking revenue realization timeline",
+      "description": "MAVAN launched but full migration from Coinbase expected to take months. Near-term revenue impact limited"
+    }
   ],
   "buyReasons": [
-    {"title": "P/NAV 0.85x at extreme fear levels", "rationale": "15% discount to NAV even after ETH breach. Fear & Greed at 12 historically preceded strong rebounds. Extreme fear as contrarian opportunity"},
-    {"title": "B. Riley Strong Buy $34.50 (+87.6%)", "rationale": "Post-MAVAN target raise maintained. Price decline widened upside to 87.6%. Fundamental coverage intact"},
-    {"title": "MAVAN transforms business to revenue model", "rationale": "3.14M ETH self-staked targeting $300M+ annual revenue. Shifting from pure holding to revenue-generating enterprise"},
-    {"title": "5.1% dividend + management conviction", "rationale": "Only dividend-paying crypto stock. Tom Lee added $138M during the downturn. Strong management conviction signal"}
+    {
+      "title": "Trading below NAV, cheaper than asset value",
+      "rationale": "Even at ETH $1,986, NAV ~$10.1B vs $8.6B market cap (15% discount). MSTR trades at P/B 2-3x. However, further ETH decline narrows the discount"
+    },
+    {
+      "title": "B. Riley Strong Buy, $34.50 target (+87.6%)",
+      "rationale": "Post-MAVAN target upgrade. Price decline expanded upside to 87.6%"
+    },
+    {
+      "title": "MAVAN transforms revenue model",
+      "rationale": "3.14M ETH self-staking for $300M+ annual revenue target. Transitioning from pure holding to revenue-generating business"
+    },
+    {
+      "title": "5.1% dividend provides downside protection",
+      "rationale": "Only dividend-paying crypto stock. Yield risen to 5.1% with price decline"
+    },
+    {
+      "title": "On-chain capitulation indicators signal potential bottom",
+      "rationale": "CCN analysis shows 4 on-chain metrics in capitulation territory. Historically, such extreme fear has preceded recoveries, but buyer return is prerequisite"
+    }
   ],
   "technicalPosition": {
     "week52High": 161.0,
@@ -85,87 +185,123 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Oil has breached $100 (WTI $99.64, Brent $112.57), deepening the risk-asset selloff. Iran struck a Saudi US base and Houthis joined the war. CNBC warns 1-3 weeks is the deadline before economic fallout escalates sharply. ETH $2,000 breach plus oil shock creates a triple blow for BMNR",
-    "ETH ETF outflows hit $392M over 7 days, demand at 16-month low. BMNR depends on ETH for 88% of NAV, so the combination of ETH decline, war escalation, and risk-off sentiment is devastating. Crypto Fear & Greed at 12, worst since October 2023",
-    "B. Riley maintains Strong Buy $34.50 (+87.6%), MAVAN $300M transition underway. Tom Lee's $138M purchase during extreme fear signals conviction. 5.1% dividend provides sole downside protection",
-    "$18.39, RSI 38. If risk-asset selloff deepens with $100 oil, ETH $1,750 is in play. Buy maintained but only small positions. War resolution and ETH bottom are the critical watchpoints"
+    "BMNR's biggest risk has materialized: ETH broke below $2,000 to $1,986, the first breach since mid-2024. ETH ETF outflows hit $392M and technical analysis points to $1,750 as next support. This is an existential-level event for a company with 88% ETH exposure",
+    "CCN analysis shows 4 on-chain metrics in capitulation territory, a paradoxical bottom signal. But recovery needs buyers, and they're nowhere to be found. $20 support already broken; next level is $15",
+    "B. Riley maintains Strong Buy at $34.50 (+87.6%). MAVAN targets $300M annual revenue. 5.1% dividend provides a floor. Tom Lee added $138M in ETH during the decline, showing management conviction",
+    "But the $2,000 breach is a game-changer. Downgrading from Buy to Hold. Existing positions maintain; new buys should wait for ETH bottoming confirmation. Set stop-loss if ETH breaks $1,750"
   ],
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "Oil at $100 and Iran war escalation have deepened the risk-asset selloff. ETH $2,000 breach plus war risk creates a triple blow. But extreme fear (index 12), P/NAV 0.85x, B. Riley $34.50 (+87.6%), MAVAN $300M, and Tom Lee's $138M conviction buy provide long-term anchors. War resolution and ETH bottom are prerequisites. Small positions only",
-    "horizon": "6-12 months"
+    "stance": "hold",
+    "summary": "Downgraded from Buy to Hold on ETH $2,000 breach. B. Riley $34.50 and MAVAN $300M revenue are valid, but NAV will keep declining if ETH stays below $2,000. On-chain capitulation could signal a bottom, but needs buyer return. Maintain existing positions; defer new buys until ETH stabilizes. Stop-loss at ETH $1,750",
+    "horizon": "3-6 months (contingent on ETH recovery)"
   },
   "sources": [
-    {"name": "CoinCentral - ETH breaks $2,000, $392M ETF outflows", "url": "https://coincentral.com/ethereum-eth-price-drops-below-2000-as-etf-outflows-hit-392-million/", "description": "ETH $2,000 breach, 7-day ETF outflows, 16-month low demand"},
-    {"name": "NewsBTC - ETH falls below $2,000", "url": "https://www.newsbtc.com/news/ethereum/ethereum-price-falls-below-2000/", "description": "ETH $2,000 psychological support breach technical analysis"},
-    {"name": "CryptoTicker - ETH key trendline break", "url": "https://cryptoticker.io/en/ethereum-price-crash-below-2000-analysis/", "description": "ETH technical analysis, further downside warning after trendline break"},
-    {"name": "BlockchainMagazine - Crypto Fear & Greed 12", "url": "https://blockchainmagazine.net/crypto-market-today-2026-03-28/", "description": "BTC $66,350, ETH $1,997, Fear & Greed 12 (Extreme Fear)"},
-    {"name": "BeInCrypto - BMNR $300M staking analysis", "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/", "description": "mNAV 1.0x, $300M staking revenue vs price divergence"},
-    {"name": "MarketBeat - BMNR Forecast", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/", "description": "B. Riley Strong Buy $34.50"},
-    {"name": "PRNewswire - MAVAN launch", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html", "description": "MAVAN staking platform launch, 3.14M ETH"},
-    {"name": "TradersUnion - ETH Iran conflict, $392M outflows", "url": "https://tradersunion.com/news/cryptocurrency-news/show/1814323-ethereum-slides-3-19percent-to-usd1994-95/", "description": "Iran conflict ETH decline, $2.85B outflows over 5 months"},
-    {"name": "BitcoinEthereumNews - ETH $2K break, $392M ETF exodus", "url": "https://bitcoinethereumnews.com/ethereum/ethereum-eth-plunges-under-2000-mark-amid-massive-392m-etf-exodus/", "description": "7-day ETF outflows, $1,911/$1,750 support analysis"}
+    {
+      "name": "CryptoTicker - ETH $2,000 Breach Technical Analysis",
+      "url": "https://cryptoticker.io/en/ethereum-price-crash-below-2000-analysis/",
+      "description": "ETH $2,000 support break confirmed, 50-day SMA breach"
+    },
+    {
+      "name": "CCN - ETH On-Chain Capitulation Analysis",
+      "url": "https://www.ccn.com/analysis/crypto/these-charts-suggest-ethereum-price-hit-peak-pain/",
+      "description": "4 on-chain metrics in capitulation zone, potential bottom signal"
+    },
+    {
+      "name": "CoinCentral - ETH ETF Outflows $392M",
+      "url": "https://coincentral.com/ethereum-eth-price-drops-below-2000-as-etf-outflows-hit-392-million/",
+      "description": "ETH ETF outflows $392M, $1,750 support analysis"
+    },
+    {
+      "name": "Bitcoinist - ETH SuperTrend Reversal to $1,200",
+      "url": "https://bitcoinist.com/ethereum-supertrend-reversal/",
+      "description": "ETH SuperTrend reversal signal, $1,200 downside scenario"
+    },
+    {
+      "name": "BeInCrypto - BMNR $300M Staking Analysis",
+      "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/",
+      "description": "mNAV 1.0x, $300M staking revenue vs price disconnect"
+    },
+    {
+      "name": "MarketBeat - BMNR Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/",
+      "description": "B. Riley Strong Buy $34.50 analyst consensus"
+    },
+    {
+      "name": "LatestLY - Crypto Market Overview",
+      "url": "https://www.latestly.com/business/bitcoin-price-today-march-28-2026-btc-price-at-usd-66000-amid-geopolitical-tensions-7370331.html",
+      "description": "BTC $66K, ETH $1,986, crypto market cap $1.32T"
+    },
+    {
+      "name": "247 Wall St - Crypto Crash Analysis",
+      "url": "https://247wallst.com/investing/2026/03/28/why-is-crypto-crashing-bitcoin-xrp-ethereum-and-solana-all-down-this-week/",
+      "description": "ETH first $2,000 breach, 60% off highs analysis"
+    },
+    {
+      "name": "StockAnalysis - BMNR",
+      "url": "https://stockanalysis.com/stocks/bmnr/",
+      "description": "Comprehensive financial analysis and ETH holdings overview"
+    }
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR $18.39 | Oil $100, ETH below $2,000. Triple blow",
-      "text": "$BMNR $18.39 (weekend)\n\nOil $100. Iran war escalating. ETH below $2,000 with $392M ETF outflows.\n\nTriple blow to 4.66M ETH holder. P/NAV 0.85x\n\n1/4",
+      "hook": "BMNR | ETH broke $2,000. The biggest risk just became reality.",
+      "text": "$BMNR $18.39\n\nETH crashed to $1,986, below $2,000 for the first time since mid-2024. ETH ETF outflows $392M.\n\nWith 88% of portfolio in ETH, this is existential.\n\n1/4",
       "thread": [
-        "Next ETH support: $1,911, $1,750. Further drop means NAV meltdown.\n$20 stock support already gone. Double blow.\n\nFear & Greed 12, worst since Oct 2023\n\n2/4",
-        "B. Riley $34.50 (+87.6%) maintained. MAVAN day 5.\nTom Lee: $138M added in the crash.\nDividend 5.1%.\n\nLong-term catalysts alive through the fear\n\n3/4",
-        "Risk: ETH could fall to $1,750.\n88% ETH concentration, NAV defense broken.\n\nBuy maintained, small positions only. ETH bottom is key\n\n4/4"
+        "CCN: 4 on-chain metrics in capitulation zone.\nParadoxical bottom signal, but no buyers in sight.\n\n$20 broken. Next support $15.\nETH technical target: $1,750.\n\n2/4",
+        "B. Riley: Strong Buy $34.50 (+87.6%).\nMAVAN targeting $300M annual revenue. 5.1% dividend.\nTom Lee added $138M during the dip.\n\nManagement conviction remains strong.\n\n3/4",
+        "Downgraded from Buy to Hold.\nETH $2,000 breach is a game-changer.\n\nMaintain positions, defer new buys.\nStop-loss if ETH breaks $1,750.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR: Oil $100, ETH below $2,000. War, crypto crash, risk-off triple blow",
-      "text": "$BMNR $18.39 (weekend)\n\nOil hit $100 (WTI $99.64, Brent $112.57). Iran struck Saudi US base, Houthis joined war. ETH broke $2,000 with $392M ETF outflows.\n\nTriple blow for BMNR holding 4.66M ETH. War, ETH decline, risk-off sentiment all hitting at once.\n\nBut B. Riley $34.50 (+87.6%), MAVAN day 5, dividend 5.1%. Tom Lee added $138M.\n\nBuy, small positions only. War resolution and ETH bottom are key."
+      "hook": "BMNR: ETH $2,000 breach forces downgrade from Buy to Hold",
+      "text": "$BMNR $18.39\n\nETH crashed to $1,986, below $2,000 for the first time since mid-2024. ETH ETF outflows $392M. With 88% in ETH, this is existential.\n\nCCN says 4 on-chain metrics hit capitulation. Paradoxical bottom signal, but recovery needs buyers.\n\nB. Riley maintains Strong Buy $34.50 (+87.6%). MAVAN targets $300M revenue. 5.1% dividend. But the $2,000 breach changes the calculus.\n\nDowngraded from Buy to Hold. Wait for ETH to stabilize."
     },
     "telegram": {
       "hook": "BMNR Daily Analysis (3/29)",
-      "text": "BMNR $18.39 (weekend) | MCap $8.6B | P/NAV 0.85x\nETH ~$2,000 | BTC $66K | Fear & Greed 12 | Div 5.1%\n\nBreaking: Macro crisis deepens\n- Oil WTI $100 (Brent $112.57)\n- Iran strikes Saudi US base\n- Houthis join war\n- CNBC: 1-3 weeks decisive\n\nETH status\n- $2,000 psychological support broken\n- ETF 7-day $392M outflows\n- Next support: $1,911, $1,750\n\nCompany status\n- B. Riley $34.50 Strong Buy (+87.6%)\n- MAVAN day 5, targeting $300M/year\n- Tom Lee $138M added during crash\n\nVerdict: Buy (small only, war resolution + ETH bottom required)"
+      "text": "BMNR $18.39 | Market Cap $8.6B | Div 5.1%\nETH $1,986 ($2,000 BREACHED!) | Verdict: Buy -> Hold\n\nKey Changes\n- ETH $2,000 support officially broken (first since mid-2024)\n- ETH ETF outflows $392M\n- CCN: 4 on-chain capitulation indicators\n\nBullish\n- B. Riley $34.50 (+87.6%) Strong Buy\n- MAVAN $300M annual revenue transition\n- Tom Lee $138M ETH buy in downturn\n\nRisks\n- 88% ETH concentration, $1,750 open\n- $20 broken, next support $15\n\nVerdict: Hold (downgraded from Buy). No new buys until ETH stabilizes"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR $18.39 | ETH officially breaks $2,000, ETF $392M outflows",
-          "text": "$BMNR $18.39 (weekend, Friday close)\n\nETH broke $2,000. ETF outflows $392M over 7 days, 16-month low demand.\n\nDirect hit to 4.66M ETH holder. P/NAV 0.85x\n\n1/4",
+          "hook": "BMNR | ETH broke $2,000. The biggest risk just became reality.",
+          "text": "$BMNR $18.39\n\nETH crashed to $1,986, below $2,000 for the first time since mid-2024. ETH ETF outflows $392M.\n\nWith 88% of portfolio in ETH, this is existential.\n\n1/4",
           "thread": [
-            "Next ETH support: $1,911, $1,750. Further drop means NAV meltdown.\n$20 stock support already gone. Double blow.\n\nFear & Greed 12, worst since Oct 2023\n\n2/4",
-            "B. Riley $34.50 (+87.6%) maintained. MAVAN day 5.\nTom Lee: $138M added in the crash.\nDividend 5.1%.\n\nLong-term catalysts alive through the fear\n\n3/4",
-            "Risk: ETH could fall to $1,750.\n88% ETH concentration, NAV defense broken.\n\nBuy maintained, small positions only. ETH bottom is key\n\n4/4"
+            "CCN: 4 on-chain metrics in capitulation zone.\nParadoxical bottom signal, but no buyers in sight.\n\n$20 broken. Next support $15.\nETH technical target: $1,750.\n\n2/4",
+            "B. Riley: Strong Buy $34.50 (+87.6%).\nMAVAN targeting $300M annual revenue. 5.1% dividend.\nTom Lee added $138M during the dip.\n\n3/4",
+            "Downgraded from Buy to Hold.\nETH $2,000 breach is a game-changer.\n\nMaintain positions, defer new buys.\nStop-loss if ETH breaks $1,750.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "ETH broke $2,000. Tom Lee still added $138M. Brave or reckless?",
-          "text": "$BMNR $18.39 (weekend)\n\nETH $2,000 gone. $392M fled from ETFs. Fear & Greed 12.\n\nTom Lee put in $138M during this.\nBrave or reckless?\n\n1/4",
+          "hook": "ETH $2,000 broke. BMNR's Achilles heel just snapped.",
+          "text": "$BMNR $18.39\n\nETH $1,986. That $2,000 everyone worried about? It's gone.\n88% of portfolio in ETH.\nThis isn't 'concern'. This is 'emergency'.\n\n1/4",
           "thread": [
-            "Dollar bill selling for 85 cents (P/NAV 0.85x).\nBut that dollar is shrinking.\nETH at $1,750 makes it a 75-cent dollar.\n\n5.1% dividend is the only comfort\n\n2/4",
-            "B. Riley: '$34.50 target' (+87.6%).\nMarket: 'Could go to $15'.\n\nMATH doesn't matter when fear is this extreme.\nHistorically, Fear & Greed 12 has been the bottom\n\n3/4",
-            "Bottom line: ETH needs to find its floor.\nEverything walks on a knife's edge.\n\nBuy. Only if you can handle the ride\n\n4/4"
+            "Tom Lee 6 days ago: 'crypto winter almost over.'\nETH today: breaks below $2,000.\n\nB. Riley's $34.50 target feels like fiction now.\nBut they're not changing it.\n\n2/4",
+            "CCN says capitulation is here.\nCapitulation means everyone sold.\nIf everyone sold, there's no one left to sell.\nThe paradox of bottoms. But who's buying?\n\n3/4",
+            "Buy to Hold. MAVAN and 5.1% dividend remain.\nBut adding to positions without ETH confirmation is gambling.\n\nIf $1,750 breaks, it gets really ugly.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR holders, ETH broke $2,000. Tough night. But fear doesn't last forever",
-          "text": "$BMNR $18.39 (weekend)\n\nETH below $2,000. $392M in ETF outflows. Fear & Greed 12.\n\nYour weekend just got heavier.\n\n1/4",
+          "hook": "BMNR holders, ETH breaking $2,000 must feel devastating",
+          "text": "$BMNR $18.39\n\nETH at $1,986. The $2,000 everyone feared has broken. If you're holding BMNR, the anxiety must be overwhelming.\n\n1/4",
           "thread": [
-            "Next support $1,911, $1,750.\nWorrying is completely normal.\n\nBut B. Riley holds $34.50.\nTom Lee added $138M during the crash\n\n2/4",
-            "MAVAN is running. Day 5.\nDividend 5.1% keeps paying.\n\nExtreme fear doesn't last forever.\nIt just needs time\n\n3/4",
-            "ETH needs to bottom for BMNR to recover.\nNo aggressive adds. Small sizes only.\nHealth first.\n\nBuy, but risk management is survival\n\n4/4"
+            "CCN says on-chain data is in capitulation.\nParadoxically, that can mean a bottom is near.\n\nB. Riley $34.50, MAVAN $300M, 5.1% dividend.\nThe company's direction hasn't changed.\n\n2/4",
+            "But the ETH environment has changed.\nDowngraded to Hold.\n\nAdding positions isn't wise right now.\nWaiting is also courage.\n\n3/4",
+            "Don't force average-downs.\nWait for ETH to find its floor.\n\nTake care of yourself first. The numbers will eventually recover.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR: ETH officially breaks $2,000, NAV defense line shattered",
-          "text": "$BMNR $18.39 (weekend)\n\nETH broke $2,000 psychological support. ETF 7-day outflows $392M, 16-month demand low. Next support $1,750. Fear & Greed at 12.\n\nDirect hit to BMNR holding 4.66M ETH. $20 stock support broken, now ETH support broken too.\n\nBut B. Riley $34.50 (+87.6%), MAVAN day 5, dividend 5.1%. Tom Lee added $138M.\n\nBuy maintained, small positions only. ETH bottom determines everything."
+          "hook": "BMNR: ETH $2,000 breach forces downgrade from Buy to Hold",
+          "text": "$BMNR $18.39\n\nETH crashed to $1,986, below $2,000 for the first time since mid-2024. ETH ETF outflows $392M. With 88% in ETH, this is existential.\n\nCCN: 4 on-chain capitulation metrics. B. Riley Strong Buy $34.50 (+87.6%). MAVAN $300M revenue.\n\nDowngraded from Buy to Hold. Wait for ETH stabilization."
         },
         "witty": {
-          "hook": "ETH broke $2K. Tom Lee still buying. Genius or madness?",
-          "text": "$BMNR $18.39 (weekend)\n\nETH $2,000 gone. $392M fled ETFs. Fear & Greed 12. Everyone running. Tom Lee added $138M.\n\nP/NAV 0.85x. Dollar bill at 85 cents, but the dollar keeps shrinking. B. Riley says $34.50 (+87.6%). Market says 'show me when ETH stops falling.'\n\nHistorically, Fear & Greed at 12 has been the bottom. The question is whether history repeats.\n\nBuy, strong stomachs only."
+          "hook": "ETH $2,000 broke. BMNR's Achilles heel just snapped.",
+          "text": "$BMNR $18.39\n\nETH $1,986. That $2,000 everyone worried about is gone. 88% ETH portfolio. Tom Lee said 'crypto winter almost over' 6 days ago, and ETH promptly broke $2,000.\n\nB. Riley still says $34.50. The market says $18.39. CCN says 'capitulation.' When everyone's sold, there's no one left to sell. The paradox of bottoms.\n\nMAVAN and 5.1% dividend still stand. But Buy to Hold. Without ETH confirmation, adding is gambling."
         },
         "empathy": {
-          "hook": "BMNR holders, ETH broke $2,000. It's been a rough weekend. But the story isn't over",
-          "text": "$BMNR $18.39. ETH below $2,000. Official.\n\nIt hurts. $20 broken, now $2,000 broken too. -89% from 52-week high. You've been patient for a long time.\n\nBut B. Riley holds $34.50 (+87.6%) and Tom Lee added $138M. MAVAN day 5, dividend 5.1%.\n\nExtreme fear doesn't last forever. When ETH finds its floor, everything changes. Don't overextend. Small positions. Take care of yourself."
+          "hook": "BMNR holders, ETH breaking $2,000 must feel devastating. Hang in there.",
+          "text": "$BMNR $18.39. ETH $1,986.\n\nThe $2,000 everyone feared has broken. If you're holding BMNR, this must be incredibly stressful.\n\nCCN says on-chain data shows capitulation. Paradoxically, that can signal a bottom. B. Riley $34.50, MAVAN $300M, 5.1% dividend. The company hasn't changed.\n\nBut the environment has. Downgraded to Hold. Don't force average-downs. Wait for ETH to stabilize. Take care of yourself first."
         }
       }
     }

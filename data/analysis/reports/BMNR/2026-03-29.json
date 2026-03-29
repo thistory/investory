@@ -6,20 +6,25 @@
   "marketCap": "$8.6B",
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/22 기준 4,660,903 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 $10.9B. MAVAN 스테이킹 플랫폼 론칭으로 연 $300M+ 매출 목표. ETH가 $2,000 아래로 추락하면서 NAV 방어선이 무너졌다.",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/22 기준 4,660,903 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 $10.9B. MAVAN 스테이킹 플랫폼 론칭으로 연 $300M+ 매출 목표. ETH가 $2,000 아래로 추락하면서 NAV 급감 위기에 직면했다.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,660,903 ETH 보유 (~$9.3B at ~$1,995/ETH)",
+      "ETH 트레저리: 4,660,903 ETH 보유 (~$9.2B at ~$1,986/ETH)",
       "ETH 스테이킹 수익: 3,142,643 ETH 스테이킹, MAVAN 이관 후 연간 ~$300M 목표",
       "배당: 5.1% 배당수익률, 크립토 트레저리 기업 중 유일",
       "비트코인 보유: 196 BTC 보유 (부수적)"
     ],
-    "keyProducts": ["Ethereum Treasury", "MAVAN (Made in America Validator Network)", "ETH Staking", "Crypto Holdings"]
+    "keyProducts": [
+      "Ethereum Treasury",
+      "MAVAN (Made in America Validator Network)",
+      "ETH Staking",
+      "Crypto Holdings"
+    ]
   },
   "keyMetrics": [
     {
       "name": "P/NAV",
-      "value": "0.85x",
-      "interpretation": "ETH $2,000 이탈로 NAV가 추가 축소. MSTR P/B 2-3x 대비 여전히 할인이지만 NAV 자체가 녹고 있는 상황"
+      "value": "0.85x (추정)",
+      "interpretation": "ETH $2,000 이탈로 NAV 재계산 필요. ETH $1,986 기준 NAV ~$10.1B 추정. 시총 $8.6B 대비 여전히 할인이나 NAV 급감 추세"
     },
     {
       "name": "ETH 보유량",
@@ -27,9 +32,9 @@
       "interpretation": "전체 ETH 공급량(120.7M)의 3.86%. 상장 기업 중 세계 최대. 6M ETH(5%) 목표까지 134만 ETH 추가 필요"
     },
     {
-      "name": "크립토 공포탐욕 지수",
-      "value": "12 (극단적 공포)",
-      "interpretation": "2023년 10월 이후 최저 수준. BTC $66,000, ETH $1,995. ETH ETF에서 7일 연속 $392M 유출. 극심한 공포"
+      "name": "ETH 현재가",
+      "value": "~$1,986",
+      "interpretation": "$2,000 심리적 지지선 이탈 확인. 2024년 중반 이후 처음. ETF 자금 유출 $392M. 기술적으로 $1,750까지 열려 있다는 분석"
     },
     {
       "name": "배당수익률",
@@ -39,12 +44,12 @@
     {
       "name": "스테이킹 매출(예상)",
       "value": "연 $300M+",
-      "interpretation": "MAVAN 전면 이관 시 기준. 3/25 론칭 후 3.14M ETH($6.29B) 스테이킹. ETH 가격 하락 시 달러 기준 수익도 축소"
+      "interpretation": "MAVAN 전면 이관 시 기준. 3/25 론칭 후 3.14M ETH($6.29B) 스테이킹. 다만 ETH 가격 하락으로 스테이킹 자산 가치도 감소"
     },
     {
-      "name": "ETH 현재가",
-      "value": "$1,995",
-      "interpretation": "$2,000 심리적 지지선이 공식 붕괴됐다. ETF 7일 연속 $392M 유출. 애널리스트들은 다음 지지선을 $1,750-1,911로 제시. 추가 하락 시 BMNR NAV 급감 불가피"
+      "name": "주간 수익률",
+      "value": "-7.5% (추정)",
+      "interpretation": "$20 지지선 붕괴 후 추가 하락. 크립토 전반 셀오프와 ETH $2,000 이탈이 동시에 압박"
     }
   ],
   "growthDrivers": [
@@ -103,20 +108,26 @@
   "recentNews": [
     {
       "date": "2026-03-29",
-      "headline": "ETH $2,000 공식 이탈, ETF 7일 연속 $392M 유출. 다음 지지선 $1,750",
-      "significance": "이더리움이 금요일 $2,000 심리적 지지선을 공식 이탈했다. ETH ETF에서 7일 연속 총 $392M이 빠져나갔고, 수요가 16개월 최저치를 기록. 애널리스트들은 $1,911, $1,750을 다음 지지선으로 제시",
-      "url": "https://coincentral.com/ethereum-eth-price-drops-below-2000-as-etf-outflows-hit-392-million/"
+      "headline": "ETH $2,000 지지선 공식 이탈, $1,986으로 하락. 2024년 중반 이후 처음",
+      "significance": "BMNR의 #1 리스크였던 ETH $2,000 이탈이 현실화됐다. ETH ETF 자금유출 $392M. 기술적으로 $1,750까지 열려 있다는 분석. NAV 급감 불가피",
+      "url": "https://cryptoticker.io/en/ethereum-price-crash-below-2000-analysis/"
     },
     {
-      "date": "2026-03-29",
-      "headline": "원유 $100 돌파로 위험자산 추가 압박. 이란 사우디 미군기지 미사일 타격, 후티 참전",
-      "significance": "WTI $100 돌파(Brent $112.57). 이란 전쟁이 확대되면서 위험자산 전반에 셀오프 압력이 가중. CNBC는 1-3주 내 호르무즈 미해결 시 경제 충격 급확대 경고. 크립토는 위험자산 중 가장 민감하게 반응하는 자산군",
-      "url": "https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html"
+      "date": "2026-03-28",
+      "headline": "크립토 전반 폭락: BTC $66K, ETH $1,986. 주간 -7.5%",
+      "significance": "지정학 리스크(이란-이스라엘)와 글로벌 위험자산 매도세에 크립토 시장 시총 $1.32T까지 축소. ETH는 고점 대비 -60%",
+      "url": "https://www.latestly.com/business/bitcoin-price-today-march-28-2026-btc-price-at-usd-66000-amid-geopolitical-tensions-7370331.html"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "CCN: '이더리움이 이번 사이클 최대 고통에 도달했다' 4개 차트 분석",
+      "significance": "온체인 지표가 항복 영역에 진입했다는 분석. 역설적으로 바닥 신호일 수 있으나 회복에는 매수세가 필요하며 현재는 부재",
+      "url": "https://www.ccn.com/analysis/crypto/these-charts-suggest-ethereum-price-hit-peak-pain/"
     },
     {
       "date": "2026-03-27",
       "headline": "BeInCrypto: '$300M 스테이킹 수익에도 BMNR 주가는 고전'",
-      "significance": "MAVAN 론칭으로 연 $300M 매출 전망이지만 mNAV 1.0x까지 하락. ETH 약세가 스테이킹 호재를 상쇄하는 구도",
+      "significance": "MAVAN 론칭으로 연 $300M 매출 전망이지만 mNAV 1.0x까지 하락. ETH 약세가 스테이킹 호재를 상쇄",
       "url": "https://beincrypto.com/bitmine-bmnr-300m-staking-revenue-price-struggles/"
     },
     {
@@ -124,12 +135,6 @@
       "headline": "B. Riley 목표가 상향, Strong Buy $34.50",
       "significance": "MAVAN 론칭 이후 B. Riley가 목표가를 $34.50으로 상향. 현재가 대비 +87.6% 상승 여력",
       "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/"
-    },
-    {
-      "date": "2026-03-25",
-      "headline": "MAVAN(Made in America Validator Network) 정식 론칭",
-      "significance": "자체 ETH 스테이킹 플랫폼 MAVAN 론칭. 3.14M ETH($6.29B)를 Coinbase에서 이관. 연 $300M+ 매출 목표",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html"
     }
   ],
   "analystOpinions": {
@@ -140,51 +145,55 @@
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley Strong Buy $34.50. 주가 하락으로 상승 여력이 87.6%로 확대. 크립토 공포탐욕 지수 12(극단적 공포) 속에서 펀더멘털 기반 커버리지 유지"
+    "notableComment": "B. Riley Strong Buy, 목표가 $34.50 유지. 주가 $18.39 하락으로 상승 여력 87.6%. 다만 ETH $2,000 이탈로 목표가 재평가 가능성. 커버리지 애널리스트가 극소수라 신뢰도 제한적"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "ETH $2,000 공식 이탈, NAV 급감 진행 중",
-      "description": "ETH가 금요일 $2,000을 공식 이탈했다. ETF 7일 연속 $392M 유출, 수요 16개월 최저. 다음 지지선 $1,911, $1,750. 4.66M ETH 보유 기업에 ETH 가격 하락은 직접적 NAV 파괴"
+      "title": "ETH $2,000 지지선 이탈 확인, 추가 하락 위기",
+      "description": "ETH가 $1,986으로 $2,000 아래로 내려왔다. 2024년 중반 이후 처음. ETH ETF 자금유출 $392M. 기술적으로 $1,750까지 열려 있고, Bitcoinist는 SuperTrend 반전으로 $1,200까지 가능하다고 분석. 포트폴리오 88%가 ETH인 BMNR에게 생존 위협"
     },
     {
       "severity": "critical",
-      "title": "$20 지지선 붕괴, 다음 지지 $15",
-      "description": "$18.39로 $20 지지선 완전 붕괴. 7주간 횡보하던 기술적 지지가 무너졌다. ETH 추가 하락 시 $15 수준까지 열려 있다"
+      "title": "$20 지지선 완전 붕괴, 다음 지지 $15",
+      "description": "$18.39로 $20 지지선 완전 붕괴. 7주간 $20에서 횡보하던 기술적 지지가 무너졌다. ETH 추가 하락 시 $15까지 열려 있다"
     },
     {
       "severity": "high",
-      "title": "mNAV 1.0x 하락, 프리미엄 완전 소멸",
-      "description": "BeInCrypto 기준 mNAV 1.0x. 시장이 BMNR에 어떤 프리미엄도 부여하지 않는 상황. MSTR은 P/B 2-3x"
+      "title": "NAV 급감 진행 중",
+      "description": "ETH $1,986 기준 ETH 보유가치 ~$9.25B. 전주 대비 약 $800M 감소. NAV가 시총에 수렴하면서 프리미엄이 완전히 사라진 상태"
     },
     {
       "severity": "high",
-      "title": "원유 $100 돌파 + 이란 전쟁 확대 (사우디 미군기지 피격, 후티 참전)",
-      "description": "WTI $100, Brent $112.57. 이란이 사우디 미군기지를 미사일로 타격하고 후티도 이스라엘 공격에 참전. CNBC 1-3주 분수령 경고. 위험자산 셀오프 장기화 가능성"
+      "title": "크립토 전반 셀오프 심화",
+      "description": "BTC $66,012, ETH $1,986 동반 하락. 이란-이스라엘 지정학 리스크와 글로벌 위험자산 매도 가속화. 크립토 시총 $1.32T"
     },
     {
       "severity": "medium",
       "title": "스테이킹 수익 현실화까지 시간 소요",
-      "description": "MAVAN 론칭했지만 Coinbase에서 전면 이관까지 수개월 소요 전망. ETH 가격 하락 시 달러 기준 스테이킹 수익도 축소"
+      "description": "MAVAN 론칭했지만 Coinbase에서 전면 이관까지 수개월 소요 전망. 단기 매출 효과 제한적"
     }
   ],
   "buyReasons": [
     {
-      "title": "P/NAV 0.85x, 극단적 공포 속 자산 할인",
-      "rationale": "ETH $2,000 이탈에도 NAV 대비 15% 할인 거래. 공포탐욕 지수 12에서의 매수는 역사적으로 높은 수익률을 보였다. 극단적 공포가 반등의 전조가 될 수 있다"
+      "title": "NAV 대비 할인, 자산가치보다 싸다",
+      "rationale": "ETH $1,986에서도 NAV ~$10.1B 대비 시총 $8.6B로 15% 할인. MSTR P/B 2-3x와 비교하면 극단적 할인. 다만 ETH 추가 하락 시 할인 축소 가능"
     },
     {
-      "title": "B. Riley Strong Buy $34.50(+87.6%)",
-      "rationale": "MAVAN 론칭 후 목표가 상향. 주가 하락으로 상승 여력이 87.6%까지 확대. 펀더멘털 기반 커버리지 유지"
+      "title": "B. Riley Strong Buy, 목표가 $34.50(+87.6%)",
+      "rationale": "MAVAN 론칭 후 목표가 상향. 주가 하락으로 상승 여력이 87.6%까지 확대"
     },
     {
       "title": "MAVAN 론칭으로 수익 모델 전환",
       "rationale": "3.14M ETH 자체 스테이킹으로 연 $300M+ 매출 목표. 보유에서 수익 창출 기업으로 전환 중"
     },
     {
-      "title": "배당 5.1%로 하락 방어 + 경영진 확신",
-      "rationale": "크립토 주식 중 유일한 배당주. Tom Lee가 하락장에서 $138M 추가 매수. 경영진의 강한 확신"
+      "title": "배당 5.1%로 하락 방어",
+      "rationale": "크립토 주식 중 유일한 배당주. 주가 하락으로 배당수익률이 5.1%까지 상승"
+    },
+    {
+      "title": "온체인 지표 항복 구간, 역설적 바닥 신호",
+      "rationale": "CCN 분석에 따르면 ETH 온체인 지표 4개가 모두 항복 구간에 진입. 과거 이런 극단적 공포에서 반등이 나왔으나 매수세 유입이 전제"
     }
   ],
   "technicalPosition": {
@@ -199,36 +208,36 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "원유가 $100를 돌파하면서 위험자산 셀오프가 장기화되고 있다. 이란 전쟁이 사우디 미군기지 피격과 후티 참전으로 확대됐고, CNBC는 1-3주 내 호르무즈 미해결 시 경제 충격이 급격히 커진다고 경고. ETH $2,000 이탈에 원유 쇼크까지 겹쳐 BMNR에 삼중 타격",
-    "ETH ETF 7일 연속 $392M 유출, 수요 16개월 최저. $20 지지선과 ETH $2,000이 동시에 무너졌다. 크립토 공포지수 12로 2023년 10월 이후 최악이며, 전쟁 장기화 시 위험자산 회피가 더 심화될 수 있다",
-    "B. Riley Strong Buy $34.50(+87.6%), MAVAN 연 $300M 전환 진행 중. Tom Lee의 $138M 추가 매수는 극단적 공포 속 경영진 확신의 표현. 배당 5.1%가 유일한 하방 방어",
-    "$18.39, RSI 38. 원유 $100 시대에 위험자산 회피가 심화되면 ETH $1,750까지 열려 있다. Buy 유지하지만 소액 분할매수만, 전쟁 상황 주시 필수"
+    "BMNR의 최대 리스크였던 ETH $2,000 지지선이 무너졌다. ETH가 $1,986으로 하락하면서 2024년 중반 이후 처음으로 $2,000 아래로 내려왔다. ETH ETF 자금유출 $392M, 기술적으로 $1,750까지 열려 있다는 분석",
+    "포트폴리오 88%가 ETH인 BMNR에게 이건 생존 위협 수준이다. NAV가 빠르게 줄어들고 있고, $20 지지선도 이미 붕괴됐다. CCN은 온체인 지표가 '항복 구간'이라고 분석했는데, 역설적으로 바닥일 수 있지만 매수세가 없다",
+    "B. Riley는 여전히 Strong Buy $34.50(+87.6%)을 유지하고, MAVAN으로 연 $300M 매출 전환 중이며, 배당 5.1%는 하방 지지 역할. Tom Lee는 하락장에서 $138M을 추가 매수하며 확신을 보여줬다",
+    "하지만 ETH $2,000 이탈은 게임체인저다. 추가 매수는 ETH 바닥 확인 후가 안전. 기존 포지션은 유지하되 ETH $1,750 이탈 시 손절 기준 필요"
   ],
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "원유 $100 돌파와 이란 전쟁 확대로 위험자산 셀오프가 심화되고 있다. ETH $2,000 이탈에 전쟁 리스크까지 겹쳐 NAV 파괴 위험이 가중됐다. 그러나 공포지수 12에서 P/NAV 0.85x, B. Riley $34.50(+87.6%), MAVAN $300M 전환은 장기 촉매. 전쟁 종료와 ETH 반등이 전제조건. 소액 분할매수만",
-    "horizon": "6-12개월"
+    "stance": "hold",
+    "summary": "ETH $2,000 이탈로 기존 Buy에서 Hold로 하향. B. Riley $34.50과 MAVAN $300M 매출은 유효하나, ETH가 $2,000을 회복하지 못하면 NAV 급감이 이어진다. 온체인 항복 지표는 역설적 바닥 신호이지만 매수세가 돌아와야 한다. 기존 포지션 유지, 신규 매수는 ETH 바닥 확인 후. $1,750 이탈 시 손절",
+    "horizon": "3-6개월 (ETH 회복 전제)"
   },
   "sources": [
     {
-      "name": "CoinCentral - ETH $2,000 이탈, ETF $392M 유출",
-      "url": "https://coincentral.com/ethereum-eth-price-drops-below-2000-as-etf-outflows-hit-392-million/",
-      "description": "ETH $2,000 붕괴, ETF 7일 연속 유출, 16개월 최저 수요"
-    },
-    {
-      "name": "NewsBTC - ETH $2,000 아래로 추락",
-      "url": "https://www.newsbtc.com/news/ethereum/ethereum-price-falls-below-2000/",
-      "description": "ETH $2,000 심리적 지지선 이탈 기술적 분석"
-    },
-    {
-      "name": "CryptoTicker - ETH 핵심 추세선 이탈",
+      "name": "CryptoTicker - ETH $2,000 이탈 기술적 분석",
       "url": "https://cryptoticker.io/en/ethereum-price-crash-below-2000-analysis/",
-      "description": "ETH 기술적 분석, 추세선 이탈 후 추가 하락 경고"
+      "description": "ETH $2,000 지지선 붕괴, 50일 SMA 하향 돌파 확인"
     },
     {
-      "name": "BlockchainMagazine - 크립토 공포탐욕 지수 12",
-      "url": "https://blockchainmagazine.net/crypto-market-today-2026-03-28/",
-      "description": "BTC $66,350, ETH $1,997, 공포탐욕 12(극단적 공포)"
+      "name": "CCN - ETH 온체인 지표 4개 항복 구간 분석",
+      "url": "https://www.ccn.com/analysis/crypto/these-charts-suggest-ethereum-price-hit-peak-pain/",
+      "description": "온체인 항복 지표 분석, 바닥 가능성과 매수세 부재 지적"
+    },
+    {
+      "name": "CoinCentral - ETH ETF 자금유출 $392M",
+      "url": "https://coincentral.com/ethereum-eth-price-drops-below-2000-as-etf-outflows-hit-392-million/",
+      "description": "ETH ETF 자금유출 $392M, $1,750 하방 지지선 분석"
+    },
+    {
+      "name": "Bitcoinist - ETH SuperTrend 반전, $1,200 가능",
+      "url": "https://bitcoinist.com/ethereum-supertrend-reversal/",
+      "description": "ETH SuperTrend 반전 신호, $1,200까지 하락 가능 분석"
     },
     {
       "name": "BeInCrypto - BMNR $300M 스테이킹 분석",
@@ -238,84 +247,84 @@
     {
       "name": "MarketBeat - BMNR Forecast",
       "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/",
-      "description": "B. Riley Strong Buy $34.50"
+      "description": "B. Riley Strong Buy $34.50. 애널리스트 컨센서스 목표가"
     },
     {
-      "name": "PRNewswire - MAVAN 론칭 공시",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-in-america-validator-network-the-companys-proprietary-staking-solution-302724419.html",
-      "description": "MAVAN 스테이킹 플랫폼 정식 론칭, 3.14M ETH"
+      "name": "LatestLY - 크립토 시장 상황",
+      "url": "https://www.latestly.com/business/bitcoin-price-today-march-28-2026-btc-price-at-usd-66000-amid-geopolitical-tensions-7370331.html",
+      "description": "BTC $66K, ETH $1,986, 크립토 시총 $1.32T"
     },
     {
-      "name": "TradersUnion - ETH 이란 분쟁 하락, $392M 유출",
-      "url": "https://tradersunion.com/news/cryptocurrency-news/show/1814323-ethereum-slides-3-19percent-to-usd1994-95/",
-      "description": "이란 분쟁으로 ETH 하락, 5개월간 $28.5억 유출"
+      "name": "247 Wall St - 크립토 폭락 분석",
+      "url": "https://247wallst.com/investing/2026/03/28/why-is-crypto-crashing-bitcoin-xrp-ethereum-and-solana-all-down-this-week/",
+      "description": "ETH $2,000 최초 이탈, 고점 대비 -60% 분석"
     },
     {
-      "name": "BitcoinEthereumNews - ETH $2,000 이탈, $392M ETF 유출",
-      "url": "https://bitcoinethereumnews.com/ethereum/ethereum-eth-plunges-under-2000-mark-amid-massive-392m-etf-exodus/",
-      "description": "ETH ETF 7일 연속 유출, $1,911/$1,750 지지선 분석"
+      "name": "StockAnalysis - BMNR",
+      "url": "https://stockanalysis.com/stocks/bmnr/",
+      "description": "종합 재무 분석, 밸류에이션, ETH 보유 현황"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR $18.39 | 원유 $100 돌파, ETH $2,000 이탈에 삼중 타격",
-      "text": "$BMNR $18.39 (주말)\n\n원유 $100 돌파, 이란 전쟁 확대. ETH $2,000 이탈에 ETF $392M 유출까지.\n\n4.66M ETH 보유 기업에 삼중 타격. P/NAV 0.85x\n\n1/4",
+      "hook": "BMNR | ETH $2,000 이탈, 최대 리스크가 현실이 됐다",
+      "text": "$BMNR $18.39\n\nETH가 $1,986으로 $2,000 아래로 내려왔다. 2024년 중반 이후 처음. ETH ETF 유출 $392M.\n\n포트폴리오 88%가 ETH인 BMNR에겐 생존 위협 수준.\n\n1/4",
       "thread": [
-        "이란이 사우디 미군기지를 타격하고 후티도 참전.\nCNBC: 1-3주가 분수령.\n위험자산 회피가 심화되면 ETH $1,750 가능.\n\n공포지수 12, 2023년 10월 이후 최악\n\n2/4",
-        "B. Riley $34.50(+87.6%) 유지. MAVAN 5일차.\nTom Lee: $138M 추가 매수. 배당 5.1%.\n\n전쟁 속에서도 장기 촉매는 살아있다\n\n3/4",
-        "리스크: 원유 $100 + ETH $1,750 가능성.\n88% ETH 집중, NAV 녹는 중.\n\nBuy 유지, 소액만. 전쟁과 ETH 바닥 주시\n\n4/4"
+        "CCN: 온체인 지표 4개가 항복 구간 진입.\n역설적 바닥 신호이나 매수세가 없다.\n\n$20 지지선 붕괴 후 $18.39. 다음 지지 $15.\nETH $1,750까지 열려 있다는 분석도\n\n2/4",
+        "B. Riley: Strong Buy $34.50(+87.6%) 유지.\nMAVAN 연 $300M 매출 전환 중. 배당 5.1%.\nTom Lee는 하락장에서 $138M 추가 매수.\n\n경영진 확신은 여전하다\n\n3/4",
+        "기존 Buy에서 Hold로 하향.\nETH $2,000 이탈은 게임체인저.\n\n기존 포지션 유지, 신규 매수는 ETH 바닥 확인 후.\n$1,750 이탈 시 손절 기준 필요\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR: 원유 $100 돌파에 ETH $2,000 이탈, 삼중 타격",
-      "text": "$BMNR $18.39 (주말)\n\n원유가 $100를 돌파했다(WTI $99.64, Brent $112.57). 이란 미사일이 사우디 미군기지를 타격하고 후티도 참전. ETH는 $2,000을 이탈했고 ETF 7일 연속 $392M 유출.\n\n4.66M ETH를 보유한 BMNR에 전쟁, ETH 하락, 위험자산 셀오프의 삼중 타격이다. $20도 무너진 상태.\n\nB. Riley $34.50(+87.6%), MAVAN 5일차, 배당 5.1%. Tom Lee는 $138M을 더 넣었다.\n\nBuy 유지, 소액만. 전쟁 종료와 ETH 바닥이 핵심."
+      "hook": "BMNR: ETH $2,000 이탈로 최대 리스크 현실화, Buy에서 Hold로 하향",
+      "text": "$BMNR $18.39\n\nETH가 $1,986으로 $2,000 아래로 추락했다. 2024년 중반 이후 처음. ETH ETF 유출 $392M. 포트폴리오 88%가 ETH인 BMNR에겐 생존 위협.\n\nCCN은 온체인 지표 4개가 항복 구간이라고 분석. 역설적 바닥 신호이지만 매수세가 돌아와야 한다.\n\nB. Riley Strong Buy $34.50(+87.6%) 유지. MAVAN 연 $300M 매출, 배당 5.1%. 하지만 ETH $2,000 이탈은 게임체인저.\n\n기존 Buy에서 Hold로 하향. ETH 바닥 확인 후 재진입."
     },
     "telegram": {
       "hook": "BMNR 일일 분석 (3/29)",
-      "text": "BMNR $18.39 (주말) | 시총 $8.6B | P/NAV 0.85x\nETH ~$2,000 | BTC $66K | 공포탐욕 12 | 배당 5.1%\n\n긴급: 매크로 악화\n- 원유 WTI $100 돌파 (Brent $112.57)\n- 이란 사우디 미군기지 미사일 타격\n- 후티 반군 이스라엘 공격 참전\n- CNBC: 1-3주 분수령\n\nETH 상황\n- $2,000 심리적 지지선 이탈\n- ETF 7일 연속 $392M 유출\n- 다음 지지선: $1,911, $1,750\n\n기업 현황\n- B. Riley $34.50 Strong Buy (+87.6%)\n- MAVAN 론칭 5일차, 연 $300M 목표\n- Tom Lee $138M 추가 매수\n\n판단: Buy (소액만, 전쟁 종료 + ETH 바닥 확인 전제)"
+      "text": "BMNR $18.39 | 시총 $8.6B | 배당 5.1%\nETH $1,986 ($2,000 이탈!) | 판단 변경: Buy -> Hold\n\n핵심 변화\n- ETH $2,000 지지선 공식 이탈 (2024년 중반 이후 처음)\n- ETH ETF 자금유출 $392M\n- CCN: 온체인 4개 지표 항복 구간\n\n호재\n- B. Riley $34.50(+87.6%) Strong Buy 유지\n- MAVAN 연 $300M 매출 전환 중\n- Tom Lee $138M ETH 추가 매수\n\n리스크\n- ETH 88% 집중, $1,750까지 열려 있음\n- $20 붕괴, 다음 지지 $15\n\n판단: Hold (기존 Buy에서 하향). ETH 바닥 확인 전 신규 매수 자제"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR $18.39 | 원유 $100 돌파, ETH $2,000 이탈에 삼중 타격",
-          "text": "$BMNR $18.39 (주말)\n\n원유 $100 돌파, 이란 전쟁 확대. ETH $2,000 이탈에 ETF $392M 유출까지.\n\n4.66M ETH 보유 기업에 삼중 타격. P/NAV 0.85x\n\n1/4",
+          "hook": "BMNR | ETH $2,000 이탈, 최대 리스크가 현실이 됐다",
+          "text": "$BMNR $18.39\n\nETH가 $1,986으로 $2,000 아래로 내려왔다. 2024년 중반 이후 처음. ETH ETF 유출 $392M.\n\n포트폴리오 88%가 ETH인 BMNR에겐 생존 위협 수준.\n\n1/4",
           "thread": [
-            "이란이 사우디 미군기지를 타격하고 후티도 참전.\nCNBC: 1-3주가 분수령.\n위험자산 회피가 심화되면 ETH $1,750 가능.\n\n공포지수 12, 2023년 10월 이후 최악\n\n2/4",
-            "B. Riley $34.50(+87.6%) 유지. MAVAN 5일차.\nTom Lee: $138M 추가 매수. 배당 5.1%.\n\n전쟁 속에서도 장기 촉매는 살아있다\n\n3/4",
-            "리스크: 원유 $100 + ETH $1,750 가능성.\n88% ETH 집중, NAV 녹는 중.\n\nBuy 유지, 소액만. 전쟁과 ETH 바닥 주시\n\n4/4"
+            "CCN: 온체인 지표 4개가 항복 구간 진입.\n역설적 바닥 신호이나 매수세가 없다.\n\n$20 지지선 붕괴 후 $18.39. 다음 지지 $15.\nETH $1,750까지 열려 있다는 분석도\n\n2/4",
+            "B. Riley: Strong Buy $34.50(+87.6%) 유지.\nMAVAN 연 $300M 매출 전환 중. 배당 5.1%.\nTom Lee는 하락장에서 $138M 추가 매수.\n\n경영진 확신은 여전하다\n\n3/4",
+            "기존 Buy에서 Hold로 하향.\nETH $2,000 이탈은 게임체인저.\n\n기존 포지션 유지, 신규 매수는 ETH 바닥 확인 후.\n$1,750 이탈 시 손절 기준 필요\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "원유 $100, ETH $2,000 이탈, 전쟁 확대. Tom Lee는 그래도 산다",
-          "text": "$BMNR $18.39 (주말)\n\n원유 $100 돌파. 이란이 사우디를 때렸다. 후티도 참전. ETH $2,000 이탈.\n\nTom Lee는 이 와중에 $138M을 넣은 사람이다.\n\n1/4",
+          "hook": "ETH $2,000 뚫렸다. BMNR의 아킬레스건이 터졌다",
+          "text": "$BMNR $18.39\n\nETH $1,986. 그 $2,000이 뚫렸다.\n포트폴리오 88%가 ETH인 회사에게\n이건 '걱정'이 아니라 '비상'이다.\n\n1/4",
           "thread": [
-            "P/NAV 0.85x. 만원짜리를 8,500원에 사는 중.\n근데 원유 $100이고 전쟁 중이라\n그 만원짜리가 녹고 있다.\n\n배당 5.1%가 유일한 위안\n\n2/4",
-            "CNBC: 1-3주가 분수령.\nB. Riley: '$34.50 간다'(+87.6%).\n\n전쟁이 끝나면 맞는 말이 된다.\n안 끝나면 모르겠다\n\n3/4",
-            "공포지수 12. 역사적으로 바닥 근처.\n문제는 '역사적으로'에 전쟁은 없었다.\n\nBuy, 소액만. 심장 튼튼한 사람만\n\n4/4"
+            "Tom Lee: 'crypto winter 거의 끝났다' (3/23)\nETH: $2,000 아래로 떨어진다 (3/29)\n\n6일 만에 상황이 뒤집혔다.\nB. Riley $34.50이 점점 먼 나라 얘기처럼 보인다\n\n2/4",
+            "CCN: 온체인 항복 구간 진입.\n\n항복이라는 건 다 팔았다는 뜻이고,\n다 팔면 더 팔 사람이 없다는 뜻이다.\n바닥의 역설. 하지만 매수세가 없다\n\n3/4",
+            "Buy에서 Hold로 하향.\nMAVAN, 배당 5.1%는 여전하다.\n하지만 ETH 바닥 확인 없이 추매는 도박.\n\n$1,750 이탈 시 진짜 위험해진다\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR 홀더들, 원유 $100에 전쟁 확대. 정말 힘든 시기예요",
-          "text": "$BMNR $18.39 (주말)\n\n원유 $100 돌파, 이란 전쟁 확대, ETH $2,000 이탈.\n52주 고점 $161에서 -89%. 정말 힘드시죠.\n\n하지만 Tom Lee는 $138M을 더 넣었어요\n\n1/4",
+          "hook": "BMNR 홀더들, ETH $2,000마저 무너져서 막막하시죠",
+          "text": "$BMNR $18.39\n\nETH $1,986. 그토록 걱정했던 $2,000이 무너졌어요. BMNR 들고 계시면 정말 불안하실 거예요. 마음이 무겁습니다.\n\n1/4",
           "thread": [
-            "B. Riley는 $34.50(+87.6%)을 유지하고 있어요.\nMAVAN이 돌아가기 시작했고요.\n배당 5.1%도 받고 계시잖아요\n\n2/4",
-            "CNBC가 1-3주가 분수령이라 했어요.\n전쟁이 끝나면 위험자산이 돌아와요.\n극단적 공포가 영원하진 않아요\n\n3/4",
-            "무리한 추매는 절대 안 돼요.\n감당 가능한 소액으로만.\nETH 바닥이 잡혀야 BMNR도 삽니다.\n\nBuy, 건강이 먼저예요\n\n4/4"
+            "CCN은 온체인 지표가 항복 구간이래요.\n이건 역설적으로 바닥에 가깝다는 의미이기도 해요.\n\nB. Riley $34.50, MAVAN $300M, 배당 5.1%.\n회사의 방향은 바뀌지 않았어요\n\n2/4",
+            "하지만 ETH $2,000 이탈은 무시할 수 없어요.\n기존 Buy에서 Hold로 바꿨어요.\n\n추가 매수보다 지금은 관망이 맞아요\n\n3/4",
+            "무리한 물타기는 하지 마세요.\nETH가 바닥을 찍고 돌아올 때까지 기다리는 것도 용기에요.\n\n건강이 먼저입니다. 숫자는 결국 회복합니다\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR: 원유 $100 돌파에 ETH $2,000 이탈, 삼중 타격",
-          "text": "$BMNR $18.39 (주말)\n\n원유가 $100를 돌파했다(WTI $99.64, Brent $112.57). 이란 미사일이 사우디 미군기지를 타격하고 후티도 참전. ETH는 $2,000을 이탈했고 ETF 7일 연속 $392M 유출.\n\n4.66M ETH를 보유한 BMNR에 전쟁, ETH 하락, 위험자산 셀오프의 삼중 타격이다. $20도 무너진 상태.\n\nB. Riley $34.50(+87.6%), MAVAN 5일차, 배당 5.1%. Tom Lee는 $138M을 더 넣었다.\n\nBuy 유지, 소액만. 전쟁 종료와 ETH 바닥이 핵심."
+          "hook": "BMNR: ETH $2,000 이탈, 최대 리스크 현실화. Buy에서 Hold로",
+          "text": "$BMNR $18.39\n\nETH가 $1,986으로 $2,000 아래로 추락했다. 2024년 중반 이후 처음. ETH ETF 유출 $392M. 포트폴리오 88%가 ETH인 BMNR에겐 생존 위협.\n\nCCN은 온체인 지표 4개가 항복 구간이라고 분석. 역설적 바닥 신호이지만 매수세가 필요.\n\nB. Riley Strong Buy $34.50(+87.6%) 유지. MAVAN 연 $300M 매출, 배당 5.1%.\n\n기존 Buy에서 Hold로 하향. ETH 바닥 확인 후 재진입."
         },
         "witty": {
-          "hook": "원유 $100 시대에 ETH도 무너졌다. Tom Lee만 사고 있다",
-          "text": "$BMNR $18.39 (주말)\n\n원유 $100 돌파, 이란 전쟁 확대, ETH $2,000 이탈. 악재 삼중주. 다들 도망가는데 Tom Lee는 $138M을 더 넣었다.\n\nP/NAV 0.85x. 자산 가치보다 싸게 파는 중인데, 그 자산이 녹고 있다. CNBC: 1-3주 분수령. 전쟁 끝나면 B. Riley $34.50이 맞는 말이 된다.\n\nBuy, 심장이 강한 사람만."
+          "hook": "ETH $2,000이 뚫렸다. BMNR의 아킬레스건이 터졌다",
+          "text": "$BMNR $18.39\n\nETH $1,986. 매일 이야기했던 그 $2,000이 결국 뚫렸다. 포트폴리오 88%가 ETH인 회사에게 이건 비상이다.\n\nTom Lee가 6일 전에 'crypto winter 거의 끝났다'고 했는데, ETH는 $2,000 아래로 내려왔다. B. Riley $34.50이 먼 나라 얘기처럼 보인다.\n\nCCN은 온체인 항복 구간이라 한다. 다 팔면 더 팔 사람이 없다는 바닥의 역설.\n\nBuy에서 Hold. MAVAN과 배당은 여전하지만, ETH 바닥 없이 추매는 도박."
         },
         "empathy": {
-          "hook": "BMNR 주주 여러분, 원유 $100에 전쟁에 ETH까지. 정말 지치셨을 거예요",
-          "text": "$BMNR $18.39. 원유 $100, 이란 전쟁 확대, ETH $2,000 이탈.\n\n-89%(52주 고점 대비). 숫자가 아프시죠. 전쟁과 원유와 크립토 하락이 동시에 덮치고 있어요.\n\n하지만 B. Riley $34.50(+87.6%), MAVAN 5일차, 배당 5.1%. Tom Lee는 $138M을 더 넣었어요.\n\nCNBC가 1-3주 분수령이라 했어요. 극단적 공포가 영원하진 않아요. 소액만, 건강이 먼저예요. Buy."
+          "hook": "BMNR 홀더 여러분, ETH $2,000이 무너져서 정말 힘드시죠",
+          "text": "$BMNR $18.39. ETH $1,986.\n\n걱정했던 $2,000이 무너졌어요. BMNR 들고 계시면 정말 막막하시죠. 마음이 무겁습니다.\n\nCCN은 온체인 지표가 항복 구간이래요. 역설적으로 바닥에 가깝다는 의미이기도 하지만, 매수세가 돌아와야 해요.\n\nB. Riley $34.50, MAVAN $300M, 배당 5.1%. 회사의 방향은 바뀌지 않았어요. 하지만 ETH 환경이 바뀌었어요.\n\n기존 Buy에서 Hold로 바꿨어요. 무리한 물타기보다 기다림이 답이에요. 건강이 먼저입니다."
         }
       }
     }
