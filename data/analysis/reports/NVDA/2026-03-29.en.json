@@ -6,10 +6,10 @@
   "marketCap": "$4.07T",
   "businessSummary": {
     "oneLiner": "Undisputed AI computing leader, dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, unveiled Vera Rubin and Vera CPU with a 5-layer full-stack AI strategy. FY26 revenue $215.9B (+65% YoY), net income $120B. Projects cumulative Blackwell and Rubin chip orders of $1 trillion through 2027.",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem spanning data center chips to software platforms. GTC 2026 unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue $215.9B (+65% YoY), net income $120B. Projected cumulative Blackwell and Rubin chip orders of $1T through 2027.",
     "howTheyMakeMoney": [
-      "Data center AI accelerators (80%+ of revenue)",
-      "AI software platforms (CUDA, NIM, NemoClaw)",
+      "Data Center AI accelerators (80%+ of revenue)",
+      "AI Software Platform (CUDA, NIM, NemoClaw)",
       "Gaming GPUs",
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
@@ -17,133 +17,42 @@
     "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE"]
   },
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "34.95x",
-      "interpretation": "vs. semiconductor sector avg 25x and S&P 500 avg 22x. Premium narrowing rapidly. PEG of 0.54 at 65% growth signals extreme undervaluation"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "20.64x",
-      "interpretation": "Below S&P 500 average of ~21x. First time ever the world's #1 AI company trades below the market average on forward earnings"
-    },
-    {
-      "name": "Revenue (TTM)",
-      "value": "$215.9B",
-      "interpretation": "+65% YoY growth. Data center revenue 80%+ of total. Net margin 55.6%"
-    },
-    {
-      "name": "PEG Ratio",
-      "value": "0.54",
-      "interpretation": "Below 1.0 indicates undervaluation relative to growth. 0.54 is an extreme undervaluation signal. High-growth + low-PEG is exceedingly rare"
-    },
-    {
-      "name": "China H200 Export Resumption",
-      "value": "$25B Revenue Opportunity",
-      "interpretation": "US government approved H200 export licenses to China. Jensen Huang confirmed Chinese client orders at GTC. Annual $15-25B additional revenue potential"
-    },
-    {
-      "name": "Next Earnings",
-      "value": "May 20, 2026",
-      "interpretation": "FY27 Q1 results. Full quarter of Blackwell revenue and initial China H200 sales to be confirmed"
-    }
+    {"name": "P/E (TTM)", "value": "34.95x", "interpretation": "Semiconductor avg 25x, S&P 500 avg 22x. Premium but rapidly compressing. PEG 0.54 at 65% growth signals extreme undervaluation"},
+    {"name": "Forward P/E", "value": "20.64x", "interpretation": "Below S&P 500 avg (~21x) for the first time ever. The world's top AI company trading below market average is unprecedented"},
+    {"name": "Revenue (TTM)", "value": "$215.9B", "interpretation": "+65% YoY. Data center 80%+ of revenue. Net margin 55.6%"},
+    {"name": "PEG Ratio", "value": "0.54", "interpretation": "PEG below 1.0 = undervalued for growth. 0.54 is extreme undervaluation signal. High growth + low PEG is exceptionally rare"},
+    {"name": "China H200 Export Resumption", "value": "$25B Revenue Opportunity", "interpretation": "US government approved H200 export license for China. Jensen Huang confirmed Chinese customer orders at GTC. $15-25B annual additional revenue opportunity"},
+    {"name": "Next Earnings", "value": "May 20, 2026", "interpretation": "FY27 Q1 results. Blackwell full-quarter revenue and initial China H200 revenue to be confirmed"}
   ],
   "growthDrivers": [
-    {
-      "title": "China H200 export license approved, $25B revenue opportunity (3/28 report)",
-      "description": "Motley Fool reported 'NVIDIA may be back in business in China.' US government approved H200 export licenses, and Jensen Huang confirmed Chinese client orders and production restart at GTC. Annual $25B additional revenue opportunity"
-    },
-    {
-      "title": "Forward P/E drops below S&P 500, historic anomaly (3/27)",
-      "description": "Motley Fool called it an 'unprecedented anomaly.' The world's #1 AI company trading below market average on forward earnings signals a valuation reset opportunity"
-    },
-    {
-      "title": "Wolfe Research: GTC could catalyze 60% rally (3/27)",
-      "description": "Wolfe maintains Buy with $275 target. Believes GTC announcements will catalyze 60%+ rally once the market properly digests the strategic implications"
-    },
-    {
-      "title": "GTC 2026: Vera Rubin, NemoClaw open-source AI agents (3/25)",
-      "description": "Unveiled Vera Rubin GPU, Vera CPU, and NemoClaw open-source AI agent platform. Five-layer full-stack strategy strengthens software ecosystem dominance"
-    },
-    {
-      "title": "Jensen Huang declares 'AGI achieved,' targets $3T revenue (3/24)",
-      "description": "On Lex Fridman's podcast, Huang declared AGI achieved and set a $3T revenue target. Sparked $10T valuation debate"
-    },
-    {
-      "title": "Cumulative AI chip orders of $1 trillion through 2027",
-      "description": "Blackwell and Vera Rubin cumulative orders projected at minimum $1T by 2027, doubled from previous $500B estimate"
-    }
+    {"title": "China H200 export license secured, $25B revenue opportunity (3/28)", "description": "Motley Fool reported 'NVIDIA may be back in business in China.' US government approved H200 export license, Jensen Huang confirmed Chinese orders and production restart at GTC"},
+    {"title": "Forward P/E drops below S&P 500, historical anomaly (3/27)", "description": "Motley Fool called NVDA's Forward P/E falling below S&P 500 avg an unprecedented anomaly. World's #1 AI company trading cheaper than the market average signals rerating opportunity"},
+    {"title": "Wolfe Research: GTC could trigger 60% rally (3/27)", "description": "Wolfe maintained Buy at $275 target. GTC 2026 announcements could catalyze a 60%+ rally once the market digests them"},
+    {"title": "GTC 2026: Vera Rubin, NemoClaw open-source AI agents (3/25)", "description": "Unveiled Vera Rubin GPU, Vera CPU, and NemoClaw open-source AI agent platform. 5-layer full-stack strategy strengthening software ecosystem dominance"},
+    {"title": "Jensen Huang 'AGI achieved' statement, $3T revenue target (3/24)", "description": "Jensen Huang told Lex Fridman 'we've achieved AGI' and set a $3T revenue goal, sparking $10T valuation debate"},
+    {"title": "Cumulative AI chip orders of $1T through 2027", "description": "Blackwell and Vera Rubin cumulative orders projected at $1T minimum through 2027, doubled from prior $500B estimate"}
   ],
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
+    "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
-      {
-        "type": "Ecosystem Lock-in",
-        "description": "5M+ CUDA developers. Switching costs extremely high, maintaining GPU market dominance"
-      },
-      {
-        "type": "Vertical Integration",
-        "description": "GPU, CPU (Vera), networking (Spectrum-X), software (CUDA, NIM, NemoClaw) full-stack offering"
-      },
-      {
-        "type": "Annual Architecture Roadmap",
-        "description": "Hopper to Blackwell to Vera Rubin annual cadence. 2-3 year technology lead over competitors"
-      },
-      {
-        "type": "Economies of Scale",
-        "description": "FY26 revenue $215.9B, largest in semiconductor industry. R&D investment overwhelms competitors"
-      }
+      {"type": "Ecosystem Lock-in", "description": "CUDA developer ecosystem exceeds 5M. Extremely high switching costs maintain GPU market dominance"},
+      {"type": "Vertical Integration", "description": "GPU, CPU (Vera), networking (Spectrum-X), and software (CUDA, NIM, NemoClaw) full-stack offering"},
+      {"type": "Annual Architecture Roadmap", "description": "Hopper, Blackwell, Vera Rubin annual product cycle. 2-3 year technology lead over competitors"},
+      {"type": "Economies of Scale", "description": "FY26 revenue $215.9B, largest in semiconductor industry. R&D investment dwarfs competitors"}
     ],
     "competitors": [
-      {
-        "name": "AMD",
-        "detail": "MI300X entering AI GPU market but significant gap in software ecosystem and scale. Less than 10% data center AI share"
-      },
-      {
-        "name": "Google TPU",
-        "detail": "Strong for internal use. Limited external market influence"
-      },
-      {
-        "name": "Amazon Trainium",
-        "detail": "AWS-optimized custom chip. Lags NVIDIA in versatility"
-      },
-      {
-        "name": "Broadcom",
-        "detail": "Custom ASICs for hyperscalers. Cannot compete in the general-purpose market"
-      }
+      {"name": "AMD", "detail": "MI300X entered AI GPU market but significant gap in software ecosystem and scale. Data center AI share under 10%"},
+      {"name": "Google TPU", "detail": "Custom AI chip strong for internal use. Limited external market influence"},
+      {"name": "Amazon Trainium", "detail": "AWS-optimized chip. Lacks NVIDIA's versatility"},
+      {"name": "Broadcom", "detail": "Custom ASICs for hyperscalers. Cannot compete in the general market"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-28",
-      "headline": "Motley Fool: 'NVIDIA may be back in business in China,' $25B revenue opportunity",
-      "significance": "US government approved H200 export licenses, Huang confirmed Chinese orders. Export regulation risk transforming into additional growth driver with $25B annual opportunity",
-      "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/"
-    },
-    {
-      "date": "2026-03-28",
-      "headline": "Motley Fool: 'Investors are completely wrong about NVIDIA stock'",
-      "significance": "Analysis that the market is undervaluing GTC's strategic significance. Post-GTC price decline creates an opportunity rather than reflecting fundamental weakness",
-      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "NVDA -4.2%, geopolitical shock drives tech selloff. Dow drops 793 points",
-      "significance": "Iran-Israel conflict and oil surge triggered broad tech selloff. NVIDIA led Dow losses but decline was purely macro-driven, not fundamental",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "Forward P/E drops below S&P 500 average for the first time ever",
-      "significance": "Motley Fool called it 'unprecedented.' The world's top AI growth company trading below market average is a valuation anomaly",
-      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "Wolfe Research: Buy maintained, $275 target. GTC could catalyze 60% rally",
-      "significance": "42/45 analysts rate Buy. Wolfe sees 60%+ upside once market digests GTC announcements",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/"
-    }
+    {"date": "2026-03-29", "headline": "Motley Fool: 'Investors are completely wrong about Nvidia stock'", "significance": "Post-GTC price decline means the market is underestimating strategic significance. Buying opportunity at Forward P/E 20.64x (below S&P)", "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"},
+    {"date": "2026-03-28", "headline": "NVIDIA Director Mark Stevens sells $38.5M in stock (3/20 transaction)", "significance": "Director sold 221,682 shares at $173.68/share. Insider sale weighs on sentiment but likely a planned sale. Unrelated to fundamentals", "url": "https://www.dailypolitical.com/2026/03/28/nvidia-nasdaqnvda-director-sells-38501729-76-in-stock.html"},
+    {"date": "2026-03-28", "headline": "Motley Fool: 'NVIDIA may be back in business in China', $25B opportunity", "significance": "US government approved H200 export license. Jensen Huang confirmed Chinese orders. Export regulation risk converted to growth catalyst", "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/"},
+    {"date": "2026-03-27", "headline": "NVDA -4.2%, Dow drops 793 points. Tech selloff on Hormuz fears", "significance": "Iran-Israel conflict and oil surge drove broad tech selloff. Dow enters official correction. NVDA led losses but not a fundamental issue", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide"},
+    {"date": "2026-03-27", "headline": "Wolfe Research: Buy maintained, $275 target. GTC as 60% rally catalyst", "significance": "GTC announcements could drive 60%+ upside. 42/45 analysts at Buy. Wall Street conviction on fundamentals is unwavering", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/"}
   ],
   "analystOpinions": {
     "consensusTarget": 276,
@@ -153,52 +62,20 @@
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 Buy, 0 Sell. Consensus $276 (+65%). China H200 resumption could expand upside further. Wolfe $275, Rosenblatt $325, Tigress $360"
+    "notableComment": "42/45 Buy, 0 Sell. Consensus $276 (+65%). Director's $38.5M sale doesn't shake Wall Street. Wolfe $275, Rosenblatt $325, Tigress $360"
   },
   "risks": [
-    {
-      "severity": "high",
-      "title": "Below both 50-day and 200-day SMAs",
-      "description": "Trading below 50-day ($170.80) and 200-day ($173.77). Friday's 4.2% drop accelerated the decline. Next week's jobs report could add pressure"
-    },
-    {
-      "severity": "high",
-      "title": "Geopolitical risk and deteriorating macro",
-      "description": "Iran-Israel conflict prolongation, oil surge, Citigroup cutting US equity exposure. Jobs data next week could be additional headwind"
-    },
-    {
-      "severity": "medium",
-      "title": "China export policy uncertainty",
-      "description": "H200 license approved but policy reversal risk exists. $2.5B smuggling case could trigger re-tightening"
-    },
-    {
-      "severity": "medium",
-      "title": "AI bubble concerns and multiple compression",
-      "description": "Down 21% from 52-week high. Post-DeepSeek AI infrastructure efficiency debate continues. GTC met with 'Sell the News'"
-    },
-    {
-      "severity": "medium",
-      "title": "Custom ASIC competition intensifying",
-      "description": "Broadcom, Google TPU, Amazon Trainium accelerating custom chip development. Hyperscalers diversifying away from NVIDIA"
-    }
+    {"severity": "high", "title": "Below 50-day and 200-day MAs + insider selling", "description": "Trading below 50-day ($170.80) and 200-day ($173.77). Director Stevens sold $38.5M. Friday -4.2% accelerated decline"},
+    {"severity": "high", "title": "Geopolitical risk and Dow correction", "description": "Dow entered official correction. Iran-Israel conflict plus Hormuz blockade fears. 4/6 tariff deadline and quarter-end rebalancing also weigh"},
+    {"severity": "medium", "title": "China export policy uncertainty", "description": "H200 license approved but policy reversal risk remains. $2.5B smuggling incident fallout could prompt regulatory tightening"},
+    {"severity": "medium", "title": "AI bubble concerns and multiple compression", "description": "-21% from 52-week high. DeepSeek shock continues to fuel AI infrastructure efficiency debate. 'Sell the News' on GTC persists"},
+    {"severity": "medium", "title": "Custom ASIC competition intensifying", "description": "Broadcom, Google TPU, Amazon Trainium accelerating custom chip development. Hyperscalers reducing NVIDIA dependency"}
   ],
   "buyReasons": [
-    {
-      "title": "China H200 export resumption, $25B additional revenue",
-      "rationale": "US government license approval reopens China market. Former risk factor now an additional growth catalyst. $15-25B annual revenue opportunity"
-    },
-    {
-      "title": "Forward P/E below S&P 500, historic first",
-      "rationale": "Forward P/E 20.64x below S&P 500's ~21x. A 65%-growth AI leader cheaper than the market average is unprecedented. PEG 0.54 extreme undervaluation"
-    },
-    {
-      "title": "42/45 analysts Buy, 65% upside",
-      "rationale": "Consensus $276, high $360. Zero Sell ratings. Price decline expanded upside to 65%. Wall Street's conviction in fundamentals is unwavering"
-    },
-    {
-      "title": "$1 trillion order backlog and 5/20 earnings catalyst",
-      "rationale": "Blackwell + Vera Rubin cumulative orders at $1T. Best revenue visibility in semiconductors for the next 2-3 years. May 20 earnings as catalyst"
-    }
+    {"title": "China H200 export resumed, $25B additional revenue", "rationale": "US license approval reopens China market. Former risk converted to growth driver. $15-25B annual revenue opportunity"},
+    {"title": "Forward P/E below S&P 500, first time in history", "rationale": "Forward P/E 20.64x below S&P 500 avg (~21x). 65% growth AI leader trading below market average is unprecedented. PEG 0.54 extreme undervaluation"},
+    {"title": "42/45 analysts Buy, 65% upside", "rationale": "Consensus $276, high $360. Zero Sell opinions. Price decline widened upside to 65%. Wall Street fundamental conviction unwavering"},
+    {"title": "$1T order backlog and 5/20 earnings catalyst", "rationale": "Blackwell+Vera Rubin cumulative orders $1T. Best revenue visibility in semiconductors for 2-3 years. 5/20 earnings as rebound catalyst"}
   ],
   "technicalPosition": {
     "week52High": 212.19,
@@ -212,118 +89,87 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "A new growth driver has been confirmed. The US government approved China H200 export licenses, and Jensen Huang confirmed orders. $25B annual revenue opportunity transforms the former export regulation risk into a catalyst",
-    "Forward P/E at 20.64x is below the S&P 500 average (21x). PEG 0.54, 42/45 Buy, 0 Sell. Wolfe calls GTC a 60% rally catalyst. Fundamentals this strong at below-market valuation is historically unprecedented",
-    "Next week's nonfarm payrolls and Iran conflict are the near-term variables. Citigroup cut US equity exposure and Friday saw a 4.2% drop. Macro headwinds are the sole obstacle",
-    "$167.46, RSI 41. Below 50-day ($171) and 200-day ($174) but close. Will recover quickly once macro stabilizes. Buy, accumulate on weakness"
+    "NVIDIA confirmed a new growth driver with China H200 export resumption. But director Mark Stevens's $38.5M stock sale also surfaced. Insider selling weighs on sentiment, though it's likely a planned sale unrelated to fundamentals",
+    "Forward P/E 20.64x is below S&P 500 average (21x) for the first time ever. PEG 0.54, 42/45 Buy, 0 Sell. Motley Fool says 'investors are completely wrong about NVIDIA'",
+    "The Dow has entered official correction territory, and Hormuz fears are driving oil higher. NFP (4/3) and the 4/6 tariff deadline are next week's key variables",
+    "$167.46, RSI 41. Below 50-day ($171) and 200-day ($174) but close. Should recover quickly if macro stabilizes. Buy, ideal entry for dollar-cost averaging"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "China H200 export resumption opens $25B additional revenue. Forward P/E below S&P 500 for the first time ever with 42/45 Buy ratings. Macro headwinds are the only burden, while fundamentals are at all-time strength. Prime accumulation opportunity",
+    "summary": "China H200 export resumed ($25B opportunity) and Forward P/E dropped below S&P 500 for the first time. 42/45 Buy, 0 Sell. Director sale and Dow correction are near-term headwinds but fundamentals are at all-time strength. Ideal dollar-cost averaging entry",
     "horizon": "6-12 months"
   },
   "sources": [
-    {
-      "name": "Motley Fool - NVIDIA China business resumption",
-      "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/",
-      "description": "H200 export license approved, China $25B revenue opportunity analysis"
-    },
-    {
-      "name": "Tech-Insider - NVIDIA H200 China export policy",
-      "url": "https://tech-insider.org/nvidia-h200-chip-sales-china-2026/",
-      "description": "March 17 government license confirmation, H200 specs, China market impact"
-    },
-    {
-      "name": "Motley Fool - Forward P/E below S&P 500",
-      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
-      "description": "Forward P/E 20.64x, first time below S&P 500 average"
-    },
-    {
-      "name": "FinancialContent - NVDA 4.2% drop",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide",
-      "description": "Geopolitical shock, Dow 793-point drop, NVDA leads losses"
-    },
-    {
-      "name": "MarketBeat - NVDA targets",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "42 Buy / 3 Hold / 0 Sell, consensus $275.95"
-    },
-    {
-      "name": "StockAnalysis - NVDA statistics",
-      "url": "https://stockanalysis.com/stocks/nvda/statistics/",
-      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54"
-    },
-    {
-      "name": "CNBC - Week ahead outlook",
-      "url": "https://www.cnbc.com/2026/03/27/stock-market-next-week-outlook-for-march-30-april-3-2026.html",
-      "description": "Citigroup US equity reduction, nonfarm payrolls key"
-    },
-    {
-      "name": "Alphastreet - NVDA China re-entry",
-      "url": "https://news.alphastreet.com/nvidia-nvda-re-entry-into-chinas-ai-chip-market-products-policy-competition-and-investor-impact/amp/",
-      "description": "H200 specs, export policy, China competitive landscape"
-    }
+    {"name": "Motley Fool - Investors completely wrong about NVIDIA", "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/", "description": "Post-GTC undervaluation, market missing strategic significance"},
+    {"name": "Daily Political - NVDA director $38.5M stock sale", "url": "https://www.dailypolitical.com/2026/03/28/nvidia-nasdaqnvda-director-sells-38501729-76-in-stock.html", "description": "Mark Stevens 221,682 shares sold (3/20, $173.68/share)"},
+    {"name": "Motley Fool - NVIDIA back in business in China", "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/", "description": "H200 export license, China $25B opportunity"},
+    {"name": "FinancialContent - NVDA -4.2%, Dow correction", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide", "description": "Dow 793-point drop, Hormuz selloff"},
+    {"name": "MarketBeat - NVDA targets", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "42 Buy / 3 Hold / 0 Sell, consensus $275.95"},
+    {"name": "StockAnalysis - NVDA stats", "url": "https://stockanalysis.com/stocks/nvda/statistics/", "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54"},
+    {"name": "FXStreet - Dow correction, Hormuz selloff", "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-enters-correction-territory-as-hormuz-fears-fuel-selloff-202603271749", "description": "Dow official correction, 4/6 tariff deadline, NFP 4/3"},
+    {"name": "Economic Times - Jobs data to decide markets", "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-us-jobs-data-to-give-economic-view-for-war-gripped-markets/articleshow/129858390.cms", "description": "S&P 500 YTD -5%+, NFP as key catalyst"},
+    {"name": "Motley Fool - Forward P/E below S&P 500", "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/", "description": "Forward P/E 20.64x, first time below S&P avg"}
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $167 | China H200 export resumes, $25B revenue unlocked",
-      "text": "$NVDA $167.46 (weekend, flat)\n\nUS gov approved China H200 export licenses. Jensen Huang confirmed orders at GTC. $25B annual revenue opportunity.\n\nFormer risk factor just became a catalyst\n\n1/4",
+      "hook": "NVDA $167 | Director sells $38.5M, but Forward P/E below S&P 500",
+      "text": "$NVDA $167.46 (weekend, unchanged)\n\nDirector Mark Stevens sold $38.5M in stock. But Forward P/E 20.64x is below S&P 500 (21x).\n\nChina H200 $25B opportunity also confirmed\n\n1/4",
       "thread": [
-        "Forward P/E 20.64x, below S&P 500 avg (21x). First time ever. PEG 0.54 at 65% growth.\n\n42/45 Buy, 0 Sell. Wolfe: GTC is a 60% rally catalyst\n\n2/4",
-        "Risks: Friday -4.2%.\nCitigroup cutting US equities. Iran conflict.\nBelow 50-day ($171) and 200-day ($174).\n\nMacro is the only enemy\n\n3/4",
-        "RSI 41. Close to moving averages.\nOnce macro stabilizes, quick recovery.\nTarget $276 (+65%). Buy, accumulate.\n\n4/4"
+        "Motley Fool: 'Investors are completely wrong about NVIDIA'\nPEG 0.54, 42/45 Buy, 0 Sell.\n\nDirector sale likely planned. Unrelated to fundamentals\n\n2/4",
+        "Dow enters correction. Hormuz blockade fears.\n4/3 NFP, 4/6 tariff deadline.\n\nMacro is the only enemy. Just below 50-day ($171)\n\n3/4",
+        "RSI 41. Close to moving averages, quick recovery if macro stabilizes.\nTarget $276 (+65%). Buy, ideal DCA entry.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: China export resumes + Forward P/E below S&P 500, dual catalyst",
-      "text": "$NVDA $167.46 (weekend)\n\nChina H200 export license approved. Jensen Huang confirmed orders and production restart at GTC. $25B annual revenue opportunity unlocked.\n\nForward P/E 20.64x below S&P 500's 21x. World's #1 AI company cheaper than market average for the first time in history. PEG 0.54, 42/45 Buy.\n\nFriday's 4.2% drop was macro shock, not fundamental weakness. RSI 41. Buy, prime accumulation window."
+      "hook": "NVDA: Director sells, but Forward P/E below S&P and China exports resume",
+      "text": "$NVDA $167.46 (weekend)\n\nDirector Mark Stevens sold $38.5M in stock. Weighs on sentiment but likely planned.\n\nForward P/E 20.64x below S&P 500 (21x). China H200 export resumed, $25B additional revenue. Motley Fool: 'Investors are completely wrong.'\n\nDow in correction with Hormuz fears. RSI 41. Macro stabilization means quick recovery. Buy, dollar-cost average."
     },
     "telegram": {
       "hook": "NVDA Daily Analysis (3/29, Weekend)",
-      "text": "NVDA $167.46 (weekend, flat) | MCap $4.07T\nP/E 34.95x | Forward 20.64x (below S&P 21x!) | PEG 0.54 | RSI 41\n\nNew Weekend Info\n- China H200 export license approved (US gov)\n- Huang confirmed Chinese orders at GTC\n- $25B annual additional revenue opportunity\n\nKey Points\n- Forward P/E below S&P 500 (historic first)\n- 42/45 Buy, 0 Sell\n- $1T order backlog\n\nRisks\n- Friday -4.2%, Citigroup cuts equities\n- Next week: nonfarm payrolls, Iran conflict\n\nVerdict: Buy. Macro-depressed price, China catalyst added"
+      "text": "NVDA $167.46 (weekend, unchanged) | MCap $4.07T\nP/E 34.95x | Forward 20.64x (below S&P 21x!) | PEG 0.54 | RSI 41\n\nWeekend updates\n- Director Mark Stevens $38.5M stock sale (3/20)\n- Motley Fool: 'Investors completely wrong'\n- Dow enters official correction\n\nKey points\n- China H200 export resumed ($25B opportunity)\n- Forward P/E below S&P 500 (first ever)\n- 42/45 Buy, 0 Sell\n\nRisks\n- Hormuz fears, oil surge\n- 4/3 NFP, 4/6 tariffs\n\nVerdict: Buy. Macro-depressed price, ideal DCA entry"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $167 | China H200 export resumes, $25B revenue unlocked",
-          "text": "$NVDA $167.46 (weekend, flat)\n\nUS gov approved China H200 export licenses. Jensen Huang confirmed orders at GTC. $25B annual revenue opportunity.\n\nFormer risk factor just became a catalyst\n\n1/4",
+          "hook": "NVDA $167 | Director sells $38.5M, but Forward P/E below S&P 500",
+          "text": "$NVDA $167.46 (weekend, unchanged)\n\nDirector Mark Stevens sold $38.5M in stock. But Forward P/E 20.64x is below S&P 500 (21x).\n\nChina H200 $25B opportunity also confirmed\n\n1/4",
           "thread": [
-            "Forward P/E 20.64x, below S&P 500 avg (21x). First time ever. PEG 0.54 at 65% growth.\n\n42/45 Buy, 0 Sell. Wolfe: GTC is a 60% rally catalyst\n\n2/4",
-            "Risks: Friday -4.2%.\nCitigroup cutting US equities. Iran conflict.\nBelow 50-day ($171) and 200-day ($174).\n\nMacro is the only enemy\n\n3/4",
-            "RSI 41. Close to moving averages.\nOnce macro stabilizes, quick recovery.\nTarget $276 (+65%). Buy, accumulate.\n\n4/4"
+            "Motley Fool: 'Investors are completely wrong about NVIDIA'\nPEG 0.54, 42/45 Buy, 0 Sell.\n\nDirector sale likely planned. Unrelated to fundamentals\n\n2/4",
+            "Dow enters correction. Hormuz blockade fears.\n4/3 NFP, 4/6 tariff deadline.\n\nMacro is the only enemy. Just below 50-day ($171)\n\n3/4",
+            "RSI 41. Close to moving averages, quick recovery if macro stabilizes.\nTarget $276 (+65%). Buy, ideal DCA entry.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Cheaper than S&P 500 with China unlocked. But -4.2% because, well, war.",
-          "text": "$NVDA $167.46 (weekend)\n\nChina H200 exports back on. $25B added. Forward P/E below S&P 500.\n\nShould be moonshot territory. Instead, Friday -4.2%.\nReason: Iran-Israel conflict\n\n1/4",
+          "hook": "Director sold $38.5M. 42 analysts say buy. 0 say sell. Make it make sense",
+          "text": "$NVDA $167.46 (weekend)\n\nDirector sold $38.5M. Meanwhile 42/45 analysts say buy. Zero sell.\n\nForward P/E below the S&P. Is this a glitch?\n\n1/4",
           "thread": [
-            "42/45 analysts say Buy. Zero say Sell. PEG 0.54.\n\nEveryone except Mr. Market agrees this is cheap.\nMiddle East missiles disagree with everyone.\n\n2/4",
-            "Wolfe: 'GTC could spark 60% rally.'\nProblem: the rally needs geopolitics to calm down.\n\nBest company, worst timing.\n\n3/4",
-            "RSI 41. Moving averages right above.\nWithout the war, this would be $200+.\n\nBuy. If you can handle the macro noise.\n\n4/4"
+            "China H200 back online. $25B.\nMotley Fool: 'Investors got it wrong.'\nDow in correction. Hormuz. Oil surging.\n\nBest AI company, worst timing\n\n2/4",
+            "Director sales? They always sell. It's what executives do.\nPEG 0.54 is the historically rare signal.\n\nNumbers don't lie\n\n3/4",
+            "RSI 41. Moving averages just above.\nWithout war this stock is above $200.\n\nBuy. If you can handle Hormuz, this is a gift\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA holders, Friday's 4.2% hurt. But look at the China catalyst.",
-          "text": "$NVDA $167.46 (weekend, flat)\n\nFriday -4.2% as the Dow dropped 793 points. Seeing red every day is exhausting.\n\nBut there's good weekend news\n\n1/4",
+          "hook": "NVDA holders, director sale plus Dow correction. Look at the big picture",
+          "text": "$NVDA $167.46 (weekend)\n\nDirector sold $38.5M. Feels unsettling.\n\nBut it's likely a planned sale. 42/45 say Buy. 0 say Sell\n\n1/4",
           "thread": [
-            "China H200 export license approved. $25B revenue opportunity. The export risk just flipped to a catalyst.\n\nForward P/E below S&P 500. Historic first.\n\n2/4",
-            "42/45 Buy, 0 Sell. PEG 0.54.\nThis is macro-made pricing, not a company problem.\n\nWolfe sees 60% upside.\n\n3/4",
-            "RSI 41. Just below the moving averages.\nAccumulate slowly. May 20 earnings is the catalyst.\n\nBuy. This price will look like a gift later.\n\n4/4"
+            "China H200 is back. $25B opportunity.\nForward P/E below S&P. First time ever.\n\nMotley Fool: 'Investors are completely wrong'\n\n2/4",
+            "Dow correction and Hormuz fears.\nThis is macro, not NVIDIA's problem.\n\nPEG 0.54, $1T order backlog\n\n3/4",
+            "RSI 41. Just below moving averages.\n5/20 earnings will be the catalyst.\n\nBuy. DCA slowly. This price is an opportunity\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: China export resumes + Forward P/E below S&P 500, dual catalyst",
-          "text": "$NVDA $167.46 (weekend)\n\nChina H200 export license approved. Jensen Huang confirmed orders and production restart at GTC. $25B annual revenue opportunity unlocked.\n\nForward P/E 20.64x below S&P 500's 21x. World's #1 AI company cheaper than market average for the first time in history. PEG 0.54, 42/45 Buy.\n\nFriday's 4.2% drop was macro shock, not fundamental weakness. RSI 41. Buy, prime accumulation window."
+          "hook": "NVDA: Director sells, but Forward P/E below S&P and China exports resume",
+          "text": "$NVDA $167.46 (weekend)\n\nDirector Mark Stevens sold $38.5M. Weighs on sentiment but likely planned.\n\nForward P/E 20.64x below S&P 500 (21x). China H200 resumed, $25B revenue. Motley Fool: 'Investors completely wrong.'\n\nDow in correction, Hormuz fears. RSI 41. Buy, DCA."
         },
         "witty": {
-          "hook": "NVDA: China unlocked, cheaper than S&P, and the only problem is a war",
-          "text": "$NVDA $167.46 (weekend)\n\nChina H200 back on ($25B). Forward P/E below S&P 500. PEG 0.54. 42/45 Buy.\n\nWith this combo, the stock should be soaring. Instead, Friday -4.2%. The culprit: Middle East conflict. The best AI company met the worst geopolitical timing.\n\nWolfe says GTC could trigger 60% rally. Problem is the rally needs peace first.\n\nRSI 41. MAs right above. Buy, for those who can weather the storm."
+          "hook": "Director sells $38.5M while 42 analysts scream buy. NVDA's contradiction",
+          "text": "$NVDA $167.46 (weekend)\n\nDirector Mark Stevens, $38.5M sold. But 42/45 analysts say Buy. 0 Sell. Forward P/E below S&P 500.\n\nChina H200 $25B opportunity. Motley Fool says 'investors got it wrong.' Dow in correction, Hormuz driving oil.\n\nBest AI company meets worst geopolitical timing. RSI 41, moving averages just above. Buy, if you can handle the ride."
         },
         "empathy": {
-          "hook": "NVDA investors, the daily red is tough. But China just reopened as a catalyst.",
-          "text": "$NVDA $167.46, Friday -4.2%.\n\nDow dropped 793 points and NVIDIA led the fall. Down 21% from highs. The daily declines wear you down.\n\nBut China H200 export licenses were just approved. $25B revenue opportunity. Forward P/E below S&P 500 for the first time ever.\n\n42/45 Buy, 0 Sell. This is macro-created discount, not fundamental damage. Accumulate slowly. May 20 earnings ahead. Buy."
+          "hook": "NVDA investors, director sale and Dow correction weigh heavy. Focus on fundamentals",
+          "text": "$NVDA $167.46. Director $38.5M sale on top of Dow correction.\n\n-21% from highs, red numbers daily. The director sale stings.\n\nBut it's likely planned. 42/45 Buy, 0 Sell. Forward P/E below S&P for the first time. China H200 $25B opened.\n\nMacro created this discount. 5/20 earnings ahead. DCA slowly. Buy."
         }
       }
     }

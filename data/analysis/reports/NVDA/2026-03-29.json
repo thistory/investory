@@ -115,28 +115,28 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-29",
+      "headline": "Motley Fool: '투자자들이 엔비디아에 대해 완전히 틀렸다', GTC 후 저평가 지속",
+      "significance": "GTC 이후에도 주가가 하락하는 것은 시장이 전략적 의미를 과소평가하고 있기 때문. Forward P/E 20.64x(S&P 이하)에서 매수 기회라는 분석",
+      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "NVIDIA 이사 Mark Stevens, $3,850만 규모 주식 매도 (3/20 거래)",
+      "significance": "이사 Mark Stevens가 221,682주를 주당 $173.68에 매도. 내부자 매도가 센티먼트에 부담이 되나 계획된 매도일 가능성. 펀더멘털과는 무관",
+      "url": "https://www.dailypolitical.com/2026/03/28/nvidia-nasdaqnvda-director-sells-38501729-76-in-stock.html"
+    },
+    {
       "date": "2026-03-28",
       "headline": "Motley Fool: '엔비디아가 중국에서 다시 사업할 수 있게 됐다', $25B 매출 기회",
       "significance": "미 정부가 H200 수출 라이선스 승인, 젠슨 황이 중국 주문 확인. 중국 수출 규제 리스크가 완화되며 연간 $25B 추가 매출 기회가 열렸다",
       "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/"
     },
     {
-      "date": "2026-03-28",
-      "headline": "Motley Fool: '투자자들이 엔비디아에 대해 완전히 틀렸다', GTC 후 저평가 분석",
-      "significance": "GTC 이후에도 주가가 하락하는 것은 시장이 GTC의 전략적 의미를 과소평가하고 있기 때문이라는 분석",
-      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"
-    },
-    {
       "date": "2026-03-27",
-      "headline": "NVDA -4.2%, 지정학 리스크에 기술주 급락. 다우 793포인트 하락",
-      "significance": "이란-이스라엘 분쟁과 유가 급등으로 기술주 전반 급락. 엔비디아가 다우 하락을 주도했으나 펀더멘털 문제는 아님",
+      "headline": "NVDA -4.2%, 다우 793포인트 하락. 호르무즈 해협 우려에 기술주 급락",
+      "significance": "이란-이스라엘 분쟁과 유가 급등으로 기술주 전반 급락. 다우 공식 조정 영역 진입. 엔비디아가 하락을 주도했으나 펀더멘털 문제는 아님",
       "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "Forward P/E가 S&P 500 평균 아래로 하락, 사상 처음",
-      "significance": "Motley Fool이 '전례 없는 이상 현상'이라 보도. 65% 성장하는 AI 리더가 시장 평균보다 싸게 거래되는 것은 밸류에이션 버그",
-      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/"
     },
     {
       "date": "2026-03-27",
@@ -153,18 +153,18 @@
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 매수, 매도 0. 컨센서스 $276(+65%). 중국 H200 수출 재개로 상승 여력이 더 확대될 가능성. Wolfe $275, Rosenblatt $325, Tigress $360"
+    "notableComment": "42/45 매수, 매도 0. 컨센서스 $276(+65%). 이사 $3,850만 매도에도 월가는 전원 매수 유지. Wolfe $275, Rosenblatt $325, Tigress $360"
   },
   "risks": [
     {
       "severity": "high",
-      "title": "50일선, 200일선 모두 하회하는 기술적 약세",
-      "description": "50일선($170.80)과 200일선($173.77) 아래에서 거래 중. 금요일 -4.2%로 하락 가속. 다음 주 비농업 고용에 따라 추가 하락 가능"
+      "title": "50일선, 200일선 모두 하회 + 내부자 매도",
+      "description": "50일선($170.80)과 200일선($173.77) 아래에서 거래 중. 이사 Mark Stevens $3,850만 매도. 금요일 -4.2%로 하락 가속"
     },
     {
       "severity": "high",
-      "title": "지정학 리스크와 매크로 환경 악화",
-      "description": "이란-이스라엘 분쟁 장기화, 유가 급등, Citigroup 미국 주식 비중 축소. 다음 주 고용지표가 추가 악재가 될 가능성"
+      "title": "지정학 리스크와 다우 조정 진입",
+      "description": "다우가 공식 조정 영역 진입. 이란-이스라엘 분쟁에 호르무즈 해협 봉쇄 우려까지. 4/6 관세 데드라인, 분기말 리밸런싱도 변수"
     },
     {
       "severity": "medium",
@@ -212,36 +212,36 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "엔비디아에 새로운 성장 동력이 확인됐다. 미 정부가 중국에 H200 수출 라이선스를 승인했고 젠슨 황이 주문을 확인했다. 연간 $25B 추가 매출 기회로 기존 수출 규제 리스크가 오히려 촉매로 전환됐다",
-    "Forward P/E 20.64x는 S&P 500 평균(21x) 아래다. PEG 0.54, 42/45 매수, 매도 0. Wolfe는 GTC가 60% 랠리 촉매라고 분석. 펀더멘털이 이렇게 강한데 시장 평균보다 싼 건 역사상 처음이다",
-    "다음 주 비농업 고용과 이란 분쟁이 단기 변수다. Citigroup이 미국 주식 비중을 줄였고 금요일 -4.2% 급락. 매크로 역풍이 발목을 잡고 있다",
+    "엔비디아에 중국 H200 수출 재개라는 새로운 성장 동력이 확인됐다. 하지만 이사 Mark Stevens가 $3,850만 규모 주식을 매도한 것도 드러났다. 내부자 매도가 센티먼트를 누르고 있지만 계획된 매도일 가능성이 높고 펀더멘털과는 무관하다",
+    "Forward P/E 20.64x는 S&P 500 평균(21x) 아래로 역사상 처음이다. PEG 0.54, 42/45 매수, 매도 0. Motley Fool은 '투자자들이 엔비디아에 대해 완전히 틀렸다'고 분석했다",
+    "다우가 공식 조정 영역에 진입했고 호르무즈 해협 우려가 유가를 끌어올리고 있다. 비농업 고용(4/3)과 4/6 관세 데드라인이 다음 주 핵심 변수",
     "$167.46, RSI 41. 50일($171), 200일($174) 아래지만 근접. 매크로만 안정되면 빠르게 회복할 위치. Buy, 분할매수 적기"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "중국 H200 수출 재개로 $25B 추가 매출 기회가 열렸다. Forward P/E가 S&P 500 이하로 떨어진 사상 첫 이상 현상에 42/45 매수. 매크로 역풍이 유일한 부담이지만 펀더멘털은 역대 최강. 분할매수 적기",
+    "summary": "중국 H200 수출 재개로 $25B 추가 매출 기회가 열렸고, Forward P/E가 S&P 500 이하로 떨어진 사상 첫 이상 현상. 42/45 매수에 매도 0. 이사 매도와 다우 조정 진입이 단기 부담이지만 펀더멘털은 역대 최강. 분할매수 적기",
     "horizon": "6-12개월"
   },
   "sources": [
+    {
+      "name": "Motley Fool - 투자자들이 엔비디아에 대해 완전히 틀렸다",
+      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/",
+      "description": "GTC 후 저평가 지속, 시장이 전략적 의미를 과소평가"
+    },
+    {
+      "name": "Daily Political - NVDA 이사 $3,850만 주식 매도",
+      "url": "https://www.dailypolitical.com/2026/03/28/nvidia-nasdaqnvda-director-sells-38501729-76-in-stock.html",
+      "description": "Mark Stevens 221,682주 매도 (3/20, 주당 $173.68)"
+    },
     {
       "name": "Motley Fool - 엔비디아 중국 사업 재개",
       "url": "https://www.fool.com/investing/2026/03/28/nvidia-may-be-back-in-business-in-china-heres-what/",
       "description": "H200 수출 라이선스 승인, 중국 $25B 매출 기회 분석"
     },
     {
-      "name": "Tech-Insider - NVIDIA H200 중국 수출 정책 분석",
-      "url": "https://tech-insider.org/nvidia-h200-chip-sales-china-2026/",
-      "description": "3/17 미 정부 라이선스 승인 확인, H200 스펙 및 중국 시장 영향"
-    },
-    {
-      "name": "Motley Fool - Forward P/E가 S&P 500 이하",
-      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
-      "description": "Forward P/E 20.64x, 사상 처음 S&P 500 평균 아래"
-    },
-    {
-      "name": "FinancialContent - NVDA 4.2% 급락",
+      "name": "FinancialContent - NVDA 4.2% 급락, 다우 조정 진입",
       "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-27-geopolitical-tremors-shake-tech-giants-nvidia-leads-dow-losses-with-42-slide",
-      "description": "3/27 지정학 리스크로 다우 793포인트 하락, NVDA 4.2% 하락"
+      "description": "3/27 다우 793포인트 하락, 호르무즈 해협 우려"
     },
     {
       "name": "MarketBeat - NVDA 목표가",
@@ -254,81 +254,81 @@
       "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54"
     },
     {
-      "name": "CNBC - 3/30-4/3 시장 전망",
-      "url": "https://www.cnbc.com/2026/03/27/stock-market-next-week-outlook-for-march-30-april-3-2026.html",
-      "description": "Citigroup 미국 주식 축소, 비농업 고용 핵심 변수"
+      "name": "FXStreet - 다우 조정 영역, 호르무즈 해협 셀오프",
+      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-enters-correction-territory-as-hormuz-fears-fuel-selloff-202603271749",
+      "description": "다우 공식 조정, 4/6 관세 데드라인, NFP 4/3"
     },
     {
-      "name": "Alphastreet - NVDA 중국 재진입 분석",
-      "url": "https://news.alphastreet.com/nvidia-nvda-re-entry-into-chinas-ai-chip-market-products-policy-competition-and-investor-impact/amp/",
-      "description": "H200 스펙, 수출 정책, 중국 시장 경쟁 구도 심층 분석"
+      "name": "Economic Times - 고용 데이터가 시장 방향 결정",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-us-jobs-data-to-give-economic-view-for-war-gripped-markets/articleshow/129858390.cms",
+      "description": "S&P 500 YTD -5%+, 비농업 고용이 핵심 변수"
     },
     {
-      "name": "CoffeeFranchiseHub - NVDA 중국 생산 재개",
-      "url": "https://www.coffeefranchisehub.com/archives/43133",
-      "description": "젠슨 황 GTC에서 중국 H200 주문 확인, 생산 재개 발표"
+      "name": "Motley Fool - Forward P/E가 S&P 500 이하",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
+      "description": "Forward P/E 20.64x, 사상 처음 S&P 500 평균 아래"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $167 | 중국 H200 수출 재개, $25B 매출 기회가 열렸다",
-      "text": "$NVDA $167.46 (주말, 변동 없음)\n\n미 정부가 중국에 H200 수출 라이선스를 승인했다. 젠슨 황이 중국 주문을 확인. 연간 $25B 추가 매출 기회.\n\n기존 리스크가 촉매로 바뀌었다\n\n1/4",
+      "hook": "NVDA $167 | 이사 $3,850만 매도, 근데 Forward P/E는 S&P 아래",
+      "text": "$NVDA $167.46 (주말, 변동 없음)\n\n이사 Mark Stevens가 $3,850만 규모 주식을 매도했다. 하지만 Forward P/E 20.64x는 S&P 500(21x) 아래.\n\n중국 H200 $25B 매출 기회도 열렸다\n\n1/4",
       "thread": [
-        "Forward P/E 20.64x로 S&P 500 평균(21x) 아래. 사상 처음이다. PEG 0.54, 65% 성장.\n\n42/45 매수, 매도 0. Wolfe: GTC가 60% 랠리 촉매\n\n2/4",
-        "리스크: 금요일 -4.2% 급락.\nCitigroup 미국 주식 축소, 이란 분쟁 장기화.\n50일($171), 200일($174) 아래.\n\n매크로가 유일한 적이다\n\n3/4",
+        "Motley Fool: '투자자들이 엔비디아에 대해 완전히 틀렸다'\nPEG 0.54, 42/45 매수, 매도 0.\n\n이사 매도는 계획된 것일 가능성. 펀더멘털과 무관\n\n2/4",
+        "다우 조정 진입. 호르무즈 해협 봉쇄 우려.\n4/3 비농업 고용, 4/6 관세 데드라인.\n\n매크로가 유일한 적. 50일($171) 바로 아래\n\n3/4",
         "RSI 41. 이평선에 근접해 매크로만 안정되면 빠르게 회복.\n목표가 $276(+65%). Buy, 분할매수 적기.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: 중국 수출 재개 + Forward P/E가 S&P 500 아래, 이중 호재",
-      "text": "$NVDA $167.46 (주말)\n\n중국 H200 수출 라이선스가 승인됐다. 젠슨 황이 GTC에서 중국 주문과 생산 재개를 직접 확인. 연간 $25B 추가 매출 기회가 열렸다.\n\nForward P/E 20.64x는 S&P 500 평균(21x) 아래. 세계 1위 AI 기업이 시장 평균보다 싼 건 역사상 처음이다. PEG 0.54, 42/45 매수.\n\n금요일 -4.2% 급락은 매크로 충격이지 펀더멘털 문제가 아니다. RSI 41. Buy, 분할매수 적기."
+      "hook": "NVDA: 이사 매도에도 Forward P/E는 S&P 아래, 중국 수출도 재개",
+      "text": "$NVDA $167.46 (주말)\n\n이사 Mark Stevens가 $3,850만 규모 주식을 매도한 것이 확인됐다. 내부자 매도가 센티먼트를 누르지만 계획된 매도일 가능성이 높다.\n\nForward P/E 20.64x는 S&P 500(21x) 아래. 중국 H200 수출 재개로 $25B 추가 매출 기회. Motley Fool: '투자자들이 완전히 틀렸다'.\n\n다우 조정 진입에 호르무즈 우려. RSI 41. 매크로만 안정되면 빠른 회복. Buy, 분할매수."
     },
     "telegram": {
       "hook": "NVDA 일일 분석 (3/29, 주말)",
-      "text": "NVDA $167.46 (주말, 변동 없음) | 시총 $4.07T\nP/E 34.95x | Forward 20.64x (S&P 21x 이하!) | PEG 0.54 | RSI 41\n\n주말 신규 정보\n- 중국 H200 수출 라이선스 승인 (미 정부)\n- 젠슨 황 GTC에서 중국 주문, 생산 재개 확인\n- $25B 연간 추가 매출 기회\n\n핵심 포인트\n- Forward P/E가 S&P 500 아래 (사상 처음)\n- 42/45 Buy, 매도 0\n- 1조 달러 주문 잔고\n\n리스크\n- 금요일 -4.2%, Citigroup 주식 축소\n- 다음 주 비농업 고용, 이란 분쟁\n\n판단: Buy. 매크로가 눌러놓은 가격, 중국 촉매 추가"
+      "text": "NVDA $167.46 (주말, 변동 없음) | 시총 $4.07T\nP/E 34.95x | Forward 20.64x (S&P 21x 이하!) | PEG 0.54 | RSI 41\n\n주말 신규 정보\n- 이사 Mark Stevens $3,850만 주식 매도 (3/20)\n- Motley Fool: '투자자들이 완전히 틀렸다'\n- 다우 공식 조정 영역 진입\n\n핵심 포인트\n- 중국 H200 수출 재개 ($25B 기회)\n- Forward P/E S&P 500 아래 (사상 처음)\n- 42/45 Buy, 매도 0\n\n리스크\n- 호르무즈 해협 우려, 유가 급등\n- 4/3 비농업 고용, 4/6 관세\n\n판단: Buy. 매크로가 눌러놓은 가격, 분할매수 적기"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $167 | 중국 H200 수출 재개, $25B 매출 기회가 열렸다",
-          "text": "$NVDA $167.46 (주말, 변동 없음)\n\n미 정부가 중국에 H200 수출 라이선스를 승인했다. 젠슨 황이 중국 주문을 확인. 연간 $25B 추가 매출 기회.\n\n기존 리스크가 촉매로 바뀌었다\n\n1/4",
+          "hook": "NVDA $167 | 이사 $3,850만 매도, 근데 Forward P/E는 S&P 아래",
+          "text": "$NVDA $167.46 (주말, 변동 없음)\n\n이사 Mark Stevens가 $3,850만 규모 주식을 매도했다. 하지만 Forward P/E 20.64x는 S&P 500(21x) 아래.\n\n중국 H200 $25B 매출 기회도 열렸다\n\n1/4",
           "thread": [
-            "Forward P/E 20.64x로 S&P 500 평균(21x) 아래. 사상 처음이다. PEG 0.54, 65% 성장.\n\n42/45 매수, 매도 0. Wolfe: GTC가 60% 랠리 촉매\n\n2/4",
-            "리스크: 금요일 -4.2% 급락.\nCitigroup 미국 주식 축소, 이란 분쟁 장기화.\n50일($171), 200일($174) 아래.\n\n매크로가 유일한 적이다\n\n3/4",
+            "Motley Fool: '투자자들이 엔비디아에 대해 완전히 틀렸다'\nPEG 0.54, 42/45 매수, 매도 0.\n\n이사 매도는 계획된 것일 가능성. 펀더멘털과 무관\n\n2/4",
+            "다우 조정 진입. 호르무즈 해협 봉쇄 우려.\n4/3 비농업 고용, 4/6 관세 데드라인.\n\n매크로가 유일한 적. 50일($171) 바로 아래\n\n3/4",
             "RSI 41. 이평선에 근접해 매크로만 안정되면 빠르게 회복.\n목표가 $276(+65%). Buy, 분할매수 적기.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "S&P 500보다 싸고 중국까지 열렸다. 근데 -4.2%. 뭐가 문제냐면 전쟁이다",
-          "text": "$NVDA $167.46 (주말)\n\n중국 H200 수출 재개. $25B 추가 매출. Forward P/E 20.64x로 S&P 500보다 싸다.\n\n이 정도면 로켓이어야 하는데 금요일 -4.2%.\n이유: 이란 전쟁\n\n1/4",
+          "hook": "이사가 $3,850만 팔았다. 근데 S&P보다 싸고 중국도 열렸다. 뭐가 맞냐",
+          "text": "$NVDA $167.46 (주말)\n\n이사가 $3,850만을 팔았다. 근데 42/45 애널리스트는 사라고 한다. 매도 0명.\n\nForward P/E가 S&P보다 낮다. 이건 버그 아닌가?\n\n1/4",
           "thread": [
-            "42/45 애널리스트가 Buy. 매도 0명. PEG 0.54.\n\n시장빼고 다 사라는 건데 시장이 안 들어요.\n중동에서 미사일이 날아다니니까.\n\n2/4",
-            "Wolfe: 'GTC가 60% 랠리 촉매'\n문제는 랠리를 위해 전쟁이 멈춰야 한다는 것.\n\n최고의 기업이 최악의 타이밍을 만났다\n\n3/4",
-            "RSI 41. 이평선 코앞.\n전쟁만 안 터졌으면 $200 위에 있었을 주식.\n\nBuy. 중동 리스크 감내 가능하면 분할매수\n\n4/4"
+            "중국 H200 수출 재개. $25B.\nMotley Fool: '투자자들이 틀렸다'.\n다우는 조정. 호르무즈에 유가 폭등.\n\n최고의 AI 기업, 최악의 타이밍\n\n2/4",
+            "이사 매도? 계획된 거 아닐까.\n임원들은 항상 판다. 그게 일이니까.\nPEG 0.54는 역사적 저평가 신호.\n\n숫자는 거짓말 안 한다\n\n3/4",
+            "RSI 41. 이평선 코앞.\n전쟁만 안 터졌으면 $200 위에 있었다.\n\nBuy. 중동 리스크 감내하면 선물 같은 가격\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더들, 금요일 -4.2%에 힘드셨죠. 중국 호재를 보세요",
-          "text": "$NVDA $167.46 (주말, 변동 없음)\n\n금요일 -4.2%. 다우 793포인트 하락과 함께 빠졌어요. 연일 하락에 지치는 게 당연합니다.\n\n하지만 주말에 좋은 소식이 있어요\n\n1/4",
+          "hook": "NVDA 홀더들, 이사 매도 소식에 불안하시죠. 큰 그림을 보세요",
+          "text": "$NVDA $167.46 (주말)\n\n이사가 $3,850만을 매도했다는 소식. 불안하실 거예요.\n\n하지만 이건 계획된 매도일 가능성이 높아요. 42/45 매수, 매도 0명\n\n1/4",
           "thread": [
-            "중국 H200 수출 라이선스가 승인됐어요. $25B 추가 매출 기회. 수출 규제 리스크가 오히려 촉매로 바뀌었어요.\n\nForward P/E는 S&P 500 아래. 역사상 처음이에요\n\n2/4",
-            "42/45 매수, 매도 0. PEG 0.54.\n이건 매크로가 만든 가격이지 회사 문제가 아닙니다.\n\nWolfe: 60% 반등 가능\n\n3/4",
-            "RSI 41. 이평선 바로 아래.\n분할매수로 천천히. 5/20 실적이 촉매제예요.\n\nBuy. 이 가격이 선물이었다는 걸 알게 될 거예요\n\n4/4"
+            "중국 H200 수출이 재개됐어요. $25B 기회.\nForward P/E는 S&P 아래. 역사상 처음이에요.\n\nMotley Fool: '투자자들이 완전히 틀렸다'\n\n2/4",
+            "다우 조정에 호르무즈 우려.\n이건 매크로 문제지 엔비디아 문제가 아니에요.\n\nPEG 0.54, 1조 달러 주문 잔고\n\n3/4",
+            "RSI 41. 이평선 바로 아래.\n5/20 실적이 촉매제예요.\n\nBuy. 분할매수로 천천히. 이 가격은 기회예요\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: 중국 수출 재개 + Forward P/E가 S&P 500 아래, 이중 호재",
-          "text": "$NVDA $167.46 (주말)\n\n중국 H200 수출 라이선스가 승인됐다. 젠슨 황이 GTC에서 중국 주문과 생산 재개를 직접 확인. 연간 $25B 추가 매출 기회가 열렸다.\n\nForward P/E 20.64x는 S&P 500 평균(21x) 아래. 세계 1위 AI 기업이 시장 평균보다 싼 건 역사상 처음이다. PEG 0.54, 42/45 매수.\n\n금요일 -4.2% 급락은 매크로 충격이지 펀더멘털 문제가 아니다. RSI 41. Buy, 분할매수 적기."
+          "hook": "NVDA: 이사 매도에도 Forward P/E는 S&P 아래, 중국 수출도 재개",
+          "text": "$NVDA $167.46 (주말)\n\n이사 Mark Stevens가 $3,850만 규모 주식을 매도한 것이 확인됐다. 내부자 매도가 센티먼트를 누르지만 계획된 매도일 가능성이 높다.\n\nForward P/E 20.64x는 S&P 500(21x) 아래. 중국 H200 수출 재개로 $25B 추가 매출 기회. Motley Fool: '투자자들이 완전히 틀렸다'.\n\n다우 조정 진입에 호르무즈 우려. RSI 41. 매크로만 안정되면 빠른 회복. Buy, 분할매수."
         },
         "witty": {
-          "hook": "NVDA: 중국 열리고, S&P보다 싸고, 근데 -4.2%. 범인은 중동 전쟁",
-          "text": "$NVDA $167.46 (주말)\n\n중국 H200 수출 재개($25B). Forward P/E가 S&P 500보다 낮다. PEG 0.54. 42/45 매수.\n\n이 조합이면 주가가 급등해야 정상인데, 금요일 -4.2%. 범인은 이란 전쟁이다. 최고의 AI 기업이 최악의 지정학을 만났다.\n\nWolfe: GTC가 60% 랠리 촉매. 문제는 전쟁이 랠리보다 빨랐다는 것.\n\nRSI 41. 이평선 코앞. Buy, 심장이 튼튼한 투자자에게."
+          "hook": "이사가 $3,850만 팔았는데 42명이 사라고 한다. NVDA의 모순",
+          "text": "$NVDA $167.46 (주말)\n\n이사 Mark Stevens, $3,850만 매도. 근데 42/45 애널리스트가 매수. 매도 0명. Forward P/E가 S&P보다 낮다.\n\n중국 H200 $25B 기회에 Motley Fool은 '투자자들이 틀렸다'고 한다. 다우는 조정 진입, 호르무즈 해협에 유가 급등.\n\n최고의 기업이 최악의 타이밍을 만났다. RSI 41, 이평선 코앞. Buy, 심장이 튼튼한 투자자에게."
         },
         "empathy": {
-          "hook": "NVDA 투자자분들, 금요일 급락에 힘드셨죠. 중국 수출 재개라는 좋은 소식이 있어요",
-          "text": "$NVDA $167.46, 금요일 -4.2%.\n\n다우 793포인트 하락과 함께 빠졌어요. 고점에서 -21%. 연일 빨간 숫자를 보니 마음이 무거우시죠.\n\n하지만 중국 H200 수출 라이선스가 승인됐어요. $25B 추가 매출 기회. Forward P/E가 S&P 500 아래인 건 역사상 처음이에요.\n\n42/45 매수, 매도 0. 이건 매크로가 만든 할인이지 회사 문제가 아닙니다. 분할매수로 천천히. 5/20 실적까지 가시죠. Buy."
+          "hook": "NVDA 투자자분들, 이사 매도와 다우 조정에 지치셨죠. 핵심을 봐요",
+          "text": "$NVDA $167.46. 이사 $3,850만 매도 소식에 다우 조정까지.\n\n고점에서 -21%, 연일 빨간 숫자. 마음이 무거우시죠. 이사 매도가 불안하실 거예요.\n\n하지만 이건 계획된 매도일 가능성이 높아요. 42/45 매수, 매도 0. Forward P/E가 S&P 아래인 건 역사상 처음. 중국 H200 $25B도 열렸어요.\n\n매크로가 만든 할인이에요. 5/20 실적까지 분할매수로 천천히. Buy."
         }
       }
     }

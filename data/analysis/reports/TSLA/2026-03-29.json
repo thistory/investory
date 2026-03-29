@@ -115,6 +115,12 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-29",
+      "headline": "CleanTechnica: '6개월간 -20%, 사람들이 테슬라 로보택시를 포기하고 있나?'",
+      "significance": "테슬라 주가 6개월간 20% 하락. 로보택시 기대감이 식으면서 투자자 이탈 가능성을 분석. Seeking Alpha에서도 Strong Sell 유지하며 '로보택시 스토리는 신화'라고 비판",
+      "url": "https://cleantechnica.com/2026/03/27/tesla-stock-down-nearly-20-in-6-months-are-people-giving-up-on-tesla-robotaxis/"
+    },
+    {
       "date": "2026-03-28",
       "headline": "머스크, Twitter 사기 평결에 이의제기. 배심원의 '$4.20 농담'이 편향 증거라고 주장",
       "significance": "배심원이 평결 양식에 '$4.20'을 넣은 것이 머스크를 조롱한 것이라 주장하며 재심을 요구. 법적 리스크가 장기화되고 있으며 경영진 주의분산 우려",
@@ -122,15 +128,9 @@
     },
     {
       "date": "2026-03-28",
-      "headline": "CNBC: 다음 주 비농업 고용지표가 시장 방향 결정. Citigroup, 미국 주식 비중 축소",
-      "significance": "Citigroup이 이란-이스라엘 분쟁 장기화 우려로 미국 주식 비중을 줄였다. 다음 주 3월 고용지표가 경기 침체 여부를 판가름할 핵심 변수",
-      "url": "https://www.cnbc.com/2026/03/27/stock-market-next-week-outlook-for-march-30-april-3-2026.html"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "HSBC, 테슬라 $131 목표가 유지하며 '65% 추가 하락 가능' 경고",
-      "significance": "HSBC는 테슬라가 현재 가격에서 65% 더 떨어질 수 있다고 경고. Reduce 등급 유지. 극단적 약세론의 대표 사례",
-      "url": "https://www.hsbc.com/insight/topics/tesla-stock-analysis"
+      "headline": "Citigroup 미국 주식 비중 축소, 다우 조정 영역 진입. 호르무즈 해협 우려 확산",
+      "significance": "다우가 공식 조정 영역(고점 대비 -10%)에 진입. 이란-이스라엘 분쟁으로 호르무즈 해협 봉쇄 우려가 유가를 급등시키며 시장 전반을 압박",
+      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-enters-correction-territory-as-hormuz-fears-fuel-selloff-202603271749"
     },
     {
       "date": "2026-03-27",
@@ -141,7 +141,7 @@
     {
       "date": "2026-03-26",
       "headline": "Q1 2026 인도량 월스트리트 컨센서스 365,645대 공개",
-      "significance": "23명 애널리스트 평균. 전년 Q1 대비 +8%지만 Q4 대비 -13%. 다음 주 초 실제 인도량 발표 예상",
+      "significance": "23명 애널리스트 평균. 전년 Q1 대비 +8%지만 Q4 대비 -13%. 다음 주 초 실제 인도량 발표 예상. Seeking Alpha는 로보택시 스토리에 Strong Sell 유지",
       "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/"
     }
   ],
@@ -153,7 +153,7 @@
     "buyCount": 17,
     "holdCount": 17,
     "sellCount": 9,
-    "notableComment": "43명 애널리스트 중 15 Strong Buy, 2 Buy, 17 Hold, 9 Strong Sell. Wedbush $600 최고가 유지, HSBC $131 최저가. 다음 주 고용지표와 Q1 인도량이 애널리스트 의견 분화를 가속할 것"
+    "notableComment": "43명 애널리스트 중 15 Strong Buy, 2 Buy, 17 Hold, 9 Strong Sell. Wedbush $600 최고가 유지, HSBC $131 최저가. Seeking Alpha는 '로보택시 신화론'으로 Strong Sell 유지하며 Q1 실적 악화를 경고"
   },
   "risks": [
     {
@@ -163,13 +163,13 @@
     },
     {
       "severity": "critical",
-      "title": "극단적 밸류에이션 리스크",
-      "description": "TTM P/E 335x로 S&P 500 평균 23x의 14.5배. 성장 기대가 조금이라도 꺾이면 주가 급락 가능. Forward P/E 174x도 성장주 평균의 4배 이상"
+      "title": "극단적 밸류에이션 + 로보택시 회의론 확산",
+      "description": "TTM P/E 335x로 S&P 500 평균 23x의 14.5배. CleanTechnica '로보택시 포기론', Seeking Alpha '로보택시 신화론' 등 회의론이 확산. 성장 기대 꺾이면 급락 가능"
     },
     {
       "severity": "high",
-      "title": "다음 주 매크로 리스크 집중",
-      "description": "Citigroup이 미국 주식 비중 축소. 비농업 고용지표(4/3)와 이란-이스라엘 분쟁 장기화 우려. 매크로 악재가 기술주를 계속 압박할 가능성"
+      "title": "다음 주 매크로 리스크 집중 (다우 조정 영역 진입)",
+      "description": "다우가 공식 조정 영역 진입. 호르무즈 해협 봉쇄 우려로 유가 급등. 비농업 고용지표(4/3)와 이란 분쟁이 기술주를 계속 압박할 가능성. 4/6 관세 데드라인도 대기"
     },
     {
       "severity": "high",
@@ -217,26 +217,31 @@
     "rsiSignal": "oversold"
   },
   "overallOpinion": [
-    "다음 주가 테슬라의 분기점이다. 비농업 고용지표(4/3)와 Q1 인도량 발표가 동시에 다가오고 있다. Citigroup이 미국 주식 비중을 줄였고 이란-이스라엘 분쟁 장기화 우려가 시장을 짓누르고 있다",
-    "머스크가 Twitter 사기 소송에서 배심원 편향을 이유로 재심을 청구했다. 법적 불확실성이 장기화되면서 경영진 주의분산 리스크가 커지고 있다. Trip Chowdhry, HSBC 등 약세론도 여전",
-    "EV 시장 28% 급감 속에서도 점유율 50%+를 달성한 건 경쟁 우위의 실질적 증거다. 4월 Cybercab, Roadster, FSD 유럽 등 카탈리스트가 대기 중",
-    "$361.83, RSI 33 과매도. 50일선($387), 200일선($400) 모두 아래. 주말 동안 가격 변동 없이 다음 주 시작을 기다리는 중. Hold, 4/21 실적까지 관망"
+    "다음 주가 테슬라의 분기점이다. 다우가 공식 조정 영역에 진입했고, 비농업 고용(4/3)과 Q1 인도량(365K 컨센서스)이 동시에 나온다. 호르무즈 해협 봉쇄 우려에 유가가 급등하면서 매크로 환경이 급속히 악화되고 있다",
+    "로보택시에 대한 회의론이 커지고 있다. CleanTechnica는 '사람들이 로보택시를 포기하고 있나'라고 물었고, Seeking Alpha는 '로보택시 스토리는 신화'라며 Strong Sell을 유지했다. 6개월간 -20% 하락이 이어지면서 투자자 피로감이 쌓이고 있다",
+    "그래도 EV 시장 28% 급감 속 점유율 50%+ 달성은 실질적 경쟁 우위의 증거다. 4월에 Cybercab 양산, Roadster 공개, FSD 유럽 확대 등 카탈리스트가 집중돼 있다",
+    "$361.83, RSI 33 과매도. 50일선($387), 200일선($400) 모두 아래. 매크로 악화와 로보택시 회의론이 겹쳐 당분간 어려울 수 있다. Hold, 4/21 실적까지 관망"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "RSI 33 과매도와 4월 카탈리스트 집중은 반등 근거가 되지만, 매크로 역풍(Citigroup 비중 축소, 지정학 리스크)과 머스크 법적 분쟁 장기화가 부담이다. Q1 인도량과 비농업 고용이 다음 주 핵심 변수. 관망 유지가 합리적이며 신규 진입은 $340대 지지 확인 후가 안전하다",
+    "summary": "RSI 33 과매도와 4월 카탈리스트 집중은 반등 근거가 되지만, 다우 조정 진입, 호르무즈 위기, 로보택시 회의론 확산이 부담이다. 다음 주 Q1 인도량과 비농업 고용이 핵심 변수. 관망 유지가 합리적이며 신규 진입은 $340대 지지 확인 후가 안전하다",
     "horizon": "3-6개월"
   },
   "sources": [
+    {
+      "name": "CleanTechnica - 로보택시 포기론",
+      "url": "https://cleantechnica.com/2026/03/27/tesla-stock-down-nearly-20-in-6-months-are-people-giving-up-on-tesla-robotaxis/",
+      "description": "6개월간 -20% 하락, 로보택시 기대감 퇴색 분석"
+    },
     {
       "name": "Reuters - 머스크 Twitter 평결 이의제기",
       "url": "https://www.reuters.com/sustainability/boards-policy-regulation/musk-urges-judge-review-twitter-verdict-questions-jurys-integrity-2026-03-26/",
       "description": "머스크 측 변호사가 배심원 $4.20 농담을 근거로 재심 요구"
     },
     {
-      "name": "CNBC - 다음 주 시장 전망 (3/30-4/3)",
-      "url": "https://www.cnbc.com/2026/03/27/stock-market-next-week-outlook-for-march-30-april-3-2026.html",
-      "description": "Citigroup 미국 주식 비중 축소, 비농업 고용지표가 핵심 변수"
+      "name": "FXStreet - 다우 조정 영역 진입, 호르무즈 해협 우려",
+      "url": "https://www.fxstreet.com/news/dow-jones-industrial-average-enters-correction-territory-as-hormuz-fears-fuel-selloff-202603271749",
+      "description": "다우 공식 조정, 4/6 관세 데드라인, NFP 4/3"
     },
     {
       "name": "Benzinga - EV 시장 28% 급감 속 테슬라 점유율 50%+",
@@ -249,14 +254,9 @@
       "description": "23명 애널리스트 Q1 컨센서스"
     },
     {
-      "name": "HSBC - 테슬라 $131 목표가",
-      "url": "https://www.hsbc.com/insight/topics/tesla-stock-analysis",
-      "description": "HSBC Reduce 등급, 65% 추가 하락 가능 경고"
-    },
-    {
-      "name": "Meyka - TSLA 기술적 분석 3/28",
-      "url": "https://meyka.com/blog/tsla-stock-today-march-28-musk-seeks-jury-bias-probe-in-twitter-case-2803/",
-      "description": "RSI 33.65, CCI -151.82, Williams %R -95.73 기술적 지표"
+      "name": "Seeking Alpha - 로보택시 스토리는 신화, Strong Sell",
+      "url": "https://seekingalpha.com/article/4886338-the-tesla-robotaxi-story-is-a-myth-why-im-keeping-my-strong-sell-into-q1-earnings",
+      "description": "Q1 인도량 감소 전망, 로보택시 비즈니스 모델 비판"
     },
     {
       "name": "MarketBeat - TSLA 애널리스트 컨센서스",
@@ -264,76 +264,76 @@
       "description": "43명 애널리스트 컨센서스 목표가 $408"
     },
     {
-      "name": "Polymarket - TSLA 3/30 예측",
-      "url": "https://polymarket.com/event/tsla-close-above-on-march-30-2026",
-      "description": "Q1 인도량과 에너지 저장 14.4GWh 전망"
+      "name": "Economic Times - 다우, S&P 500 급락 분석",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-us-jobs-data-to-give-economic-view-for-war-gripped-markets/articleshow/129858390.cms",
+      "description": "S&P 500 YTD -5%+, 비농업 고용이 핵심 변수"
     },
     {
-      "name": "Bloomberg - 머스크 $4.20 농담 재심 청구",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-26/musk-rips-twitter-verdict-claims-jury-s-4-20-joke-mocked-him",
-      "description": "배심원 편향 주장 상세 보도"
+      "name": "EBC Financial - TSLA 2026 주요 가격 수준 분석",
+      "url": "https://www.ebc.com/forex/tesla-stock-forecast-key-levels-to-watch-in-2026",
+      "description": "Cybercab 4월 양산, 로보택시 SaaS 모델 전환 분석"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "TSLA $362 | 다음 주 고용, 인도량, 매크로 3중 시험대",
-      "text": "$TSLA $361.83 (주말, 변동 없음)\n\n다음 주가 분기점이다. 비농업 고용(4/3)과 Q1 인도량 발표가 동시에 온다. Citigroup은 미국 주식 비중을 줄였고 이란 분쟁이 시장을 짓누르고 있다.\n\nRSI 33 과매도\n\n1/4",
+      "hook": "TSLA $362 | 로보택시 회의론 확산, 다음 주 Q1 인도량이 분기점",
+      "text": "$TSLA $361.83 (주말, 변동 없음)\n\n'사람들이 로보택시를 포기하고 있나?' 6개월 -20%. 다우가 조정 영역에 진입했고 다음 주 Q1 인도량과 고용지표가 동시에 나온다.\n\nRSI 33 과매도\n\n1/4",
       "thread": [
-        "머스크가 Twitter 사기 소송에서 재심을 청구했다. 배심원이 $4.20 농담으로 자신을 조롱했다고 주장. 법적 분쟁 장기화.\n\nEV 시장 28% 급감 속 점유율 50%+. 불황에 강자가 더 강해졌다\n\n2/4",
-        "4월 카탈리스트: Cybercab 양산, Roadster 공개, FSD 유럽, 4/21 실적.\n인도 컨센서스 365K대(Q4 대비 -13%).\n\n다음 주 인도량이 첫 번째 시험이다\n\n3/4",
+        "호르무즈 해협 봉쇄 우려로 유가 급등. Seeking Alpha는 로보택시를 '신화'라 불렀다.\n\n그래도 EV 시장 28% 급감 속 점유율 50%+. 불황에 강자가 증명됐다\n\n2/4",
+        "4월 카탈리스트: Cybercab 양산, Roadster 공개, 4/21 실적.\nQ1 인도 컨센서스 365K대(Q4 대비 -13%).\n\n다음 주 인도량이 첫 번째 시험이다\n\n3/4",
         "50일($387), 200일($400) 모두 아래. P/E 335x.\nHold. 다음 주 고용, 인도량 확인 후 대응.\n목표가 $408(+12.8%)\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "TSLA: 과매도 주말, 다음 주 고용과 인도량이 모든 걸 결정한다",
-      "text": "$TSLA $361.83 (주말, 금요일 종가 유지)\n\nRSI 33 과매도 상태로 주말을 맞았다. 다음 주가 핵심이다. 비농업 고용(4/3)과 Q1 인도량이 동시에 다가오고, Citigroup은 미국 주식 비중을 줄였다.\n\n머스크는 Twitter 소송에서 재심을 청구하며 법적 전선이 길어지고 있다. 하지만 EV 시장 28% 급감 속 점유율 50%+는 경쟁 우위의 증거.\n\n50일선($387), 200일선($400) 모두 아래. Hold. 4월 카탈리스트를 기다리자."
+      "hook": "TSLA: 로보택시 회의론 속 과매도, 다음 주 Q1 인도량이 답을 준다",
+      "text": "$TSLA $361.83 (주말, 금요일 종가 유지)\n\n'사람들이 로보택시를 포기하고 있나?' 6개월 -20%가 이어지면서 회의론이 확산되고 있다. 다우는 조정 영역에 진입했고 호르무즈 해협 우려로 유가가 급등 중.\n\n하지만 EV 시장 28% 급감 속 점유율 50%+는 실력의 증거. 4월에 Cybercab, Roadster, FSD 유럽이 대기 중이다.\n\nRSI 33 과매도. 50일($387), 200일($400) 아래. Hold. 다음 주 Q1 인도량을 보자."
     },
     "telegram": {
       "hook": "TSLA 일일 분석 (3/29, 주말)",
-      "text": "Tesla $361.83 (주말, 변동 없음) | 시총 $1.16T\nP/E 335x | Forward 174x | RSI 33\n\n주말 동향\n- 머스크 Twitter 사기 소송 재심 청구 ($4.20 농담 편향)\n- Citigroup 미국 주식 비중 축소\n- 이란-이스라엘 분쟁 장기화\n\n다음 주 핵심 이벤트\n- 비농업 고용지표 (4/3)\n- Q1 인도량 발표 (365K대 컨센서스)\n- 이란 분쟁 추이\n\n기술적: 50일($387), 200일($400) 아래\nRSI 33 과매도 | CCI -151.82\n\n목표가: $408 (+12.8%)\n판단: Hold, 다음 주 데이터 확인 후 대응"
+      "text": "Tesla $361.83 (주말, 변동 없음) | 시총 $1.16T\nP/E 335x | Forward 174x | RSI 33\n\n주말 주요 동향\n- '로보택시 포기론' 확산 (CleanTechnica, Seeking Alpha)\n- 다우 공식 조정 영역 진입 (고점 -10%)\n- 호르무즈 해협 봉쇄 우려, 유가 급등\n- 4/6 관세 데드라인 대기\n\n다음 주 핵심 이벤트\n- Q1 인도량 발표 (365K 컨센서스)\n- 비농업 고용 (4/3)\n- 분기말 리밸런싱\n\n기술적: 50일($387), 200일($400) 아래\nRSI 33 과매도\n\n목표가: $408 (+12.8%)\n판단: Hold, 다음 주 데이터 확인 후 대응"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA $362 | 다음 주 고용, 인도량, 매크로 3중 시험대",
-          "text": "$TSLA $361.83 (주말, 변동 없음)\n\n다음 주가 분기점이다. 비농업 고용(4/3)과 Q1 인도량 발표가 동시에 온다. Citigroup은 미국 주식 비중을 줄였고 이란 분쟁이 시장을 짓누르고 있다.\n\nRSI 33 과매도\n\n1/4",
+          "hook": "TSLA $362 | 로보택시 회의론 확산, 다음 주 Q1 인도량이 분기점",
+          "text": "$TSLA $361.83 (주말, 변동 없음)\n\n'사람들이 로보택시를 포기하고 있나?' 6개월 -20%. 다우가 조정 영역에 진입했고 다음 주 Q1 인도량과 고용지표가 동시에 나온다.\n\nRSI 33 과매도\n\n1/4",
           "thread": [
-            "머스크가 Twitter 사기 소송에서 재심을 청구했다. 배심원이 $4.20 농담으로 자신을 조롱했다고 주장. 법적 분쟁 장기화.\n\nEV 시장 28% 급감 속 점유율 50%+. 불황에 강자가 더 강해졌다\n\n2/4",
-            "4월 카탈리스트: Cybercab 양산, Roadster 공개, FSD 유럽, 4/21 실적.\n인도 컨센서스 365K대(Q4 대비 -13%).\n\n다음 주 인도량이 첫 번째 시험이다\n\n3/4",
+            "호르무즈 해협 봉쇄 우려로 유가 급등. Seeking Alpha는 로보택시를 '신화'라 불렀다.\n\n그래도 EV 시장 28% 급감 속 점유율 50%+. 불황에 강자가 증명됐다\n\n2/4",
+            "4월 카탈리스트: Cybercab 양산, Roadster 공개, 4/21 실적.\nQ1 인도 컨센서스 365K대(Q4 대비 -13%).\n\n다음 주 인도량이 첫 번째 시험이다\n\n3/4",
             "50일($387), 200일($400) 모두 아래. P/E 335x.\nHold. 다음 주 고용, 인도량 확인 후 대응.\n목표가 $408(+12.8%)\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "RSI 33에 머스크는 법정에서 $4.20 농담 싸움 중. TSLA 주말 풍경",
-          "text": "$TSLA $361.83 (주말)\n\n주가는 과매도인데 머스크는 법정에서 배심원이 $4.20 농담으로 자기를 놀렸다고 싸우고 있다. 주주 입장에서는 한숨만.\n\nCitigroup은 미국 주식을 줄이기 시작했다\n\n1/4",
+          "hook": "'로보택시는 신화다' vs '4월에 Cybercab 나온다'. TSLA $362 주말 풍경",
+          "text": "$TSLA $361.83 (주말)\n\nSeeking Alpha: '로보택시는 신화'. 테슬라: '4월에 Cybercab 양산 시작'.\n\n누가 맞는지 다음 주부터 알 수 있다. 6개월 -20%에 다우까지 조정 진입.\n\n1/4",
           "thread": [
-            "EV 시장이 28% 무너졌는데 테슬라만 점유율 50%+. 다 쓰러지는데 혼자 서 있으면 그게 진짜 실력이다.\n\n문제는 혼자 서 있어도 주가는 같이 무너진다는 것\n\n2/4",
-            "다음 주 비농업 고용이 나오고, Q1 인도량도 나온다. 데이터가 쏟아진다.\n\n좋으면 반등, 나쁘면 $340.\n주말에 할 수 있는 건 기다리기뿐이다\n\n3/4",
-            "RSI 33. 과매도라 반등할 수도 있고, 바닥이 아닐 수도 있고.\nP/E 335x에 Hold가 최선이다.\n\n4/4"
+            "EV 시장이 28% 무너졌는데 테슬라만 점유율 50%+. 차는 잘 팔리는데 로보택시가 문제라는 이상한 상황.\n\n호르무즈 해협에 유가까지. 악재 뷔페\n\n2/4",
+            "다음 주 Q1 인도량이 나오고 4/3에 고용도 나온다.\nRSI 33에 P/E 335x.\n\n과매도인데 비싼 주식. 모순의 극치\n\n3/4",
+            "4월: Cybercab, Roadster, 실적(4/21).\n이게 진짜면 신화가 아니게 된다.\n\nHold. 4월이 증명의 달\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "TSLA 홀더들, 주말에도 불안하시죠. 다음 주가 답을 줍니다",
-          "text": "$TSLA $361.83 (주말, 변동 없음)\n\nRSI 33. 5거래일 연속 하락 후 주말을 맞았어요. YTD -20%, 고점 대비 -27%. 불안한 주말이시죠.\n\n다음 주 핵심 데이터가 나옵니다\n\n1/4",
+          "hook": "TSLA 홀더들, '로보택시 포기' 기사까지. 힘든 주말이시죠",
+          "text": "$TSLA $361.83 (주말)\n\n6개월 -20%. '사람들이 로보택시를 포기하고 있나'라는 기사까지 나왔어요. 다우도 조정 진입. 마음이 무거우실 거예요.\n\n하지만 4월이 곧이에요\n\n1/4",
           "thread": [
-            "고용지표와 Q1 인도량. 두 가지가 다음 주에 나와요. 결과에 따라 방향이 결정될 거예요.\n\nEV 시장 28% 급감 속 점유율 50%+는 확실한 좋은 신호예요\n\n2/4",
-            "머스크의 법적 분쟁은 걱정되지만, 4월에 Cybercab, Roadster, 실적(4/21)이 줄줄이 있어요.\n\n지금이 가장 어두운 시기일 수 있어요\n\n3/4",
-            "목표가 $408(+12.8%).\n급하게 움직이지 마세요. 다음 주 데이터를 보고 판단해도 늦지 않아요.\n\nHold. 기다림도 전략이에요\n\n4/4"
+            "EV 시장 28% 급감인데 테슬라 점유율은 50%+.\n차를 만드는 실력은 확실해요.\n\nCybercab, Roadster가 4월에 나와요. 조금만 더\n\n2/4",
+            "다음 주 Q1 인도량과 고용 발표.\n결과에 따라 방향이 결정돼요.\n\n호르무즈 우려와 유가는 테슬라 탓이 아니에요\n\n3/4",
+            "RSI 33 과매도. 목표가 $408(+12.8%).\n급하게 움직이지 마세요.\n다음 주 데이터 보고 판단해도 늦지 않아요.\n\nHold. 기다림도 전략이에요\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA: 과매도 주말, 다음 주 고용과 인도량이 모든 걸 결정한다",
-          "text": "$TSLA $361.83 (주말, 금요일 종가 유지)\n\nRSI 33 과매도 상태로 주말을 맞았다. 다음 주가 핵심이다. 비농업 고용(4/3)과 Q1 인도량이 동시에 다가오고, Citigroup은 미국 주식 비중을 줄였다.\n\n머스크는 Twitter 소송에서 재심을 청구하며 법적 전선이 길어지고 있다. 하지만 EV 시장 28% 급감 속 점유율 50%+는 경쟁 우위의 증거.\n\n50일선($387), 200일선($400) 모두 아래. Hold. 4월 카탈리스트를 기다리자."
+          "hook": "TSLA: 로보택시 회의론 속 과매도, 다음 주 Q1 인도량이 답을 준다",
+          "text": "$TSLA $361.83 (주말, 금요일 종가 유지)\n\n'사람들이 로보택시를 포기하고 있나?' 6개월 -20%가 이어지면서 회의론이 확산되고 있다. 다우는 조정 영역에 진입했고 호르무즈 해협 우려로 유가가 급등 중.\n\n하지만 EV 시장 28% 급감 속 점유율 50%+는 실력의 증거. 4월에 Cybercab, Roadster, FSD 유럽이 대기 중이다.\n\nRSI 33 과매도. 50일($387), 200일($400) 아래. Hold. 다음 주 Q1 인도량을 보자."
         },
         "witty": {
-          "hook": "테슬라: 과매도인데 머스크는 $4.20 농담으로 법정 싸움 중",
-          "text": "$TSLA $361.83 (주말)\n\nRSI 33 과매도. 매도세가 극에 달했다. 근데 머스크는 법정에서 배심원의 $4.20 농담이 자기를 놀린 거라고 싸우고 있다. 주주 입장에서는 '주가 좀 신경 써주세요'.\n\nEV 시장 28% 급감인데 테슬라만 점유율 50%+. 불황에서 왕은 더 강해진다. 다만 왕의 주가도 같이 빠지고 있다는 게 아이러니.\n\n다음 주 비농업 고용과 인도량. 데이터가 모든 걸 결정한다. Hold."
+          "hook": "로보택시가 신화인지 현실인지, 4월이 판결을 내린다",
+          "text": "$TSLA $361.83 (주말)\n\nSeeking Alpha: '로보택시 스토리는 신화'. 테슬라: '4월에 Cybercab 양산'.\n\n6개월 -20%에 다우까지 조정 진입. EV 시장이 28% 무너졌는데 테슬라만 점유율 50%+라는 아이러니.\n\n호르무즈 해협에 유가 급등까지. RSI 33 과매도인데 P/E 335x. 과매도이면서 동시에 비싼 주식.\n\nHold. 4월이 증명의 달이 될 것이다."
         },
         "empathy": {
-          "hook": "TSLA 주주 여러분, 불안한 주말이시죠. 다음 주가 답을 줄 거예요",
-          "text": "$TSLA $361.83, RSI 33. 5거래일 연속 하락 후 주말.\n\n고점에서 -27%, YTD -20%. 주말에도 마음이 편하지 않으시죠. Citigroup은 주식 비중까지 줄이고 있으니 더 불안하실 거예요.\n\n하지만 EV 시장 28% 급감 속 점유율 50%+는 테슬라의 진짜 실력이에요. 다음 주 비농업 고용과 Q1 인도량이 방향을 알려줄 거예요.\n\n4월에 Cybercab, Roadster, 4/21 실적이 기다리고 있어요. 목표가 $408(+12.8%). 지금은 기다리는 게 가장 현명한 선택이에요."
+          "hook": "TSLA 주주 여러분, '로보택시 포기론'까지 나왔어요. 하지만 4월이 곧입니다",
+          "text": "$TSLA $361.83. 6개월 -20%. '사람들이 로보택시를 포기하고 있나'라는 기사.\n\n다우 조정 진입에 호르무즈 우려까지. 정말 지치셨을 거예요. RSI 33은 그 피로감을 숫자로 보여주고 있어요.\n\n하지만 EV 점유율 50%+는 진짜 실력이에요. 4월에 Cybercab, Roadster, FSD 유럽이 대기 중이에요.\n\n다음 주 Q1 인도량과 고용이 방향을 알려줄 거예요. 목표가 $408(+12.8%). 기다려보세요. Hold."
         }
       }
     }
