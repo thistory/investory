@@ -1,0 +1,341 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-30",
+  "currentPrice": 361.83,
+  "marketCap": "$1.16T",
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
+    "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
+    "howTheyMakeMoney": [
+      "전기차 판매 (Model 3/Y, Cybertruck)",
+      "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
+      "서비스, 충전 (Supercharger 네트워크, 보험, OTA 업그레이드)",
+      "FSD(Full Self-Driving) 월 99달러 구독 및 라이선싱",
+      "규제 크레딧 판매"
+    ],
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Roadster"]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "335x",
+      "interpretation": "S&P 500 평균 약 23x, 자동차 섹터 평균 약 12x 대비 극단적 프리미엄. 52주 고점 대비 -27% 할인에도 여전히 극고배율"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "174x",
+      "interpretation": "2026년 EPS 전망 $2.08 기준. 성장주 평균 30-40x 대비 4배 이상 높음. 로보택시, 에너지 사업의 폭발적 성장이 선반영된 수치"
+    },
+    {
+      "name": "매출 성장률 (YoY)",
+      "value": "+1%",
+      "interpretation": "2025년 매출 948억 달러로 전년 대비 1% 성장에 그침. 2026년은 15% 성장한 1,089억 달러 전망"
+    },
+    {
+      "name": "Q1 2026 인도량 컨센서스",
+      "value": "365,645대",
+      "interpretation": "23명 애널리스트 컨센서스. 전년 Q1(336,681대) 대비 +8%지만, Q4 2025(418,227대)보다 13% 감소"
+    },
+    {
+      "name": "시가총액",
+      "value": "$1.16T",
+      "interpretation": "YTD -20%. 도요타, 폭스바겐, GM, 포드 합산보다 큰 규모이나 빠르게 축소 중"
+    },
+    {
+      "name": "RSI (14일)",
+      "value": "33",
+      "interpretation": "과매도 기준선 30에 근접. 매도 압력이 극심하나 기술적 반등 가능성도 시사"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "EV 시장 28% 급감 속 테슬라 시장점유율 50%+ 확대 (3/27)",
+      "description": "전체 EV 시장이 28% 급감하는 가운데에도 테슬라는 시장점유율을 50% 이상으로 끌어올렸다. 경쟁사 대비 압도적 브랜드 파워와 충전 인프라가 불황기에 오히려 경쟁 우위로 작용"
+    },
+    {
+      "title": "SpaceX IPO 준비 루머, 테슬라 밸류에이션 촉매 (3/25)",
+      "description": "SpaceX가 IPO를 준비 중이라는 루머가 확산. SpaceX 주식을 보유한 테슬라 투자자들에게 간접적 촉매로 작용할 수 있으며, 머스크 생태계 전체의 가치 재평가 가능성"
+    },
+    {
+      "title": "Optimus3 로봇 영상 공개, 올여름 생산 시작 (3/25)",
+      "description": "테슬라가 Optimus3 휴머노이드 로봇의 감속기어와 정밀 손 설계 영상을 공개. 2026년 연말까지 100만 대 생산률 목표. Trefis는 로봇 사업의 가치를 $2-3조로 평가"
+    },
+    {
+      "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
+      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산 시작과 차세대 Roadster 공개가 4월에 동시 예정. 단기간에 두 가지 대형 카탈리스트 집중"
+    },
+    {
+      "title": "Terafab $25B AI 칩 공장, Wedbush '게임 체인저'",
+      "description": "Wedbush가 Terafab 반도체 공장 계획을 '게임 체인저'라고 평가하며 $600 목표가를 재확인. AI5 칩 소량 생산 2026년 말 시작, 본격 양산은 2027년"
+    },
+    {
+      "title": "NHTSA FSD 조사 심화, 규제 리스크 부상 (3/19)",
+      "description": "NHTSA가 안개, 먼지 등 저시야 환경에서 FSD 성능 문제로 조사를 격상했다. Trefis는 이것이 '1조 달러 AI 테제'를 깨뜨릴 수 있다고 경고"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율, FSD 84억 마일 데이터, Supercharger NACS 표준 장악, Terafab으로 AI 칩 내재화 추진",
+    "moats": [
+      {
+        "type": "데이터 해자",
+        "description": "FSD 84억 마일 실주행 데이터. 경쟁사가 단기간에 따라잡기 불가능한 규모의 자율주행 학습 데이터"
+      },
+      {
+        "type": "충전 인프라",
+        "description": "Supercharger 네트워크가 NACS 표준으로 채택. 포드, GM 등 경쟁사도 테슬라 충전 인프라 사용"
+      },
+      {
+        "type": "수직 통합",
+        "description": "배터리 셀, AI 칩(Terafab), 소프트웨어, 충전 인프라까지 수직 계열화. 원가 우위와 빠른 혁신 속도"
+      },
+      {
+        "type": "브랜드 파워",
+        "description": "EV 시장의 대명사. 높은 브랜드 인지도와 열성 팬층이 마케팅 비용 없이도 수요 창출"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "BYD",
+        "detail": "중국 시장 1위, 유럽에서 100%+ 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
+      },
+      {
+        "name": "Zoox (Amazon)",
+        "detail": "SF, 라스베가스에서 로보택시 확대 중. 오스틴, 마이애미 시범 운행도 시작. 직접적 로보택시 경쟁자"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "자율주행 상용화에서 테슬라 앞선 실적. 주당 20만+ 유료 탑승 달성. 로보택시 서비스 확대 중"
+      },
+      {
+        "name": "현대/기아",
+        "detail": "아이오닉, EV6 등으로 글로벌 EV 시장 점유율 확대. 가성비와 품질로 경쟁"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-29",
+      "headline": "'No Kings Day 3.0' 전세계 시위 지속, 테슬라 200건+ 시위 확인",
+      "significance": "3/28 'No Kings' 시위 이후 후속 보도가 이어지고 있다. The Guardian은 '시위 이후 다음 단계'를 다뤘고, Reuters는 소도시에서의 시위가 첫 번째 동원 대비 40% 늘었다고 보도. 테슬라 브랜드 훼손이 소도시까지 확산 중",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/no-kings-protest-next-steps-activism"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "'No Kings' 시위에 전세계 수백만명 참여, 테슬라 200건+ 타겟",
+      "significance": "전세계 수천 건의 시위에 수백만명이 참여. 머스크의 DOGE 정치 활동으로 테슬라가 직접 시위 대상이 되었으며 200건 이상의 반(反)테슬라 시위 진행",
+      "url": "https://www.cbsnews.com/news/no-kings-rallies-protest-trump-millions/"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "머스크, Twitter 재판 배심원 편향 조사 요청",
+      "significance": "Twitter 인수 소송에서 배심원이 $4.20으로 머스크를 조롱했다고 주장하며 편향 조사를 요청. 법적 리스크 지속",
+      "url": "https://meyka.com/blog/tsla-stock-today-march-28-musk-seeks-jury-bias-probe-in-twitter-case-2803/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "EV 시장 28% 급감 속 테슬라 시장점유율 50%+ 달성",
+      "significance": "전체 EV 시장이 급감하는 와중에도 테슬라는 점유율을 오히려 확대. 불황기에 강자가 더 강해지는 구조 증명",
+      "url": "https://insideevs.com/news/tesla-ev-market-share-rises-slump/"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "HSBC, 테슬라 목표가 $119로 추가 하향, '67% 추가 하락 가능' 경고",
+      "significance": "HSBC가 기존 $133에서 $119로 목표가를 추가 하향. Reduce 등급 유지. 현재가 대비 67% 하락 전망. Stifel $508과 극단적 대조",
+      "url": "https://www.tikr.com/blog/hsbc-warns-tesla-nasdaq-tsla-stock-could-plunge-70-as-analysts-cut-price-targets"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 407,
+    "highTarget": 600,
+    "lowTarget": 119,
+    "upsidePercent": 12.5,
+    "buyCount": 17,
+    "holdCount": 17,
+    "sellCount": 9,
+    "notableComment": "HSBC가 $133에서 $119로 목표가를 추가 하향하면서 최저 목표가가 더 낮아졌다. 반면 Stifel $508, Wedbush $600 유지. Morgan Stanley $415. 극단적 양극화 지속"
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "'No Kings' 시위 확산, 소도시까지 번지는 반테슬라 운동",
+      "description": "3/28 'No Kings Day 3.0' 시위 후 Reuters는 소도시 시위가 첫 동원 대비 40% 늘었다고 보도. 유럽 1월 등록 -17% 이미 확인됐고, 불매운동이 대도시를 넘어 소도시까지 확산되는 구조적 브랜드 위기"
+    },
+    {
+      "severity": "critical",
+      "title": "50일, 200일선 동시 이탈, 하락 추세 가속",
+      "description": "50일선($387)과 200일선($400) 모두 아래에서 거래 중. RSI 33으로 과매도 근접이나 추세 전환 신호 없음. 5거래일 연속 하락"
+    },
+    {
+      "severity": "critical",
+      "title": "극단적 밸류에이션 리스크",
+      "description": "TTM P/E 335x로 S&P 500 평균 23x의 14.5배. HSBC는 $119까지 추가 67% 하락을 전망. 성장 기대가 꺾이면 주가 급락 가능"
+    },
+    {
+      "severity": "high",
+      "title": "HSBC 목표가 $119로 추가 하향",
+      "description": "HSBC가 기존 $133에서 $119로 목표가를 재하향. FSD 상용화 불확실성과 핵심 자동차 사업 약화를 근거로 제시. 월스트리트 약세론의 선봉"
+    },
+    {
+      "severity": "high",
+      "title": "Q1 인도량 우려 심화",
+      "description": "컨센서스 365,645대로 Q4 대비 13% 감소. 유럽 불매, 시위 확산으로 실제 인도량이 컨센서스를 하회할 가능성"
+    },
+    {
+      "severity": "high",
+      "title": "FSD 규제 및 안전성 리스크",
+      "description": "NHTSA 조사 격상, 캘리포니아 로보택시 신청 거부. Trefis는 '1조 달러 AI 테제가 무너질 수 있다'고 경고"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "EV 시장 침체 속 점유율 확대, 경쟁 우위 입증",
+      "rationale": "EV 시장이 28% 급감하는 극한 환경에서도 테슬라 점유율은 50%+로 올라갔다. 불황일수록 강자가 더 강해지는 구조"
+    },
+    {
+      "title": "4월 카탈리스트 집중 (Cybercab, Roadster, 4/21 실적)",
+      "rationale": "Cybercab 양산, Roadster 공개, 네덜란드 FSD 승인, Q1 실적(4/21) 발표가 4월에 몰려 있어 단기 모멘텀 반전 가능성"
+    },
+    {
+      "title": "RSI 33, 기술적 과매도 구간 진입",
+      "rationale": "RSI가 30 과매도 기준선에 근접. 52주 고점 대비 -27% 할인. 단기 기술적 반등 가능성이 높아지는 구간"
+    },
+    {
+      "title": "SpaceX IPO + Optimus 로봇, 장기 가치 재평가 촉매",
+      "rationale": "SpaceX IPO 루머와 Optimus3 로봇 생산 시작이 테슬라의 장기 밸류에이션을 정당화하는 촉매로 작용 가능"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 51.8,
+    "sma50": 387,
+    "sma50Signal": "below",
+    "sma200": 400,
+    "sma200Signal": "below",
+    "rsi": 33,
+    "rsiSignal": "oversold"
+  },
+  "overallOpinion": [
+    "'No Kings' 시위가 소도시까지 번지고 있다. Reuters는 소도시 시위 참여가 첫 동원 대비 40% 늘었다고 보도했다. 대도시를 넘어 전국으로 확산되는 반테슬라 운동이 브랜드를 구조적으로 훼손하고 있다",
+    "HSBC가 목표가를 $133에서 $119로 추가 하향했다. 현재가 대비 67% 하락을 전망하면서 Stifel $508과 극단적 대조를 이룬다. 같은 회사를 놓고 가장 낙관적 전망과 비관적 전망의 차이가 5배",
+    "4월 카탈리스트가 3주 안에 집중돼 있다. Cybercab 양산, Roadster 공개, FSD 유럽 승인, 4/21 실적. EV 시장 -28% 속 점유율 50%+를 지킨 체력은 건재하다",
+    "$361.83, RSI 33 과매도. 50일선($387), 200일선($400) 모두 아래. 시위 확산이 Q1 인도량에 영향을 줄지가 4월 최대 변수. Hold, 4/21 실적 확인이 안전하다"
+  ],
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "RSI 33 과매도와 4월 카탈리스트 집중은 반등 근거지만, 시위가 소도시까지 확산되고 HSBC가 $119로 재하향한 것은 약세론이 강화되는 신호다. 유럽 -17% 등록 감소에 이어 시위 확산이 Q1 인도량에 추가 타격을 줄 수 있다. 4/21 실적을 확인하는 것이 합리적이다",
+    "horizon": "3-6개월"
+  },
+  "sources": [
+    {
+      "name": "The Guardian - 'No Kings' 시위 이후 다음 단계",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/no-kings-protest-next-steps-activism",
+      "description": "3/28 시위 이후 활동가들의 다음 행동 분석"
+    },
+    {
+      "name": "Reuters - No Kings 시위, 소도시 참여 40% 증가",
+      "url": "https://www.reuters.com/world/us/rallies-planned-thousands-us-cities-no-kings-protest-against-trump-2026-03-28/",
+      "description": "소도시 시위 참여 40% 증가, 전국 확산 보도"
+    },
+    {
+      "name": "TIKR - HSBC $119 목표가 하향",
+      "url": "https://www.tikr.com/blog/hsbc-warns-tesla-nasdaq-tsla-stock-could-plunge-70-as-analysts-cut-price-targets",
+      "description": "HSBC Reduce 등급, $133에서 $119로 목표가 추가 하향"
+    },
+    {
+      "name": "CNBC - HSBC 테슬라 70% 추가 하락 경고",
+      "url": "https://www.cnbc.com/2026/03/22/stock-market-today-live-updates.html",
+      "description": "HSBC $119 목표가, 67.6% 하락 전망"
+    },
+    {
+      "name": "Electrek - Q1 2026 인도량 컨센서스",
+      "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/",
+      "description": "23명 애널리스트 Q1 컨센서스 365,645대"
+    },
+    {
+      "name": "InsideEVs - EV 시장 28% 급감 속 테슬라 점유율 50%+",
+      "url": "https://insideevs.com/news/tesla-ev-market-share-rises-slump/",
+      "description": "테슬라가 EV 시장 침체 속에서도 점유율 확대"
+    },
+    {
+      "name": "MarketBeat - TSLA 애널리스트 컨센서스",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
+      "description": "컨센서스 목표가 $406.84"
+    },
+    {
+      "name": "Meyka - Musk Twitter 배심원 편향 조사 요청",
+      "url": "https://meyka.com/blog/tsla-stock-today-march-28-musk-seeks-jury-bias-probe-in-twitter-case-2803/",
+      "description": "머스크 법률팀 배심원 편향 조사 요청"
+    },
+    {
+      "name": "StockAnalysis - TSLA 통계",
+      "url": "https://stockanalysis.com/stocks/tsla/statistics/",
+      "description": "P/E, Forward PE, 이동평균선, RSI 등 핵심 지표"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "TSLA $362 | 시위가 소도시까지 번졌다, HSBC $119 재하향",
+      "text": "$TSLA $361.83\n\n'No Kings' 시위가 소도시까지 번졌다. Reuters: 소도시 참여 40% 증가. HSBC는 목표가를 $119로 또 내렸다. 현재가 대비 67% 하락 전망.\n\nRSI 33 과매도. YTD -20%\n\n1/4",
+      "thread": [
+        "같은 회사인데 Stifel은 $508, HSBC는 $119.\n차이가 5배다. 시장도 테슬라를 모른다.\n\n4월에 Cybercab, Roadster, FSD 유럽, 4/21 실적.\n3주 안에 방향이 결정된다\n\n2/4",
+        "시위가 대도시를 넘어 소도시까지 퍼졌다.\n유럽 등록 -17%가 이미 증명.\n\nQ1 인도량에 추가 타격이 올 수 있다.\nEV 시장 -28% 속 점유율 50%+는 경쟁력의 증거이지만\n\n3/4",
+        "50일($387), 200일($400) 모두 아래.\n컨센서스 $407(+12.5%).\n\nHold. 4/21 실적 확인이 안전하다\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "TSLA: 시위 소도시 확산 + HSBC $119, 4월이 분수령",
+      "text": "$TSLA $361.83, 시총 $1.16T, YTD -20%\n\n'No Kings' 시위가 소도시까지 번졌다. Reuters에 따르면 소도시 참여가 첫 동원 대비 40% 늘었다. HSBC는 목표가를 $119로 추가 하향했다.\n\nStifel $508 vs HSBC $119. 차이가 5배. 이 극단적 양극화가 지금 테슬라의 현주소다.\n\n4월 Cybercab, Roadster, FSD 유럽, 4/21 실적이 몰려 있다. EV 시장 -28% 속 점유율 50%+는 체력의 증거.\n\nRSI 33 과매도. Hold. 4/21 실적으로 방향이 결정된다."
+    },
+    "telegram": {
+      "hook": "TSLA 일일 분석 (3/30)",
+      "text": "Tesla $361.83 | 시총 $1.16T\nP/E 335x | Forward 174x | RSI 33\n\n핵심 변화\n- 'No Kings' 시위 소도시까지 확산 (Reuters: +40%)\n- HSBC 목표가 $133에서 $119로 재하향\n- Stifel $508 vs HSBC $119, 5배 차이\n\n호재\n- EV 시장 -28% 속 점유율 50%+\n- 4월: Cybercab, Roadster, FSD 유럽, 4/21 실적\n- RSI 33 과매도 구간\n\n리스크\n- 시위 전국 확산으로 Q1 인도량 추가 타격 우려\n- 유럽 등록 -17% 확인\n\n기술적: 50일($387), 200일($400) 아래\n목표가: $407 (+12.5%)\n판단: Hold, 4/21 실적 확인 후 대응"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "TSLA $362 | 시위가 소도시까지 번졌다, HSBC $119 재하향",
+          "text": "$TSLA $361.83\n\n'No Kings' 시위가 소도시까지 번졌다. Reuters: 소도시 참여 40% 증가. HSBC는 목표가를 $119로 또 내렸다. 현재가 대비 67% 하락 전망.\n\nRSI 33 과매도. YTD -20%\n\n1/4",
+          "thread": [
+            "같은 회사인데 Stifel은 $508, HSBC는 $119.\n차이가 5배다. 시장도 테슬라를 모른다.\n\n4월에 Cybercab, Roadster, FSD 유럽, 4/21 실적.\n3주 안에 방향이 결정된다\n\n2/4",
+            "시위가 대도시를 넘어 소도시까지 퍼졌다.\n유럽 등록 -17%가 이미 증명.\n\nQ1 인도량에 추가 타격이 올 수 있다.\nEV 시장 -28% 속 점유율 50%+는 경쟁력의 증거이지만\n\n3/4",
+            "50일($387), 200일($400) 모두 아래.\n컨센서스 $407(+12.5%).\n\nHold. 4/21 실적 확인이 안전하다\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Stifel $508, HSBC $119. 같은 회사 맞나요?",
+          "text": "$TSLA $361.83\n\nStifel: $508(+40%)\nHSBC: $119(-67%)\n\n같은 회사를 보고 있는 게 맞나 싶을 정도. 시위는 소도시까지 번졌고, 머스크는 법정에서 배심원 탓 중.\n\n1/4",
+          "thread": [
+            "EV 시장이 28% 폭락했는데 점유율 50%+.\n다 죽는데 혼자 살아남으면 실력이다.\n\n근데 가게 앞에 시위대가 서 있으면\n점유율이 무슨 소용인가\n\n2/4",
+            "'No Kings' 시위가 소도시까지 퍼졌다.\nReuters: 참여 +40%.\n\n불매운동이 문화가 되고 있다.\n이건 주가 차트로 안 보이는 리스크\n\n3/4",
+            "RSI 33 과매도. 4월에 카탈리스트 집중.\n\n하지만 $119와 $508 사이 어딘가에\n진실이 있다. 4/21이 답해줄 거다. Hold\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "TSLA 홀더들, 시위 뉴스에 HSBC 하향까지. 정말 힘드시죠",
+          "text": "$TSLA $361.83, YTD -20%\n\n시위가 소도시까지 번졌다는 뉴스, HSBC $119 하향까지. 테슬라 들고 계시면 뉴스 보기가 무서우실 거예요.\n\n하지만 회사 자체는 살아 있어요\n\n1/4",
+          "thread": [
+            "EV 시장 -28%인데 점유율 50%+.\n4월에 Cybercab, Roadster, 실적까지.\n\n시위와 카탈리스트가 동시에 쏟아지는\n극단적 구간이에요\n\n2/4",
+            "Stifel은 $508, HSBC는 $119.\n전문가도 갈린다면 우리가 답을 못 찾는 건\n당연한 거예요.\n\n3/4",
+            "RSI 33이면 매도 압력도 극에 달한 거예요.\n4/21 실적을 기다려보세요.\n\n조급한 결정보다 기다림이 나을 때가 있어요\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "TSLA: 시위 소도시 확산 + HSBC $119, 4월이 분수령",
+          "text": "$TSLA $361.83, 시총 $1.16T, YTD -20%\n\n'No Kings' 시위가 소도시까지 번졌다. Reuters: 소도시 참여 +40%. HSBC는 목표가를 $119로 추가 하향. Stifel $508과 5배 차이.\n\n4월 Cybercab, Roadster, FSD 유럽, 4/21 실적이 집중. EV -28% 속 점유율 50%+는 체력의 증거.\n\nRSI 33 과매도. Hold. 4/21 실적으로 방향이 결정된다."
+        },
+        "witty": {
+          "hook": "Stifel $508, HSBC $119. 테슬라는 5배짜리 논쟁이다",
+          "text": "$TSLA $361.83, YTD -20%\n\nStifel: $508. HSBC: $119. 같은 회사를 보고 있는 게 맞나 싶다. 이 5배 차이가 지금 테슬라의 현주소.\n\n시위가 소도시까지 번졌다. Reuters: +40%. 가게 앞에 시위대가 서면 점유율 50%+가 무슨 의미인가.\n\n하지만 4월에 Cybercab, Roadster, 실적이 몰려 있다. 두려움과 기대가 같은 달에 충돌한다.\n\nRSI 33. 4/21이 답해줄 거다. Hold."
+        },
+        "empathy": {
+          "hook": "TSLA 주주 여러분, 시위 확산에 HSBC 하향까지 정말 힘드시죠",
+          "text": "$TSLA $361.83, 고점 대비 -27%\n\n시위가 소도시까지 번졌다는 뉴스에 HSBC $119 하향까지. 테슬라 홀더 입장에서 정말 힘든 시기예요.\n\n하지만 EV 시장 -28% 속 점유율 50%+를 지킨 건 테슬라뿐이에요. 4월에 카탈리스트가 집중돼 있어요.\n\nStifel $508과 HSBC $119 사이에서 전문가도 갈리는 상황이에요. 4/21 실적을 기다려보세요.\n\nRSI 33. 기다림도 전략이에요."
+        }
+      }
+    }
+  }
+}

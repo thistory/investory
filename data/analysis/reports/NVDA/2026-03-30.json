@@ -1,0 +1,343 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-30",
+  "currentPrice": 167.46,
+  "marketCap": "$4.07T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 2027년까지 Blackwell과 Rubin 칩 누적 주문 1조 달러 전망을 제시하며 AI 추론 시장 공략을 본격화했다.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
+    ],
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "34.95x",
+      "interpretation": "반도체 섹터 평균 25x, S&P 500 평균 22x 대비 프리미엄이나 빠르게 축소 중. 65% 성장률 감안 시 PEG 0.54로 극단적 저평가 구간"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "20.64x",
+      "interpretation": "S&P 500 평균 약 21x보다 낮아졌다. 세계 1위 AI 기업의 Forward P/E가 시장 평균 이하로 하락한 것은 사상 처음"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$2,159억",
+      "interpretation": "전년 대비 +65% 성장. 데이터센터 매출이 80% 이상 차지. 순이익률 55.6%"
+    },
+    {
+      "name": "PEG Ratio",
+      "value": "0.54",
+      "interpretation": "PEG 1.0 이하는 성장 대비 저평가. 0.54는 극단적 저평가 신호. 고성장+저PEG 조합은 매우 드물다"
+    },
+    {
+      "name": "FCF (잉여현금흐름)",
+      "value": "$966.8억",
+      "interpretation": "연간 FCF $967B. P/FCF 42x. 현금 창출력이 압도적이며 $625.6B 현금 보유"
+    },
+    {
+      "name": "다음 실적발표",
+      "value": "2026년 5월 20일",
+      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 현황 확인 예정"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다' (3/28)",
+      "description": "GTC 이후에도 수학적으로 NVDA가 여전히 의미있게 저평가되어 있다고 분석. 시장이 펀더멘털을 무시하고 있다는 강력한 주장"
+    },
+    {
+      "title": "Forward P/E가 S&P 500 아래로 하락, 역사적 이상 현상 (3/27)",
+      "description": "Motley Fool이 NVDA의 Forward P/E가 S&P 500 평균(약 21x) 이하로 하락한 것은 전례 없는 이상 현상이라 보도. AI 리더 기업이 시장 평균보다 싸게 거래되는 것은 밸류에이션 재평가의 신호"
+    },
+    {
+      "title": "Wolfe Research: GTC가 60% 랠리 촉매 가능 (3/27)",
+      "description": "Wolfe Research가 매수 의견 유지, 목표가 $275. GTC 2026 발표 내용이 시장에 소화되면 60% 랠리를 촉발할 수 있다고 분석"
+    },
+    {
+      "title": "GTC 2026: Vera Rubin, NemoClaw 오픈소스 AI 에이전트 (3/25)",
+      "description": "GTC에서 Vera Rubin GPU, Vera CPU, NemoClaw 오픈소스 AI 에이전트 플랫폼 공개. 5계층 풀스택 AI 전략으로 소프트웨어 생태계 지배력 강화"
+    },
+    {
+      "title": "젠슨 황 'AGI 달성' 발언, $3T 매출 목표 (3/24)",
+      "description": "젠슨 황이 Lex Fridman 팟캐스트에서 'AGI를 달성했다'고 발언하며 $3T 매출 목표를 제시. $10T 밸류에이션 논쟁 촉발"
+    },
+    {
+      "title": "2027년까지 AI 칩 누적 주문 1조 달러",
+      "description": "Blackwell과 Vera Rubin 칩의 누적 주문이 2027년까지 최소 1조 달러에 달할 전망. 기존 $5,000억에서 2배 상향"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
+    "moats": [
+      {
+        "type": "생태계 락인",
+        "description": "CUDA 개발자 생태계는 500만명 이상. 경쟁사 전환 비용이 극히 높아 GPU 시장 지배력 유지"
+      },
+      {
+        "type": "수직통합",
+        "description": "GPU, CPU(Vera), 네트워킹(Spectrum-X), 소프트웨어(CUDA, NIM, NemoClaw)까지 풀스택 제공"
+      },
+      {
+        "type": "연간 아키텍처 로드맵",
+        "description": "Hopper, Blackwell, Vera Rubin으로 이어지는 연간 신제품 출시 사이클. 경쟁사 대비 2-3년 기술 격차"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY26 매출 $2,159억으로 반도체 업계 최대. R&D 투자 규모에서 경쟁사 압도"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X로 AI GPU 시장 진출했으나 소프트웨어 생태계와 규모에서 큰 격차. 데이터센터 AI 점유율 10% 미만"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩으로 내부 사용에 강점. 외부 시장 영향력은 제한적"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "AWS 내부 최적화 칩. 범용성에서 NVIDIA에 뒤처짐"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "커스텀 ASIC으로 대형 클라우드 업체에 공급. 범용 시장에서는 경쟁 불가"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-28",
+      "headline": "이사 Mark Stevens $3,850만 규모 주식 매도 (3/20 거래)",
+      "significance": "이사 Mark Stevens가 221,682주를 $173.68 평균가에 매도. 총 $3,850만 규모. 경영진 내부자 매도는 단기 신호로 주의 필요하나, 이사급 매도는 포트폴리오 관리 차원일 수 있음",
+      "url": "https://www.insidertrades.com/alerts/nasdaq-nvda-insider-buying-and-selling-2026-03-26/"
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다'",
+      "significance": "GTC 이후에도 수학적으로 NVDA가 여전히 저평가되어 있다고 분석. Forward P/E가 S&P 500 이하인 사상 처음의 이상 현상을 근거로 제시",
+      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "Motley Fool: NVDA Forward P/E가 S&P 500 아래로 하락, 전례 없는 이상 현상",
+      "significance": "세계 1위 AI 기업의 Forward P/E 20.64x가 S&P 500 평균(약 21x) 아래로 떨어진 것은 사상 처음. 밸류에이션 재평가 신호",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "Wolfe Research: NVDA 매수 유지, 목표가 $275, GTC가 60% 랠리 촉매 가능",
+      "significance": "GTC 발표 내용이 시장에 소화되면 현재가 대비 60% 이상 상승할 수 있다고 전망. 매수 의견 재확인",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "GTC 2026: Vera Rubin, Vera CPU, NemoClaw AI 에이전트 플랫폼 공개",
+      "significance": "차세대 GPU Vera Rubin과 자체 CPU, 오픈소스 AI 에이전트 플랫폼 NemoClaw 발표. 풀스택 AI 전략 완성",
+      "url": "https://nvidianews.nvidia.com/news/gtc-2026-keynote"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 276,
+    "highTarget": 360,
+    "lowTarget": 150,
+    "upsidePercent": 64.8,
+    "buyCount": 42,
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "42/45 매수, 매도 0. Wolfe Research: GTC 60% 랠리 촉매. Rosenblatt $325, Tigress $360 최고가. 이사 Mark Stevens $3,850만 주식 매도는 포트폴리오 관리 차원일 가능성"
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "50일선, 200일선 모두 하회하는 기술적 약세",
+      "description": "50일선($170.80)과 200일선($173.77) 아래에서 거래 중. 두 주요 이평선을 모두 하회하는 것은 2024년 이후 처음. 이사 내부자 매도 $3,850만도 기술적 부담 요인"
+    },
+    {
+      "severity": "high",
+      "title": "지정학 리스크와 매크로 환경 악화",
+      "description": "이란-이스라엘 전쟁 지속, 유가 급등, 나스닥 고점 대비 -16% 조정. GTC 이후에도 'Sell the News' 압력이 해소되지 않고 있다"
+    },
+    {
+      "severity": "high",
+      "title": "중국 수출 규제 지속과 밀수 사건 여파",
+      "description": "AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성. 연간 $150-200억 시장 기회 상실 우려"
+    },
+    {
+      "severity": "medium",
+      "title": "AI 버블 우려와 멀티플 압축",
+      "description": "52주 고점 대비 -21% 하락. DeepSeek 쇼크 이후 AI 인프라 투자 효율성 논란 지속"
+    },
+    {
+      "severity": "medium",
+      "title": "커스텀 ASIC 경쟁 심화",
+      "description": "Broadcom, Google TPU, Amazon Trainium 등 자체 칩 개발 가속화. 대형 클라우드 업체의 NVIDIA 의존도 낮추기 시도"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Forward P/E가 S&P 500 이하, 사상 최초의 이상 현상",
+      "rationale": "Forward P/E 20.64x가 S&P 500 평균(약 21x) 이하로 떨어졌다. 65% 성장하는 AI 리더가 시장 평균보다 싸게 거래되는 것은 전례가 없다. PEG 0.54는 극단적 저평가"
+    },
+    {
+      "title": "Motley Fool: '투자자들이 완전히 틀렸다'",
+      "rationale": "GTC 이후에도 수학적으로 저평가라는 분석. 시장이 매크로 공포에 빠져 펀더멘털을 무시하고 있다는 강력한 반론"
+    },
+    {
+      "title": "42/45 애널리스트 매수, 65% 상승 여력",
+      "rationale": "컨센서스 $276, 최고 $360. 매도 의견 0명은 펀더멘털에 대한 월스트리트의 확고한 신뢰"
+    },
+    {
+      "title": "1조 달러 주문 잔고와 실적 가시성",
+      "rationale": "Blackwell+Vera Rubin 누적 주문 1조 달러. 향후 2-3년 실적 가시성이 반도체 업계에서 가장 높다. 5/20 실적이 촉매제"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 64.4,
+    "sma50": 170.80,
+    "sma50Signal": "below",
+    "sma200": 173.77,
+    "sma200Signal": "below",
+    "rsi": 41,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Motley Fool이 '투자자들이 완전히 틀렸다'고 단언했고, Forward P/E 20.64x는 S&P 500 평균(21x)보다 여전히 낮다. PEG 0.54. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 이례적 상황이 지속 중이다",
+    "이사 Mark Stevens가 $3,850만 규모 주식을 매도한 것이 새로 확인됐다. 이사급 매도는 포트폴리오 관리일 수 있으나, 50일선과 200일선 하회 중인 기술적 약세 구간에서 내부자 매도는 심리적 부담",
+    "42/45 애널리스트 매수, 매도 0. Wolfe Research는 GTC 60% 랠리 촉매를 전망. 1조 달러 주문 잔고, 순이익률 55.6%. 펀더멘털은 의심의 여지가 없다",
+    "RSI 41. $167.46 마감. 매크로 악재(이란 전쟁, 유가, 시위)에 눌린 가격이지 회사 문제가 아니다. 5/20 실적을 바라보며 분할매수 유효. Buy"
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Forward P/E가 S&P 500 아래인 사상 최초 상황이 지속 중이다. PEG 0.54, 42/45 매수, 목표가 $276(+65%). 이사 내부자 매도 $3,850만이 새로 확인됐으나 포트폴리오 관리 차원으로 판단. 기술적 약세는 매크로에 의한 것이지 펀더멘털 훼손이 아니다. 분할매수 적기",
+    "horizon": "6-12개월"
+  },
+  "sources": [
+    {
+      "name": "InsiderTrades - Mark Stevens $3,850만 주식 매도",
+      "url": "https://www.insidertrades.com/alerts/nasdaq-nvda-insider-buying-and-selling-2026-03-26/",
+      "description": "이사 Mark Stevens 221,682주 매도, $173.68 평균가"
+    },
+    {
+      "name": "Motley Fool - '투자자들이 NVDA에 대해 완전히 틀렸다'",
+      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/",
+      "description": "GTC 이후 수학적 저평가 입증 분석"
+    },
+    {
+      "name": "Motley Fool - NVDA Forward P/E가 S&P 500 이하",
+      "url": "https://www.fool.com/investing/2026/03/27/nvidia-forward-pe-drops-below-sp-500/",
+      "description": "Forward P/E 20.64x S&P 500 이하 이례적 현상"
+    },
+    {
+      "name": "MarketBeat - NVDA 목표가 $275.95",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "42 Buy / 3 Hold / 0 Sell, Wolfe Research GTC 촉매"
+    },
+    {
+      "name": "WallStreetZen - NVDA 매출 $215.94B",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/nvda/revenue",
+      "description": "FY26 매출 $215.94B(+65.47% YoY)"
+    },
+    {
+      "name": "StockAnalysis - NVDA 통계",
+      "url": "https://stockanalysis.com/stocks/nvda/statistics/",
+      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54"
+    },
+    {
+      "name": "NVIDIA GTC 2026 키노트",
+      "url": "https://nvidianews.nvidia.com/news/gtc-2026-keynote",
+      "description": "Vera Rubin, Vera CPU, NemoClaw 발표"
+    },
+    {
+      "name": "TechCrunch - GTC 월스트리트 반응",
+      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "description": "GTC 이후 Sell the News 압력 분석"
+    },
+    {
+      "name": "Robinhood - NVDA 시세",
+      "url": "https://robinhood.com/us/en/stocks/NVDA/",
+      "description": "시총 $4.07T, 종가 $167.46(-2.21%)"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVDA $167 | Forward P/E가 S&P 500보다 싸다. 이사는 $3,850만 팔았다",
+      "text": "$NVDA $167.46(-2.21%)\n\nForward P/E 20.64x. S&P 500 평균 21x보다 싸다. 사상 처음.\n이사 Mark Stevens가 $3,850만 주식 매도.\n\nPEG 0.54. 65% 성장. 모순의 극치.\n\n1/4",
+      "thread": [
+        "Motley Fool: '투자자들이 완전히 틀렸다'.\n42/45 매수, 매도 0. 1조 달러 주문 잔고.\n\n시장만 빼고 모두 사라는 신호.\n내부자 매도는 포트폴리오 관리 차원일 수도\n\n2/4",
+        "이란 전쟁, 유가, No Kings 시위.\n매크로가 기술주 전체를 깔아뭉개는 중.\n\n엔비디아 실적은 1%도 안 변했다.\nGTC 발표 내용이 소화될 시간이 필요\n\n3/4",
+        "RSI 41. 목표가 $276(+65%). PEG 0.54.\n5/20 실적이 촉매.\n\n분할매수 적기. Buy.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVDA: Forward P/E S&P 500 이하 지속, 이사 $3,850만 매도에도 Buy 유지",
+      "text": "$NVDA $167.46(-2.21%), 시총 $4.07T\n\nForward P/E 20.64x가 S&P 500(21x)보다 여전히 낮다. PEG 0.54.\n이사 Mark Stevens가 $3,850만 주식을 매도했지만 포트폴리오 관리 차원일 가능성.\n\nMotley Fool: '투자자들이 완전히 틀렸다'. 42/45 매수, 1조 달러 주문 잔고.\n매크로 악재에 눌린 가격이지 회사 문제가 아니다.\n\nRSI 41. 분할매수 적기. Buy."
+    },
+    "telegram": {
+      "hook": "NVDA 일일 분석 (3/30)",
+      "text": "NVDA $167.46 (-2.21%) | 시총 $4.07T\nP/E 34.95x | Forward 20.64x (S&P 21x 이하!) | PEG 0.54 | RSI 41\n\n핵심 변화\n- 이사 Mark Stevens $3,850만 규모 주식 매도 확인\n- Motley Fool '투자자들이 완전히 틀렸다' 분석 지속\n\n핵심 이슈\n- 이란-이스라엘 전쟁, 유가 급등 매크로 압박\n- GTC 이후 Sell the News 지속\n\n강점\n- 42/45 Buy, 목표가 $276(+65%)\n- 1조 달러 주문 잔고\n- PEG 0.54 극단적 저평가\n\n판단: Buy. 내부자 매도는 포트폴리오 관리, 분할매수 유효"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $167 | Forward P/E가 S&P 500보다 싸다. 이사는 $3,850만 팔았다",
+          "text": "$NVDA $167.46(-2.21%)\n\nForward P/E 20.64x. S&P 500 평균 21x보다 싸다. 사상 처음.\n이사 Mark Stevens가 $3,850만 주식 매도.\n\nPEG 0.54. 65% 성장. 모순의 극치.\n\n1/4",
+          "thread": [
+            "Motley Fool: '투자자들이 완전히 틀렸다'.\n42/45 매수, 매도 0. 1조 달러 주문 잔고.\n\n시장만 빼고 모두 사라는 신호.\n내부자 매도는 포트폴리오 관리 차원일 수도\n\n2/4",
+            "이란 전쟁, 유가, No Kings 시위.\n매크로가 기술주 전체를 깔아뭉개는 중.\n\n엔비디아 실적은 1%도 안 변했다.\nGTC 발표 내용이 소화될 시간이 필요\n\n3/4",
+            "RSI 41. 목표가 $276(+65%). PEG 0.54.\n5/20 실적이 촉매.\n\n분할매수 적기. Buy.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "S&P 500보다 싼 AI 1위. 이사는 팔고 있다. 뭘 믿어야 하나",
+          "text": "$NVDA $167.46(-2.21%)\n\nForward P/E 20.64x < S&P 500(21x).\n이사 Stevens가 $3,850만 팔았다.\n\n시장보다 싼 가격에 내부자는 팔고,\n42/45 애널리스트는 사라고 한다.\n\n1/4",
+          "thread": [
+            "이사 매도? 포트폴리오 관리일 수도.\n42명이 Buy인데 이사 1명이 파는 게 문제인가.\n\nPEG 0.54. 이건 가치주도 부러워할 숫자.\n1조 달러 주문 잔고는 변함없다\n\n2/4",
+            "이란 전쟁, 유가, 시위.\n지구가 시끄러워서 기술주가 맞는 중.\n\n이건 엔비디아가 뭘 잘못한 게 아니라\n세상이 불안한 거다\n\n3/4",
+            "5/20 실적 보고 후회하기 전에.\n목표가 $276(+65%).\n\nBuy.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들, 내부자 매도까지 보이니 불안하시죠",
+          "text": "$NVDA $167.46(-2.21%)\n\n이사가 $3,850만 팔았다는 뉴스, 불안하시죠.\n하지만 Forward P/E가 S&P 500보다 낮아요.\n이건 비정상적인 할인이에요.\n\n1/4",
+          "thread": [
+            "이사 매도는 포트폴리오 관리일 가능성이 높아요.\n42/45 매수, 매도 0.\n\n전문가 42명이 사라고 하는데\n이사 1명의 매도가 방향을 바꾸진 않아요\n\n2/4",
+            "PEG 0.54. 이런 숫자는 흔치 않아요.\n매크로가 눌러놓은 가격이에요.\n\n5/20 실적까지 분할매수로 천천히\n\n3/4",
+            "목표가 $276(+65%).\n조급하지 않아도 돼요.\n\n장기로 보면 이 가격이 선물이에요. Buy\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA: Forward P/E S&P 500 이하 지속, 이사 $3,850만 매도에도 Buy",
+          "text": "$NVDA $167.46(-2.21%), 시총 $4.07T\n\nForward P/E 20.64x < S&P 500(21x). PEG 0.54. 이사 Mark Stevens $3,850만 매도는 포트폴리오 관리 가능성.\n\n42/45 매수, 1조 달러 잔고. 매크로가 눌러놓은 가격.\n\nRSI 41. 분할매수 적기. Buy."
+        },
+        "witty": {
+          "hook": "S&P 500보다 싼 AI 1위, 이사는 팔고 있다. 시장의 모순",
+          "text": "$NVDA $167.46(-2.21%)\n\nForward P/E 20.64x. S&P 500보다 싸다. 이사 Stevens는 $3,850만을 팔았다.\n\n42명이 Buy, 매도 0. 이사 1명이 판 게 42명의 분석을 뒤집나?\n\nPEG 0.54, 1조 달러 주문 잔고. 이란 전쟁과 유가가 문제지 엔비디아가 문제가 아니다.\n\n5/20에 후회하기 전에. Buy."
+        },
+        "empathy": {
+          "hook": "NVDA 투자자분들, 내부자 매도 뉴스에 흔들리셨을 거예요",
+          "text": "$NVDA $167.46(-2.21%), 고점 대비 -21%.\n\n이사가 $3,850만 팔았다는 뉴스, 불안하셨을 거예요. 하지만 포트폴리오 관리일 가능성이 높아요.\n\nForward P/E가 S&P 500 아래. PEG 0.54. 42/45 매수. 이 숫자들이 변하지 않았어요.\n\n매크로가 힘든 시기예요. 하지만 1조 달러 주문 잔고는 사라지지 않아요.\n\n5/20 실적까지 분할매수. Buy."
+        }
+      }
+    }
+  }
+}

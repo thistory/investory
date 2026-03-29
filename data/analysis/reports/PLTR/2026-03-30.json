@@ -1,0 +1,311 @@
+{
+  "symbol": "PLTR",
+  "companyName": "Palantir Technologies Inc.",
+  "analysisDate": "2026-03-30",
+  "currentPrice": 143.06,
+  "marketCap": "$342B",
+  "businessSummary": {
+    "oneLiner": "정부, 민간 AI 데이터 분석 플랫폼 리더, Gotham(국방), Foundry(기업), AIP(AI 플랫폼)의 3축 체제",
+    "description": "Palantir는 정부 및 기업용 AI 데이터 분석 플랫폼을 만드는 회사다. FY2025 매출 $4.48B(+60%). 미국 상업 매출 $650M 돌파(Q4 +137% YoY). Pentagon이 Maven AI를 공식 program of record로 채택해 미군 전체로 확대 적용 중이다. Golden Dome $185B 미사일 방어 프로젝트 소프트웨어 개발자로 선정. Polymarket과 AI 사기방지 파트너십 체결로 금융 서비스 영역 확대. 2026년 가이던스 매출 $7.19B~$7.41B(+60~65%).",
+    "howTheyMakeMoney": [
+      "정부 계약 (Gotham) - 국방/정보기관 AI 분석",
+      "기업 AI 플랫폼 (Foundry) - 대기업 데이터 통합",
+      "AIP (AI Platform) - 생성형 AI 통합 플랫폼",
+      "AIP 부트캠프 - 단기 도입 프로그램으로 고객 전환"
+    ],
+    "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "Vergence AI", "Ontology"]
+  },
+  "keyMetrics": [
+    {
+      "name": "Trailing P/E",
+      "value": "250x",
+      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 7.4배. Motley Fool은 '50x까지 내려오려면 이익이 5배 성장해야 한다'고 분석. 극단적 프리미엄"
+    },
+    {
+      "name": "Forward P/E (FY2026E)",
+      "value": "117x",
+      "interpretation": "FY2026 EPS 추정 $1.22 기준. 성장주 평균 30-40x 대비 여전히 3배"
+    },
+    {
+      "name": "매출 성장률 (FY2026E)",
+      "value": "+65% YoY",
+      "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. AI 방산 수요 확대로 성장 가속화"
+    },
+    {
+      "name": "P/S (매출 대비 주가)",
+      "value": "76x",
+      "interpretation": "소프트웨어 업종 평균 10-15x 대비 5-7배 프리미엄. 성장률 대비 여전히 고평가 영역"
+    },
+    {
+      "name": "시가총액",
+      "value": "$342B",
+      "interpretation": "52주 고점 $207 대비 -31% 하락. 광범위한 기술주 셀오프에 동반 하락"
+    },
+    {
+      "name": "RSI",
+      "value": "45",
+      "interpretation": "중립 구간. 과매도까지 여유 있으나 하락 추세에서 반등 모멘텀 약함"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Motley Fool: 'Palantir 블록버스터 한 주' 3대 핵심 발전 (3/29)",
+      "description": "Motley Fool이 Golden Dome, Maven 정식 채택, Polymarket 파트너십을 '블록버스터 한 주의 3대 핵심'으로 선정. 펀더멘털 강화 지속"
+    },
+    {
+      "title": "Polymarket AI 사기방지 파트너십 체결 (3/26)",
+      "description": "Palantir의 Vergence AI가 Polymarket의 거래 감시, 사용자 행동 모니터링을 실시간으로 수행. 금융 서비스 영역 확대의 시작점"
+    },
+    {
+      "title": "Golden Dome $185B 미사일 방어 소프트웨어 선정 (3/25)",
+      "description": "Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발. Motley Fool은 Phase 1만으로도 'many billions' 규모라고 평가"
+    },
+    {
+      "title": "체코 중앙은행 PLTR 매수 (3/26)",
+      "description": "체코 중앙은행이 24,730주를 신규 매수. 중앙은행의 AI 방산주 매수는 제도권 신뢰의 강력한 신호"
+    },
+    {
+      "title": "Bain & Company 글로벌 파트너십 확대 (3/26)",
+      "description": "Bain과 파트너십을 확대해 AIP, Foundry의 글로벌 도입을 촉진. 컨설팅 채널을 통한 기업 시장 침투 가속"
+    },
+    {
+      "title": "Maven AI 미군 전체 정식 채택 (Program of Record, 3/23)",
+      "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정. 미군 전 군에 장기 적용 확정"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "정부 국방 AI 20년 이상의 실적과 최고 수준 보안 클리어런스, Maven 미군 정식 채택, 이란 전쟁 실전 검증. 돈으로 살 수 없는 해자",
+    "moats": [
+      {"type": "전환 비용 (Switching Cost)", "description": "정부/군사 시스템에 깊이 통합된 Ontology 플랫폼. 한번 도입하면 교체 비용이 극도로 높음"},
+      {"type": "보안 인증 장벽", "description": "최고 수준 보안 클리어런스와 20년+ 정부 신뢰 관계. 신규 진입자가 동일 수준 획득하기 사실상 불가능"},
+      {"type": "네트워크 효과", "description": "AIP 부트캠프를 통한 빠른 고객 확보와 Ontology 데이터 모델의 생태계 확장"},
+      {"type": "실전 검증", "description": "이란 전쟁에서 수천 건의 타격에 실시간 활용. 실전 데이터가 곧 경쟁 우위"}
+    ],
+    "competitors": [
+      {"name": "Anduril Industries", "detail": "방산 AI/드론 신생 기업. Golden Dome에서 Palantir와 협력 관계. $60B 밸류에이션"},
+      {"name": "Snowflake / Databricks", "detail": "기업 데이터 플랫폼 경쟁. 정부/국방 접근성에서 Palantir에 크게 뒤처짐"},
+      {"name": "Microsoft / AWS", "detail": "클라우드 대기업의 정부 AI 진출. Ontology 만큼 깊은 통합은 어려움"},
+      {"name": "C3.ai", "detail": "기업용 AI 플랫폼. 매출 규모와 성장률 모두 Palantir에 크게 뒤처짐"}
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-29",
+      "headline": "Motley Fool: 'Palantir 블록버스터 한 주, 주주가 알아야 할 3가지'",
+      "significance": "Golden Dome, Maven, Polymarket을 '블록버스터' 3대 발전으로 선정. 동시에 다른 Motley Fool 기사는 '5년 후 주가가 지금과 비슷할 것'이라는 약세론도 제시. P/E 250x가 5배 이익 성장을 요구한다는 분석",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html"
+    },
+    {
+      "date": "2026-03-29",
+      "headline": "Motley Fool: '2030년 PLTR 주가는 지금과 비슷할 것'",
+      "significance": "P/E 250x에서 50x로 내려오려면 이익이 5배(+489%) 성장해야 한다. 매출 +65%가 매년 계속되도 밸류에이션 정상화에 5년 걸린다는 약세론",
+      "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/"
+    },
+    {
+      "date": "2026-03-27",
+      "headline": "PLTR -3% 하락 $143.06, 기술주 매도세 지속",
+      "significance": "3일 연속 하락. 50일선($149)과 200일선($169) 모두 아래. 주간 -5.1%",
+      "url": "https://stockanalysis.com/stocks/pltr/"
+    },
+    {
+      "date": "2026-03-26",
+      "headline": "Polymarket과 Vergence AI 사기방지 파트너십 체결",
+      "significance": "Palantir의 Vergence AI가 Polymarket의 실시간 거래 감시와 사기방지를 담당. 금융 서비스 영역으로의 확장 시작",
+      "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/"
+    },
+    {
+      "date": "2026-03-25",
+      "headline": "Golden Dome $185B 미사일 방어 소프트웨어 선정",
+      "significance": "Phase 1만으로 'many billions' 규모. FY2025 전체 매출($4.48B) 대비 큰 규모의 장기 방산 파이프라인",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 198.59,
+    "highTarget": 260,
+    "lowTarget": 50,
+    "upsidePercent": 38.8,
+    "buyCount": 17,
+    "holdCount": 14,
+    "sellCount": 5,
+    "notableComment": "MarketBeat 컨센서스 $199(+39%). Motley Fool은 블록버스터 한 주를 인정하면서도 '5년 후 같은 가격' 약세론을 동시에 제시. P/E 250x 정당화를 위해 이익 5배 성장이 필요하다는 분석"
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "극단적 밸류에이션, '5년 후 같은 가격' 약세론",
+      "description": "P/E 250x(IT 평균 34x의 7.4배). Motley Fool은 P/E를 50x로 낮추려면 이익이 489% 성장해야 한다고 분석. 매출 +65%가 매년 계속되도 밸류에이션 정상화에 5년 걸린다는 약세론"
+    },
+    {
+      "severity": "high",
+      "title": "50일선, 200일선 모두 아래 기술적 약세",
+      "description": "50일선($149), 200일선($169) 모두 아래. 3일 연속 하락, 주간 -5.1%. $126 지지선까지 열려 있다"
+    },
+    {
+      "severity": "high",
+      "title": "매크로 기술주 셀오프 리스크",
+      "description": "이란-이스라엘 전쟁, 유가 급등, No Kings 시위. 고밸류에이션 기술주에 가장 불리한 환경"
+    },
+    {
+      "severity": "medium",
+      "title": "애널리스트 의견 분열",
+      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션에 대한 시장의 회의론이 지속"
+    },
+    {
+      "severity": "medium",
+      "title": "주식 보상(SBC) 희석",
+      "description": "주식 수 연간 4.67% 증가. 지속적인 SBC로 기존 주주 가치 희석 우려"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "블록버스터 한 주: Golden Dome + Maven + Polymarket",
+      "rationale": "Golden Dome $185B(Phase 1만 'many billions'), Maven 미군 정식 채택, Polymarket AI 파트너십까지. 한 주에 3개 대형 발전이 동시에. 펀더멘털 역대 최강"
+    },
+    {
+      "title": "Polymarket 파트너십으로 금융 서비스 확장",
+      "rationale": "Vergence AI를 통한 Polymarket 사기방지는 시작에 불과. 금융 서비스 전반으로의 AI 감시 솔루션 확대 가능성"
+    },
+    {
+      "title": "고점 대비 -31% 할인",
+      "rationale": "52주 고점 $207에서 -31% 하락. 펀더멘털은 Golden Dome, Maven, Polymarket으로 역대 최강인데 가격은 하락"
+    },
+    {
+      "title": "Trefis 50%+ 급등 촉매 분석",
+      "rationale": "과거 대규모 랠리 패턴과 현재 촉매(Golden Dome, Maven, 상업 성장)가 유사하다는 분석. 반등 시 상승 폭이 클 수 있음"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 207.52,
+    "week52Low": 66.12,
+    "currentPositionPercent": 54.4,
+    "sma50": 148.62,
+    "sma50Signal": "below",
+    "sma200": 168.58,
+    "sma200Signal": "below",
+    "rsi": 45,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Motley Fool이 지난주를 '블록버스터 한 주'로 꼽았다. Golden Dome $185B, Maven 정식 채택, Polymarket 파트너십. 동시에 같은 매체가 '5년 후 지금과 같은 가격'이라는 약세론도 냈다. P/E 250x는 이익이 5배(+489%) 성장해야 정당화된다",
+    "Polymarket과의 Vergence AI 파트너십은 새로운 성장 축이다. 예측 시장 사기방지에서 시작해 금융 서비스 전반으로 확대될 수 있는 가능성. 국방을 넘어 민간 AI 적용의 구체적 사례",
+    "50일선($149)과 200일선($169) 모두 아래. 이란 전쟁과 시위가 고밸류 기술주를 압박하고 있다. 밸류에이션이 핵심 부담. P/S 76x는 소프트웨어 업종 평균의 5배",
+    "컨센서스 $199(+39%). 고점 -31%. 펀더멘털은 역대 최강이나 가격이 따라가려면 시간이 필요. Hold, 소액 분할매수만 유효"
+  ],
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "블록버스터 한 주(Golden Dome, Maven, Polymarket)로 펀더멘털은 역대 최강이나 P/E 250x는 이익 5배 성장을 요구한다. Motley Fool은 '5년 후 같은 가격'이라 분석. 매크로 역풍과 밸류에이션 부담이 동시에 작용. 소액 분할매수는 가능하나 적극 매수보다는 관망",
+    "horizon": "6-12개월"
+  },
+  "sources": [
+    {
+      "name": "Motley Fool - 'Palantir 블록버스터 한 주' 3대 발전",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html",
+      "description": "Golden Dome, Maven, Polymarket을 블록버스터 3대 핵심으로 선정"
+    },
+    {
+      "name": "Motley Fool - '2030년 PLTR 주가 예측'",
+      "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/",
+      "description": "P/E 250x 정당화를 위해 이익 489% 성장 필요. 5년 후 현재가 수준 전망"
+    },
+    {
+      "name": "Motley Fool - Polymarket AI 파트너십",
+      "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/",
+      "description": "Vergence AI 기반 Polymarket 사기방지 파트너십"
+    },
+    {
+      "name": "StockAnalysis - PLTR 통계",
+      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
+      "description": "P/E 250x, Forward PE 117x, RSI 45"
+    },
+    {
+      "name": "MarketBeat - PLTR 목표가 컨센서스",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/",
+      "description": "컨센서스 $198.59, 17 Buy, 14 Hold, 5 Sell"
+    },
+    {
+      "name": "Reuters - Golden Dome 소프트웨어",
+      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/",
+      "description": "$185B Golden Dome 미사일 방어 소프트웨어 선정"
+    },
+    {
+      "name": "American Banking News - 체코 중앙은행 매수",
+      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html",
+      "description": "체코 중앙은행 24,730주 신규 매수"
+    },
+    {
+      "name": "IndexBox - Palantir Polymarket AI 파트너십",
+      "url": "https://www.indexbox.io/blog/palantir-partners-with-polymarket-to-enhance-prediction-market-integrity-using-ai/",
+      "description": "Vergence AI 기반 실시간 거래 감시 파트너십"
+    },
+    {
+      "name": "Simply Wall St - PLTR 밸류에이션",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/assessing-palantir-technologies-pltr-valuation-after-strong-2",
+      "description": "단기 약세 속 장기 방산 성장 재확인"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "PLTR $143 | 블록버스터 한 주인데 '5년 후 같은 가격' 약세론",
+      "text": "$PLTR $143.06(-3%)\n\nMotley Fool이 지난주를 '블록버스터'로 꼽았다.\nGolden Dome, Maven, Polymarket.\n\n같은 매체가 '5년 후 같은 가격'이라고도 했다.\nP/E 250x. 이익 5배 성장이 필요.\n\n1/4",
+      "thread": [
+        "Polymarket 파트너십이 새 성장축.\nVergence AI로 사기방지. 금융 서비스 확대의 시작.\n\n체코 중앙은행도 매수. Bain 파트너십도.\n펀더멘털은 역대 최강\n\n2/4",
+        "P/E 250x(IT 평균 34x의 7.4배).\nP/S 76x(소프트웨어 평균의 5배).\n\n호재가 아무리 쌓여도\n밸류에이션이 막아선다\n\n3/4",
+        "컨센서스 $199(+39%). 고점 -31%.\n\nHold. 소액 분할매수만 유효.\n밸류에이션 정상화까지 시간이 필요\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "PLTR: '블록버스터 한 주'인데 '5년 후 같은 가격' 약세론이 공존",
+      "text": "$PLTR $143.06(-3%)\n\nMotley Fool이 지난주를 '블록버스터'로 꼽았다. Golden Dome, Maven, Polymarket.\n동시에 같은 매체가 '5년 후 같은 가격'이라는 약세론도 냈다. P/E 250x에서 50x로 가려면 이익이 5배 성장해야 한다.\n\nPolymarket Vergence AI 파트너십은 금융 서비스 확대의 시작. 체코 중앙은행 매수. 펀더멘털은 역대 최강.\n\n하지만 P/S 76x가 발목을 잡는다. 컨센서스 $199(+39%). Hold, 소액만."
+    },
+    "telegram": {
+      "hook": "PLTR 일일 분석 (3/30)",
+      "text": "Palantir $143.06 (-3%) | 시총 $342B\nP/E 250x | Forward 117x | P/S 76x | RSI 45\n\n핵심 변화\n- Motley Fool '블록버스터 한 주' 선정\n- Motley Fool '5년 후 같은 가격' 약세론도 동시 제시\n- Polymarket Vergence AI 파트너십 (금융 서비스 확대)\n\n호재\n- Golden Dome $185B + Maven + Polymarket\n- 체코 중앙은행 매수 + Bain 파트너십\n- 컨센서스 $199(+39%)\n\n리스크\n- P/E 250x, 이익 5배 성장 필요\n- 50일($149), 200일($169) 아래\n\n판단: Hold. 소액 분할매수만 유효"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "PLTR $143 | 블록버스터 한 주인데 '5년 후 같은 가격' 약세론",
+          "text": "$PLTR $143.06(-3%)\n\nMotley Fool이 지난주를 '블록버스터'로 꼽았다.\nGolden Dome, Maven, Polymarket.\n\n같은 매체가 '5년 후 같은 가격'이라고도 했다.\nP/E 250x. 이익 5배 성장이 필요.\n\n1/4",
+          "thread": [
+            "Polymarket 파트너십이 새 성장축.\nVergence AI로 사기방지. 금융 서비스 확대의 시작.\n\n체코 중앙은행도 매수. Bain 파트너십도.\n펀더멘털은 역대 최강\n\n2/4",
+            "P/E 250x(IT 평균 34x의 7.4배).\nP/S 76x(소프트웨어 평균의 5배).\n\n호재가 아무리 쌓여도\n밸류에이션이 막아선다\n\n3/4",
+            "컨센서스 $199(+39%). 고점 -31%.\n\nHold. 소액 분할매수만 유효.\n밸류에이션 정상화까지 시간이 필요\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "블록버스터 한 주 + '5년 후 같은 가격'. 같은 매체에서 나온 말이다",
+          "text": "$PLTR $143.06(-3%)\n\nMotley Fool: '블록버스터 한 주!'\n또 Motley Fool: '5년 후 같은 가격.'\n\n같은 매체가 같은 날 낸 기사다.\nP/E 250x가 만들어내는 모순.\n\n1/4",
+          "thread": [
+            "Golden Dome, Maven, Polymarket, 체코 중앙은행.\n호재 리스트가 끝이 없다.\n\n시장: 'P/E 250배인데요.'\n이 한마디 앞에 모든 게 무력화\n\n2/4",
+            "이익이 5배 성장해야 P/E 50배.\n+65%씩 매년 성장해도 5년 걸린다.\n\n주가가 안 오른다는 게 아니라\n따라잡기에 5년이 걸린다는 거다\n\n3/4",
+            "컨센서스 $199(+39%).\n\n확신 있으면 소액으로.\n없으면 구경이 정답. Hold.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "PLTR 홀더들, 호재가 쏟아지는데 주가가 빠지니 답답하시죠",
+          "text": "$PLTR $143.06(-3%), 고점 -31%\n\nGolden Dome, Maven, Polymarket.\n호재가 끊임없이 나오는데 주가는 빠져요.\n답답하시죠. 이해해요.\n\n1/4",
+          "thread": [
+            "Motley Fool도 '블록버스터 한 주'라고 인정했어요.\n하지만 P/E 250배가 시간을 요구하는 거예요.\n\n이익이 주가를 따라잡을 때까지\n인내가 필요한 구간\n\n2/4",
+            "Polymarket 파트너십, 체코 중앙은행 매수.\n회사는 계속 성장하고 있어요.\n\n매크로가 지나가면 펀더멘털이 빛날 거예요\n\n3/4",
+            "컨센서스 $199(+39%).\n소액으로 분할매수.\n\n장기가 답이에요\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "PLTR: '블록버스터 한 주' vs '5년 후 같은 가격'. 모순의 공존",
+          "text": "$PLTR $143.06(-3%)\n\nMotley Fool이 블록버스터 한 주를 인정하면서 동시에 '5년 후 같은 가격'이라는 약세론도 냈다. P/E 250x가 만들어내는 모순.\n\nGolden Dome, Maven, Polymarket Vergence AI. 펀더멘털 역대 최강.\n\nP/S 76x. 컨센서스 $199(+39%). 고점 -31%. Hold, 소액만."
+        },
+        "witty": {
+          "hook": "'블록버스터 한 주'인데 '5년 후 같은 가격'. 같은 매체에서",
+          "text": "$PLTR $143.06(-3%)\n\n블록버스터 한 주! (Motley Fool)\n5년 후 같은 가격! (역시 Motley Fool)\n\n같은 매체가 같은 날 낸 상반된 기사. P/E 250x가 만들어내는 Palantir의 정체성 위기.\n\nGolden Dome, Maven, Polymarket, 중앙은행. 호재가 차고 넘친다. 시장: 'P/E 250배.' 끝.\n\n이익이 5배 성장해야 정상화. 컨센서스 $199. Hold."
+        },
+        "empathy": {
+          "hook": "PLTR 주주 여러분, 호재만 나오는데 주가만 빠져서 답답하시죠",
+          "text": "$PLTR $143.06(-3%), 고점 -31%.\n\nGolden Dome, Maven, Polymarket. 호재가 쏟아지는데 주가는 빠져요. 정말 답답하시죠.\n\nMotley Fool도 '블록버스터'라고 인정했어요. 하지만 P/E 250배가 시간을 요구하는 구간이에요.\n\nPolymarket, 체코 중앙은행. 회사는 계속 전진 중. 이익이 주가를 따라잡을 거예요.\n\n컨센서스 $199(+39%). 소액 분할매수. 장기가 답입니다."
+        }
+      }
+    }
+  }
+}
