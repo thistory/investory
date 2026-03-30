@@ -6,9 +6,9 @@
   "marketCap": "$8.6B",
   "businessSummary": {
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
-    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/22 기준 4,660,903 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 $10.9B. MAVAN 스테이킹 플랫폼 론칭으로 연 $300M+ 매출 목표. ETH가 $2,000 선에서 등락하면서 NAV 변동성이 극대화된 상태.",
+    "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. 3/22 기준 4,660,903 ETH(총 공급량의 3.86%) 보유, 총 크립토+현금 $10.9B. MAVAN 스테이킹 플랫폼 론칭으로 연 $300M+ 매출 목표. ETH가 $2,000 선을 이탈하며 NAV 변동성이 극대화된 상태.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,660,903 ETH 보유 (~$9.3B at ~$2,004/ETH)",
+      "ETH 트레저리: 4,660,903 ETH 보유 (~$9.3B at ~$1,996/ETH)",
       "ETH 스테이킹 수익: 3,142,643 ETH 스테이킹, MAVAN 이관 후 연간 ~$300M 목표",
       "배당: 5.1% 배당수익률, 크립토 트레저리 기업 중 유일",
       "비트코인 보유: 196 BTC 보유 (부수적)"
@@ -23,8 +23,8 @@
   "keyMetrics": [
     {
       "name": "P/NAV",
-      "value": "0.83x (추정)",
-      "interpretation": "ETH $2,004 기준 NAV ~$10.3B 추정. 시총 $8.6B 대비 17% 할인. MSTR P/B 2-3x 대비 극단적 할인"
+      "value": "0.84x (추정)",
+      "interpretation": "ETH $1,996 기준 NAV ~$10.2B 추정. 시총 $8.6B 대비 16% 할인. MSTR P/B 2-3x 대비 극단적 할인"
     },
     {
       "name": "ETH 보유량",
@@ -33,8 +33,8 @@
     },
     {
       "name": "ETH 현재가",
-      "value": "~$2,004",
-      "interpretation": "$2,000 심리적 지지선 위로 소폭 회복. 유가 $100 돌파로 위험자산 전반 압력. 크립토도 안전지대가 아님"
+      "value": "~$1,996 ($2,000 이탈)",
+      "interpretation": "$2,000 심리적 지지선 이탈. CoinMarketCap 기준 $1,996.48. 유가 $100 돌파로 위험자산 매도세 확산 중"
     },
     {
       "name": "배당수익률",
@@ -108,8 +108,14 @@
   "recentNews": [
     {
       "date": "2026-03-30",
+      "headline": "ETH $2,000 이탈, CoinMarketCap 기준 $1,996. 심리적 지지선 붕괴",
+      "significance": "ETH가 $2,000 아래로 떨어졌다. CoinMarketCap 기준 $1,996.48. The Block 기준 4,660,903 ETH 보유 가치 $9.3B. 포트폴리오 88%가 ETH인 BMNR에게 직접적 타격. 기술적으로 $1,750까지 열려 있다",
+      "url": "https://coinmarketcap.com/currencies/ethereum/"
+    },
+    {
+      "date": "2026-03-30",
       "headline": "유가 WTI $100 돌파, 후티 참전으로 위험자산 전반 압력 가중",
-      "significance": "전쟁 확대와 유가 급등으로 위험자산 매도세 확대. 크립토도 예외가 아니며 ETH $2,000 공방전이 더 어려워질 수 있다",
+      "significance": "전쟁 확대와 유가 급등으로 위험자산 매도세 확대. 크립토도 예외가 아니며 ETH $2,000 이탈의 직접적 원인",
       "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"
     },
     {
@@ -129,12 +135,6 @@
       "headline": "B. Riley 목표가 상향, Strong Buy $34.50",
       "significance": "MAVAN 론칭 이후 B. Riley가 목표가를 $34.50으로 상향. 현재가 대비 +87.6% 상승 여력",
       "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/"
-    },
-    {
-      "date": "2026-03-25",
-      "headline": "MAVAN 정식 론칭, 3.14M ETH 자체 스테이킹 시작",
-      "significance": "Coinbase에서 자체 MAVAN으로 이관. 미국 내 기관급 이더리움 스테이킹 플랫폼 출범",
-      "url": "https://www.stocktitan.net/news/BMNR/bitmine-immersion-technologies-bmnr-announces-launch-of-mavan-made-f2jf4rl8rxac.html"
     }
   ],
   "analystOpinions": {
@@ -145,18 +145,18 @@
     "buyCount": 1,
     "holdCount": 0,
     "sellCount": 0,
-    "notableComment": "B. Riley Strong Buy, 목표가 $34.50 유지. 주가 $18.39에서 상승 여력 87.6%. 다만 커버리지 애널리스트가 극소수라 신뢰도 제한적. 유가 $100 돌파로 위험자산 환경 악화가 추가 변수"
+    "notableComment": "B. Riley Strong Buy, 목표가 $34.50 유지. ETH $2,000 이탈로 NAV가 더 줄어들 수 있으나, 커버리지 애널리스트 극소수로 신뢰도 제한적"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "유가 $100 돌파, 위험자산 전반 매도세 심화",
-      "description": "후티 참전으로 유가가 추가 상승 중. 위험자산 매도세가 크립토까지 확산되면 ETH $2,000 이탈 가능성이 높아진다. BMNR 포트폴리오 88%가 ETH인 만큼 직접적 타격"
+      "title": "ETH $2,000 지지선 이탈, $1,996으로 하락",
+      "description": "ETH가 $2,000 심리적 지지선을 이탈했다. CoinMarketCap $1,996.48. 포트폴리오 88%가 ETH인 BMNR에게 NAV 직접 타격. 기술적으로 $1,750까지 열려 있다는 분석"
     },
     {
       "severity": "critical",
-      "title": "ETH $2,000 지지선 불안정, 추가 하락 위기",
-      "description": "ETH가 $2,004로 소폭 회복했지만 $2,000 선을 오르내리는 공방전 진행 중. 기술적으로 $1,750까지 열려 있다는 분석. 유가 급등이 위험자산 이탈을 가속할 수 있다"
+      "title": "유가 $100 돌파, 위험자산 전반 매도세 심화",
+      "description": "후티 참전으로 유가가 추가 상승 중. 위험자산 매도세가 크립토까지 확산. ETH $2,000 이탈의 직접적 원인"
     },
     {
       "severity": "critical",
@@ -176,8 +176,8 @@
   ],
   "buyReasons": [
     {
-      "title": "NAV 대비 17% 할인, 자산가치보다 싸다",
-      "rationale": "ETH $2,004 기준 NAV ~$10.3B 대비 시총 $8.6B로 17% 할인. MSTR P/B 2-3x와 비교하면 극단적 할인. 다만 ETH 추가 하락 시 할인 축소 가능"
+      "title": "NAV 대비 16% 할인, 자산가치보다 싸다",
+      "rationale": "ETH $1,996 기준 NAV ~$10.2B 대비 시총 $8.6B로 16% 할인. MSTR P/B 2-3x와 비교하면 극단적 할인. 다만 ETH 추가 하락 시 할인 축소 가능"
     },
     {
       "title": "B. Riley Strong Buy, 목표가 $34.50(+87.6%)",
@@ -204,17 +204,26 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "후티 반군의 이스라엘 미사일 공격으로 이란 전쟁이 확대되고, 유가가 WTI $100을 돌파했다. 위험자산 매도세가 크립토까지 번지면 ETH $2,000 공방전은 더 어려워진다. 포트폴리오 88%가 ETH인 BMNR에게는 생존 게임이 계속된다",
-    "ETH $2,004로 $2,000 위에 간신히 버티고 있지만, 유가 급등과 전쟁 확대가 위험자산 이탈을 가속할 수 있다. Fear Index 12(극단적 공포). $20 지지선 붕괴 후 다음 지지선은 $15",
-    "B. Riley Strong Buy $34.50(+87.6%), MAVAN 연 $300M 매출, 배당 5.1%는 여전히 유효. NAV 대비 17% 할인. 펀더멘털은 갖춰져 있지만 ETH 가격이 전부를 결정한다",
-    "매크로가 악화되고 있다. ETH $2,000 위 안착이 확인될 때까지 신규 매수는 자제. 기존 포지션만 유지. Hold"
+    "ETH가 $2,000 지지선을 이탈했다. CoinMarketCap 기준 $1,996.48. 후티 참전과 유가 $100 돌파로 위험자산 매도세가 크립토까지 번졌다. 포트폴리오 88%가 ETH인 BMNR에게 이 이탈은 단순한 숫자가 아니라 심리적 방어선의 붕괴다",
+    "B. Riley Strong Buy $34.50(+87.6%), MAVAN 연 $300M 매출, 배당 5.1%, NAV 16% 할인은 여전히 유효하다. 하지만 ETH $2,000 아래에서는 모든 호재가 무력화된다. The Block 기준 보유 가치 $9.66B, ETH $1,750 시나리오에서는 $8.2B까지 축소",
+    "Fear Index 12(극단적 공포). $20 지지선 붕괴 후 다음 지지 $15. ETH가 $2,000 위로 돌아올 때까지 신규 매수는 위험하다. 기존 포지션만 유지하고 관망이 답이다. Hold"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "유가 $100 돌파와 후티 참전으로 매크로 리스크가 한 단계 올라갔다. ETH $2,000 공방전이 더 어려워질 수 있는 환경. B. Riley $34.50과 MAVAN $300M은 유효하나, 위험자산 매도세 속에서 ETH 방향이 먼저 결정되어야 한다. 기존 포지션 유지, 신규 매수는 ETH $2,000 안착 확인 후",
+    "summary": "ETH $2,000 이탈은 BMNR의 핵심 지지선이 무너진 것이다. 유가 $100과 후티 참전으로 위험자산 환경이 한층 악화. B. Riley $34.50과 MAVAN $300M은 유효하나, ETH 방향이 먼저 결정되어야 한다. ETH $2,000 위 회복 확인 전까지 기존 포지션 유지, 신규 매수 자제",
     "horizon": "3-6개월 (ETH 회복 전제)"
   },
   "sources": [
+    {
+      "name": "CoinMarketCap - ETH $1,996.48",
+      "url": "https://coinmarketcap.com/currencies/ethereum/",
+      "description": "ETH $2,000 이탈, $1,996.48 실시간 가격"
+    },
+    {
+      "name": "The Block - BMNR ETH 보유 현황",
+      "url": "https://www.theblock.co/treasuries/bmnr",
+      "description": "4,660,903 ETH 보유, 가치 $9.66B (3/30 기준)"
+    },
     {
       "name": "CNBC - 후티 미사일, 유가 추가 상승",
       "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
@@ -224,11 +233,6 @@
       "name": "Simply Wall St - BMNR 주가 재고려 분석",
       "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/is-it-time-to-reconsider-bitmine-immersion-technologies-bmnr",
       "description": "$18.39에서 BMNR 밸류에이션 분석"
-    },
-    {
-      "name": "Changelly - ETH 가격 예측",
-      "url": "https://changelly.com/blog/ethereum-eth-price-predictions/",
-      "description": "ETH $2,003.85 현재가, 3/31 $2,056 전망"
     },
     {
       "name": "BeInCrypto - BMNR $300M 스테이킹 분석",
@@ -246,76 +250,71 @@
       "description": "MAVAN 3.14M ETH 자체 스테이킹 론칭"
     },
     {
-      "name": "PRNewswire - BMNR 4.661M ETH 보유 발표",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-661-million-tokens-and-total-crypto-and-total-cash-holdings-of-11-0-billion-302721764.html",
-      "description": "일일 거래대금 $1.2B, 미국 101번째 거래량"
-    },
-    {
-      "name": "EdaFace - ETH $2,000 등락 분석",
-      "url": "https://news.edaface.com/2026/03/29/ethereum-price-fluctuates-around-the-critical-2000-level/",
-      "description": "ETH $2,000 부근 기술적 분석, 매도 압력 지속"
+      "name": "MEXC Blog - BMNR 2026 투자 분석",
+      "url": "https://blog.mexc.com/finance/bmnr-stock-price-bitmine-buy-avoid-2026/",
+      "description": "목표가 $34.50, 62% 상승 여력 분석"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "BMNR $18.39 | 유가 $100, 후티 참전. ETH $2,000 사수전이 더 힘들어졌다",
-      "text": "$BMNR $18.39(-5.55%)\n\n유가 WTI $100 돌파. 후티 반군이 참전했다.\n위험자산 매도세가 크립토까지 올 수 있다.\nETH $2,004. $2,000 사수전이 더 어려워졌다.\n\n1/4",
+      "hook": "BMNR $18.39 | ETH $2,000 이탈. $1,996. 심리적 방어선이 무너졌다",
+      "text": "$BMNR $18.39(-5.55%)\n\nETH $2,000 이탈. CoinMarketCap $1,996.\n포트폴리오 88%가 ETH.\n심리적 방어선이 무너졌다.\n\n1/4",
       "thread": [
-        "NAV 대비 17% 할인. B. Riley $34.50(+87.6%).\nMAVAN $300M. 배당 5.1%.\n펀더멘털은 갖추고 있다.\n\n2/4",
-        "하지만 Fear Index 12(극단적 공포).\n$20 지지선 붕괴. ETH $1,750까지 열려 있다.\n전쟁 확대가 상황을 악화시킬 수 있다.\n\n3/4",
-        "ETH $2,000 안착 확인 전까지 관망.\n기존 포지션만 유지. 신규 매수 자제.\nHold.\n\n4/4"
+        "유가 $100, 후티 참전.\n위험자산 매도세가 크립토까지 번졌다.\nFear Index 12. 극단적 공포.\n\n2/4",
+        "B. Riley $34.50(+87.6%). MAVAN $300M.\n배당 5.1%. NAV 16% 할인.\n호재는 있지만 ETH가 답을 줘야 한다.\n\n3/4",
+        "ETH $2,000 위 안착 확인 전까지 관망.\n기존 포지션만 유지. Hold.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR: 유가 $100, 후티 참전으로 ETH $2,000 사수전이 더 힘들어졌다",
-      "text": "$BMNR $18.39(-5.55%)\n\n유가 WTI $100 돌파에 후티까지 참전. 위험자산 매도세가 크립토까지 번질 수 있다. ETH $2,004, $2,000 위에 간신히 버티는 중.\n\nNAV 17% 할인. B. Riley $34.50(+87.6%). MAVAN $300M. 배당 5.1%. 펀더멘털은 있지만 ETH가 전부를 결정.\n\nFear Index 12. Hold. ETH 안착 확인 후."
+      "hook": "BMNR: ETH $2,000 이탈. 심리적 지지선이 무너졌다",
+      "text": "$BMNR $18.39(-5.55%)\n\nETH가 $2,000 아래로 떨어졌다. $1,996. 유가 $100, 후티 참전으로 위험자산 매도세가 크립토까지.\n\nB. Riley $34.50(+87.6%). MAVAN $300M. 배당 5.1%. 호재는 있지만 ETH가 전부를 결정한다.\n\nFear Index 12. Hold. ETH 안착 확인 후."
     },
     "telegram": {
       "hook": "BMNR 일일 분석 (3/30)",
-      "text": "BMNR $18.39 (-5.55%) | 시총 $8.6B | 배당 5.1%\nETH $2,004 | 판단: Hold\n\n매크로 변화\n- WTI 유가 $100 돌파, 후티 이스라엘 공격\n- 위험자산 매도세 크립토까지 확산 우려\n\n핵심 상황\n- ETH $2,000 공방전 지속\n- $20 지지선 붕괴, Fear Index 12\n\n호재\n- B. Riley $34.50(+87.6%) Strong Buy\n- MAVAN 연 $300M 매출 전환 중\n- NAV 대비 17% 할인\n\n리스크\n- 전쟁 확대로 위험자산 이탈 가속\n- ETH $1,750까지 열려 있음\n\n판단: Hold. ETH $2,000 안착 확인 전 신규 매수 자제"
+      "text": "BMNR $18.39 (-5.55%) | 시총 $8.6B | 배당 5.1%\nETH $1,996 ($2,000 이탈!) | 판단: Hold\n\n핵심 변화\n- ETH $2,000 지지선 이탈 ($1,996)\n- 유가 $100, 후티 참전으로 위험자산 매도\n\n상황\n- Fear Index 12 (극단적 공포)\n- $20 지지선 완전 붕괴\n\n호재\n- B. Riley $34.50(+87.6%) Strong Buy\n- MAVAN 연 $300M 매출 전환 중\n- NAV 대비 16% 할인\n\n리스크\n- ETH $1,750까지 열려 있음\n- 전쟁 확대로 위험자산 이탈 가속\n\n판단: Hold. ETH $2,000 안착 확인 전 신규 매수 자제"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR $18.39 | 유가 $100, 후티 참전. ETH $2,000 사수전이 더 힘들어졌다",
-          "text": "$BMNR $18.39(-5.55%)\n\n유가 WTI $100 돌파. 후티 반군이 참전했다.\n위험자산 매도세가 크립토까지 올 수 있다.\nETH $2,004. $2,000 사수전이 더 어려워졌다.\n\n1/4",
+          "hook": "BMNR $18.39 | ETH $2,000 이탈. $1,996. 심리적 방어선이 무너졌다",
+          "text": "$BMNR $18.39(-5.55%)\n\nETH $2,000 이탈. CoinMarketCap $1,996.\n포트폴리오 88%가 ETH.\n심리적 방어선이 무너졌다.\n\n1/4",
           "thread": [
-            "NAV 대비 17% 할인. B. Riley $34.50(+87.6%).\nMAVAN $300M. 배당 5.1%.\n펀더멘털은 갖추고 있다.\n\n2/4",
-            "하지만 Fear Index 12(극단적 공포).\n$20 지지선 붕괴. ETH $1,750까지 열려 있다.\n전쟁 확대가 상황을 악화시킬 수 있다.\n\n3/4",
-            "ETH $2,000 안착 확인 전까지 관망.\n기존 포지션만 유지. 신규 매수 자제.\nHold.\n\n4/4"
+            "유가 $100, 후티 참전.\n위험자산 매도세가 크립토까지 번졌다.\nFear Index 12. 극단적 공포.\n\n2/4",
+            "B. Riley $34.50(+87.6%). MAVAN $300M.\n배당 5.1%. NAV 16% 할인.\n호재는 있지만 ETH가 답을 줘야 한다.\n\n3/4",
+            "ETH $2,000 위 안착 확인 전까지 관망.\n기존 포지션만 유지. Hold.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "유가 $100인데 ETH는 $2,000 간신히. BMNR의 운명은 ETH에 달렸다",
-          "text": "$BMNR $18.39(-5.55%)\n\n유가 $100. 후티까지 참전.\n석유가 비싸지니 다 올라야 하는데\nETH만 $2,000에서 버둥거린다.\n\n1/4",
+          "hook": "ETH $2,000 '이탈 금지' 외치던 사람들, $1,996. 어떡하죠",
+          "text": "$BMNR $18.39(-5.55%)\n\nETH $1,996. $2,000 뚫렸다.\n'사수한다'는 말이 무색하다.\n\n후티까지 참전해서 유가 $100.\n크립토도 안전지대가 아니었다.\n\n1/4",
           "thread": [
-            "Tom Lee: 겨울 거의 끝났다.\nFear Index: 12. 극단적 공포.\n\n겨울이 끝났다는데 온도계는 영하.\n후티까지 와서 추워졌다.\n\n2/4",
-            "B. Riley $34.50(+87.6%). MAVAN $300M.\n배당 5.1%. NAV 17% 할인.\n\n다 좋은데 ETH가 $2,000 못 지키면\n숫자가 의미 없다.\n\n3/4",
-            "ETH가 답해줄 때까지. Hold.\n\n4/4"
+            "Tom Lee: 겨울 거의 끝났다.\nFear Index: 12.\n\n겨울이 끝났다는데\n$2,000도 못 지켰다.\n\n2/4",
+            "B. Riley $34.50. MAVAN $300M. 배당 5.1%.\n다 좋은 이야기인데\nETH가 $1,996이면 의미가 없다.\n\n3/4",
+            "ETH가 올라올 때까지 기다리자.\nHold.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR 홀더들, 전쟁 확대에 ETH 불안까지. 정말 힘든 시기예요",
-          "text": "$BMNR $18.39(-5.55%)\n\n유가 $100 돌파에 후티까지 참전했어요.\nETH $2,000이 불안한데 전쟁까지.\n힘든 게 당연해요.\n\n1/4",
+          "hook": "BMNR 홀더들, ETH $2,000 이탈 보면서 마음이 아프시죠",
+          "text": "$BMNR $18.39(-5.55%)\n\nETH $1,996. $2,000이 뚫렸어요.\n마음이 무거운 게 당연해요.\n\n1/4",
           "thread": [
-            "NAV 17% 할인, B. Riley $34.50.\nMAVAN, 배당 5.1%.\n회사의 방향은 바뀌지 않았어요.\n\n2/4",
-            "Fear Index 12. 극단적 공포예요.\n이런 때 조급하면 안 돼요.\n전쟁이 지나가면 회복할 거예요.\n\n3/4",
-            "ETH $2,000 안착 확인 후 판단.\nHold. 기다림이 답이에요.\n\n4/4"
+            "유가 $100, 후티 참전.\n전쟁이 커지니 모든 게 불안해요.\nFear Index 12. 다들 무서워하고 있어요.\n\n2/4",
+            "하지만 회사는 변하지 않았어요.\nB. Riley $34.50. MAVAN $300M.\n배당 5.1%로 기다리는 게 가능해요.\n\n3/4",
+            "ETH는 언젠가 $2,000 위로 돌아올 거예요.\n그때까지 Hold. 조급하지 마세요.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR: 유가 $100, 후티 참전. ETH $2,000 사수 더 어려워졌다",
-          "text": "$BMNR $18.39(-5.55%)\n\n유가 $100 돌파, 후티 참전. 위험자산 매도세 확산 우려. ETH $2,004.\n\nNAV 17% 할인. B. Riley $34.50(+87.6%). MAVAN $300M. 배당 5.1%.\n\nFear Index 12. Hold. ETH 안착 확인 후."
+          "hook": "BMNR: ETH $2,000 이탈. $1,996. 방어선 붕괴",
+          "text": "$BMNR $18.39(-5.55%)\n\nETH $1,996, $2,000 이탈. 유가 $100, 후티 참전.\n\nB. Riley $34.50(+87.6%). MAVAN $300M. 배당 5.1%.\n\nFear Index 12. Hold. ETH 안착 확인 후."
         },
         "witty": {
-          "hook": "유가는 $100 넘었는데 ETH는 $2,000 간신히. 이게 크립토다",
-          "text": "$BMNR $18.39(-5.55%)\n\n유가 $100. 후티 참전. 석유 오르니 다 오를 법한데 ETH만 $2,000에서 기어다닌다.\n\nTom Lee 겨울 끝났다 하지만 Fear Index 12. 후티가 와서 더 추워졌다.\n\nB. Riley $34.50, MAVAN $300M, 배당 5.1%. 다 좋지만 ETH가 먼저. Hold."
+          "hook": "ETH $2,000 사수? $1,996. 세상엔 못 지키는 약속이 있다",
+          "text": "$BMNR $18.39(-5.55%)\n\nETH $1,996. $2,000이 뚫렸다. 후티까지 와서 유가 $100. 크립토도 피할 수 없었다.\n\nTom Lee 겨울 끝났다는데 Fear Index 12. B. Riley $34.50, MAVAN $300M, 배당 5.1%. 다 좋지만 ETH가 먼저.\n\nHold. ETH가 답해줄 때까지."
         },
         "empathy": {
-          "hook": "BMNR 홀더 여러분, 전쟁 확대까지 겹쳐서 정말 힘드시죠",
-          "text": "$BMNR $18.39(-5.55%). ETH $2,004.\n\n유가 $100에 후티 참전. 전쟁이 커지니 불안하시죠. ETH $2,000이 흔들리면 BMNR도 흔들리니까요.\n\n하지만 NAV 17% 할인, B. Riley $34.50, MAVAN $300M. 회사는 바뀌지 않았어요.\n\nFear Index 12. 조급하면 안 돼요. Hold."
+          "hook": "BMNR 홀더 여러분, ETH $2,000 이탈은 정말 아프시죠",
+          "text": "$BMNR $18.39(-5.55%). ETH $1,996.\n\n$2,000이 뚫리면 마음이 무거우시죠. 유가 $100에 전쟁까지.\n\n하지만 B. Riley $34.50, MAVAN $300M, 배당 5.1%. 회사는 변하지 않았어요.\n\nFear Index 12. 조급하면 안 돼요. Hold."
         }
       }
     }
