@@ -5,120 +5,53 @@
   "currentPrice": 143.06,
   "marketCap": "$342B",
   "businessSummary": {
-    "oneLiner": "Government and enterprise AI data analytics leader with Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue $4.48B (+60%). US commercial revenue surpassed $650M (Q4 +137% YoY). Pentagon designated Maven AI as official program of record for full military adoption. Selected for Golden Dome $185B missile defense software. Polymarket AI fraud prevention partnership expands into financial services. FY2026 guidance: $7.19B-$7.41B (+60-65%).",
+    "oneLiner": "Government and enterprise AI data analytics platform leader, operating across Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue $4.48B (+60%). US commercial revenue exceeded $650M (Q4 +137% YoY). Pentagon adopted Maven AI as official program of record for military-wide deployment. Selected for Golden Dome $185B missile defense software. CNBC reports Palantir tools are already in active use in the Iran war. FY2026 guidance: $7.19B-$7.41B revenue (+60-65%).",
     "howTheyMakeMoney": [
       "Government contracts (Gotham) - Defense/intelligence AI analytics",
       "Enterprise AI platform (Foundry) - Large enterprise data integration",
       "AIP (AI Platform) - Generative AI integration platform",
-      "AIP Bootcamps - Short-term adoption programs driving customer conversion"
+      "AIP Boot Camps - Rapid customer onboarding programs"
     ],
     "keyProducts": ["Gotham", "Foundry", "AIP", "Maven Smart System", "ShipOS", "Vergence AI", "Ontology"]
   },
   "keyMetrics": [
-    {
-      "name": "Trailing P/E",
-      "value": "250x",
-      "interpretation": "7.4x the S&P 500 IT sector avg of 34x. Motley Fool: 'earnings need to grow 5x to bring P/E to 50x.' Extreme premium"
-    },
-    {
-      "name": "Forward P/E (FY2026E)",
-      "value": "117x",
-      "interpretation": "Based on FY2026 EPS estimate of $1.22. Still 3x the growth stock average of 30-40x"
-    },
-    {
-      "name": "Revenue Growth (FY2026E)",
-      "value": "+65% YoY",
-      "interpretation": "From FY2025 $4.48B to FY2026 $7.40B. AI defense demand driving growth acceleration"
-    },
-    {
-      "name": "P/S (Price-to-Sales)",
-      "value": "76x",
-      "interpretation": "5-7x the software sector average of 10-15x. Still in overvalued territory relative to growth"
-    },
-    {
-      "name": "Market Cap",
-      "value": "$342B",
-      "interpretation": "-31% from 52-week high of $207. Broad tech selloff impact"
-    },
-    {
-      "name": "RSI",
-      "value": "45",
-      "interpretation": "Neutral zone. Room before oversold but weak bounce momentum in downtrend"
-    }
+    {"name": "Trailing P/E", "value": "250x", "interpretation": "S&P 500 IT sector avg 34x = 7.4x premium. Motley Fool says earnings must grow 5x to bring P/E to 50x"},
+    {"name": "Forward P/E (FY2026E)", "value": "117x", "interpretation": "Based on FY2026E EPS $1.22. Still 3x growth stock avg 30-40x"},
+    {"name": "Revenue Growth (FY2026E)", "value": "+65% YoY", "interpretation": "From FY2025 $4.48B to FY2026E $7.40B. Iran war expansion could further accelerate defense AI demand"},
+    {"name": "P/S Ratio", "value": "76x", "interpretation": "Software sector avg 10-15x = 5-7x premium. Still deep in overvaluation territory relative to growth"},
+    {"name": "Market Cap", "value": "$342B", "interpretation": "-31% from 52-week high $207. Despite defense tailwinds, tech selloff pressure dominates"},
+    {"name": "RSI", "value": "45", "interpretation": "Neutral zone. Room before oversold but weak bounce momentum in downtrend"}
   ],
   "growthDrivers": [
-    {
-      "title": "Motley Fool: 'Palantir blockbuster week' with 3 key developments (3/29)",
-      "description": "Golden Dome, Maven official adoption, Polymarket partnership named as 'blockbuster week's 3 key developments.' Fundamental strengthening continues"
-    },
-    {
-      "title": "Polymarket AI fraud prevention partnership (3/26)",
-      "description": "Palantir's Vergence AI monitors Polymarket trading and user behavior in real-time. Entry point into financial services expansion"
-    },
-    {
-      "title": "Golden Dome $185B missile defense software selection (3/25)",
-      "description": "Palantir and Anduril co-developing Trump administration's $185B Golden Dome missile defense system software. Phase 1 alone worth 'many billions'"
-    },
-    {
-      "title": "Czech National Bank buys PLTR (3/26)",
-      "description": "Czech central bank purchased 24,730 shares. Central bank buying an AI defense stock is a powerful institutional confidence signal"
-    },
-    {
-      "title": "Bain & Company global partnership expansion (3/26)",
-      "description": "Expanded partnership with Bain to accelerate global AIP and Foundry adoption via consulting channel"
-    },
-    {
-      "title": "Maven AI officially adopted by full US military (Program of Record, 3/23)",
-      "description": "Pentagon designated Maven Smart System as official program of record. Long-term adoption across all military branches confirmed"
-    }
+    {"title": "CNBC: 'Iran War Is Defense Tech's Chance to Shine, Palantir Already in Use' (3/28)", "description": "CNBC reports Palantir has secured multi-billion-dollar Pentagon contracts and CEO Karp confirmed tools are being used in active operations. Houthi entry expands the war and demand"},
+    {"title": "Motley Fool: 'Palantir Blockbuster Week' with 3 Key Developments (3/29)", "description": "Golden Dome, Maven adoption, Polymarket partnership named 'blockbuster week's 3 highlights.' Fundamental strength continues"},
+    {"title": "Golden Dome $185B Missile Defense Software Selection (3/25)", "description": "Palantir and Anduril co-developing software for Trump administration's $185B missile shield. Houthi missile attacks make missile defense urgency even more acute"},
+    {"title": "Polymarket AI Anti-Fraud Partnership (3/26)", "description": "Vergence AI handles real-time trade surveillance and user behavior monitoring for Polymarket. Starting point for financial services expansion"},
+    {"title": "Maven AI Official Program of Record for All US Military (3/23)", "description": "Pentagon designated Maven Smart System as official program of record. Long-term deployment across all military branches confirmed. Battle-tested in Iran conflict"},
+    {"title": "Czech National Bank Purchases PLTR (3/26)", "description": "Czech central bank acquired 24,730 shares. A central bank buying defense AI stock is a powerful institutional confidence signal"}
   ],
   "competitiveAdvantage": {
-    "summary": "20+ years of government defense AI track record, top-level security clearances, Maven military adoption, combat-proven in Iran war. Moats money can't buy",
+    "summary": "20+ years of government defense AI track record, top-level security clearances, Maven military-wide adoption, Iran war battle validation. Moats money cannot buy",
     "moats": [
-      {"type": "Switching Cost", "description": "Ontology platform deeply integrated into government/military systems. Replacement costs are prohibitively high once deployed"},
-      {"type": "Security Clearance Barrier", "description": "Top-level security clearances and 20+ year government trust. Virtually impossible for new entrants to achieve equivalent access"},
-      {"type": "Network Effect", "description": "Rapid customer acquisition via AIP Bootcamps and Ontology data model ecosystem expansion"},
-      {"type": "Combat Proven", "description": "Used in thousands of real-time strikes during the Iran war. Combat data is the ultimate competitive advantage"}
+      {"type": "Switching Costs", "description": "Ontology platform deeply integrated into government/military systems. Replacement costs are prohibitively high"},
+      {"type": "Security Clearance Barrier", "description": "Top-tier security clearances and 20+ year government trust. Virtually impossible for new entrants to replicate"},
+      {"type": "Battle Validation", "description": "Real-time targeting use in Iran war. Houthi entry expands the operational theater and demand"},
+      {"type": "Network Effects", "description": "AIP Boot Camps drive rapid customer acquisition. Ontology data model ecosystem expanding"}
     ],
     "competitors": [
-      {"name": "Anduril Industries", "detail": "Defense AI/drone startup. Collaborative partner on Golden Dome. $60B valuation"},
-      {"name": "Snowflake / Databricks", "detail": "Enterprise data platform competition. Far behind Palantir in government/defense access"},
-      {"name": "Microsoft / AWS", "detail": "Cloud giants entering government AI. Cannot match Ontology's depth of integration"},
-      {"name": "C3.ai", "detail": "Enterprise AI platform. Significantly behind in both revenue and growth rate"}
+      {"name": "Anduril Industries", "detail": "Defense AI/drone startup. Collaborating with Palantir on Golden Dome. $60B valuation"},
+      {"name": "Snowflake / Databricks", "detail": "Enterprise data platforms. Significantly behind on government/defense access"},
+      {"name": "Microsoft / AWS", "detail": "Cloud giants entering government AI. Cannot match Ontology integration depth"},
+      {"name": "C3.ai", "detail": "Enterprise AI platform. Far behind in both revenue scale and growth rate"}
     ]
   },
   "recentNews": [
-    {
-      "date": "2026-03-29",
-      "headline": "Motley Fool: 'Palantir blockbuster week, 3 things shareholders should know'",
-      "significance": "Golden Dome, Maven, Polymarket named 'blockbuster' developments. Same outlet also published '2030 stock price same as today' bear case",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html"
-    },
-    {
-      "date": "2026-03-29",
-      "headline": "Motley Fool: 'PLTR stock price in 2030 will be about the same as today'",
-      "significance": "P/E needs earnings to grow 5x (+489%) to reach 50x. Even at +65% annual growth, valuation normalization takes 5 years",
-      "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/"
-    },
-    {
-      "date": "2026-03-27",
-      "headline": "PLTR -3% to $143.06, tech selloff continues",
-      "significance": "Third consecutive down day. Below 50-day ($149) and 200-day ($169). Weekly -5.1%",
-      "url": "https://stockanalysis.com/stocks/pltr/"
-    },
-    {
-      "date": "2026-03-26",
-      "headline": "Polymarket and Vergence AI fraud prevention partnership",
-      "significance": "Vergence AI handles real-time Polymarket trading surveillance and fraud prevention. Beginning of financial services expansion",
-      "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/"
-    },
-    {
-      "date": "2026-03-25",
-      "headline": "Golden Dome $185B missile defense software selection",
-      "significance": "Phase 1 alone worth 'many billions.' Significant long-term defense pipeline relative to FY2025 total revenue ($4.48B)",
-      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/"
-    }
+    {"date": "2026-03-30", "headline": "Houthis Fire Missiles at Israel, Iran War Expands. Defense AI Demand Set to Rise", "significance": "New war front opened. Per CNBC, Palantir tools already in active use. War expansion increases defense AI demand. Golden Dome missile defense urgency heightened by Houthi attacks", "url": "https://www.cnbc.com/2026/03/28/iran-war-defense-tech-drones-trump-hegseth.html"},
+    {"date": "2026-03-29", "headline": "Motley Fool: 'Palantir Blockbuster Week, 3 Things Shareholders Need to Know'", "significance": "Golden Dome, Maven, Polymarket named 'blockbuster' developments. Same outlet also published '5 years from now, same price' bear case", "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html"},
+    {"date": "2026-03-29", "headline": "Motley Fool: 'PLTR Stock Price in 2030 Will Be About the Same'", "significance": "P/E 250x requires +489% earnings growth to reach 50x. Even at +65% annual growth, valuation normalization takes 5 years", "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/"},
+    {"date": "2026-03-29", "headline": "Spire Wealth Management Adds 5,439 PLTR Shares", "significance": "Spire increased PLTR position by 6.8% in Q4. Institutional buying continues", "url": "https://www.marketbeat.com/instant-alerts/filing-spire-wealth-management-acquires-5439-shares-of-palantir-technologies-inc-pltr-2026-03-29/"},
+    {"date": "2026-03-26", "headline": "Polymarket Vergence AI Anti-Fraud Partnership", "significance": "Real-time trade surveillance for prediction markets. Entry point for broader financial services AI expansion", "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/"}
   ],
   "analystOpinions": {
     "consensusTarget": 198.59,
@@ -128,52 +61,20 @@
     "buyCount": 17,
     "holdCount": 14,
     "sellCount": 5,
-    "notableComment": "MarketBeat consensus $199 (+39%). Motley Fool acknowledges blockbuster week but also published '5-year same price' bear case. P/E 250x needs 5x earnings growth to justify"
+    "notableComment": "Iran war expansion strengthens defense demand thesis. CNBC calls it 'defense tech's chance.' But P/E 250x remains the valuation barrier. Motley Fool published both 'blockbuster' and '5-year same price' takes"
   },
   "risks": [
-    {
-      "severity": "critical",
-      "title": "Extreme valuation, '5-year same price' bear case",
-      "description": "P/E 250x (7.4x IT sector avg of 34x). Motley Fool: earnings need to grow 489% to bring P/E to 50x. Even at +65% annual growth, normalization takes 5 years"
-    },
-    {
-      "severity": "high",
-      "title": "Below both 50-day and 200-day SMAs",
-      "description": "Below 50-day ($149) and 200-day ($169). Three consecutive down days, weekly -5.1%. $126 support next"
-    },
-    {
-      "severity": "high",
-      "title": "Macro tech selloff risk",
-      "description": "Iran-Israel war, oil surge, No Kings protests. Most hostile environment for high-valuation tech stocks"
-    },
-    {
-      "severity": "medium",
-      "title": "Analyst opinion split",
-      "description": "17 Buy, 14 Hold, 5 Sell. Market skepticism on valuation persists"
-    },
-    {
-      "severity": "medium",
-      "title": "Stock-based compensation dilution",
-      "description": "Share count growing 4.67% annually. Ongoing SBC diluting existing shareholder value"
-    }
+    {"severity": "critical", "title": "Extreme Valuation, '5 Years Same Price' Bear Case", "description": "P/E 250x (7.4x IT sector avg). Motley Fool: earnings must grow 489% to bring P/E to 50x. Even with +65% annual revenue growth, normalization takes 5 years. War upside already priced in"},
+    {"severity": "high", "title": "Oil at $100, Macro Tech Selloff", "description": "Houthi entry, oil $100+, inflation reignition. Despite defense tailwinds, high-multiple tech selloff pressure dominates at P/S 76x"},
+    {"severity": "high", "title": "Below Both 50-Day and 200-Day Moving Averages", "description": "Below SMA50 ($149) and SMA200 ($169). Three consecutive daily declines, weekly -5.1%. $126 support is next"},
+    {"severity": "medium", "title": "Analyst Opinion Split", "description": "17 Buy, 14 Hold, 5 Sell. Market skepticism on valuation persists"},
+    {"severity": "medium", "title": "Stock-Based Compensation Dilution", "description": "Share count growing 4.67% annually. Ongoing SBC dilutes existing shareholder value"}
   ],
   "buyReasons": [
-    {
-      "title": "Blockbuster week: Golden Dome + Maven + Polymarket",
-      "rationale": "Golden Dome $185B (Phase 1 'many billions'), Maven military adoption, Polymarket AI partnership. Three major developments in one week. Fundamentals at all-time best"
-    },
-    {
-      "title": "Polymarket partnership opens financial services",
-      "rationale": "Vergence AI for Polymarket fraud prevention is just the beginning. AI surveillance expansion across financial services"
-    },
-    {
-      "title": "-31% from all-time high",
-      "rationale": "Down from $207. Fundamentals are strongest ever with Golden Dome, Maven, Polymarket, yet price has declined"
-    },
-    {
-      "title": "Trefis 50%+ rally catalyst analysis",
-      "rationale": "Past major rally patterns match current catalysts (Golden Dome, Maven, commercial growth). Upside could be significant on reversal"
-    }
+    {"title": "Iran War Expansion: Direct Defense AI Beneficiary", "rationale": "CNBC confirms Palantir tools in active wartime use. Houthi entry expands operations. Golden Dome missile defense urgency heightened. Defense AI demand structurally increasing"},
+    {"title": "Blockbuster Week: Golden Dome + Maven + Polymarket", "rationale": "Golden Dome $185B (Phase 1 'many billions'), Maven military-wide adoption, Polymarket AI partnership. Three major developments in one week"},
+    {"title": "-31% from 52-Week High", "rationale": "Fundamentals strongest ever with war expansion, but price compressed by macro. Gap between fundamentals and price"},
+    {"title": "Institutional Buying Continues", "rationale": "Czech National Bank, Spire Wealth Management consistently adding positions"}
   ],
   "technicalPosition": {
     "week52High": 207.52,
@@ -187,123 +88,75 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Motley Fool called last week a 'blockbuster.' Golden Dome $185B, Maven official adoption, Polymarket partnership. Same outlet also published '2030 price same as today.' P/E 250x requires 5x (+489%) earnings growth to justify",
-    "Polymarket Vergence AI partnership is a new growth axis. Starting from prediction market fraud prevention, it could expand across financial services. A concrete civilian AI use case beyond defense",
-    "Below 50-day ($149) and 200-day ($169). Iran war and protests pressuring high-valuation tech. Valuation is the core burden. P/S 76x is 5x software sector average",
-    "Consensus $199 (+39%). Down 31% from highs. Fundamentals are strongest ever but price needs time to catch up. Hold, small DCA only"
+    "Houthis fired missiles at Israel, expanding the Iran war. CNBC reports Palantir tools are already in active use, and war expansion increases defense AI demand. Golden Dome missile defense urgency is heightened by the Houthi attacks",
+    "Motley Fool called it a 'blockbuster week' while simultaneously publishing '5 years from now, same price.' P/E 250x requires 489% earnings growth to normalize. Even war tailwinds are arguably priced into this multiple",
+    "Oil at $100 and inflation concerns are pressuring all high-multiple tech. Despite being a defense beneficiary, P/S 76x means PLTR cannot escape macro selloff pressure",
+    "Consensus $199 (+39%). -31% from high. Fundamentals are strongest ever thanks to war expansion, but valuation is the bottleneck. Hold, small DCA positions only"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Blockbuster week (Golden Dome, Maven, Polymarket) makes fundamentals strongest ever, but P/E 250x demands 5x earnings growth. Motley Fool projects 'same price in 5 years.' Macro headwinds plus valuation burden. Small DCA possible but active buying is premature",
+    "summary": "Iran war expansion (Houthi entry) strengthens defense AI demand. Palantir tools are battle-tested and Golden Dome urgency is rising. But P/E 250x has already priced in the war premium. Oil at $100 and macro headwinds pressure all high-multiple tech. Small DCA positions only",
     "horizon": "6-12 months"
   },
   "sources": [
-    {
-      "name": "Motley Fool - 'Palantir blockbuster week'",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html",
-      "description": "Golden Dome, Maven, Polymarket named 3 blockbuster developments"
-    },
-    {
-      "name": "Motley Fool - '2030 PLTR price prediction'",
-      "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/",
-      "description": "P/E 250x requires 489% earnings growth. 5-year normalization thesis"
-    },
-    {
-      "name": "Motley Fool - Polymarket AI partnership",
-      "url": "https://www.fool.com/investing/2026/03/26/the-house-always-wins-how-palantirs-artificial-int/",
-      "description": "Vergence AI-powered Polymarket fraud prevention partnership"
-    },
-    {
-      "name": "StockAnalysis - PLTR statistics",
-      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
-      "description": "P/E 250x, Forward PE 117x, RSI 45, close $143.06"
-    },
-    {
-      "name": "MarketBeat - PLTR target consensus",
-      "url": "https://www.marketbeat.com/stocks/NYSE/PLTR/forecast/",
-      "description": "Consensus $198.59, 17 Buy, 14 Hold, 5 Sell"
-    },
-    {
-      "name": "Reuters - Golden Dome software",
-      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/",
-      "description": "$185B Golden Dome missile defense software selection"
-    },
-    {
-      "name": "American Banking News - Czech National Bank purchase",
-      "url": "https://www.americanbankingnews.com/2026/03/26/czech-national-bank-buys-24730-shares-of-palantir-technologies-inc-pltr.html",
-      "description": "Czech central bank bought 24,730 shares"
-    },
-    {
-      "name": "IndexBox - Palantir Polymarket AI partnership",
-      "url": "https://www.indexbox.io/blog/palantir-partners-with-polymarket-to-enhance-prediction-market-integrity-using-ai/",
-      "description": "Vergence AI real-time trading surveillance partnership"
-    },
-    {
-      "name": "Simply Wall St - PLTR valuation",
-      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/assessing-palantir-technologies-pltr-valuation-after-strong-2",
-      "description": "Short-term weakness amid long-term defense growth thesis"
-    }
+    {"name": "CNBC - 'Iran War Is Defense Tech's Chance, Palantir in Use'", "url": "https://www.cnbc.com/2026/03/28/iran-war-defense-tech-drones-trump-hegseth.html", "description": "Palantir multi-billion Pentagon contracts, active wartime deployment"},
+    {"name": "CNBC - Houthi Missiles, Oil Surge", "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html", "description": "Houthi missile attack on Israel, war expansion"},
+    {"name": "Motley Fool - 'Palantir Blockbuster Week'", "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html", "description": "Golden Dome, Maven, Polymarket as top 3 developments"},
+    {"name": "Motley Fool - '2030 PLTR Price Prediction'", "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/", "description": "489% earnings growth needed to justify P/E 250x"},
+    {"name": "MarketBeat - Spire Wealth PLTR Purchase", "url": "https://www.marketbeat.com/instant-alerts/filing-spire-wealth-management-acquires-5439-shares-of-palantir-technologies-inc-pltr-2026-03-29/", "description": "Spire Wealth increased PLTR position by 6.8%"},
+    {"name": "Reuters - Golden Dome Software", "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/", "description": "$185B Golden Dome missile defense software selection"},
+    {"name": "Forbes - Iran Conflict, $100 Oil Impact", "url": "https://www.forbes.com/sites/bill_stone/2026/03/29/iran-conflict-100-oil-and-what-it-means-for-stocks-and-consumers/", "description": "WTI from $67 to $100, economic and market impact"},
+    {"name": "MarketBeat - PLTR Consensus", "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/", "description": "Consensus $198.59, 17 Buy, 14 Hold, 5 Sell"},
+    {"name": "StockAnalysis - PLTR Statistics", "url": "https://stockanalysis.com/stocks/pltr/statistics/", "description": "P/E 250x, Forward PE 117x, RSI 45, close $143.06"}
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $143 | 'Blockbuster week' but also '5-year same price'",
-      "text": "$PLTR $143.06(-3.05%)\n\nMotley Fool: 'Blockbuster week.'\nSame outlet: 'Same price in 5 years.'\nP/E 250x. Needs 5x earnings growth.\n\n1/4",
+      "hook": "PLTR $143 | Houthis enter war. Defense AI beneficiary, but P/E 250x blocks the upside",
+      "text": "$PLTR $143.06(-3.05%)\n\nHouthis fired at Israel. War is expanding.\nPalantir tools are in active use (CNBC).\nDefense AI demand rising.\nBut P/E 250x has priced it all in.\n\n1/4",
       "thread": [
-        "Golden Dome $185B, Maven adoption, Polymarket.\nThree major wins in one week.\n\nCzech central bank bought in.\nFundamentals: all-time best.\n\n2/4",
-        "P/E 250x (7.4x IT avg 34x).\nP/S 76x (5x software avg).\n\nNo amount of catalysts can overcome\nvaluation gravity. Yet.\n\n3/4",
-        "Consensus $199 (+39%). Down 31%.\nHold. Small DCA only.\nTime needs to normalize valuation.\n\n4/4"
+        "Golden Dome $185B. Maven adopted.\nPolymarket partnership. Czech central bank bought.\n'Blockbuster week' (Motley Fool).\n\n2/4",
+        "Same outlet: '5 years, same price.'\nP/E 250x needs 489% earnings growth.\nWar tailwinds? Already in the price.\n\n3/4",
+        "Consensus $199 (+39%). -31% from high.\nHold. Small DCA only.\nWar helps but valuation has to catch up.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR: 'Blockbuster week' vs '5-year same price.' The paradox",
-      "text": "$PLTR $143.06(-3.05%)\n\nMotley Fool called it a blockbuster week. Golden Dome, Maven, Polymarket. Same outlet says '2030 price = today.' The P/E 250x paradox.\n\nPolymarket Vergence AI opens financial services. Czech central bank bought. Fundamentals at all-time best.\n\nBut P/S 76x blocks the path. Consensus $199 (+39%). Hold, small DCA only."
+      "hook": "PLTR: Houthis expand the war. Defense AI beneficiary, but P/E 250x is the ceiling",
+      "text": "$PLTR $143.06(-3.05%)\n\nHouthis entered the war. Palantir tools already in active operations (CNBC). War expansion = more defense AI demand. Golden Dome missile defense urgency heightened.\n\nBut P/E 250x. '5 years, same price' (Motley Fool). Earnings need to grow 489% to normalize.\n\nConsensus $199 (+39%). Hold, small positions only."
     },
     "telegram": {
       "hook": "PLTR Daily Analysis (3/30)",
-      "text": "Palantir $143.06 (-3.05%) | MCap $342B\nP/E 250x | Fwd 117x | P/S 76x | RSI 45\n\nKey Changes\n- Motley Fool 'blockbuster week' designation\n- Same outlet '5-year same price' bear case\n- Polymarket Vergence AI partnership\n\nBullish\n- Golden Dome $185B + Maven + Polymarket\n- Czech central bank purchase\n- Consensus $199 (+39%)\n\nBearish\n- P/E 250x requires 5x earnings growth\n- Below 50d ($149), 200d ($169)\n\nVerdict: Hold. Small DCA only"
+      "text": "Palantir $143.06 (-3.05%) | MCap $342B\nP/E 250x | Forward 117x | P/S 76x | RSI 45\n\nMacro Shift\n- Houthis fire at Israel, war expands\n- WTI oil breaks $100\n- CNBC: 'Iran war is defense tech's chance'\n\nKey Developments\n- Blockbuster week (Golden Dome, Maven, Polymarket)\n- Spire Wealth adds PLTR position\n\nBullish\n- Palantir tools in active wartime use\n- Golden Dome urgency heightened by Houthi missiles\n- Consensus $199 (+39%)\n\nBearish\n- P/E 250x, needs 489% earnings growth\n- Macro tech selloff pressure\n\nVerdict: Hold. Small DCA only"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR $143 | 'Blockbuster week' but also '5-year same price'",
-          "text": "$PLTR $143.06(-3.05%)\n\nMotley Fool: 'Blockbuster week.'\nSame outlet: 'Same price in 5 years.'\nP/E 250x. Needs 5x earnings growth.\n\n1/4",
-          "thread": [
-            "Golden Dome $185B, Maven adoption, Polymarket.\nThree major wins in one week.\n\nCzech central bank bought in.\nFundamentals: all-time best.\n\n2/4",
-            "P/E 250x (7.4x IT avg 34x).\nP/S 76x (5x software avg).\n\nNo amount of catalysts can overcome\nvaluation gravity. Yet.\n\n3/4",
-            "Consensus $199 (+39%). Down 31%.\nHold. Small DCA only.\nTime needs to normalize valuation.\n\n4/4"
-          ]
+          "hook": "PLTR $143 | Houthis enter war. Defense AI beneficiary, but P/E 250x blocks the upside",
+          "text": "$PLTR $143.06(-3.05%)\n\nHouthis fired at Israel. War is expanding.\nPalantir tools are in active use (CNBC).\nDefense AI demand rising.\nBut P/E 250x has priced it all in.\n\n1/4",
+          "thread": ["Golden Dome $185B. Maven adopted.\nPolymarket partnership. Czech central bank bought.\n'Blockbuster week' (Motley Fool).\n\n2/4", "Same outlet: '5 years, same price.'\nP/E 250x needs 489% earnings growth.\nWar tailwinds? Already in the price.\n\n3/4", "Consensus $199 (+39%). -31% from high.\nHold. Small DCA only.\nWar helps but valuation has to catch up.\n\n4/4"]
         },
         "witty": {
-          "hook": "'Blockbuster week' + 'Same price in 5 years.' Same outlet, same day",
-          "text": "$PLTR $143.06(-3.05%)\n\n'Blockbuster!' (Motley Fool)\n'Same price in 2030.' (Also Motley Fool)\n\nSame outlet, same day.\nP/E 250x creates its own paradox.\n\n1/4",
-          "thread": [
-            "Golden Dome, Maven, Polymarket, Czech bank.\nThe catalyst list is endless.\n\nMarket: 'P/E 250x though.'\nConversation over.\n\n2/4",
-            "Earnings need to grow 5x for P/E 50x.\n+65% growth yearly for 5 years.\n\nNot that stock won't rise.\nIt just takes 5 years to catch up.\n\n3/4",
-            "Consensus $199 (+39%).\nConvinced? Small position.\nNot? Just watch. Hold.\n\n4/4"
-          ]
+          "hook": "War keeps expanding and Palantir keeps winning contracts. Stock keeps falling. P/E 250x problems",
+          "text": "$PLTR $143.06(-3.05%)\n\nHouthis join the war. More fronts.\nMore targets. More Palantir.\n\n'Blockbuster week!' (Motley Fool)\n'Same price in 5 years!' (Also Motley Fool)\n\nSame outlet. Same day.\n\n1/4",
+          "thread": ["Golden Dome, Maven, Polymarket,\nczech central bank.\nBullish list goes on forever.\n\nMarket: 'P/E 250x.'\nConversation over.\n\n2/4", "489% earnings growth to reach 50x.\nEven at +65% a year, that's 5 years.\n\nThe stock isn't broken.\nIt's just waiting for earnings to catch up.\n\n3/4", "Consensus $199 (+39%).\nConvinced? Small bet.\nNot convinced? Watch from the sideline.\nHold.\n\n4/4"]
         },
         "empathy": {
-          "hook": "PLTR holders, catalysts everywhere but price keeps falling",
-          "text": "$PLTR $143.06(-3.05%), down 31%\n\nGolden Dome, Maven, Polymarket.\nCatalysts keep coming but price drops.\nFrustrating, we understand.\n\n1/4",
-          "thread": [
-            "Even Motley Fool called it 'blockbuster.'\nBut P/E 250x demands patience.\n\nEarnings need to catch up to price.\nThat takes time.\n\n2/4",
-            "Polymarket, Czech central bank.\nThe company keeps growing.\nMacro will pass. Fundamentals won't.\n\n3/4",
-            "Consensus $199 (+39%).\nSmall DCA. Long-term is the answer.\n\n4/4"
-          ]
+          "hook": "PLTR holders, war tailwinds but stock falling. The frustration is real",
+          "text": "$PLTR $143.06(-3.05%), -31% from high\n\nHouthis expand the war.\nPalantir is literally in combat use.\nBut the stock drops.\nI know. Frustrating.\n\n1/4",
+          "thread": ["P/E 250x demands time.\nEarnings need to grow into the valuation.\nThe company is delivering.\nThe price needs to wait.\n\n2/4", "Golden Dome, Maven, Polymarket.\nFundamentals have never been stronger.\nThe war validates the technology.\n\n3/4", "Consensus $199 (+39%).\nSmall DCA. Long-term mindset.\nPatience will be rewarded.\n\n4/4"]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR: 'Blockbuster week' vs '5-year same price'",
-          "text": "$PLTR $143.06(-3.05%)\n\nBlockbuster week acknowledged. Also '5-year same price' bear case. P/E 250x paradox.\n\nGolden Dome, Maven, Polymarket. Fundamentals best ever. P/S 76x remains the barrier.\n\nConsensus $199 (+39%). Hold, small DCA."
+          "hook": "PLTR: Houthis expand war. Defense AI demand rises but P/E 250x absorbs it",
+          "text": "$PLTR $143.06(-3.05%)\n\nHouthis in. War expanding. Palantir in active use. Defense demand rising.\n\nBut P/E 250x. '5 years, same price.' 489% earnings growth needed.\n\nConsensus $199 (+39%). Hold, small DCA."
         },
         "witty": {
-          "hook": "'Blockbuster' and 'same price in 5 years.' Same outlet, same day",
-          "text": "$PLTR $143.06(-3.05%)\n\nBlockbuster! Same price in 2030! Same outlet, same day. The P/E 250x identity crisis.\n\nCatalysts are overflowing. Market: 'P/E 250x.' End of discussion.\n\nEarnings need 5x growth. Consensus $199. Hold."
+          "hook": "War expanding, Palantir winning every contract. Stock still falls. P/E 250x does that",
+          "text": "$PLTR $143.06(-3.05%)\n\nHouthis join. More war = more Palantir. 'Blockbuster!' and '5 years same price!' from the same outlet on the same day.\n\nP/E 250x problems. Earnings need to grow 489%. Bullish list is endless. Market's answer: '250x.'\n\nConsensus $199. Hold."
         },
         "empathy": {
-          "hook": "PLTR shareholders, catalysts everywhere but price keeps falling",
-          "text": "$PLTR $143.06(-3.05%), down 31% from highs.\n\nGolden Dome, Maven, Polymarket. Catalysts won't stop but price won't rise. Frustrating.\n\nP/E 250x demands time. Earnings will catch up. The company hasn't stopped growing.\n\nConsensus $199 (+39%). Small DCA. Long-term is the answer."
+          "hook": "PLTR holders, the company is literally winning wars but the stock won't budge",
+          "text": "$PLTR $143.06(-3.05%), -31% from high.\n\nHouthis expand the war. Palantir is in combat operations. Winning contracts. Fundamentals strongest ever. But the stock drops.\n\nP/E 250x needs time. Earnings will catch up. The company is delivering.\n\nConsensus $199 (+39%). Small DCA. Patience."
         }
       }
     }

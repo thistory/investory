@@ -58,20 +58,20 @@
   ],
   "growthDrivers": [
     {
+      "title": "Motley Fool: '$100 유가가 AI 주식의 최대 리스크' (3/29)",
+      "description": "유가 $100 돌파로 데이터센터 전력 비용과 인플레이션 우려가 AI 인프라 투자에 영향. 하지만 AI 칩 수요 자체는 유가와 무관하게 구조적 성장 추세"
+    },
+    {
       "title": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다' (3/28)",
       "description": "GTC 이후에도 수학적으로 NVDA가 여전히 의미있게 저평가되어 있다고 분석. 시장이 펀더멘털을 무시하고 있다는 강력한 주장"
     },
     {
-      "title": "Space-1: 우주 AI 데이터센터 발표, Motley Fool '진짜 시사점' (3/29)",
+      "title": "Space-1: 우주 AI 데이터센터 발표, '진짜 시사점' (3/29)",
       "description": "NVIDIA가 Vera Rubin Space-1 우주용 AI 모듈을 발표했다. Motley Fool과 Forbes는 '궤도 데이터센터가 현실이 될 수 있다'고 분석. 무제한 태양광 에너지로 지상 전력 제약을 넘어서는 장기 비전"
     },
     {
       "title": "Forward P/E가 S&P 500 아래로 하락, 역사적 이상 현상 (3/27)",
       "description": "Motley Fool이 NVDA의 Forward P/E가 S&P 500 평균(약 21x) 이하로 하락한 것은 전례 없는 이상 현상이라 보도. AI 리더 기업이 시장 평균보다 싸게 거래되는 것은 밸류에이션 재평가의 신호"
-    },
-    {
-      "title": "Wolfe Research: GTC가 60% 랠리 촉매 가능 (3/27)",
-      "description": "Wolfe Research가 매수 의견 유지, 목표가 $275. GTC 2026 발표 내용이 시장에 소화되면 60% 랠리를 촉발할 수 있다고 분석"
     },
     {
       "title": "GTC 2026: Vera Rubin, NemoClaw 오픈소스 AI 에이전트 (3/25)",
@@ -123,10 +123,16 @@
   },
   "recentNews": [
     {
+      "date": "2026-03-30",
+      "headline": "유가 WTI $100 돌파, 후티 참전. 데이터센터 전력 비용 우려 확대",
+      "significance": "후티 반군 이스라엘 미사일 공격으로 유가 추가 상승. Motley Fool은 '$100 유가가 AI 주식의 최대 리스크'라고 분석. 데이터센터 전력 비용 상승과 인플레이션이 AI 투자 심리를 위축시킬 수 있다",
+      "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/"
+    },
+    {
       "date": "2026-03-29",
-      "headline": "Cathie Wood/ARK, NVDA 포지션 축소, $84M 기술주 매도",
-      "significance": "ARK가 NVDA, TSLA, META, AMD를 동시에 매도. 하루 전 $84M 매도에 이어 추가 포지션 축소. 매크로 리스크에 대한 ARK의 방어적 전환",
-      "url": "https://www.tipranks.com/news/nvda-meta-tsla-amd-why-cathie-wood-is-trimming-these-big-tech-stocks"
+      "headline": "TipRanks: ARK/Cathie Wood, NVDA 213,560주 매도",
+      "significance": "ARK가 ARKK, ARKW, ARKF를 통해 총 213,560주 NVDA를 매도. 이틀에 걸친 대규모 기술주 포지션 축소. TipRanks는 Cathie Wood가 NVDA에 인내심을 잃고 있다고 분석",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience"
     },
     {
       "date": "2026-03-29",
@@ -136,21 +142,15 @@
     },
     {
       "date": "2026-03-28",
-      "headline": "이사 Mark Stevens $3,850만 규모 주식 매도 (3/20 거래)",
-      "significance": "이사 Mark Stevens가 221,682주를 $173.68 평균가에 매도. 이사급 매도는 포트폴리오 관리 차원일 수 있으나, 기술적 약세 구간에서 심리적 부담",
-      "url": "https://www.insidertrades.com/alerts/nasdaq-nvda-insider-buying-and-selling-2026-03-26/"
-    },
-    {
-      "date": "2026-03-28",
       "headline": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다'",
       "significance": "GTC 이후에도 수학적으로 NVDA가 여전히 저평가되어 있다고 분석. Forward P/E가 S&P 500 이하인 사상 처음의 이상 현상을 근거로 제시",
       "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/"
     },
     {
-      "date": "2026-03-27",
-      "headline": "Wolfe Research: NVDA 매수 유지, 목표가 $275, GTC가 60% 랠리 촉매 가능",
-      "significance": "GTC 발표 내용이 시장에 소화되면 현재가 대비 60% 이상 상승할 수 있다고 전망",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/"
+      "date": "2026-03-28",
+      "headline": "이사 Mark Stevens $3,850만 규모 주식 매도 (3/20 거래)",
+      "significance": "이사 Mark Stevens가 221,682주를 $173.68 평균가에 매도. ARK와 같은 주에 내부자 매도가 겹치면서 심리적 부담 가중",
+      "url": "https://www.insidertrades.com/alerts/nasdaq-nvda-insider-buying-and-selling-2026-03-26/"
     }
   ],
   "analystOpinions": {
@@ -161,13 +161,18 @@
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 매수, 매도 0. ARK의 포지션 축소에도 월스트리트 컨센서스 변화 없음. Wolfe Research GTC 60% 랠리 촉매 전망 유지"
+    "notableComment": "42/45 매수, 매도 0. ARK 213,560주 매도에도 월스트리트 컨센서스 변화 없음. Motley Fool은 '$100 유가가 AI 최대 리스크이나 NVDA 펀더멘털과는 무관'이라고 분석"
   },
   "risks": [
     {
+      "severity": "critical",
+      "title": "유가 $100 돌파, '$100 유가가 AI 주식의 최대 리스크'",
+      "description": "Motley Fool이 '$100 유가가 AI 주식의 최대 리스크'라고 분석. 데이터센터 전력 비용 상승, 인플레이션 우려로 AI 인프라 투자 심리 위축. 후티 참전으로 유가 추가 상승 가능성"
+    },
+    {
       "severity": "high",
-      "title": "ARK/Cathie Wood 매도 + 이사 내부자 매도 동시 발생",
-      "description": "ARK가 NVDA를 포함한 기술주를 $84M+ 매도했고, 이사 Mark Stevens도 $3,850만 주식을 매도. 두 건의 매도가 같은 주에 겹치면서 심리적 부담 가중"
+      "title": "ARK/Cathie Wood 213,560주 매도 + 이사 내부자 매도",
+      "description": "ARK가 ARKK/ARKW/ARKF를 통해 이틀간 213,560주 NVDA를 매도. TipRanks는 Wood가 인내심을 잃었다고 분석. 이사 Stevens $3,850만 매도와 같은 주에 겹침"
     },
     {
       "severity": "high",
@@ -176,18 +181,13 @@
     },
     {
       "severity": "high",
-      "title": "지정학 리스크와 매크로 환경 악화",
-      "description": "이란-이스라엘 전쟁 지속, 유가 급등, 나스닥 고점 대비 -16% 조정. GTC 이후에도 'Sell the News' 압력이 해소되지 않고 있다"
-    },
-    {
-      "severity": "high",
-      "title": "중국 수출 규제 지속과 밀수 사건 여파",
-      "description": "AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성. 연간 $150-200억 시장 기회 상실 우려"
+      "title": "이란 전쟁 확대와 매크로 환경 급격 악화",
+      "description": "후티 참전, 유가 $100+, Brent $112. 인플레이션 재점화 우려로 금리 인하 기대 후퇴. 고밸류 기술주에 최악의 매크로 환경"
     },
     {
       "severity": "medium",
-      "title": "AI 버블 우려와 멀티플 압축",
-      "description": "52주 고점 대비 -21% 하락. DeepSeek 쇼크 이후 AI 인프라 투자 효율성 논란 지속"
+      "title": "중국 수출 규제 지속과 밀수 사건 여파",
+      "description": "AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성. 연간 $150-200억 시장 기회 상실 우려"
     }
   ],
   "buyReasons": [
@@ -196,12 +196,12 @@
       "rationale": "Forward P/E 20.64x가 S&P 500 평균(약 21x) 이하로 떨어졌다. 65% 성장하는 AI 리더가 시장 평균보다 싸게 거래되는 것은 전례가 없다. PEG 0.54는 극단적 저평가"
     },
     {
-      "title": "Space-1로 우주까지 확장, 장기 성장 비전",
-      "rationale": "Vera Rubin Space-1은 SF가 아니라 실현 가능한 기술. 지상 전력 제약 없는 우주 AI 데이터센터로 TAM을 근본적으로 확장"
+      "title": "Space-1로 우주까지 확장, $100 유가 시대의 해법",
+      "rationale": "유가 $100이 데이터센터 전력 비용 우려를 키우는 가운데, Space-1 우주 데이터센터는 무제한 태양광으로 지상 전력 제약을 근본적으로 해결하는 장기 비전"
     },
     {
       "title": "42/45 애널리스트 매수, 65% 상승 여력",
-      "rationale": "컨센서스 $276, 최고 $360. 매도 의견 0명은 펀더멘털에 대한 월스트리트의 확고한 신뢰"
+      "rationale": "컨센서스 $276, 최고 $360. 매도 의견 0명은 펀더멘털에 대한 월스트리트의 확고한 신뢰. 유가 리스크에도 변함없다"
     },
     {
       "title": "1조 달러 주문 잔고와 실적 가시성",
@@ -220,36 +220,36 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "ARK/Cathie Wood가 NVDA를 포함한 기술주를 $84M+ 매도했다. 이사 Mark Stevens의 $3,850만 매도에 이어 같은 주에 두 번째 대형 매도 소식. 하지만 42/45 월스트리트 매수 의견은 변함없다",
-    "Space-1 우주 AI 데이터센터 발표가 주목받고 있다. Motley Fool과 Forbes는 '궤도 데이터센터가 현실이 될 수 있다'고 분석했다. 무제한 태양광으로 지상 전력 한계를 넘는 장기 비전",
-    "Forward P/E 20.64x는 S&P 500 평균(21x)보다 여전히 낮다. PEG 0.54. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 이례적 상황이 지속 중이다",
-    "$167.52, RSI 41. 50일선($171), 200일선($174) 아래이지만, 매크로 악재에 눌린 가격이지 회사 문제가 아니다. 5/20 실적을 바라보며 분할매수 유효. Buy"
+    "유가 WTI $100 돌파에 후티까지 참전했다. Motley Fool은 '$100 유가가 AI 주식의 최대 리스크'라고 경고했다. 데이터센터 전력 비용 상승과 인플레이션이 AI 투자 심리를 위축시킬 수 있다. 하지만 AI 칩 수요 자체는 구조적 성장이며 유가와 무관하다",
+    "ARK가 이틀간 213,560주를 매도했다. TipRanks는 Cathie Wood가 NVDA에 인내심을 잃고 있다고 분석. 이사 Stevens $3,850만 매도와 같은 주에 겹치면서 심리적 압박. 하지만 42/45 월스트리트 매수 의견은 변함없다",
+    "Forward P/E 20.64x는 S&P 500 평균(21x)보다 여전히 낮다. PEG 0.54. Space-1 우주 데이터센터가 유가 $100 시대의 장기 해법이 될 수 있다. 65% 성장하는 세계 1위 AI 기업이 시장 평균보다 싸게 거래되는 이례적 상황",
+    "$167.52, RSI 41. 50일선($171), 200일선($174) 아래. 유가와 전쟁이 단기 변동성을 키우겠지만 펀더멘털 훼손은 아니다. 5/20 실적을 바라보며 분할매수 유효. Buy"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "ARK 매도와 이사 내부자 매도가 같은 주에 겹쳤지만, 42/45 매수 의견과 Forward P/E S&P 500 이하라는 사실은 변하지 않았다. PEG 0.54, 1조 달러 주문 잔고, Space-1 우주 비전까지. 기술적 약세는 매크로에 의한 것이지 펀더멘털 훼손이 아니다. 분할매수 적기",
+    "summary": "유가 $100과 후티 참전이 매크로 리스크를 키웠지만, AI 칩 수요는 구조적이며 유가와 무관하다. Forward P/E S&P 500 이하, PEG 0.54, 1조 달러 주문 잔고는 변하지 않았다. ARK 매도에도 42/45 매수 의견 유지. 매크로 눌림을 기회로 분할매수 유효",
     "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "TipRanks - ARK/Cathie Wood 기술주 매도",
-      "url": "https://www.tipranks.com/news/nvda-meta-tsla-amd-why-cathie-wood-is-trimming-these-big-tech-stocks",
-      "description": "ARK가 NVDA, TSLA, META, AMD 동시 매도. $84M+ 기술주 포지션 축소"
+      "name": "Motley Fool - '$100 유가가 AI 주식의 최대 리스크'",
+      "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/",
+      "description": "유가 $100이 데이터센터 전력 비용과 AI 투자 심리에 미치는 영향 분석"
+    },
+    {
+      "name": "TipRanks - ARK/Cathie Wood NVDA 213,560주 매도",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience",
+      "description": "ARK ARKK/ARKW/ARKF 통해 이틀간 대규모 NVDA 포지션 축소"
+    },
+    {
+      "name": "CNBC - 후티 미사일, 유가 추가 상승",
+      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
+      "description": "후티 반군 이스라엘 미사일 발사, 유가 상승 지속"
     },
     {
       "name": "Motley Fool - Space-1 우주 AI 데이터센터",
       "url": "https://www.fool.com/investing/2026/03/29/nvidia-just-announced-hardware-for-ai-data-centers/",
       "description": "Vera Rubin Space-1 궤도 AI 모듈의 실현 가능성 분석"
-    },
-    {
-      "name": "Forbes - NVIDIA 우주 컴퓨팅",
-      "url": "https://www.forbes.com/sites/timbajarin/2026/03/23/nvidias-move-into-space-computing-may-redefine-ai-infrastructure/",
-      "description": "Space-1 모듈, 궤도 AI 데이터센터로 인프라 재정의"
-    },
-    {
-      "name": "InsiderTrades - Mark Stevens $3,850만 주식 매도",
-      "url": "https://www.insidertrades.com/alerts/nasdaq-nvda-insider-buying-and-selling-2026-03-26/",
-      "description": "이사 Mark Stevens 221,682주 매도, $173.68 평균가"
     },
     {
       "name": "Motley Fool - '투자자들이 NVDA에 대해 완전히 틀렸다'",
@@ -262,81 +262,81 @@
       "description": "42 Buy / 3 Hold / 0 Sell, Wolfe Research GTC 촉매"
     },
     {
-      "name": "StockAnalysis - NVDA 통계",
-      "url": "https://stockanalysis.com/stocks/nvda/statistics/",
-      "description": "P/E 34.95x, Forward PE 20.64x, PEG 0.54, 종가 $167.52"
+      "name": "Forbes - 이란 전쟁, $100 유가의 주식 영향",
+      "url": "https://www.forbes.com/sites/bill_stone/2026/03/29/iran-conflict-100-oil-and-what-it-means-for-stocks-and-consumers/",
+      "description": "WTI $67에서 $100 상승, 경제와 주식 시장 영향 분석"
+    },
+    {
+      "name": "InsiderTrades - Mark Stevens $3,850만 주식 매도",
+      "url": "https://www.insidertrades.com/alerts/nasdaq-nvda-insider-buying-and-selling-2026-03-26/",
+      "description": "이사 Mark Stevens 221,682주 매도, $173.68 평균가"
     },
     {
       "name": "NVIDIA GTC 2026 블로그",
       "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
       "description": "Vera Rubin, Vera CPU, Space-1, NemoClaw 발표"
-    },
-    {
-      "name": "Robinhood - NVDA 시세",
-      "url": "https://robinhood.com/us/en/stocks/NVDA/",
-      "description": "시총 $4.08T, 종가 $167.52(-2.17%)"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $168 | ARK도 줄였다. 하지만 Forward P/E는 S&P 500보다 싸다",
-      "text": "$NVDA $167.52(-2.17%)\n\nARK가 NVDA를 줄였다. 이사도 $3,850만 팔았다.\n하지만 Forward P/E 20.64x < S&P 500(21x).\nPEG 0.54. 이건 말이 안 되는 할인이다.\n\n1/4",
+      "hook": "NVDA $168 | 유가 $100 돌파. 'AI 최대 리스크'라는데 Forward P/E는 S&P보다 싸다",
+      "text": "$NVDA $167.52(-2.17%)\n\n유가 $100 돌파. 후티까지 참전.\nMotley Fool: '$100 유가가 AI 최대 리스크.'\n하지만 Forward P/E 20.64x < S&P 500(21x).\n\n1/4",
       "thread": [
-        "Space-1 우주 AI 데이터센터 발표가 주목받고 있다.\nMotley Fool: '궤도 데이터센터가 현실이 될 수 있다.'\n\n태양광 무제한. 지상 전력 한계를 넘는 비전.\n\n2/4",
-        "42/45 매수, 매도 0. 1조 달러 주문 잔고.\n매크로가 기술주를 깔아뭉개는 중이지\n엔비디아 실적은 변한 게 없다.\n\n3/4",
-        "RSI 41. 목표가 $276(+65%).\n5/20 실적이 촉매.\n\n분할매수 적기. Buy.\n\n4/4"
+        "ARK가 이틀간 213,560주를 팔았다.\nTipRanks: Wood가 인내심을 잃고 있다.\n\n하지만 42/45 매수. 매도 0.\n월스트리트는 움직이지 않았다.\n\n2/4",
+        "Space-1 우주 데이터센터.\n유가 $100 시대에 지상 전력 한계를\n넘는 장기 해법이 될 수 있다.\n\n3/4",
+        "PEG 0.54. 목표가 $276(+65%).\n5/20 실적이 촉매.\n매크로 눌림 속 분할매수. Buy.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: ARK 매도에도 Forward P/E S&P 500 이하, Space-1 우주 비전",
-      "text": "$NVDA $167.52(-2.17%), 시총 $4.08T\n\nARK가 NVDA를 줄이고, 이사 Stevens도 $3,850만 매도. 하지만 Forward P/E 20.64x < S&P 500(21x). PEG 0.54.\n\nSpace-1 우주 AI 데이터센터 발표가 Motley Fool, Forbes에서 '현실적 기술'로 주목받고 있다.\n\n42/45 매수, 1조 달러 잔고. 매크로가 눌러놓은 가격.\n\nRSI 41. 분할매수 적기. Buy."
+      "hook": "NVDA: 유가 $100이 'AI 최대 리스크'라는데, Forward P/E는 S&P보다 낮다",
+      "text": "$NVDA $167.52(-2.17%), 시총 $4.08T\n\n유가 $100 돌파에 후티까지 참전. Motley Fool은 '$100 유가가 AI 최대 리스크'라고 했다. 데이터센터 전력 비용 우려.\n\nARK가 213,560주 매도. 하지만 Forward P/E 20.64x < S&P 500(21x). PEG 0.54. 42/45 매수.\n\nSpace-1이 유가 $100 시대의 장기 해법. 분할매수 적기. Buy."
     },
     "telegram": {
       "hook": "NVDA 일일 분석 (3/30)",
-      "text": "NVDA $167.52 (-2.17%) | 시총 $4.08T\nP/E 34.95x | Forward 20.64x (S&P 21x 이하!) | PEG 0.54 | RSI 41\n\n핵심 변화\n- ARK/Cathie Wood NVDA 포지션 축소\n- Space-1 우주 AI 데이터센터 발표, Motley Fool/Forbes 주목\n- 이사 Stevens $3,850만 매도\n\n호재\n- 42/45 Buy, 목표가 $276(+65%)\n- 1조 달러 주문 잔고\n- Forward P/E가 S&P 500보다 낮다\n\n리스크\n- ARK + 이사 매도 같은 주 겹침\n- 이란 전쟁, 유가, 매크로 압박\n\n판단: Buy. 매크로 눌림, 분할매수 유효"
+      "text": "NVDA $167.52 (-2.17%) | 시총 $4.08T\nP/E 34.95x | Forward 20.64x (S&P 21x 이하!) | PEG 0.54 | RSI 41\n\n매크로 변화\n- WTI 유가 $100 돌파, 후티 이스라엘 공격\n- '$100 유가가 AI 주식 최대 리스크' (Motley Fool)\n\n핵심 변화\n- ARK 213,560주 매도 (ARKK/ARKW/ARKF)\n- Space-1 우주 AI 데이터센터 주목\n\n호재\n- 42/45 Buy, 목표가 $276(+65%)\n- Forward P/E S&P 500 이하, PEG 0.54\n- 1조 달러 주문 잔고\n\n리스크\n- 유가 $100, 데이터센터 전력 비용 우려\n- ARK + 이사 매도 같은 주\n\n판단: Buy. 매크로 눌림, 분할매수 유효"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $168 | ARK도 줄였다. 하지만 Forward P/E는 S&P 500보다 싸다",
-          "text": "$NVDA $167.52(-2.17%)\n\nARK가 NVDA를 줄였다. 이사도 $3,850만 팔았다.\n하지만 Forward P/E 20.64x < S&P 500(21x).\nPEG 0.54. 이건 말이 안 되는 할인이다.\n\n1/4",
+          "hook": "NVDA $168 | 유가 $100 돌파. 'AI 최대 리스크'라는데 Forward P/E는 S&P보다 싸다",
+          "text": "$NVDA $167.52(-2.17%)\n\n유가 $100 돌파. 후티까지 참전.\nMotley Fool: '$100 유가가 AI 최대 리스크.'\n하지만 Forward P/E 20.64x < S&P 500(21x).\n\n1/4",
           "thread": [
-            "Space-1 우주 AI 데이터센터 발표가 주목받고 있다.\nMotley Fool: '궤도 데이터센터가 현실이 될 수 있다.'\n\n태양광 무제한. 지상 전력 한계를 넘는 비전.\n\n2/4",
-            "42/45 매수, 매도 0. 1조 달러 주문 잔고.\n매크로가 기술주를 깔아뭉개는 중이지\n엔비디아 실적은 변한 게 없다.\n\n3/4",
-            "RSI 41. 목표가 $276(+65%).\n5/20 실적이 촉매.\n\n분할매수 적기. Buy.\n\n4/4"
+            "ARK가 이틀간 213,560주를 팔았다.\nTipRanks: Wood가 인내심을 잃고 있다.\n\n하지만 42/45 매수. 매도 0.\n월스트리트는 움직이지 않았다.\n\n2/4",
+            "Space-1 우주 데이터센터.\n유가 $100 시대에 지상 전력 한계를\n넘는 장기 해법이 될 수 있다.\n\n3/4",
+            "PEG 0.54. 목표가 $276(+65%).\n5/20 실적이 촉매.\n매크로 눌림 속 분할매수. Buy.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "ARK가 팔고, 이사도 팔고. 근데 S&P 500보다 싸다고?",
-          "text": "$NVDA $167.52(-2.17%)\n\nARK 매도. 이사 $3,850만 매도.\n다들 파는데 Forward P/E는 S&P 500보다 낮다.\n\n이게 가능한 건 세상이 불안해서지\n엔비디아가 문제여서가 아니다.\n\n1/4",
+          "hook": "유가 $100이 AI 최대 리스크래. 근데 NVDA가 S&P보다 싸다고?",
+          "text": "$NVDA $167.52(-2.17%)\n\n유가 $100. AI 리스크! (Motley Fool)\nARK 21만주 매도! (TipRanks)\n\n근데 Forward P/E가 S&P 500보다 낮다.\n이건 어떻게 설명할 건데.\n\n1/4",
           "thread": [
-            "우주에 AI 데이터센터를 띄운다는 발표까지 했다.\nSpace-1. SF 영화가 아니라 실제 제품.\n\n지구가 시끄러운 동안\n엔비디아는 우주로 갔다.\n\n2/4",
-            "PEG 0.54. 42명이 Buy. 매도 0.\n1조 달러 주문 잔고.\n\n숫자를 보면 답이 보인다.\n시장만 빼고.\n\n3/4",
-            "5/20 실적 보고 후회하기 전에.\n목표가 $276(+65%).\n\nBuy.\n\n4/4"
+            "유가가 비싸면 데이터센터 전기세가\n올라간다는 논리는 맞다.\n\n그래서 우주에 데이터센터를 띄운다.\nSpace-1. 태양광 무제한.\n\n2/4",
+            "PEG 0.54. 42명 Buy. 매도 0.\n1조 달러 주문 잔고.\n\n숫자가 이렇게 말하는데\n시장만 듣지 않는다.\n\n3/4",
+            "5/20 실적이 모든 걸 증명할 거다.\n그 전에 사는 게 현명하다.\nBuy.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더들, ARK 매도에 이사 매도까지. 흔들리시죠",
-          "text": "$NVDA $167.52(-2.17%)\n\nARK가 줄이고 이사도 팔았어요.\n불안한 게 당연해요.\n하지만 Forward P/E가 S&P 500보다 낮아요.\n\n1/4",
+          "hook": "NVDA 홀더들, 유가 $100에 ARK 매도까지. 불안하시죠",
+          "text": "$NVDA $167.52(-2.17%)\n\n유가 $100에 후티 참전, ARK 매도.\n겹치니 불안한 게 당연해요.\n\n하지만 Forward P/E가 S&P보다 낮아요.\n이 회사는 문제가 아니에요.\n\n1/4",
           "thread": [
-            "Space-1 우주 AI 데이터센터도 발표했어요.\n이 회사는 멈추지 않았어요.\n\n42/45 매수, 1조 달러 주문 잔고.\n펀더멘털은 건재해요.\n\n2/4",
-            "매크로가 힘든 시기예요.\n이란 전쟁, 유가, 시위.\n기술주 전체가 맞고 있어요.\n\n3/4",
-            "PEG 0.54. 목표가 $276(+65%).\n5/20 실적까지 분할매수로 천천히.\n\nBuy. 이 가격이 선물이에요.\n\n4/4"
+            "Space-1 우주 데이터센터도 발표했어요.\n유가 $100이 문제라면\n우주에서 답을 찾겠다는 거예요.\n\n2/4",
+            "42/45 매수. PEG 0.54.\n1조 달러 주문 잔고.\n펀더멘털은 건재해요.\n\n3/4",
+            "목표가 $276(+65%).\n5/20 실적까지 분할매수로.\nBuy. 전쟁이 지나가면 빛날 거예요.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: ARK 매도에도 Forward P/E S&P 500 이하, Space-1 비전",
-          "text": "$NVDA $167.52(-2.17%), 시총 $4.08T\n\nARK 매도, 이사 $3,850만 매도. 하지만 Forward P/E 20.64x < S&P 500(21x). PEG 0.54.\n\nSpace-1 우주 AI 데이터센터가 주목. 42/45 매수, 1조 달러 잔고.\n\nRSI 41. 분할매수 적기. Buy."
+          "hook": "NVDA: 유가 $100 'AI 최대 리스크'인데 Forward P/E는 S&P 이하",
+          "text": "$NVDA $167.52(-2.17%), 시총 $4.08T\n\n유가 $100, 후티 참전. '$100 유가 = AI 최대 리스크'. ARK 213,560주 매도.\n\n하지만 Forward P/E 20.64x < S&P(21x). PEG 0.54. 42/45 매수. Space-1 장기 해법.\n\n분할매수 적기. Buy."
         },
         "witty": {
-          "hook": "ARK도 팔고, 이사도 팔고. 근데 S&P 500보다 싸다",
-          "text": "$NVDA $167.52(-2.17%)\n\n다들 파는데 Forward P/E가 S&P 500보다 낮다. 세상이 불안해서지 엔비디아가 문제가 아니다.\n\n그 사이 우주에 AI 데이터센터를 띄운다는 발표까지 했다. Space-1. 지구가 시끄러운 동안 엔비디아는 우주로 갔다.\n\nPEG 0.54, 42명 Buy, 1조 달러 잔고. 숫자가 답이다. Buy."
+          "hook": "유가 $100 = AI 리스크? 그래서 NVDA가 우주에 데이터센터를 띄운다",
+          "text": "$NVDA $167.52(-2.17%)\n\n유가 $100이 AI 리스크라 한다. 데이터센터 전기세. 맞는 말이다. 근데 NVDA는 우주에 데이터센터를 띄운다(Space-1). 태양광 무제한.\n\nARK 21만주 매도. 하지만 Forward P/E < S&P. PEG 0.54. 42명 Buy.\n\n세상이 불안해서 싸진 거다. Buy."
         },
         "empathy": {
-          "hook": "NVDA 투자자분들, ARK 매도에 이사 매도까지 불안하시죠",
-          "text": "$NVDA $167.52(-2.17%), 고점 -21%.\n\nARK와 이사가 같은 주에 매도했어요. 흔들리는 게 당연해요.\n\n하지만 Forward P/E가 S&P 500보다 낮아요. PEG 0.54. Space-1 우주 비전까지. 회사는 멈추지 않았어요.\n\n42/45 매수. 매크로가 지나가면 펀더멘털이 빛날 거예요.\n\n분할매수. Buy."
+          "hook": "NVDA 투자자분들, 유가 $100에 ARK 매도까지 겹쳐서 걱정되시죠",
+          "text": "$NVDA $167.52(-2.17%)\n\n유가 $100, 후티 참전, ARK 대량 매도. 한꺼번에 겹치니 걱정되시죠.\n\n하지만 Forward P/E가 S&P보다 낮아요. PEG 0.54. 회사는 문제가 아니에요. 세상이 불안한 거예요.\n\n42/45 매수. Space-1 비전. 분할매수.\nBuy. 전쟁이 지나가면 빛날 거예요."
         }
       }
     }
