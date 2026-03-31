@@ -2,16 +2,16 @@
   "symbol": "PLTR",
   "companyName": "Palantir Technologies Inc.",
   "analysisDate": "2026-03-31",
-  "currentPrice": 144.19,
-  "marketCap": "$342.2B",
+  "currentPrice": 137.55,
+  "marketCap": "$326.6B",
   "businessSummary": {
-    "oneLiner": "Government and enterprise AI data analytics platform leader with Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
-    "description": "Palantir builds AI data analytics platforms for government and enterprise. FY2025 revenue $4.48B (+60%). US commercial revenue surpassed $650M (Q4 +137% YoY). Pentagon adopted Maven AI as official program of record for full military deployment. Selected for Golden Dome $185B missile defense software. Tools actively used in Iran war operations.",
+    "oneLiner": "Government and enterprise AI data analytics platform leader, operating Gotham (defense), Foundry (enterprise), and AIP (AI platform)",
+    "description": "Palantir builds AI data analytics platforms for government and enterprise customers. FY2025 revenue hit $4.48B (+60%). U.S. commercial revenue surpassed $650M (Q4 +137% YoY). The Pentagon adopted Maven AI as an official program of record, deploying it across all branches. Palantir was selected as the software developer for the $185B Golden Dome missile defense project. Its tools are actively used in the Iran conflict, and CNBC called it 'defense tech's opportunity.'",
     "howTheyMakeMoney": [
       "Government contracts (Gotham) - defense/intelligence AI analytics",
-      "Enterprise AI platform (Foundry) - enterprise data integration",
+      "Enterprise AI platform (Foundry) - large-scale data integration",
       "AIP (AI Platform) - generative AI integration platform",
-      "AIP Bootcamps - rapid adoption programs for customer conversion"
+      "AIP Bootcamps - rapid customer onboarding programs"
     ],
     "keyProducts": [
       "Gotham",
@@ -26,271 +26,322 @@
   "keyMetrics": [
     {
       "name": "Trailing P/E",
-      "value": "225.8x",
-      "interpretation": "6.6x S&P 500 IT sector avg (34x). 5x software sector avg (45x). Extreme premium persists"
+      "value": "215x",
+      "interpretation": "6.3x the S&P 500 IT sector average of 34x. 4.8x the software sector average of 45x. Still extreme premium despite further decline"
     },
     {
       "name": "Forward P/E (FY2026E)",
-      "value": "117x",
-      "interpretation": "Based on FY2026 EPS est. $1.22. Still 3x growth stock avg of 30-40x"
+      "value": "113x",
+      "interpretation": "Based on FY2026 EPS estimate of $1.22. Still 3x the growth stock average of 30-40x, though slightly compressed by the drop"
     },
     {
       "name": "Revenue Growth (FY2026E)",
       "value": "+65% YoY",
-      "interpretation": "From FY2025 $4.48B to FY2026E $7.40B. Iran war expansion may further accelerate defense AI demand"
+      "interpretation": "From FY2025 $4.48B to FY2026 $7.40B projected. Iran war expansion could further accelerate AI defense demand"
     },
     {
       "name": "P/S Ratio",
-      "value": "76x",
-      "interpretation": "5-7x premium vs software sector avg 10-15x. Still in overvalued territory relative to growth"
+      "value": "73x",
+      "interpretation": "5-7x the software sector average of 10-15x. Slightly compressed from the drop"
     },
     {
-      "name": "Market Cap",
-      "value": "$342.2B",
-      "interpretation": "-30.5% from 52-week high $207. Wyckoff analysis sees $135-140 support"
+      "name": "YTD Performance",
+      "value": "-22%",
+      "interpretation": "Down 22% year-to-date. Down 33.7% from the 52-week high of $207.52. Dropped 3.85% on March 30 alone"
     },
     {
       "name": "RSI",
-      "value": "42",
-      "interpretation": "Neutral zone. Room before oversold but weak bounce momentum in downtrend"
+      "value": "38",
+      "interpretation": "Approaching oversold territory (30). RSI has declined sharply over 4 consecutive down days. Technical bounce possible"
     }
   ],
   "growthDrivers": [
     {
-      "title": "Stellantis 5-Year Partnership Renewal & Expansion (3/30)",
-      "description": "Renewed partnership with world's 4th largest automaker. Proves Foundry enterprise AI expansion"
+      "title": "Stellantis 5-Year Partnership Renewal and Expansion (3/30)",
+      "description": "Palantir renewed and expanded its partnership with Stellantis, the world's 4th largest automaker. A flagship case for Foundry-powered manufacturing AI, proving enterprise customer expansion"
     },
     {
-      "title": "CNBC: Iran War Is Defense Tech Opportunity, Palantir Tools in Active Use (3/28)",
-      "description": "Pentagon contracts worth billions already secured. CEO Karp confirmed real-time combat use. Houthi involvement expands demand"
+      "title": "CNBC: 'Iran War Is Defense Tech's Opportunity, Palantir Tools in Active Use' (3/28)",
+      "description": "CNBC analyzed the Iran war as an opportunity for defense tech companies. Palantir has secured billions in Pentagon contracts, with CEO Karp confirming active battlefield use. Houthi involvement could drive further demand"
     },
     {
-      "title": "Golden Dome $185B Missile Defense Software (3/25)",
-      "description": "Palantir and Anduril developing software for Trump admin's $185B Golden Dome missile defense system. Barchart: developing the 'core'"
+      "title": "Motley Fool: 'Palantir Blockbuster Week' 3 Key Developments (3/29)",
+      "description": "Motley Fool highlighted Golden Dome, Maven official adoption, and Polymarket partnership as 'the three pillars of a blockbuster week.' Continued fundamental strengthening"
     },
     {
-      "title": "Mizuho Reiterates Outperform $195 Target (3/31)",
-      "description": "Believes Palantir positioned for total revenue growth acceleration and margin expansion"
-    },
-    {
-      "title": "Maven AI Full Military Adoption (Program of Record, 3/23)",
-      "description": "Pentagon designated Maven Smart System as official program of record. Long-term deployment across all military branches"
+      "title": "Golden Dome $185B Missile Defense Software Selection (3/25)",
+      "description": "Palantir and Anduril selected to co-develop software for Trump administration's $185B Golden Dome missile defense system. Urgency amplified by Houthi missile attacks"
     },
     {
       "title": "Polymarket AI Anti-Fraud Partnership (3/26)",
-      "description": "Vergence AI performing real-time trading surveillance and user behavior monitoring for Polymarket"
+      "description": "Palantir's Vergence AI handles real-time trade surveillance and user behavior monitoring for Polymarket. Motley Fool called it 'the sports betting watchdog.' Entry point into financial services"
+    },
+    {
+      "title": "Maven AI Official Military-Wide Adoption (Program of Record, 3/23)",
+      "description": "Pentagon designated Maven Smart System as an official program of record, confirming long-term deployment across all military branches. Battle-tested in the Iran conflict"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "20+ years of government defense AI track record, top-level security clearances, Maven military adoption, Iran war combat verification. Moats money cannot buy",
+    "summary": "20+ years of government defense AI track record, top-level security clearances, Maven military-wide adoption, Iran war battlefield validation. Moats that money cannot buy",
     "moats": [
       {
-        "type": "Switching Cost",
-        "description": "Ontology platform deeply integrated into government/military systems. Extremely high replacement costs"
+        "type": "Switching Costs",
+        "description": "Deeply integrated Ontology platform in government/military systems. Replacement costs are prohibitively high once deployed"
       },
       {
         "type": "Security Clearance Barrier",
-        "description": "Top-level security clearances and 20+ year government trust. Virtually impossible for new entrants"
+        "description": "Top-level security clearances and 20+ years of government trust. Virtually impossible for new entrants to replicate"
       },
       {
-        "type": "Combat Verification",
-        "description": "Real-time targeting use in Iran war. Houthi involvement expands demand"
+        "type": "Battlefield Validation",
+        "description": "Real-time targeting in the Iran conflict. Expanding frontlines with Houthi involvement drives additional demand"
       },
       {
         "type": "Network Effects",
-        "description": "Rapid customer acquisition via AIP Bootcamps and Ontology data model ecosystem expansion"
+        "description": "Rapid customer acquisition through AIP Bootcamps and expanding Ontology data model ecosystem"
       }
     ],
     "competitors": [
       {
         "name": "Anduril Industries",
-        "detail": "Defense AI/drone startup. Partnering with Palantir on Golden Dome. $60B valuation"
+        "detail": "Defense AI/drone startup. Collaborates with Palantir on Golden Dome. $60B valuation"
       },
       {
         "name": "Snowflake / Databricks",
-        "detail": "Enterprise data platforms. Far behind Palantir in government/defense access"
+        "detail": "Enterprise data platform competitors. Significantly behind on government/defense access"
       },
       {
         "name": "Microsoft / AWS",
-        "detail": "Cloud giants entering government AI. Cannot match Ontology-level integration"
+        "detail": "Cloud giants entering government AI. Cannot match Ontology-level deep integration"
       },
       {
         "name": "C3.ai",
-        "detail": "Enterprise AI platform. Significantly behind in revenue scale and growth"
+        "detail": "Enterprise AI platform. Far behind in both revenue scale and growth rate"
       }
     ]
   },
   "recentNews": [
     {
       "date": "2026-03-31",
-      "headline": "Barchart: Palantir Developing the Core of Golden Dome. Buy Now?",
-      "significance": "Mizuho Securities reiterates Outperform $195 target. Revenue growth acceleration and margin expansion expected",
+      "headline": "247WallSt: 'Palantir Drops 4%: Can AI Partnerships Justify One of the Market's Most Expensive Valuations?'",
+      "significance": "247WallSt analyzed the 4% drop: 'Today's decline is less about Palantir's business and more about the price investors are willing to pay in a high-fear, risk-off environment.' Watch for $140 and $145 reclamation. YTD -22%",
+      "url": "https://247wallst.com/investing/2026/03/30/palantir-drops-4-can-its-ai-partnerships-justify-one-of-the-markets-most-expensive-valuations/"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Parameter.io: PLTR Falls 3.85% to $137.55 Despite 5-Year Stellantis AI Deal Expansion",
+      "significance": "Despite the Stellantis partnership renewal, shares fell 3.85% and dropped another 0.81% after hours. Macro selling pressure overwhelmed the positive catalyst",
+      "url": "https://parameter.io/palantir-technologies-inc-pltr-stock-falls-3-85-despite-5-year-stellantis-ai-deal-expansion/"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Barchart: 'Palantir Is Developing the Core of the Golden Dome. Does That Make PLTR Stock a Buy?'",
+      "significance": "Mizuho Securities reaffirmed Outperform rating with $195 target. Revenue growth acceleration, margin expansion outlook. Golden Dome could reshape long-term defense structure",
       "url": "https://www.barchart.com/story/news/1041876/palantir-is-developing-the-core-of-the-golden-dome-does-that-make-pltr-stock-a-buy-now"
     },
     {
       "date": "2026-03-31",
-      "headline": "TradingKey: PLTR Down 3.81% on 3/30, Insider Selling + Macro Pressure",
-      "significance": "Continuous March selling by Thiel and executives weighing on sentiment",
+      "headline": "TradingKey: PLTR Down 3.81%, Double Pressure from Insider Selling and Macro Headwinds",
+      "significance": "Peter Thiel and executives continued selling throughout March 2026, weighing on investor sentiment. Potential internal concerns about near-term growth or current valuation",
       "url": "https://www.tradingkey.com/news/Market-Movers/261734964-market-movers-pltr-20260330"
     },
     {
       "date": "2026-03-30",
-      "headline": "Stellantis 5-Year Partnership Renewal and Expansion",
-      "significance": "Long-term partnership with 4th largest global automaker renewed. Foundry success story",
+      "headline": "Stellantis 5-Year Partnership Renewal and Expansion Announced",
+      "significance": "Long-term partnership renewal with the world's 4th largest automaker. Proven success of Foundry-based manufacturing AI",
       "url": "https://www.stocktitan.net/news/PLTR/palantir-technologies-announces-the-renewal-and-expansion-of-its-3ylapm97a44y.html"
-    },
-    {
-      "date": "2026-03-29",
-      "headline": "Simply Wall St: Golden Dome Reshapes Defense Exposure and Valuation Debate",
-      "significance": "Could lead to long-term operations/maintenance contracts. Larger scope than Maven",
-      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/palantirs-golden-dome-role-reshapes-defense-exposure-and-val"
-    },
-    {
-      "date": "2026-03-28",
-      "headline": "Seeking Alpha: Peter Thiel Sells Palantir; He May Regret It",
-      "significance": "Thiel sale is 2% of holdings, pre-arranged 10b5-1 plan. Not a fundamental weakness signal",
-      "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it"
     }
   ],
   "analystOpinions": {
     "consensusTarget": 198.59,
     "highTarget": 260,
     "lowTarget": 50,
-    "upsidePercent": 37.7,
+    "upsidePercent": 44.4,
     "buyCount": 17,
     "holdCount": 14,
     "sellCount": 5,
-    "notableComment": "Mizuho reiterates $195 Outperform. 16 analysts median target $202.5 (Quiver Quant). Thiel sale is 10b5-1 plan, fundamentally irrelevant"
+    "notableComment": "Mizuho $195 Outperform reaffirmed. MarketBeat consensus $198.59 (+44.4%). 247WallSt: 'Not about the business, about macro fear'"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "Extreme Valuation: P/E 225.8x",
-      "description": "5x software sector avg (45x). Motley Fool: need 489% earnings growth to justify 50x P/E. All positives already priced in"
+      "title": "Down 3.85% on catalyst day, macro selloff overwhelming fundamentals",
+      "description": "Fell 3.85% on the day of Stellantis 5-year deal announcement, dropped another 0.81% after hours. 247WallSt: 'less about Palantir's business, more about the price in a high-fear, risk-off environment.' Positive catalysts failing to defend the stock"
+    },
+    {
+      "severity": "critical",
+      "title": "Extreme valuation, P/E 215x",
+      "description": "P/E 215x (6.3x IT sector average of 34x). Motley Fool calculated earnings need to grow 330%+ to bring P/E down to 50x. Even war benefits are already priced in"
     },
     {
       "severity": "high",
-      "title": "Oil $100+, Macro Tech Selloff",
-      "description": "Houthi involvement, oil $100+, inflation reignition. Even defense beneficiary cannot escape high-valuation tech selloff"
+      "title": "Oil at $100, macro tech selloff",
+      "description": "Houthi involvement, oil above $100, inflation reignition fears. Selling pressure on high-valuation tech stocks outweighs defense tailwinds"
     },
     {
       "severity": "high",
-      "title": "Below 50-day and 200-day MA, Technical Weakness",
-      "description": "Below 50-day ($149) and 200-day ($169). Wyckoff analysis sees $135-140 support"
+      "title": "Peter Thiel and executive continuous insider selling in March",
+      "description": "TradingKey reports persistent insider selling throughout March. Seeking Alpha counters with 10b5-1 plan argument, but sentiment impact is negative"
+    },
+    {
+      "severity": "high",
+      "title": "Below both 50-day and 200-day SMA, YTD -22%",
+      "description": "Below SMA50 ($149) and SMA200 ($169). Down 3.85% on 3/30, deepening technical weakness. Support at $126 is wide open"
     },
     {
       "severity": "medium",
-      "title": "Insider Selling: Thiel + Executives",
-      "description": "Peter Thiel $290M (2M shares) + executive selling throughout March. 10b5-1 plan but sentiment impact"
-    },
-    {
-      "severity": "medium",
-      "title": "Stock-Based Compensation Dilution",
-      "description": "Share count growing 4.67% annually. Ongoing SBC dilution concern"
+      "title": "Divided analyst opinions",
+      "description": "17 Buy, 14 Hold, 5 Sell. Market skepticism on valuation persists"
     }
   ],
   "buyReasons": [
     {
-      "title": "Golden Dome Core Developer + Mizuho $195",
-      "rationale": "Developing core software for $185B Golden Dome. Mizuho reiterates Outperform. Larger than Maven in scope"
+      "title": "Stellantis 5-Year Renewal + Iran War: Dual Defense/Enterprise Tailwinds",
+      "rationale": "Stellantis 5-year partnership renewal (enterprise) plus active battlefield use per CNBC (defense). Demand growing on both fronts. Golden Dome missile defense urgency rising"
     },
     {
-      "title": "Defense + Enterprise Dual Tailwind",
-      "rationale": "Stellantis 5yr renewal (enterprise) + Iran war combat use (defense). Rare dual demand acceleration"
+      "title": "247WallSt: 'Decline Is About Macro Fear, Not the Business'",
+      "rationale": "The drop is driven by risk-off environment, not fundamental deterioration. Blockbuster week catalysts remain unreflected in the stock. Potential snap-back when macro stabilizes"
     },
     {
-      "title": "-30.5% from 52-Week High",
-      "rationale": "From $207 high. Fundamentals strongest ever with Golden Dome+Maven+Stellantis but price suppressed by macro"
+      "title": "Down 34% from highs, RSI 38 approaching oversold",
+      "rationale": "Down 34% from 52-week high of $207. RSI 38 approaching oversold territory. Technical bounce probability increasing"
     },
     {
-      "title": "Institutional Buying Continues",
-      "rationale": "Czech central bank, UNICOM Systems, Spire Wealth continuing to build positions"
+      "title": "Consensus $199 (+44%), Mizuho $195 Outperform Reaffirmed",
+      "rationale": "Barchart highlighted Golden Dome Core role as Mizuho reaffirmed $195. The drop has expanded upside from 37.7% to 44.4%"
     }
   ],
   "technicalPosition": {
     "week52High": 207.52,
     "week52Low": 66.12,
-    "currentPositionPercent": 55.2,
-    "sma50": 148.62,
+    "currentPositionPercent": 50.5,
+    "sma50": 149,
     "sma50Signal": "below",
-    "sma200": 168.58,
+    "sma200": 169,
     "sma200Signal": "below",
-    "rsi": 42,
+    "rsi": 38,
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Barchart highlights Golden Dome core role with Mizuho $195 Outperform reaffirmed. Golden Dome is larger than Maven in scope, potentially leading to long-term O&M contracts (Simply Wall St)",
-    "TradingKey notes Thiel and executive selling throughout March weighing on sentiment. But Seeking Alpha argues Thiel sale is just 2% of holdings under 10b5-1 plan",
-    "P/E 225.8x (5x software sector avg), oil $100+, macro selloff. Fundamentals strongest ever with Golden Dome+Maven+Stellantis but price reflects everything. Hold, small DCA only"
+    "Palantir fell 3.85% to $137.55 on the same day it announced its Stellantis 5-year partnership renewal. 247WallSt concluded: 'Today's decline is less about Palantir's business and more about the price investors are willing to pay in a high-fear, risk-off environment.' Down another 0.81% after hours",
+    "P/E at 215x (4.8x the software sector average). Thiel and executives sold throughout March, though Seeking Alpha notes it's a pre-scheduled 10b5-1 plan. Barchart highlighted Golden Dome Core development as Mizuho reaffirmed $195 Outperform",
+    "Below SMA50 ($149) and SMA200 ($169). YTD -22%, down 34% from peak. RSI 38 approaching oversold. Consensus $199 (+44%). Fundamentals are the strongest ever, but macro is overwhelming. Hold, scale in after macro stabilizes"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Golden Dome core developer with Mizuho $195 reaffirmed. Thiel sale (10b5-1) fundamentally irrelevant. But P/E 225.8x and macro headwinds limit near-term upside. Small DCA only",
-    "horizon": "6-12개월"
+    "summary": "The 3.85% drop despite Stellantis 5-year deal shows macro selloff's power. Golden Dome Core + Maven + Stellantis make fundamentals the strongest ever, but P/E 215x and oil at $100 cap near-term upside. Down 34% from peak with RSI 38 approaching oversold, making valuation more attractive. Hold, scale in after macro stabilizes",
+    "horizon": "6-12 months"
   },
   "sources": [
     {
-      "name": "StockTitan - Stellantis 5년 파트너십 갱신",
+      "name": "247WallSt - 'Palantir Drops 4%, Can AI Partnerships Justify Valuation?'",
+      "url": "https://247wallst.com/investing/2026/03/30/palantir-drops-4-can-its-ai-partnerships-justify-one-of-the-markets-most-expensive-valuations/",
+      "description": "'Not about the business, about macro fear.' $137, YTD -22%"
+    },
+    {
+      "name": "Parameter.io - PLTR Falls 3.85% Despite Stellantis Deal",
+      "url": "https://parameter.io/palantir-technologies-inc-pltr-stock-falls-3-85-despite-5-year-stellantis-ai-deal-expansion/",
+      "description": "Closed at $137.55 despite Stellantis 5-year renewal. Down 0.81% after hours"
+    },
+    {
+      "name": "Barchart - Golden Dome Core, Mizuho $195 Reaffirmed",
+      "url": "https://www.barchart.com/story/news/1041876/palantir-is-developing-the-core-of-the-golden-dome-does-that-make-pltr-stock-a-buy-now",
+      "description": "Mizuho Outperform $195 reaffirmed. Golden Dome Core developer role analysis"
+    },
+    {
+      "name": "TradingKey - PLTR -3.81%, Insider Selling + Macro Double Pressure",
+      "url": "https://www.tradingkey.com/news/Market-Movers/261734964-market-movers-pltr-20260330",
+      "description": "Thiel+executives continuous March selling, macro headwinds analysis"
+    },
+    {
+      "name": "StockTitan - Stellantis 5-Year Partnership Renewal",
       "url": "https://www.stocktitan.net/news/PLTR/palantir-technologies-announces-the-renewal-and-expansion-of-its-3ylapm97a44y.html",
-      "description": "Palantir-Stellantis 5년 파트너십 갱신 및 확대 공식 발표"
+      "description": "Official announcement of Palantir-Stellantis 5-year partnership renewal and expansion"
     },
     {
-      "name": "CNBC - '이란 전쟁은 방산 테크의 기회, Palantir 실전 사용'",
+      "name": "CNBC - 'Iran War Is Defense Tech's Opportunity'",
       "url": "https://www.cnbc.com/2026/03/28/iran-war-defense-tech-drones-trump-hegseth.html",
-      "description": "Palantir 수십억 달러 Pentagon 계약, 이란 전쟁 실전 사용"
+      "description": "Palantir's billions in Pentagon contracts, active use in Iran conflict"
     },
     {
-      "name": "Motley Fool - Palantir AI '스포츠 베팅 감시견'",
-      "url": "https://www.fool.com/investing/2026/03/30/how-palantirs-artificial-intelligence-ai-is-becomi/",
-      "description": "Vergence AI Polymarket 사기방지, 국방→상업 확장 분석"
+      "name": "TIKR - 'Palantir Down 31% from Peak, Is It a Buy?'",
+      "url": "https://www.tikr.com/blog/palantir-has-fallen-31-from-its-peak-is-pltr-stock-a-buy-in-2026",
+      "description": "Strongest quarter ever yet -31% from peak. Fundamentals vs valuation analysis"
     },
     {
-      "name": "Motley Fool - 'Palantir 블록버스터 한 주'",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-just-banked-blockbuster-222200371.html",
-      "description": "Golden Dome, Maven, Polymarket 3대 핵심 발전"
+      "name": "MarketBeat - PLTR Target $198.59",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/forecast/",
+      "description": "Consensus $198.59. 17 Buy, 14 Hold, 5 Sell"
     },
     {
-      "name": "Motley Fool - '2030년 PLTR 주가 예측'",
-      "url": "https://www.fool.com/investing/2026/03/29/prediction-this-will-be-palantirs-stock-price-in-2/",
-      "description": "P/E 250x 정당화에 이익 489% 성장 필요"
-    },
-    {
-      "name": "TheMarketDaily - UNICOM Systems PLTR 추가 매수",
-      "url": "https://www.themarketsdaily.com/2026/03/29/palantir-technologies-inc-pltr-shares-acquired-by-unicom-systems-inc.html",
-      "description": "UNICOM Systems PLTR 포지션 3.3% 확대"
-    },
-    {
-      "name": "Reuters - Golden Dome 소프트웨어",
-      "url": "https://www.reuters.com/business/aerospace-defense/anduril-palantir-developing-golden-dome-missile-shields-software-source-says-2026-03-24/",
-      "description": "$185B Golden Dome 미사일 방어 소프트웨어 선정"
-    },
-    {
-      "name": "CNBC - 후티 미사일, 유가 상승",
-      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
-      "description": "후티 반군 이스라엘 미사일 공격, 전쟁 확대"
-    },
-    {
-      "name": "StockAnalysis - PLTR 통계",
-      "url": "https://stockanalysis.com/stocks/pltr/statistics/",
-      "description": "P/E 250x, Forward PE 117x, RSI 45"
+      "name": "Seeking Alpha - Thiel Selling, 10b5-1 Plan",
+      "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it",
+      "description": "Thiel's 2M share sale is 2% of holdings, pre-scheduled 10b5-1 plan"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $144 | Building the Core of Golden Dome. Mizuho $195 reaffirmed",
-      "text": "$PLTR $144.19\n\nBarchart: Palantir developing Golden Dome's core.\nMizuho reiterates Outperform $195.\nBut P/E 225.8x, Thiel selling.\n\n1/3",
+      "hook": "PLTR $137.55 | Fell 3.85% ON the day of Stellantis 5-year deal. 'Not about business, about fear'",
+      "text": "$PLTR $137.55(-3.85%)\n\nAnnounced Stellantis 5-year renewal.\nFell 3.85% that same day.\n247WallSt: 'Not business. It's fear.'\n\n1/4",
       "thread": [
-        "Golden Dome + Maven + Stellantis 5yr.\nFundamentals never stronger.\nBut software avg P/E is 45x. PLTR is 225x.\n\n2/3",
-        "Consensus $199 (+38%). 30% off highs.\nHold. Small DCA only.\n\n3/3"
+        "Golden Dome Core + Maven + Stellantis.\nFundamentals are the strongest ever.\nBut P/E 215x. Oil $100.\nMacro overwhelms catalysts.\n\n2/4",
+        "Thiel+execs sold all March.\n10b5-1 plan? Sure.\nStill hurts sentiment.\nYTD -22%. Peak -34%.\n\n3/4",
+        "Consensus $199(+44%). RSI 38.\nDrop widens upside.\nHold. Scale in after macro settles.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR: Building Golden Dome Core. Mizuho $195. But P/E 225.8x",
-      "text": "$PLTR $144.19. Barchart: developing Golden Dome core. Mizuho Outperform $195. Fundamentals strongest ever.\n\nBut P/E 225.8x (5x software avg). Thiel selling. Macro pressure.\n\nConsensus $199 (+38%). Hold, small DCA only."
+      "hook": "PLTR: Fell 3.85% on Stellantis deal day. When catalysts stop working",
+      "text": "$PLTR $137.55(-3.85%)\n\nAnnounced Stellantis 5-year renewal and fell 3.85%. 247WallSt: 'Not about Palantir's business, about the price in a high-fear environment.'\n\nGolden Dome, Maven, Stellantis. Fundamentals are peak. P/E 215x and macro are the wall.\n\nConsensus $199(+44%). RSI 38. Hold, wait for macro."
     },
     "telegram": {
       "hook": "PLTR Daily Analysis (3/31)",
-      "text": "Palantir $144.19 | MCap $342.2B\nP/E 225.8x | Fwd 117x | RSI 42\n\nKey Changes\n- Barchart: Golden Dome core developer\n- Mizuho $195 Outperform reaffirmed\n- Thiel+exec March selling (10b5-1)\n\nBullish: Golden Dome, Maven, Stellantis\nRisks: P/E 225.8x, oil $100+, insider selling\n\nVerdict: Hold. Small DCA only"
+      "text": "Palantir $137.55 (-3.85%) | MCap $326.6B\nP/E 215x | Fwd 113x | RSI 38\n\nKey Changes\n- Fell 3.85% despite Stellantis 5-year deal\n- 247WallSt: 'Not business, macro fear'\n- After-hours down 0.81% more\n- Thiel+execs continuous March selling\n\nBullish: Golden Dome Core, Maven, Stellantis\nBearish: P/E 215x, oil $100, macro selloff\n\nTechnical: Below SMA50($149), SMA200($169)\nTarget: $199 (+44.4%)\nVerdict: Hold. Scale in after macro stabilizes"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "PLTR $137.55 | Fell 3.85% ON the day of Stellantis 5-year deal. 'Not about business, about fear'",
+          "text": "$PLTR $137.55(-3.85%)\n\nAnnounced Stellantis 5-year renewal.\nFell 3.85% that same day.\n247WallSt: 'Not business. It's fear.'\n\n1/4",
+          "thread": [
+            "Golden Dome Core + Maven + Stellantis.\nFundamentals are the strongest ever.\nBut P/E 215x. Oil $100.\nMacro overwhelms catalysts.\n\n2/4",
+            "Thiel+execs sold all March.\n10b5-1 plan? Sure.\nStill hurts sentiment.\nYTD -22%. Peak -34%.\n\n3/4",
+            "Consensus $199(+44%). RSI 38.\nDrop widens upside.\nHold. Scale in after macro settles.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "Stellantis 5-year deal? Great news. Stock fell 3.85%. Welcome to PLTR",
+          "text": "$PLTR $137.55(-3.85%)\n\nStelantis 5-year deal.\nGolden Dome Core.\nMaven military-wide.\n\nCatalysts line up daily.\nStock drops daily.\n\n1/4",
+          "thread": [
+            "247WallSt: 'Business is fine.'\n'Price is the problem.'\n\nP/E 215x. That one number explains it.\n\n2/4",
+            "Thiel sells, Mizuho says buy.\nWho's right?\nTarget $199(+44%).\n\n3/4",
+            "Peak -34%. RSI 38.\nBuying at the bottom is how you make money.\nProblem: is this the bottom?\nHold.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "PLTR holders, -3.85% on a catalyst day. Frustrating when good news doesn't work",
+          "text": "$PLTR $137.55(-3.85%)\n\nStelantis 5-year renewal, great news.\nBut the stock fell again.\nFrustrating. The business is fine.\n\n1/4",
+          "thread": [
+            "Even 247WallSt agrees.\n'It's not the business, it's the fear.'\nOil $100, macro pressing everything.\n\n2/4",
+            "Golden Dome, Maven, Stellantis.\nThe company is at its strongest ever.\nMarket needs time to catch up.\n\n3/4",
+            "Consensus $199(+44%). RSI 38.\nNo rush. Scale in gradually.\nHold.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "PLTR: Fell 3.85% on Stellantis deal day. Macro fear overrides catalysts",
+          "text": "$PLTR $137.55(-3.85%). Fell on Stellantis day. 'Not about business, about macro fear' (247WallSt).\n\nP/E 215x. Golden Dome+Maven+Stellantis fundamentals at peak.\n\nConsensus $199(+44%). Hold."
+        },
+        "witty": {
+          "hook": "Daily catalysts, daily drops. P/E 215x: where good news goes to die",
+          "text": "$PLTR $137.55(-3.85%). Stellantis deal, Golden Dome, Maven. Catalysts lining up. P/E 215x blocks them all.\n\nThiel sells. Mizuho says buy. Who's right?\n\nHold."
+        },
+        "empathy": {
+          "hook": "PLTR holders, -3.85% on catalyst day. Business is fine, the market is scared",
+          "text": "$PLTR $137.55(-3.85%). Stellantis renewal, but stock fell. Frustrating.\n\n247WallSt: 'Not about business, about fear.' Golden Dome+Maven. Strongest ever.\n\nConsensus $199(+44%). Don't rush. Hold."
+        }
+      }
     }
   }
 }
