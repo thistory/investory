@@ -1,0 +1,330 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-03-31",
+  "currentPrice": 163.52,
+  "marketCap": "$4.06T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 2027년까지 Blackwell과 Rubin 칩 누적 주문 1조 달러 전망을 제시하며 AI 추론 시장 공략을 본격화했다.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
+    ],
+    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE", "Space-1"]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "33.6x",
+      "interpretation": "반도체 섹터 평균 25x, S&P 500 평균 22x 대비 소폭 프리미엄. 65% 성장률 감안 시 PEG 0.52로 극단적 저평가"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "20.1x",
+      "interpretation": "S&P 500 평균(약 21x)보다 낮다. 세계 1위 AI 기업이 시장 평균 이하. 10년 만에 처음 있는 현상(Motley Fool)"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$2,159억",
+      "interpretation": "전년 대비 +65% 성장. 데이터센터 매출이 80% 이상 차지. 순이익률 55.6%"
+    },
+    {
+      "name": "PEG Ratio",
+      "value": "0.52",
+      "interpretation": "PEG 1.0 이하는 성장 대비 저평가. 0.52는 극단적 저평가 신호. 고성장+저PEG 조합은 매우 드물다"
+    },
+    {
+      "name": "YTD 수익률",
+      "value": "-11%",
+      "interpretation": "연초 대비 11% 하락. 매출 65% 성장에도 주가가 하락한 것은 매크로 셀오프와 유가 $100이 원인"
+    },
+    {
+      "name": "다음 실적발표",
+      "value": "2026년 5월 20일",
+      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 현황 확인 예정"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Motley Fool: '$100 유가가 AI 주식의 최대 리스크' (3/29)",
+      "description": "유가 $100 돌파로 데이터센터 전력 비용과 인플레이션 우려가 AI 인프라 투자에 영향. 하지만 AI 칩 수요 자체는 유가와 무관하게 구조적 성장 추세"
+    },
+    {
+      "title": "Motley Fool: '투자자들이 NVDA에 대해 완전히 틀렸다' (3/28)",
+      "description": "GTC 이후에도 수학적으로 NVDA가 여전히 의미있게 저평가되어 있다고 분석. 시장이 펀더멘털을 무시하고 있다는 강력한 주장"
+    },
+    {
+      "title": "Space-1: 우주 AI 데이터센터 발표, '진짜 시사점' (3/29)",
+      "description": "NVIDIA가 Vera Rubin Space-1 우주용 AI 모듈을 발표했다. Motley Fool과 Forbes는 '궤도 데이터센터가 현실이 될 수 있다'고 분석. 무제한 태양광 에너지로 지상 전력 제약을 넘어서는 장기 비전"
+    },
+    {
+      "title": "Forward P/E가 S&P 500 아래로 하락, 역사적 이상 현상 (3/27)",
+      "description": "Motley Fool이 NVDA의 Forward P/E가 S&P 500 평균(약 21x) 이하로 하락한 것은 전례 없는 이상 현상이라 보도. AI 리더 기업이 시장 평균보다 싸게 거래되는 것은 밸류에이션 재평가의 신호"
+    },
+    {
+      "title": "Swiss Life Asset Management, 포지션 5.3% 확대 (3/30)",
+      "description": "스위스 최대 보험사 Swiss Life의 자산운용 부문이 NVDA 보유량을 5.3% 늘렸다. 유럽 기관 투자자의 지속적 매수"
+    },
+    {
+      "title": "2027년까지 AI 칩 누적 주문 1조 달러",
+      "description": "Blackwell과 Vera Rubin 칩의 누적 주문이 2027년까지 최소 1조 달러에 달할 전망. 기존 $5,000억에서 2배 상향"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
+    "moats": [
+      {
+        "type": "생태계 락인",
+        "description": "CUDA 개발자 생태계는 500만명 이상. 경쟁사 전환 비용이 극히 높아 GPU 시장 지배력 유지"
+      },
+      {
+        "type": "수직통합",
+        "description": "GPU, CPU(Vera), 네트워킹(Spectrum-X), 소프트웨어(CUDA, NIM, NemoClaw)까지 풀스택 제공"
+      },
+      {
+        "type": "연간 아키텍처 로드맵",
+        "description": "Hopper, Blackwell, Vera Rubin으로 이어지는 연간 신제품 출시 사이클. 경쟁사 대비 2-3년 기술 격차"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY26 매출 $2,159억으로 반도체 업계 최대. R&D 투자 규모에서 경쟁사 압도"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X로 AI GPU 시장 진출했으나 소프트웨어 생태계와 규모에서 큰 격차. 데이터센터 AI 점유율 10% 미만"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩으로 내부 사용에 강점. 외부 시장 영향력은 제한적"
+      },
+      {
+        "name": "Amazon Trainium",
+        "detail": "AWS 내부 최적화 칩. 범용성에서 NVIDIA에 뒤처짐"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "커스텀 ASIC으로 대형 클라우드 업체에 공급. 범용 시장에서는 경쟁 불가"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-31",
+      "headline": "Motley Fool: 'NVDA, 10년 만에 처음 있는 일. 일생일대의 매수 기회인가?'",
+      "significance": "NVDA의 Forward P/E가 S&P 500 이하로 떨어진 것은 10년 만에 처음. Motley Fool은 '일생일대까지는 아니지만 몇 년 만에 최고의 기회'라고 분석. YTD -11% 속 강한 실적과의 괴리를 강조",
+      "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/"
+    },
+    {
+      "date": "2026-03-30",
+      "headline": "Swiss Life Asset Management, NVDA 포지션 5.3% 확대",
+      "significance": "스위스 최대 보험사의 자산운용 부문이 NVDA 보유량 확대. ARK 매도와 대조적으로 유럽 기관은 매수 지속",
+      "url": "https://www.defenseworld.net/2026/03/30/nvidia-corporation-nvda-position-raised-by-swiss-life-asset-management-ltd.html"
+    },
+    {
+      "date": "2026-03-30",
+      "headline": "유가 WTI $100 돌파, Motley Fool: '$100 유가가 AI 최대 리스크'",
+      "significance": "데이터센터 전력 비용 상승과 인플레이션이 AI 투자 심리를 위축. 하지만 AI 칩 수요는 구조적이며 유가와 무관",
+      "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/"
+    },
+    {
+      "date": "2026-03-29",
+      "headline": "TipRanks: ARK/Cathie Wood, NVDA 213,560주 매도",
+      "significance": "ARK가 이틀간 213,560주 매도. TipRanks는 Wood가 인내심을 잃고 있다고 분석. 이사 Stevens $3,850만 내부자 매도도 같은 주",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience"
+    },
+    {
+      "date": "2026-03-29",
+      "headline": "Motley Fool: Space-1 우주 AI 데이터센터 '진짜 시사점'",
+      "significance": "Vera Rubin Space-1 궤도 AI 모듈이 실현 가능한 기술로 분석. 무제한 태양광으로 지상 전력 제약을 넘어서는 비전",
+      "url": "https://www.fool.com/investing/2026/03/29/nvidia-just-announced-hardware-for-ai-data-centers/"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 276,
+    "highTarget": 360,
+    "lowTarget": 150,
+    "upsidePercent": 68.8,
+    "buyCount": 42,
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "42/45 매수, 매도 0. Motley Fool: '10년 만에 처음 있는 일, 몇 년 만에 최고의 기회'. ARK 매도에도 Swiss Life, 유럽 기관 매수 지속"
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "유가 $100 돌파, '$100 유가가 AI 주식의 최대 리스크'",
+      "description": "Motley Fool이 '$100 유가가 AI 주식의 최대 리스크'라고 분석. 데이터센터 전력 비용 상승, 인플레이션 우려로 AI 인프라 투자 심리 위축"
+    },
+    {
+      "severity": "high",
+      "title": "ARK 213,560주 매도 + 이사 내부자 매도",
+      "description": "ARK가 이틀간 213,560주 NVDA를 매도. TipRanks는 Wood가 인내심을 잃었다고 분석. 이사 Stevens $3,850만 매도와 같은 주"
+    },
+    {
+      "severity": "high",
+      "title": "50일선, 200일선 모두 하회, YTD -11%",
+      "description": "50일선($170.80)과 200일선($173.77) 아래. 연초 대비 -11%. 65% 성장에도 주가가 하락하는 이례적 상황"
+    },
+    {
+      "severity": "high",
+      "title": "이란 전쟁 확대와 매크로 환경 급격 악화",
+      "description": "후티 참전, 유가 $100+, 인플레이션 재점화 우려로 금리 인하 기대 후퇴. 고밸류 기술주에 최악의 매크로"
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 규제 지속과 밀수 사건 여파",
+      "description": "AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "10년 만에 처음: Forward P/E가 S&P 500 이하",
+      "rationale": "Forward P/E 20.1x가 S&P 500 평균(21x) 아래로 떨어졌다. Motley Fool은 '몇 년 만에 최고의 매수 기회'라고 분석. PEG 0.52는 극단적 저평가"
+    },
+    {
+      "title": "유럽 기관(Swiss Life) 매수 지속, ARK 매도와 대조",
+      "rationale": "ARK 213,560주 매도에도 Swiss Life 5.3% 확대. 유럽 기관의 장기 매수는 펀더멘털 신뢰의 증거"
+    },
+    {
+      "title": "42/45 애널리스트 매수, 69% 상승 여력",
+      "rationale": "컨센서스 $276, 최고 $360. 매도 의견 0명. 유가 리스크에도 변함없는 월스트리트 확신"
+    },
+    {
+      "title": "1조 달러 주문 잔고와 실적 가시성",
+      "rationale": "Blackwell+Vera Rubin 누적 주문 1조 달러. 5/20 실적이 촉매제. 향후 2-3년 실적 가시성 최고"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 61.2,
+    "sma50": 170.80,
+    "sma50Signal": "below",
+    "sma200": 173.77,
+    "sma200Signal": "below",
+    "rsi": 39,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "Motley Fool이 'NVDA가 10년 만에 처음 하는 일'이라며 Forward P/E가 S&P 500 이하로 떨어진 것을 주목했다. '일생일대까지는 아니지만 몇 년 만에 최고의 기회'라는 분석. YTD -11%지만 매출은 65% 성장",
+    "유가 $100이 AI 최대 리스크(데이터센터 전력 비용)이지만 AI 칩 수요는 구조적이다. ARK 21만주 매도와 Swiss Life 5.3% 매수가 공존. 42/45 매수, 매도 0명. PEG 0.52는 극단적 저평가 신호",
+    "$163.52, 50일선($171), 200일선($174) 아래. RSI 39. 매크로 눌림 속 분할매수 유효. 5/20 실적이 촉매. Buy"
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Forward P/E가 S&P 500 이하로 떨어진 것은 10년 만에 처음이다. 유가 $100과 매크로 역풍이 주가를 눌렀지만 AI 칩 수요는 구조적이며 1조 달러 주문 잔고가 뒷받침한다. PEG 0.52, 42/45 매수, 매도 0. 매크로 눌림을 기회로 분할매수 유효",
+    "horizon": "6-12개월"
+  },
+  "sources": [
+    {
+      "name": "Motley Fool - '10년 만에 처음, 매수 기회인가'",
+      "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/",
+      "description": "Forward P/E S&P 500 이하 하락은 10년 만에 처음. 몇 년 만에 최고 기회"
+    },
+    {
+      "name": "Robinhood - NVDA 실시간 시세",
+      "url": "https://robinhood.com/us/en/stocks/NVDA/",
+      "description": "$163.52 종가, 레인지 $163.50-$169.50"
+    },
+    {
+      "name": "Defense World - Swiss Life 5.3% 포지션 확대",
+      "url": "https://www.defenseworld.net/2026/03/30/nvidia-corporation-nvda-position-raised-by-swiss-life-asset-management-ltd.html",
+      "description": "Swiss Life Asset Management NVDA 보유량 5.3% 확대"
+    },
+    {
+      "name": "Motley Fool - '$100 유가가 AI 최대 리스크'",
+      "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/",
+      "description": "유가 $100이 데이터센터 전력 비용과 AI 투자 심리에 미치는 영향"
+    },
+    {
+      "name": "TipRanks - ARK/Cathie Wood NVDA 매도",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience",
+      "description": "ARK 213,560주 매도, Wood 인내심 소진"
+    },
+    {
+      "name": "Motley Fool - Space-1 우주 AI 데이터센터",
+      "url": "https://www.fool.com/investing/2026/03/29/nvidia-just-announced-hardware-for-ai-data-centers/",
+      "description": "Vera Rubin Space-1 궤도 AI 모듈 분석"
+    },
+    {
+      "name": "Motley Fool - '투자자들이 NVDA에 대해 틀렸다'",
+      "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/",
+      "description": "GTC 이후 수학적 저평가 입증"
+    },
+    {
+      "name": "MarketBeat - NVDA 목표가",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "42 Buy / 3 Hold / 0 Sell, 목표가 $276"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVDA $164 | '10년 만에 처음 있는 일.' Forward P/E가 S&P 500보다 싸다",
+      "text": "$NVDA $163.52, YTD -11%\n\nMotley Fool: '10년 만에 처음.'\nForward P/E 20.1x < S&P 500(21x).\n매출 65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n\n1/4",
+      "thread": [
+        "유가 $100이 AI 최대 리스크?\n그래도 칩 수요는 구조적.\nARK 21만주 매도 vs Swiss Life 5.3% 추가 매수.\n\n2/4",
+        "PEG 0.52. 42/45 매수. 매도 0.\n목표가 $276(+69%).\n1조 달러 주문 잔고.\n\n3/4",
+        "50일($171), 200일($174) 아래.\n5/20 실적이 촉매.\n매크로 눌림, 분할매수. Buy.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVDA: 10년 만에 처음. Forward P/E S&P 500보다 싸다. 매수 기회인가",
+      "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x가 S&P 500(21x) 아래. 10년 만에 처음(Motley Fool). 매출 65% 성장하는 AI 1위가 시장 평균보다 싸다.\n\nPEG 0.52. 42/45 매수. 매도 0. 매크로 눌림, 분할매수. Buy."
+    },
+    "telegram": {
+      "hook": "NVDA 일일 분석 (3/31)",
+      "text": "NVDA $163.52 | 시총 $4.06T\nP/E 33.6x | Forward 20.1x (S&P 21x 이하!) | PEG 0.52 | RSI 39\n\n핵심 변화\n- Motley Fool: '10년 만에 처음 있는 일'\n- Forward P/E가 S&P 500 이하, YTD -11%\n\n매크로\n- WTI 유가 $100, '$100 유가 = AI 최대 리스크'\n- ARK 21만주 매도 vs Swiss Life 5.3% 매수\n\n호재\n- 42/45 Buy, 목표가 $276(+69%)\n- PEG 0.52 극단적 저평가\n- 1조 달러 주문 잔고\n\n리스크\n- 유가 $100, 데이터센터 전력 비용\n- 50일($171), 200일($174) 아래\n\n판단: Buy. 매크로 눌림, 분할매수 유효"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $164 | '10년 만에 처음 있는 일.' Forward P/E가 S&P 500보다 싸다",
+          "text": "$NVDA $163.52, YTD -11%\n\nMotley Fool: '10년 만에 처음.'\nForward P/E 20.1x < S&P 500(21x).\n매출 65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n\n1/4",
+          "thread": [
+            "유가 $100이 AI 최대 리스크?\n그래도 칩 수요는 구조적.\nARK 21만주 매도 vs Swiss Life 5.3% 추가 매수.\n\n2/4",
+            "PEG 0.52. 42/45 매수. 매도 0.\n목표가 $276(+69%).\n1조 달러 주문 잔고.\n\n3/4",
+            "50일($171), 200일($174) 아래.\n5/20 실적이 촉매.\n매크로 눌림, 분할매수. Buy.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "10년 만에 처음: AI 1위가 시장 평균보다 싸다. 시장이 수학을 못하는 걸까",
+          "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x.\nS&P 500은 21x.\n\n65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n이게 말이 되나.\n\n1/4",
+          "thread": [
+            "ARK가 팔면 Swiss Life가 산다.\n유가 $100이 리스크?\n우주에 데이터센터 띄운다(Space-1).\n\n2/4",
+            "PEG 0.52. 매도 의견 0명.\n1조 달러 주문.\n이 숫자를 무시하는 건 용기가 아니라 실수.\n\n3/4",
+            "5/20 실적 전에 사야 싼 거다.\nBuy.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들, YTD -11%에 유가 $100까지. 하지만 10년 만의 기회라는 분석도",
+          "text": "$NVDA $163.52, YTD -11%\n\n연초부터 빠져서 힘드시죠.\n하지만 Motley Fool은 '10년 만에 처음'\n'몇 년 만에 최고의 기회'라고 해요.\n\n1/4",
+          "thread": [
+            "Swiss Life는 5.3% 더 샀어요.\n장기 투자자는 흔들리지 않아요.\n유가가 지나가면 빛나요.\n\n2/4",
+            "42/45 매수. PEG 0.52.\n목표가 $276(+69%).\n펀더멘털은 변함없어요.\n\n3/4",
+            "5/20 실적까지 분할매수로.\nBuy. 매크로가 지나가면 빛나요.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA: Forward P/E S&P 500 이하. 10년 만에 처음",
+          "text": "$NVDA $163.52, YTD -11%. Forward P/E 20.1x < S&P 500(21x). 10년 만에 처음.\n\nPEG 0.52. 42/45 매수. 매도 0. 분할매수. Buy."
+        },
+        "witty": {
+          "hook": "AI 1위가 시장 평균보다 싸다. 시장이 수학을 까먹은 걸까",
+          "text": "$NVDA $163.52. Forward P/E 20.1x < S&P(21x). 65% 성장 AI 1위가 평균 이하.\n\nARK 매도? Swiss Life 매수. PEG 0.52. 수학을 무시하는 건 용기가 아니다.\n\nBuy."
+        },
+        "empathy": {
+          "hook": "NVDA 투자자분들, YTD -11%에 마음 아프시죠. 10년 만의 기회라는 분석이 나왔어요",
+          "text": "$NVDA $163.52. 연초부터 힘들었죠. 하지만 Forward P/E S&P 이하는 10년 만에 처음.\n\n42/45 매수. PEG 0.52. 5/20 실적이 촉매.\n\n분할매수. Buy. 매크로가 지나가면 빛나요."
+        }
+      }
+    }
+  }
+}

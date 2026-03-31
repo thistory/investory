@@ -1,0 +1,335 @@
+{
+  "symbol": "TSLA",
+  "companyName": "Tesla, Inc.",
+  "analysisDate": "2026-03-31",
+  "currentPrice": 355.28,
+  "marketCap": "$1.14T",
+  "businessSummary": {
+    "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
+    "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
+    "howTheyMakeMoney": [
+      "전기차 판매 (Model 3/Y, Cybertruck)",
+      "에너지 저장, 발전 (Megapack, Powerwall, 태양광)",
+      "서비스, 충전 (Supercharger 네트워크, 보험, OTA 업그레이드)",
+      "FSD(Full Self-Driving) 월 99달러 구독 및 라이선싱",
+      "규제 크레딧 판매"
+    ],
+    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Roadster"]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "329x",
+      "interpretation": "S&P 500 평균 약 23x, 자동차 섹터 평균 약 12x 대비 극단적 프리미엄. $355.28로 추가 하락했지만 여전히 극고배율"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "171x",
+      "interpretation": "2026년 EPS 전망 $2.08 기준. 성장주 평균 30-40x 대비 4배 이상 높음. 로보택시, 에너지 사업의 폭발적 성장이 선반영된 수치"
+    },
+    {
+      "name": "Q1 2026 인도량 컨센서스",
+      "value": "365,645대 (상회 가능)",
+      "interpretation": "4월 2일(수) 발표 예정. Seeking Alpha는 370,000대 이상 가능하다고 분석. 하지만 마진 훼손 우려가 동반"
+    },
+    {
+      "name": "2026년 인도 가이던스",
+      "value": "169만대 (하향)",
+      "interpretation": "기존 175만대에서 169만대로 하향 조정. 시위 확산과 유럽 판매 부진이 반영"
+    },
+    {
+      "name": "WTI 유가",
+      "value": "$100+",
+      "interpretation": "유가가 $100을 돌파하며 2022년 7월 이후 최고치. EV 전환 수요 증가 가능성 vs 소비 위축 양면 효과"
+    },
+    {
+      "name": "RSI (14일)",
+      "value": "31",
+      "interpretation": "과매도 기준선 30에 근접. 4거래일 연속 하락. EV 가격 경쟁 압력에 AI 피봇 회의론까지 겹친 결과"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "유가 $100 시대, EV 전환 수요 가속화 가능성",
+      "description": "WTI $100 돌파로 미국 평균 휘발유가 $4/갤런에 접근. CarGurus에 따르면 $4는 미국 소비자의 심리적 분기점으로, EV 검색이 급증하기 시작하는 가격대다. 테슬라가 EV 시장 점유율 50%+를 지키고 있어 최대 수혜주"
+    },
+    {
+      "title": "EV 시장 28% 급감 속 테슬라 시장점유율 50%+ 확대 (3/27)",
+      "description": "전체 EV 시장이 28% 급감하는 가운데에도 테슬라는 시장점유율을 50% 이상으로 끌어올렸다. 경쟁사 대비 압도적 브랜드 파워와 충전 인프라가 불황기에 오히려 경쟁 우위로 작용"
+    },
+    {
+      "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
+      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산 시작과 차세대 Roadster 공개가 4월에 동시 예정. 단기간에 두 가지 대형 카탈리스트 집중"
+    },
+    {
+      "title": "Optimus3 로봇 영상 공개, 올여름 생산 시작 (3/25)",
+      "description": "테슬라가 Optimus3 휴머노이드 로봇의 감속기어와 정밀 손 설계 영상을 공개. 2026년 연말까지 100만 대 생산률 목표. Trefis는 로봇 사업의 가치를 $2-3조로 평가"
+    },
+    {
+      "title": "Terafab $25B AI 칩 공장, Wedbush '게임 체인저'",
+      "description": "Wedbush가 Terafab 반도체 공장 계획을 '게임 체인저'라고 평가하며 $600 목표가를 재확인. AI5 칩 소량 생산 2026년 말 시작, 본격 양산은 2027년"
+    },
+    {
+      "title": "NHTSA FSD 조사 심화, 규제 리스크 부상 (3/19)",
+      "description": "NHTSA가 안개, 먼지 등 저시야 환경에서 FSD 성능 문제로 조사를 격상했다. Trefis는 이것이 '1조 달러 AI 테제'를 깨뜨릴 수 있다고 경고"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "미국 EV 시장 50%+ 점유율, FSD 84억 마일 데이터, Supercharger NACS 표준 장악, Terafab으로 AI 칩 내재화 추진",
+    "moats": [
+      {
+        "type": "데이터 해자",
+        "description": "FSD 84억 마일 실주행 데이터. 경쟁사가 단기간에 따라잡기 불가능한 규모의 자율주행 학습 데이터"
+      },
+      {
+        "type": "충전 인프라",
+        "description": "Supercharger 네트워크가 NACS 표준으로 채택. 포드, GM 등 경쟁사도 테슬라 충전 인프라 사용"
+      },
+      {
+        "type": "수직 통합",
+        "description": "배터리 셀, AI 칩(Terafab), 소프트웨어, 충전 인프라까지 수직 계열화. 원가 우위와 빠른 혁신 속도"
+      },
+      {
+        "type": "브랜드 파워",
+        "description": "EV 시장의 대명사. 높은 브랜드 인지도와 열성 팬층이 마케팅 비용 없이도 수요 창출"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "BYD",
+        "detail": "중국 시장 1위, 유럽에서 100%+ 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
+      },
+      {
+        "name": "Zoox (Amazon)",
+        "detail": "SF, 라스베가스에서 로보택시 확대 중. 오스틴, 마이애미 시범 운행도 시작. 직접적 로보택시 경쟁자"
+      },
+      {
+        "name": "Waymo (Alphabet)",
+        "detail": "자율주행 상용화에서 테슬라 앞선 실적. 주당 20만+ 유료 탑승 달성. 로보택시 서비스 확대 중"
+      },
+      {
+        "name": "현대/기아",
+        "detail": "아이오닉, EV6 등으로 글로벌 EV 시장 점유율 확대. 가성비와 품질로 경쟁"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-31",
+      "headline": "Seeking Alpha: '테슬라, Q1 인도 컨센서스 상회 가능하지만 마진이 문제'",
+      "significance": "Seeking Alpha가 370,000대 이상 인도 가능하다고 분석. 하지만 가격 인하와 인센티브 확대로 마진 훼손이 우려된다. 인도 서프라이즈가 있어도 수익성 악화가 동반될 수 있다",
+      "url": "https://seekingalpha.com/article/4887171-tesla-may-beat-deliveries-but-this-could-hurt-the-bottom-line"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Motley Fool: '테슬라는 여전히 고평가인가?' EV 가격 경쟁 압력 분석",
+      "significance": "EV 가격 경쟁이 심화되면서 AI 로보택시 피봇에 대한 회의론도 강화. $355.28까지 하락하며 4거래일 연속 하락",
+      "url": "https://www.fool.com/investing/2026/03/30/is-tesla-stock-still-overvalued/"
+    },
+    {
+      "date": "2026-03-30",
+      "headline": "Gary Black: '테슬라는 한 번도 기대에 부응한 적 없다', Q1 인도 D-2",
+      "significance": "테슬라 강세론자 Gary Black이 '기대 부응 못함'을 경고. 컨센서스 365,645대, 2025년 최악의 분기 대비 +8.6%",
+      "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-worst-quarter-in-a-year-gary-black-never-lived-up-to-hype-q1-deliveries/cZERgiXRIZg"
+    },
+    {
+      "date": "2026-03-30",
+      "headline": "유가 WTI $100 돌파, 후티 참전으로 전선 확대 지속",
+      "significance": "후티 반군 이스라엘 미사일 발사. 유가 $100+ 유지. 미국 휘발유 $4/갤런 접근으로 EV 전환 수요와 소비 위축이 동시 진행",
+      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html"
+    },
+    {
+      "date": "2026-03-29",
+      "headline": "테슬라, 2026년 인도 가이던스 175만대에서 169만대로 하향 조정",
+      "significance": "ARK가 포지션 축소, TipRanks는 가이던스 하향 보도. 시위 확산과 유럽 판매 부진이 원인",
+      "url": "https://www.tipranks.com/news/nvda-meta-tsla-amd-why-cathie-wood-is-trimming-these-big-tech-stocks"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 407,
+    "highTarget": 600,
+    "lowTarget": 119,
+    "upsidePercent": 14.6,
+    "buyCount": 17,
+    "holdCount": 17,
+    "sellCount": 9,
+    "notableComment": "Seeking Alpha: 인도 컨센서스 상회 가능(370k+)하지만 마진 훼손이 '진짜 리스크'. HSBC $119 vs Wedbush $600. 4/2 인도 D-2"
+  },
+  "risks": [
+    {
+      "severity": "critical",
+      "title": "Q1 인도 4/2 발표 D-2, 마진 훼손 우려",
+      "description": "Seeking Alpha가 370,000대 이상 가능하다고 분석했지만, 가격 인하로 마진이 훼손될 수 있다고 경고. 인도 서프라이즈와 마진 악화가 동시에 나올 경우 주가 방향은 불확실"
+    },
+    {
+      "severity": "critical",
+      "title": "EV 가격 경쟁 압력 + AI 피봇 회의론",
+      "description": "Motley Fool이 'EV 가격 경쟁 압력과 AI 로보택시 피봇 회의론'으로 하락 분석. 4거래일 연속 하락. $355.28은 금요일 $361.83에서 -1.81% 추가 하락"
+    },
+    {
+      "severity": "critical",
+      "title": "50일선, 200일선 동시 이탈 심화, RSI 31 과매도",
+      "description": "50일선($387)과 200일선($400) 아래에서 격차가 벌어지고 있다. RSI 31로 과매도 진입. 반등 신호가 나올 수도 있지만 추세 전환 확인이 필요"
+    },
+    {
+      "severity": "high",
+      "title": "HSBC 목표가 $119, ARK 매도 동시 발생",
+      "description": "HSBC $119 재하향에 ARK까지 매도. 가장 유명한 강세론자(ARK)와 약세론자(HSBC)가 모두 부정적"
+    },
+    {
+      "severity": "high",
+      "title": "FSD 규제 및 안전성 리스크 심화",
+      "description": "NHTSA 조사 격상, 카메라 온리 시스템에 대한 규제당국 조사 착수. Trefis는 '1조 달러 AI 테제가 무너질 수 있다'고 경고"
+    },
+    {
+      "severity": "high",
+      "title": "극단적 밸류에이션 리스크",
+      "description": "TTM P/E 329x로 S&P 500 평균 23x의 14배. 인도 가이던스 하향에 가격 경쟁까지 겹쳐 밸류에이션 정당화 더 어려워짐"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Q1 인도 370,000대+ 서프라이즈 가능성",
+      "rationale": "Seeking Alpha가 컨센서스(365,645대)를 상회할 수 있다고 분석. 인도 서프라이즈가 과매도(RSI 31) 반등의 촉매가 될 수 있다"
+    },
+    {
+      "title": "유가 $100 시대, EV 전환 가속의 최대 수혜주",
+      "rationale": "미국 휘발유 $4/갤런 접근으로 EV 검색 급증 시작. EV 시장 점유율 50%+를 지킨 테슬라가 수혜의 중심"
+    },
+    {
+      "title": "4월 카탈리스트 집중 (4/2 인도, Cybercab, Roadster, 4/21 실적)",
+      "rationale": "4/2 Q1 인도, Cybercab 양산, Roadster 공개, 4/21 실적 발표가 4월에 몰려 있어 단기 모멘텀 반전 가능성"
+    },
+    {
+      "title": "RSI 31 과매도 구간, 기술적 반등 임박",
+      "rationale": "RSI가 30 과매도 기준선 근접. 52주 고점 대비 -29% 할인. 4거래일 연속 하락 후 기술적 반등 가능성"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 498.83,
+    "week52Low": 214.25,
+    "currentPositionPercent": 49.5,
+    "sma50": 387,
+    "sma50Signal": "below",
+    "sma200": 400,
+    "sma200Signal": "below",
+    "rsi": 31,
+    "rsiSignal": "oversold"
+  },
+  "overallOpinion": [
+    "Q1 인도 발표가 이틀 앞이다(4/2). Seeking Alpha는 370,000대 이상으로 컨센서스(365,645대)를 상회할 수 있다고 분석했지만, 가격 인하로 마진이 훼손될 수 있다고 경고했다. 인도 서프라이즈와 마진 악화가 동시에 나올 수 있는 양날의 검",
+    "EV 가격 경쟁 압력에 AI 피봇 회의론까지 겹쳐 4거래일 연속 하락. $355.28로 52주 고점 대비 -29%. Motley Fool은 '여전히 고평가'라고 분석. HSBC $119부터 Wedbush $600까지 극단적 양극화가 계속되고 있다",
+    "RSI 31 과매도 진입. 50일선($387), 200일선($400) 아래. 4월에 Cybercab, Roadster, 4/21 실적이 집중돼 있어 반전 가능성은 있지만 4/2 인도가 먼저다. Hold, 인도 결과 확인 후 판단"
+  ],
+  "investmentVerdict": {
+    "stance": "hold",
+    "summary": "Seeking Alpha는 Q1 인도 서프라이즈(370k+) 가능성을 제시했지만 마진 훼손이 동반될 수 있다고 경고. RSI 31 과매도에 4월 카탈리스트가 집중돼 있으나, EV 가격 경쟁과 AI 회의론이 지속. 4/2 인도 확인 후 대응이 합리적",
+    "horizon": "1-3개월 (4/2 인도, 4/21 실적 후 재평가)"
+  },
+  "sources": [
+    {
+      "name": "Seeking Alpha - Q1 인도 서프라이즈 가능, 마진 훼손 우려",
+      "url": "https://seekingalpha.com/article/4887171-tesla-may-beat-deliveries-but-this-could-hurt-the-bottom-line",
+      "description": "370,000대+ 인도 가능하지만 가격 인하로 마진 악화 가능성"
+    },
+    {
+      "name": "Motley Fool - 테슬라 여전히 고평가인가",
+      "url": "https://www.fool.com/investing/2026/03/30/is-tesla-stock-still-overvalued/",
+      "description": "EV 가격 경쟁 압력과 AI 피봇 회의론 분석"
+    },
+    {
+      "name": "Motley Fool - Stock Market Today, 3/30",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-tesla-slides-on-ev-pricing-pressure-as-investors-await-q1-2026-delivery-data/",
+      "description": "$355.28 종가, -1.81%. EV 가격 경쟁 압력"
+    },
+    {
+      "name": "Stocktwits - Gary Black, Q1 인도 경고",
+      "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-worst-quarter-in-a-year-gary-black-never-lived-up-to-hype-q1-deliveries/cZERgiXRIZg",
+      "description": "'한 번도 기대에 부응 못함', 컨센서스 365,645대"
+    },
+    {
+      "name": "CNBC - 후티 미사일, 유가 $100+",
+      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
+      "description": "후티 반군 이스라엘 미사일 발사, 유가 상승 지속"
+    },
+    {
+      "name": "TipRanks - ARK 매도, 가이던스 하향",
+      "url": "https://www.tipranks.com/news/nvda-meta-tsla-amd-why-cathie-wood-is-trimming-these-big-tech-stocks",
+      "description": "인도 전망 175만→169만대 하향, ARK 매도"
+    },
+    {
+      "name": "Primary Ignition - Q1 인도 벤치마크 분석",
+      "url": "https://primaryignition.com/2026/03/30/teslas-q1-2026-delivery-figures-a-critical-benchmark-approaches/",
+      "description": "4/2 인도 발표의 중요성 분석"
+    },
+    {
+      "name": "MarketBeat - TSLA 목표가 $406.84",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
+      "description": "컨센서스 목표가 $407"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "TSLA $355 | 인도 D-2. '상회할 수 있지만 마진이 문제다' (Seeking Alpha)",
+      "text": "$TSLA $355.28(-1.81%), 4거래일 연속 하락\n\nQ1 인도 D-2. Seeking Alpha: 370k+ 가능.\n하지만 가격 인하로 마진 훼손 우려.\n인도 서프라이즈가 곧 좋은 소식은 아니다.\n\n1/4",
+      "thread": [
+        "EV 가격 경쟁 심화. AI 피봇 회의론.\nMotley Fool: '여전히 고평가인가?'\nHSBC $119 vs Wedbush $600.\n극단적 양극화 지속.\n\n2/4",
+        "RSI 31 과매도 진입.\n52주 고점 -29%.\n4월에 Cybercab, Roadster, 4/21 실적 집중.\n\n3/4",
+        "목표가 $407(+14.6%).\n50일($387), 200일($400) 아래.\nHold. 4/2 인도가 모든 걸 결정한다.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "TSLA: 인도 D-2. 서프라이즈 가능하지만 마진이 양날의 검",
+      "text": "$TSLA $355.28(-1.81%), 4거래일 연속 하락\n\nQ1 인도 D-2. Seeking Alpha: 370k+ 가능하지만 가격 인하로 마진 훼손 우려. 인도와 수익성 사이의 딜레마.\n\nRSI 31 과매도. 4월 카탈리스트 집중. Hold. 4/2 확인 후."
+    },
+    "telegram": {
+      "hook": "TSLA 일일 분석 (3/31)",
+      "text": "Tesla $355.28 (-1.81%, 4거래일 연속 하락) | 시총 $1.14T\nP/E 329x | Forward 171x | RSI 31 (과매도)\n\n핵심 이벤트\n- Q1 인도량 4/2(수) 발표 D-2\n- Seeking Alpha: 370k+ 서프라이즈 가능\n- 하지만 가격 인하로 마진 훼손 우려\n\n시장 심리\n- Motley Fool: '여전히 고평가인가?'\n- EV 가격 경쟁 + AI 피봇 회의론\n\n호재\n- 4월: Cybercab, Roadster, 4/21 실적\n- 유가 $100, EV 전환 수요 가능성\n\n리스크\n- 인도 서프라이즈여도 마진 훼손 동반 가능\n- HSBC $119, ARK 매도\n\n기술적: 50일($387), 200일($400) 아래\n목표가: $407 (+14.6%)\n판단: Hold, 4/2 인도 확인 후 판단"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "TSLA $355 | 인도 D-2. '상회할 수 있지만 마진이 문제다' (Seeking Alpha)",
+          "text": "$TSLA $355.28(-1.81%), 4거래일 연속 하락\n\nQ1 인도 D-2. Seeking Alpha: 370k+ 가능.\n하지만 가격 인하로 마진 훼손 우려.\n인도 서프라이즈가 곧 좋은 소식은 아니다.\n\n1/4",
+          "thread": [
+            "EV 가격 경쟁 심화. AI 피봇 회의론.\nMotley Fool: '여전히 고평가인가?'\nHSBC $119 vs Wedbush $600.\n극단적 양극화 지속.\n\n2/4",
+            "RSI 31 과매도 진입.\n52주 고점 -29%.\n4월에 Cybercab, Roadster, 4/21 실적 집중.\n\n3/4",
+            "목표가 $407(+14.6%).\n50일($387), 200일($400) 아래.\nHold. 4/2 인도가 모든 걸 결정한다.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "인도 많이 하면 좋은 거 아닌가요? 테슬라는 그게 아닙니다",
+          "text": "$TSLA $355.28(-1.81%)\n\nSeeking Alpha: 370k+ 인도 가능.\n좋은 소식 같지?\n근데 가격 깎아서 판 거다.\n마진이 녹는다.\n\n1/4",
+          "thread": [
+            "많이 팔았는데 덜 벌었다.\n이게 EV 가격 전쟁의 현실.\n\nMotley Fool: '아직도 비싸다.'\nHSBC: $119. 네, 백십구.\n\n2/4",
+            "RSI 31. 과매도.\n4월에 Cybercab, Roadster 나온다.\n주가가 올라야 할 이유는 많다.\n올라갈지는 4/2가 답한다.\n\n3/4",
+            "목표가 $407(+14.6%).\nHold. 수요일이면 안다.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "TSLA 홀더들, 4거래일 연속 하락이 힘드시죠. 인도 D-2입니다",
+          "text": "$TSLA $355.28(-1.81%)\n\n4거래일 연속 하락. 힘드시죠.\n하지만 4/2 인도 발표가 이틀 남았어요.\n370k+ 서프라이즈 가능성도 있어요.\n\n1/4",
+          "thread": [
+            "마진 걱정도 있지만\nRSI 31이면 바닥 근처예요.\n4월 카탈리스트가 기다리고 있어요.\n\n2/4",
+            "Cybercab, Roadster, 4/21 실적.\n좋은 소식이 모여 있어요.\n\n3/4",
+            "목표가 $407(+14.6%).\n수요일 인도 확인하고 판단해요.\nHold.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "TSLA: Q1 인도 D-2. 서프라이즈 가능하지만 마진이 대가",
+          "text": "$TSLA $355.28(-1.81%), 4거래일 연속 하락. Q1 인도 D-2. Seeking Alpha: 370k+ 가능하지만 마진 훼손.\n\nRSI 31 과매도. Hold. 4/2 확인 후."
+        },
+        "witty": {
+          "hook": "인도 서프라이즈? 좋은 거 맞지? 근데 마진이 녹고 있다",
+          "text": "$TSLA $355.28(-1.81%). 370k+ 인도 가능. 좋은 소식 같지만 가격 깎아서 판 거다. 마진이 녹는다.\n\nHSBC $119 vs Wedbush $600. 극단적 양극화. RSI 31.\n\n4/2가 답이다. Hold."
+        },
+        "empathy": {
+          "hook": "TSLA 주주분들, 4거래일 연속 하락이 마음 아프시죠. 이틀만 기다려요",
+          "text": "$TSLA $355.28(-1.81%). 힘든 한 주예요. 하지만 4/2 인도 발표가 이틀 남았어요. 370k+ 가능성도 있어요.\n\nRSI 31 바닥 근처. 4월 카탈리스트 집중.\n\nHold. 수요일 확인 후."
+        }
+      }
+    }
+  }
+}
