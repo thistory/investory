@@ -25,7 +25,7 @@
     {
       "name": "Forward P/E",
       "value": "20.1x",
-      "interpretation": "S&P 500 평균(약 21x)보다 낮다. 세계 1위 AI 기업이 시장 평균 이하. 10년 만에 처음 있는 현상(Motley Fool)"
+      "interpretation": "S&P 500 평균(약 21x)보다 낮다. 세계 1위 AI 기업이 시장 평균 이하. TheStreet는 13년 만에 처음 있는 이상 현상이라고 분석"
     },
     {
       "name": "매출 (TTM)",
@@ -62,8 +62,8 @@
       "description": "NVIDIA가 Vera Rubin Space-1 우주용 AI 모듈을 발표했다. Motley Fool과 Forbes는 '궤도 데이터센터가 현실이 될 수 있다'고 분석. 무제한 태양광 에너지로 지상 전력 제약을 넘어서는 장기 비전"
     },
     {
-      "title": "Forward P/E가 S&P 500 아래로 하락, 역사적 이상 현상 (3/27)",
-      "description": "Motley Fool이 NVDA의 Forward P/E가 S&P 500 평균(약 21x) 이하로 하락한 것은 전례 없는 이상 현상이라 보도. AI 리더 기업이 시장 평균보다 싸게 거래되는 것은 밸류에이션 재평가의 신호"
+      "title": "TheStreet: Forward P/E가 S&P 500 아래, 13년 만에 이상 현상 (3/31)",
+      "description": "TheStreet가 NVDA의 Forward P/E가 S&P 500 아래로 하락한 것은 13년 만에 처음이라 보도. 기술 섹터 Forward P/E도 21x로 3년 최저. 하지만 이익 성장 전망(42.5%)은 여전히 강력"
     },
     {
       "title": "Swiss Life Asset Management, 포지션 5.3% 확대 (3/30)",
@@ -116,8 +116,14 @@
   "recentNews": [
     {
       "date": "2026-03-31",
-      "headline": "Motley Fool: 'NVDA, 10년 만에 처음 있는 일. 일생일대의 매수 기회인가?'",
-      "significance": "NVDA의 Forward P/E가 S&P 500 이하로 떨어진 것은 10년 만에 처음. Motley Fool은 '일생일대까지는 아니지만 몇 년 만에 최고의 기회'라고 분석. YTD -11% 속 강한 실적과의 괴리를 강조",
+      "headline": "TheStreet: 'NVDA, 13년 만에 처음 있는 밸류에이션 이상 신호'",
+      "significance": "Forward P/E가 S&P 500 아래로 떨어진 것은 13년 만에 처음. 기술 섹터 전체 Forward P/E도 21x로 3년 최저. 하지만 이익 성장 전망(42.5%)은 건재",
+      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Motley Fool: 'NVDA, 10년 만에 처음 있는 일. 몇 년 만에 최고의 기회'",
+      "significance": "NVDA의 Forward P/E가 S&P 500 이하로 떨어진 것을 '일생일대까지는 아니지만 몇 년 만에 최고의 기회'라고 분석. YTD -11%와 실적의 괴리 강조",
       "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/"
     },
     {
@@ -137,12 +143,6 @@
       "headline": "TipRanks: ARK/Cathie Wood, NVDA 213,560주 매도",
       "significance": "ARK가 이틀간 213,560주 매도. TipRanks는 Wood가 인내심을 잃고 있다고 분석. 이사 Stevens $3,850만 내부자 매도도 같은 주",
       "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience"
-    },
-    {
-      "date": "2026-03-29",
-      "headline": "Motley Fool: Space-1 우주 AI 데이터센터 '진짜 시사점'",
-      "significance": "Vera Rubin Space-1 궤도 AI 모듈이 실현 가능한 기술로 분석. 무제한 태양광으로 지상 전력 제약을 넘어서는 비전",
-      "url": "https://www.fool.com/investing/2026/03/29/nvidia-just-announced-hardware-for-ai-data-centers/"
     }
   ],
   "analystOpinions": {
@@ -153,7 +153,7 @@
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 매수, 매도 0. Motley Fool: '10년 만에 처음 있는 일, 몇 년 만에 최고의 기회'. ARK 매도에도 Swiss Life, 유럽 기관 매수 지속"
+    "notableComment": "42/45 매수, 매도 0. TheStreet: 13년 만의 밸류에이션 이상 신호. ARK 매도에도 Swiss Life, 유럽 기관 매수 지속"
   },
   "risks": [
     {
@@ -184,8 +184,8 @@
   ],
   "buyReasons": [
     {
-      "title": "10년 만에 처음: Forward P/E가 S&P 500 이하",
-      "rationale": "Forward P/E 20.1x가 S&P 500 평균(21x) 아래로 떨어졌다. Motley Fool은 '몇 년 만에 최고의 매수 기회'라고 분석. PEG 0.52는 극단적 저평가"
+      "title": "13년 만에 처음: Forward P/E가 S&P 500 이하",
+      "rationale": "TheStreet에 따르면 Forward P/E 20.1x가 S&P 500 평균(21x) 아래로 떨어진 것은 13년 만에 처음. PEG 0.52는 극단적 저평가 신호"
     },
     {
       "title": "유럽 기관(Swiss Life) 매수 지속, ARK 매도와 대조",
@@ -212,25 +212,25 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Motley Fool이 'NVDA가 10년 만에 처음 하는 일'이라며 Forward P/E가 S&P 500 이하로 떨어진 것을 주목했다. '일생일대까지는 아니지만 몇 년 만에 최고의 기회'라는 분석. YTD -11%지만 매출은 65% 성장",
-    "유가 $100이 AI 최대 리스크(데이터센터 전력 비용)이지만 AI 칩 수요는 구조적이다. ARK 21만주 매도와 Swiss Life 5.3% 매수가 공존. 42/45 매수, 매도 0명. PEG 0.52는 극단적 저평가 신호",
-    "$163.52, 50일선($171), 200일선($174) 아래. RSI 39. 매크로 눌림 속 분할매수 유효. 5/20 실적이 촉매. Buy"
+    "TheStreet와 Motley Fool이 동시에 NVDA의 이상 현상을 조명했다. Forward P/E 20.1x가 S&P 500(21x) 아래로 떨어진 것은 13년 만에 처음. 매출 65% 성장하는 AI 1위 기업이 시장 평균보다 싸게 거래되고 있다",
+    "유가 $100이 AI 최대 리스크(데이터센터 전력 비용)이지만, AI 칩 수요 자체는 구조적이다. ARK가 21만주를 팔 때 Swiss Life는 5.3% 더 샀다. 42/45 매수, 매도 0. PEG 0.52라는 숫자가 시장의 비합리성을 보여준다",
+    "$163.52, 50일선($171), 200일선($174) 아래. RSI 39. YTD -11%이지만 매크로 눌림일 뿐. 5/20 실적이 촉매. 분할매수 유효. Buy"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Forward P/E가 S&P 500 이하로 떨어진 것은 10년 만에 처음이다. 유가 $100과 매크로 역풍이 주가를 눌렀지만 AI 칩 수요는 구조적이며 1조 달러 주문 잔고가 뒷받침한다. PEG 0.52, 42/45 매수, 매도 0. 매크로 눌림을 기회로 분할매수 유효",
+    "summary": "Forward P/E가 S&P 500 이하로 떨어진 것은 13년 만에 처음이다(TheStreet). 유가 $100과 매크로 역풍이 주가를 눌렀지만 AI 칩 수요는 구조적이며 1조 달러 주문 잔고가 뒷받침한다. PEG 0.52, 42/45 매수, 매도 0. 매크로 눌림을 기회로 분할매수 유효",
     "horizon": "6-12개월"
   },
   "sources": [
     {
-      "name": "Motley Fool - '10년 만에 처음, 매수 기회인가'",
-      "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/",
-      "description": "Forward P/E S&P 500 이하 하락은 10년 만에 처음. 몇 년 만에 최고 기회"
+      "name": "TheStreet - 'NVDA, 13년 만의 밸류에이션 이상 신호'",
+      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years",
+      "description": "Forward P/E S&P 500 이하는 13년 만에 처음. 기술 섹터 P/E 3년 최저"
     },
     {
-      "name": "Robinhood - NVDA 실시간 시세",
-      "url": "https://robinhood.com/us/en/stocks/NVDA/",
-      "description": "$163.52 종가, 레인지 $163.50-$169.50"
+      "name": "Motley Fool - '10년 만에 처음, 매수 기회인가'",
+      "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/",
+      "description": "Forward P/E S&P 500 이하 하락. 몇 년 만에 최고 기회"
     },
     {
       "name": "Defense World - Swiss Life 5.3% 포지션 확대",
@@ -265,64 +265,64 @@
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $164 | '10년 만에 처음 있는 일.' Forward P/E가 S&P 500보다 싸다",
-      "text": "$NVDA $163.52, YTD -11%\n\nMotley Fool: '10년 만에 처음.'\nForward P/E 20.1x < S&P 500(21x).\n매출 65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n\n1/4",
+      "hook": "NVDA $164 | 13년 만에 처음. AI 1위가 시장 평균보다 싸다",
+      "text": "$NVDA $163.52, YTD -11%\n\nTheStreet: '13년 만에 처음 있는 일.'\nForward P/E 20.1x < S&P 500(21x).\n매출 65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n\n1/4",
       "thread": [
-        "유가 $100이 AI 최대 리스크?\n그래도 칩 수요는 구조적.\nARK 21만주 매도 vs Swiss Life 5.3% 추가 매수.\n\n2/4",
-        "PEG 0.52. 42/45 매수. 매도 0.\n목표가 $276(+69%).\n1조 달러 주문 잔고.\n\n3/4",
-        "50일($171), 200일($174) 아래.\n5/20 실적이 촉매.\n매크로 눌림, 분할매수. Buy.\n\n4/4"
+        "유가 $100이 AI 최대 리스크라 한다.\n그래도 칩 수요는 구조적.\nARK 21만주 매도. Swiss Life 5.3% 매수.\n\n2/4",
+        "PEG 0.52. 42/45 매수. 매도 0명.\n목표가 $276(+69%).\n1조 달러 주문 잔고.\n\n3/4",
+        "50일($171), 200일($174) 아래.\n5/20 실적이 촉매.\n매크로 눌림 속 분할매수. Buy.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: 10년 만에 처음. Forward P/E S&P 500보다 싸다. 매수 기회인가",
-      "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x가 S&P 500(21x) 아래. 10년 만에 처음(Motley Fool). 매출 65% 성장하는 AI 1위가 시장 평균보다 싸다.\n\nPEG 0.52. 42/45 매수. 매도 0. 매크로 눌림, 분할매수. Buy."
+      "hook": "NVDA: 13년 만에 처음. Forward P/E가 S&P 500보다 낮다",
+      "text": "$NVDA $163.52, YTD -11%\n\nTheStreet와 Motley Fool이 동시에 주목했다. Forward P/E 20.1x가 S&P 500(21x) 아래. 13년 만에 처음이다. 매출 65% 성장하는 AI 1위가 시장 평균보다 싸다.\n\nPEG 0.52. 42/45 매수. 매도 0. 분할매수. Buy."
     },
     "telegram": {
       "hook": "NVDA 일일 분석 (3/31)",
-      "text": "NVDA $163.52 | 시총 $4.06T\nP/E 33.6x | Forward 20.1x (S&P 21x 이하!) | PEG 0.52 | RSI 39\n\n핵심 변화\n- Motley Fool: '10년 만에 처음 있는 일'\n- Forward P/E가 S&P 500 이하, YTD -11%\n\n매크로\n- WTI 유가 $100, '$100 유가 = AI 최대 리스크'\n- ARK 21만주 매도 vs Swiss Life 5.3% 매수\n\n호재\n- 42/45 Buy, 목표가 $276(+69%)\n- PEG 0.52 극단적 저평가\n- 1조 달러 주문 잔고\n\n리스크\n- 유가 $100, 데이터센터 전력 비용\n- 50일($171), 200일($174) 아래\n\n판단: Buy. 매크로 눌림, 분할매수 유효"
+      "text": "NVDA $163.52 | 시총 $4.06T\nP/E 33.6x | Forward 20.1x (S&P 21x 이하!) | PEG 0.52 | RSI 39\n\n핵심 이슈\n- TheStreet: '13년 만에 처음 있는 밸류에이션 이상 신호'\n- Forward P/E가 S&P 500보다 낮다\n\n매크로\n- 유가 $100, 'AI 최대 리스크'\n- ARK 21만주 매도 vs Swiss Life 5.3% 매수\n\n호재\n- 42/45 Buy, 목표가 $276(+69%)\n- PEG 0.52, 1조 달러 주문 잔고\n\n기술적: 50일($171), 200일($174) 아래\n판단: Buy. 매크로 눌림, 분할매수 유효"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $164 | '10년 만에 처음 있는 일.' Forward P/E가 S&P 500보다 싸다",
-          "text": "$NVDA $163.52, YTD -11%\n\nMotley Fool: '10년 만에 처음.'\nForward P/E 20.1x < S&P 500(21x).\n매출 65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n\n1/4",
+          "hook": "NVDA $164 | 13년 만에 처음. AI 1위가 시장 평균보다 싸다",
+          "text": "$NVDA $163.52, YTD -11%\n\nTheStreet: '13년 만에 처음 있는 일.'\nForward P/E 20.1x < S&P 500(21x).\n매출 65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n\n1/4",
           "thread": [
-            "유가 $100이 AI 최대 리스크?\n그래도 칩 수요는 구조적.\nARK 21만주 매도 vs Swiss Life 5.3% 추가 매수.\n\n2/4",
-            "PEG 0.52. 42/45 매수. 매도 0.\n목표가 $276(+69%).\n1조 달러 주문 잔고.\n\n3/4",
-            "50일($171), 200일($174) 아래.\n5/20 실적이 촉매.\n매크로 눌림, 분할매수. Buy.\n\n4/4"
+            "유가 $100이 AI 최대 리스크라 한다.\n그래도 칩 수요는 구조적.\nARK 21만주 매도. Swiss Life 5.3% 매수.\n\n2/4",
+            "PEG 0.52. 42/45 매수. 매도 0명.\n목표가 $276(+69%).\n1조 달러 주문 잔고.\n\n3/4",
+            "50일($171), 200일($174) 아래.\n5/20 실적이 촉매.\n매크로 눌림 속 분할매수. Buy.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "10년 만에 처음: AI 1위가 시장 평균보다 싸다. 시장이 수학을 못하는 걸까",
-          "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x.\nS&P 500은 21x.\n\n65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n이게 말이 되나.\n\n1/4",
+          "hook": "AI 1위가 시장 평균보다 싸다. 13년 만에 처음. 시장이 계산을 잊었나",
+          "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x.\nS&P 500은 21x.\n\n65% 성장하는 AI 1위가\n시장 평균보다 싸다.\n13년 만에 처음 있는 일이다.\n\n1/4",
           "thread": [
             "ARK가 팔면 Swiss Life가 산다.\n유가 $100이 리스크?\n우주에 데이터센터 띄운다(Space-1).\n\n2/4",
-            "PEG 0.52. 매도 의견 0명.\n1조 달러 주문.\n이 숫자를 무시하는 건 용기가 아니라 실수.\n\n3/4",
+            "PEG 0.52. 매도 의견 0명.\n1조 달러 주문 잔고.\n이 숫자를 무시하는 건 용기가 아니라 실수.\n\n3/4",
             "5/20 실적 전에 사야 싼 거다.\nBuy.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA 홀더들, YTD -11%에 유가 $100까지. 하지만 10년 만의 기회라는 분석도",
-          "text": "$NVDA $163.52, YTD -11%\n\n연초부터 빠져서 힘드시죠.\n하지만 Motley Fool은 '10년 만에 처음'\n'몇 년 만에 최고의 기회'라고 해요.\n\n1/4",
+          "hook": "NVDA 홀더들, YTD -11%에 유가 $100까지. 하지만 13년 만의 기회라는 분석",
+          "text": "$NVDA $163.52, YTD -11%\n\n올해 들어 계속 빠져서 지치시죠.\nTheStreet가 '13년 만에 처음 있는 일'이라며\n'이상 현상'이라고 했어요.\n\n1/4",
           "thread": [
-            "Swiss Life는 5.3% 더 샀어요.\n장기 투자자는 흔들리지 않아요.\n유가가 지나가면 빛나요.\n\n2/4",
+            "Swiss Life는 5.3% 더 샀어요.\n장기 투자자는 흔들리지 않아요.\n유가가 지나가면 빛날 거예요.\n\n2/4",
             "42/45 매수. PEG 0.52.\n목표가 $276(+69%).\n펀더멘털은 변함없어요.\n\n3/4",
-            "5/20 실적까지 분할매수로.\nBuy. 매크로가 지나가면 빛나요.\n\n4/4"
+            "5/20 실적까지 분할매수로.\nBuy. 시간이 편이에요.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: Forward P/E S&P 500 이하. 10년 만에 처음",
-          "text": "$NVDA $163.52, YTD -11%. Forward P/E 20.1x < S&P 500(21x). 10년 만에 처음.\n\nPEG 0.52. 42/45 매수. 매도 0. 분할매수. Buy."
+          "hook": "NVDA: Forward P/E가 S&P 500 이하. 13년 만에 처음",
+          "text": "$NVDA $163.52, YTD -11%. Forward P/E 20.1x < S&P 500(21x). TheStreet: 13년 만에 처음.\n\nPEG 0.52. 42/45 매수. 매도 0. 분할매수. Buy."
         },
         "witty": {
-          "hook": "AI 1위가 시장 평균보다 싸다. 시장이 수학을 까먹은 걸까",
-          "text": "$NVDA $163.52. Forward P/E 20.1x < S&P(21x). 65% 성장 AI 1위가 평균 이하.\n\nARK 매도? Swiss Life 매수. PEG 0.52. 수학을 무시하는 건 용기가 아니다.\n\nBuy."
+          "hook": "AI 1위가 시장 평균보다 싸다. 시장이 계산을 까먹은 건가",
+          "text": "$NVDA $163.52. Forward P/E 20.1x < S&P(21x). 65% 성장 AI 1위가 평균 이하. 13년 만에 처음.\n\nARK 매도? Swiss Life 매수. PEG 0.52. 계산을 무시하면 후회한다.\n\nBuy."
         },
         "empathy": {
-          "hook": "NVDA 투자자분들, YTD -11%에 마음 아프시죠. 10년 만의 기회라는 분석이 나왔어요",
-          "text": "$NVDA $163.52. 연초부터 힘들었죠. 하지만 Forward P/E S&P 이하는 10년 만에 처음.\n\n42/45 매수. PEG 0.52. 5/20 실적이 촉매.\n\n분할매수. Buy. 매크로가 지나가면 빛나요."
+          "hook": "NVDA 투자자분들, YTD -11% 힘드시죠. 13년 만의 기회일 수 있어요",
+          "text": "$NVDA $163.52. 올해 내내 빠져서 힘들었죠. TheStreet: 13년 만에 처음 있는 이상 현상.\n\n42/45 매수. PEG 0.52. 5/20 실적이 촉매.\n\n분할매수. Buy. 시간이 편이에요."
         }
       }
     }

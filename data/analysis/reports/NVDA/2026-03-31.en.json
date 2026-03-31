@@ -5,11 +5,11 @@
   "currentPrice": 163.52,
   "marketCap": "$4.06T",
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA is the leading provider of GPU-based AI accelerated computing, operating a vertically integrated ecosystem from data center AI chips to software platforms. At GTC 2026, the company unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue reached $215.9B (+65% YoY) with $120B net income. The company projects cumulative Blackwell and Rubin chip orders of $1 trillion through 2027, signaling aggressive expansion into AI inference markets.",
+    "oneLiner": "Undisputed AI computing leader, dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem spanning data center AI chips to software platforms. GTC 2026 unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue hit $215.9B (+65% YoY) with $120B net income. The company projects $1 trillion in cumulative Blackwell and Rubin chip orders through 2027, targeting the AI inference market.",
     "howTheyMakeMoney": [
-      "Data center AI accelerators (80%+ of revenue)",
-      "AI software platforms (CUDA, NIM, NemoClaw)",
+      "Data Center AI Accelerators (80%+ of revenue)",
+      "AI Software Platforms (CUDA, NIM, NemoClaw)",
       "Gaming GPUs",
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
@@ -20,129 +20,129 @@
     {
       "name": "P/E (TTM)",
       "value": "33.6x",
-      "interpretation": "Slight premium vs semiconductor sector avg 25x and S&P 500 avg 22x. But PEG of 0.52 given 65% growth signals extreme undervaluation"
+      "interpretation": "Modest premium vs semiconductor avg 25x and S&P 500 avg 22x. With 65% growth, PEG of 0.52 signals extreme undervaluation"
     },
     {
       "name": "Forward P/E",
       "value": "20.1x",
-      "interpretation": "Below S&P 500 average (~21x). The world's #1 AI company trading below market average — first time in a decade (Motley Fool)"
+      "interpretation": "Below S&P 500 average (~21x). TheStreet says this is the first time in 13 years. World's top AI company trading below market average"
     },
     {
       "name": "Revenue (TTM)",
       "value": "$215.9B",
-      "interpretation": "+65% YoY growth. Data center revenue exceeds 80% of total. Net margin 55.6%"
+      "interpretation": "+65% YoY growth. Data center over 80% of revenue. Net margin 55.6%"
     },
     {
       "name": "PEG Ratio",
       "value": "0.52",
-      "interpretation": "PEG below 1.0 indicates undervaluation relative to growth. 0.52 is an extreme undervaluation signal. High-growth + low-PEG combinations are very rare"
+      "interpretation": "PEG below 1.0 signals undervaluation vs growth. 0.52 is extreme. High-growth plus low-PEG is exceedingly rare"
     },
     {
       "name": "YTD Return",
       "value": "-11%",
-      "interpretation": "Down 11% year-to-date despite 65% revenue growth. Macro selloff and $100 oil are the primary drivers"
+      "interpretation": "Down 11% year-to-date despite 65% revenue growth. Macro selloff and $100 oil are the culprits"
     },
     {
       "name": "Next Earnings",
       "value": "May 20, 2026",
-      "interpretation": "FY27 Q1 results. Will confirm full-quarter Blackwell revenue and early Vera Rubin order status"
+      "interpretation": "FY27 Q1 results. First full quarter of Blackwell revenue and early Vera Rubin order visibility"
     }
   ],
   "growthDrivers": [
     {
       "title": "Motley Fool: '$100 Oil Is the Biggest Risk to AI Stocks' (3/29)",
-      "description": "Oil above $100 raises data center power costs and inflation concerns affecting AI infrastructure investment. However, AI chip demand remains structural and independent of oil prices"
+      "description": "Oil above $100 raises data center power costs and inflation concerns. But AI chip demand is structural and decoupled from oil prices"
     },
     {
       "title": "Motley Fool: 'Investors Are Completely Wrong About NVDA' (3/28)",
-      "description": "Mathematical analysis shows NVDA remains meaningfully undervalued even after GTC. Strong argument that the market is ignoring fundamentals"
+      "description": "Post-GTC analysis argues NVDA remains mathematically undervalued. Market is ignoring fundamentals"
     },
     {
-      "title": "Space-1: Space AI Data Center Announcement (3/29)",
-      "description": "NVIDIA announced Vera Rubin Space-1 orbital AI module. Motley Fool and Forbes analyzed that orbital data centers could become reality. Unlimited solar energy overcomes terrestrial power constraints"
+      "title": "Space-1: Orbital AI Data Center, 'Real Implications' (3/29)",
+      "description": "NVIDIA unveiled Vera Rubin Space-1 orbital AI module. Motley Fool and Forbes see 'orbital data centers becoming reality'. Unlimited solar energy bypasses terrestrial power constraints"
     },
     {
-      "title": "Forward P/E Falls Below S&P 500 — Historic Anomaly (3/27)",
-      "description": "Motley Fool reported NVDA's Forward P/E falling below S&P 500 average (~21x) as unprecedented. AI leader trading below market average signals valuation rerating opportunity"
+      "title": "TheStreet: Forward P/E Below S&P 500, First Time in 13 Years (3/31)",
+      "description": "TheStreet reports NVDA's forward P/E dropping below S&P 500 for the first time in 13 years. Tech sector forward P/E at 3-year low of 21x, but earnings growth consensus at 42.5% remains strong"
     },
     {
       "title": "Swiss Life Asset Management Increases Position 5.3% (3/30)",
-      "description": "Switzerland's largest insurer's asset management arm increased NVDA holdings by 5.3%. Continued institutional buying from European investors"
+      "description": "Switzerland's largest insurer grew its NVDA holding by 5.3%. European institutional buying continues despite ARK selling"
     },
     {
       "title": "$1 Trillion Cumulative AI Chip Orders Through 2027",
-      "description": "Blackwell and Vera Rubin cumulative orders projected at $1 trillion minimum through 2027. Doubled from prior $500B estimate"
+      "description": "Blackwell and Vera Rubin cumulative orders projected at $1 trillion minimum through 2027, doubled from prior $500B estimate"
     }
   ],
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem monopoly, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
+    "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
       {
         "type": "Ecosystem Lock-in",
-        "description": "CUDA developer ecosystem exceeds 5 million. Extremely high switching costs maintain GPU market dominance"
+        "description": "5M+ CUDA developers. Switching costs are prohibitively high, sustaining GPU market dominance"
       },
       {
         "type": "Vertical Integration",
-        "description": "Full-stack offering: GPU, CPU (Vera), networking (Spectrum-X), software (CUDA, NIM, NemoClaw)"
+        "description": "GPU, CPU (Vera), networking (Spectrum-X), software (CUDA, NIM, NemoClaw) full-stack offering"
       },
       {
         "type": "Annual Architecture Roadmap",
-        "description": "Hopper → Blackwell → Vera Rubin annual product cycle. 2-3 year technology lead over competitors"
+        "description": "Hopper to Blackwell to Vera Rubin annual cadence. 2-3 year technology lead over competitors"
       },
       {
         "type": "Economies of Scale",
-        "description": "FY26 revenue $215.9B, largest in semiconductor industry. R&D investment scale dwarfs competitors"
+        "description": "FY26 revenue $215.9B, largest in semiconductor industry. R&D spending dwarfs competitors"
       }
     ],
     "competitors": [
       {
         "name": "AMD",
-        "detail": "Entered AI GPU market with MI300X but significant gap in software ecosystem and scale. Data center AI share below 10%"
+        "detail": "MI300X enters AI GPU market but trails in software ecosystem and scale. Under 10% data center AI share"
       },
       {
         "name": "Google TPU",
-        "detail": "Strong in internal use with custom AI chips. Limited external market impact"
+        "detail": "Custom AI chip strong for internal use. Limited external market influence"
       },
       {
         "name": "Amazon Trainium",
-        "detail": "AWS-optimized chip. Trails NVIDIA in general-purpose capabilities"
+        "detail": "AWS-optimized chip. Lacks NVIDIA's versatility"
       },
       {
         "name": "Broadcom",
-        "detail": "Custom ASICs for large cloud providers. Cannot compete in general market"
+        "detail": "Custom ASICs for hyperscalers. Cannot compete in general-purpose market"
       }
     ]
   },
   "recentNews": [
     {
       "date": "2026-03-31",
-      "headline": "Motley Fool: 'NVDA Just Did Something for the First Time in a Decade. Buying Opportunity of a Lifetime?'",
-      "significance": "Forward P/E falling below S&P 500 is a first in a decade. Motley Fool concludes 'not quite once-in-a-lifetime, but best opportunity in years.' Highlights disconnect between YTD -11% and strong earnings",
+      "headline": "TheStreet: 'NVDA Flashes Unusual Valuation Signal for First Time in 13 Years'",
+      "significance": "Forward P/E below S&P 500 for the first time in 13 years. Tech sector forward P/E at 3-year low of 21x, but earnings growth consensus at 42.5% is intact",
+      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Motley Fool: 'NVDA Did Something for the First Time in a Decade. Best Opportunity in Years'",
+      "significance": "Forward P/E below S&P 500 described as 'not opportunity of a lifetime, but best in years'. YTD -11% vs strong earnings divergence",
       "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/"
     },
     {
       "date": "2026-03-30",
-      "headline": "Swiss Life Asset Management Increases NVDA Position by 5.3%",
-      "significance": "Switzerland's largest insurer expanding NVDA holdings. Contrasts with ARK selling — European institutions continue buying",
+      "headline": "Swiss Life Asset Management Raises NVDA Position 5.3%",
+      "significance": "Switzerland's largest insurer increases holding. European institutions buying while ARK sells",
       "url": "https://www.defenseworld.net/2026/03/30/nvidia-corporation-nvda-position-raised-by-swiss-life-asset-management-ltd.html"
     },
     {
       "date": "2026-03-30",
-      "headline": "Oil Breaks $100, Motley Fool: '$100 Oil Is Biggest Risk to AI Stocks'",
-      "significance": "Rising data center power costs and inflation weigh on AI investment sentiment. But AI chip demand is structural and independent of oil",
+      "headline": "Oil Breaks $100, Motley Fool: '$100 Oil Is AI's Biggest Risk'",
+      "significance": "Data center power cost inflation threatens AI investment sentiment. But structural AI chip demand is oil-independent",
       "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/"
     },
     {
       "date": "2026-03-29",
       "headline": "TipRanks: ARK/Cathie Wood Sells 213,560 NVDA Shares",
-      "significance": "ARK sold 213,560 shares over two days. TipRanks notes Wood is losing patience. Director Stevens also sold $38.5M same week",
+      "significance": "ARK sold 213,560 shares over two days. TipRanks says Wood is 'losing patience'. Director Stevens sold $38.5M same week",
       "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience"
-    },
-    {
-      "date": "2026-03-29",
-      "headline": "Motley Fool: Space-1 Orbital AI Data Center 'Real Implications'",
-      "significance": "Vera Rubin Space-1 orbital AI module analyzed as feasible technology. Unlimited solar energy overcomes terrestrial power constraints",
-      "url": "https://www.fool.com/investing/2026/03/29/nvidia-just-announced-hardware-for-ai-data-centers/"
     }
   ],
   "analystOpinions": {
@@ -153,51 +153,51 @@
     "buyCount": 42,
     "holdCount": 3,
     "sellCount": 0,
-    "notableComment": "42/45 Buy, 0 Sell. Motley Fool: 'First time in a decade, best opportunity in years.' Despite ARK selling, Swiss Life and European institutions continue buying"
+    "notableComment": "42 of 45 analysts rate Buy, zero Sell. TheStreet: 13-year valuation anomaly. ARK selling while Swiss Life and European institutions buy"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "Oil Breaks $100: 'Biggest Risk to AI Stocks'",
-      "description": "Motley Fool identifies $100 oil as AI stocks' biggest risk. Rising data center power costs and inflation concerns weigh on AI infrastructure investment sentiment"
+      "title": "$100 Oil: 'Biggest Risk to AI Stocks'",
+      "description": "Motley Fool identifies $100 oil as AI's biggest risk. Data center power costs rise, inflation fears dampen AI infrastructure investment sentiment"
     },
     {
       "severity": "high",
-      "title": "ARK Sells 213,560 Shares + Director Insider Sales",
-      "description": "ARK sold 213,560 NVDA shares over two days. TipRanks notes Wood losing patience. Director Stevens sold $38.5M same week"
+      "title": "ARK Sells 213,560 Shares + Director Insider Sale",
+      "description": "ARK dumped 213,560 shares over two days. Director Stevens sold $38.5M the same week. TipRanks: Wood 'losing patience'"
     },
     {
       "severity": "high",
-      "title": "Below Both 50-day and 200-day Moving Averages, YTD -11%",
-      "description": "Trading below 50-day ($170.80) and 200-day ($173.77). Down 11% YTD despite 65% revenue growth — an unusual divergence"
+      "title": "Below 50-day and 200-day SMAs, YTD -11%",
+      "description": "Below 50-day ($170.80) and 200-day ($173.77). Down 11% YTD despite 65% revenue growth, an unusual disconnect"
     },
     {
       "severity": "high",
-      "title": "Iran War Escalation and Rapidly Deteriorating Macro",
-      "description": "Houthi involvement, oil $100+, inflation reignition fears pushing back rate cut expectations. Worst macro environment for high-valuation tech"
+      "title": "Iran War Escalation, Severe Macro Deterioration",
+      "description": "Houthi attacks, oil $100+, inflation resurgence fears push back rate cut expectations. Worst macro for high-multiple tech"
     },
     {
       "severity": "medium",
-      "title": "Ongoing China Export Restrictions and Smuggling Concerns",
-      "description": "AI chip export restrictions to China persist. $2.5B smuggling case could trigger further regulatory tightening"
+      "title": "China Export Controls and Smuggling Fallout",
+      "description": "AI chip export restrictions to China continue. $2.5B smuggling case may trigger further tightening"
     }
   ],
   "buyReasons": [
     {
-      "title": "First Time in a Decade: Forward P/E Below S&P 500",
-      "rationale": "Forward P/E 20.1x has fallen below S&P 500 average (21x). Motley Fool calls it 'best buying opportunity in years.' PEG 0.52 signals extreme undervaluation"
+      "title": "First Time in 13 Years: Forward P/E Below S&P 500",
+      "rationale": "TheStreet reports forward P/E of 20.1x dropped below S&P 500 average (21x) for the first time in 13 years. PEG 0.52 screams undervaluation"
     },
     {
-      "title": "European Institutions (Swiss Life) Continue Buying vs ARK Selling",
-      "rationale": "Despite ARK's 213,560-share sell, Swiss Life increased 5.3%. Long-term institutional buying reflects fundamental confidence"
+      "title": "European Institutions (Swiss Life) Buying While ARK Sells",
+      "rationale": "Swiss Life grew position 5.3% while ARK sold 213k shares. Long-term institutional buying signals fundamental conviction"
     },
     {
-      "title": "42/45 Analysts Rate Buy, 69% Upside",
-      "rationale": "Consensus target $276, high $360. Zero sell ratings. Wall Street conviction unchanged despite oil risk"
+      "title": "42 of 45 Analysts Rate Buy, 69% Upside",
+      "rationale": "Consensus $276, high $360. Zero sell ratings. Wall Street conviction unchanged despite oil risk"
     },
     {
-      "title": "$1 Trillion Order Backlog and Earnings Visibility",
-      "rationale": "Blackwell + Vera Rubin cumulative orders of $1T. May 20 earnings as catalyst. Best earnings visibility in 2-3 years"
+      "title": "$1 Trillion Order Backlog, Unmatched Earnings Visibility",
+      "rationale": "Blackwell plus Vera Rubin cumulative orders at $1T. May 20 earnings as catalyst. Best earnings visibility for 2-3 years"
     }
   ],
   "technicalPosition": {
@@ -212,40 +212,40 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "Motley Fool highlights that NVDA's Forward P/E falling below S&P 500 is 'a first in a decade.' Not quite once-in-a-lifetime but 'best opportunity in years.' YTD -11% while revenue grew 65%.",
-    "$100 oil is the biggest AI risk (data center power costs), but AI chip demand is structural. ARK sells 210K shares while Swiss Life buys 5.3% more. 42/45 Buy, 0 Sell. PEG 0.52 is an extreme undervaluation signal.",
-    "At $163.52, below both 50-day ($171) and 200-day ($174). RSI 39. Dollar-cost averaging through macro headwinds is valid. May 20 earnings as catalyst. Buy."
+    "TheStreet and Motley Fool both flagged the anomaly: NVDA's forward P/E at 20.1x dropped below the S&P 500 (21x) for the first time in 13 years. The world's top AI company growing revenue 65% is trading below market average",
+    "$100 oil is the biggest AI risk (data center power costs), but chip demand is structural. ARK sold 213k shares while Swiss Life bought 5.3% more. 42 of 45 rate Buy, zero Sell. PEG 0.52 exposes the market's irrationality",
+    "$163.52, below 50-day ($171) and 200-day ($174). RSI 39. YTD -11% is macro compression, not fundamental weakness. May 20 earnings is the catalyst. Dollar-cost average. Buy"
   ],
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Forward P/E falling below S&P 500 for the first time in a decade. Oil at $100 and macro headwinds have pressured the stock, but AI chip demand is structural with $1 trillion order backlog. PEG 0.52, 42/45 Buy, 0 Sell. Dollar-cost averaging through macro weakness remains valid.",
+    "summary": "Forward P/E below S&P 500 for the first time in 13 years (TheStreet). Oil $100 and macro headwinds compress the stock but AI chip demand is structural with $1T order backlog. PEG 0.52, 42/45 Buy, zero Sell. Macro compression is the opportunity to dollar-cost average",
     "horizon": "6-12 months"
   },
   "sources": [
     {
-      "name": "Motley Fool - 'First Time in a Decade'",
-      "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/",
-      "description": "Forward P/E below S&P 500 for first time in a decade. Best opportunity in years"
+      "name": "TheStreet - 'NVDA Flashes 13-Year Valuation Anomaly'",
+      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years",
+      "description": "Forward P/E below S&P 500 for first time in 13 years. Tech sector P/E at 3-year low"
     },
     {
-      "name": "Robinhood - NVDA Real-time Quote",
-      "url": "https://robinhood.com/us/en/stocks/NVDA/",
-      "description": "$163.52 close, range $163.50-$169.50"
+      "name": "Motley Fool - 'First Time in a Decade, Best Opportunity in Years'",
+      "url": "https://www.fool.com/investing/2026/03/30/nvidia-stock-just-did-something-for-the-first-time/",
+      "description": "Forward P/E below S&P 500. Best buying opportunity in several years"
     },
     {
       "name": "Defense World - Swiss Life 5.3% Position Increase",
       "url": "https://www.defenseworld.net/2026/03/30/nvidia-corporation-nvda-position-raised-by-swiss-life-asset-management-ltd.html",
-      "description": "Swiss Life Asset Management increased NVDA holdings by 5.3%"
+      "description": "Swiss Life Asset Management increases NVDA holding 5.3%"
     },
     {
-      "name": "Motley Fool - '$100 Oil Biggest AI Risk'",
+      "name": "Motley Fool - '$100 Oil Is AI's Biggest Risk'",
       "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/",
-      "description": "$100 oil impact on data center costs and AI sentiment"
+      "description": "$100 oil impact on data center power costs and AI sentiment"
     },
     {
       "name": "TipRanks - ARK/Cathie Wood NVDA Sale",
       "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-stalling-and-cathie-wood-is-losing-patience",
-      "description": "ARK sells 213,560 shares, Wood losing patience"
+      "description": "ARK 213,560 shares sold, Wood losing patience"
     },
     {
       "name": "Motley Fool - Space-1 Orbital AI Data Center",
@@ -253,33 +253,78 @@
       "description": "Vera Rubin Space-1 orbital AI module analysis"
     },
     {
-      "name": "Motley Fool - 'Investors Completely Wrong About NVDA'",
+      "name": "Motley Fool - 'Investors Are Wrong About NVDA'",
       "url": "https://www.fool.com/investing/2026/03/28/investors-are-completely-wrong-about-nvidia-stock/",
-      "description": "Post-GTC mathematical undervaluation proof"
+      "description": "Post-GTC mathematical undervaluation case"
     },
     {
-      "name": "MarketBeat - NVDA Forecast",
+      "name": "MarketBeat - NVDA Price Target",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
       "description": "42 Buy / 3 Hold / 0 Sell, target $276"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "NVDA $164 | 'First time in a decade.' Forward P/E below S&P 500",
-      "text": "$NVDA $163.52, YTD -11%\n\nMotley Fool: 'First time in a decade.'\nForward P/E 20.1x < S&P 500 (21x).\nThe #1 AI company trading below\nmarket average.\n\n1/4",
+      "hook": "NVDA $164 | First time in 13 years: AI leader trading below market average",
+      "text": "$NVDA $163.52, YTD -11%\n\nTheStreet: 'First time in 13 years.'\nForward P/E 20.1x < S&P 500 (21x).\nThe #1 AI company growing 65%\nis cheaper than the market average.\n\n1/4",
       "thread": [
-        "$100 oil biggest AI risk?\nBut chip demand is structural.\nARK sells 210K shares vs Swiss Life buys 5.3% more.\n\n2/4",
-        "PEG 0.52. 42/45 Buy. 0 Sell.\nTarget $276 (+69%).\n$1T order backlog.\n\n3/4",
-        "Below 50-day ($171), 200-day ($174).\nMay 20 earnings catalyst.\nDCA through macro dip. Buy.\n\n4/4"
+        "$100 oil is 'AI's biggest risk.'\nBut chip demand is structural.\nARK sold 213k shares.\nSwiss Life bought 5.3% more.\n\n2/4",
+        "PEG 0.52. 42/45 Buy. Zero Sell.\nTarget $276 (+69%).\n$1 trillion order backlog.\n\n3/4",
+        "Below 50d ($171), 200d ($174).\nMay 20 earnings is the catalyst.\nMacro compression. DCA in. Buy.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: First time in a decade. Forward P/E below S&P 500. Buying opportunity?",
-      "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x below S&P 500 (21x). First time in a decade (Motley Fool). #1 AI company cheaper than market average.\n\nPEG 0.52. 42/45 Buy. 0 Sell. DCA through macro weakness. Buy."
+      "hook": "NVDA: First time in 13 years. Forward P/E below S&P 500",
+      "text": "$NVDA $163.52, YTD -11%\n\nTheStreet and Motley Fool both flagged it. Forward P/E 20.1x dropped below S&P 500 (21x). First time in 13 years. The top AI company growing 65% is cheaper than average.\n\nPEG 0.52. 42/45 Buy. Zero Sell. DCA in. Buy."
     },
     "telegram": {
       "hook": "NVDA Daily Analysis (3/31)",
-      "text": "NVDA $163.52 | MCap $4.06T\nP/E 33.6x | Fwd 20.1x (below S&P 21x!) | PEG 0.52 | RSI 39\n\nKey Changes\n- Motley Fool: 'First time in a decade'\n- Forward P/E below S&P 500, YTD -11%\n\nMacro\n- WTI oil $100, '$100 oil = biggest AI risk'\n- ARK sells 210K shares vs Swiss Life buys 5.3%\n\nBullish\n- 42/45 Buy, target $276 (+69%)\n- PEG 0.52 extreme undervaluation\n- $1T order backlog\n\nRisks\n- Oil $100, data center power costs\n- Below 50-day ($171), 200-day ($174)\n\nVerdict: Buy. DCA through macro weakness"
+      "text": "NVDA $163.52 | MCap $4.06T\nP/E 33.6x | Forward 20.1x (below S&P!) | PEG 0.52 | RSI 39\n\nKey Signal\n- TheStreet: '13-year valuation anomaly'\n- Forward P/E below S&P 500 for first time\n\nMacro\n- $100 oil, 'AI's biggest risk'\n- ARK sold 213k vs Swiss Life +5.3%\n\nBullish\n- 42/45 Buy, target $276 (+69%)\n- PEG 0.52, $1T order backlog\n\nTechnical: Below 50d ($171), 200d ($174)\nVerdict: Buy. Macro compression, DCA opportunity"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $164 | First time in 13 years: AI leader trading below market average",
+          "text": "$NVDA $163.52, YTD -11%\n\nTheStreet: 'First time in 13 years.'\nForward P/E 20.1x < S&P 500 (21x).\nThe #1 AI company growing 65%\nis cheaper than the market average.\n\n1/4",
+          "thread": [
+            "$100 oil is 'AI's biggest risk.'\nBut chip demand is structural.\nARK sold 213k shares.\nSwiss Life bought 5.3% more.\n\n2/4",
+            "PEG 0.52. 42/45 Buy. Zero Sell.\nTarget $276 (+69%).\n$1 trillion order backlog.\n\n3/4",
+            "Below 50d ($171), 200d ($174).\nMay 20 earnings is the catalyst.\nMacro compression. DCA in. Buy.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "AI's #1 company is cheaper than market average. First time in 13 years. Math is hard",
+          "text": "$NVDA $163.52, YTD -11%\n\nForward P/E 20.1x.\nS&P 500: 21x.\n\n65% growth. #1 in AI.\nCheaper than the average stock.\nMake it make sense.\n\n1/4",
+          "thread": [
+            "ARK sells. Swiss Life buys.\n$100 oil = AI risk?\nThey're building data centers in space.\nLiterally. (Space-1)\n\n2/4",
+            "PEG 0.52. Zero sell ratings.\n$1T orders.\nIgnoring these numbers takes courage.\nNot the good kind.\n\n3/4",
+            "May 20 earnings. Buy before it's obvious.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA holders, YTD -11% plus $100 oil. But a 13-year opportunity just emerged",
+          "text": "$NVDA $163.52, YTD -11%\n\nBeen a tough year so far.\nBut TheStreet just called it:\n'13-year valuation anomaly.'\nThis might be the moment.\n\n1/4",
+          "thread": [
+            "Swiss Life is adding 5.3% more.\nLong-term money stays steady.\nOil will pass. Fundamentals won't.\n\n2/4",
+            "42/45 Buy. PEG 0.52.\nTarget $276 (+69%).\nThe math hasn't changed.\n\n3/4",
+            "DCA into May 20 earnings.\nBuy. Time is your ally.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA: Forward P/E below S&P 500. First time in 13 years",
+          "text": "$NVDA $163.52, YTD -11%. Forward P/E 20.1x < S&P (21x). TheStreet: 13-year first.\n\nPEG 0.52. 42/45 Buy. Zero Sell. DCA in. Buy."
+        },
+        "witty": {
+          "hook": "#1 AI company cheaper than the market average. Market forgot how math works",
+          "text": "$NVDA $163.52. Forward P/E 20.1x < S&P (21x). 65% growth, below average. 13-year first.\n\nARK sells, Swiss Life buys. PEG 0.52. Ignoring this takes a different kind of courage.\n\nBuy."
+        },
+        "empathy": {
+          "hook": "NVDA investors, tough year at -11%. A 13-year buying signal just appeared",
+          "text": "$NVDA $163.52. Tough year. But TheStreet flagged a 13-year anomaly: forward P/E below S&P.\n\n42/45 Buy. PEG 0.52. May 20 earnings ahead.\n\nDCA in. Buy. Time is your friend."
+        }
+      }
     }
   }
 }
