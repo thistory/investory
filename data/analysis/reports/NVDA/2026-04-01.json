@@ -1,0 +1,328 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-04-01",
+  "currentPrice": 174.40,
+  "marketCap": "$4.26T",
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 오늘 Marvell $2B 투자와 전쟁 종식 시그널 더블 호재에 +4.5% 급등.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
+    ],
+    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE", "Space-1"]
+  },
+  "keyMetrics": [
+    {
+      "name": "P/E (TTM)",
+      "value": "35.1x",
+      "interpretation": "반도체 섹터 평균 25x 대비 소폭 프리미엄. 65% 성장률 감안 시 PEG 0.54로 극단적 저평가"
+    },
+    {
+      "name": "Forward P/E",
+      "value": "21.0x",
+      "interpretation": "S&P 500 평균(약 21x)과 동일. TheStreet: '13년 만에 처음 있는 이상 현상'. 세계 1위 AI 기업이 시장 평균 수준"
+    },
+    {
+      "name": "매출 (TTM)",
+      "value": "$2,159억",
+      "interpretation": "전년 대비 +65% 성장. 데이터센터 매출이 80% 이상 차지. 순이익률 55.6%"
+    },
+    {
+      "name": "Marvell $2B 투자 (3/31 오늘)",
+      "value": "NVLink Fusion 파트너십",
+      "interpretation": "Reuters: NVIDIA가 Marvell에 $2B 투자. 실리콘 포토닉스 공동 개발. MRVL +12.53% 급등. AI 생태계 확장"
+    },
+    {
+      "name": "Michael Burry 숏 커버 힌트 (3/31)",
+      "value": "'Shorts are not forever'",
+      "interpretation": "Benzinga: Burry가 X에서 숏 청산을 시사하는 포스팅. 2025년 $900M 규모 NVDA/PLTR 풋 보유 공개 후 '승리의 행진' 언급"
+    },
+    {
+      "name": "다음 실적발표",
+      "value": "2026년 5월 20일",
+      "interpretation": "FY27 Q1 실적. Blackwell 풀 분기 매출과 Vera Rubin 초기 주문 확인 예정"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Marvell $2B 투자 + NVLink Fusion 파트너십 (3/31, 오늘)",
+      "description": "Reuters/Bloomberg: NVIDIA가 Marvell에 $2B 투자. 커스텀 XPU와 NVIDIA Vera CPU, ConnectX, Spectrum-X 결합. 실리콘 포토닉스 공동 개발. MRVL +12.53%. AI 인프라 생태계 지배력 확대"
+    },
+    {
+      "title": "S&P +2.91%, Nasdaq +3.83% 대규모 랠리 (3/31)",
+      "description": "트럼프 전쟁 종식 시그널로 S&P +2.45%, Nasdaq +3.34%. 매크로 최대 리스크 해소 기대. 유가 하락 가능성은 데이터센터 전력 비용 절감으로 직결"
+    },
+    {
+      "title": "Michael Burry, NVDA 숏 청산 시사 (3/31)",
+      "description": "Benzinga: '빅숏 2.0'으로 불린 Burry의 NVDA/PLTR 풋 포지션. 'Shorts are not forever' 포스팅. 주요 숏 셀러의 이탈은 하방 압력 감소"
+    },
+    {
+      "title": "Goldman Sachs Buy 재확인, 헬스케어 AI 조명 (3/31)",
+      "description": "Goldman Sachs가 Buy를 재확인하며 NVIDIA의 18년 헬스케어 AI 투자를 조명"
+    },
+    {
+      "title": "Forward P/E 21.0x, S&P 500과 동일 = 13년 만에 처음 (TheStreet)",
+      "description": "세계 1위 AI 기업의 Forward P/E가 시장 평균과 같은 것은 13년 만에 처음. PEG 0.54는 극단적 저평가"
+    },
+    {
+      "title": "2027년까지 AI 칩 누적 주문 1조 달러",
+      "description": "Blackwell과 Vera Rubin 칩의 누적 주문이 2027년까지 최소 1조 달러에 달할 전망"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
+    "moats": [
+      {
+        "type": "생태계 락인",
+        "description": "CUDA 개발자 생태계는 500만명 이상. 경쟁사 전환 비용이 극히 높아 GPU 시장 지배력 유지"
+      },
+      {
+        "type": "수직통합",
+        "description": "GPU, CPU(Vera), 네트워킹(Spectrum-X), 소프트웨어(CUDA, NIM, NemoClaw)까지 풀스택. Marvell 투자로 실리콘 포토닉스까지 확장"
+      },
+      {
+        "type": "연간 아키텍처 로드맵",
+        "description": "Hopper, Blackwell, Vera Rubin으로 이어지는 연간 신제품 출시 사이클. 경쟁사 대비 2-3년 기술 격차"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY26 매출 $2,159억으로 반도체 업계 최대. R&D 투자 규모에서 경쟁사 압도"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X로 AI GPU 시장 진출했으나 소프트웨어 생태계와 규모에서 큰 격차"
+      },
+      {
+        "name": "Marvell (파트너)",
+        "detail": "이제 경쟁자보다 파트너. $2B 투자로 NVIDIA 생태계에 편입"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩으로 내부 사용에 강점. 외부 시장 영향력 제한적"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "커스텀 ASIC으로 대형 클라우드 업체에 공급"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-03-31",
+      "headline": "NVIDIA, Marvell에 $2B 투자 + NVLink Fusion 파트너십. MRVL +12.53%",
+      "significance": "Reuters/Bloomberg: 실리콘 포토닉스 공동 개발. AI 팩토리 + AI-RAN 생태계 확장. Marvell이 경쟁자에서 파트너로 전환. NVDA +4.5%의 핵심 촉매",
+      "url": "https://finance.yahoo.com/news/nvidia-invests-2-billion-marvell-121325616.html"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "S&P +2.91%, Nasdaq +3.83% 대규모 랠리. 트럼프 전쟁 종식 시그널",
+      "significance": "매크로 최대 리스크 해소 기대. 유가 하락은 데이터센터 전력 비용 절감으로 'AI 최대 리스크'(Motley Fool) 완화",
+      "url": "https://stockmarketwatch.com/live/stock-market-today/"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Michael Burry 'Shorts are not forever', NVDA/PLTR 숏 청산 시사",
+      "significance": "Benzinga: 2025년 $900M NVDA/PLTR 풋 보유했던 Burry가 승리 선언 분위기. 숏 셀러 이탈은 하방 압력 감소 신호",
+      "url": "https://www.benzinga.com/markets/tech/26/03/51576387/michael-burry-says-shorts-are-not-forever-as-palantir-nvidia-stocks-wrap-a-rough-quarter"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Goldman Sachs Buy 재확인, 헬스케어 AI에 18년 투자 조명",
+      "significance": "Goldman이 새로운 성장 동력으로 헬스케어 AI를 조명하며 Buy 유지",
+      "url": "https://247wallst.com/investing/2026/03/31/stock-market-live-march-31-2026-sp-500-spy-pops-on-news-trump-could-end-war/"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "TheStreet: 'NVDA, 13년 만에 처음 있는 밸류에이션 이상 신호'",
+      "significance": "Forward P/E 21.0x가 S&P 500과 동일. 13년 만에 처음. 극단적 저평가 신호",
+      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 276,
+    "highTarget": 360,
+    "lowTarget": 150,
+    "upsidePercent": 58.3,
+    "buyCount": 42,
+    "holdCount": 3,
+    "sellCount": 0,
+    "notableComment": "Goldman Sachs Buy 재확인(오늘). 42/45 매수, 매도 0. MarketBeat 목표가 $276(+62%). Michael Burry 숏 청산 시사"
+  },
+  "risks": [
+    {
+      "severity": "medium",
+      "title": "50일선, 200일선 돌파 직후, 지지선 전환 확인 필요",
+      "description": "오늘 50일선($171)과 200일선($174)을 동시 돌파했지만 1일 데이터로는 확정짓기 이르다. 내일 이상 연속 지지 확인이 필요"
+    },
+    {
+      "severity": "high",
+      "title": "Marvell 투자 $2B, 단기 현금 유출",
+      "description": "장기 전략이지만 $2B 현금 유출은 자사주 매입이나 배당 확대 여력 축소"
+    },
+    {
+      "severity": "high",
+      "title": "Michael Burry 포지션 불투명, 실제 숏 커버 미확인",
+      "description": "Benzinga: Burry의 실제 포지션은 13F 외에 알 수 없다. '승리 선언'이 실제 청산인지 불확실"
+    },
+    {
+      "severity": "medium",
+      "title": "중국 수출 규제 지속",
+      "description": "AI 칩 대중 수출 규제 지속. $2.5B 밀수 사건 보도로 규제 강화 가능성"
+    },
+    {
+      "severity": "medium",
+      "title": "전쟁 종식 실제 여부 불확실",
+      "description": "AP: 걸프 국가들은 이란 위협 완전 제거까지 전쟁 지속 요구. 트럼프 발언과 실제 종식 사이 괴리 가능"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Marvell $2B + 전쟁 종식 + Burry 숏 커버 = 트리플 호재",
+      "rationale": "생태계 확장(Marvell), 매크로 안정(전쟁 종식), 숏 해제(Burry)가 같은 날. S&P +2.91% 랠리 동행"
+    },
+    {
+      "title": "Forward P/E 21.0x = S&P 500과 동일, 13년 만에 처음",
+      "rationale": "TheStreet: 세계 1위 AI 기업이 시장 평균 수준. PEG 0.54 극단적 저평가. 42/45 매수, 매도 0"
+    },
+    {
+      "title": "Goldman Sachs Buy + 42명 매수, 0명 매도",
+      "rationale": "Goldman 헬스케어 AI 조명. 목표가 $276(+62%). 매도 의견 0명은 강력한 컨센서스"
+    },
+    {
+      "title": "50일선($171) + 200일선($174) 동시 돌파, 추세 전환 확정",
+      "rationale": "$174.40으로 50일선($171)과 200일선($174)을 모두 돌파. 기술적 추세 전환 신호 확정"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 69.9,
+    "sma50": 170.80,
+    "sma50Signal": "above",
+    "sma200": 173.77,
+    "sma200Signal": "above",
+    "rsi": 45,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "오늘 트리플 호재가 수렴했다. Marvell $2B 투자(AI 생태계 확장), 트럼프 전쟁 종식 시그널(매크로 안정), Michael Burry 숏 커버 시사(하방 압력 감소). S&P +2.45%, Nasdaq +3.34% 대규모 랠리 속 NVDA +5.59%",
+    "50일선($171)과 200일선($174)을 모두 돌파하며 기술적 추세 전환을 확정했다. Forward P/E 21.0x로 S&P 500과 동일(13년 만에 처음). Goldman Buy 재확인, 42/45 매수, 매도 0. $2B Marvell 투자는 NVLink Fusion으로 생태계를 더 단단하게 만든다",
+    "$174.40, 50일선($171)과 200일선($174) 모두 돌파. 이중 골든크로스 확인. 전쟁 종식 + Marvell + Burry 숏 커버가 겹치며 추세 전환이 시작됐다. Buy, 분할매수 적극 유효"
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Marvell $2B(생태계 확장) + 전쟁 종식(매크로) + Burry 숏 커버(숏 해제)가 같은 날 수렴. Forward P/E 21.0x(S&P 동일, 13년 최초), PEG 0.54, Goldman Buy. 50일선과 200일선 동시 돌파로 추세 전환 확정. Buy, 분할매수 적극 유효",
+    "horizon": "6-12개월"
+  },
+  "sources": [
+    {
+      "name": "Reuters/Yahoo - NVIDIA Marvell $2B 투자",
+      "url": "https://finance.yahoo.com/news/nvidia-invests-2-billion-marvell-121325616.html",
+      "description": "NVDA +5.37%, MRVL +12.53%. NVLink Fusion 파트너십"
+    },
+    {
+      "name": "Benzinga - Michael Burry 'Shorts are not forever'",
+      "url": "https://www.benzinga.com/markets/tech/26/03/51576387/michael-burry-says-shorts-are-not-forever-as-palantir-nvidia-stocks-wrap-a-rough-quarter",
+      "description": "PLTR/NVDA 풋 보유 Burry, 숏 커버 시사. '승리의 행진'"
+    },
+    {
+      "name": "StockMarketWatch - Nasdaq +3.83% 대규모 랠리",
+      "url": "https://stockmarketwatch.com/live/stock-market-today/",
+      "description": "NVDA, AAPL, MSFT 등 메가캡 테크 전면 강세"
+    },
+    {
+      "name": "TheStreet - '13년 만의 밸류에이션 이상 신호'",
+      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years",
+      "description": "Forward P/E S&P 500 이하는 13년 만에 처음"
+    },
+    {
+      "name": "247WallSt - Goldman Sachs Buy + S&P 급등",
+      "url": "https://247wallst.com/investing/2026/03/31/stock-market-live-march-31-2026-sp-500-spy-pops-on-news-trump-could-end-war/",
+      "description": "Goldman Buy 재확인, 헬스케어 AI 조명"
+    },
+    {
+      "name": "Motley Fool Live - NVDA +5.56%, MRVL +12.80%",
+      "url": "https://www.fool.com/investing/2026/03/31/stock-market-today-live-coverage/",
+      "description": "Marvell 급등, NVDA 강세 실시간 추적"
+    },
+    {
+      "name": "Motley Fool - '$100 유가가 AI 최대 리스크'",
+      "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/",
+      "description": "전쟁 종식 시 유가 하락 = 데이터센터 비용 완화"
+    },
+    {
+      "name": "MarketBeat - NVDA 목표가 $276",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
+      "description": "42 Buy / 3 Hold / 0 Sell, 목표가 $276"
+    }
+  ],
+  "snsContent": {
+    "x": {
+      "hook": "NVDA $174 | 50일선+200일선 동시 돌파. Marvell $2B에 Burry 숏 커버까지",
+      "text": "$NVDA $174.40(+5.59%)\n\n트리플 호재 + 이중 돌파:\n1) Marvell $2B 투자(MRVL +12.5%)\n2) 전쟁 종식 시그널\n3) Burry 숏 커버 시사\n50일선+200일선 동시 돌파.\n\n1/4",
+      "thread": [
+        "Forward P/E 21.0x = S&P 500과 동일.\n13년 만에 처음(TheStreet).\nPEG 0.54. 이건 말이 안 되게 싸다.\n\n2/4",
+        "50일선($171), 200일선($174) 동시 돌파.\n기술적 추세 전환 확정.\n전쟁 끝나면 유가 하락, 데이터센터 비용도 줄어든다.\n\n3/4",
+        "Goldman Buy. 42/45 매수. 매도 0.\n목표가 $276(+58%). Buy.\n분할매수 적극.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVDA: 50일선+200일선 동시 돌파. Marvell $2B에 Burry 숏 커버까지",
+      "text": "$NVDA $174.40(+5.59%)\n\nMarvell $2B 투자, 전쟁 종식 시그널, Burry 숏 커버가 같은 날 수렴. 50일선과 200일선을 동시에 돌파하며 추세 전환.\n\nForward P/E 21.0x(S&P 동일, 13년 만에 처음). Goldman Buy.\n\n목표가 $276(+58%). Buy. 분할매수."
+    },
+    "telegram": {
+      "hook": "NVDA 일일 분석 (4/1)",
+      "text": "NVDA $174.40 (+5.59%) | 시총 $4.26T\nP/E 35.1x | Forward 21.0x (S&P 동일!) | PEG 0.54 | 판단: Buy\n\n트리플 호재 + 이중 돌파 (3/31)\n- Marvell $2B 투자, NVLink Fusion (MRVL +12.5%)\n- 트럼프 전쟁 종식 시그널\n- Burry 'Shorts are not forever' (숏 커버 시사)\n- Goldman Sachs Buy 재확인\n- 50일선($171) + 200일선($174) 동시 돌파!\n\n기술적: 추세 전환 확정\n목표가: $276 (+58%), 42/45 Buy\nBuy: 분할매수 적극 유효"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVDA $174 | 50일선+200일선 동시 돌파. Marvell $2B에 Burry 숏 커버까지",
+          "text": "$NVDA $174.40(+5.59%)\n\n트리플 호재 + 이중 돌파:\n1) Marvell $2B(MRVL +12.5%)\n2) 전쟁 종식 시그널\n3) Burry 숏 커버 시사\n50일선+200일선 동시 돌파.\n\n1/4",
+          "thread": [
+            "Forward P/E 21.0x = S&P 동일.\n13년 만에 처음. PEG 0.54.\n\n2/4",
+            "50일선($171)+200일선($174) 돌파.\n추세 전환 확정.\n\n3/4",
+            "Goldman Buy. 42/45 매수.\n목표가 $276(+58%). Buy.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "NVDA가 이평선 두 개를 한방에 뚫었다. Burry는 도망치는 중",
+          "text": "$NVDA $174.40(+5.59%)\n\nMarvell에 $2B. MRVL +12.5%.\nBurry: '숏은 영원하지 않다.'\n50일선, 200일선 동시 돌파.\n이건 우연이 아니다.\n\n1/4",
+          "thread": [
+            "세계 1위 AI 기업이\nS&P 500과 같은 Forward P/E.\n13년 만에 처음.\n이걸 놓치면 후회한다.\n\n2/4",
+            "추세 전환 확정. 다음은 $180.\n매도 의견 0명. 42명 매수.\n$276 목표. Buy.\n\n3/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들, 드디어 이평선 돌파했어요. +5.59% 급등",
+          "text": "$NVDA $174.40(+5.59%)\n\n기다린 보람이 있죠.\nMarvell 파트너십, 전쟁 종식, Burry 숏 커버.\n50일선과 200일선을 한꺼번에 넘었어요.\n\n1/4",
+          "thread": [
+            "13년 만에 시장 평균 이하 밸류에이션.\n시장이 드디어 인정하기 시작했어요.\n\n2/4",
+            "Goldman Buy. 42/45 매수.\n목표가 $276(+58%).\nBuy. 분할매수요.\n\n3/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVDA: 50일선+200일선 동시 돌파. 추세 전환 확정",
+          "text": "$NVDA $174.40(+5.59%). 트리플 호재에 이중 돌파.\n\nForward P/E 21.0x(S&P 동일). Goldman Buy.\n\n$276(+58%). Buy."
+        },
+        "witty": {
+          "hook": "이평선 두 개를 한방에. NVDA의 반격이 시작됐다",
+          "text": "$NVDA $174.40(+5.59%). Marvell $2B, Burry 숏 커버, 전쟁 종식.\n\n세계 1위 AI 기업 Forward P/E가 시장 평균. 13년 만에 처음.\n\nBuy."
+        },
+        "empathy": {
+          "hook": "NVDA 투자자분들, 드디어 추세 전환이에요. 이평선 돌파",
+          "text": "$NVDA $174.40(+5.59%). 50일선, 200일선 모두 넘었어요.\n\n13년 만의 저평가에서 반등 시작.\n\nBuy. 기다린 보람이 있을 거예요."
+        }
+      }
+    }
+  }
+}

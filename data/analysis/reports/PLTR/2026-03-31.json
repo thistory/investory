@@ -27,7 +27,7 @@
     {
       "name": "Trailing P/E",
       "value": "215x",
-      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 6.3배. 소프트웨어 섹터 평균 45x 대비 4.8배. 3일간 -12% 하락에도 여전히 극단적 프리미엄"
+      "interpretation": "S&P 500 IT 섹터 평균 34x 대비 6.3배. 소프트웨어 섹터 평균 45x 대비 4.8배. 3일간 -12% 하락에도 극단적 프리미엄"
     },
     {
       "name": "Forward P/E (FY2026E)",
@@ -37,7 +37,7 @@
     {
       "name": "매출 성장률 (FY2026E)",
       "value": "+65% YoY",
-      "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. 이란 전쟁 확대로 AI 방산 수요 더욱 가속화 가능"
+      "interpretation": "FY2025 $4.48B에서 FY2026 $7.40B 전망. 다만 전쟁 종식 시 방산 수요 성장 속도가 둔화될 수 있다"
     },
     {
       "name": "P/S (매출 대비 주가)",
@@ -52,33 +52,33 @@
     {
       "name": "RSI",
       "value": "38",
-      "interpretation": "과매도 구간(30) 접근 중. 3일 -12%로 RSI 급락. 기술적 반등 가능성"
+      "interpretation": "과매도 구간(30) 접근 중. 3일 -12%로 RSI 급락. 247WallSt는 '과매도 영역'이라고 분석"
     }
   ],
   "growthDrivers": [
     {
-      "title": "Stellantis 5년 파트너십 갱신 및 확대 (3/30, 당일 발표)",
-      "description": "Palantir가 글로벌 4위 자동차그룹 Stellantis와의 파트너십을 5년 갱신했다. 제조업 AI 적용의 대표 사례로, Foundry 플랫폼의 기업 고객 확대를 증명하는 계약"
+      "title": "247WallSt: '과매도, 89% 상승 여력 현실적인가?' Citi $260, Wedbush $230 (3/31 오늘)",
+      "description": "247WallSt가 오늘 PLTR 과매도 분석을 게재. Citi Tyler Radke $260(+89%), Wedbush Dan Ives $230(+68%) 유지. '전쟁 뉴스와 무관하게 AIP 플랫폼이 enterprise AI의 표준이 되고 있다'고 평가"
     },
     {
-      "title": "CNBC: '이란 전쟁은 방산 테크의 기회, Palantir 도구 이미 실전 사용' (3/28)",
-      "description": "CNBC가 이란 전쟁이 방산 테크 기업의 기회라고 분석. Palantir는 Pentagon에 이미 수십억 달러 계약을 확보했으며, CEO Karp은 미군이 Palantir 도구를 실전에서 사용 중이라고 언급"
+      "title": "트럼프 이란 전쟁 종식 시그널 (3/31, 양날의 검)",
+      "description": "WSJ: 트럼프가 군사 작전 종식 의향 시사. S&P +1.1% 급등. PLTR에는 양날의 검. 매크로 안정화는 기술주에 긍정적이지만, 전쟁 종식은 방산 프리미엄을 더 빨리 소멸시킬 수 있다"
     },
     {
-      "title": "Motley Fool: 'Palantir 블록버스터 한 주' 3대 핵심 발전 (3/29)",
-      "description": "Motley Fool이 Golden Dome, Maven 정식 채택, Polymarket 파트너십을 '블록버스터 한 주의 3대 핵심'으로 선정. 펀더멘털 강화 지속"
+      "title": "Stellantis 5년 파트너십 갱신 및 확대 (3/30)",
+      "description": "Palantir가 글로벌 4위 자동차그룹 Stellantis와의 파트너십을 5년 갱신. Foundry 플랫폼의 기업 고객 확대를 증명하는 계약"
     },
     {
       "title": "Golden Dome $185B 미사일 방어 소프트웨어 선정 (3/25)",
-      "description": "Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발. 후티 미사일 공격으로 미사일 방어 긴급성이 더 부각"
-    },
-    {
-      "title": "Polymarket AI 사기방지 파트너십 체결 (3/26)",
-      "description": "Palantir의 Vergence AI가 Polymarket의 거래 감시, 사용자 행동 모니터링을 실시간으로 수행. 금융 서비스 영역 확대의 시작점"
+      "description": "Palantir와 Anduril이 트럼프 행정부의 $185B Golden Dome 미사일 방어 시스템 소프트웨어를 공동 개발. 전쟁 종식되더라도 미사일 방어 시스템은 장기 인프라"
     },
     {
       "title": "Maven AI 미군 전체 정식 채택 (Program of Record, 3/23)",
-      "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정. 미군 전 군에 장기 적용 확정. 이란 전쟁에서 실전 검증 중"
+      "description": "Pentagon이 Maven Smart System을 공식 program of record로 지정. 전쟁과 무관하게 미군 장기 적용 확정"
+    },
+    {
+      "title": "Polymarket AI 사기방지 파트너십 체결 (3/26)",
+      "description": "Palantir의 Vergence AI가 Polymarket의 거래 감시, 사용자 행동 모니터링을 실시간으로 수행. 금융 서비스 영역 확대"
     }
   ],
   "competitiveAdvantage": {
@@ -94,7 +94,7 @@
       },
       {
         "type": "실전 검증",
-        "description": "이란 전쟁에서 실시간 타겟팅에 활용. 후티 참전으로 전선 확대 시 수요 증가"
+        "description": "이란 전쟁에서 실시간 타겟팅에 활용. 전쟁 종식 후에도 Maven 정식 채택으로 장기 수요 확정"
       },
       {
         "type": "네트워크 효과",
@@ -123,32 +123,32 @@
   "recentNews": [
     {
       "date": "2026-03-31",
+      "headline": "247WallSt: 'PLTR 과매도, 89% 상승 현실적인가?' Citi $260, Wedbush $230",
+      "significance": "고점 대비 1/3 하락 후 과매도 분석. Citi $260(+89%), Wedbush $230(+68%). 'AIP가 enterprise AI 표준이 되고 있다'는 장기 전망에는 변함없다고 분석",
+      "url": "https://247wallst.com/investing/2026/03/31/palantir-stock-looks-oversold-but-is-a-89-year-ahead-gain-realistic/"
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "트럼프 이란 전쟁 종식 시그널, S&P +1.1% 급등",
+      "significance": "PLTR에 양날의 검. 매크로 안정화는 기술주에 긍정적이지만, 전쟁 종식은 방산 프리미엄 소멸을 가속시킬 수 있다. Gulf 국가들은 전쟁 지속을 원하고 있어 실제 종식 여부는 불확실",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-30/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "date": "2026-03-31",
       "headline": "Stocktwits: 'PLTR 3일간 -12%, 방산 부스트 끝났나?'",
-      "significance": "3일간 12% 하락으로 전쟁 발발 이후 방산 랠리 대부분 반납. Forward P/E 5개월 최저. Stocktwits 센티먼트가 3월 중순 이후 bearish로 전환",
+      "significance": "3일간 12% 하락으로 전쟁 발발 이후 방산 랠리 대부분 반납. Forward P/E 5개월 최저. 센티먼트 bearish 전환",
       "url": "https://stocktwits.com/news-articles/markets/equity/pltr-stock-loses-over-12-in-three-days-is-the-defense-boost-over/cZEPiyeRINt"
     },
     {
       "date": "2026-03-31",
-      "headline": "247WallSt: 'Palantir -4%, AI 파트너십이 시장 최고가 밸류에이션을 정당화할 수 있나?'",
-      "significance": "'오늘의 하락은 사업이 아니라 고공포 환경에서 투자자들이 지불하려는 가격의 문제'. $140과 $145 회복 여부가 관건",
-      "url": "https://247wallst.com/investing/2026/03/30/palantir-drops-4-can-its-ai-partnerships-justify-one-of-the-markets-most-expensive-valuations/"
-    },
-    {
-      "date": "2026-03-31",
       "headline": "Parameter.io: 'Stellantis 5년 딜 확대에도 -3.85%, $137.55 마감'",
-      "significance": "호재 당일 -3.85% 하락. 시간외 -0.81% 추가 하락. 매크로 매도 압력이 호재를 압도",
+      "significance": "호재 당일 -3.85% 하락. 매크로 매도 압력이 호재를 압도. 전쟁 종식 시그널로 오늘 반등 가능성",
       "url": "https://parameter.io/palantir-technologies-inc-pltr-stock-falls-3-85-despite-5-year-stellantis-ai-deal-expansion/"
     },
     {
       "date": "2026-03-31",
-      "headline": "Barchart: 'Palantir은 Golden Dome의 Core를 개발 중', Mizuho $195 재확인",
-      "significance": "Mizuho Securities Outperform $195 유지. 매출 성장 가속, 마진 확대 전망. Golden Dome이 장기 방산 구조를 바꿀 수 있다",
-      "url": "https://www.barchart.com/story/news/1041876/palantir-is-developing-the-core-of-the-golden-dome-does-that-make-pltr-stock-a-buy-now"
-    },
-    {
-      "date": "2026-03-31",
       "headline": "TradingKey: 'PLTR -3.81%, Peter Thiel과 임원진 3월 연속 내부자 매도'",
-      "significance": "Thiel과 임원진의 3월 연속 매도가 투자 심리에 부정적 영향. 10b5-1 플랜이라 반박하지만 심리적 압박",
+      "significance": "Thiel과 임원진의 3월 연속 매도. 10b5-1 플랜이라 반박하지만 심리적 압박",
       "url": "https://www.tradingkey.com/news/Market-Movers/261734964-market-movers-pltr-20260330"
     }
   ],
@@ -160,56 +160,51 @@
     "buyCount": 17,
     "holdCount": 14,
     "sellCount": 5,
-    "notableComment": "Mizuho $195 Outperform 재확인. MarketBeat 컨센서스 $198.59(+44.4%). Stocktwits: 3일 -12%로 방산 랠리 대부분 반납"
+    "notableComment": "Citi $260(+89%), Wedbush $230(+68%), Mizuho $195 Outperform. 247WallSt: '과매도 영역'. MarketBeat 컨센서스 $198.59(+44.4%)"
   },
   "risks": [
     {
       "severity": "critical",
-      "title": "3일간 -12%, 방산 부스트 끝났다는 신호",
-      "description": "Stocktwits에 따르면 3일간 12% 하락으로 전쟁 발발 이후 방산 랠리의 상당 부분을 반납했다. Forward P/E 5개월 최저. 센티먼트 bearish 전환. 방산 프리미엄이 빠르게 증발하고 있다"
+      "title": "전쟁 종식 시 방산 프리미엄 소멸 가속",
+      "description": "트럼프 전쟁 종식 시그널로 방산 프리미엄이 더 빨리 빠질 수 있다. 3일 -12%로 이미 방산 랠리 대부분 반납. 전쟁 종식 확정 시 추가 하방 압력"
     },
     {
       "severity": "critical",
       "title": "극단적 밸류에이션, P/E 215x",
-      "description": "P/E 215x(IT 평균 34x의 6.3배). Motley Fool은 P/E를 50x로 낮추려면 이익이 330%+ 성장해야 한다고 분석. 전쟁 수혜에도 밸류에이션이 모든 것을 선반영"
-    },
-    {
-      "severity": "high",
-      "title": "호재에도 -3.85%, 매크로 셀오프가 펀더멘털을 압도",
-      "description": "Stellantis 5년 딜 발표 당일 -3.85% 하락, 시간외 -0.81% 추가 하락. 247WallSt: '사업보다 고공포 환경에서 가격의 문제'"
+      "description": "P/E 215x(IT 평균 34x의 6.3배). 전쟁 프리미엄까지 빠지면 정당화가 더 어려워진다. Motley Fool: P/E 50x로 낮추려면 이익 330%+ 성장 필요"
     },
     {
       "severity": "high",
       "title": "Peter Thiel + 임원진 3월 연속 내부자 매도",
-      "description": "TradingKey에 따르면 Thiel과 임원진이 3월 내내 연속 매도. 10b5-1 플랜이라 반박하지만 투자 심리에는 부정적"
+      "description": "TradingKey에 따르면 Thiel과 임원진이 3월 내내 연속 매도. 전쟁 종식으로 방산 프리미엄이 빠질 것을 미리 예측한 것일 수 있다"
     },
     {
       "severity": "high",
-      "title": "유가 $100 돌파, 매크로 기술주 셀오프",
-      "description": "후티 참전, 유가 $100+, 인플레이션 재점화 우려. 방산 수혜에도 고밸류 기술주 전체에 대한 매도 압력이 더 강하게 작용"
+      "title": "애널리스트 의견 분열",
+      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션에 대한 시장의 회의론 지속. 전쟁 종식 뉴스가 bearish 컨센서스를 강화할 수 있다"
     },
     {
       "severity": "medium",
-      "title": "애널리스트 의견 분열",
-      "description": "17 Buy, 14 Hold, 5 Sell. 밸류에이션에 대한 시장의 회의론이 지속"
+      "title": "Gulf 국가들은 전쟁 지속 원함, 종식 여부 불확실",
+      "description": "AP: 걸프 국가들은 이란 위협 완전 제거까지 전쟁 지속 요구. 실제 종식은 트럼프 발언보다 복잡하다"
     }
   ],
   "buyReasons": [
     {
-      "title": "247WallSt: '사업이 아닌 매크로 공포가 하락 원인'",
-      "rationale": "하락이 펀더멘털 악화가 아니라 risk-off 환경 때문. 매크로 안정 시 반등 가능성. Golden Dome + Maven + Stellantis 호재가 아직 미반영"
+      "title": "247WallSt '과매도' + Citi $260(+89%)",
+      "rationale": "고점 -33.7%, RSI 38, 3일 -12%로 과매도 영역. Citi Tyler Radke $260, Wedbush $230을 유지하며 AIP의 장기 가치에 확신을 표명"
     },
     {
-      "title": "Stellantis 5년 갱신 + 이란 전쟁, 방산/기업 양면 수혜",
-      "rationale": "Stellantis 5년 파트너십 갱신(기업), 이란 전쟁 실전 사용(방산). 양면에서 수요가 증가. Golden Dome 미사일 방어 긴급성도 부각"
+      "title": "매크로 안정화는 기술주에 긍정적",
+      "rationale": "전쟁 종식 시 전반적인 매크로 환경이 개선되며 기술주 셀오프가 멈출 수 있다. PLTR의 기업(Foundry) 부문에는 확실히 긍정적"
     },
     {
-      "title": "고점 대비 -34% 할인, RSI 38 과매도 접근",
-      "rationale": "52주 고점 $207에서 -34% 하락. RSI 38로 과매도 구간 접근. 3일 -12%는 과도한 매도 반응일 수 있다"
+      "title": "전쟁 종식과 무관한 장기 방산 계약",
+      "rationale": "Maven은 program of record로 정식 채택되어 전쟁과 무관하게 미군 장기 적용 확정. Golden Dome $185B은 미사일 방어 인프라. 전쟁이 끝나도 계약은 유지된다"
     },
     {
-      "title": "컨센서스 $199(+44%), Mizuho $195 Outperform 재확인",
-      "rationale": "하락으로 상승 여력이 44.4%로 확대. Barchart가 Golden Dome Core 역할을 조명하며 Mizuho 목표가 재확인"
+      "title": "Stellantis 5년 갱신, 상업 매출 성장 가속",
+      "rationale": "상업 매출 Q4 +137% YoY. Stellantis 5년 갱신은 기업 고객 확장의 증거. 전쟁 의존도가 줄어도 상업 성장이 보완"
     }
   ],
   "technicalPosition": {
@@ -224,45 +219,45 @@
     "rsiSignal": "neutral"
   },
   "overallOpinion": [
-    "3일간 12% 하락으로 전쟁 발발 이후 방산 랠리의 상당 부분을 반납했다. Stocktwits 센티먼트도 bearish로 전환. Stellantis 5년 딜 발표 당일에도 -3.85% 하락하며 호재가 무력화되고 있다",
-    "P/E 215x(소프트웨어 섹터 45x의 4.8배)에 Thiel 연속 매도까지. Barchart는 Golden Dome Core 역할을 조명하며 Mizuho $195를 재확인했지만, 247WallSt는 '사업이 아니라 투자자들이 지불하려는 가격의 문제'라고 정확히 짚었다",
-    "50일선($149), 200일선($169) 아래. YTD -22%, 고점 -34%. RSI 38. 펀더멘털은 역대 최강이지만 방산 프리미엄이 빠지고 있다. Hold, 매크로 안정 확인 후 소액 분할매수"
+    "트럼프 전쟁 종식 시그널(WSJ)은 PLTR에 양날의 검이다. S&P +1.1% 급등으로 기술주 셀오프가 멈출 수 있지만, 방산 프리미엄 소멸이 가속될 수 있다. 3일 -12%로 이미 방산 랠리를 대부분 반납한 상태",
+    "247WallSt가 오늘 '과매도, 89% 상승 현실적인가?'라는 분석을 냈다. Citi $260, Wedbush $230. Maven 정식 채택, Golden Dome은 전쟁과 무관한 장기 계약이다. 하지만 P/E 215x에 Thiel 연속 매도는 여전히 부담",
+    "$137.55, 50일선($149), 200일선($169) 아래. RSI 38. 전쟁 종식이 확정되면 단기 추가 하락 가능하지만, 매크로 안정화가 중기적으로 바닥을 만들어줄 수 있다. Hold, 매크로 안정 확인 후 소액 분할매수"
   ],
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "3일 -12% 하락은 방산 부스트가 끝나고 있다는 신호다. Golden Dome + Maven + Stellantis로 펀더멘털은 역대 최강이지만, P/E 215x와 유가 $100 환경이 단기 상승을 막는다. 고점 -34%, RSI 38로 매력도는 올라가고 있으나, 방산 프리미엄 소멸 속도가 빠르다. 매크로 안정 확인 후 소액 분할매수",
+    "summary": "전쟁 종식 시그널은 PLTR에 양날의 검이다. 방산 프리미엄 소멸 가속(부정적) vs 매크로 안정화(긍정적). Maven, Golden Dome은 전쟁과 무관한 장기 계약이고, Citi $260 등 높은 목표가가 유지되고 있다. 하지만 P/E 215x, Thiel 매도, 3일 -12%의 방산 프리미엄 반납이 부담. 매크로 안정 확인 후 소액 분할매수",
     "horizon": "6-12개월"
   },
   "sources": [
     {
+      "name": "247WallSt - 'PLTR 과매도, 89% 상승 현실적인가?'",
+      "url": "https://247wallst.com/investing/2026/03/31/palantir-stock-looks-oversold-but-is-a-89-year-ahead-gain-realistic/",
+      "description": "Citi $260(+89%), Wedbush $230(+68%). AIP가 enterprise AI 표준"
+    },
+    {
+      "name": "Bloomberg - 트럼프 이란 전쟁 종식 시그널, S&P +1.1%",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-30/stock-market-today-dow-s-p-live-updates",
+      "description": "WSJ: 군사작전 종식 의향. Gulf 국가는 지속 요구"
+    },
+    {
       "name": "Stocktwits - 'PLTR 3일 -12%, 방산 부스트 끝났나?'",
       "url": "https://stocktwits.com/news-articles/markets/equity/pltr-stock-loses-over-12-in-three-days-is-the-defense-boost-over/cZEPiyeRINt",
-      "description": "3일 -12%, Forward P/E 5개월 최저, 센티먼트 bearish 전환"
+      "description": "3일 -12%, Forward P/E 5개월 최저, 센티먼트 bearish"
     },
     {
-      "name": "247WallSt - 'Palantir -4%, AI 파트너십이 밸류에이션 정당화 가능?'",
-      "url": "https://247wallst.com/investing/2026/03/30/palantir-drops-4-can-its-ai-partnerships-justify-one-of-the-markets-most-expensive-valuations/",
-      "description": "'사업이 아닌 매크로 공포'. $137, YTD -22%"
-    },
-    {
-      "name": "Parameter.io - PLTR -3.85% $137.55 마감, Stellantis 딜에도 하락",
+      "name": "Parameter.io - PLTR -3.85%, Stellantis 딜에도 하락",
       "url": "https://parameter.io/palantir-technologies-inc-pltr-stock-falls-3-85-despite-5-year-stellantis-ai-deal-expansion/",
       "description": "Stellantis 5년 갱신에도 -3.85%. 시간외 -0.81%"
     },
     {
-      "name": "Barchart - Golden Dome Core, Mizuho $195 재확인",
-      "url": "https://www.barchart.com/story/news/1041876/palantir-is-developing-the-core-of-the-golden-dome-does-that-make-pltr-stock-a-buy-now",
-      "description": "Mizuho Outperform $195 재확인. Golden Dome Core 개발자 역할"
-    },
-    {
-      "name": "TradingKey - PLTR -3.81%, 내부자 매도와 매크로 이중 압력",
+      "name": "TradingKey - PLTR -3.81%, 내부자 매도와 매크로",
       "url": "https://www.tradingkey.com/news/Market-Movers/261734964-market-movers-pltr-20260330",
       "description": "Thiel+임원 3월 연속 매도, 매크로 역풍"
     },
     {
-      "name": "StockTitan - Stellantis 5년 파트너십 갱신",
-      "url": "https://www.stocktitan.net/news/PLTR/palantir-technologies-announces-the-renewal-and-expansion-of-its-3ylapm97a44y.html",
-      "description": "Palantir-Stellantis 5년 파트너십 갱신 및 확대"
+      "name": "Barchart - Golden Dome Core, Mizuho $195",
+      "url": "https://www.barchart.com/story/news/1041876/palantir-is-developing-the-core-of-the-golden-dome-does-that-make-pltr-stock-a-buy-now",
+      "description": "Mizuho Outperform $195 재확인. Golden Dome Core 역할"
     },
     {
       "name": "CNBC - '이란 전쟁은 방산 테크의 기회'",
@@ -277,69 +272,69 @@
     {
       "name": "Seeking Alpha - Thiel 매도, 10b5-1 플랜",
       "url": "https://seekingalpha.com/article/4879363-peter-thiel-sells-palantir-he-may-regret-it",
-      "description": "Thiel 200만주 매도는 전체의 2%, 사전 예약 10b5-1 플랜"
+      "description": "Thiel 200만주 매도는 전체의 2%, 사전 예약 플랜"
     }
   ],
   "snsContent": {
     "x": {
-      "hook": "PLTR $138 | 3일 -12%. 방산 부스트가 끝나고 있다",
-      "text": "$PLTR $137.55(-3.85%)\n\n3일간 -12%. 방산 랠리 대부분 반납.\nStocktwits 센티먼트 bearish 전환.\nStelantis 5년 딜에도 하락.\n호재가 통하지 않는 시장.\n\n1/4",
+      "hook": "PLTR $138 | 전쟁 끝나면 방산 프리미엄도 끝. 양날의 검",
+      "text": "$PLTR $137.55(-3.85%)\n\n트럼프 전쟁 종식 시그널(WSJ).\nS&P +1.1% 기술주 반등.\n근데 방산 프리미엄은 더 빨리 빠질 수 있다.\n3일 -12%. 이미 방산 랠리 대부분 반납.\n\n1/4",
       "thread": [
-        "P/E 215x. Forward P/E 5개월 최저.\n247WallSt: '사업이 아닌 공포의 문제.'\nThiel+임원 3월 연속 매도.\n\n2/4",
-        "Golden Dome + Maven + Stellantis.\n펀더멘털은 역대 최강인데\n시장이 받아주지 않는다.\n\n3/4",
-        "목표가 $199(+44%). RSI 38.\n고점 -34%. Hold.\n매크로 안정 후 분할매수.\n\n4/4"
+        "247WallSt: '과매도, 89% 상승 현실적인가?'\nCiti $260, Wedbush $230.\nAIP가 enterprise AI 표준이라는 전망은 유지.\n\n2/4",
+        "Maven, Golden Dome은 전쟁과 무관한 장기 계약.\nStelantis 5년 갱신. 상업 Q4 +137%.\n전쟁 종식해도 사업은 건재.\n\n3/4",
+        "P/E 215x. Thiel 3월 연속 매도.\n목표가 $199(+44%). RSI 38.\nHold. 매크로 안정 확인 후 분할매수.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "PLTR: 3일 -12%, 방산 부스트가 끝나고 있다. 호재가 무력화되는 시장",
-      "text": "$PLTR $137.55(-3.85%)\n\n3일간 12% 하락으로 전쟁 랠리 대부분 반납. Stocktwits 센티먼트 bearish 전환. Stellantis 5년 딜에도 하락.\n\n247WallSt: '사업이 아니라 투자자가 지불하려는 가격의 문제.' P/E 215x와 매크로가 막고 있다.\n\n목표가 $199(+44%). RSI 38. Hold, 매크로 안정 후."
+      "hook": "PLTR: 전쟁 종식은 양날의 검. 방산 프리미엄 소멸 vs 매크로 안정",
+      "text": "$PLTR $137.55(-3.85%)\n\n트럼프 전쟁 종식 시그널. 기술주에는 긍정적이지만 방산 프리미엄은 더 빨리 빠질 수 있다. 3일 -12%로 이미 대부분 반납.\n\n247WallSt: '과매도'. Citi $260(+89%). Maven, Golden Dome은 전쟁과 무관한 장기 계약.\n\n목표가 $199(+44%). Hold. 매크로 안정 후."
     },
     "telegram": {
       "hook": "PLTR 일일 분석 (3/31)",
-      "text": "Palantir $137.55 (-3.85%) | 시총 $326.6B\nP/E 215x | Forward 113x (5개월 최저) | RSI 38\n\n핵심 변화\n- 3일간 -12%, 방산 랠리 대부분 반납\n- Stocktwits 센티먼트 bearish 전환\n- Stellantis 5년 딜에도 -3.85% 하락\n- Thiel+임원 3월 연속 매도\n\n호재: Golden Dome Core, Maven, Stellantis\n리스크: P/E 215x, 방산 프리미엄 소멸, 매크로 셀오프\n\n기술적: 50일($149), 200일($169) 아래\n목표가: $199 (+44.4%)\n판단: Hold. 방산 프리미엄 소멸 중, 매크로 안정 후 분할매수"
+      "text": "Palantir $137.55 (-3.85%) | 시총 $326.6B\nP/E 215x | Forward 113x | RSI 38\n\n오늘 핵심\n- 트럼프 이란 전쟁 종식 시그널 (WSJ)\n- PLTR에 양날의 검: 매크로 안정(+) vs 방산 프리미엄 소멸(-)\n- 247WallSt: '과매도, Citi $260(+89%)'\n\n3일 -12% 하락 분석\n- 방산 랠리 대부분 반납\n- Forward P/E 5개월 최저\n- Thiel+임원 3월 연속 매도\n\n방어 요인\n- Maven, Golden Dome = 전쟁 무관 장기 계약\n- Stellantis 5년 갱신, 상업 Q4 +137%\n\n기술적: 50일($149), 200일($169) 아래\n목표가: $199 (+44.4%), Citi $260\n판단: Hold. 전쟁 종식은 양날의 검. 매크로 안정 후 분할매수"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "PLTR $138 | 3일 -12%. 방산 부스트가 끝나고 있다",
-          "text": "$PLTR $137.55(-3.85%)\n\n3일간 -12%. 방산 랠리 대부분 반납.\nStocktwits 센티먼트 bearish 전환.\nStelantis 5년 딜에도 하락.\n호재가 통하지 않는 시장.\n\n1/4",
+          "hook": "PLTR $138 | 전쟁 끝나면 방산 프리미엄도 끝. 양날의 검",
+          "text": "$PLTR $137.55(-3.85%)\n\n트럼프 전쟁 종식 시그널(WSJ).\nS&P +1.1% 기술주 반등.\n근데 방산 프리미엄은 더 빨리 빠질 수 있다.\n3일 -12%. 이미 방산 랠리 대부분 반납.\n\n1/4",
           "thread": [
-            "P/E 215x. Forward P/E 5개월 최저.\n247WallSt: '사업이 아닌 공포의 문제.'\nThiel+임원 3월 연속 매도.\n\n2/4",
-            "Golden Dome + Maven + Stellantis.\n펀더멘털은 역대 최강인데\n시장이 받아주지 않는다.\n\n3/4",
-            "목표가 $199(+44%). RSI 38.\n고점 -34%. Hold.\n매크로 안정 후 분할매수.\n\n4/4"
+            "247WallSt: '과매도, 89% 상승 현실적인가?'\nCiti $260, Wedbush $230.\nAIP가 enterprise AI 표준이라는 전망은 유지.\n\n2/4",
+            "Maven, Golden Dome은 전쟁과 무관한 장기 계약.\nStelantis 5년 갱신. 상업 Q4 +137%.\n전쟁 종식해도 사업은 건재.\n\n3/4",
+            "P/E 215x. Thiel 3월 연속 매도.\n목표가 $199(+44%). RSI 38.\nHold. 매크로 안정 확인 후 분할매수.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "3일 -12%. Golden Dome, Maven, Stellantis. 호재를 쏟아내는데 주가는 추락",
-          "text": "$PLTR $137.55(-3.85%)\n\n호재 리스트:\nGolden Dome Core, Maven 정식 채택,\nStelantis 5년, Polymarket.\n\n주가: 3일 -12%.\n호재가 이 정도면 안 빠지는 건 뭘까.\n\n1/4",
+          "hook": "전쟁이 끝나면 PLTR의 방산 마법도 끝날까. P/E 215x의 시험대",
+          "text": "$PLTR $137.55(-3.85%)\n\n트럼프: '전쟁 끝내겠다.'\n방산주: '잠깐만.'\n3일 -12%로 이미 방산 랠리 반납.\n전쟁이 끝나면 프리미엄도 끝.\n\n1/4",
           "thread": [
-            "P/E 215x가 답이다.\n247WallSt: '사업은 괜찮다. 가격이 문제다.'\n\nThiel도 3월 내내 팔았다.\n\n2/4",
-            "방산 부스트 끝났다는 신호.\n전쟁이 계속되는데 주가가 빠진다.\n시장은 다음 카드를 원한다.\n\n3/4",
-            "목표가 $199(+44%). RSI 38.\n바닥에서 사야 돈이 된다.\n근데 바닥인지 아직 모른다. Hold.\n\n4/4"
+            "근데 Citi: $260(+89%).\n'AIP는 전쟁과 상관없이 표준이다.'\nMaven은 정식 채택됐다. 전쟁 끝나도 계약은 남는다.\n\n2/4",
+            "Thiel은 3월 내내 팔았다.\n내부자가 아는 게 있나?\n아니면 그냥 10b5-1 플랜인가.\n\n3/4",
+            "P/E 215x. 목표가 $199(+44%).\nHold. 전쟁이 끝나도 사업은 간다.\n근데 주가가 같이 가는지는 다른 문제.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "PLTR 홀더들, 3일 -12%. 호재가 통하지 않아 정말 답답하시죠",
-          "text": "$PLTR $137.55(-3.85%)\n\n3일 -12%. 정말 힘드시죠.\nStelantis 딜, Golden Dome, Maven.\n좋은 소식인데 주가는 안 올라요.\n\n1/4",
+          "hook": "PLTR 홀더들, 3일 -12%에 전쟁 종식 뉴스까지. 복잡하시죠",
+          "text": "$PLTR $137.55(-3.85%)\n\n전쟁 종식 뉴스에 복잡한 마음이실 거예요.\n매크로에는 좋지만 방산 프리미엄이 걱정.\n3일 -12%, 정말 힘든 한 주였어요.\n\n1/4",
           "thread": [
-            "247WallSt도 인정했어요.\n'사업이 아니라 공포의 문제.'\n회사가 잘못한 게 아니에요.\n\n2/4",
-            "방산 프리미엄이 빠지고 있지만\nGolden Dome은 $185B 프로젝트예요.\n시간이 필요할 뿐이에요.\n\n3/4",
-            "목표가 $199(+44%). RSI 38.\nHold. 서두르지 마세요.\n매크로가 진정되면 빛날 거예요.\n\n4/4"
+            "하지만 247WallSt도 '과매도'라고 했어요.\nCiti $260(+89%).\nMaven은 전쟁과 무관한 장기 계약이에요.\n\n2/4",
+            "Stellantis 5년 갱신. 상업 매출 폭발 중.\n전쟁에만 의존하는 회사가 아니에요.\n\n3/4",
+            "목표가 $199(+44%). Hold.\n매크로가 안정되면 빛날 거예요.\n서두르지 마세요.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "PLTR: 3일 -12%. 방산 랠리 반납, 호재 무력화",
-          "text": "$PLTR $137.55(-3.85%). 3일 -12%로 방산 부스트 반납. Stellantis 딜에도 하락.\n\nP/E 215x. '사업이 아닌 매크로 공포'(247WallSt).\n\n목표가 $199(+44%). Hold."
+          "hook": "PLTR: 전쟁 종식 양날의 검. 과매도에 Citi $260",
+          "text": "$PLTR $137.55(-3.85%). 전쟁 종식 시그널로 방산 프리미엄 소멸 가속 vs 매크로 안정.\n\n247WallSt: '과매도'. Citi $260(+89%). Maven, Golden Dome은 장기 계약.\n\nHold. 매크로 안정 후."
         },
         "witty": {
-          "hook": "호재를 매일 쏟아내는데 3일 -12%. P/E 215x의 세계",
-          "text": "$PLTR $137.55(-3.85%). Golden Dome, Maven, Stellantis. 호재가 줄을 서는데 P/E 215x가 다 막는다.\n\nThiel은 팔고, Mizuho는 사라 한다. 방산 부스트는 끝나가는 중.\n\nHold."
+          "hook": "전쟁 끝나면 PLTR의 방산 마법도 끝날까. P/E 215x의 시험",
+          "text": "$PLTR $137.55(-3.85%). 전쟁 끝난다는데 방산주가 좋아할 리가.\n\nCiti는 $260이라 하고, Thiel은 3월 내내 팔았다. Maven은 남지만 프리미엄은 빠진다.\n\nHold."
         },
         "empathy": {
-          "hook": "PLTR 주주분들, 3일 -12% 정말 힘들었죠. 회사 탓이 아니에요",
-          "text": "$PLTR $137.55(-3.85%). 3일 -12%. 답답하시죠.\n\n247WallSt: '사업이 아닌 공포의 문제.' Golden Dome, Maven, 회사는 역대 최강.\n\n목표가 $199(+44%). 서두르지 마세요. Hold."
+          "hook": "PLTR 주주분들, 전쟁 종식 뉴스에 복잡하시죠. 사업은 건재해요",
+          "text": "$PLTR $137.55(-3.85%). 3일 -12%. 전쟁 종식 뉴스에 마음이 복잡하시죠.\n\nMaven, Golden Dome은 전쟁과 무관해요. 247WallSt: '과매도'. Citi $260.\n\nHold. 서두르지 마세요."
         }
       }
     }
