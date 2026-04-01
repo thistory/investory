@@ -3,324 +3,234 @@
   "companyName": "NVIDIA Corporation",
   "analysisDate": "2026-04-01",
   "currentPrice": 174.40,
-  "marketCap": "$4.26T",
+  "marketCap": "$4.24T",
+
   "businessSummary": {
-    "oneLiner": "The undisputed king of AI computing, dominating global AI infrastructure with data center GPUs and accelerators",
-    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem spanning hardware to software. At GTC 2026, the company unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue hit $215.9B (+65% YoY), net income $120B. Today the stock surged +5.59% on a Marvell $2B investment, war-ending signals, and a broad market rally.",
+    "oneLiner": "The undisputed AI computing leader, dominating global AI infrastructure with data center GPUs and accelerators",
+    "description": "NVIDIA leads GPU-based AI accelerated computing with a vertically integrated ecosystem spanning data center chips to software platforms. At GTC 2026, the company unveiled Vera Rubin and Vera CPU platforms with a 5-layer full-stack AI strategy. FY26 revenue reached $215.9B (+65% YoY) with $120B net income. Today, despite China market share erosion news, the stock is rising in pre-market.",
     "howTheyMakeMoney": [
-      "Data Center AI Accelerators (80%+ of revenue)",
-      "AI Software Platforms (CUDA, NIM, NemoClaw)",
+      "Data center AI accelerators (80%+ of revenue)",
+      "AI software platforms (CUDA, NIM, NemoClaw)",
       "Gaming GPUs",
       "Automotive (DRIVE)",
       "Networking (Spectrum-X)"
     ],
-    "keyProducts": ["Vera Rubin NVL72", "Vera CPU", "Blackwell", "CUDA", "NemoClaw", "DRIVE", "Space-1"]
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE",
+      "Space-1"
+    ]
   },
+
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "35.1x",
-      "interpretation": "Moderate premium over the semiconductor sector average of 25x. With 65% revenue growth, PEG is 0.54, suggesting extreme undervaluation"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "21.0x",
-      "interpretation": "Equal to the S&P 500 average (~21x). TheStreet: 'An anomaly not seen in 13 years.' The world's top AI company trading at market-average valuation"
-    },
-    {
-      "name": "Revenue (TTM)",
-      "value": "$215.9B",
-      "interpretation": "+65% YoY growth. Data center revenue accounts for 80%+. Net profit margin 55.6%"
-    },
-    {
-      "name": "Marvell $2B Investment (3/31 Today)",
-      "value": "NVLink Fusion Partnership",
-      "interpretation": "Reuters: NVIDIA invested $2B in Marvell for joint silicon photonics development. MRVL surged +12.53%. AI ecosystem expansion"
-    },
-    {
-      "name": "Michael Burry Short Cover Hint (3/31)",
-      "value": "'Shorts are not forever'",
-      "interpretation": "Benzinga: Burry posted on X suggesting short position closure. Previously disclosed $900M NVDA/PLTR puts in 2025, now hinting at 'victory march'"
-    },
-    {
-      "name": "Next Earnings",
-      "value": "May 20, 2026",
-      "interpretation": "FY27 Q1 results. Full quarter of Blackwell revenue and early Vera Rubin order visibility expected"
-    }
+    { "name": "P/E (TTM)", "value": "35.6x", "interpretation": "Above S&P 500 average (22x) but in line with semiconductor sector average (35x). Reasonable given 65% revenue growth" },
+    { "name": "Forward P/E", "value": "21.0x", "interpretation": "Equal to S&P 500 average. First time in 13 years the world's top AI company trades at market average valuation. PEG 0.32 signals extreme undervaluation" },
+    { "name": "Revenue Growth (YoY)", "value": "+65.5%", "interpretation": "FY26 revenue $215.9B. AI infrastructure investment cycle continues" },
+    { "name": "Operating Margin", "value": "60.4%", "interpretation": "Software-level margins in hardware. Dominant profitability. AMD (20%) and Intel (negative) are far behind" },
+    { "name": "Net Margin", "value": "55.6%", "interpretation": "$120B net income, largest among all semiconductor companies globally" },
+    { "name": "Free Cash Flow", "value": "$96.7B", "interpretation": "+58.9% growth. Generating $96.7B annually, ample capacity for strategic investments like the $2B Marvell deal" }
   ],
+
   "growthDrivers": [
     {
-      "title": "Marvell $2B Investment + NVLink Fusion Partnership (3/31, Today)",
-      "description": "Reuters/Bloomberg: NVIDIA invested $2B in Marvell. Custom XPU combined with NVIDIA Vera CPU, ConnectX, and Spectrum-X. Joint silicon photonics development. MRVL +12.53%. Expanding AI infrastructure ecosystem dominance"
+      "title": "China AI chip market share declining, but global dominance intact (Apr 1, today)",
+      "description": "Reuters: Chinese GPU/AI chip makers captured 41% of China's AI accelerator server market, eroding NVIDIA's position. However, 80%+ global market share is maintained"
     },
     {
-      "title": "S&P +2.91%, Nasdaq +3.83% Massive Rally (3/31)",
-      "description": "Trump war-ending signal drove a broad risk-on rally. Potential oil price decline translates directly to lower data center power costs"
+      "title": "Marvell $2B investment + NVLink Fusion partnership (Mar 31)",
+      "description": "Reuters/Bloomberg: NVIDIA invested $2B in Marvell. Custom XPU combined with Vera CPU, ConnectX, Spectrum-X. Silicon photonics co-development. MRVL +12.53%"
     },
     {
-      "title": "Michael Burry Hints at Short Cover (3/31)",
-      "description": "Benzinga: Burry, known for 'Big Short 2.0' with NVDA/PLTR puts, posted 'Shorts are not forever.' Major short seller exit reduces downside pressure"
+      "title": "Forward P/E 21x equals S&P 500, first time in 13 years",
+      "description": "The world's top AI company trading at market average valuation is a once-in-13-years event. PEG 0.32 signals extreme undervaluation"
     },
     {
-      "title": "Goldman Sachs Reaffirms Buy, Highlights Healthcare AI (3/31)",
-      "description": "Goldman Sachs reaffirmed Buy rating while spotlighting NVIDIA's 18-year healthcare AI investment as a new growth driver"
+      "title": "Michael Burry signals short cover on NVDA (Mar 31)",
+      "description": "Benzinga: Burry, known for 'Big Short 2.0' puts on NVDA, posted 'Shorts are not forever.' Major short seller exit reduces downward pressure"
     },
     {
-      "title": "Forward P/E 21.0x = First Time Equal to S&P 500 in 13 Years (TheStreet)",
-      "description": "The world's top AI company trading at market-average Forward P/E is a once-in-13-years anomaly. PEG 0.54 suggests extreme undervaluation"
+      "title": "Goldman Sachs reaffirms Buy, highlights healthcare AI (Mar 31)",
+      "description": "Goldman Sachs reaffirmed Buy rating, spotlighting NVIDIA's 18 years of healthcare AI investment"
     },
     {
-      "title": "Cumulative AI Chip Orders of $1 Trillion Through 2027",
-      "description": "Combined Blackwell and Vera Rubin chip orders expected to reach at least $1 trillion by 2027"
+      "title": "Cumulative AI chip orders of $1 trillion through 2027",
+      "description": "Blackwell and Vera Rubin chip cumulative orders projected to reach at least $1 trillion by 2027"
     }
   ],
+
   "competitiveAdvantage": {
-    "summary": "CUDA ecosystem monopoly, GPU+CPU+Networking+Software vertical integration, annual architecture roadmap, overwhelming economies of scale",
+    "summary": "CUDA ecosystem lock-in, GPU+CPU+networking+software vertical integration, annual architecture roadmap, overwhelming economies of scale",
     "moats": [
       {
         "type": "Ecosystem Lock-in",
-        "description": "CUDA developer ecosystem exceeds 5 million. Extremely high switching costs maintain GPU market dominance"
+        "description": "CUDA developer ecosystem of 5M+. Extremely high switching costs maintain GPU market dominance"
       },
       {
         "type": "Vertical Integration",
-        "description": "Full-stack from GPU, CPU (Vera), Networking (Spectrum-X), to Software (CUDA, NIM, NemoClaw). Marvell investment extends to silicon photonics"
+        "description": "Full-stack from GPU, CPU (Vera), networking (Spectrum-X), to software (CUDA, NIM, NemoClaw). Silicon photonics via Marvell investment"
       },
       {
         "type": "Annual Architecture Roadmap",
-        "description": "Hopper, Blackwell, Vera Rubin annual product cadence. 2-3 year technology gap over competitors"
+        "description": "Hopper, Blackwell, Vera Rubin annual product cycle. 2-3 year technology lead over competitors"
       },
       {
         "type": "Economies of Scale",
-        "description": "FY26 revenue of $215.9B is the largest in the semiconductor industry. R&D investment scale dwarfs competitors"
+        "description": "FY26 revenue $215.9B, the largest in semiconductors. R&D spending dwarfs competitors"
       }
     ],
     "competitors": [
       {
         "name": "AMD",
-        "detail": "Entered AI GPU market with MI300X but lags significantly in software ecosystem and scale"
+        "detail": "MI300X entered AI GPU market but significant gap in software ecosystem and scale"
       },
       {
         "name": "Marvell (Partner)",
-        "detail": "Now a partner rather than competitor. $2B investment integrates Marvell into the NVIDIA ecosystem"
+        "detail": "Now more partner than competitor. $2B investment integrates into NVIDIA ecosystem"
       },
       {
         "name": "Google TPU",
-        "detail": "Strong for internal AI workloads. Limited external market impact"
+        "detail": "Strong for internal use but limited external market impact"
       },
       {
         "name": "Broadcom",
-        "detail": "Supplies custom ASICs to large cloud providers"
+        "detail": "Custom ASICs for large cloud providers"
       }
     ]
   },
+
   "recentNews": [
-    {
-      "date": "2026-03-31",
-      "headline": "NVIDIA Invests $2B in Marvell + NVLink Fusion Partnership. MRVL +12.53%",
-      "significance": "Reuters/Bloomberg: Joint silicon photonics development. AI factory + AI-RAN ecosystem expansion. Marvell transitions from competitor to partner. Core catalyst for NVDA's +5.59% rally",
-      "url": "https://finance.yahoo.com/news/nvidia-invests-2-billion-marvell-121325616.html"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "S&P +2.91%, Nasdaq +3.83% Massive Rally on Trump War-Ending Signal",
-      "significance": "Macro risk relief drove broad rally. Oil price decline potential reduces data center power costs, easing 'AI's biggest risk' (Motley Fool)",
-      "url": "https://stockmarketwatch.com/live/stock-market-today/"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "Michael Burry: 'Shorts are not forever', Hints at NVDA/PLTR Short Cover",
-      "significance": "Benzinga: Burry held $900M in NVDA/PLTR puts. 'Victory march' posting suggests exit. Short seller departure reduces downside pressure",
-      "url": "https://www.benzinga.com/markets/tech/26/03/51576387/michael-burry-says-shorts-are-not-forever-as-palantir-nvidia-stocks-wrap-a-rough-quarter"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "Goldman Sachs Reaffirms Buy, Highlights 18-Year Healthcare AI Investment",
-      "significance": "Goldman spotlights healthcare AI as a new growth driver while maintaining Buy rating",
-      "url": "https://247wallst.com/investing/2026/03/31/stock-market-live-march-31-2026-sp-500-spy-pops-on-news-trump-could-end-war/"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "TheStreet: 'NVDA Sends Valuation Signal Not Seen in 13 Years'",
-      "significance": "Forward P/E of 21.0x matching S&P 500 is a first in 13 years. Extreme undervaluation signal",
-      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years"
-    }
+    { "date": "2026-04-01", "headline": "Chinese AI chip makers claim 41% of local market", "significance": "NVIDIA's China market share declining due to US export controls. Structural shift, though global 80%+ dominance remains", "url": "https://finance.yahoo.com/sectors/technology/articles/chinese-chipmakers-claim-nearly-half-091441324.html" },
+    { "date": "2026-04-01", "headline": "Motley Fool: Is it too late to buy NVIDIA?", "significance": "17% off highs with Forward P/E 21x. Long-term investment case remains compelling", "url": "https://www.fool.com/investing/2026/04/01/is-it-too-late-to-buy-nvidia-stock/" },
+    { "date": "2026-03-31", "headline": "Marvell $2B investment, NVLink Fusion partnership", "significance": "Silicon photonics co-development expands AI infrastructure ecosystem dominance. MRVL +12.53%", "url": "https://www.reuters.com/" },
+    { "date": "2026-03-31", "headline": "Michael Burry signals NVDA short cover", "significance": "Major short seller exit reduces downward pressure. 'Shorts are not forever'", "url": "https://www.benzinga.com/" },
+    { "date": "2026-03-31", "headline": "NVDA surges 5.59% in broad market rally", "significance": "War-end signal triggers tech rally. Strong buying off technical support levels", "url": "https://stockanalysis.com/stocks/nvda/" }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 276,
-    "highTarget": 360,
-    "lowTarget": 150,
-    "upsidePercent": 58.3,
-    "buyCount": 42,
-    "holdCount": 3,
-    "sellCount": 0,
-    "notableComment": "Goldman Sachs reaffirms Buy today. 42/45 Buy, 0 Sell. MarketBeat target $276 (+58%). Michael Burry hints at short cover"
+    "consensusTarget": 265.97,
+    "highTarget": 350.0,
+    "lowTarget": 150.0,
+    "upsidePercent": 52.5,
+    "buyCount": 35,
+    "holdCount": 5,
+    "sellCount": 1,
+    "notableComment": "Goldman Sachs reaffirmed Buy. 35 of 41 analysts rate Buy or Strong Buy. 52.5% upside potential is among the highest for mega-cap stocks"
   },
+
   "risks": [
-    {
-      "severity": "medium",
-      "title": "Just Broke Above 50-day and 200-day SMAs, Support Confirmation Needed",
-      "description": "Today's breakout above the 50-day ($171) and 200-day ($174) SMAs is positive but based on just one day of data. Consecutive closes above these levels are needed"
-    },
-    {
-      "severity": "high",
-      "title": "Marvell $2B Investment, Short-term Cash Outflow",
-      "description": "Long-term strategic move but $2B cash outflow reduces buyback or dividend expansion capacity"
-    },
-    {
-      "severity": "high",
-      "title": "Burry's Actual Position Unclear, Short Cover Not Confirmed",
-      "description": "Benzinga: Burry's actual positions are only visible through 13F filings. The 'victory' claim may not represent actual position closure"
-    },
-    {
-      "severity": "medium",
-      "title": "China Export Restrictions Continue",
-      "description": "AI chip export controls to China persist. Reports of $2.5B smuggling case could lead to stricter enforcement"
-    },
-    {
-      "severity": "medium",
-      "title": "War Ending Uncertainty",
-      "description": "AP: Gulf states demand continued operations until Iran threat is fully eliminated. Gap between Trump's statement and actual ceasefire possible"
-    }
+    { "severity": "high", "title": "China market share erosion", "description": "US export controls have enabled Chinese chip makers to capture 41% of the local AI accelerator market. Structural decline in NVIDIA's largest overseas market" },
+    { "severity": "medium", "title": "AI investment cycle slowdown concerns", "description": "Sustainability of large cloud providers' AI CapEx is key. Any reduction directly impacts NVIDIA revenue" },
+    { "severity": "medium", "title": "Export regulation escalation risk", "description": "Potential for further tightening of US AI chip export controls to China. Significant revenue exposure to China/Asia" },
+    { "severity": "low", "title": "Continued insider selling", "description": "Recent stock sales by CFO, directors and executives. However, mostly pre-planned sales under Rule 10b5-1" }
   ],
+
   "buyReasons": [
-    {
-      "title": "Marvell $2B + War Ending + Burry Short Cover = Triple Catalyst",
-      "rationale": "Ecosystem expansion (Marvell), macro stabilization (war ending), short exit (Burry) all converged on the same day. S&P +2.91% rally in sync"
-    },
-    {
-      "title": "Forward P/E 21.0x = Equal to S&P 500, First Time in 13 Years",
-      "rationale": "TheStreet: The world's top AI company at market-average valuation. PEG 0.54 extreme undervaluation. 42/45 Buy, 0 Sell"
-    },
-    {
-      "title": "Goldman Sachs Buy + 42 Buy, 0 Sell",
-      "rationale": "Goldman highlights healthcare AI. Target $276 (+58%). Zero sell ratings is a powerful consensus"
-    },
-    {
-      "title": "Broke Above 50-day ($171) and 200-day ($174) SMAs Simultaneously",
-      "rationale": "$174.40 close above both key moving averages signals technical trend reversal"
-    }
+    { "title": "Forward P/E 21x equals market average", "rationale": "A 65% growth company trading at S&P 500 average valuation. PEG 0.32 is the deepest undervaluation in 13 years" },
+    { "title": "RSI 34, approaching oversold", "rationale": "Near the 30 threshold signaling oversold. Technical bounce probability rising. Already +5.6% on Mar 31" },
+    { "title": "Marvell investment expands ecosystem", "rationale": "$2B investment extends reach into silicon photonics and custom XPU. Converting competitors into partners" },
+    { "title": "Dominant profitability", "rationale": "60% operating margin, 55% net margin, $96.7B FCF. Unmatched profit structure in semiconductors" }
   ],
+
   "technicalPosition": {
     "week52High": 212.19,
     "week52Low": 86.62,
     "currentPositionPercent": 69.9,
-    "sma50": 170.80,
-    "sma50Signal": "above",
-    "sma200": 173.77,
-    "sma200Signal": "above",
-    "rsi": 45,
+    "sma50": 183.0,
+    "sma50Signal": "below",
+    "sma200": 184.3,
+    "sma200Signal": "below",
+    "rsi": 34.0,
     "rsiSignal": "neutral"
   },
+
   "overallOpinion": [
-    "Triple catalysts converged today: Marvell $2B investment (AI ecosystem expansion), Trump war-ending signal (macro stabilization), and Michael Burry hinting at short cover (reduced downside). S&P +2.45%, Nasdaq +3.34% broad rally, NVDA +5.59%",
-    "Broke above both the 50-day ($171) and 200-day ($174) SMAs, confirming technical trend reversal. Forward P/E at 21.0x matches S&P 500 for the first time in 13 years. Goldman reaffirms Buy, 42/45 Buy, 0 Sell. The $2B Marvell investment strengthens the NVLink Fusion ecosystem",
-    "At $174.40, above both key SMAs. Double golden cross confirmed. War ending + Marvell + Burry short cover created a trend reversal setup. Buy, dollar-cost averaging actively recommended"
+    "Chinese AI chip makers now control 41% of the local market, eroding NVIDIA's position in its largest overseas market. But global 80%+ dominance and the $2B Marvell investment show the broader moat is intact.",
+    "Forward P/E at 21x matches the S&P 500 average for a company growing revenue 65%. This is the cheapest relative valuation in 13 years. PEG 0.32 screams undervaluation.",
+    "Trading below both 50-day ($183) and 200-day ($184) averages, but RSI 34 signals oversold conditions. The +5.6% bounce on Mar 31 suggests a bottom may be forming."
   ],
+
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "Marvell $2B (ecosystem expansion) + war ending (macro) + Burry short cover (reduced shorts) converged on the same day. Forward P/E 21.0x (equal to S&P 500, first in 13 years), PEG 0.54, Goldman Buy. Simultaneous breakout above 50-day and 200-day SMAs confirms trend reversal. Buy with active dollar-cost averaging",
-    "horizon": "6-12 months"
+    "summary": "Forward P/E of 21x matches the S&P 500 average while revenue grows 65%. This is the cheapest the stock has been relative to the market in 13 years. China market share erosion is a real risk, but global AI infrastructure monopoly is intact. RSI 34 indicates a technical bottom is near. Dollar-cost averaging entry recommended.",
+    "horizon": "3-6 months"
   },
+
   "sources": [
-    {
-      "name": "Reuters/Yahoo - NVIDIA Marvell $2B Investment",
-      "url": "https://finance.yahoo.com/news/nvidia-invests-2-billion-marvell-121325616.html",
-      "description": "NVDA +5.37%, MRVL +12.53%. NVLink Fusion partnership"
-    },
-    {
-      "name": "Benzinga - Michael Burry 'Shorts are not forever'",
-      "url": "https://www.benzinga.com/markets/tech/26/03/51576387/michael-burry-says-shorts-are-not-forever-as-palantir-nvidia-stocks-wrap-a-rough-quarter",
-      "description": "PLTR/NVDA put holder Burry hints at short cover. 'Victory march'"
-    },
-    {
-      "name": "StockMarketWatch - Nasdaq +3.83% Massive Rally",
-      "url": "https://stockmarketwatch.com/live/stock-market-today/",
-      "description": "NVDA, AAPL, MSFT and other mega-cap tech all rallied"
-    },
-    {
-      "name": "TheStreet - '13-Year Valuation Anomaly Signal'",
-      "url": "https://www.thestreet.com/investing/stocks/nvidia-stock-sends-valuation-signal-for-first-time-in-13-years",
-      "description": "Forward P/E below S&P 500 for first time in 13 years"
-    },
-    {
-      "name": "247WallSt - Goldman Sachs Buy + S&P Rally",
-      "url": "https://247wallst.com/investing/2026/03/31/stock-market-live-march-31-2026-sp-500-spy-pops-on-news-trump-could-end-war/",
-      "description": "Goldman reaffirms Buy, highlights healthcare AI"
-    },
-    {
-      "name": "Motley Fool Live - NVDA +5.56%, MRVL +12.80%",
-      "url": "https://www.fool.com/investing/2026/03/31/stock-market-today-live-coverage/",
-      "description": "Real-time tracking of Marvell surge and NVDA rally"
-    },
-    {
-      "name": "Motley Fool - '$100 Oil as AI's Biggest Risk'",
-      "url": "https://www.fool.com/investing/2026/03/29/the-biggest-risk-to-your-artificial-intelligence-a/",
-      "description": "War ending = oil price decline = data center cost relief"
-    },
-    {
-      "name": "MarketBeat - NVDA Target $276",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/",
-      "description": "42 Buy / 3 Hold / 0 Sell, target $276"
-    }
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA price and overview" },
+    { "name": "StockAnalysis Financials", "url": "https://stockanalysis.com/stocks/nvda/financials/", "description": "NVDA financial statements" },
+    { "name": "Reuters/Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/chinese-chipmakers-claim-nearly-half-091441324.html", "description": "China AI chip market share analysis" },
+    { "name": "DefenseWorld", "url": "https://www.defenseworld.net/2026/03/31/arp-global-capital-ltd-makes-new-investment-in-nvidia-corporation-nvda.html", "description": "NVDA SMA50, SMA200, 52-week range" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/news/Market-Movers/261739406-market-movers-nvda-20260331", "description": "NVDA RSI and MACD technical analysis" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA analyst target $275.95" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/04/01/is-it-too-late-to-buy-nvidia-stock/", "description": "NVIDIA investment timing analysis" },
+    { "name": "Benzinga", "url": "https://www.benzinga.com/", "description": "Michael Burry NVDA short cover signal" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-3-31-nvidia-nvda-stock-trades-up-here-is-why", "description": "NVDA March 31 rally analysis" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "NVDA $174 | Broke above 50-day AND 200-day SMAs. Marvell $2B + Burry covers shorts",
-      "text": "$NVDA $174.40 (+5.59%)\n\nTriple catalyst + double breakout:\n1) Marvell $2B investment (MRVL +12.5%)\n2) War-ending signal\n3) Burry hints at short cover\nBroke 50-day + 200-day SMAs.\n\n1/4",
+      "hook": "NVIDIA's Forward P/E just hit the S&P 500 average",
+      "text": "$NVDA $174.40(+5.59%) A 65% growth company now trades at Forward P/E 21x, equal to the S&P 500. First time in 13 years. China losing share but global 80%+ dominance intact.\n\n1/4",
       "thread": [
-        "Forward P/E 21.0x = equal to S&P 500.\nFirst time in 13 years (TheStreet).\nPEG 0.54. This is absurdly cheap.\n\n2/4",
-        "50-day ($171) and 200-day ($174) broken.\nTrend reversal confirmed.\nWar ending means lower oil, cheaper data centers.\n\n3/4",
-        "Goldman says Buy. 42/45 Buy. 0 Sell.\nTarget $276 (+58%). Buy.\nDollar-cost average aggressively.\n\n4/4"
+        "Chinese AI chip makers captured 41% of the local market. Export controls are biting. But Marvell $2B investment shows NVIDIA is widening the global moat.\n\n2/4",
+        "RSI 34 nearing oversold. Bounced +5.6% on Mar 31. Below 50-day ($183) but recovery setup forming.\n\n3/4",
+        "Analyst target $266 (+52.5%). 60% operating margin. $120B net income. The numbers speak for themselves.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "NVDA: Broke both key SMAs in one day. Marvell $2B + Burry short cover",
-      "text": "$NVDA $174.40 (+5.59%)\n\nMarvell $2B investment, war-ending signal, and Burry short cover all hit on the same day. Broke above 50-day and 200-day SMAs simultaneously.\n\nForward P/E 21.0x (equal to S&P 500, first in 13 years). Goldman Buy.\n\nTarget $276 (+58%). Buy. Dollar-cost average."
+      "hook": "NVIDIA's Forward P/E just hit the S&P 500 average",
+      "text": "$NVDA $174.40(+5.59%)\n\nA company growing revenue 65% now trades at Forward P/E 21x, exactly the S&P 500 average. That hasn't happened in 13 years.\n\nChinese chip makers captured 41% of the local AI market, a real headwind from export controls. But global 80%+ dominance holds. The $2B Marvell investment adds silicon photonics to the ecosystem.\n\nRSI 34 nearing oversold, +5.6% bounce started Mar 31. Target $266 (+52.5%). 60% operating margin, $120B net income. Dollar-cost averaging zone."
     },
     "telegram": {
-      "hook": "NVDA Daily Analysis (4/1)",
-      "text": "NVDA $174.40 (+5.59%) | Market Cap $4.26T\nP/E 35.1x | Forward 21.0x (= S&P 500!) | PEG 0.54 | Verdict: Buy\n\nTriple Catalyst + Double Breakout (3/31)\n- Marvell $2B investment, NVLink Fusion (MRVL +12.5%)\n- Trump war-ending signal\n- Burry 'Shorts are not forever' (short cover hint)\n- Goldman Sachs reaffirms Buy\n- Broke 50-day ($171) + 200-day ($174) SMAs!\n\nTechnical: Trend reversal confirmed\nTarget: $276 (+58%), 42/45 Buy\nBuy: Dollar-cost average aggressively"
+      "hook": "Forward P/E 21x, cheapest relative valuation in 13 years",
+      "text": "NVIDIA Daily Analysis (Apr 1)\n\nPrice: $174.40 (+5.59%)\n\nKey Issues\n- Forward P/E 21x equals S&P 500 average (13-year first)\n- Chinese AI chip makers claim 41% of local market\n- Marvell $2B investment, ecosystem expansion\n- Michael Burry signals short cover\n\nTechnical Position\n- Below 50-day ($183) and 200-day ($184)\n- RSI 34, approaching oversold\n\nTarget: $266 (+52.5%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "NVDA $174 | Broke 50-day AND 200-day SMAs. Marvell $2B + Burry short cover",
-          "text": "$NVDA $174.40 (+5.59%)\n\nTriple catalyst + double breakout:\n1) Marvell $2B (MRVL +12.5%)\n2) War-ending signal\n3) Burry short cover hint\nBroke 50-day + 200-day SMAs.\n\n1/4",
+          "hook": "NVIDIA's Forward P/E just hit the S&P 500 average",
+          "text": "$NVDA $174.40(+5.59%) A 65% growth company now trades at Forward P/E 21x, equal to the S&P 500. First time in 13 years. China losing share but global 80%+ dominance intact.\n\n1/4",
           "thread": [
-            "Forward P/E 21.0x = S&P 500.\nFirst in 13 years. PEG 0.54.\n\n2/4",
-            "50-day ($171) + 200-day ($174) broken.\nTrend reversal confirmed.\n\n3/4",
-            "Goldman Buy. 42/45 Buy.\nTarget $276 (+58%). Buy.\n\n4/4"
+            "Chinese AI chip makers captured 41% of the local market. Export controls are biting. But Marvell $2B investment shows NVIDIA is widening the global moat.\n\n2/4",
+            "RSI 34 nearing oversold. Bounced +5.6% on Mar 31. Below 50-day ($183) but recovery setup forming.\n\n3/4",
+            "Analyst target $266 (+52.5%). 60% operating margin. $120B net income. The numbers speak for themselves.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "NVDA just smashed through two moving averages at once. Burry is heading for the exit",
-          "text": "$NVDA $174.40 (+5.59%)\n\nMarvell gets $2B. MRVL +12.5%.\nBurry: 'Shorts are not forever.'\n50-day, 200-day, both broken.\nThis isn't a coincidence.\n\n1/4",
+          "hook": "NVIDIA at market average price is like a Ferrari at Honda prices",
+          "text": "$NVDA $174.40(+5.59%) 65% revenue growth, 60% margins, $120B profit. Forward P/E: 21x, same as the S&P 500. The market is pricing NVIDIA like a regular company.\n\n1/4",
           "thread": [
-            "The world's #1 AI company\ntrading at S&P 500 average P/E.\nFirst time in 13 years.\nMiss this and you'll regret it.\n\n2/4",
-            "Trend reversal confirmed. Next: $180.\n0 Sell ratings. 42 Buy.\n$276 target. Buy.\n\n3/4"
+            "China built its own AI chips to 41% market share. US export controls backfired there. But NVIDIA still owns 80%+ globally. One market lost, ten more gained.\n\n2/4",
+            "Even Burry is covering shorts. 'Shorts are not forever.' Neither is patience, but at these prices, you should have some.\n\n3/4",
+            "Target $266 (+52.5%). RSI 34. When good companies sell cheap, smart money buys.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "NVDA holders, the breakout finally happened. +5.59% rally",
-          "text": "$NVDA $174.40 (+5.59%)\n\nPatience paid off.\nMarvell partnership, war ending, Burry covering.\n50-day and 200-day broken together.\n\n1/4",
+          "hook": "NVIDIA holders, the bottom looks close",
+          "text": "$NVDA $174.40(+5.59%) Down 17% from the highs. If you've been holding, it's been frustrating. But Forward P/E 21x means the market is seriously underpricing this company.\n\n1/4",
           "thread": [
-            "13 years since it was this undervalued.\nThe market is starting to recognize it.\n\n2/4",
-            "Goldman Buy. 42/45 Buy.\nTarget $276 (+58%).\nBuy. Dollar-cost average.\n\n3/4"
+            "China market share loss is concerning. But global 80%+ dominance and the $2B Marvell deal show fundamentals are solid.\n\n2/4",
+            "RSI 34 nearing oversold. The +5.6% bounce on Mar 31 could be the start of a recovery.\n\n3/4",
+            "Target $266 (+52.5%). 60% operating margins. Time should reward patience here.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "NVDA: Double SMA breakout. Trend reversal confirmed",
-          "text": "$NVDA $174.40 (+5.59%). Triple catalyst with double breakout.\n\nForward P/E 21.0x (= S&P 500). Goldman Buy.\n\n$276 (+58%). Buy."
+          "hook": "NVIDIA's Forward P/E just hit the S&P 500 average",
+          "text": "$NVDA $174.40(+5.59%)\n\nA company growing revenue 65% now trades at Forward P/E 21x, exactly the S&P 500 average. That hasn't happened in 13 years.\n\nChinese chip makers captured 41% of the local AI market, a real headwind from export controls. But global 80%+ dominance holds. The $2B Marvell investment adds silicon photonics to the ecosystem.\n\nRSI 34 nearing oversold, +5.6% bounce started Mar 31. Target $266 (+52.5%). 60% operating margin, $120B net income. Dollar-cost averaging zone."
         },
         "witty": {
-          "hook": "Two moving averages broken in one shot. NVDA's counterattack begins",
-          "text": "$NVDA $174.40 (+5.59%). Marvell $2B, Burry covering, war ending.\n\nWorld's #1 AI company at market-average Forward P/E. First in 13 years.\n\nBuy."
+          "hook": "NVIDIA at market average price is like a Ferrari at Honda prices",
+          "text": "$NVDA $174.40(+5.59%)\n\n65% revenue growth. 60% operating margins. $120B profit. And it trades at Forward P/E 21x, same as the S&P 500 average. This is like finding a Ferrari priced as a Honda.\n\nChina built its own chips to 41% local share. But NVIDIA still runs 80%+ globally and Burry is covering shorts. RSI 34, bottom territory. Target $266 (+52.5%). When quality sells at discount, you buy."
         },
         "empathy": {
-          "hook": "NVDA investors, this is the trend reversal. SMA breakout",
-          "text": "$NVDA $174.40 (+5.59%). Broke above both 50-day and 200-day.\n\nFirst undervaluation signal in 13 years. The rebound starts here.\n\nBuy. Your patience will pay off."
+          "hook": "NVIDIA holders, the bottom looks close",
+          "text": "$NVDA $174.40(+5.59%)\n\nDown 17% from highs. The frustration is real. But Forward P/E 21x for a 65% growth company means the market is deeply undervaluing this.\n\nChina concerns are valid but global dominance holds. RSI 34, oversold territory. The +5.6% bounce may be the start. Target $266 (+52.5%). Patience should pay here."
         }
       }
     }

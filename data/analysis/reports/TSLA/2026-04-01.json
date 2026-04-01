@@ -2,8 +2,9 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-04-01",
-  "currentPrice": 371.35,
-  "marketCap": "$1.19T",
+  "currentPrice": 371.75,
+  "marketCap": "$1.39T",
+
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
     "description": "테슬라는 전기차 판매를 넘어 FSD 자율주행, Cybercab 로보택시, Optimus 휴머노이드 로봇, Megapack 에너지 저장 등으로 사업을 확장 중이다. 2025년 연간 매출 948억 달러, GAAP EPS 1.08달러를 기록했으며, Q4 2025에서 매출총이익률 20.1%로 2년 만에 최고치를 달성했다. FSD는 월 99달러 구독 모델로 전환해 반복 매출을 극대화하고 있으며, 2026년 4월부터 Cybercab 양산, Roadster 공개 등 핵심 성장 촉매가 예정돼 있다.",
@@ -14,66 +15,54 @@
       "FSD(Full Self-Driving) 월 99달러 구독 및 라이선싱",
       "규제 크레딧 판매"
     ],
-    "keyProducts": ["Model Y/3", "Cybertruck", "Cybercab", "Megapack 3", "FSD", "Optimus", "Terafab", "Roadster"]
+    "keyProducts": [
+      "Model Y/3",
+      "Cybertruck",
+      "Cybercab",
+      "Megapack 3",
+      "FSD",
+      "Optimus",
+      "Terafab",
+      "Roadster"
+    ]
   },
+
   "keyMetrics": [
-    {
-      "name": "P/E (TTM)",
-      "value": "344x",
-      "interpretation": "전일 $355.28에서 +4.52% 급등, P/E가 더 올라갔다. S&P 500 평균 약 23x, 자동차 섹터 평균 약 12x 대비 극단적 프리미엄"
-    },
-    {
-      "name": "Forward P/E",
-      "value": "179x",
-      "interpretation": "2026년 EPS 전망 $2.08 기준. 성장주 평균 30-40x 대비 4배 이상 높음"
-    },
-    {
-      "name": "Q1 2026 인도량 컨센서스",
-      "value": "365,645대 (내일 4/2 발표)",
-      "interpretation": "Polymarket은 350k-375k 범위에 76.5% 확률 부여. 247WallSt: YoY +9% 성장 전망. 에너지 저장은 사상 최대 14.4GWh 예상"
-    },
-    {
-      "name": "Terafab 칩 공장 발표 (3/31 오늘)",
-      "value": "Tesla + SpaceX + xAI 합작",
-      "interpretation": "247WallSt: 오스틴에 2개의 첨단 칩 공장 건설 발표. AI 칩 자체 생산으로 수직통합 완성. 오늘 5% 급등의 핵심 촉매"
-    },
-    {
-      "name": "EPS (2025 연간)",
-      "value": "$1.08 (-47% YoY)",
-      "interpretation": "Motley Fool: 'EPS가 전년 대비 47% 급감.' 수익성은 여전히 역방향이지만 주가는 AI/로봇 테제에 반응"
-    },
-    {
-      "name": "RSI (14일)",
-      "value": "38",
-      "interpretation": "전일 31에서 오늘 랠리로 38까지 회복. 과매도 탈출 시작. S&P +2.45%, Nasdaq +3.34% 동행"
-    }
+    { "name": "P/E (TTM)", "value": "345.5x", "interpretation": "S&P 500 평균(22x) 대비 15배 이상. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 반영된 수치" },
+    { "name": "Forward P/E", "value": "141.3x", "interpretation": "2026년 예상 EPS $2.63 기준. S&P 500 Forward P/E(21x) 대비 7배. 성장 기대가 극도로 높다" },
+    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "2025년 연간 매출 역성장. 가격 인하 효과와 경쟁 심화. Q1 2026 인도 365k 예상으로 YoY +8.6% 회복 기대" },
+    { "name": "매출총이익률", "value": "18.03%", "interpretation": "2025년 기준. Q4에 20.1% 달성하며 개선 추세. 자동차 업계 평균(17%) 근접" },
+    { "name": "FCF (잉여현금흐름)", "value": "$6.22B", "interpretation": "전년 대비 +73.7% 증가. 현금 창출력이 크게 개선됐지만 P/FCF 224x로 여전히 고평가" },
+    { "name": "부채비율 (D/E)", "value": "0.18", "interpretation": "매우 낮은 부채 수준. 순현금 보유 상태로 재무 건전성 양호" }
   ],
+
   "growthDrivers": [
     {
-      "title": "Terafab 칩 공장: Tesla + SpaceX + xAI 수직통합 (3/31, 오늘)",
-      "description": "247WallSt: 오스틴에 2개의 첨단 칩 공장 건설 발표. Tesla EV, Optimus 로봇, xAI 데이터센터를 위한 AI 칩을 자체 생산한다. H1 2026에 AI 컴퓨팅 2배 이상 확대 예정. 오늘 뉴스 중 가장 높은 불리시 센티먼트(0.43)"
+      "title": "프랑스 3월 등록 3배 급증, 유럽 반등 신호 (4/1, 오늘)",
+      "description": "Reuters: 프랑스 3월 신규 등록 9,569대로 YoY +203% 급증, 역대 최고(9,572대) 근접. Q1 누적 13,945대(+108%). 북유럽에서도 2배 증가. 유럽 수요 회복이 본격화되는 신호"
     },
     {
-      "title": "Q1 인도 365,645대 컨센서스, YoY +9% 성장 (내일 4/2 발표)",
-      "description": "Polymarket 76.5% 확률로 350k-375k 범위 예상. 에너지 저장 14.4GWh 사상 최대. 순차적으로는 Q4의 418k 대비 감소하지만 YoY 회복에 시장 초점"
+      "title": "Q1 인도 365,645대 발표 임박 (내일 4/2)",
+      "description": "컨센서스 365,645대, YoY +8.6%. Polymarket 76.5% 확률로 350k-375k 범위 예상. 에너지 저장 14.4GWh 사상 최대. 2년 연속 역성장에서 회복 여부를 판가름하는 핵심 데이터"
     },
     {
-      "title": "SpaceX IPO 버즈, Musk 생태계 프리미엄 (3/31)",
-      "description": "SpaceX IPO 기대감이 Tesla에도 간접 영향. Musk 생태계(Tesla, SpaceX, xAI) 전체에 대한 투자 심리 개선"
+      "title": "Cybercab 4월 양산 시작 + Roadster 4월 말 공개",
+      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산과 차세대 Roadster 공개가 4월에 동시 예정. 실제 양산 확인 시 로보택시 내러티브 재점화"
     },
     {
-      "title": "트럼프 이란 전쟁 종식 시그널, S&P +2.45% 급등 (3/31)",
-      "description": "WSJ: 트럼프가 군사 작전 종식 의향 시사. S&P +2.45%, Nasdaq +3.34% 급등. 매크로 최대 리스크 해소 기대로 위험자산 전면 반등"
+      "title": "Terafab 칩 공장: Tesla + SpaceX + xAI 수직통합",
+      "description": "오스틴에 2개의 첨단 칩 공장 건설 발표. Tesla EV, Optimus 로봇, xAI 데이터센터를 위한 AI 칩 자체 생산. H1 2026에 AI 컴퓨팅 2배 이상 확대 예정"
     },
     {
-      "title": "유럽 판매 1년 만에 첫 YoY 증가 (3/31 보도)",
-      "description": "ACEA 기준, 2024년 12월 이후 처음으로 유럽 신규 등록 YoY 증가. 기저효과가 크지만 유럽 반등 신호"
+      "title": "전쟁 종식 시그널로 매크로 안정화 (3/31)",
+      "description": "트럼프가 이란 전쟁 종식 의향을 시사하면서 S&P +2.45%, Nasdaq +3.34% 급등. TSLA +4.64% 동반 상승. 매크로 최대 리스크 해소 기대"
     },
     {
-      "title": "Cybercab 4월 양산 + Roadster 4월 말 공개",
-      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산 시작과 차세대 Roadster 공개가 4월에 동시 예정"
+      "title": "유럽 판매 YoY 증가 전환 + 델라웨어 판사 교체",
+      "description": "ACEA 기준 유럽 신규 등록 YoY 증가 전환. 동시에 Musk 관련 소송을 담당하던 델라웨어 판사가 사건을 재배정하면서 법적 리스크도 감소"
     }
   ],
+
   "competitiveAdvantage": {
     "summary": "미국 EV 시장 50%+ 점유율, FSD 84억 마일 데이터, Supercharger NACS 표준 장악, Terafab으로 AI 칩 내재화 추진",
     "moats": [
@@ -113,215 +102,137 @@
       }
     ]
   },
+
   "recentNews": [
-    {
-      "date": "2026-03-31",
-      "headline": "Tesla +4.52%: Terafab 칩 공장, Q1 인도 기대, SpaceX 버즈 3중 호재 수렴",
-      "significance": "247WallSt: Tesla+SpaceX+xAI가 오스틴에 2개 첨단 칩 공장 건설. Q1 인도 365,645대 컨센서스(YoY +9%). SpaceX IPO 버즈. 3개 호재가 같은 날 수렴해 5% 급등",
-      "url": "https://247wallst.com/investing/2026/03/31/tesla-surges-5-delivery-hopes-terafab-and-spacex-buzz-are-all-converging-at-once/"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "S&P +2.45%, Nasdaq +3.34% 대규모 랠리. 트럼프 전쟁 종식 시그널",
-      "significance": "WSJ: 트럼프 군사 작전 종식 의향 시사. 매크로 최대 리스크 해소 기대로 시장 전면 반등. GM +2.4%, Ford +2.9%도 동행했으나 TSLA +4.5%가 더 강세",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-tesla-rises-ahead-of-delivery-report-as-rally-eases-demand-concerns/"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "Motley Fool: 'Tesla, Q1 인도 발표 앞두고 랠리에 수요 우려 완화'",
-      "significance": "4/2 인도 보고서가 핵심 지표. 약한 수요가 계속될지 자동차 사업 안정화 가능한지 확인할 분기점",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-tesla-rises-ahead-of-delivery-report-as-rally-eases-demand-concerns/"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "rollingout: 'Tesla 주가 $355, 밸류에이션 우려와 내부자 매도'",
-      "significance": "YTD -20%, 고점 대비 -27%. P/E 329x에 내부자 매도 동반. 오늘 반등에도 근본적 밸류에이션 우려 존재",
-      "url": "https://rollingout.com/2026/03/31/tesla-stock-355-valuation-concerns-2026/"
-    },
-    {
-      "date": "2026-03-31",
-      "headline": "Investing.com: 'Tesla 랠리, Q1 인도 앞두고 AI/자율주행/로봇에 초점 전환'",
-      "significance": "단기 인도 약세에도 AI, 로봇, 자율주행이 오프셋으로 작용. 시장이 내러티브 전환에 반응",
-      "url": "https://www.investing.com/news/company-news/why-is-tesla-stock-rallying-today-93CH-4591229"
-    }
+    { "date": "2026-04-01", "headline": "프랑스 3월 테슬라 등록 3배 급증, 북유럽 2배 증가", "significance": "유럽 수요 회복 본격화. Q1 프랑스 누적 13,945대(+108%). 반(反)테슬라 감정에도 불구하고 실수요가 강하다는 증거", "url": "https://www.reuters.com/business/retail-consumer/tesla-french-car-registrations-triple-march-2026-04-01/" },
+    { "date": "2026-04-01", "headline": "중국 3월 EV 경쟁사(NIO, Li Auto) 판매 반등, TSLA Q1 인도 주목", "significance": "중국 EV 시장 전체가 회복세. 내일 발표될 테슬라 Q1 인도량이 핵심 촉매", "url": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi" },
+    { "date": "2026-03-31", "headline": "S&P +2.45% 대규모 랠리, TSLA +4.64%", "significance": "트럼프 전쟁 종식 시그널로 위험자산 전면 반등. TSLA 시장 평균 수준 상승", "url": "https://finance.yahoo.com/" },
+    { "date": "2026-03-30", "headline": "델라웨어 판사, Musk 관련 소송 재배정", "significance": "편향 논란이 있던 판사가 자진 사건 재배정. Musk 법적 리스크 감소", "url": "https://www.reuters.com/sustainability/boards-policy-regulation/delaware-judge-accused-bias-reassigns-musk-cases-2026-03-30/" },
+    { "date": "2026-03-26", "headline": "테슬라 Q1 인도 컨센서스 365,645대 공개", "significance": "YoY +8.6% 성장 기대. 2년 역성장 후 회복 여부 판단의 기준선", "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/" }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 407,
-    "highTarget": 600,
-    "lowTarget": 119,
-    "upsidePercent": 9.6,
-    "buyCount": 17,
-    "holdCount": 17,
-    "sellCount": 9,
-    "notableComment": "HSBC $119(최저) vs Wedbush $600(최고). 오늘 랠리로 현재가와 목표가 괴리 축소. 247WallSt: Terafab이 가장 높은 불리시 센티먼트"
+    "consensusTarget": 410.63,
+    "highTarget": 550.0,
+    "lowTarget": 130.0,
+    "upsidePercent": 10.5,
+    "buyCount": 12,
+    "holdCount": 10,
+    "sellCount": 8,
+    "notableComment": "BofA Securities Buy $460 재개, JP Morgan은 $145 Underweight 유지. 애널리스트 간 의견이 극단적으로 갈리는 종목"
   },
+
   "risks": [
-    {
-      "severity": "critical",
-      "title": "Q1 인도 내일(4/2) 발표, 마진 훼손 우려 지속",
-      "description": "Seeking Alpha: 370,000대+ 가능하지만 가격 인하로 마진이 훼손될 수 있다. 인도 서프라이즈와 마진 악화가 동시에 나올 가능성. 에너지 저장 14.4GWh가 부분 상쇄"
-    },
-    {
-      "severity": "critical",
-      "title": "P/E 344x에 이익 감소, 밸류에이션 정당화 불가",
-      "description": "오늘 +4.52% 급등으로 P/E가 더 올라갔다. 2025년 EPS $1.08(-47%). rollingout: 내부자 매도 동반. Terafab 테제가 현실화되기 전까지 밸류에이션 부담"
-    },
-    {
-      "severity": "high",
-      "title": "Terafab 발표는 장기적이지만 단기 현금 유출 부담",
-      "description": "2개 칩 공장 건설은 수십억 달러 규모 투자. 완공 시점 미정. 단기적으로는 capex 증가로 FCF 압박"
-    },
-    {
-      "severity": "high",
-      "title": "FSD 규제 및 안전성 리스크 심화",
-      "description": "NHTSA 조사 격상, 카메라 온리 시스템에 대한 규제당국 조사. Trefis: '1조 달러 AI 테제가 무너질 수 있다'"
-    },
-    {
-      "severity": "medium",
-      "title": "전쟁 종식 시 유가 하락, EV 전환 유인 감소 가능",
-      "description": "유가 $103에서 하락 시 EV 수요 동기 약화. 다만 매크로 안정화가 더 큰 호재"
-    }
+    { "severity": "high", "title": "Q1 인도량 미달 리스크", "description": "내일(4/2) 발표 예정인 Q1 인도량이 컨센서스 365k를 하회하면 2년 연속 역성장 우려가 재점화될 수 있다" },
+    { "severity": "high", "title": "극단적 밸류에이션", "description": "P/E 345x, Forward P/E 141x로 자동차 업종은 물론 기술주 대비로도 매우 비싸다. 성장 기대가 꺾이면 급락 가능" },
+    { "severity": "medium", "title": "중국 경쟁 심화", "description": "BYD, Xiaomi 등 중국 EV 업체의 가격 공세와 기술 추격이 지속. 글로벌 시장 점유율 방어 부담" },
+    { "severity": "medium", "title": "Musk 리스크", "description": "DOGE 활동, 정치적 발언 등으로 브랜드 이미지 훼손 지속. 유럽에서 반테슬라 감정이 매출에 영향" },
+    { "severity": "medium", "title": "매출 역성장", "description": "2025년 연간 매출 -2.93% 역성장. 가격 인하에도 불구하고 판매량 증가가 매출 성장으로 연결되지 않는 구조" }
   ],
+
   "buyReasons": [
-    {
-      "title": "Terafab + SpaceX IPO + Q1 인도 = 3중 호재 수렴",
-      "rationale": "247WallSt: 세 가지 촉매가 24시간 내 동시 등장. 시장은 이 수렴을 의미있게 반응. 거래량 73.4M으로 3개월 평균 대비 +19%"
-    },
-    {
-      "title": "S&P +2.45% 대규모 랠리, 매크로 리스크 해소 시작",
-      "rationale": "트럼프 전쟁 종식 시그널로 매크로 최대 불확실성이 해소되기 시작. 위험자산 전면 반등 속 TSLA이 시장보다 강한 상승"
-    },
-    {
-      "title": "RSI 31→38 과매도 탈출, 추세 전환 시작 가능",
-      "rationale": "4거래일 연속 하락에서 오늘 +4.52% 강한 반등. RSI가 과매도에서 벗어나며 기술적 반등 시작"
-    },
-    {
-      "title": "4월 카탈리스트 집중 (4/2 인도, Cybercab, Roadster, 4/21 실적)",
-      "rationale": "4/2 Q1 인도, Cybercab 양산, Roadster 공개, 4/21 실적 발표가 4월에 몰려 있어 모멘텀 유지 가능"
-    }
+    { "title": "유럽 수요 반등 확인", "rationale": "프랑스 +203%, 북유럽 2배 증가. 반테슬라 감정에도 불구하고 실수요 회복이 확인됐다" },
+    { "title": "Q1 인도 YoY 회복 기대", "rationale": "컨센서스 365k는 YoY +8.6%. 2년 역성장에서 처음으로 반전할 수 있는 분기" },
+    { "title": "4월 핵심 촉매 연속", "rationale": "Cybercab 양산, Roadster 공개, Q1 인도 발표가 한 달 안에 집중. 긍정적 서프라이즈 시 급등 가능" },
+    { "title": "FCF 개선 추세", "rationale": "FCF +73.7% 증가해 $6.22B. 현금 창출력이 빠르게 회복 중이며 순현금 상태로 재무 안전" }
   ],
+
   "technicalPosition": {
     "week52High": 498.83,
     "week52Low": 214.25,
-    "currentPositionPercent": 55.2,
-    "sma50": 387,
+    "currentPositionPercent": 55.3,
+    "sma50": 405.6,
     "sma50Signal": "below",
-    "sma200": 400,
+    "sma200": 396.5,
     "sma200Signal": "below",
-    "rsi": 38,
+    "rsi": 41.61,
     "rsiSignal": "neutral"
   },
+
   "overallOpinion": [
-    "오늘 3중 호재가 수렴했다. Terafab 칩 공장(Tesla+SpaceX+xAI 수직통합), Q1 인도 365k 낙관론, SpaceX IPO 버즈가 같은 날 터지며 +4.52% 급등. S&P +2.45%, Nasdaq +3.34%의 대규모 랠리도 동행. 거래량이 3개월 평균 대비 19% 증가",
-    "내일(4/2) Q1 인도가 최대 관건. 컨센서스 365,645대(YoY +9%)는 충족 가능하지만 마진이 문제다. 에너지 저장 14.4GWh 사상 최대는 호재. 유럽 판매도 1년 만에 YoY 증가. 하지만 P/E 344x에 EPS -47%라는 근본 부담은 여전",
-    "$371.35, 50일선($387), 200일선($400) 아래지만 급격히 접근 중. RSI 31→38로 과매도 탈출. Terafab이 장기 테제를 강화했지만 4/2 인도에서 마진 확인이 필수. Hold→관심 상향, 4/2 확인 후 판단"
+    "내일(4/2) Q1 인도량 발표가 예정돼 있다. 컨센서스 365,645대를 넘기면 2년 역성장에서 반등하는 신호로, 못 미치면 실망 매물이 나올 수 있다.",
+    "프랑스 등록 3배, 북유럽 2배 급증으로 유럽 수요가 확실히 살아나고 있다. 4월에는 Cybercab 양산과 Roadster 공개까지 겹쳐 촉매가 풍부하다.",
+    "50일 평균($406)과 200일 평균($397) 아래에서 거래 중이고, RSI 41로 중립 하단이다. 내일 인도량 결과에 따라 방향이 갈린다."
   ],
+
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "3중 호재(Terafab, Q1 인도 낙관, SpaceX)와 S&P +2.45% 대규모 랠리로 +4.52% 급등. RSI 31→38 과매도 탈출. 하지만 P/E 344x에 EPS -47%, 내일 인도에서 마진 훼손 확인 가능. Terafab은 장기 전략이지 단기 수익이 아니다. 4/2 인도 + 4/21 실적 후 재평가",
-    "horizon": "1-3개월 (4/2 인도, 4/21 실적 후 재평가)"
+    "summary": "유럽 수요 반등과 4월 촉매(Cybercab 양산, Roadster)가 긍정적이지만, 내일 Q1 인도량 발표가 핵심 변수다. P/E 345x는 완벽한 실행을 전제한 가격이므로 결과 확인 후 진입이 안전하다. 인도량이 370k 이상이면 매수 기회가 열린다.",
+    "horizon": "1-2주 (4/2 인도량 발표 후 재평가)"
   },
+
   "sources": [
-    {
-      "name": "247WallSt - 'Tesla 5% 급등: 인도, Terafab, SpaceX 수렴'",
-      "url": "https://247wallst.com/investing/2026/03/31/tesla-surges-5-delivery-hopes-terafab-and-spacex-buzz-are-all-converging-at-once/",
-      "description": "Terafab 칩 공장, Q1 365k 인도, SpaceX IPO 3중 호재"
-    },
-    {
-      "name": "Motley Fool - 'Tesla, Q1 인도 앞두고 랠리'",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-tesla-rises-ahead-of-delivery-report-as-rally-eases-demand-concerns/",
-      "description": "$371.35(+4.52%) 마감. GM +2.4%, Ford +2.9% 대비 강세"
-    },
-    {
-      "name": "Investing.com - 'Tesla 랠리, AI/자율주행/로봇에 초점 전환'",
-      "url": "https://www.investing.com/news/company-news/why-is-tesla-stock-rallying-today-93CH-4591229",
-      "description": "365k 인도 컨센서스, 분기별 감소지만 YoY 회복에 초점"
-    },
-    {
-      "name": "rollingout - 'Tesla $355 밸류에이션 우려, 내부자 매도'",
-      "url": "https://rollingout.com/2026/03/31/tesla-stock-355-valuation-concerns-2026/",
-      "description": "YTD -20%, P/E 329x, 내부자 매도 동반"
-    },
-    {
-      "name": "Motley Fool - '유럽 판매 1년 만에 첫 YoY 증가'",
-      "url": "https://www.fool.com/investing/2026/03/30/tesla-grew-sales-in-europe-for-the-first-time-in-a/",
-      "description": "ACEA 기준 2024.12 이후 첫 YoY 증가"
-    },
-    {
-      "name": "Motley Fool - '테슬라, 얼마나 더 떨어질 수 있나'",
-      "url": "https://www.fool.com/investing/2026/03/30/how-much-further-could-tesla-stock-fall/",
-      "description": "P/E 330x, EPS -47%, 근본적 밸류에이션 우려"
-    },
-    {
-      "name": "Seeking Alpha - Q1 인도 서프라이즈 가능, 마진 훼손 우려",
-      "url": "https://seekingalpha.com/article/4887171-tesla-may-beat-deliveries-but-this-could-hurt-the-bottom-line",
-      "description": "370k+ 인도 가능, 가격 인하로 마진 악화 동반"
-    },
-    {
-      "name": "MarketBeat - TSLA 목표가 $407",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/",
-      "description": "컨센서스 목표가 $407, 17 Buy, 17 Hold, 9 Sell"
-    }
+    { "name": "Reuters", "url": "https://www.reuters.com/business/retail-consumer/tesla-french-car-registrations-triple-march-2026-04-01/", "description": "프랑스 3월 테슬라 등록 3배 급증 보도" },
+    { "name": "Electrek", "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/", "description": "테슬라 Q1 2026 인도 컨센서스 365,645대" },
+    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA 주가, 기술적 지표, 재무 데이터" },
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/financials/", "description": "TSLA 재무제표 및 실적 데이터" },
+    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/tsla/technical-analysis", "description": "TSLA RSI, MACD 기술적 분석" },
+    { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/03/51501633/elon-musks-tesla-sees-q1-slowdown-365k-deliveries-expected", "description": "테슬라 Q1 인도 전망 분석" },
+    { "name": "Barron's", "url": "https://www.barrons.com/articles/tesla-stock-price-first-quarter-ev-deliveries-f8c1e286", "description": "테슬라 Q1 인도 보고서 전망" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "TSLA 차트 및 기술적 분석" },
+    { "name": "Investor's Business Daily", "url": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi", "description": "테슬라 인도 및 중국 EV 경쟁사 동향" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "TSLA $371 | Terafab 칩 공장 + SpaceX IPO + Q1 인도. 3중 호재에 +4.5% 급등",
-      "text": "$TSLA $371.35(+4.52%)\n\n오늘 3중 호재 수렴:\n1) Terafab 칩 공장 (Tesla+SpaceX+xAI)\n2) Q1 인도 365k 낙관론\n3) SpaceX IPO 버즈\nS&P +2.45%, Nasdaq +3.34%.\n\n1/4",
+      "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
+      "text": "$TSLA $371.75(+4.64%) 내일 Q1 인도량 발표. 컨센서스 365,645대, 넘기면 2년 역성장 반등 신호. 프랑스 3월 등록 3배 급증, 유럽 수요 살아나는 중.\n\n1/4",
       "thread": [
-        "Terafab: 오스틴에 2개 칩 공장 건설.\nAI 칩 자체 생산으로 수직통합 완성.\n247WallSt: 가장 높은 불리시 센티먼트(0.43).\n\n2/4",
-        "내일(4/2) Q1 인도 발표.\n컨센서스 365,645대(YoY +9%).\nPolymarket: 350k-375k에 76.5% 확률.\n에너지 저장 14.4GWh 사상 최대.\n\n3/4",
-        "RSI 31→38 과매도 탈출.\n50일선($387)까지 4% 남았다.\n목표가 $407(+9.6%). Hold.\n4/2 인도 마진 확인 후 판단.\n\n4/4"
+        "프랑스 9,569대(+203%), 북유럽 2배. 반테슬라 감정 있어도 실구매는 늘고 있다. Q1 프랑스 누적 13,945대(+108%).\n\n2/4",
+        "4월 촉매 가득. Cybercab 양산 시작, Roadster 공개 예정. 50일선($406) 아래지만 RSI 41로 과매도 아닌 중립 하단.\n\n3/4",
+        "애널리스트 목표가 $410(+10.5%). 내일 인도량이 370k 넘으면 매수 기회, 미달이면 실망 매물 주의.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "TSLA: Terafab + SpaceX + Q1 인도, 3중 호재에 +4.5% 급등",
-      "text": "$TSLA $371.35(+4.52%)\n\nTerafab 칩 공장(Tesla+SpaceX+xAI), Q1 인도 365k 낙관론, SpaceX IPO 버즈가 같은 날 수렴. S&P +2.45% 대규모 랠리.\n\nRSI 31→38 과매도 탈출. 내일(4/2) Q1 인도가 관건.\n\n목표가 $407(+9.6%). Hold. 4/2 확인 후."
+      "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
+      "text": "$TSLA $371.75(+4.64%)\n\n내일 Q1 인도량이 발표된다. 컨센서스 365,645대, YoY +8.6%. 넘기면 2년 연속 역성장에서 처음으로 반등하는 분기가 된다.\n\n프랑스 3월 등록이 3배 급증(9,569대, +203%)하고 북유럽도 2배 늘었다. 반테슬라 감정에도 불구하고 실수요가 확실히 살아나는 중이다. 4월에는 Cybercab 양산과 Roadster 공개까지 촉매가 풍부하다.\n\n50일 평균($406) 아래, RSI 41 중립 하단. 목표가 $410(+10.5%). 내일 결과 보고 판단해도 늦지 않다."
     },
     "telegram": {
-      "hook": "Tesla 일일 분석 (4/1)",
-      "text": "Tesla $371.35 (+4.52%) | 시총 $1.19T\nP/E 344x | RSI 38 (과매도 탈출) | 판단: Hold\n\n3중 호재 수렴 (3/31)\n- Terafab 칩 공장: Tesla+SpaceX+xAI 합작\n- Q1 인도 365k 낙관, Polymarket 76.5%\n- SpaceX IPO 버즈\n- S&P +2.45%, Nasdaq +3.34%\n\n내일(4/2) Q1 인도\n- 컨센서스 365,645대 (YoY +9%)\n- 에너지 저장 14.4GWh 사상 최대\n- 마진 훼손 여부가 핵심\n\n기술적: 50일($387)까지 4%\n목표가: $407 (+9.6%)\nHold: 인도 마진 확인 후 판단"
+      "hook": "내일 Q1 인도량, 2년 역성장 반전 여부 결판",
+      "text": "Tesla 일일 분석 (4/1)\n\n가격: $371.75 (+4.64%)\n\n핵심 이슈\n- 내일(4/2) Q1 인도량 발표, 컨센서스 365,645대\n- 프랑스 3월 등록 3배 급증(+203%), 유럽 수요 회복\n- 4월 Cybercab 양산 + Roadster 공개 예정\n- 전쟁 종식 기대로 시장 전체 랠리\n\n주가 위치\n- 50일 평균($406), 200일 평균($397) 모두 아래\n- RSI 41, 중립 하단\n\n목표가: $410 (+10.5%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA $371 | Terafab + SpaceX + Q1 인도. 3중 호재에 +4.5% 급등",
-          "text": "$TSLA $371.35(+4.52%)\n\n오늘 3중 호재 수렴:\n1) Terafab 칩 공장 (Tesla+SpaceX+xAI)\n2) Q1 인도 365k 낙관론\n3) SpaceX IPO 버즈\nS&P +2.45%, Nasdaq +3.34%.\n\n1/4",
+          "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
+          "text": "$TSLA $371.75(+4.64%) 내일 Q1 인도량 발표. 컨센서스 365,645대, 넘기면 2년 역성장 반등 신호. 프랑스 3월 등록 3배 급증, 유럽 수요 살아나는 중.\n\n1/4",
           "thread": [
-            "Terafab: 오스틴에 2개 칩 공장 건설.\nAI 칩 자체 생산으로 수직통합 완성.\n247WallSt: 가장 높은 불리시 센티먼트.\n\n2/4",
-            "내일(4/2) Q1 인도 발표.\n컨센서스 365,645대(YoY +9%).\n에너지 저장 14.4GWh 사상 최대.\n\n3/4",
-            "RSI 31→38 과매도 탈출.\n목표가 $407(+9.6%). Hold.\n4/2 인도 마진 확인 후.\n\n4/4"
+            "프랑스 9,569대(+203%), 북유럽 2배. 반테슬라 감정 있어도 실구매는 늘고 있다. Q1 프랑스 누적 13,945대(+108%).\n\n2/4",
+            "4월 촉매 가득. Cybercab 양산 시작, Roadster 공개 예정. 50일선($406) 아래지만 RSI 41로 과매도 아닌 중립 하단.\n\n3/4",
+            "애널리스트 목표가 $410(+10.5%). 내일 인도량이 370k 넘으면 매수 기회, 미달이면 실망 매물 주의.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "테슬라가 칩 공장까지 짓는다고? SpaceX랑 같이? +4.5% 급등",
-          "text": "$TSLA $371.35(+4.52%)\n\nTerafab: 오스틴에 칩 공장 2개.\nSpaceX랑 xAI랑 같이 짓는다.\n거기다 SpaceX IPO 소문까지.\n내일은 Q1 인도까지.\n\n1/4",
+          "hook": "프랑스인들이 테슬라를 3배나 더 샀다",
+          "text": "$TSLA $371.75(+4.64%) 테슬라 싫다던 프랑스에서 3월 등록 3배 급증. 입으로는 보이콧, 손으로는 결제. 내일 Q1 인도량 발표가 진짜 시험대.\n\n1/4",
           "thread": [
-            "P/E 344x? 그래, 비싸다.\n근데 AI 칩 자체 생산이면\n이건 자동차 회사가 아니다.\n\n2/4",
-            "내일 365k 인도 나오면\n마진이 관건. 많이 팔았는데 덜 벌면\n다시 원점.\n\n3/4",
-            "RSI 31→38. 과매도 탈출.\n목표가 $407. Hold.\n내일이 진짜 시험대.\n\n4/4"
+            "컨센서스 365,645대. 넘으면 2년 역성장 끝, 못 넘으면 또 실망. 이 종목 들고 있으면 매 분기가 기말고사다.\n\n2/4",
+            "4월에 Cybercab 양산이랑 Roadster 공개. 일론이 약속을 지키면 축포, 또 연기하면 그때는 진짜 욕먹을 거다.\n\n3/4",
+            "목표가 $410(+10.5%). 내일 결과 보고 움직여도 된다. 급할 건 없다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "TSLA 홀더들, 드디어 좋은 하루. Terafab에 SpaceX에 인도까지",
-          "text": "$TSLA $371.35(+4.52%)\n\n힘든 한 주 끝에 3중 호재.\nTerafab, SpaceX IPO, Q1 인도 낙관.\n+4.52%. 숨 좀 쉴 수 있는 날.\n\n1/4",
+          "hook": "테슬라 주주들, 내일이 중요한 날이다",
+          "text": "$TSLA $371.75(+4.64%) 2년 동안 인도량 역성장을 견뎌온 주주들에게 내일(4/2)이 중요하다. 컨센서스 365k, 넘기면 드디어 반등 신호.\n\n1/4",
           "thread": [
-            "RSI가 31에서 38로 올라왔어요.\n과매도에서 벗어나는 중.\n50일선까지 4%. 가능해요.\n\n2/4",
-            "내일 인도 발표가 남았지만\n오늘 분위기가 달라요.\n목표가 $407. Hold.\n기다리면 좋은 결과가 올 거예요.\n\n3/4"
+            "프랑스에서 등록이 3배 늘고, 북유럽도 2배. 유럽이 돌아오고 있다는 건 진짜 좋은 소식이다.\n\n2/4",
+            "아직 50일선($406) 아래고, 고점 대비 25% 빠져 있다. 불안한 게 당연하다. 하지만 4월 촉매가 많다.\n\n3/4",
+            "목표가 $410(+10.5%). 내일 인도량 확인하고 판단해도 늦지 않다. 조금만 더 지켜보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA: Terafab + SpaceX + Q1 인도. 3중 호재 수렴에 +4.5%",
-          "text": "$TSLA $371.35(+4.52%). Terafab 칩 공장, SpaceX IPO, Q1 인도 낙관이 수렴. S&P +2.45%.\n\nRSI 31→38 과매도 탈출. 내일 4/2 인도 확인.\n\nHold. 목표가 $407(+9.6%)."
+          "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
+          "text": "$TSLA $371.75(+4.64%)\n\n내일 Q1 인도량이 발표된다. 컨센서스 365,645대, YoY +8.6%. 넘기면 2년 연속 역성장에서 처음으로 반등하는 분기가 된다.\n\n프랑스 3월 등록이 3배 급증(9,569대, +203%)하고 북유럽도 2배 늘었다. 반테슬라 감정에도 불구하고 실수요가 확실히 살아나는 중이다. 4월에는 Cybercab 양산과 Roadster 공개까지 촉매가 풍부하다.\n\n50일 평균($406) 아래, RSI 41 중립 하단. 목표가 $410(+10.5%). 내일 결과 보고 판단해도 늦지 않다."
         },
         "witty": {
-          "hook": "칩 공장에 SpaceX IPO에 인도까지. 테슬라 오늘 뭐 먹었나",
-          "text": "$TSLA $371.35(+4.52%). 하루에 호재 3개. Terafab+SpaceX+인도.\n\nP/E 344x는 여전히 부담. 근데 AI 칩 자체 생산이면 얘기가 다르다.\n\nHold. 내일 인도가 진짜 시험."
+          "hook": "프랑스인들이 테슬라를 3배나 더 샀다",
+          "text": "$TSLA $371.75(+4.64%)\n\n테슬라 싫다던 프랑스에서 3월 등록이 3배 급증했다. 입으로는 보이콧, 손으로는 결제. 내일 Q1 인도량 365k 넘기면 2년 역성장이 끝나는 건데, 이 종목은 매 분기가 기말고사다.\n\n4월에 Cybercab 양산이랑 Roadster 공개도 있다. 일론이 약속을 지키면 축포, 또 연기하면 그때는 진짜 욕먹을 거다. 목표가 $410(+10.5%). 내일 결과 보고 움직여도 된다."
         },
         "empathy": {
-          "hook": "TSLA 투자자분들, 드디어 숨 쉴 수 있는 하루. +4.52%",
-          "text": "$TSLA $371.35(+4.52%). 4거래일 하락 후 드디어 반등.\n\nTerafab, SpaceX, Q1 인도 기대가 겹치면서 좋은 하루. RSI 과매도 탈출.\n\nHold. 내일 인도 확인 후요."
+          "hook": "테슬라 주주들, 내일이 중요한 날이다",
+          "text": "$TSLA $371.75(+4.64%)\n\n2년 동안 인도량 역성장을 견뎌온 주주들에게 내일이 중요하다. 컨센서스 365k, 넘기면 드디어 반등 신호.\n\n프랑스 등록 3배, 북유럽 2배 증가는 진짜 좋은 소식이다. 아직 고점 대비 25% 빠져 있고 50일선 아래지만, 4월에 Cybercab 양산과 Roadster 공개가 있다.\n\n목표가 $410(+10.5%). 내일 인도량 확인하고 판단해도 늦지 않다. 조금만 더 지켜보자."
         }
       }
     }

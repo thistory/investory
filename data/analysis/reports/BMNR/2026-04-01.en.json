@@ -1,125 +1,226 @@
 {
   "symbol": "BMNR",
-  "companyName": "Bitmine Immersion Technologies, Inc.",
+  "companyName": "Bitmine Immersion Technologies",
   "analysisDate": "2026-04-01",
   "currentPrice": 19.78,
-  "marketCap": "$9.0B",
+  "marketCap": "$8.98B",
+
   "businessSummary": {
-    "oneLiner": "World's largest publicly-traded Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum",
-    "description": "Originally a Bitcoin miner, pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds ~4% of total ETH supply with $10.7B in total crypto + cash. MAVAN staking platform launched generating $177M annualized staking revenue. Surged +8.09% today on S&P +2.91% rally and ETH +3.14% recovery.",
+    "oneLiner": "World's largest public Ethereum holder, applying MicroStrategy's Bitcoin playbook to Ethereum as a digital asset treasury company",
+    "description": "Originally a Bitcoin mining company, pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds ~3.86% of total ETH supply with combined crypto+cash assets of $10.7B. Launched MAVAN staking platform generating $177M annual staking revenue. Surged 8.09% on Mar 31 alongside S&P +2.45% rally and ETH +3.14% rebound.",
     "howTheyMakeMoney": [
-      "ETH Treasury: 4,732,082 ETH (~$9.8B at ~$2,087/ETH)",
-      "ETH Staking: 3,142,643 ETH staked, $177M annualized revenue",
-      "Dividend: 5.0% yield, only dividend-paying crypto treasury company",
-      "Bitcoin holdings: 197 BTC (minor)"
+      "ETH Treasury: 4,660,903 ETH held (~$9.56B at ~$2,050/ETH)",
+      "ETH Staking: 3,142,643 ETH staked, $177M annual revenue",
+      "Dividends: 5.5% dividend yield, unique among crypto treasury companies",
+      "Bitcoin holdings: 197 BTC held (secondary)"
     ],
-    "keyProducts": ["Ethereum Treasury", "MAVAN Staking Platform", "ETH Staking", "Crypto Holdings"]
-  },
-  "keyMetrics": [
-    {"name": "P/NAV", "value": "~0.85x", "interpretation": "NAV ~$10.6B at ETH $2,087. Market cap $9.0B = 15% discount. MSTR P/B 2-3x comparison"},
-    {"name": "ETH Holdings", "value": "4,732,082 ETH (as of 3/29)", "interpretation": "3.92% of total ETH supply. Target: 6M ETH (5%)"},
-    {"name": "ETH Price", "value": "~$2,087 (+3.14%)", "interpretation": "Rebounded from $2,024. BTC $68,108 (+2.32%). Broad crypto recovery"},
-    {"name": "Dividend Yield", "value": "5.0%", "interpretation": "3.8x S&P 500 avg (1.3%). Only dividend-paying crypto stock"},
-    {"name": "Staking Revenue", "value": "$177M annualized", "interpretation": "MAVAN launched. $300M target = 59% achieved"},
-    {"name": "Volume Today", "value": "70.1M shares (+54% vs 3-mo avg)", "interpretation": "Motley Fool: Strong buying interest surge"}
-  ],
-  "growthDrivers": [
-    {"title": "S&P +2.91% Rally + Crypto Recovery (3/31)", "description": "Trump war-end signal sparked broad risk-on. ETH +3.14%, BTC +2.32%. BMNR +8.09% led crypto sector. MARA +4.68%, RIOT +4.48%"},
-    {"title": "B. Riley Target Raised to $33, Buy (3/26)", "description": "Target raised from $30 to $33. MAVAN staking platform launch cited as key growth driver"},
-    {"title": "MAVAN Staking Platform Launch (3/25)", "description": "3.14M ETH migrated from Coinbase to in-house MAVAN. Fee savings target $300M+ annual revenue"},
-    {"title": "ETH Holdings Record 4,732,082, Total Assets $10.7B (3/30)", "description": "71,179 ETH purchased. Cash $961M for further buying. ARK, Founders Fund backing"},
-    {"title": "Tom Lee 'Alchemy of 5%': 5% ETH Supply Target", "description": "6M ETH target. Currently at 3.92% = 78% achieved"},
-    {"title": "172% Growth Since IPO (Motley Fool)", "description": "YTD -27% but IPO-to-date +172%. Long-term trajectory intact"}
-  ],
-  "competitiveAdvantage": {
-    "summary": "Largest public ETH holdings (3.92% of supply). Tom Lee brings institutional credibility. Only large-scale MicroStrategy-equivalent for Ethereum",
-    "moats": [
-      {"type": "ETH Supply Concentration", "description": "3.92% of all ETH. Irreplaceable market position"},
-      {"type": "Institutional Access", "description": "Public stock providing ETH exposure without ETF"},
-      {"type": "MAVAN Self-Staking", "description": "3.14M ETH self-staked. Fee advantage over third-party staking"}
-    ],
-    "competitors": [
-      {"name": "MicroStrategy (MSTR)", "detail": "Bitcoin treasury OG. BTC focus vs BMNR's ETH focus"},
-      {"name": "Grayscale Ethereum Trust (ETHE)", "detail": "ETH ETF competitor. Different fee structure"},
-      {"name": "MARA Holdings", "detail": "Today +4.68%. Crypto mining peer"}
+    "keyProducts": [
+      "Ethereum Treasury",
+      "MAVAN (Made in America Validator Network)",
+      "ETH Staking",
+      "Crypto Holdings"
     ]
   },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "Loss (-20.98x)", "interpretation": "GAAP loss driven by ETH mark-to-market. Crypto treasury companies are valued on NAV discount/premium rather than P/E" },
+    { "name": "NAV Discount", "value": "-6.0%", "interpretation": "Market cap $8.98B vs ETH+cash assets $10.5B. Trading at ~6% discount to NAV. MSTR typically trades at a premium" },
+    { "name": "Dividend Yield", "value": "5.5%", "interpretation": "Only crypto treasury company paying dividends. Funded by staking revenue. Attractive in high-rate environment" },
+    { "name": "ETH Holdings", "value": "4,660,903 ETH", "interpretation": "3.86% of total ETH supply. Tom Lee's target is 5% (6M ETH). Currently at 78% of goal" },
+    { "name": "Annual Staking Revenue", "value": "$177M", "interpretation": "3.14M ETH staked. MAVAN launch cuts third-party fees, targeting $300M+ annual revenue" },
+    { "name": "ETH Price", "value": "$2,103", "interpretation": "Every $100 ETH move changes BMNR's asset value by $466M. Extreme ETH leverage" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "Broad market rally + crypto rebound (Mar 31)",
+      "description": "Trump war-end signal drove S&P +2.45%, ETH +3.14%, BTC +2.32%. BMNR surged 8.09% on risk-on sentiment"
+    },
+    {
+      "title": "MAVAN staking platform official launch (Mar 25)",
+      "description": "Migrated 3.14M ETH ($6.3B) from Coinbase to self-hosted MAVAN. Targets $300M+ annual revenue through fee reduction"
+    },
+    {
+      "title": "B. Riley raises target to $33, maintains Buy (Mar 26)",
+      "description": "B. Riley raised target from $30 to $33, citing MAVAN launch as key growth driver"
+    },
+    {
+      "title": "71,179 ETH additional purchase, total assets $10.7B (Mar 30)",
+      "description": "PRNewswire: Acquired 71,179 more ETH. Total assets $10.7B, cash $961M. Aggressive accumulation continues"
+    },
+    {
+      "title": "Tom Lee's 'Alchemy of 5%': targeting 5% of ETH supply",
+      "description": "Goal: 6M ETH. Currently at 3.86%, representing 78% completion. Achieving 5% would establish real influence in the Ethereum ecosystem"
+    },
+    {
+      "title": "Tom Lee on CNBC: crypto bottom forming (February)",
+      "description": "Fundstrat co-founder argued crypto market is bottoming, defending BMNR strategy"
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "Largest public ETH holder (3.86% of supply). Tom Lee's involvement provides institutional credibility. Only large-scale player applying MicroStrategy's BTC model to ETH.",
+    "moats": [
+      {
+        "type": "ETH Supply Concentration",
+        "description": "Holds 3.86% of total ETH supply. Irreplicable market position."
+      },
+      {
+        "type": "Institutional Access",
+        "description": "Provides ETH exposure via public equity. Institutional investors can access ETH without ETF."
+      },
+      {
+        "type": "MAVAN Self-Staking",
+        "description": "3.14M ETH self-staked via MAVAN platform, reducing fees and improving yield vs competitors."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "MicroStrategy (MSTR)",
+        "detail": "Original Bitcoin treasury strategy. BTC-focused vs BMNR's ETH focus"
+      },
+      {
+        "name": "Grayscale Ethereum Trust (ETHE)",
+        "detail": "ETH ETF competitor. Different fee structure"
+      },
+      {
+        "name": "MARA Holdings",
+        "detail": "Crypto mining stock moving with sector"
+      }
+    ]
+  },
+
   "recentNews": [
-    {"date": "2026-03-31", "headline": "Motley Fool: 'Bitmine +8.09% on Crypto Recovery Hopes'. ETH +3.14%", "significance": "MAVAN launch + S&P rally. Volume 70.1M (+54%). 172% since IPO", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-bitmine-immersion-technologies-jumps-on-crypto-recovery-hopes/"},
-    {"date": "2026-03-31", "headline": "Yahoo Finance: 'B. Riley Raises Target to $33, Best Oversold Stock Under $20'", "significance": "Major financial media featuring BMNR as top oversold opportunity", "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-lifts-pt-bitmine-153057954.html"},
-    {"date": "2026-03-31", "headline": "S&P +2.91% Major Rally, Trump War-End Signal", "significance": "Macro stabilization drives risk-on. MARA +4.68%, RIOT +4.48%", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-bitmine-immersion-technologies-jumps-on-crypto-recovery-hopes/"},
-    {"date": "2026-03-31", "headline": "ETH $2,087 (+3.14%), BTC $68,108 (+2.32%) Crypto Recovery", "significance": "ETH rebounded from $2,024. 4.73M ETH holdings = ~$98M NAV swing per 1% ETH move", "url": "https://www.coingabbar.com/en/crypto-currency-news/crypto-market-update-march-31-btc-eth-keeta-price-up-today"},
-    {"date": "2026-03-30", "headline": "PRNewswire: ETH Holdings Reach 4,732,082, Total Assets $10.7B", "significance": "71,179 ETH purchased. Cash $961M for further buying", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-732-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-7-billion-302728176.html"}
+    { "date": "2026-03-31", "headline": "BMNR surges 8.09% on market rally and crypto rebound", "significance": "S&P +2.45%, ETH +3.14%. Risk-on rally on war-end expectations", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-bitmine-immersion-technologies-jumps-on-crypto-recovery-hopes/" },
+    { "date": "2026-03-30", "headline": "71,179 ETH additional purchase, total 4,660,903 ETH", "significance": "Continued aggressive ETH accumulation. Total assets $10.7B, cash $961M", "url": "https://wp.madrestravels.com/2026/03/31/breaking-tom-lees-bitmine-acquires-71179-eth-bmnr-stock-price-recovers/" },
+    { "date": "2026-03-26", "headline": "B. Riley raises target to $33 (from $30)", "significance": "MAVAN launch cited as key growth driver. Buy maintained", "url": "https://ts2.tech/en/bmnr-stock-slides-after-bitmine-immersion-technologies-launches-mavan-despite-b-riley-target-hike/" },
+    { "date": "2026-03-25", "headline": "MAVAN staking platform officially launches", "significance": "3.14M ETH migrated to self-hosted infrastructure. Fee reduction improves profitability", "url": "https://robinhood.com/us/en/stocks/BMNR/" },
+    { "date": "2026-02-11", "headline": "Tom Lee on CNBC: crypto bottom forming", "significance": "Fundstrat co-founder's market outlook. Defense of crypto bottom-buying strategy", "url": "https://stockanalysis.com/stocks/bmnr/" }
   ],
+
   "analystOpinions": {
-    "consensusTarget": 33.0, "highTarget": 39, "lowTarget": 30, "upsidePercent": 66.8,
-    "buyCount": 1, "holdCount": 0, "sellCount": 0,
-    "notableComment": "B. Riley Buy $33 (+67%). Yahoo Finance: 'Best oversold stock under $20'. Limited coverage but unanimously bullish"
+    "consensusTarget": 34.50,
+    "highTarget": 36.0,
+    "lowTarget": 33.0,
+    "upsidePercent": 74.4,
+    "buyCount": 2,
+    "holdCount": 0,
+    "sellCount": 0,
+    "notableComment": "B. Riley $33 Buy, MarketBeat consensus $34.50. Only 2 analysts covering, but both rate Buy. 74% upside potential"
   },
+
   "risks": [
-    {"severity": "critical", "title": "Extreme ETH Price Dependency, $2,000 Support Risk", "description": "4.73M ETH = 100% correlated. ETH break below $2,000 would cause NAV collapse"},
-    {"severity": "critical", "title": "$4B+ Unrealized Losses", "description": "247WallSt: Over $4B in unrealized losses vs acquisition cost"},
-    {"severity": "high", "title": "Energy-Fueled Inflation Headwind for Crypto", "description": "Motley Fool: Energy inflation concerns may drive near-term risk-off sentiment"},
-    {"severity": "medium", "title": "Minimal Analyst Coverage", "description": "Only 1-2 covering analysts. High liquidity but shallow institutional analysis"}
+    { "severity": "critical", "title": "Extreme ETH price dependency", "description": "Every $100 ETH drop reduces asset value by $466M. Stock effectively moves as leveraged ETH exposure" },
+    { "severity": "high", "title": "87% decline from 52-week high", "description": "52-week high $161 to current $19.78, an 87% decline. Extremely volatile stock" },
+    { "severity": "high", "title": "Continued GAAP losses", "description": "ETH mark-to-market losses create GAAP losses. Disconnect between accounting profitability and actual asset value" },
+    { "severity": "medium", "title": "Crypto regulation risk", "description": "Changes in US crypto regulatory environment could threaten the ETH holding strategy itself" },
+    { "severity": "medium", "title": "Limited analyst coverage", "description": "Only 2 analysts covering. Limited institutional investor attention" }
   ],
+
   "buyReasons": [
-    {"title": "+8.09% Surge + Volume +54%, Buying Interest Confirmed", "rationale": "70.1M volume surge. MAVAN launch + crypto recovery = clear buying interest"},
-    {"title": "NAV 15% Discount + 5.0% Dividend", "rationale": "NAV ~$10.6B vs $9.0B market cap. B. Riley $33 (+67%). Dividend while waiting"},
-    {"title": "Broad Crypto Recovery, Macro Stabilization", "rationale": "ETH +3.14%, BTC +2.32%. War-end signal improving risk appetite"},
-    {"title": "Yahoo Finance 'Best Oversold Stock Under $20'", "rationale": "Major financial media spotlight. MAVAN as key growth driver"}
+    { "title": "Trading below NAV", "rationale": "Market cap $8.98B vs assets $10.5B. ~6% discount to NAV means buying below actual asset value" },
+    { "title": "5.5% dividend yield", "rationale": "Only crypto treasury company paying dividends. Staking-funded, potentially sustainable" },
+    { "title": "MAVAN launch improves economics", "rationale": "Self-hosted staking infrastructure cuts third-party fees. $300M+ annual revenue target would significantly improve cash flow" },
+    { "title": "Leveraged upside on crypto recovery", "rationale": "ETH price recovery amplifies both asset value and market sentiment simultaneously" }
   ],
+
   "technicalPosition": {
-    "week52High": 161.0, "week52Low": 3.2, "currentPositionPercent": 10.5,
-    "sma50": 23.0, "sma50Signal": "below", "sma200": 36.64, "sma200Signal": "below",
-    "rsi": 42, "rsiSignal": "neutral"
+    "week52High": 161.0,
+    "week52Low": 3.20,
+    "currentPositionPercent": 10.5,
+    "sma50": 22.0,
+    "sma50Signal": "below",
+    "sma200": 45.0,
+    "sma200Signal": "below",
+    "rsi": 38.0,
+    "rsiSignal": "neutral"
   },
+
   "overallOpinion": [
-    "Surged +8.09% today on crypto recovery and S&P +2.91% mega rally. ETH +3.14% to $2,087. Volume 70.1M (+54% above 3-mo avg), strongest in crypto sector beating MARA +4.68% and RIOT +4.48%",
-    "NAV 15% discount, 5.0% dividend, B. Riley $33 (+67%), Yahoo Finance 'best oversold stock'. MAVAN staking generating $177M annually. Cash $961M for more ETH purchases",
-    "$19.78, below 50-day ($23) and 200-day ($37). YTD -27% but 172% since IPO. Today's bounce could mark trend reversal. Buy maintained with dollar-cost averaging, contingent on ETH holding $2,000 support"
+    "MAVAN staking platform launched and 71,179 ETH acquired, pushing closer to the 5% supply target (currently 3.86%). B. Riley raised target to $33.",
+    "Market cap $8.98B against real assets of $10.5B means a 6% NAV discount. The only crypto company paying 5.5% dividends.",
+    "Down 87% from the 52-week high of $161. Extremely dependent on ETH price. Potential for outsized gains if ETH recovers, but also significant downside risk."
   ],
+
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "+8.09% surge with +54% volume signals sentiment shift. NAV 15% discount, 5.0% dividend, B. Riley $33 (+67%). Crypto recovery (ETH +3.14%) and macro stabilization align. Buy with dollar-cost averaging, ETH $2,000 support as prerequisite",
-    "horizon": "3-6 months (ETH-dependent)"
+    "stance": "hold",
+    "summary": "NAV discount and 5.5% dividend are attractive, but the stock has fallen 87% from its 52-week high with extreme volatility. Could surge if ETH recovers above $2,500, but losses would also amplify on further declines. Only suitable for investors with strong conviction on ETH upside.",
+    "horizon": "3-6 months (dependent on ETH price trend)"
   },
+
   "sources": [
-    {"name": "Motley Fool - Bitmine +8.09% on Crypto Recovery", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-bitmine-immersion-technologies-jumps-on-crypto-recovery-hopes/", "description": "$19.78 close. Volume 70.1M (+54%)"},
-    {"name": "Yahoo Finance - B. Riley $33, Oversold Stock", "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-lifts-pt-bitmine-153057954.html", "description": "Target raised $30→$33. Best oversold under $20"},
-    {"name": "CoinGabbar - ETH $2,087, BTC $68,108", "url": "https://www.coingabbar.com/en/crypto-currency-news/crypto-market-update-march-31-btc-eth-keeta-price-up-today", "description": "Crypto recovery. ETH volume $18B"},
-    {"name": "PRNewswire - ETH 4,732,082, Assets $10.7B", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-732-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-7-billion-302728176.html", "description": "Cash $961M. 71K ETH purchased"},
-    {"name": "Fortune - ETH $2,049.85", "url": "https://fortune.com/article/price-of-ethereum-03-31-2026/", "description": "YoY $228 increase"},
-    {"name": "Blockonomi - Assets $10.7B Expansion", "url": "https://blockonomi.com/bitmine-bmnr-expands-ethereum-position-to-10-7b-stock-slides-despite-growth/", "description": "US 100th by volume"},
-    {"name": "TipRanks - Record ETH Buy, Target $36", "url": "https://www.tipranks.com/news/bitmine-stock-jumps-as-investors-applaud-record-breaking-ethereum-buy", "description": "Average target $36, +82% upside"},
-    {"name": "MarketBeat - BMNR Forecast", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/", "description": "B. Riley Buy maintained"}
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-bitmine-immersion-technologies-jumps-on-crypto-recovery-hopes/", "description": "BMNR March 31 rally analysis" },
+    { "name": "The Block", "url": "https://www.theblock.co/treasuries/bmnr", "description": "BMNR ETH holdings: 4,660,903 ETH" },
+    { "name": "Madres Travels", "url": "https://wp.madrestravels.com/2026/03/31/breaking-tom-lees-bitmine-acquires-71179-eth-bmnr-stock-price-recovers/", "description": "71,179 ETH additional purchase report" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/BMNR/forecast/", "description": "BMNR analyst target $34.50" },
+    { "name": "ts2.tech", "url": "https://ts2.tech/en/bmnr-stock-slides-after-bitmine-immersion-technologies-launches-mavan-despite-b-riley-target-hike/", "description": "B. Riley target raise to $33" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "BMNR price, market cap, 52-week range" },
+    { "name": "CNN", "url": "https://www.cnn.com/markets/stocks/BMNR", "description": "BMNR technical analysis" },
+    { "name": "CoinGecko", "url": "https://www.coingecko.com/en/coins/ethereum/usd", "description": "ETH current price $2,103" },
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/greatspeculations/2026/02/02/whats-happening-with-bmnr-stock/", "description": "BMNR business model analysis" }
   ],
+
   "snsContent": {
     "x": {
-      "hook": "BMNR $19.78 +8.09% | Crypto recovery + S&P rally. Volume surges +54%",
-      "text": "$BMNR $19.78(+8.09%)\n\nETH +3.14%, BTC +2.32%.\nS&P +2.91% mega rally.\nBMNR leads crypto sector.\nVolume 70.1M (+54%).\n\n1/4",
+      "hook": "78% toward the 5% ETH goal, trading below asset value",
+      "text": "$BMNR $19.78(+8.09%) Holds 4,660,903 ETH (3.86% of supply). Market cap $8.98B but real assets $10.5B. 6% NAV discount plus 5.5% dividend.\n\n1/4",
       "thread": [
-        "Yahoo Finance: 'Best oversold stock under $20'.\nB. Riley $33(+67%). NAV 15% discount.\nDividend 5.0%. 172% since IPO.\n\n2/4",
-        "MAVAN staking: $177M revenue.\nTom Lee 5% target: 78% done.\nBuy, dollar-cost average.\n\n3/4"
+        "MAVAN staking launched + 71,179 ETH acquired. Tom Lee's 5% target is 78% complete. B. Riley raised target to $33 (+67%).\n\n2/4",
+        "The risk is clear: 87% down from 52-week high of $161. Moves with ETH. Every $100 ETH move = $466M asset change.\n\n3/4",
+        "If you're bullish on ETH, this is leveraged exposure with dividends. Target $34.50 (+74%). But brace for volatility.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR: +8.09%, Leading Crypto Sector on Recovery Hopes",
-      "text": "$BMNR $19.78(+8.09%). ETH +3.14%, S&P +2.91%. Volume +54%. Yahoo Finance 'best oversold stock'.\n\nNAV 15% discount. 5.0% dividend. B. Riley $33(+67%).\n\nBuy."
+      "hook": "78% toward the 5% ETH goal, trading below asset value",
+      "text": "$BMNR $19.78(+8.09%)\n\nHolds 4,660,903 ETH, 3.86% of total supply. Market cap $8.98B vs real assets $10.5B — that's a 6% NAV discount. Only crypto company paying 5.5% dividends.\n\nMAVAN staking launched and 71,179 ETH acquired. B. Riley target $33. But it's down 87% from 52-week high of $161. Every $100 ETH move changes assets by $466M.\n\nOnly for ETH bulls. Target $34.50 (+74%)."
     },
     "telegram": {
-      "hook": "BMNR Daily Analysis (4/1)",
-      "text": "BMNR $19.78 (+8.09%) | MCap $9.0B | Div 5.0%\nETH $2,087 (+3.14%) | Verdict: Buy\n\nToday\n- Crypto recovery + S&P +2.91% rally\n- Led crypto sector (MARA +4.7%, RIOT +4.5%)\n- Volume 70.1M (+54%)\n- Yahoo Finance 'best oversold stock'\n\nBullish\n- NAV 15% discount ($9B vs ~$10.6B)\n- B. Riley $33 (+67%)\n- MAVAN staking $177M\n\nRisk: ETH $2,000 support dependency\nBuy: DCA on crypto recovery"
+      "hook": "6% NAV discount, 5.5% dividend crypto company",
+      "text": "Bitmine Daily Analysis (Apr 1)\n\nPrice: $19.78 (+8.09%)\n\nKey Issues\n- 4,660,903 ETH held (3.86% of supply)\n- Market cap $8.98B vs assets $10.5B (6% NAV discount)\n- MAVAN staking launched, 71,179 ETH acquired\n- B. Riley target $33 (+67%)\n- 5.5% dividend yield\n\nRisks\n- 87% off 52-week high of $161\n- Extreme ETH price dependency\n\nTarget: $34.50 (+74%)"
     },
     "tones": {
       "x": {
-        "fact": {"hook": "BMNR +8.09% | Crypto recovery, volume +54%", "text": "$BMNR $19.78. ETH +3.14%. Volume surge. Buy.", "thread": []},
-        "witty": {"hook": "Yesterday -5.55%, today +8.09%. BMNR never boring", "text": "$BMNR $19.78(+8.09%). The rollercoaster goes up today.\n\nYahoo Finance: 'best oversold stock'. Can't argue with +54% volume.\n\nBuy.", "thread": []},
-        "empathy": {"hook": "BMNR holders, today's the day. +8.09% with volume to back it", "text": "$BMNR $19.78(+8.09%). After yesterday's -5.55%, this feels good.\n\n5% dividend while you wait. B. Riley $33.\n\nBuy.", "thread": []}
+        "fact": {
+          "hook": "78% toward the 5% ETH goal, trading below asset value",
+          "text": "$BMNR $19.78(+8.09%) Holds 4,660,903 ETH (3.86% of supply). Market cap $8.98B but real assets $10.5B. 6% NAV discount plus 5.5% dividend.\n\n1/4",
+          "thread": [
+            "MAVAN staking launched + 71,179 ETH acquired. Tom Lee's 5% target is 78% complete. B. Riley raised target to $33 (+67%).\n\n2/4",
+            "The risk is clear: 87% down from 52-week high of $161. Moves with ETH. Every $100 ETH move = $466M asset change.\n\n3/4",
+            "If you're bullish on ETH, this is leveraged exposure with dividends. Target $34.50 (+74%). But brace for volatility.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "A $10.5B vault selling for $9B. Math isn't mathing.",
+          "text": "$BMNR $19.78(+8.09%) $9.56B in ETH + $961M cash = $10.5B. Market cap: $8.98B. Plus 5.5% dividend. Someone check the calculator.\n\n1/4",
+          "thread": [
+            "Tom Lee is hoarding ETH toward 5% of supply. At 78% of goal. Obsession or strategy? Either way, it's working.\n\n2/4",
+            "87% off the high of $161. This is a rollercoaster. If you like that sort of thing, at least they pay you 5.5% to ride.\n\n3/4",
+            "Target $34.50 (+74%). Leveraged ETH play with dividends. Math says buy. Stomach says check twice.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "Down 87%. But the numbers still make sense.",
+          "text": "$BMNR $19.78(+8.09%) From $161 to $19.78. If you've held, the pain has been real. But real assets are $10.5B against $8.98B market cap. It's cheaper than what it owns.\n\n1/4",
+          "thread": [
+            "MAVAN launched, ETH keeps being bought. B. Riley says $33. There's still a thesis here.\n\n2/4",
+            "5.5% dividend while you wait. Only crypto company offering that.\n\n3/4",
+            "ETH recovery is the key. If it comes, the leverage works both ways — for you this time. Only invest what you can afford to lose.\n\n4/4"
+          ]
+        }
       },
       "threads": {
-        "fact": {"hook": "BMNR: +8.09%, crypto sector leader", "text": "$BMNR $19.78. ETH +3.14%. NAV discount 15%. Buy."},
-        "witty": {"hook": "BMNR rollercoaster goes up this time. +8.09%", "text": "$BMNR $19.78(+8.09%). Yahoo says it's oversold. Volume says buyers agree.\n\nBuy."},
-        "empathy": {"hook": "BMNR holders, the rebound is here. +8.09%", "text": "$BMNR $19.78(+8.09%). Crypto recovering. Volume surging.\n\nBuy. Patience pays dividends (literally 5%)."}
+        "fact": {
+          "hook": "78% toward the 5% ETH goal, trading below asset value",
+          "text": "$BMNR $19.78(+8.09%)\n\nHolds 4,660,903 ETH, 3.86% of total supply. Market cap $8.98B vs real assets $10.5B — that's a 6% NAV discount. Only crypto company paying 5.5% dividends.\n\nMAVAN staking launched and 71,179 ETH acquired. B. Riley target $33. But it's down 87% from 52-week high of $161. Every $100 ETH move changes assets by $466M.\n\nOnly for ETH bulls. Target $34.50 (+74%)."
+        },
+        "witty": {
+          "hook": "A $10.5B vault selling for $9B. Math isn't mathing.",
+          "text": "$BMNR $19.78(+8.09%)\n\n$9.56B in ETH + $961M cash = $10.5B in the vault. Market says it's worth $8.98B. Plus they pay 5.5% dividend. Someone check the calculator.\n\nTom Lee is hoarding ETH toward 5% of supply, 78% there. 87% off the high is a wild ride. Target $34.50 (+74%). Leveraged ETH with dividends. Math says buy, stomach says check twice."
+        },
+        "empathy": {
+          "hook": "Down 87%. But the numbers still make sense.",
+          "text": "$BMNR $19.78(+8.09%)\n\nFrom $161 to $19.78. The pain has been real. But the company owns $10.5B in assets against a $8.98B market cap. It's literally cheaper than what it owns.\n\nMAVAN launched, ETH keeps being bought, 5.5% dividend while you wait. B. Riley says $33. ETH recovery is the key. Only invest what you can afford."
+        }
       }
     }
   }
