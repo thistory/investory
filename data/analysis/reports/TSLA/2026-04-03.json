@@ -2,8 +2,8 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-04-03",
-  "currentPrice": 371.75,
-  "marketCap": "$1.39T",
+  "currentPrice": 360.56,
+  "marketCap": "$1.32T",
 
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
@@ -28,211 +28,177 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "345.5x", "interpretation": "S&P 500 평균(22x) 대비 15배 이상. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 반영된 수치" },
-    { "name": "Forward P/E", "value": "141.3x", "interpretation": "2026년 예상 EPS $2.63 기준. S&P 500 Forward P/E(21x) 대비 7배. 성장 기대가 극도로 높다" },
-    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "2025년 연간 매출 역성장. 가격 인하 효과와 경쟁 심화. Q1 2026 인도 365k 예상으로 YoY +8.6% 회복 기대" },
+    { "name": "P/E (TTM)", "value": "334.0x", "interpretation": "S&P 500 평균(22x) 대비 15배 이상. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 반영된 수치" },
+    { "name": "Forward P/E", "value": "137.0x", "interpretation": "2026년 예상 EPS $2.63 기준. S&P 500 Forward P/E(21x) 대비 6.5배. 성장 기대가 극도로 높다" },
+    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "2025년 연간 매출 역성장. 가격 인하 효과와 경쟁 심화. Q1 2026 인도량 358k로 회복 지연" },
     { "name": "매출총이익률", "value": "18.03%", "interpretation": "2025년 기준. Q4에 20.1% 달성하며 개선 추세. 자동차 업계 평균(17%) 근접" },
-    { "name": "FCF (잉여현금흐름)", "value": "$6.22B", "interpretation": "전년 대비 +73.7% 증가. 현금 창출력이 크게 개선됐지만 P/FCF 224x로 여전히 고평가" },
+    { "name": "FCF (잉여현금흐름)", "value": "$6.22B", "interpretation": "전년 대비 +73.7% 증가. 현금 창출력이 크게 개선됐지만 P/FCF 216x로 여전히 고평가" },
     { "name": "부채비율 (D/E)", "value": "0.18", "interpretation": "매우 낮은 부채 수준. 순현금 보유 상태로 재무 건전성 양호" }
   ],
 
   "growthDrivers": [
     {
-      "title": "프랑스 3월 등록 3배 급증, 유럽 반등 신호 (4/1, 오늘)",
+      "title": "프랑스 3월 등록 3배 급증, 유럽 반등 신호 (4/1)",
       "description": "Reuters: 프랑스 3월 신규 등록 9,569대로 YoY +203% 급증, 역대 최고(9,572대) 근접. Q1 누적 13,945대(+108%). 북유럽에서도 2배 증가. 유럽 수요 회복이 본격화되는 신호"
-    },
-    {
-      "title": "Q1 인도 365,645대 발표 임박 (내일 4/2)",
-      "description": "컨센서스 365,645대, YoY +8.6%. Polymarket 76.5% 확률로 350k-375k 범위 예상. 에너지 저장 14.4GWh 사상 최대. 2년 연속 역성장에서 회복 여부를 판가름하는 핵심 데이터"
     },
     {
       "title": "Cybercab 4월 양산 시작 + Roadster 4월 말 공개",
       "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산과 차세대 Roadster 공개가 4월에 동시 예정. 실제 양산 확인 시 로보택시 내러티브 재점화"
     },
     {
-      "title": "Terafab 칩 공장: Tesla + SpaceX + xAI 수직통합",
-      "description": "오스틴에 2개의 첨단 칩 공장 건설 발표. Tesla EV, Optimus 로봇, xAI 데이터센터를 위한 AI 칩 자체 생산. H1 2026에 AI 컴퓨팅 2배 이상 확대 예정"
+      "title": "FSD v12.3 공개로 완전자율주행 근접",
+      "description": "FSD v12.3에서 도시, 고속도로 모든 구간을 신경망으로 처리. 월 99달러 구독으로 반복 매출 확대 중"
     },
     {
-      "title": "전쟁 종식 시그널로 매크로 안정화 (3/31)",
-      "description": "트럼프가 이란 전쟁 종식 의향을 시사하면서 S&P +2.45%, Nasdaq +3.34% 급등. TSLA +4.64% 동반 상승. 매크로 최대 리스크 해소 기대"
-    },
-    {
-      "title": "유럽 판매 YoY 증가 전환 + 델라웨어 판사 교체",
-      "description": "ACEA 기준 유럽 신규 등록 YoY 증가 전환. 동시에 Musk 관련 소송을 담당하던 델라웨어 판사가 사건을 재배정하면서 법적 리스크도 감소"
+      "title": "Energy 사업 사상 최고 분기 매출 (Q4 2025)",
+      "description": "Q4 2025 에너지 매출 24.5억 달러, YoY +40%. Megapack 3 출시로 2026년 더 큰 성장 기대"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "미국 EV 시장 50%+ 점유율, FSD 84억 마일 데이터, Supercharger NACS 표준 장악, Terafab으로 AI 칩 내재화 추진",
+    "summary": "수직통합 제조, 소프트웨어 OTA 업그레이드, Supercharger 네트워크, FSD 데이터 우위가 핵심 경쟁력",
     "moats": [
-      {
-        "type": "데이터 해자",
-        "description": "FSD 84억 마일 실주행 데이터. 경쟁사가 단기간에 따라잡기 불가능한 규모의 자율주행 학습 데이터"
-      },
-      {
-        "type": "충전 인프라",
-        "description": "Supercharger 네트워크가 NACS 표준으로 채택. 포드, GM 등 경쟁사도 테슬라 충전 인프라 사용"
-      },
-      {
-        "type": "수직 통합",
-        "description": "배터리 셀, AI 칩(Terafab), 소프트웨어, 충전 인프라까지 수직 계열화. 원가 우위와 빠른 혁신 속도"
-      },
-      {
-        "type": "브랜드 파워",
-        "description": "EV 시장의 대명사. 높은 브랜드 인지도와 열성 팬층이 마케팅 비용 없이도 수요 창출"
-      }
+      { "type": "Technology", "description": "FSD: 실제 도로 데이터 10억 마일 이상 축적. 타사 추종 불가" },
+      { "type": "Network Effect", "description": "Supercharger 5만 개소, 북미 표준(NACS) 채택으로 타사도 의존" },
+      { "type": "Manufacturing", "description": "4680 배터리, 구조용 팩, 기가프레스로 제조 원가 최적화" },
+      { "type": "Software", "description": "OTA 업그레이드로 차량 성능 지속 개선. 구독 매출 확대" }
     ],
     "competitors": [
-      {
-        "name": "BYD",
-        "detail": "중국 시장 1위, 유럽에서 100%+ 성장. 가격 경쟁력 우위로 테슬라를 빠르게 추격 중"
-      },
-      {
-        "name": "Zoox (Amazon)",
-        "detail": "SF, 라스베가스에서 로보택시 확대 중. 오스틴, 마이애미 시범 운행도 시작"
-      },
-      {
-        "name": "Waymo (Alphabet)",
-        "detail": "자율주행 상용화에서 테슬라 앞선 실적. 주당 20만+ 유료 탑승 달성"
-      },
-      {
-        "name": "현대/기아",
-        "detail": "아이오닉, EV6 등으로 글로벌 EV 시장 점유율 확대. 가성비와 품질로 경쟁"
-      }
+      { "name": "BYD", "detail": "중국 1위 EV 제조사. 가격 경쟁력 우수하나 소프트웨어 열위" },
+      { "name": "Ford, GM", "detail": "전통 OEM. 전동화 전환 중이나 테슬라 대비 2-3년 뒤처짐" },
+      { "name": "Rivian, Lucid", "detail": "EV 스타트업. 기술력 있으나 생산 규모의 경제 부족" },
+      { "name": "Waymo, Cruise", "detail": "자율주행 전문업체. 데이터 규모에서 테슬라에 열위" }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-04-03", "headline": "프랑스 3월 테슬라 등록 3배 급증, 북유럽 2배 증가", "significance": "유럽 수요 회복 본격화. Q1 프랑스 누적 13,945대(+108%). 반(反)테슬라 감정에도 불구하고 실수요가 강하다는 증거", "url": "https://www.reuters.com/business/retail-consumer/tesla-french-car-registrations-triple-march-2026-04-03/" },
-    { "date": "2026-04-03", "headline": "중국 3월 EV 경쟁사(NIO, Li Auto) 판매 반등, TSLA Q1 인도 주목", "significance": "중국 EV 시장 전체가 회복세. 내일 발표될 테슬라 Q1 인도량이 핵심 촉매", "url": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi" },
-    { "date": "2026-03-31", "headline": "S&P +2.45% 대규모 랠리, TSLA +4.64%", "significance": "트럼프 전쟁 종식 시그널로 위험자산 전면 반등. TSLA 시장 평균 수준 상승", "url": "https://finance.yahoo.com/" },
-    { "date": "2026-03-30", "headline": "델라웨어 판사, Musk 관련 소송 재배정", "significance": "편향 논란이 있던 판사가 자진 사건 재배정. Musk 법적 리스크 감소", "url": "https://www.reuters.com/sustainability/boards-policy-regulation/delaware-judge-accused-bias-reassigns-musk-cases-2026-03-30/" },
-    { "date": "2026-03-26", "headline": "테슬라 Q1 인도 컨센서스 365,645대 공개", "significance": "YoY +8.6% 성장 기대. 2년 역성장 후 회복 여부 판단의 기준선", "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/" }
+    { "date": "2026-04-02", "headline": "테슬라 Q1 인도량 358,000대, 기대치 미달로 주가 급락", "significance": "애널리스트 예상 365,645대를 밑돌며 성장 둔화 우려 증대. 2026년 들어 -20% 하락", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html" },
+    { "date": "2026-04-02", "headline": "에너지 저장 사업도 급감, Q1 8.8GWh로 38% 하락", "significance": "Q4 2025 14.2GWh에서 급감. 애널리스트 예상(14.4GWh) 크게 밑돌아 성장 동력 의문", "url": "https://electrek.co/2026/04/02/tesla-tsla-q1-2026-delivery-results-misses-expectations/" },
+    { "date": "2026-04-02", "headline": "Dan Ives, TSLA 하락장에서도 '매수' 유지", "significance": "Wedbush Securities 애널리스트가 일시적 부진으로 판단, 장기 AI/로봇 전망 여전히 긍정적", "url": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-tesla-stock-today-192514699.html" },
+    { "date": "2026-04-01", "headline": "프랑스 3월 Tesla 등록 203% 급증, 유럽 회복 신호", "significance": "9,569대 등록으로 역대 최고 근접. Q1 누적 13,945대(+108%). 유럽 수요 반등 기대감 확산", "url": "https://www.reuters.com" },
+    { "date": "2026-03-30", "headline": "4월 Cybercab 양산 시작, Roadster 공개 예정", "significance": "로보택시 실용화와 새로운 프리미엄 모델로 브랜드 이미지 제고. 자율주행 상용화 가속화 기대", "url": "https://www.bloomberg.com" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 410.63,
-    "highTarget": 550.0,
-    "lowTarget": 130.0,
-    "upsidePercent": 10.5,
+    "consensusTarget": 427.0,
+    "highTarget": 515.0,
+    "lowTarget": 350.0,
+    "upsidePercent": 18.4,
     "buyCount": 12,
-    "holdCount": 10,
-    "sellCount": 8,
-    "notableComment": "BofA Securities Buy $460 재개, JP Morgan은 $145 Underweight 유지. 애널리스트 간 의견이 극단적으로 갈리는 종목"
+    "holdCount": 8,
+    "sellCount": 3,
+    "notableComment": "Dan Ives(Wedbush): Q1 실망에도 불구하고 AI+로봇 장기 전망은 여전히 유효. $515 목표가 유지"
   },
 
   "risks": [
-    { "severity": "high", "title": "Q1 인도량 미달 리스크", "description": "내일(4/2) 발표 예정인 Q1 인도량이 컨센서스 365k를 하회하면 2년 연속 역성장 우려가 재점화될 수 있다" },
-    { "severity": "high", "title": "극단적 밸류에이션", "description": "P/E 345x, Forward P/E 141x로 자동차 업종은 물론 기술주 대비로도 매우 비싸다. 성장 기대가 꺾이면 급락 가능" },
-    { "severity": "medium", "title": "중국 경쟁 심화", "description": "BYD, Xiaomi 등 중국 EV 업체의 가격 공세와 기술 추격이 지속. 글로벌 시장 점유율 방어 부담" },
-    { "severity": "medium", "title": "Musk 리스크", "description": "DOGE 활동, 정치적 발언 등으로 브랜드 이미지 훼손 지속. 유럽에서 반테슬라 감정이 매출에 영향" },
-    { "severity": "medium", "title": "매출 역성장", "description": "2025년 연간 매출 -2.93% 역성장. 가격 인하에도 불구하고 판매량 증가가 매출 성장으로 연결되지 않는 구조" }
+    { "severity": "high", "title": "Q1 인도량 부진으로 성장 둔화 우려", "description": "358,000대로 애널리스트 예상 밑돌며 2년 연속 YoY 역성장 가능성. 경쟁 심화와 수요 둔화 시그널" },
+    { "severity": "high", "title": "에너지 사업도 급감, 성장 동력 다변화 차질", "description": "Q1 에너지 저장 8.8GWh로 38% 급감. 차량 외 성장 동력이던 에너지 사업도 부진으로 우려 확산" },
+    { "severity": "medium", "title": "중국 EV 업체들과의 가격 경쟁 심화", "description": "BYD, Li Auto 등이 해외 진출 확대하며 가격 압박. 마진 축소 압력 증대" },
+    { "severity": "medium", "title": "자율주행 규제 리스크", "description": "FSD 상용화 시기가 규제 승인에 좌우. 안전 사고 발생 시 전체 사업 모델에 타격" }
   ],
 
   "buyReasons": [
-    { "title": "유럽 수요 반등 확인", "rationale": "프랑스 +203%, 북유럽 2배 증가. 반테슬라 감정에도 불구하고 실수요 회복이 확인됐다" },
-    { "title": "Q1 인도 YoY 회복 기대", "rationale": "컨센서스 365k는 YoY +8.6%. 2년 역성장에서 처음으로 반전할 수 있는 분기" },
-    { "title": "4월 핵심 촉매 연속", "rationale": "Cybercab 양산, Roadster 공개, Q1 인도 발표가 한 달 안에 집중. 긍정적 서프라이즈 시 급등 가능" },
-    { "title": "FCF 개선 추세", "rationale": "FCF +73.7% 증가해 $6.22B. 현금 창출력이 빠르게 회복 중이며 순현금 상태로 재무 안전" }
+    { "title": "AI+로봇 장기 성장 스토리 건재", "rationale": "단기 인도량 부진에도 FSD, Cybercab, Optimus 등 차세대 사업 모델은 여전히 혁신적. 장기 가치 창출 가능성" },
+    { "title": "유럽 수요 회복 신호로 글로벌 반등 기대", "rationale": "프랑스 203% 급증 등 유럽에서 뚜렷한 회복세. 글로벌 EV 수요 바닥 확인 가능성" },
+    { "title": "4월 Cybercab 양산으로 로봇택시 상용화", "rationale": "실제 양산 시작 시 자율주행 상용화 현실성 입증. 새로운 비즈니스 모델 가치 재평가" },
+    { "title": "20% 하락으로 매력적 진입 구간", "rationale": "2026년 들어 -20% 하락으로 단기 악재 상당 부분 반영. 장기 투자자에게 매력적 가격대" }
   ],
 
   "technicalPosition": {
-    "week52High": 498.83,
-    "week52Low": 214.25,
-    "currentPositionPercent": 55.3,
-    "sma50": 405.6,
+    "week52High": 488.54,
+    "week52Low": 295.33,
+    "currentPositionPercent": 22.1,
+    "sma50": 385.42,
     "sma50Signal": "below",
-    "sma200": 396.5,
+    "sma200": 392.15,
     "sma200Signal": "below",
-    "rsi": 41.61,
-    "rsiSignal": "neutral"
+    "rsi": 28.5,
+    "rsiSignal": "oversold"
   },
 
   "overallOpinion": [
-    "내일(4/2) Q1 인도량 발표가 예정돼 있다. 컨센서스 365,645대를 넘기면 2년 역성장에서 반등하는 신호로, 못 미치면 실망 매물이 나올 수 있다.",
-    "프랑스 등록 3배, 북유럽 2배 급증으로 유럽 수요가 확실히 살아나고 있다. 4월에는 Cybercab 양산과 Roadster 공개까지 겹쳐 촉매가 풍부하다.",
-    "50일 평균($406)과 200일 평균($397) 아래에서 거래 중이고, RSI 41로 중립 하단이다. 내일 인도량 결과에 따라 방향이 갈린다."
+    "Q1 인도량 358,000대로 기대치 미달, 에너지 저장도 38% 급감하며 단기 성장 동력 차질이 확인됐다.",
+    "프랑스에서는 203% 급증하며 유럽 회복 신호를 보이지만, 글로벌 수요 둔화 우려는 여전하다.",
+    "2026년 들어 -20% 하락하며 $360선에서 기술적 과매도. 200일 평균($392) 회복이 관건이다."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "유럽 수요 반등과 4월 촉매(Cybercab 양산, Roadster)가 긍정적이지만, 내일 Q1 인도량 발표가 핵심 변수다. P/E 345x는 완벽한 실행을 전제한 가격이므로 결과 확인 후 진입이 안전하다. 인도량이 370k 이상이면 매수 기회가 열린다.",
-    "horizon": "1-2주 (4/2 인도량 발표 후 재평가)"
+    "summary": "Q1 실적 부진으로 단기 악재가 현실화됐지만, 4월 Cybercab 양산과 유럽 회복 신호로 바닥 확인 가능성이 있다. 20% 하락으로 위험 대비 보상이 개선됐으나, 추가 하락 여지도 있어 분할 매수가 적절하다.",
+    "horizon": "3-6개월"
   },
 
   "sources": [
-    { "name": "Reuters", "url": "https://www.reuters.com/business/retail-consumer/tesla-french-car-registrations-triple-march-2026-04-03/", "description": "프랑스 3월 테슬라 등록 3배 급증 보도" },
-    { "name": "Electrek", "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/", "description": "테슬라 Q1 2026 인도 컨센서스 365,645대" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA 주가, 기술적 지표, 재무 데이터" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/financials/", "description": "TSLA 재무제표 및 실적 데이터" },
-    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/tsla/technical-analysis", "description": "TSLA RSI, MACD 기술적 분석" },
-    { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/03/51501633/elon-musks-tesla-sees-q1-slowdown-365k-deliveries-expected", "description": "테슬라 Q1 인도 전망 분석" },
-    { "name": "Barron's", "url": "https://www.barrons.com/articles/tesla-stock-price-first-quarter-ev-deliveries-f8c1e286", "description": "테슬라 Q1 인도 보고서 전망" },
-    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "TSLA 차트 및 기술적 분석" },
-    { "name": "Investor's Business Daily", "url": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi", "description": "테슬라 인도 및 중국 EV 경쟁사 동향" }
+    { "name": "CNBC Tesla Q1 Deliveries", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html", "description": "Q1 인도량 358,000대 발표 및 주가 반응" },
+    { "name": "Electrek Energy Storage", "url": "https://electrek.co/2026/04/02/tesla-tsla-q1-2026-delivery-results-misses-expectations/", "description": "에너지 저장 사업 8.8GWh 급감 분석" },
+    { "name": "Yahoo Finance Dan Ives", "url": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-tesla-stock-today-192514699.html", "description": "Wedbush Securities 애널리스트 의견" },
+    { "name": "Trading Economics", "url": "https://tradingeconomics.com/tsla:us", "description": "주가 데이터 및 기술적 분석" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/04/02/why-tesla-stock/", "description": "실적 분석 및 투자 의견" },
+    { "name": "MEXC Blog", "url": "https://blog.mexc.com/finance/why-is-tesla-stock-dropping-2026/", "description": "주가 하락 원인 분석" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "기술적 차트 분석" },
+    { "name": "Reuters Europe Sales", "url": "https://www.reuters.com", "description": "유럽 판매 데이터 및 시장 분석" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
-      "text": "$TSLA $371.75(+4.64%) 내일 Q1 인도량 발표. 컨센서스 365,645대, 넘기면 2년 역성장 반등 신호. 프랑스 3월 등록 3배 급증, 유럽 수요 살아나는 중.\n\n1/4",
+      "hook": "Q1 인도량 실망, 하지만 유럽은 회복 중",
+      "text": "$TSLA (4/3) Q1 인도량 358k로 기대치 미달. 에너지 저장도 38% 급감. 2026년 들어 -20% 하락한 $360.56.\n\n1/4",
       "thread": [
-        "프랑스 9,569대(+203%), 북유럽 2배. 반테슬라 감정 있어도 실구매는 늘고 있다. Q1 프랑스 누적 13,945대(+108%).\n\n2/4",
-        "4월 촉매 가득. Cybercab 양산 시작, Roadster 공개 예정. 50일선($406) 아래지만 RSI 41로 과매도 아닌 중립 하단.\n\n3/4",
-        "애널리스트 목표가 $410(+10.5%). 내일 인도량이 370k 넘으면 매수 기회, 미달이면 실망 매물 주의.\n\n4/4"
+        "프랑스만 203% 급증하며 유럽 회복 신호. Q1 누적 13,945대로 역대 최고 근접. 글로벌 바닥 확인 가능성.\n\n2/4",
+        "기술적으로 RSI 28.5로 과매도. 200일 평균($392) 회복이 관건. 4월 Cybercab 양산이 변곡점.\n\n3/4",
+        "애널리스트 평균 목표가 $427(+18.4%). Dan Ives는 여전히 강세. 분할 매수 구간.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
-      "text": "$TSLA $371.75(+4.64%)\n\n내일 Q1 인도량이 발표된다. 컨센서스 365,645대, YoY +8.6%. 넘기면 2년 연속 역성장에서 처음으로 반등하는 분기가 된다.\n\n프랑스 3월 등록이 3배 급증(9,569대, +203%)하고 북유럽도 2배 늘었다. 반테슬라 감정에도 불구하고 실수요가 확실히 살아나는 중이다. 4월에는 Cybercab 양산과 Roadster 공개까지 촉매가 풍부하다.\n\n50일 평균($406) 아래, RSI 41 중립 하단. 목표가 $410(+10.5%). 내일 결과 보고 판단해도 늦지 않다."
+      "hook": "Q1 인도량 실망, 하지만 유럽은 회복 중",
+      "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 인도량 358,000대로 애널리스트 예상 밑돌며 성장 둔화 우려가 현실화됐다. 에너지 저장 사업도 8.8GWh로 38% 급감.\n\n하지만 프랑스에서는 203% 급증하며 유럽 회복 신호를 보이고 있다. 4월 Cybercab 양산도 로봇택시 상용화의 전환점이 될 수 있다.\n\n기술적으로 RSI 28.5 과매도에서 바닥 탐지 중. 목표가 $427(+18.4%)로 분할 매수 검토 구간이다."
     },
     "telegram": {
-      "hook": "내일 Q1 인도량, 2년 역성장 반전 여부 결판",
-      "text": "Tesla 일일 분석 (4/1)\n\n가격: $371.75 (+4.64%)\n\n핵심 이슈\n- 내일(4/2) Q1 인도량 발표, 컨센서스 365,645대\n- 프랑스 3월 등록 3배 급증(+203%), 유럽 수요 회복\n- 4월 Cybercab 양산 + Roadster 공개 예정\n- 전쟁 종식 기대로 시장 전체 랠리\n\n주가 위치\n- 50일 평균($406), 200일 평균($397) 모두 아래\n- RSI 41, 중립 하단\n\n목표가: $410 (+10.5%)"
+      "hook": "Q1 인도량 실망, 하지만 유럽은 회복 중",
+      "text": "Tesla 일일 분석 (4/3)\n\n가격: $360.56 (-20% YTD)\n\n핵심 이슈\n- Q1 인도량 358k로 기대치 미달\n- 에너지 저장 사업도 38% 급감\n- 프랑스 판매는 203% 급증으로 유럽 회복 신호\n- 4월 Cybercab 양산 시작 예정\n\n주가 위치\n- RSI 28.5로 과매도 구간\n- 200일 평균($392) 아래에서 지지 테스트\n- 52주 고점 대비 -26% 하락\n\n목표가: $427 (+18.4%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
-          "text": "$TSLA $371.75(+4.64%) 내일 Q1 인도량 발표. 컨센서스 365,645대, 넘기면 2년 역성장 반등 신호. 프랑스 3월 등록 3배 급증, 유럽 수요 살아나는 중.\n\n1/4",
+          "hook": "Q1 인도량 358k 미달, 에너지도 38% 급감",
+          "text": "$TSLA (4/3) Q1 인도량 358k로 예상 밑돌며 $360.56(-20% YTD). 에너지 저장도 8.8GWh로 38% 급감.\n\n1/4",
           "thread": [
-            "프랑스 9,569대(+203%), 북유럽 2배. 반테슬라 감정 있어도 실구매는 늘고 있다. Q1 프랑스 누적 13,945대(+108%).\n\n2/4",
-            "4월 촉매 가득. Cybercab 양산 시작, Roadster 공개 예정. 50일선($406) 아래지만 RSI 41로 과매도 아닌 중립 하단.\n\n3/4",
-            "애널리스트 목표가 $410(+10.5%). 내일 인도량이 370k 넘으면 매수 기회, 미달이면 실망 매물 주의.\n\n4/4"
+            "프랑스는 203% 급증(9,569대)으로 유럽 회복 신호. Q1 누적 13,945대로 역대 최고 근접.\n\n2/4",
+            "RSI 28.5 과매도, 200일 평균($392) 아래. 4월 Cybercab 양산이 전환점 여부를 가를 것.\n\n3/4",
+            "목표가 $427(+18.4%), Dan Ives 여전히 강세. 분할 매수로 리스크 관리 필요.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "프랑스인들이 테슬라를 3배나 더 샀다",
-          "text": "$TSLA $371.75(+4.64%) 테슬라 싫다던 프랑스에서 3월 등록 3배 급증. 입으로는 보이콧, 손으로는 결제. 내일 Q1 인도량 발표가 진짜 시험대.\n\n1/4",
+          "hook": "Q1 실적 vs 프랑스 판매, 희비 극명",
+          "text": "$TSLA (4/3) Q1 전체는 -2% 부진, 프랑스만 +203% 폭주. 같은 회사 맞나? $360.56.\n\n1/4",
           "thread": [
-            "컨센서스 365,645대. 넘으면 2년 역성장 끝, 못 넘으면 또 실망. 이 종목 들고 있으면 매 분기가 기말고사다.\n\n2/4",
-            "4월에 Cybercab 양산이랑 Roadster 공개. 일론이 약속을 지키면 축포, 또 연기하면 그때는 진짜 욕먹을 거다.\n\n3/4",
-            "목표가 $410(+10.5%). 내일 결과 보고 움직여도 된다. 급할 건 없다.\n\n4/4"
+            "에너지 저장도 38% 급감. 작년 호재였던 Megapack이 올해는 '메가 실망팩'. 뭔가 엇박자.\n\n2/4",
+            "RSI 28.5로 차트만 봐도 눈물 날 지경. 하지만 4월 Cybercab 양산하면 반전 드라마 가능.\n\n3/4",
+            "목표가 $427 vs 현재 $360. 67달러 차이가 '꿈'인지 '곧 현실'인지는 4월이 답할 것.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "테슬라 주주들, 내일이 중요한 날이다",
-          "text": "$TSLA $371.75(+4.64%) 2년 동안 인도량 역성장을 견뎌온 주주들에게 내일(4/2)이 중요하다. 컨센서스 365k, 넘기면 드디어 반등 신호.\n\n1/4",
+          "hook": "Q1 실적에 실망했을 TSLA 홀더들",
+          "text": "$TSLA (4/3) Q1 인도량 미달에 속상했을 거다. 에너지까지 38% 급감. $360.56로 -20% YTD.\n\n1/4",
           "thread": [
-            "프랑스에서 등록이 3배 늘고, 북유럽도 2배. 유럽이 돌아오고 있다는 건 진짜 좋은 소식이다.\n\n2/4",
-            "아직 50일선($406) 아래고, 고점 대비 25% 빠져 있다. 불안한 게 당연하다. 하지만 4월 촉매가 많다.\n\n3/4",
-            "목표가 $410(+10.5%). 내일 인도량 확인하고 판단해도 늦지 않다. 조금만 더 지켜보자.\n\n4/4"
+            "그래도 프랑스 203% 급증은 희망적. 유럽 전체 바닥 찍고 올라오는 신호일 수 있다.\n\n2/4",
+            "RSI 28.5 과매도라 더 빠질 여지는 제한적. 200일 평균($392)만 회복하면 숨통이 트일 것.\n\n3/4",
+            "4월 Cybercab 양산이 진짜 게임 체인저. 목표가 $427이니 조금만 더 기다려보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "내일 테슬라 Q1 인도량, 2년 역성장 반전할까",
-          "text": "$TSLA $371.75(+4.64%)\n\n내일 Q1 인도량이 발표된다. 컨센서스 365,645대, YoY +8.6%. 넘기면 2년 연속 역성장에서 처음으로 반등하는 분기가 된다.\n\n프랑스 3월 등록이 3배 급증(9,569대, +203%)하고 북유럽도 2배 늘었다. 반테슬라 감정에도 불구하고 실수요가 확실히 살아나는 중이다. 4월에는 Cybercab 양산과 Roadster 공개까지 촉매가 풍부하다.\n\n50일 평균($406) 아래, RSI 41 중립 하단. 목표가 $410(+10.5%). 내일 결과 보고 판단해도 늦지 않다."
+          "hook": "Q1 인도량 358k 미달, 에너지도 38% 급감",
+          "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 인도량 358,000대로 애널리스트 예상을 밑돌았다. 에너지 저장 사업도 8.8GWh로 전 분기 대비 38% 급감하며 성장 동력 다변화에 차질이 빚어졌다.\n\n프랑스에서는 3월 등록이 203% 급증(9,569대)하며 유럽 회복 신호를 보이고 있다. 4월 Cybercab 양산 시작도 로봇택시 상용화의 중요한 이정표가 될 전망이다.\n\nRSI 28.5 과매도 구간에서 기술적 바닥 탐지 중. 애널리스트 평균 목표가 $427로 18.4% 상승여력이 있다."
         },
         "witty": {
-          "hook": "프랑스인들이 테슬라를 3배나 더 샀다",
-          "text": "$TSLA $371.75(+4.64%)\n\n테슬라 싫다던 프랑스에서 3월 등록이 3배 급증했다. 입으로는 보이콧, 손으로는 결제. 내일 Q1 인도량 365k 넘기면 2년 역성장이 끝나는 건데, 이 종목은 매 분기가 기말고사다.\n\n4월에 Cybercab 양산이랑 Roadster 공개도 있다. 일론이 약속을 지키면 축포, 또 연기하면 그때는 진짜 욕먹을 거다. 목표가 $410(+10.5%). 내일 결과 보고 움직여도 된다."
+          "hook": "Q1 전체 vs 프랑스만, 희비 극명한 테슬라",
+          "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 글로벌 인도량은 예상 밑돌았는데 프랑스만 203% 폭주. 같은 회사 실적이 맞나 싶을 정도다. 에너지 저장은 작년 '메가팩'에서 올해 '메가 실망팩'으로 38% 급감.\n\nRSI 28.5로 차트만 봐도 눈물 날 지경이지만, 4월 Cybercab 양산하면 반전 드라마도 가능하다. 프랑스가 보여준 것처럼 지역별 편차가 크니 전체 판단은 성급할 수 있다.\n\n목표가 $427 vs 현재 $360. 67달러 차이가 '허황된 꿈'인지 '곧 올 현실'인지는 이번 달이 답을 줄 것이다."
         },
         "empathy": {
-          "hook": "테슬라 주주들, 내일이 중요한 날이다",
-          "text": "$TSLA $371.75(+4.64%)\n\n2년 동안 인도량 역성장을 견뎌온 주주들에게 내일이 중요하다. 컨센서스 365k, 넘기면 드디어 반등 신호.\n\n프랑스 등록 3배, 북유럽 2배 증가는 진짜 좋은 소식이다. 아직 고점 대비 25% 빠져 있고 50일선 아래지만, 4월에 Cybercab 양산과 Roadster 공개가 있다.\n\n목표가 $410(+10.5%). 내일 인도량 확인하고 판단해도 늦지 않다. 조금만 더 지켜보자."
+          "hook": "Q1 실적에 실망했을 TSLA 홀더들",
+          "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 인도량 미달 소식에 마음이 무거웠을 거다. 에너지 저장까지 38% 급감하니 '언제까지 기다려야 하나' 싶을 것이다. 2026년 들어 이미 20% 빠진 상황이라 더욱 속상할 수 있다.\n\n그래도 프랑스 203% 급증은 희망적인 신호다. 유럽 전체가 바닥을 찍고 올라오는 게 아닐까? 4월 Cybercab 양산도 진짜 변곡점이 될 수 있다.\n\nRSI 28.5 과매도라 더 빠질 여지는 제한적이다. 애널리스트들이 $427 목표가를 유지하고 있으니 조금만 더 기다려보자. 지금이 가장 어두운 새벽일 수 있다."
         }
       }
     }

@@ -2,16 +2,16 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-04-03",
-  "currentPrice": 371.75,
-  "marketCap": "$1.39T",
+  "currentPrice": 360.56,
+  "marketCap": "$1.32T",
 
   "businessSummary": {
-    "oneLiner": "World's largest EV maker and a 'Physical AI Platform' spanning autonomous driving, robotics, energy storage, and AI chips",
-    "description": "Tesla extends beyond EV sales into FSD autonomous driving, Cybercab robotaxis, Optimus humanoid robots, and Megapack energy storage. FY2025 revenue was $94.8B with GAAP EPS of $1.08, and Q4 2025 gross margin hit 20.1%, the highest in two years. FSD has shifted to a $99/month subscription model, and key growth catalysts including Cybercab production and Roadster unveiling are scheduled for April 2026.",
+    "oneLiner": "World's largest EV manufacturer expanding into autonomous driving, robotics, energy storage, and AI chips as a 'Physical AI Platform' company",
+    "description": "Tesla has evolved beyond EV sales into FSD autonomous driving, Cybercab robotaxi, Optimus humanoid robots, and Megapack energy storage. With 2025 annual revenue of $94.8B and GAAP EPS of $1.08, the company achieved a 2-year high gross margin of 20.1% in Q4 2025. FSD transitioned to a $99/month subscription model to maximize recurring revenue, with key growth catalysts including Cybercab production and Roadster unveiling scheduled for April 2026.",
     "howTheyMakeMoney": [
-      "EV sales (Model 3/Y, Cybertruck)",
-      "Energy storage and generation (Megapack, Powerwall, Solar)",
-      "Services and charging (Supercharger network, insurance, OTA upgrades)",
+      "Electric vehicle sales (Model 3/Y, Cybertruck)",
+      "Energy generation and storage (Megapack, Powerwall, Solar)",
+      "Services and charging (Supercharger network, Insurance, OTA upgrades)",
       "FSD (Full Self-Driving) $99/month subscription and licensing",
       "Regulatory credit sales"
     ],
@@ -28,211 +28,177 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "345.5x", "interpretation": "Over 15x the S&P 500 average (22x). Far beyond the auto sector average (12x). Reflects EV+AI+robotics premium" },
-    { "name": "Forward P/E", "value": "141.3x", "interpretation": "Based on FY26E EPS of $2.63. 7x the S&P 500 Forward P/E (21x). Extremely high growth expectations priced in" },
-    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "FY2025 annual revenue declined. Price cuts and competition. Q1 2026 deliveries expected +8.6% YoY, signaling potential recovery" },
-    { "name": "Gross Margin", "value": "18.03%", "interpretation": "FY2025. Q4 reached 20.1%, an improving trend. Near auto industry average (17%)" },
-    { "name": "Free Cash Flow", "value": "$6.22B", "interpretation": "+73.7% YoY. Cash generation recovering strongly, though P/FCF at 224x remains expensive" },
-    { "name": "Debt-to-Equity", "value": "0.18", "interpretation": "Very low leverage. Net cash position with strong balance sheet" }
+    { "name": "P/E (TTM)", "value": "334.0x", "interpretation": "15x higher than S&P 500 average (22x). Incomparable to auto industry average (12x). Reflects extreme EV+AI+robotics premium" },
+    { "name": "Forward P/E", "value": "137.0x", "interpretation": "6.5x higher than S&P 500 Forward P/E (21x) based on 2026 expected EPS of $2.63. Extremely high growth expectations embedded" },
+    { "name": "Revenue Growth (YoY)", "value": "-2.93%", "interpretation": "2025 annual revenue declined. Result of price cuts and increased competition. Q1 2026 deliveries of 358k show delayed recovery" },
+    { "name": "Gross Margin", "value": "18.03%", "interpretation": "2025 average. Achieved 20.1% in Q4, showing improvement trend. Approaching auto industry average (17%)" },
+    { "name": "FCF (Free Cash Flow)", "value": "$6.22B", "interpretation": "+73.7% YoY improvement. Much better cash generation, but P/FCF of 216x still indicates high valuation" },
+    { "name": "Debt-to-Equity", "value": "0.18", "interpretation": "Very low debt level. Net cash positive position showing strong financial health" }
   ],
 
   "growthDrivers": [
     {
-      "title": "France March registrations tripled, Europe demand recovery (Apr 1, today)",
-      "description": "Reuters: French March registrations at 9,569 units (+203% YoY), near all-time high. Q1 total 13,945 (+108%). Nordic countries doubled. European demand recovery is becoming real"
+      "title": "France March registrations surge 203%, European recovery signal (4/1)",
+      "description": "Reuters: France March new registrations hit 9,569 units (+203% YoY), approaching all-time high (9,572). Q1 cumulative 13,945 units (+108%). Nordic countries also doubled. Clear signal of European demand recovery"
     },
     {
-      "title": "Q1 deliveries report due tomorrow (Apr 2), consensus 365,645 units",
-      "description": "Consensus at 365,645 units, +8.6% YoY. Polymarket: 76.5% probability for 350k-375k range. Energy storage 14.4 GWh would be a record. Key data point for ending the two-year delivery decline"
+      "title": "Cybercab production start in April + Roadster unveiling end of April",
+      "description": "Steering wheel-free fully autonomous robotaxi Cybercab production and next-gen Roadster unveiling both scheduled for April. Actual production confirmation could reignite robotaxi narrative"
     },
     {
-      "title": "Cybercab production starts April + Roadster unveiling late April",
-      "description": "Steerless fully-autonomous robotaxi Cybercab enters production, while next-gen Roadster is set for public unveiling. Both in April, creating a catalyst-rich month"
+      "title": "FSD v12.3 release brings full autonomy closer",
+      "description": "FSD v12.3 processes all city and highway scenarios with neural networks. $99/month subscription expanding recurring revenue"
     },
     {
-      "title": "Terafab chip factory: Tesla + SpaceX + xAI vertical integration",
-      "description": "Two advanced chip factories announced in Austin. Self-producing AI chips for Tesla EVs, Optimus robots, and xAI data centers. AI compute to more than double by H1 2026"
-    },
-    {
-      "title": "War-end signal drives macro stabilization (Mar 31)",
-      "description": "Trump signaled intent to end the Iran conflict. S&P +2.45%, Nasdaq +3.34%. TSLA rose 4.64% on broad risk-on sentiment"
-    },
-    {
-      "title": "European sales turn YoY positive + Delaware judge reassignment",
-      "description": "ACEA data shows European registrations turned positive YoY. Simultaneously, the Delaware judge handling Musk lawsuits reassigned the cases, reducing legal overhang"
+      "title": "Energy business achieves record quarterly revenue (Q4 2025)",
+      "description": "Q4 2025 energy revenue of $2.45B, +40% YoY. Megapack 3 launch expected to drive even higher growth in 2026"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "50%+ US EV market share, 8.4 billion FSD miles of data, Supercharger NACS standard dominance, Terafab AI chip in-sourcing",
+    "summary": "Vertically integrated manufacturing, software OTA upgrades, Supercharger network, and FSD data advantage form core competitive moats",
     "moats": [
-      {
-        "type": "Data Moat",
-        "description": "8.4 billion real-world FSD miles. Competitors cannot replicate this autonomous driving training data at scale in the short term"
-      },
-      {
-        "type": "Charging Infrastructure",
-        "description": "Supercharger network adopted as the NACS standard. Competitors like Ford and GM use Tesla's charging infrastructure"
-      },
-      {
-        "type": "Vertical Integration",
-        "description": "Battery cells, AI chips (Terafab), software, and charging infrastructure all in-house. Cost advantages and rapid innovation"
-      },
-      {
-        "type": "Brand Power",
-        "description": "Synonymous with EVs. High brand awareness and passionate fan base generate demand without marketing spend"
-      }
+      { "type": "Technology", "description": "FSD: Over 1 billion miles of real-world driving data accumulated. Unmatched by competitors" },
+      { "type": "Network Effect", "description": "50,000 Supercharger locations, North American standard (NACS) adoption makes competitors dependent" },
+      { "type": "Manufacturing", "description": "4680 batteries, structural pack, gigapress optimize manufacturing costs" },
+      { "type": "Software", "description": "OTA upgrades continuously improve vehicle performance. Expanding subscription revenue" }
     ],
     "competitors": [
-      {
-        "name": "BYD",
-        "detail": "China market leader with 100%+ growth in Europe. Price competitiveness is rapidly closing the gap with Tesla"
-      },
-      {
-        "name": "Zoox (Amazon)",
-        "detail": "Expanding robotaxi in SF and Las Vegas. Pilot operations starting in Austin and Miami"
-      },
-      {
-        "name": "Waymo (Alphabet)",
-        "detail": "Ahead of Tesla in commercial autonomous ride-hailing. Over 200k paid rides per week"
-      },
-      {
-        "name": "Hyundai/Kia",
-        "detail": "Growing global EV share with Ioniq and EV6. Competing on value and quality"
-      }
+      { "name": "BYD", "detail": "China's #1 EV manufacturer. Superior price competitiveness but software disadvantage" },
+      { "name": "Ford, GM", "detail": "Traditional OEMs transitioning to electric but 2-3 years behind Tesla" },
+      { "name": "Rivian, Lucid", "detail": "EV startups with technology but lacking production scale economies" },
+      { "name": "Waymo, Cruise", "detail": "Autonomous driving specialists but inferior in data scale compared to Tesla" }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-04-03", "headline": "Tesla French March registrations tripled, Nordic doubled", "significance": "European demand recovery is real. Q1 France total 13,945 units (+108%). Strong buying despite anti-Tesla sentiment", "url": "https://www.reuters.com/business/retail-consumer/tesla-french-car-registrations-triple-march-2026-04-03/" },
-    { "date": "2026-04-03", "headline": "Chinese EV rivals (NIO, Li Auto) report March sales rebound", "significance": "Broader China EV market recovery. Tesla Q1 delivery report tomorrow is the key catalyst", "url": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi" },
-    { "date": "2026-03-31", "headline": "S&P +2.45% broad rally, TSLA +4.64%", "significance": "Trump war-end signal triggered risk-on rally across markets", "url": "https://finance.yahoo.com/" },
-    { "date": "2026-03-30", "headline": "Delaware judge reassigns Musk-related cases", "significance": "Judge voluntarily reassigned three Musk cases to avoid controversy. Reduces legal overhang", "url": "https://www.reuters.com/sustainability/boards-policy-regulation/delaware-judge-accused-bias-reassigns-musk-cases-2026-03-30/" },
-    { "date": "2026-03-26", "headline": "Tesla publishes Q1 delivery consensus: 365,645 vehicles", "significance": "+8.6% YoY growth expected. The benchmark for determining if two-year decline is over", "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/" }
+    { "date": "2026-04-02", "headline": "Tesla Q1 deliveries miss expectations at 358,000, stock plunges", "significance": "Below analyst estimate of 365,645 units, raising growth deceleration concerns. -20% YTD decline in 2026", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html" },
+    { "date": "2026-04-02", "headline": "Energy storage business also drops 38% to 8.8 GWh in Q1", "significance": "Sharp decline from Q4 2025's 14.2 GWh. Well below analyst expectations (14.4 GWh), questioning growth drivers", "url": "https://electrek.co/2026/04/02/tesla-tsla-q1-2026-delivery-results-misses-expectations/" },
+    { "date": "2026-04-02", "headline": "Dan Ives maintains 'buy' rating despite TSLA decline", "significance": "Wedbush Securities analyst views as temporary weakness, remains positive on long-term AI/robotics outlook", "url": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-tesla-stock-today-192514699.html" },
+    { "date": "2026-04-01", "headline": "France March Tesla registrations surge 203%, European recovery signal", "significance": "9,569 registrations approaching all-time high. Q1 cumulative 13,945 (+108%). Spreading optimism for European demand rebound", "url": "https://www.reuters.com" },
+    { "date": "2026-03-30", "headline": "Cybercab production to start in April, Roadster unveiling scheduled", "significance": "Robotaxi commercialization and new premium model to enhance brand image. Accelerating autonomous driving commercialization", "url": "https://www.bloomberg.com" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 410.63,
-    "highTarget": 550.0,
-    "lowTarget": 130.0,
-    "upsidePercent": 10.5,
+    "consensusTarget": 427.0,
+    "highTarget": 515.0,
+    "lowTarget": 350.0,
+    "upsidePercent": 18.4,
     "buyCount": 12,
-    "holdCount": 10,
-    "sellCount": 8,
-    "notableComment": "BofA Securities resumed Buy at $460, while JP Morgan maintains $145 Underweight. Analyst opinions are extremely polarized"
+    "holdCount": 8,
+    "sellCount": 3,
+    "notableComment": "Dan Ives (Wedbush): Despite Q1 disappointment, long-term AI+robotics outlook remains valid. Maintaining $515 price target"
   },
 
   "risks": [
-    { "severity": "high", "title": "Q1 delivery miss risk", "description": "Q1 delivery report due tomorrow (Apr 2). Missing the 365k consensus could reignite concerns about a third straight year of delivery decline" },
-    { "severity": "high", "title": "Extreme valuation", "description": "P/E 345x and Forward P/E 141x are expensive even compared to tech stocks. Any growth disappointment could trigger sharp selloff" },
-    { "severity": "medium", "title": "China competition intensifying", "description": "BYD, Xiaomi and other Chinese EV makers continue aggressive pricing and technology catch-up. Market share defense is a growing challenge" },
-    { "severity": "medium", "title": "Musk risk", "description": "DOGE activities and political statements continue to damage brand image. Anti-Tesla sentiment in Europe is affecting sales" },
-    { "severity": "medium", "title": "Revenue decline", "description": "FY2025 revenue fell 2.93%. Price cuts have not translated into revenue growth despite higher volumes" }
+    { "severity": "high", "title": "Q1 delivery shortfall raises growth deceleration concerns", "description": "358,000 deliveries below analyst expectations, potentially marking second consecutive year of YoY decline. Signals intensifying competition and demand weakness" },
+    { "severity": "high", "title": "Energy business also declined sharply, disrupting growth diversification", "description": "Q1 energy storage down 38% to 8.8 GWh. The energy business that was a key growth driver outside vehicles also showing weakness" },
+    { "severity": "medium", "title": "Intensifying price competition with Chinese EV companies", "description": "BYD, Li Auto expanding overseas presence, creating pricing pressure. Increasing margin compression risk" },
+    { "severity": "medium", "title": "Autonomous driving regulatory risks", "description": "FSD commercialization timeline dependent on regulatory approval. Safety incidents could impact entire business model" }
   ],
 
   "buyReasons": [
-    { "title": "Europe demand recovery confirmed", "rationale": "France +203%, Nordic doubled. Real purchases are increasing despite anti-Tesla sentiment" },
-    { "title": "Q1 YoY delivery recovery expected", "rationale": "Consensus 365k implies +8.6% YoY. Could be the first quarter to break the two-year decline" },
-    { "title": "April catalyst-rich month", "rationale": "Cybercab production, Roadster unveiling, and Q1 deliveries all concentrated in one month. Positive surprises could drive significant upside" },
-    { "title": "FCF improving trend", "rationale": "FCF up 73.7% to $6.22B. Cash generation rapidly recovering with net cash position" }
+    { "title": "Long-term AI+robotics growth story remains intact", "rationale": "Despite short-term delivery weakness, next-generation business models like FSD, Cybercab, Optimus remain innovative with long-term value creation potential" },
+    { "title": "European demand recovery signals global rebound", "rationale": "France's 203% surge and other European recovery signs suggest global EV demand may have bottomed out" },
+    { "title": "April Cybercab production brings robotaxi commercialization closer", "rationale": "Actual production start could prove autonomous driving commercialization viability, triggering business model revaluation" },
+    { "title": "20% YTD decline creates attractive entry point", "rationale": "Significant short-term negativity largely priced in with -20% YTD decline, offering attractive valuation for long-term investors" }
   ],
 
   "technicalPosition": {
-    "week52High": 498.83,
-    "week52Low": 214.25,
-    "currentPositionPercent": 55.3,
-    "sma50": 405.6,
+    "week52High": 488.54,
+    "week52Low": 295.33,
+    "currentPositionPercent": 22.1,
+    "sma50": 385.42,
     "sma50Signal": "below",
-    "sma200": 396.5,
+    "sma200": 392.15,
     "sma200Signal": "below",
-    "rsi": 41.61,
-    "rsiSignal": "neutral"
+    "rsi": 28.5,
+    "rsiSignal": "oversold"
   },
 
   "overallOpinion": [
-    "Q1 delivery report drops tomorrow (Apr 2). Beating the 365,645-unit consensus would signal the end of a two-year decline, while a miss could trigger selling pressure.",
-    "France registrations tripled in March and Nordic doubled, confirming European demand recovery. April is packed with catalysts: Cybercab production and Roadster unveiling.",
-    "Trading below both the 50-day ($406) and 200-day ($397) moving averages with RSI at 41. Tomorrow's delivery data will set the direction."
+    "Q1 deliveries of 358,000 missed expectations while energy storage also plunged 38%, confirming near-term growth momentum disruption.",
+    "France showed 203% surge signaling European recovery, but global demand weakness concerns persist.",
+    "Down 20% YTD to $360 level with technical oversold conditions. Recovery above 200-day average ($392) is key."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "European demand recovery and April catalysts (Cybercab, Roadster) are positive, but tomorrow's Q1 delivery report is the critical variable. At 345x P/E, the stock prices in flawless execution, making it safer to wait for results. If deliveries exceed 370k, a buy opportunity opens up.",
-    "horizon": "1-2 weeks (re-evaluate after Apr 2 delivery report)"
+    "summary": "Q1 performance shortfall materialized near-term negatives, but April Cybercab production and European recovery signals suggest potential bottoming. The 20% decline improves risk-adjusted returns, though further downside remains possible, making dollar-cost averaging appropriate.",
+    "horizon": "3-6 months"
   },
 
   "sources": [
-    { "name": "Reuters", "url": "https://www.reuters.com/business/retail-consumer/tesla-french-car-registrations-triple-march-2026-04-03/", "description": "Tesla French March registrations tripled" },
-    { "name": "Electrek", "url": "https://electrek.co/2026/03/26/tesla-tsla-q1-2026-delivery-consensus-365000-analyst-estimates/", "description": "Tesla Q1 2026 delivery consensus 365,645 units" },
-    { "name": "Finviz", "url": "https://finviz.com/quote.ashx?t=TSLA", "description": "TSLA price, technicals, and financial data" },
-    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/tsla/financials/", "description": "TSLA financial statements" },
-    { "name": "TipRanks", "url": "https://www.tipranks.com/stocks/tsla/technical-analysis", "description": "TSLA RSI and MACD technical analysis" },
-    { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/03/51501633/elon-musks-tesla-sees-q1-slowdown-365k-deliveries-expected", "description": "Tesla Q1 delivery outlook" },
-    { "name": "Barron's", "url": "https://www.barrons.com/articles/tesla-stock-price-first-quarter-ev-deliveries-f8c1e286", "description": "Tesla Q1 delivery report preview" },
-    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "TSLA chart and technical analysis" },
-    { "name": "Investor's Business Daily", "url": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi", "description": "Tesla delivery and China EV competitor trends" }
+    { "name": "CNBC Tesla Q1 Deliveries", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html", "description": "Q1 delivery announcement and stock reaction" },
+    { "name": "Electrek Energy Storage", "url": "https://electrek.co/2026/04/02/tesla-tsla-q1-2026-delivery-results-misses-expectations/", "description": "Energy storage business 8.8 GWh decline analysis" },
+    { "name": "Yahoo Finance Dan Ives", "url": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-tesla-stock-today-192514699.html", "description": "Wedbush Securities analyst opinion" },
+    { "name": "Trading Economics", "url": "https://tradingeconomics.com/tsla:us", "description": "Stock price data and technical analysis" },
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/04/02/why-tesla-stock/", "description": "Earnings analysis and investment opinion" },
+    { "name": "MEXC Blog", "url": "https://blog.mexc.com/finance/why-is-tesla-stock-dropping-2026/", "description": "Stock decline cause analysis" },
+    { "name": "TradingView", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "Technical chart analysis" },
+    { "name": "Reuters Europe Sales", "url": "https://www.reuters.com", "description": "European sales data and market analysis" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Tesla Q1 deliveries tomorrow: end of a 2-year slump?",
-      "text": "$TSLA $371.75(+4.64%) Q1 delivery report drops tomorrow. Consensus 365,645 units. Beat = two-year decline is over. France March registrations tripled.\n\n1/4",
+      "hook": "Q1 deliveries disappoint, but Europe recovering",
+      "text": "$TSLA (4/3) Q1 deliveries 358k missed estimates. Energy storage also down 38%. Down 20% YTD to $360.56.\n\n1/4",
       "thread": [
-        "France: 9,569 units (+203%), Nordic doubled. Anti-Tesla sentiment exists but actual purchases are surging. Q1 France total 13,945 (+108%).\n\n2/4",
-        "April is packed: Cybercab production starts, Roadster unveiling. Below 50-day SMA ($406) but RSI 41, neutral low end.\n\n3/4",
-        "Analyst target $410 (+10.5%). If deliveries beat 370k, it's a buy signal. Wait for tomorrow's data.\n\n4/4"
+        "France alone surged 203% showing European recovery signs. Q1 cumulative 13,945 approaching all-time highs. Global bottom possible.\n\n2/4",
+        "Technically RSI 28.5 oversold. Recovery above 200-day average ($392) key. April Cybercab production could be inflection point.\n\n3/4",
+        "Analyst average target $427 (+18.4%). Dan Ives still bullish. Dollar-cost averaging zone.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Tesla Q1 deliveries tomorrow: end of a 2-year slump?",
-      "text": "$TSLA $371.75(+4.64%)\n\nQ1 delivery report drops tomorrow. Consensus is 365,645 units (+8.6% YoY). A beat would end two straight years of delivery declines.\n\nFrance registrations tripled in March (9,569 units, +203%) and Nordic countries doubled. Despite anti-Tesla sentiment, real demand is clearly recovering. April brings Cybercab production and Roadster unveiling.\n\nBelow 50-day ($406) and 200-day ($397) averages, RSI 41. Analyst target $410 (+10.5%). Tomorrow's data will set the direction."
+      "hook": "Q1 deliveries disappoint, but Europe recovering",
+      "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 deliveries of 358,000 units fell short of analyst expectations, materializing growth deceleration concerns. Energy storage business also dropped 38% to 8.8 GWh.\n\nHowever, France showed 203% surge signaling European recovery. April Cybercab production start could mark a turning point for robotaxi commercialization.\n\nTechnically oversold with RSI at 28.5, finding bottom. Analyst average target $427 (+18.4%) suggests dollar-cost averaging opportunity."
     },
     "telegram": {
-      "hook": "Tomorrow's Q1 deliveries will decide the trend",
-      "text": "Tesla Daily Analysis (Apr 1)\n\nPrice: $371.75 (+4.64%)\n\nKey Issues\n- Q1 delivery report tomorrow (Apr 2), consensus 365,645\n- France March registrations tripled (+203%), Europe recovery\n- Cybercab production + Roadster unveiling in April\n- Broad market rally on war-end signals\n\nTechnical Position\n- Below 50-day ($406) and 200-day ($397)\n- RSI 41, neutral low end\n\nTarget: $410 (+10.5%)"
+      "hook": "Q1 deliveries disappoint, but Europe recovering",
+      "text": "Tesla Daily Analysis (4/3)\n\nPrice: $360.56 (-20% YTD)\n\nKey Issues\n- Q1 deliveries 358k missed expectations\n- Energy storage business down 38%\n- France sales surged 203% showing European recovery\n- April Cybercab production scheduled to start\n\nStock Position\n- RSI 28.5 oversold territory\n- Testing support below 200-day average ($392)\n- Down 26% from 52-week high\n\nTarget: $427 (+18.4%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Tesla Q1 deliveries tomorrow: end of a 2-year slump?",
-          "text": "$TSLA $371.75(+4.64%) Q1 delivery report drops tomorrow. Consensus 365,645 units. Beat = two-year decline is over. France March registrations tripled.\n\n1/4",
+          "hook": "Q1 deliveries 358k missed, energy down 38%",
+          "text": "$TSLA (4/3) Q1 deliveries 358k below estimates at $360.56(-20% YTD). Energy storage 8.8GWh down 38%.\n\n1/4",
           "thread": [
-            "France: 9,569 units (+203%), Nordic doubled. Anti-Tesla sentiment exists but actual purchases are surging. Q1 France total 13,945 (+108%).\n\n2/4",
-            "April is packed: Cybercab production starts, Roadster unveiling. Below 50-day SMA ($406) but RSI 41, neutral low end.\n\n3/4",
-            "Analyst target $410 (+10.5%). If deliveries beat 370k, it's a buy signal. Wait for tomorrow's data.\n\n4/4"
+            "France surged 203%(9,569 units) showing European recovery. Q1 cumulative 13,945 approaching all-time high.\n\n2/4",
+            "RSI 28.5 oversold, below 200-day average($392). April Cybercab production will determine inflection.\n\n3/4",
+            "Target $427(+18.4%), Dan Ives still bullish. Risk management through dollar-cost averaging needed.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "France hates Tesla but tripled their orders",
-          "text": "$TSLA $371.75(+4.64%) The French boycott Tesla publicly but tripled March registrations. Talk is cheap, cars aren't. Q1 delivery report tomorrow.\n\n1/4",
+          "hook": "Q1 results vs France sales: tale of two cities",
+          "text": "$TSLA (4/3) Q1 global down 2%, France up 203%. Same company? $360.56.\n\n1/4",
           "thread": [
-            "Consensus: 365,645 units. Beat it and the 2-year slump is done. Miss it and we do this all over again next quarter.\n\n2/4",
-            "April menu: Cybercab production, Roadster reveal. Elon delivers on promises this time and it's party time. If not, well.\n\n3/4",
-            "Target $410 (+10.5%). Tomorrow's number is what matters. Everything else is noise.\n\n4/4"
+            "Energy storage down 38%. Last year's 'Megapack' became this year's 'Mega-disappointment'. Something's off beat.\n\n2/4",
+            "RSI 28.5 makes charts cry. But April Cybercab production could flip the script dramatically.\n\n3/4",
+            "Target $427 vs current $360. Whether that $67 gap is 'pipe dream' or 'near reality' - April holds the answer.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla shareholders, tomorrow matters",
-          "text": "$TSLA $371.75(+4.64%) If you've held through two years of delivery declines, tomorrow is your moment. Consensus 365k. A beat means the tide finally turns.\n\n1/4",
+          "hook": "TSLA holders must feel disappointed by Q1",
+          "text": "$TSLA (4/3) Q1 delivery miss must hurt. Energy down 38% too. $360.56 represents -20% YTD pain.\n\n1/4",
           "thread": [
-            "The good news: France tripled registrations, Nordic doubled. Europe is coming back. That's real demand, not hype.\n\n2/4",
-            "Still 25% below the high, below key moving averages. The anxiety is understandable. But April has Cybercab and Roadster ahead.\n\n3/4",
-            "Target $410 (+10.5%). Wait for tomorrow's numbers. No rush to act today.\n\n4/4"
+            "But France's 203% surge offers hope. Could signal Europe-wide recovery from the bottom.\n\n2/4",
+            "RSI 28.5 oversold limits further downside. Recovery above 200-day average($392) would bring relief.\n\n3/4",
+            "April Cybercab production could be real game changer. Target $427 - let's wait a bit longer.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Tesla Q1 deliveries tomorrow: end of a 2-year slump?",
-          "text": "$TSLA $371.75(+4.64%)\n\nQ1 delivery report drops tomorrow. Consensus is 365,645 units (+8.6% YoY). A beat would end two straight years of delivery declines.\n\nFrance registrations tripled in March (9,569 units, +203%) and Nordic countries doubled. Despite anti-Tesla sentiment, real demand is clearly recovering. April brings Cybercab production and Roadster unveiling.\n\nBelow 50-day ($406) and 200-day ($397) averages, RSI 41. Analyst target $410 (+10.5%). Tomorrow's data will set the direction."
+          "hook": "Q1 deliveries 358k missed, energy down 38%",
+          "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 deliveries of 358,000 units fell short of analyst expectations. Energy storage business also declined 38% to 8.8 GWh, disrupting growth diversification efforts.\n\nFrance registered 203% surge (9,569 units) in March, signaling European recovery. April Cybercab production start marks an important milestone for robotaxi commercialization.\n\nTechnically oversold with RSI at 28.5, seeking bottom. Analyst average target $427 offers 18.4% upside potential."
         },
         "witty": {
-          "hook": "France hates Tesla but tripled their orders",
-          "text": "$TSLA $371.75(+4.64%)\n\nThe French publicly boycott Tesla but tripled March registrations to near record highs. Actions speak louder than protests. Tomorrow's Q1 delivery report (consensus 365k) decides if the two-year slump is finally over.\n\nApril brings Cybercab production and Roadster reveal. If Elon delivers on promises this month, it's party time. Target $410 (+10.5%). Tomorrow's number is the only thing that matters."
+          "hook": "Q1 global vs France only: stark contrast",
+          "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 global deliveries missed estimates while France alone surged 203%. Makes you wonder if it's the same company. Energy storage went from last year's 'Megapack' to this year's 'Mega-disappointment' with 38% decline.\n\nRSI 28.5 makes charts look tearful, but April Cybercab production could script a dramatic reversal. France showed what's possible when things click.\n\nTarget $427 vs current $360. Whether that $67 gap represents 'delusional hope' or 'imminent reality' - this month will tell the story."
         },
         "empathy": {
-          "hook": "Tesla shareholders, tomorrow matters",
-          "text": "$TSLA $371.75(+4.64%)\n\nTwo years of delivery declines. 25% off the highs. If you've held through all that, tomorrow's Q1 report is the moment you've been waiting for.\n\nThe bright side: France tripled registrations, Nordic doubled. Europe is coming back with real demand. April has Cybercab and Roadster ahead.\n\nTarget $410 (+10.5%). Wait for tomorrow's numbers. No rush."
+          "hook": "TSLA holders disappointed by Q1 results",
+          "text": "$TSLA (4/3) $360.56(-20% YTD)\n\nQ1 delivery miss must have been disheartening. Energy storage declining 38% adds to the frustration. Already down 20% this year, it's natural to wonder 'how much longer?'\n\nBut France's 203% surge offers genuine hope. Maybe Europe is bottoming out and heading up? April Cybercab production could also be a real inflection point.\n\nRSI 28.5 oversold suggests limited further downside. With analysts maintaining $427 targets, perhaps it's worth waiting just a bit longer. This might be the darkest hour before dawn."
         }
       }
     }
