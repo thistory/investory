@@ -1,42 +1,238 @@
 {
   "symbol": "NVDA",
-  "date": "2026-04-03",
-  "price": "173.86",
-  "currency": "USD",
-  "change": "혼조",
-  "period": "최근",
-  "marketCap": "추정 4조 달러",
-  "analysis": {
-    "summary": "엔비디아가 AI 칩 수요 급증으로 H100 가격이 40% 상승하며 여전한 강세를 보이고 있으나, 헤지펀드들의 매도 압력으로 단기 변동성이 증가하고 있습니다.",
-    "keyPoints": [
-      "$170.23-$177.48 구간에서 거래",
-      "P/E 비율 35.88, 배당수익률 2.3%",
-      "H100 GPU 가격 40% 급등 (공급부족)",
-      "헤지펀드 13년 만에 최고 매도 속도",
-      "AI 장기 수요는 여전히 견고"
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-04-03",
+  "currentPrice": 174.40,
+  "marketCap": "$4.24T",
+
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 오늘 중국 시장 점유율 하락 뉴스에도 불구하고 프리마켓에서 상승 중.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
     ],
-    "risks": [
-      "헤지펀드 대규모 매도 압력",
-      "높은 밸류에이션 (P/E 35.88)",
-      "지정학적 리스크 (중국 수출 제한)"
-    ],
-    "opportunities": [
-      "AI 칩 수요 지속적 증가",
-      "H100 공급부족으로 가격 상승",
-      "데이터센터 투자 확대",
-      "새로운 GPU 아키텍처 출시 예정"
-    ],
-    "sentiment": "중립-긍정적",
-    "recommendation": "매수",
-    "targetPrice": "200-220",
-    "nextEarnings": "2026년 5월 예정"
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE",
+      "Space-1"
+    ]
   },
-  "news": [
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "35.6x", "interpretation": "S&P 500 평균(22x)보다 높지만, 반도체 업종 평균(35x)과 거의 동일. 65% 매출 성장률 감안 시 합리적" },
+    { "name": "Forward P/E", "value": "21.0x", "interpretation": "S&P 500 평균(21x)과 동일. 세계 1위 AI 기업이 시장 평균 밸류에이션에 거래되는 것은 13년 만에 처음. PEG 0.32로 극단적 저평가 신호" },
+    { "name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY26 매출 $2,159억. 전년 대비 65% 성장. AI 인프라 투자 사이클이 지속되고 있다" },
+    { "name": "영업이익률", "value": "60.4%", "interpretation": "소프트웨어 기업 수준의 마진. 반도체 업계에서 압도적 수익성. AMD(20%), Intel(적자) 대비 3배+" },
+    { "name": "순이익률", "value": "55.6%", "interpretation": "순이익 $1,200억. 전 세계 반도체 기업 중 최대. 이 수익이 R&D와 생태계 확장에 재투입" },
+    { "name": "FCF (잉여현금흐름)", "value": "$96.7B", "interpretation": "+58.9% 증가. 연간 967억 달러의 현금을 창출하며, Marvell $2B 투자 등 전략적 M&A 여력 충분" }
+  ],
+
+  "growthDrivers": [
     {
-      "title": "엔비디아 H100 가격 40% 급등, 새 GPU도 수요 못 따라가",
-      "summary": "AI 수요 급증으로 H100 가격이 40% 상승하며 공급 부족 현상이 지속되고 있습니다.",
-      "source": "TipRanks",
-      "date": "2026-04-03"
+      "title": "중국 AI 칩 시장 점유율 하락, 하지만 글로벌 지배력 건재 (4/1, 오늘)",
+      "description": "Reuters: 중국 GPU/AI 칩 업체가 현지 AI 가속기 서버 시장의 41%를 차지하며 NVIDIA의 지배적 위치를 잠식. 하지만 글로벌 시장에서 80%+ 점유율은 유지"
+    },
+    {
+      "title": "Marvell $2B 투자 + NVLink Fusion 파트너십 (3/31)",
+      "description": "Reuters/Bloomberg: NVIDIA가 Marvell에 $2B 투자. 커스텀 XPU와 NVIDIA Vera CPU, ConnectX, Spectrum-X 결합. 실리콘 포토닉스 공동 개발. MRVL +12.53%"
+    },
+    {
+      "title": "Forward P/E 21x, S&P 500과 동일 = 13년 만에 처음 (TheStreet)",
+      "description": "세계 1위 AI 기업의 Forward P/E가 시장 평균과 같은 것은 13년 만에 처음. PEG 0.32는 극단적 저평가를 시사"
+    },
+    {
+      "title": "Michael Burry, NVDA 숏 청산 시사 (3/31)",
+      "description": "Benzinga: '빅숏 2.0'으로 불린 Burry의 NVDA 풋 포지션. 'Shorts are not forever' 포스팅. 주요 숏 셀러의 이탈은 하방 압력 감소"
+    },
+    {
+      "title": "Goldman Sachs Buy 재확인, 헬스케어 AI 조명 (3/31)",
+      "description": "Goldman Sachs가 Buy를 재확인하며 NVIDIA의 18년 헬스케어 AI 투자를 조명"
+    },
+    {
+      "title": "2027년까지 AI 칩 누적 주문 1조 달러",
+      "description": "Blackwell과 Vera Rubin 칩의 누적 주문이 2027년까지 최소 1조 달러에 달할 전망"
     }
-  ]
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "CUDA 생태계 독점, GPU+CPU+네트워킹+소프트웨어 수직통합, 연간 아키텍처 로드맵, 압도적 규모의 경제",
+    "moats": [
+      {
+        "type": "생태계 락인",
+        "description": "CUDA 개발자 생태계는 500만명 이상. 경쟁사 전환 비용이 극히 높아 GPU 시장 지배력 유지"
+      },
+      {
+        "type": "수직통합",
+        "description": "GPU, CPU(Vera), 네트워킹(Spectrum-X), 소프트웨어(CUDA, NIM, NemoClaw)까지 풀스택. Marvell 투자로 실리콘 포토닉스까지 확장"
+      },
+      {
+        "type": "연간 아키텍처 로드맵",
+        "description": "Hopper, Blackwell, Vera Rubin으로 이어지는 연간 신제품 출시 사이클. 경쟁사 대비 2-3년 기술 격차"
+      },
+      {
+        "type": "규모의 경제",
+        "description": "FY26 매출 $2,159억으로 반도체 업계 최대. R&D 투자 규모에서 경쟁사 압도"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "AMD",
+        "detail": "MI300X로 AI GPU 시장 진출했으나 소프트웨어 생태계와 규모에서 큰 격차"
+      },
+      {
+        "name": "Marvell (파트너)",
+        "detail": "이제 경쟁자보다 파트너. $2B 투자로 NVIDIA 생태계에 편입"
+      },
+      {
+        "name": "Google TPU",
+        "detail": "자체 AI 칩으로 내부 사용에 강점. 외부 시장 영향력 제한적"
+      },
+      {
+        "name": "Broadcom",
+        "detail": "커스텀 ASIC으로 대형 클라우드 업체에 공급"
+      }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-04-03", "headline": "중국 AI 칩 업체, 현지 시장 41% 점유", "significance": "NVIDIA의 중국 시장 점유율이 하락 중. 미국 수출 규제로 인한 구조적 변화. 하지만 글로벌 시장에서의 지배력은 유지", "url": "https://finance.yahoo.com/sectors/technology/articles/chinese-chipmakers-claim-nearly-half-091441324.html" },
+    { "date": "2026-04-03", "headline": "Motley Fool: NVIDIA 지금 사도 늦지 않았나?", "significance": "고점 대비 17% 하락에 Forward P/E 21x. 장기 투자 관점에서 매력적이라는 분석", "url": "https://www.fool.com/investing/2026/04/01/is-it-too-late-to-buy-nvidia-stock/" },
+    { "date": "2026-03-31", "headline": "Marvell에 $2B 투자, NVLink Fusion 파트너십", "significance": "실리콘 포토닉스 공동 개발로 AI 인프라 생태계 지배력 확대. MRVL +12.53%", "url": "https://www.reuters.com/" },
+    { "date": "2026-03-31", "headline": "Michael Burry, NVDA 숏 청산 시사", "significance": "유명 숏 셀러의 이탈은 하방 압력 감소 신호. 'Shorts are not forever' 포스팅", "url": "https://www.benzinga.com/" },
+    { "date": "2026-03-31", "headline": "NVDA +5.59% 급등, S&P 대규모 랠리 동참", "significance": "전쟁 종식 시그널로 기술주 전면 반등. 50일선 아래에서 강한 반발 매수", "url": "https://stockanalysis.com/stocks/nvda/" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 265.97,
+    "highTarget": 350.0,
+    "lowTarget": 150.0,
+    "upsidePercent": 52.5,
+    "buyCount": 35,
+    "holdCount": 5,
+    "sellCount": 1,
+    "notableComment": "Goldman Sachs Buy 재확인. 애널리스트 41명 중 35명이 Buy 또는 Strong Buy. 52.5% 상승 여력은 대형주 중 가장 높은 수준"
+  },
+
+  "risks": [
+    { "severity": "high", "title": "중국 시장 점유율 하락", "description": "미국 수출 규제로 중국 현지 업체가 41%까지 성장. NVIDIA의 해외 최대 시장에서 구조적 점유율 하락 진행 중" },
+    { "severity": "medium", "title": "AI 투자 사이클 둔화 우려", "description": "대형 클라우드 업체의 AI 투자 지속 여부가 핵심. CapEx 감소 시 NVIDIA 매출에 직접 영향" },
+    { "severity": "medium", "title": "수출 규제 강화 리스크", "description": "미국 정부의 대중국 AI 칩 수출 규제가 추가 강화될 가능성. 매출의 상당 부분이 중국/아시아" },
+    { "severity": "low", "title": "내부자 매도 지속", "description": "최근 CFO, 이사 등 내부자의 지속적 주식 매도. 다만 계획된 매도(Rule 10b5-1)가 대부분" }
+  ],
+
+  "buyReasons": [
+    { "title": "Forward P/E 21x, 시장 평균과 동일", "rationale": "65% 매출 성장 기업이 S&P 500 평균 밸류에이션에 거래. PEG 0.32는 13년 만의 저평가 수준" },
+    { "title": "RSI 34, 과매도 접근", "rationale": "RSI가 30 근접. 기술적 반등 가능성이 높아지는 구간. 3/31에 이미 +5.6% 반등 시작" },
+    { "title": "Marvell 투자로 생태계 확장", "rationale": "$2B 투자로 실리콘 포토닉스, 커스텀 XPU 영역까지 장악. 경쟁사가 아닌 파트너로 전환" },
+    { "title": "압도적 수익성", "rationale": "영업이익률 60%, 순이익률 55%, FCF $967억. 반도체 업계에서 유일무이한 수익 구조" }
+  ],
+
+  "technicalPosition": {
+    "week52High": 212.19,
+    "week52Low": 86.62,
+    "currentPositionPercent": 69.9,
+    "sma50": 183.0,
+    "sma50Signal": "below",
+    "sma200": 184.3,
+    "sma200Signal": "below",
+    "rsi": 34.0,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "중국 현지 AI 칩 업체가 시장의 41%를 차지하면서 NVIDIA의 중국 입지가 줄고 있다. 수출 규제 영향이 본격화된 것인데, 글로벌 시장 80%+ 지배력은 여전하다.",
+    "Forward P/E 21x는 S&P 500 평균과 동일한 수준으로, 65% 성장하는 기업에겐 13년 만의 저평가다. Marvell $2B 투자로 생태계 확장도 계속되고 있다.",
+    "50일선($183)과 200일선($184) 아래에서 거래 중이지만 RSI 34로 과매도에 근접했다. 3/31에 +5.6% 반등하며 바닥 다지기 신호가 나오고 있다."
+  ],
+
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Forward P/E 21x로 S&P 500 평균과 동일한데, 매출 성장률은 65%다. 13년 만의 저평가 구간이다. 중국 시장 점유율 하락이 리스크지만 글로벌 AI 인프라 독점은 건재하다. RSI 34로 기술적 바닥 근접. 분할 매수 적기.",
+    "horizon": "3-6개월"
+  },
+
+  "sources": [
+    { "name": "StockAnalysis", "url": "https://stockanalysis.com/stocks/nvda/", "description": "NVDA 주가 및 기본 정보" },
+    { "name": "StockAnalysis Financials", "url": "https://stockanalysis.com/stocks/nvda/financials/", "description": "NVDA 재무제표" },
+    { "name": "Reuters/Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/chinese-chipmakers-claim-nearly-half-091441324.html", "description": "중국 AI 칩 시장 점유율 분석" },
+    { "name": "DefenseWorld", "url": "https://www.defenseworld.net/2026/03/31/arp-global-capital-ltd-makes-new-investment-in-nvidia-corporation-nvda.html", "description": "NVDA SMA50, SMA200, 52주 범위" },
+    { "name": "TradingKey", "url": "https://www.tradingkey.com/news/Market-Movers/261739406-market-movers-nvda-20260331", "description": "NVDA RSI, MACD 기술적 분석" },
+    { "name": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/forecast/", "description": "NVDA 애널리스트 목표가 $275.95" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/04/01/is-it-too-late-to-buy-nvidia-stock/", "description": "NVIDIA 투자 적기 분석" },
+    { "name": "Benzinga", "url": "https://www.benzinga.com/", "description": "Michael Burry NVDA 숏 청산 시사" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-3-31-nvidia-nvda-stock-trades-up-here-is-why", "description": "NVDA 3/31 상승 분석" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "NVIDIA Forward P/E가 S&P 500과 같아졌다",
+      "text": "$NVDA $174.40(+5.59%) 65% 성장 기업의 Forward P/E가 21x, S&P 500 평균과 동일. 13년 만의 저평가. 중국 점유율은 줄지만 글로벌 80%+ 지배력 건재.\n\n1/4",
+      "thread": [
+        "중국 현지 AI 칩 업체가 시장 41%를 차지하기 시작했다. 수출 규제의 본격 영향. 하지만 Marvell에 $2B 투자하며 글로벌 생태계는 더 넓히는 중.\n\n2/4",
+        "RSI 34로 과매도 접근. 3/31에 +5.6% 반등하며 바닥 신호. 50일선($183) 아래지만 회복 가능 구간.\n\n3/4",
+        "애널리스트 목표가 $266(+52.5%). 영업이익률 60%, 순이익 $1,200억. 숫자가 말해준다.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "NVIDIA Forward P/E가 S&P 500과 같아졌다",
+      "text": "$NVDA $174.40(+5.59%)\n\n65% 매출 성장 기업의 Forward P/E가 21x로, S&P 500 평균과 같아졌다. 13년 만에 처음 있는 일이다.\n\n중국 현지 AI 칩 업체가 시장 41%를 차지하기 시작한 건 리스크지만, 글로벌 80%+ 점유율은 여전하다. Marvell $2B 투자로 실리콘 포토닉스까지 생태계를 확장 중이다.\n\nRSI 34로 과매도 접근, 3/31에 +5.6% 반등 시작. 목표가 $266(+52.5%). 영업이익률 60%, 순이익 $1,200억. 분할 매수 구간."
+    },
+    "telegram": {
+      "hook": "Forward P/E 21x, 13년 만의 저평가 구간",
+      "text": "NVIDIA 일일 분석 (4/1)\n\n가격: $174.40 (+5.59%)\n\n핵심 이슈\n- Forward P/E 21x, S&P 500 평균과 동일 (13년 만)\n- 중국 AI 칩 업체 현지 시장 41% 차지 (점유율 하락)\n- Marvell $2B 투자, 생태계 확장\n- Michael Burry 숏 청산 시사\n\n주가 위치\n- 50일선($183), 200일선($184) 아래\n- RSI 34, 과매도 접근\n\n목표가: $266 (+52.5%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "NVIDIA Forward P/E가 S&P 500과 같아졌다",
+          "text": "$NVDA $174.40(+5.59%) 65% 성장 기업의 Forward P/E가 21x, S&P 500 평균과 동일. 13년 만의 저평가. 중국 점유율은 줄지만 글로벌 80%+ 지배력 건재.\n\n1/4",
+          "thread": [
+            "중국 현지 AI 칩 업체가 시장 41%를 차지하기 시작했다. 수출 규제의 본격 영향. 하지만 Marvell에 $2B 투자하며 글로벌 생태계는 더 넓히는 중.\n\n2/4",
+            "RSI 34로 과매도 접근. 3/31에 +5.6% 반등하며 바닥 신호. 50일선($183) 아래지만 회복 가능 구간.\n\n3/4",
+            "애널리스트 목표가 $266(+52.5%). 영업이익률 60%, 순이익 $1,200억. 숫자가 말해준다.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "세계 1위 AI 기업이 시장 평균 가격에 팔린다",
+          "text": "$NVDA $174.40(+5.59%) 매출 65% 성장에 영업이익률 60%인 기업이 Forward P/E 21x. 시장 평균이다. 마트에서 벤츠를 소나타 가격에 파는 꼴.\n\n1/4",
+          "thread": [
+            "중국이 AI 칩 자급률 41%까지 올렸다. 수출 규제가 역효과를 낸 건데, NVIDIA는 글로벌에서 80%+ 점유. 한 시장 잃어도 다른 곳이 더 크다.\n\n2/4",
+            "Burry가 숏 청산 암시. 'Shorts are not forever.' 맞다, 하지만 주주의 인내심도 forever는 아니다.\n\n3/4",
+            "목표가 $266(+52.5%). RSI 34, 바닥 근처. 숫자 좋은 회사가 싸게 팔리면 사는 거다.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVIDIA 주주들, 바닥이 가까워 보인다",
+          "text": "$NVDA $174.40(+5.59%) 고점 $212에서 17% 빠졌다. 들고 있으면 답답할 수 있다. 하지만 Forward P/E 21x는 시장이 이 회사를 너무 싸게 보고 있다는 뜻이다.\n\n1/4",
+          "thread": [
+            "중국 점유율 하락은 걱정되는 부분이다. 하지만 글로벌 80%+ 지배력과 Marvell $2B 투자는 펀더멘털이 건재하다는 증거.\n\n2/4",
+            "RSI 34로 과매도 근접. 3/31에 +5.6% 반등 시작. 바닥을 다지는 중일 수 있다.\n\n3/4",
+            "목표가 $266(+52.5%). 영업이익률 60%. 이 숫자를 내는 회사가 시장 평균 밸류에이션이라면, 시간이 답해줄 거다.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "NVIDIA Forward P/E가 S&P 500과 같아졌다",
+          "text": "$NVDA $174.40(+5.59%)\n\n65% 매출 성장 기업의 Forward P/E가 21x로, S&P 500 평균과 같아졌다. 13년 만에 처음 있는 일이다.\n\n중국 현지 AI 칩 업체가 시장 41%를 차지하기 시작한 건 리스크지만, 글로벌 80%+ 점유율은 여전하다. Marvell $2B 투자로 실리콘 포토닉스까지 생태계를 확장 중이다.\n\nRSI 34로 과매도 접근, 3/31에 +5.6% 반등 시작. 목표가 $266(+52.5%). 영업이익률 60%, 순이익 $1,200억. 분할 매수 구간."
+        },
+        "witty": {
+          "hook": "세계 1위 AI 기업이 시장 평균 가격에 팔린다",
+          "text": "$NVDA $174.40(+5.59%)\n\n매출 65% 성장에 영업이익률 60%인 기업이 Forward P/E 21x다. 시장 평균이다. 마트에서 벤츠를 소나타 가격에 파는 격이다.\n\n중국 AI 자급률이 41%까지 올라왔지만, NVIDIA는 글로벌에서 80%+ 점유. Burry도 숏 청산 암시. RSI 34 바닥 근처. 목표가 $266(+52.5%). 숫자 좋은 회사가 싸게 팔리면 사는 거다."
+        },
+        "empathy": {
+          "hook": "NVIDIA 주주들, 바닥이 가까워 보인다",
+          "text": "$NVDA $174.40(+5.59%)\n\n고점에서 17% 빠졌다. 들고 있으면 답답했을 거다. 하지만 Forward P/E 21x는 시장이 이 회사를 너무 싸게 보고 있다는 뜻이다.\n\n중국 점유율 하락이 걱정되지만 글로벌 80%+ 지배력은 건재하고, RSI 34로 과매도 근접 중이다. 3/31에 +5.6% 반등 시작. 목표가 $266(+52.5%). 시간이 답해줄 거다."
+        }
+      }
+    }
+  }
 }
