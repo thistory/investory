@@ -1,0 +1,205 @@
+{
+  "symbol": "NVDA",
+  "companyName": "NVIDIA Corporation",
+  "analysisDate": "2026-04-04",
+  "currentPrice": 177.25,
+  "marketCap": "$4.37T",
+
+  "businessSummary": {
+    "oneLiner": "AI 컴퓨팅의 절대 강자, 데이터센터 GPU와 AI 가속기로 글로벌 AI 인프라를 지배",
+    "description": "엔비디아는 GPU 기반 AI 가속 컴퓨팅의 선두주자로, 데이터센터용 AI 칩부터 소프트웨어 플랫폼까지 수직 통합된 생태계를 운영한다. GTC 2026에서 Vera Rubin과 Vera CPU 플랫폼을 공개하며 5계층 풀스택 AI 전략을 발표. FY26 매출 2,159억 달러(+65% YoY), 순이익 1,200억 달러 기록. 중국 AI 칩 시장 점유율 하락에도 불구하고 글로벌 80%+ 지배력 유지.",
+    "howTheyMakeMoney": [
+      "데이터센터 AI 가속기 (매출의 80%+)",
+      "AI 소프트웨어 플랫폼 (CUDA, NIM, NemoClaw)",
+      "게이밍 GPU",
+      "자동차 (DRIVE)",
+      "네트워킹 (Spectrum-X)"
+    ],
+    "keyProducts": [
+      "Vera Rubin NVL72",
+      "Vera CPU",
+      "Blackwell",
+      "CUDA",
+      "NemoClaw",
+      "DRIVE",
+      "Space-1"
+    ]
+  },
+
+  "keyMetrics": [
+    { "name": "P/E (TTM)", "value": "36.2x", "interpretation": "반도체 업종 평균(35x) 근처. S&P 500 평균(22x)보다 높지만 65% 매출 성장률 감안 시 합리적. 13년 만에 시장 평균 밸류에이션" },
+    { "name": "Forward P/E", "value": "21.5x", "interpretation": "S&P 500 평균(21x)과 거의 동일. 세계 1위 AI 기업이 시장 평균 밸류에이션. PEG 0.33으로 성장 대비 저평가" },
+    { "name": "매출 성장률 (YoY)", "value": "+65.5%", "interpretation": "FY26 매출 $2,159억. 전년 대비 65% 성장. AI 인프라 투자 사이클이 지속되고 있다" },
+    { "name": "영업이익률", "value": "60.4%", "interpretation": "소프트웨어 기업 수준의 마진. 반도체 업계에서 압도적 수익성. AMD(20%), Intel(적자) 대비 3배+" },
+    { "name": "순이익률", "value": "55.6%", "interpretation": "순이익 $1,200억. 전 세계 반도체 기업 중 최대. 이 수익이 R&D와 생태계 확장에 재투입" },
+    { "name": "배당수익률", "value": "2.3%", "interpretation": "성장주치고 의미 있는 배당. 2023년 대비 배당 40% 인상하며 주주 환원 의지 표명" }
+  ],
+
+  "growthDrivers": [
+    {
+      "title": "DBS $220 목표가 상향 ($180→$220), Hopper+Blackwell 수요 강세 (4/4, 오늘)",
+      "description": "TradingView: DBS가 목표가를 $180에서 $220으로 40달러 상향. Hopper와 Blackwell AI 칩 수요가 예상보다 강력하며 데이터센터 매출이 FY26 $200B+ 향해 56% 성장 전망"
+    },
+    {
+      "title": "Marvell $2B 투자로 AI 칩 생태계 확장 (3/31)",
+      "description": "Reuters/Bloomberg: NVIDIA가 Marvell에 $2B 투자. 커스텀 XPU와 NVIDIA Vera CPU, ConnectX, Spectrum-X 결합. 실리콘 포토닉스 공동 개발로 차세대 AI 인프라 구축"
+    },
+    {
+      "title": "중국 AI 칩 업체 약진에도 글로벌 지배력 건재 (4/4)",
+      "description": "Reuters: 중국 GPU/AI 칩 업체가 현지 AI 가속기 서버 시장의 41%를 차지하며 NVIDIA 잠식. 하지만 글로벌 시장에서 80%+ 점유율은 여전히 유지"
+    },
+    {
+      "title": "Seeking Alpha: 2026년 중반 $210, 2027년 $340 목표 지속",
+      "description": "$190을 매력적 진입가로 보며 레이팅 업그레이드 유지. 지속적 AI 투자 모멘텀 기반으로 중기 $210, 장기 $340 목표"
+    }
+  ],
+
+  "competitiveAdvantage": {
+    "summary": "CUDA 소프트웨어 생태계, 데이터센터 AI 칩 독점, 수직통합 플랫폼이 경쟁사 진입 불가능한 해자 형성",
+    "moats": [
+      { "type": "Software Ecosystem", "description": "CUDA: 1,500만 개발자, 4,000+ AI 애플리케이션. 15년 축적된 소프트웨어 생태계" },
+      { "type": "Technology Lead", "description": "Blackwell, Vera Rubin: 차세대 AI 칩 기술력 2-3년 선행. 경쟁사 추격 불가" },
+      { "type": "Manufacturing Partnership", "description": "TSMC 독점 파트너십. 최첨단 3nm 공정 우선 할당" },
+      { "type": "Data Center Dominance", "description": "AI 훈련/추론 시장 80%+ 점유. AWS, Microsoft, Google 모두 의존" }
+    ],
+    "competitors": [
+      { "name": "AMD", "detail": "MI300X로 경쟁하나 CUDA 생태계 부족. 시장점유율 10% 미만" },
+      { "name": "Intel", "detail": "Gaudi 3 출시했으나 성능 열위. AI 시장에서 존재감 미약" },
+      { "name": "중국 AI 칩 업체", "detail": "현지 시장에서 급성장하나 글로벌 확장 제한적" },
+      { "name": "Google TPU", "detail": "내부용으로만 사용. 외부 판매 없어 직접 경쟁 아님" }
+    ]
+  },
+
+  "recentNews": [
+    { "date": "2026-04-04", "headline": "DBS, NVDA 목표가 $180→$220 상향, Blackwell 수요 강세", "significance": "40달러 목표가 상향으로 강세 전망 지속. Hopper와 Blackwell 칩 수요가 예상보다 강력하다고 평가", "url": "https://www.tradingview.com/symbols/NASDAQ-NVDA/" },
+    { "date": "2026-04-04", "headline": "중국 AI 칩 업체들이 현지 시장 41% 점유, NVIDIA 잠식", "significance": "중국 내 경쟁 심화되지만 글로벌 시장 80%+ 지배력은 여전. 지역별 차별화 전략 필요", "url": "https://www.reuters.com" },
+    { "date": "2026-04-03", "headline": "CNN: NVDA $177.39 마감, 0.93% 상승", "significance": "안정적 상승세 유지. $170.23-$177.48 박스권에서 거래되며 기술적 안정성 확보", "url": "https://www.cnn.com/markets/stocks/NVDA" },
+    { "date": "2026-03-31", "headline": "Marvell $2B 투자로 AI 칩 파트너십 확대", "significance": "커스텀 XPU와 NVIDIA Vera CPU 결합으로 AI 인프라 생태계 확장. 실리콘 포토닉스 공동 개발", "url": "https://www.bloomberg.com" },
+    { "date": "2026-01-06", "headline": "Seeking Alpha: $190 매력적 진입가, $210/$340 목표 유지", "significance": "중기 $210, 장기 $340 목표가 유지. 지속적 AI 투자 모멘텀 기반 강세 전망", "url": "https://seekingalpha.com" }
+  ],
+
+  "analystOpinions": {
+    "consensusTarget": 205.0,
+    "highTarget": 340.0,
+    "lowTarget": 150.0,
+    "upsidePercent": 15.6,
+    "buyCount": 25,
+    "holdCount": 8,
+    "sellCount": 2,
+    "notableComment": "DBS $220 목표가 상향. Seeking Alpha $340 장기 목표. 35명 애널리스트 중 25명 매수 추천"
+  },
+
+  "risks": [
+    { "severity": "medium", "title": "중국 AI 칩 업체들의 현지 시장 잠식", "description": "중국 내 AI 가속기 서버 시장 41% 점유로 NVIDIA 독점 약화. 글로벌 시장으로 확산 시 위협" },
+    { "severity": "medium", "title": "AI 투자 사이클 정점 우려", "description": "데이터센터 AI 투자가 과열 상태. 경기 둔화 시 급격한 수요 감소 가능성" },
+    { "severity": "low", "title": "지정학적 리스크와 수출 규제", "description": "미중 갈등 심화 시 중국향 수출 제한 강화. 하지만 이미 상당 부분 반영됨" },
+    { "severity": "low", "title": "경쟁사 기술 추격", "description": "AMD MI300X, Intel Gaudi 3 등 경쟁 제품 등장. 하지만 CUDA 생태계 우위는 단기간 극복 불가" }
+  ],
+
+  "buyReasons": [
+    { "title": "DBS 목표가 $220 상향으로 상승 모멘텀 지속", "rationale": "$180에서 $220으로 40달러 상향. Hopper와 Blackwell 수요 강세로 FY26 $200B+ 매출 전망" },
+    { "title": "Forward P/E 21.5x로 13년 만에 매력적 밸류에이션", "rationale": "S&P 500 평균(21x)과 동일한 수준. 세계 1위 AI 기업이 시장 평균 밸류에이션은 이례적" },
+    { "title": "중국 경쟁에도 글로벌 80%+ 지배력 건재", "rationale": "현지 업체가 중국 내 41% 점유해도 글로벌 시장 독점은 유지. 기술 격차 여전히 큼" },
+    { "title": "Marvell 파트너십으로 AI 생태계 확장", "rationale": "$2B 투자로 커스텀 XPU와 실리콘 포토닉스 개발. AI 인프라 전 영역 지배력 확대" }
+  ],
+
+  "technicalPosition": {
+    "week52High": 231.45,
+    "week52Low": 120.33,
+    "currentPositionPercent": 51.2,
+    "sma50": 188.20,
+    "sma50Signal": "below",
+    "sma200": 175.80,
+    "sma200Signal": "above",
+    "rsi": 52.3,
+    "rsiSignal": "neutral"
+  },
+
+  "overallOpinion": [
+    "DBS가 목표가를 $220으로 상향하며 Blackwell 수요 강세를 확인했다. 중국 경쟁 심화에도 글로벌 지배력은 건재하다.",
+    "Forward P/E 21.5x로 13년 만에 매력적 밸류에이션. 세계 1위 AI 기업이 시장 평균에 거래되는 것은 이례적이다.",
+    "$177.25로 200일 평균($175.80) 위에 있지만 50일 평균($188.20) 아래. 컨센서스 목표가 $205로 15% 상승여력."
+  ],
+
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "AI 투자 사이클이 지속되고 있고 DBS 목표가 상향으로 모멘텀도 확인됐다. 중국 경쟁 압력은 있지만 글로벌 지배력은 건재하며, Forward P/E 21.5x는 성장률 대비 매력적 밸류에이션이다. Marvell 파트너십으로 생태계도 확장 중이어서 중장기 성장이 기대된다.",
+    "horizon": "6개월-1년"
+  },
+
+  "sources": [
+    { "name": "TradingView DBS 업그레이드", "url": "https://www.tradingview.com/symbols/NASDAQ-NVDA/", "description": "DBS $220 목표가 상향 및 Blackwell 수요 분석" },
+    { "name": "Reuters 중국 AI 칩", "url": "https://www.reuters.com", "description": "중국 AI 칩 업체들의 시장 점유율 현황" },
+    { "name": "CNN 주가 현황", "url": "https://www.cnn.com/markets/stocks/NVDA", "description": "NVDA $177.39 마감 및 거래 동향" },
+    { "name": "Robinhood 기술 분석", "url": "https://robinhood.com/us/en/stocks/NVDA/", "description": "P/E 36.22, 배당수익률 2.3% 등 기본 지표" },
+    { "name": "Bloomberg Marvell 투자", "url": "https://www.bloomberg.com", "description": "Marvell $2B 투자 및 AI 파트너십" },
+    { "name": "Seeking Alpha 목표가", "url": "https://seekingalpha.com", "description": "중기 $210, 장기 $340 목표가 분석" },
+    { "name": "Yahoo Finance 기업정보", "url": "https://finance.yahoo.com/quote/NVDA/", "description": "NVIDIA 기업 개요 및 재무 정보" },
+    { "name": "Perplexity 종합분석", "url": "https://www.perplexity.ai/finance/NVDA", "description": "NVDA 종합 투자 정보 및 전망" }
+  ],
+
+  "snsContent": {
+    "x": {
+      "hook": "DBS $220 목표가 상향, AI 수요 강세",
+      "text": "$NVDA (4/4) DBS가 목표가 $180→$220 상향. Blackwell 수요 강세로 FY26 $200B+ 매출 전망. $177.25.\n\n1/4",
+      "thread": [
+        "Forward P/E 21.5x로 13년 만에 매력적 밸류에이션. 세계 1위 AI 기업이 S&P 500 평균에 거래.\n\n2/4",
+        "중국 AI 칩 업체가 현지 시장 41% 잠식했지만 글로벌 80%+ 지배력은 건재. 기술 격차 여전.\n\n3/4",
+        "컨센서스 목표가 $205(+15%). Marvell $2B 투자로 AI 생태계 확장 중.\n\n4/4"
+      ]
+    },
+    "threads": {
+      "hook": "DBS $220 목표가 상향, AI 수요 강세",
+      "text": "$NVDA (4/4) $177.25\n\nDBS가 목표가를 $180에서 $220으로 40달러 상향했다. Hopper와 Blackwell AI 칩 수요가 예상보다 강력하며 FY26 데이터센터 매출이 $200B+ 향해 56% 성장할 전망이다.\n\nForward P/E 21.5x는 13년 만에 매력적 밸류에이션이다. 세계 1위 AI 기업이 S&P 500 평균에 거래되는 것은 이례적이다.\n\n중국 경쟁 압력은 있지만 글로벌 80%+ 지배력은 건재하다. 컨센서스 목표가 $205로 15% 상승여력이 있다."
+    },
+    "telegram": {
+      "hook": "DBS $220 목표가 상향, AI 수요 강세",
+      "text": "NVIDIA 일일 분석 (4/4)\n\n가격: $177.25\n\n핵심 이슈\n- DBS 목표가 $180→$220 상향 (40달러)\n- Blackwell 수요 강세로 FY26 $200B+ 매출 전망\n- Forward P/E 21.5x로 13년 만에 매력적 밸류\n- 중국 경쟁에도 글로벌 80%+ 지배력 건재\n\n주가 위치\n- 200일 평균($175.80) 위에서 지지\n- 50일 평균($188.20) 아래에서 조정\n- RSI 52.3으로 중립 구간\n\n목표가: $205 (+15.6%)"
+    },
+    "tones": {
+      "x": {
+        "fact": {
+          "hook": "DBS $220 목표가 상향, 데이터센터 강세",
+          "text": "$NVDA (4/4) DBS가 목표가 $180→$220 상향. Hopper+Blackwell 수요 강세. 데이터센터 매출 56% 성장 전망. $177.25.\n\n1/4",
+          "thread": [
+            "Forward P/E 21.5x는 S&P 500 평균과 동일. 세계 1위 AI 기업이 시장 평균 밸류에이션은 13년 만.\n\n2/4",
+            "중국 AI 칩 업체가 현지 시장 41% 점유하며 잠식. 하지만 글로벌 80%+ 독점은 유지.\n\n3/4",
+            "35명 애널리스트 중 25명 매수. 컨센서스 $205(+15%). Marvell $2B 파트너십 확장.\n\n4/4"
+          ]
+        },
+        "witty": {
+          "hook": "NVDA, 13년 만에 '저평가' 딱지",
+          "text": "$NVDA (4/4) Forward P/E 21.5x로 S&P 500 평균과 동일. AI 1등 기업이 '평범한' 밸류에이션? 뭔가 이상하다. $177.25.\n\n1/4",
+          "thread": [
+            "DBS가 목표가 $220으로 올렸는데 이유가 '수요가 예상보다 강하다'. 예상이 너무 보수적이었나?\n\n2/4",
+            "중국 업체들이 현지에서 41% 점유했다니 제법 선전. 하지만 글로벌은 여전히 NVDA 독무대.\n\n3/4",
+            "목표가 $205까지 28달러 남았다. AI 붐이 계속되면 더 높이 갈 수도. 문제는 '언제까지'인가.\n\n4/4"
+          ]
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들에게 희소식이 왔다",
+          "text": "$NVDA (4/4) DBS 목표가 상향에 마음이 놓였을 거다. $220까지 42달러 더 오를 수 있다니 기대된다. $177.25.\n\n1/4",
+          "thread": [
+            "Forward P/E 21.5x는 정말 매력적이다. 이런 성장률에 이 밸류에이션이면 더 바랄 게 없다.\n\n2/4",
+            "중국 경쟁 소식에 걱정했을 텐데, 글로벌 지배력은 여전하니 안심해도 될 것 같다.\n\n3/3",
+            "컨센서스 $205까지 15% 남았다. AI 투자 사이클이 계속된다면 충분히 달성 가능하다.\n\n4/4"
+          ]
+        }
+      },
+      "threads": {
+        "fact": {
+          "hook": "DBS $220 목표가 상향, 데이터센터 강세",
+          "text": "$NVDA (4/4) $177.25\n\nDBS가 목표가를 $180에서 $220으로 40달러 상향했다. Hopper와 Blackwell AI 칩 수요가 예상보다 강력하며 데이터센터 매출이 FY26 $200B+ 향해 56% 성장할 전망이다.\n\nForward P/E 21.5x는 S&P 500 평균과 동일한 수준이다. 세계 1위 AI 기업이 시장 평균 밸류에이션에 거래되는 것은 13년 만의 일이다.\n\n중국 AI 칩 업체가 현지 시장 41% 점유하며 잠식했지만 글로벌 80%+ 독점은 여전히 유지하고 있다. 35명 애널리스트 중 25명이 매수를 추천한다."
+        },
+        "witty": {
+          "hook": "NVDA, 13년 만에 '저평가' 딱지 붙었다",
+          "text": "$NVDA (4/4) $177.25\n\nForward P/E 21.5x로 S&P 500 평균과 동일하다니, AI 1등 기업이 '평범한' 밸류에이션이라고? 뭔가 이상하다. DBS가 목표가 $220으로 올렸는데 이유가 '수요가 예상보다 강하다'고 한다.\n\n중국 업체들이 현지에서 41% 점유했다니 제법 선전이다. 하지만 글로벌은 여전히 NVDA 독무대. 기술 격차가 아직 크다는 뜻이다.\n\n목표가 $205까지 28달러 남았다. AI 붐이 계속되면 더 높이 갈 수도 있다. 문제는 '언제까지'인가 하는 것이다."
+        },
+        "empathy": {
+          "hook": "NVDA 홀더들에게 희소식이 왔다",
+          "text": "$NVDA (4/4) $177.25\n\nDBS 목표가 상향 소식에 마음이 놓였을 거다. $220까지 42달러 더 오를 수 있다니 기대가 된다. Forward P/E 21.5x는 정말 매력적이다. 이런 성장률에 이 밸류에이션이면 더 바랄 게 없다.\n\n중국 경쟁 소식에 걱정했을 텐데, 글로벌 지배력은 여전하니 안심해도 될 것 같다. 기술 격차가 아직 크다는 증거다.\n\n컨센서스 $205까지 15% 남았다. AI 투자 사이클이 계속된다면 충분히 달성 가능한 목표다."
+        }
+      }
+    }
+  }
+}
