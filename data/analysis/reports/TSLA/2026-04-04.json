@@ -2,8 +2,8 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-04-04",
-  "currentPrice": 377.20,
-  "marketCap": "$1.36T",
+  "currentPrice": 365.45,
+  "marketCap": "$1.35T",
 
   "businessSummary": {
     "oneLiner": "세계 최대 EV 제조사이자 자율주행, 로봇, 에너지, AI 칩을 아우르는 'Physical AI 플랫폼' 기업",
@@ -28,12 +28,12 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "350.0x", "interpretation": "S&P 500 평균(22x) 대비 16배. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 극도로 반영된 수치" },
-    { "name": "Forward P/E", "value": "143.0x", "interpretation": "2026년 예상 EPS $2.64 기준. S&P 500 Forward P/E(21x) 대비 6.8배. 성장 기대가 극도로 높다" },
-    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "2025년 연간 매출 역성장. 가격 인하 효과와 경쟁 심화. Q1 2026 인도량 358k로 회복 지연" },
+    { "name": "P/E (TTM)", "value": "335.3x", "interpretation": "S&P 500 평균(22x) 대비 15배. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 극도로 반영된 수치" },
+    { "name": "Forward P/E", "value": "138.4x", "interpretation": "2026년 예상 EPS $2.64 기준. S&P 500 Forward P/E(21x) 대비 6.6배. 성장 기대가 극도로 높다" },
+    { "name": "매출 성장률 (YoY)", "value": "-8.7%", "interpretation": "Q1 2026 딜리버리 실망으로 역성장 심화. 가격 인하와 경쟁 심화가 지속" },
     { "name": "매출총이익률", "value": "18.03%", "interpretation": "2025년 기준. Q4에 20.1% 달성하며 개선 추세. 자동차 업계 평균(17%) 근접" },
-    { "name": "FCF (잉여현금흐름)", "value": "$6.22B", "interpretation": "전년 대비 +73.7% 증가. 현금 창출력이 크게 개선됐지만 P/FCF 220x로 여전히 고평가" },
-    { "name": "부채비율 (D/E)", "value": "0.18", "interpretation": "매우 낮은 부채 수준. 순현금 보유 상태로 재무 건전성 양호" }
+    { "name": "시가총액", "value": "$1.35T", "interpretation": "연초대비 -20% 하락. Q1 실적 실망으로 Tesla의 성장 스토리에 의문 제기" },
+    { "name": "52주 고저 대비", "value": "36%", "interpretation": "52주 최고가 $488.54 대비 25% 하락. 최저가 $295.33 대비는 24% 높은 상태" }
   ],
 
   "growthDrivers": [
@@ -46,8 +46,8 @@
       "description": "TechCrunch: Model X와 S의 마지막 날들. Musk가 25,000달러 저가 EV 계획을 취소하고 Cybercab과 Optimus 로봇에 모든 것을 걸었다"
     },
     {
-      "title": "TradingView 2H 차트 강세 다이버전스 확인 (4/4)",
-      "description": "TradingView: 2시간 차트에서 강세 다이버전스 형성. 주가는 더 낮은 저점을 만들었지만 RSI는 더 높은 저점으로 반등 신호"
+      "title": "기술적 반등 신호 대기 중 (4/4)",
+      "description": "RSI 41.4로 중립권에서 반등 모색. MACD가 시그널 라인 위에 있어 강세 모멘텀 지속. 과매도에서 벗어나며 기술적 바닥 형성 가능성"
     },
     {
       "title": "유럽 수요 회복 지속",
@@ -72,133 +72,133 @@
   },
 
   "recentNews": [
-    { "date": "2026-04-04", "headline": "Cybercab 4월 양산 시작 공식 확인, Giga Texas에서 생산", "significance": "핸들과 페달이 없는 완전 자율주행 로보택시 양산 시작. 자율주행 상용화 현실성 입증하는 중요한 이정표", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-4-3-tesla-tsla-2026-deep-dive-from-ev-pioneer-to-physical-ai-titan" },
+    { "date": "2026-04-04", "headline": "TSLA 주가 연초대비 -20% 하락, Q1 딜리버리 실망 지속", "significance": "Q1 358,023대 인도량이 시장 예상치를 하회하며 성장 둔화 우려 증대. 생산량이 딜리버리보다 5만대 초과해 수요 둔화 신호", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html" },
     { "date": "2026-04-03", "headline": "Model X/S 단종 결정, Cybercab에 올인", "significance": "25,000달러 저가 EV 계획 취소하고 Cybercab과 Optimus에 집중. 전통 EV에서 로봇택시로 사업 모델 완전 전환", "url": "https://techcrunch.com/2026/04/03/the-final-days-of-the-tesla-model-x-and-s-are-here-all-bets-are-on-the-cybercab/" },
-    { "date": "2026-04-04", "headline": "TradingView: 2H 차트 강세 다이버전스 형성", "significance": "기술적으로 반등 신호 포착. 주가 하락에도 모멘텀 지표는 개선되며 바닥 근접 가능성", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/" },
-    { "date": "2026-04-02", "headline": "Q1 인도량 358,000대, 기대치 미달로 주가 급락", "significance": "애널리스트 예상 365,645대를 밑돌며 성장 둔화 우려 증대. 2026년 들어 -20% 하락", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html" },
-    { "date": "2026-04-01", "headline": "Tesla $1,000 목표가, 자율주행 붐에 베팅", "significance": "247 Wall St.: Cybercab 양산 성공 시 주가 $1,000 달성 가능. 자율주행 시장 선점이 핵심", "url": "https://247wallst.com/investing/2026/04/01/teslas-path-to-1000-per-share-runs-through-the-autonomous-vehicle-boom/" }
+    { "date": "2026-04-02", "headline": "Tesla 2026년 최대 하락폭 기록", "significance": "Q1 실적 실망으로 하루 -5.4% 급락. 연초대비 누적 하락폭이 -20%를 돌파하며 투자심리 악화", "url": "https://www.techi.com/tesla-stock-price-prediction/" },
+    { "date": "2026-04-01", "headline": "247 Wall St: Tesla $1,000 목표가, 자율주행 붐에 베팅", "significance": "Cybercab 양산 성공 시 주가 $1,000 달성 가능. 자율주행 시장 선점이 핵심 성장 동력", "url": "https://247wallst.com/investing/2026/04/01/teslas-path-to-1000-per-share-runs-through-the-autonomous-vehicle-boom/" },
+    { "date": "2026-03-31", "headline": "Q1 실적 발표 4월 22일 예정", "significance": "Tesla Q1 2026 재무 결과를 시장 마감 후 발표 예정. 가이던스와 로봇택시 업데이트 주목", "url": "https://electrek.co/2026/04/02/tesla-tsla-q1-2026-delivery-results-misses-expectations/" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 397.0,
+    "consensusTarget": 397.29,
     "highTarget": 600.0,
-    "lowTarget": 25.28,
-    "upsidePercent": 5.3,
+    "lowTarget": 125.0,
+    "upsidePercent": 8.7,
     "buyCount": 12,
     "holdCount": 18,
-    "sellCount": 3,
-    "notableComment": "Wall Street 컨센서스: Hold, 33명 애널리스트 평균 $397. Wedbush는 여전히 $600 목표가 유지"
+    "sellCount": 10,
+    "notableComment": "Stock Analysis 30명 애널리스트 평균 $397.29. 범위가 $125-$600으로 극단적으로 벌어져 의견 분화 심각"
   },
 
   "risks": [
-    { "severity": "high", "title": "Q1 실적 부진으로 성장 둔화 현실화", "description": "358,000대 인도량 실망과 에너지 저장 38% 급감. 2년 연속 역성장 가능성으로 성장 스토리 의문" },
-    { "severity": "high", "title": "Model X/S 단종으로 제품 라인업 축소", "description": "기존 고급 모델 단종하고 Cybercab에 올인. 실패 시 대안 없는 위험한 베팅" },
-    { "severity": "medium", "title": "자율주행 규제와 기술적 위험", "description": "Cybercab 상용화가 규제 승인과 기술 완성도에 좌우. 안전 사고 발생 시 전체 비즈니스 모델 타격" },
-    { "severity": "medium", "title": "중국 EV 업체들과의 가격 경쟁 심화", "description": "BYD, Li Auto 등이 해외 진출 확대하며 가격 압박. 마진 축소 압력 증대" }
+    { "severity": "critical", "title": "Q1 실적 부진으로 성장 둔화 현실화", "description": "358,023대 인도량으로 2년 연속 역성장 지속. 생산량 초과로 수요 둔화 신호 뚜렷. 에너지 저장 사업도 38% 급감" },
+    { "severity": "high", "title": "Model X/S 단종으로 제품 라인업 축소", "description": "기존 고급 모델 단종하고 Cybercab에 올인. 실패 시 대안 없는 위험한 베팅. 25,000달러 저가 EV도 취소" },
+    { "severity": "high", "title": "연초대비 -20% 하락으로 투자심리 악화", "description": "Q1 실적 실망과 성장 둔화 우려로 급락. 시가총액 $1.35T으로 축소. 모멘텀 투자자들 이탈 가능성" },
+    { "severity": "medium", "title": "중국 EV 업체들과의 가격 경쟁 심화", "description": "BYD, Li Auto 등이 해외 진출 확대하며 가격 압박. 마진 축소 압력 증대. 중국 시장 점유율도 하락" }
   ],
 
   "buyReasons": [
-    { "title": "Cybercab 양산으로 로봇택시 시대 개막", "rationale": "4월 양산 시작 확정으로 자율주행 상용화 현실성 입증. 성공 시 완전히 새로운 비즈니스 모델 창출" },
-    { "title": "기술적 강세 다이버전스로 반등 신호", "rationale": "2H 차트에서 강세 다이버전스 형성. RSI 개선으로 바닥 근접 가능성" },
-    { "title": "20% 하락 후 매력적 진입 구간", "rationale": "Q1 실망 반영으로 단기 악재 상당 부분 소화. 장기 투자자에게 매력적 가격대" },
-    { "title": "유럽 회복 신호로 글로벌 바닥 확인", "rationale": "프랑스 203% 급증 등 유럽에서 뚜렷한 회복세. 글로벌 EV 수요 바닥 확인 가능성" }
+    { "title": "Cybercab 양산으로 로봇택시 시대 개막", "rationale": "4월 양산 시작 확정으로 자율주행 상용화 현실성 입증. 성공 시 완전히 새로운 비즈니스 모델 창출. $1,000 목표가도 가능" },
+    { "title": "-20% 하락 후 매력적 진입 구간", "rationale": "Q1 실망과 성장 둔화 우려가 주가에 과도하게 반영. 장기 투자자에게 매력적 가격대 형성" },
+    { "title": "애널리스트 목표가 $397로 9% 상승여력", "rationale": "현재 $365 대비 목표가까지 32달러 여유. 단기 악재 소화 후 회복 가능성" },
+    { "title": "기술적 반등 신호 감지", "rationale": "RSI 41.4 중립권, MACD 강세. TradingView에서 2시간 차트 강세 다이버전스 확인. 바닥권 진입" }
   ],
 
   "technicalPosition": {
     "week52High": 488.54,
     "week52Low": 295.33,
-    "currentPositionPercent": 42.4,
+    "currentPositionPercent": 36.3,
     "sma50": 374.44,
-    "sma50Signal": "above",
+    "sma50Signal": "below",
     "sma200": 392.13,
     "sma200Signal": "below",
-    "rsi": 45.2,
+    "rsi": 41.4,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Cybercab 4월 양산 시작이 확정되며 자율주행 상용화가 현실이 됐다. Model X/S 단종으로 로봇택시에 올인한다.",
-    "Q1 실적 실망에도 불구하고 TradingView에서 2H 강세 다이버전스 포착. 기술적 반등 신호가 나타났다.",
-    "$377.20으로 200일 평균($392) 아래지만 50일 평균은 넘어섰다. 컨센서스 목표가 $397로 5% 상승여력."
+    "Q1 딜리버리 358,023대로 시장 실망시키며 연초대비 -20% 급락했다. 생산량이 5만대 초과해 수요 둔화가 현실화됐다.",
+    "하지만 Cybercab 4월 양산 시작이 확정되며 자율주행 상용화가 현실이 됐다. Model X/S 단종하고 로봇택시에 올인한다.",
+    "현재 $365로 50일·200일 평균 모두 하회하지만 RSI 41.4로 반등 모색. 애널리스트 목표가 $397까지 9% 여유."
   ],
 
   "investmentVerdict": {
-    "stance": "buy",
-    "summary": "Cybercab 양산 시작으로 자율주행 상용화가 현실화되며 새로운 성장 모멘텀이 시작됐다. Q1 실적 부진은 단기적이고, 기술적으로도 강세 다이버전스가 나타나 반등 가능성이 높다. 위험한 베팅이지만 성공 시 보상이 극대화될 혁신적 전환점이다.",
+    "stance": "hold",
+    "summary": "Q1 실적 부진과 성장 둔화 우려로 단기적으로는 어려운 상황이다. 하지만 Cybercab 양산 시작이라는 중대한 변곡점이 왔다. 위험한 베팅이지만 성공 시 완전히 새로운 비즈니스 모델이 창출될 수 있다. 기술적으로도 반등 신호가 나타나고 있어 현재 보유자는 홀드, 신규 투자자는 분할 매수 전략이 적절하다.",
     "horizon": "3-6개월"
   },
 
   "sources": [
-    { "name": "Financial Content Tesla Deep-Dive", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-4-3-tesla-tsla-2026-deep-dive-from-ev-pioneer-to-physical-ai-titan", "description": "Cybercab 4월 양산 시작 확인" },
+    { "name": "CNBC Tesla Q1 딜리버리", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html", "description": "Q1 358,023대 딜리버리 실망과 주가 급락" },
     { "name": "TechCrunch Model X/S 단종", "url": "https://techcrunch.com/2026/04/03/the-final-days-of-the-tesla-model-x-and-s-are-here-all-bets-are-on-the-cybercab/", "description": "Model X/S 단종과 Cybercab 집중 전략" },
-    { "name": "TradingView 기술 분석", "url": "https://www.tradingview.com/symbols/NASDAQ-TSLA/", "description": "2H 강세 다이버전스 차트 분석" },
-    { "name": "247 Wall St. $1000 목표", "url": "https://247wallst.com/investing/2026/04/01/teslas-path-to-1000-per-share-runs-through-the-autonomous-vehicle-boom/", "description": "자율주행 성공 시 $1,000 목표가" },
-    { "name": "Stock Analysis 애널리스트", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "30명 애널리스트 컨센서스 $397.29" },
-    { "name": "Benzinga 애널리스트 등급", "url": "https://www.benzinga.com/quote/TSLA/analyst-ratings", "description": "33명 애널리스트 평균 $389.45, Wedbush $600" },
-    { "name": "Public.com 목표가", "url": "https://public.com/stocks/tsla/forecast-price-target", "description": "27명 애널리스트 Hold 컨센서스 $392.62" },
-    { "name": "Investing.com 기술 분석", "url": "https://www.investing.com/equities/tesla-motors-technical", "description": "50일/200일 이동평균 및 기술 지표" }
+    { "name": "Robinhood 주가 데이터", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "현재 주가 $361.26, P/E 335.31, 시가총액 $1.35T" },
+    { "name": "Stock Analysis 목표가", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "30명 애널리스트 평균 $397.29, Hold 등급" },
+    { "name": "MarketBeat 목표가", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "현재 목표가 $403.98" },
+    { "name": "TipRanks 기술적 분석", "url": "https://www.tipranks.com/stocks/tsla/technical-analysis", "description": "RSI 40.23, MACD -9.45, 기술적 지표" },
+    { "name": "AltIndex 기술적 데이터", "url": "https://altindex.com/ticker/tsla/technical-analysis", "description": "RSI 41.4 중립권, MACD 강세 모멘텀" },
+    { "name": "247 Wall St 장기 전망", "url": "https://247wallst.com/investing/2026/04/01/teslas-path-to-1000-per-share-runs-through-the-autonomous-vehicle-boom/", "description": "Cybercab 성공 시 $1,000 목표가" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "Cybercab 양산 시작, 자율주행 현실화",
-      "text": "$TSLA (4/4) Cybercab 4월 양산 시작 확정. Model X/S 단종하고 로봇택시에 올인. $377.20으로 기술적 반등 신호.\n\n1/4",
+      "hook": "TSLA -20% 급락, 하지만 Cybercab 양산 시작",
+      "text": "$TSLA (4/4) Q1 딜리버리 실망으로 연초대비 -20% 급락. 하지만 Cybercab 4월 양산 시작 확정. $365.\n\n1/4",
       "thread": [
-        "TechCrunch: 25,000달러 저가 EV 계획 취소하고 Cybercab과 Optimus에 모든 것을 걸었다. 위험하지만 혁신적.\n\n2/4",
-        "TradingView에서 2H 강세 다이버전스 포착. Q1 실망에도 기술적 반등 신호가 나타났다.\n\n3/4",
-        "컨센서스 목표가 $397(+5%). Cybercab 성공하면 완전히 새로운 비즈니스 모델 창출.\n\n4/4"
+        "358,023대 인도량이 시장 기대치를 밑돌며 생산량 5만대 초과. Model X/S도 단종하고 로봇택시에 올인.\n\n2/4",
+        "RSI 41.4로 중립권에서 반등 모색 중. 50일·200일 평균 모두 하회하지만 기술적 바닥 형성 가능성.\n\n3/4",
+        "애널리스트 목표가 $397(+9%). Cybercab 성공하면 $1,000도 가능. 위험하지만 변곡점.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "Cybercab 양산 시작, 자율주행 현실화",
-      "text": "$TSLA (4/4) $377.20(+4.6%)\n\nCybercab 4월 양산 시작이 공식 확정됐다. 핸들과 페달이 없는 완전 자율주행 로봇택시다. Model X/S는 단종하고 Cybercab에 모든 것을 걸었다.\n\nQ1 실적 실망에도 TradingView에서 2H 강세 다이버전스가 포착됐다. 기술적으로 반등 신호가 나타나고 있다.\n\n컨센서스 목표가 $397로 5% 상승여력. 위험한 베팅이지만 성공하면 완전히 새로운 시대가 열린다."
+      "hook": "TSLA -20% 급락, 하지만 Cybercab 양산 시작",
+      "text": "$TSLA (4/4) $365.45(-20% YTD)\n\nQ1 딜리버리 358,023대로 시장 실망. 생산량이 5만대 초과해 수요 둔화 우려가 현실화됐다. Model X/S는 단종하고 Cybercab에 모든 것을 걸었다.\n\n하지만 4월 Cybercab 양산 시작이 확정됐다. 핸들과 페달이 없는 완전 자율주행 로봇택시다. 위험한 베팅이지만 성공하면 새로운 시대가 열린다.\n\nRSI 41.4로 중립권에서 반등 모색. 목표가 $397로 9% 상승여력. 현재 보유자는 홀드, 신규는 분할 매수가 적절하다."
     },
     "telegram": {
-      "hook": "Cybercab 양산 시작, 자율주행 현실화",
-      "text": "Tesla 일일 분석 (4/4)\n\n가격: $377.20 (+4.6%)\n\n핵심 이슈\n- Cybercab 4월 양산 시작 공식 확정\n- Model X/S 단종, 로봇택시에 올인\n- 2H 차트에서 강세 다이버전스 포착\n- Q1 실적 부진에도 기술적 반등 신호\n\n주가 위치\n- 50일 평균($374) 위로 돌파\n- 200일 평균($392) 회복 시도 중\n- RSI 45.2로 중립 구간\n\n목표가: $397 (+5.3%)"
+      "hook": "TSLA -20% 급락, 하지만 Cybercab 양산 시작",
+      "text": "Tesla 일일 분석 (4/4)\n\n가격: $365.45 (-20% YTD)\n\n핵심 이슈\n- Q1 딜리버리 358,023대로 실망\n- 생산량 5만대 초과, 수요 둔화 신호\n- Model X/S 단종, Cybercab에 올인\n- 4월 양산 시작으로 자율주행 상용화\n\n기술적 지표\n- RSI 41.4로 중립권에서 반등 모색\n- 50일/200일 평균 모두 하회\n- 52주 고점 대비 -25% 하락\n\n목표가: $397 (+8.7%)"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "Cybercab 4월 양산 시작 확정",
-          "text": "$TSLA (4/4) Cybercab 4월 양산 시작 확정. Model X/S 단종하고 로봇택시에 올인. $377.20.\n\n1/4",
+          "hook": "TSLA Q1 실망으로 -20% 하락",
+          "text": "$TSLA (4/4) Q1 358,023대 딜리버리로 시장 실망. 연초대비 -20% 하락. Cybercab 4월 양산 시작. $365.\n\n1/4",
           "thread": [
-            "Financial Content, TechCrunch 확인: 핸들과 페달 없는 완전 자율주행 전용. 25,000달러 저가 EV 계획은 취소.\n\n2/4",
-            "기술적으로 2H 강세 다이버전스 형성. 50일 평균($374) 돌파했고 200일 평균($392) 회복 시도 중.\n\n3/4",
-            "33명 애널리스트 평균 $397(+5%). Cybercab 성공하면 새로운 비즈니스 모델 창출.\n\n4/4"
+            "생산량 5만대 초과로 수요 둔화 현실화. Model X/S 단종하고 25,000달러 저가 EV 계획도 취소.\n\n2/4",
+            "RSI 41.4 중립권. 50일 평균($374), 200일 평균($392) 모두 하회. 기술적 반등 대기.\n\n3/4",
+            "애널리스트 평균 $397(+9%). Stock Analysis 30명 컨센서스. Cybercab 성공 시 더 높이 상승 가능.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla의 극단적 선택: 올인 Cybercab",
-          "text": "$TSLA (4/4) Model X/S 버리고 Cybercab에 올인. 25,000달러 저가 EV도 포기. 진짜 '모 아니면 도' 작전. $377.20.\n\n1/4",
+          "hook": "Tesla의 극단적 선택이 시작됐다",
+          "text": "$TSLA (4/4) Q1 실망으로 -20% 폭망. 그런데 Model X/S 버리고 Cybercab에 올인한다니 대담하다. $365.\n\n1/4",
           "thread": [
-            "핸들도 페달도 없는 차를 만들겠다고? 4월부터 양산 시작한다니 정말 대담하다.\n\n2/4",
-            "Q1 실적은 실망스러웠지만 차트에서는 반등 신호가 나타났다. 시장이 먼저 눈치챈 건가?\n\n3/4",
-            "목표가 $397 vs 현재 $377. 20달러 차이가 '꿈'인지 '곧 현실'인지는 Cybercab이 답할 것.\n\n4/4"
+            "358,023대로 시장 실망시키고도 '핸들 없는 차' 만들겠다고? 정말 극단적 선택이다.\n\n2/4",
+            "RSI 41.4로 중립권이지만 차트는 여전히 밑으로. 반등할지 더 떨어질지는 Cybercab이 결정한다.\n\n3/4",
+            "목표가 $397 vs 현재 $365. 32달러 차이가 '꿈'인지 '현실'인지 4월에 알게 될 것.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla의 대담한 도전이 시작됐다",
-          "text": "$TSLA (4/4) Cybercab 양산 시작에 마음이 설렐 거다. 하지만 Model X/S 단종 소식에 불안할 수도. $377.20.\n\n1/4",
+          "hook": "Tesla 홀더들에게 힘든 시간",
+          "text": "$TSLA (4/4) 홀더들에게 정말 힘든 시간이다. -20% 하락에 Q1 실망까지. 하지만 Cybercab 희망은 남았다. $365.\n\n1/4",
           "thread": [
-            "Q1 실적 실망 후 또 다른 변곡점이 왔다. 위험하지만 성공하면 완전히 새로운 세상이 열린다.\n\n2/4",
-            "기술적으로 강세 다이버전스가 나타났다. 바닥을 확인하는 신호일 수 있어 희망적이다.\n\n3/4",
-            "목표가 $397까지 20달러 남았다. Cybercab이 성공하면 그보다 훨씬 높이 갈 수 있다.\n\n4/4"
+            "358,023대 실망은 아팠을 것이다. 생산량 초과까지 보니 수요 걱정도 당연하다.\n\n2/4",
+            "하지만 4월 Cybercab 양산 시작은 정말 의미 있다. 자율주행이 드디어 현실이 되는구나.\n\n3/4",
+            "RSI 41.4로 중립권에서 반등 모색 중. 목표가 $397까지 32달러 남았다. 조금만 더 버텨보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "Cybercab 4월 양산 시작 확정",
-          "text": "$TSLA (4/4) $377.20(+4.6%)\n\nCybercab 4월 양산 시작이 공식 확정됐다. Financial Content와 TechCrunch가 보도한 바에 따르면 핸들과 페달이 없는 완전 자율주행 전용 로봇택시다. Model X/S는 단종하고 25,000달러 저가 EV 계획도 취소했다.\n\n기술적으로 2H 차트에서 강세 다이버전스가 포착됐다. 50일 평균($374)을 돌파했고 200일 평균($392) 회복을 시도하고 있다.\n\n33명 애널리스트 평균 목표가 $397로 5% 상승여력이 있다. Cybercab 성공 시 완전히 새로운 비즈니스 모델이 창출될 것이다."
+          "hook": "TSLA Q1 실망으로 -20% 하락",
+          "text": "$TSLA (4/4) $365.45(-20% YTD)\n\nQ1 딜리버리 358,023대로 시장 예상치 하회. 생산량이 5만대 초과해 수요 둔화 우려가 현실화됐다. Model X/S 단종하고 25,000달러 저가 EV 계획도 취소했다.\n\n4월 Cybercab 양산 시작이 확정됐다. 핸들과 페달이 없는 완전 자율주행 로봇택시로 사업 모델을 완전히 전환한다.\n\nRSI 41.4로 중립권에서 반등 모색. 애널리스트 평균 목표가 $397로 9% 상승여력이 있다."
         },
         "witty": {
-          "hook": "Tesla의 극단적 선택: 올인 Cybercab",
-          "text": "$TSLA (4/4) $377.20(+4.6%)\n\nMusk가 진짜 극단적 선택을 했다. Model X/S 버리고 25,000달러 저가 EV도 포기한 채 Cybercab에 모든 것을 걸었다. 핸들도 페달도 없는 차를 만들겠다는 거다.\n\n4월부터 양산 시작한다니 정말 대담하다. Q1 실적은 실망스러웠지만 차트에서는 반등 신호가 나타났다. 시장이 먼저 눈치챈 건가?\n\n목표가 $397 vs 현재 $377. 20달러 차이가 '허황된 꿈'인지 '곧 올 현실'인지는 Cybercab이 답을 줄 것이다."
+          "hook": "Tesla의 극단적 선택이 시작됐다",
+          "text": "$TSLA (4/4) $365.45(-20% YTD)\n\nQ1 실망으로 -20% 폭망했는데도 Model X/S 버리고 Cybercab에 올인한다니 정말 대담하다. 358,023대로 시장 실망시키고도 '핸들 없는 차' 만들겠다는 거다.\n\n4월 양산 시작이라니 Musk의 극단적 선택이 현실이 된다. RSI 41.4로 중립권이지만 반등할지 더 떨어질지는 Cybercab이 결정한다.\n\n목표가 $397 vs 현재 $365. 32달러 차이가 '허황된 꿈'인지 '곧 올 현실'인지 지켜볼 일이다."
         },
         "empathy": {
-          "hook": "Tesla의 대담한 도전이 시작됐다",
-          "text": "$TSLA (4/4) $377.20(+4.6%)\n\nCybercab 양산 시작 소식에 마음이 설렐 거다. 드디어 자율주행이 현실이 되는구나 싶을 것이다. 하지만 Model X/S 단종 소식에는 불안할 수도 있다.\n\nQ1 실적 실망 후 또 다른 변곡점이 왔다. 위험한 베팅이지만 성공하면 완전히 새로운 세상이 열린다. 기술적으로도 강세 다이버전스가 나타나 희망적이다.\n\n목표가 $397까지 20달러 남았다. Cybercab이 진짜 성공한다면 그보다 훨씬 높이 갈 수 있을 것이다."
+          "hook": "Tesla 홀더들에게 힘든 시간",
+          "text": "$TSLA (4/4) $365.45(-20% YTD)\n\n홀더들에게 정말 힘든 시간이다. Q1 358,023대 실망에 -20% 급락까지. 생산량 초과로 수요 둔화 걱정도 당연하다.\n\n하지만 4월 Cybercab 양산 시작은 정말 의미 있다. 자율주행이 드디어 현실이 되는 순간이다. 위험하지만 성공하면 완전히 새로운 세상이 열린다.\n\nRSI 41.4로 중립권에서 반등 모색 중. 목표가 $397까지 32달러 남았다. 힘들겠지만 조금만 더 버텨보자."
         }
       }
     }
