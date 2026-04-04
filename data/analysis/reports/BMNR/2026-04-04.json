@@ -9,7 +9,7 @@
     "oneLiner": "세계 최대 상장 Ethereum 보유 기업, MicroStrategy의 Bitcoin 전략을 Ethereum에 적용한 디지털 자산 트레저리 회사",
     "description": "원래 Bitcoin 채굴 회사였으나 Tom Lee(Fundstrat 공동 창업자) 합류 후 Ethereum 트레저리 전략으로 피봇. ETH 공급량의 약 3.86%를 보유하며 총 크립토+현금 $10.7B 규모. MAVAN 스테이킹 플랫폼 론칭으로 연 $177M 스테이킹 수익 달성. NAV 대비 20% 할인 거래로 가치투자 기회 제공.",
     "howTheyMakeMoney": [
-      "ETH 트레저리: 4,660,903 ETH 보유 (~$9.58B at ~$2,055/ETH)",
+      "ETH 트레저리: 4,732,000 ETH 보유 (~$9.73B at ~$2,055/ETH)",
       "ETH 스테이킹 수익: 3,142,643 ETH 스테이킹, 연간 $177M 수익",
       "배당: 5.1% 배당수익률, 크립토 트레저리 기업 중 유일",
       "비트코인 보유: 197 BTC 보유 (부수적)"
@@ -24,172 +24,175 @@
 
   "keyMetrics": [
     { "name": "P/E (TTM)", "value": "적자 (-22.30x)", "interpretation": "GAAP 기준 적자. ETH 시가평가 손실이 주요 원인. 크립토 트레저리 기업은 NAV(순자산가치) 대비 할인/프리미엄으로 평가" },
-    { "name": "NAV 대비 할인율", "value": "-19.8%", "interpretation": "ETH 가격 기준 NAV 대비 19.8% 할인 거래 중. 실질 자산가치보다 저평가 상태" },
+    { "name": "NAV 대비 할인율", "value": "-22.3%", "interpretation": "현재가 $19.45 vs NAV 추정 $25+ 기준. 실질 자산가치보다 22% 할인 거래 중으로 가치투자 기회" },
     { "name": "배당수익률", "value": "5.1%", "interpretation": "크립토 트레저리 기업 중 유일한 배당. 스테이킹 수익으로 지급. 고금리 시대에 매력적" },
-    { "name": "ETH 보유량", "value": "4,660,903 ETH", "interpretation": "전체 ETH 공급의 3.86%. Tom Lee의 목표는 5%(6M ETH). 현재 78% 달성" },
-    { "name": "스테이킹 수익 (연간)", "value": "$177M", "interpretation": "3.14M ETH 스테이킹 중. MAVAN 론칭으로 제3자 수수료 절감, $300M+ 매출 목표" },
-    { "name": "시가총액 대비 ETH 가치", "value": "108%", "interpretation": "$8.83B 시총 vs $9.58B ETH 보유가치. 회사 가치가 ETH 보유량보다 낮은 이상한 상황" }
+    { "name": "ETH 보유량", "value": "4,732,000 ETH", "interpretation": "전체 ETH 공급의 3.86%. Tom Lee의 목표는 5%(6M ETH). 현재 79% 달성" },
+    { "name": "스테이킹 수익 (연간)", "value": "$177M → $266M", "interpretation": "3.14M ETH 스테이킹 중. MAVAN 론칭으로 제3자 수수료 절감, 목표 $266M" },
+    { "name": "ETH 가격 민감도", "value": "ETH $100 변동 = $4.7억", "interpretation": "ETH가 $100 움직이면 BMNR 자산가치가 $4.73억 변동. 극도의 ETH 레버리지" }
   ],
 
   "growthDrivers": [
     {
-      "title": "MAVAN 론칭으로 세계 최대 ETH 스테이킹 플랫폼 구축",
-      "description": "Tom Lee: 'Bitmine이 세계 최대 ETH 보유회사이므로, 론칭 직후 MAVAN이 세계 최대 ETH 스테이킹 플랫폼이 될 것'. 3.14M ETH 스테이킹으로 현재 연 $184M 수익"
+      "title": "MAVAN 스테이킹으로 3.14M ETH 운영, $177M → $266M 목표 (4/3)",
+      "description": "Simply Wall St: MAVAN 플랫폼으로 3.14M ETH($6.45B)를 직접 스테이킹. 제3자 수수료 절감으로 연간 수익이 $177M에서 최대 $266M까지 확대 목표"
     },
     {
-      "title": "스테이킹 수익 $272M 목표, 현재 $177M 달성 (1주일 전)",
-      "description": "Benzinga: 완전 가동 시 연간 스테이킹 리워드 $272M 목표 (2.83% 수익률 기준). 현재 $184M 연간화 수익으로 목표의 68% 달성"
+      "title": "ETH 보유량 4.732M개 달성, $10.7B 총 자산 (3/30)",
+      "description": "PR Newswire: ETH 보유량이 4.732M개에 달하며 $9.73B 상당. 총 크립토+현금 자산 $10.7B. 전체 ETH 공급의 3.86% 차지"
     },
     {
-      "title": "ETH 보유량 지속 확대, 최근 65,000 ETH 추가 매수",
-      "description": "2주 전 $138M으로 65,000+ ETH 추가 매수. Tom Lee의 목표 5%(6M ETH) 달성을 위해 지속적 매집. 현재 3.86%(4.66M ETH) 보유"
+      "title": "Tom Lee 5% 목표 향해 적극적 매집 지속",
+      "description": "Fundstrat 공동 창업자 Tom Lee가 ETH 전체 공급량의 5%(6M ETH) 목표로 지속적인 ETH 매집. 현재 79% 달성 상태"
     },
     {
-      "title": "크립토 트레저리 기업 중 유일한 배당 지급",
-      "description": "5.1% 배당수익률로 크립토 업계에서 독보적. 스테이킹 수익을 바탕으로 지속가능한 배당 정책 유지"
+      "title": "크립토 트레저리 기업 중 유일한 5.1% 배당",
+      "description": "스테이킹 수익을 기반으로 5.1% 배당수익률 제공. MicroStrategy, Coinbase 등 다른 크립토 기업들이 배당하지 않는 가운데 차별화"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "세계 최대 ETH 보유량, Tom Lee의 전략적 리더십, MAVAN 스테이킹 인프라, 배당 정책이 핵심 경쟁력",
+    "summary": "세계 최대 ETH 보유량, MAVAN 자체 스테이킹, 배당 지급의 3중 경쟁우위로 크립토 트레저리 시장을 주도",
     "moats": [
-      { "type": "Asset Scale", "description": "4.66M ETH 보유로 전체 공급량의 3.86%. 이 규모로 매집하려면 시장 충격 불가피" },
-      { "type": "Leadership", "description": "Tom Lee(Fundstrat 공동창업자)의 크립토 전문성과 전략적 비전" },
-      { "type": "Infrastructure", "description": "MAVAN: 미국 기반 검증인 네트워크로 제3자 수수료 절감, 수익성 극대화" },
-      { "type": "Dividend Moat", "description": "크립토 업계 유일한 배당주. 스테이킹 수익 기반 지속가능성" }
+      { "type": "ETH 독점 보유", "description": "4.732M ETH로 전체 공급량의 3.86% 차지. 상장사 중 최대 규모로 ETH 가격 상승 시 최대 수혜" },
+      { "type": "MAVAN 자체 인프라", "description": "Made-in-America Validator Network로 제3자 수수료 절감. $177M → $266M 스테이킹 수익 확대" },
+      { "type": "배당 유일성", "description": "크립토 기업 중 유일한 배당 지급. 5.1% 배당수익률로 보수적 투자자도 유치" },
+      { "type": "Tom Lee 전략", "description": "월스트리트 전설 Tom Lee가 직접 진두지휘. Fundstrat 공동 창업자의 크립토 전문성" }
     ],
     "competitors": [
-      { "name": "MicroStrategy (MSTR)", "detail": "Bitcoin 트레저리의 선구자. BTC에 집중하며 ETH 미보유" },
-      { "name": "Marathon Digital (MARA)", "detail": "Bitcoin 채굴업체. ETH 스테이킹 사업 미보유" },
-      { "name": "Coinbase (COIN)", "detail": "ETH 스테이킹 서비스 제공하나 자체 보유량은 제한적" },
-      { "name": "Galaxy Digital (GLXY)", "detail": "크립토 투자회사. ETH 보유하나 BMNR 규모에 미치지 못함" }
+      { "name": "MicroStrategy", "detail": "Bitcoin 트레저리 선두. 하지만 BMNR은 Ethereum에 집중하며 스테이킹 수익과 배당까지 제공" },
+      { "name": "Coinbase", "detail": "크립토 거래소. 수수료 수익 모델이지만 BMNR은 ETH 보유+스테이킹으로 더 안정적" },
+      { "name": "Galaxy Digital", "detail": "크립토 투자은행. 다양한 사업이지만 BMNR처럼 집중된 ETH 전략은 없음" }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-04-04", "headline": "BMNR 4.66M ETH 보유, $9.58B 가치로 시총 초과", "significance": "The Block 확인: ETH 보유가치 $9.58B가 시가총액 $8.83B를 넘어서는 이상한 할인 상황. NAV 대비 19.8% 할인 거래", "url": "https://www.theblock.co/treasuries/bmnr" },
-    { "date": "2026-03-28", "headline": "MAVAN 론칭으로 세계 최대 ETH 스테이킹 플랫폼 출현", "significance": "Tom Lee: 'MAVAN이 세계 최대 ETH 스테이킹 플랫폼이 될 것'. 글로벌 스테이킹 인프라 구축의 중요한 단계", "url": "https://www.theblock.co/post/395080/tom-lees-bitmine-debuts-mavan-ethereum-staking-platform-plans-to-shift-its-eth-activity" },
-    { "date": "2026-03-27", "headline": "BMNR 주가 7.9% 하락 후 MAVAN 론칭 발표", "significance": "Simply Wall St: MAVAN 론칭으로 3.1M ETH 스테이킹. 미국 기반 기관급 ETH 스테이킹 플랫폼 구축", "url": "https://robinhood.com/us/en/stocks/BMNR/" },
-    { "date": "2026-03-21", "headline": "Tom Lee의 Bitmine, 65,000+ ETH $138M 매수로 BMNR 3% 상승", "significance": "Benzinga: 3.14M ETH 스테이킹으로 $65억 가치, 연간 $184M 스테이킹 수익. 완전 가동 시 $272M 연간 리워드 목표", "url": "https://www.benzinga.com/crypto/cryptocurrency/26/03/51409189/tom-lees-bitmine-buys-65000-eth-for-138m-as-bmnr-surges-3" },
-    { "date": "2026-03-20", "headline": "세계 최대 ETH 보유회사, 차세대 최대 ETH 스테이킹 플랫폼 구축", "significance": "StockTwits: Tom Lee '론칭 직후 MAVAN이 세계 최대 ETH 스테이킹 플랫폼이 될 것'이라고 선언", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lee-says-mavan-will-be-largest-ethereum-staking-platform/cZ3YpSZRIS1" }
+    { "date": "2026-04-03", "headline": "MAVAN 플랫폼으로 3.14M ETH 스테이킹, $266M 목표", "significance": "자체 스테이킹 플랫폼으로 제3자 수수료 절감. 연간 $177M에서 $266M까지 수익 확대 목표", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/did-bitmines-mavan-ethereum-staking-push-just-shift-bitmine" },
+    { "date": "2026-03-30", "headline": "ETH 보유량 4.732M개, 총 자산 $10.7B 달성", "significance": "전체 ETH 공급의 3.86% 차지하며 상장사 중 최대 규모. Tom Lee의 5% 목표에 근접", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-732-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-7-billion-302728176.html" },
+    { "date": "2026-04-04", "headline": "BMNR 주가 $19.45, NAV 대비 22% 할인 거래", "significance": "실질 자산가치 대비 할인 거래로 가치투자 기회. ETH 가격 회복 시 수혜 확대", "url": "https://www.investing.com/equities/bitmine-immersion-tech" },
+    { "date": "2026-03-25", "headline": "MAVAN 스테이킹 플랫폼 정식 론칭 완료", "significance": "Made-in-America Validator Network로 자체 스테이킹 시작. Coinbase 의존도 탈피", "url": "https://robinhood.com/us/en/stocks/BMNR/" },
+    { "date": "2025-11-21", "headline": "크립토 기업 최초 연간 배당 $0.01 선언", "significance": "5.1% 배당수익률로 크립토 기업 중 유일. 스테이킹 수익 기반 지속 가능한 배당 정책", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-bmnr-reports-fy25-gaap-eps-of-13-39-made-in-america-validator-network-ethereum-staking-to-commence-in-early-2026-declares-annual-dividend-of-0-01--the-first-large-cap-crypto-company-to-pay-a-dividend-302623034.html" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 25.50,
+    "consensusTarget": 28.50,
     "highTarget": 35.00,
-    "lowTarget": 18.00,
-    "upsidePercent": 31.1,
+    "lowTarget": 22.00,
+    "upsidePercent": 46.5,
     "buyCount": 3,
     "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "크립토 트레저리 기업 평가의 어려움으로 애널리스트 커버리지 제한적. NAV 할인율 기준 평가 우세"
+    "sellCount": 0,
+    "notableComment": "NAV 기반 평가로 $25-30 적정가 추정. ETH 가격 회복과 MAVAN 효과로 상승여력 크다는 의견 지배적"
   },
 
   "risks": [
-    { "severity": "critical", "title": "ETH 가격 변동성에 극도로 노출", "description": "보유 자산의 95% 이상이 ETH. ETH 가격 1% 하락 시 회사 가치 직접 타격. 크립토 시장 급락 시 치명적" },
-    { "severity": "high", "title": "Tom Lee 의존도 극단적으로 높음", "description": "회사 전략과 크립토 전문성이 Tom Lee 개인에 과도하게 집중. 그의 이탈 시 회사 방향성 상실 위험" },
-    { "severity": "medium", "title": "NAV 할인 거래 지속 가능성", "description": "현재 19.8% 할인이지만 크립토 시장 변동성으로 할인폭 확대 가능. 유동성 부족으로 NAV 수렴 어려움" },
-    { "severity": "medium", "title": "ETH 스테이킹 규제 위험", "description": "미국 정부의 크립토 스테이킹 규제 강화 가능성. SEC나 CFTC의 정책 변화가 MAVAN 운영에 영향" }
+    { "severity": "critical", "title": "ETH 가격 급락 리스크", "description": "자산의 91%가 ETH로 구성. ETH 가격 10% 하락 시 NAV 9% 급감. 크립토 시장 변동성에 극도로 노출" },
+    { "severity": "high", "title": "규제 리스크", "description": "SEC 크립토 규제 강화나 스테이킹 제재 시 사업모델 타격. 특히 기관 스테이킹 규제 변화" },
+    { "severity": "medium", "title": "이더리움 2.0 변화", "description": "이더리움 네트워크 업그레이드나 스테이킹 보상률 변화 시 수익 모델 영향. 기술적 리스크" },
+    { "severity": "medium", "title": "Tom Lee 의존도", "description": "Tom Lee 개인에 대한 전략 의존도 높음. 핵심 인물 이탈 시 투자 매력도 급감 우려" }
   ],
 
   "buyReasons": [
-    { "title": "NAV 대비 19.8% 할인으로 가치투자 기회", "rationale": "ETH 보유가치 $9.58B > 시가총액 $8.83B. 실질 자산가치보다 저평가 상태로 매력적 진입점 제공" },
-    { "title": "MAVAN으로 세계 최대 ETH 스테이킹 플랫폼 구축", "rationale": "Tom Lee의 비전대로 ETH 최대 보유량을 활용한 스케일 경제. 제3자 수수료 절감으로 수익성 극대화" },
-    { "title": "크립토 업계 유일한 5.1% 배당수익률", "rationale": "스테이킹 수익 기반 지속가능한 배당. 고금리 환경에서 매력적인 수익률. 크립토 포트폴리오의 안정성 추가" },
-    { "title": "ETH 5% 목표 달성 시 희소성 프리미엄", "rationale": "현재 3.86%에서 5% 목표 달성 시 ETH 시장에서 절대적 영향력. 공급 부족으로 ETH 가격 상승 효과도 기대" }
+    { "title": "NAV 대비 22% 할인", "rationale": "실질 자산가치 $25+ 대비 $19.45에 거래. ETH 가격 회복 시 할인폭 해소로 수익 확대" },
+    { "title": "MAVAN 스테이킹 수익 증대", "rationale": "$177M → $266M로 스테이킹 수익 50% 확대 목표. 제3자 수수료 절감 효과" },
+    { "title": "크립토 유일 배당주", "rationale": "5.1% 배당수익률로 크립토 시장에서 유일한 배당 제공. 보수적 투자자도 유치" },
+    { "title": "ETH 상승 레버리지", "rationale": "ETH 가격 10% 상승 시 NAV 9% 증가. ETH 강세장에서 극대화된 수혜" }
   ],
 
   "technicalPosition": {
-    "week52High": 45.20,
-    "week52Low": 12.85,
-    "currentPositionPercent": 20.4,
-    "sma50": 22.15,
+    "week52High": 28.45,
+    "week52Low": 18.30,
+    "currentPositionPercent": 11.6,
+    "sma50": 21.80,
     "sma50Signal": "below",
-    "sma200": 26.80,
+    "sma200": 24.20,
     "sma200Signal": "below",
-    "rsi": 38.2,
+    "rsi": 38.7,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "ETH 보유가치 $9.58B가 시가총액 $8.83B보다 높은 이상한 할인 상황이 지속되고 있다. NAV 대비 19.8% 할인은 가치투자 기회다.",
-    "MAVAN 론칭으로 세계 최대 ETH 스테이킹 플랫폼을 구축했고, Tom Lee가 목표한 $272M 연간 수익의 68%인 $184M를 이미 달성했다.",
-    "현재 $19.45로 50일·200일 평균 모두 하회하지만 RSI 38.2로 과매도는 아니다. 목표가 $25.50까지 31% 상승여력."
+    "ETH 보유량 4.732M개로 전체 공급의 3.86%를 차지하며 MAVAN 스테이킹으로 연간 $266M 목표한다.",
+    "NAV 대비 22% 할인 거래로 가치투자 기회를 제공하지만 ETH 가격 변동에 극도로 민감하다.",
+    "현재 $19.45는 52주 범위 하단으로 크립토 시장 회복 시 목표가 $28.5(+46%) 달성 가능하다."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "ETH 보유가치보다 낮은 시가총액으로 거래되는 이상한 할인 상황이 핵심 매력이다. MAVAN 플랫폼으로 스테이킹 수익이 본격화되고 있으며, 크립토 업계 유일한 배당주라는 독특함도 있다. Tom Lee의 전략적 리더십과 ETH 시장에서의 절대적 규모가 장기 경쟁력을 보장한다. ETH 상승 시 이중 수혜가 가능한 구조다.",
+    "summary": "세계 최대 ETH 보유량과 MAVAN 스테이킹으로 차별화된 수익 모델을 갖추고 있다. NAV 대비 22% 할인은 매력적 진입 기회이지만 ETH 가격 변동성 리스크를 감안한 분할 매수가 바람직하다.",
     "horizon": "6개월-1년"
   },
 
   "sources": [
-    { "name": "The Block ETH 보유량", "url": "https://www.theblock.co/treasuries/bmnr", "description": "4,660,903 ETH 보유량과 $9.58B 가치 확인" },
-    { "name": "The Block MAVAN 론칭", "url": "https://www.theblock.co/post/395080/tom-lees-bitmine-debuts-mavan-ethereum-staking-platform-plans-to-shift-its-eth-activity", "description": "MAVAN 플랫폼 론칭과 Tom Lee 인터뷰" },
-    { "name": "Bitcoin.com MAVAN 분석", "url": "https://news.bitcoin.com/tom-lees-bitmine-launches-mavan-instantly-becomes-worlds-largest-ethereum-staking-platform/", "description": "세계 최대 ETH 스테이킹 플랫폼 출현" },
-    { "name": "Crypto Briefing MAVAN", "url": "https://cryptobriefing.com/ethereum-staking-platform-mavan-debut/", "description": "Tom Lee의 MAVAN 비전과 글로벌 확장 계획" },
-    { "name": "Benzinga ETH 매수", "url": "https://www.benzinga.com/crypto/cryptocurrency/26/03/51409189/tom-lees-bitmine-buys-65000-eth-for-138m-as-bmnr-surges-3", "description": "65,000+ ETH 매수와 $272M 스테이킹 목표" },
-    { "name": "StockTwits 분석", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lee-says-mavan-will-be-largest-ethereum-staking-platform/cZ3YpSZRIS1", "description": "Tom Lee의 세계 최대 스테이킹 플랫폼 선언" },
-    { "name": "Investing.com 주가", "url": "https://www.investing.com/equities/bitmine-immersion-tech", "description": "현재 주가 $19.45, 기술적 데이터" },
-    { "name": "Seeking Alpha 분석", "url": "https://seekingalpha.com/article/4855893-bitmine-immersion-the-ethereum-treasury-play-trading-below-book-value", "description": "NAV 대비 할인 분석과 기술적 목표가" }
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/bitmine-immersion-tech", "description": "BMNR 현재가 $19.45, 거래 데이터" },
+    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/did-bitmines-mavan-ethereum-staking-push-just-shift-bitmine", "description": "MAVAN 3.14M ETH 스테이킹, $266M 목표" },
+    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-732-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-7-billion-302728176.html", "description": "ETH 보유량 4.732M개, 총 자산 $10.7B" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "MAVAN 플랫폼 론칭, 스테이킹 확대" },
+    { "name": "Perplexity Finance", "url": "https://www.perplexity.ai/finance/BMNR", "description": "주가 데이터 및 재무 지표" },
+    { "name": "PR Newswire Dividend", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-bmnr-reports-fy25-gaap-eps-of-13-39-made-in-america-validator-network-ethereum-staking-to-commence-in-early-2026-declares-annual-dividend-of-0-01--the-first-large-cap-crypto-company-to-pay-a-dividend-302623034.html", "description": "크립토 기업 최초 연간 배당 발표" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/BMNR/", "description": "배당수익률 5.1%, P/E -22.30" },
+    { "name": "ETH Price Data", "url": "https://coinmarketcap.com/currencies/ethereum/", "description": "ETH 현재가 $2,055 기준 자산가치 계산" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "BMNR ETH 가치가 시총보다 높은 이상한 상황",
-      "text": "$BMNR (4/4) ETH 보유가치 $9.58B > 시가총액 $8.83B. 19.8% 할인 거래. MAVAN으로 세계 최대 스테이킹. $19.45.\n\n1/3",
+      "hook": "세계 최대 ETH 보유 기업, 22% 할인가에 거래 중",
+      "text": "$BMNR (4/4) 4.732M ETH 보유(전체의 3.86%)로 세계 최대. MAVAN 스테이킹으로 연간 $266M 목표. NAV 대비 22% 할인. $19.45.\n\n1/4",
       "thread": [
-        "4.66M ETH 보유(전체 공급 3.86%). Tom Lee가 MAVAN으로 연 $184M 스테이킹 수익, 목표 $272M의 68% 달성.\n\n2/3",
-        "목표가 $25.50(+31%). 크립토 업계 유일 5.1% 배당. ETH 상승 시 이중 수혜 구조.\n\n3/3"
+        "ETH 가격 $100 변동 시 자산가치 $4.7억 변동. 극도의 ETH 레버리지로 크립토 강세장에서 최대 수혜 예상.\n\n2/4",
+        "Tom Lee가 ETH 전체 공급 5%(6M개) 목표로 적극 매집 중. 현재 79% 달성. 크립토 기업 중 유일한 5.1% 배당.\n\n3/4",
+        "MAVAN 플랫폼으로 3.14M ETH 자체 스테이킹. $177M → $266M 수익 확대. 목표가 $28.5(+46%). ETH 회복 기다리는 중.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR ETH 가치가 시총보다 높은 이상한 상황",
-      "text": "$BMNR (4/4) $19.45\n\nETH 보유가치 $9.58B가 시가총액 $8.83B보다 높은 기묘한 할인 상황이다. 4.66M ETH로 전체 공급의 3.86%를 보유하며 NAV 대비 19.8% 할인 거래 중이다.\n\nMAVAN 론칭으로 세계 최대 ETH 스테이킹 플랫폼을 구축했다. Tom Lee의 목표 연 $272M 중 68%인 $184M 스테이킹 수익을 이미 달성했다.\n\n크립토 업계 유일한 5.1% 배당주. 목표가 $25.50으로 31% 상승여력. ETH 상승 시 이중 수혜 가능한 독특한 구조다."
+      "hook": "ETH의 MicroStrategy, 하지만 배당까지",
+      "text": "$BMNR (4/4) $19.45(-1.2%)\n\n비트민은 이더리움의 MicroStrategy라고 할 수 있다. 4.732M ETH를 보유해 전체 공급량의 3.86%를 차지한다. 하지만 MicroStrategy와 달리 5.1% 배당까지 지급한다는 점이 차별화다.\n\nMAVAN 플랫폼으로 3.14M ETH를 자체 스테이킹해 연간 $177M에서 $266M까지 수익 확대를 목표로 한다. 제3자 수수료 절감으로 마진을 늘리는 전략이다.\n\nETH 가격 $100 변동 시 자산가치가 $4.7억 변동하는 극도의 레버리지를 갖고 있다. 현재 NAV 대비 22% 할인 거래로 가치투자 기회를 제공한다. Tom Lee가 ETH 전체 공급의 5% 목표로 지속 매집 중이다.\n\n목표가 $28.5로 46% 상승여력이 있다. 다만 ETH 가격에 극도로 민감하니 분할 매수가 안전하다."
     },
     "telegram": {
-      "hook": "BMNR ETH 가치가 시총보다 높은 이상한 상황",
-      "text": "Bitmine 일일 분석 (4/4)\n\n가격: $19.45 (NAV 대비 -19.8%)\n\n핵심 이슈\n- ETH 보유가치 $9.58B > 시가총액 $8.83B\n- 4.66M ETH 보유 (전체 공급 3.86%)\n- MAVAN으로 세계 최대 스테이킹 플랫폼\n- 연 $184M 스테이킹 수익, 목표 $272M\n\n투자 포인트\n- 크립토 업계 유일 5.1% 배당\n- Tom Lee의 ETH 트레저리 전략\n- NAV 할인으로 가치투자 기회\n\n목표가: $25.50 (+31%)"
+      "hook": "세계 최대 ETH 보유사, 할인가 기회",
+      "text": "Bitmine Immersion 일일 분석 (4/4)\n\n가격: $19.45 (-1.2%)\n\n핵심 자산\n- ETH 보유: 4.732M개 (전체 공급 3.86%)\n- 총 자산: $10.7B\n- 스테이킹: 3.14M ETH → $266M 목표\n\n경쟁우위\n- 세계 최대 상장 ETH 보유 기업\n- MAVAN 자체 스테이킹 플랫폼\n- 크립토 기업 유일 5.1% 배당\n\n투자 포인트\n- NAV 대비 22% 할인 거래\n- ETH $100 변동 = 자산가치 $4.7억 변동\n- Tom Lee 5% 목표 (현재 79% 달성)\n\n목표가: $28.5 (+46%)\n리스크: ETH 가격 변동성"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR NAV 대비 19.8% 할인",
-          "text": "$BMNR (4/4) ETH 보유가치 $9.58B vs 시총 $8.83B로 19.8% 할인. MAVAN으로 세계 최대 스테이킹. $19.45.\n\n1/3",
+          "hook": "세계 최대 ETH 보유 기업, 22% 할인가에 거래 중",
+          "text": "$BMNR (4/4) 4.732M ETH 보유(전체의 3.86%)로 세계 최대. MAVAN 스테이킹으로 연간 $266M 목표. NAV 대비 22% 할인. $19.45.\n\n1/4",
           "thread": [
-            "4.66M ETH(전체 3.86%) 보유. Tom Lee 목표 $272M 중 68%인 $184M 연간 스테이킹 수익 달성.\n\n2/3",
-            "목표가 $25.50(+31%). 크립토 업계 유일 5.1% 배당. ETH 상승 시 보유량+스테이킹 이중 효과.\n\n3/3"
+            "ETH 가격 $100 변동 시 자산가치 $4.7억 변동. 극도의 ETH 레버리지로 크립토 강세장에서 최대 수혜 예상.\n\n2/4",
+            "Tom Lee가 ETH 전체 공급 5%(6M개) 목표로 적극 매집 중. 현재 79% 달성. 크립토 기업 중 유일한 5.1% 배당.\n\n3/4",
+            "MAVAN 플랫폼으로 3.14M ETH 자체 스테이킹. $177M → $266M 수익 확대. 목표가 $28.5(+46%). ETH 회복 기다리는 중.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "회사보다 ETH가 더 비싼 이상한 회사",
-          "text": "$BMNR (4/4) 보유한 ETH가 회사보다 비싸다. $9.58B ETH > $8.83B 시총. 이상하지 않나? $19.45.\n\n1/3",
+          "hook": "ETH 4.7M개 쌓아놓고 할인 세일 중인 회사",
+          "text": "$BMNR (4/4) ETH를 4.732M개나 쌓아놨는데 주가는 할인 세일 중이다. 실제 가치보다 22% 싸게 팔고 있다. $19.45.\n\n1/4",
           "thread": [
-            "Tom Lee가 ETH 4.66M개 쌓아놨는데 시장은 회사를 ETH보다 싸게 본다. 19.8% 할인이라니.\n\n2/3",
-            "MAVAN으로 연 $184M 벌어도 주가는 묵묵부답. 목표가 $25.50인데 언제 갈까?\n\n3/3"
+            "ETH 가격 $100만 오르면 자산가치가 $4.7억 늘어난다. 반대로 $100 떨어지면 $4.7억 날아간다. 극과 극이다.\n\n2/4",
+            "MicroStrategy가 비트코인 모으는 동안 이 회사는 이더리움 모았다. 게다가 5.1% 배당까지 준다. 차별화 성공.\n\n3/4",
+            "Tom Lee가 ETH 전체 공급의 5%까지 모으겠다고 한다. 현재 79% 달성. 목표가 $28.5로 46% 올라갈 여지가 있다.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR 홀더들 답답할 만하다",
-          "text": "$BMNR (4/4) 홀더들 답답할 만하다. ETH 가치보다 싸게 거래되는 게 말이 되나? 할인이 너무 크다. $19.45.\n\n1/3",
+          "hook": "크립토 겨울 속에서도 꿋꿋한 ETH 모으기",
+          "text": "$BMNR (4/4) 크립토 겨울이 길었지만 이 회사는 꿋꿋하게 ETH를 모으고 있다. 4.732M개까지 모았다. $19.45.\n\n1/4",
           "thread": [
-            "4.66M ETH 보유하고 MAVAN으로 연 $184M 벌어도 주가는 제자리걸음. 시장이 인정 안 한다.\n\n2/3",
-            "하지만 Tom Lee 전략은 확실하다. 목표가 $25.50으로 31% 여유. 조금만 기다려보자.\n\n3/3"
+            "ETH 가격이 오르락내리락해도 포기하지 않고 계속 모은다. Tom Lee의 5% 목표까지 79% 달성했다.\n\n2/4",
+            "MAVAN으로 직접 스테이킹해서 $266M 수익 목표다. 크립토 기업 중 유일하게 5.1% 배당도 준다. 인내심의 결과다.\n\n3/3",
+            "현재 NAV보다 22% 할인가다. 힘든 시장이지만 기회일 수도 있다. 목표가 $28.5까지 46% 여지. 함께 기다려보자.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR NAV 대비 19.8% 할인",
-          "text": "$BMNR (4/4) $19.45\n\nETH 보유가치 $9.58B가 시가총액 $8.83B를 넘어서는 기묘한 할인 상황이다. 4.66M ETH로 전체 공급의 3.86%를 보유하며 NAV 대비 19.8% 할인 거래 중이다.\n\nMAVAN 론칭으로 세계 최대 ETH 스테이킹 플랫폼을 구축했다. Tom Lee의 목표 연 $272M 중 68%인 $184M 스테이킹 수익을 달성했다.\n\n크립토 업계 유일한 5.1% 배당주. 목표가 $25.50으로 31% 상승여력이 있다."
+          "hook": "ETH의 MicroStrategy, 하지만 배당까지",
+          "text": "$BMNR (4/4) $19.45(-1.2%)\n\n비트민은 이더리움의 MicroStrategy라고 할 수 있다. 4.732M ETH를 보유해 전체 공급량의 3.86%를 차지한다. 하지만 MicroStrategy와 달리 5.1% 배당까지 지급한다는 점이 차별화다.\n\nMAVAN 플랫폼으로 3.14M ETH를 자체 스테이킹해 연간 $177M에서 $266M까지 수익 확대를 목표로 한다. 제3자 수수료 절감으로 마진을 늘리는 전략이다.\n\nETH 가격 $100 변동 시 자산가치가 $4.7억 변동하는 극도의 레버리지를 갖고 있다. 현재 NAV 대비 22% 할인 거래로 가치투자 기회를 제공한다. Tom Lee가 ETH 전체 공급의 5% 목표로 지속 매집 중이다.\n\n목표가 $28.5로 46% 상승여력이 있다. 다만 ETH 가격에 극도로 민감하니 분할 매수가 안전하다."
         },
         "witty": {
-          "hook": "회사보다 ETH가 더 비싼 이상한 회사",
-          "text": "$BMNR (4/4) $19.45\n\n보유한 ETH가 회사 자체보다 비싸다. $9.58B ETH 보유가치 vs $8.83B 시가총액이라니 이상하지 않나? Tom Lee가 ETH 4.66M개 쌓아놨는데 시장은 회사를 ETH보다 싸게 본다.\n\nMAVAN으로 연 $184M 스테이킹 수익 올리고 5.1% 배당도 주는데 19.8% 할인이라니. 시장이 뭘 놓치고 있는 걸까?\n\n목표가 $25.50인데 언제 갈지는 ETH와 시장의 기분 내키는 대로인 듯하다."
+          "hook": "ETH 포켓몬 마스터, 할인 중",
+          "text": "$BMNR (4/4) $19.45(-1.2%)\n\nETH 포켓몬을 4.732M마리 모은 회사다. 전 세계 ETH의 3.86%를 혼자 가지고 있다. 그런데 주식은 실제 가치보다 22% 할인 세일 중이다.\n\nMicroStrategy가 비트코인 모으는 동안, 이 회사는 이더리움 올인 전략을 택했다. 그것도 Tom Lee라는 월스트리트 전설이 직접 나섰다. 게다가 크립토 회사 중 유일하게 5.1% 배당까지 준다.\n\nETH 가격이 $100 움직이면 회사 자산가치가 $4.7억 변동한다. 완전한 ETH 레버리지 플레이다. MAVAN 플랫폼으로 자체 스테이킹해서 연간 $266M까지 수익 목표를 잡고 있다.\n\n목표가 $28.5로 46% 상승여력이 있지만, ETH 가격에 목숨 걸고 있으니 분할 매수가 현명하다. 크립토 겨울이 끝나면 봄이 온다."
         },
         "empathy": {
-          "hook": "BMNR 홀더들 답답할 만하다",
-          "text": "$BMNR (4/4) $19.45\n\n홀더들 정말 답답할 만하다. ETH 보유가치가 시가총액보다 높은데 주가는 제자리걸음이니까. 4.66M ETH 보유하고 MAVAN으로 연 $184M 벌어도 시장 인정을 못 받는다.\n\n하지만 Tom Lee의 ETH 트레저리 전략은 확실하다. 크립토 업계 유일한 배당주이고 세계 최대 스테이킹 플랫폼을 구축했다.\n\n목표가 $25.50으로 31% 여유가 있다. NAV 할인이 언젠가는 해소될 거다. 조금만 더 기다려보자."
+          "hook": "크립토 겨울 속 꿋꿋한 ETH 컬렉터",
+          "text": "$BMNR (4/4) $19.45(-1.2%)\n\n크립토 겨울이 정말 길었다. 많은 기업들이 손 털고 나갔지만, 이 회사는 오히려 ETH를 더 모았다. 지금 4.732M개까지 모았다.\n\nTom Lee가 이끄는 전략이 흔들리지 않는다. ETH 전체 공급의 5%까지 모으겠다는 목표에 현재 79% 달성했다. MAVAN 플랫폼으로 자체 스테이킹해서 $266M 수익을 노리고 있다.\n\n현재 NAV보다 22% 할인된 가격이다. 시장이 힘들어서 그렇지, 실제 가치는 더 높다. ETH 가격 $100 변동 시 자산가치가 $4.7억 움직이는 극한의 레버리지가 부담이긴 하다.\n\n목표가 $28.5까지 46% 상승여력이 있다. 크립토 기업 중 유일한 5.1% 배당도 위로가 된다. 긴 겨울이지만 함께 견뎌보자. 봄은 반드시 온다."
         }
       }
     }

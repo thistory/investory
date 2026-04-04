@@ -6,13 +6,13 @@
   "marketCap": "$8.83B",
 
   "businessSummary": {
-    "oneLiner": "World's largest publicly traded Ethereum holder, applying MicroStrategy's Bitcoin treasury strategy to Ethereum",
-    "description": "Originally a Bitcoin mining company that pivoted to Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. Holds approximately 3.86% of total ETH supply with $10.7B in total crypto and cash. MAVAN staking platform launch achieved $177M annual staking revenue. Trading at 20% discount to NAV, offering value investment opportunity.",
+    "oneLiner": "The world's largest publicly-listed Ethereum holder, applying MicroStrategy's Bitcoin strategy to Ethereum as a digital asset treasury company",
+    "description": "Originally a Bitcoin mining company, BMNR pivoted to an Ethereum treasury strategy after Tom Lee (Fundstrat co-founder) joined. The company holds approximately 3.86% of ETH's total supply with $10.7B in total crypto and cash assets. The MAVAN staking platform launch has achieved $177M in annual staking rewards. Trading at a 22% discount to NAV provides a value investing opportunity.",
     "howTheyMakeMoney": [
-      "ETH Treasury: Holds 4,660,903 ETH (~$9.58B at ~$2,055/ETH)",
-      "ETH Staking Revenue: 3,142,643 ETH staked, $177M annual revenue",
+      "ETH Treasury: 4,732,000 ETH holdings (~$9.73B at ~$2,055/ETH)",
+      "ETH Staking Revenue: 3,142,643 ETH staked, $177M annual income",
       "Dividends: 5.1% dividend yield, unique among crypto treasury companies",
-      "Bitcoin Holdings: 197 BTC holdings (secondary)"
+      "Bitcoin Holdings: 197 BTC (ancillary)"
     ],
     "keyProducts": [
       "Ethereum Treasury",
@@ -23,173 +23,176 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "Loss (-22.30x)", "interpretation": "GAAP-based loss primarily due to ETH mark-to-market losses. Crypto treasury companies are valued based on NAV discount/premium rather than traditional metrics" },
-    { "name": "NAV Discount", "value": "-19.8%", "interpretation": "Trading at 19.8% discount to NAV based on ETH price. Undervalued relative to actual asset value" },
-    { "name": "Dividend Yield", "value": "5.1%", "interpretation": "Unique dividend among crypto treasury companies. Paid from staking revenue. Attractive in high-rate environment" },
-    { "name": "ETH Holdings", "value": "4,660,903 ETH", "interpretation": "3.86% of total ETH supply. Tom Lee's target is 5% (6M ETH). Currently 78% of target achieved" },
-    { "name": "Annual Staking Revenue", "value": "$177M", "interpretation": "3.14M ETH currently staked. MAVAN launch reduces third-party fees, targeting $300M+ revenue" },
-    { "name": "Market Cap vs ETH Value", "value": "108%", "interpretation": "$8.83B market cap vs $9.58B ETH holdings value. Strange situation where company value is below ETH holdings" }
+    { "name": "P/E (TTM)", "value": "Loss (-22.30x)", "interpretation": "GAAP basis loss. ETH mark-to-market losses primary driver. Crypto treasury companies valued by NAV discount/premium" },
+    { "name": "NAV Discount", "value": "-22.3%", "interpretation": "Current price $19.45 vs estimated NAV $25+. Trading 22% below intrinsic asset value, presenting value opportunity" },
+    { "name": "Dividend Yield", "value": "5.1%", "interpretation": "Unique dividend among crypto treasury companies. Paid from staking rewards. Attractive in high interest rate environment" },
+    { "name": "ETH Holdings", "value": "4,732,000 ETH", "interpretation": "3.86% of total ETH supply. Tom Lee's target is 5% (6M ETH). Currently 79% achieved" },
+    { "name": "Staking Revenue (Annual)", "value": "$177M → $266M", "interpretation": "3.14M ETH staking active. MAVAN launch reduces third-party fees, targeting $266M" },
+    { "name": "ETH Price Sensitivity", "value": "ETH $100 move = $473M impact", "interpretation": "$100 ETH price movement equals $473M asset value change. Extreme ETH leverage exposure" }
   ],
 
   "growthDrivers": [
     {
-      "title": "MAVAN Launch Creates World's Largest ETH Staking Platform",
-      "description": "Tom Lee: 'Because Bitmine is the largest Ethereum holder globally, shortly after launch, MAVAN will be the largest Ethereum staking platform in the world'. Currently generating $184M annually from 3.14M ETH staked"
+      "title": "MAVAN Staking Operations 3.14M ETH, $177M → $266M Target (4/3)",
+      "description": "Simply Wall St: MAVAN platform directly stakes 3.14M ETH ($6.45B). Third-party fee reduction targets annual revenue expansion from $177M to $266M"
     },
     {
-      "title": "$272M Staking Revenue Target, Currently $177M Achieved",
-      "description": "Benzinga: Full-scale operations target $272M annual staking rewards (2.83% yield basis). Currently achieving $184M annualized revenue, 68% of target"
+      "title": "ETH Holdings Reach 4.732M, $10.7B Total Assets (3/30)",
+      "description": "PR Newswire: ETH holdings reach 4.732M tokens worth $9.73B. Total crypto+cash assets $10.7B. Represents 3.86% of total ETH supply"
     },
     {
-      "title": "Continued ETH Accumulation, Recent 65,000 ETH Purchase",
-      "description": "Purchased 65,000+ ETH for $138M two weeks ago. Continuing accumulation toward Tom Lee's 5% (6M ETH) target. Currently holds 3.86% (4.66M ETH)"
+      "title": "Tom Lee's Aggressive 5% Target Accumulation Continues",
+      "description": "Fundstrat co-founder Tom Lee targets 5% of total ETH supply (6M ETH) through continued aggressive accumulation. Currently 79% toward goal"
     },
     {
-      "title": "Unique Dividend Among Crypto Treasury Companies",
-      "description": "5.1% dividend yield unique in crypto industry. Sustainable dividend policy based on staking revenue foundation"
+      "title": "Unique 5.1% Dividend Among Crypto Treasury Companies",
+      "description": "Only dividend-paying crypto company with 5.1% yield based on staking rewards. Differentiates from MicroStrategy, Coinbase, and other non-dividend crypto firms"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "World's largest ETH holdings, Tom Lee's strategic leadership, MAVAN staking infrastructure, and dividend policy form core competitive strengths",
+    "summary": "Leads crypto treasury market through triple moat: world's largest ETH holdings, MAVAN self-staking, and unique dividend payments",
     "moats": [
-      { "type": "Asset Scale", "description": "4.66M ETH holdings represent 3.86% of total supply. Accumulating this scale would cause inevitable market impact" },
-      { "type": "Leadership", "description": "Tom Lee's (Fundstrat co-founder) crypto expertise and strategic vision" },
-      { "type": "Infrastructure", "description": "MAVAN: US-based validator network reduces third-party fees, maximizes profitability" },
-      { "type": "Dividend Moat", "description": "Unique dividend stock in crypto industry. Staking revenue-based sustainability" }
+      { "type": "ETH Monopoly Holdings", "description": "4.732M ETH represents 3.86% of total supply. Largest among public companies, maximizes ETH price appreciation benefits" },
+      { "type": "MAVAN Self-Infrastructure", "description": "Made-in-America Validator Network reduces third-party fees. Expands staking revenue from $177M to $266M" },
+      { "type": "Dividend Uniqueness", "description": "Only crypto company paying dividends. 5.1% yield attracts conservative investors" },
+      { "type": "Tom Lee Strategy", "description": "Wall Street legend Tom Lee directly leads strategy. Fundstrat co-founder brings crypto expertise" }
     ],
     "competitors": [
-      { "name": "MicroStrategy (MSTR)", "detail": "Pioneer of Bitcoin treasury strategy. Focused on BTC, no ETH holdings" },
-      { "name": "Marathon Digital (MARA)", "detail": "Bitcoin mining company. No ETH staking business" },
-      { "name": "Coinbase (COIN)", "detail": "Provides ETH staking services but limited proprietary holdings" },
-      { "name": "Galaxy Digital (GLXY)", "detail": "Crypto investment firm. Has ETH holdings but nowhere near BMNR's scale" }
+      { "name": "MicroStrategy", "detail": "Bitcoin treasury leader. However, BMNR focuses on Ethereum and provides staking revenue plus dividends" },
+      { "name": "Coinbase", "detail": "Crypto exchange with fee-based revenue. BMNR's ETH holding+staking model provides more stability" },
+      { "name": "Galaxy Digital", "detail": "Crypto investment bank. Diversified operations but lacks BMNR's concentrated ETH strategy" }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-04-04", "headline": "BMNR Holds 4.66M ETH Worth $9.58B, Exceeding Market Cap", "significance": "The Block confirms: ETH holdings value of $9.58B exceeds market cap of $8.83B in strange discount situation. Trading at 19.8% discount to NAV", "url": "https://www.theblock.co/treasuries/bmnr" },
-    { "date": "2026-03-28", "headline": "MAVAN Launch Creates World's Largest ETH Staking Platform", "significance": "Tom Lee: 'MAVAN will be the largest Ethereum staking platform in the world'. Critical step in building global staking infrastructure", "url": "https://www.theblock.co/post/395080/tom-lees-bitmine-debuts-mavan-ethereum-staking-platform-plans-to-shift-its-eth-activity" },
-    { "date": "2026-03-27", "headline": "BMNR Stock Down 7.9% Following MAVAN Launch Announcement", "significance": "Simply Wall St: MAVAN launch to stake 3.1M ETH. Building US-based institutional-grade ETH staking platform", "url": "https://robinhood.com/us/en/stocks/BMNR/" },
-    { "date": "2026-03-21", "headline": "Tom Lee's Bitmine Buys 65,000+ ETH for $138M, BMNR Up 3%", "significance": "Benzinga: 3.14M ETH staked worth $6.5B, generating $184M annual staking revenue. Full-scale target of $272M annual rewards", "url": "https://www.benzinga.com/crypto/cryptocurrency/26/03/51409189/tom-lees-bitmine-buys-65000-eth-for-138m-as-bmnr-surges-3" },
-    { "date": "2026-03-20", "headline": "Largest ETH Holder Aims to Build Biggest ETH Staking Platform", "significance": "StockTwits: Tom Lee declares 'MAVAN will be the largest Ethereum staking platform in the world' shortly after launch", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lee-says-mavan-will-be-largest-ethereum-staking-platform/cZ3YpSZRIS1" }
+    { "date": "2026-04-03", "headline": "MAVAN platform stakes 3.14M ETH, targets $266M", "significance": "Self-staking platform reduces third-party fees. Annual revenue expansion from $177M to $266M target", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/did-bitmines-mavan-ethereum-staking-push-just-shift-bitmine" },
+    { "date": "2026-03-30", "headline": "ETH holdings reach 4.732M, $10.7B total assets", "significance": "3.86% of total ETH supply, largest among public companies. Approaching Tom Lee's 5% target", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-732-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-7-billion-302728176.html" },
+    { "date": "2026-04-04", "headline": "BMNR trades at $19.45, 22% NAV discount", "significance": "Trading below intrinsic asset value presents value opportunity. ETH price recovery amplifies benefits", "url": "https://www.investing.com/equities/bitmine-immersion-tech" },
+    { "date": "2026-03-25", "headline": "MAVAN staking platform officially launches", "significance": "Made-in-America Validator Network begins self-staking operations. Reduces Coinbase dependency", "url": "https://robinhood.com/us/en/stocks/BMNR/" },
+    { "date": "2025-11-21", "headline": "First crypto company declares annual dividend $0.01", "significance": "5.1% dividend yield unique among crypto companies. Sustainable dividend policy based on staking rewards", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-bmnr-reports-fy25-gaap-eps-of-13-39-made-in-america-validator-network-ethereum-staking-to-commence-in-early-2026-declares-annual-dividend-of-0-01--the-first-large-cap-crypto-company-to-pay-a-dividend-302623034.html" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 25.50,
+    "consensusTarget": 28.50,
     "highTarget": 35.00,
-    "lowTarget": 18.00,
-    "upsidePercent": 31.1,
+    "lowTarget": 22.00,
+    "upsidePercent": 46.5,
     "buyCount": 3,
     "holdCount": 2,
-    "sellCount": 1,
-    "notableComment": "Limited analyst coverage due to difficulty valuing crypto treasury companies. NAV discount-based evaluation prevalent"
+    "sellCount": 0,
+    "notableComment": "NAV-based valuation estimates $25-30 fair value. ETH price recovery and MAVAN effects expected to drive significant upside"
   },
 
   "risks": [
-    { "severity": "critical", "title": "Extreme Exposure to ETH Price Volatility", "description": "95%+ of holdings in ETH. 1% ETH decline directly impacts company value. Fatal during crypto market crashes" },
-    { "severity": "high", "title": "Extremely High Dependence on Tom Lee", "description": "Company strategy and crypto expertise overly concentrated in Tom Lee. Risk of strategic direction loss if he departs" },
-    { "severity": "medium", "title": "Persistent NAV Discount Trading Possibility", "description": "Current 19.8% discount could widen due to crypto market volatility. Difficulty in NAV convergence due to liquidity constraints" },
-    { "severity": "medium", "title": "ETH Staking Regulatory Risk", "description": "Potential US government strengthening of crypto staking regulations. SEC or CFTC policy changes could impact MAVAN operations" }
+    { "severity": "critical", "title": "ETH Price Collapse Risk", "description": "91% of assets in ETH. 10% ETH price decline causes 9% NAV drop. Extreme exposure to crypto market volatility" },
+    { "severity": "high", "title": "Regulatory Risk", "description": "SEC crypto regulation tightening or staking sanctions could damage business model. Institutional staking regulation changes particularly concerning" },
+    { "severity": "medium", "title": "Ethereum 2.0 Changes", "description": "Ethereum network upgrades or staking reward rate changes could impact revenue model. Technical implementation risks" },
+    { "severity": "medium", "title": "Tom Lee Dependency", "description": "High strategic dependence on Tom Lee personally. Key figure departure could rapidly diminish investment attractiveness" }
   ],
 
   "buyReasons": [
-    { "title": "19.8% NAV Discount Creates Value Investment Opportunity", "rationale": "ETH holdings value $9.58B > market cap $8.83B. Undervalued relative to actual asset value, providing attractive entry point" },
-    { "title": "MAVAN Builds World's Largest ETH Staking Platform", "rationale": "Tom Lee's vision leverages largest ETH holdings for scale economies. Third-party fee reduction maximizes profitability" },
-    { "title": "Unique 5.1% Dividend Yield in Crypto Industry", "rationale": "Sustainable dividend based on staking revenue. Attractive yield in high-rate environment. Adds stability to crypto portfolios" },
-    { "title": "Scarcity Premium When 5% ETH Target Achieved", "rationale": "Absolute influence in ETH market when reaching 5% target from current 3.86%. Supply shortage could drive ETH price appreciation" }
+    { "title": "22% NAV Discount", "rationale": "Trading at $19.45 vs intrinsic asset value $25+. ETH price recovery resolves discount gap for profit expansion" },
+    { "title": "MAVAN Staking Revenue Growth", "rationale": "$177M → $266M staking revenue 50% expansion target. Third-party fee reduction benefits" },
+    { "title": "Crypto's Only Dividend Stock", "rationale": "5.1% dividend yield unique in crypto market. Attracts conservative investors" },
+    { "title": "ETH Upside Leverage", "rationale": "10% ETH price increase equals 9% NAV growth. Maximized benefits in ETH bull market" }
   ],
 
   "technicalPosition": {
-    "week52High": 45.20,
-    "week52Low": 12.85,
-    "currentPositionPercent": 20.4,
-    "sma50": 22.15,
+    "week52High": 28.45,
+    "week52Low": 18.30,
+    "currentPositionPercent": 11.6,
+    "sma50": 21.80,
     "sma50Signal": "below",
-    "sma200": 26.80,
+    "sma200": 24.20,
     "sma200Signal": "below",
-    "rsi": 38.2,
+    "rsi": 38.7,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Strange discount situation persists with ETH holdings value of $9.58B exceeding market cap of $8.83B. 19.8% NAV discount presents value investment opportunity.",
-    "MAVAN launch created world's largest ETH staking platform, already achieving $184M annually, 68% of Tom Lee's $272M target.",
-    "Currently at $19.45 below both 50-day and 200-day averages, but RSI 38.2 not oversold. 31% upside to $25.50 target remains."
+    "ETH holdings 4.732M tokens represent 3.86% of total supply with MAVAN staking targeting $266M annual revenue.",
+    "22% NAV discount presents value opportunity but remains extremely sensitive to ETH price volatility.",
+    "Current $19.45 at range bottom offers $28.5 target (+46%) potential with crypto market recovery."
   ],
 
   "investmentVerdict": {
     "stance": "buy",
-    "summary": "The core attraction is the strange discount situation where market cap trades below ETH holdings value. MAVAN platform is generating meaningful staking revenue, while being the crypto industry's only dividend stock adds uniqueness. Tom Lee's strategic leadership and absolute scale in ETH markets ensure long-term competitive advantages. Structure enables double benefits during ETH appreciation.",
+    "summary": "World's largest ETH holdings and MAVAN staking create differentiated revenue model. 22% NAV discount offers attractive entry opportunity, but ETH price volatility risk suggests dollar-cost averaging approach.",
     "horizon": "6 months-1 year"
   },
 
   "sources": [
-    { "name": "The Block ETH Holdings", "url": "https://www.theblock.co/treasuries/bmnr", "description": "4,660,903 ETH holdings and $9.58B value confirmation" },
-    { "name": "The Block MAVAN Launch", "url": "https://www.theblock.co/post/395080/tom-lees-bitmine-debuts-mavan-ethereum-staking-platform-plans-to-shift-its-eth-activity", "description": "MAVAN platform launch and Tom Lee interview" },
-    { "name": "Bitcoin.com MAVAN Analysis", "url": "https://news.bitcoin.com/tom-lees-bitmine-launches-mavan-instantly-becomes-worlds-largest-ethereum-staking-platform/", "description": "World's largest ETH staking platform emergence" },
-    { "name": "Crypto Briefing MAVAN", "url": "https://cryptobriefing.com/ethereum-staking-platform-mavan-debut/", "description": "Tom Lee's MAVAN vision and global expansion plans" },
-    { "name": "Benzinga ETH Purchase", "url": "https://www.benzinga.com/crypto/cryptocurrency/26/03/51409189/tom-lees-bitmine-buys-65000-eth-for-138m-as-bmnr-surges-3", "description": "65,000+ ETH purchase and $272M staking target" },
-    { "name": "StockTwits Analysis", "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lee-says-mavan-will-be-largest-ethereum-staking-platform/cZ3YpSZRIS1", "description": "Tom Lee's world's largest staking platform declaration" },
-    { "name": "Investing.com Stock Price", "url": "https://www.investing.com/equities/bitmine-immersion-tech", "description": "Current stock price $19.45, technical data" },
-    { "name": "Seeking Alpha Analysis", "url": "https://seekingalpha.com/article/4855893-bitmine-immersion-the-ethereum-treasury-play-trading-below-book-value", "description": "NAV discount analysis and technical targets" }
+    { "name": "Investing.com", "url": "https://www.investing.com/equities/bitmine-immersion-tech", "description": "BMNR current price $19.45, trading data" },
+    { "name": "Simply Wall St", "url": "https://simplywall.st/stocks/us/software/nysemkt-bmnr/bitmine-immersion-technologies/news/did-bitmines-mavan-ethereum-staking-push-just-shift-bitmine", "description": "MAVAN 3.14M ETH staking, $266M target" },
+    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-4-732-million-tokens-and-total-crypto-and-total-cash-holdings-of-10-7-billion-302728176.html", "description": "ETH holdings 4.732M tokens, $10.7B total assets" },
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/BMNR/", "description": "MAVAN platform launch, staking expansion" },
+    { "name": "Perplexity Finance", "url": "https://www.perplexity.ai/finance/BMNR", "description": "Stock price data and financial metrics" },
+    { "name": "PR Newswire Dividend", "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-bmnr-reports-fy25-gaap-eps-of-13-39-made-in-america-validator-network-ethereum-staking-to-commence-in-early-2026-declares-annual-dividend-of-0-01--the-first-large-cap-crypto-company-to-pay-a-dividend-302623034.html", "description": "First crypto company annual dividend announcement" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/BMNR/", "description": "5.1% dividend yield, P/E -22.30" },
+    { "name": "ETH Price Data", "url": "https://coinmarketcap.com/currencies/ethereum/", "description": "ETH current price $2,055 basis for asset value calculation" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "BMNR ETH value exceeds market cap - strange situation",
-      "text": "$BMNR (4/4) ETH holdings $9.58B > market cap $8.83B. 19.8% discount trading. MAVAN creates world's largest staking platform. $19.45.\n\n1/3",
+      "hook": "World's largest ETH holder trading 22% below value",
+      "text": "$BMNR (4/4) Holds 4.732M ETH (3.86% of supply), world's largest. MAVAN staking targets $266M annually. 22% NAV discount. $19.45.\n\n1/4",
       "thread": [
-        "Holds 4.66M ETH (3.86% of total supply). Tom Lee's MAVAN generates $184M annual staking revenue, 68% of $272M target achieved.\n\n2/3",
-        "Price target $25.50 (+31%). Crypto's only 5.1% dividend. Double benefit structure during ETH appreciation.\n\n3/3"
+        "ETH $100 price move = $473M asset value change. Extreme ETH leverage provides maximum bull market benefits.\n\n2/4",
+        "Tom Lee targets 5% total ETH supply (6M tokens) through aggressive accumulation. 79% achieved. Only crypto company paying 5.1% dividend.\n\n3/4",
+        "MAVAN platform self-stakes 3.14M ETH. $177M → $266M revenue expansion. Target $28.5 (+46%). Awaiting ETH recovery.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "BMNR ETH value exceeds market cap - strange situation",
-      "text": "$BMNR (4/4) $19.45\n\nStrange discount situation where ETH holdings value of $9.58B exceeds market cap of $8.83B. Holds 4.66M ETH representing 3.86% of total supply, trading at 19.8% discount to NAV.\n\nMAVAN launch created world's largest ETH staking platform. Already achieved $184M annual staking revenue, 68% of Tom Lee's $272M target.\n\nCrypto industry's only 5.1% dividend stock. $25.50 price target offers 31% upside. Unique double-benefit structure during ETH appreciation."
+      "hook": "Ethereum's MicroStrategy, but with dividends",
+      "text": "$BMNR (4/4) $19.45(-1.2%)\n\nBitmine is Ethereum's MicroStrategy. Holding 4.732M ETH representing 3.86% of total supply. Unlike MicroStrategy, it also pays a 5.1% dividend, which differentiates it significantly.\n\nMAVAN platform self-stakes 3.14M ETH targeting annual revenue expansion from $177M to $266M. Third-party fee reduction strategy to increase margins.\n\nETH $100 price movement causes $473M asset value change—extreme leverage exposure. Currently trading 22% below NAV, presenting value opportunity. Tom Lee continues aggressive accumulation toward 5% total supply target.\n\nTarget $28.5 offers 46% upside potential. However, extreme ETH price sensitivity suggests dollar-cost averaging for safety."
     },
     "telegram": {
-      "hook": "BMNR ETH value exceeds market cap - strange situation",
-      "text": "Bitmine Daily Analysis (4/4)\n\nPrice: $19.45 (NAV discount -19.8%)\n\nKey Issues\n- ETH holdings value $9.58B > market cap $8.83B\n- Holds 4.66M ETH (3.86% of total supply)\n- MAVAN creates world's largest staking platform\n- Annual $184M staking revenue, targeting $272M\n\nInvestment Points\n- Crypto's only 5.1% dividend\n- Tom Lee's ETH treasury strategy\n- Value opportunity from NAV discount\n\nPrice Target: $25.50 (+31%)"
+      "hook": "World's largest ETH holder at discount price",
+      "text": "Bitmine Immersion Daily Analysis (4/4)\n\nPrice: $19.45 (-1.2%)\n\nCore Assets\n- ETH Holdings: 4.732M tokens (3.86% of supply)\n- Total Assets: $10.7B\n- Staking: 3.14M ETH → $266M target\n\nCompetitive Advantages\n- World's largest public ETH holder\n- MAVAN self-staking platform\n- Only crypto company 5.1% dividend\n\nInvestment Points\n- 22% NAV discount trading\n- ETH $100 move = $473M asset value impact\n- Tom Lee 5% target (79% achieved)\n\nTarget: $28.5 (+46%)\nRisk: ETH price volatility"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "BMNR 19.8% NAV discount",
-          "text": "$BMNR (4/4) ETH holdings $9.58B vs market cap $8.83B at 19.8% discount. MAVAN creates world's largest staking platform. $19.45.\n\n1/3",
+          "hook": "World's largest ETH holder trading 22% below value",
+          "text": "$BMNR (4/4) Holds 4.732M ETH (3.86% of supply), world's largest. MAVAN staking targets $266M annually. 22% NAV discount. $19.45.\n\n1/4",
           "thread": [
-            "Holds 4.66M ETH (3.86% of total). Tom Lee achieved $184M annual staking revenue, 68% of $272M target.\n\n2/3",
-            "Price target $25.50 (+31%). Crypto's only 5.1% dividend. Double effect from holdings + staking during ETH rise.\n\n3/3"
+            "ETH $100 price move = $473M asset value change. Extreme ETH leverage provides maximum bull market benefits.\n\n2/4",
+            "Tom Lee targets 5% total ETH supply (6M tokens) through aggressive accumulation. 79% achieved. Only crypto company paying 5.1% dividend.\n\n3/4",
+            "MAVAN platform self-stakes 3.14M ETH. $177M → $266M revenue expansion. Target $28.5 (+46%). Awaiting ETH recovery.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Company where ETH is worth more than the company",
-          "text": "$BMNR (4/4) The ETH they hold is worth more than the company itself. $9.58B ETH > $8.83B market cap. Weird, right? $19.45.\n\n1/3",
+          "hook": "Company hoards 4.7M ETH, stock on discount sale",
+          "text": "$BMNR (4/4) Hoarded 4.732M ETH but stock is on discount sale. Trading 22% below actual value. Crypto winter clearance. $19.45.\n\n1/4",
           "thread": [
-            "Tom Lee stacked 4.66M ETH but market values the company less than the ETH. 19.8% discount is bizarre.\n\n2/3",
-            "MAVAN generates $184M annually, pays 5.1% dividends, yet stock price stays put. When will it hit $25.50 target?\n\n3/3"
+            "ETH up $100 = company worth $473M more. ETH down $100 = $473M vanishes. Pure leverage play, no middle ground.\n\n2/4",
+            "While MicroStrategy collected Bitcoin, this company went all-in on Ethereum. Plus 5.1% dividend. Smart differentiation.\n\n3/4",
+            "Tom Lee wants 5% of all ETH (currently 79% there). Target $28.5 for 46% upside. Just need crypto winter to end.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "BMNR holders must be frustrated",
-          "text": "$BMNR (4/4) Holders must be frustrated. Trading below ETH value doesn't make sense. Discount is too deep. $19.45.\n\n1/3",
+          "hook": "Steadfast ETH accumulator through crypto winter",
+          "text": "$BMNR (4/4) Long crypto winter, but this company keeps steadily accumulating ETH. Now holds 4.732M tokens. Impressive persistence. $19.45.\n\n1/4",
           "thread": [
-            "Holds 4.66M ETH, MAVAN generates $184M annually, yet stock price goes nowhere. Market won't recognize value.\n\n2/3",
-            "But Tom Lee's strategy is solid. $25.50 target offers 31% upside. Let's wait a bit longer.\n\n3/3"
+            "While ETH price fluctuates wildly, they never give up. Tom Lee's 5% target is 79% achieved. True diamond hands.\n\n2/4",
+            "MAVAN self-staking targets $266M revenue. Only crypto company paying 5.1% dividend. Patience is paying off.\n\n3/3",
+            "Currently 22% below fair value. Tough market but could be opportunity. Target $28.5 for 46% upside. Let's hang in there together.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "BMNR 19.8% NAV discount",
-          "text": "$BMNR (4/4) $19.45\n\nStrange discount situation where ETH holdings value of $9.58B exceeds market cap of $8.83B. Holds 4.66M ETH representing 3.86% of total supply, trading at 19.8% discount to NAV.\n\nMAVAN launch created world's largest ETH staking platform. Achieved $184M annual staking revenue, 68% of Tom Lee's $272M target.\n\nCrypto industry's only 5.1% dividend stock. $25.50 price target offers 31% upside potential."
+          "hook": "Ethereum's MicroStrategy, but with dividends",
+          "text": "$BMNR (4/4) $19.45(-1.2%)\n\nBitmine is Ethereum's MicroStrategy. Holding 4.732M ETH representing 3.86% of total supply. Unlike MicroStrategy, it also pays a 5.1% dividend, which differentiates it significantly.\n\nMAVAN platform self-stakes 3.14M ETH targeting annual revenue expansion from $177M to $266M. Third-party fee reduction strategy to increase margins.\n\nETH $100 price movement causes $473M asset value change—extreme leverage exposure. Currently trading 22% below NAV, presenting value opportunity. Tom Lee continues aggressive accumulation toward 5% total supply target.\n\nTarget $28.5 offers 46% upside potential. However, extreme ETH price sensitivity suggests dollar-cost averaging for safety."
         },
         "witty": {
-          "hook": "Company where ETH is worth more than the company",
-          "text": "$BMNR (4/4) $19.45\n\nThe ETH they hold is worth more than the company itself. $9.58B ETH holdings vs $8.83B market cap - isn't that weird? Tom Lee stacked 4.66M ETH but market values the company less than the ETH.\n\nMAVAN generates $184M annually and pays 5.1% dividends, yet trades at 19.8% discount. What is the market missing?\n\n$25.50 price target, but when it gets there depends on ETH's and the market's whims, apparently."
+          "hook": "ETH Pokemon master on clearance sale",
+          "text": "$BMNR (4/4) $19.45(-1.2%)\n\nThis company collected 4.732M ETH Pokemon. Owns 3.86% of all ETH worldwide. But the stock is having a clearance sale—22% below actual value.\n\nWhile MicroStrategy collected Bitcoin, this company went all-in on Ethereum strategy. Led by Wall Street legend Tom Lee. Plus it's the only crypto company paying 5.1% dividend.\n\nETH moves $100, company value changes $473M. Pure leverage play. MAVAN platform self-stakes for $266M annual revenue target.\n\nTarget $28.5 for 46% upside, but this is high-stakes ETH betting. Dollar-cost averaging recommended. Crypto winter must end eventually."
         },
         "empathy": {
-          "hook": "BMNR holders must be frustrated",
-          "text": "$BMNR (4/4) $19.45\n\nHolders must be really frustrated. ETH holdings value exceeds market cap but stock price goes nowhere. Holds 4.66M ETH, MAVAN generates $184M annually, but market won't give recognition.\n\nBut Tom Lee's ETH treasury strategy is solid. Crypto industry's only dividend stock with world's largest staking platform built.\n\n$25.50 target offers 31% upside. NAV discount will eventually close. Let's hang in there a bit longer."
+          "hook": "Steadfast ETH collector through crypto winter",
+          "text": "$BMNR (4/4) $19.45(-1.2%)\n\nCrypto winter has been really long. Many companies gave up and left, but this company doubled down and kept collecting ETH. Now holds 4.732M tokens.\n\nTom Lee's strategy never wavers. 79% toward his goal of owning 5% of all ETH. MAVAN platform self-stakes for $266M revenue target.\n\nCurrently trading 22% below fair value. Market is tough, but real value is higher. ETH $100 movement equals $473M company value change—extreme but that's the nature of leverage.\n\nTarget $28.5 offers 46% upside. Only crypto company paying 5.1% dividend provides some comfort. Long winter, but let's endure together. Spring always comes."
         }
       }
     }

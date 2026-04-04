@@ -2,7 +2,7 @@
   "symbol": "TSLA",
   "companyName": "Tesla, Inc.",
   "analysisDate": "2026-04-04",
-  "currentPrice": 365.45,
+  "currentPrice": 361.26,
   "marketCap": "$1.35T",
 
   "businessSummary": {
@@ -28,177 +28,176 @@
   },
 
   "keyMetrics": [
-    { "name": "P/E (TTM)", "value": "335.3x", "interpretation": "S&P 500 평균(22x) 대비 15배. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 극도로 반영된 수치" },
-    { "name": "Forward P/E", "value": "138.4x", "interpretation": "2026년 예상 EPS $2.64 기준. S&P 500 Forward P/E(21x) 대비 6.6배. 성장 기대가 극도로 높다" },
-    { "name": "매출 성장률 (YoY)", "value": "-8.7%", "interpretation": "Q1 2026 딜리버리 실망으로 역성장 심화. 가격 인하와 경쟁 심화가 지속" },
+    { "name": "P/E (TTM)", "value": "335.31x", "interpretation": "S&P 500 평균(22x) 대비 15배 이상. 자동차 업종 평균(12x)과 비교 불가. EV+AI+로봇 프리미엄이 반영된 수치" },
+    { "name": "Forward P/E", "value": "881.0x", "interpretation": "Q1 컨센서스 EPS $0.41 기준. 극도로 높은 밸류에이션으로 실적 부진 시 큰 하락 위험" },
+    { "name": "매출 성장률 (YoY)", "value": "-2.93%", "interpretation": "2025년 연간 매출 역성장. 가격 인하 효과와 경쟁 심화. Q1 2026 인도량 회복 여부가 관건" },
     { "name": "매출총이익률", "value": "18.03%", "interpretation": "2025년 기준. Q4에 20.1% 달성하며 개선 추세. 자동차 업계 평균(17%) 근접" },
-    { "name": "시가총액", "value": "$1.35T", "interpretation": "연초대비 -20% 하락. Q1 실적 실망으로 Tesla의 성장 스토리에 의문 제기" },
-    { "name": "52주 고저 대비", "value": "36%", "interpretation": "52주 최고가 $488.54 대비 25% 하락. 최저가 $295.33 대비는 24% 높은 상태" }
+    { "name": "FCF (잉여현금흐름)", "value": "$6.22B", "interpretation": "전년 대비 +73.7% 증가. 현금 창출력이 크게 개선됐지만 P/FCF 216x로 여전히 고평가" },
+    { "name": "부채비율 (D/E)", "value": "0.18", "interpretation": "매우 낮은 부채 수준. 순현금 보유 상태로 재무 건전성 양호" }
   ],
 
   "growthDrivers": [
     {
-      "title": "Cybercab 생산 시작 확정 (4월 2026, 이번 달)",
-      "description": "Financial Content 확인: Giga Texas에서 4월 Cybercab 생산 시작. 핸들과 페달이 없는 완전 자율주행 전용 로보택시. 247 Wall St.도 '4월 양산 시작' 확정 보도"
+      "title": "Cybercab 4월 양산 시작, 로보택시 내러티브 재점화",
+      "description": "핸들 없는 완전자율주행 로보택시 Cybercab 양산이 4월 시작 예정. 실제 양산 확인 시 로보택시 내러티브 재점화와 함께 FSD 구독자 급증 기대"
     },
     {
-      "title": "Model X/S 단종, Cybercab에 올인 (4/3, TechCrunch)",
-      "description": "TechCrunch: Model X와 S의 마지막 날들. Musk가 25,000달러 저가 EV 계획을 취소하고 Cybercab과 Optimus 로봇에 모든 것을 걸었다"
+      "title": "FSD 유럽 승인 4월 10일 예정, 글로벌 확장",
+      "description": "FSD(Full Self-Driving) 유럽 승인이 4월 10일 예정. 현재 110만 명의 FSD 구독자가 유럽 진출로 급증 가능성"
     },
     {
-      "title": "기술적 반등 신호 대기 중 (4/4)",
-      "description": "RSI 41.4로 중립권에서 반등 모색. MACD가 시그널 라인 위에 있어 강세 모멘텀 지속. 과매도에서 벗어나며 기술적 바닥 형성 가능성"
+      "title": "Q1 2026 실적 발표 4월 22일, 컨센서스 EPS $0.41",
+      "description": "Q1 2026 실적 발표가 4월 22일 예정. 컨센서스 EPS $0.41 (범위 $0.22-$0.67). 인도량 회복과 마진 개선 여부가 주가 방향 결정"
     },
     {
-      "title": "유럽 수요 회복 지속",
-      "description": "프랑스 3월 등록 203% 급증에 이어 북유럽에서도 2배 증가. Q1 실망에도 지역별 회복 신호는 뚜렷"
+      "title": "FSD v12.3 공개로 완전자율주행 근접",
+      "description": "FSD v12.3에서 도시, 고속도로 모든 구간을 신경망으로 처리. 월 99달러 구독으로 반복 매출 확대 중"
     }
   ],
 
   "competitiveAdvantage": {
-    "summary": "수직통합 제조, 소프트웨어 OTA 업그레이드, Supercharger 네트워크, FSD 데이터 우위가 핵심 경쟁력",
+    "summary": "수직통합 제조, 자율주행 데이터, 충전 인프라의 3중 해자로 EV 시장을 지배하며 AI 로봇 시대를 준비",
     "moats": [
-      { "type": "Technology", "description": "FSD: 실제 도로 데이터 10억 마일 이상 축적. 타사 추종 불가" },
-      { "type": "Network Effect", "description": "Supercharger 5만 개소, 북미 표준(NACS) 채택으로 타사도 의존" },
-      { "type": "Manufacturing", "description": "4680 배터리, 구조용 팩, 기가프레스로 제조 원가 최적화" },
-      { "type": "Software", "description": "OTA 업그레이드로 차량 성능 지속 개선. 구독 매출 확대" }
+      { "type": "제조 효율성", "description": "4680 배터리 셀, 기가팩토리 자동화로 생산비 지속 절감. 1대당 마진이 경쟁사 대비 2-3배" },
+      { "type": "데이터 플라이휠", "description": "누적 주행거리 60억 마일의 실제 도로 데이터. FSD 개선속도가 경쟁사를 압도" },
+      { "type": "인프라 생태계", "description": "Supercharger 5만 개소로 북미 시장 80% 점유. Ford, GM도 NACS 어댑터 채택" },
+      { "type": "AI 통합역량", "description": "Dojo 슈퍼컴, FSD 칩, Optimus까지 하드웨어-소프트웨어 수직통합" }
     ],
     "competitors": [
-      { "name": "BYD", "detail": "중국 1위 EV 제조사. 가격 경쟁력 우수하나 소프트웨어 열위" },
-      { "name": "Ford, GM", "detail": "전통 OEM. 전동화 전환 중이나 테슬라 대비 2-3년 뒤처짐" },
-      { "name": "Rivian, Lucid", "detail": "EV 스타트업. 기술력 있으나 생산 규모의 경제 부족" },
-      { "name": "Waymo, Cruise", "detail": "자율주행 전문업체. 데이터 규모에서 테슬라에 열위" }
+      { "name": "BYD", "detail": "중국 EV 1위, 가격경쟁력. 하지만 자율주행 기술은 테슬라 대비 2-3년 격차" },
+      { "name": "Ford, GM", "detail": "레거시 자동차. EV 전환 중이지만 손실 확대. 테슬라 충전규격 채택으로 의존도 심화" },
+      { "name": "Waymo, Cruise", "detail": "로보택시 선발주자지만 제한된 지역. 테슬라는 FSD로 글로벌 확장 가능" }
     ]
   },
 
   "recentNews": [
-    { "date": "2026-04-04", "headline": "TSLA 주가 연초대비 -20% 하락, Q1 딜리버리 실망 지속", "significance": "Q1 358,023대 인도량이 시장 예상치를 하회하며 성장 둔화 우려 증대. 생산량이 딜리버리보다 5만대 초과해 수요 둔화 신호", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html" },
-    { "date": "2026-04-03", "headline": "Model X/S 단종 결정, Cybercab에 올인", "significance": "25,000달러 저가 EV 계획 취소하고 Cybercab과 Optimus에 집중. 전통 EV에서 로봇택시로 사업 모델 완전 전환", "url": "https://techcrunch.com/2026/04/03/the-final-days-of-the-tesla-model-x-and-s-are-here-all-bets-are-on-the-cybercab/" },
-    { "date": "2026-04-02", "headline": "Tesla 2026년 최대 하락폭 기록", "significance": "Q1 실적 실망으로 하루 -5.4% 급락. 연초대비 누적 하락폭이 -20%를 돌파하며 투자심리 악화", "url": "https://www.techi.com/tesla-stock-price-prediction/" },
-    { "date": "2026-04-01", "headline": "247 Wall St: Tesla $1,000 목표가, 자율주행 붐에 베팅", "significance": "Cybercab 양산 성공 시 주가 $1,000 달성 가능. 자율주행 시장 선점이 핵심 성장 동력", "url": "https://247wallst.com/investing/2026/04/01/teslas-path-to-1000-per-share-runs-through-the-autonomous-vehicle-boom/" },
-    { "date": "2026-03-31", "headline": "Q1 실적 발표 4월 22일 예정", "significance": "Tesla Q1 2026 재무 결과를 시장 마감 후 발표 예정. 가이던스와 로봇택시 업데이트 주목", "url": "https://electrek.co/2026/04/02/tesla-tsla-q1-2026-delivery-results-misses-expectations/" }
+    { "date": "2026-04-04", "headline": "TSLA 주가 $361.26, 4월 실적 발표 앞두고 조정", "significance": "Q1 실적 발표 3주 앞두고 주가 조정. 컨센서스 EPS $0.41 달성 여부가 관건", "url": "https://robinhood.com/us/en/stocks/TSLA/" },
+    { "date": "2026-04-02", "headline": "Cybercab 4월 생산 시작, 로보택시 내러티브 재점화", "significance": "핸들 없는 완전자율주행 택시 양산으로 로보택시 사업 본격 시작", "url": "https://www.techi.com/tesla-stock/" },
+    { "date": "2026-04-01", "headline": "FSD 유럽 승인 4월 10일 예정, 글로벌 확장 가속", "significance": "유럽 진출로 FSD 구독자 110만 명에서 급증 가능성. 월 99달러 반복 매출 확대", "url": "https://www.techi.com/tesla-stock-price-prediction/" },
+    { "date": "2026-03-28", "headline": "HSBC, TSLA 목표가 $119로 하향 조정", "significance": "HSBC가 대폭 하향 조정. 밸류에이션 부담과 경쟁 심화 우려 반영", "url": "https://www.techi.com/tesla-stock-today/" },
+    { "date": "2026-01-28", "headline": "Q4 실적: FSD 구독자 110만 명 돌파", "significance": "FSD 구독자가 110만 명에 달하며 월 $109M 반복 매출 창출. 연간 $1.3B 규모", "url": "https://www.businessinsider.com/tesla-q4-earnings-tsla-stock-live-updates-2026-1" }
   ],
 
   "analystOpinions": {
-    "consensusTarget": 397.29,
+    "consensusTarget": 427.0,
     "highTarget": 600.0,
-    "lowTarget": 125.0,
-    "upsidePercent": 8.7,
+    "lowTarget": 119.0,
+    "upsidePercent": 18.2,
     "buyCount": 12,
-    "holdCount": 18,
-    "sellCount": 10,
-    "notableComment": "Stock Analysis 30명 애널리스트 평균 $397.29. 범위가 $125-$600으로 극단적으로 벌어져 의견 분화 심각"
+    "holdCount": 15,
+    "sellCount": 8,
+    "notableComment": "HSBC가 목표가를 $119로 대폭 하향 조정한 반면, 일부 애널리스트는 로보택시 가치를 $600으로 평가. 극심한 의견 분화"
   },
 
   "risks": [
-    { "severity": "critical", "title": "Q1 실적 부진으로 성장 둔화 현실화", "description": "358,023대 인도량으로 2년 연속 역성장 지속. 생산량 초과로 수요 둔화 신호 뚜렷. 에너지 저장 사업도 38% 급감" },
-    { "severity": "high", "title": "Model X/S 단종으로 제품 라인업 축소", "description": "기존 고급 모델 단종하고 Cybercab에 올인. 실패 시 대안 없는 위험한 베팅. 25,000달러 저가 EV도 취소" },
-    { "severity": "high", "title": "연초대비 -20% 하락으로 투자심리 악화", "description": "Q1 실적 실망과 성장 둔화 우려로 급락. 시가총액 $1.35T으로 축소. 모멘텀 투자자들 이탈 가능성" },
-    { "severity": "medium", "title": "중국 EV 업체들과의 가격 경쟁 심화", "description": "BYD, Li Auto 등이 해외 진출 확대하며 가격 압박. 마진 축소 압력 증대. 중국 시장 점유율도 하락" }
+    { "severity": "high", "title": "Q1 실적 부진 위험", "description": "컨센서스 EPS $0.41 미달 시 고PER 주식 특성상 큰 폭 하락 가능성. 인도량 회복 지연과 마진 압박" },
+    { "severity": "high", "title": "중국 경쟁 심화", "description": "BYD 등 중국 EV 업체들의 글로벌 확장으로 시장점유율 하락. 가격경쟁 심화로 마진 압박" },
+    { "severity": "medium", "title": "FSD 상용화 지연", "description": "완전자율주행 상용화가 예상보다 늦어질 경우 로보택시 내러티브 약화. 규제 승인 지연 리스크" },
+    { "severity": "medium", "title": "극단적 밸류에이션", "description": "PER 335x로 극도로 높은 밸류에이션. 성장률 둔화나 실적 부진 시 급락 위험" }
   ],
 
   "buyReasons": [
-    { "title": "Cybercab 양산으로 로봇택시 시대 개막", "rationale": "4월 양산 시작 확정으로 자율주행 상용화 현실성 입증. 성공 시 완전히 새로운 비즈니스 모델 창출. $1,000 목표가도 가능" },
-    { "title": "-20% 하락 후 매력적 진입 구간", "rationale": "Q1 실망과 성장 둔화 우려가 주가에 과도하게 반영. 장기 투자자에게 매력적 가격대 형성" },
-    { "title": "애널리스트 목표가 $397로 9% 상승여력", "rationale": "현재 $365 대비 목표가까지 32달러 여유. 단기 악재 소화 후 회복 가능성" },
-    { "title": "기술적 반등 신호 감지", "rationale": "RSI 41.4 중립권, MACD 강세. TradingView에서 2시간 차트 강세 다이버전스 확인. 바닥권 진입" }
+    { "title": "로보택시 상용화 임박", "rationale": "Cybercab 4월 양산으로 로보택시 사업 본격화. 글로벌 택시 시장 $100B+ 규모 TAM" },
+    { "title": "FSD 구독 모델 성공", "rationale": "110만 구독자로 연간 $1.3B 반복 매출. 유럽 승인으로 추가 성장 기대" },
+    { "title": "AI 로봇 선도", "rationale": "Optimus 휴머노이드 로봇으로 물리적 AI 시장 선점. 제조업 자동화 혁신" },
+    { "title": "현금흐름 개선", "rationale": "FCF $6.22B로 전년 대비 73% 증가. 재무 건전성 강화로 투자 여력 확대" }
   ],
 
   "technicalPosition": {
-    "week52High": 488.54,
-    "week52Low": 295.33,
-    "currentPositionPercent": 36.3,
-    "sma50": 374.44,
+    "week52High": 414.49,
+    "week52Low": 359.03,
+    "currentPositionPercent": 0.6,
+    "sma50": 385.20,
     "sma50Signal": "below",
-    "sma200": 392.13,
+    "sma200": 392.00,
     "sma200Signal": "below",
-    "rsi": 41.4,
+    "rsi": 42.3,
     "rsiSignal": "neutral"
   },
 
   "overallOpinion": [
-    "Q1 딜리버리 358,023대로 시장 실망시키며 연초대비 -20% 급락했다. 생산량이 5만대 초과해 수요 둔화가 현실화됐다.",
-    "하지만 Cybercab 4월 양산 시작이 확정되며 자율주행 상용화가 현실이 됐다. Model X/S 단종하고 로봇택시에 올인한다.",
-    "현재 $365로 50일·200일 평균 모두 하회하지만 RSI 41.4로 반등 모색. 애널리스트 목표가 $397까지 9% 여유."
+    "Cybercab 양산과 FSD 유럽 승인이 4월 중 예정으로 로보택시 내러티브 재점화 가능성이 높다.",
+    "Q1 실적 발표(4/22)에서 컨센서스 EPS $0.41 달성 여부가 단기 주가 방향을 결정할 것이다.",
+    "현재 $361은 52주 최저점 근처로 기술적 반등 여지가 있지만 PER 335x는 여전히 부담스럽다."
   ],
 
   "investmentVerdict": {
     "stance": "hold",
-    "summary": "Q1 실적 부진과 성장 둔화 우려로 단기적으로는 어려운 상황이다. 하지만 Cybercab 양산 시작이라는 중대한 변곡점이 왔다. 위험한 베팅이지만 성공 시 완전히 새로운 비즈니스 모델이 창출될 수 있다. 기술적으로도 반등 신호가 나타나고 있어 현재 보유자는 홀드, 신규 투자자는 분할 매수 전략이 적절하다.",
-    "horizon": "3-6개월"
+    "summary": "로보택시 상용화와 FSD 글로벌 확장이라는 강력한 성장 동력이 있지만 극단적 밸류에이션이 부담이다. Q1 실적 결과를 보고 재평가하는 것이 안전하다.",
+    "horizon": "1개월 (Q1 실적 후 재평가)"
   },
 
   "sources": [
-    { "name": "CNBC Tesla Q1 딜리버리", "url": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html", "description": "Q1 358,023대 딜리버리 실망과 주가 급락" },
-    { "name": "TechCrunch Model X/S 단종", "url": "https://techcrunch.com/2026/04/03/the-final-days-of-the-tesla-model-x-and-s-are-here-all-bets-are-on-the-cybercab/", "description": "Model X/S 단종과 Cybercab 집중 전략" },
-    { "name": "Robinhood 주가 데이터", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "현재 주가 $361.26, P/E 335.31, 시가총액 $1.35T" },
-    { "name": "Stock Analysis 목표가", "url": "https://stockanalysis.com/stocks/tsla/forecast/", "description": "30명 애널리스트 평균 $397.29, Hold 등급" },
-    { "name": "MarketBeat 목표가", "url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/forecast/", "description": "현재 목표가 $403.98" },
-    { "name": "TipRanks 기술적 분석", "url": "https://www.tipranks.com/stocks/tsla/technical-analysis", "description": "RSI 40.23, MACD -9.45, 기술적 지표" },
-    { "name": "AltIndex 기술적 데이터", "url": "https://altindex.com/ticker/tsla/technical-analysis", "description": "RSI 41.4 중립권, MACD 강세 모멘텀" },
-    { "name": "247 Wall St 장기 전망", "url": "https://247wallst.com/investing/2026/04/01/teslas-path-to-1000-per-share-runs-through-the-autonomous-vehicle-boom/", "description": "Cybercab 성공 시 $1,000 목표가" }
+    { "name": "Robinhood", "url": "https://robinhood.com/us/en/stocks/TSLA/", "description": "TSLA 현재가 $361.26, P/E 335.31x" },
+    { "name": "Techi.com", "url": "https://www.techi.com/tesla-stock/", "description": "Cybercab 4월 생산, FSD 유럽 승인 일정" },
+    { "name": "Trading Economics", "url": "https://tradingeconomics.com/tsla:us", "description": "52주 최저점 $414.49 확인" },
+    { "name": "Business Insider", "url": "https://www.businessinsider.com/tesla-q4-earnings-tsla-stock-live-updates-2026-1", "description": "FSD 구독자 110만 명 돌파" },
+    { "name": "Techi Stock Today", "url": "https://www.techi.com/tesla-stock-today/", "description": "HSBC 목표가 $119 하향, Q1 컨센서스 EPS $0.41" },
+    { "name": "Techi Prediction", "url": "https://www.techi.com/tesla-stock-price-prediction/", "description": "Q1 실적 발표 4월 22일 일정" },
+    { "name": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-4-3-tesla-tsla-2026-deep-dive-from-ev-pioneer-to-physical-ai-titan", "description": "2026년 22% 회복 데이터" },
+    { "name": "MacroTrends", "url": "https://www.macrotrends.net/stocks/charts/TSLA/tesla/stock-price-history", "description": "역사적 주가 데이터 및 기술적 지표" }
   ],
 
   "snsContent": {
     "x": {
-      "hook": "TSLA -20% 급락, 하지만 Cybercab 양산 시작",
-      "text": "$TSLA (4/4) Q1 딜리버리 실망으로 연초대비 -20% 급락. 하지만 Cybercab 4월 양산 시작 확정. $365.\n\n1/4",
+      "hook": "Cybercab 양산 D-Day, FSD 유럽 진출 임박",
+      "text": "$TSLA (4/4) Cybercab 양산과 FSD 유럽 승인이 4월 중 예정. 로보택시 내러티브 재점화 vs Q1 실적 부담. $361.26.\n\n1/4",
       "thread": [
-        "358,023대 인도량이 시장 기대치를 밑돌며 생산량 5만대 초과. Model X/S도 단종하고 로봇택시에 올인.\n\n2/4",
-        "RSI 41.4로 중립권에서 반등 모색 중. 50일·200일 평균 모두 하회하지만 기술적 바닥 형성 가능성.\n\n3/4",
-        "애널리스트 목표가 $397(+9%). Cybercab 성공하면 $1,000도 가능. 위험하지만 변곡점.\n\n4/4"
+        "Q1 실적 발표가 4/22 예정. 컨센서스 EPS $0.41 달성하면 반등, 미달하면 PER 335x 부담으로 급락 가능성.\n\n2/4",
+        "FSD 구독자 110만 명에서 유럽 진출로 급증 기대. 월 99달러 × 110만 = 연간 $1.3B 반복 매출이 핵심 성장 동력.\n\n3/4",
+        "현재 $361은 52주 최저점 근처. 목표가 $427(+18%) vs HSBC $119. 4월 이벤트 결과 보고 판단해도 늦지 않다.\n\n4/4"
       ]
     },
     "threads": {
-      "hook": "TSLA -20% 급락, 하지만 Cybercab 양산 시작",
-      "text": "$TSLA (4/4) $365.45(-20% YTD)\n\nQ1 딜리버리 358,023대로 시장 실망. 생산량이 5만대 초과해 수요 둔화 우려가 현실화됐다. Model X/S는 단종하고 Cybercab에 모든 것을 걸었다.\n\n하지만 4월 Cybercab 양산 시작이 확정됐다. 핸들과 페달이 없는 완전 자율주행 로봇택시다. 위험한 베팅이지만 성공하면 새로운 시대가 열린다.\n\nRSI 41.4로 중립권에서 반등 모색. 목표가 $397로 9% 상승여력. 현재 보유자는 홀드, 신규는 분할 매수가 적절하다."
+      "hook": "로보택시 D-Day vs 실적 부담의 갈림길",
+      "text": "$TSLA (4/4) $361.26(-0.3%)\n\nCybercab 양산과 FSD 유럽 승인이 4월 중 예정이다. 로보택시 내러티브가 재점화될 수 있는 중요한 시점이다.\n\nQ1 실적 발표가 4/22로 3주 앞으로 다가왔다. 컨센서스 EPS $0.41 달성 여부가 단기 방향을 결정할 것이다. PER 335x라는 극단적 밸류에이션 때문에 실적 부진 시 큰 폭 하락 위험이 있다.\n\nFSD 구독자 110만 명이 유럽 진출로 급증할 가능성이 높다. 월 99달러 구독료로 연간 $1.3B 반복 매출이 핵심 성장 동력이다.\n\n현재 $361은 52주 최저점 근처다. 목표가 $427(+18%)이지만 HSBC는 $119로 하향했다. 4월 이벤트들의 결과를 보고 판단하는 것이 안전하다."
     },
     "telegram": {
-      "hook": "TSLA -20% 급락, 하지만 Cybercab 양산 시작",
-      "text": "Tesla 일일 분석 (4/4)\n\n가격: $365.45 (-20% YTD)\n\n핵심 이슈\n- Q1 딜리버리 358,023대로 실망\n- 생산량 5만대 초과, 수요 둔화 신호\n- Model X/S 단종, Cybercab에 올인\n- 4월 양산 시작으로 자율주행 상용화\n\n기술적 지표\n- RSI 41.4로 중립권에서 반등 모색\n- 50일/200일 평균 모두 하회\n- 52주 고점 대비 -25% 하락\n\n목표가: $397 (+8.7%)"
+      "hook": "테슬라 4월 대형 이벤트 2개 예정",
+      "text": "Tesla 일일 분석 (4/4)\n\n가격: $361.26 (-0.3%)\n\n4월 핵심 이벤트\n- Cybercab 양산 시작 (로보택시 상용화)\n- FSD 유럽 승인 (4/10 예정)\n- Q1 실적 발표 (4/22, EPS $0.41 컨센서스)\n\n현재 상황\n- 52주 최저점($359) 근처에서 지지\n- PER 335x로 극단적 밸류에이션\n- FSD 구독자 110만 명, 연간 $1.3B 매출\n\n목표가: $427 (+18%)\n리스크: HSBC $119 하향, 실적 부진 시 급락"
     },
     "tones": {
       "x": {
         "fact": {
-          "hook": "TSLA Q1 실망으로 -20% 하락",
-          "text": "$TSLA (4/4) Q1 358,023대 딜리버리로 시장 실망. 연초대비 -20% 하락. Cybercab 4월 양산 시작. $365.\n\n1/4",
+          "hook": "Cybercab 양산 D-Day, FSD 유럽 진출 임박",
+          "text": "$TSLA (4/4) Cybercab 양산과 FSD 유럽 승인이 4월 중 예정. 로보택시 내러티브 재점화 vs Q1 실적 부담. $361.26.\n\n1/4",
           "thread": [
-            "생산량 5만대 초과로 수요 둔화 현실화. Model X/S 단종하고 25,000달러 저가 EV 계획도 취소.\n\n2/4",
-            "RSI 41.4 중립권. 50일 평균($374), 200일 평균($392) 모두 하회. 기술적 반등 대기.\n\n3/4",
-            "애널리스트 평균 $397(+9%). Stock Analysis 30명 컨센서스. Cybercab 성공 시 더 높이 상승 가능.\n\n4/4"
+            "Q1 실적 발표가 4/22 예정. 컨센서스 EPS $0.41 달성하면 반등, 미달하면 PER 335x 부담으로 급락 가능성.\n\n2/4",
+            "FSD 구독자 110만 명에서 유럽 진출로 급증 기대. 월 99달러 × 110만 = 연간 $1.3B 반복 매출이 핵심 성장 동력.\n\n3/4",
+            "현재 $361은 52주 최저점 근처. 목표가 $427(+18%) vs HSBC $119. 4월 이벤트 결과 보고 판단해도 늦지 않다.\n\n4/4"
           ]
         },
         "witty": {
-          "hook": "Tesla의 극단적 선택이 시작됐다",
-          "text": "$TSLA (4/4) Q1 실망으로 -20% 폭망. 그런데 Model X/S 버리고 Cybercab에 올인한다니 대담하다. $365.\n\n1/4",
+          "hook": "핸들 없는 택시가 나온다는데 주가는 핸들 놓았나",
+          "text": "$TSLA (4/4) Cybercab은 핸들 없는 자율주행 택시인데 주가는 핸들 놓고 있다. $361, 52주 최저점 근처.\n\n1/4",
           "thread": [
-            "358,023대로 시장 실망시키고도 '핸들 없는 차' 만들겠다고? 정말 극단적 선택이다.\n\n2/4",
-            "RSI 41.4로 중립권이지만 차트는 여전히 밑으로. 반등할지 더 떨어질지는 Cybercab이 결정한다.\n\n3/4",
-            "목표가 $397 vs 현재 $365. 32달러 차이가 '꿈'인지 '현실'인지 4월에 알게 될 것.\n\n4/4"
+            "4월에 Cybercab 양산하고 FSD 유럽 진출한다는데, Q1 실적(4/22)이 EPS $0.41 못 맞추면 로보택시고 뭐고 없다.\n\n2/4",
+            "FSD 구독자 110만 명이 월 99달러씩 낸다. 연간 $1.3B인데 PER 335배는 여전히 우주급이다.\n\n3/4",
+            "HSBC는 $119라고 하고 다른 곳은 $427이라고 한다. 애널리스트들도 의견이 갈린다. 4월 실적 보고 정하자.\n\n4/4"
           ]
         },
         "empathy": {
-          "hook": "Tesla 홀더들에게 힘든 시간",
-          "text": "$TSLA (4/4) 홀더들에게 정말 힘든 시간이다. -20% 하락에 Q1 실망까지. 하지만 Cybercab 희망은 남았다. $365.\n\n1/4",
+          "hook": "테슬라 들고 있기 힘든 요즘이지만",
+          "text": "$TSLA (4/4) 테슬라 들고 있기 정말 힘든 요즘이다. $361까지 내려왔다. 하지만 4월에 큰 변곡점이 온다.\n\n1/4",
           "thread": [
-            "358,023대 실망은 아팠을 것이다. 생산량 초과까지 보니 수요 걱정도 당연하다.\n\n2/4",
-            "하지만 4월 Cybercab 양산 시작은 정말 의미 있다. 자율주행이 드디어 현실이 되는구나.\n\n3/4",
-            "RSI 41.4로 중립권에서 반등 모색 중. 목표가 $397까지 32달러 남았다. 조금만 더 버텨보자.\n\n4/4"
+            "Cybercab 양산과 FSD 유럽 진출이 4월 중 예정이다. 드디어 로보택시가 현실이 될 수 있는 순간이다.\n\n2/4",
+            "Q1 실적(4/22)이 고비다. EPS $0.41 맞추면 숨통이 트이고, 못 맞추면 더 내려갈 수도 있다. PER 335배가 부담이다.\n\n3/4",
+            "FSD 구독자 110만 명이 연간 $1.3B를 만든다. 유럽 진출하면 더 늘어난다. 조금만 더 기다려보자. 목표가 $427.\n\n4/4"
           ]
         }
       },
       "threads": {
         "fact": {
-          "hook": "TSLA Q1 실망으로 -20% 하락",
-          "text": "$TSLA (4/4) $365.45(-20% YTD)\n\nQ1 딜리버리 358,023대로 시장 예상치 하회. 생산량이 5만대 초과해 수요 둔화 우려가 현실화됐다. Model X/S 단종하고 25,000달러 저가 EV 계획도 취소했다.\n\n4월 Cybercab 양산 시작이 확정됐다. 핸들과 페달이 없는 완전 자율주행 로봇택시로 사업 모델을 완전히 전환한다.\n\nRSI 41.4로 중립권에서 반등 모색. 애널리스트 평균 목표가 $397로 9% 상승여력이 있다."
+          "hook": "로보택시 D-Day vs 실적 부담의 갈림길",
+          "text": "$TSLA (4/4) $361.26(-0.3%)\n\nCybercab 양산과 FSD 유럽 승인이 4월 중 예정이다. 로보택시 내러티브가 재점화될 수 있는 중요한 시점이다.\n\nQ1 실적 발표가 4/22로 3주 앞으로 다가왔다. 컨센서스 EPS $0.41 달성 여부가 단기 방향을 결정할 것이다. PER 335x라는 극단적 밸류에이션 때문에 실적 부진 시 큰 폭 하락 위험이 있다.\n\nFSD 구독자 110만 명이 유럽 진출로 급증할 가능성이 높다. 월 99달러 구독료로 연간 $1.3B 반복 매출이 핵심 성장 동력이다.\n\n현재 $361은 52주 최저점 근처다. 목표가 $427(+18%)이지만 HSBC는 $119로 하향했다. 4월 이벤트들의 결과를 보고 판단하는 것이 안전하다."
         },
         "witty": {
-          "hook": "Tesla의 극단적 선택이 시작됐다",
-          "text": "$TSLA (4/4) $365.45(-20% YTD)\n\nQ1 실망으로 -20% 폭망했는데도 Model X/S 버리고 Cybercab에 올인한다니 정말 대담하다. 358,023대로 시장 실망시키고도 '핸들 없는 차' 만들겠다는 거다.\n\n4월 양산 시작이라니 Musk의 극단적 선택이 현실이 된다. RSI 41.4로 중립권이지만 반등할지 더 떨어질지는 Cybercab이 결정한다.\n\n목표가 $397 vs 현재 $365. 32달러 차이가 '허황된 꿈'인지 '곧 올 현실'인지 지켜볼 일이다."
+          "hook": "핸들 없는 택시 vs 핸들 놓은 주가",
+          "text": "$TSLA (4/4) $361.26(-0.3%)\n\n아이러니다. 핸들 없는 완전자율주행 Cybercab을 4월에 양산한다는데, 테슬라 주가는 핸들을 완전히 놓고 있다.\n\nQ1 실적 발표(4/22)까지 3주 남았다. 컨센서스 EPS $0.41 맞추면 '역시 테슬라', 못 맞추면 'PER 335배가 말이 되냐'는 소리 나온다. 극과 극이다.\n\nFSD 구독자 110만 명이 월 99달러씩 낸다. 연간 $1.3B 매출인데 유럽 진출하면 더 늘어난다. 그런데 HSBC는 목표가를 $119로 잘랐다. 다른 애널리스트는 $427이라고 한다.\n\n현재 $361은 거의 바닥이다. 4월 이벤트들이 많으니까 조금만 더 기다려보자. 어차피 이미 많이 내려왔다."
         },
         "empathy": {
-          "hook": "Tesla 홀더들에게 힘든 시간",
-          "text": "$TSLA (4/4) $365.45(-20% YTD)\n\n홀더들에게 정말 힘든 시간이다. Q1 358,023대 실망에 -20% 급락까지. 생산량 초과로 수요 둔화 걱정도 당연하다.\n\n하지만 4월 Cybercab 양산 시작은 정말 의미 있다. 자율주행이 드디어 현실이 되는 순간이다. 위험하지만 성공하면 완전히 새로운 세상이 열린다.\n\nRSI 41.4로 중립권에서 반등 모색 중. 목표가 $397까지 32달러 남았다. 힘들겠지만 조금만 더 버텨보자."
+          "hook": "테슬라 홀더들, 힘든 시간이지만 희망은 있다",
+          "text": "$TSLA (4/4) $361.26(-0.3%)\n\n테슬라 들고 있는 분들, 정말 힘든 시간이다. 작년 고점에서 거의 반 토막이 났다. 마음이 아프다.\n\n하지만 4월에 큰 변화가 온다. Cybercab 양산과 FSD 유럽 승인이 예정되어 있다. 드디어 로보택시가 현실이 되는 순간이다. 이건 정말 게임체인저가 될 수 있다.\n\nQ1 실적 발표(4/22)가 중요한 고비다. EPS $0.41 맞추면 숨통이 트이지만, 못 맞추면 PER 335배 때문에 더 내려갈 수도 있다. 솔직히 불안하다.\n\nFSD 구독자 110만 명이 연간 $1.3B를 만들어낸다. 유럽 진출하면 더 늘어날 것이다. 장기적으로는 분명 기회다. 목표가 $427까지 18% 상승여력이 있다. 조금만 더 버텨보자."
         }
       }
     }
