@@ -41,6 +41,10 @@ if [ -f "data/analysis/reports/${FIRST_TICKER}/${TODAY}.json" ]; then
   exit 0
 fi
 
+# Step 0: Pull latest code (skills, scripts)
+log "[Step 0] Pulling latest code..."
+git pull --ff-only 2>&1 | tee -a "$LOG_FILE" || true
+
 # Step 1: Fetch stock data (code, ~5 sec)
 log "[Step 1/5] Fetching stock data..."
 if node scripts/fetch-stock-data.js $TICKERS 2>&1 | tee -a "$LOG_FILE"; then
@@ -120,6 +124,7 @@ else
 fi
 
 if ssh investory "sudo systemctl restart investory" 2>&1 | tee -a "$LOG_FILE"; then
+  sleep 5
   HEALTH=$(ssh investory "curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/" 2>/dev/null)
   log "  Service restarted. Health: $HEALTH"
 else
