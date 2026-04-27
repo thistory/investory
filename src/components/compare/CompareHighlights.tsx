@@ -1,18 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-
-interface ScoreData {
-  totalScore: number;
-  grade: string;
-  scores: {
-    quality: number;
-    moat: number;
-    value: number;
-    growth: number;
-    momentum: number;
-  };
-}
+import type { ScoreData, StockScoreData } from "@/lib/hooks/useScore";
+import { isCryptoScore } from "@/lib/hooks/useScore";
 
 interface CompareHighlightsProps {
   leftSymbol: string;
@@ -33,37 +23,45 @@ export function CompareHighlights({
     return null;
   }
 
+  // Crypto scores use a different axis system, so fundamental side-by-side
+  // comparison (quality/moat/value/growth/momentum) does not apply.
+  if (isCryptoScore(leftScore) || isCryptoScore(rightScore)) {
+    return null;
+  }
+  const leftStock: StockScoreData = leftScore;
+  const rightStock: StockScoreData = rightScore;
+
   const winner =
-    leftScore.totalScore > rightScore.totalScore ? "left" : "right";
-  const diff = Math.abs(leftScore.totalScore - rightScore.totalScore);
+    leftStock.totalScore > rightStock.totalScore ? "left" : "right";
+  const diff = Math.abs(leftStock.totalScore - rightStock.totalScore);
   const winnerSymbol = winner === "left" ? leftSymbol : rightSymbol;
   const loserSymbol = winner === "left" ? rightSymbol : leftSymbol;
 
   const comparisons = [
     {
       label: t("quality"),
-      left: leftScore.scores.quality,
-      right: rightScore.scores.quality,
+      left: leftStock.scores.quality,
+      right: rightStock.scores.quality,
     },
     {
       label: t("moat"),
-      left: leftScore.scores.moat,
-      right: rightScore.scores.moat,
+      left: leftStock.scores.moat,
+      right: rightStock.scores.moat,
     },
     {
       label: t("value"),
-      left: leftScore.scores.value,
-      right: rightScore.scores.value,
+      left: leftStock.scores.value,
+      right: rightStock.scores.value,
     },
     {
       label: t("growth"),
-      left: leftScore.scores.growth,
-      right: rightScore.scores.growth,
+      left: leftStock.scores.growth,
+      right: rightStock.scores.growth,
     },
     {
       label: t("momentum"),
-      left: leftScore.scores.momentum,
-      right: rightScore.scores.momentum,
+      left: leftStock.scores.momentum,
+      right: rightStock.scores.momentum,
     },
   ];
 

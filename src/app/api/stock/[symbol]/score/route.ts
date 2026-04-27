@@ -1,17 +1,23 @@
 import { NextRequest, NextResponse } from "next/server";
 import { cache } from "@/lib/cache/redis";
-import { getStockProfile } from "@/lib/services/providers/finnhub";
+import { getStockProfile, getCryptoMarketNews } from "@/lib/services/providers/finnhub";
 import {
   getCompanyOverview,
   getTechnicalIndicators,
 } from "@/lib/services/providers/alpha-vantage";
 import {
+  getCryptoQuote,
+  getCryptoCandles,
+} from "@/lib/services/providers/coingecko";
+import {
   finnhubLimiter,
   alphaVantageLimiter,
+  coingeckoLimiter,
   withRateLimit,
 } from "@/lib/utils/rate-limiter";
 import {
   calculateCompositeScore,
+  calculateCryptoScore,
   ComprehensiveInput,
   QualityInput,
   MoatInput,
@@ -19,8 +25,24 @@ import {
   GrowthInput,
   MomentumInput,
 } from "@/lib/scoring";
+import { rsi as computeRsi } from "@/lib/utils/indicators";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import {
+  isCryptoSymbol,
+  getCoinGeckoId,
+  getCryptoNewsKeywords,
+} from "@/lib/utils/crypto-symbols";
 import { requireAdmin } from "@/lib/auth/api-guard";
+
+function analyzeHeadlineSentiment(headline: string): number {
+  const bullish = ["surge", "soar", "jump", "rally", "gain", "rise", "high", "record", "beat", "growth", "bullish", "buy", "upgrade", "strong", "positive"];
+  const bearish = ["fall", "drop", "plunge", "crash", "decline", "low", "miss", "loss", "bearish", "sell", "downgrade", "weak", "negative", "concern", "risk", "warning"];
+  const lower = headline.toLowerCase();
+  let s = 0;
+  bullish.forEach((w) => { if (lower.includes(w)) s += 1; });
+  bearish.forEach((w) => { if (lower.includes(w)) s -= 1; });
+  return Math.max(-1, Math.min(1, s / 3));
+}
 
 const CACHE_TTL = 21600; // 6 hours
 
@@ -57,6 +79,71 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
         data: cached,
         cached: true,
       });
+    }
+
+    if (isCryptoSymbol(upperSymbol)) {
+      const coinId = getCoinGeckoId(upperSymbol);
+      if (!coinId) {
+        return NextResponse.json(
+          { success: false, error: "Unsupported crypto symbol" },
+          { status: 400 }
+        );
+      }
+
+      const [quote, candles] = await Promise.all([
+        withRateLimit(coingeckoLimiter, () => getCryptoQuote(coinId, upperSymbol)),
+        withRateLimit(coingeckoLimiter, () => getCryptoCandles(coinId, "1Y")).catch(
+          () => [] as Awaited<ReturnType<typeof getCryptoCandles>>
+        ),
+      ]);
+
+      const closes = candles.map((c) => c.close);
+      const rsiValue = computeRsi(closes, 14);
+
+      let newsAvg: number | null = null;
+      let newsTotal = 0;
+      try {
+        const news = await getCryptoMarketNews(getCryptoNewsKeywords(upperSymbol), 30);
+        newsTotal = news.length;
+        if (newsTotal > 0) {
+          const sum = news.reduce(
+            (acc, n) => acc + analyzeHeadlineSentiment(n.headline),
+            0
+          );
+          newsAvg = sum / newsTotal;
+        }
+      } catch {
+        // Sentiment is best-effort
+      }
+
+      const cryptoScore = calculateCryptoScore({
+        priceChange1h: quote.priceChange1h,
+        priceChange24h: quote.changePercent,
+        priceChange7d: quote.priceChange7d,
+        priceChange30d: quote.priceChange30d,
+        priceChange1y: quote.priceChange1y,
+        rsi: rsiValue,
+        marketCap: quote.marketCap,
+        volume24h: quote.volume24h,
+        rank: quote.rank,
+        circulatingSupply: quote.circulatingSupply,
+        maxSupply: quote.maxSupply,
+        newsAvgScore: newsAvg,
+        newsTotal,
+      });
+
+      const responseData = {
+        symbol: upperSymbol,
+        assetType: "crypto" as const,
+        totalScore: cryptoScore.totalScore,
+        grade: cryptoScore.grade,
+        scores: cryptoScore.scores,
+        insights: cryptoScore.insights,
+        calculatedAt: cryptoScore.calculatedAt.toISOString(),
+      };
+
+      await cache.set(cacheKey, responseData, CACHE_TTL);
+      return NextResponse.json({ success: true, data: responseData, cached: false });
     }
 
     // Fetch data directly from providers (no self-fetch)

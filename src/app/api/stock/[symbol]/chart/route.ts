@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getStockCandles } from "@/lib/services/providers/finnhub";
 import { getDailyPrices } from "@/lib/services/providers/alpha-vantage";
+import { getCryptoCandles } from "@/lib/services/providers/coingecko";
 import { cache } from "@/lib/cache/redis";
 import {
   finnhubLimiter,
   alphaVantageLimiter,
+  coingeckoLimiter,
   withRateLimit,
 } from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { isCryptoSymbol, getCoinGeckoId } from "@/lib/utils/crypto-symbols";
 import { requireAdmin } from "@/lib/auth/api-guard";
 
 type Period = "1D" | "1W" | "1M" | "3M" | "1Y" | "5Y";
@@ -63,8 +66,19 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
 
     let candles;
 
-    // For intraday data, use Finnhub
-    if (period === "1D" || period === "1W") {
+    if (isCryptoSymbol(upperSymbol)) {
+      const coinId = getCoinGeckoId(upperSymbol);
+      if (!coinId) {
+        return NextResponse.json(
+          { success: false, error: "Unsupported crypto symbol" },
+          { status: 400 }
+        );
+      }
+      candles = await withRateLimit(coingeckoLimiter, () =>
+        getCryptoCandles(coinId, period)
+      );
+    } else if (period === "1D" || period === "1W") {
+      // For intraday data, use Finnhub
       candles = await withRateLimit(finnhubLimiter, () =>
         getStockCandles(upperSymbol, period)
       );

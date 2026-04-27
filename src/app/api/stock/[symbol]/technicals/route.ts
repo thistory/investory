@@ -1,9 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getTechnicalIndicators } from "@/lib/services/providers/alpha-vantage";
+import { getCryptoCandles } from "@/lib/services/providers/coingecko";
 import { cache } from "@/lib/cache/redis";
-import { alphaVantageLimiter, withRateLimit } from "@/lib/utils/rate-limiter";
+import {
+  alphaVantageLimiter,
+  coingeckoLimiter,
+  withRateLimit,
+} from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { isCryptoSymbol, getCoinGeckoId } from "@/lib/utils/crypto-symbols";
 import { requireAdmin } from "@/lib/auth/api-guard";
+import { sma, rsi, macd, bollingerBands } from "@/lib/utils/indicators";
 
 const CACHE_TTL = 300; // 5 minutes
 
@@ -33,9 +40,44 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     }
 
     // Fetch technical indicators
-    const indicators = await withRateLimit(alphaVantageLimiter, () =>
-      getTechnicalIndicators(upperSymbol)
-    );
+    let indicators: {
+      date?: string | Date;
+      rsi14?: number;
+      macd?: { macd: number; signal: number; histogram: number };
+      sma20?: number;
+      sma50?: number;
+      sma200?: number;
+      bollingerBands?: { upper: number; middle: number; lower: number };
+    };
+
+    if (isCryptoSymbol(upperSymbol)) {
+      const coinId = getCoinGeckoId(upperSymbol);
+      if (!coinId) {
+        return NextResponse.json(
+          { success: false, error: "Unsupported crypto symbol" },
+          { status: 400 }
+        );
+      }
+      // Use 1Y daily candles to compute SMA200 and stable RSI/MACD.
+      const candles = await withRateLimit(coingeckoLimiter, () =>
+        getCryptoCandles(coinId, "1Y")
+      );
+      const closes = candles.map((c) => c.close);
+      const last = candles[candles.length - 1];
+      indicators = {
+        date: last ? new Date(last.time * 1000).toISOString().split("T")[0] : undefined,
+        rsi14: rsi(closes, 14) ?? undefined,
+        macd: macd(closes) ?? undefined,
+        sma20: sma(closes, 20) ?? undefined,
+        sma50: sma(closes, 50) ?? undefined,
+        sma200: sma(closes, 200) ?? undefined,
+        bollingerBands: bollingerBands(closes, 20, 2) ?? undefined,
+      };
+    } else {
+      indicators = await withRateLimit(alphaVantageLimiter, () =>
+        getTechnicalIndicators(upperSymbol)
+      );
+    }
 
     // Calculate signals based on indicators
     const signals = calculateSignals(indicators);

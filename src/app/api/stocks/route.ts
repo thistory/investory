@@ -5,6 +5,7 @@ import { cache } from "@/lib/cache/redis";
 import { writeFile, mkdir } from "fs/promises";
 import { join } from "path";
 import { requireAdmin } from "@/lib/auth/api-guard";
+import { isCryptoSymbol } from "@/lib/utils/crypto-symbols";
 
 const FINANCIALS_CACHE_TTL = 86400;
 const FINANCIALS_FILE_DIR = join(process.cwd(), ".cache", "financials");
@@ -45,7 +46,11 @@ export async function POST(request: NextRequest) {
   }
 
   // 재무 데이터 미리 가져와서 캐싱 (차트가 바로 보이도록)
+  // Crypto 자산은 손익계산서가 없어 사전 캐싱 단계 자체를 건너뜀.
   const upper = symbol.toUpperCase().trim();
+  if (isCryptoSymbol(upper)) {
+    return NextResponse.json({ success: true, stock: result.stock });
+  }
   try {
     const financials = await getIncomeStatements(upper);
     if (financials.annual.length > 0 || financials.quarterly.length > 0) {

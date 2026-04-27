@@ -1,6 +1,6 @@
 "use client";
 
-import { useScore } from "@/lib/hooks/useScore";
+import { useScore, isCryptoScore } from "@/lib/hooks/useScore";
 import { Skeleton } from "@/components/ui/Skeleton";
 import { useTranslations } from "next-intl";
 
@@ -21,6 +21,70 @@ export function InvestmentScoreCard({ symbol }: InvestmentScoreCardProps) {
       <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg p-4 sm:p-6">
         <div className="text-gray-500 dark:text-zinc-400 text-sm">
           {t("errorLoading")}
+        </div>
+      </div>
+    );
+  }
+
+  if (isCryptoScore(score)) {
+    return (
+      <div className="bg-gray-50 dark:bg-zinc-900 rounded-lg p-4 sm:p-6">
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <h2 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-zinc-100 mb-1">
+              {t("title")}
+            </h2>
+            <p className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400">
+              {t("cryptoSubtitle")}
+            </p>
+          </div>
+          <div className="text-right">
+            <div className="flex items-baseline gap-2">
+              <span className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-zinc-100">
+                {score.totalScore.toFixed(0)}
+              </span>
+              <span className="text-lg sm:text-xl text-gray-500 dark:text-zinc-400">/100</span>
+            </div>
+            <div className="mt-1">
+              <GradeBadge grade={score.grade} />
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-6">
+          <div className="h-3 bg-gray-100 dark:bg-zinc-800 rounded-full overflow-hidden">
+            <div
+              className={`h-full transition-all duration-500 ${getScoreColor(score.totalScore)}`}
+              style={{ width: `${score.totalScore}%` }}
+            />
+          </div>
+        </div>
+
+        <div className="space-y-3 mb-6">
+          <ScoreBar label="Momentum" sublabel={t("momentum")} score={score.scores.momentum} maxScore={100} />
+          <ScoreBar label="Sentiment" sublabel={t("sentiment")} score={score.scores.sentiment} maxScore={100} />
+          <ScoreBar label="Liquidity" sublabel={t("liquidity")} score={score.scores.liquidity} maxScore={100} />
+          <ScoreBar label="Adoption" sublabel={t("adoption")} score={score.scores.adoption} maxScore={100} />
+        </div>
+
+        {score.insights && score.insights.length > 0 && (
+          <div className="border-t border-gray-200 dark:border-zinc-800 pt-4">
+            <h3 className="text-sm font-semibold text-gray-700 dark:text-zinc-300 mb-3">
+              {t("keyInsights")}
+            </h3>
+            <div className="space-y-2">
+              {score.insights.slice(0, 5).map((message, index) => (
+                <div key={index} className="flex items-start gap-2 text-sm">
+                  <span className="text-blue-400 font-bold flex-shrink-0">•</span>
+                  <span className="text-gray-700 dark:text-zinc-300">{message}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="mt-4 text-xs text-gray-400 dark:text-zinc-500">
+          {t("calculatedAt")}: {new Date(score.calculatedAt).toLocaleString()}
         </div>
       </div>
     );

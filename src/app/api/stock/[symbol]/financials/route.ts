@@ -5,6 +5,7 @@ import { alphaVantageLimiter, withRateLimit } from "@/lib/utils/rate-limiter";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { join } from "path";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { isCryptoSymbol } from "@/lib/utils/crypto-symbols";
 import { requireAdmin } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 86400; // 24 hours
@@ -47,6 +48,22 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     const result = validateSymbol(symbol);
     if (!result.valid) return result.response;
     const upperSymbol = result.symbol;
+
+    // Crypto assets have no income statements; return empty payload
+    // so the client can render a "not applicable" state instead of failing.
+    if (isCryptoSymbol(upperSymbol)) {
+      return NextResponse.json({
+        success: true,
+        data: {
+          annual: [],
+          quarterly: [],
+          notApplicable: true,
+          reason: "crypto",
+        },
+        cached: false,
+      });
+    }
+
     const cacheKey = `financials:${upperSymbol}`;
 
     // 1. In-memory/Redis cache

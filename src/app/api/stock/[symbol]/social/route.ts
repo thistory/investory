@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getStockNews } from "@/lib/services/providers/finnhub";
+import { getStockNews, getCryptoMarketNews } from "@/lib/services/providers/finnhub";
 import { cache } from "@/lib/cache/redis";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { isCryptoSymbol, getCryptoNewsKeywords } from "@/lib/utils/crypto-symbols";
 import { requireAdmin } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 600; // 10 minutes
@@ -51,7 +52,9 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
       return NextResponse.json({ success: true, data: cached, cached: true });
     }
 
-    const news = await getStockNews(upperSymbol, 20);
+    const news = isCryptoSymbol(upperSymbol)
+      ? await getCryptoMarketNews(getCryptoNewsKeywords(upperSymbol), 20)
+      : await getStockNews(upperSymbol, 20);
 
     const newsWithSentiment = news.map((item) => ({
       ...item,

@@ -53,6 +53,14 @@ export interface ProfileData {
     sell: number;
     strongSell: number;
   };
+  crypto?: {
+    rank: number;
+    categories: string[];
+    hashingAlgorithm: string | null;
+    genesisDate: string | null;
+    circulatingSupply: number | null;
+    maxSupply: number | null;
+  };
 }
 
 export function useProfile(symbol: string) {

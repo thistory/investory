@@ -144,6 +144,15 @@ class FinnhubClient {
     return response.data;
   }
 
+  async getMarketNews(
+    category: "general" | "forex" | "crypto" | "merger"
+  ): Promise<FinnhubNews[]> {
+    const response = await this.client.get<FinnhubNews[]>("/news", {
+      params: { category },
+    });
+    return response.data;
+  }
+
   async getBasicFinancials(symbol: string): Promise<FinnhubBasicFinancials> {
     const response = await this.client.get<FinnhubBasicFinancials>(
       "/stock/metric",
@@ -258,6 +267,33 @@ export async function getStockNews(symbol: string, limit: number = 10) {
   const news = await finnhubClient.getCompanyNews(symbol, from, to);
 
   return news.slice(0, limit).map((item) => ({
+    id: item.id.toString(),
+    headline: item.headline,
+    summary: item.summary,
+    url: item.url,
+    source: item.source,
+    datetime: new Date(item.datetime * 1000),
+    image: item.image,
+    category: item.category,
+  }));
+}
+
+/**
+ * Crypto market news, optionally filtered by base-asset keywords.
+ * `keywords` should include the base asset symbol and full name (e.g. ["BTC", "Bitcoin"]).
+ */
+export async function getCryptoMarketNews(keywords: string[], limit: number = 20) {
+  const news = await finnhubClient.getMarketNews("crypto");
+  const lowered = keywords.map((k) => k.toLowerCase()).filter(Boolean);
+
+  const filtered = lowered.length
+    ? news.filter((item) => {
+        const haystack = `${item.headline} ${item.summary}`.toLowerCase();
+        return lowered.some((kw) => haystack.includes(kw));
+      })
+    : news;
+
+  return filtered.slice(0, limit).map((item) => ({
     id: item.id.toString(),
     headline: item.headline,
     summary: item.summary,

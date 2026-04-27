@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getStockProfile } from "@/lib/services/providers/finnhub";
 import { getCompanyOverview } from "@/lib/services/providers/alpha-vantage";
+import { getCryptoProfile } from "@/lib/services/providers/coingecko";
 import { cache } from "@/lib/cache/redis";
 import {
   finnhubLimiter,
   alphaVantageLimiter,
+  coingeckoLimiter,
   withRateLimit,
 } from "@/lib/utils/rate-limiter";
 import { validateSymbol } from "@/lib/utils/validate-symbol";
+import { isCryptoSymbol, getCoinGeckoId } from "@/lib/utils/crypto-symbols";
 import { requireAdmin } from "@/lib/auth/api-guard";
 
 const CACHE_TTL = 86400; // 24 hours
@@ -44,6 +47,40 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
         data: cached,
         cached: true,
       });
+    }
+
+    if (isCryptoSymbol(upperSymbol)) {
+      const coinId = getCoinGeckoId(upperSymbol);
+      if (!coinId) {
+        return NextResponse.json(
+          { success: false, error: "Unsupported crypto symbol" },
+          { status: 400 }
+        );
+      }
+      const p = await withRateLimit(coingeckoLimiter, () =>
+        getCryptoProfile(coinId, upperSymbol)
+      );
+      const data = {
+        symbol: upperSymbol,
+        name: p.name,
+        exchange: "Crypto",
+        sector: p.categories[0] ?? "Cryptocurrency",
+        industry: p.categories.slice(0, 3).join(" · ") || "Cryptocurrency",
+        description: p.description,
+        website: p.homepage,
+        logo: p.logo,
+        marketCap: p.marketCap,
+        crypto: {
+          rank: p.rank,
+          categories: p.categories,
+          hashingAlgorithm: p.hashingAlgorithm,
+          genesisDate: p.genesisDate,
+          circulatingSupply: p.circulatingSupply,
+          maxSupply: p.maxSupply,
+        },
+      };
+      await cache.set(cacheKey, data, CACHE_TTL);
+      return NextResponse.json({ success: true, data, cached: false });
     }
 
     // Fetch from both sources

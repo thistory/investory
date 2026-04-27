@@ -2,12 +2,45 @@
 
 import { useQuote } from "@/lib/hooks/useQuote";
 import { useProfile } from "@/lib/hooks/useProfile";
-import { MetricCard, MetricGrid } from "@/components/ui/MetricCard";
 import { CardSkeleton } from "@/components/ui/Skeleton";
 import { useTranslations } from "next-intl";
+import { isCryptoSymbol } from "@/lib/utils/crypto-symbols";
 
 interface ValuationCardProps {
   symbol: string;
+}
+
+function formatLargeUSD(value?: number | null): string {
+  if (value == null || !Number.isFinite(value)) return "-";
+  if (value >= 1e12) return `$${(value / 1e12).toFixed(2)}T`;
+  if (value >= 1e9) return `$${(value / 1e9).toFixed(2)}B`;
+  if (value >= 1e6) return `$${(value / 1e6).toFixed(2)}M`;
+  return `$${value.toLocaleString()}`;
+}
+
+function formatSupply(value?: number | null): string {
+  if (value == null || !Number.isFinite(value)) return "-";
+  if (value >= 1e9) return `${(value / 1e9).toFixed(2)}B`;
+  if (value >= 1e6) return `${(value / 1e6).toFixed(2)}M`;
+  if (value >= 1e3) return `${(value / 1e3).toFixed(2)}K`;
+  return value.toLocaleString();
+}
+
+function PctValue({ value }: { value?: number | null }) {
+  if (value == null || !Number.isFinite(value)) {
+    return <span className="text-sm font-medium text-gray-500 dark:text-zinc-400">-</span>;
+  }
+  const positive = value >= 0;
+  return (
+    <span
+      className={`text-sm font-semibold tabular-nums ${
+        positive ? "text-emerald-500 dark:text-emerald-400" : "text-red-500 dark:text-red-400"
+      }`}
+    >
+      {positive ? "+" : ""}
+      {value.toFixed(2)}%
+    </span>
+  );
 }
 
 // 섹터 평균 데이터 (Consumer Cyclical - Auto Manufacturers)
@@ -37,11 +70,144 @@ function CompareIndicator({ value, sectorAvg }: { value?: number; sectorAvg: num
 
 export function ValuationCard({ symbol }: ValuationCardProps) {
   const t = useTranslations("valuation");
+  const tc = useTranslations("crypto");
   const { data: quote, isLoading: quoteLoading } = useQuote(symbol);
   const { data: profile, isLoading: profileLoading } = useProfile(symbol);
 
   if (quoteLoading || profileLoading) {
     return <CardSkeleton />;
+  }
+
+  if (isCryptoSymbol(symbol)) {
+    const c = quote?.crypto;
+    const supplyRatio =
+      c?.circulatingSupply && c?.maxSupply && c.maxSupply > 0
+        ? (c.circulatingSupply / c.maxSupply) * 100
+        : null;
+    return (
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg font-semibold text-gray-900 dark:text-zinc-100">
+            {tc("marketStats")}
+          </h2>
+          {c?.rank ? (
+            <span className="text-xs px-2 py-0.5 rounded bg-blue-500/10 text-blue-500 dark:text-blue-400 font-medium">
+              {tc("rank")} #{c.rank}
+            </span>
+          ) : null}
+        </div>
+
+        <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
+          <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-3">
+            {tc("priceChange")}
+          </h3>
+          <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 sm:gap-4">
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">1h</span>
+              <PctValue value={c?.priceChange1h ?? null} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">24h</span>
+              <PctValue value={quote?.changePercent ?? null} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">7d</span>
+              <PctValue value={c?.priceChange7d ?? null} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">30d</span>
+              <PctValue value={c?.priceChange30d ?? null} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">1y</span>
+              <PctValue value={c?.priceChange1y ?? null} />
+            </div>
+          </div>
+        </div>
+
+        <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
+          <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-3">
+            {tc("liquidity")}
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("marketCap")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatLargeUSD(quote?.marketCap)}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("volume24h")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatLargeUSD(c?.volume24h)}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("turnover")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {quote?.marketCap && c?.volume24h
+                  ? `${((c.volume24h / quote.marketCap) * 100).toFixed(2)}%`
+                  : "-"}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
+          <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-3">
+            {tc("supply")}
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4">
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("circulating")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatSupply(c?.circulatingSupply)}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("total")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatSupply(c?.totalSupply)}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("max")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatSupply(c?.maxSupply)}
+              </span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">{tc("issued")}</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {supplyRatio != null ? `${supplyRatio.toFixed(1)}%` : "-"}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-3 sm:p-4 bg-gray-50 dark:bg-zinc-900 rounded-lg">
+          <h3 className="text-sm font-medium text-gray-700 dark:text-zinc-300 mb-3">
+            {tc("athAtl")}
+          </h3>
+          <div className="grid grid-cols-2 gap-2 sm:gap-4">
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">ATH</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatLargeUSD(c?.ath)}
+              </span>
+              <PctValue value={c?.athChangePercent ?? null} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-zinc-500">ATL</span>
+              <span className="text-base font-semibold text-gray-900 dark:text-zinc-100">
+                {formatLargeUSD(c?.atl)}
+              </span>
+              <PctValue value={c?.atlChangePercent ?? null} />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   const profileValuation = profile?.valuation;

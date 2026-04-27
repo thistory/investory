@@ -2,9 +2,12 @@ import fs from "fs";
 import path from "path";
 import { cache } from "@/lib/cache/redis";
 import { getStockProfile } from "@/lib/services/providers/finnhub";
+import { getCryptoProfile } from "@/lib/services/providers/coingecko";
+import { isCryptoSymbol, getCoinGeckoId } from "@/lib/utils/crypto-symbols";
 
 const REDIS_KEY = "investory:managed-stocks";
 const STOCKS_FILE = path.join(process.cwd(), "data/stocks/managed-stocks.json");
+const SYMBOL_RE = /^[A-Z]{1,10}$/;
 
 export interface ManagedStock {
   symbol: string;
@@ -66,7 +69,7 @@ export async function getManagedStocks(): Promise<ManagedStock[]> {
 export async function addStock(symbol: string): Promise<{ success: true; stock: ManagedStock } | { success: false; error: string }> {
   const upper = symbol.toUpperCase().trim();
 
-  if (!/^[A-Z]{1,10}$/.test(upper)) {
+  if (!SYMBOL_RE.test(upper)) {
     return { success: false, error: "유효하지 않은 심볼입니다" };
   }
 
@@ -78,16 +81,36 @@ export async function addStock(symbol: string): Promise<{ success: true; stock: 
   let name: string;
   let logo: string;
   let tag: string;
-  try {
-    const profile = await getStockProfile(upper);
-    if (!profile.name) {
-      return { success: false, error: "종목 정보를 찾을 수 없습니다" };
+
+  if (isCryptoSymbol(upper)) {
+    const coinId = getCoinGeckoId(upper);
+    if (!coinId) {
+      return { success: false, error: "지원하지 않는 암호화폐 심볼입니다" };
     }
-    name = profile.name;
-    logo = profile.logo || `https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/${upper}.png`;
-    tag = profile.industry || "Stock";
-  } catch {
-    return { success: false, error: "종목 정보 조회에 실패했습니다" };
+    try {
+      const profile = await getCryptoProfile(coinId, upper);
+      if (!profile.name) {
+        return { success: false, error: "종목 정보를 찾을 수 없습니다" };
+      }
+      name = profile.name;
+      logo = profile.logo;
+      const cat = profile.categories.find((c) => c && c.length < 30);
+      tag = cat ? `Crypto · ${cat}` : "Crypto";
+    } catch {
+      return { success: false, error: "암호화폐 정보 조회에 실패했습니다" };
+    }
+  } else {
+    try {
+      const profile = await getStockProfile(upper);
+      if (!profile.name) {
+        return { success: false, error: "종목 정보를 찾을 수 없습니다" };
+      }
+      name = profile.name;
+      logo = profile.logo || `https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/${upper}.png`;
+      tag = profile.industry || "Stock";
+    } catch {
+      return { success: false, error: "종목 정보 조회에 실패했습니다" };
+    }
   }
 
   const newStock: ManagedStock = {

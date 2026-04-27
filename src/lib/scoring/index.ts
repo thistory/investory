@@ -5,3 +5,8 @@ export { calculateValueScore } from './value';
 export { calculateGrowthScore } from './growth';
 export { calculateMomentumScore } from './momentum';
 export { calculateCompositeScore, type ComprehensiveInput } from './composite';
+export {
+  calculateCryptoScore,
+  type CryptoScoreInput,
+  type CryptoScoreResult,
+} from './crypto';

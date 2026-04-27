@@ -304,6 +304,7 @@
   "score": {
     "title": "Investment Score",
     "subtitle": "Overall Investment Value Assessment",
+    "cryptoSubtitle": "Cryptocurrency Composite Assessment",
     "errorLoading": "Unable to load score data",
     "grade": "Grade",
     "quality": "Quality",
@@ -311,8 +312,26 @@
     "value": "Value",
     "growth": "Growth",
     "momentum": "Momentum",
+    "sentiment": "Sentiment",
+    "liquidity": "Liquidity",
+    "adoption": "Adoption",
     "keyInsights": "Key Insights",
     "calculatedAt": "Calculated at"
+  },
+  "crypto": {
+    "marketStats": "Market Stats",
+    "rank": "Market Cap Rank",
+    "priceChange": "Price Change",
+    "liquidity": "Liquidity",
+    "marketCap": "Market Cap",
+    "volume24h": "24h Volume",
+    "turnover": "Turnover",
+    "supply": "Supply",
+    "circulating": "Circulating",
+    "total": "Total",
+    "max": "Max",
+    "issued": "Issued",
+    "athAtl": "ATH / ATL"
   },
   "auth": {
     "title": "Login to Investory",

@@ -14,6 +14,12 @@ const RATE_LIMITS: Record<string, RateLimiterConfig> = {
     maxRequests: 10,
     windowMs: 60 * 1000,
   },
+  // CoinGecko free public API: ~10-30 req/min depending on load.
+  // Stay conservative; cache layer absorbs the rest.
+  coingecko: {
+    maxRequests: 10,
+    windowMs: 60 * 1000,
+  },
 };
 
 export class RateLimiter {
@@ -54,6 +60,7 @@ export class RateLimiter {
 
 export const finnhubLimiter = new RateLimiter("finnhub");
 export const alphaVantageLimiter = new RateLimiter("alphaVantage");
+export const coingeckoLimiter = new RateLimiter("coingecko");
 
 export async function withRateLimit<T>(
   limiter: RateLimiter,

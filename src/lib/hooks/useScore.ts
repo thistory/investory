@@ -15,8 +15,9 @@ interface CategoryDetail {
   [key: string]: unknown;
 }
 
-interface ScoreData {
+export interface StockScoreData {
   symbol: string;
+  assetType?: "stock";
   totalScore: number;
   grade: string;
   scores: {
@@ -35,6 +36,27 @@ interface ScoreData {
   };
   insights: Insight[];
   calculatedAt: string;
+}
+
+export interface CryptoScoreData {
+  symbol: string;
+  assetType: "crypto";
+  totalScore: number;
+  grade: string;
+  scores: {
+    momentum: number;
+    sentiment: number;
+    liquidity: number;
+    adoption: number;
+  };
+  insights: string[];
+  calculatedAt: string;
+}
+
+export type ScoreData = StockScoreData | CryptoScoreData;
+
+export function isCryptoScore(data: ScoreData | undefined | null): data is CryptoScoreData {
+  return !!data && data.assetType === "crypto";
 }
 
 export function useScore(symbol: string) {
