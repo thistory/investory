@@ -1,0 +1,239 @@
+{
+  "symbol": "BTCUSDT",
+  "companyName": "Bitcoin",
+  "analysisDate": "2026-04-27",
+  "currentPrice": 77854,
+  "marketCap": "$1.56T",
+  "businessSummary": {
+    "oneLiner": "공급량이 2,100만 개로 고정된 탈중앙화 디지털 자산이자 시가총액 1위 가치저장 수단",
+    "description": "비트코인은 2009년 1월 가동된 SHA-256 기반 작업증명(PoW) 블록체인으로, 발행량이 2,100만 개로 사전에 고정돼 있어 인플레이션 헤지 수단으로 자리잡았다. 2024년 4월 4번째 반감기를 거치며 신규 발행량이 일일 450 BTC로 줄었고, 2024년 1월 미국 현물 ETF 출시 이후 블랙록·피델리티 등 대형 자산운용사로의 자금 유입이 구조적으로 이어지고 있다. 2025년 12월 $126,080 사상 최고가를 기록한 뒤 매크로 긴축 우려와 차익실현 매물로 약 -38% 조정을 받은 상태에서 30일 +17.5% 반등하며 SMA50($71,809)을 회복했다. 시가총액 점유율(도미넌스)은 약 55% 수준이며, 채굴 해시레이트는 사상 최고치를 경신 중이다.",
+    "howTheyMakeMoney": [
+      "신규 발행: 블록 보상 (현재 3.125 BTC/블록)을 채굴자에게 지급",
+      "거래 수수료: 블록 공간 수요에 따라 변동, 반감기 후 비중 증가",
+      "L2 정착(Lightning, Stacks, BitVM): 결제·DeFi 활용 확대",
+      "현물 ETF 운용사: 보관 수수료 0.20-0.25%로 자금 흡수"
+    ],
+    "keyProducts": [
+      "Bitcoin Core (참조 구현)",
+      "현물 ETF (IBIT, FBTC, BITB 등)",
+      "Lightning Network",
+      "Taproot · Ordinals · Runes",
+      "Custody/ETN 상품"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "현재가",
+      "value": "$77,854",
+      "interpretation": "ATH $126,080 대비 -38.3%, 200일 이동평균선 $84,758 아래에서 거래. 사이클 중반 조정 구간으로 평가"
+    },
+    {
+      "name": "시가총액",
+      "value": "$1.56T",
+      "interpretation": "전 세계 자산 순위 약 7위권. 금($14T) 대비 11% 수준, 글로벌 가치 저장소로의 채택 여지 큼"
+    },
+    {
+      "name": "30일 변동률",
+      "value": "+17.49%",
+      "interpretation": "SMA50을 회복하며 단기 반등 가속. 다만 SMA200 위로 추세 전환은 미확인"
+    },
+    {
+      "name": "1년 변동률",
+      "value": "-17.34%",
+      "interpretation": "ATH 직후 조정의 영향. 반감기 사이클 평균(첫해 +200%)보다 부진하지만 실현 시총 기준 보유자 평균 손실은 제한적"
+    },
+    {
+      "name": "RSI(14)",
+      "value": "61.8",
+      "interpretation": "중립~상승 구간. 70 이상 과매수 진입 시 단기 차익실현 매물 우려"
+    },
+    {
+      "name": "유통량 / 최대",
+      "value": "20.02M / 21.00M (95.3%)",
+      "interpretation": "최대 발행량의 95% 이상이 이미 채굴됨. 신규 공급의 가격 영향력은 점점 축소"
+    },
+    {
+      "name": "회전율 (24h Vol / Market Cap)",
+      "value": "2.13%",
+      "interpretation": "메이저 자산 평균 수준. 변동성 대비 유동성 풍부, 대량 매매에도 슬리피지 작음"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "현물 ETF 누적 순매수 600억 달러 돌파, 기관 배분 비중 확대",
+      "description": "IBIT·FBTC·BITB 등 미국 현물 ETF가 출시 27개월차에 누적 순매수 약 $60B를 기록. 골드만삭스·모건스탠리 PB 채널이 BTC 1-3% 표준 배분을 권고하며 자산운용 모델 포트폴리오에 정착. 채굴 신규 공급(연 16만 BTC ≈ $12B) 대비 ETF 흡수량이 연평균 2-3배 수준으로 구조적 매도 우위 약화"
+    },
+    {
+      "title": "미국 전략비축자산(SBR) 입법 논의 진행",
+      "description": "2025년 11월 도입된 행정명령에 이어 2026년 상반기 텍사스·플로리다 주정부가 BTC 매입 예산 편성. 연방 차원 SBR 법안이 통과되면 최대 100만 BTC 매입 가능성. 다만 통과 일정·규모 모두 정치 일정에 종속"
+    },
+    {
+      "title": "Lightning · Taproot 활성화로 결제·DeFi 활용 본격화",
+      "description": "라이트닝 네트워크 채널 용량 8,000 BTC 돌파, 텔레그램·X 등 플랫폼 결제 통합. Taproot 자산 발행과 BitVM2 검증으로 비트코인 위 스마트 컨트랙트 생태계가 확장 — 이는 BTC를 단순 SoV가 아닌 결제·금융 인프라로 격상"
+    },
+    {
+      "title": "반감기 후 18개월 사이클상 강세 연장 가능성",
+      "description": "역사적 반감기(2012, 2016, 2020) 사이클은 반감기 후 12-18개월에 ATH 갱신 후 조정. 2024년 4월 반감기 기준이면 2025년 12월 ATH는 정상 진행이며, 2026년 중반까지 추가 상승 여력이 있다는 견해. 단 반감기 효과 점진적 약화는 변수"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "고정 공급, 가장 분산된 검증자 네트워크, 가장 긴 보안 이력으로 디지털 가치 저장소 카테고리를 사실상 독점",
+    "moats": [
+      {
+        "type": "프로토콜 통화정책 신뢰성",
+        "description": "2,100만 개 발행 상한선이 코드로 강제되며, 16년간 단 한 번도 정책 변경 없이 유지. 어떤 중앙은행도 흉내낼 수 없는 무신뢰 희소성"
+      },
+      {
+        "type": "네트워크 보안 (해시레이트)",
+        "description": "전 세계 해시레이트 700+ EH/s로 사상 최고치. 51% 공격에 필요한 자본이 $30B+로 추산되어 경제적 비용이 공격 인센티브를 압도"
+      },
+      {
+        "type": "린디 효과 (생존 이력)",
+        "description": "16년간 무중단 가동, 다수의 약세장과 거래소 파산을 거치며 생존. 시장은 BTC를 'crypto가 아닌 자산 클래스'로 분리해 인식하기 시작"
+      },
+      {
+        "type": "ETF·수탁 인프라",
+        "description": "미국·유럽 현물 ETF, Coinbase Custody·Fidelity Digital 등 기관 수탁이 표준화. 다른 코인이 따라잡으려면 수년의 규제 트랙 레코드가 필요"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "금 (Gold)",
+        "detail": "전통적 인플레이션 헤지. 시총 약 $14T로 BTC의 9배. 비트코인이 '디지털 골드'로 일부 점유율을 가져오는 구도"
+      },
+      {
+        "name": "이더리움 (ETH)",
+        "detail": "스마트컨트랙트 1위 플랫폼이지만, 통화 정책이 가변적이고 가치 저장소 내러티브에서는 BTC에 밀림. ETH/BTC 비율 0.038 — 5년래 저점 부근"
+      },
+      {
+        "name": "스테이블코인 (USDT, USDC)",
+        "detail": "달러 페그 자산은 단기 유동성 수요를 흡수. 다만 인플레이션 헤지·장기 저장 수단으로는 비트코인을 대체하지 않음"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-04-25",
+      "headline": "블랙록 IBIT, 누적 순매수 $250억 돌파 — 출시 후 최단 ETF 기록",
+      "significance": "기관 자금 유입 구조 견고함을 재확인. 일평균 매수세는 $80M 수준"
+    },
+    {
+      "date": "2026-04-22",
+      "headline": "텍사스 주의회, BTC 전략비축 1억 달러 예산안 통과",
+      "significance": "주정부 단위 첫 비축 사례 — 연방 SBR 입법 모멘텀에 기여"
+    },
+    {
+      "date": "2026-04-18",
+      "headline": "Fed 5월 FOMC 동결 컨센서스, 7월 첫 인하 가능성 부상",
+      "significance": "달러 약세·실질금리 하락 기대로 BTC에 우호적 매크로"
+    },
+    {
+      "date": "2026-04-12",
+      "headline": "라이트닝 네트워크 채널 용량 8,000 BTC 첫 돌파",
+      "significance": "결제 인프라 채택 확대 — 단순 투기 자산을 넘는 활용 사례"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 105000,
+    "highTarget": 180000,
+    "lowTarget": 65000,
+    "upsidePercent": 34.9,
+    "buyCount": 18,
+    "holdCount": 7,
+    "sellCount": 3,
+    "notableComment": "Standard Chartered·Bernstein은 2026년 말 $150K-$200K 시나리오 유지. 반면 JPMorgan은 ETF 자금 흐름 둔화 시 $60K 재테스트 가능성 경고"
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "매크로 긴축 장기화 시나리오",
+      "description": "Fed가 인플레이션 재발로 인하를 미루거나 추가 인상으로 선회하면 위험자산 전반 압박. BTC는 실질금리에 가장 민감한 자산 중 하나로 -30% 시나리오 가능"
+    },
+    {
+      "severity": "high",
+      "title": "ETF 자금 유입 둔화 또는 순유출 전환",
+      "description": "현재 강세의 핵심 동력. 일평균 순매수가 $30M 이하로 떨어지거나 순유출 전환되면 단기 매도 압력 가속. 특히 LD 만기 직전 차익실현 위험"
+    },
+    {
+      "severity": "medium",
+      "title": "규제·세제 변화",
+      "description": "미국 외 G20 국가들의 양도세·자본이득세 확대 가능성. 일부 국가는 채굴 금지 검토. 즉각적 가격 영향보다 장기 채택 곡선에 부담"
+    },
+    {
+      "severity": "medium",
+      "title": "거래소 또는 수탁기관 사고",
+      "description": "FTX(2022), Mt.Gox(2014) 같은 대형 사고가 재발하면 단기 신뢰 충격. 다만 ETF·기관 수탁이 일반화되며 시스템 리스크는 과거 대비 축소"
+    },
+    {
+      "severity": "low",
+      "title": "프로토콜 보안 사고",
+      "description": "양자 컴퓨팅 위협 또는 코드 취약점이 가장 큰 테일 리스크지만 단기 발생 가능성은 낮음. 커뮤니티는 양자 저항 서명 도입을 사전 논의 중"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "ATH 대비 -38% 조정 후 SMA50 회복",
+      "rationale": "30일 +17.5% 반등으로 단기 추세 전환 신호. 다만 SMA200 돌파 전까지는 추세 추종보다는 분할 매수 구간으로 활용"
+    },
+    {
+      "title": "공급 측면의 구조적 희소성",
+      "rationale": "유통량 95.3%, 매년 신규 공급 0.85% — S2F 비율 금 수준에 도달. 수요만 유지되면 시간이 비트코인의 편"
+    },
+    {
+      "title": "기관 채택의 비가역성",
+      "rationale": "ETF·수탁·회계처리(FASB)·은행 보관 모두 기관 인프라가 자리잡음. 한 번 채택된 자산 클래스가 사라진 사례는 드뭄"
+    },
+    {
+      "title": "거시환경 우호적 전환 가능성",
+      "rationale": "Fed 인하 사이클 진입과 달러 약세는 BTC에 양의 베타. 다만 타이밍은 매크로 데이터 의존적"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 126080,
+    "week52Low": 67810,
+    "currentPositionPercent": 17.3,
+    "sma50": 71809,
+    "sma50Signal": "above",
+    "sma200": 84758,
+    "sma200Signal": "below",
+    "rsi": 61.8,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "비트코인은 사이클 중반 조정 구간에서 단기 반등에 성공했으나 SMA200을 돌파하지 못한 전형적 '바닥 다지기' 흐름이다.",
+    "공급 구조와 기관 채택의 비가역성을 감안하면 장기 보유 관점에서 매력적 가격대지만, 단기적으로는 매크로 변수에 휘둘릴 수 있다.",
+    "가장 큰 변수는 ETF 자금 흐름과 Fed 정책. 이 두 변수가 우호적으로 유지되는 한 컨센서스 타깃 $105K로의 회복이 합리적 시나리오."
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "ATH 대비 깊은 조정 후 단기 반등 확인. 공급 측면 희소성과 기관 채택 모멘텀이 유지되는 한 분할 매수가 합리적. 다만 SMA200 회복 전까지는 포트폴리오의 1-5% 수준에서 점진적 확장 권고",
+    "horizon": "12-18개월"
+  },
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://www.coingecko.com/en/coins/bitcoin",
+      "description": "실시간 시세, 시가총액, 공급량, 가격 변동률"
+    },
+    {
+      "name": "Glassnode",
+      "url": "https://glassnode.com/",
+      "description": "온체인 지표 (실현 시총, MVRV, 보유자 분포)"
+    },
+    {
+      "name": "Bitcoin.org Whitepaper",
+      "url": "https://bitcoin.org/bitcoin.pdf",
+      "description": "프로토콜 설계 원문"
+    },
+    {
+      "name": "SEC EDGAR — IBIT 13F",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002000478",
+      "description": "블랙록 BTC ETF 보유 현황 공시"
+    },
+    {
+      "name": "Federal Reserve FOMC",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "description": "통화정책 일정 및 발표 자료"
+    }
+  ]
+}

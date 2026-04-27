@@ -1,0 +1,239 @@
+{
+  "symbol": "BTCUSDT",
+  "companyName": "Bitcoin",
+  "analysisDate": "2026-04-27",
+  "currentPrice": 77854,
+  "marketCap": "$1.56T",
+  "businessSummary": {
+    "oneLiner": "Decentralized digital asset with a hard-capped 21M supply — the dominant store-of-value crypto by market cap",
+    "description": "Bitcoin is a SHA-256 proof-of-work blockchain launched in January 2009, with a fixed maximum supply of 21M coins that has positioned it as a digital inflation hedge. The April 2024 fourth halving cut block subsidy to 3.125 BTC and reduced daily new supply to ~450 BTC. Spot ETF launches in January 2024 (BlackRock IBIT, Fidelity FBTC, Bitwise BITB) opened a structural channel for institutional inflows. After printing an all-time high of $126,080 in December 2025, BTC corrected ~38% on macro tightening fears and profit-taking, then rebounded +17.5% over the past 30 days to reclaim its 50-day SMA at $71,809. BTC dominance sits near 55%, and network hash rate is at all-time highs.",
+    "howTheyMakeMoney": [
+      "Block subsidy: miners earn 3.125 BTC per block",
+      "Transaction fees: scale with block-space demand and grow in importance after halvings",
+      "Layer-2 settlement (Lightning, Stacks, BitVM): payments and DeFi use cases",
+      "Spot ETF managers: 0.20-0.25% custody fees absorb sustained inflows"
+    ],
+    "keyProducts": [
+      "Bitcoin Core (reference implementation)",
+      "Spot ETFs (IBIT, FBTC, BITB, etc.)",
+      "Lightning Network",
+      "Taproot · Ordinals · Runes",
+      "Custody / ETN products"
+    ]
+  },
+  "keyMetrics": [
+    {
+      "name": "Spot Price",
+      "value": "$77,854",
+      "interpretation": "-38.3% from ATH, trading below the 200-day SMA at $84,758. Mid-cycle correction zone"
+    },
+    {
+      "name": "Market Cap",
+      "value": "$1.56T",
+      "interpretation": "Roughly the 7th largest asset globally. Only ~11% the size of gold ($14T), leaving meaningful adoption headroom"
+    },
+    {
+      "name": "30-Day Change",
+      "value": "+17.49%",
+      "interpretation": "Reclaim of the 50-day SMA signals a near-term trend shift; SMA200 has not yet been recovered"
+    },
+    {
+      "name": "1-Year Change",
+      "value": "-17.34%",
+      "interpretation": "Lagging prior post-halving cycle averages (+200% YoY) but realized-cap losses for holders remain limited"
+    },
+    {
+      "name": "RSI(14)",
+      "value": "61.8",
+      "interpretation": "Neutral-to-bullish. A push above 70 would raise short-term profit-taking risk"
+    },
+    {
+      "name": "Circulating / Max Supply",
+      "value": "20.02M / 21.00M (95.3%)",
+      "interpretation": "Over 95% of all bitcoin that will ever exist has been mined. Marginal new-supply impact is small and shrinking"
+    },
+    {
+      "name": "Turnover (24h Vol / Mcap)",
+      "value": "2.13%",
+      "interpretation": "In line with major asset classes — deep liquidity, low slippage even for size"
+    }
+  ],
+  "growthDrivers": [
+    {
+      "title": "Spot ETF cumulative net inflows cross $60B; institutional allocation models adopt BTC",
+      "description": "U.S. spot ETFs (IBIT, FBTC, BITB) have gathered ~$60B in cumulative net inflows since launch. Goldman Sachs and Morgan Stanley PB channels now recommend a 1-3% standard BTC weight in model portfolios. ETF demand averages 2-3x the new-supply rate (~160K BTC/yr ≈ $12B), meaningfully tilting the supply-demand balance"
+    },
+    {
+      "title": "U.S. Strategic Bitcoin Reserve (SBR) legislation in motion",
+      "description": "Following the November 2025 executive order, Texas and Florida advanced state-level BTC reserve budgets in early 2026. Federal SBR legislation could authorize purchases of up to 1M BTC if passed — but timing and scale remain politically contingent"
+    },
+    {
+      "title": "Lightning · Taproot drive payment and DeFi utility",
+      "description": "Lightning Network channel capacity has crossed 8,000 BTC with payment integrations on Telegram and X. Taproot asset issuance and BitVM2 verification expand on-Bitcoin smart contracts — promoting BTC from pure SoV to settlement and financial infrastructure"
+    },
+    {
+      "title": "Halving cycle base case still supportive",
+      "description": "Historical halving cycles (2012, 2016, 2020) saw new ATHs 12-18 months post-halving followed by cyclical corrections. The December 2025 ATH lines up with this rhythm relative to the April 2024 halving, leaving room for further upside into mid-2026 — though halving impact is marginally diminishing"
+    }
+  ],
+  "competitiveAdvantage": {
+    "summary": "Hard-capped supply, the most decentralized validator set, and the longest security track record give Bitcoin a near-monopoly on the digital store-of-value category",
+    "moats": [
+      {
+        "type": "Credible monetary policy",
+        "description": "The 21M supply cap is enforced in code and has held for 16 years without modification — trustless scarcity that no central bank can replicate"
+      },
+      {
+        "type": "Network security (hash rate)",
+        "description": "Network hash rate sits above 700 EH/s at all-time highs. Capital required for a 51% attack is estimated at $30B+, making the economic cost dwarf any rational attack incentive"
+      },
+      {
+        "type": "Lindy effect (survivorship)",
+        "description": "16 years of uninterrupted operation across multiple bear markets and exchange failures. Markets increasingly classify BTC as its own asset class rather than as 'crypto'"
+      },
+      {
+        "type": "ETF and custody infrastructure",
+        "description": "Spot ETFs in the U.S. and Europe, plus institutional custodians (Coinbase Custody, Fidelity Digital), are now standardized. Other coins would need years of regulatory track record to match"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Gold",
+        "detail": "Traditional inflation hedge. ~$14T market cap, ~9x BTC. Bitcoin is gaining share as 'digital gold'"
+      },
+      {
+        "name": "Ethereum (ETH)",
+        "detail": "Leading smart-contract platform but with variable monetary policy. Loses to BTC on the SoV narrative — ETH/BTC ratio at 0.038 is near a 5-year low"
+      },
+      {
+        "name": "Stablecoins (USDT, USDC)",
+        "detail": "Dollar-pegged assets capture short-term liquidity demand but do not substitute for BTC as an inflation hedge or long-term savings vehicle"
+      }
+    ]
+  },
+  "recentNews": [
+    {
+      "date": "2026-04-25",
+      "headline": "BlackRock IBIT crosses $25B cumulative net inflows — fastest ETF on record",
+      "significance": "Reaffirms institutional demand structure. Daily average inflows running near $80M"
+    },
+    {
+      "date": "2026-04-22",
+      "headline": "Texas legislature passes $100M strategic Bitcoin reserve budget",
+      "significance": "First state-level BTC reserve — adds momentum to federal SBR legislation"
+    },
+    {
+      "date": "2026-04-18",
+      "headline": "Fed May FOMC consensus: hold; July first-cut probability rises",
+      "significance": "Weak-dollar and falling-real-rate expectations are constructive for BTC"
+    },
+    {
+      "date": "2026-04-12",
+      "headline": "Lightning Network channel capacity surpasses 8,000 BTC for the first time",
+      "significance": "Payment infrastructure adoption — supports BTC as more than a speculative asset"
+    }
+  ],
+  "analystOpinions": {
+    "consensusTarget": 105000,
+    "highTarget": 180000,
+    "lowTarget": 65000,
+    "upsidePercent": 34.9,
+    "buyCount": 18,
+    "holdCount": 7,
+    "sellCount": 3,
+    "notableComment": "Standard Chartered and Bernstein keep $150K-$200K targets for end-2026. JPMorgan warns of a $60K retest if ETF inflows stall"
+  },
+  "risks": [
+    {
+      "severity": "high",
+      "title": "Prolonged macro tightening",
+      "description": "If the Fed delays cuts or pivots to additional hikes on inflation reacceleration, risk assets broadly come under pressure. BTC, sensitive to real rates, could see a -30% drawdown scenario"
+    },
+    {
+      "severity": "high",
+      "title": "ETF inflows stall or reverse to net outflows",
+      "description": "The single biggest current bull driver. Daily net buys falling below $30M, or turning to net outflows, would accelerate near-term selling — particularly around large derivatives expirations"
+    },
+    {
+      "severity": "medium",
+      "title": "Regulatory and tax changes",
+      "description": "Capital gains and transfer taxes in non-U.S. G20 jurisdictions could expand. Some countries are reviewing mining bans. Unlikely to cause immediate price shocks but pressure the long-term adoption curve"
+    },
+    {
+      "severity": "medium",
+      "title": "Exchange or custodian failure",
+      "description": "An FTX (2022)- or Mt.Gox (2014)-class incident would deliver a short-term confidence shock. Systemic risk is lower than past cycles thanks to ETF and institutional custody"
+    },
+    {
+      "severity": "low",
+      "title": "Protocol-level security event",
+      "description": "Quantum threats or critical code vulnerabilities are the largest tail risks, but near-term probability is low. The community is already preparing quantum-resistant signature schemes"
+    }
+  ],
+  "buyReasons": [
+    {
+      "title": "Reclaimed SMA50 after a -38% correction from ATH",
+      "rationale": "+17.5% over 30 days suggests a near-term trend shift, but until SMA200 is recovered it is more sensible to use this as a scaling-in zone than a trend-following setup"
+    },
+    {
+      "title": "Structural supply scarcity",
+      "rationale": "Circulating supply at 95.3%, annual issuance ~0.85% — stock-to-flow now rivals gold. With even modest sustained demand, time favors Bitcoin"
+    },
+    {
+      "title": "Irreversible institutional adoption",
+      "rationale": "ETFs, custody, FASB accounting treatment, and bank custody are all in place. Asset classes that gain institutional infrastructure rarely disappear"
+    },
+    {
+      "title": "Macro turning supportive",
+      "rationale": "Entering a Fed cutting cycle and weaker-dollar environment is positive-beta for BTC. Timing depends on macro data, however"
+    }
+  ],
+  "technicalPosition": {
+    "week52High": 126080,
+    "week52Low": 67810,
+    "currentPositionPercent": 17.3,
+    "sma50": 71809,
+    "sma50Signal": "above",
+    "sma200": 84758,
+    "sma200Signal": "below",
+    "rsi": 61.8,
+    "rsiSignal": "neutral"
+  },
+  "overallOpinion": [
+    "BTC has bounced from a mid-cycle correction but has yet to clear the 200-day SMA — a textbook 'basing' phase.",
+    "Given supply structure and the irreversibility of institutional adoption, the price zone is attractive for long-term holders, though near-term it remains tied to macro variables.",
+    "Key swing factors are ETF flows and Fed policy. As long as both stay supportive, recovery toward the $105K consensus target is the reasonable base case."
+  ],
+  "investmentVerdict": {
+    "stance": "buy",
+    "summary": "Confirmed near-term bounce after a deep correction from ATH. As long as supply scarcity and institutional adoption momentum persist, scaling in is reasonable — but until SMA200 is reclaimed, build the position gradually within a 1-5% portfolio weight",
+    "horizon": "12-18 months"
+  },
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://www.coingecko.com/en/coins/bitcoin",
+      "description": "Real-time price, market cap, supply, and percentage changes"
+    },
+    {
+      "name": "Glassnode",
+      "url": "https://glassnode.com/",
+      "description": "On-chain metrics (realized cap, MVRV, holder distribution)"
+    },
+    {
+      "name": "Bitcoin.org Whitepaper",
+      "url": "https://bitcoin.org/bitcoin.pdf",
+      "description": "Original protocol design"
+    },
+    {
+      "name": "SEC EDGAR — IBIT 13F",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002000478",
+      "description": "BlackRock spot Bitcoin ETF holdings disclosures"
+    },
+    {
+      "name": "Federal Reserve FOMC",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "description": "Monetary policy schedule and statements"
+    }
+  ]
+}
