@@ -5,7 +5,7 @@ const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 // 감시 종목 목록
-const WATCHLIST = ["TSLA", "BMNR"];
+const WATCHLIST = ["TSLA", "BMNR", "BTCUSDT"];
 
 /**
  * GET /api/analysis/telegram

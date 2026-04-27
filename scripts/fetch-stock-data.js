@@ -30,8 +30,22 @@ function fetch(url) {
   });
 }
 
+// Convert investory ticker (e.g. BTCUSDT) to Yahoo Finance ticker (BTC-USD).
+// Stocks pass through unchanged.
+const CRYPTO_QUOTE_SUFFIXES = ['USDT', 'USDC', 'USD', 'BUSD', 'DAI'];
+function toYahooSymbol(symbol) {
+  for (const suffix of CRYPTO_QUOTE_SUFFIXES) {
+    if (symbol.endsWith(suffix) && symbol.length > suffix.length) {
+      const base = symbol.slice(0, -suffix.length);
+      return `${base}-USD`;
+    }
+  }
+  return symbol;
+}
+
 async function fetchQuote(symbol) {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1y&includePrePost=false`;
+  const yahooSym = toYahooSymbol(symbol);
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${yahooSym}?interval=1d&range=1y&includePrePost=false`;
   const data = await fetch(url);
   const result = data.chart?.result?.[0];
   if (!result) throw new Error(`No data for ${symbol}`);
@@ -65,17 +79,20 @@ async function fetchQuote(symbol) {
   const week52Low = +Math.min(...yearCloses).toFixed(2);
   const currentPositionPercent = +((price - week52Low) / (week52High - week52Low) * 100).toFixed(1);
 
-  // Market cap formatting
-  const mcap = meta.marketCap || 0;
-  const marketCap = mcap >= 1e12 ? `$${(mcap / 1e12).toFixed(2)}T`
-    : mcap >= 1e9 ? `$${(mcap / 1e9).toFixed(1)}B`
-    : mcap >= 1e6 ? `$${(mcap / 1e6).toFixed(0)}M`
-    : `$${mcap}`;
+  // Market cap formatting — Yahoo does not expose marketCap for crypto pairs,
+  // so emit the field only when a real value is available. The previous report's
+  // marketCap is then preserved during finalize-report's merge step.
+  const mcap = meta.marketCap;
+  const marketCap = mcap && mcap > 0
+    ? mcap >= 1e12 ? `$${(mcap / 1e12).toFixed(2)}T`
+      : mcap >= 1e9 ? `$${(mcap / 1e9).toFixed(1)}B`
+      : mcap >= 1e6 ? `$${(mcap / 1e6).toFixed(0)}M`
+      : `$${mcap}`
+    : undefined;
 
-  return {
+  const out = {
     symbol,
     currentPrice: price,
-    marketCap,
     technicalPosition: {
       week52High,
       week52Low,
@@ -89,6 +106,8 @@ async function fetchQuote(symbol) {
     },
     _fetchedAt: new Date().toISOString(),
   };
+  if (marketCap) out.marketCap = marketCap;
+  return out;
 }
 
 async function run() {
