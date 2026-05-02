@@ -26,12 +26,8 @@ log "========================================="
 
 cd "$INVESTORY_DIR"
 
-# Determine tickers from existing report directories
-TICKERS=$(ls -d data/analysis/reports/*/ 2>/dev/null | xargs -I{} basename {} | tr '\n' ' ')
-if [ -z "$TICKERS" ]; then
-  log "FATAL: No tickers found in data/analysis/reports/"
-  exit 1
-fi
+# Active tickers (manually curated)
+TICKERS="TSLA BMNR BTCUSDT"
 log "Tickers: $TICKERS"
 
 # Check if already published today (check first ticker)
