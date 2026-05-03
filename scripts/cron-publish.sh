@@ -110,6 +110,19 @@ for TICKER in $TICKERS; do
 done
 log "[Step 4/5] Finalize complete."
 
+# Pre-deploy verify: every ticker must have today's report.
+# Without this, a Claude auth failure would silently re-deploy stale data.
+EXPECTED=$(echo $TICKERS | wc -w)
+ACTUAL=0
+for TICKER in $TICKERS; do
+  [ -f "data/analysis/reports/${TICKER}/${TODAY}.json" ] && ACTUAL=$((ACTUAL+1))
+done
+if [ "$ACTUAL" -lt "$EXPECTED" ]; then
+  log "FATAL: Only $ACTUAL/$EXPECTED today's reports created. Skipping deploy."
+  exit 1
+fi
+log "Pre-deploy verify OK: $ACTUAL/$EXPECTED today's reports present."
+
 # Step 5: Deploy data to investory server (rsync only, no build needed)
 log "[Step 5/5] Deploying to investory server..."
 if rsync -azP data/ investory:/opt/investory/data/ 2>&1 | tee -a "$LOG_FILE"; then
